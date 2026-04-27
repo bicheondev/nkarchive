@@ -10,6 +10,12 @@ const MAX_CONCURRENT_FONT_LOADS = 4;
 const ROUTE_FONT = "font";
 const ROUTE_KCTV = "kctv";
 const KORYO_PLAYER_BASE_WIDTH = 962;
+const KCTV_PLAYER_BASE_HEIGHT = 541.125;
+const KCTV_PLAYER_SIZES = {
+  koryo: { width: KORYO_PLAYER_BASE_WIDTH, height: KCTV_PLAYER_BASE_HEIGHT },
+  intchoson: { width: KORYO_PLAYER_BASE_WIDTH, height: KCTV_PLAYER_BASE_HEIGHT },
+  kcna: { width: 721.5, height: KCTV_PLAYER_BASE_HEIGHT },
+};
 const HLS_SCRIPT_URL = "https://cdn.jsdelivr.net/npm/hls.js@1.5.20/dist/hls.min.js";
 const TIMETABLE_API_URL = "https://apis.data.go.kr/1250000/tvprgm/getTvprgm";
 const TIMETABLE_HTML_DETAIL_URL = "https://nkinfo.unikorea.go.kr/nkp/tvPrgr/view.do";
@@ -84,10 +90,12 @@ let kctvScheduleOpen = false;
 let hlsInstance = null;
 let hlsScriptLoad = null;
 let kctvPlayerResizeObserver = null;
+let kctvPlayerRenderToken = 0;
 let activeTimetableYmd = koreaTodayYmd();
 let activeTimetableEntries = [];
 let timetableCache = new Map();
 let timetableLoadStarted = false;
+let timetableLoadToken = 0;
 
 const sampleOverrides = new Map();
 const fontLoadStates = new Map();
@@ -212,7 +220,8 @@ function bindKctvEvents() {
       if (!KCTV_CHANNELS[channel] || channel === activeKctvChannel) return;
       activeKctvChannel = channel;
       renderedKctvChannel = null;
-      renderKctvView();
+      renderKctvTabs();
+      renderKctvPlayer();
     });
   }
 
@@ -250,9 +259,12 @@ function renderKctvTabs() {
 function renderKctvPlayer() {
   if (renderedKctvChannel === activeKctvChannel) return;
 
+  const channelKey = activeKctvChannel;
+  const renderToken = ++kctvPlayerRenderToken;
   cleanupKctvPlayer();
-  const channel = KCTV_CHANNELS[activeKctvChannel];
-  kctvPlayerFrame.dataset.channel = activeKctvChannel;
+  const channel = KCTV_CHANNELS[channelKey];
+  kctvPlayerLayout.dataset.channel = channelKey;
+  kctvPlayerFrame.dataset.channel = channelKey;
 
   if (channel.type === "iframe") {
     const iframe = document.createElement("iframe");
@@ -265,12 +277,12 @@ function renderKctvPlayer() {
     iframe.allow = "autoplay; fullscreen";
     iframe.title = channel.label;
     kctvPlayerFrame.append(iframe);
-    updateKctvPlayerScale();
   } else {
-    renderHlsPlayer(channel);
+    renderHlsPlayer(channel, channelKey, renderToken);
   }
 
-  renderedKctvChannel = activeKctvChannel;
+  renderedKctvChannel = channelKey;
+  updateKctvPlayerScale();
 }
 
 function cleanupKctvPlayer() {
@@ -286,7 +298,7 @@ function cleanupKctvPlayer() {
   kctvPlayerFrame.replaceChildren();
 }
 
-function renderHlsPlayer(channel) {
+function renderHlsPlayer(channel, channelKey, renderToken) {
   const video = document.createElement("video");
   video.className = "kctv-video";
   video.controls = true;
@@ -296,6 +308,11 @@ function renderHlsPlayer(channel) {
   video.setAttribute("aria-label", `${channel.label} 라이브`);
   kctvPlayerFrame.append(video);
 
+  const isCurrentRender = () =>
+    renderToken === kctvPlayerRenderToken &&
+    activeKctvChannel === channelKey &&
+    kctvPlayerFrame.contains(video);
+
   if (video.canPlayType("application/vnd.apple.mpegurl")) {
     video.src = channel.src;
     video.play().catch(() => {});
@@ -304,22 +321,28 @@ function renderHlsPlayer(channel) {
 
   ensureHlsScript()
     .then(() => {
+      if (!isCurrentRender()) return;
+
       if (!window.Hls?.isSupported()) {
         showKctvPlayerMessage("이 브라우저에서 재생할 수 없습니다.");
         return;
       }
 
-      hlsInstance = new window.Hls({ enableWorker: true });
-      hlsInstance.loadSource(channel.src);
-      hlsInstance.attachMedia(video);
-      hlsInstance.on(window.Hls.Events.MANIFEST_PARSED, () => {
+      const nextHlsInstance = new window.Hls({ enableWorker: true });
+      hlsInstance = nextHlsInstance;
+      nextHlsInstance.loadSource(channel.src);
+      nextHlsInstance.attachMedia(video);
+      nextHlsInstance.on(window.Hls.Events.MANIFEST_PARSED, () => {
+        if (!isCurrentRender()) return;
         video.play().catch(() => {});
       });
-      hlsInstance.on(window.Hls.Events.ERROR, (_event, data) => {
-        if (data?.fatal) showKctvPlayerMessage("라이브 영상을 불러오지 못했습니다.");
+      nextHlsInstance.on(window.Hls.Events.ERROR, (_event, data) => {
+        if (data?.fatal && isCurrentRender()) showKctvPlayerMessage("라이브 영상을 불러오지 못했습니다.");
       });
     })
-    .catch(() => showKctvPlayerMessage("라이브 영상을 불러오지 못했습니다."));
+    .catch(() => {
+      if (isCurrentRender()) showKctvPlayerMessage("라이브 영상을 불러오지 못했습니다.");
+    });
 }
 
 function ensureHlsScript() {
@@ -356,14 +379,25 @@ function setKctvScheduleOpen(isOpen) {
 }
 
 function updateKctvPlayerScale() {
-  const width = kctvPlayerFrame.clientWidth || KORYO_PLAYER_BASE_WIDTH;
+  const size = KCTV_PLAYER_SIZES[activeKctvChannel] || KCTV_PLAYER_SIZES.koryo;
+  const layoutHeight = kctvPlayerLayout.clientHeight || size.height;
+  const viewportWidth = document.documentElement.clientWidth || window.innerWidth;
+  const widthFromHeight = layoutHeight * (size.width / size.height);
+  const fitWidth = Math.min(size.width, Math.max(0, viewportWidth - 48), widthFromHeight);
+
+  if (fitWidth > 0) {
+    kctvPlayerFrame.style.setProperty("--kctv-player-fit-width", `${fitWidth.toFixed(3)}px`);
+    kctvPlayerLayout.style.setProperty("--kctv-active-frame-half-width", `${(fitWidth / 2).toFixed(3)}px`);
+  }
+
+  const width = kctvPlayerFrame.clientWidth || fitWidth || KORYO_PLAYER_BASE_WIDTH;
   const scale = Math.max(0.1, width / KORYO_PLAYER_BASE_WIDTH);
   kctvPlayerFrame.style.setProperty("--kctv-player-scale", scale.toFixed(6));
 }
 
 function moveTimetableDate(delta) {
   const nextYmd = addDaysToYmd(activeTimetableYmd, delta);
-  if (nextYmd > koreaTodayYmd()) return;
+  if (nextYmd > koreaTodayYmd() || nextYmd === activeTimetableYmd) return;
   loadTimetableForDate(nextYmd);
 }
 
@@ -373,12 +407,16 @@ async function loadLatestTimetable() {
 }
 
 async function loadTimetableForDate(ymd) {
+  const loadToken = ++timetableLoadToken;
   activeTimetableYmd = ymd;
   renderTimetableState("편성표를 불러오는 중입니다.");
 
   try {
-    activeTimetableEntries = await fetchTimetableEntries(ymd);
+    const entries = await fetchTimetableEntries(ymd);
+    if (loadToken !== timetableLoadToken || activeTimetableYmd !== ymd) return;
+    activeTimetableEntries = entries;
   } catch (error) {
+    if (loadToken !== timetableLoadToken || activeTimetableYmd !== ymd) return;
     console.warn("Failed to load timetable", error);
     activeTimetableEntries = [];
     renderTimetableState("편성표를 불러오지 못했습니다.");
