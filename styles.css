@@ -221,6 +221,10 @@ select {
   width: min(700px, calc(100vw - 48px));
 }
 
+.kctv-shell[data-player-kind="koryo-radio"] .kctv-source-row {
+  width: min(500px, calc(100vw - 48px));
+}
+
 .kctv-source-control {
   margin-right: 0;
 }
@@ -235,6 +239,7 @@ select {
   left: 50%;
   display: flex;
   flex: 0 0 auto;
+  align-items: flex-start;
   justify-content: center;
   gap: 16px;
   width: auto;
@@ -249,9 +254,11 @@ select {
   --kctv-player-scale: 1;
   --kctv-frame-width: 962px;
   --kctv-frame-ratio: 962 / 541.125;
+  flex: 0 0 auto;
   width: var(--kctv-player-fit-width, min(var(--kctv-frame-width), calc(100vw - 48px)));
   aspect-ratio: var(--kctv-frame-ratio);
   overflow: hidden;
+  overflow: clip;
   border-radius: 26px;
   background: var(--slate-50);
   transform: translateZ(0);
@@ -267,6 +274,12 @@ select {
   --kctv-frame-ratio: 7 / 4;
 }
 
+.kctv-player-frame.koryo-radio {
+  --kctv-frame-width: 500px;
+  --kctv-frame-ratio: 500 / 74;
+  border-radius: 12px;
+}
+
 .kctv-player-layout.schedule-open .kctv-player-frame {
   width: var(--kctv-player-fit-width, min(var(--kctv-frame-width), calc(100vw - 48px)));
 }
@@ -275,6 +288,10 @@ select {
   position: absolute;
   inset: 0;
   overflow: hidden;
+}
+
+.kctv-koryo-radio-layer {
+  background: var(--slate-50);
 }
 
 .kctv-koryo-frame {
@@ -291,6 +308,12 @@ select {
   touch-action: manipulation;
   transform: scale(var(--kctv-player-scale));
   transform-origin: top left;
+}
+
+.kctv-koryo-radio-frame {
+  top: calc(-248px * var(--kctv-player-scale));
+  left: calc(-574.5px * var(--kctv-player-scale));
+  height: 322px;
 }
 
 .kctv-video {
@@ -315,23 +338,27 @@ select {
 
 .kctv-radio-player {
   position: absolute;
-  inset: 0;
-  display: grid;
-  grid-template-columns: 264px 300px;
-  gap: 50px;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+  overflow: clip;
   border-radius: 26px;
   background: var(--slate-50);
-  padding: 36px 50px 36px 36px;
+  transform: scale(var(--kctv-player-scale));
+  transform-origin: top left;
 }
 
 .kctv-radio-copy {
+  position: absolute;
+  top: 36px;
+  left: 36px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  min-width: 0;
+  width: 259px;
 }
 
 .kctv-radio-time,
@@ -369,11 +396,15 @@ select {
 .kctv-radio-volume {
   display: flex;
   align-items: center;
-  gap: 4px;
-  width: 240px;
+  gap: 23px;
+  width: 259px;
   height: 36px;
-  margin-top: 54px;
+  margin-top: 60px;
   color: var(--slate-400);
+}
+
+.kctv-radio-volume.is-muted {
+  gap: 8px;
 }
 
 .kctv-radio-volume .material-symbols-rounded {
@@ -391,6 +422,11 @@ select {
   appearance: none;
   background: transparent;
   cursor: pointer;
+}
+
+.kctv-radio-volume.is-muted .kctv-radio-volume-range,
+.kctv-radio-volume.is-high .kctv-radio-volume-range {
+  width: 215px;
 }
 
 .kctv-radio-volume-range:focus-visible {
@@ -455,23 +491,13 @@ select {
   border-radius: 16px;
   cursor: pointer;
   transition:
-    transform 240ms cubic-bezier(0.16, 1, 0.3, 1),
     box-shadow 240ms cubic-bezier(0.16, 1, 0.3, 1),
     background-color 180ms ease;
-}
-
-.kctv-radio-action:hover,
-.kctv-radio-action:focus-visible {
-  transform: translateY(-2px);
 }
 
 .kctv-radio-action:focus-visible {
   outline: 0;
   box-shadow: 0 0 0 4px rgba(43, 127, 255, 0.16);
-}
-
-.kctv-radio-action:active {
-  transform: translateY(0) scale(0.97);
 }
 
 .kctv-radio-action .material-symbols-rounded {
@@ -487,7 +513,7 @@ select {
 
 .kctv-radio-action-play:hover,
 .kctv-radio-action-play:focus-visible {
-  background: var(--blue-600);
+  background: var(--blue-500);
 }
 
 .kctv-radio-action-stop {
@@ -502,16 +528,18 @@ select {
 }
 
 .kctv-radio-record {
-  position: relative;
+  position: absolute;
+  top: 50px;
+  left: 350px;
   width: 300px;
   height: 300px;
   overflow: hidden;
   border-radius: 50%;
   background:
     radial-gradient(circle at center, var(--slate-0) 0 22px, transparent 23px),
-    radial-gradient(circle at center, rgba(255, 255, 255, 0.28) 0 61px, transparent 62px),
     var(--slate-100);
   transform: translateZ(0);
+  transform-origin: center;
 }
 
 .kctv-radio-record::before,
@@ -655,10 +683,14 @@ select {
   display: flex;
   flex-direction: column;
   flex: 0 0 300px;
+  align-self: flex-start;
   gap: 18px;
   width: 300px;
-  height: min(542.125px, 100%);
+  height: 542.125px;
+  max-height: 542.125px;
+  min-height: 0;
   overflow: hidden;
+  overflow: clip;
   border-radius: 26px;
   background: rgba(248, 250, 252, 0.92);
   padding: 8px 0;
@@ -691,6 +723,7 @@ select {
 
 .kctv-schedule-header {
   display: flex;
+  flex: 0 0 auto;
   align-items: center;
   justify-content: space-between;
   width: 300px;
@@ -720,6 +753,7 @@ select {
 
 .kctv-schedule-date {
   display: flex;
+  flex: 0 0 auto;
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
@@ -759,12 +793,13 @@ select {
 
 .kctv-program-list {
   display: flex;
-  flex: 1 1 auto;
+  flex: 1 1 0;
   flex-direction: column;
   width: 100%;
   min-height: 0;
-  height: auto;
+  height: 100%;
   overflow-y: auto;
+  overscroll-behavior: contain;
   scrollbar-width: none;
 }
 
@@ -1175,62 +1210,8 @@ select {
     width: min(700px, calc(100vw - 40px));
   }
 
-  .kctv-radio-player {
-    grid-template-columns: minmax(0, 1fr) minmax(120px, 34%);
-    gap: 20px;
-    padding: 24px;
-  }
-
-  .kctv-radio-time {
-    font-size: 48px;
-  }
-
-  .kctv-radio-status-label {
-    font-size: 24px;
-  }
-
-  .kctv-radio-status .material-symbols-rounded,
-  .kctv-radio-volume .material-symbols-rounded {
-    width: 30px;
-    height: 30px;
-    font-size: 30px;
-  }
-
-  .kctv-radio-volume {
-    width: min(210px, 100%);
-    margin-top: 24px;
-  }
-
-  .kctv-radio-volume-range {
-    flex: 1 1 auto;
-    min-width: 96px;
-  }
-
-  .kctv-radio-actions {
-    gap: 12px;
-    margin-top: 12px;
-  }
-
-  .kctv-radio-action {
-    width: 64px;
-    height: 76px;
-  }
-
-  .kctv-radio-action .material-symbols-rounded {
-    width: 40px;
-    height: 40px;
-    font-size: 40px;
-  }
-
-  .kctv-radio-record {
-    width: min(180px, 100%);
-    height: auto;
-    aspect-ratio: 1;
-    justify-self: end;
-  }
-
-  .kctv-radio-record::before {
-    height: 74%;
+  .kctv-shell[data-player-kind="koryo-radio"] .kctv-source-row {
+    width: min(500px, calc(100vw - 40px));
   }
 }
 
@@ -1258,6 +1239,7 @@ select {
     width: min(962px, calc(100vw - 48px));
     height: min(420px, 42vh);
     height: min(420px, 42svh);
+    max-height: min(420px, 42svh);
     min-height: 220px;
     flex: 0 0 auto;
     transform: none;
