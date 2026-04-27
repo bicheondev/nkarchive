@@ -11,11 +11,7 @@ const ROUTE_FONT = "font";
 const ROUTE_KCTV = "kctv";
 const KORYO_PLAYER_BASE_WIDTH = 962;
 const KCTV_PLAYER_BASE_HEIGHT = 541.125;
-const KCTV_PLAYER_SIZES = {
-  koryo: { width: KORYO_PLAYER_BASE_WIDTH, height: KCTV_PLAYER_BASE_HEIGHT },
-  intchoson: { width: KORYO_PLAYER_BASE_WIDTH, height: KCTV_PLAYER_BASE_HEIGHT },
-  kcna: { width: 721.5, height: KCTV_PLAYER_BASE_HEIGHT },
-};
+const KCNA_PLAYER_WIDTH = 721.5;
 const HLS_SCRIPT_URL = "https://cdn.jsdelivr.net/npm/hls.js@1.5.20/dist/hls.min.js";
 const TIMETABLE_API_URL = "https://apis.data.go.kr/1250000/tvprgm/getTvprgm";
 const TIMETABLE_HTML_DETAIL_URL = "https://nkinfo.unikorea.go.kr/nkp/tvPrgr/view.do";
@@ -30,21 +26,66 @@ const FONT_FOOTER_COPY = [
 const KCTV_FOOTER_COPY = [
   "본 사이트는 북한 정부 또는 조선노동당, 조성중앙텔레비전과는 전혀 관계가 없으며, 이들을 지지하지도 옹호하지도 않고 오로지 학문적인 목적으로 개설되었음을 알려드립니다. 간첩 신고는 국번 없이 111",
 ];
-const KCTV_CHANNELS = {
-  koryo: {
-    label: "고려TV",
-    type: "iframe",
-    src: "https://koryo.tv/channel/kctv",
+const KCTV_BROADCASTS = {
+  kctv: {
+    label: "조선중앙TV",
+    type: "tv",
+    defaultSource: "koryo",
+    sources: {
+      koryo: {
+        label: "고려TV",
+        type: "iframe",
+        src: "https://koryo.tv/channel/kctv",
+      },
+      intchoson: {
+        label: "인트조선",
+        type: "hls",
+        media: "video",
+        src: "https://tv.intchoson.com/kctv/main_stream.m3u8",
+      },
+      kcna: {
+        label: "KCNA Watch",
+        type: "hls",
+        media: "video",
+        src: "https://streamer.nknews.org/tvhls/stream.m3u8",
+      },
+    },
   },
-  intchoson: {
-    label: "인트조선",
-    type: "hls",
-    src: "https://tv.intchoson.com/kctv/main_stream.m3u8",
+  kcbs: {
+    label: "조선중앙방송",
+    type: "radio",
+    defaultSource: "koryo",
+    sources: {
+      koryo: {
+        label: "고려TV",
+        type: "iframe",
+        src: "https://koryo.tv/channel/kcbs",
+      },
+      intchoson: {
+        label: "인트조선",
+        type: "hls",
+        media: "audio",
+        src: "https://radio.intchoson.com/kcbs/index.m3u8",
+      },
+    },
   },
-  kcna: {
-    label: "KCNA Watch",
-    type: "hls",
-    src: "https://streamer.nknews.org/tvhls/stream.m3u8",
+  vok: {
+    label: "조선의 소리",
+    type: "radio",
+    defaultSource: "koryo",
+    sources: {
+      koryo: {
+        label: "고려TV",
+        type: "iframe",
+        src: "https://koryo.tv/channel/vok",
+      },
+      intchoson: {
+        label: "인트조선",
+        type: "hls",
+        media: "audio",
+        src: "https://radio.intchoson.com/vok/index.m3u8",
+      },
+    },
   },
 };
 const logoLink = document.querySelector(".logo");
@@ -63,6 +104,10 @@ const seriesButton = document.querySelector("#seriesButton");
 const seriesButtonText = document.querySelector("#seriesButtonText");
 const seriesMenu = document.querySelector("#seriesMenu");
 const kctvTabs = [...document.querySelectorAll(".kctv-tab")];
+const kctvSourceControl = document.querySelector("#kctvSourceControl");
+const kctvSourceButton = document.querySelector("#kctvSourceButton");
+const kctvSourceButtonText = document.querySelector("#kctvSourceButtonText");
+const kctvSourceMenu = document.querySelector("#kctvSourceMenu");
 const kctvPlayerLayout = document.querySelector("#kctvPlayerLayout");
 const kctvPlayerFrame = document.querySelector("#kctvPlayerFrame");
 const kctvSchedulePanel = document.querySelector("#kctvSchedulePanel");
@@ -84,9 +129,10 @@ let renderFrame = 0;
 let activeFontLoads = 0;
 let lastRenderDebugAt = 0;
 let fontArchiveReady = false;
-let activeKctvChannel = "koryo";
+let activeKctvBroadcast = "kctv";
+let activeKctvSource = "koryo";
 let renderedKctvChannel = null;
-let kctvScheduleOpen = false;
+let kctvScheduleOpen = true;
 let hlsScriptLoad = null;
 let kctvPlayerResizeObserver = null;
 let kctvPlayerRenderToken = 0;
@@ -216,19 +262,26 @@ function renderFooterCopy(lines) {
 function bindKctvEvents() {
   for (const tab of kctvTabs) {
     tab.addEventListener("click", () => {
-      const channel = tab.dataset.channel;
-      if (!KCTV_CHANNELS[channel] || channel === activeKctvChannel) return;
-      activeKctvChannel = channel;
+      const broadcast = tab.dataset.broadcast;
+      if (!KCTV_BROADCASTS[broadcast] || broadcast === activeKctvBroadcast) return;
+      activeKctvBroadcast = broadcast;
+      ensureActiveKctvSource();
       renderedKctvChannel = null;
+      closeKctvSourceMenu();
       renderKctvTabs();
+      renderKctvSourceMenu();
       renderKctvPlayer();
+      renderTimetable();
     });
   }
 
+  kctvSourceButton.addEventListener("click", toggleKctvSourceMenu);
   kctvScheduleToggle.addEventListener("click", () => setKctvScheduleOpen(true));
   kctvScheduleClose.addEventListener("click", () => setKctvScheduleOpen(false));
   kctvDatePrev.addEventListener("click", () => moveTimetableDate(-1));
   kctvDateNext.addEventListener("click", () => moveTimetableDate(1));
+  document.addEventListener("click", closeKctvSourceMenuOnOutsideClick);
+  document.addEventListener("keydown", closeKctvSourceMenuOnEscape);
 
   if (typeof ResizeObserver !== "undefined") {
     kctvPlayerResizeObserver = new ResizeObserver(updateKctvPlayerScale);
@@ -239,6 +292,7 @@ function bindKctvEvents() {
 
 function renderKctvView() {
   renderKctvTabs();
+  renderKctvSourceMenu();
   renderKctvPlayer();
   setKctvScheduleOpen(kctvScheduleOpen);
   renderTimetable();
@@ -250,31 +304,111 @@ function renderKctvView() {
 
 function renderKctvTabs() {
   for (const tab of kctvTabs) {
-    const selected = tab.dataset.channel === activeKctvChannel;
+    const selected = tab.dataset.broadcast === activeKctvBroadcast;
     tab.classList.toggle("active", selected);
     tab.setAttribute("aria-selected", String(selected));
   }
 }
 
+function renderKctvSourceMenu() {
+  ensureActiveKctvSource();
+  const broadcast = activeKctvBroadcastConfig();
+  const sourceEntries = Object.entries(broadcast.sources);
+
+  kctvSourceButtonText.textContent = broadcast.sources[activeKctvSource].label;
+  kctvSourceMenu.replaceChildren(
+    ...sourceEntries.map(([sourceKey, source]) => {
+      const button = document.createElement("button");
+      const label = document.createElement("span");
+
+      button.className = "category-option";
+      button.type = "button";
+      button.setAttribute("role", "option");
+      button.dataset.source = sourceKey;
+      button.setAttribute("aria-selected", String(sourceKey === activeKctvSource));
+      label.textContent = source.label;
+      button.append(label);
+      button.addEventListener("click", () => selectKctvSourceOption(sourceKey));
+      return button;
+    }),
+  );
+}
+
+function toggleKctvSourceMenu() {
+  const isOpen = kctvSourceControl.classList.toggle("open");
+  kctvSourceButton.setAttribute("aria-expanded", String(isOpen));
+}
+
+function closeKctvSourceMenu() {
+  kctvSourceControl.classList.remove("open");
+  kctvSourceButton.setAttribute("aria-expanded", "false");
+}
+
+function closeKctvSourceMenuOnOutsideClick(event) {
+  if (kctvSourceControl.contains(event.target)) return;
+  closeKctvSourceMenu();
+}
+
+function closeKctvSourceMenuOnEscape(event) {
+  if (event.key === "Escape") closeKctvSourceMenu();
+}
+
+function selectKctvSourceOption(sourceKey) {
+  const broadcast = activeKctvBroadcastConfig();
+  if (!broadcast.sources[sourceKey]) return;
+
+  closeKctvSourceMenu();
+  if (sourceKey === activeKctvSource) return;
+
+  activeKctvSource = sourceKey;
+  renderedKctvChannel = null;
+  renderKctvSourceMenu();
+  renderKctvPlayer();
+}
+
+function activeKctvBroadcastConfig() {
+  return KCTV_BROADCASTS[activeKctvBroadcast] || KCTV_BROADCASTS.kctv;
+}
+
+function activeKctvSourceConfig() {
+  const broadcast = activeKctvBroadcastConfig();
+  return broadcast.sources[activeKctvSource] || broadcast.sources[broadcast.defaultSource];
+}
+
+function activeKctvPlayerKey() {
+  return `${activeKctvBroadcast}:${activeKctvSource}`;
+}
+
+function ensureActiveKctvSource() {
+  const broadcast = activeKctvBroadcastConfig();
+  if (broadcast.sources[activeKctvSource]) return;
+  activeKctvSource = broadcast.defaultSource;
+}
+
 function renderKctvPlayer() {
-  if (renderedKctvChannel === activeKctvChannel) return;
+  ensureActiveKctvSource();
+  const playerKey = activeKctvPlayerKey();
+  if (renderedKctvChannel === playerKey) return;
 
-  const channelKey = activeKctvChannel;
-  const channel = KCTV_CHANNELS[channelKey];
-  kctvPlayerLayout.dataset.channel = channelKey;
-  kctvPlayerFrame.dataset.channel = channelKey;
+  const sourceKey = activeKctvSource;
+  const channel = activeKctvSourceConfig();
+  kctvPlayerLayout.dataset.broadcast = activeKctvBroadcast;
+  kctvPlayerLayout.dataset.source = sourceKey;
+  kctvPlayerFrame.dataset.broadcast = activeKctvBroadcast;
+  kctvPlayerFrame.dataset.channel = sourceKey;
+  kctvPlayerFrame.dataset.source = sourceKey;
 
-  if (!kctvPlayerCache.has(channelKey)) {
+  if (!kctvPlayerCache.has(playerKey)) {
     const player =
       channel.type === "iframe"
-        ? createKoryoPlayer(channel, channelKey)
-        : createHlsPlayer(channel, channelKey, ++kctvPlayerRenderToken);
-    kctvPlayerCache.set(channelKey, player);
+        ? createKoryoPlayer(channel, playerKey)
+        : createHlsPlayer(channel, playerKey, ++kctvPlayerRenderToken);
+    kctvPlayerCache.set(playerKey, player);
     kctvPlayerFrame.append(player.node);
   }
 
-  showKctvPlayer(channelKey);
-  renderedKctvChannel = channelKey;
+  showKctvPlayer(playerKey);
+  renderedKctvChannel = playerKey;
   updateKctvPlayerScale();
 }
 
@@ -316,25 +450,26 @@ function showKctvPlayer(channelKey) {
 
 function createHlsPlayer(channel, channelKey, renderToken) {
   const layer = createKctvStreamLayer(channelKey);
-  const video = document.createElement("video");
-  video.className = "kctv-video";
-  video.controls = true;
-  video.autoplay = true;
-  video.muted = true;
-  video.playsInline = true;
-  video.setAttribute("aria-label", `${channel.label} 라이브`);
-  layer.append(video);
+  const media = document.createElement(channel.media === "audio" ? "audio" : "video");
+  media.className = channel.media === "audio" ? "kctv-audio" : "kctv-video";
+  media.controls = true;
+  media.autoplay = true;
+  media.muted = channel.media !== "audio";
+  if (channel.media !== "audio") media.playsInline = true;
+  media.setAttribute("aria-label", `${channel.label} 라이브`);
+  layer.classList.toggle("kctv-audio-layer", channel.media === "audio");
+  layer.append(media);
 
-  const player = { node: layer, video, hlsInstance: null, renderToken };
+  const player = { node: layer, video: media, hlsInstance: null, renderToken };
 
   const isValidPlayer = () =>
     kctvPlayerCache.get(channelKey) === player &&
     player.renderToken === renderToken &&
     kctvPlayerFrame.contains(layer);
 
-  if (video.canPlayType("application/vnd.apple.mpegurl")) {
-    video.src = channel.src;
-    video.play().catch(() => {});
+  if (media.canPlayType("application/vnd.apple.mpegurl")) {
+    media.src = channel.src;
+    media.play().catch(() => {});
     return player;
   }
 
@@ -350,10 +485,10 @@ function createHlsPlayer(channel, channelKey, renderToken) {
       const nextHlsInstance = new window.Hls({ enableWorker: true });
       player.hlsInstance = nextHlsInstance;
       nextHlsInstance.loadSource(channel.src);
-      nextHlsInstance.attachMedia(video);
+      nextHlsInstance.attachMedia(media);
       nextHlsInstance.on(window.Hls.Events.MANIFEST_PARSED, () => {
         if (!isValidPlayer()) return;
-        video.play().catch(() => {});
+        media.play().catch(() => {});
       });
       nextHlsInstance.on(window.Hls.Events.ERROR, (_event, data) => {
         if (data?.fatal && isValidPlayer()) showKctvPlayerMessage("라이브 영상을 불러오지 못했습니다.", player);
@@ -401,7 +536,11 @@ function setKctvScheduleOpen(isOpen) {
 }
 
 function updateKctvPlayerScale() {
-  const size = KCTV_PLAYER_SIZES[activeKctvChannel] || KCTV_PLAYER_SIZES.koryo;
+  const source = activeKctvSourceConfig();
+  const size = {
+    width: activeKctvSource === "kcna" ? KCNA_PLAYER_WIDTH : KORYO_PLAYER_BASE_WIDTH,
+    height: KCTV_PLAYER_BASE_HEIGHT,
+  };
   const layoutHeight = kctvPlayerLayout.clientHeight || size.height;
   const viewportWidth = document.documentElement.clientWidth || window.innerWidth;
   const widthFromHeight = layoutHeight * (size.width / size.height);
@@ -414,9 +553,11 @@ function updateKctvPlayerScale() {
   const width = kctvPlayerFrame.clientWidth || fitWidth || KORYO_PLAYER_BASE_WIDTH;
   const scale = Math.max(0.1, width / KORYO_PLAYER_BASE_WIDTH);
   kctvPlayerFrame.style.setProperty("--kctv-player-scale", scale.toFixed(6));
+  kctvPlayerFrame.classList.toggle("radio", source.media === "audio");
 }
 
 function moveTimetableDate(delta) {
+  if (activeKctvBroadcastConfig().type === "radio") return;
   const nextYmd = addDaysToYmd(activeTimetableYmd, delta);
   if (nextYmd > koreaTodayYmd() || nextYmd === activeTimetableYmd) return;
   loadTimetableForDate(nextYmd);
@@ -580,12 +721,24 @@ function extractTimetableItems(data) {
 }
 
 function renderTimetableState(message) {
+  if (activeKctvBroadcastConfig().type === "radio") {
+    renderTimetable();
+    return;
+  }
+
   kctvScheduleDate.textContent = formatTimetableDate(activeTimetableYmd);
   kctvProgramList.replaceChildren(createTimetableState(message));
   updateTimetableButtons();
 }
 
 function renderTimetable() {
+  if (activeKctvBroadcastConfig().type === "radio") {
+    kctvScheduleDate.textContent = activeKctvBroadcastConfig().label;
+    kctvProgramList.replaceChildren(createTimetableState("라디오 편성표는 제공되지 않습니다."));
+    updateTimetableButtons();
+    return;
+  }
+
   kctvScheduleDate.textContent = formatTimetableDate(activeTimetableYmd);
   const entries = activeTimetableEntries;
   const activeIndex = currentProgramIndex(entries, activeTimetableYmd);
@@ -624,8 +777,9 @@ function createTimetableState(message) {
 }
 
 function updateTimetableButtons() {
-  kctvDatePrev.disabled = false;
-  kctvDateNext.disabled = activeTimetableYmd >= koreaTodayYmd();
+  const isRadio = activeKctvBroadcastConfig().type === "radio";
+  kctvDatePrev.disabled = isRadio;
+  kctvDateNext.disabled = isRadio || activeTimetableYmd >= koreaTodayYmd();
 }
 
 function currentProgramIndex(entries, ymd) {

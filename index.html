@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>북한폰트아카이브</title>
     <base href="/" />
-    <link rel="stylesheet" href="/styles.css?v=kctv-20260427-22" />
+    <link rel="stylesheet" href="/styles.css?v=kctv-20260427-25" />
     <script>
       window.__INITIAL_ROUTE__ = new URLSearchParams(window.location.search).get("route");
       if (window.__INITIAL_ROUTE__ === "kctv" || window.location.pathname.replace(/\/+$/, "") === "/kctv") {
@@ -52,10 +52,20 @@
     </main>
 
     <main class="kctv-shell" id="kctvView" hidden>
-      <div class="kctv-tabs" role="tablist" aria-label="KCTV 채널 선택">
-        <button class="kctv-tab active" type="button" role="tab" aria-selected="true" data-channel="koryo">고려TV</button>
-        <button class="kctv-tab" type="button" role="tab" aria-selected="false" data-channel="intchoson">인트조선</button>
-        <button class="kctv-tab" type="button" role="tab" aria-selected="false" data-channel="kcna">KCNA Watch</button>
+      <div class="kctv-tabs" role="tablist" aria-label="방송 선택">
+        <button class="kctv-tab active" type="button" role="tab" aria-selected="true" data-broadcast="kctv">조선중앙TV</button>
+        <button class="kctv-tab" type="button" role="tab" aria-selected="false" data-broadcast="kcbs">조선중앙방송</button>
+        <button class="kctv-tab" type="button" role="tab" aria-selected="false" data-broadcast="vok">조선의 소리</button>
+      </div>
+
+      <div class="kctv-source-row">
+        <div class="category-control kctv-source-control" id="kctvSourceControl">
+          <button class="category-button kctv-source-button" id="kctvSourceButton" type="button" aria-haspopup="listbox" aria-expanded="false">
+            <span id="kctvSourceButtonText">고려TV</span>
+            <span class="material-symbols-rounded category-arrow" aria-hidden="true">keyboard_arrow_down</span>
+          </button>
+          <div class="category-menu kctv-source-menu" id="kctvSourceMenu" role="listbox" aria-label="방송 소스 선택"></div>
+        </div>
       </div>
 
       <section class="kctv-player-layout" id="kctvPlayerLayout" aria-label="KCTV 라이브">
@@ -113,6 +123,6 @@
       </article>
     </template>
 
-    <script src="/app.js?v=kctv-20260427-22" defer></script>
+    <script src="/app.js?v=kctv-20260427-25" defer></script>
   </body>
 </html>

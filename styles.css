@@ -149,6 +149,7 @@ select {
 }
 
 .kctv-shell {
+  position: relative;
   display: flex;
   flex: 1 1 auto;
   flex-direction: column;
@@ -168,6 +169,10 @@ select {
 }
 
 .kctv-tabs {
+  position: absolute;
+  top: 38px;
+  left: 50%;
+  z-index: 3;
   display: flex;
   flex: 0 0 auto;
   align-items: center;
@@ -176,6 +181,7 @@ select {
   padding: 4px;
   border-radius: 1000px;
   background: var(--slate-100);
+  transform: translateX(-50%);
 }
 
 .kctv-tab {
@@ -201,16 +207,38 @@ select {
   background: var(--slate-0);
 }
 
-.kctv-player-layout {
-  position: relative;
+.kctv-source-row {
+  position: absolute;
+  top: 141px;
+  left: 50%;
+  z-index: 4;
   display: flex;
-  flex: 1 1 auto;
+  width: min(1288px, calc(100vw - 48px));
+  transform: translateX(-50%);
+}
+
+.kctv-source-control {
+  margin-right: 0;
+}
+
+.kctv-source-menu {
+  z-index: 40;
+}
+
+.kctv-player-layout {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex: 0 0 auto;
   align-items: center;
   justify-content: center;
   gap: 26px;
-  width: 100%;
+  width: auto;
+  max-width: calc(100vw - 48px);
   min-height: 0;
   margin-top: 0;
+  transform: translate(-50%, -50%);
 }
 
 .kctv-player-frame {
@@ -263,6 +291,18 @@ select {
   height: 100%;
   background: var(--slate-50);
   object-fit: contain;
+}
+
+.kctv-audio-layer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+.kctv-audio {
+  width: min(520px, 100%);
+  min-width: 240px;
 }
 
 .kctv-player-message {
