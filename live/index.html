@@ -15,7 +15,7 @@
     <meta name="twitter:image" content="/og.png" />
     <meta name="twitter:image:src" content="/og.png" />
     <base href="/" />
-    <link rel="stylesheet" href="/styles.css?v=live-20260427-52" />
+    <link rel="stylesheet" href="/styles.css?v=live-20260427-55" />
     <script>
       window.__INITIAL_ROUTE__ = "live";
       document.documentElement.dataset.route = "live";
@@ -36,10 +36,10 @@
           <a href="/live" data-route="live">방송</a>
         </nav>
         <a class="arca-channel-link" href="https://arca.live/b/dprk/" target="_blank" rel="noopener noreferrer">
-          <img class="arca-channel-icon" src="/assets/arca-channel.svg?v=live-20260427-52" alt="" aria-hidden="true" />
+          <img class="arca-channel-icon" src="/assets/arca-channel.svg?v=live-20260427-55" alt="" aria-hidden="true" />
           <span class="arca-channel-content">
             <span class="arca-channel-text">아카라이브 북한 채널 바로가기</span>
-            <img class="arca-channel-arrow" src="/assets/arrow-forward-ios.svg?v=live-20260427-52" alt="" aria-hidden="true" />
+            <img class="arca-channel-arrow" src="/assets/arrow-forward-ios.svg?v=live-20260427-55" alt="" aria-hidden="true" />
           </span>
         </a>
       </div>
@@ -124,6 +124,26 @@
       </p>
     </footer>
 
+    <div class="live-disclaimer-overlay" id="liveDisclaimer" role="alertdialog" aria-modal="true" aria-labelledby="liveDisclaimerTitle" aria-describedby="liveDisclaimerDescription" hidden>
+      <section class="live-disclaimer-panel">
+        <div class="live-disclaimer-content">
+          <div class="live-disclaimer-copy">
+            <h2 id="liveDisclaimerTitle">경고 사항</h2>
+            <div class="live-disclaimer-description" id="liveDisclaimerDescription">
+              <p>본 사이트에는 학문적 연구의 목적으로 스트리밍의 원본을 그대로 가져온 것으로, 해당 사이트의 입장과는 전혀 관련이 없으며, 편향적이고, 왜곡·과장·거짓된 내용이 담겨 있으므로, 시청할 때에 유의하시기 바랍니다.</p>
+              <p class="live-disclaimer-hanja">본 이적표현물(利敵表現物)을 국가의 존립ㆍ안전이나 자유민주적 기본질서를 위태롭게 한다는 정을 알면서 반국가단체나 그 구성원 또는 그 지령을 받은 자의 활동을 찬양ㆍ고무ㆍ선전 또는 이에 동조하거나 국가변란을 선전ㆍ선동하는 데 이용하는 경우 국가보안법에 따라 처벌(7년 이하 징역)을 받을 수 있습니다.</p>
+            </div>
+          </div>
+          <label class="live-disclaimer-choice">
+            <input id="liveDisclaimerDontShow" type="checkbox" checked />
+            <span class="live-disclaimer-checkbox" aria-hidden="true"></span>
+            <span>다시 보지 않기</span>
+          </label>
+          <button class="live-disclaimer-button" id="liveDisclaimerClose" type="button">이해했습니다</button>
+        </div>
+      </section>
+    </div>
+
     <template id="cardTemplate">
       <article class="font-card">
         <div class="font-card-content">
@@ -143,6 +163,6 @@
       </article>
     </template>
 
-    <script src="/app.js?v=live-20260427-52" defer></script>
+    <script src="/app.js?v=live-20260427-55" defer></script>
   </body>
 </html>

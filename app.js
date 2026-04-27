@@ -10,6 +10,7 @@ const MAX_CONCURRENT_FONT_LOADS = 4;
 const ROUTE_FONT = "font";
 const ROUTE_LIVE = "live";
 const LIVE_PATH = "/live";
+const LIVE_DISCLAIMER_STORAGE_KEY = "live-disclaimer-dismissed";
 const R2_ASSET_BASE_URL = "https://pub-a12b2bbd25db44479f7ca23251a65bef.r2.dev";
 const KORYO_PLAYER_BASE_WIDTH = 962;
 const VIDEO_PLAYER_BASE_HEIGHT = 541.125;
@@ -124,6 +125,9 @@ const liveScheduleDate = document.querySelector("#liveScheduleDate");
 const liveProgramList = document.querySelector("#liveProgramList");
 const liveDatePrev = document.querySelector("#liveDatePrev");
 const liveDateNext = document.querySelector("#liveDateNext");
+const liveDisclaimer = document.querySelector("#liveDisclaimer");
+const liveDisclaimerClose = document.querySelector("#liveDisclaimerClose");
+const liveDisclaimerDontShow = document.querySelector("#liveDisclaimerDontShow");
 
 let fonts = [];
 let filteredFonts = [];
@@ -149,6 +153,8 @@ let activeTimetableEntries = [];
 let timetableCache = new Map();
 let timetableLoadStarted = false;
 let timetableLoadToken = 0;
+let liveDisclaimerDismissedForVisit = false;
+let liveDisclaimerPreviousFocus = null;
 
 const sampleOverrides = new Map();
 const fontLoadStates = new Map();
@@ -257,8 +263,14 @@ function renderRoute() {
 
   if (isLive) {
     renderLiveView();
+    showLiveDisclaimerIfNeeded();
   } else if (fontArchiveReady) {
+    hideLiveDisclaimer(false);
+    liveDisclaimerDismissedForVisit = false;
     renderVirtualGrid(true);
+  } else {
+    hideLiveDisclaimer(false);
+    liveDisclaimerDismissedForVisit = false;
   }
 }
 
@@ -340,12 +352,76 @@ function bindLiveEvents() {
   liveDateNext.addEventListener("click", () => moveTimetableDate(1));
   document.addEventListener("click", closeSourceMenuOnOutsideClick);
   document.addEventListener("keydown", closeSourceMenuOnEscape);
+  liveDisclaimerClose?.addEventListener("click", dismissLiveDisclaimer);
+  liveDisclaimer?.addEventListener("keydown", handleLiveDisclaimerKeydown);
 
   if (typeof ResizeObserver !== "undefined") {
     livePlayerResizeObserver = new ResizeObserver(updateLivePlayerScale);
     livePlayerResizeObserver.observe(livePlayerFrame);
   }
   window.addEventListener("resize", debounce(updateLivePlayerScale, 80));
+}
+
+function showLiveDisclaimerIfNeeded() {
+  if (!liveDisclaimer || liveDisclaimerDismissedForVisit || isLiveDisclaimerDismissedPermanently()) return;
+  if (!liveDisclaimer.hidden) return;
+
+  liveDisclaimerPreviousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+  liveDisclaimer.hidden = false;
+  window.requestAnimationFrame(() => liveDisclaimerClose?.focus());
+}
+
+function dismissLiveDisclaimer() {
+  liveDisclaimerDismissedForVisit = true;
+  if (liveDisclaimerDontShow?.checked) persistLiveDisclaimerDismissal();
+  hideLiveDisclaimer(true);
+}
+
+function hideLiveDisclaimer(restoreFocus) {
+  if (!liveDisclaimer || liveDisclaimer.hidden) return;
+  const shouldRestoreFocus = restoreFocus && liveDisclaimer.contains(document.activeElement);
+  liveDisclaimer.hidden = true;
+  if (shouldRestoreFocus) liveDisclaimerPreviousFocus?.focus?.();
+  liveDisclaimerPreviousFocus = null;
+}
+
+function handleLiveDisclaimerKeydown(event) {
+  if (liveDisclaimer?.hidden) return;
+  if (event.key === "Escape") {
+    event.preventDefault();
+    dismissLiveDisclaimer();
+    return;
+  }
+  if (event.key !== "Tab") return;
+
+  const focusable = [...liveDisclaimer.querySelectorAll("button, input, a, [tabindex]:not([tabindex='-1'])")].filter(
+    (node) => !node.disabled && node.offsetParent !== null,
+  );
+  if (!focusable.length) return;
+
+  const first = focusable[0];
+  const last = focusable[focusable.length - 1];
+  if (event.shiftKey && document.activeElement === first) {
+    event.preventDefault();
+    last.focus();
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault();
+    first.focus();
+  }
+}
+
+function isLiveDisclaimerDismissedPermanently() {
+  try {
+    return window.localStorage.getItem(LIVE_DISCLAIMER_STORAGE_KEY) === "true";
+  } catch {
+    return false;
+  }
+}
+
+function persistLiveDisclaimerDismissal() {
+  try {
+    window.localStorage.setItem(LIVE_DISCLAIMER_STORAGE_KEY, "true");
+  } catch {}
 }
 
 function renderLiveView() {
