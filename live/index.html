@@ -15,10 +15,10 @@
     <meta name="twitter:image" content="/og.png" />
     <meta name="twitter:image:src" content="/og.png" />
     <base href="/" />
-    <link rel="stylesheet" href="/styles.css?v=kctv-20260427-45" />
+    <link rel="stylesheet" href="/styles.css?v=live-20260427-49" />
     <script>
-      window.__INITIAL_ROUTE__ = "kctv";
-      document.documentElement.dataset.route = "kctv";
+      window.__INITIAL_ROUTE__ = "live";
+      document.documentElement.dataset.route = "live";
     </script>
   </head>
   <body>
@@ -33,13 +33,13 @@
           <a href="#">번역</a>
           <a href="#">문헌</a>
           <a href="#">스토어</a>
-          <a href="/live" data-route="kctv">방송</a>
+          <a href="/live" data-route="live">방송</a>
         </nav>
         <a class="arca-channel-link" href="https://arca.live/b/dprk/" target="_blank" rel="noopener noreferrer">
-          <img class="arca-channel-icon" src="/assets/arca-channel.svg?v=kctv-20260427-45" alt="" aria-hidden="true" />
+          <img class="arca-channel-icon" src="/assets/arca-channel.svg?v=live-20260427-49" alt="" aria-hidden="true" />
           <span class="arca-channel-content">
-            <span class="arca-channel-text">아카라이브 <span class="arca-channel-medium">북한 채널</span> 바로가기</span>
-            <img class="arca-channel-arrow" src="/assets/arrow-forward-ios.svg?v=kctv-20260427-45" alt="" aria-hidden="true" />
+            <span class="arca-channel-text">아카라이브 북한 채널 바로가기</span>
+            <img class="arca-channel-arrow" src="/assets/arrow-forward-ios.svg?v=live-20260427-49" alt="" aria-hidden="true" />
           </span>
         </a>
       </div>
@@ -66,57 +66,61 @@
       <div class="load-sentinel" id="loadSentinel" aria-hidden="true"></div>
     </main>
 
-    <main class="kctv-shell" id="kctvView" hidden>
-      <div class="kctv-tabs" role="tablist" aria-label="방송 선택">
-        <button class="kctv-tab active" type="button" role="tab" aria-selected="true" data-broadcast="kctv">조선중앙TV</button>
-        <button class="kctv-tab" type="button" role="tab" aria-selected="false" data-broadcast="kcbs">조선중앙방송</button>
-        <button class="kctv-tab" type="button" role="tab" aria-selected="false" data-broadcast="vok">조선의 소리</button>
+    <main class="live-shell" id="liveView" hidden>
+      <div class="live-tabs" role="tablist" aria-label="방송 선택">
+        <button class="live-tab active" type="button" role="tab" aria-selected="true" data-broadcast="kctv">조선중앙TV</button>
+        <button class="live-tab" type="button" role="tab" aria-selected="false" data-broadcast="kcbs">조선중앙방송</button>
+        <button class="live-tab" type="button" role="tab" aria-selected="false" data-broadcast="vok">조선의 소리</button>
       </div>
 
-      <div class="kctv-source-row">
-        <div class="category-control kctv-source-control" id="kctvSourceControl">
-          <button class="category-button kctv-source-button" id="kctvSourceButton" type="button" aria-haspopup="listbox" aria-expanded="false">
-            <span id="kctvSourceButtonText">고려TV</span>
+      <div class="live-source-row">
+        <div class="category-control live-source-control" id="liveSourceControl">
+          <button class="category-button live-source-button" id="liveSourceButton" type="button" aria-haspopup="listbox" aria-expanded="false">
+            <span id="liveSourceButtonText">고려TV</span>
             <span class="material-symbols-rounded category-arrow" aria-hidden="true">keyboard_arrow_down</span>
           </button>
-          <div class="category-menu kctv-source-menu" id="kctvSourceMenu" role="listbox" aria-label="방송 소스 선택"></div>
+          <div class="category-menu live-source-menu" id="liveSourceMenu" role="listbox" aria-label="방송 소스 선택"></div>
         </div>
       </div>
 
-      <section class="kctv-player-layout" id="kctvPlayerLayout" aria-label="KCTV 라이브">
-        <div class="kctv-player-frame" id="kctvPlayerFrame"></div>
+      <section class="live-player-layout" id="livePlayerLayout" aria-label="방송 라이브">
+        <div class="live-player-frame" id="livePlayerFrame"></div>
 
-        <aside class="kctv-schedule-panel" id="kctvSchedulePanel" aria-label="편성표" hidden>
-          <div class="kctv-schedule-header">
+        <aside class="live-schedule-panel" id="liveSchedulePanel" aria-label="편성표" hidden>
+          <div class="live-schedule-header">
             <p>편성표</p>
-            <button class="kctv-icon-button kctv-close-button" id="kctvScheduleClose" type="button" aria-label="편성표 닫기">
+            <button class="live-icon-button live-close-button" id="liveScheduleClose" type="button" aria-label="편성표 닫기">
               <span class="material-symbols-rounded" aria-hidden="true">close</span>
             </button>
           </div>
-          <div class="kctv-schedule-date">
-            <button class="kctv-date-button" id="kctvDatePrev" type="button" aria-label="이전 날짜">
+          <div class="live-schedule-date">
+            <button class="live-date-button" id="liveDatePrev" type="button" aria-label="이전 날짜">
               <span class="material-symbols-rounded" aria-hidden="true">arrow_back_ios_new</span>
             </button>
-            <p id="kctvScheduleDate">편성표</p>
-            <button class="kctv-date-button" id="kctvDateNext" type="button" aria-label="다음 날짜">
+            <p id="liveScheduleDate">편성표</p>
+            <button class="live-date-button" id="liveDateNext" type="button" aria-label="다음 날짜">
               <span class="material-symbols-rounded" aria-hidden="true">arrow_forward_ios</span>
             </button>
           </div>
-          <div class="kctv-program-list" id="kctvProgramList" aria-live="polite"></div>
+          <div class="live-program-list" id="liveProgramList" aria-live="polite"></div>
         </aside>
       </section>
 
-      <button class="kctv-schedule-toggle" id="kctvScheduleToggle" type="button" aria-controls="kctvSchedulePanel" aria-expanded="false">
+      <button class="live-schedule-toggle" id="liveScheduleToggle" type="button" aria-controls="liveSchedulePanel" aria-expanded="false">
         <span>편성표 보기</span>
-        <span class="kctv-toggle-icon">
+        <span class="live-toggle-icon">
           <span class="material-symbols-rounded" aria-hidden="true">arrow_forward_ios</span>
         </span>
       </button>
     </main>
 
-    <footer class="site-footer" id="siteFooter" data-view="kctv">
+    <footer class="site-footer" id="siteFooter" data-view="live">
       <p>본 사이트는 북한 정부 또는 조선노동당, 조성중앙텔레비전과는 전혀 관계가 없으며, 이들을 지지하지도 옹호하지도 않고 오로지 학문적인 목적으로 개설되었음을 알려드립니다. 간첩 신고는 국번 없이 111</p>
-      <p>Livestream sources from https://koryo.tv/, https://www.intchoson.com/, and https://kcnawatch.org/korea-central-tv-livestream/</p>
+      <p>
+        Livestream sources from <a href="https://koryo.tv/" target="_blank" rel="noopener noreferrer">https://koryo.tv/</a>,
+        <a href="https://www.intchoson.com/" target="_blank" rel="noopener noreferrer">https://www.intchoson.com/</a>, and
+        <a href="https://kcnawatch.org/korea-central-tv-livestream/" target="_blank" rel="noopener noreferrer">https://kcnawatch.org/korea-central-tv-livestream/</a>
+      </p>
     </footer>
 
     <template id="cardTemplate">
@@ -138,6 +142,6 @@
       </article>
     </template>
 
-    <script src="/app.js?v=kctv-20260427-45" defer></script>
+    <script src="/app.js?v=live-20260427-49" defer></script>
   </body>
 </html>
