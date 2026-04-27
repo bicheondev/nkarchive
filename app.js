@@ -12,6 +12,8 @@ const ROUTE_KCTV = "kctv";
 const KORYO_PLAYER_BASE_WIDTH = 962;
 const KCTV_PLAYER_BASE_HEIGHT = 541.125;
 const KCNA_PLAYER_WIDTH = 721.5;
+const RADIO_PLAYER_BASE_WIDTH = 700;
+const RADIO_PLAYER_BASE_HEIGHT = 400;
 const HLS_SCRIPT_URL = "https://cdn.jsdelivr.net/npm/hls.js@1.5.20/dist/hls.min.js";
 const TIMETABLE_API_URL = "https://apis.data.go.kr/1250000/tvprgm/getTvprgm";
 const TIMETABLE_HTML_DETAIL_URL = "https://nkinfo.unikorea.go.kr/nkp/tvPrgr/view.do";
@@ -54,7 +56,7 @@ const KCTV_BROADCASTS = {
   kcbs: {
     label: "조선중앙방송",
     type: "radio",
-    defaultSource: "koryo",
+    defaultSource: "intchoson",
     sources: {
       koryo: {
         label: "고려TV",
@@ -72,7 +74,7 @@ const KCTV_BROADCASTS = {
   vok: {
     label: "조선의 소리",
     type: "radio",
-    defaultSource: "koryo",
+    defaultSource: "intchoson",
     sources: {
       koryo: {
         label: "고려TV",
@@ -146,6 +148,9 @@ const sampleOverrides = new Map();
 const fontLoadStates = new Map();
 const fontLoadQueue = [];
 const kctvPlayerCache = new Map();
+const kctvSourceByBroadcast = new Map(
+  Object.entries(KCTV_BROADCASTS).map(([broadcastKey, broadcast]) => [broadcastKey, broadcast.defaultSource]),
+);
 const fontDebugCounters = {
   fontFacesCreated: 0,
   previewRequested: 0,
@@ -264,13 +269,16 @@ function bindKctvEvents() {
     tab.addEventListener("click", () => {
       const broadcast = tab.dataset.broadcast;
       if (!KCTV_BROADCASTS[broadcast] || broadcast === activeKctvBroadcast) return;
+      kctvSourceByBroadcast.set(activeKctvBroadcast, activeKctvSource);
       activeKctvBroadcast = broadcast;
+      activeKctvSource = kctvSourceByBroadcast.get(broadcast) || KCTV_BROADCASTS[broadcast].defaultSource;
       ensureActiveKctvSource();
       renderedKctvChannel = null;
       closeKctvSourceMenu();
       renderKctvTabs();
       renderKctvSourceMenu();
       renderKctvPlayer();
+      setKctvScheduleOpen(kctvScheduleOpen);
       renderTimetable();
     });
   }
@@ -361,6 +369,7 @@ function selectKctvSourceOption(sourceKey) {
   if (sourceKey === activeKctvSource) return;
 
   activeKctvSource = sourceKey;
+  kctvSourceByBroadcast.set(activeKctvBroadcast, sourceKey);
   renderedKctvChannel = null;
   renderKctvSourceMenu();
   renderKctvPlayer();
@@ -383,6 +392,7 @@ function ensureActiveKctvSource() {
   const broadcast = activeKctvBroadcastConfig();
   if (broadcast.sources[activeKctvSource]) return;
   activeKctvSource = broadcast.defaultSource;
+  kctvSourceByBroadcast.set(activeKctvBroadcast, activeKctvSource);
 }
 
 function renderKctvPlayer() {
@@ -392,11 +402,15 @@ function renderKctvPlayer() {
 
   const sourceKey = activeKctvSource;
   const channel = activeKctvSourceConfig();
+  const playerKind = channel.media === "audio" ? "radio" : "video";
+  kctvView.dataset.playerKind = playerKind;
   kctvPlayerLayout.dataset.broadcast = activeKctvBroadcast;
   kctvPlayerLayout.dataset.source = sourceKey;
+  kctvPlayerLayout.dataset.playerKind = playerKind;
   kctvPlayerFrame.dataset.broadcast = activeKctvBroadcast;
   kctvPlayerFrame.dataset.channel = sourceKey;
   kctvPlayerFrame.dataset.source = sourceKey;
+  kctvPlayerFrame.dataset.playerKind = playerKind;
 
   if (!kctvPlayerCache.has(playerKey)) {
     const player =
@@ -442,7 +456,7 @@ function showKctvPlayer(channelKey) {
     player.node.hidden = !selected;
     player.node.setAttribute("aria-hidden", String(!selected));
 
-    if (selected) {
+    if (selected && player.autoplay) {
       player.video?.play().catch(() => {});
     }
   }
@@ -452,15 +466,19 @@ function createHlsPlayer(channel, channelKey, renderToken) {
   const layer = createKctvStreamLayer(channelKey);
   const media = document.createElement(channel.media === "audio" ? "audio" : "video");
   media.className = channel.media === "audio" ? "kctv-audio" : "kctv-video";
-  media.controls = true;
-  media.autoplay = true;
+  media.controls = channel.media !== "audio";
+  media.autoplay = channel.media !== "audio";
   media.muted = channel.media !== "audio";
   if (channel.media !== "audio") media.playsInline = true;
   media.setAttribute("aria-label", `${channel.label} 라이브`);
   layer.classList.toggle("kctv-audio-layer", channel.media === "audio");
   layer.append(media);
+  if (channel.media === "audio") {
+    layer.append(createRadioPlayer(channel, media));
+  }
 
-  const player = { node: layer, video: media, hlsInstance: null, renderToken };
+  const player = { node: layer, video: media, hlsInstance: null, renderToken, autoplay: channel.media !== "audio" };
+  const mediaErrorMessage = channel.media === "audio" ? "라이브 오디오를 불러오지 못했습니다." : "라이브 영상을 불러오지 못했습니다.";
 
   const isValidPlayer = () =>
     kctvPlayerCache.get(channelKey) === player &&
@@ -469,7 +487,7 @@ function createHlsPlayer(channel, channelKey, renderToken) {
 
   if (media.canPlayType("application/vnd.apple.mpegurl")) {
     media.src = channel.src;
-    media.play().catch(() => {});
+    if (player.autoplay) media.play().catch(() => {});
     return player;
   }
 
@@ -488,17 +506,126 @@ function createHlsPlayer(channel, channelKey, renderToken) {
       nextHlsInstance.attachMedia(media);
       nextHlsInstance.on(window.Hls.Events.MANIFEST_PARSED, () => {
         if (!isValidPlayer()) return;
-        media.play().catch(() => {});
+        if (player.autoplay) media.play().catch(() => {});
       });
       nextHlsInstance.on(window.Hls.Events.ERROR, (_event, data) => {
-        if (data?.fatal && isValidPlayer()) showKctvPlayerMessage("라이브 영상을 불러오지 못했습니다.", player);
+        if (data?.fatal && isValidPlayer()) showKctvPlayerMessage(mediaErrorMessage, player);
       });
     })
     .catch(() => {
-      if (isValidPlayer()) showKctvPlayerMessage("라이브 영상을 불러오지 못했습니다.", player);
+      if (isValidPlayer()) showKctvPlayerMessage(mediaErrorMessage, player);
     });
 
   return player;
+}
+
+function createRadioPlayer(channel, media) {
+  const player = document.createElement("div");
+  const copy = document.createElement("div");
+  const time = document.createElement("p");
+  const status = document.createElement("div");
+  const statusIcon = document.createElement("span");
+  const statusLabel = document.createElement("span");
+  const volume = document.createElement("label");
+  const volumeIcon = document.createElement("span");
+  const volumeRange = document.createElement("input");
+  const actions = document.createElement("div");
+  const playButton = document.createElement("button");
+  const playIcon = document.createElement("span");
+  const stopButton = document.createElement("button");
+  const stopIcon = document.createElement("span");
+  const record = document.createElement("div");
+
+  player.className = "kctv-radio-player";
+  copy.className = "kctv-radio-copy";
+  time.className = "kctv-radio-time";
+  status.className = "kctv-radio-status";
+  statusIcon.className = "material-symbols-rounded";
+  statusIcon.setAttribute("aria-hidden", "true");
+  statusLabel.className = "kctv-radio-status-label";
+  volume.className = "kctv-radio-volume";
+  volumeIcon.className = "material-symbols-rounded";
+  volumeIcon.setAttribute("aria-hidden", "true");
+  volumeIcon.textContent = "volume_down";
+  volumeRange.className = "kctv-radio-volume-range";
+  volumeRange.type = "range";
+  volumeRange.min = "0";
+  volumeRange.max = "1";
+  volumeRange.step = "0.01";
+  volumeRange.value = "0.75";
+  volumeRange.setAttribute("aria-label", "음량");
+  actions.className = "kctv-radio-actions";
+  playButton.className = "kctv-radio-action kctv-radio-action-play";
+  playButton.type = "button";
+  playButton.setAttribute("aria-label", `${channel.label} 재생`);
+  playIcon.className = "material-symbols-rounded";
+  playIcon.setAttribute("aria-hidden", "true");
+  playIcon.textContent = "play_arrow";
+  stopButton.className = "kctv-radio-action kctv-radio-action-stop";
+  stopButton.type = "button";
+  stopButton.setAttribute("aria-label", `${channel.label} 정지`);
+  stopIcon.className = "material-symbols-rounded";
+  stopIcon.setAttribute("aria-hidden", "true");
+  stopIcon.textContent = "stop";
+  record.className = "kctv-radio-record";
+  record.setAttribute("aria-hidden", "true");
+
+  media.volume = Number(volumeRange.value);
+  time.textContent = formatRadioElapsed(media.currentTime);
+  status.append(statusIcon, statusLabel);
+  volume.append(volumeIcon, volumeRange);
+  playButton.append(playIcon);
+  stopButton.append(stopIcon);
+  actions.append(playButton, stopButton);
+  copy.append(time, status, volume, actions);
+  player.append(copy, record);
+
+  const updateVolume = () => {
+    const volumeValue = media.muted ? 0 : media.volume;
+    volumeRange.value = String(volumeValue);
+    volumeRange.style.setProperty("--kctv-radio-volume", `${volumeValue * 100}%`);
+    volumeIcon.textContent = volumeValue <= 0 ? "volume_off" : "volume_down";
+  };
+  const updateTime = () => {
+    time.textContent = formatRadioElapsed(media.currentTime);
+  };
+  const updatePlayback = () => {
+    const isPlaying = !media.paused && !media.ended;
+    statusIcon.textContent = isPlaying ? "play_arrow" : "stop";
+    statusLabel.textContent = isPlaying ? "PLAY" : "STOP";
+    player.classList.toggle("is-playing", isPlaying);
+    playButton.classList.toggle("active", isPlaying);
+    stopButton.classList.toggle("active", !isPlaying);
+  };
+
+  playButton.addEventListener("click", () => {
+    media.muted = false;
+    media.play().catch(() => {});
+  });
+  stopButton.addEventListener("click", () => media.pause());
+  volumeRange.addEventListener("input", () => {
+    media.muted = false;
+    media.volume = Number(volumeRange.value);
+    updateVolume();
+  });
+  media.addEventListener("play", updatePlayback);
+  media.addEventListener("pause", updatePlayback);
+  media.addEventListener("ended", updatePlayback);
+  media.addEventListener("timeupdate", updateTime);
+  media.addEventListener("loadedmetadata", updateTime);
+  media.addEventListener("volumechange", updateVolume);
+  updateVolume();
+  updatePlayback();
+
+  return player;
+}
+
+function formatRadioElapsed(seconds) {
+  if (!Number.isFinite(seconds) || seconds < 0) return "00:00";
+  const totalSeconds = Math.floor(seconds);
+  const minutes = Math.floor(totalSeconds / 60);
+  const remainingSeconds = totalSeconds % 60;
+  return `${String(minutes).padStart(2, "0")}:${String(remainingSeconds).padStart(2, "0")}`;
 }
 
 function ensureHlsScript() {
@@ -527,33 +654,44 @@ function showKctvPlayerMessage(message, player = null) {
 }
 
 function setKctvScheduleOpen(isOpen) {
-  kctvScheduleOpen = isOpen;
-  kctvSchedulePanel.hidden = !isOpen;
-  kctvPlayerLayout.classList.toggle("schedule-open", isOpen);
-  kctvScheduleToggle.setAttribute("aria-expanded", String(isOpen));
+  const supportsSchedule = activeKctvSupportsSchedule();
+  if (supportsSchedule) kctvScheduleOpen = isOpen;
+  const shouldOpen = supportsSchedule && kctvScheduleOpen;
+  kctvSchedulePanel.hidden = !shouldOpen;
+  kctvScheduleToggle.hidden = !supportsSchedule || shouldOpen;
+  kctvPlayerLayout.classList.toggle("schedule-open", shouldOpen);
+  kctvScheduleToggle.setAttribute("aria-expanded", String(shouldOpen));
   updateKctvPlayerScale();
-  if (isOpen) scrollActiveProgramIntoView();
+  if (shouldOpen) scrollActiveProgramIntoView();
+}
+
+function activeKctvSupportsSchedule() {
+  return activeKctvBroadcastConfig().type === "tv";
 }
 
 function updateKctvPlayerScale() {
   const source = activeKctvSourceConfig();
+  const isRadioPlayer = source.media === "audio";
   const size = {
-    width: activeKctvSource === "kcna" ? KCNA_PLAYER_WIDTH : KORYO_PLAYER_BASE_WIDTH,
-    height: KCTV_PLAYER_BASE_HEIGHT,
+    width: isRadioPlayer ? RADIO_PLAYER_BASE_WIDTH : activeKctvSource === "kcna" ? KCNA_PLAYER_WIDTH : KORYO_PLAYER_BASE_WIDTH,
+    height: isRadioPlayer ? RADIO_PLAYER_BASE_HEIGHT : KCTV_PLAYER_BASE_HEIGHT,
   };
   const layoutHeight = kctvPlayerLayout.clientHeight || size.height;
   const viewportWidth = document.documentElement.clientWidth || window.innerWidth;
   const widthFromHeight = layoutHeight * (size.width / size.height);
   const fitWidth = Math.min(size.width, Math.max(0, viewportWidth - 48), widthFromHeight);
+  const fitHeight = fitWidth > 0 ? fitWidth * (size.height / size.width) : size.height;
 
   if (fitWidth > 0) {
     kctvPlayerFrame.style.setProperty("--kctv-player-fit-width", `${fitWidth.toFixed(3)}px`);
   }
+  kctvView.style.setProperty("--kctv-player-half-height", `${(fitHeight / 2).toFixed(3)}px`);
 
-  const width = kctvPlayerFrame.clientWidth || fitWidth || KORYO_PLAYER_BASE_WIDTH;
-  const scale = Math.max(0.1, width / KORYO_PLAYER_BASE_WIDTH);
+  const width = kctvPlayerFrame.clientWidth || fitWidth || size.width;
+  const scaleBase = isRadioPlayer ? RADIO_PLAYER_BASE_WIDTH : KORYO_PLAYER_BASE_WIDTH;
+  const scale = Math.max(0.1, width / scaleBase);
   kctvPlayerFrame.style.setProperty("--kctv-player-scale", scale.toFixed(6));
-  kctvPlayerFrame.classList.toggle("radio", source.media === "audio");
+  kctvPlayerFrame.classList.toggle("radio", isRadioPlayer);
 }
 
 function moveTimetableDate(delta) {
@@ -795,7 +933,7 @@ function currentProgramIndex(entries, ymd) {
 }
 
 function scrollActiveProgramIntoView() {
-  if (!kctvScheduleOpen) return;
+  if (!activeKctvSupportsSchedule() || !kctvScheduleOpen) return;
 
   window.requestAnimationFrame(() => {
     const activeItem = kctvProgramList.querySelector(".kctv-program-entry.active");
