@@ -31,7 +31,7 @@ const FONT_FOOTER_COPY = [
 ];
 const LIVE_FOOTER_COPY = [
   "본 사이트는 북한 정부 또는 조선노동당, 조성중앙텔레비전과는 전혀 관계가 없으며, 이들을 지지하지도 옹호하지도 않고 오로지 학문적인 목적으로 개설되었음을 알려드립니다. 간첩 신고는 국번 없이 111",
-  "Livestream sources from https://koryo.tv/, https://www.intchoson.com/, and https://kcnawatch.org/korea-central-tv-livestream/",
+  "Livestream sources from https://koryo.tv/, https://www.intchoson.com/, and https://kcnawatch.org/korea-central-tv-livestream/. Timetable from [통일부 북한정보포털](https://nkinfo.unikorea.go.kr/nkp/tvPrgr/list.do?menuId=NK_TVPRGR).",
 ];
 const BROADCASTS = {
   kctv: {
@@ -143,6 +143,7 @@ let liveScheduleOpen = true;
 let hlsScriptLoad = null;
 let livePlayerResizeObserver = null;
 let livePlayerRenderToken = 0;
+let livePlayerSlideAnimation = null;
 let activeTimetableYmd = koreaTodayYmd();
 let activeTimetableEntries = [];
 let timetableCache = new Map();
@@ -272,19 +273,42 @@ function renderFooterCopy(lines) {
 }
 
 function appendLinkedFooterText(paragraph, line) {
+  const markdownLinkPattern = /\[([^\]]+)]\((https?:\/\/[^)]+)\)/g;
+  let cursor = 0;
+
+  for (const match of line.matchAll(markdownLinkPattern)) {
+    if (match.index > cursor) appendAutoLinkedFooterText(paragraph, line.slice(cursor, match.index));
+
+    const anchor = document.createElement("a");
+    anchor.href = match[2];
+    anchor.target = "_blank";
+    anchor.rel = "noopener noreferrer";
+    anchor.textContent = match[1];
+    paragraph.append(anchor);
+    cursor = match.index + match[0].length;
+  }
+
+  if (cursor < line.length) appendAutoLinkedFooterText(paragraph, line.slice(cursor));
+}
+
+function appendAutoLinkedFooterText(paragraph, line) {
   const urlPattern = /https?:\/\/[^\s,]+/g;
   let cursor = 0;
 
   for (const match of line.matchAll(urlPattern)) {
     if (match.index > cursor) paragraph.append(document.createTextNode(line.slice(cursor, match.index)));
 
+    const fullMatch = match[0];
+    const url = fullMatch.replace(/[.)\]]+$/, "");
+    const trailingText = fullMatch.slice(url.length);
     const anchor = document.createElement("a");
-    anchor.href = match[0];
+    anchor.href = url;
     anchor.target = "_blank";
     anchor.rel = "noopener noreferrer";
-    anchor.textContent = match[0];
+    anchor.textContent = url;
     paragraph.append(anchor);
-    cursor = match.index + match[0].length;
+    if (trailingText) paragraph.append(document.createTextNode(trailingText));
+    cursor = match.index + fullMatch.length;
   }
 
   if (cursor < line.length) paragraph.append(document.createTextNode(line.slice(cursor)));
@@ -729,13 +753,50 @@ function setLiveScheduleOpen(isOpen) {
   const supportsSchedule = activeBroadcastSupportsSchedule();
   if (supportsSchedule) liveScheduleOpen = isOpen;
   const shouldOpen = supportsSchedule && liveScheduleOpen;
+  const wasOpen = livePlayerLayout.classList.contains("schedule-open");
+  const shouldAnimate = shouldAnimateLivePlayerSlide(wasOpen, shouldOpen);
+  const beforeRect = shouldAnimate ? livePlayerFrame.getBoundingClientRect() : null;
+
   liveSchedulePanel.hidden = !shouldOpen;
   liveScheduleToggle.hidden = !supportsSchedule || shouldOpen;
   liveView.classList.toggle("schedule-open", shouldOpen);
   livePlayerLayout.classList.toggle("schedule-open", shouldOpen);
   liveScheduleToggle.setAttribute("aria-expanded", String(shouldOpen));
   updateLivePlayerScale();
+  if (beforeRect) animateLivePlayerSlide(beforeRect, livePlayerFrame.getBoundingClientRect());
   if (shouldOpen) scrollActiveProgramIntoView();
+}
+
+function shouldAnimateLivePlayerSlide(wasOpen, shouldOpen) {
+  if (wasOpen === shouldOpen) return false;
+  if (liveView.hidden || !livePlayerFrame.isConnected || typeof livePlayerFrame.animate !== "function") return false;
+  if (window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches) return false;
+  const rect = livePlayerFrame.getBoundingClientRect();
+  return rect.width > 0 && rect.height > 0;
+}
+
+function animateLivePlayerSlide(beforeRect, afterRect) {
+  const deltaX = beforeRect.left - afterRect.left;
+  const deltaY = beforeRect.top - afterRect.top;
+  if (Math.abs(deltaX) < 0.5 && Math.abs(deltaY) < 0.5) return;
+
+  livePlayerSlideAnimation?.cancel();
+  livePlayerSlideAnimation = livePlayerFrame.animate(
+    [
+      { transform: `translate3d(${deltaX}px, ${deltaY}px, 0)` },
+      { transform: "translate3d(0, 0, 0)" },
+    ],
+    {
+      duration: 560,
+      easing: "cubic-bezier(0.16, 1, 0.3, 1)",
+    },
+  );
+  livePlayerSlideAnimation.addEventListener("finish", clearLivePlayerSlideAnimation);
+  livePlayerSlideAnimation.addEventListener("cancel", clearLivePlayerSlideAnimation);
+}
+
+function clearLivePlayerSlideAnimation(event) {
+  if (event.target === livePlayerSlideAnimation) livePlayerSlideAnimation = null;
 }
 
 function activeBroadcastSupportsSchedule() {

@@ -454,7 +454,7 @@ select {
 }
 
 .live-shell.schedule-open .live-source-row {
-  width: min(1288px, calc(100vw - 48px));
+  width: min(calc(var(--live-player-fit-width, min(962px, calc(100vw - 48px))) + 316px), calc(100vw - 48px));
 }
 
 .live-shell[data-player-kind="radio"] .live-source-row {
@@ -519,6 +519,7 @@ select {
     width var(--motion-duration-slow) var(--motion-ease-apple),
     border-radius var(--motion-duration-base) var(--motion-ease-apple),
     box-shadow var(--motion-duration-base) var(--motion-ease-apple);
+  will-change: transform, width;
 }
 
 .live-player-frame:hover {
@@ -1624,13 +1625,11 @@ select {
 }
 
 .site-footer[data-view="live"] {
-  flex: 0 0 64px;
-  min-height: 64px;
-  max-height: 64px;
+  flex: 0 0 96px;
+  min-height: 96px;
+  max-height: 96px;
   gap: 4px;
   overflow: hidden;
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 .site-footer[data-view="live"] p {
@@ -1667,6 +1666,10 @@ select {
   }
 
   .live-player-layout.schedule-open .live-player-frame {
+    width: var(--live-player-fit-width, min(var(--live-frame-width), calc(100vw - 48px)));
+  }
+
+  .live-shell.schedule-open .live-source-row {
     width: var(--live-player-fit-width, min(var(--live-frame-width), calc(100vw - 48px)));
   }
 
