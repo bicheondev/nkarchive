@@ -597,7 +597,7 @@ function createRadioPlayer(channel, media) {
   volumeRange.min = "0";
   volumeRange.max = "1";
   volumeRange.step = "0.01";
-  volumeRange.value = "0.705";
+  volumeRange.value = "1";
   volumeRange.setAttribute("aria-label", "음량");
   actions.className = "kctv-radio-actions";
   playButton.className = "kctv-radio-action kctv-radio-action-play";
