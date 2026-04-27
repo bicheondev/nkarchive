@@ -8,3 +8,14 @@ dist/
 !.env.example
 
 # large/generated assets
+
+# large font assets
+font.zip
+fonts/
+webfonts/
+webfonts-preview/
+*.zip
+*.ttf
+*.otf
+*.woff
+*.woff2
