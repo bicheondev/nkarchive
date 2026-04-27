@@ -46,6 +46,18 @@ BASE_PREVIEW_TEXT = (
 )
 
 ORIGINAL_BROTLI_COMPRESS = woff2.brotli.compress
+R2_ASSET_BASE_URL = "https://pub-a12b2bbd25db44479f7ca23251a65bef.r2.dev"
+
+
+def local_asset_path(value):
+    prefix = f"{R2_ASSET_BASE_URL}/"
+    if value.startswith(prefix):
+        value = value[len(prefix) :]
+    return Path(value)
+
+
+def asset_url(local_path):
+    return f"{R2_ASSET_BASE_URL}/{str(local_path).lstrip('/')}"
 
 
 def parse_font_order(path):
@@ -70,7 +82,7 @@ def parse_font_order(path):
                 "group": cells[2],
                 "fileName": cells[3],
                 "name": cells[4],
-                "source": Path(cells[5]),
+                "source": local_asset_path(cells[5]),
                 "family": f"ArchiveFont{order:03d}",
             }
         )
@@ -121,7 +133,7 @@ def load_existing_manifest(path):
 
 
 def preview_file_path(existing, root):
-    raw_path = Path(existing.get("url", ""))
+    raw_path = local_asset_path(existing.get("url", ""))
     return raw_path if raw_path.is_absolute() else root / raw_path
 
 
@@ -138,10 +150,10 @@ def normalize_preview(existing, root, output_dir, row, source):
     preview = dict(existing)
     preview.update(
         {
-            "url": f"{output_url_dir(root, output_dir)}/{path.name}",
-            "fullUrl": f"webfonts/{row['family']}.woff2",
+            "url": asset_url(f"{output_url_dir(root, output_dir)}/{path.name}"),
+            "fullUrl": asset_url(f"webfonts/{row['family']}.woff2"),
             "bytes": path.stat().st_size if path.exists() else existing.get("bytes", 0),
-            "source": row["source"].as_posix(),
+            "source": asset_url(row["source"].as_posix()),
             "sourceMtimeNs": source_stat.st_mtime_ns,
             "sourceSize": source_stat.st_size,
         }
@@ -228,10 +240,10 @@ def build_preview(row, root, output_dir, base_preview_text, existing, force, wof
     source_stat = source.stat()
     return (
         {
-            "url": f"{output_url_dir(root, output_dir)}/{file_name}",
-            "fullUrl": f"webfonts/{row['family']}.woff2",
+            "url": asset_url(f"{output_url_dir(root, output_dir)}/{file_name}"),
+            "fullUrl": asset_url(f"webfonts/{row['family']}.woff2"),
             "bytes": destination.stat().st_size,
-            "source": row["source"].as_posix(),
+            "source": asset_url(row["source"].as_posix()),
             "sourceMtimeNs": source_stat.st_mtime_ns,
             "sourceSize": source_stat.st_size,
             "glyphTextSha256": glyph_text_hash,

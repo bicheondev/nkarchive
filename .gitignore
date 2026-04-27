@@ -1,9 +1,10 @@
-
+# dependencies/build output
 node_modules/
 dist/
+
+# local secrets
 .env
+.env.*
+!.env.example
 
 # large/generated assets
-node_modules/
-dist/
-.env

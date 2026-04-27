@@ -35,6 +35,14 @@ DROP_TABLES = (
 )
 
 ORIGINAL_BROTLI_COMPRESS = woff2.brotli.compress
+R2_ASSET_BASE_URL = "https://pub-a12b2bbd25db44479f7ca23251a65bef.r2.dev"
+
+
+def local_asset_path(value):
+    prefix = f"{R2_ASSET_BASE_URL}/"
+    if value.startswith(prefix):
+        value = value[len(prefix) :]
+    return Path(value)
 
 
 def parse_font_order(path):
@@ -55,7 +63,7 @@ def parse_font_order(path):
             {
                 "order": order,
                 "name": cells[4],
-                "source": Path(cells[5]),
+                "source": local_asset_path(cells[5]),
                 "family": f"ArchiveFont{order:03d}",
             }
         )

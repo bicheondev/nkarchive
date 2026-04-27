@@ -2,6 +2,7 @@ import { execFileSync } from "node:child_process";
 import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 
+const R2_ASSET_BASE_URL = "https://pub-a12b2bbd25db44479f7ca23251a65bef.r2.dev";
 const fontDb = readFileSync("font_db.md", "utf8").split(/\r?\n/);
 const zipEntries = execFileSync("unzip", ["-Z1", "font.zip"], {
   encoding: "utf8",
@@ -63,7 +64,7 @@ for (const line of fontDb) {
     group,
     fileName,
     displayName,
-    path: `fonts/${zipPath}`,
+    path: assetUrl(`fonts/${zipPath}`),
   });
 }
 
@@ -108,4 +109,8 @@ function normalizeSeries(value) {
 
 function escapeCell(value) {
   return String(value).replace(/\|/g, "\\|");
+}
+
+function assetUrl(localPath) {
+  return `${R2_ASSET_BASE_URL}/${localPath.replace(/^\/+/, "")}`;
 }

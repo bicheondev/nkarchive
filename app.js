@@ -10,6 +10,7 @@ const MAX_CONCURRENT_FONT_LOADS = 4;
 const ROUTE_FONT = "font";
 const ROUTE_KCTV = "kctv";
 const LIVE_PATH = "/live";
+const R2_ASSET_BASE_URL = "https://pub-a12b2bbd25db44479f7ca23251a65bef.r2.dev";
 const KORYO_PLAYER_BASE_WIDTH = 962;
 const KCTV_PLAYER_BASE_HEIGHT = 541.125;
 const KCNA_PLAYER_WIDTH = 721.5;
@@ -1083,7 +1084,7 @@ async function loadFontOrder() {
       group: row[2],
       fileName: row[3],
       name: row[4],
-      path: row[5],
+      path: assetUrl(row[5]),
       cssFamily: `ArchiveFont${String(index + 1).padStart(3, "0")}`,
       previewFamily: `ArchiveFont${String(index + 1).padStart(3, "0")}Preview`,
       fullFamily: `ArchiveFont${String(index + 1).padStart(3, "0")}Full`,
@@ -1092,7 +1093,7 @@ async function loadFontOrder() {
 
 async function loadPreparedWebFonts() {
   try {
-    const response = await fetch("webfonts/font_manifest.json", { cache: "no-store" });
+    const response = await fetch(assetUrl("webfonts/font_manifest.json"), { cache: "no-store" });
     if (!response.ok) return new Map();
 
     const manifest = await response.json();
@@ -1115,7 +1116,7 @@ async function loadPreparedWebFonts() {
 
 async function loadPreviewWebFonts() {
   try {
-    const response = await fetch("webfonts-preview/preview_manifest.json", { cache: "no-store" });
+    const response = await fetch(assetUrl("webfonts-preview/preview_manifest.json"), { cache: "no-store" });
     if (!response.ok) return new Map();
 
     const manifest = await response.json();
@@ -1124,7 +1125,7 @@ async function loadPreviewWebFonts() {
     return new Map(
       Object.entries(manifest.previews)
         .filter(([, preview]) => preview && typeof preview.url === "string")
-        .map(([family, preview]) => [family, preview]),
+        .map(([family, preview]) => [family, { ...preview, url: assetUrl(preview.url) }]),
     );
   } catch {
     return new Map();
@@ -1357,7 +1358,7 @@ function createFontCard(font, index, metrics, request) {
 
   card.querySelector(".font-name").textContent = font.name;
   card.querySelector(".font-series").textContent = font.series;
-  card.querySelector(".download-button").href = encodeFontUrl(font.path);
+  card.querySelector(".download-button").href = encodeFontUrl(assetUrl(font.path));
   card.querySelector(".download-button").setAttribute("download", font.fileName);
   card.querySelector(".download-button").setAttribute("aria-label", `${font.name} 내려받기`);
 
@@ -1482,13 +1483,13 @@ function fontFaceSource(font, variant) {
 function fullFontFaceSource(font) {
   const formats = preparedWebFonts.get(font.cssFamily);
   if (formats?.has("woff2")) {
-    return `url("webfonts/${font.cssFamily}.woff2") format("woff2")`;
+    return `url("${encodeFontUrl(assetUrl(`webfonts/${font.cssFamily}.woff2`))}") format("woff2")`;
   }
   if (formats?.has("ttf")) {
-    return `url("webfonts/${font.cssFamily}.ttf") format("truetype")`;
+    return `url("${encodeFontUrl(assetUrl(`webfonts/${font.cssFamily}.ttf`))}") format("truetype")`;
   }
 
-  return `url("${encodeFontUrl(font.path)}") format("${fontFormat(font.path)}")`;
+  return `url("${encodeFontUrl(assetUrl(font.path))}") format("${fontFormat(font.path)}")`;
 }
 
 function fontFormat(path) {
@@ -1548,6 +1549,11 @@ function pastePlainText(event) {
 
 function encodeFontUrl(value) {
   return encodeURI(value).replace(/#/g, "%23").replace(/\?/g, "%3F");
+}
+
+function assetUrl(path) {
+  if (/^https?:\/\//i.test(path)) return path;
+  return `${R2_ASSET_BASE_URL}/${path.replace(/^\/+/, "")}`;
 }
 
 function exposeDebugHelpers() {
