@@ -149,6 +149,62 @@ select {
   font-weight: 700;
 }
 
+.arca-channel-link {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 6px;
+  height: 28px;
+  margin-left: auto;
+  padding: 4px;
+  border-radius: 1000px;
+  background: #3d414d;
+  color: var(--slate-0);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.arca-channel-link:hover,
+.arca-channel-link:focus-visible {
+  background: #3d414d;
+}
+
+.arca-channel-link:focus-visible {
+  outline: 2px solid rgba(61, 65, 77, 0.28);
+  outline-offset: 2px;
+}
+
+.arca-channel-icon {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 auto;
+}
+
+.arca-channel-content {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 2px;
+}
+
+.arca-channel-text {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.arca-channel-medium {
+  font-weight: 500;
+}
+
+.arca-channel-arrow {
+  width: 15px;
+  height: 15px;
+  flex: 0 0 auto;
+}
+
 .kctv-shell {
   position: relative;
   display: flex;
@@ -214,8 +270,12 @@ select {
   left: 50%;
   z-index: 4;
   display: flex;
-  width: min(1288px, calc(100vw - 48px));
+  width: var(--kctv-player-fit-width, min(962px, calc(100vw - 48px)));
   transform: translateX(-50%);
+}
+
+.kctv-shell.schedule-open .kctv-source-row {
+  width: min(1288px, calc(100vw - 48px));
 }
 
 .kctv-shell[data-player-kind="radio"] .kctv-source-row {
@@ -322,7 +382,7 @@ select {
 
 .kctv-koryo-radio-frame {
   top: calc(-248px * var(--kctv-player-scale));
-  left: calc(-574.5px * var(--kctv-player-scale));
+  left: calc(-573.5px * var(--kctv-player-scale));
   height: 322px;
 }
 
@@ -1270,6 +1330,10 @@ select {
 
   .site-nav {
     display: none;
+  }
+
+  .arca-channel-link {
+    max-width: calc(100vw - 112px);
   }
 
   .archive-shell {

@@ -18,8 +18,39 @@ for (const entry of zipEntries) {
 
 const topLevelSeries = new Set(["KCC-R", "KP V3.0", "KP V4.0"]);
 const seriesNameMap = new Map([
-  ["PnP符?", "PnP부호"],
+  ["PnP\u7b26?", "PnP부호"],
   ["PRK P KPA", "KPA"],
+]);
+const pathSegmentMap = new Map([
+  ["PnP\u9752\u5cf0", "PnP청봉"],
+  ["PnP\u5343\u91cc\u9a6c", "PnP천리마"],
+  ["PnP\u5149\u660e", "PnP광명"],
+  ["PnP\u7b14\u4e66", "PnP붓글"],
+  ["PnP\u65b0\u65e5", "PnP새날"],
+  ["PnP\u7b26\u53f7", "PnP부호"],
+  ["PRK P \u57fa\u672c", "PRK P 기본"],
+  ["PRK P \u7b14\u4e66", "PRK P 붓글"],
+  ["PRK P \u9752\u5cf0", "PRK P 청봉"],
+  ["PRK P \u7ae5\u5fc3", "PRK P 동심"],
+  ["PRK P \u53e4\u5178", "PRK P 고전"],
+  ["PRK P \u5149\u660e", "PRK P 광명"],
+  ["PRK P \u54e5\u7279", "PRK P 고직"],
+  ["PRK P \u7b14\u8bb0", "PRK P 필기"],
+  ["PRK P \u7acb\u4f53", "PRK P 입체"],
+  ["PRK P \u88c5\u9970", "PRK P 장식"],
+  ["WK\u7b14\u4e66", "WK붓글"],
+  ["WK\u80cc\u666f", "WK바탕장식"],
+  ["WK\u9752\u5cf0", "WK청봉"],
+  ["WK\u7ae5\u5fc3", "WK동심"],
+  ["WK\u57fa\u672c", "WK기본"],
+  ["WK\u53e4\u5178", "WK고전"],
+  ["WK\u5149\u660e", "WK광명"],
+  ["WK\u54e5\u7279", "WK고직"],
+  ["WK\u5706\u54e5\u7279", "WK환고직"],
+  ["WK\u88c5\u9970", "WK장식"],
+  ["WK\u7b14\u8bb0", "WK필기"],
+  ["WK\u5f8b\u52a8", "WK률동"],
+  ["WK\u65b0\u65e5", "WK새날"],
 ]);
 const fileNameMap = new Map([
   ["WKJS-Sonbikkim A Regular.ttf", "WKJSSbkk_2.TTF"],
@@ -64,7 +95,7 @@ for (const line of fontDb) {
     group,
     fileName,
     displayName,
-    path: assetUrl(`fonts/${zipPath}`),
+    path: assetUrl(`fonts/${normalizeAssetPath(zipPath)}`),
   });
 }
 
@@ -105,6 +136,13 @@ function cleanupCell(value) {
 function normalizeSeries(value) {
   const normalized = seriesNameMap.get(value) || value;
   return normalized.replace(/\?$/u, "");
+}
+
+function normalizeAssetPath(value) {
+  return value
+    .split("/")
+    .map((segment) => pathSegmentMap.get(segment) || segment)
+    .join("/");
 }
 
 function escapeCell(value) {

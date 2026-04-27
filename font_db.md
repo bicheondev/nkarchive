@@ -98,7 +98,7 @@ Source order preserved. Columns: file name and Korean/display name.
 | `dprk_font_1` | `PnPSaiNarChe.ttf` | 새날체 |
 | `dprk_font_1` | `PnPSaiNarChe M.ttf` | 새날 중간체 |
 
-### PnP符?
+### PnP부호
 
 | 그룹화 | 파일명 | 이름 |
 |---|---|---|

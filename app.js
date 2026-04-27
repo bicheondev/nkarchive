@@ -31,6 +31,7 @@ const FONT_FOOTER_COPY = [
 ];
 const KCTV_FOOTER_COPY = [
   "본 사이트는 북한 정부 또는 조선노동당, 조성중앙텔레비전과는 전혀 관계가 없으며, 이들을 지지하지도 옹호하지도 않고 오로지 학문적인 목적으로 개설되었음을 알려드립니다. 간첩 신고는 국번 없이 111",
+  "Livestream sources from https://koryo.tv/, https://www.intchoson.com/, and https://kcnawatch.org/korea-central-tv-livestream/",
 ];
 const KCTV_BROADCASTS = {
   kctv: {
@@ -711,6 +712,7 @@ function setKctvScheduleOpen(isOpen) {
   const shouldOpen = supportsSchedule && kctvScheduleOpen;
   kctvSchedulePanel.hidden = !shouldOpen;
   kctvScheduleToggle.hidden = !supportsSchedule || shouldOpen;
+  kctvView.classList.toggle("schedule-open", shouldOpen);
   kctvPlayerLayout.classList.toggle("schedule-open", shouldOpen);
   kctvScheduleToggle.setAttribute("aria-expanded", String(shouldOpen));
   updateKctvPlayerScale();
@@ -733,6 +735,7 @@ function updateKctvPlayerScale() {
   const fitHeight = fitWidth > 0 ? fitWidth * (size.height / size.width) : size.height;
 
   if (fitWidth > 0) {
+    kctvView.style.setProperty("--kctv-player-fit-width", `${fitWidth.toFixed(3)}px`);
     kctvPlayerFrame.style.setProperty("--kctv-player-fit-width", `${fitWidth.toFixed(3)}px`);
   }
   kctvView.style.setProperty("--kctv-player-half-height", `${(fitHeight / 2).toFixed(3)}px`);

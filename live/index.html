@@ -15,7 +15,7 @@
     <meta name="twitter:image" content="/og.png" />
     <meta name="twitter:image:src" content="/og.png" />
     <base href="/" />
-    <link rel="stylesheet" href="/styles.css?v=kctv-20260427-40" />
+    <link rel="stylesheet" href="/styles.css?v=kctv-20260427-45" />
     <script>
       window.__INITIAL_ROUTE__ = "kctv";
       document.documentElement.dataset.route = "kctv";
@@ -35,6 +35,13 @@
           <a href="#">스토어</a>
           <a href="/live" data-route="kctv">방송</a>
         </nav>
+        <a class="arca-channel-link" href="https://arca.live/b/dprk/" target="_blank" rel="noopener noreferrer">
+          <img class="arca-channel-icon" src="/assets/arca-channel.svg?v=kctv-20260427-45" alt="" aria-hidden="true" />
+          <span class="arca-channel-content">
+            <span class="arca-channel-text">아카라이브 <span class="arca-channel-medium">북한 채널</span> 바로가기</span>
+            <img class="arca-channel-arrow" src="/assets/arrow-forward-ios.svg?v=kctv-20260427-45" alt="" aria-hidden="true" />
+          </span>
+        </a>
       </div>
     </header>
 
@@ -107,9 +114,9 @@
       </button>
     </main>
 
-    <footer class="site-footer" id="siteFooter">
-      <p>본 사이트는 북한 정부 또는 조선노동당과는 전혀 관계가 없으며, 이들을 지지하지도 옹호하지도 않고 오로지 학문적인 목적으로 개설되었음을 알려드립니다. 간첩 신고는 국번 없이 111</p>
-      <p>모든 폰트의 저작권은 평양정보쎈터(Pyongyang Informatics Centre Font Developer Group), 조선콤퓨터쎈터(Korea Computer Centre), 출판인쇄과학연구소(Scientific Institute for Publication and Printing) 등 각 저작권자에게 있습니다. 상업적 이용을 권장하지 않습니다.</p>
+    <footer class="site-footer" id="siteFooter" data-view="kctv">
+      <p>본 사이트는 북한 정부 또는 조선노동당, 조성중앙텔레비전과는 전혀 관계가 없으며, 이들을 지지하지도 옹호하지도 않고 오로지 학문적인 목적으로 개설되었음을 알려드립니다. 간첩 신고는 국번 없이 111</p>
+      <p>Livestream sources from https://koryo.tv/, https://www.intchoson.com/, and https://kcnawatch.org/korea-central-tv-livestream/</p>
     </footer>
 
     <template id="cardTemplate">
@@ -131,6 +138,6 @@
       </article>
     </template>
 
-    <script src="/app.js?v=kctv-20260427-40" defer></script>
+    <script src="/app.js?v=kctv-20260427-45" defer></script>
   </body>
 </html>
