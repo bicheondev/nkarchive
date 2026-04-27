@@ -87,7 +87,6 @@ let fontArchiveReady = false;
 let activeKctvChannel = "koryo";
 let renderedKctvChannel = null;
 let kctvScheduleOpen = false;
-let hlsInstance = null;
 let hlsScriptLoad = null;
 let kctvPlayerResizeObserver = null;
 let kctvPlayerRenderToken = 0;
@@ -100,6 +99,7 @@ let timetableLoadToken = 0;
 const sampleOverrides = new Map();
 const fontLoadStates = new Map();
 const fontLoadQueue = [];
+const kctvPlayerCache = new Map();
 const fontDebugCounters = {
   fontFacesCreated: 0,
   previewRequested: 0,
@@ -260,45 +260,60 @@ function renderKctvPlayer() {
   if (renderedKctvChannel === activeKctvChannel) return;
 
   const channelKey = activeKctvChannel;
-  const renderToken = ++kctvPlayerRenderToken;
-  cleanupKctvPlayer();
   const channel = KCTV_CHANNELS[channelKey];
   kctvPlayerLayout.dataset.channel = channelKey;
   kctvPlayerFrame.dataset.channel = channelKey;
 
-  if (channel.type === "iframe") {
-    const iframe = document.createElement("iframe");
-    iframe.className = "kctv-koryo-frame";
-    iframe.src = channel.src;
-    iframe.width = "1649";
-    iframe.height = "685";
-    iframe.frameBorder = "0";
-    iframe.allowFullscreen = true;
-    iframe.allow = "autoplay; fullscreen";
-    iframe.title = channel.label;
-    kctvPlayerFrame.append(iframe);
-  } else {
-    renderHlsPlayer(channel, channelKey, renderToken);
+  if (!kctvPlayerCache.has(channelKey)) {
+    const player =
+      channel.type === "iframe"
+        ? createKoryoPlayer(channel, channelKey)
+        : createHlsPlayer(channel, channelKey, ++kctvPlayerRenderToken);
+    kctvPlayerCache.set(channelKey, player);
+    kctvPlayerFrame.append(player.node);
   }
 
+  showKctvPlayer(channelKey);
   renderedKctvChannel = channelKey;
   updateKctvPlayerScale();
 }
 
-function cleanupKctvPlayer() {
-  if (hlsInstance) {
-    hlsInstance.destroy();
-    hlsInstance = null;
-  }
-  for (const video of kctvPlayerFrame.querySelectorAll("video")) {
-    video.pause();
-    video.removeAttribute("src");
-    video.load();
-  }
-  kctvPlayerFrame.replaceChildren();
+function createKctvStreamLayer(channelKey) {
+  const layer = document.createElement("div");
+  layer.className = "kctv-stream-layer";
+  layer.dataset.channel = channelKey;
+  return layer;
 }
 
-function renderHlsPlayer(channel, channelKey, renderToken) {
+function createKoryoPlayer(channel, channelKey) {
+  const layer = createKctvStreamLayer(channelKey);
+  const iframe = document.createElement("iframe");
+  iframe.className = "kctv-koryo-frame";
+  iframe.src = channel.src;
+  iframe.width = "1649";
+  iframe.height = "685";
+  iframe.frameBorder = "0";
+  iframe.allowFullscreen = true;
+  iframe.allow = "autoplay; fullscreen";
+  iframe.title = channel.label;
+  layer.append(iframe);
+  return { node: layer };
+}
+
+function showKctvPlayer(channelKey) {
+  for (const [key, player] of kctvPlayerCache) {
+    const selected = key === channelKey;
+    player.node.hidden = !selected;
+    player.node.setAttribute("aria-hidden", String(!selected));
+
+    if (selected) {
+      player.video?.play().catch(() => {});
+    }
+  }
+}
+
+function createHlsPlayer(channel, channelKey, renderToken) {
+  const layer = createKctvStreamLayer(channelKey);
   const video = document.createElement("video");
   video.className = "kctv-video";
   video.controls = true;
@@ -306,43 +321,47 @@ function renderHlsPlayer(channel, channelKey, renderToken) {
   video.muted = true;
   video.playsInline = true;
   video.setAttribute("aria-label", `${channel.label} 라이브`);
-  kctvPlayerFrame.append(video);
+  layer.append(video);
 
-  const isCurrentRender = () =>
-    renderToken === kctvPlayerRenderToken &&
-    activeKctvChannel === channelKey &&
-    kctvPlayerFrame.contains(video);
+  const player = { node: layer, video, hlsInstance: null, renderToken };
+
+  const isValidPlayer = () =>
+    kctvPlayerCache.get(channelKey) === player &&
+    player.renderToken === renderToken &&
+    kctvPlayerFrame.contains(layer);
 
   if (video.canPlayType("application/vnd.apple.mpegurl")) {
     video.src = channel.src;
     video.play().catch(() => {});
-    return;
+    return player;
   }
 
   ensureHlsScript()
     .then(() => {
-      if (!isCurrentRender()) return;
+      if (!isValidPlayer()) return;
 
       if (!window.Hls?.isSupported()) {
-        showKctvPlayerMessage("이 브라우저에서 재생할 수 없습니다.");
+        showKctvPlayerMessage("이 브라우저에서 재생할 수 없습니다.", player);
         return;
       }
 
       const nextHlsInstance = new window.Hls({ enableWorker: true });
-      hlsInstance = nextHlsInstance;
+      player.hlsInstance = nextHlsInstance;
       nextHlsInstance.loadSource(channel.src);
       nextHlsInstance.attachMedia(video);
       nextHlsInstance.on(window.Hls.Events.MANIFEST_PARSED, () => {
-        if (!isCurrentRender()) return;
+        if (!isValidPlayer()) return;
         video.play().catch(() => {});
       });
       nextHlsInstance.on(window.Hls.Events.ERROR, (_event, data) => {
-        if (data?.fatal && isCurrentRender()) showKctvPlayerMessage("라이브 영상을 불러오지 못했습니다.");
+        if (data?.fatal && isValidPlayer()) showKctvPlayerMessage("라이브 영상을 불러오지 못했습니다.", player);
       });
     })
     .catch(() => {
-      if (isCurrentRender()) showKctvPlayerMessage("라이브 영상을 불러오지 못했습니다.");
+      if (isValidPlayer()) showKctvPlayerMessage("라이브 영상을 불러오지 못했습니다.", player);
     });
+
+  return player;
 }
 
 function ensureHlsScript() {
@@ -361,12 +380,13 @@ function ensureHlsScript() {
   return hlsScriptLoad;
 }
 
-function showKctvPlayerMessage(message) {
-  kctvPlayerFrame.querySelector(".kctv-player-message")?.remove();
+function showKctvPlayerMessage(message, player = null) {
+  const host = player?.node || kctvPlayerFrame;
+  host.querySelector(".kctv-player-message")?.remove();
   const node = document.createElement("div");
   node.className = "kctv-player-message";
   node.textContent = message;
-  kctvPlayerFrame.append(node);
+  host.append(node);
 }
 
 function setKctvScheduleOpen(isOpen) {
@@ -387,7 +407,6 @@ function updateKctvPlayerScale() {
 
   if (fitWidth > 0) {
     kctvPlayerFrame.style.setProperty("--kctv-player-fit-width", `${fitWidth.toFixed(3)}px`);
-    kctvPlayerLayout.style.setProperty("--kctv-active-frame-half-width", `${(fitWidth / 2).toFixed(3)}px`);
   }
 
   const width = kctvPlayerFrame.clientWidth || fitWidth || KORYO_PLAYER_BASE_WIDTH;

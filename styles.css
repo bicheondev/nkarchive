@@ -206,14 +206,10 @@ select {
   flex: 1 1 auto;
   align-items: center;
   justify-content: center;
+  gap: 26px;
   width: 100%;
   min-height: 0;
-  --kctv-active-frame-half-width: 481px;
   margin-top: 0;
-}
-
-.kctv-player-layout[data-channel="kcna"] {
-  --kctv-active-frame-half-width: 360.75px;
 }
 
 .kctv-player-frame {
@@ -238,6 +234,12 @@ select {
   width: var(--kctv-player-fit-width, min(var(--kctv-frame-width), calc(100vw - 48px)));
 }
 
+.kctv-stream-layer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
 .kctv-koryo-frame {
   position: absolute;
   top: calc(-144px * var(--kctv-player-scale));
@@ -246,7 +248,7 @@ select {
   width: 1649px;
   height: 685px;
   border: 0;
-  pointer-events: none;
+  pointer-events: auto;
   transform: scale(var(--kctv-player-scale));
   transform-origin: top left;
 }
@@ -255,7 +257,7 @@ select {
   display: block;
   width: 100%;
   height: 100%;
-  background: var(--slate-600);
+  background: var(--slate-50);
   object-fit: contain;
 }
 
@@ -359,9 +361,6 @@ select {
 }
 
 .kctv-schedule-panel {
-  position: absolute;
-  top: 50%;
-  left: calc(50% + var(--kctv-active-frame-half-width) + 26px);
   display: flex;
   flex-direction: column;
   flex: 0 0 300px;
@@ -373,7 +372,6 @@ select {
   background: rgba(248, 250, 252, 0.92);
   padding: 8px 0;
   backdrop-filter: blur(3.5px);
-  transform: translateY(-50%);
 }
 
 @keyframes kctv-schedule-toggle-enter {
@@ -437,6 +435,7 @@ select {
 
 .kctv-schedule-date p {
   color: var(--slate-700);
+  font-variant-numeric: lining-nums tabular-nums;
   font-size: 20px;
   font-weight: 600;
   line-height: normal;
