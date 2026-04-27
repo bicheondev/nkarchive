@@ -227,11 +227,20 @@ select {
 }
 
 .kctv-source-control {
+  width: 180px;
   margin-right: 0;
+}
+
+.kctv-source-button,
+.kctv-source-menu {
+  width: 180px;
 }
 
 .kctv-source-menu {
   z-index: 40;
+  max-height: none;
+  overflow: hidden;
+  overflow: clip;
 }
 
 .kctv-player-layout {
@@ -937,16 +946,19 @@ select {
   font-size: 17px;
   font-weight: 500;
   line-height: normal;
-  padding: 12px 45px 12px 18px;
+  padding: 12px 18px;
 }
 
 .category-arrow {
-  position: absolute;
-  right: 18px;
-  width: 24px;
-  height: 24px;
-  color: var(--slate-400);
-  font-size: 24px;
+  position: static;
+  flex: 0 0 16px;
+  width: 16px;
+  height: 16px;
+  background: var(--slate-400);
+  font-size: 0;
+  line-height: 0;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='black' fill-rule='evenodd' clip-rule='evenodd' d='M11.8633 5.36533L8.11667 9.35933L4.40267 5.39933C4.126 5.104 3.66133 5.08867 3.366 5.36467C3.07 5.64067 3.05467 6.10467 3.33133 6.39933L7.56067 10.9087C7.78667 11.1493 8.13333 11.1933 8.41533 11.056C8.522 11.018 8.62333 10.9627 8.706 10.8753L12.9353 6.366C13.212 6.07067 13.1967 5.60733 12.9007 5.33133C12.6047 5.05533 12.14 5.07 11.8633 5.36533Z'/%3E%3C/svg%3E") center / 16px 16px no-repeat;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='black' fill-rule='evenodd' clip-rule='evenodd' d='M11.8633 5.36533L8.11667 9.35933L4.40267 5.39933C4.126 5.104 3.66133 5.08867 3.366 5.36467C3.07 5.64067 3.05467 6.10467 3.33133 6.39933L7.56067 10.9087C7.78667 11.1493 8.13333 11.1933 8.41533 11.056C8.522 11.018 8.62333 10.9627 8.706 10.8753L12.9353 6.366C13.212 6.07067 13.1967 5.60733 12.9007 5.33133C12.6047 5.05533 12.14 5.07 11.8633 5.36533Z'/%3E%3C/svg%3E") center / 16px 16px no-repeat;
 }
 
 .category-menu {
@@ -1297,6 +1309,12 @@ select {
 
   .category-menu {
     width: 100%;
+  }
+
+  .kctv-source-control,
+  .kctv-source-button,
+  .kctv-source-menu {
+    width: 180px;
   }
 
   .font-grid {
