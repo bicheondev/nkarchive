@@ -4,11 +4,15 @@
 :root {
   --slate-0: #ffffff;
   --slate-50: #f8fafc;
+  --slate-100: #f1f5f9;
   --slate-200: #e2e8f0;
   --slate-400: #90a1b9;
+  --slate-500: #62748e;
   --slate-600: #45556c;
   --slate-700: #314158;
-  --blue-500: #3b82f6;
+  --blue-50: #eff6ff;
+  --blue-500: #2b7fff;
+  --blue-600: #155dfc;
   --page-width: 1000px;
   --card-width: 235px;
   --card-height: 255px;
@@ -39,6 +43,18 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+html[data-route="kctv"] #archiveView {
+  display: none;
+}
+
+html[data-route="kctv"] #kctvView {
+  display: flex !important;
 }
 
 button,
@@ -114,6 +130,284 @@ select {
 
 .site-nav .active {
   font-weight: 700;
+}
+
+.kctv-shell {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: calc(100vh - 128px);
+  padding: 38px 24px 30px;
+}
+
+.kctv-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  padding: 4px;
+  border-radius: 1000px;
+  background: var(--slate-100);
+}
+
+.kctv-tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+  height: 36px;
+  border: 0;
+  border-radius: 1000px;
+  background: transparent;
+  color: var(--slate-500);
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px 14px;
+  white-space: nowrap;
+}
+
+.kctv-tab.active,
+.kctv-tab:focus-visible {
+  background: var(--slate-0);
+}
+
+.kctv-player-layout {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 26px;
+  margin-top: 124px;
+}
+
+.kctv-player-frame {
+  position: relative;
+  --kctv-player-scale: 1;
+  width: min(962px, calc(100vw - 48px));
+  aspect-ratio: 962 / 541.125;
+  overflow: hidden;
+  border-radius: 26px;
+  background: var(--slate-600);
+  transform: translateZ(0);
+}
+
+.kctv-player-layout.schedule-open .kctv-player-frame {
+  width: min(962px, calc(100vw - 374px));
+}
+
+.kctv-koryo-frame {
+  position: absolute;
+  top: calc(-144px * var(--kctv-player-scale));
+  left: calc(-149px * var(--kctv-player-scale));
+  display: block;
+  width: 1649px;
+  height: 685px;
+  border: 0;
+  pointer-events: none;
+  transform: scale(var(--kctv-player-scale));
+  transform-origin: top left;
+}
+
+.kctv-video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--slate-600);
+  object-fit: contain;
+}
+
+.kctv-player-message {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  color: var(--slate-0);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.kctv-schedule-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 52px;
+  margin-top: 121px;
+  border: 0;
+  border-radius: 26px;
+  background: var(--slate-100);
+  color: var(--slate-700);
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 8px 8px 8px 24px;
+}
+
+.kctv-player-layout.schedule-open + .kctv-schedule-toggle {
+  display: none;
+}
+
+.kctv-toggle-icon,
+.kctv-icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background: var(--blue-500);
+  color: var(--slate-0);
+}
+
+.kctv-toggle-icon .material-symbols-rounded,
+.kctv-icon-button .material-symbols-rounded {
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+}
+
+.kctv-schedule-panel {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 300px;
+  gap: 18px;
+  width: 300px;
+  height: 542.125px;
+  overflow: hidden;
+  border-radius: 26px;
+  background: rgba(248, 250, 252, 0.92);
+  padding: 8px 0;
+  backdrop-filter: blur(3.5px);
+}
+
+.kctv-schedule-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  padding-right: 8px;
+  padding-left: 24px;
+}
+
+.kctv-schedule-header p,
+.kctv-schedule-date p,
+.kctv-program-entry p {
+  margin: 0;
+}
+
+.kctv-schedule-header p {
+  color: var(--slate-700);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.kctv-icon-button,
+.kctv-date-button {
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+}
+
+.kctv-schedule-date {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 0 24px;
+}
+
+.kctv-schedule-date p {
+  color: var(--slate-700);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.kctv-date-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: var(--slate-50);
+  color: var(--slate-600);
+}
+
+.kctv-date-button:disabled {
+  cursor: default;
+  opacity: 0.35;
+}
+
+.kctv-date-button .material-symbols-rounded {
+  width: 12px;
+  height: 12px;
+  font-size: 12px;
+}
+
+.kctv-program-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 438px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.kctv-program-list::-webkit-scrollbar {
+  display: none;
+}
+
+.kctv-program-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  font-size: 15px;
+  line-height: 1.3;
+  padding: 16px 24px;
+}
+
+.kctv-program-entry.active {
+  background: var(--blue-50);
+}
+
+.kctv-program-time {
+  flex: 0 0 38px;
+  color: var(--slate-500);
+  font-weight: 400;
+}
+
+.kctv-program-title {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: var(--slate-600);
+  font-weight: 600;
+}
+
+.kctv-program-entry.active .kctv-program-time {
+  color: var(--blue-500);
+}
+
+.kctv-program-entry.active .kctv-program-title {
+  color: var(--blue-600);
+}
+
+.kctv-program-state {
+  padding: 16px 24px;
+  color: var(--slate-500);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
 }
 
 .archive-shell {
@@ -451,9 +745,38 @@ select {
   white-space: nowrap;
 }
 
+.site-footer[data-view="kctv"] {
+  min-height: 64px;
+  gap: 0;
+}
+
 @media (max-width: 1500px) {
   .navigation-inner {
     width: calc(100vw - 80px);
+  }
+}
+
+@media (max-width: 1380px) {
+  .kctv-player-layout.schedule-open {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .kctv-player-layout.schedule-open .kctv-player-frame {
+    width: min(962px, calc(100vw - 48px));
+  }
+
+  .kctv-schedule-panel {
+    width: min(962px, calc(100vw - 48px));
+    height: 420px;
+  }
+
+  .kctv-schedule-header {
+    width: 100%;
+  }
+
+  .kctv-program-list {
+    height: 316px;
   }
 }
 
@@ -470,6 +793,25 @@ select {
 
   .archive-shell {
     padding-top: 40px;
+  }
+
+  .kctv-shell {
+    min-height: calc(100vh - 160px);
+    padding-top: 28px;
+  }
+
+  .kctv-tabs {
+    max-width: calc(100vw - 40px);
+    overflow-x: auto;
+    justify-content: flex-start;
+  }
+
+  .kctv-player-layout {
+    margin-top: 64px;
+  }
+
+  .kctv-schedule-toggle {
+    margin-top: 64px;
   }
 
   .search-row {
