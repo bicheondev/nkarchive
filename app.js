@@ -60,7 +60,7 @@ const KCTV_BROADCASTS = {
   kcbs: {
     label: "조선중앙방송",
     type: "radio",
-    defaultSource: "intchoson",
+    defaultSource: "koryo",
     sources: {
       koryo: {
         label: "고려TV",
@@ -78,7 +78,7 @@ const KCTV_BROADCASTS = {
   vok: {
     label: "조선의 소리",
     type: "radio",
-    defaultSource: "intchoson",
+    defaultSource: "koryo",
     sources: {
       koryo: {
         label: "고려TV",
@@ -597,7 +597,7 @@ function createRadioPlayer(channel, media) {
   volumeRange.min = "0";
   volumeRange.max = "1";
   volumeRange.step = "0.01";
-  volumeRange.value = "0.75";
+  volumeRange.value = "0.705";
   volumeRange.setAttribute("aria-label", "음량");
   actions.className = "kctv-radio-actions";
   playButton.className = "kctv-radio-action kctv-radio-action-play";
@@ -629,7 +629,7 @@ function createRadioPlayer(channel, media) {
     const volumeValue = media.muted ? 0 : media.volume;
     volumeRange.value = String(volumeValue);
     volumeRange.style.setProperty("--kctv-radio-volume", `${volumeValue * 100}%`);
-    volumeIcon.textContent = volumeValue <= 0 ? "volume_off" : "volume_down";
+    volumeIcon.textContent = volumeValue <= 0 ? "volume_mute" : "volume_down";
     volume.classList.toggle("is-muted", volumeValue <= 0);
     volume.classList.toggle("is-high", volumeValue > 0.75);
     if (volumeValue > 0.75) volumeIcon.textContent = "volume_up";
@@ -637,8 +637,9 @@ function createRadioPlayer(channel, media) {
   const updateTime = () => {
     time.textContent = formatRadioElapsed(media.currentTime);
   };
-  const updatePlayback = () => {
-    const isPlaying = !media.paused && !media.ended;
+  const isMediaPlaying = () => !media.paused && !media.ended;
+  const updatePlayback = (nextIsPlaying = isMediaPlaying()) => {
+    const isPlaying = Boolean(nextIsPlaying);
     statusIcon.textContent = isPlaying ? "play_arrow" : "stop";
     statusLabel.textContent = isPlaying ? "PLAY" : "STOP";
     player.classList.toggle("is-playing", isPlaying);
@@ -648,7 +649,8 @@ function createRadioPlayer(channel, media) {
 
   playButton.addEventListener("click", () => {
     media.muted = false;
-    media.play().catch(() => {});
+    updatePlayback(true);
+    media.play().then(() => updatePlayback(true)).catch(() => updatePlayback(false));
   });
   stopButton.addEventListener("click", () => media.pause());
   volumeRange.addEventListener("input", () => {
@@ -656,9 +658,11 @@ function createRadioPlayer(channel, media) {
     media.volume = Number(volumeRange.value);
     updateVolume();
   });
-  media.addEventListener("play", updatePlayback);
-  media.addEventListener("pause", updatePlayback);
-  media.addEventListener("ended", updatePlayback);
+  media.addEventListener("play", () => updatePlayback());
+  media.addEventListener("playing", () => updatePlayback(true));
+  media.addEventListener("pause", () => updatePlayback());
+  media.addEventListener("ended", () => updatePlayback());
+  media.addEventListener("error", () => updatePlayback(false));
   media.addEventListener("timeupdate", updateTime);
   media.addEventListener("loadedmetadata", updateTime);
   media.addEventListener("volumechange", updateVolume);
