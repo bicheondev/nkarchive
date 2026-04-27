@@ -186,16 +186,23 @@ select {
 .kctv-player-frame {
   position: relative;
   --kctv-player-scale: 1;
-  width: min(962px, calc(100vw - 48px));
-  aspect-ratio: 962 / 541.125;
+  --kctv-frame-width: 962px;
+  --kctv-frame-ratio: 962 / 541.125;
+  width: min(var(--kctv-frame-width), calc(100vw - 48px));
+  aspect-ratio: var(--kctv-frame-ratio);
   overflow: hidden;
   border-radius: 26px;
   background: var(--slate-600);
   transform: translateZ(0);
 }
 
+.kctv-player-frame[data-channel="kcna"] {
+  --kctv-frame-width: 721.5px;
+  --kctv-frame-ratio: 4 / 3;
+}
+
 .kctv-player-layout.schedule-open .kctv-player-frame {
-  width: min(962px, calc(100vw - 374px));
+  width: min(var(--kctv-frame-width), calc(100vw - 374px));
 }
 
 .kctv-koryo-frame {
@@ -763,7 +770,7 @@ select {
   }
 
   .kctv-player-layout.schedule-open .kctv-player-frame {
-    width: min(962px, calc(100vw - 48px));
+    width: min(var(--kctv-frame-width), calc(100vw - 48px));
   }
 
   .kctv-schedule-panel {
