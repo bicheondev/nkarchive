@@ -548,6 +548,8 @@ select {
   background: url("/assets/kctv-lp.svg") center / 100% 100% no-repeat;
   transform: translateZ(0);
   transform-origin: center;
+  animation: kctv-radio-spin 12s linear infinite;
+  animation-play-state: paused;
   will-change: transform;
 }
 
@@ -557,7 +559,7 @@ select {
 }
 
 .kctv-radio-player.is-playing .kctv-radio-record {
-  animation: kctv-radio-spin 12s linear infinite;
+  animation-play-state: running;
 }
 
 .kctv-player-message {
