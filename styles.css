@@ -317,7 +317,7 @@ select {
 }
 
 .kctv-player-frame[data-broadcast="vok"] .kctv-koryo-radio-frame {
-  top: calc(-272px * var(--kctv-player-scale));
+  top: calc(-224px * var(--kctv-player-scale));
 }
 
 .kctv-video {
