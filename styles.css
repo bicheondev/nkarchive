@@ -120,8 +120,9 @@ select {
   align-items: center;
   height: 28px;
   color: var(--slate-600);
+  font-family: "Pretendard Variable", Pretendard, var(--ui-font-family);
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
   white-space: nowrap;
 }
@@ -248,7 +249,10 @@ select {
   width: 1649px;
   height: 685px;
   border: 0;
+  overflow: hidden;
+  overscroll-behavior: none;
   pointer-events: auto;
+  touch-action: manipulation;
   transform: scale(var(--kctv-player-scale));
   transform-origin: top left;
 }

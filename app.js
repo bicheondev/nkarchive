@@ -293,6 +293,8 @@ function createKoryoPlayer(channel, channelKey) {
   iframe.width = "1649";
   iframe.height = "685";
   iframe.frameBorder = "0";
+  iframe.scrolling = "no";
+  iframe.setAttribute("scrolling", "no");
   iframe.allowFullscreen = true;
   iframe.allow = "autoplay; fullscreen";
   iframe.title = channel.label;
