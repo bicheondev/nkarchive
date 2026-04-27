@@ -444,9 +444,10 @@ select {
   position: absolute;
   top: calc(50% - var(--live-player-half-height, 270.5625px) - 16px - 48px);
   left: 50%;
-  z-index: 4;
+  z-index: 45;
   display: flex;
   width: var(--live-player-fit-width, min(962px, calc(100vw - 48px)));
+  pointer-events: none;
   transform: translateX(-50%);
   transition:
     top var(--motion-duration-slow) var(--motion-ease-apple),
@@ -467,8 +468,11 @@ select {
 }
 
 .live-source-control {
+  position: relative;
+  z-index: 1;
   width: 180px;
   margin-right: 0;
+  pointer-events: auto;
 }
 
 .live-source-button,
@@ -487,6 +491,7 @@ select {
   position: absolute;
   top: 50%;
   left: 50%;
+  z-index: 2;
   display: flex;
   flex: 0 0 auto;
   align-items: flex-start;
