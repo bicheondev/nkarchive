@@ -9,6 +9,7 @@ const LOAD_MORE_THRESHOLD = 300;
 const MAX_CONCURRENT_FONT_LOADS = 4;
 const ROUTE_FONT = "font";
 const ROUTE_KCTV = "kctv";
+const LIVE_PATH = "/live";
 const KORYO_PLAYER_BASE_WIDTH = 962;
 const KCTV_PLAYER_BASE_HEIGHT = 541.125;
 const KCNA_PLAYER_WIDTH = 721.5;
@@ -203,8 +204,8 @@ function navigateRoute(event) {
   const route =
     event.currentTarget.dataset.route ||
     url.searchParams.get("route") ||
-    (url.pathname.replace(/\/+$/, "") === "/kctv" ? ROUTE_KCTV : ROUTE_FONT);
-  const pathname = route === ROUTE_KCTV ? "/kctv" : "/font";
+    (url.pathname.replace(/\/+$/, "") === LIVE_PATH ? ROUTE_KCTV : ROUTE_FONT);
+  const pathname = route === ROUTE_KCTV ? LIVE_PATH : "/font";
 
   if (pathname !== window.location.pathname.replace(/\/+$/, "")) {
     window.history.pushState(null, "", pathname);
@@ -221,7 +222,7 @@ function currentRoute() {
   if (requestedRoute === ROUTE_FONT) return ROUTE_FONT;
 
   const path = window.location.pathname.replace(/\/+$/, "") || "/font";
-  if (path === "/kctv") return ROUTE_KCTV;
+  if (path === LIVE_PATH) return ROUTE_KCTV;
   return ROUTE_FONT;
 }
 
@@ -229,17 +230,19 @@ function renderRoute() {
   const route = currentRoute();
   const isKctv = route === ROUTE_KCTV;
 
-  if (window.location.pathname === "/" || window.location.search) {
-    window.history.replaceState(null, "", isKctv ? "/kctv" : "/font");
+  const currentPath = window.location.pathname.replace(/\/+$/, "") || "/";
+  if (currentPath === "/" || window.location.search) {
+    window.history.replaceState(null, "", isKctv ? LIVE_PATH : "/font");
   }
   document.title = isKctv ? "북한방송아카이브" : "북한폰트아카이브";
   document.documentElement.dataset.route = route;
   document.body.dataset.view = route;
   archiveView.hidden = isKctv;
   kctvView.hidden = !isKctv;
+  if (!isKctv) silenceAllKctvPlayers();
   logoLink.textContent = isKctv ? "★Live" : "★Font";
   logoLink.setAttribute("aria-label", isKctv ? "KCTV live home" : "Font archive home");
-  logoLink.href = isKctv ? "/?route=kctv" : "/?route=font";
+  logoLink.href = isKctv ? LIVE_PATH : "/font";
   siteFooter.dataset.view = route;
   renderFooterCopy(isKctv ? KCTV_FOOTER_COPY : FONT_FOOTER_COPY);
 
@@ -400,7 +403,6 @@ function ensureActiveKctvSource() {
 function renderKctvPlayer() {
   ensureActiveKctvSource();
   const playerKey = activeKctvPlayerKey();
-  if (renderedKctvChannel === playerKey) return;
 
   const sourceKey = activeKctvSource;
   const channel = activeKctvSourceConfig();
@@ -457,12 +459,13 @@ function createKoryoPlayer(channel, channelKey, playerKind) {
   iframe.allow = "fullscreen";
   iframe.title = channel.label;
   layer.append(iframe);
-  return { node: layer };
+  return { node: layer, iframe, iframeSrc: channel.src };
 }
 
 function showKctvPlayer(channelKey) {
   for (const [key, player] of kctvPlayerCache) {
     const selected = key === channelKey;
+    if (selected) restoreKctvPlayer(player);
     player.node.hidden = !selected;
     player.node.setAttribute("aria-hidden", String(!selected));
 
@@ -474,6 +477,13 @@ function showKctvPlayer(channelKey) {
   }
 }
 
+function restoreKctvPlayer(player) {
+  if (!player.iframe) return;
+  if (player.iframe.getAttribute("src") !== player.iframeSrc) {
+    player.iframe.src = player.iframeSrc;
+  }
+}
+
 function playKctvPlayerSilently(player) {
   if (!player.video) return;
   player.video.muted = true;
@@ -481,9 +491,19 @@ function playKctvPlayerSilently(player) {
 }
 
 function silenceKctvPlayer(player) {
-  if (!player.video) return;
-  player.video.pause();
-  player.video.muted = true;
+  if (player.video) {
+    player.video.pause();
+    player.video.muted = true;
+  }
+  if (player.iframe && player.iframe.getAttribute("src") !== "about:blank") {
+    player.iframe.src = "about:blank";
+  }
+}
+
+function silenceAllKctvPlayers() {
+  for (const player of kctvPlayerCache.values()) {
+    silenceKctvPlayer(player);
+  }
 }
 
 function createHlsPlayer(channel, channelKey, renderToken) {

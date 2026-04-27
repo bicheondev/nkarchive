@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>북한폰트아카이브</title>
+    <title>북한방송아카이브</title>
     <meta property="og:type" content="website" />
     <meta property="og:image" content="/og.png" />
     <meta property="og:image:secure_url" content="/og.png" />
@@ -16,21 +16,18 @@
     <base href="/" />
     <link rel="stylesheet" href="/styles.css?v=kctv-20260427-34" />
     <script>
-      window.__INITIAL_ROUTE__ = new URLSearchParams(window.location.search).get("route");
-      const initialPath = window.location.pathname.replace(/\/+$/, "");
-      if (window.__INITIAL_ROUTE__ === "kctv" || initialPath === "/live") {
-        document.documentElement.dataset.route = "kctv";
-      }
+      window.__INITIAL_ROUTE__ = "kctv";
+      document.documentElement.dataset.route = "kctv";
     </script>
   </head>
   <body>
     <header class="navigation-bar">
       <div class="navigation-inner">
-        <a class="logo" href="/?route=font" aria-label="Archive home">★Font</a>
+        <a class="logo" href="/font" aria-label="Archive home">★Font</a>
         <nav class="site-nav" aria-label="Primary">
           <a href="#">사전</a>
           <a href="#">음악</a>
-          <a class="active" href="/?route=font" data-route="font">폰트</a>
+          <a class="active" href="/font" data-route="font">폰트</a>
           <a href="#">뉴스</a>
           <a href="#">번역</a>
           <a href="#">문헌</a>
