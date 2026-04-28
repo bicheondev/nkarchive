@@ -292,12 +292,12 @@ select {
   display: flex;
   align-items: center;
   flex: 0 0 auto;
-  gap: 6px;
-  justify-content: flex-start;
+  gap: 0;
+  justify-content: center;
   width: 28px;
   height: 28px;
   overflow: hidden;
-  padding: 4px 5px;
+  padding: 4px;
   border-radius: 1000px;
   background: var(--top-channel-color);
   box-sizing: border-box;
@@ -309,6 +309,8 @@ select {
   white-space: nowrap;
   transition:
     width 420ms var(--motion-ease-apple),
+    gap 420ms var(--motion-ease-apple),
+    padding 420ms var(--motion-ease-apple),
     transform var(--motion-duration-base) var(--motion-ease-apple),
     background-color var(--motion-duration-fast) ease,
     box-shadow var(--motion-duration-base) var(--motion-ease-apple);
@@ -331,7 +333,10 @@ select {
 
 .top-channel-link:hover,
 .top-channel-link:focus-visible {
+  gap: 6px;
+  justify-content: flex-start;
   width: var(--top-channel-expanded-width);
+  padding: 4px 5px;
   background: var(--top-channel-color);
   box-shadow: 0 10px 24px var(--top-channel-shadow-color);
   transform: translate3d(0, -1px, 0);
@@ -357,9 +362,12 @@ select {
   align-items: center;
   flex: 0 0 auto;
   gap: 2px;
+  max-width: 0;
+  overflow: hidden;
   opacity: 0;
   transform: translateX(-4px);
   transition:
+    max-width 420ms var(--motion-ease-apple),
     opacity 120ms ease,
     transform 420ms var(--motion-ease-apple);
   pointer-events: none;
@@ -367,9 +375,11 @@ select {
 
 .top-channel-link:hover .top-channel-content,
 .top-channel-link:focus-visible .top-channel-content {
+  max-width: calc(var(--top-channel-expanded-width) - 34px);
   opacity: 1;
   transform: translateX(0);
   transition:
+    max-width 420ms var(--motion-ease-apple),
     opacity 180ms ease 80ms,
     transform 420ms var(--motion-ease-apple);
 }
