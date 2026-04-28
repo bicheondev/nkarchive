@@ -19,7 +19,7 @@
     <meta name="twitter:image:src" content="/og.png" />
     <base href="/" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link rel="stylesheet" href="/styles.css?v=live-20260428-1" />
+    <link rel="stylesheet" href="/styles.css?v=live-20260428-6" />
     <script>
       window.__INITIAL_ROUTE__ = new URLSearchParams(window.location.search).get("route");
       const initialPath = window.location.pathname.replace(/\/+$/, "");
@@ -32,7 +32,7 @@
     <header class="navigation-bar">
       <div class="navigation-inner">
         <a class="logo" href="/?route=font" aria-label="Archive home">★Font</a>
-        <nav class="site-nav" aria-label="Primary">
+        <nav class="site-nav" id="primaryNav" aria-label="Primary">
           <a href="#">사전</a>
           <a href="#">음악</a>
           <a class="active" href="/?route=font" data-route="font">폰트</a>
@@ -44,20 +44,23 @@
         </nav>
         <div class="top-action-links">
           <a class="top-channel-link discord-channel-link" href="https://discord.gg/QT3T3JpeDD" target="_blank" rel="noopener noreferrer">
-            <img class="top-channel-icon discord-channel-icon" src="/assets/discord-channel.svg?v=live-20260428-1" alt="" aria-hidden="true" />
+            <img class="top-channel-icon discord-channel-icon" src="/assets/discord-channel.svg?v=live-20260428-6" alt="" aria-hidden="true" />
             <span class="top-channel-content">
               <span class="top-channel-text">북한아카이브 디스코드 바로가기</span>
-              <img class="top-channel-arrow" src="/assets/arrow-forward-ios.svg?v=live-20260428-1" alt="" aria-hidden="true" />
+              <img class="top-channel-arrow" src="/assets/arrow-forward-ios.svg?v=live-20260428-6" alt="" aria-hidden="true" />
             </span>
           </a>
           <a class="top-channel-link arca-channel-link" href="https://arca.live/b/dprk/" target="_blank" rel="noopener noreferrer">
-            <img class="top-channel-icon arca-channel-icon" src="/assets/arca-channel.svg?v=live-20260428-1" alt="" aria-hidden="true" />
+            <img class="top-channel-icon arca-channel-icon" src="/assets/arca-channel.svg?v=live-20260428-6" alt="" aria-hidden="true" />
             <span class="top-channel-content arca-channel-content">
               <span class="top-channel-text arca-channel-text">아카라이브 북한 채널 바로가기</span>
-              <img class="top-channel-arrow arca-channel-arrow" src="/assets/arrow-forward-ios.svg?v=live-20260428-1" alt="" aria-hidden="true" />
+              <img class="top-channel-arrow arca-channel-arrow" src="/assets/arrow-forward-ios.svg?v=live-20260428-6" alt="" aria-hidden="true" />
             </span>
           </a>
         </div>
+        <button class="menu-toggle" id="siteMenuToggle" type="button" aria-label="메뉴 열기" aria-controls="primaryNav" aria-expanded="false">
+          <span class="material-symbols-rounded menu-toggle-icon" aria-hidden="true">drag_handle</span>
+        </button>
       </div>
     </header>
 
@@ -174,6 +177,6 @@
       </article>
     </template>
 
-    <script src="/app.js?v=live-20260428-1" defer></script>
+    <script src="/app.js?v=live-20260428-6" defer></script>
   </body>
 </html>

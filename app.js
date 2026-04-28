@@ -97,6 +97,9 @@ const BROADCASTS = {
   },
 };
 const logoLink = document.querySelector(".logo");
+const navigationBar = document.querySelector(".navigation-bar");
+const menuToggle = document.querySelector("#siteMenuToggle");
+const menuToggleIcon = menuToggle?.querySelector(".menu-toggle-icon");
 const navLinks = [...document.querySelectorAll(".site-nav a")];
 const archiveView = document.querySelector("#archiveView");
 const liveView = document.querySelector("#liveView");
@@ -155,6 +158,7 @@ let timetableLoadStarted = false;
 let timetableLoadToken = 0;
 let liveDisclaimerDismissedForVisit = false;
 let liveDisclaimerPreviousFocus = null;
+const mobileMenuMediaQuery = window.matchMedia("(max-width: 1100px)");
 
 const sampleOverrides = new Map();
 const fontLoadStates = new Map();
@@ -202,7 +206,19 @@ function bindRouteEvents() {
     if (!link.dataset.route) continue;
     link.addEventListener("click", navigateRoute);
   }
+  for (const link of navLinks) link.addEventListener("click", closeMobileMenu);
   logoLink.addEventListener("click", navigateRoute);
+  menuToggle?.addEventListener("click", toggleMobileMenu);
+  document.addEventListener("click", closeMobileMenuOnOutsideClick);
+  document.addEventListener("keydown", handleMobileMenuKeydown);
+  const closeMenuOnDesktop = (event) => {
+    if (!event.matches) closeMobileMenu();
+  };
+  if (typeof mobileMenuMediaQuery.addEventListener === "function") {
+    mobileMenuMediaQuery.addEventListener("change", closeMenuOnDesktop);
+  } else {
+    mobileMenuMediaQuery.addListener(closeMenuOnDesktop);
+  }
 }
 
 function navigateRoute(event) {
@@ -236,6 +252,7 @@ function currentRoute() {
 }
 
 function renderRoute() {
+  closeMobileMenu();
   const route = currentRoute();
   const isLive = route === ROUTE_LIVE;
 
@@ -272,6 +289,34 @@ function renderRoute() {
     hideLiveDisclaimer(false);
     liveDisclaimerDismissedForVisit = false;
   }
+}
+
+function toggleMobileMenu() {
+  setMobileMenuOpen(!document.body.classList.contains("mobile-menu-open"));
+}
+
+function closeMobileMenu() {
+  setMobileMenuOpen(false);
+}
+
+function setMobileMenuOpen(open) {
+  const shouldOpen = Boolean(open) && mobileMenuMediaQuery.matches;
+  document.body.classList.toggle("mobile-menu-open", shouldOpen);
+  navigationBar?.classList.toggle("menu-open", shouldOpen);
+  menuToggle?.classList.toggle("active", shouldOpen);
+  menuToggle?.setAttribute("aria-expanded", String(shouldOpen));
+  menuToggle?.setAttribute("aria-label", shouldOpen ? "메뉴 닫기" : "메뉴 열기");
+  if (menuToggleIcon) menuToggleIcon.textContent = shouldOpen ? "close" : "drag_handle";
+}
+
+function closeMobileMenuOnOutsideClick(event) {
+  if (!document.body.classList.contains("mobile-menu-open")) return;
+  if (navigationBar?.contains(event.target)) return;
+  closeMobileMenu();
+}
+
+function handleMobileMenuKeydown(event) {
+  if (event.key === "Escape") closeMobileMenu();
 }
 
 function renderFooterCopy(lines) {
