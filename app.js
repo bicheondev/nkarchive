@@ -13,12 +13,25 @@ const LIVE_PATH = "/live";
 const LIVE_DISCLAIMER_STORAGE_KEY = "live-disclaimer-dismissed";
 const R2_ASSET_BASE_URL = "https://pub-a12b2bbd25db44479f7ca23251a65bef.r2.dev";
 const KORYO_PLAYER_BASE_WIDTH = 962;
+const KORYO_IFRAME_DESKTOP_WIDTH = 1649;
+const KORYO_IFRAME_DESKTOP_HEIGHT = 685;
+const KORYO_IFRAME_DESKTOP_CROP_LEFT = -157;
+const KORYO_IFRAME_DESKTOP_CROP_TOP = -144;
+const KORYO_MOBILE_IFRAME_MIN_WIDTH = 320;
+const KORYO_MOBILE_IFRAME_MAX_WIDTH = 430;
+const KORYO_MOBILE_IFRAME_HEIGHT = 760;
+const KORYO_MOBILE_PAGE_PADDING_X = 16;
+const KORYO_MOBILE_PLAYER_TOP = 72;
 const VIDEO_PLAYER_BASE_HEIGHT = 541.125;
 const KCNA_PLAYER_WIDTH = 721.5;
 const RADIO_PLAYER_BASE_WIDTH = 700;
 const RADIO_PLAYER_BASE_HEIGHT = 400;
 const KORYO_RADIO_PLAYER_BASE_WIDTH = 500;
 const KORYO_RADIO_PLAYER_BASE_HEIGHT = 74;
+const KORYO_RADIO_IFRAME_HEIGHT = 322;
+const KORYO_RADIO_CROP_LEFT = -573.5;
+const KORYO_RADIO_KCBS_CROP_TOP = -248;
+const KORYO_RADIO_VOK_CROP_TOP = -224;
 const HLS_SCRIPT_URL = "https://cdn.jsdelivr.net/npm/hls.js@1.5.20/dist/hls.min.js";
 const TIMETABLE_API_URL = "https://apis.data.go.kr/1250000/tvprgm/getTvprgm";
 const TIMETABLE_HTML_DETAIL_URL = "https://nkinfo.unikorea.go.kr/nkp/tvPrgr/view.do";
@@ -159,6 +172,7 @@ let timetableLoadToken = 0;
 let liveDisclaimerDismissedForVisit = false;
 let liveDisclaimerPreviousFocus = null;
 const mobileMenuMediaQuery = window.matchMedia("(max-width: 1100px)");
+const koryoMobileMediaQuery = window.matchMedia("(max-width: 768px)");
 
 const sampleOverrides = new Map();
 const fontLoadStates = new Map();
@@ -405,6 +419,7 @@ function bindLiveEvents() {
     livePlayerResizeObserver.observe(livePlayerFrame);
   }
   window.addEventListener("resize", debounce(updateLivePlayerScale, 80));
+  addMediaQueryChangeListener(koryoMobileMediaQuery, updateLivePlayerScale);
 }
 
 function showLiveDisclaimerIfNeeded() {
@@ -616,8 +631,8 @@ function createKoryoPlayer(channel, channelKey, playerKind) {
   iframe.className = isRadioIframe ? "live-koryo-frame live-koryo-radio-frame" : "live-koryo-frame";
   layer.classList.toggle("live-koryo-radio-layer", isRadioIframe);
   iframe.src = channel.src;
-  iframe.width = "1649";
-  iframe.height = isRadioIframe ? "322" : "685";
+  iframe.width = String(KORYO_IFRAME_DESKTOP_WIDTH);
+  iframe.height = String(isRadioIframe ? KORYO_RADIO_IFRAME_HEIGHT : KORYO_IFRAME_DESKTOP_HEIGHT);
   iframe.frameBorder = "0";
   iframe.scrolling = "no";
   iframe.setAttribute("scrolling", "no");
@@ -625,7 +640,7 @@ function createKoryoPlayer(channel, channelKey, playerKind) {
   iframe.allow = "fullscreen";
   iframe.title = channel.label;
   layer.append(iframe);
-  return { node: layer, iframe, iframeSrc: channel.src };
+  return { node: layer, iframe, iframeSrc: channel.src, playerKind };
 }
 
 function showLivePlayer(channelKey) {
@@ -927,6 +942,7 @@ function activeBroadcastSupportsSchedule() {
 function updateLivePlayerScale() {
   const source = activeSourceConfig();
   const playerKind = activePlayerKind(source);
+  syncActiveKoryoViewport(playerKind);
   const size = livePlayerBaseSize(playerKind);
   const shellHeight = liveView.clientHeight || size.height;
   const viewportWidth = document.documentElement.clientWidth || window.innerWidth;
@@ -947,6 +963,7 @@ function updateLivePlayerScale() {
   livePlayerFrame.style.setProperty("--live-player-scale", scale.toFixed(6));
   livePlayerFrame.classList.toggle("radio", playerKind === "radio");
   livePlayerFrame.classList.toggle("koryo-radio", playerKind === "koryo-radio");
+  livePlayerFrame.dataset.koryoViewport = isMobileKoryoVideoViewport(playerKind) ? "mobile" : "desktop";
 }
 
 function livePlayerBaseSize(playerKind) {
@@ -956,10 +973,87 @@ function livePlayerBaseSize(playerKind) {
   if (playerKind === "koryo-radio") {
     return { width: KORYO_RADIO_PLAYER_BASE_WIDTH, height: KORYO_RADIO_PLAYER_BASE_HEIGHT };
   }
+  if (isMobileKoryoVideoViewport(playerKind)) {
+    const metrics = koryoMobileVideoMetrics();
+    return { width: metrics.playerWidth, height: metrics.playerHeight };
+  }
   return {
     width: activeSource === "kcna" ? KCNA_PLAYER_WIDTH : KORYO_PLAYER_BASE_WIDTH,
     height: VIDEO_PLAYER_BASE_HEIGHT,
   };
+}
+
+function syncActiveKoryoViewport(playerKind) {
+  const player = livePlayerCache.get(activePlayerKey());
+  if (!player?.iframe) return;
+
+  const metrics = koryoIframeViewportMetrics(playerKind);
+  livePlayerFrame.style.setProperty("--live-koryo-iframe-width", `${metrics.iframeWidth}px`);
+  livePlayerFrame.style.setProperty("--live-koryo-iframe-height", `${metrics.iframeHeight}px`);
+  livePlayerFrame.style.setProperty("--live-koryo-crop-left", `${metrics.cropLeft}px`);
+  livePlayerFrame.style.setProperty("--live-koryo-crop-top", `${metrics.cropTop}px`);
+
+  player.iframe.width = String(metrics.iframeWidth);
+  player.iframe.height = String(metrics.iframeHeight);
+  player.iframe.dataset.viewport = metrics.viewport;
+}
+
+function koryoIframeViewportMetrics(playerKind) {
+  if (playerKind === "koryo-radio") {
+    return {
+      viewport: "desktop",
+      iframeWidth: KORYO_IFRAME_DESKTOP_WIDTH,
+      iframeHeight: KORYO_RADIO_IFRAME_HEIGHT,
+      cropLeft: KORYO_RADIO_CROP_LEFT,
+      cropTop: activeBroadcast === "vok" ? KORYO_RADIO_VOK_CROP_TOP : KORYO_RADIO_KCBS_CROP_TOP,
+    };
+  }
+
+  if (isMobileKoryoVideoViewport(playerKind)) {
+    const metrics = koryoMobileVideoMetrics();
+    return {
+      viewport: "mobile",
+      iframeWidth: metrics.iframeWidth,
+      iframeHeight: KORYO_MOBILE_IFRAME_HEIGHT,
+      cropLeft: -KORYO_MOBILE_PAGE_PADDING_X,
+      cropTop: -KORYO_MOBILE_PLAYER_TOP,
+    };
+  }
+
+  return {
+    viewport: "desktop",
+    iframeWidth: KORYO_IFRAME_DESKTOP_WIDTH,
+    iframeHeight: KORYO_IFRAME_DESKTOP_HEIGHT,
+    cropLeft: KORYO_IFRAME_DESKTOP_CROP_LEFT,
+    cropTop: KORYO_IFRAME_DESKTOP_CROP_TOP,
+  };
+}
+
+function isMobileKoryoVideoViewport(playerKind = activePlayerKind()) {
+  return activeSource === "koryo" && playerKind === "video" && koryoMobileMediaQuery.matches;
+}
+
+function koryoMobileVideoMetrics() {
+  const viewportWidth = document.documentElement.clientWidth || window.innerWidth || KORYO_MOBILE_IFRAME_MAX_WIDTH;
+  const iframeWidth = clampNumber(viewportWidth, KORYO_MOBILE_IFRAME_MIN_WIDTH, KORYO_MOBILE_IFRAME_MAX_WIDTH);
+  const playerWidth = Math.max(1, iframeWidth - KORYO_MOBILE_PAGE_PADDING_X * 2);
+  return {
+    iframeWidth,
+    playerWidth,
+    playerHeight: playerWidth * (9 / 16),
+  };
+}
+
+function clampNumber(value, min, max) {
+  return Math.min(max, Math.max(min, value));
+}
+
+function addMediaQueryChangeListener(mediaQuery, listener) {
+  if (typeof mediaQuery.addEventListener === "function") {
+    mediaQuery.addEventListener("change", listener);
+  } else {
+    mediaQuery.addListener(listener);
+  }
 }
 
 function moveTimetableDate(delta) {
