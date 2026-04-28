@@ -1308,17 +1308,15 @@ select {
   width: 24px;
   height: 24px;
   flex: 0 0 auto;
-  border: 2px solid var(--slate-300);
-  border-radius: 6px;
-  background: var(--slate-0);
+  border: 0;
+  border-radius: 0;
+  background: url("/assets/live-alert-checkbox-blank.svg") center / 24px 24px no-repeat;
   transition:
-    background-color var(--motion-duration-fast) ease,
-    border-color var(--motion-duration-fast) ease,
+    background-image var(--motion-duration-fast) ease,
     transform var(--motion-duration-base) var(--motion-ease-apple);
 }
 
 .live-disclaimer-choice input:checked + .live-disclaimer-checkbox {
-  border-color: transparent;
   background: url("/assets/live-alert-checkbox.svg") center / 24px 24px no-repeat;
 }
 
