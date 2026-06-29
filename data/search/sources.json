@@ -1,0 +1,392 @@
+[
+  {
+    "id": "rodong-sinmun",
+    "name": "로동신문",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.rodong.rep.kp/",
+    "languages": [
+      "ko"
+    ],
+    "mediaTypes": [
+      "article",
+      "image"
+    ],
+    "aliases": [
+      "노동신문",
+      "Rodong Sinmun",
+      "Rodong"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.rodong.rep.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "kcna",
+    "name": "조선중앙통신",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.kcna.kp/",
+    "languages": [
+      "ko",
+      "en",
+      "ja",
+      "zh",
+      "ru",
+      "es"
+    ],
+    "mediaTypes": [
+      "article",
+      "image"
+    ],
+    "aliases": [
+      "KCNA",
+      "Korean Central News Agency",
+      "조선중앙통신사"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.kcna.kp/kp",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .news, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "voice-of-korea",
+    "name": "조선의 소리",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.vok.rep.kp/",
+    "languages": [
+      "ko",
+      "en",
+      "ja",
+      "zh",
+      "ru",
+      "es",
+      "fr",
+      "ar",
+      "de"
+    ],
+    "mediaTypes": [
+      "article",
+      "broadcast"
+    ],
+    "aliases": [
+      "Voice of Korea",
+      "VOK",
+      "조선의소리"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.vok.rep.kp/index.php/Colist/newslist/18/ko",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "minju-choson",
+    "name": "민주조선",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.minju.rep.kp/",
+    "languages": [
+      "ko"
+    ],
+    "mediaTypes": [
+      "article",
+      "image"
+    ],
+    "aliases": [
+      "Minju Choson",
+      "Minju Joson"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.minju.rep.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "ryugyong",
+    "name": "류경",
+    "sourceType": "official_site",
+    "baseUrl": "https://www.mediaryugyong.com.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "video"
+    ],
+    "aliases": [
+      "Ryugyong",
+      "Media Ryugyong",
+      "류경"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.mediaryugyong.com.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "naenara",
+    "name": "내나라",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.naenara.com.kp/",
+    "languages": [
+      "ko",
+      "en",
+      "ja",
+      "zh",
+      "ru",
+      "es",
+      "fr",
+      "de",
+      "ar"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "pdf"
+    ],
+    "aliases": [
+      "Naenara",
+      "내나라"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.naenara.com.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "choson-sinbo",
+    "name": "조선신보",
+    "sourceType": "archive",
+    "baseUrl": "https://www.chosonsinbo.com/",
+    "languages": [
+      "ko",
+      "ja"
+    ],
+    "mediaTypes": [
+      "article",
+      "image"
+    ],
+    "aliases": [
+      "Choson Sinbo",
+      "조선신보"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "https://www.chosonsinbo.com/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .entry-content, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "korean-books",
+    "name": "조선의 출판물",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.korean-books.com.kp/",
+    "languages": [
+      "ko",
+      "en",
+      "ja",
+      "zh",
+      "ru"
+    ],
+    "mediaTypes": [
+      "pdf"
+    ],
+    "aliases": [
+      "Korean Books",
+      "Korean Publications",
+      "조선출판물"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.korean-books.com.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "kcna-watch",
+    "name": "KCNA Watch",
+    "sourceType": "archive",
+    "baseUrl": "https://kcnawatch.org/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "pdf",
+      "image",
+      "video"
+    ],
+    "aliases": [
+      "KCNA Watch",
+      "조선중앙통신 아카이브",
+      "Korean Central News Agency"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "https://kcnawatch.org/",
+      "strategy": "archive-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1.entry-title, h1, h2, title",
+        "date": "time, .date, .entry-date",
+        "body": "article, .entry-content, main, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "koryo-vod",
+    "name": "고려TV VOD",
+    "sourceType": "video_archive",
+    "baseUrl": "https://vod.koryo.tv/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "video"
+    ],
+    "aliases": [
+      "고려TV",
+      "Koryo TV",
+      "Koryo VOD",
+      "VOD"
+    ],
+    "searchTabs": [
+      "all",
+      "video"
+    ],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "https://vod.koryo.tv/",
+      "strategy": "video-json-api",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "youtube",
+    "name": "YouTube",
+    "sourceType": "video_archive",
+    "baseUrl": "https://www.youtube.com/",
+    "languages": [
+      "ko",
+      "en",
+      "ja",
+      "zh",
+      "ru",
+      "multi"
+    ],
+    "mediaTypes": [
+      "video"
+    ],
+    "aliases": [
+      "메아리",
+      "Meari",
+      "YouTube Meari",
+      "supersuhui",
+      "슈퍼수희",
+      "YouTube supersuhui"
+    ],
+    "searchTabs": [
+      "all",
+      "video"
+    ],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "https://www.youtube.com/",
+      "strategy": "youtube-rss-metadata",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {},
+      "notes": ""
+    }
+  }
+]

@@ -234,13 +234,21 @@ select {
   white-space: nowrap;
 }
 
-.site-nav a {
+.site-nav a,
+.site-nav-disabled {
   position: relative;
   font-weight: 400;
   transition:
     color var(--motion-duration-fast) ease,
     opacity var(--motion-duration-fast) ease,
     transform var(--motion-duration-base) var(--motion-ease-apple);
+}
+
+.site-nav-disabled {
+  cursor: default;
+  opacity: 0.48;
+  user-select: none;
+  pointer-events: none;
 }
 
 .site-nav a::after {
@@ -2045,7 +2053,8 @@ select {
     visibility: visible;
   }
 
-  .site-nav a {
+  .site-nav a,
+  .site-nav-disabled {
     width: 100%;
     padding: 14px 0;
     font-weight: 600;

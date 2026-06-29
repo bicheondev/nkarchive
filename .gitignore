@@ -8,6 +8,8 @@ dist/
 !.env.example
 
 # large/generated assets
+data/import/
+data/search/meilisearch-seed.json
 
 # large font assets
 font.zip

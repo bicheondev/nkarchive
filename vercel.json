@@ -1,0 +1,87 @@
+{
+  "functions": {
+    "api/search-asset.js": {
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/search",
+      "destination": "/search/index.html"
+    },
+    {
+      "source": "/search/",
+      "destination": "/search/index.html"
+    },
+    {
+      "source": "/search/results",
+      "destination": "/search/results/index.html"
+    },
+    {
+      "source": "/search/results/",
+      "destination": "/search/results/index.html"
+    },
+    {
+      "source": "/search/document",
+      "destination": "/search/document/index.html"
+    },
+    {
+      "source": "/search/document/",
+      "destination": "/search/document/index.html"
+    },
+    {
+      "source": "/font",
+      "destination": "/font/index.html"
+    },
+    {
+      "source": "/music",
+      "destination": "/music/index.html"
+    },
+    {
+      "source": "/live",
+      "destination": "/live/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/search-asset",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, s-maxage=604800, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
+      "source": "/data/search/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/data/search/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=60, s-maxage=300, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/search/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ]
+}

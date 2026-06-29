@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "audit:search": "node scripts/audit-search-production.ts",
+    "cache:search-assets": "node scripts/cache-search-assets.ts",
+    "ci:search": "node scripts/ci-search-release.ts",
+    "ingest:search": "node scripts/ingest-search-documents.ts",
+    "import:kcna-watch": "node scripts/import-kcna-watch.ts",
+    "import:koryo-vod": "node scripts/import-koryo-vod.ts",
+    "import:official-sites": "node scripts/import-official-sites.ts",
+    "import:search": "node scripts/import-search-index.ts",
+    "import:youtube-metadata": "node scripts/import-youtube-metadata.ts",
+    "preflight:search": "node scripts/preflight-search-release.ts",
+    "release:search": "node scripts/release-search-production.ts",
+    "search:local": "node scripts/search-local.ts",
+    "seed:search": "node scripts/seed-search.ts",
+    "smoke:search-crawl": "node scripts/smoke-search-crawl.ts",
+    "sync:meilisearch": "node scripts/sync-meilisearch.ts",
+    "test:search": "node scripts/test-search-correctness.ts",
+    "upload:search-assets": "node scripts/upload-search-assets-r2.ts",
+    "validate:search": "node scripts/validate-search-index.ts",
+    "verify:vercel-bundle": "node scripts/verify-vercel-bundle.ts",
+    "verify:search-production": "node scripts/verify-search-production.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "undici": "^7.25.0"
+  }
+}

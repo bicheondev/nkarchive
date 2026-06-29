@@ -1,0 +1,277 @@
+{
+  "generatedAt": "2026-06-29T10:12:36.074Z",
+  "dryRun": false,
+  "fetchProxy": {
+    "enabled": false,
+    "mode": "direct"
+  },
+  "outboundProxy": {
+    "enabled": false,
+    "mode": "direct"
+  },
+  "documents": 2041,
+  "selectedDocuments": 193,
+  "sourceIds": [
+    "kcna-watch"
+  ],
+  "excludedSourceIds": [],
+  "concurrency": 4,
+  "attempted": 192,
+  "cached": 0,
+  "kept": 192,
+  "skipped": 1,
+  "failed": 0,
+  "failures": [],
+  "failureSummary": {
+    "bySource": [],
+    "byError": []
+  },
+  "assetCoverage": {
+    "before": {
+      "documents": 2041,
+      "documentsWithCandidates": 980,
+      "candidates": 1017,
+      "cached": 478,
+      "missing": 539,
+      "selectedDocumentsWithCandidates": 192,
+      "selectedCandidates": 192,
+      "selectedCached": 192,
+      "selectedMissing": 0,
+      "bySource": [
+        {
+          "sourceId": "ryugyong",
+          "documentsWithCandidates": 360,
+          "candidates": 360,
+          "cached": 0,
+          "missing": 360,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "voice-of-korea",
+          "documentsWithCandidates": 94,
+          "candidates": 94,
+          "cached": 0,
+          "missing": 94,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "korean-books",
+          "documentsWithCandidates": 40,
+          "candidates": 77,
+          "cached": 0,
+          "missing": 77,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "kcna",
+          "documentsWithCandidates": 6,
+          "candidates": 6,
+          "cached": 0,
+          "missing": 6,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "naenara",
+          "documentsWithCandidates": 1,
+          "candidates": 1,
+          "cached": 0,
+          "missing": 1,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "rodong-sinmun",
+          "documentsWithCandidates": 1,
+          "candidates": 1,
+          "cached": 0,
+          "missing": 1,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "koryo-vod",
+          "documentsWithCandidates": 200,
+          "candidates": 200,
+          "cached": 200,
+          "missing": 0,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "kcna-watch",
+          "documentsWithCandidates": 192,
+          "candidates": 192,
+          "cached": 192,
+          "missing": 0,
+          "selectedDocumentsWithCandidates": 192,
+          "selectedCandidates": 192,
+          "selectedCached": 192,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "minju-choson",
+          "documentsWithCandidates": 56,
+          "candidates": 56,
+          "cached": 56,
+          "missing": 0,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "youtube",
+          "documentsWithCandidates": 30,
+          "candidates": 30,
+          "cached": 30,
+          "missing": 0,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        }
+      ]
+    },
+    "after": {
+      "documents": 2041,
+      "documentsWithCandidates": 980,
+      "candidates": 1017,
+      "cached": 478,
+      "missing": 539,
+      "selectedDocumentsWithCandidates": 192,
+      "selectedCandidates": 192,
+      "selectedCached": 192,
+      "selectedMissing": 0,
+      "bySource": [
+        {
+          "sourceId": "ryugyong",
+          "documentsWithCandidates": 360,
+          "candidates": 360,
+          "cached": 0,
+          "missing": 360,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "voice-of-korea",
+          "documentsWithCandidates": 94,
+          "candidates": 94,
+          "cached": 0,
+          "missing": 94,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "korean-books",
+          "documentsWithCandidates": 40,
+          "candidates": 77,
+          "cached": 0,
+          "missing": 77,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "kcna",
+          "documentsWithCandidates": 6,
+          "candidates": 6,
+          "cached": 0,
+          "missing": 6,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "naenara",
+          "documentsWithCandidates": 1,
+          "candidates": 1,
+          "cached": 0,
+          "missing": 1,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "rodong-sinmun",
+          "documentsWithCandidates": 1,
+          "candidates": 1,
+          "cached": 0,
+          "missing": 1,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "koryo-vod",
+          "documentsWithCandidates": 200,
+          "candidates": 200,
+          "cached": 200,
+          "missing": 0,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "kcna-watch",
+          "documentsWithCandidates": 192,
+          "candidates": 192,
+          "cached": 192,
+          "missing": 0,
+          "selectedDocumentsWithCandidates": 192,
+          "selectedCandidates": 192,
+          "selectedCached": 192,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "minju-choson",
+          "documentsWithCandidates": 56,
+          "candidates": 56,
+          "cached": 56,
+          "missing": 0,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        },
+        {
+          "sourceId": "youtube",
+          "documentsWithCandidates": 30,
+          "candidates": 30,
+          "cached": 30,
+          "missing": 0,
+          "selectedDocumentsWithCandidates": 0,
+          "selectedCandidates": 0,
+          "selectedCached": 0,
+          "selectedMissing": 0
+        }
+      ]
+    }
+  }
+}

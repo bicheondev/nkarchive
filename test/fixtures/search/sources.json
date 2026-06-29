@@ -1,0 +1,18 @@
+[
+  {
+    "id": "fixture-source",
+    "name": "Fixture Daily",
+    "sourceType": "archive",
+    "baseUrl": "https://example.test/",
+    "languages": ["ko"],
+    "mediaTypes": ["article"],
+    "aliases": ["Fixture Source"],
+    "crawler": {
+      "enabled": false,
+      "entryUrl": "https://example.test/",
+      "strategy": "fixture",
+      "schedule": "manual",
+      "robotsPolicy": "fixture"
+    }
+  }
+]

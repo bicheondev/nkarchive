@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>검색 결과 - 북한 공개자료 통합검색</title>
+    <meta name="description" content="북한 공개자료 통합검색 결과" />
+    <base href="/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/search/search.css?v=search-20260522-113" />
+  </head>
+  <body data-search-page="results">
+    <header class="search-nav">
+      <div class="search-nav-inner">
+        <a class="search-logo" href="/search" aria-label="검색 홈">★Search</a>
+        <div class="search-nav-menu" id="searchNavMenu">
+          <nav class="search-nav-links" aria-label="주요 메뉴">
+            <span class="search-nav-disabled" aria-disabled="true">사전</span>
+            <a href="/music">음악</a>
+            <a href="/font">폰트</a>
+            <span class="search-nav-disabled" aria-disabled="true">뉴스</span>
+            <span class="search-nav-disabled" aria-disabled="true">번역</span>
+            <span class="search-nav-disabled" aria-disabled="true">문헌</span>
+            <span class="search-nav-disabled" aria-disabled="true">스토어</span>
+            <a href="/live">KCTV</a>
+            <a class="active" href="/search" aria-current="page">검색</a>
+          </nav>
+          <div class="search-nav-actions">
+            <span class="search-nav-disabled" aria-disabled="true">도움말</span>
+            <span class="search-nav-disabled" aria-disabled="true">설정</span>
+          </div>
+        </div>
+        <button class="search-menu-button" type="button" aria-label="메뉴" aria-controls="searchNavMenu" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="searchPortalRoot" class="search-portal" data-search-root></main>
+
+    <script src="/search/search-config.js?v=search-20260522-113"></script>
+    <script type="module" src="/search/searchPortal.js?v=search-20260522-113"></script>
+  </body>
+</html>

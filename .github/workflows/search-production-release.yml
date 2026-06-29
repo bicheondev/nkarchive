@@ -1,0 +1,91 @@
+name: Search Production Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      proxy:
+        description: "Optional crawler proxy URL"
+        required: false
+        default: "http://34.11.153.107:3128"
+      verify_url:
+        description: "Public search deployment URL"
+        required: false
+        default: "https://nkarchive.vercel.app"
+      deploy_vercel:
+        description: "Run Vercel production deploy before verification"
+        required: true
+        type: boolean
+        default: false
+      skip_smoke:
+        description: "Skip live crawler smoke"
+        required: true
+        type: boolean
+        default: false
+      skip_verify:
+        description: "Skip public deployment verification"
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: search-production-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      MEILISEARCH_HOST: ${{ secrets.MEILISEARCH_HOST }}
+      MEILISEARCH_KEY: ${{ secrets.MEILISEARCH_KEY }}
+      MEILI_DOCUMENT_INDEX: ${{ vars.MEILI_DOCUMENT_INDEX }}
+      MEILI_SUGGESTION_INDEX: ${{ vars.MEILI_SUGGESTION_INDEX }}
+      R2_PUBLIC_BASE_URL: ${{ secrets.R2_PUBLIC_BASE_URL }}
+      R2_OBJECT_PREFIX: ${{ vars.R2_OBJECT_PREFIX }}
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_REGION: ${{ vars.R2_REGION }}
+      DPRK_SEARCH_PUBLIC_BASE_URL: ${{ inputs.verify_url }}
+      DPRK_SEARCH_ASSET_PROXY: ${{ inputs.proxy }}
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "26"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run production search release
+        shell: bash
+        run: |
+          args=(--confirm-production)
+          if [[ -n "${{ inputs.proxy }}" ]]; then
+            args+=(--proxy "${{ inputs.proxy }}")
+          fi
+          if [[ -n "${{ inputs.verify_url }}" ]]; then
+            args+=(--verify-url "${{ inputs.verify_url }}")
+          fi
+          if [[ "${{ inputs.deploy_vercel }}" == "true" ]]; then
+            args+=(--deploy-vercel)
+          fi
+          if [[ "${{ inputs.skip_smoke }}" == "true" ]]; then
+            args+=(--skip-smoke)
+          fi
+          if [[ "${{ inputs.skip_verify }}" == "true" ]]; then
+            args+=(--skip-verify)
+          fi
+          npm run release:search -- "${args[@]}"
