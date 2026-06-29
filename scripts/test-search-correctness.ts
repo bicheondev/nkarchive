@@ -378,16 +378,25 @@ async function assertSearchNavigationIsAccessible() {
     assert.equal(html.includes('id="searchNavMenu"'), true, `${name} should expose a controlled mobile nav menu region`);
     assert.equal(html.includes('aria-controls="searchNavMenu"'), true, `${name} menu button should control the nav region`);
     assert.equal(html.includes('aria-expanded="false"'), true, `${name} menu button should start collapsed`);
+    assert.equal(html.includes('/search/search.css?v=search-20260629-1'), true, `${name} should use the current search style cache key`);
     assert.equal(html.includes('href="#"'), false, `${name} should not ship dead placeholder navigation links`);
     assert.equal(html.includes('aria-disabled="true"'), true, `${name} should mark unavailable nav destinations as disabled text`);
     assert.equal(html.includes('aria-label="검색 홈"'), true, `${name} logo link should use a Korean accessible name`);
     assert.equal(html.includes('aria-label="주요 메뉴"'), true, `${name} primary navigation should use a Korean accessible name`);
+    assert.equal(html.includes(">방송</a>"), true, `${name} should use the same Korean broadcast label as the project shell`);
+    assert.equal(html.includes("KCTV"), false, `${name} should not use a search-only broadcast label in the shared nav`);
+    assert.equal(html.includes("도움말"), false, `${name} should not ship disabled search-only utility links in the shared nav`);
+    assert.equal(html.includes("설정"), false, `${name} should not ship disabled search-only utility links in the shared nav`);
     assert.equal(html.includes('aria-label="Search home"'), false, `${name} should not expose English logo labels inside the Korean search portal`);
     assert.equal(html.includes('aria-label="Primary"'), false, `${name} should not expose English nav labels inside the Korean search portal`);
   }
 
+  assert.equal(css.includes('--search-font: "Pretendard Variable", Pretendard'), true, "search UI font stack should prioritize Pretendard consistently");
+  assert.equal(css.includes('src: url("/assets/fonts/PretendardVariable.woff2")'), true, "search UI should load Pretendard from a local static asset");
+  assert.equal(css.includes("search-nav-actions"), false, "search UI should not keep removed utility-nav styling around the shared header");
   assert.equal(css.includes("body.search-nav-open .search-nav-menu"), true, "mobile nav CSS should render the collapsed menu when opened");
   assert.equal(css.includes(".search-nav-disabled"), true, "disabled nav destinations should keep explicit styling");
+  assert.equal(css.includes("body.search-nav-open .search-nav-links span"), true, "mobile search nav should give disabled items the same spacing as links");
   assert.equal(/letter-spacing:\s*-\d/.test(css), false, "search UI CSS should not use negative letter spacing");
   assertCssCustomPropertiesResolved(css, "search/search.css");
   assert.equal(portalSource.includes("initializeSearchNavigation"), true, "search portal should initialize mobile nav behavior");
@@ -403,10 +412,17 @@ async function assertProjectShellNavigationIsAccessible() {
   const navMatch = homeHtml.match(/<nav class="site-nav"[\s\S]*?<\/nav>/);
   assert.notEqual(navMatch, null, "project shell should keep a primary navigation region");
   assert.equal(homeHtml.includes('href="#"'), false, "project shell should not ship dead placeholder links anywhere in the page");
+  assert.equal(homeHtml.includes('aria-label="아카이브 홈"'), true, "project shell logo link should use a Korean accessible name");
+  assert.equal(homeHtml.includes('aria-label="주요 메뉴"'), true, "project shell primary navigation should use a Korean accessible name");
+  assert.equal(homeHtml.includes('aria-label="Archive home"'), false, "project shell should not expose English logo labels");
+  assert.equal(homeHtml.includes('aria-label="Primary"'), false, "project shell should not expose English nav labels");
+  assert.equal(homeHtml.includes('/styles.css?v=style-20260629-2'), true, "project shell should use the current shared style cache key");
   const navHtml = navMatch?.[0] || "";
   assert.equal(navHtml.includes('href="#"'), false, "project shell navigation should not ship dead placeholder links");
   assert.equal(navHtml.includes('class="site-nav-disabled"'), true, "unavailable project shell destinations should render as disabled text");
   assert.equal(navHtml.includes('aria-disabled="true"'), true, "unavailable project shell destinations should expose disabled state");
+  assert.equal(css.includes('--ui-font-family: "Pretendard Variable", Pretendard'), true, "project shell font stack should prioritize Pretendard consistently");
+  assert.equal(css.includes('src: url("/assets/fonts/PretendardVariable.woff2")'), true, "project shell should load Pretendard from the same local static asset as search");
   assert.equal(css.includes(".site-nav-disabled"), true, "disabled project shell nav destinations should keep explicit styling");
   assert.equal(homeHtml.includes('class="download-button" download'), true, "download card template should start without a placeholder URL before app.js assigns the real font asset");
   assert.equal((await fs.readFile(path.join(ROOT_DIR, "app.js"), "utf8")).includes('card.querySelector(".download-button").href = encodeFontUrl(assetUrl(font.path));'), true, "project shell should assign real font download URLs when rendering cards");

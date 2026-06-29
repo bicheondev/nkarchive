@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Pretendard Variable";
+  font-style: normal;
+  font-weight: 45 920;
+  font-display: swap;
+  src: url("/assets/fonts/PretendardVariable.woff2") format("woff2-variations");
+}
+
 :root {
   --search-slate-0: #ffffff;
   --search-slate-50: #f8fafc;
@@ -15,7 +23,7 @@
   --search-page-x: 232px;
   --search-results-x: 300px;
   --search-nav-height: 64px;
-  --search-font: "Pretendard", "Pretendard Variable", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", sans-serif;
+  --search-font: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", sans-serif;
 }
 
 * {
@@ -78,6 +86,7 @@ button {
   background: rgba(255, 255, 255, 0.7);
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
+  animation: search-nav-enter 520ms cubic-bezier(0.16, 1, 0.3, 1) backwards;
 }
 
 .search-nav-inner {
@@ -91,11 +100,26 @@ button {
 
 .search-logo {
   color: var(--search-slate-600);
+  font-family: var(--search-font);
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
+  transition:
+    color 160ms ease,
+    transform 260ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.search-logo:hover,
+.search-logo:focus-visible {
+  color: var(--search-slate-700);
+  outline: 0;
+  transform: translate3d(0, -1px, 0);
+}
+
+.search-logo:active {
+  transform: translate3d(0, 0, 0) scale(0.985);
 }
 
 .search-nav-menu {
@@ -113,28 +137,58 @@ button {
 }
 
 .search-nav-links a,
-.search-nav-links span,
-.search-nav-actions a,
-.search-nav-actions span {
+.search-nav-links span {
+  position: relative;
+  font-weight: 400;
   white-space: nowrap;
+}
+
+.search-nav-links a {
+  transition:
+    color 160ms ease,
+    opacity 160ms ease,
+    transform 260ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .search-nav-links a.active {
   font-weight: 700;
 }
 
-.search-nav-disabled {
-  cursor: default;
+.search-nav-links a::after {
+  position: absolute;
+  right: 0;
+  bottom: -6px;
+  left: 0;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+  content: "";
+  opacity: 0;
+  transform: scaleX(0.45);
+  transition:
+    opacity 160ms ease,
+    transform 260ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.search-nav-actions {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 16px;
-  color: var(--search-slate-600);
-  font-size: 15px;
-  line-height: normal;
+.search-nav-links a:hover,
+.search-nav-links a:focus-visible {
+  color: var(--search-slate-700);
+  outline: 0;
+  transform: translate3d(0, -1px, 0);
+}
+
+.search-nav-links a:hover::after,
+.search-nav-links a:focus-visible::after,
+.search-nav-links a.active::after {
+  opacity: 0.42;
+  transform: scaleX(1);
+}
+
+.search-nav-disabled {
+  cursor: default;
+  opacity: 0.48;
+  user-select: none;
+  pointer-events: none;
 }
 
 .search-menu-button {
@@ -166,6 +220,18 @@ button {
 
 .search-menu-button[aria-expanded="true"] span:last-child {
   transform: translateY(-3.5px) rotate(-45deg);
+}
+
+@keyframes search-nav-enter {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -10px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .search-portal {
@@ -1594,8 +1660,7 @@ a.search-document-origin-pill:focus-visible {
     padding: 10px;
   }
 
-  body.search-nav-open .search-nav-links,
-  body.search-nav-open .search-nav-actions {
+  body.search-nav-open .search-nav-links {
     display: flex;
   }
 
@@ -1606,25 +1671,16 @@ a.search-document-origin-pill:focus-visible {
   }
 
   body.search-nav-open .search-nav-links a,
-  body.search-nav-open .search-nav-actions a {
+  body.search-nav-open .search-nav-links span {
     min-height: 38px;
     border-radius: 10px;
     padding: 10px 12px;
   }
 
   body.search-nav-open .search-nav-links a:hover,
-  body.search-nav-open .search-nav-links a:focus-visible,
-  body.search-nav-open .search-nav-actions a:hover,
-  body.search-nav-open .search-nav-actions a:focus-visible {
+  body.search-nav-open .search-nav-links a:focus-visible {
     background: var(--search-slate-50);
     outline: 0;
-  }
-
-  body.search-nav-open .search-nav-actions {
-    justify-content: flex-start;
-    gap: 4px;
-    border-top: 1px solid var(--search-slate-200);
-    padding-top: 8px;
   }
 
   .search-menu-button {

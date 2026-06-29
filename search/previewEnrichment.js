@@ -1,4 +1,4 @@
-import { createDocumentPresentation } from "./documentSearch.js?v=search-20260522-113";
+import { createDocumentPresentation } from "./documentSearch.js?v=search-20260629-1";
 
 export function enrichSearchResultPreviews(results = [], corpus = [], query = "") {
   if (!Array.isArray(results) || !results.length) return results;

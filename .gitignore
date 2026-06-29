@@ -32,3 +32,7 @@ webfonts-preview/
 *.otf
 *.woff
 *.woff2
+
+# UI webfont shipped with the site chrome
+!assets/fonts/
+!assets/fonts/PretendardVariable.woff2

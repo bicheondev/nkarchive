@@ -1,5 +1,5 @@
-import { MeilisearchSearchProvider } from "./MeilisearchSearchProvider.js?v=search-20260522-113";
-import { LocalJsonSearchProvider } from "./LocalJsonSearchProvider.js?v=search-20260522-113";
+import { MeilisearchSearchProvider } from "./MeilisearchSearchProvider.js?v=search-20260629-1";
+import { LocalJsonSearchProvider } from "./LocalJsonSearchProvider.js?v=search-20260629-1";
 
 export function createSearchProvider(config = getRuntimeSearchConfig()) {
   const environment = getSearchEnvironment();

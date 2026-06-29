@@ -17,15 +17,15 @@ const MEDIA_LABELS = {
 
 const SOURCE_LOGO_ASSETS = {
   로동신문: {
-    src: "/assets/search-rodong-logo.svg?v=search-20260522-113",
+    src: "/assets/search-rodong-logo.svg?v=search-20260629-1",
     className: "source-result-logo-artwork-rodong",
   },
   조선중앙통신: {
-    src: "/assets/search-kcna-logo.svg?v=search-20260522-113",
+    src: "/assets/search-kcna-logo.svg?v=search-20260629-1",
     className: "source-result-logo-artwork-kcna",
   },
   YouTube: {
-    src: "/assets/search-youtube-logo.svg?v=search-20260522-113",
+    src: "/assets/search-youtube-logo.svg?v=search-20260629-1",
     className: "source-result-logo-artwork-youtube",
   },
 };
