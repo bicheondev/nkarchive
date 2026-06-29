@@ -1,4 +1,4 @@
-import { createSearchToken, normalizeQuery } from "./normalizeQuery.js?v=search-20260629-1";
+import { createSearchToken, normalizeQuery } from "./normalizeQuery.js?v=search-20260630-1";
 
 export const KNOWN_SEARCH_ENTITIES = [
   {

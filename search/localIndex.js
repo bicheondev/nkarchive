@@ -1,5 +1,5 @@
-import { normalizeSearchDocument, normalizeSearchSource, validateSearchDocument, validateSearchSource } from "./schemas.js?v=search-20260629-1";
-import { createSearchToken } from "./normalizeQuery.js?v=search-20260629-1";
+import { normalizeSearchDocument, normalizeSearchSource, validateSearchDocument, validateSearchSource } from "./schemas.js?v=search-20260630-1";
+import { createSearchToken } from "./normalizeQuery.js?v=search-20260630-1";
 
 export const DEFAULT_LOCAL_SEARCH_BASE_URL = "/data/search";
 export const DEFAULT_LOCAL_DOCUMENTS_URL = `${DEFAULT_LOCAL_SEARCH_BASE_URL}/documents.jsonl`;

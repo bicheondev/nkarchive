@@ -1,5 +1,5 @@
-import { createSearchToken } from "./normalizeQuery.js?v=search-20260629-1";
-import { SOURCE_BY_ID } from "./sourceConfig.js?v=search-20260629-1";
+import { createSearchToken } from "./normalizeQuery.js?v=search-20260630-1";
+import { SOURCE_BY_ID } from "./sourceConfig.js?v=search-20260630-1";
 
 export function resolveExactSourceQuery(query = "") {
   const queryToken = createSearchToken(String(query || "").trim());

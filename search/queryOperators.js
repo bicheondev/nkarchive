@@ -1,6 +1,6 @@
-import { createSearchToken } from "./normalizeQuery.js?v=search-20260629-1";
-import { SEARCH_LANGUAGES } from "./schemas.js?v=search-20260629-1";
-import { SEARCH_SOURCES } from "./sourceConfig.js?v=search-20260629-1";
+import { createSearchToken } from "./normalizeQuery.js?v=search-20260630-1";
+import { SEARCH_LANGUAGES } from "./schemas.js?v=search-20260630-1";
+import { SEARCH_SOURCES } from "./sourceConfig.js?v=search-20260630-1";
 
 export const SITE_OPERATOR_NAMES = ["site", "domain", "host", "사이트", "도메인"];
 export const SOURCE_OPERATOR_NAMES = ["source", "src", "출처", "자료원"];

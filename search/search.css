@@ -24,6 +24,8 @@
   --search-results-x: 300px;
   --search-nav-height: 64px;
   --search-font: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", sans-serif;
+  --search-logo-font: "Pretendard Variable", Pretendard, sans-serif;
+  --search-logo-tracking-scale: 0.96;
 }
 
 * {
@@ -100,11 +102,13 @@ button {
 
 .search-logo {
   color: var(--search-slate-600);
-  font-family: var(--search-font);
+  font-family: var(--search-logo-font);
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0;
   line-height: normal;
+  transform: scaleX(var(--search-logo-tracking-scale));
+  transform-origin: left center;
   white-space: nowrap;
   transition:
     color 160ms ease,
@@ -115,11 +119,11 @@ button {
 .search-logo:focus-visible {
   color: var(--search-slate-700);
   outline: 0;
-  transform: translate3d(0, -1px, 0);
+  transform: translate3d(0, -1px, 0) scaleX(var(--search-logo-tracking-scale));
 }
 
 .search-logo:active {
-  transform: translate3d(0, 0, 0) scale(0.985);
+  transform: translate3d(0, 0, 0) scaleX(var(--search-logo-tracking-scale)) scale(0.985);
 }
 
 .search-nav-menu {
@@ -254,10 +258,14 @@ button {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  display: inline-block;
+  font-family: var(--search-logo-font);
   font-size: 60px;
   font-weight: 500;
   letter-spacing: 0;
   line-height: normal;
+  transform: scaleX(var(--search-logo-tracking-scale));
+  transform-origin: left center;
 }
 
 .search-hero-cluster {
@@ -755,6 +763,7 @@ body[data-search-page="document"] .search-footer {
   min-width: 48px;
   height: 48px;
   color: var(--search-slate-700);
+  font-family: var(--search-logo-font);
   font-size: 13px;
   font-weight: 800;
   line-height: 1;

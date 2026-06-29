@@ -378,7 +378,7 @@ async function assertSearchNavigationIsAccessible() {
     assert.equal(html.includes('id="searchNavMenu"'), true, `${name} should expose a controlled mobile nav menu region`);
     assert.equal(html.includes('aria-controls="searchNavMenu"'), true, `${name} menu button should control the nav region`);
     assert.equal(html.includes('aria-expanded="false"'), true, `${name} menu button should start collapsed`);
-    assert.equal(html.includes('/search/search.css?v=search-20260629-1'), true, `${name} should use the current search style cache key`);
+    assert.equal(html.includes('/search/search.css?v=search-20260630-1'), true, `${name} should use the current search style cache key`);
     assert.equal(html.includes('href="#"'), false, `${name} should not ship dead placeholder navigation links`);
     assert.equal(html.includes('aria-disabled="true"'), true, `${name} should mark unavailable nav destinations as disabled text`);
     assert.equal(html.includes('aria-label="검색 홈"'), true, `${name} logo link should use a Korean accessible name`);
@@ -392,7 +392,17 @@ async function assertSearchNavigationIsAccessible() {
   }
 
   assert.equal(css.includes('--search-font: "Pretendard Variable", Pretendard'), true, "search UI font stack should prioritize Pretendard consistently");
+  assert.equal(css.includes('--search-logo-font: "Pretendard Variable", Pretendard, sans-serif'), true, "search logo font stack should prioritize Pretendard consistently");
+  assert.equal(css.includes("--search-logo-tracking-scale: 0.96"), true, "search logos should use a shared 96% tracking scale");
   assert.equal(css.includes('src: url("/assets/fonts/PretendardVariable.woff2")'), true, "search UI should load Pretendard from a local static asset");
+  const searchLogoRule = css.match(/\.search-logo\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  const searchHeroLogoRule = css.match(/\.search-hero-logo\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  const sourceResultLogoRule = css.match(/\.source-result-logo\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(searchLogoRule.includes("font-family: var(--search-logo-font);"), true, "search nav logo should use the shared Pretendard logo font");
+  assert.equal(searchLogoRule.includes("transform: scaleX(var(--search-logo-tracking-scale));"), true, "search nav logo should visually tighten tracking by 4%");
+  assert.equal(searchHeroLogoRule.includes("font-family: var(--search-logo-font);"), true, "search hero logo should use the shared Pretendard logo font");
+  assert.equal(searchHeroLogoRule.includes("transform: scaleX(var(--search-logo-tracking-scale));"), true, "search hero logo should visually tighten tracking by 4%");
+  assert.equal(sourceResultLogoRule.includes("font-family: var(--search-logo-font);"), true, "source-card fallback logos should use the shared Pretendard logo font");
   assert.equal(css.includes("search-nav-actions"), false, "search UI should not keep removed utility-nav styling around the shared header");
   assert.equal(css.includes("body.search-nav-open .search-nav-menu"), true, "mobile nav CSS should render the collapsed menu when opened");
   assert.equal(css.includes(".search-nav-disabled"), true, "disabled nav destinations should keep explicit styling");
@@ -404,9 +414,11 @@ async function assertSearchNavigationIsAccessible() {
 }
 
 async function assertProjectShellNavigationIsAccessible() {
-  const [homeHtml, css] = await Promise.all([
+  const [homeHtml, liveHtml, css, appSource] = await Promise.all([
     fs.readFile(path.join(ROOT_DIR, "index.html"), "utf8"),
+    fs.readFile(path.join(ROOT_DIR, "live/index.html"), "utf8"),
     fs.readFile(path.join(ROOT_DIR, "styles.css"), "utf8"),
+    fs.readFile(path.join(ROOT_DIR, "app.js"), "utf8"),
   ]);
 
   const navMatch = homeHtml.match(/<nav class="site-nav"[\s\S]*?<\/nav>/);
@@ -416,16 +428,37 @@ async function assertProjectShellNavigationIsAccessible() {
   assert.equal(homeHtml.includes('aria-label="주요 메뉴"'), true, "project shell primary navigation should use a Korean accessible name");
   assert.equal(homeHtml.includes('aria-label="Archive home"'), false, "project shell should not expose English logo labels");
   assert.equal(homeHtml.includes('aria-label="Primary"'), false, "project shell should not expose English nav labels");
-  assert.equal(homeHtml.includes('/styles.css?v=style-20260629-2'), true, "project shell should use the current shared style cache key");
+  assert.equal(homeHtml.includes('/styles.css?v=style-20260630-1'), true, "project shell should use the current shared style cache key");
+  assert.equal(homeHtml.includes('/app.js?v=live-20260630-1'), true, "project shell should use the current app runtime cache key");
+  assert.equal(liveHtml.includes('window.location.replace("/?route=live&v=live-20260630-1")'), true, "/live should redirect into the current shared app shell instead of shipping a stale duplicate shell");
   const navHtml = navMatch?.[0] || "";
   assert.equal(navHtml.includes('href="#"'), false, "project shell navigation should not ship dead placeholder links");
   assert.equal(navHtml.includes('class="site-nav-disabled"'), true, "unavailable project shell destinations should render as disabled text");
   assert.equal(navHtml.includes('aria-disabled="true"'), true, "unavailable project shell destinations should expose disabled state");
   assert.equal(css.includes('--ui-font-family: "Pretendard Variable", Pretendard'), true, "project shell font stack should prioritize Pretendard consistently");
+  assert.equal(css.includes('--logo-font-family: "Pretendard Variable", Pretendard, sans-serif'), true, "project shell logo font stack should prioritize Pretendard consistently");
+  assert.equal(css.includes("--logo-tracking-scale: 0.96"), true, "project shell logo should use a shared 96% tracking scale");
   assert.equal(css.includes('src: url("/assets/fonts/PretendardVariable.woff2")'), true, "project shell should load Pretendard from the same local static asset as search");
+  const projectLogoRule = css.match(/\.logo\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(projectLogoRule.includes("font-family: var(--logo-font-family);"), true, "project shell logo should use the shared Pretendard logo font");
+  assert.equal(projectLogoRule.includes("transform: scaleX(var(--logo-tracking-scale));"), true, "project shell logo should visually tighten tracking by 4%");
   assert.equal(css.includes(".site-nav-disabled"), true, "disabled project shell nav destinations should keep explicit styling");
+  assert.equal(navHtml.includes('href="/search" data-route="search"'), true, "project shell search nav item should expose a route id for active-state styling");
+  assert.equal(appSource.includes('const ROUTE_SEARCH = "search";'), true, "project shell should recognize the search route for active-state styling");
+  assert.equal(appSource.includes('if (link.dataset.route === ROUTE_SEARCH) continue;'), true, "project shell should leave /search navigation to the static search shell");
+  assert.equal(appSource.includes("if (path === SEARCH_PATH) return ROUTE_SEARCH;"), true, "project shell should infer /search as the search route instead of the music route");
+  assert.equal(appSource.includes('label: "고려전선"'), true, "broadcast sources should expose 고려전선 as the Koryo Front source label");
+  assert.equal(appSource.includes("https://kctv.koryofront.org/stream/index.m3u8"), true, "KCTV should use the Koryo Front KCTV HLS stream");
+  assert.equal(appSource.includes("https://kctv.koryofront.org/stream/kcradio1/index.m3u8"), true, "조선중앙방송 should use the Koryo Front KCBS HLS stream");
+  assert.equal(appSource.includes("https://kctv.koryofront.org/stream/kcradio2/index.m3u8"), true, "조선의 소리 should use the Koryo Front VOK HLS stream");
+  assert.equal(appSource.includes("https://stream.intchoson.com/kctv/index.m3u8"), true, "인트조선 KCTV should use the current stream.intchoson.com HLS URL");
+  assert.equal(appSource.includes("KCNA Watch"), false, "broadcast source menu should not offer KCNA Watch as a live source");
+  assert.equal(appSource.includes("https://koryo.tv/channel/"), false, "broadcast source menu should not use the old Koryo TV iframe URLs");
+  assert.equal(appSource.includes("https://streamer.nknews.org/tvhls/stream.m3u8"), false, "broadcast source menu should not use the removed KCNA Watch stream URL");
+  assert.equal(appSource.includes("https://tv.intchoson.com/kctv/main_stream.m3u8"), false, "broadcast source menu should not use the old Intchoson KCTV stream URL");
+  assert.equal(homeHtml.includes('<span id="liveSourceButtonText">고려전선</span>'), true, "broadcast source button should render the default 고려전선 label before JavaScript hydration");
   assert.equal(homeHtml.includes('class="download-button" download'), true, "download card template should start without a placeholder URL before app.js assigns the real font asset");
-  assert.equal((await fs.readFile(path.join(ROOT_DIR, "app.js"), "utf8")).includes('card.querySelector(".download-button").href = encodeFontUrl(assetUrl(font.path));'), true, "project shell should assign real font download URLs when rendering cards");
+  assert.equal(appSource.includes('card.querySelector(".download-button").href = encodeFontUrl(assetUrl(font.path));'), true, "project shell should assign real font download URLs when rendering cards");
 }
 
 async function assertDeploymentConfigIsProductionReady() {

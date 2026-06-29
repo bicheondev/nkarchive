@@ -1,16 +1,16 @@
-import { groupResultsBySource, filterDocumentsForTab, getResultDisplaySourceId, hasSearchQuery, RESULT_TABS } from "./resultFilters.js?v=search-20260629-1";
-import { collapseDuplicateResults } from "./resultIdentity.js?v=search-20260629-1";
-import { createEmptySearchResult, normalizeSearchFilters } from "./SearchProvider.js?v=search-20260629-1";
-import { getSearchSuggestions } from "./suggestions.js?v=search-20260629-1";
-import { enrichSearchResultPreviews } from "./previewEnrichment.js?v=search-20260629-1";
-import { hasStructuredSearchOperators, parseSearchQueryOperators } from "./queryOperators.js?v=search-20260629-1";
-import { filterDocumentsForExcludedTerms, hasExcludedTermQuery, hasPositiveDocumentQuery } from "./documentSearch.js?v=search-20260629-1";
+import { groupResultsBySource, filterDocumentsForTab, getResultDisplaySourceId, hasSearchQuery, RESULT_TABS } from "./resultFilters.js?v=search-20260630-1";
+import { collapseDuplicateResults } from "./resultIdentity.js?v=search-20260630-1";
+import { createEmptySearchResult, normalizeSearchFilters } from "./SearchProvider.js?v=search-20260630-1";
+import { getSearchSuggestions } from "./suggestions.js?v=search-20260630-1";
+import { enrichSearchResultPreviews } from "./previewEnrichment.js?v=search-20260630-1";
+import { hasStructuredSearchOperators, parseSearchQueryOperators } from "./queryOperators.js?v=search-20260630-1";
+import { filterDocumentsForExcludedTerms, hasExcludedTermQuery, hasPositiveDocumentQuery } from "./documentSearch.js?v=search-20260630-1";
 import {
   DEFAULT_LOCAL_DOCUMENTS_URL,
   DEFAULT_LOCAL_SOURCES_URL,
   parseJsonl,
   validateSearchIndex,
-} from "./localIndex.js?v=search-20260629-1";
+} from "./localIndex.js?v=search-20260630-1";
 
 export class LocalJsonSearchProvider {
   constructor({

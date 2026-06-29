@@ -9,7 +9,9 @@ const LOAD_MORE_THRESHOLD = 300;
 const MAX_CONCURRENT_FONT_LOADS = 4;
 const ROUTE_FONT = "font";
 const ROUTE_LIVE = "live";
+const ROUTE_SEARCH = "search";
 const LIVE_PATH = "/live";
+const SEARCH_PATH = "/search";
 const LIVE_DISCLAIMER_STORAGE_KEY = "live-disclaimer-dismissed";
 const R2_ASSET_BASE_URL = "https://pub-a12b2bbd25db44479f7ca23251a65bef.r2.dev";
 const KORYO_PLAYER_BASE_WIDTH = 962;
@@ -45,7 +47,7 @@ const FONT_FOOTER_COPY = [
 ];
 const LIVE_FOOTER_COPY = [
   "본 사이트는 북한 정부 또는 조선노동당, 조성중앙텔레비전과는 전혀 관계가 없으며, 이들을 지지하지도 옹호하지도 않고 오로지 학문적인 목적으로 개설되었음을 알려드립니다. 간첩 신고는 국번 없이 111",
-  "Livestream sources from https://koryo.tv/, https://www.intchoson.com/, and https://kcnawatch.org/korea-central-tv-livestream/. Timetable from [통일부 북한정보포털](https://nkinfo.unikorea.go.kr/nkp/tvPrgr/list.do?menuId=NK_TVPRGR).",
+  "Livestream sources from https://koryofront.org/ and https://www.intchoson.com/. Timetable from [통일부 북한정보포털](https://nkinfo.unikorea.go.kr/nkp/tvPrgr/list.do?menuId=NK_TVPRGR).",
 ];
 const BROADCASTS = {
   kctv: {
@@ -54,21 +56,16 @@ const BROADCASTS = {
     defaultSource: "koryo",
     sources: {
       koryo: {
-        label: "고려TV",
-        type: "iframe",
-        src: "https://koryo.tv/channel/kctv",
+        label: "고려전선",
+        type: "hls",
+        media: "video",
+        src: "https://kctv.koryofront.org/stream/index.m3u8",
       },
       intchoson: {
         label: "인트조선",
         type: "hls",
         media: "video",
-        src: "https://tv.intchoson.com/kctv/main_stream.m3u8",
-      },
-      kcna: {
-        label: "KCNA Watch",
-        type: "hls",
-        media: "video",
-        src: "https://streamer.nknews.org/tvhls/stream.m3u8",
+        src: "https://stream.intchoson.com/kctv/index.m3u8",
       },
     },
   },
@@ -78,9 +75,10 @@ const BROADCASTS = {
     defaultSource: "koryo",
     sources: {
       koryo: {
-        label: "고려TV",
-        type: "iframe",
-        src: "https://koryo.tv/channel/kcbs",
+        label: "고려전선",
+        type: "hls",
+        media: "audio",
+        src: "https://kctv.koryofront.org/stream/kcradio1/index.m3u8",
       },
       intchoson: {
         label: "인트조선",
@@ -96,9 +94,10 @@ const BROADCASTS = {
     defaultSource: "koryo",
     sources: {
       koryo: {
-        label: "고려TV",
-        type: "iframe",
-        src: "https://koryo.tv/channel/vok",
+        label: "고려전선",
+        type: "hls",
+        media: "audio",
+        src: "https://kctv.koryofront.org/stream/kcradio2/index.m3u8",
       },
       intchoson: {
         label: "인트조선",
@@ -218,6 +217,7 @@ function bindRouteEvents() {
   window.addEventListener("popstate", renderRoute);
   for (const link of navLinks) {
     if (!link.dataset.route) continue;
+    if (link.dataset.route === ROUTE_SEARCH) continue;
     link.addEventListener("click", navigateRoute);
   }
   for (const link of navLinks) link.addEventListener("click", closeMobileMenu);
@@ -243,8 +243,12 @@ function navigateRoute(event) {
   const route =
     event.currentTarget.dataset.route ||
     url.searchParams.get("route") ||
-    (url.pathname.replace(/\/+$/, "") === LIVE_PATH ? ROUTE_LIVE : ROUTE_FONT);
-  const pathname = route === ROUTE_LIVE ? LIVE_PATH : "/font";
+    (url.pathname.replace(/\/+$/, "") === LIVE_PATH
+      ? ROUTE_LIVE
+      : url.pathname.replace(/\/+$/, "") === SEARCH_PATH
+        ? ROUTE_SEARCH
+        : ROUTE_FONT);
+  const pathname = route === ROUTE_LIVE ? LIVE_PATH : route === ROUTE_SEARCH ? SEARCH_PATH : "/font";
 
   if (pathname !== window.location.pathname.replace(/\/+$/, "")) {
     window.history.pushState(null, "", pathname);
@@ -258,10 +262,12 @@ function currentRoute() {
   const queryRoute = new URLSearchParams(window.location.search).get("route");
   const requestedRoute = queryRoute || initialRoute;
   if (requestedRoute === ROUTE_LIVE) return ROUTE_LIVE;
+  if (requestedRoute === ROUTE_SEARCH) return ROUTE_SEARCH;
   if (requestedRoute === ROUTE_FONT) return ROUTE_FONT;
 
   const path = window.location.pathname.replace(/\/+$/, "") || "/font";
   if (path === LIVE_PATH) return ROUTE_LIVE;
+  if (path === SEARCH_PATH) return ROUTE_SEARCH;
   return ROUTE_FONT;
 }
 
@@ -269,22 +275,24 @@ function renderRoute() {
   closeMobileMenu();
   const route = currentRoute();
   const isLive = route === ROUTE_LIVE;
+  const isSearch = route === ROUTE_SEARCH;
 
   const currentPath = window.location.pathname.replace(/\/+$/, "") || "/";
   if (currentPath === "/" || window.location.search) {
-    window.history.replaceState(null, "", isLive ? LIVE_PATH : "/font");
+    window.history.replaceState(null, "", isLive ? LIVE_PATH : isSearch ? SEARCH_PATH : "/font");
   }
-  document.title = isLive ? "북한방송아카이브" : "북한폰트아카이브";
+  document.title = isLive ? "북한방송아카이브" : isSearch ? "북한 공개자료 통합검색" : "북한폰트아카이브";
   document.documentElement.dataset.route = route;
   document.body.dataset.view = route;
-  archiveView.hidden = isLive;
+  archiveView.hidden = isLive || isSearch;
   liveView.hidden = !isLive;
   if (!isLive) silenceAllLivePlayers();
-  logoLink.textContent = isLive ? "★Live" : "★Font";
-  logoLink.setAttribute("aria-label", isLive ? "Live home" : "Font archive home");
-  logoLink.href = isLive ? LIVE_PATH : "/font";
+  logoLink.textContent = isLive ? "★Live" : isSearch ? "★Search" : "★Font";
+  logoLink.setAttribute("aria-label", isLive ? "방송 홈" : isSearch ? "검색 홈" : "폰트 아카이브 홈");
+  logoLink.href = isLive ? LIVE_PATH : isSearch ? SEARCH_PATH : "/font";
   siteFooter.dataset.view = route;
-  renderFooterCopy(isLive ? LIVE_FOOTER_COPY : FONT_FOOTER_COPY);
+  siteFooter.hidden = isSearch;
+  if (!isSearch) renderFooterCopy(isLive ? LIVE_FOOTER_COPY : FONT_FOOTER_COPY);
 
   for (const link of navLinks) {
     const isActive = link.dataset.route === route;
@@ -295,6 +303,9 @@ function renderRoute() {
   if (isLive) {
     renderLiveView();
     showLiveDisclaimerIfNeeded();
+  } else if (isSearch) {
+    hideLiveDisclaimer(false);
+    liveDisclaimerDismissedForVisit = false;
   } else if (fontArchiveReady) {
     hideLiveDisclaimer(false);
     liveDisclaimerDismissedForVisit = false;

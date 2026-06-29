@@ -26,6 +26,8 @@
   --card-width: 235px;
   --card-height: 255px;
   --ui-font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --logo-font-family: "Pretendard Variable", Pretendard, sans-serif;
+  --logo-tracking-scale: 0.96;
   --motion-ease-apple: cubic-bezier(0.16, 1, 0.3, 1);
   --motion-ease-toss: cubic-bezier(0.2, 0.8, 0.2, 1);
   --motion-duration-fast: 160ms;
@@ -208,10 +210,12 @@ select {
   align-items: center;
   height: 28px;
   color: var(--slate-600);
-  font-family: var(--ui-font-family);
+  font-family: var(--logo-font-family);
   font-size: 20px;
   font-weight: 500;
   line-height: normal;
+  transform: scaleX(var(--logo-tracking-scale));
+  transform-origin: left center;
   white-space: nowrap;
   transition:
     color var(--motion-duration-fast) ease,
@@ -221,11 +225,11 @@ select {
 .logo:hover,
 .logo:focus-visible {
   color: var(--slate-700);
-  transform: translate3d(0, -1px, 0);
+  transform: translate3d(0, -1px, 0) scaleX(var(--logo-tracking-scale));
 }
 
 .logo:active {
-  transform: translate3d(0, 0, 0) scale(0.985);
+  transform: translate3d(0, 0, 0) scaleX(var(--logo-tracking-scale)) scale(0.985);
 }
 
 .site-nav {
