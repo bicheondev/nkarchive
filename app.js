@@ -15,10 +15,11 @@ const SEARCH_PATH = "/search";
 const LIVE_DISCLAIMER_STORAGE_KEY = "live-disclaimer-dismissed";
 const R2_ASSET_BASE_URL = "https://pub-a12b2bbd25db44479f7ca23251a65bef.r2.dev";
 const KORYO_PLAYER_BASE_WIDTH = 962;
-const KORYO_IFRAME_DESKTOP_WIDTH = 1649;
-const KORYO_IFRAME_DESKTOP_HEIGHT = 685;
-const KORYO_IFRAME_DESKTOP_CROP_LEFT = -157;
-const KORYO_IFRAME_DESKTOP_CROP_TOP = -144;
+const KORYO_TV_PLAYER_BASE_HEIGHT = 538;
+const KORYO_IFRAME_DESKTOP_WIDTH = 1641;
+const KORYO_IFRAME_DESKTOP_HEIGHT = 689;
+const KORYO_IFRAME_DESKTOP_CROP_LEFT = -154;
+const KORYO_IFRAME_DESKTOP_CROP_TOP = -146;
 const KORYO_MOBILE_IFRAME_MIN_WIDTH = 320;
 const KORYO_MOBILE_IFRAME_MAX_WIDTH = 430;
 const KORYO_MOBILE_IFRAME_HEIGHT = 760;
@@ -61,6 +62,11 @@ const BROADCASTS = {
         media: "video",
         src: "https://kctv.koryofront.org/stream/index.m3u8",
       },
+      koryotv: {
+        label: "고려TV",
+        type: "iframe",
+        src: "https://koryo.tv/channel/kctv",
+      },
       intchoson: {
         label: "인트조선",
         type: "hls",
@@ -84,7 +90,7 @@ const BROADCASTS = {
         label: "인트조선",
         type: "hls",
         media: "audio",
-        src: "https://radio.intchoson.com/kcbs/index.m3u8",
+        src: "https://stream.intchoson.com/kcbs/index.m3u8",
       },
     },
   },
@@ -103,7 +109,7 @@ const BROADCASTS = {
         label: "인트조선",
         type: "hls",
         media: "audio",
-        src: "https://radio.intchoson.com/vok/index.m3u8",
+        src: "https://stream.intchoson.com/vok/index.m3u8",
       },
     },
   },
@@ -648,7 +654,7 @@ function createKoryoPlayer(channel, channelKey, playerKind) {
   iframe.scrolling = "no";
   iframe.setAttribute("scrolling", "no");
   iframe.allowFullscreen = true;
-  iframe.allow = "fullscreen";
+  iframe.allow = "autoplay; fullscreen";
   iframe.title = channel.label;
   layer.append(iframe);
   return { node: layer, iframe, iframeSrc: channel.src, playerKind };
@@ -967,6 +973,8 @@ function updateLivePlayerScale() {
     livePlayerFrame.style.setProperty("--live-player-fit-width", `${fitWidth.toFixed(3)}px`);
   }
   liveView.style.setProperty("--live-player-half-height", `${(fitHeight / 2).toFixed(3)}px`);
+  livePlayerFrame.style.setProperty("--live-frame-width", `${size.width}px`);
+  livePlayerFrame.style.setProperty("--live-frame-ratio", `${size.width} / ${size.height}`);
 
   const width = livePlayerFrame.clientWidth || fitWidth || size.width;
   const scaleBase = size.width;
@@ -990,7 +998,7 @@ function livePlayerBaseSize(playerKind) {
   }
   return {
     width: activeSource === "kcna" ? KCNA_PLAYER_WIDTH : KORYO_PLAYER_BASE_WIDTH,
-    height: VIDEO_PLAYER_BASE_HEIGHT,
+    height: activeSource === "koryotv" ? KORYO_TV_PLAYER_BASE_HEIGHT : VIDEO_PLAYER_BASE_HEIGHT,
   };
 }
 
@@ -1041,7 +1049,7 @@ function koryoIframeViewportMetrics(playerKind) {
 }
 
 function isMobileKoryoVideoViewport(playerKind = activePlayerKind()) {
-  return activeSource === "koryo" && playerKind === "video" && koryoMobileMediaQuery.matches;
+  return activeSource === "koryotv" && playerKind === "video" && koryoMobileMediaQuery.matches;
 }
 
 function koryoMobileVideoMetrics() {

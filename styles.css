@@ -669,11 +669,11 @@ select {
 
 .live-koryo-frame {
   position: absolute;
-  top: calc(var(--live-koryo-crop-top, -144px) * var(--live-player-scale));
-  left: calc(var(--live-koryo-crop-left, -157px) * var(--live-player-scale));
+  top: calc(var(--live-koryo-crop-top, -146px) * var(--live-player-scale));
+  left: calc(var(--live-koryo-crop-left, -154px) * var(--live-player-scale));
   display: block;
-  width: var(--live-koryo-iframe-width, 1649px);
-  height: var(--live-koryo-iframe-height, 685px);
+  width: var(--live-koryo-iframe-width, 1641px);
+  height: var(--live-koryo-iframe-height, 689px);
   border: 0;
   overflow: hidden;
   overscroll-behavior: none;
