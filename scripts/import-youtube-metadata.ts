@@ -48,10 +48,19 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 
 export async function fetchYouTubeFeedDocuments(source, options = {}) {
   const requestedLimit = Math.max(1, Number(options.limitPerSource || getArgumentValue("--limit") || 25));
-  const report = { sourceId: source.id, sourceName: source.name, fetched: 0, indexed: 0, errors: [] };
+  const report = {
+    sourceId: source.id,
+    sourceName: source.name,
+    fetched: 0,
+    searchFetched: 0,
+    searchCandidates: 0,
+    indexed: 0,
+    errors: [],
+  };
   const documents = [];
   const channels = getYouTubeChannels(source);
   const seedVideos = getYouTubeSeedVideos(source);
+  const searchTargets = getYouTubeSearchTargets(source, channels);
   const fetchTextResourceImpl = options.fetchTextResourceImpl || fetchTextResource;
 
   if (!channels.length) {
@@ -72,6 +81,27 @@ export async function fetchYouTubeFeedDocuments(source, options = {}) {
       documents.push(...parseYouTubeFeed(xml, source, channel).slice(0, requestedLimit));
     } catch (error) {
       report.errors.push(`${channel.feedUrl}: ${error.message}`);
+    }
+  }
+
+  const searchTargetConcurrency = getPositiveInteger(source.crawler?.searchTargetConcurrency || options.concurrency, 3);
+  for (let index = 0; index < searchTargets.length; index += searchTargetConcurrency) {
+    const batch = searchTargets.slice(index, index + searchTargetConcurrency);
+    const searchResults = await Promise.all(batch.map(async (target) => {
+      try {
+        return await fetchYouTubeSearchDocuments(target, source, {
+          ...options,
+          fetchTextResourceImpl,
+        });
+      } catch (error) {
+        report.errors.push(`${target.searchUrl}: ${error.message}`);
+        return null;
+      }
+    }));
+    for (const searchResult of searchResults.filter(Boolean)) {
+      report.searchFetched += 1;
+      report.searchCandidates += searchResult.candidateCount;
+      documents.push(...searchResult.documents);
     }
   }
 
@@ -115,6 +145,63 @@ function getYouTubeChannels(source = {}) {
   }).filter((channel) => channel.channelId && channel.feedUrl);
 }
 
+function getYouTubeSearchTargets(source = {}, channels = getYouTubeChannels(source)) {
+  const searchQueries = getYouTubeSearchQueries(source);
+  if (!searchQueries.length || !channels.length) return [];
+
+  const defaultLimit = getPositiveInteger(source.crawler?.searchResultsPerQuery, 6);
+  const defaultCandidateLimit = getPositiveInteger(source.crawler?.searchCandidateLimitPerQuery, Math.max(defaultLimit * 4, 12));
+  const defaultCandidateConcurrency = getPositiveInteger(source.crawler?.searchCandidateConcurrency, 4);
+  const defaultCandidateTimeoutMs = getPositiveInteger(source.crawler?.searchCandidateTimeoutMs, 6000);
+  const defaultCandidateRetries = getNonNegativeInteger(source.crawler?.searchCandidateRetries, 0);
+  const targets = [];
+
+  for (const query of searchQueries) {
+    const targetChannels = query.channelName
+      ? channels.filter((channel) => matchesYouTubeChannelName(channel, query.channelName))
+      : channels;
+
+    for (const channel of targetChannels) {
+      const limit = getPositiveInteger(query.limit, defaultLimit);
+      targets.push({
+        query: query.query,
+        searchUrl: createYouTubeSearchUrl(query.query, channel),
+        channel,
+        limit,
+        candidateLimit: getPositiveInteger(query.candidateLimit || query.maxCandidates, defaultCandidateLimit),
+        candidateConcurrency: getPositiveInteger(query.candidateConcurrency, defaultCandidateConcurrency),
+        candidateTimeoutMs: getPositiveInteger(query.candidateTimeoutMs, defaultCandidateTimeoutMs),
+        candidateRetries: getNonNegativeInteger(query.candidateRetries, defaultCandidateRetries),
+        allowedAuthorNames: getYouTubeAllowedAuthorNames(channel),
+        aliases: uniqueStrings([query.query, ...(query.aliases || []), ...(channel.aliases || [])]),
+      });
+    }
+  }
+
+  return targets;
+}
+
+function getYouTubeSearchQueries(source = {}) {
+  const configuredQueries = Array.isArray(source.crawler?.searchQueries) ? source.crawler.searchQueries : [];
+  return configuredQueries
+    .map((item) => {
+      const queryItem = typeof item === "string" ? { query: item } : (item || {});
+      const query = cleanText(queryItem.query || queryItem.term || queryItem.q || "");
+      if (!query) return null;
+      return {
+        query,
+        channelName: cleanText(queryItem.channelName || queryItem.channel || ""),
+        aliases: Array.isArray(queryItem.aliases) ? queryItem.aliases.map(cleanText).filter(Boolean) : [],
+        limit: queryItem.limit,
+        candidateLimit: queryItem.candidateLimit || queryItem.maxCandidates,
+        candidateConcurrency: queryItem.candidateConcurrency,
+        candidateTimeoutMs: queryItem.candidateTimeoutMs,
+        candidateRetries: queryItem.candidateRetries,
+      };
+    })
+    .filter(Boolean);
+}
+
 function getYouTubeSeedVideos(source = {}) {
   const videos = Array.isArray(source.crawler?.seedVideos) ? source.crawler.seedVideos : [];
   return videos
@@ -135,12 +222,64 @@ function getYouTubeSeedVideos(source = {}) {
     .filter(Boolean);
 }
 
+async function fetchYouTubeSearchDocuments(target, source, {
+  timeoutMs = 12000,
+  useFetchCache = true,
+  cacheDir,
+  retries = 1,
+  fetchTextResourceImpl = fetchTextResource,
+} = {}) {
+  const searchHtml = await fetchTextResourceImpl(target.searchUrl, {
+    timeoutMs,
+    accept: "text/html,*/*;q=0.8",
+    useFetchCache,
+    cacheDir,
+    cacheNamespace: "youtube-search",
+    retries,
+  });
+  const videoIds = extractYouTubeSearchVideoIds(searchHtml).slice(0, target.candidateLimit);
+  const documents = [];
+  const candidateConcurrency = Math.max(1, target.candidateConcurrency || 4);
+  const candidateTimeoutMs = Math.min(timeoutMs, getPositiveInteger(target.candidateTimeoutMs, 6000));
+  const candidateRetries = getNonNegativeInteger(target.candidateRetries, 0);
+
+  for (let index = 0; index < videoIds.length && documents.length < target.limit; index += candidateConcurrency) {
+    const batch = videoIds.slice(index, index + candidateConcurrency);
+    const batchDocuments = await Promise.all(batch.map(async (videoId) => {
+      try {
+        return await fetchYouTubeSeedVideoDocument({
+          videoId,
+          url: `https://www.youtube.com/watch?v=${videoId}`,
+          channelName: target.channel?.name || "",
+          aliases: target.aliases,
+        }, source, {
+          timeoutMs: candidateTimeoutMs,
+          useFetchCache,
+          cacheDir,
+          retries: candidateRetries,
+          fetchTextResourceImpl,
+          allowedAuthorNames: target.allowedAuthorNames,
+        });
+      } catch {
+        return null;
+      }
+    }));
+    for (const document of batchDocuments.filter(Boolean)) {
+      if (documents.length >= target.limit) break;
+      documents.push(document);
+    }
+  }
+
+  return { documents, candidateCount: videoIds.length };
+}
+
 async function fetchYouTubeSeedVideoDocument(seedVideo, source, {
   timeoutMs = 12000,
   useFetchCache = true,
   cacheDir,
   retries = 1,
   fetchTextResourceImpl = fetchTextResource,
+  allowedAuthorNames = [],
 } = {}) {
   const oembedUrl = `https://www.youtube.com/oembed?format=json&url=${encodeURIComponent(seedVideo.url)}`;
   const oembed = JSON.parse(await fetchTextResourceImpl(oembedUrl, {
@@ -151,6 +290,9 @@ async function fetchYouTubeSeedVideoDocument(seedVideo, source, {
     cacheNamespace: "youtube-oembed",
     retries,
   }));
+  const oembedAuthorName = cleanText(oembed.author_name || "");
+  if (!matchesAllowedYouTubeAuthor(oembedAuthorName, allowedAuthorNames)) return null;
+
   let watchMetadata = {};
   try {
     const watchHtml = await fetchTextResourceImpl(seedVideo.url, {
@@ -175,10 +317,28 @@ async function fetchYouTubeSeedVideoDocument(seedVideo, source, {
     thumbnailUrl: cleanText(oembed.thumbnail_url || `https://i.ytimg.com/vi/${seedVideo.videoId}/hqdefault.jpg`),
     source,
     channel: {
-      name: seedVideo.channelName || cleanText(oembed.author_name || ""),
+      name: seedVideo.channelName || oembedAuthorName,
       aliases: seedVideo.aliases,
     },
   });
+}
+
+function extractYouTubeSearchVideoIds(html = "") {
+  const text = String(html || "");
+  const ids = [];
+  const patterns = [
+    /"videoId"\s*:\s*"([a-zA-Z0-9_-]{11})"/g,
+    /watch\?v=([a-zA-Z0-9_-]{11})/g,
+    /\/shorts\/([a-zA-Z0-9_-]{11})/g,
+  ];
+
+  for (const pattern of patterns) {
+    for (const match of text.matchAll(pattern)) {
+      ids.push(match[1]);
+    }
+  }
+
+  return uniqueStrings(ids);
 }
 
 function extractYouTubeWatchMetadata(html = "") {
@@ -250,6 +410,44 @@ export function parseYouTubeFeed(xml = "", source, channel = {}) {
       channel,
     });
   }).filter(Boolean);
+}
+
+function createYouTubeSearchUrl(query = "", channel = {}) {
+  const searchQuery = [query, channel.name].map(cleanText).filter(Boolean).join(" ");
+  return `https://www.youtube.com/results?search_query=${encodeURIComponent(searchQuery)}`;
+}
+
+function getYouTubeAllowedAuthorNames(channel = {}) {
+  return uniqueStrings([channel.name, ...(channel.aliases || [])]);
+}
+
+function matchesYouTubeChannelName(channel = {}, name = "") {
+  const normalizedName = normalizeYouTubeAuthorName(name);
+  return getYouTubeAllowedAuthorNames(channel)
+    .map(normalizeYouTubeAuthorName)
+    .some((allowedName) => allowedName && allowedName === normalizedName);
+}
+
+function matchesAllowedYouTubeAuthor(authorName = "", allowedAuthorNames = []) {
+  if (!allowedAuthorNames.length) return true;
+  const normalizedAuthor = normalizeYouTubeAuthorName(authorName);
+  return Boolean(normalizedAuthor) && allowedAuthorNames
+    .map(normalizeYouTubeAuthorName)
+    .some((allowedName) => allowedName && allowedName === normalizedAuthor);
+}
+
+function normalizeYouTubeAuthorName(value = "") {
+  return cleanText(value).replace(/^@+/, "").toLocaleLowerCase("ko-KR").replace(/\s+/g, "");
+}
+
+function getPositiveInteger(value, fallback) {
+  const number = Number(value);
+  return Number.isFinite(number) && number > 0 ? Math.floor(number) : fallback;
+}
+
+function getNonNegativeInteger(value, fallback) {
+  const number = Number(value);
+  return Number.isFinite(number) && number >= 0 ? Math.floor(number) : fallback;
 }
 
 function uniqueStrings(values = []) {

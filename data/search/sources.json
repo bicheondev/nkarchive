@@ -382,7 +382,7 @@
     "crawler": {
       "enabled": true,
       "entryUrl": "https://www.youtube.com/",
-      "strategy": "youtube-rss-metadata",
+      "strategy": "youtube-rss-search-metadata",
       "schedule": "daily",
       "robotsPolicy": "respect",
       "selectors": {},

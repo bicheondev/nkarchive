@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-01T00:08:11.486Z",
+  "generatedAt": "2026-07-01T00:36:53.601Z",
   "summary": {
     "totalSources": 11,
     "searchableSources": 11,
     "healthySources": 11,
     "warningSources": 0,
     "unreachableSources": 0,
-    "totalDocuments": 2206
+    "totalDocuments": 2239
   },
   "sources": [
     {
@@ -368,14 +368,14 @@
       "mediaTypes": [
         "video"
       ],
-      "indexedDocuments": 32,
+      "indexedDocuments": 65,
       "status": "indexed",
       "lastImporter": "youtube-metadata",
       "discovered": null,
       "discoveryFetched": null,
       "apiFetched": null,
       "sitemapFetched": null,
-      "searchFetched": null,
+      "searchFetched": 22,
       "searchResultFallbacks": null,
       "listingFallbacks": null,
       "deadlineFallbacks": null,
@@ -390,7 +390,7 @@
       "pdfTextFetchAttempts": null,
       "pdfTextFetchLimitFallbacks": null,
       "timedOut": false,
-      "importedThisRun": 32,
+      "importedThisRun": 65,
       "preservedExistingDocuments": false,
       "warnings": [],
       "errors": []

@@ -175,6 +175,7 @@ async function main() {
   await assertSourceCatalogMatchesGoal();
   await assertYouTubeMetadataImporterIsScoped();
   await assertYouTubeSeedVideosBecomeDocuments();
+  await assertYouTubeSearchResultsBecomeScopedDocuments();
   await assertProductionDocumentsStayInsideConfiguredSources(productionDocumentsText);
   await assertProductionVideoDocumentsAreVisibleInAll(productionDocumentsText);
   await assertSourceHealthCoversCatalog();
@@ -5930,7 +5931,13 @@ async function assertYouTubeMetadataImporterIsScoped() {
   assert.equal(SEARCH_SOURCE_TYPES.includes("youtube"), false, "schema validation must reject YouTube as an out-of-scope source type");
   assert.equal(importer.includes("feeds/videos.xml"), true, "YouTube importer should use public channel RSS metadata");
   assert.equal(importer.includes("source.crawler?.channels"), true, "YouTube importer should merge multiple channel feeds into one YouTube source");
+  assert.equal(importer.includes("youtube-search"), true, "YouTube importer should discover video candidates from public YouTube search pages");
+  assert.equal(importer.includes("author_name"), true, "YouTube importer should verify discovered search candidates by oEmbed author");
   assert.equal(importer.includes("mediaType: \"video\""), true, "YouTube importer should add video-search records only");
+  const youtubeSource = SEARCH_SOURCES.find((source) => source.id === "youtube");
+  assert.equal(youtubeSource?.crawler?.strategy, "youtube-rss-search-metadata", "YouTube importer strategy should document RSS plus scoped search discovery");
+  assert.equal(youtubeSource?.crawler?.searchQueries?.includes("화성"), true, "YouTube search discovery should cover general Korean entity queries like 화성");
+  assert.equal(youtubeSource?.crawler?.searchQueries?.includes("화성지구"), true, "YouTube search discovery should cover topic-specific variants like 화성지구");
   assert.equal(readme.includes("메아리/supersuhui"), true, "README should document the scoped YouTube channel source");
   assert.equal(readme.includes("all indexed video documents appear in both 전체 and 동영상"), true, "README should document that video records appear in 전체 and 동영상");
   assert.equal(readme.includes("YouTube metadata is intentionally not part"), false, "README must not contradict the production YouTube source scope");
@@ -5987,6 +5994,83 @@ async function assertYouTubeSeedVideosBecomeDocuments() {
   assert.equal(documents[0]?.date, "2025-06-26", "YouTube seed video configured date should beat watch-page timezone drift");
   assert.deepEqual(documents[0]?.searchTabs, ["all", "video"], "YouTube seed videos should appear in 전체 and 동영상");
   assert.equal(videoResults.documents[0]?.id, "youtube-UPUkZp6_EXU", "원산갈마 준공식 should find seeded YouTube videos in 동영상");
+}
+
+async function assertYouTubeSearchResultsBecomeScopedDocuments() {
+  const source = {
+    id: "youtube",
+    name: "YouTube",
+    sourceType: "video_archive",
+    baseUrl: "https://www.youtube.com/",
+    languages: ["ko", "en"],
+    mediaTypes: ["video"],
+    searchTabs: ["all", "video"],
+    aliases: ["메아리"],
+    crawler: {
+      importer: "youtube-metadata",
+      searchQueries: ["화성"],
+      searchResultsPerQuery: 2,
+      searchCandidateLimitPerQuery: 4,
+      channels: [
+        {
+          name: "메아리",
+          channelId: "UC7CdB6acpJKKku-QfZ6QfMw",
+          feedUrl: "https://www.youtube.com/feeds/videos.xml?channel_id=UC7CdB6acpJKKku-QfZ6QfMw",
+          aliases: ["메아리", "Meari"],
+        },
+      ],
+    },
+  };
+  const fetchedUrls = [];
+  const fetchTextResourceImpl = async (url, requestOptions = {}) => {
+    const requestUrl = String(url);
+    fetchedUrls.push(requestUrl);
+    if (requestOptions.cacheNamespace === "youtube-feed") {
+      return "<feed></feed>";
+    }
+    if (requestOptions.cacheNamespace === "youtube-search") {
+      assert.equal(decodeURIComponent(requestUrl).includes("화성 메아리"), true, "YouTube search should combine the user-facing query and scoped channel name");
+      return `
+        <html>
+          <script>{"videoId":"43cor_kHqow"}</script>
+          <a href="/watch?v=2bkbV1mzp2c">외부 뉴스 후보</a>
+        </html>`;
+    }
+    if (requestUrl.includes("/oembed") && requestUrl.includes("43cor_kHqow")) {
+      return JSON.stringify({
+        title: "김정은동지께서 완공을 앞둔 화성지구 2단계 1만세대 살림집건설장을 현지지도하시였다",
+        author_name: "메아리",
+        thumbnail_url: "https://i.ytimg.com/vi/43cor_kHqow/hqdefault.jpg",
+      });
+    }
+    if (requestUrl.includes("/oembed") && requestUrl.includes("2bkbV1mzp2c")) {
+      return JSON.stringify({
+        title: "화성 관련 외부 뉴스",
+        author_name: "SBS 뉴스",
+        thumbnail_url: "https://i.ytimg.com/vi/2bkbV1mzp2c/hqdefault.jpg",
+      });
+    }
+    if (requestUrl.includes("watch?v=43cor_kHqow")) {
+      return `
+        <html><script>
+        {"publishDate":"2024-04-06T00:00:00Z","shortDescription":"화성지구 2단계 살림집건설장 현지지도","isCrawlable":true}
+        </script></html>`;
+    }
+    throw new Error(`unexpected YouTube fetch: ${requestUrl}`);
+  };
+  const { documents, report } = await fetchYouTubeFeedDocuments(source, {
+    fetchTextResourceImpl,
+    useFetchCache: false,
+    limitPerSource: 1,
+  });
+  const provider = new LocalJsonSearchProvider({ sources: [source], documents });
+  const videoResults = await provider.searchDocuments("화성", { tab: "video" });
+
+  assert.equal(report.searchFetched, 1, "configured YouTube search discovery should fetch one search page per query/channel target");
+  assert.equal(report.searchCandidates, 2, "YouTube search discovery should count extracted candidate video IDs");
+  assert.deepEqual(documents.map((document) => document.id), ["youtube-43cor_kHqow"], "YouTube search discovery should index only allowed-channel author matches");
+  assert.equal(fetchedUrls.some((url) => url.includes("watch?v=2bkbV1mzp2c")), false, "rejected YouTube search candidates should not fetch watch-page metadata");
+  assert.equal(videoResults.documents[0]?.id, "youtube-43cor_kHqow", "generic 화성 video searches should find scoped discovered YouTube records");
 }
 
 async function assertProductionDocumentsStayInsideConfiguredSources(productionDocumentsText) {
