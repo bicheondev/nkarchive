@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-22T08:30:46.748Z",
+  "generatedAt": "2026-07-01T00:08:11.486Z",
   "summary": {
     "totalSources": 11,
     "searchableSources": 11,
     "healthySources": 11,
     "warningSources": 0,
     "unreachableSources": 0,
-    "totalDocuments": 2041
+    "totalDocuments": 2206
   },
   "sources": [
     {
@@ -229,12 +229,12 @@
         "article",
         "image"
       ],
-      "indexedDocuments": 113,
+      "indexedDocuments": 276,
       "status": "indexed",
       "lastImporter": "official-sites",
-      "discovered": 113,
+      "discovered": 400,
       "discoveryFetched": null,
-      "apiFetched": 11,
+      "apiFetched": 6,
       "sitemapFetched": null,
       "searchFetched": null,
       "searchResultFallbacks": null,
@@ -242,8 +242,8 @@
       "deadlineFallbacks": null,
       "fetched": 0,
       "robotsDisallowed": 0,
-      "robotsWarning": "https://www.chosonsinbo.com/robots.txt: HTTP 403",
-      "maxSourceMs": 240000,
+      "robotsWarning": "https://www.chosonsinbo.com/robots.txt: fetch failed",
+      "maxSourceMs": 180000,
       "maxDetailFetchesPerSource": null,
       "maxPdfTextFetchesPerSource": null,
       "detailFetchAttempts": null,
@@ -251,8 +251,8 @@
       "pdfTextFetchAttempts": null,
       "pdfTextFetchLimitFallbacks": null,
       "timedOut": false,
-      "importedThisRun": 113,
-      "preservedExistingDocuments": false,
+      "importedThisRun": 140,
+      "preservedExistingDocuments": true,
       "warnings": [],
       "errors": []
     },
@@ -368,7 +368,7 @@
       "mediaTypes": [
         "video"
       ],
-      "indexedDocuments": 30,
+      "indexedDocuments": 32,
       "status": "indexed",
       "lastImporter": "youtube-metadata",
       "discovered": null,
@@ -390,7 +390,7 @@
       "pdfTextFetchAttempts": null,
       "pdfTextFetchLimitFallbacks": null,
       "timedOut": false,
-      "importedThisRun": 30,
+      "importedThisRun": 32,
       "preservedExistingDocuments": false,
       "warnings": [],
       "errors": []

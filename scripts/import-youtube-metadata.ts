@@ -51,15 +51,16 @@ export async function fetchYouTubeFeedDocuments(source, options = {}) {
   const report = { sourceId: source.id, sourceName: source.name, fetched: 0, indexed: 0, errors: [] };
   const documents = [];
   const channels = getYouTubeChannels(source);
+  const seedVideos = getYouTubeSeedVideos(source);
+  const fetchTextResourceImpl = options.fetchTextResourceImpl || fetchTextResource;
 
   if (!channels.length) {
     report.errors.push("missing YouTube channelId/feedUrl");
-    return { documents: [], report };
   }
 
   for (const channel of channels) {
     try {
-      const xml = await fetchTextResource(channel.feedUrl, {
+      const xml = await fetchTextResourceImpl(channel.feedUrl, {
         timeoutMs: options.timeoutMs || 12000,
         accept: "application/atom+xml,application/xml,text/xml,*/*;q=0.8",
         useFetchCache: options.useFetchCache !== false,
@@ -74,8 +75,21 @@ export async function fetchYouTubeFeedDocuments(source, options = {}) {
     }
   }
 
-  report.indexed = documents.length;
-  return { documents, report };
+  for (const seedVideo of seedVideos) {
+    try {
+      const document = await fetchYouTubeSeedVideoDocument(seedVideo, source, {
+        ...options,
+        fetchTextResourceImpl,
+      });
+      if (document) documents.push(document);
+    } catch (error) {
+      report.errors.push(`${seedVideo.url}: ${error.message}`);
+    }
+  }
+
+  const dedupedDocuments = dedupeDocuments(documents);
+  report.indexed = dedupedDocuments.length;
+  return { documents: dedupedDocuments, report };
 }
 
 function getYouTubeChannels(source = {}) {
@@ -101,6 +115,118 @@ function getYouTubeChannels(source = {}) {
   }).filter((channel) => channel.channelId && channel.feedUrl);
 }
 
+function getYouTubeSeedVideos(source = {}) {
+  const videos = Array.isArray(source.crawler?.seedVideos) ? source.crawler.seedVideos : [];
+  return videos
+    .map((video) => {
+      const item = typeof video === "string" ? { url: video } : (video || {});
+      const videoId = getYouTubeVideoId(item.url || item.videoId || "");
+      if (!videoId) return null;
+      return {
+        videoId,
+        url: `https://www.youtube.com/watch?v=${videoId}`,
+        title: cleanText(item.title || ""),
+        description: cleanText(item.description || ""),
+        date: cleanText(item.date || ""),
+        channelName: cleanText(item.channelName || item.authorName || ""),
+        aliases: Array.isArray(item.aliases) ? item.aliases.map(cleanText).filter(Boolean) : [],
+      };
+    })
+    .filter(Boolean);
+}
+
+async function fetchYouTubeSeedVideoDocument(seedVideo, source, {
+  timeoutMs = 12000,
+  useFetchCache = true,
+  cacheDir,
+  retries = 1,
+  fetchTextResourceImpl = fetchTextResource,
+} = {}) {
+  const oembedUrl = `https://www.youtube.com/oembed?format=json&url=${encodeURIComponent(seedVideo.url)}`;
+  const oembed = JSON.parse(await fetchTextResourceImpl(oembedUrl, {
+    timeoutMs,
+    accept: "application/json,*/*;q=0.8",
+    useFetchCache,
+    cacheDir,
+    cacheNamespace: "youtube-oembed",
+    retries,
+  }));
+  let watchMetadata = {};
+  try {
+    const watchHtml = await fetchTextResourceImpl(seedVideo.url, {
+      timeoutMs,
+      accept: "text/html,*/*;q=0.8",
+      useFetchCache,
+      cacheDir,
+      cacheNamespace: "youtube-watch",
+      retries,
+    });
+    watchMetadata = extractYouTubeWatchMetadata(watchHtml);
+  } catch {
+    watchMetadata = {};
+  }
+
+  return createYouTubeDocument({
+    videoId: seedVideo.videoId,
+    title: cleanText(seedVideo.title || oembed.title || watchMetadata.title),
+    description: cleanText(seedVideo.description || watchMetadata.description || ""),
+    date: normalizeDate(seedVideo.date || watchMetadata.date || ""),
+    url: seedVideo.url,
+    thumbnailUrl: cleanText(oembed.thumbnail_url || `https://i.ytimg.com/vi/${seedVideo.videoId}/hqdefault.jpg`),
+    source,
+    channel: {
+      name: seedVideo.channelName || cleanText(oembed.author_name || ""),
+      aliases: seedVideo.aliases,
+    },
+  });
+}
+
+function extractYouTubeWatchMetadata(html = "") {
+  const title = unescapeJsonString(String(html).match(/"title":"([^"]+)"/)?.[1] || "");
+  const description = unescapeJsonString(String(html).match(/"shortDescription":"([\s\S]*?)","isCrawlable"/)?.[1] || "");
+  const date = String(html).match(/"publishDate":"([^"]+)"/)?.[1]
+    || String(html).match(/"datePublished":"([^"]+)"/)?.[1]
+    || "";
+  return { title, description, date };
+}
+
+function createYouTubeDocument({
+  videoId,
+  title,
+  description = "",
+  date = "",
+  url = "",
+  thumbnailUrl = "",
+  source,
+  channel = {},
+}) {
+  if (!videoId || !title || !url) return null;
+
+  const aliases = uniqueStrings([
+    source.name,
+    channel.name,
+    ...(channel.aliases || []),
+  ]);
+  const snippet = description || title;
+  return {
+    id: `${source.id}-${videoId}`,
+    title,
+    snippet,
+    body: [title, description, aliases.join(" ")].filter(Boolean).join(" "),
+    date: normalizeDate(date),
+    sourceId: source.id,
+    sourceName: source.name,
+    sourceType: source.sourceType,
+    mediaType: "video",
+    url,
+    archiveUrl: "",
+    thumbnailUrl,
+    language: detectLanguage([title, description].join(" "), source),
+    aliases,
+    searchTabs: source.searchTabs || ["all", "video"],
+  };
+}
+
 export function parseYouTubeFeed(xml = "", source, channel = {}) {
   const $ = cheerio.load(xml, { xmlMode: true });
   return $("entry").toArray().map((entry) => {
@@ -113,29 +239,16 @@ export function parseYouTubeFeed(xml = "", source, channel = {}) {
     const thumbnailUrl = cleanText(node.find("media\\:thumbnail, thumbnail").first().attr("url")) || (videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : "");
     if (!videoId || !title || !url) return null;
 
-    const snippet = description || title;
-    const aliases = uniqueStrings([
-      source.name,
-      channel.name,
-      ...(channel.aliases || []),
-    ]);
-    return {
-      id: `${source.id}-${videoId}`,
+    return createYouTubeDocument({
+      videoId,
       title,
-      snippet,
-      body: [title, description, aliases.join(" ")].filter(Boolean).join(" "),
       date: normalizeDate(published),
-      sourceId: source.id,
-      sourceName: source.name,
-      sourceType: source.sourceType,
-      mediaType: "video",
       url,
-      archiveUrl: "",
       thumbnailUrl,
-      language: detectLanguage([title, description].join(" "), source),
-      aliases,
-      searchTabs: source.searchTabs || ["all", "video"],
-    };
+      description,
+      source,
+      channel,
+    });
   }).filter(Boolean);
 }
 
@@ -167,4 +280,30 @@ function normalizeDate(value = "") {
 
 function cleanText(value = "") {
   return String(value || "").replace(/\s+/g, " ").trim();
+}
+
+function getYouTubeVideoId(value = "") {
+  const text = cleanText(value);
+  if (/^[a-zA-Z0-9_-]{11}$/.test(text)) return text;
+  try {
+    const url = new URL(text);
+    if (url.hostname.includes("youtu.be")) return cleanText(url.pathname.split("/").filter(Boolean)[0] || "");
+    if (url.searchParams.get("v")) return cleanText(url.searchParams.get("v"));
+    const embedMatch = url.pathname.match(/\/(?:embed|shorts)\/([a-zA-Z0-9_-]{11})/);
+    return embedMatch?.[1] || "";
+  } catch {
+    return "";
+  }
+}
+
+function unescapeJsonString(value = "") {
+  return String(value || "")
+    .replace(/\\u([0-9a-fA-F]{4})/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)))
+    .replace(/\\n/g, "\n")
+    .replace(/\\"/g, "\"")
+    .replace(/\\\\/g, "\\");
+}
+
+function dedupeDocuments(documents = []) {
+  return [...new Map(documents.filter(Boolean).map((document) => [document.id, document])).values()];
 }

@@ -578,6 +578,20 @@ export const SEARCH_SOURCES = [
           aliases: ["supersuhui", "슈퍼수희", "YouTube supersuhui"],
         },
       ],
+      seedVideos: [
+        {
+          url: "https://www.youtube.com/watch?v=UPUkZp6_EXU",
+          channelName: "메아리",
+          date: "2025-06-26",
+          aliases: ["메아리", "Meari", "원산갈마해안관광지구 준공식", "Wonsan Kalma", "Inaugural Ceremony"],
+        },
+        {
+          url: "https://www.youtube.com/watch?v=YMdka8o8mtE",
+          channelName: "supersuhui",
+          date: "2025-06-26",
+          aliases: ["supersuhui", "슈퍼수희", "원산갈마해안관광지구 준공식", "Wonsan Kalma", "Inaugural Ceremony"],
+        },
+      ],
     },
   },
 ];

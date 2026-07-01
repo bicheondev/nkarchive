@@ -26,6 +26,7 @@ import {
   createConfiguredSearchUrls,
   cleanSourceSearchContextText,
   extractDocumentFromReadableText,
+  extractArticleImageDocumentsFromContent,
   extractFeedDocumentFromEntry,
   extractSourceSearchDocumentFromEntry,
   enrichPdfDocumentWithReadableText,
@@ -47,6 +48,7 @@ import { uploadSearchAssetsToR2, createR2ObjectKey, createR2PublicUrl } from "./
 import { connectSearchSuggestions, createSearchSuggestions, updateSearchSuggestions } from "../components/SearchSuggestions.js";
 import { createSourceResultCard } from "../components/SourceResultCard.js";
 import searchAssetHandler from "../api/search-asset.js";
+import { fetchYouTubeFeedDocuments } from "./import-youtube-metadata.ts";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, "..");
@@ -143,6 +145,7 @@ async function main() {
   await assertPdfLinksBecomeDocuments();
   await assertReadableSnapshotsBecomeDocuments();
   await assertReadableMediaAssetsBecomeDocuments();
+  await assertArticleImagesBecomeImageDocuments();
   await assertRodongReadableListingsBecomeDocuments();
   await assertNaenaraReadableTablesBecomeDocuments();
   await assertFetchCacheFallsBackToRealStoredResponses();
@@ -171,6 +174,7 @@ async function main() {
   await assertImportPipelineHasRuntimeGuards();
   await assertSourceCatalogMatchesGoal();
   await assertYouTubeMetadataImporterIsScoped();
+  await assertYouTubeSeedVideosBecomeDocuments();
   await assertProductionDocumentsStayInsideConfiguredSources(productionDocumentsText);
   await assertProductionVideoDocumentsAreVisibleInAll(productionDocumentsText);
   await assertSourceHealthCoversCatalog();
@@ -429,8 +433,8 @@ async function assertProjectShellNavigationIsAccessible() {
   assert.equal(homeHtml.includes('aria-label="Archive home"'), false, "project shell should not expose English logo labels");
   assert.equal(homeHtml.includes('aria-label="Primary"'), false, "project shell should not expose English nav labels");
   assert.equal(homeHtml.includes('/styles.css?v=style-20260630-1'), true, "project shell should use the current shared style cache key");
-  assert.equal(homeHtml.includes('/app.js?v=live-20260701-1'), true, "project shell should use the current app runtime cache key");
-  assert.equal(liveHtml.includes('window.location.replace("/?route=live&v=live-20260701-1")'), true, "/live should redirect into the current shared app shell instead of shipping a stale duplicate shell");
+  assert.equal(homeHtml.includes('/app.js?v=live-20260701-2'), true, "project shell should use the current app runtime cache key");
+  assert.equal(liveHtml.includes('window.location.replace("/?route=live&v=live-20260701-2")'), true, "/live should redirect into the current shared app shell instead of shipping a stale duplicate shell");
   const navHtml = navMatch?.[0] || "";
   assert.equal(navHtml.includes('href="#"'), false, "project shell navigation should not ship dead placeholder links");
   assert.equal(navHtml.includes('class="site-nav-disabled"'), true, "unavailable project shell destinations should render as disabled text");
@@ -450,27 +454,15 @@ async function assertProjectShellNavigationIsAccessible() {
   assert.equal(appSource.includes('label: "고려전선"'), true, "broadcast sources should expose 고려전선 as the Koryo Front source label");
   assert.equal(appSource.includes('activeSource = "koryo"'), true, "KCTV should keep 고려전선 as the default source");
   assert.equal(appSource.includes("https://kctv.koryofront.org/stream/index.m3u8"), true, "KCTV should use the Koryo Front KCTV HLS stream");
-  assert.equal(appSource.includes('label: "고려TV"'), true, "KCTV should keep a separate 고려TV iframe source option");
-  assert.equal(appSource.includes('src: "https://koryo.tv/channel/kctv"'), true, "고려TV KCTV should embed the Koryo TV channel page");
-  assert.equal(appSource.includes("const KORYO_TV_PLAYER_BASE_HEIGHT = 538;"), true, "고려TV KCTV iframe viewport should match the provided 962x538 crop");
-  assert.equal(appSource.includes("const KORYO_IFRAME_DESKTOP_WIDTH = 1641;"), true, "고려TV KCTV iframe should use the provided embedded page width");
-  assert.equal(appSource.includes("const KORYO_IFRAME_DESKTOP_HEIGHT = 689;"), true, "고려TV KCTV iframe should use the provided embedded page height");
-  assert.equal(appSource.includes("const KORYO_IFRAME_DESKTOP_CROP_LEFT = -154;"), true, "고려TV KCTV iframe should use the provided crop left offset");
-  assert.equal(appSource.includes("const KORYO_IFRAME_DESKTOP_CROP_TOP = -146;"), true, "고려TV KCTV iframe should use the provided crop top offset");
-  assert.equal(css.includes("var(--live-koryo-crop-left, -154px)"), true, "고려TV iframe CSS fallback should use the provided crop left offset");
-  assert.equal(css.includes("var(--live-koryo-crop-top, -146px)"), true, "고려TV iframe CSS fallback should use the provided crop top offset");
-  assert.equal(css.includes("var(--live-koryo-iframe-width, 1641px)"), true, "고려TV iframe CSS fallback should use the provided embedded page width");
-  assert.equal(css.includes("var(--live-koryo-iframe-height, 689px)"), true, "고려TV iframe CSS fallback should use the provided embedded page height");
-  assert.equal(appSource.includes('iframe.allow = "autoplay; fullscreen"'), true, "고려TV iframe should allow autoplay and fullscreen");
-  assert.equal(appSource.includes('activeSource === "koryotv" && playerKind === "video"'), true, "mobile iframe viewport handling should be scoped to the 고려TV source");
+  assert.equal(appSource.includes('label: "고려TV"'), false, "broadcast source menu should not offer 고려TV as a live source");
+  assert.equal(appSource.includes("https://koryo.tv/channel/"), false, "broadcast source menu should not embed Koryo TV channel pages");
+  assert.equal(appSource.includes("KORYO_TV_PLAYER_BASE_HEIGHT"), false, "broadcast player should not keep 고려TV-only iframe viewport constants");
   assert.equal(appSource.includes("https://kctv.koryofront.org/stream/kcradio1/index.m3u8"), true, "조선중앙방송 should use the Koryo Front KCBS HLS stream");
   assert.equal(appSource.includes("https://kctv.koryofront.org/stream/kcradio2/index.m3u8"), true, "조선의 소리 should use the Koryo Front VOK HLS stream");
   assert.equal(appSource.includes("https://stream.intchoson.com/kctv/index.m3u8"), true, "인트조선 KCTV should use the current stream.intchoson.com HLS URL");
   assert.equal(appSource.includes("https://stream.intchoson.com/kcbs/index.m3u8"), true, "인트조선 조선중앙방송 should use the current stream.intchoson.com HLS URL");
   assert.equal(appSource.includes("https://stream.intchoson.com/vok/index.m3u8"), true, "인트조선 조선의 소리 should use the current stream.intchoson.com HLS URL");
   assert.equal(appSource.includes("KCNA Watch"), false, "broadcast source menu should not offer KCNA Watch as a live source");
-  assert.equal(appSource.includes("https://koryo.tv/channel/kcbs"), false, "broadcast source menu should not add unsupported Koryo TV KCBS iframe URLs");
-  assert.equal(appSource.includes("https://koryo.tv/channel/vok"), false, "broadcast source menu should not add unsupported Koryo TV VOK iframe URLs");
   assert.equal(appSource.includes("https://streamer.nknews.org/tvhls/stream.m3u8"), false, "broadcast source menu should not use the removed KCNA Watch stream URL");
   assert.equal(appSource.includes("https://tv.intchoson.com/kctv/main_stream.m3u8"), false, "broadcast source menu should not use the old Intchoson KCTV stream URL");
   assert.equal(appSource.includes("https://radio.intchoson.com/kcbs/index.m3u8"), false, "broadcast source menu should not use the old Intchoson KCBS stream URL");
@@ -3806,6 +3798,63 @@ Markdown Content:
   assert.equal(minjuDocuments.some((document) => /mark111/i.test(document.url)), false, "민주조선 resource marks must not become search documents");
 }
 
+async function assertArticleImagesBecomeImageDocuments() {
+  const source = {
+    id: "rodong-sinmun",
+    name: "로동신문",
+    sourceType: "official_site",
+    baseUrl: "http://www.rodong.rep.kp/",
+    languages: ["ko"],
+    mediaTypes: ["article", "image"],
+    aliases: ["Rodong Sinmun"],
+  };
+  const articleUrl = "http://www.rodong.rep.kp/ko/index.php?OEAyMDI1LTA2LTI2LTAxNw==";
+  const articleDocument = {
+    id: "rodong-fixture-wonsan-ceremony",
+    title: "사회주의문명개화의 새 경관을 펼친 원산갈마해안관광지구 준공식 성대히 진행",
+    snippet: "원산갈마해안관광지구 준공식이 성대히 진행되였다.",
+    body: "원산갈마해안관광지구 준공식에는 조선로동당과 정부의 간부들이 참가하였다.",
+    date: "2025-06-26",
+    sourceId: source.id,
+    sourceName: source.name,
+    sourceType: source.sourceType,
+    mediaType: "article",
+    url: articleUrl,
+    archiveUrl: "",
+    thumbnailUrl: "",
+    language: "ko",
+    aliases: [],
+    searchTabs: [],
+  };
+  const html = `
+    <html>
+      <head><meta property="og:image" content="/ko/images/rodong_view_mark.png"></head>
+      <body>
+        <article>
+          <h1>${articleDocument.title}</h1>
+          <p>${articleDocument.body}</p>
+          <img src="/data/photo/2025/06/2025-06-26-017-001.jpg">
+          <img src="/data/photo/2025/06/2025-06-26-017-002.jpg">
+          <img src="/ko/images/page_bottom_mark.png">
+        </article>
+      </body>
+    </html>`;
+  const imageDocuments = extractArticleImageDocumentsFromContent(html, articleUrl, source, articleDocument);
+  const provider = new LocalJsonSearchProvider({
+    sources: [source],
+    documents: [articleDocument, ...imageDocuments],
+  });
+  const imageResults = await provider.searchDocuments("원산갈마해안관광지구 준공식", { tab: "image" });
+
+  assert.equal(imageDocuments.length, 2, "로동신문 article HTML images should become image-tab documents");
+  assert.equal(imageDocuments.every((document) => document.mediaType === "image"), true, "article-derived image records should use image mediaType");
+  assert.equal(imageDocuments.every((document) => document.searchTabs.includes("image")), true, "article-derived image records should be visible in 이미지");
+  assert.equal(imageDocuments.every((document) => document.archiveUrl === articleUrl), true, "article-derived image records should keep their article URL");
+  assert.equal(imageDocuments.every((document) => document.body.includes("준공식")), true, "article-derived image records should remain searchable by article text");
+  assert.equal(imageDocuments.some((document) => /page_bottom_mark|rodong_view_mark/.test(document.url)), false, "로동신문 decorative marks must not become image documents");
+  assert.equal(imageResults.documents[0]?.mediaType, "image", "원산갈마 준공식 image search should surface article-derived images");
+}
+
 async function assertRodongReadableListingsBecomeDocuments() {
   const source = {
     id: "rodong-sinmun",
@@ -4435,7 +4484,7 @@ Markdown Content:
 Title:
 URL Source: https://www.chosonsinbo.com/wp-json/wp/v2/posts?per_page=2&search=%EC%9B%90%EC%82%B0
 Markdown Content:
-[{"id":4,"date":"2025-06-26T07:14:37","link":"https://www.chosonsinbo.com/2025/06/26-293/","title":{"rendered":"원산갈마해안관광지구 준공식 성대히 진행/김정은원수님께서 참석"},"excerpt":{"rendered":"<p>사회주의문명개화의 새 경관을 펼친 동해기슭의 관광명소 조선중앙통신은 원산갈마해안관광지구 준공식이 진행된 소식을 전하였다.</p>"},"content":{"rendered":"<p>사회주의문명개화의 새 경관을 펼친 동해기슭의 관광명소 조선중앙통신은 원산갈마해안관광지구 준공식이 진행된 소식을 전하였다.</p>"}}]
+[{"id":4,"date":"2025-06-26T07:14:37","link":"https://www.chosonsinbo.com/2025/06/26-293/","title":{"rendered":"원산갈마해안관광지구 준공식 성대히 진행/김정은원수님께서 참석"},"excerpt":{"rendered":"<p>사회주의문명개화의 새 경관을 펼친 동해기슭의 관광명소 조선중앙통신은 원산갈마해안관광지구 준공식이 진행된 소식을 전하였다.</p>"},"content":{"rendered":"<p>사회주의문명개화의 새 경관을 펼친 동해기슭의 관광명소 조선중앙통신은 원산갈마해안관광지구 준공식이 진행된 소식을 전하였다.</p><figure><img src=\\"https://www.chosonsinbo.com/wp-content/uploads/2025/06/kkorftp_101_R-1.jpg\\"></figure><img src=\\"https://www.chosonsinbo.com/wp-content/uploads/2026/03/SINBOTV_banner13.png\\">"}}]
 `;
   const report = { errors: [] };
   const requestedUrls = [];
@@ -4453,6 +4502,7 @@ Markdown Content:
   });
   const documentEntry = entries.find((entry) => entry.url === "https://www.chosonsinbo.com/2026/05/19-380/");
   const searchDocumentEntry = entries.find((entry) => entry.url === "https://www.chosonsinbo.com/2025/06/26-293/");
+  const searchImageEntry = entries.find((entry) => entry.url === "https://www.chosonsinbo.com/wp-content/uploads/2025/06/kkorftp_101_R-1.jpg");
   const productionChosonConfig = SEARCH_SOURCES.find((candidate) => candidate.id === "choson-sinbo")?.crawler;
   const detailSource = {
     ...source,
@@ -4477,8 +4527,8 @@ Markdown Content:
 2026년 05월 19일 10:00공화국
 `;
   const detailCrawl = await crawlSources([detailSource], {
-    limitPerSource: 3,
-    maxLinksPerSource: 4,
+    limitPerSource: 6,
+    maxLinksPerSource: 8,
     maxDiscoveryPages: 1,
     timeoutMs: 1000,
     fetchHtmlImpl: async (url, options = {}) => {
@@ -4509,6 +4559,9 @@ Markdown Content:
   assert.equal(report.apiFetched, 2, "crawler should report public API/list fetch diagnostics");
   assert.equal(Boolean(documentEntry?.embeddedDocument), true, "WordPress API records should become embedded indexed documents");
   assert.equal(searchDocumentEntry?.embeddedDocument?.title, "원산갈마해안관광지구 준공식 성대히 진행/김정은원수님께서 참석", "WordPress search API records should backfill older topic articles");
+  assert.equal(searchImageEntry?.embeddedDocument?.mediaType, "image", "WordPress content images should become image-tab documents");
+  assert.equal(searchImageEntry?.embeddedDocument?.body.includes("준공식"), true, "WordPress image documents should inherit searchable article text");
+  assert.equal(entries.some((entry) => /SINBOTV_banner/i.test(entry.url)), false, "WordPress decorative banner images must not become image documents");
   assert.equal(documentEntry?.embeddedDocument?.title, "온천시설에서 즐거운 한때", "WordPress title.rendered should become the document title");
   assert.equal(documentEntry?.embeddedDocument?.sourceName, "조선신보", "WordPress documents should retain source provenance");
   assert.equal(documentEntry?.embeddedDocument?.date, "2026-05-19", "WordPress dates should normalize");
@@ -5881,6 +5934,59 @@ async function assertYouTubeMetadataImporterIsScoped() {
   assert.equal(readme.includes("메아리/supersuhui"), true, "README should document the scoped YouTube channel source");
   assert.equal(readme.includes("all indexed video documents appear in both 전체 and 동영상"), true, "README should document that video records appear in 전체 and 동영상");
   assert.equal(readme.includes("YouTube metadata is intentionally not part"), false, "README must not contradict the production YouTube source scope");
+}
+
+async function assertYouTubeSeedVideosBecomeDocuments() {
+  const source = {
+    id: "youtube",
+    name: "YouTube",
+    sourceType: "video_archive",
+    baseUrl: "https://www.youtube.com/",
+    languages: ["ko", "en"],
+    mediaTypes: ["video"],
+    searchTabs: ["all", "video"],
+    aliases: ["메아리"],
+    crawler: {
+      importer: "youtube-metadata",
+      seedVideos: [
+        {
+          url: "https://www.youtube.com/watch?v=UPUkZp6_EXU",
+          channelName: "메아리",
+          date: "2025-06-26",
+          aliases: ["원산갈마해안관광지구 준공식", "Wonsan Kalma", "Inaugural Ceremony"],
+        },
+      ],
+    },
+  };
+  const fetchTextResourceImpl = async (url) => {
+    if (String(url).includes("/oembed")) {
+      return JSON.stringify({
+        title: "원산갈마해안관광지구 준공식 성대히 진행 Inaugural Ceremony",
+        author_name: "메아리",
+        thumbnail_url: "https://i.ytimg.com/vi/UPUkZp6_EXU/hqdefault.jpg",
+      });
+    }
+    if (String(url).includes("watch?v=UPUkZp6_EXU")) {
+      return `
+        <html><script>
+        {"publishDate":"2025-06-27T06:55:56Z","shortDescription":"원산갈마해안관광지구 준공식 성대히 진행","isCrawlable":true}
+        </script></html>`;
+    }
+    throw new Error(`unexpected YouTube fetch: ${url}`);
+  };
+  const { documents } = await fetchYouTubeFeedDocuments(source, {
+    fetchTextResourceImpl,
+    useFetchCache: false,
+    limitPerSource: 1,
+  });
+  const provider = new LocalJsonSearchProvider({ sources: [source], documents });
+  const videoResults = await provider.searchDocuments("원산갈마해안관광지구 준공식", { tab: "video" });
+
+  assert.equal(documents.length, 1, "configured YouTube seed videos should be indexed even when no RSS channel is configured");
+  assert.equal(documents[0]?.id, "youtube-UPUkZp6_EXU", "YouTube seed video id should be stable");
+  assert.equal(documents[0]?.date, "2025-06-26", "YouTube seed video configured date should beat watch-page timezone drift");
+  assert.deepEqual(documents[0]?.searchTabs, ["all", "video"], "YouTube seed videos should appear in 전체 and 동영상");
+  assert.equal(videoResults.documents[0]?.id, "youtube-UPUkZp6_EXU", "원산갈마 준공식 should find seeded YouTube videos in 동영상");
 }
 
 async function assertProductionDocumentsStayInsideConfiguredSources(productionDocumentsText) {

@@ -287,6 +287,11 @@ export async function crawlSources(sources, {
           if (document) {
             documents.push(document);
             report.indexed += 1;
+            const imageDocuments = extractArticleImageDocumentsFromContent(html, url, source, document);
+            for (const imageDocument of imageDocuments) {
+              documents.push(imageDocument);
+              report.indexed += 1;
+            }
           }
         } catch (error) {
           const fallbackDocument = createFallbackDocumentForEntry(entry, source, report);
@@ -806,9 +811,9 @@ async function discoverWordPressConfiguredEntries(source, {
         reportApiFetch(report);
 
         const documents = parseWordPressPostsPayload(text)
-          .map((post) => createWordPressPostDocument(post, source))
+          .flatMap((post) => createWordPressPostDocuments(post, source))
           .filter(Boolean)
-          .filter((document) => shouldIndexCrawledUrl(document.url, source));
+          .filter((document) => document.mediaType === "image" || shouldIndexCrawledUrl(document.url, source));
 
         for (const document of documents) {
           addLinkEntries(entries, [{
@@ -817,10 +822,10 @@ async function discoverWordPressConfiguredEntries(source, {
             contextText: document.snippet,
             date: document.date,
             thumbnailUrl: document.thumbnailUrl || "",
-            embeddedDocument: fetchDetailPages ? null : document,
-            fallbackDocument: fetchDetailPages ? document : null,
+            embeddedDocument: document.mediaType === "image" || !fetchDetailPages ? document : null,
+            fallbackDocument: document.mediaType === "image" || !fetchDetailPages ? null : document,
             fromWordPressApi: true,
-            readableSource: fetchDetailPages && preferReadable,
+            readableSource: document.mediaType !== "image" && fetchDetailPages && preferReadable,
           }], maxLinks);
         }
         lastError = null;
@@ -2186,6 +2191,16 @@ export function createWordPressPostDocument(post, source) {
   };
 }
 
+function createWordPressPostDocuments(post, source) {
+  const articleDocument = createWordPressPostDocument(post, source);
+  if (!articleDocument) return [];
+  const contentHtml = getWordPressFieldValue(post?.content);
+  return [
+    articleDocument,
+    ...extractArticleImageDocumentsFromContent(contentHtml, articleDocument.url, source, articleDocument),
+  ];
+}
+
 export function extractDocumentFromHtml(html, url, source, context = {}) {
   if (isBlockedHtml(html) || !shouldIndexCrawledUrl(url, source)) return null;
   if (isReadableCrawlerText(html)) return extractDocumentFromReadableText(html, url, source, context);
@@ -2473,6 +2488,136 @@ export function extractMediaDocumentFromLink(entry, source) {
     aliases: createMediaDocumentAliases(title, contextText),
     searchTabs: getMediaSearchTabs(source, mediaType),
   };
+}
+
+export function extractArticleImageDocumentsFromContent(content, articleUrl, source, articleDocument) {
+  if (!articleDocument || articleDocument.mediaType !== "article") return [];
+  if (!Array.isArray(source.mediaTypes) || !source.mediaTypes.includes("image")) return [];
+
+  const imageUrls = collectArticleImageUrls(content, articleUrl, source, articleDocument);
+  if (!imageUrls.length) return [];
+
+  const articleText = cleanReadableBodyText([
+    articleDocument.title,
+    articleDocument.snippet,
+    articleDocument.body,
+    "사진 이미지",
+  ].filter(Boolean).join("\n"));
+  const aliases = [
+    ...(Array.isArray(articleDocument.aliases) ? articleDocument.aliases : []),
+    ...createMediaDocumentAliases(articleDocument.title, articleDocument.body),
+  ];
+
+  return imageUrls.map((imageUrl, index) => {
+    const title = imageUrls.length > 1
+      ? `${articleDocument.title} (${index + 1}/${imageUrls.length})`
+      : articleDocument.title;
+    return {
+      id: `${source.id}-${hashUrl(`${articleDocument.id || articleUrl}|image|${imageUrl}`)}`,
+      title,
+      snippet: articleDocument.snippet || articleDocument.title,
+      body: articleText,
+      date: articleDocument.date || normalizeDate(""),
+      sourceId: source.id,
+      sourceName: source.name,
+      sourceType: source.sourceType,
+      mediaType: "image",
+      url: imageUrl,
+      archiveUrl: articleUrl,
+      thumbnailUrl: imageUrl,
+      language: articleDocument.language || inferDocumentLanguage(articleText, articleUrl, source),
+      aliases: [...new Set(aliases.filter(Boolean))],
+      searchTabs: getMediaSearchTabs(source, "image"),
+    };
+  });
+}
+
+function collectArticleImageUrls(content = "", articleUrl = "", source = {}, articleDocument = {}) {
+  const candidates = [];
+  if (articleDocument.thumbnailUrl) candidates.push(articleDocument.thumbnailUrl);
+
+  if (isReadableCrawlerText(content)) {
+    const markdown = getReadableMarkdownContent(content);
+    candidates.push(...extractMarkdownImageUrls(markdown));
+  } else {
+    const $ = cheerio.load(String(content || ""));
+    $("img").each((_, element) => {
+      candidates.push(
+        $(element).attr("src")
+        || $(element).attr("data-src")
+        || $(element).attr("data-lazy-src")
+        || $(element).attr("data-original")
+        || "",
+      );
+    });
+    $("source[srcset]").each((_, element) => {
+      candidates.push(extractPreferredSrcsetUrl($(element).attr("srcset") || ""));
+    });
+    $("meta[property='og:image'], meta[name='twitter:image']").each((_, element) => {
+      candidates.push($(element).attr("content") || "");
+    });
+  }
+
+  return [...new Set(candidates
+    .map((url) => cleanImageUrlCandidate(url))
+    .map((url) => stripHash(resolveUrl(url, articleUrl) || url))
+    .filter((url) => isArticleImageAssetUrl(url, source)))];
+}
+
+function extractMarkdownImageUrls(markdown = "") {
+  const urls = [];
+  const pattern = /!\[[^\]]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
+  let match;
+  while ((match = pattern.exec(String(markdown || "")))) {
+    urls.push(match[1]);
+  }
+  return urls;
+}
+
+function extractPreferredSrcsetUrl(srcset = "") {
+  return String(srcset || "")
+    .split(",")
+    .map((candidate) => candidate.trim().split(/\s+/)[0] || "")
+    .find(Boolean) || "";
+}
+
+function cleanImageUrlCandidate(value = "") {
+  const raw = cleanText(value).replace(/&amp;/g, "&").replace(/^["']+|["']+$/g, "");
+  const variants = [];
+  try {
+    variants.push(decodeURIComponent(raw));
+  } catch {
+    variants.push(raw);
+  }
+  variants.push(raw);
+
+  for (const variant of variants) {
+    const urls = String(variant || "").match(/https?:\/{2,}[^"')\s]+/gi) || [];
+    for (const url of urls) {
+      const image = cleanAbsoluteImageUrl(url);
+      if (image) return image;
+    }
+  }
+
+  return raw;
+}
+
+function cleanAbsoluteImageUrl(url = "") {
+  const imageMatch = String(url || "").match(/^(https?:\/{2,}.+?\.(?:png|jpe?g|webp))(?:[?#][^"')\s]*)?/i);
+  if (!imageMatch) return "";
+  const normalized = imageMatch[1].replace(/^(https?:)\/+/i, "$1//");
+  try {
+    const parsed = new URL(normalized);
+    parsed.pathname = parsed.pathname.replace(/\/{2,}/g, "/");
+    return parsed.href;
+  } catch {
+    return normalized;
+  }
+}
+
+function isArticleImageAssetUrl(url, source) {
+  if (!url || /^(?:blob|data|javascript):/i.test(String(url))) return false;
+  return inferMediaAssetType(url, source) === "image";
 }
 
 function createMediaDocumentAliases(title = "", contextText = "") {
@@ -3684,8 +3829,15 @@ function inferMediaAssetType(url, source) {
     pathname = String(url || "").toLocaleLowerCase("en-US");
   }
 
-  if (!/\.(png|jpe?g|webp)($|\?)/i.test(pathname)) return "";
-  if (/\/(static|assets|themes?)\//i.test(pathname) || /(logo|mark|icon|share|btn-)/i.test(pathname)) return "";
+  const hasImageExtension = /\.(png|jpe?g|webp)($|\?)/i.test(pathname);
+  const isKcnaImageEndpoint = source.id === "kcna" && /\/image\/q\/.+\.kcmsf$/i.test(pathname);
+  if (!hasImageExtension && !isKcnaImageEndpoint) return "";
+  if (/\/(static|assets|themes?)\//i.test(pathname) || /(logo|mark|icon|share|btn-|banner|application\d*)/i.test(pathname)) return "";
+  if (isKcnaImageEndpoint && source.mediaTypes.includes("image")) return "image";
+  if (source.id === "rodong-sinmun") {
+    if (/(?:page_bottom_mark|rodong_view_mark|rodong_title|arrow|button|banner)/i.test(pathname)) return "";
+    if (source.mediaTypes.includes("image")) return "image";
+  }
   if (source.id === "ryugyong") {
     if (source.mediaTypes.includes("video") && /\/contents\/video\//i.test(pathname)) return "video";
     if (source.mediaTypes.includes("image") && /\/contents\/photo\//i.test(pathname)) return "image";
@@ -3693,6 +3845,7 @@ function inferMediaAssetType(url, source) {
   if (source.id === "minju-choson" && source.mediaTypes.includes("image") && /\/uploads\/photo\//i.test(pathname)) {
     return "image";
   }
+  if (source.mediaTypes.includes("image") && hasImageExtension && isAllowedSourceUrl(url, source)) return "image";
   return "";
 }
 
