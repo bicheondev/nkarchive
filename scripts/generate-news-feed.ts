@@ -10,6 +10,7 @@ const DOCUMENTS_PATH = path.join(ROOT_DIR, "data", "search", "documents.jsonl");
 const OUTPUT_PATH = path.join(ROOT_DIR, "data", "news-feed.json");
 const DETAILS_OUTPUT_PATH = path.join(ROOT_DIR, "data", "news-details.json");
 const MAX_ARTICLES_PER_SOURCE = 120;
+const NEWS_SNAPSHOT_SCHEMA_VERSION = 3;
 const SOURCE_DEFINITIONS = [
   { id: "kcna", name: "조선중앙통신" },
   { id: "rodong-sinmun", name: "로동신문" },
@@ -28,6 +29,7 @@ if (!newestDate) {
 }
 
 const snapshotVersion = createHash("sha256")
+  .update(`news-snapshot-schema:${NEWS_SNAPSHOT_SCHEMA_VERSION}\n`)
   .update(JSON.stringify(selectedDocuments))
   .digest("hex")
   .slice(0, 16);
@@ -96,20 +98,21 @@ function buildSource(source, documents, snapshotVersion) {
 
 function toFeedArticle(document, snapshotVersion) {
   const id = String(document?.id || "");
+  const thumbnails = normalizeThumbnailPair(document);
   return {
     id,
     title: cleanArticleTitle(document?.title),
     date: String(document?.date || ""),
     snippet: String(document?.snippet || ""),
     url: String(document?.url || ""),
-    thumbnailUrl: String(document?.thumbnailUrl || ""),
-    cachedThumbnailUrl: String(document?.cachedThumbnailUrl || ""),
+    ...thumbnails,
     detailUrl: `/news/document?id=${encodeURIComponent(id)}&v=${encodeURIComponent(snapshotVersion)}`,
   };
 }
 
 function toDetailArticle(document, source) {
   const id = String(document?.id || "");
+  const thumbnails = normalizeThumbnailPair(document);
   return {
     id,
     sourceId: source.id,
@@ -119,9 +122,29 @@ function toDetailArticle(document, source) {
     snippet: String(document?.snippet || ""),
     body: String(document?.body || ""),
     url: String(document?.url || ""),
-    thumbnailUrl: String(document?.thumbnailUrl || ""),
-    cachedThumbnailUrl: String(document?.cachedThumbnailUrl || ""),
+    ...thumbnails,
   };
+}
+
+function normalizeThumbnailPair(document) {
+  const thumbnailUrl = String(document?.thumbnailUrl || "").trim();
+  if (!thumbnailUrl || isGenericSourceArtwork(thumbnailUrl)) {
+    return { thumbnailUrl: "", cachedThumbnailUrl: "" };
+  }
+  return {
+    thumbnailUrl,
+    cachedThumbnailUrl: String(document?.cachedThumbnailUrl || "").trim(),
+  };
+}
+
+function isGenericSourceArtwork(value) {
+  try {
+    const pathname = decodeURIComponent(new URL(value, "https://archive.invalid").pathname).toLocaleLowerCase("en-US");
+    const fileName = pathname.split("/").at(-1) || "";
+    return /(?:^|[-_.])(?:newsf|logo|mark|calendar|page[-_]?bottom|icon|arrow|button|banner|spacer|loader)(?:[-_.]|$)/iu.test(fileName);
+  } catch {
+    return true;
+  }
 }
 
 function cleanArticleTitle(value) {

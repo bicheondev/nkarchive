@@ -4,14 +4,14 @@
   const sourceElement = document.querySelector("#newsDocumentSource");
   const dateElement = document.querySelector("#newsDocumentDate");
   const bodyElement = document.querySelector("#newsDocumentBody");
+  const heroElement = document.querySelector(".news-document-hero");
   const imageElement = document.querySelector("#newsDocumentImage");
-  if (!documentRoot || !titleElement || !sourceElement || !dateElement || !bodyElement || !imageElement) return;
+  if (!documentRoot || !titleElement || !sourceElement || !dateElement || !bodyElement || !heroElement || !imageElement) return;
 
   const params = new URLSearchParams(window.location.search);
   const articleId = params.get("id") || "";
-  const requestedVersion = params.get("v") || "news-20260821-3";
+  const requestedVersion = params.get("v") || "news-20260821-4";
   const DETAILS_URL = `/data/news-details.json?v=${encodeURIComponent(requestedVersion)}`;
-  const FALLBACK_IMAGE = "/assets/news-detail-hero.webp?v=news-20260821-3";
 
   bindChrome();
   loadArticle();
@@ -58,15 +58,7 @@
       }),
     );
 
-    const heroSource = resolveHeroSource(article);
-    imageElement.alt = heroSource ? title : "";
-    imageElement.addEventListener("error", () => {
-      if (!imageElement.src.endsWith("/assets/news-detail-hero.webp?v=news-20260821-3")) {
-        imageElement.alt = "";
-        imageElement.src = FALLBACK_IMAGE;
-      }
-    }, { once: true });
-    imageElement.src = heroSource || FALLBACK_IMAGE;
+    renderHero(article);
     documentRoot.setAttribute("aria-busy", "false");
   }
 
@@ -83,12 +75,65 @@
     return blocks.length ? blocks : [normalized];
   }
 
-  function resolveHeroSource(article) {
-    const candidate = String(article.cachedThumbnailUrl || article.thumbnailUrl || "").trim();
-    if (!candidate || /\/newsf\.gif(?:$|\?)/iu.test(candidate)) return "";
-    if (candidate.startsWith("/")) return candidate;
-    if (!/^https?:\/\//iu.test(candidate)) return "";
-    return `/api/search-asset?url=${encodeURIComponent(candidate)}`;
+  function renderHero(article) {
+    const sources = resolveArticleImageSources(article);
+    heroElement.hidden = true;
+    imageElement.alt = "";
+    imageElement.removeAttribute("src");
+    if (!sources.length) return;
+
+    let sourceIndex = 0;
+    const tryNextSource = () => {
+      if (sourceIndex >= sources.length) {
+        heroElement.hidden = true;
+        imageElement.removeAttribute("src");
+        return;
+      }
+      imageElement.src = sources[sourceIndex];
+      sourceIndex += 1;
+    };
+    imageElement.addEventListener("load", () => {
+      heroElement.hidden = false;
+    }, { once: true });
+    imageElement.addEventListener("error", tryNextSource);
+    imageElement.decoding = "async";
+    imageElement.referrerPolicy = "no-referrer";
+    tryNextSource();
+  }
+
+  function resolveArticleImageSources(article) {
+    const sources = [];
+    const cachedSource = resolveCachedImageSource(article?.cachedThumbnailUrl);
+    const originalSource = resolveOriginalImageSource(article?.thumbnailUrl);
+    if (cachedSource) sources.push(cachedSource);
+    if (originalSource && !sources.includes(originalSource)) sources.push(originalSource);
+    return sources;
+  }
+
+  function resolveCachedImageSource(value) {
+    const candidate = normalizeImageCandidate(value);
+    if (!candidate) return "";
+    if (/^\/(?:data\/search\/assets|cached\/search-assets|api\/search-asset)(?:\/|\?)/u.test(candidate)) {
+      return candidate;
+    }
+    if (/^https:\/\//iu.test(candidate)) return candidate;
+    if (/^http:\/\//iu.test(candidate)) return createAssetProxyUrl(candidate);
+    return "";
+  }
+
+  function resolveOriginalImageSource(value) {
+    const candidate = normalizeImageCandidate(value);
+    return /^https?:\/\//iu.test(candidate) ? createAssetProxyUrl(candidate) : "";
+  }
+
+  function normalizeImageCandidate(value) {
+    const candidate = String(value || "").trim();
+    if (!candidate || /\/newsf\.gif(?:$|[?#])/iu.test(candidate)) return "";
+    return candidate;
+  }
+
+  function createAssetProxyUrl(value) {
+    return `/api/search-asset?url=${encodeURIComponent(value)}`;
   }
 
   function formatKoreanDate(value) {
