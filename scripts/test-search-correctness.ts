@@ -455,8 +455,8 @@ async function assertProjectShellNavigationIsAccessible() {
   assert.equal(homeHtml.includes('aria-label="주요 메뉴"'), true, "project shell primary navigation should use a Korean accessible name");
   assert.equal(homeHtml.includes('aria-label="Archive home"'), false, "project shell should not expose English logo labels");
   assert.equal(homeHtml.includes('aria-label="Primary"'), false, "project shell should not expose English nav labels");
-  assert.equal(homeHtml.includes('/styles.css?v=news-20260819-1'), true, "project shell should use the current shared style cache key");
-  assert.equal(homeHtml.includes('/app.js?v=news-20260819-1'), true, "project shell should use the current app runtime cache key");
+  assert.equal(homeHtml.includes('/styles.css?v=site-20260821-1'), true, "project shell should use the current shared style cache key");
+  assert.equal(homeHtml.includes('/app.js?v=site-20260821-1'), true, "project shell should use the current app runtime cache key");
   assert.equal(liveHtml.includes('window.location.replace("/?route=live&v=live-20260701-2")'), true, "/live should redirect into the current shared app shell instead of shipping a stale duplicate shell");
   const navHtml = navMatch?.[0] || "";
   assert.equal(navHtml.includes('href="#"'), false, "project shell navigation should not ship dead placeholder links");

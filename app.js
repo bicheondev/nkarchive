@@ -9,11 +9,9 @@ const LOAD_MORE_THRESHOLD = 300;
 const MAX_CONCURRENT_FONT_LOADS = 4;
 const ROUTE_FONT = "font";
 const ROUTE_MUSIC = "music";
-const ROUTE_NEWS = "news";
 const ROUTE_LIVE = "live";
 const ROUTE_SEARCH = "search";
 const MUSIC_PATH = "/music";
-const NEWS_PATH = "/news";
 const LIVE_PATH = "/live";
 const SEARCH_PATH = "/search";
 const LIVE_DISCLAIMER_STORAGE_KEY = "live-disclaimer-dismissed";
@@ -286,7 +284,6 @@ const menuToggle = document.querySelector("#siteMenuToggle");
 const menuToggleIcon = menuToggle?.querySelector(".menu-toggle-icon");
 const navLinks = [...document.querySelectorAll(".site-nav a")];
 const archiveView = document.querySelector("#archiveView");
-const newsView = document.querySelector("#newsView");
 const liveView = document.querySelector("#liveView");
 const musicView = document.querySelector("#musicView");
 const siteFooter = document.querySelector("#siteFooter");
@@ -461,16 +458,12 @@ function navigateRoute(event) {
       ? ROUTE_LIVE
       : url.pathname.replace(/\/+$/, "") === MUSIC_PATH
         ? ROUTE_MUSIC
-        : url.pathname.replace(/\/+$/, "") === NEWS_PATH
-          ? ROUTE_NEWS
-          : ROUTE_FONT);
+        : ROUTE_FONT);
   const pathname = route === ROUTE_LIVE
     ? LIVE_PATH
     : route === ROUTE_MUSIC
       ? MUSIC_PATH
-      : route === ROUTE_NEWS
-        ? NEWS_PATH
-        : "/font";
+      : "/font";
   if (route === ROUTE_MUSIC && currentRoute() === ROUTE_MUSIC) collapseMusicToHome();
 
   if (pathname !== window.location.pathname.replace(/\/+$/, "")) {
@@ -486,14 +479,12 @@ function currentRoute() {
   const requestedRoute = queryRoute || initialRoute;
   if (requestedRoute === ROUTE_LIVE) return ROUTE_LIVE;
   if (requestedRoute === ROUTE_MUSIC) return ROUTE_MUSIC;
-  if (requestedRoute === ROUTE_NEWS) return ROUTE_NEWS;
   if (requestedRoute === ROUTE_SEARCH) return ROUTE_SEARCH;
   if (requestedRoute === ROUTE_FONT) return ROUTE_FONT;
 
   const path = window.location.pathname.replace(/\/+$/, "") || "/font";
   if (path === LIVE_PATH) return ROUTE_LIVE;
   if (path === MUSIC_PATH) return ROUTE_MUSIC;
-  if (path === NEWS_PATH) return ROUTE_NEWS;
   if (path === SEARCH_PATH) return ROUTE_SEARCH;
   return ROUTE_FONT;
 }
@@ -503,28 +494,26 @@ function renderRoute() {
   const route = currentRoute();
   const isLive = route === ROUTE_LIVE;
   const isMusic = route === ROUTE_MUSIC;
-  const isNews = route === ROUTE_NEWS;
   const isSearch = route === ROUTE_SEARCH;
 
   const currentPath = window.location.pathname.replace(/\/+$/, "") || "/";
   if (currentPath === "/" || window.location.search) {
-    window.history.replaceState(null, "", isLive ? LIVE_PATH : isMusic ? MUSIC_PATH : isNews ? NEWS_PATH : isSearch ? SEARCH_PATH : "/font");
+    window.history.replaceState(null, "", isLive ? LIVE_PATH : isMusic ? MUSIC_PATH : isSearch ? SEARCH_PATH : "/font");
   }
-  document.title = isLive ? "북한방송아카이브" : isMusic ? "북한음악아카이브" : isNews ? "북한뉴스아카이브" : isSearch ? "북한 공개자료 통합검색" : "북한폰트아카이브";
+  document.title = isLive ? "북한방송아카이브" : isMusic ? "북한음악아카이브" : isSearch ? "북한 공개자료 통합검색" : "북한폰트아카이브";
   document.documentElement.dataset.route = route;
   document.body.dataset.view = route;
-  archiveView.hidden = isLive || isMusic || isNews || isSearch;
-  if (newsView) newsView.hidden = !isNews;
+  archiveView.hidden = isLive || isMusic || isSearch;
   if (liveView) liveView.hidden = !isLive;
   if (musicView) musicView.hidden = !isMusic;
   if (!isLive) silenceAllLivePlayers();
   if (!isMusic) pauseMusic(false);
-  logoLink.textContent = isLive ? "★Live" : isMusic ? "★Music" : isNews ? "★News" : isSearch ? "★Search" : "★Font";
-  logoLink.setAttribute("aria-label", isLive ? "방송 홈" : isMusic ? "음악 홈" : isNews ? "뉴스 홈" : isSearch ? "검색 홈" : "폰트 아카이브 홈");
-  logoLink.href = isLive ? LIVE_PATH : isMusic ? MUSIC_PATH : isNews ? NEWS_PATH : isSearch ? SEARCH_PATH : "/font";
+  logoLink.textContent = isLive ? "★Live" : isMusic ? "★Music" : isSearch ? "★Search" : "★Font";
+  logoLink.setAttribute("aria-label", isLive ? "방송 홈" : isMusic ? "음악 홈" : isSearch ? "검색 홈" : "폰트 아카이브 홈");
+  logoLink.href = isLive ? LIVE_PATH : isMusic ? MUSIC_PATH : isSearch ? SEARCH_PATH : "/font";
   siteFooter.dataset.view = route;
-  siteFooter.hidden = isMusic || isNews || isSearch;
-  if (!isMusic && !isNews) renderFooterCopy(isLive ? LIVE_FOOTER_COPY : FONT_FOOTER_COPY);
+  siteFooter.hidden = isMusic || isSearch;
+  if (!isMusic) renderFooterCopy(isLive ? LIVE_FOOTER_COPY : FONT_FOOTER_COPY);
 
   for (const link of navLinks) {
     const isActive = link.dataset.route === route;
@@ -539,7 +528,7 @@ function renderRoute() {
     hideLiveDisclaimer(false);
     liveDisclaimerDismissedForVisit = false;
     renderMusicView();
-  } else if (!isNews && fontArchiveReady) {
+  } else if (fontArchiveReady) {
     hideLiveDisclaimer(false);
     liveDisclaimerDismissedForVisit = false;
     renderVirtualGrid(true);

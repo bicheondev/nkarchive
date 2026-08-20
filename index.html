@@ -19,16 +19,16 @@
     <meta name="twitter:image:src" content="/og.png" />
     <base href="/" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link rel="stylesheet" href="/styles.css?v=news-20260819-1" />
+    <link rel="stylesheet" href="/styles.css?v=site-20260821-1" />
     <script>
       window.__INITIAL_ROUTE__ = new URLSearchParams(window.location.search).get("route");
       const initialPath = window.location.pathname.replace(/\/+$/, "");
-      if (window.__INITIAL_ROUTE__ === "live" || initialPath === "/live") {
+      if (window.__INITIAL_ROUTE__ === "news") {
+        window.location.replace("/news");
+      } else if (window.__INITIAL_ROUTE__ === "live" || initialPath === "/live") {
         document.documentElement.dataset.route = "live";
       } else if (window.__INITIAL_ROUTE__ === "music" || initialPath === "/music") {
         document.documentElement.dataset.route = "music";
-      } else if (window.__INITIAL_ROUTE__ === "news" || initialPath === "/news") {
-        document.documentElement.dataset.route = "news";
       } else if (window.__INITIAL_ROUTE__ === "search" || initialPath === "/search") {
         document.documentElement.dataset.route = "search";
       }
@@ -42,7 +42,7 @@
           <span class="site-nav-disabled" aria-disabled="true">사전</span>
           <a href="/music" data-route="music">음악</a>
           <a class="active" href="/?route=font" data-route="font">폰트</a>
-          <a href="/news" data-route="news">뉴스</a>
+          <a href="/news">뉴스</a>
           <span class="site-nav-disabled" aria-disabled="true">번역</span>
           <span class="site-nav-disabled" aria-disabled="true">문헌</span>
           <span class="site-nav-disabled" aria-disabled="true">스토어</span>
@@ -72,13 +72,6 @@
             <span>K</span>
           </span>
         </button>
-        <a class="news-header-search" href="/search" aria-label="뉴스 기사 검색">
-          <span class="material-symbols-rounded music-header-search-icon" aria-hidden="true">search</span>
-          <span class="music-header-shortcut" aria-hidden="true">
-            <span>⌘</span>
-            <span>K</span>
-          </span>
-        </a>
         <button class="menu-toggle" id="siteMenuToggle" type="button" aria-label="메뉴 열기" aria-controls="primaryNav" aria-expanded="false">
           <span class="material-symbols-rounded menu-toggle-icon" aria-hidden="true">drag_handle</span>
         </button>
@@ -104,21 +97,6 @@
 
       <section class="font-grid" id="fontGrid" aria-label="북한 폰트 목록"></section>
       <div class="load-sentinel" id="loadSentinel" aria-hidden="true"></div>
-    </main>
-
-    <main class="news-shell" id="newsView" hidden>
-      <section class="news-board" id="newsBoard" role="tabpanel" aria-labelledby="newsSourceKcna" aria-live="polite" aria-busy="true">
-        <div class="news-loading" aria-hidden="true">
-          <div class="news-loading-column"></div>
-          <div class="news-loading-column"></div>
-          <div class="news-loading-column"></div>
-        </div>
-      </section>
-
-      <div class="news-source-switcher" role="tablist" aria-label="뉴스 자료원">
-        <button class="news-source-tab active" id="newsSourceKcna" type="button" role="tab" aria-controls="newsBoard" aria-selected="true" data-news-source="kcna">조선중앙통신</button>
-        <button class="news-source-tab" id="newsSourceRodong" type="button" role="tab" aria-controls="newsBoard" aria-selected="false" data-news-source="rodong-sinmun">로동신문</button>
-      </div>
     </main>
 
     <main class="live-shell" id="liveView" hidden>
@@ -326,7 +304,6 @@
       </article>
     </template>
 
-    <script src="/app.js?v=news-20260819-1" defer></script>
-    <script src="/news/news.js?v=news-20260819-1" defer></script>
+    <script src="/app.js?v=site-20260821-1" defer></script>
   </body>
 </html>

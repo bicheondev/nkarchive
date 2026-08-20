@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>북한뉴스아카이브</title>
-    <meta name="description" content="조선중앙통신과 로동신문의 기사를 학문적 목적으로 보관하는 뉴스 아카이브입니다." />
+    <title>뉴스 기사 · 북한뉴스아카이브</title>
+    <meta name="description" content="조선중앙통신과 로동신문의 보관 기사입니다." />
     <base href="/" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="stylesheet" href="/news/news.css?v=news-20260821-3" />
   </head>
-  <body class="news-page news-index-page">
+  <body class="news-page news-document-page">
     <header class="news-navigation">
       <div class="news-navigation-inner">
         <a class="news-logo" href="/news" aria-label="뉴스 홈">★News</a>
@@ -24,26 +24,29 @@
           <a href="/live">방송</a>
         </nav>
         <a class="news-search" href="/search" aria-label="뉴스 기사 검색">
-          <img src="/assets/news-search-list.svg?v=news-20260821-3" alt="" aria-hidden="true" />
+          <img src="/assets/news-search-detail.svg?v=news-20260821-3" alt="" aria-hidden="true" />
           <span class="news-search-shortcut" aria-hidden="true"><span>⌘</span><span>K</span></span>
         </a>
         <button class="news-menu-toggle" id="newsMenuToggle" type="button" aria-controls="newsNavigationLinks" aria-expanded="false">메뉴</button>
       </div>
     </header>
 
-    <main class="news-index-main">
-      <section class="news-board" id="newsBoard" role="tabpanel" aria-labelledby="newsSourceKcna" aria-live="polite" aria-busy="true">
-        <div class="news-loading" aria-hidden="true">
-          <div></div>
-          <div></div>
-          <div></div>
+    <main class="news-document-main">
+      <article class="news-document" id="newsDocument" aria-busy="true">
+        <div class="news-document-hero">
+          <img id="newsDocumentImage" alt="" />
         </div>
-      </section>
-
-      <div class="news-source-switcher" role="tablist" aria-label="뉴스 자료원">
-        <button class="news-source-tab active" id="newsSourceKcna" type="button" role="tab" aria-controls="newsBoard" aria-selected="true" data-news-source="kcna">조선중앙통신</button>
-        <button class="news-source-tab" id="newsSourceRodong" type="button" role="tab" aria-controls="newsBoard" aria-selected="false" data-news-source="rodong-sinmun">로동신문</button>
-      </div>
+        <div class="news-document-content">
+          <header class="news-document-header">
+            <h1 id="newsDocumentTitle"></h1>
+            <div class="news-document-meta">
+              <p class="news-document-source" id="newsDocumentSource"></p>
+              <p class="news-document-date" id="newsDocumentDate"></p>
+            </div>
+          </header>
+          <div class="news-document-body" id="newsDocumentBody"></div>
+        </div>
+      </article>
     </main>
 
     <footer class="news-footer">
@@ -51,6 +54,6 @@
       <p>각 기사의 저작권은 조선중앙통신 및 로동신문에게 있습니다.</p>
     </footer>
 
-    <script src="/news/news.js?v=news-20260821-3" defer></script>
+    <script src="/news/detail.js?v=news-20260821-3" defer></script>
   </body>
 </html>

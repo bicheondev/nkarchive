@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 import fs from "node:fs";
 import path from "node:path";
+import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, "..");
 const DOCUMENTS_PATH = path.join(ROOT_DIR, "data", "search", "documents.jsonl");
 const OUTPUT_PATH = path.join(ROOT_DIR, "data", "news-feed.json");
+const DETAILS_OUTPUT_PATH = path.join(ROOT_DIR, "data", "news-details.json");
 const MAX_ARTICLES_PER_SOURCE = 120;
 const SOURCE_DEFINITIONS = [
   { id: "kcna", name: "조선중앙통신" },
@@ -14,10 +16,10 @@ const SOURCE_DEFINITIONS = [
 ];
 
 const documents = parseJsonl(fs.readFileSync(DOCUMENTS_PATH, "utf8"));
-const sources = Object.fromEntries(
-  SOURCE_DEFINITIONS.map((source) => [source.id, buildSource(source, documents)]),
+const selectedDocuments = Object.fromEntries(
+  SOURCE_DEFINITIONS.map((source) => [source.id, selectSourceDocuments(source, documents)]),
 );
-const newestDate = SOURCE_DEFINITIONS.map(({ id }) => sources[id].articles[0]?.date || "")
+const newestDate = SOURCE_DEFINITIONS.map(({ id }) => selectedDocuments[id][0]?.date || "")
   .sort()
   .at(-1);
 
@@ -25,16 +27,38 @@ if (!newestDate) {
   throw new Error("No Korean news articles were found in data/search/documents.jsonl");
 }
 
+const snapshotVersion = createHash("sha256")
+  .update(JSON.stringify(selectedDocuments))
+  .digest("hex")
+  .slice(0, 16);
+const sources = Object.fromEntries(
+  SOURCE_DEFINITIONS.map((source) => [
+    source.id,
+    buildSource(source, selectedDocuments[source.id], snapshotVersion),
+  ]),
+);
+
 const feed = {
   generatedAt: `${newestDate}T00:00:00.000Z`,
+  version: snapshotVersion,
   sources,
+};
+const details = {
+  generatedAt: feed.generatedAt,
+  version: snapshotVersion,
+  articles: Object.fromEntries(
+    SOURCE_DEFINITIONS.flatMap((source) =>
+      selectedDocuments[source.id].map((document) => [document.id, toDetailArticle(document, source)]),
+    ),
+  ),
 };
 
 fs.writeFileSync(OUTPUT_PATH, `${JSON.stringify(feed, null, 2)}\n`, "utf8");
+fs.writeFileSync(DETAILS_OUTPUT_PATH, `${JSON.stringify(details, null, 2)}\n`, "utf8");
 console.log(
   `Wrote data/news-feed.json with ${SOURCE_DEFINITIONS.map(
     ({ id }) => `${sources[id].articles.length} ${id} articles`,
-  ).join(" and ")}.`,
+  ).join(" and ")} and data/news-details.json with ${Object.keys(details.articles).length} article bodies.`,
 );
 
 function parseJsonl(text) {
@@ -52,24 +76,25 @@ function parseJsonl(text) {
     });
 }
 
-function buildSource(source, documents) {
-  const articles = documents
+function selectSourceDocuments(source, documents) {
+  return documents
     .filter(
       (document) =>
         document?.sourceId === source.id && document?.language === "ko" && document?.mediaType === "article",
     )
     .sort((left, right) => compareDescending(left?.date, right?.date) || compareAscending(left?.id, right?.id))
-    .slice(0, MAX_ARTICLES_PER_SOURCE)
-    .map(toFeedArticle);
+    .slice(0, MAX_ARTICLES_PER_SOURCE);
+}
 
+function buildSource(source, documents, snapshotVersion) {
   return {
     id: source.id,
     name: source.name,
-    articles,
+    articles: documents.map((document) => toFeedArticle(document, snapshotVersion)),
   };
 }
 
-function toFeedArticle(document) {
+function toFeedArticle(document, snapshotVersion) {
   const id = String(document?.id || "");
   return {
     id,
@@ -79,7 +104,23 @@ function toFeedArticle(document) {
     url: String(document?.url || ""),
     thumbnailUrl: String(document?.thumbnailUrl || ""),
     cachedThumbnailUrl: String(document?.cachedThumbnailUrl || ""),
-    detailUrl: `/search/document?id=${encodeURIComponent(id)}`,
+    detailUrl: `/news/document?id=${encodeURIComponent(id)}&v=${encodeURIComponent(snapshotVersion)}`,
+  };
+}
+
+function toDetailArticle(document, source) {
+  const id = String(document?.id || "");
+  return {
+    id,
+    sourceId: source.id,
+    sourceName: source.name,
+    title: cleanArticleTitle(document?.title),
+    date: String(document?.date || ""),
+    snippet: String(document?.snippet || ""),
+    body: String(document?.body || ""),
+    url: String(document?.url || ""),
+    thumbnailUrl: String(document?.thumbnailUrl || ""),
+    cachedThumbnailUrl: String(document?.cachedThumbnailUrl || ""),
   };
 }
 

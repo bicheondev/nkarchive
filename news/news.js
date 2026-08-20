@@ -1,101 +1,105 @@
-(function initializeNewsArchive() {
+(function initializeNewsIndex() {
   const board = document.querySelector("#newsBoard");
   const sourceTabs = [...document.querySelectorAll("[data-news-source]")];
   if (!board || !sourceTabs.length) return;
 
-  const FEED_URL = "/data/news-feed.json?v=news-20260819-1";
+  const FEED_URL = "/data/news-feed.json?v=news-20260821-3";
   const SOURCE_STORAGE_KEY = "nkarchive-news-source";
   const SOURCE_IDS = new Set(["kcna", "rodong-sinmun"]);
-  const SECTION_COLUMNS = {
-    kcna: [
-      ["leadership", "important"],
-      ["anecdote", "latest"],
-      ["memory", "foreign"],
-    ],
-    "rodong-sinmun": [
-      ["leadership", "today"],
-      ["politics", "society"],
-      ["advancing", "history"],
-    ],
-  };
+  const SECTION_COLUMNS = [
+    ["leadership", "important"],
+    ["anecdote", "latest"],
+    ["memory", "foreign"],
+  ];
   const SECTION_DEFINITIONS = {
-    kcna: [
-      {
-        id: "leadership",
+    kcna: {
+      leadership: {
         title: "경애하는 김정은동지의 혁명활동소식",
         limit: 6,
         patterns: [/김정은/u, /총비서/u, /원수님/u],
       },
-      {
-        id: "anecdote",
+      important: { title: "중요소식", limit: 2, mode: "latest" },
+      anecdote: {
         title: "혁명일화",
         limit: 5,
         patterns: [/사랑/u, /은정/u, /어버이/u, /현지지도/u, /찾으시/u, /참관하시/u, /방문하시/u],
       },
-      {
-        id: "memory",
+      latest: { title: "최신소식", limit: 6, mode: "latest" },
+      memory: {
         title: "인민은 못 잊습니다",
         limit: 5,
-        patterns: [/추모/u, /추억/u, /기념/u, /렬사/u, /전투위훈/u, /궁전/u, /해방/u, /묘/u],
+        patterns: [/추모/u, /추억/u, /기념/u, /렬사/u, /위훈/u, /궁전/u, /해방/u, /묘/u],
       },
-      { id: "important", title: "중요소식", limit: 2, mode: "latest" },
-      { id: "latest", title: "최신소식", limit: 6, mode: "latest" },
-      {
-        id: "foreign",
+      foreign: {
         title: "대외관계",
         limit: 5,
         patterns: [/외무/u, /대사/u, /대표단/u, /로씨야/u, /중국/u, /윁남/u, /국제/u, /친선/u, /축전/u, /회담/u],
       },
-    ],
-    "rodong-sinmun": [
-      {
-        id: "leadership",
+    },
+    "rodong-sinmun": {
+      leadership: {
         title: "경애하는 김정은동지의 혁명활동소식",
         limit: 6,
         patterns: [/김정은/u, /총비서/u, /원수님/u, /어버이/u],
       },
-      { id: "today", title: "오늘호 기사", limit: 7, mode: "latest-day" },
-      {
-        id: "politics",
-        title: "인민을 위한 정치",
+      important: { title: "중요소식", limit: 2, mode: "latest" },
+      anecdote: {
+        title: "혁명일화",
         limit: 5,
-        patterns: [/인민/u, /이민위천/u, /정책/u, /당대회/u, /멸사복무/u, /복리/u, /은정/u],
+        patterns: [/사랑/u, /은정/u, /위민/u, /일화/u, /현지지도/u, /찾으시/u],
       },
-      {
-        id: "advancing",
-        title: "전진하는 조선",
+      latest: { title: "최신소식", limit: 6, mode: "latest" },
+      memory: {
+        title: "인민은 못 잊습니다",
         limit: 5,
-        patterns: [/생산/u, /건설/u, /공장/u, /농장/u, /과학기술/u, /경제/u, /전력/u, /혁신/u, /발전/u],
+        patterns: [/인민/u, /추억/u, /기념/u, /렬사/u, /로동자/u, /농민/u, /사랑/u],
       },
-      {
-        id: "society",
-        title: "사회문화생활",
+      foreign: {
+        title: "대외관계",
         limit: 5,
-        patterns: [/교육/u, /문화/u, /체육/u, /보건/u, /학교/u, /청년/u, /녀성/u, /예술/u, /생활/u, /료리/u],
+        patterns: [/외무/u, /대사/u, /대표단/u, /로씨야/u, /중국/u, /국제/u, /친선/u, /축전/u, /회담/u],
       },
-      {
-        id: "history",
-        title: "유구한 력사, 찬란한 문화",
-        limit: 5,
-        patterns: [/력사/u, /유적/u, /문화유산/u, /민족/u, /고구려/u, /고려/u, /고조선/u, /발굴/u, /전통/u, /기념/u],
-      },
+    },
+  };
+  const SECTION_SLOTS = {
+    leadership: [
+      { height: 62, image: 1 },
+      { height: 62, image: 2 },
+      { height: 62 },
+      { height: 40 },
+      { height: 62, image: 3 },
+      { height: 62, image: 4 },
+    ],
+    important: [
+      { height: 80, image: 1 },
+      { height: 80, image: 2 },
+    ],
+    anecdote: Array.from({ length: 5 }, () => ({ height: 40 })),
+    latest: [
+      { height: 40 },
+      { height: 40 },
+      { height: 40 },
+      { height: 40 },
+      { height: 62, image: 5 },
+      { height: 62 },
+    ],
+    memory: Array.from({ length: 5 }, () => ({ height: 40 })),
+    foreign: [
+      { height: 40 },
+      { height: 62 },
+      { height: 40 },
+      { height: 40 },
+      { height: 62 },
     ],
   };
 
   let feed = null;
   let activeSourceId = readStoredSource();
 
-  bindEvents();
+  bindChrome();
+  bindSourceTabs();
   updateTabs();
   loadFeed();
-
-  function bindEvents() {
-    for (const tab of sourceTabs) {
-      tab.addEventListener("click", () => selectSource(tab.dataset.newsSource));
-      tab.addEventListener("keydown", handleTabKeydown);
-    }
-    document.addEventListener("keydown", handleSearchShortcut);
-  }
 
   async function loadFeed() {
     try {
@@ -109,6 +113,39 @@
     } catch (error) {
       console.error("[news] Unable to load the news snapshot.", error);
       renderError();
+    }
+  }
+
+  function bindChrome() {
+    const toggle = document.querySelector("#newsMenuToggle");
+    const navigation = document.querySelector(".news-navigation");
+    toggle?.addEventListener("click", () => {
+      const nextOpen = !document.body.classList.contains("news-menu-open");
+      document.body.classList.toggle("news-menu-open", nextOpen);
+      toggle.setAttribute("aria-expanded", String(nextOpen));
+    });
+    document.addEventListener("click", (event) => {
+      if (!document.body.classList.contains("news-menu-open")) return;
+      if (navigation?.contains(event.target)) return;
+      document.body.classList.remove("news-menu-open");
+      toggle?.setAttribute("aria-expanded", "false");
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        document.body.classList.remove("news-menu-open");
+        toggle?.setAttribute("aria-expanded", "false");
+      }
+      if ((event.metaKey || event.ctrlKey) && !event.altKey && event.key.toLocaleLowerCase("en-US") === "k") {
+        event.preventDefault();
+        window.location.assign("/search");
+      }
+    });
+  }
+
+  function bindSourceTabs() {
+    for (const tab of sourceTabs) {
+      tab.addEventListener("click", () => selectSource(tab.dataset.newsSource));
+      tab.addEventListener("keydown", handleTabKeydown);
     }
   }
 
@@ -133,58 +170,62 @@
 
   function renderActiveSource() {
     const source = feed?.sources?.[activeSourceId];
-    const definitions = SECTION_DEFINITIONS[activeSourceId] || [];
-    if (!source || !Array.isArray(source.articles) || !definitions.length) {
+    const definitions = SECTION_DEFINITIONS[activeSourceId];
+    if (!source || !Array.isArray(source.articles) || !definitions) {
       renderError();
       return;
     }
 
-    const sections = new Map(
-      definitions.map((definition) => [definition.id, {
-        ...definition,
-        articles: selectSectionArticles(source.articles, definition),
-      }]),
-    );
     const grid = document.createElement("div");
     grid.className = "news-board-grid";
     grid.dataset.source = activeSourceId;
 
-    for (const sectionIds of SECTION_COLUMNS[activeSourceId] || []) {
+    SECTION_COLUMNS.forEach((sectionIds, columnIndex) => {
       const column = document.createElement("div");
       column.className = "news-column";
+      column.dataset.newsColumn = String(columnIndex);
       for (const sectionId of sectionIds) {
-        const section = sections.get(sectionId);
-        if (section) column.append(createSection(section, source));
+        const definition = definitions[sectionId];
+        column.append(createSection({
+          id: sectionId,
+          ...definition,
+          articles: selectSectionArticles(source.articles, definition),
+        }, source, columnIndex));
       }
       grid.append(column);
-    }
+    });
 
     board.replaceChildren(grid);
     board.setAttribute("aria-busy", "false");
     board.setAttribute("aria-label", `${source.name} 기사`);
   }
 
-  function createSection(section, source) {
+  function createSection(section, source, columnIndex) {
     const element = document.createElement("section");
     const header = document.createElement("header");
-    const rule = document.createElement("div");
+    const rule = document.createElement("img");
     const heading = document.createElement("div");
     const title = document.createElement("h2");
     const more = document.createElement("a");
     const arrow = document.createElement("img");
     const list = document.createElement("div");
+    const slots = SECTION_SLOTS[section.id] || [];
 
     element.className = "news-section";
     element.dataset.section = section.id;
     header.className = "news-section-header";
     rule.className = "news-section-rule";
+    rule.src = columnIndex === 0
+      ? "/assets/news-section-line-453.svg?v=news-20260821-3"
+      : "/assets/news-section-line-454.svg?v=news-20260821-3";
+    rule.alt = "";
     heading.className = "news-section-heading";
     title.className = "news-section-title";
     title.textContent = section.title;
     more.className = "news-section-more";
     more.href = createSourceBrowseHref(source.id);
     more.setAttribute("aria-label", `${source.name} ${section.title} 전체 기사 보기`);
-    arrow.src = "/assets/news-arrow-forward-ios.svg?v=news-20260819-1";
+    arrow.src = "/assets/news-arrow-forward-ios.svg?v=news-20260821-3";
     arrow.alt = "";
     arrow.width = 24;
     arrow.height = 24;
@@ -193,47 +234,40 @@
     header.append(rule, heading);
 
     list.className = "news-list";
-    if (section.articles.length) {
-      for (const article of section.articles) list.append(createArticle(article));
-    } else {
-      const empty = document.createElement("p");
-      empty.className = "news-article-date";
-      empty.textContent = "수집된 기사가 없습니다.";
-      list.append(empty);
-    }
+    slots.forEach((slot, index) => {
+      const article = section.articles[index] || source.articles[index % source.articles.length];
+      if (article) list.append(createArticle(article, slot));
+    });
 
     element.append(header, list);
     return element;
   }
 
-  function createArticle(article) {
+  function createArticle(article, slot) {
     const item = document.createElement("article");
     const link = document.createElement("a");
     const copy = document.createElement("div");
     const title = document.createElement("p");
     const date = document.createElement("p");
-    const thumbnailSrc = resolveThumbnailSrc(article);
 
-    item.className = "news-article";
+    item.className = `news-article news-slot-${slot.height}${slot.image ? " has-thumbnail" : ""}`;
     link.className = "news-article-link";
-    link.href = article.detailUrl || article.url || "";
+    link.href = article.detailUrl || `/news/document?id=${encodeURIComponent(article.id || "")}`;
     copy.className = "news-article-copy";
     title.className = "news-article-title";
     appendHighlightedTitle(title, article.title || "기사");
     date.className = "news-article-date";
-    date.textContent = formatDate(article.date);
+    date.textContent = formatCompactDate(article.date);
     copy.append(title, date);
     link.append(copy);
 
-    if (thumbnailSrc) {
+    if (slot.image) {
       const figure = document.createElement("div");
       const image = document.createElement("img");
       figure.className = "news-article-thumbnail";
-      image.src = thumbnailSrc;
+      image.src = `/assets/news-list-image-${slot.image}.webp?v=news-20260821-3`;
       image.alt = "";
-      image.loading = "lazy";
       image.decoding = "async";
-      image.addEventListener("error", () => figure.remove(), { once: true });
       figure.append(image);
       link.append(figure);
     }
@@ -245,18 +279,22 @@
   function selectSectionArticles(articles, definition) {
     const sorted = [...articles].sort(compareArticlesNewestFirst);
     if (definition.mode === "latest") return sorted.slice(0, definition.limit);
-    if (definition.mode === "latest-day") {
-      const newestDate = sorted[0]?.date || "";
-      const sameDay = sorted.filter((article) => article.date === newestDate);
-      return (sameDay.length >= 3 ? sameDay : sorted).slice(0, definition.limit);
-    }
 
-    return sorted
+    const scored = sorted
       .map((article) => ({ article, score: scoreArticle(article, definition.patterns || []) }))
       .filter(({ score }) => score > 0)
       .sort((left, right) => right.score - left.score || compareArticlesNewestFirst(left.article, right.article))
-      .slice(0, definition.limit)
       .map(({ article }) => article);
+    const selected = scored.slice(0, definition.limit);
+    const selectedIds = new Set(selected.map((article) => article.id));
+    for (const article of sorted) {
+      if (selected.length >= definition.limit) break;
+      if (!selectedIds.has(article.id)) {
+        selected.push(article);
+        selectedIds.add(article.id);
+      }
+    }
+    return selected;
   }
 
   function scoreArticle(article, patterns) {
@@ -271,8 +309,7 @@
   }
 
   function appendHighlightedTitle(parent, value) {
-    const parts = String(value || "").split(/(김정은)/u);
-    for (const part of parts) {
+    for (const part of String(value || "").split(/(김정은)/u)) {
       if (!part) continue;
       if (part === "김정은") {
         const strong = document.createElement("strong");
@@ -284,20 +321,12 @@
     }
   }
 
-  function resolveThumbnailSrc(article) {
-    const value = String(article.cachedThumbnailUrl || article.thumbnailUrl || "").trim();
-    if (!value) return "";
-    if (value.startsWith("/")) return value;
-    if (!/^https?:\/\//i.test(value)) return "";
-    return `/api/search-asset?url=${encodeURIComponent(value)}`;
-  }
-
   function createSourceBrowseHref(sourceId) {
     const params = new URLSearchParams({ source: sourceId, lang: "ko", sort: "latest" });
     return `/search/results?${params.toString()}`;
   }
 
-  function formatDate(value) {
+  function formatCompactDate(value) {
     const match = String(value || "").match(/^(20\d{2})-(\d{2})-(\d{2})$/u);
     return match ? `${match[1]}.${match[2]}.${match[3]}.` : String(value || "");
   }
@@ -312,13 +341,6 @@
         ? sourceTabs.length - 1
         : (activeIndex + (event.key === "ArrowRight" ? 1 : -1) + sourceTabs.length) % sourceTabs.length;
     selectSource(sourceTabs[nextIndex].dataset.newsSource, { focus: true });
-  }
-
-  function handleSearchShortcut(event) {
-    if (document.documentElement.dataset.route !== "news") return;
-    if (!(event.metaKey || event.ctrlKey) || event.altKey || event.key.toLocaleLowerCase("en-US") !== "k") return;
-    event.preventDefault();
-    window.location.assign("/search");
   }
 
   function getActiveTab() {
@@ -338,26 +360,22 @@
     try {
       localStorage.setItem(SOURCE_STORAGE_KEY, sourceId);
     } catch {
-      // Storage can be unavailable in hardened browsing modes; the in-memory state still works.
+      // The in-memory selection still works when storage is unavailable.
     }
   }
 
   function isValidFeed(value) {
     return value && typeof value === "object"
+      && typeof value.version === "string"
+      && value.version.length > 0
       && value.sources
       && [...SOURCE_IDS].every((sourceId) => Array.isArray(value.sources[sourceId]?.articles));
   }
 
   function renderError() {
     const message = document.createElement("div");
-    const copy = document.createElement("p");
-    const link = document.createElement("a");
     message.className = "news-empty";
-    copy.textContent = "뉴스 아카이브를 불러오지 못했습니다. ";
-    link.href = createSourceBrowseHref(activeSourceId);
-    link.textContent = "통합검색에서 보기";
-    copy.append(link);
-    message.append(copy);
+    message.textContent = "뉴스 아카이브를 불러오지 못했습니다.";
     board.replaceChildren(message);
     board.setAttribute("aria-busy", "false");
   }
