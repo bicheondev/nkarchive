@@ -2,6 +2,12 @@
   "functions": {
     "api/search-asset.js": {
       "maxDuration": 30
+    },
+    "api/search-live.js": {
+      "maxDuration": 30
+    },
+    "api/search-live-image.js": {
+      "maxDuration": 30
     }
   },
   "rewrites": [
@@ -38,11 +44,24 @@
       "destination": "/music/index.html"
     },
     {
+      "source": "/news",
+      "destination": "/news/index.html"
+    },
+    {
       "source": "/live",
       "destination": "/live/index.html"
     }
   ],
   "headers": [
+    {
+      "source": "/data/news-feed.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=60, s-maxage=300, stale-while-revalidate=86400"
+        }
+      ]
+    },
     {
       "source": "/api/search-asset",
       "headers": [

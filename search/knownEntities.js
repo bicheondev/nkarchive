@@ -1,4 +1,4 @@
-import { createSearchToken, normalizeQuery } from "./normalizeQuery.js?v=search-20260630-1";
+import { createSearchToken, normalizeQuery } from "./normalizeQuery.js?v=search-20260803-6";
 
 export const KNOWN_SEARCH_ENTITIES = [
   {
@@ -22,6 +22,41 @@ export const KNOWN_SEARCH_ENTITIES = [
     aliases: ["Pyongyang", "평양시", "수도 평양"],
   },
   {
+    id: "pyongyang-metro",
+    canonical: "지하철도",
+    aliases: [
+      "평양지하철도",
+      "평양 지하철도",
+      "평양지하철",
+      "평양 지하철",
+      "지하철",
+      "지하전동차",
+      "지하 전동차",
+      "전동차",
+      "Pyongyang Metro",
+      "Pyongyang subway",
+      "Underground Pyongyang",
+      "tube train",
+      "subway train",
+      "metro car",
+    ],
+    documentAliases: [
+      "평양지하철도",
+      "평양 지하철도",
+      "평양지하철",
+      "평양 지하철",
+      "지하철",
+      "지하전동차",
+      "지하 전동차",
+      "Pyongyang Metro",
+      "Pyongyang subway",
+      "Underground Pyongyang",
+      "tube train",
+      "subway train",
+      "metro car",
+    ],
+  },
+  {
     id: "wonsan-kalma",
     canonical: "원산갈마해안관광지구",
     aliases: [
@@ -32,6 +67,14 @@ export const KNOWN_SEARCH_ENTITIES = [
       "명사십리",
       "Wonsan",
       "Kalma",
+      "Wonsan Kalma",
+      "Wonsan Kalma Coastal Tourist Area",
+      "Kalma Coastal Tourist Area",
+    ],
+    documentAliases: [
+      "원산갈마",
+      "원산 갈마",
+      "갈마해안관광지구",
       "Wonsan Kalma",
       "Wonsan Kalma Coastal Tourist Area",
       "Kalma Coastal Tourist Area",
@@ -124,8 +167,20 @@ export function resolveKnownEntityQuery(query) {
   return {
     id: top.entity.id,
     canonical: top.entity.canonical,
+    aliases: [...top.entity.aliases],
+    documentAliases: Array.isArray(top.entity.documentAliases) ? [...top.entity.documentAliases] : null,
     certainty: top.certainty,
   };
+}
+
+export function getResolvedEntitySearchTerms(resolvedEntity) {
+  if (!resolvedEntity) return [];
+  return [...new Set([
+    resolvedEntity.canonical,
+    ...(Array.isArray(resolvedEntity.documentAliases)
+      ? resolvedEntity.documentAliases
+      : (Array.isArray(resolvedEntity.aliases) ? resolvedEntity.aliases : [])),
+  ].map((value) => String(value || "").trim()).filter(Boolean))];
 }
 
 export function resolveKnownEntityDocumentQuery(query) {

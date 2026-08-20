@@ -594,7 +594,7 @@ export async function discoverSourceEntries(source, {
         cacheDir,
         retries,
         preferReadable: shouldPreferReadableFetch(source),
-        cacheFirstReadable: Boolean(source.crawler?.cacheFirstReadable),
+        cacheFirstReadable: false,
       });
       reportDiscoveryFetch(report);
       const discovered = discoverLinkEntries(html, pageUrl, source)
@@ -645,13 +645,34 @@ function addLinkEntries(target, entries = [], maxLinks = Infinity) {
 }
 
 function createGeneratedDiscoveryPageUrls(source = {}, entryUrl = "") {
+  const configuredUrls = createConfiguredListingPageUrls(source, entryUrl);
   if (source.id === "rodong-sinmun") {
-    return createRodongListingPageUrls(source, entryUrl);
+    return [...configuredUrls, ...createRodongListingPageUrls(source, entryUrl)];
   }
   if (source.id === "ryugyong") {
-    return createRyugyongListingPageUrls(source, entryUrl);
+    return [...configuredUrls, ...createRyugyongListingPageUrls(source, entryUrl)];
   }
-  return [];
+  return configuredUrls;
+}
+
+function createConfiguredListingPageUrls(source = {}, entryUrl = "") {
+  const templates = (source.crawler?.listingUrlTemplates || [])
+    .map((template) => String(template || "").trim())
+    .filter((template) => template.includes("{page}"));
+  const pageCount = Math.max(0, Number(source.crawler?.generatedListingPages || 0));
+  if (!templates.length || !pageCount) return [];
+
+  const configuredStart = Number(source.crawler?.listingPageStart);
+  const pageStart = Number.isInteger(configuredStart) && configuredStart >= 0 ? configuredStart : 1;
+  const urls = [];
+  for (let offset = 0; offset < pageCount; offset += 1) {
+    const page = pageStart + offset;
+    for (const template of templates) {
+      const value = template.replaceAll("{page}", String(page));
+      urls.push(stripHash(resolveUrl(value, entryUrl) || value));
+    }
+  }
+  return [...new Set(urls.filter(Boolean))];
 }
 
 function createRodongListingPageUrls(source = {}, entryUrl = "") {
@@ -947,7 +968,7 @@ async function discoverSearchConfiguredEntries(source, {
         cacheDir,
         retries,
         preferReadable: Boolean(source.crawler?.searchPreferReadable) || shouldPreferReadableFetch(source),
-        cacheFirstReadable: Boolean(source.crawler?.cacheFirstReadable),
+        cacheFirstReadable: false,
       });
       reportSearchFetch(report);
       const discovered = discoverLinkEntries(html, searchUrl, source)
@@ -1008,10 +1029,14 @@ export async function loadRobotsRules(source, {
   if (source.crawler?.robotsPolicy !== "respect") return null;
   const robotsUrl = getRobotsUrl(source.baseUrl);
   if (!robotsUrl) return null;
+  const configuredTimeoutMs = Number(source.crawler?.robotsTimeoutMs || 0);
+  const robotsTimeoutMs = configuredTimeoutMs > 0
+    ? Math.max(1, Math.min(timeoutMs, configuredTimeoutMs))
+    : timeoutMs;
 
   try {
     const robotsText = await fetchTextResourceImpl(robotsUrl, {
-      timeoutMs,
+      timeoutMs: robotsTimeoutMs,
       accept: "text/plain,*/*;q=0.8",
       useFetchCache,
       cacheDir,
@@ -1292,12 +1317,17 @@ async function fetchTextResourceWithDispatcher(url, {
       "Accept": accept,
       "Accept-Encoding": "identity",
       "User-Agent": DEFAULT_USER_AGENT,
+      ...(isReadableWordPressApiUrl(url) ? { "X-Return-Format": "text" } : {}),
     },
     ...(dispatcher ? { dispatcher } : {}),
   }), timeout, controller);
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const bytes = new Uint8Array(await withTimeout(response.arrayBuffer(), timeout, controller));
   return decodeHtmlResponse(bytes, response.headers.get("content-type") || "");
+}
+
+function isReadableWordPressApiUrl(value = "") {
+  return /^https:\/\/r\.jina\.ai\/http:\/\/[^/?#]+\/wp-json\/wp\/v2\/posts(?:[/?#]|$)/i.test(String(value || ""));
 }
 
 function getProxyDirectFallbackTimeoutMs(timeoutMs) {
@@ -1515,7 +1545,9 @@ export function discoverMarkdownLinkEntries(markdown, baseUrl, source) {
         url: stripHash(resolved),
         linkText,
         contextText,
-        date: extractDateText(line.slice(match.index + match[0].length)) || extractDateText(contextText),
+        date: extractDateText(line.slice(match.index + match[0].length))
+          || findAdjacentMarkdownLinkDate(lines, lineIndex, resolved, baseUrl)
+          || extractDateText(contextText),
         thumbnailUrl,
         ...inferDisplaySourceFields(source, { thumbnailUrl, contextText }),
         readableSource,
@@ -1524,6 +1556,37 @@ export function discoverMarkdownLinkEntries(markdown, baseUrl, source) {
   }
 
   return dedupeLinkEntries(links);
+}
+
+function findAdjacentMarkdownLinkDate(lines = [], lineIndex = 0, targetUrl = "", baseUrl = "") {
+  const normalizedTargetUrl = stripHash(resolveUrl(targetUrl, baseUrl) || targetUrl);
+  for (let index = lineIndex - 1; index >= 0 && index >= lineIndex - 3; index -= 1) {
+    const line = String(lines[index] || "");
+    if (!cleanReadableText(line)) continue;
+    const date = extractDateText(line);
+    if (date && markdownLineLinksToUrl(line, normalizedTargetUrl, baseUrl)) return date;
+    if (/\[[^\]]+\]\([^)]+\)/.test(line)) break;
+  }
+
+  for (let index = lineIndex + 1; index < lines.length && index <= lineIndex + 2; index += 1) {
+    const line = String(lines[index] || "");
+    if (!cleanReadableText(line)) continue;
+    const date = extractDateText(line);
+    const hasMarkdownLink = /\[[^\]]+\]\([^)]+\)/.test(line);
+    if (date && (!hasMarkdownLink || markdownLineLinksToUrl(line, normalizedTargetUrl, baseUrl))) return date;
+    if (hasMarkdownLink) break;
+  }
+  return "";
+}
+
+function markdownLineLinksToUrl(line = "", targetUrl = "", baseUrl = "") {
+  const linkPattern = /!?\[(.*?)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
+  let match;
+  while ((match = linkPattern.exec(String(line || "")))) {
+    const url = stripHash(resolveUrl(match[2], baseUrl) || "");
+    if (url && url === targetUrl) return true;
+  }
+  return false;
 }
 
 export function discoverEmbeddedDocumentEntries(content, pageUrl, source) {
@@ -2226,11 +2289,12 @@ export function extractDocumentFromHtml(html, url, source, context = {}) {
     || $("meta[property='og:description']").attr("content")
     || body.slice(0, 280),
   );
-  const date = normalizeDate(
+  const date = normalizeCrawledDate(
     sourceSpecific.date
     || $(source.crawler?.selectors?.date || "time").first().attr("datetime")
     || selectFirstText($, source.crawler?.selectors?.date)
     || $("meta[property='article:published_time']").attr("content"),
+    source,
   );
   const thumbnailUrl = resolveUrl($("meta[property='og:image']").attr("content") || $("img[src]").first().attr("src"), url) || "";
   const mediaType = inferMediaType(url, html, source);
@@ -2270,7 +2334,7 @@ export function extractDocumentFromReadableText(text, url, source, context = {})
   const readableTitleCandidate = isGenericTitle(readableTitle, source) && markdownHeadingTitle
     ? markdownHeadingTitle
     : readableTitle;
-  const title = cleanDocumentTitle(titleHint && !isGenericTitle(titleHint, source) ? titleHint : readableTitleCandidate);
+  let title = cleanDocumentTitle(titleHint && !isGenericTitle(titleHint, source) ? titleHint : readableTitleCandidate);
   const readableDisplaySourceFields = inferKcnaWatchReadableDisplaySourceFields(markdown, source);
   const contextText = cleanReadableBodyText(context?.contextText || "");
   const articleBody = extractReadableArticleBody(markdown, title);
@@ -2281,11 +2345,12 @@ export function extractDocumentFromReadableText(text, url, source, context = {})
   const useContextBody = listingReadableBody
     && (!hasSubstantialReadableBody || (context?.fromSourceSearch && !articleBody));
   const body = limitDocumentBodyLength(useContextBody ? contextText : fullBody, source);
+  title = selectSourceSpecificReadableTitle(title, body, source);
   const snippet = cleanReadableText(useContextBody ? contextText : (articleBody || createReadableSnippet(markdown, title))).slice(0, 280);
   const publishedTime = String(text).match(/^Published Time:\s*(.+)$/m)?.[1] || "";
   const markdownDateText = extractDateText(markdown);
   const datelineDate = extractKoreanDatelineDate(`${articleBody}\n${markdown}`, context?.date || publishedTime || markdownDateText);
-  const date = normalizeDate(datelineDate || context?.date || publishedTime || markdownDateText);
+  const date = normalizeCrawledDate(datelineDate || context?.date || publishedTime || markdownDateText, source);
   const mediaType = inferMediaType(url, text, source);
 
   if (!title || !snippet || title.length < 2 || body.length < getMinimumDocumentBodyLength(source, 20)) return null;
@@ -2617,7 +2682,18 @@ function cleanAbsoluteImageUrl(url = "") {
 
 function isArticleImageAssetUrl(url, source) {
   if (!url || /^(?:blob|data|javascript):/i.test(String(url))) return false;
+  if (isDecorativeImageAssetUrl(url)) return false;
+  if ((source.crawler?.articleImageExcludeUrlPatterns || []).some((pattern) => urlMatchesPattern(url, pattern))) return false;
   return inferMediaAssetType(url, source) === "image";
+}
+
+function isDecorativeImageAssetUrl(url = "") {
+  try {
+    const fileName = path.basename(new URL(url).pathname).toLocaleLowerCase("en-US");
+    return /^(?:back|prev|next|spacer|blank|loading|loader)(?:[-_](?:btn|button|icon))?\.(?:png|jpe?g|webp|gif)$/i.test(fileName);
+  } catch {
+    return false;
+  }
 }
 
 function createMediaDocumentAliases(title = "", contextText = "") {
@@ -2650,6 +2726,7 @@ function extractMediaTitleFromContext(contextText = "") {
 
 function cleanMediaContextText(contextText = "") {
   return cleanText(cleanReadableText(contextText)
+    .replace(/!\[\s*/g, " ")
     .replace(/!?\[?\s*image(?:\s*\d+)?(?:\s*:\s*image)?\s*\]?/ig, " ")
     .replace(/\s*"+\s*$/g, " ")
     .trim());
@@ -2691,7 +2768,10 @@ export async function writeImportOutput({ documents, sources, reports, outputPat
     && await fileHasContent(outputPath);
 
   if (!shouldPreserveExistingDocuments) {
-    await fs.writeFile(outputPath, stringifyJsonl(preserved.documents), "utf8");
+    const normalizedDocuments = dedupeDocuments(preserved.documents
+      .map(normalizeCrawlerDocumentForStorage)
+      .filter((document) => !isInvalidPreservedDocument(document)));
+    await fs.writeFile(outputPath, stringifyJsonl(normalizedDocuments), "utf8");
   }
   if (sourcesPath) {
     await fs.mkdir(path.dirname(sourcesPath), { recursive: true });
@@ -2761,6 +2841,13 @@ function filterInvalidPreservedDocuments(documents = []) {
 
 function isInvalidPreservedDocument(document = {}) {
   if (FORBIDDEN_MANUAL_WONSAN_BACKFILL_IDS.has(document.id)) return true;
+  if (document.mediaType === "image" && isDecorativeImageAssetUrl(document.url)) return true;
+  if (document.sourceId === "kim-il-sung-university" && /\/univ\/images\/home\//i.test(String(document.url || ""))) return true;
+  if (
+    document.sourceId === "korean-stamp"
+    && /^details?(?:\s|\[|$)/i.test(cleanText(document.title || ""))
+    && /^details?(?:\s|\[|$)/i.test(selectSourceSpecificReadableTitle(document.title, document.body, { id: "korean-stamp" }))
+  ) return true;
   return document.sourceId === "kcna"
     && (isGenericKcnaTitle(document.title) || isKcnaCategoryListingDocument(document));
 }
@@ -3043,8 +3130,25 @@ function cleanText(value = "") {
 
 function cleanDocumentTitle(value = "") {
   return cleanText(value)
+    .replace(/^!\[\s*/, "")
+    .replace(/\]\s*$/, "")
     .replace(/\s*[\[(（]\s*\d{4}\s*[./년-]\s*\d{1,2}\s*[./월-]\s*\d{1,2}\s*일?\s*[\])）]\s*$/u, "")
     .trim();
+}
+
+function selectSourceSpecificReadableTitle(title = "", body = "", source = {}) {
+  if (source.id !== "korean-stamp" || !/^details?(?:\s|\[|$)/i.test(cleanText(title))) return title;
+  const candidate = String(body || "")
+    .split(/\r?\n/)
+    .map(cleanReadableText)
+    .find((line) => line.length >= 8
+      && !/^\d+\s*\/\s*\d+$/.test(line)
+      && !/^(?:poster|songs?|stamp|postal stationery)$/i.test(line)
+      && !/^details?(?:\s|\[|$)/i.test(line)
+      && !/\.(?:png|jpe?g|webp)$/i.test(line)
+      && !/^(?:date of issue|stock no|size|denomination|sheet composition|copyright)\b/i.test(line)
+      && !/copyright\s*[©(]/i.test(line));
+  return cleanDocumentTitle(candidate || title);
 }
 
 function cleanBodyText(value = "") {
@@ -3451,6 +3555,12 @@ function normalizeDate(value = "") {
   const englishMonth = parseEnglishMonthDate(text);
   if (englishMonth) return englishMonth;
 
+  const monthDayYear = text.match(/\b(\d{1,2})\s*\.\s*(\d{1,2})\s*\.\s*((?:19|20)\d{2})\b/);
+  if (monthDayYear) {
+    const date = formatValidDateParts(monthDayYear[3], monthDayYear[1], monthDayYear[2]);
+    if (date) return date;
+  }
+
   const dayMonthYear = text.match(/\b(\d{1,2})\/(\d{1,2})\/((?:19|20)\d{2})\b/);
   if (dayMonthYear) {
     const date = formatValidDateParts(dayMonthYear[3], dayMonthYear[2], dayMonthYear[1]);
@@ -3459,6 +3569,13 @@ function normalizeDate(value = "") {
 
   const timestamp = Date.parse(text);
   return Number.isFinite(timestamp) ? new Date(timestamp).toISOString().slice(0, 10) : new Date().toISOString().slice(0, 10);
+}
+
+function normalizeCrawledDate(value = "", source = {}) {
+  const date = normalizeDate(value);
+  const today = new Date().toISOString().slice(0, 10);
+  if (source.crawler?.futureDatePolicy === "crawl-date" && date > today) return today;
+  return date;
 }
 
 function formatValidDateParts(year, month, day) {
@@ -3477,6 +3594,7 @@ function extractDateText(value = "") {
   return text.match(/\d{4}[-./년\s]+\d{1,2}[-./월\s]+\d{1,2}(?!\d)/)?.[0]
     || text.match(/\(?\d{4}\)?\s*년\s*\d{1,2}\s*월\s*\d{1,2}\s*일/)?.[0]
     || text.match(/\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember|t)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+\d{1,2},\s+\d{4}\b/i)?.[0]
+    || text.match(/\b\d{1,2}\s*\.\s*\d{1,2}\s*\.\s*(?:19|20)\d{2}\b/)?.[0]
     || text.match(/\b\d{1,2}\/\d{1,2}\/(?:19|20)\d{2}\b/)?.[0]
     || text.match(/\b[A-Z][a-z]{2},\s+\d{1,2}\s+[A-Z][a-z]{2}\s+\d{4}\b/)?.[0]
     || "";
@@ -3892,7 +4010,7 @@ function resolveUrl(href, baseUrl) {
 }
 
 function toReadableFetchUrl(url) {
-  return `${READABLE_FETCH_PREFIX}${url}`;
+  return `${READABLE_FETCH_PREFIX}${String(url || "").replace(/^https?:\/\//i, "")}`;
 }
 
 function stripHash(url) {
@@ -3918,7 +4036,7 @@ function slugText(value = "") {
 function cleanFileTitle(url) {
   try {
     const pathname = new URL(url).pathname;
-    const fileName = decodeURIComponent(path.basename(pathname)).replace(/\.pdf$/i, "");
+    const fileName = decodeURIComponent(path.basename(pathname)).replace(/\.(?:pdf|png|jpe?g|webp|gif|mp4|webm|m3u8)$/i, "");
     return cleanText(fileName.replace(/[-_]+/g, " "));
   } catch {
     return "";
@@ -3953,13 +4071,21 @@ function dedupeLinkEntries(entries) {
 function getLinkEntryQualityScore(entry = {}) {
   const linkText = cleanText(entry.linkText || "");
   const contextText = cleanText(entry.contextText || "");
-  return (linkText ? 1000 : 0)
+  const descriptiveLinkText = linkText && !isDateOnlyLinkText(linkText);
+  return (descriptiveLinkText ? 1000 : 0)
     + Math.min(linkText.length, 240)
     + (entry.date ? 120 : 0)
     + (entry.thumbnailUrl ? 40 : 0)
     + Math.min(contextText.length, 500) / 10
     + (entry.displaySourceId ? 20 : 0)
     + (entry.embeddedDocument ? 2000 : 0);
+}
+
+function isDateOnlyLinkText(value = "") {
+  const text = cleanText(value);
+  const date = extractDateText(text);
+  if (!date) return false;
+  return cleanText(text.replace(date, "").replace(/[.()\[\]{}\s-]+/g, "")) === "";
 }
 
 function dedupeDocuments(documents) {
@@ -3970,9 +4096,11 @@ function dedupeDocuments(documents) {
     const id = String(document?.id || "");
     if (id && idIndex.has(id)) {
       const index = idIndex.get(id);
-      if (getCrawlerDocumentQualityScore(document) > getCrawlerDocumentQualityScore(deduped[index])) {
-        deduped[index] = document;
-      }
+      const existing = deduped[index];
+      const preferred = getCrawlerDocumentQualityScore(document) > getCrawlerDocumentQualityScore(existing)
+        ? document
+        : existing;
+      deduped[index] = mergeDuplicateCrawlerDocumentMetadata(preferred, existing, document);
       continue;
     }
     if (id) idIndex.set(id, deduped.length);
@@ -3982,16 +4110,57 @@ function dedupeDocuments(documents) {
   return deduped;
 }
 
+function mergeDuplicateCrawlerDocumentMetadata(preferred = {}, left = {}, right = {}) {
+  if (!isFutureDocumentDate(preferred.date)) return preferred;
+  const replacementDate = [left.date, right.date]
+    .filter((date) => date && !isFutureDocumentDate(date))
+    .sort()
+    .at(-1);
+  return replacementDate ? { ...preferred, date: replacementDate } : preferred;
+}
+
+function isFutureDocumentDate(value = "") {
+  return /^\d{4}-\d{2}-\d{2}$/.test(String(value || ""))
+    && String(value) > new Date().toISOString().slice(0, 10);
+}
+
 function getCrawlerDocumentQualityScore(document = {}) {
   const title = cleanText(document.title || "");
   const snippet = cleanText(document.snippet || "");
   const body = cleanText(document.body || "");
   const chromePenalty = isVoiceOfKoreaChromeText(`${snippet} ${body}`) ? 2000 : 0;
+  const weakTitlePenalty = /^(?:!\[|details?$)/i.test(title) ? 1000 : 0;
   return Math.min(body.length, 1800)
     + Math.min(snippet.length, 420)
     + (title.length >= 8 ? 40 : 0)
     + (document.date ? 40 : 0)
-    - chromePenalty;
+    - chromePenalty
+    - weakTitlePenalty;
+}
+
+function normalizeCrawlerDocumentForStorage(document = {}) {
+  let title = String(document.title || "");
+  let snippet = String(document.snippet || "");
+  let body = String(document.body || "");
+  let date = String(document.date || "");
+
+  if (/^!\[/.test(title)) {
+    title = cleanDocumentTitle(title);
+    snippet = snippet.replace(/!\[\s*/g, "");
+    body = body.replace(/!\[\s*/g, "");
+  }
+  if (!title && document.mediaType === "image") {
+    title = cleanFileTitle(document.url) || `${document.sourceName || "출처"} 이미지 자료`;
+  }
+  if (document.mediaType === "image" && /\.(?:png|jpe?g|webp|gif)$/i.test(title)) {
+    title = cleanFileTitle(document.url) || title.replace(/\.(?:png|jpe?g|webp|gif)$/i, "");
+  }
+  if (document.sourceId === "korean-stamp") {
+    title = selectSourceSpecificReadableTitle(title, body, { id: "korean-stamp" });
+    if (isFutureDocumentDate(date)) date = new Date().toISOString().slice(0, 10);
+  }
+
+  return { ...document, title, snippet, body, date };
 }
 
 function isVoiceOfKoreaChromeText(text = "") {

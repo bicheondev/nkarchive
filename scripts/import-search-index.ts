@@ -148,6 +148,13 @@ async function main() {
     writeJson(healthPath, health),
   ]);
 
+  if (documentsPath === DEFAULT_DOCUMENTS_PATH) {
+    const newsResult = await runCommand("npm", ["run", "generate:news"]);
+    if (newsResult.code !== 0) {
+      throw new Error(`News feed generation failed with exit code ${newsResult.code}`);
+    }
+  }
+
   console.log(`Search import completed.`);
   console.log(`- documents: ${documents.length}`);
   console.log(`- sources: ${sources.length}`);

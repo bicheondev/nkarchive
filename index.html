@@ -19,12 +19,16 @@
     <meta name="twitter:image:src" content="/og.png" />
     <base href="/" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link rel="stylesheet" href="/styles.css?v=style-20260630-1" />
+    <link rel="stylesheet" href="/styles.css?v=news-20260819-1" />
     <script>
       window.__INITIAL_ROUTE__ = new URLSearchParams(window.location.search).get("route");
       const initialPath = window.location.pathname.replace(/\/+$/, "");
       if (window.__INITIAL_ROUTE__ === "live" || initialPath === "/live") {
         document.documentElement.dataset.route = "live";
+      } else if (window.__INITIAL_ROUTE__ === "music" || initialPath === "/music") {
+        document.documentElement.dataset.route = "music";
+      } else if (window.__INITIAL_ROUTE__ === "news" || initialPath === "/news") {
+        document.documentElement.dataset.route = "news";
       } else if (window.__INITIAL_ROUTE__ === "search" || initialPath === "/search") {
         document.documentElement.dataset.route = "search";
       }
@@ -36,9 +40,9 @@
         <a class="logo" href="/?route=font" aria-label="아카이브 홈">★Font</a>
         <nav class="site-nav" id="primaryNav" aria-label="주요 메뉴">
           <span class="site-nav-disabled" aria-disabled="true">사전</span>
-          <span class="site-nav-disabled" aria-disabled="true">음악</span>
+          <a href="/music" data-route="music">음악</a>
           <a class="active" href="/?route=font" data-route="font">폰트</a>
-          <span class="site-nav-disabled" aria-disabled="true">뉴스</span>
+          <a href="/news" data-route="news">뉴스</a>
           <span class="site-nav-disabled" aria-disabled="true">번역</span>
           <span class="site-nav-disabled" aria-disabled="true">문헌</span>
           <span class="site-nav-disabled" aria-disabled="true">스토어</span>
@@ -47,20 +51,34 @@
         </nav>
         <div class="top-action-links">
           <a class="top-channel-link discord-channel-link" href="https://discord.gg/QT3T3JpeDD" target="_blank" rel="noopener noreferrer">
-            <img class="top-channel-icon discord-channel-icon" src="/assets/discord-channel.svg?v=live-20260428-9" alt="" aria-hidden="true" />
+            <img class="top-channel-icon discord-channel-icon" src="/assets/discord-channel.svg?v=music-20260513-9" alt="" aria-hidden="true" />
             <span class="top-channel-content">
               <span class="top-channel-text">북한아카이브 디스코드 바로가기</span>
-              <img class="top-channel-arrow" src="/assets/arrow-forward-ios.svg?v=live-20260428-9" alt="" aria-hidden="true" />
+              <img class="top-channel-arrow" src="/assets/arrow-forward-ios.svg?v=music-20260513-9" alt="" aria-hidden="true" />
             </span>
           </a>
           <a class="top-channel-link arca-channel-link" href="https://arca.live/b/dprk/" target="_blank" rel="noopener noreferrer">
-            <img class="top-channel-icon arca-channel-icon" src="/assets/arca-channel.svg?v=live-20260428-9" alt="" aria-hidden="true" />
+            <img class="top-channel-icon arca-channel-icon" src="/assets/arca-channel.svg?v=music-20260513-9" alt="" aria-hidden="true" />
             <span class="top-channel-content arca-channel-content">
               <span class="top-channel-text arca-channel-text">아카라이브 북한 채널 바로가기</span>
-              <img class="top-channel-arrow arca-channel-arrow" src="/assets/arrow-forward-ios.svg?v=live-20260428-9" alt="" aria-hidden="true" />
+              <img class="top-channel-arrow arca-channel-arrow" src="/assets/arrow-forward-ios.svg?v=music-20260513-9" alt="" aria-hidden="true" />
             </span>
           </a>
         </div>
+        <button class="music-header-search" id="musicHeaderSearch" type="button" aria-label="음악 검색">
+          <span class="material-symbols-rounded music-header-search-icon" aria-hidden="true">search</span>
+          <span class="music-header-shortcut" aria-hidden="true">
+            <span>⌘</span>
+            <span>K</span>
+          </span>
+        </button>
+        <a class="news-header-search" href="/search" aria-label="뉴스 기사 검색">
+          <span class="material-symbols-rounded music-header-search-icon" aria-hidden="true">search</span>
+          <span class="music-header-shortcut" aria-hidden="true">
+            <span>⌘</span>
+            <span>K</span>
+          </span>
+        </a>
         <button class="menu-toggle" id="siteMenuToggle" type="button" aria-label="메뉴 열기" aria-controls="primaryNav" aria-expanded="false">
           <span class="material-symbols-rounded menu-toggle-icon" aria-hidden="true">drag_handle</span>
         </button>
@@ -86,6 +104,21 @@
 
       <section class="font-grid" id="fontGrid" aria-label="북한 폰트 목록"></section>
       <div class="load-sentinel" id="loadSentinel" aria-hidden="true"></div>
+    </main>
+
+    <main class="news-shell" id="newsView" hidden>
+      <section class="news-board" id="newsBoard" role="tabpanel" aria-labelledby="newsSourceKcna" aria-live="polite" aria-busy="true">
+        <div class="news-loading" aria-hidden="true">
+          <div class="news-loading-column"></div>
+          <div class="news-loading-column"></div>
+          <div class="news-loading-column"></div>
+        </div>
+      </section>
+
+      <div class="news-source-switcher" role="tablist" aria-label="뉴스 자료원">
+        <button class="news-source-tab active" id="newsSourceKcna" type="button" role="tab" aria-controls="newsBoard" aria-selected="true" data-news-source="kcna">조선중앙통신</button>
+        <button class="news-source-tab" id="newsSourceRodong" type="button" role="tab" aria-controls="newsBoard" aria-selected="false" data-news-source="rodong-sinmun">로동신문</button>
+      </div>
     </main>
 
     <main class="live-shell" id="liveView" hidden>
@@ -136,6 +169,119 @@
       </button>
     </main>
 
+    <main class="music-shell" id="musicView" data-mode="home" hidden>
+      <aside class="music-sidebar" aria-label="음악 메뉴">
+        <div class="music-sidebar-items">
+          <button class="music-sidebar-item active" type="button" data-music-mode="home" aria-label="음악 홈">
+            <span class="music-sidebar-icon">
+              <span class="material-symbols-rounded" aria-hidden="true">home</span>
+            </span>
+            <span class="music-sidebar-label">홈</span>
+          </button>
+          <button class="music-sidebar-item" type="button" data-music-mode="library" aria-label="내 음악">
+            <span class="music-sidebar-icon">
+              <span class="material-symbols-rounded" aria-hidden="true">star</span>
+            </span>
+            <span class="music-sidebar-label">내 음악</span>
+          </button>
+        </div>
+      </aside>
+
+      <section class="music-home-view" aria-label="음악 홈">
+        <div class="music-section-stack" id="musicHomeSections"></div>
+      </section>
+
+      <section class="music-library-view" aria-label="내 음악">
+        <div class="music-library-content" id="musicLibraryContent"></div>
+      </section>
+
+      <section class="music-search-overlay" id="musicSearchOverlay" aria-label="음악 검색" hidden>
+        <div class="music-search-panel">
+          <div class="music-search-field">
+            <span class="material-symbols-rounded" aria-hidden="true">search</span>
+            <input id="musicSearchInput" type="search" placeholder="음악 검색" autocomplete="off" />
+            <button class="music-search-close" id="musicSearchClose" type="button" aria-label="검색 닫기">
+              <span class="material-symbols-rounded" aria-hidden="true">close</span>
+            </button>
+          </div>
+          <div class="music-search-results" id="musicSearchResults"></div>
+        </div>
+      </section>
+
+      <section class="music-player-view" aria-label="음악 플레이어">
+        <div class="music-sheet-backdrop" aria-hidden="true"></div>
+
+        <figure class="music-cover-large">
+          <img id="musicLargeCover" alt="" hidden />
+          <span class="music-cover-placeholder" aria-hidden="true"></span>
+        </figure>
+
+        <div class="music-lyrics-panel" id="musicLyricsPanel" aria-live="polite"></div>
+
+        <figure class="music-sheet-card" aria-label="악보">
+          <img id="musicSheetImage" alt="장군님 축지법 쓰신다 악보" hidden />
+          <figcaption class="music-sheet-fallback" id="musicSheetFallback" hidden></figcaption>
+        </figure>
+
+        <aside class="music-queue-panel" id="musicQueuePanel" aria-label="재생목록"></aside>
+
+        <div class="music-mode-buttons" role="toolbar" aria-label="음악 보기">
+          <button class="music-mode-button" type="button" data-music-mode="lyrics" aria-label="가사 보기" aria-pressed="false">
+            <span class="material-symbols-rounded" aria-hidden="true">lyrics</span>
+          </button>
+          <button class="music-mode-button" type="button" data-music-mode="sheet" aria-label="악보 보기" aria-pressed="false">
+            <span class="material-symbols-rounded" aria-hidden="true">music_note</span>
+          </button>
+          <button class="music-mode-button" type="button" data-music-mode="queue" aria-label="재생목록 보기" aria-pressed="false">
+            <span class="material-symbols-rounded" aria-hidden="true">playlist_play</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="music-bottom-player" aria-label="음악 재생 컨트롤">
+        <div class="music-progress-track" aria-hidden="true">
+          <div class="music-progress-fill" id="musicProgressFill"></div>
+        </div>
+        <div class="music-playback-controls">
+          <button class="music-icon-button music-skip-button" id="musicPrevButton" type="button" aria-label="이전 곡">
+            <span class="material-symbols-rounded" aria-hidden="true">skip_previous</span>
+          </button>
+          <button class="music-icon-button music-play-button" id="musicPlayButton" type="button" aria-label="재생">
+            <span class="material-symbols-rounded" aria-hidden="true">play_arrow</span>
+          </button>
+          <button class="music-icon-button music-skip-button" id="musicNextButton" type="button" aria-label="다음 곡">
+            <span class="material-symbols-rounded" aria-hidden="true">skip_next</span>
+          </button>
+          <p class="music-time-label" id="musicTimeLabel">0:00 / 0:00</p>
+        </div>
+        <div class="music-now-playing">
+          <div class="music-mini-cover" id="musicMiniCover" aria-hidden="true"></div>
+          <div class="music-now-playing-copy">
+            <p class="music-now-title" id="musicNowTitle">장군님 축지법 쓰신다</p>
+            <p class="music-now-meta" id="musicNowMeta">북한음악아카이브</p>
+          </div>
+          <button class="music-icon-button music-more-button" type="button" aria-label="더보기">
+            <span class="material-symbols-rounded" aria-hidden="true">more_vert</span>
+          </button>
+        </div>
+        <div class="music-extra-controls">
+          <button class="music-icon-button" type="button" aria-label="음량">
+            <span class="material-symbols-rounded" aria-hidden="true">volume_up</span>
+          </button>
+          <button class="music-icon-button" type="button" aria-label="반복">
+            <span class="material-symbols-rounded" aria-hidden="true">repeat</span>
+          </button>
+          <button class="music-icon-button" type="button" aria-label="셔플">
+            <span class="material-symbols-rounded" aria-hidden="true">shuffle</span>
+          </button>
+          <button class="music-icon-button" id="musicExpandButton" type="button" aria-label="플레이어 열기">
+            <span class="material-symbols-rounded" aria-hidden="true">keyboard_arrow_up</span>
+          </button>
+        </div>
+        <audio id="musicAudio" preload="metadata"></audio>
+      </section>
+    </main>
+
     <footer class="site-footer" id="siteFooter">
       <p>본 사이트는 북한 정부 또는 조선노동당과는 전혀 관계가 없으며, 이들을 지지하지도 옹호하지도 않고 오로지 학문적인 목적으로 개설되었음을 알려드립니다. 간첩 신고는 국번 없이 111</p>
       <p>모든 폰트의 저작권은 평양정보쎈터(Pyongyang Informatics Centre Font Developer Group), 조선콤퓨터쎈터(Korea Computer Centre), 출판인쇄과학연구소(Scientific Institute for Publication and Printing) 등 각 저작권자에게 있습니다. 상업적 이용을 권장하지 않습니다.</p>
@@ -180,6 +326,7 @@
       </article>
     </template>
 
-    <script src="/app.js?v=live-20260701-2" defer></script>
+    <script src="/app.js?v=news-20260819-1" defer></script>
+    <script src="/news/news.js?v=news-20260819-1" defer></script>
   </body>
 </html>

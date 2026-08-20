@@ -1,5 +1,5 @@
-import { searchDocuments } from "./documentSearch.js?v=search-20260630-1";
-import { collapseDuplicateResults } from "./resultIdentity.js?v=search-20260630-1";
+import { searchDocuments } from "./documentSearch.js?v=search-20260803-6";
+import { collapseDuplicateResults } from "./resultIdentity.js?v=search-20260803-6";
 
 export const RESULT_TABS = {
   all: {

@@ -1,9 +1,14 @@
 #!/usr/bin/env node
+import { createHash } from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
+import { isDeepStrictEqual } from "node:util";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { LocalJsonSearchProvider } from "../search/LocalJsonSearchProvider.js";
+import { getSearchableBodyText, getSearchableSnippetText } from "../search/documentSearch.js";
+import { getResolvedEntitySearchTerms, resolveKnownEntityQuery } from "../search/knownEntities.js";
 import { parseJsonl, validateSearchIndex } from "../search/localIndex.js";
+import { createSearchToken } from "../search/normalizeQuery.js";
 import { SEARCH_SOURCES } from "../search/sourceConfig.js";
 import { buildSearchSeed } from "./seed-search.ts";
 
@@ -28,6 +33,12 @@ const DEFAULT_ROUTE_SHELLS = [
 const SEARCH_ASSET_VERSION_PATTERN = /\bsearch-\d{8}-\d+\b/g;
 const TEST_OR_MOCK_DOCUMENT_PATTERN = /\b(?:fixture|mock|placeholder)\b|example\.test|localhost|127\.0\.0\.1/i;
 const MAX_FUTURE_DATE_SKEW_DAYS = 1;
+const EXPECTED_SEED_CACHE = new Map();
+const CRITICAL_QUERY_COVERAGE_CACHE = new Map();
+const AUDIT_CACHE_ENTRY_LIMIT = 2;
+const KP_SOURCE_IDS = SEARCH_SOURCES
+  .filter((source) => getSourceHostname(source.baseUrl).endsWith(".kp"))
+  .map((source) => source.id);
 const OLD_MOCK_RESULT_TITLES = [
   "끝없이 넘쳐나는 인민의 행복 화성지구의 새 거리가 새집들이 ...",
   "화성지구 4단계 거리 사진 모음",
@@ -180,7 +191,7 @@ const CRITICAL_QUERY_COVERAGE_CHECKS = [
     minSourceFacets: 5,
     requiredDisplaySourceIds: ["rodong-sinmun", "kcna", "voice-of-korea", "minju-choson", "ryugyong", "korean-books"],
     forbiddenDisplaySourceIds: ["kcna-watch", "choson-sinbo", "koryo-vod", "youtube"],
-    onlyDocumentDisplaySourceIds: ["rodong-sinmun", "kcna", "voice-of-korea", "minju-choson", "ryugyong", "naenara", "korean-books"],
+    onlyDocumentDisplaySourceIds: KP_SOURCE_IDS,
     requiredDocumentTerms: ["원산갈마"],
     expectedEffectiveQuery: "원산갈마",
   },
@@ -191,7 +202,7 @@ const CRITICAL_QUERY_COVERAGE_CHECKS = [
     minSourceFacets: 5,
     requiredDisplaySourceIds: ["rodong-sinmun", "kcna", "voice-of-korea", "minju-choson", "ryugyong", "korean-books"],
     forbiddenDisplaySourceIds: ["kcna-watch", "choson-sinbo", "koryo-vod", "youtube"],
-    onlyDocumentDisplaySourceIds: ["rodong-sinmun", "kcna", "voice-of-korea", "minju-choson", "ryugyong", "naenara", "korean-books"],
+    onlyDocumentDisplaySourceIds: KP_SOURCE_IDS,
     requiredDocumentTerms: ["원산갈마"],
     expectedEffectiveQuery: "원산갈마",
     sameFacetDistributionAs: "site-tld-kp-wonsan-kalma",
@@ -203,7 +214,7 @@ const CRITICAL_QUERY_COVERAGE_CHECKS = [
     minSourceFacets: 6,
     requiredDisplaySourceIds: ["rodong-sinmun", "kcna", "voice-of-korea", "minju-choson", "ryugyong", "korean-books"],
     forbiddenDisplaySourceIds: ["kcna-watch", "choson-sinbo", "koryo-vod", "youtube"],
-    onlyDocumentDisplaySourceIds: ["rodong-sinmun", "kcna", "voice-of-korea", "minju-choson", "ryugyong", "naenara", "korean-books"],
+    onlyDocumentDisplaySourceIds: KP_SOURCE_IDS,
     expectedEffectiveQuery: "",
   },
   {
@@ -409,6 +420,7 @@ export async function auditSearchProductionBundle({
   ]);
   const validation = validateSearchIndex(rawDocuments, rawSources);
   const errors = [...validation.errors];
+  const corpusFingerprint = createCorpusFingerprint(validation.documents, validation.sources);
   let seed = seedFromDisk;
   if (!seed) {
     try {
@@ -425,11 +437,11 @@ export async function auditSearchProductionBundle({
   auditSourceHealth(validation.documents, validation.sources, health, errors);
   auditAssetCacheReport(assetCacheReport, errors);
   auditMeilisearchSeed(validation.documents, validation.sources, seed, errors);
-  await auditMeilisearchSeedPayload(documentsPath, sourcesPath, seed, errors);
+  await auditMeilisearchSeedPayload(documentsPath, sourcesPath, seed, errors, corpusFingerprint);
   await auditSearchAssetVersions(runtimeDirs, errors);
   await auditSearchAssetProxy(assetProxyPath, errors);
   await auditSearchRouteShells(routeShells, errors);
-  const queryCoverage = await auditCriticalQueryCoverage(validation.documents, validation.sources, errors);
+  const queryCoverage = await auditCriticalQueryCoverage(validation.documents, validation.sources, errors, corpusFingerprint);
 
   const sourceWarnings = createSourceWarningDetails(health);
   const assetCacheCoverage = createAssetCacheCoverageSummary(assetCacheReport);
@@ -481,10 +493,29 @@ async function auditSearchRouteShells(routeShells = DEFAULT_ROUTE_SHELLS, errors
   }
 }
 
-async function auditCriticalQueryCoverage(documents = [], sources = [], errors) {
+async function auditCriticalQueryCoverage(documents = [], sources = [], errors, corpusFingerprint = "") {
+  const cacheKey = corpusFingerprint || createCorpusFingerprint(documents, sources);
+  let cachedPromise = CRITICAL_QUERY_COVERAGE_CACHE.get(cacheKey);
+  if (!cachedPromise) {
+    cachedPromise = computeCriticalQueryCoverage(documents, sources);
+    setBoundedAuditCache(CRITICAL_QUERY_COVERAGE_CACHE, cacheKey, cachedPromise);
+  }
+
+  try {
+    const result = await cachedPromise;
+    errors.push(...result.errors);
+    return cloneJsonValue(result.coverage);
+  } catch (error) {
+    CRITICAL_QUERY_COVERAGE_CACHE.delete(cacheKey);
+    throw error;
+  }
+}
+
+async function computeCriticalQueryCoverage(documents = [], sources = []) {
   const provider = new LocalJsonSearchProvider({ documents, sources });
   const coverage = [];
   const coverageById = new Map();
+  const errors = [];
 
   for (const check of CRITICAL_QUERY_COVERAGE_CHECKS) {
     let result;
@@ -515,7 +546,7 @@ async function auditCriticalQueryCoverage(documents = [], sources = [], errors) 
     }
   }
 
-  return coverage;
+  return { coverage, errors };
 }
 
 function createQueryCoverageEntry(check, result = {}) {
@@ -671,18 +702,35 @@ function documentDateIsWithinRange(document = {}, dateFrom = "", dateTo = "") {
 }
 
 function documentContainsTerm(document = {}, term = "") {
-  const needle = String(term || "").trim();
-  if (!needle) return false;
+  const normalizedTerm = String(term || "").trim();
+  const resolvedEntity = resolveKnownEntityQuery(normalizedTerm);
+  const needles = resolvedEntity?.certainty >= 100
+    ? getResolvedEntitySearchTerms(resolvedEntity)
+    : [normalizedTerm];
   const haystack = [
     document.title,
-    document.snippet,
-    document.body,
+    getSearchableSnippetText(document.snippet),
+    getSearchableBodyText(document.body),
     document.searchSnippet,
     document.searchBody,
     document.previewText,
     ...(Array.isArray(document.aliases) ? document.aliases : []),
   ].join("\n");
-  return haystack.includes(needle);
+  const token = createSearchToken(haystack);
+  return needles.some((value) => {
+    const needle = createSearchToken(value);
+    if (!needle.compactLower) return false;
+    return token.compactLower.includes(needle.compactLower)
+      || token.lower.includes(needle.lower);
+  });
+}
+
+function getSourceHostname(value = "") {
+  try {
+    return new URL(value).hostname.toLocaleLowerCase("en-US").replace(/^www\./, "");
+  } catch {
+    return "";
+  }
 }
 
 function formatFacetSummary(sourceFacets = []) {
@@ -718,29 +766,92 @@ function createSourceWarningDetails(health = {}) {
     });
 }
 
-async function auditMeilisearchSeedPayload(documentsPath, sourcesPath, seed, errors) {
+async function auditMeilisearchSeedPayload(documentsPath, sourcesPath, seed, errors, corpusFingerprint = "") {
   if (!seed) return;
 
   let expectedSeed;
+  const cacheKey = [
+    corpusFingerprint,
+    process.env.MEILI_DOCUMENT_INDEX || "",
+    process.env.MEILI_SUGGESTION_INDEX || "",
+  ].join("\u0000");
   try {
-    expectedSeed = await buildSearchSeed({ documentsPath, sourcesPath });
+    let expectedSeedPromise = EXPECTED_SEED_CACHE.get(cacheKey);
+    if (!expectedSeedPromise) {
+      expectedSeedPromise = buildSearchSeed({ documentsPath, sourcesPath });
+      setBoundedAuditCache(EXPECTED_SEED_CACHE, cacheKey, expectedSeedPromise);
+    }
+    expectedSeed = await expectedSeedPromise;
   } catch (error) {
+    EXPECTED_SEED_CACHE.delete(cacheKey);
     errors.push(`Meilisearch seed builder must accept the current production index: ${error.message}`);
     return;
   }
   const comparableSeed = stripGeneratedFields(seed);
   const comparableExpectedSeed = stripGeneratedFields(expectedSeed);
-  if (stableStringify(comparableSeed.settings) !== stableStringify(comparableExpectedSeed.settings)) {
+  if (!isDeepStrictEqual(comparableSeed.settings, comparableExpectedSeed.settings)) {
     errors.push("Meilisearch seed settings must match the current seed builder output");
   }
-  if (stableStringify(comparableSeed.sources) !== stableStringify(comparableExpectedSeed.sources)) {
+  if (!isDeepStrictEqual(comparableSeed.sources, comparableExpectedSeed.sources)) {
     errors.push("Meilisearch seed sources must match data/search/sources.json content");
   }
-  if (stableStringify(comparableSeed.documents) !== stableStringify(comparableExpectedSeed.documents)) {
-    errors.push("Meilisearch seed documents must match data/search/documents.jsonl content and generated fields");
+  if (!isDeepStrictEqual(comparableSeed.documents, comparableExpectedSeed.documents)) {
+    const difference = findFirstSeedDifference(comparableSeed.documents, comparableExpectedSeed.documents);
+    errors.push(`Meilisearch seed documents must match data/search/documents.jsonl content and generated fields${difference ? `; first difference: ${difference}` : ""}`);
   }
-  if (stableStringify(comparableSeed.suggestions) !== stableStringify(comparableExpectedSeed.suggestions)) {
+  if (!isDeepStrictEqual(comparableSeed.suggestions, comparableExpectedSeed.suggestions)) {
     errors.push("Meilisearch seed suggestions must match the current indexed corpus");
+  }
+}
+
+function createCorpusFingerprint(documents = [], sources = []) {
+  return createHash("sha256")
+    .update(JSON.stringify(documents))
+    .update("\u0000")
+    .update(JSON.stringify(sources))
+    .digest("hex");
+}
+
+function cloneJsonValue(value) {
+  return JSON.parse(JSON.stringify(value));
+}
+
+function findFirstSeedDifference(actual, expected, pathLabel = "documents") {
+  if (Object.is(actual, expected)) return "";
+  if (typeof actual !== typeof expected || actual === null || expected === null) {
+    return `${pathLabel} (${formatDifferenceValue(actual)} != ${formatDifferenceValue(expected)})`;
+  }
+  if (Array.isArray(actual) || Array.isArray(expected)) {
+    if (!Array.isArray(actual) || !Array.isArray(expected)) return `${pathLabel} (array type mismatch)`;
+    if (actual.length !== expected.length) return `${pathLabel}.length (${actual.length} != ${expected.length})`;
+    for (let index = 0; index < actual.length; index += 1) {
+      const difference = findFirstSeedDifference(actual[index], expected[index], `${pathLabel}[${index}]`);
+      if (difference) return difference;
+    }
+    return "";
+  }
+  if (typeof actual === "object") {
+    const keys = [...new Set([...Object.keys(actual), ...Object.keys(expected)])].sort();
+    for (const key of keys) {
+      if (!Object.hasOwn(actual, key) || !Object.hasOwn(expected, key)) return `${pathLabel}.${key} (missing property)`;
+      const difference = findFirstSeedDifference(actual[key], expected[key], `${pathLabel}.${key}`);
+      if (difference) return difference;
+    }
+    return "";
+  }
+  return `${pathLabel} (${formatDifferenceValue(actual)} != ${formatDifferenceValue(expected)})`;
+}
+
+function formatDifferenceValue(value) {
+  const serialized = JSON.stringify(value);
+  return String(serialized === undefined ? value : serialized).slice(0, 160);
+}
+
+function setBoundedAuditCache(cache, key, value) {
+  if (cache.has(key)) cache.delete(key);
+  cache.set(key, value);
+  while (cache.size > AUDIT_CACHE_ENTRY_LIMIT) {
+    cache.delete(cache.keys().next().value);
   }
 }
 

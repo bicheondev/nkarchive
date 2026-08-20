@@ -12,9 +12,27 @@ import { collapseDuplicateResults, createResultStoryKey, dedupeDocumentsByStory 
 import { cleanDisplaySnippetText, getDocumentSearchTextQueries } from "../search/documentSearch.js";
 import { enrichSearchResultPreviews, findRicherPreviewRecord, isWeakDocumentPreview } from "../search/previewEnrichment.js";
 import { SEARCH_SOURCES } from "../search/sourceConfig.js";
+import { PUBLIC_DPRK_SITE_CATALOG } from "../search/dprkPublicSourceCatalog.js";
 import { MeilisearchSearchProvider } from "../search/MeilisearchSearchProvider.js";
 import { normalizeKoreanSourceBodySpacing, normalizeKoreanSourceSpacing, SEARCH_SOURCE_TYPES } from "../search/schemas.js";
 import { createSearchProvider } from "../search/provider.js";
+import { LiveSearchFallbackProvider } from "../search/LiveSearchFallbackProvider.js";
+import {
+  createRodongArticleDocument,
+  createRodongImageDocuments,
+  createRodongSearchUrl,
+  getRodongLiveImage,
+  parseRodongDetailHtml,
+  parseRodongLiveDocumentId,
+  parseRodongSearchResults,
+  searchRodongDocuments,
+} from "../search/rodongLiveSearch.server.js";
+import {
+  createChosonSinboSearchUrl,
+  getChosonSinboLiveDocument,
+  parseChosonSinboLiveDocumentId,
+  searchChosonSinboDocuments,
+} from "../search/chosonSinboLiveSearch.server.js";
 import { auditSearchProductionBundle } from "./audit-search-production.ts";
 import {
   discoverFeedEntries,
@@ -146,6 +164,10 @@ async function main() {
   await assertReadableSnapshotsBecomeDocuments();
   await assertReadableMediaAssetsBecomeDocuments();
   await assertArticleImagesBecomeImageDocuments();
+  await assertRodongLiveSearchSupplementsArbitraryQueries();
+  await assertRodongEmbeddedImagesBecomeLiveImageDocuments();
+  await assertChosonSinboLiveImageSearchUsesImageContext();
+  await assertLiveSearchFallbackMergesSparseIndexedResults();
   await assertRodongReadableListingsBecomeDocuments();
   await assertNaenaraReadableTablesBecomeDocuments();
   await assertFetchCacheFallsBackToRealStoredResponses();
@@ -383,7 +405,7 @@ async function assertSearchNavigationIsAccessible() {
     assert.equal(html.includes('id="searchNavMenu"'), true, `${name} should expose a controlled mobile nav menu region`);
     assert.equal(html.includes('aria-controls="searchNavMenu"'), true, `${name} menu button should control the nav region`);
     assert.equal(html.includes('aria-expanded="false"'), true, `${name} menu button should start collapsed`);
-    assert.equal(html.includes('/search/search.css?v=search-20260630-1'), true, `${name} should use the current search style cache key`);
+    assert.equal(html.includes('/search/search.css?v=search-20260803-6'), true, `${name} should use the current search style cache key`);
     assert.equal(html.includes('href="#"'), false, `${name} should not ship dead placeholder navigation links`);
     assert.equal(html.includes('aria-disabled="true"'), true, `${name} should mark unavailable nav destinations as disabled text`);
     assert.equal(html.includes('aria-label="검색 홈"'), true, `${name} logo link should use a Korean accessible name`);
@@ -433,8 +455,8 @@ async function assertProjectShellNavigationIsAccessible() {
   assert.equal(homeHtml.includes('aria-label="주요 메뉴"'), true, "project shell primary navigation should use a Korean accessible name");
   assert.equal(homeHtml.includes('aria-label="Archive home"'), false, "project shell should not expose English logo labels");
   assert.equal(homeHtml.includes('aria-label="Primary"'), false, "project shell should not expose English nav labels");
-  assert.equal(homeHtml.includes('/styles.css?v=style-20260630-1'), true, "project shell should use the current shared style cache key");
-  assert.equal(homeHtml.includes('/app.js?v=live-20260701-2'), true, "project shell should use the current app runtime cache key");
+  assert.equal(homeHtml.includes('/styles.css?v=news-20260819-1'), true, "project shell should use the current shared style cache key");
+  assert.equal(homeHtml.includes('/app.js?v=news-20260819-1'), true, "project shell should use the current app runtime cache key");
   assert.equal(liveHtml.includes('window.location.replace("/?route=live&v=live-20260701-2")'), true, "/live should redirect into the current shared app shell instead of shipping a stale duplicate shell");
   const navHtml = navMatch?.[0] || "";
   assert.equal(navHtml.includes('href="#"'), false, "project shell navigation should not ship dead placeholder links");
@@ -509,6 +531,8 @@ async function assertDeploymentConfigIsProductionReady() {
   ]);
 
   assert.equal(vercelConfig.functions?.["api/search-asset.js"]?.maxDuration >= 30, true, "Vercel config should give the asset proxy enough time for slow source hosts");
+  assert.equal(vercelConfig.functions?.["api/search-live.js"]?.maxDuration >= 30, true, "Vercel config should give sparse live source searches a bounded execution window");
+  assert.equal(vercelConfig.functions?.["api/search-live-image.js"]?.maxDuration >= 30, true, "Vercel config should give inline Rodong image extraction a bounded execution window");
   const rewriteMap = new Map((vercelConfig.rewrites || []).map((entry) => [entry.source, entry.destination]));
   assert.equal(rewriteMap.get("/search"), "/search/index.html", "Vercel config should rewrite /search to the search shell");
   assert.equal(rewriteMap.get("/search/"), "/search/index.html", "Vercel config should rewrite /search/ to the search shell");
@@ -1593,6 +1617,19 @@ async function assertSearchAssetsAreMirrorReady() {
         throw new Error("KCNA article pages must not be fetched through the asset proxy");
       },
     });
+    const chosonImageFetches = [];
+    const chosonImageProxyResponse = await invokeSearchAssetProxy({
+      method: "GET",
+      assetUrl: "https://chosonsinbo.com/wp-content/uploads/2025/06/subway.jpg",
+      fetchImpl: async (url) => {
+        chosonImageFetches.push(String(url));
+        if (!String(url).startsWith("https://images.weserv.nl/")) throw new Error("blocked Choson Sinbo origin");
+        return new Response(Buffer.from([0xff, 0xd8, 0xff, 0xd9]), {
+          status: 200,
+          headers: { "content-type": "image/jpeg" },
+        });
+      },
+    });
     const originalAssetProxyEnv = snapshotProxyEnv();
     const outboundProxyFetches = [];
     const noProxyAssetFetches = [];
@@ -1771,6 +1808,9 @@ async function assertSearchAssetsAreMirrorReady() {
     assert.deepEqual(kcnaImageProxyFetches, [{ url: "http://www.kcna.kp/en/image/q/example.kcmsf", method: "GET" }], "extensionless KCNA image endpoints should pass through the asset proxy as images");
     assert.equal(kcnaImageProxyResponse.statusCode, 200, "extensionless KCNA image endpoints should return proxied image bytes");
     assert.equal(kcnaArticleProxyResponse.statusCode, 400, "KCNA article pages must remain blocked by the asset proxy");
+    assert.equal(chosonImageFetches.length, 1, "Choson Sinbo images should use the reliable image-fetch route without first waiting on a blocked origin");
+    assert.equal(new URL(chosonImageFetches[0]).searchParams.get("url"), "chosonsinbo.com/wp-content/uploads/2025/06/subway.jpg", "the image fallback should preserve the allowlisted original asset URL");
+    assert.equal(chosonImageProxyResponse.statusCode, 200, "the same-origin asset route should return recovered Choson Sinbo image bytes");
     assert.equal(cacheScript.includes("DEFAULT_PUBLIC_ASSET_BASE_URL"), true, "asset cache script should expose a deployable public asset base URL option");
     assert.equal(cacheScript.includes("--fetch-proxy-template"), true, "asset cache script should support crawler-side backend fetch proxy configuration");
     assert.equal(uploadScript.includes("R2_PUBLIC_BASE_URL"), true, "R2 uploader should be configured through environment variables");
@@ -3639,6 +3679,9 @@ Markdown Content:
 [실제 기사 제목](https://readable.example.test/article/real)
 [목록 날짜 기사](https://readable.example.test/article/dated)[2026.5.18.]
 [원산갈마해안관광지구 준공식 성대히 진행 [2025.06.26.]](https://readable.example.test/article/nested-date)
+[12.8. 2019](https://readable.example.test/article/date-before-title)
+
+[날짜가 앞줄에 놓인 기사](https://readable.example.test/article/date-before-title)
 [문헌 PDF](https://readable.example.test/books/real.pdf)
 `;
   const readableArticle = `
@@ -3657,6 +3700,7 @@ Markdown Content:
   const urls = entries.map((entry) => entry.url);
   const datedEntry = entries.find((entry) => entry.url.endsWith("/article/dated"));
   const nestedDateEntry = entries.find((entry) => entry.url.endsWith("/article/nested-date"));
+  const dateBeforeTitleEntry = entries.find((entry) => entry.url.endsWith("/article/date-before-title"));
   const article = extractDocumentFromReadableText(readableArticle, "https://readable.example.test/article/real", source);
   const pdf = extractPdfDocumentFromLink(entries.find((entry) => entry.url.endsWith("/books/real.pdf")), source);
   const readableListing = `
@@ -3715,11 +3759,37 @@ www.kcna.kp (2026.05.18.)
     { ...source, id: "kcna", name: "조선중앙통신", baseUrl: "http://www.kcna.kp/" },
     { date: "2026-05-15" },
   );
+  const historicalDatelineArticle = extractDocumentFromReadableText(`
+Title: 날짜가 앞줄에 놓인 기사
+URL Source: https://readable.example.test/article/date-before-title
+Markdown Content:
+(평양 12월 8일발 조선중앙통신)
+자료 본문이 충분히 길게 들어있는 과거 기사입니다. 목록의 월 일 연도 날짜를 상세 본문에 전달해 정확한 연도를 보존합니다.
+`, "https://readable.example.test/article/date-before-title", source, dateBeforeTitleEntry);
+  const stampDocument = extractDocumentFromReadableText(`
+Title: KoreanStamp | STAMP
+URL Source: http://www.korstamp.com.kp/stamps/stampsInfo-en-2026-Sp7293.html
+Markdown Content:
+1 / 45
+Poster
+Sp7293.jpg
+Poster "Let all sectors and all units more vigorously conduct the three revolutions!"
+Date of Issue 2099.08.20.
+Stock No Sp7293
+`, "http://www.korstamp.com.kp/stamps/stampsInfo-en-2026-Sp7293.html", {
+    ...source,
+    id: "korean-stamp",
+    name: "조선우표사",
+    baseUrl: "http://www.korstamp.com.kp/",
+    crawler: { futureDatePolicy: "crawl-date" },
+  }, { linkText: "Details" });
 
   assert.equal(urls.includes("https://readable.example.test/article/real"), true, "readable snapshots should expose Markdown article links for indexing");
   assert.equal(urls.includes("https://readable.example.test/article/nested-date"), true, "readable snapshots should expose Markdown links whose titles contain bracketed dates");
   assert.equal(datedEntry?.date, "2026.5.18", "readable Markdown links should use dates adjacent to the link before scanning neighboring cards");
   assert.equal(nestedDateEntry?.date, "2025.06.26", "readable Markdown links should parse dates inside bracketed source titles");
+  assert.equal(dateBeforeTitleEntry?.linkText, "날짜가 앞줄에 놓인 기사", "readable Markdown duplicate links should keep the descriptive article title");
+  assert.equal(dateBeforeTitleEntry?.date, "12.8. 2019", "readable Markdown listings should associate a preceding same-URL month-day-year date with its article title");
   assert.equal(article.title, "실제 기사 제목", "readable article title should become a document title");
   assert.equal(article.date, "2026-05-19", "readable Published Time should normalize");
   assert.equal(article.body.includes("실자료 스냅샷"), true, "readable Markdown content should become document body");
@@ -3733,6 +3803,9 @@ www.kcna.kp (2026.05.18.)
   assert.equal(breadcrumbFreeArticle.body.includes("혁명활동소식"), false, "readable article bodies should drop empty-link breadcrumb categories");
   assert.equal(breadcrumbFreeArticle.body.includes("[]("), false, "readable article bodies should drop empty Markdown links");
   assert.equal(kcnaArticle.date, "2026-05-18", "KCNA readable article datelines should beat stale metadata dates");
+  assert.equal(historicalDatelineArticle.date, "2019-12-08", "month-day-year listing dates should provide the year for Korean dateline-only article bodies");
+  assert.equal(stampDocument.title, "Poster \"Let all sectors and all units more vigorously conduct the three revolutions!\"", "generic Korean Stamp detail links should use the actual item title from the body");
+  assert.equal(stampDocument.date, new Date().toISOString().slice(0, 10), "future Korean Stamp issue dates should use crawl date for search ordering while remaining in body text");
 }
 
 async function assertReadableMediaAssetsBecomeDocuments() {
@@ -3752,6 +3825,7 @@ Markdown Content:
 ![Image 1: RGMark](http://www.mediaryugyong.com.kp/static/mark.png)
 ![Image 2: 화성지구 3단계 1만세대 살림집](http://www.mediaryugyong.com.kp/contents/photo/normal/ko/2025/08/14/20250814_104958_huasong105003_thumb.jpg)
 ![Image 3: 화보《조선》 2026년 5월호](http://www.mediaryugyong.com.kp/contents/video/ko/2026/05/13/20260513_181923_000182001_thumb.jpg)
+[![Image 4: 중첩 이미지 제목](http://www.mediaryugyong.com.kp/contents/photo/normal/ko/2026/05/14/nested-clean.jpg) 중첩 이미지 제목](javascript:;)
 `;
   const entries = discoverLinkEntries(readableHome, source.baseUrl, source);
   const documents = entries.map((entry) => extractMediaDocumentFromLink(entry, source)).filter(Boolean);
@@ -3764,6 +3838,7 @@ Markdown Content:
     "video media extracted from mixed official pages should be visible in 전체 and 동영상",
   );
   assert.equal(documents.some((document) => /RGMark/i.test(document.title)), false, "류경 static logos must not become search documents");
+  assert.equal(documents.some((document) => document.title === "중첩 이미지 제목"), true, "nested Markdown image links should not leak ![ syntax into result titles");
 
   const minjuSource = {
     id: "minju-choson",
@@ -3854,6 +3929,248 @@ async function assertArticleImagesBecomeImageDocuments() {
   assert.equal(imageDocuments.every((document) => document.body.includes("준공식")), true, "article-derived image records should remain searchable by article text");
   assert.equal(imageDocuments.some((document) => /page_bottom_mark|rodong_view_mark/.test(document.url)), false, "로동신문 decorative marks must not become image documents");
   assert.equal(imageResults.documents[0]?.mediaType, "image", "원산갈마 준공식 image search should surface article-derived images");
+
+  const universitySource = {
+    ...source,
+    id: "kim-il-sung-university",
+    name: "김일성종합대학",
+    baseUrl: "http://www.ryongnamsan.edu.kp/",
+    crawler: { articleImageExcludeUrlPatterns: [/\/univ\/images\/home\//i] },
+  };
+  const universityArticleUrl = "http://www.ryongnamsan.edu.kp/univ/en/research/articles/fixture";
+  const universityImages = extractArticleImageDocumentsFromContent(`
+    <img src="/univ/images/home/research_model.jpg">
+    <img src="/univ/images/article/8711/01.jpg">
+    <img src="/images/back.png">
+  `, universityArticleUrl, universitySource, {
+    ...articleDocument,
+    sourceId: universitySource.id,
+    sourceName: universitySource.name,
+    url: universityArticleUrl,
+  });
+  assert.deepEqual(
+    universityImages.map((document) => document.url),
+    ["http://www.ryongnamsan.edu.kp/univ/images/article/8711/01.jpg"],
+    "article image extraction should keep DPRK-site content photos while dropping configured page chrome and navigation assets",
+  );
+}
+
+async function assertRodongLiveSearchSupplementsArbitraryQueries() {
+  const firstUrl = createRodongFixtureArticleUrl("2026-06-16", "035", "12");
+  const secondUrl = createRodongFixtureArticleUrl("2026-04-24", "029", "13");
+  const searchHtml = createRodongFixtureSearchHtml([
+    { title: "윁남사회주의공화국 공안성대표단 여러곳 참관", date: "2026.6.16.", url: firstUrl },
+    { title: "로씨야련방 내무성대표단 여러곳 참관", date: "2026.4.24.", url: secondUrl },
+  ]);
+  const detailByUrl = new Map([
+    [firstUrl, createRodongFixtureDetailHtml({
+      title: "윁남사회주의공화국 공안성대표단 여러곳 참관",
+      body: "대표단은 평양지하철도와 여러 단위를 참관하였다.",
+      date: "2026년 6월 16일",
+    })],
+    [secondUrl, createRodongFixtureDetailHtml({
+      title: "로씨야련방 내무성대표단 여러곳 참관",
+      body: "대표단은 평양지하철도와 여러 단위를 참관하였다.",
+      date: "2026년 4월 24일",
+    })],
+  ]);
+  const fetchedSearchUrls = [];
+  const fetchHtml = async (url) => {
+    if (detailByUrl.has(url)) return detailByUrl.get(url);
+    fetchedSearchUrls.push(url);
+    return searchHtml;
+  };
+
+  const subwayDocuments = await searchRodongDocuments("지하철도", { tab: "all", fetchHtml });
+  const housingDocuments = await searchRodongDocuments("농촌살림집", { tab: "all", fetchHtml });
+  const parsedEntries = parseRodongSearchResults(searchHtml);
+  const crawlerSource = await fs.readFile(path.join(ROOT_DIR, "scripts/search-crawler-utils.ts"), "utf8");
+
+  assert.equal(subwayDocuments.length, 2, "sparse 지하철도 searches should be supplemented with every matching Rodong source-search result");
+  assert.equal(housingDocuments.length, 2, "live source-search supplementation should accept arbitrary valid queries, not a hardcoded subway keyword");
+  assert.equal(parsedEntries[0]?.date, "2026-06-16", "Rodong source-search dates should be normalized from the visible result row");
+  assert.equal(fetchedSearchUrls.includes(createRodongSearchUrl("지하철도", 1)), true, "지하철도 should be encoded into the Rodong source-search URL at request time");
+  assert.equal(fetchedSearchUrls.includes(createRodongSearchUrl("농촌살림집", 1)), true, "unrelated arbitrary terms should use the same live source-search path");
+  assert.equal((crawlerSource.match(/cacheFirstReadable: false/g) || []).length >= 2, true, "listing and source-search discovery should refresh live pages before falling back to stored readable cache");
+}
+
+async function assertRodongEmbeddedImagesBecomeLiveImageDocuments() {
+  const articleUrl = createRodongFixtureArticleUrl("2026-06-16", "035", "12");
+  const detailHtml = createRodongFixtureDetailHtml({
+    title: "윁남사회주의공화국 공안성대표단 여러곳 참관",
+    body: "대표단은 평양지하철도를 참관하였다.",
+    date: "2026년 6월 16일",
+    imageBase64: "/9j/4AAQSkZJRg==",
+  });
+  const detail = parseRodongDetailHtml(detailHtml, { url: articleUrl });
+  const imageDocuments = createRodongImageDocuments(detail, "지하철도");
+  const imageIdentity = parseRodongLiveDocumentId(imageDocuments[0]?.id);
+  const image = await getRodongLiveImage(imageDocuments[0]?.id, { fetchHtml: async () => detailHtml });
+
+  assert.equal(detail?.images.length, 1, "Rodong data-URI article photos should be decoded from the source HTML");
+  assert.equal(imageDocuments.length, 1, "embedded Rodong article photos should become image-tab documents");
+  assert.equal(imageDocuments[0]?.cachedUrl.startsWith("/api/search-live-image?id="), true, "embedded images should use the bounded same-origin image endpoint");
+  assert.equal(imageDocuments[0]?.url, articleUrl, "live image results should keep the source article as their original link");
+  assert.equal(imageIdentity?.url, articleUrl, "live image ids should round-trip only an allowlisted Rodong article URL");
+  assert.equal(image?.contentType, "image/jpeg", "embedded Rodong JPEG data should be served with its detected image content type");
+  assert.equal(image?.bytes.subarray(0, 4).toString("hex"), "ffd8ffe0", "the image endpoint should return decoded source bytes rather than the HTML page");
+  assert.equal(parseRodongLiveDocumentId("rodong-live-image-0-aHR0cHM6Ly9leGFtcGxlLmNvbS8"), null, "live document ids must reject non-Rodong URLs");
+
+  const listingHtml = createRodongFixtureSearchHtml([
+    { title: "지하철도 현장", date: "2026. 04. 24.", url: articleUrl },
+  ]);
+  let detailAttempts = 0;
+  const retriedDocuments = await searchRodongDocuments("지하철도", {
+    tab: "image",
+    fetchHtml: async (url) => {
+      if (url !== articleUrl) return listingHtml;
+      detailAttempts += 1;
+      if (detailAttempts === 1) throw new Error("upstream_503");
+      return detailHtml;
+    },
+  });
+  assert.equal(detailAttempts, 2, "transient Rodong detail failures should receive one bounded retry");
+  assert.equal(retriedDocuments.length, 1, "a transient detail failure should not erase an otherwise valid image result");
+}
+
+async function assertChosonSinboLiveImageSearchUsesImageContext() {
+  const posts = [
+    {
+      id: 307198,
+      date: "2025-06-30T08:00:00",
+      link: "https://chosonsinbo.com/2025/06/2-127/",
+      title: { rendered: "새롭게 달라져가는 평양지하철도" },
+      excerpt: { rendered: "<p>평양지하철도의 역과 전동차가 새롭게 달라지고있다.</p>" },
+      content: {
+        rendered: `
+          <p>평양지하철도는 수도시민들이 즐겨 리용하는 교통수단이다.</p>
+          <figure><img src="https://chosonsinbo.com/wp-content/uploads/2025/06/train.jpg"><figcaption>평양지하철도 전동차가 승강장에 들어오고있다.</figcaption></figure>
+          <div class="wp-caption"><img src="https://chosonsinbo.com/wp-content/uploads/2025/06/station.jpg"><p class="wp-caption-text">개건된 지하철역의 모습</p></div>
+        `,
+      },
+    },
+    {
+      id: 327890,
+      date: "2025-11-01T08:00:00",
+      link: "https://chosonsinbo.com/2025/11/31-2061/",
+      title: { rendered: "대표단 여러곳 참관" },
+      excerpt: { rendered: "<p>대표단은 평양지하철도를 비롯한 여러곳을 참관하였다.</p>" },
+      content: {
+        rendered: `
+          <p>대표단은 평양지하철도를 비롯한 여러곳을 참관하였다.</p>
+          <figure><img src="https://chosonsinbo.com/wp-content/uploads/2025/10/greenhouse.jpg"><figcaption>강동종합온실농장을 참관하였다.</figcaption></figure>
+        `,
+      },
+    },
+  ];
+  const requestedUrls = [];
+  const fetchText = async (url) => {
+    requestedUrls.push(String(url));
+    return JSON.stringify(posts);
+  };
+  const images = await searchChosonSinboDocuments("지하철도", {
+    tab: "image",
+    limit: 20,
+    fetchText,
+  });
+  const trainIdentity = parseChosonSinboLiveDocumentId(images[0]?.id);
+  const cachedDocument = await getChosonSinboLiveDocument(images[0]?.id, { fetchText });
+  const sourceConfig = SEARCH_SOURCES.find((source) => source.id === "choson-sinbo");
+
+  assert.equal(images.length, 3, "live image search should retain body-matched photos while ranking direct subway images first");
+  assert.equal(images[0]?.thumbnailUrl.endsWith("/train.jpg"), true, "an image caption that directly names the subway train should rank first");
+  assert.equal(images.at(-1)?.thumbnailUrl.endsWith("/greenhouse.jpg"), true, "body-only image matches should remain available below direct caption and title matches");
+  assert.equal(images.every((document) => document.cachedUrl.startsWith("/api/search-asset?url=")), true, "Choson Sinbo live images should use the allowlisted same-origin asset route");
+  assert.equal(trainIdentity?.postId, "307198", "Choson Sinbo live image ids should retain a bounded WordPress post identity");
+  assert.equal(cachedDocument?.thumbnailUrl.endsWith("/train.jpg"), true, "live image documents should remain resolvable after navigation");
+  assert.equal(requestedUrls[0], createChosonSinboSearchUrl("지하철도"), "arbitrary image terms should be sent to the Choson Sinbo source search at request time");
+  assert.equal(createChosonSinboSearchUrl("농촌살림집").includes("search=%EB%86%8D%EC%B4%8C%EC%82%B4%EB%A6%BC%EC%A7%91"), true, "the live source-search URL must accept unrelated valid terms without keyword-specific code");
+  assert.equal(sourceConfig?.crawler?.wordpressSearchQueries.includes("지하철도"), true, "scheduled indexing should preserve the newly recovered subway coverage");
+  assert.equal(sourceConfig?.crawler?.wordpressSearchQueries.includes("전동차"), true, "scheduled indexing should retain train-specific Choson Sinbo articles and photos");
+}
+
+async function assertLiveSearchFallbackMergesSparseIndexedResults() {
+  const firstUrl = createRodongFixtureArticleUrl("2026-06-16", "035", "12");
+  const secondUrl = createRodongFixtureArticleUrl("2026-04-24", "029", "13");
+  const thirdUrl = createRodongFixtureArticleUrl("2026-04-21", "035", "14");
+  const baseDocument = {
+    ...createRodongArticleDocument({ title: "기존 색인 기사", date: "2026-04-24", url: secondUrl }, "지하철도"),
+    id: "rodong-indexed-existing",
+    score: 780,
+    baseScore: 780,
+  };
+  const liveArticles = [
+    createRodongArticleDocument({ title: "새 원문 기사", date: "2026-06-16", url: firstUrl }, "지하철도"),
+    createRodongArticleDocument({ title: "기존 색인 기사", date: "2026-04-24", url: secondUrl }, "지하철도"),
+    createRodongArticleDocument({ title: "추가 원문 기사", date: "2026-04-21", url: thirdUrl }, "지하철도"),
+  ];
+  const primary = {
+    async searchDocuments(query, filters = {}) {
+      return {
+        query,
+        filters: { tab: filters.tab || "all", limit: filters.limit || 20, offset: 0, sourceIds: [], excludedSourceIds: [], languages: [], excludedLanguages: [], sort: "relevance" },
+        documents: filters.tab === "image" ? [] : [baseDocument],
+        groupedSources: [],
+        sourceFacets: filters.tab === "image" ? [] : [{ sourceId: "rodong-sinmun", sourceName: "로동신문", sourceType: "official_site", count: 1 }],
+        sourceFilters: [],
+        total: filters.tab === "image" ? 0 : 1,
+        status: "ok",
+      };
+    },
+    async getSuggestions() { return []; },
+    async getDocumentById() { return null; },
+  };
+  const requestedQueries = [];
+  const fetchReceivers = [];
+  const fetchCacheModes = [];
+  const provider = new LiveSearchFallbackProvider(primary, {
+    minimumResults: 12,
+    fetchImpl: async function fetchLiveFixture(url, options = {}) {
+      fetchReceivers.push(this);
+      fetchCacheModes.push(options.cache);
+      const parsed = new URL(String(url), "http://localhost");
+      requestedQueries.push(parsed.searchParams.get("q") || "");
+      return new Response(JSON.stringify({ documents: liveArticles }), {
+        status: 200,
+        headers: { "Content-Type": "application/json" },
+      });
+    },
+  });
+
+  const subwayResult = await provider.searchDocuments("지하철도", { tab: "all", limit: 20 });
+  const arbitraryResult = await provider.searchDocuments("농촌살림집", { tab: "all", limit: 20 });
+  const operatorResult = await provider.searchDocuments("지하철도 OR 농촌살림집", { tab: "all", limit: 20 });
+
+  assert.equal(subwayResult.total, 3, "live source results should expand a one-hit local result without double-counting the indexed article URL");
+  assert.equal(subwayResult.documents.length, 3, "the merged first page should contain every unique indexed and live article");
+  assert.equal(subwayResult.sourceFacets.find((facet) => facet.sourceId === "rodong-sinmun")?.count, 3, "source facet counts should include live supplemental results");
+  assert.equal(subwayResult.groupedSources[0]?.total, 3, "source groups should report the merged source total");
+  assert.equal(requestedQueries.includes("지하철도"), true, "sparse subway searches should request live source coverage");
+  assert.equal(requestedQueries.includes("농촌살림집"), true, "the provider should supplement unrelated arbitrary sparse terms through the same path");
+  assert.equal(fetchReceivers.includes(provider), false, "browser fetch must not be invoked with the provider instance as its receiver");
+  assert.equal(fetchCacheModes.every((mode) => mode === "no-store"), true, "live source requests should bypass stale browser response caches");
+  assert.equal(arbitraryResult.liveSupplemented, true, "arbitrary sparse query results should expose that live coverage was merged");
+  assert.equal(operatorResult.liveSupplemented, undefined, "structured OR queries should stay on the indexed operator-aware search path");
+}
+
+function createRodongFixtureArticleUrl(date, articleNumber, resultNumber) {
+  const token = Buffer.from(`8@${date}-${articleNumber}@19@지하철도@${resultNumber}`).toString("base64");
+  return `http://www.rodong.rep.kp/ko/index.php?${token}`;
+}
+
+function createRodongFixtureSearchHtml(entries = []) {
+  return `<div id="m_dayList"><ul>${entries.map((entry) => `
+    <li><a href="${entry.url}"><span class="news_list_title">${entry.title}
+      <p class="news_list_date">${entry.date}</p>
+    </span></a></li>`).join("")}</ul></div>`;
+}
+
+function createRodongFixtureDetailHtml({ title, body, date, imageBase64 = "" }) {
+  return `<div id="article-homepage">${date}</div>
+    <p class="TitleP">${title}</p>
+    <p class="TextP">${body}</p>
+    <p class="WriterP">【조선중앙통신】</p>
+    ${imageBase64 ? `<img src="data:;base64,${imageBase64}">` : ""}`;
 }
 
 async function assertRodongReadableListingsBecomeDocuments() {
@@ -4497,7 +4814,7 @@ Markdown Content:
     fetchTextResourceImpl: async (url) => {
       requestedUrls.push(url);
       if (url.includes("search=")) return readableSearchApi;
-      if (url.startsWith("https://r.jina.ai/http://https://www.chosonsinbo.com/wp-json/wp/v2/posts")) return readableApi;
+      if (url.startsWith("https://r.jina.ai/http://www.chosonsinbo.com/wp-json/wp/v2/posts")) return readableApi;
       throw new Error(`unexpected fixture URL ${url}`);
     },
   });
@@ -4543,7 +4860,7 @@ Markdown Content:
     },
     fetchTextResourceImpl: async (url) => {
       if (url.includes("search=")) return readableSearchApi;
-      if (url.startsWith("https://r.jina.ai/http://https://www.chosonsinbo.com/wp-json/wp/v2/posts")) return readableApi;
+      if (url.startsWith("https://r.jina.ai/http://www.chosonsinbo.com/wp-json/wp/v2/posts")) return readableApi;
       throw new Error(`unexpected detail fixture API URL ${url}`);
     },
   });
@@ -4555,7 +4872,7 @@ Markdown Content:
   assert.equal(productionChosonConfig?.wordpressFetchDetailPages, false, "조선신보 should index full WordPress API content directly instead of refetching rate-limited detail pages");
   assert.equal(productionChosonConfig?.skipHtmlDiscovery, true, "조선신보 should skip redundant HTML discovery once WordPress API content is available");
   assert.equal(productionChosonConfig?.wordpressPostsUrl?.includes("content"), true, "조선신보 WordPress API requests should include rendered content, not excerpt-only cards");
-  assert.equal(requestedUrls[0].startsWith("https://r.jina.ai/http://https://www.chosonsinbo.com/wp-json/wp/v2/posts"), true, "WordPress API discovery should honor readable-first source config");
+  assert.equal(requestedUrls[0].startsWith("https://r.jina.ai/http://www.chosonsinbo.com/wp-json/wp/v2/posts"), true, "WordPress API discovery should honor readable-first source config");
   assert.equal(requestedUrls[0].includes("search="), true, "WordPress search API backfill should be fetched before the latest-posts list so targeted coverage survives source limits");
   assert.equal(report.apiFetched, 2, "crawler should report public API/list fetch diagnostics");
   assert.equal(Boolean(documentEntry?.embeddedDocument), true, "WordPress API records should become embedded indexed documents");
@@ -5821,6 +6138,7 @@ async function assertSourceCatalogMatchesGoal() {
     "minju-choson",
     "ryugyong",
     "naenara",
+    ...PUBLIC_DPRK_SITE_CATALOG.map((source) => source.id),
     "choson-sinbo",
     "korean-books",
     "kcna-watch",
@@ -5828,6 +6146,9 @@ async function assertSourceCatalogMatchesGoal() {
     "youtube",
   ];
   assert.deepEqual(SEARCH_SOURCES.map((source) => source.id), expectedSourceIds, "source catalog must match the requested portal scope");
+  assert.equal(new Set(expectedSourceIds).size, expectedSourceIds.length, "public DPRK source catalog must not duplicate existing source IDs");
+  assert.equal(SEARCH_SOURCES.find((source) => source.id === "kim-il-sung-university")?.mediaTypes.includes("image"), true, "김일성종합대학 should contribute article-linked images");
+  assert.equal(SEARCH_SOURCES.find((source) => source.id === "yongsaeng")?.aliases.includes("김일성김정일기금"), true, "영생 should be searchable by the foundation name");
   assert.equal(SEARCH_SOURCES.some((source) => source.id === "bboggugi-tv" || source.id === "kctv-archive"), false, "non-requested mock-era sources must not remain");
   const naenaraSource = SEARCH_SOURCES.find((source) => source.id === "naenara");
   assert.equal(naenaraSource?.languages.includes("ar"), true, "내나라 foreign-language scope should include Arabic");
@@ -6162,6 +6483,7 @@ async function assertSourceHealthCoversCatalog() {
 
 async function assertProductionAuditPasses() {
   const audit = await auditSearchProductionBundle();
+  assert.deepEqual(audit.errors, [], "production audit should pass for the deployable search bundle");
   const packageJson = await readJson(path.join(ROOT_DIR, "package.json"));
   const readme = await fs.readFile(path.join(ROOT_DIR, "README.md"), "utf8");
   const tempDir = await fs.mkdtemp(path.join(ROOT_DIR, "tmp-search-audit-"));
@@ -6353,7 +6675,6 @@ async function assertProductionAuditPasses() {
     });
     const auditSource = await fs.readFile(path.join(ROOT_DIR, "scripts/audit-search-production.ts"), "utf8");
 
-    assert.deepEqual(audit.errors, [], "production audit should pass for the deployable search bundle");
     assert.equal(audit.queryCoverage.some((coverage) => coverage.id === "wonsan" && coverage.sourceFacets.length >= 5), true, "production audit should expose broad 원산 query source coverage");
     assert.equal(audit.queryCoverage.some((coverage) => coverage.id === "wonsan-exclude-kcna" && !coverage.sourceFacets.some((facet) => facet.sourceId === "kcna")), true, "production audit should enforce Google-like -site: source exclusion coverage");
     assert.equal(audit.queryCoverage.some((coverage) => coverage.id === "wonsan-kalma" && coverage.sourceFacets.some((facet) => facet.sourceId === "choson-sinbo")), true, "production audit should expose 조선신보 Wonsan Kalma coverage");
@@ -8427,14 +8748,21 @@ async function assertSearchOperatorsUseVisibleSourceFilters() {
     },
   }).searchDocuments("(site:rodong.rep.kp OR site:vok.rep.kp) 원산갈마");
 
+  const configuredRepKpSourceIds = SEARCH_SOURCES
+    .filter((source) => canonicalHost(source.baseUrl).endsWith("rep.kp"))
+    .map((source) => source.id);
+  const configuredKpSourceIds = SEARCH_SOURCES
+    .filter((source) => canonicalHost(source.baseUrl).endsWith(".kp"))
+    .map((source) => source.id);
+
   assert.deepEqual(siteResult.documents.map((document) => document.id), ["fixture-site-rodong"], "site: host operators should become source filters in local search");
   assert.deepEqual(siteCurlyQuotedResult.documents.map((document) => document.id), ["fixture-site-rodong"], "site:“host” operators should become source filters in local search");
   assert.deepEqual(siteParenthesizedValueResult.documents.map((document) => document.id), ["fixture-site-rodong"], "site:(host) operators should become source filters in local search");
   assert.deepEqual([...siteParentDomainResult.documents.map((document) => document.id)].sort(), ["fixture-site-rodong", "fixture-site-vok"], "site: parent-domain operators should search every configured source under that host suffix");
   assert.deepEqual([...siteWildcardParentDomainResult.documents.map((document) => document.id)].sort(), ["fixture-site-rodong", "fixture-site-vok"], "site: wildcard parent-domain operators should search every configured source under that host suffix");
-  assert.deepEqual([...siteTldResult.documents.map((document) => document.id)].sort(), ["fixture-site-kcna", "fixture-site-rodong", "fixture-site-vok"], "site: bare TLD operators should search every configured source under that host suffix");
+  assert.deepEqual([...siteTldResult.documents.map((document) => document.id)].sort(), ["fixture-language-en", "fixture-site-kcna", "fixture-site-rodong", "fixture-site-vok"], "site: bare TLD operators should search every configured source under that host suffix");
   assert.deepEqual([...siteKoreanAliasResult.documents.map((document) => document.id)].sort(), ["fixture-site-rodong", "fixture-site-vok"], "Korean 사이트: operators should behave like site: parent-domain filters");
-  assert.deepEqual([...siteDomainAliasResult.documents.map((document) => document.id)].sort(), ["fixture-site-kcna", "fixture-site-rodong", "fixture-site-vok"], "domain: aliases should behave like site: host-suffix filters");
+  assert.deepEqual([...siteDomainAliasResult.documents.map((document) => document.id)].sort(), ["fixture-language-en", "fixture-site-kcna", "fixture-site-rodong", "fixture-site-vok"], "domain: aliases should behave like site: host-suffix filters");
   assert.deepEqual([...siteOrSourceResult.documents.map((document) => document.id)].sort(), ["fixture-site-rodong", "fixture-site-vok"], "site: operators joined with OR should not leak OR into the local document query");
   assert.deepEqual([...parenthesizedSiteOrSourceResult.documents.map((document) => document.id)].sort(), ["fixture-site-rodong", "fixture-site-vok"], "parenthesized site: operators joined with OR should become local source filters");
   assert.equal(siteOrSourceOnlyResult.query, "", "filter-only source operators joined with OR should not leave OR as a literal query");
@@ -8444,8 +8772,8 @@ async function assertSearchOperatorsUseVisibleSourceFilters() {
   assert.deepEqual(siteExcludedOnlyResult.documents.map((document) => document.id), ["fixture-site-rodong-image"], "structured filter searches with only negative text terms should browse the filtered corpus and remove excluded matches");
   assert.deepEqual([...negativeSiteResult.documents.map((document) => document.id)].sort(), ["fixture-site-rodong", "fixture-site-vok"], "-site: host operators should exclude source filters in local search");
   assert.deepEqual([...parenthesizedNegativeSiteResult.documents.map((document) => document.id)].sort(), ["fixture-site-rodong", "fixture-site-vok"], "parenthesized negative site: operators should exclude source filters in local search");
-  assert.deepEqual(negativeParentDomainSiteResult.documents.map((document) => document.id), ["fixture-site-kcna"], "-site: parent-domain operators should exclude every configured source under that host suffix");
-  assert.deepEqual(negativeWildcardParentDomainSiteResult.documents.map((document) => document.id), ["fixture-site-kcna"], "-site: wildcard parent-domain operators should exclude every configured source under that host suffix");
+  assert.deepEqual(negativeParentDomainSiteResult.documents.map((document) => document.id), ["fixture-site-kcna", "fixture-language-en"], "-site: parent-domain operators should exclude every configured source under that host suffix");
+  assert.deepEqual(negativeWildcardParentDomainSiteResult.documents.map((document) => document.id), ["fixture-site-kcna", "fixture-language-en"], "-site: wildcard parent-domain operators should exclude every configured source under that host suffix");
   assert.deepEqual(negativeTldSiteResult.documents.map((document) => document.id), [], "-site: bare TLD operators should exclude every configured source under that host suffix");
   assert.deepEqual([...negativeParenthesizedValueSiteResult.documents.map((document) => document.id)].sort(), ["fixture-site-rodong", "fixture-site-vok"], "-site:(host) operators should exclude source filters in local search");
   assert.deepEqual([...notSiteResult.documents.map((document) => document.id)].sort(), [...negativeSiteResult.documents.map((document) => document.id)].sort(), "NOT site: host operators should behave like -site: source exclusions in local search");
@@ -8471,9 +8799,9 @@ async function assertSearchOperatorsUseVisibleSourceFilters() {
     false,
     "-site: source operators should remove excluded sources from local source facets",
   );
-  assert.deepEqual(sourceResult.documents.map((document) => document.id), ["fixture-site-kcna"], "source: quoted source-name operators should become source filters in local search");
+  assert.deepEqual(sourceResult.documents.map((document) => document.id), ["fixture-site-kcna", "fixture-language-en"], "source: quoted source-name operators should become source filters in local search");
   assert.deepEqual(sourceKoreanAliasResult.documents.map((document) => document.id), ["fixture-site-rodong"], "Korean 출처: operators should become source filters in local search");
-  assert.deepEqual(sourceCurlyQuotedResult.documents.map((document) => document.id), ["fixture-site-kcna"], "source:“name” operators should become source filters in local search");
+  assert.deepEqual(sourceCurlyQuotedResult.documents.map((document) => document.id), ["fixture-site-kcna", "fixture-language-en"], "source:“name” operators should become source filters in local search");
   assert.deepEqual(sourceCurlySingleQuotedResult.documents.map((document) => document.id), ["fixture-site-rodong"], "source:‘name’ operators should become source filters in local search");
   assert.deepEqual(sourceParenthesizedValueResult.documents.map((document) => document.id), ["fixture-site-rodong"], "source:(name) operators should become source filters in local search");
   assert.deepEqual(filetypeResult.documents.map((document) => document.id), ["fixture-filetype-pdf"], "filetype: operators should become tab filters in local search");
@@ -8692,18 +9020,18 @@ async function assertSearchOperatorsUseVisibleSourceFilters() {
   assert.equal(meiliDateRangeResult.query, "기간", "Meilisearch date-range operators should be stripped from the backend document query");
   assert.equal(meiliDateRangeResult.filters.dateFrom, "2026-01-01", "Meilisearch date: operators should populate normalized lower date bounds");
   assert.equal(meiliDateRangeResult.filters.dateTo, "2026-12-31", "Meilisearch date: operators should populate normalized upper date bounds");
-  assert.deepEqual(meiliParentDomainResult.filters.sourceIds, ["rodong-sinmun", "voice-of-korea", "minju-choson"], "Meilisearch parent-domain site: operators should populate every configured backend source filter");
+  assert.deepEqual(meiliParentDomainResult.filters.sourceIds, configuredRepKpSourceIds, "Meilisearch parent-domain site: operators should populate every configured backend source filter");
   assert.equal(meiliParentDomainRequests[0]?.body.q, "원산갈마해안관광지구", "Meilisearch parent-domain site: searches should strip the site operator while preserving resolved backend query text");
-  assert.equal(/sourceId IN \["rodong-sinmun", "voice-of-korea", "minju-choson"\]/.test(meiliParentDomainRequests[0]?.body.filter || ""), true, "Meilisearch parent-domain site: searches should send a multi-source backend filter");
-  assert.deepEqual(meiliTldResult.filters.sourceIds, ["rodong-sinmun", "kcna", "voice-of-korea", "minju-choson", "ryugyong", "naenara", "korean-books"], "Meilisearch bare TLD site: operators should populate every configured backend source filter under that host suffix");
+  assert.equal(meiliParentDomainRequests[0]?.body.filter?.includes(createExpectedMeiliSourceFilter(configuredRepKpSourceIds)), true, "Meilisearch parent-domain site: searches should send a multi-source backend filter");
+  assert.deepEqual(meiliTldResult.filters.sourceIds, configuredKpSourceIds, "Meilisearch bare TLD site: operators should populate every configured backend source filter under that host suffix");
   assert.equal(meiliTldRequests[0]?.body.q, "원산갈마해안관광지구", "Meilisearch bare TLD site: searches should strip the site operator while preserving resolved backend query text");
-  assert.equal(/sourceId IN \["rodong-sinmun", "kcna", "voice-of-korea", "minju-choson", "ryugyong", "naenara", "korean-books"\]/.test(meiliTldRequests[0]?.body.filter || ""), true, "Meilisearch bare TLD site: searches should send a multi-source backend filter");
-  assert.deepEqual(meiliKoreanSiteAliasResult.filters.sourceIds, ["rodong-sinmun", "voice-of-korea", "minju-choson"], "Meilisearch Korean 사이트: aliases should populate every configured backend source filter under that host suffix");
+  assert.equal(meiliTldRequests[0]?.body.filter?.includes(createExpectedMeiliSourceFilter(configuredKpSourceIds)), true, "Meilisearch bare TLD site: searches should send a multi-source backend filter");
+  assert.deepEqual(meiliKoreanSiteAliasResult.filters.sourceIds, configuredRepKpSourceIds, "Meilisearch Korean 사이트: aliases should populate every configured backend source filter under that host suffix");
   assert.equal(meiliKoreanSiteAliasRequests[0]?.body.q, "원산갈마해안관광지구", "Meilisearch Korean 사이트: searches should strip the site operator while preserving resolved backend query text");
-  assert.equal(/sourceId IN \["rodong-sinmun", "voice-of-korea", "minju-choson"\]/.test(meiliKoreanSiteAliasRequests[0]?.body.filter || ""), true, "Meilisearch Korean 사이트: searches should send a multi-source backend filter");
-  assert.deepEqual(meiliWildcardParentDomainResult.filters.sourceIds, ["rodong-sinmun", "voice-of-korea", "minju-choson"], "Meilisearch wildcard parent-domain site: operators should populate every configured backend source filter");
+  assert.equal(meiliKoreanSiteAliasRequests[0]?.body.filter?.includes(createExpectedMeiliSourceFilter(configuredRepKpSourceIds)), true, "Meilisearch Korean 사이트: searches should send a multi-source backend filter");
+  assert.deepEqual(meiliWildcardParentDomainResult.filters.sourceIds, configuredRepKpSourceIds, "Meilisearch wildcard parent-domain site: operators should populate every configured backend source filter");
   assert.equal(meiliWildcardParentDomainRequests[0]?.body.q, "원산갈마해안관광지구", "Meilisearch wildcard parent-domain site: searches should strip the site operator while preserving resolved backend query text");
-  assert.equal(/sourceId IN \["rodong-sinmun", "voice-of-korea", "minju-choson"\]/.test(meiliWildcardParentDomainRequests[0]?.body.filter || ""), true, "Meilisearch wildcard parent-domain site: searches should send a multi-source backend filter");
+  assert.equal(meiliWildcardParentDomainRequests[0]?.body.filter?.includes(createExpectedMeiliSourceFilter(configuredRepKpSourceIds)), true, "Meilisearch wildcard parent-domain site: searches should send a multi-source backend filter");
   assert.equal(meiliSourceOrResult.query, "원산갈마", "Meilisearch OR-joined source operators should strip orphan boolean connectors from the backend query");
   assert.deepEqual(meiliSourceOrResult.filters.sourceIds, ["rodong-sinmun", "voice-of-korea"], "Meilisearch OR-joined source operators should populate every normalized source filter");
   assert.equal(meiliSourceOrRequests[0]?.body.q, "원산갈마해안관광지구", "Meilisearch OR-joined source operators should preserve the canonical backend search text without a literal OR token");
@@ -9418,13 +9746,21 @@ function canonicalHost(value = "") {
   }
 }
 
+function createExpectedMeiliSourceFilter(sourceIds = []) {
+  return `sourceId IN [${sourceIds.map((sourceId) => JSON.stringify(sourceId)).join(", ")}]`;
+}
+
 function extractKcnaDatelineMonthDay(value = "") {
   const match = String(value || "").match(/[（(【]\s*[^）)】\n]{0,120}?(\d{1,2})\s*월\s*(\d{1,2})\s*일\s*발\s*조선중앙통신[^）)】\n]{0,40}[）)】]/u)
     || String(value || "").match(/(?:평양|[가-힣]{2,12})\s*(\d{1,2})\s*월\s*(\d{1,2})\s*일\s*발\s*조선중앙통신/u);
   return match ? `${match[1].padStart(2, "0")}-${match[2].padStart(2, "0")}` : "";
 }
 
-main().catch((error) => {
+const searchTestRun = process.env.SEARCH_TEST_SCOPE === "operators"
+  ? assertSearchOperatorsUseVisibleSourceFilters()
+  : main();
+
+searchTestRun.catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

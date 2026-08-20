@@ -1,19 +1,19 @@
-import { groupResultsBySource } from "./resultFilters.js?v=search-20260630-1";
-import { collapseDuplicateResults } from "./resultIdentity.js?v=search-20260630-1";
-import { SOURCE_BY_ID, SOURCE_ORDER } from "./sourceConfig.js?v=search-20260630-1";
-import { resolveKnownEntityDocumentQuery } from "./knownEntities.js?v=search-20260630-1";
-import { isStandaloneConsonantOnlySearch, normalizeQuery, normalizeWidthText } from "./normalizeQuery.js?v=search-20260630-1";
-import { isExactSourceDocumentMatch, resolveExactSourceQuery } from "./sourceQuery.js?v=search-20260630-1";
-import { cleanDisplaySnippetText, createDocumentPresentation, filterDocumentsForExactPhraseQuery, filterDocumentsForExcludedTerms, filterDocumentsForTextQuery, filterDocumentsForTitleQuery, filterDocumentsForUrlQuery, getDocumentSearchTextQueries, hasAlternativeQuery, hasExactPhraseQuery, hasExcludedTermQuery, hasPositiveDocumentQuery, hasTextQuery, hasTitleQuery, hasUrlQuery } from "./documentSearch.js?v=search-20260630-1";
-import { hasStructuredSearchOperators, parseSearchQueryOperators } from "./queryOperators.js?v=search-20260630-1";
-import { getOperatorSearchSuggestions } from "./suggestions.js?v=search-20260630-1";
+import { groupResultsBySource } from "./resultFilters.js?v=search-20260803-6";
+import { collapseDuplicateResults } from "./resultIdentity.js?v=search-20260803-6";
+import { SOURCE_BY_ID, SOURCE_ORDER } from "./sourceConfig.js?v=search-20260803-6";
+import { resolveKnownEntityDocumentQuery } from "./knownEntities.js?v=search-20260803-6";
+import { isStandaloneConsonantOnlySearch, normalizeQuery, normalizeWidthText } from "./normalizeQuery.js?v=search-20260803-6";
+import { isExactSourceDocumentMatch, resolveExactSourceQuery } from "./sourceQuery.js?v=search-20260803-6";
+import { cleanDisplaySnippetText, createDocumentPresentation, filterDocumentsForExactPhraseQuery, filterDocumentsForExcludedTerms, filterDocumentsForTextQuery, filterDocumentsForTitleQuery, filterDocumentsForUrlQuery, getDocumentSearchTextQueries, hasAlternativeQuery, hasExactPhraseQuery, hasExcludedTermQuery, hasPositiveDocumentQuery, hasTextQuery, hasTitleQuery, hasUrlQuery } from "./documentSearch.js?v=search-20260803-6";
+import { hasStructuredSearchOperators, parseSearchQueryOperators } from "./queryOperators.js?v=search-20260803-6";
+import { getOperatorSearchSuggestions } from "./suggestions.js?v=search-20260803-6";
 import {
   createEmptySearchResult,
   DEFAULT_SEARCH_INDEX_NAME,
   DEFAULT_SUGGESTION_INDEX_NAME,
   normalizeSearchFilters,
-} from "./SearchProvider.js?v=search-20260630-1";
-import { normalizeSearchDocument } from "./schemas.js?v=search-20260630-1";
+} from "./SearchProvider.js?v=search-20260803-6";
+import { normalizeSearchDocument } from "./schemas.js?v=search-20260803-6";
 
 const HIGHLIGHT_PRE_TAG = "___DPRK_SEARCH_HIGHLIGHT_START___";
 const HIGHLIGHT_POST_TAG = "___DPRK_SEARCH_HIGHLIGHT_END___";

@@ -11,6 +11,8 @@ const CHECKED_JSON_FILES = ["package.json", "vercel.json"];
 async function main() {
   await checkJsonFiles();
   await checkJavaScriptSyntax();
+  await runStep("news snapshot generation", "npm", ["run", "generate:news"]);
+  await runStep("news archive checks", "npm", ["run", "test:news"]);
   await runStep("search correctness tests", "npm", ["run", "test:search"]);
   await runStep("Vercel bundle verification", "npm", ["run", "verify:vercel-bundle"]);
   await runStep("search release dry run", "npm", ["run", "release:search", "--", "--skip-smoke", "--skip-tests"]);

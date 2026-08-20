@@ -17,6 +17,10 @@ const REQUIRED_DEPLOY_FILES = [
   "data/search/source-health.json",
   "data/search/asset-cache-report.json",
   "api/search-asset.js",
+  "api/search-live.js",
+  "api/search-live-image.js",
+  "search/LiveSearchFallbackProvider.js",
+  "search/rodongLiveSearch.server.js",
   "vercel.json",
 ];
 const FORBIDDEN_DEPLOY_FILES = [

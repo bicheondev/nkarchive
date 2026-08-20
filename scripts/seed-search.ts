@@ -185,6 +185,7 @@ export function buildMeilisearchSettings() {
 
 export function addMeilisearchVisibilityFields(document, corpus = []) {
   const { searchFields, ...searchableDocument } = document;
+  if (searchableDocument.displayOrder === undefined) delete searchableDocument.displayOrder;
   const previewRecord = findRicherPreviewRecord(searchableDocument, corpus);
   const previewText = cleanSeedPreviewText(previewRecord?.body || previewRecord?.snippet || "");
   const searchSnippet = getSearchableSnippetText(searchableDocument.snippet || "");
@@ -213,11 +214,45 @@ function createMeilisearchNormalizedText(document = {}, { searchSnippet = "", se
     document.displaySourceName,
     ...(Array.isArray(document.aliases) ? document.aliases : []),
   ].map(normalizeWidthText);
+  const entityTerms = getDocumentEntityTerms(document, values);
   return uniqueStrings([
     ...values,
     ...values.map(simplifyText),
+    ...entityTerms,
+    ...entityTerms.map(simplifyText),
     ...createHangulSearchTokens(values),
   ]).join(" ");
+}
+
+function getDocumentEntityTerms(document = {}, values = []) {
+  const searchableText = simplifyText(values.join(" ")).toLocaleLowerCase("ko-KR");
+  const compactSearchableText = searchableText.replace(/\s+/g, "");
+  const searchableTitle = simplifyText(document.title || "").toLocaleLowerCase("ko-KR");
+  const compactSearchableTitle = searchableTitle.replace(/\s+/g, "");
+  const terms = [];
+
+  for (const entity of KNOWN_SEARCH_ENTITIES) {
+    const entityTerms = uniqueStrings([entity.canonical, ...(entity.aliases || [])]);
+    const strongTerms = uniqueStrings([
+      entity.canonical,
+      ...(Array.isArray(entity.documentAliases) ? entity.documentAliases : (entity.aliases || [])),
+    ]);
+    const matchesStrongTerm = strongTerms.some((term) => {
+      const normalized = simplifyText(term).toLocaleLowerCase("ko-KR");
+      if (!normalized) return false;
+      return searchableText.includes(normalized)
+        || compactSearchableText.includes(normalized.replace(/\s+/g, ""));
+    });
+    const matchesBroadTitleAlias = entityTerms.some((term) => {
+      const normalized = simplifyText(term).toLocaleLowerCase("ko-KR");
+      if (!normalized) return false;
+      return searchableTitle.includes(normalized)
+        || compactSearchableTitle.includes(normalized.replace(/\s+/g, ""));
+    });
+    if (matchesStrongTerm || matchesBroadTitleAlias) terms.push(...entityTerms);
+  }
+
+  return uniqueStrings(terms);
 }
 
 function createHangulSearchTokens(values = []) {

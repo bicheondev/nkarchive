@@ -1,6 +1,8 @@
 import { ProxyAgent } from "undici";
+import { SEARCH_SOURCES } from "../search/sourceConfig.js?v=search-20260803-6";
 
 const ALLOWED_ASSET_HOSTS = new Set([
+  ...createConfiguredAssetHosts(),
   "rodong.rep.kp",
   "www.rodong.rep.kp",
   "kcna.kp",
@@ -37,6 +39,21 @@ const ASSET_CONTENT_SECURITY_POLICY = [
 let outboundProxyAgent = null;
 let outboundProxyAgentUrl = "";
 
+function createConfiguredAssetHosts() {
+  const hosts = [];
+  for (const source of SEARCH_SOURCES) {
+    if (!source.mediaTypes?.some((mediaType) => ["image", "pdf", "video", "broadcast"].includes(mediaType))) continue;
+    try {
+      const hostname = new URL(source.baseUrl).hostname.toLocaleLowerCase("en-US");
+      const bareHostname = hostname.replace(/^www\./, "");
+      hosts.push(bareHostname, `www.${bareHostname}`);
+    } catch {
+      // Invalid source URLs are rejected by source validation before deployment.
+    }
+  }
+  return [...new Set(hosts)];
+}
+
 export default async function handler(request, response) {
   if (request.method !== "GET" && request.method !== "HEAD") {
     sendJson(response, 405, { error: "method_not_allowed" }, { Allow: "GET, HEAD" });
@@ -50,15 +67,12 @@ export default async function handler(request, response) {
     return;
   }
 
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
   try {
     const isHeadRequest = request.method === "HEAD";
     const rangeHeader = isHeadRequest ? "" : getRequestHeader(request, "range");
     const dispatcher = getOutboundProxyDispatcher(parsedUrl.href);
-    const upstream = await fetch(parsedUrl.href, {
+    const upstream = await fetchAssetUpstream(parsedUrl, {
       method: isHeadRequest ? "HEAD" : "GET",
-      signal: controller.signal,
       headers: {
         Accept: getAcceptHeader(parsedUrl.href),
         "User-Agent": USER_AGENT,
@@ -126,9 +140,60 @@ export default async function handler(request, response) {
     sendJson(response, error.name === "AbortError" ? 504 : 502, {
       error: error.name === "AbortError" ? "asset_timeout" : "asset_fetch_failed",
     });
+  }
+}
+
+async function fetchAssetUpstream(sourceUrl, options = {}) {
+  let sourceAttempt = null;
+  const isDprkImage = isDprkImageUrl(sourceUrl);
+  const shouldTrySourceFirst = isDprkImage && (options.method === "HEAD" || Boolean(options.dispatcher));
+  if (shouldTrySourceFirst) {
+    try {
+      sourceAttempt = await fetchWithTimeout(sourceUrl.href, options);
+      if (sourceAttempt.ok) return sourceAttempt;
+    } catch {
+      // A public image route remains available when the DPRK origin or proxy fails.
+    }
+  }
+  if (isChosonSinboImageUrl(sourceUrl) || isDprkImage) {
+    try {
+      const fallback = await fetchWithTimeout(createChosonSinboImageFetchUrl(sourceUrl), {
+        method: options.method,
+        headers: options.headers,
+      });
+      if (fallback.ok) return fallback;
+    } catch {
+      // The original source remains the final route when the image CDN is unavailable.
+    }
+  }
+  if (sourceAttempt) return sourceAttempt;
+  return fetchWithTimeout(sourceUrl.href, options);
+}
+
+async function fetchWithTimeout(url, options = {}) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  try {
+    return await fetch(url, { ...options, signal: controller.signal });
   } finally {
     clearTimeout(timeout);
   }
+}
+
+function isChosonSinboImageUrl(url) {
+  const host = url.hostname.toLocaleLowerCase("en-US").replace(/^www\./, "");
+  return host === "chosonsinbo.com" && /^\/wp-content\/uploads\//i.test(url.pathname);
+}
+
+function isDprkImageUrl(url) {
+  const host = url.hostname.toLocaleLowerCase("en-US").replace(/^www\./, "");
+  return host.endsWith(".kp") && /\.(?:avif|gif|jpe?g|png|webp)$/i.test(url.pathname);
+}
+
+function createChosonSinboImageFetchUrl(sourceUrl) {
+  const fallback = new URL("https://images.weserv.nl/");
+  fallback.searchParams.set("url", sourceUrl.href.replace(/^https?:\/\//i, ""));
+  return fallback.href;
 }
 
 function getOutboundProxyDispatcher(requestUrl = "") {

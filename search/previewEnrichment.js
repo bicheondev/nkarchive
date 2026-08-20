@@ -1,4 +1,6 @@
-import { createDocumentPresentation } from "./documentSearch.js?v=search-20260630-1";
+import { createDocumentPresentation } from "./documentSearch.js?v=search-20260803-6";
+
+const PREVIEW_CORPUS_INDEXES = new WeakMap();
 
 export function enrichSearchResultPreviews(results = [], corpus = [], query = "") {
   if (!Array.isArray(results) || !results.length) return results;
@@ -34,12 +36,61 @@ export function enrichSearchResultPreviews(results = [], corpus = [], query = ""
 export function findRicherPreviewRecord(record = {}, corpus = []) {
   if (!isWeakDocumentPreview(record)) return null;
 
-  return corpus
+  return getPreviewCandidates(record, corpus)
     .filter((candidate) => candidate?.id && candidate.id !== record.id)
-    .filter((candidate) => candidate.mediaType === record.mediaType)
     .filter((candidate) => isSameStoryCandidate(record, candidate))
     .filter((candidate) => !isWeakDocumentPreview(candidate))
     .sort((left, right) => getPreviewSelectionScore(record, right) - getPreviewSelectionScore(record, left))[0] || null;
+}
+
+function getPreviewCandidates(record = {}, corpus = []) {
+  if (!Array.isArray(corpus) || !corpus.length) return [];
+
+  const index = getPreviewCorpusIndex(corpus);
+  const mediaType = String(record.mediaType || "");
+  if (!record.date) return index.byMediaType.get(mediaType) || [];
+
+  const sameDate = index.byMediaTypeAndDate.get(createPreviewBucketKey(mediaType, record.date)) || [];
+  const undated = index.undatedByMediaType.get(mediaType) || [];
+  if (!undated.length) return sameDate;
+  return [...sameDate, ...undated];
+}
+
+function getPreviewCorpusIndex(corpus) {
+  const cached = PREVIEW_CORPUS_INDEXES.get(corpus);
+  if (cached) return cached;
+
+  const index = {
+    byMediaType: new Map(),
+    byMediaTypeAndDate: new Map(),
+    undatedByMediaType: new Map(),
+  };
+
+  for (const candidate of corpus) {
+    const mediaType = String(candidate?.mediaType || "");
+    appendPreviewBucket(index.byMediaType, mediaType, candidate);
+    if (candidate?.date) {
+      appendPreviewBucket(index.byMediaTypeAndDate, createPreviewBucketKey(mediaType, candidate.date), candidate);
+    } else {
+      appendPreviewBucket(index.undatedByMediaType, mediaType, candidate);
+    }
+  }
+
+  PREVIEW_CORPUS_INDEXES.set(corpus, index);
+  return index;
+}
+
+function appendPreviewBucket(buckets, key, candidate) {
+  const bucket = buckets.get(key);
+  if (bucket) {
+    bucket.push(candidate);
+    return;
+  }
+  buckets.set(key, [candidate]);
+}
+
+function createPreviewBucketKey(mediaType, date) {
+  return `${mediaType}\u0000${date}`;
 }
 
 export function isWeakDocumentPreview(record = {}) {

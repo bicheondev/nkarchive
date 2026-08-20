@@ -1,5 +1,6 @@
-import { normalizeSearchDocument, normalizeSearchSource, validateSearchDocument, validateSearchSource } from "./schemas.js?v=search-20260630-1";
-import { createSearchToken } from "./normalizeQuery.js?v=search-20260630-1";
+import { normalizeSearchDocument, normalizeSearchSource, validateSearchDocument, validateSearchSource } from "./schemas.js?v=search-20260803-6";
+import { createSearchToken } from "./normalizeQuery.js?v=search-20260803-6";
+import { getSearchableBodyText, getSearchableSnippetText } from "./documentSearch.js?v=search-20260803-6";
 
 export const DEFAULT_LOCAL_SEARCH_BASE_URL = "/data/search";
 export const DEFAULT_LOCAL_DOCUMENTS_URL = `${DEFAULT_LOCAL_SEARCH_BASE_URL}/documents.jsonl`;
@@ -29,8 +30,10 @@ export function normalizeIndexedDocument(document = {}) {
     ...normalized,
     searchFields: {
       title: normalizeSearchText(normalized.title),
-      snippet: normalizeSearchText([normalized.snippet, document.body].filter(Boolean).join(" ")),
-      sourceName: normalizeSearchText([normalized.sourceName, normalized.displaySourceName].filter(Boolean).join(" ")),
+      snippet: normalizeSearchText(getSearchableSnippetText(normalized.snippet)),
+      body: normalizeSearchText(getSearchableBodyText(normalized.body)),
+      sourceName: normalizeSearchText(normalized.sourceName),
+      displaySourceName: normalizeSearchText(normalized.displaySourceName),
       aliases: normalized.aliases.map(normalizeSearchText),
     },
   };

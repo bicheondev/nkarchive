@@ -8,12 +8,21 @@ const RESULT_BATCH_SIZE = 24;
 const LOAD_MORE_THRESHOLD = 300;
 const MAX_CONCURRENT_FONT_LOADS = 4;
 const ROUTE_FONT = "font";
+const ROUTE_MUSIC = "music";
+const ROUTE_NEWS = "news";
 const ROUTE_LIVE = "live";
 const ROUTE_SEARCH = "search";
+const MUSIC_PATH = "/music";
+const NEWS_PATH = "/news";
 const LIVE_PATH = "/live";
 const SEARCH_PATH = "/search";
 const LIVE_DISCLAIMER_STORAGE_KEY = "live-disclaimer-dismissed";
 const R2_ASSET_BASE_URL = "https://pub-a12b2bbd25db44479f7ca23251a65bef.r2.dev";
+const MUSIC_ASSET_BASE_URL = "https://pub-442c73edbe954e7fa0b162c33f3fc7d8.r2.dev";
+const MUSIC_LIST_CANDIDATE_PATHS = ["music/musiclist", "music-list.json", "music.json", "music/music-list.json", "list.json"];
+const MUSIC_PLAYLIST_CANDIDATE_PATHS = ["music/playlists.json", "music/playlistlist", "music/playlists", "playlists.json"];
+const MUSIC_RECENT_STORAGE_KEY = "nkarchive-music-recent-track-ids";
+const MUSIC_RECENT_LIMIT = 24;
 const KORYO_PLAYER_BASE_WIDTH = 962;
 const KORYO_IFRAME_DESKTOP_WIDTH = 1649;
 const KORYO_IFRAME_DESKTOP_HEIGHT = 685;
@@ -48,6 +57,169 @@ const FONT_FOOTER_COPY = [
 const LIVE_FOOTER_COPY = [
   "본 사이트는 북한 정부 또는 조선노동당, 조성중앙텔레비전과는 전혀 관계가 없으며, 이들을 지지하지도 옹호하지도 않고 오로지 학문적인 목적으로 개설되었음을 알려드립니다. 간첩 신고는 국번 없이 111",
   "Livestream sources from https://koryofront.org/ and https://www.intchoson.com/. Timetable from [통일부 북한정보포털](https://nkinfo.unikorea.go.kr/nkp/tvPrgr/list.do?menuId=NK_TVPRGR).",
+];
+const MUSIC_ARCHIVE_ARTIST = "북한음악아카이브";
+const MUSIC_FOOTER_COPY = [
+  "본 사이트는 북한 정부 또는 조선노동당과는 전혀 관계가 없으며, 이들을 지지하지도 옹호하지도 않고 오로지 학문적인 목적으로 개설되었음을 알려드립니다. 간첩 신고는 국번 없이 111",
+  "Music, sheet, and list assets are loaded from the configured R2 music storage.",
+];
+const MUSIC_FALLBACK_TRACKS = [
+  {
+    id: "janggunim-chukjibeop-sseusinda",
+    title: "장군님 축지법 쓰신다",
+    artist: "보천보전자악단",
+    album: "왕재산 선곡 1",
+    year: "2024",
+    duration: 179,
+    audio: "music/janggunim-chukjibeop-sseusinda.mp3",
+    cover: "covers/janggunim-chukjibeop-sseusinda.png",
+    sheet: "sheets/janggunim-chukjibeop-sseusinda.png",
+    lyrics: [
+      "방선천리 주름잡아",
+      "장군님 가신다",
+      "수령님 쓰시던 축지법",
+      "오늘은 장군님 쓰신다",
+      "백두의 전법 신묘한 전법",
+      "장군님 쓰신다",
+      "동에 번쩍 서에 번쩍",
+      "천하를 쥐락펴락",
+      "구름타고 오르신다",
+      "최전연고지우에",
+      "수령님  쓰시던 축지법",
+      "오늘은 장군님 쓰신다",
+      "백두의 전법 신묘한 전법",
+    ],
+  },
+  {
+    id: "eodie-gyesimnikka-geuriun-janggunim",
+    title: "어디에 계십니까 그리운 장군님",
+    artist: "왕재산예술단",
+    album: "그리움을 담아",
+    year: "2024",
+    duration: 299,
+    audio: "music/eodie-gyesimnikka-geuriun-janggunim.mp3",
+    cover: "covers/eodie-gyesimnikka-geuriun-janggunim.png",
+  },
+  {
+    id: "nae-nara-jeillo-joa",
+    title: "내 나라 제일로 좋아",
+    artist: "보천보전자악단",
+    album: "추억의 노래",
+    year: "2023",
+    duration: 241,
+    audio: "music/nae-nara-jeillo-joa.mp3",
+    cover: "covers/nae-nara-jeillo-joa.png",
+  },
+  {
+    id: "hwiparam",
+    title: "휘파람",
+    artist: "전혜영",
+    album: "추억의 노래",
+    year: "2023",
+    duration: 214,
+    audio: "music/hwiparam.mp3",
+    cover: "covers/hwiparam.png",
+  },
+  {
+    id: "cheonrima-dallinda",
+    title: "천리마 달린다",
+    artist: "보천보전자악단",
+    album: "천리마의 노래",
+    year: "2023",
+    duration: 223,
+    audio: "music/cheonrima-dallinda.mp3",
+    cover: "covers/cheonrima-dallinda.png",
+  },
+  {
+    id: "urireul-bureowohara",
+    title: "우리를 부러워하라",
+    artist: "왕재산예술단",
+    album: "우리의 노래",
+    year: "2022",
+    duration: 246,
+    audio: "music/urireul-bureowohara.mp3",
+    cover: "covers/urireul-bureowohara.png",
+  },
+  {
+    id: "aegukka",
+    title: "조선민주주의인민공화국 국가",
+    artist: "국립교향악단",
+    album: "국가",
+    year: "2024",
+    duration: 189,
+    audio: "music/aegukka.mp3",
+    cover: "covers/aegukka.png",
+  },
+  {
+    id: "seolnuna-naeryeora",
+    title: "설눈아 내려라",
+    artist: "보천보전자악단",
+    album: "겨울 선곡",
+    year: "2023",
+    duration: 205,
+    audio: "music/seolnuna-naeryeora.mp3",
+    cover: "covers/seolnuna-naeryeora.png",
+  },
+  {
+    id: "gonggyeokjeonida",
+    title: "공격전이다",
+    artist: "보천보전자악단",
+    album: "전투적 노래",
+    year: "2023",
+    duration: 232,
+    audio: "music/gonggyeokjeonida.mp3",
+    cover: "covers/gonggyeokjeonida.png",
+  },
+  {
+    id: "arirang",
+    title: "아리랑",
+    artist: "민요",
+    album: "민요 선곡",
+    year: "2022",
+    duration: 198,
+    audio: "music/arirang.mp3",
+    cover: "covers/arirang.png",
+  },
+  {
+    id: "urineun-joseon-saram",
+    title: "우리는 조선사람",
+    artist: "왕재산예술단",
+    album: "최신 발매곡",
+    year: "2024",
+    duration: 226,
+    audio: "music/urineun-joseon-saram.mp3",
+    cover: "covers/urineun-joseon-saram.png",
+  },
+  {
+    id: "chingeunhan-eobeoi",
+    title: "친근한 어버이",
+    artist: "보천보전자악단",
+    album: "최신 발매곡",
+    year: "2024",
+    duration: 236,
+    audio: "music/chingeunhan-eobeoi.mp3",
+    cover: "covers/chingeunhan-eobeoi.png",
+  },
+  {
+    id: "uriui-727",
+    title: "우리의 7.27",
+    artist: "왕재산예술단",
+    album: "최신 발매곡",
+    year: "2024",
+    duration: 217,
+    audio: "music/uriui-727.mp3",
+    cover: "covers/uriui-727.png",
+  },
+  {
+    id: "uriui-sowoneun-tongil",
+    title: "우리의 소원은 통일",
+    artist: "합창",
+    album: "통일 선곡",
+    year: "2023",
+    duration: 210,
+    audio: "music/uriui-sowoneun-tongil.mp3",
+    cover: "covers/uriui-sowoneun-tongil.png",
+  },
 ];
 const BROADCASTS = {
   kctv: {
@@ -114,7 +286,9 @@ const menuToggle = document.querySelector("#siteMenuToggle");
 const menuToggleIcon = menuToggle?.querySelector(".menu-toggle-icon");
 const navLinks = [...document.querySelectorAll(".site-nav a")];
 const archiveView = document.querySelector("#archiveView");
+const newsView = document.querySelector("#newsView");
 const liveView = document.querySelector("#liveView");
+const musicView = document.querySelector("#musicView");
 const siteFooter = document.querySelector("#siteFooter");
 const grid = document.querySelector("#fontGrid");
 const template = document.querySelector("#cardTemplate");
@@ -143,6 +317,31 @@ const liveDateNext = document.querySelector("#liveDateNext");
 const liveDisclaimer = document.querySelector("#liveDisclaimer");
 const liveDisclaimerClose = document.querySelector("#liveDisclaimerClose");
 const liveDisclaimerDontShow = document.querySelector("#liveDisclaimerDontShow");
+const musicHeaderSearch = document.querySelector("#musicHeaderSearch");
+const musicHomeSections = document.querySelector("#musicHomeSections");
+const musicLibraryContent = document.querySelector("#musicLibraryContent");
+const musicSearchOverlay = document.querySelector("#musicSearchOverlay");
+const musicSearchInput = document.querySelector("#musicSearchInput");
+const musicSearchClose = document.querySelector("#musicSearchClose");
+const musicSearchResults = document.querySelector("#musicSearchResults");
+const musicSidebarItems = [...document.querySelectorAll(".music-sidebar-item")];
+const musicModeButtons = [...document.querySelectorAll(".music-mode-button")];
+const musicLyricsPanel = document.querySelector("#musicLyricsPanel");
+const musicQueuePanel = document.querySelector("#musicQueuePanel");
+const musicLargeCover = document.querySelector("#musicLargeCover");
+const musicSheetImage = document.querySelector("#musicSheetImage");
+const musicSheetFallback = document.querySelector("#musicSheetFallback");
+const musicProgressFill = document.querySelector("#musicProgressFill");
+const musicPrevButton = document.querySelector("#musicPrevButton");
+const musicPlayButton = document.querySelector("#musicPlayButton");
+const musicNextButton = document.querySelector("#musicNextButton");
+const musicTimeLabel = document.querySelector("#musicTimeLabel");
+const musicNowTitle = document.querySelector("#musicNowTitle");
+const musicNowMeta = document.querySelector("#musicNowMeta");
+const musicMiniCover = document.querySelector("#musicMiniCover");
+const musicExpandButton = document.querySelector("#musicExpandButton");
+const musicBottomPlayer = document.querySelector(".music-bottom-player");
+const musicAudio = document.querySelector("#musicAudio");
 
 let fonts = [];
 let filteredFonts = [];
@@ -170,6 +369,14 @@ let timetableLoadStarted = false;
 let timetableLoadToken = 0;
 let liveDisclaimerDismissedForVisit = false;
 let liveDisclaimerPreviousFocus = null;
+let recentMusicTrackIds = readRecentMusicTrackIds();
+let musicPlaylists = [];
+let musicLibrary = createFallbackMusicLibrary();
+let activeMusicTrackId = "";
+let activeMusicMode = "home";
+let musicSearchOpen = false;
+let activeMusicLyricIndex = 0;
+const musicSheetAvailability = new Map();
 const mobileMenuMediaQuery = window.matchMedia("(max-width: 1100px)");
 const koryoMobileMediaQuery = window.matchMedia("(max-width: 768px)");
 
@@ -195,7 +402,14 @@ init();
 async function init() {
   bindRouteEvents();
   bindLiveEvents();
+  bindMusicEvents();
   renderRoute();
+  loadMusicLibrary()
+    .then((library) => {
+      musicLibrary = library;
+      renderMusicView();
+    })
+    .catch(() => renderMusicView());
 
   [fonts, preparedWebFonts, previewWebFonts] = await Promise.all([
     loadFontOrder(),
@@ -245,10 +459,19 @@ function navigateRoute(event) {
     url.searchParams.get("route") ||
     (url.pathname.replace(/\/+$/, "") === LIVE_PATH
       ? ROUTE_LIVE
-      : url.pathname.replace(/\/+$/, "") === SEARCH_PATH
-        ? ROUTE_SEARCH
-        : ROUTE_FONT);
-  const pathname = route === ROUTE_LIVE ? LIVE_PATH : route === ROUTE_SEARCH ? SEARCH_PATH : "/font";
+      : url.pathname.replace(/\/+$/, "") === MUSIC_PATH
+        ? ROUTE_MUSIC
+        : url.pathname.replace(/\/+$/, "") === NEWS_PATH
+          ? ROUTE_NEWS
+          : ROUTE_FONT);
+  const pathname = route === ROUTE_LIVE
+    ? LIVE_PATH
+    : route === ROUTE_MUSIC
+      ? MUSIC_PATH
+      : route === ROUTE_NEWS
+        ? NEWS_PATH
+        : "/font";
+  if (route === ROUTE_MUSIC && currentRoute() === ROUTE_MUSIC) collapseMusicToHome();
 
   if (pathname !== window.location.pathname.replace(/\/+$/, "")) {
     window.history.pushState(null, "", pathname);
@@ -262,11 +485,15 @@ function currentRoute() {
   const queryRoute = new URLSearchParams(window.location.search).get("route");
   const requestedRoute = queryRoute || initialRoute;
   if (requestedRoute === ROUTE_LIVE) return ROUTE_LIVE;
+  if (requestedRoute === ROUTE_MUSIC) return ROUTE_MUSIC;
+  if (requestedRoute === ROUTE_NEWS) return ROUTE_NEWS;
   if (requestedRoute === ROUTE_SEARCH) return ROUTE_SEARCH;
   if (requestedRoute === ROUTE_FONT) return ROUTE_FONT;
 
   const path = window.location.pathname.replace(/\/+$/, "") || "/font";
   if (path === LIVE_PATH) return ROUTE_LIVE;
+  if (path === MUSIC_PATH) return ROUTE_MUSIC;
+  if (path === NEWS_PATH) return ROUTE_NEWS;
   if (path === SEARCH_PATH) return ROUTE_SEARCH;
   return ROUTE_FONT;
 }
@@ -275,24 +502,29 @@ function renderRoute() {
   closeMobileMenu();
   const route = currentRoute();
   const isLive = route === ROUTE_LIVE;
+  const isMusic = route === ROUTE_MUSIC;
+  const isNews = route === ROUTE_NEWS;
   const isSearch = route === ROUTE_SEARCH;
 
   const currentPath = window.location.pathname.replace(/\/+$/, "") || "/";
   if (currentPath === "/" || window.location.search) {
-    window.history.replaceState(null, "", isLive ? LIVE_PATH : isSearch ? SEARCH_PATH : "/font");
+    window.history.replaceState(null, "", isLive ? LIVE_PATH : isMusic ? MUSIC_PATH : isNews ? NEWS_PATH : isSearch ? SEARCH_PATH : "/font");
   }
-  document.title = isLive ? "북한방송아카이브" : isSearch ? "북한 공개자료 통합검색" : "북한폰트아카이브";
+  document.title = isLive ? "북한방송아카이브" : isMusic ? "북한음악아카이브" : isNews ? "북한뉴스아카이브" : isSearch ? "북한 공개자료 통합검색" : "북한폰트아카이브";
   document.documentElement.dataset.route = route;
   document.body.dataset.view = route;
-  archiveView.hidden = isLive || isSearch;
-  liveView.hidden = !isLive;
+  archiveView.hidden = isLive || isMusic || isNews || isSearch;
+  if (newsView) newsView.hidden = !isNews;
+  if (liveView) liveView.hidden = !isLive;
+  if (musicView) musicView.hidden = !isMusic;
   if (!isLive) silenceAllLivePlayers();
-  logoLink.textContent = isLive ? "★Live" : isSearch ? "★Search" : "★Font";
-  logoLink.setAttribute("aria-label", isLive ? "방송 홈" : isSearch ? "검색 홈" : "폰트 아카이브 홈");
-  logoLink.href = isLive ? LIVE_PATH : isSearch ? SEARCH_PATH : "/font";
+  if (!isMusic) pauseMusic(false);
+  logoLink.textContent = isLive ? "★Live" : isMusic ? "★Music" : isNews ? "★News" : isSearch ? "★Search" : "★Font";
+  logoLink.setAttribute("aria-label", isLive ? "방송 홈" : isMusic ? "음악 홈" : isNews ? "뉴스 홈" : isSearch ? "검색 홈" : "폰트 아카이브 홈");
+  logoLink.href = isLive ? LIVE_PATH : isMusic ? MUSIC_PATH : isNews ? NEWS_PATH : isSearch ? SEARCH_PATH : "/font";
   siteFooter.dataset.view = route;
-  siteFooter.hidden = isSearch;
-  if (!isSearch) renderFooterCopy(isLive ? LIVE_FOOTER_COPY : FONT_FOOTER_COPY);
+  siteFooter.hidden = isMusic || isNews || isSearch;
+  if (!isMusic && !isNews) renderFooterCopy(isLive ? LIVE_FOOTER_COPY : FONT_FOOTER_COPY);
 
   for (const link of navLinks) {
     const isActive = link.dataset.route === route;
@@ -303,10 +535,11 @@ function renderRoute() {
   if (isLive) {
     renderLiveView();
     showLiveDisclaimerIfNeeded();
-  } else if (isSearch) {
+  } else if (isMusic) {
     hideLiveDisclaimer(false);
     liveDisclaimerDismissedForVisit = false;
-  } else if (fontArchiveReady) {
+    renderMusicView();
+  } else if (!isNews && fontArchiveReady) {
     hideLiveDisclaimer(false);
     liveDisclaimerDismissedForVisit = false;
     renderVirtualGrid(true);
@@ -1377,6 +1610,817 @@ function formatTimetableDate(ymd) {
 
 function normalizeText(value) {
   return (value || "").replace(/\s+/g, " ").trim();
+}
+
+function bindMusicEvents() {
+  for (const item of musicSidebarItems) {
+    item.addEventListener("click", () => setMusicMode(item.dataset.musicMode || "home"));
+  }
+  for (const button of musicModeButtons) {
+    button.addEventListener("click", () => setMusicMode(button.dataset.musicMode || "home"));
+  }
+
+  musicHeaderSearch?.addEventListener("click", openMusicSearch);
+  musicSearchClose?.addEventListener("click", closeMusicSearch);
+  musicSearchOverlay?.addEventListener("click", (event) => {
+    if (event.target === musicSearchOverlay) closeMusicSearch();
+  });
+  musicSearchInput?.addEventListener("input", renderMusicSearchResults);
+  musicExpandButton?.addEventListener("click", () => {
+    const track = getActiveMusicTrack();
+    setMusicMode(activeMusicMode === "home" ? resolveMusicModeForTrack(track, "lyrics") : "home");
+  });
+  musicPrevButton?.addEventListener("click", () => moveActiveMusicTrack(-1));
+  musicNextButton?.addEventListener("click", () => moveActiveMusicTrack(1));
+  musicPlayButton?.addEventListener("click", toggleMusicPlayback);
+  musicAudio?.addEventListener("loadedmetadata", updateMusicProgress);
+  musicAudio?.addEventListener("timeupdate", updateMusicProgress);
+  musicAudio?.addEventListener("play", renderMusicPlaybackState);
+  musicAudio?.addEventListener("pause", renderMusicPlaybackState);
+  musicAudio?.addEventListener("ended", () => {
+    renderMusicPlaybackState();
+    moveActiveMusicTrack(1);
+  });
+  document.addEventListener("keydown", handleMusicKeydown);
+}
+
+async function loadMusicLibrary() {
+  const [source, playlists] = await Promise.all([
+    fetchTextFromCandidates(musicTextCandidates(MUSIC_LIST_CANDIDATE_PATHS)),
+    loadMusicPlaylists(),
+  ]);
+  const tracks = source
+    .split(/\r?\n/)
+    .map((line, index) => ({ line: line.trim(), index }))
+    .filter(({ line }) => line && !line.startsWith("#"))
+    .map(({ line, index }) => createMusicTrackFromListLine(line, index));
+
+  if (!tracks.length) return createFallbackMusicLibrary();
+
+  musicPlaylists = playlists;
+  const sections = createMusicSectionsFromTracks(tracks, playlists);
+  return { tracks, sections, playlists };
+}
+
+async function loadMusicPlaylists() {
+  try {
+    const source = await fetchTextFromCandidates(musicTextCandidates(MUSIC_PLAYLIST_CANDIDATE_PATHS));
+    return parseMusicPlaylists(source);
+  } catch {
+    return [];
+  }
+}
+
+function musicTextCandidates(paths) {
+  return paths.flatMap((path) => {
+    const url = musicAssetUrl(path);
+    return [url, `${CORS_PROXY_URL}${encodeURIComponent(url)}`];
+  });
+}
+
+function parseMusicPlaylists(source) {
+  const text = source.trim();
+  if (!text) return [];
+  if (/^<!doctype html/i.test(text) || /^<html[\s>]/i.test(text)) return [];
+
+  try {
+    const parsed = JSON.parse(text);
+    const list = Array.isArray(parsed) ? parsed : parsed.playlists || parsed.items || [];
+    return list.map(normalizeMusicPlaylist).filter(Boolean);
+  } catch {
+    return text
+      .split(/\r?\n/)
+      .map((line, index) => normalizeMusicPlaylist(line, index))
+      .filter(Boolean);
+  }
+}
+
+function normalizeMusicPlaylist(item, index) {
+  if (typeof item === "string") {
+    const line = item.trim();
+    if (!line || line.startsWith("#")) return null;
+    const [title, cover, trackIds] = line.split("@").map((part) => normalizeText(part));
+    if (!title) return null;
+    return {
+      type: "playlist",
+      id: `admin-playlist-${index + 1}`,
+      title,
+      cover,
+      trackIds: trackIds ? trackIds.split(",").map((id) => normalizeText(id)).filter(Boolean) : [],
+    };
+  }
+
+  const title = normalizeText(item?.title || item?.name);
+  if (!title) return null;
+  return {
+    type: "playlist",
+    id: String(item.id || item.slug || `admin-playlist-${index + 1}`),
+    title,
+    cover: item.cover || item.image || item.thumbnail || "",
+    trackIds: Array.isArray(item.trackIds) ? item.trackIds.map(String) : [],
+  };
+}
+
+function createFallbackMusicLibrary() {
+  const tracks = MUSIC_FALLBACK_TRACKS.map((track, index) =>
+    normalizeMusicTrack({
+      no: index + 1,
+      ...track,
+    }),
+  );
+  return {
+    tracks,
+    sections: createMusicSectionsFromTracks(tracks, []),
+    playlists: [],
+  };
+}
+
+function createMusicTrackFromListLine(line, index) {
+  const no = index + 1;
+  const [title, artist, album, year] = line.split("@").map((part) => normalizeText(part));
+  return normalizeMusicTrack({
+    no,
+    id: `music-${no}`,
+    title,
+    artist,
+    album,
+    year,
+    duration: 179,
+    audio: `music/audio/${no}.mp3`,
+    sheet: `music/image/${no}.gif`,
+    sheetFallback: `music/image/${no}.jpg`,
+    ...knownMusicMeta(title),
+  });
+}
+
+function normalizeMusicTrack(track) {
+  return {
+    no: track.no || 0,
+    id: String(track.id || `music-${track.no || track.title}`),
+    title: normalizeMusicTitle(track.title || track.name || "제목 없음"),
+    artist: MUSIC_ARCHIVE_ARTIST,
+    album: normalizeText(track.album) || "음악마당",
+    year: normalizeText(track.year) || "2024",
+    duration: Number(track.duration) || 179,
+    elapsed: Number(track.elapsed) || 0,
+    audio: track.audio || "",
+    cover: track.cover || "",
+    sheet: track.sheet || "",
+    sheetFallback: track.sheetFallback || "",
+    lyrics: Array.isArray(track.lyrics) ? track.lyrics : knownMusicMeta(track.title || track.name).lyrics || [],
+  };
+}
+
+function createMusicSectionsFromTracks(tracks, playlists = musicPlaylists) {
+  const byTitle = new Map(tracks.map((track) => [track.title, track]));
+  const pickTitles = (titles, fallbackStart = 0, count = 18) => {
+    const picked = titles.map((title) => byTitle.get(title)).filter(Boolean);
+    const fallback = [];
+    for (let index = 0; tracks.length && fallback.length < Math.max(0, count - picked.length); index += 1) {
+      fallback.push(tracks[(fallbackStart + index) % tracks.length]);
+      if (index > tracks.length + count) break;
+    }
+    return [...picked, ...fallback].filter((track, index, list) => list.findIndex((item) => item.id === track.id) === index).slice(0, count);
+  };
+  const sections = [];
+  const recentItems = recentMusicTrackIds
+    .map((trackId) => tracks.find((track) => track.id === trackId))
+    .filter(Boolean)
+    .slice(0, MUSIC_RECENT_LIMIT);
+
+  if (recentItems.length) {
+    sections.push({
+      title: "최근 재생한 음악",
+      items: recentItems,
+    });
+  }
+
+  sections.push(
+    {
+      title: "인기 추천곡",
+      items: pickTitles(["애국가", "설눈아 내려라", "공격전이다", "아리랑", "휘파람", "장군님 축지법 쓰신다"], 36),
+    },
+    {
+      title: "최신 발매곡",
+      items: pickTitles(["우리는 조선사람", "친근한 어버이", "우리의 7.27", "아리랑", "우리의 소원은 통일", "조선민주주의인민공화국 국가"], Math.max(0, tracks.length - 12)),
+    },
+  );
+
+  if (playlists.length) {
+    sections.push({
+      title: "추천 플레이리스트",
+      items: playlists.slice(0, 18),
+    });
+  }
+
+  return sections;
+}
+
+function knownMusicMeta(title) {
+  const normalizedTitle = normalizeMusicTitle(title);
+  if (normalizedTitle !== "장군님 축지법 쓰신다") return {};
+  return {
+    artist: "보천보전자악단",
+    album: "왕재산 선곡 1",
+    year: "2024",
+    duration: 179,
+    lyrics: MUSIC_FALLBACK_TRACKS[0].lyrics,
+  };
+}
+
+function normalizeMusicTitle(value) {
+  return normalizeText(value).split("@")[0];
+}
+
+function renderMusicView() {
+  if (!musicView) return;
+  const hasActiveTrack = Boolean(getActiveMusicTrack());
+  if (!hasActiveTrack && ["lyrics", "sheet", "queue"].includes(activeMusicMode)) activeMusicMode = "home";
+  musicView.dataset.mode = activeMusicMode;
+  musicView.classList.toggle("has-track", hasActiveTrack);
+  if (musicBottomPlayer) musicBottomPlayer.hidden = !hasActiveTrack;
+  renderMusicHomeSections();
+  renderMusicLibrary();
+  renderMusicPlayer();
+  renderMusicQueue();
+  renderMusicSearchResults();
+  renderMusicModeState();
+  syncMusicSearchState();
+}
+
+function renderMusicHomeSections() {
+  if (!musicHomeSections) return;
+  musicHomeSections.replaceChildren(...musicLibrary.sections.map(createMusicSectionNode));
+}
+
+function renderMusicLibrary() {
+  if (!musicLibraryContent) return;
+  const title = document.createElement("div");
+  const heading = document.createElement("h1");
+  const actions = document.createElement("div");
+  const playAll = document.createElement("button");
+  const shuffle = document.createElement("button");
+  const chips = document.createElement("div");
+  const playlistGrid = document.createElement("div");
+  const table = document.createElement("div");
+
+  title.className = "music-library-header";
+  heading.textContent = "내 음악";
+  actions.className = "music-library-actions";
+  playAll.className = "music-pill-button active";
+  playAll.type = "button";
+  playAll.textContent = "재생";
+  playAll.addEventListener("click", () => selectMusicTrack(musicLibrary.tracks[0]?.id || activeMusicTrackId, "lyrics"));
+  shuffle.className = "music-pill-button";
+  shuffle.type = "button";
+  shuffle.textContent = "셔플";
+  shuffle.addEventListener("click", () => {
+    const randomTrack = musicLibrary.tracks[Math.floor(Math.random() * musicLibrary.tracks.length)];
+    if (randomTrack) selectMusicTrack(randomTrack.id, "lyrics");
+  });
+  actions.append(playAll, shuffle);
+  title.append(heading, actions);
+
+  chips.className = "music-library-chips";
+  for (const label of ["노래", "앨범", "재생목록", "아티스트"]) {
+    const chip = document.createElement("button");
+    chip.className = "music-filter-chip";
+    chip.classList.toggle("active", label === "노래");
+    chip.type = "button";
+    chip.textContent = label;
+    chips.append(chip);
+  }
+
+  playlistGrid.className = "music-library-playlists";
+  playlistGrid.replaceChildren(...(musicLibrary.playlists || []).slice(0, 4).map(createLibraryPlaylistNode));
+
+  table.className = "music-track-table";
+  table.replaceChildren(...musicLibrary.tracks.slice(0, 36).map((track, index) => createTrackRow(track, index + 1)));
+  musicLibraryContent.replaceChildren(title, chips, ...((musicLibrary.playlists || []).length ? [playlistGrid] : []), table);
+}
+
+function createLibraryPlaylistNode(playlist) {
+  const button = document.createElement("button");
+  const art = document.createElement("span");
+  const copy = document.createElement("span");
+  const title = document.createElement("span");
+  const meta = document.createElement("span");
+
+  button.className = "music-library-playlist";
+  button.type = "button";
+  art.className = "music-library-playlist-art";
+  copy.className = "music-library-playlist-copy";
+  title.className = "music-library-playlist-title";
+  meta.className = "music-library-playlist-meta";
+  title.textContent = playlist.title;
+  meta.textContent = "재생목록";
+  setMusicArtwork(art, playlist.cover);
+  copy.append(title, meta);
+  button.append(art, copy);
+  return button;
+}
+
+function createTrackRow(track, index) {
+  const row = document.createElement("button");
+  const number = document.createElement("span");
+  const art = document.createElement("span");
+  const copy = document.createElement("span");
+  const title = document.createElement("span");
+  const meta = document.createElement("span");
+  const album = document.createElement("span");
+  const duration = document.createElement("span");
+
+  row.className = "music-track-row";
+  row.type = "button";
+  row.dataset.trackId = track.id;
+  number.className = "music-track-number";
+  art.className = "music-track-art";
+  copy.className = "music-track-copy";
+  title.className = "music-track-title";
+  meta.className = "music-track-meta";
+  album.className = "music-track-album";
+  duration.className = "music-track-duration";
+  number.textContent = String(index);
+  title.textContent = track.title;
+  meta.textContent = track.artist;
+  album.textContent = track.album;
+  duration.textContent = formatMusicTime(track.duration);
+  setMusicArtwork(art, track.cover);
+  copy.append(title, meta);
+  row.append(number, art, copy, album, duration);
+  row.addEventListener("click", () => selectMusicTrack(track.id, "lyrics"));
+  return row;
+}
+
+function createMusicSectionNode(section) {
+  const node = document.createElement("section");
+  const header = document.createElement("div");
+  const title = document.createElement("h2");
+  const headerButton = document.createElement("button");
+  const headerIcon = document.createElement("span");
+  const listWrap = document.createElement("div");
+  const list = document.createElement("div");
+  const fade = document.createElement("div");
+  const arrowButton = document.createElement("button");
+  const arrowIcon = document.createElement("span");
+
+  node.className = "music-section";
+  header.className = "music-section-header";
+  title.textContent = section.title;
+  headerButton.className = "music-section-title-button";
+  headerButton.type = "button";
+  headerButton.setAttribute("aria-label", `${section.title} 더보기`);
+  headerIcon.className = "material-symbols-rounded";
+  headerIcon.setAttribute("aria-hidden", "true");
+  headerIcon.textContent = "chevron_right";
+  headerButton.append(headerIcon);
+  header.append(title, headerButton);
+
+  listWrap.className = "music-album-list-wrap";
+  list.className = "music-album-list";
+  list.replaceChildren(...section.items.map(createMusicAlbumNode));
+  fade.className = "music-list-fade";
+  fade.setAttribute("aria-hidden", "true");
+  arrowButton.className = "music-list-arrow";
+  arrowButton.type = "button";
+  arrowButton.setAttribute("aria-label", `${section.title} 오른쪽으로 보기`);
+  arrowIcon.className = "material-symbols-rounded";
+  arrowIcon.setAttribute("aria-hidden", "true");
+  arrowIcon.textContent = "chevron_right";
+  arrowButton.append(arrowIcon);
+  arrowButton.addEventListener("click", () => {
+    list.scrollLeft += 360;
+  });
+  listWrap.append(list, fade, arrowButton);
+  node.append(header, listWrap);
+  return node;
+}
+
+function createMusicAlbumNode(item) {
+  const isTrack = !item.type || item.audio || item.no;
+  const button = document.createElement("button");
+  const art = document.createElement("span");
+  const title = document.createElement("span");
+
+  button.className = "music-album-card";
+  button.type = "button";
+  art.className = "music-album-art";
+  title.className = "music-album-title";
+  title.textContent = item.title;
+  button.append(art, title);
+
+  setMusicArtwork(art, item.cover);
+  if (isTrack) {
+    button.dataset.trackId = item.id;
+    button.addEventListener("click", () => selectMusicTrack(item.id, "lyrics"));
+  } else {
+    button.addEventListener("click", () => setMusicMode("home"));
+  }
+
+  return button;
+}
+
+function renderMusicPlayer() {
+  const track = getActiveMusicTrack();
+  if (!track) {
+    if (musicNowTitle) musicNowTitle.textContent = "";
+    if (musicNowMeta) musicNowMeta.textContent = "";
+    if (musicLyricsPanel) musicLyricsPanel.replaceChildren();
+    if (musicQueuePanel) musicQueuePanel.replaceChildren();
+    if (musicLargeCover) {
+      musicLargeCover.hidden = true;
+      musicLargeCover.removeAttribute("src");
+    }
+    if (musicSheetImage) {
+      musicSheetImage.hidden = true;
+      musicSheetImage.removeAttribute("src");
+    }
+    if (musicMiniCover) clearMusicArtwork(musicMiniCover);
+    updateMusicProgress();
+    renderMusicPlaybackState();
+    return;
+  }
+
+  musicNowTitle.textContent = track.title;
+  musicNowMeta.textContent = musicMetaText(track);
+  renderMusicLyrics(track);
+  renderMusicImages(track);
+  syncMusicAudioSource(track);
+  updateMusicProgress();
+  renderMusicPlaybackState();
+}
+
+function renderMusicQueue() {
+  if (!musicQueuePanel) return;
+  const track = getActiveMusicTrack();
+  if (!track) {
+    musicQueuePanel.replaceChildren();
+    return;
+  }
+
+  const header = document.createElement("div");
+  const title = document.createElement("h2");
+  const chips = document.createElement("div");
+  const current = document.createElement("div");
+  const list = document.createElement("div");
+  const tracks = musicLibrary.tracks;
+  const activeIndex = Math.max(0, tracks.findIndex((item) => item.id === track.id));
+  const nextTracks = [...tracks.slice(activeIndex + 1), ...tracks.slice(0, activeIndex)].slice(0, 18);
+
+  header.className = "music-queue-header";
+  title.textContent = "재생목록";
+  chips.className = "music-queue-chips";
+  for (const label of ["다음 트랙", "관련", "가사"]) {
+    const chip = document.createElement("button");
+    chip.className = "music-filter-chip";
+    chip.classList.toggle("active", label === "다음 트랙");
+    chip.type = "button";
+    chip.textContent = label;
+    chips.append(chip);
+  }
+  header.append(title, chips);
+
+  current.className = "music-queue-current";
+  current.append(createTrackRow(track, activeIndex + 1));
+
+  list.className = "music-queue-list";
+  list.replaceChildren(...nextTracks.map((item, index) => createTrackRow(item, index + 1)));
+  musicQueuePanel.replaceChildren(header, current, list);
+}
+
+function renderMusicLyrics(track) {
+  const lyrics = track.lyrics?.length ? track.lyrics : [];
+  const activeIndex = 0;
+  activeMusicLyricIndex = activeIndex;
+  musicLyricsPanel.style.setProperty("--music-lyric-shift", String(6 - activeIndex));
+  musicLyricsPanel.replaceChildren(
+    ...lyrics.map((line, index) => {
+      const row = document.createElement("div");
+      const text = document.createElement("p");
+      row.className = "music-lyrics-line";
+      row.style.setProperty("--lyric-distance", String(Math.abs(index - activeIndex)));
+      row.classList.toggle("active", index === activeIndex);
+      text.textContent = line;
+      row.append(text);
+      return row;
+    }),
+  );
+}
+
+function renderMusicImages(track) {
+  musicLargeCover.hidden = true;
+  musicLargeCover.removeAttribute("src");
+  if (track.cover) {
+    setImageFromCandidates(musicLargeCover, [musicAssetUrl(track.cover)]);
+  }
+
+  setMusicArtwork(musicMiniCover, track.cover);
+  const sheetCandidates = getMusicSheetCandidates(track);
+  if (!sheetCandidates.length) {
+    if (!musicSheetAvailability.has(track.id)) musicSheetAvailability.set(track.id, false);
+    musicSheetImage.hidden = true;
+    musicSheetImage.removeAttribute("src");
+    musicSheetFallback.hidden = true;
+    renderMusicModeState();
+    return;
+  }
+  setImageFromCandidates(musicSheetImage, sheetCandidates, () => {
+    musicSheetAvailability.set(track.id, true);
+    musicSheetFallback.hidden = true;
+    renderMusicModeState();
+  }, () => {
+    musicSheetAvailability.set(track.id, false);
+    musicSheetFallback.hidden = true;
+    if (activeMusicMode === "sheet") {
+      activeMusicMode = resolveMusicModeForTrack(track, "queue");
+      renderMusicView();
+      return;
+    }
+    renderMusicModeState();
+  });
+}
+
+function setImageFromCandidates(image, candidates, onLoad, onFail) {
+  const queue = [...new Set(candidates.filter(Boolean))];
+  const next = () => {
+    const src = queue.shift();
+    if (!src) {
+      image.hidden = true;
+      image.removeAttribute("src");
+      onFail?.();
+      return;
+    }
+
+    image.onload = () => {
+      image.hidden = false;
+      onLoad?.();
+    };
+    image.onerror = next;
+    image.src = src;
+  };
+  next();
+}
+
+function setMusicArtwork(node, cover) {
+  if (!node) return;
+  clearMusicArtwork(node);
+  if (!cover) return;
+
+  const src = musicAssetUrl(cover);
+  node.dataset.coverSrc = src;
+  const image = new Image();
+  image.onload = () => {
+    if (node.dataset.coverSrc !== src) return;
+    node.style.backgroundImage = `url("${src}")`;
+    node.classList.add("has-cover");
+  };
+  image.onerror = () => {
+    if (node.dataset.coverSrc !== src) return;
+    clearMusicArtwork(node);
+  };
+  image.src = src;
+}
+
+function clearMusicArtwork(node) {
+  if (!node) return;
+  node.style.backgroundImage = "";
+  node.classList.remove("has-cover");
+  delete node.dataset.coverSrc;
+}
+
+function syncMusicAudioSource(track) {
+  if (!musicAudio) return;
+  const nextSrc = track.audio ? musicAssetUrl(track.audio) : "";
+  if (musicAudio.dataset.trackId === track.id && musicAudio.getAttribute("src") === nextSrc) return;
+  musicAudio.dataset.trackId = track.id;
+  musicAudio.src = nextSrc;
+  try {
+    musicAudio.currentTime = 0;
+  } catch {
+    // The browser may reject seeking until metadata is available.
+  }
+}
+
+function getMusicSheetCandidates(track) {
+  if (!track || musicSheetAvailability.get(track.id) === false) return [];
+  const candidates = [track.sheet, track.sheetFallback].filter(Boolean).map(musicAssetUrl);
+  if (!candidates.length && track.no) {
+    candidates.push(musicAssetUrl(`music/image/${track.no}.gif`), musicAssetUrl(`music/image/${track.no}.jpg`));
+  }
+  return [...new Set(candidates)];
+}
+
+function hasMusicLyrics(track) {
+  return Boolean(track?.lyrics?.length);
+}
+
+function hasPotentialMusicSheet(track) {
+  return musicSheetAvailability.get(track?.id) === true;
+}
+
+function canUseMusicMode(mode, track = getActiveMusicTrack()) {
+  if (mode === "lyrics") return hasMusicLyrics(track);
+  if (mode === "sheet") return hasPotentialMusicSheet(track);
+  if (mode === "queue") return Boolean(track);
+  return true;
+}
+
+function resolveMusicModeForTrack(track, requestedMode = "lyrics") {
+  if (canUseMusicMode(requestedMode, track)) return requestedMode;
+  if (hasMusicLyrics(track)) return "lyrics";
+  return "queue";
+}
+
+function renderMusicModeState() {
+  const track = getActiveMusicTrack();
+  for (const item of musicSidebarItems) {
+    const sidebarMode = activeMusicMode === "library" ? "library" : "home";
+    const selected = item.dataset.musicMode === sidebarMode;
+    item.classList.toggle("active", selected);
+  }
+  for (const button of musicModeButtons) {
+    const mode = button.dataset.musicMode || "";
+    const disabled = !canUseMusicMode(mode, track);
+    const selected = !disabled && mode === activeMusicMode;
+    button.classList.toggle("active", selected);
+    button.disabled = disabled;
+    button.setAttribute("aria-disabled", String(disabled));
+    button.setAttribute("aria-pressed", String(selected));
+  }
+}
+
+function renderMusicSearchResults() {
+  if (!musicSearchResults) return;
+  const query = normalizeText(musicSearchInput?.value || "").toLocaleLowerCase("ko-KR");
+  const results = musicLibrary.tracks
+    .filter((track) => {
+      if (!query) return true;
+      return `${track.title} ${track.artist} ${track.album}`.toLocaleLowerCase("ko-KR").includes(query);
+    })
+    .slice(0, 24);
+
+  const chips = document.createElement("div");
+  const list = document.createElement("div");
+  chips.className = "music-search-chips";
+  for (const label of ["노래", "앨범", "재생목록", "아티스트"]) {
+    const chip = document.createElement("button");
+    chip.className = "music-filter-chip";
+    chip.classList.toggle("active", label === "노래");
+    chip.type = "button";
+    chip.textContent = label;
+    chips.append(chip);
+  }
+  list.className = "music-search-list";
+  list.replaceChildren(...results.map((track, index) => createTrackRow(track, index + 1)));
+  musicSearchResults.replaceChildren(chips, list);
+}
+
+function renderMusicPlaybackState() {
+  if (!musicPlayButton || !musicAudio) return;
+  const icon = musicPlayButton.querySelector(".material-symbols-rounded");
+  const isPlaying = !musicAudio.paused && !musicAudio.ended;
+  if (icon) icon.textContent = isPlaying ? "pause" : "play_arrow";
+  musicPlayButton.setAttribute("aria-label", isPlaying ? "일시정지" : "재생");
+}
+
+function updateMusicProgress() {
+  const track = getActiveMusicTrack();
+  if (!track) {
+    if (musicProgressFill) musicProgressFill.style.width = "0%";
+    if (musicTimeLabel) musicTimeLabel.textContent = "0:00 / 0:00";
+    return;
+  }
+  const duration = Number.isFinite(musicAudio?.duration) && musicAudio.duration > 0 ? musicAudio.duration : track.duration;
+  const current = Number.isFinite(musicAudio?.currentTime) && musicAudio.currentTime > 0 ? musicAudio.currentTime : 0;
+  const progress = duration > 0 ? Math.min(100, Math.max(0, (current / duration) * 100)) : 0;
+  musicProgressFill.style.width = `${progress}%`;
+  musicTimeLabel.textContent = `${formatMusicTime(current)} / ${formatMusicTime(duration)}`;
+}
+
+function setMusicMode(mode) {
+  if (!["home", "library", "lyrics", "sheet", "queue"].includes(mode)) return;
+  if (!canUseMusicMode(mode)) return;
+  activeMusicMode = mode;
+  closeMusicSearch();
+  renderMusicView();
+}
+
+function selectMusicTrack(trackId, mode = activeMusicMode) {
+  const track = musicLibrary.tracks.find((item) => item.id === trackId);
+  if (!track) return;
+  activeMusicTrackId = trackId;
+  activeMusicMode = resolveMusicModeForTrack(track, mode);
+  activeMusicLyricIndex = 0;
+  rememberRecentMusicTrack(trackId);
+  closeMusicSearch();
+  renderMusicView();
+}
+
+function moveActiveMusicTrack(delta) {
+  const tracks = musicLibrary.tracks;
+  const index = tracks.findIndex((track) => track.id === activeMusicTrackId);
+  if (!tracks.length) return;
+  if (index < 0) {
+    selectMusicTrack(tracks[0].id, "lyrics");
+    return;
+  }
+  const next = tracks[(index + delta + tracks.length) % tracks.length];
+  selectMusicTrack(next.id);
+}
+
+function toggleMusicPlayback() {
+  if (!musicAudio?.src) return;
+  if (musicAudio.paused || musicAudio.ended) {
+    musicAudio.play().catch(() => renderMusicPlaybackState());
+  } else {
+    musicAudio.pause();
+  }
+}
+
+function pauseMusic(resetTime) {
+  if (!musicAudio) return;
+  musicAudio.pause();
+  if (resetTime) musicAudio.currentTime = 0;
+  renderMusicPlaybackState();
+}
+
+function collapseMusicToHome() {
+  activeMusicMode = "home";
+  closeMusicSearch();
+}
+
+function rememberRecentMusicTrack(trackId) {
+  recentMusicTrackIds = [trackId, ...recentMusicTrackIds.filter((id) => id !== trackId)].slice(0, MUSIC_RECENT_LIMIT);
+  writeRecentMusicTrackIds();
+  musicLibrary.sections = createMusicSectionsFromTracks(musicLibrary.tracks, musicLibrary.playlists || []);
+}
+
+function readRecentMusicTrackIds() {
+  try {
+    const value = JSON.parse(window.localStorage.getItem(MUSIC_RECENT_STORAGE_KEY) || "[]");
+    return Array.isArray(value) ? value.map(String).slice(0, MUSIC_RECENT_LIMIT) : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeRecentMusicTrackIds() {
+  try {
+    window.localStorage.setItem(MUSIC_RECENT_STORAGE_KEY, JSON.stringify(recentMusicTrackIds));
+  } catch {
+    // Private browsing or storage-disabled contexts can still use the in-memory list.
+  }
+}
+
+function openMusicSearch() {
+  musicSearchOpen = true;
+  syncMusicSearchState();
+  renderMusicSearchResults();
+  window.requestAnimationFrame(() => musicSearchInput?.focus());
+}
+
+function closeMusicSearch() {
+  if (!musicSearchOpen) return;
+  musicSearchOpen = false;
+  if (musicSearchInput) musicSearchInput.value = "";
+  syncMusicSearchState();
+}
+
+function syncMusicSearchState() {
+  if (!musicSearchOverlay) return;
+  musicSearchOverlay.hidden = !musicSearchOpen;
+}
+
+function handleMusicKeydown(event) {
+  if (currentRoute() !== ROUTE_MUSIC) return;
+  const isMetaSearch = (event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k";
+  if (isMetaSearch) {
+    event.preventDefault();
+    openMusicSearch();
+    return;
+  }
+  if (event.key === "Escape") closeMusicSearch();
+}
+
+function getActiveMusicTrack() {
+  if (!activeMusicTrackId) return null;
+  return musicLibrary.tracks.find((track) => track.id === activeMusicTrackId) || null;
+}
+
+function musicMetaText(track) {
+  return track?.artist || MUSIC_ARCHIVE_ARTIST;
+}
+
+function formatMusicTime(seconds) {
+  if (!Number.isFinite(seconds) || seconds < 0) return "0:00";
+  const total = Math.floor(seconds);
+  return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, "0")}`;
+}
+
+function musicAssetUrl(path) {
+  if (!path) return "";
+  if (/^https?:\/\//i.test(path)) return path;
+  return `${MUSIC_ASSET_BASE_URL}/${path.replace(/^\/+/, "")}`;
 }
 
 async function loadFontOrder() {

@@ -1,5 +1,6 @@
-import { MeilisearchSearchProvider } from "./MeilisearchSearchProvider.js?v=search-20260630-1";
-import { LocalJsonSearchProvider } from "./LocalJsonSearchProvider.js?v=search-20260630-1";
+import { MeilisearchSearchProvider } from "./MeilisearchSearchProvider.js?v=search-20260803-6";
+import { LocalJsonSearchProvider } from "./LocalJsonSearchProvider.js?v=search-20260803-6";
+import { LiveSearchFallbackProvider } from "./LiveSearchFallbackProvider.js?v=search-20260803-6";
 
 export function createSearchProvider(config = getRuntimeSearchConfig()) {
   const environment = getSearchEnvironment();
@@ -10,11 +11,13 @@ export function createSearchProvider(config = getRuntimeSearchConfig()) {
   };
   const localProvider = new LocalJsonSearchProvider(config.local || {});
 
-  if (meilisearch.host && meilisearch.apiKey) {
-    return new ResilientSearchProvider(new MeilisearchSearchProvider(meilisearch), localProvider);
-  }
+  const indexedProvider = meilisearch.host && meilisearch.apiKey
+    ? new ResilientSearchProvider(new MeilisearchSearchProvider(meilisearch), localProvider)
+    : localProvider;
 
-  return localProvider;
+  return config.liveSearch?.enabled
+    ? new LiveSearchFallbackProvider(indexedProvider, config.liveSearch)
+    : indexedProvider;
 }
 
 export const searchProvider = createSearchProvider();

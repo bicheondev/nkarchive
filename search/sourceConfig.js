@@ -1,3 +1,5 @@
+import { PUBLIC_DPRK_SITE_CATALOG } from "./dprkPublicSourceCatalog.js?v=search-20260803-6";
+
 const OFFICIAL_SITE_CRAWL_BUDGET = {
   limitPerSource: 160,
   maxLinksPerSource: 800,
@@ -6,6 +8,56 @@ const OFFICIAL_SITE_CRAWL_BUDGET = {
   requestDelayMs: 400,
   discoveryReserveMs: 70000,
 };
+
+const CUSTOM_PUBLIC_DPRK_SOURCE_IDS = new Set([
+  "kim-il-sung-university",
+  "yongsaeng",
+]);
+
+const GENERIC_PUBLIC_DPRK_SEARCH_SOURCES = PUBLIC_DPRK_SITE_CATALOG
+  .filter((source) => !CUSTOM_PUBLIC_DPRK_SOURCE_IDS.has(source.id))
+  .map(createGenericPublicDprkSearchSource);
+
+function createGenericPublicDprkSearchSource(source) {
+  const title = `${source.name} 공식 홈페이지`;
+  return {
+    ...source,
+    sourceType: "official_site",
+    crawler: {
+      enabled: true,
+      importer: "official-sites",
+      entryUrl: source.baseUrl,
+      detailSeedUrls: [{
+        url: source.baseUrl,
+        title,
+        snippet: `${source.name}이 공개한 기사와 자료`,
+      }],
+      strategy: "official-html-crawl",
+      indexEntryUrl: true,
+      indexListingFallbacks: true,
+      preferReadable: true,
+      cacheFirstReadable: true,
+      preserveOnFailure: true,
+      limitPerSource: 80,
+      maxLinksPerSource: 120,
+      maxDiscoveryPages: 8,
+      maxSourceMs: 120000,
+      maxDetailFetchesPerSource: 36,
+      timeoutMs: 12000,
+      robotsTimeoutMs: 2500,
+      requestDelayMs: 250,
+      discoveryReserveMs: 30000,
+      schedule: "daily",
+      robotsPolicy: "respect",
+      selectors: {
+        title: "h1, h2, h3, title",
+        date: "time, .date, [class*=date]",
+        body: "article, main, .article, .content, body",
+      },
+      ...(source.id === "korean-stamp" ? { futureDatePolicy: "crawl-date" } : {}),
+    },
+  };
+}
 
 export const SEARCH_SOURCES = [
   {
@@ -357,6 +409,142 @@ export const SEARCH_SOURCES = [
     },
   },
   {
+    id: "kim-il-sung-university",
+    name: "김일성종합대학",
+    sourceType: "official_site",
+    baseUrl: "http://www.ryongnamsan.edu.kp/",
+    languages: ["ko", "en", "zh", "ru"],
+    mediaTypes: ["article", "image", "video", "pdf"],
+    aliases: ["룡남산", "Kim Il Sung University", "Ryongnamsan"],
+    crawler: {
+      enabled: true,
+      importer: "official-sites",
+      entryUrl: "http://www.ryongnamsan.edu.kp/univ/ko/research/articles",
+      seedUrls: [
+        "http://www.ryongnamsan.edu.kp/univ/ko/news",
+        "http://www.ryongnamsan.edu.kp/univ/ko/revodaily",
+        "http://www.ryongnamsan.edu.kp/univ/ko/research/success",
+        "http://www.ryongnamsan.edu.kp/univ/ko/research/literary",
+        "http://www.ryongnamsan.edu.kp/univ/en/research/articles",
+        "http://www.ryongnamsan.edu.kp/univ/en/news",
+      ],
+      detailSeedUrls: [
+        {
+          url: "http://www.ryongnamsan.edu.kp/univ/en/research/articles/8e5d5b79456a8e2bc09e54e9e518a5f1?cp=1",
+          title: "Fatherly Love for the Underground Pyongyang",
+          snippet: "Pyongyang Metro and the newly made subway train at Kaeson Station",
+          date: "2025-09-02",
+          thumbnailUrl: "http://www.ryongnamsan.edu.kp/univ/images/article/8711/01.jpg",
+        },
+        {
+          url: "http://www.ryongnamsan.edu.kp/univ/en/research/articles/8973ba741e7bd6450d8023552f43728e?cp=31",
+          title: "The creation of self-reliance - tube train No 1",
+          snippet: "The locally produced tube train No 1 running in the Pyongyang Metro",
+          date: "2022-04-21",
+        },
+      ],
+      strategy: "official-html-crawl",
+      indexEntryUrl: false,
+      indexListingFallbacks: true,
+      preferReadable: true,
+      cacheFirstReadable: true,
+      preferSeedUrls: true,
+      preserveOnFailure: true,
+      generatedListingPages: 474,
+      listingPageStart: 0,
+      listingUrlTemplates: [
+        "http://www.ryongnamsan.edu.kp/univ/ko/research/articles?cp={page}",
+        "http://www.ryongnamsan.edu.kp/univ/en/research/articles?cp={page}",
+      ],
+      ...OFFICIAL_SITE_CRAWL_BUDGET,
+      limitPerSource: 900,
+      maxLinksPerSource: 1200,
+      maxDiscoveryPages: 100,
+      maxSourceMs: 600000,
+      maxDetailFetchesPerSource: 140,
+      maxLinksPerDiscoveryPage: 24,
+      requestDelayMs: 250,
+      articleImageExcludeUrlPatterns: [/\/univ\/images\/home\//i],
+      includeUrlPatterns: [
+        /\/univ\/(?:ko|en|cn|ru)\/(?:research\/(?:articles|success|literary)|news|revodaily|leadership|video\/view)\/[0-9a-f]{32}(?:$|[?#])/i,
+      ],
+      discoverUrlPatterns: [
+        /\/univ\/(?:ko|en|cn|ru)\/(?:research\/(?:articles|success|literary)|news|revodaily|leadership)(?:$|\?cp=\d+)/i,
+      ],
+      schedule: "daily",
+      robotsPolicy: "respect",
+      selectors: {
+        title: "h1, h2, h3, title",
+        date: "time, .date, [class*=date]",
+        body: "article, main, .body-content-wrap, .content, body",
+      },
+    },
+  },
+  {
+    id: "yongsaeng",
+    name: "영생",
+    sourceType: "official_site",
+    baseUrl: "http://yongsaeng.org.kp/",
+    languages: ["ko", "en", "zh", "ru"],
+    mediaTypes: ["article", "image", "video"],
+    aliases: ["김일성김정일기금", "김일성 김정일 기금", "Yongsaeng", "Kim Il Sung-Kim Jong Il Foundation"],
+    crawler: {
+      enabled: true,
+      importer: "official-sites",
+      entryUrl: "http://yongsaeng.org.kp/index.php?lang=ko",
+      seedUrls: [
+        "http://yongsaeng.org.kp/index.php/leader/ldmng?lang=ko",
+        "http://yongsaeng.org.kp/index.php/republic/ldmng?lang=ko",
+        "http://yongsaeng.org.kp/index.php/abouts/ldmng?lang=ko&idx=0",
+        "http://yongsaeng.org.kp/index.php/news/ldmng?lang=ko",
+        "http://yongsaeng.org.kp/index.php/world/ldmng?lang=ko",
+        "http://yongsaeng.org.kp/index.php/videos/ldmng?lang=ko",
+        "http://yongsaeng.org.kp/index.php/news/moremng?lang=ko",
+        ...[4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 18, 19, 21]
+          .map((idx) => `http://yongsaeng.org.kp/index.php/republic/rdmng?lang=ko&idx=${idx}`),
+      ],
+      detailSeedUrls: [
+        {
+          url: "http://yongsaeng.org.kp/index.php/republic/allview?pidx=77&idx=12&lang=ko",
+          title: "자강력의 자랑스러운 창조물 지하전동차 1호",
+          snippet: "평양지하철도에서 운행하는 지하전동차 1호 사진 5장",
+          date: "2025-09-21",
+          thumbnailUrl: "http://yongsaeng.org.kp/yongsaeng_data/contents/develop/2025921-9439657101.jpg",
+        },
+      ],
+      strategy: "official-html-crawl",
+      indexEntryUrl: false,
+      indexListingFallbacks: true,
+      preferReadable: true,
+      cacheFirstReadable: true,
+      preferSeedUrls: true,
+      preserveOnFailure: true,
+      ...OFFICIAL_SITE_CRAWL_BUDGET,
+      limitPerSource: 420,
+      maxLinksPerSource: 700,
+      maxDiscoveryPages: 100,
+      maxSourceMs: 600000,
+      maxDetailFetchesPerSource: 320,
+      maxLinksPerDiscoveryPage: 100,
+      requestDelayMs: 250,
+      includeUrlPatterns: [
+        /\/index\.php\/(?:daily|republic|abouts|news|world|videos)\/(?:rdmng|allview|viewmng|resounddetailview)(?:$|[?#])/i,
+      ],
+      discoverUrlPatterns: [
+        /\/index\.php\/(?:leader|republic|abouts|news|world|videos)\/(?:ldmng|moremng|backldmng)(?:$|[?#])/i,
+        /\/index\.php\/republic\/rdmng(?:$|[?#])/i,
+      ],
+      schedule: "daily",
+      robotsPolicy: "respect",
+      selectors: {
+        title: "h1, h2, h3, title",
+        date: "time, .date, [class*=date]",
+        body: "article, main, .content, body",
+      },
+    },
+  },
+  ...GENERIC_PUBLIC_DPRK_SEARCH_SOURCES,
+  {
     id: "choson-sinbo",
     name: "조선신보",
     sourceType: "archive",
@@ -368,9 +556,12 @@ export const SEARCH_SOURCES = [
       enabled: true,
       importer: "official-sites",
       entryUrl: "https://www.chosonsinbo.com/",
-      wordpressPostsUrl: "https://www.chosonsinbo.com/wp-json/wp/v2/posts?per_page=50&_embed=wp:featuredmedia&_fields=id,date,modified,link,title,excerpt,content,_embedded.wp:featuredmedia.source_url,_embedded.wp:featuredmedia.media_details",
-      wordpressSearchUrlTemplate: "https://www.chosonsinbo.com/wp-json/wp/v2/posts?per_page=50&search={query}&_embed=wp:featuredmedia&_fields=id,date,modified,link,title,excerpt,content,_embedded.wp:featuredmedia.source_url,_embedded.wp:featuredmedia.media_details",
+      wordpressPostsUrl: "https://www.chosonsinbo.com/wp-json/wp/v2/posts?per_page=20&_embed=wp:featuredmedia&_fields=id,date,modified,link,title,excerpt,content,_embedded.wp:featuredmedia.source_url,_embedded.wp:featuredmedia.media_details",
+      wordpressSearchUrlTemplate: "https://www.chosonsinbo.com/wp-json/wp/v2/posts?per_page=20&search={query}&_embed=wp:featuredmedia&_fields=id,date,modified,link,title,excerpt,content,_embedded.wp:featuredmedia.source_url,_embedded.wp:featuredmedia.media_details",
       wordpressSearchQueries: [
+        "지하철도",
+        "평양지하철도",
+        "전동차",
         "원산갈마해안관광지구 준공식",
         "원산갈마 준공식",
         "원산갈마",
@@ -383,7 +574,7 @@ export const SEARCH_SOURCES = [
       minBodyLength: 80,
       strategy: "official-html-crawl",
       indexEntryUrl: false,
-      preserveOnFailure: false,
+      preserveOnFailure: true,
       ...OFFICIAL_SITE_CRAWL_BUDGET,
       includeUrlPatterns: [/^https?:\/\/(?:www\.)?chosonsinbo\.com\/(?:jp\/)?20\d{2}\/\d{2}\//i],
       excludeUrlPatterns: ["/category/", "/tag/", "/page/", "/contact/", "/privacy-policy/", "/order/", "/wp-content/"],

@@ -214,6 +214,1129 @@
     }
   },
   {
+    "id": "kim-il-sung-university",
+    "name": "김일성종합대학",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.ryongnamsan.edu.kp/",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "ru"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "video",
+      "pdf"
+    ],
+    "aliases": [
+      "룡남산",
+      "Kim Il Sung University",
+      "Ryongnamsan"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.ryongnamsan.edu.kp/univ/ko/research/articles",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .body-content-wrap, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "yongsaeng",
+    "name": "영생",
+    "sourceType": "official_site",
+    "baseUrl": "http://yongsaeng.org.kp/",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "ru"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "video"
+    ],
+    "aliases": [
+      "김일성김정일기금",
+      "김일성 김정일 기금",
+      "Yongsaeng",
+      "Kim Il Sung-Kim Jong Il Foundation"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://yongsaeng.org.kp/index.php?lang=ko",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "dprk-portal",
+    "name": "광야",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.dprkportal.kp/",
+    "languages": [
+      "ko"
+    ],
+    "mediaTypes": [
+      "article",
+      "image"
+    ],
+    "aliases": [
+      "DPRK Portal",
+      "조선민주주의인민공화국 국가망",
+      "북한 사이트 목록"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.dprkportal.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "ministry-foreign-affairs",
+    "name": "조선민주주의인민공화국 외무성",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.mfa.gov.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image"
+    ],
+    "aliases": [
+      "외무성",
+      "Ministry of Foreign Affairs DPRK",
+      "MFA DPRK"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.mfa.gov.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "maritime-administration",
+    "name": "국가해사감독국",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.ma.gov.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "pdf"
+    ],
+    "aliases": [
+      "해사감독국",
+      "Maritime Administration of the DPRK"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.ma.gov.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "financial-intelligence-agency",
+    "name": "금융정보국",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.fia.law.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "pdf"
+    ],
+    "aliases": [
+      "금융정보기관",
+      "Financial Intelligence Agency DPRK",
+      "FIA DPRK"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.fia.law.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "pulbora",
+    "name": "삼흥지적자원교류사",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.pulbora.edu.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image"
+    ],
+    "aliases": [
+      "불보라",
+      "Pulbora",
+      "Samhung Intellectual Assets Center"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.pulbora.edu.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "sports-dprk",
+    "name": "조선민주주의인민공화국 체육",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.sdprk.org.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "video"
+    ],
+    "aliases": [
+      "조선체육",
+      "Sports in the DPR Korea",
+      "SDPRK"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.sdprk.org.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "friend",
+    "name": "벗",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.friend.com.kp/",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "ru"
+    ],
+    "mediaTypes": [
+      "article",
+      "image"
+    ],
+    "aliases": [
+      "조선대외문화련락위원회",
+      "Friend",
+      "Korean Friendship Association"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.friend.com.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "care-of-aged",
+    "name": "조선년로자보호련맹",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.korelcfund.org.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "pdf"
+    ],
+    "aliases": [
+      "년로자보호련맹",
+      "Korea Federation for Care of the Aged",
+      "Korelcfund"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.korelcfund.org.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "education-fund",
+    "name": "조선교육후원기금",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.koredufund.org.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "pdf"
+    ],
+    "aliases": [
+      "교육후원기금",
+      "Korea Education Fund",
+      "Koredufund"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.koredufund.org.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "pyongyang-times",
+    "name": "평양타임스",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.pyongyangtimes.com.kp/",
+    "languages": [
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image"
+    ],
+    "aliases": [
+      "The Pyongyang Times",
+      "Pyongyang Times"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.pyongyangtimes.com.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "grand-national-unity",
+    "name": "민족대단결",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.gnu.rep.kp/",
+    "languages": [
+      "ko"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "broadcast"
+    ],
+    "aliases": [
+      "Grand National Unity",
+      "GNU",
+      "평양방송"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.gnu.rep.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "social-scientists",
+    "name": "조선사회과학자협회",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.kass.org.kp/",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "ru",
+      "es",
+      "fr",
+      "de",
+      "ar",
+      "ja"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "pdf"
+    ],
+    "aliases": [
+      "사회과학자협회",
+      "Korean Association of Social Scientists",
+      "KASS"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.kass.org.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "national-insurance",
+    "name": "조선민족보험총회사",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.knic.com.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "pdf"
+    ],
+    "aliases": [
+      "민족보험총회사",
+      "Korea National Insurance Corporation",
+      "KNIC"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.knic.com.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "international-youth-travel",
+    "name": "조선국제청소년려행사",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.kiyctc.com.kp/",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "ru"
+    ],
+    "mediaTypes": [
+      "article",
+      "image"
+    ],
+    "aliases": [
+      "국제청소년려행사",
+      "Korea International Youth and Children's Travel Company",
+      "KIYCTC"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.kiyctc.com.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "air-koryo",
+    "name": "고려항공",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.airkoryo.com.kp/",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "ru"
+    ],
+    "mediaTypes": [
+      "article",
+      "image"
+    ],
+    "aliases": [
+      "Air Koryo",
+      "AirKoryo"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.airkoryo.com.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "korean-cooks",
+    "name": "조선료리협회",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.cooks.org.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "video"
+    ],
+    "aliases": [
+      "조선요리협회",
+      "Korean Cooks Association",
+      "Korean Cookery Association"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.cooks.org.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "korean-film",
+    "name": "조선영화수출입사",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.korfilm.com.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "video"
+    ],
+    "aliases": [
+      "조선영화",
+      "Korean Film Export and Import Corporation",
+      "Korfilm"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.korfilm.com.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "dprk-tourism",
+    "name": "조선관광",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.tourismdprk.gov.kp/",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "ru"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "video"
+    ],
+    "aliases": [
+      "DPR Korea Tour",
+      "DPRK Tourism",
+      "국가관광총국"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.tourismdprk.gov.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "minzu",
+    "name": "민족",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.minzu.rep.kp/",
+    "languages": [
+      "ko"
+    ],
+    "mediaTypes": [
+      "article",
+      "image"
+    ],
+    "aliases": [
+      "Minzu"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.minzu.rep.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "foreign-trade",
+    "name": "조선의 무역",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.kftrade.com.kp:8888/",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "ru"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "pdf"
+    ],
+    "aliases": [
+      "Foreign Trade of DPRK",
+      "KFTrade",
+      "조선무역"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.kftrade.com.kp:8888/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "youth-sinmun",
+    "name": "청년전위",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.youth.rep.kp/",
+    "languages": [
+      "ko"
+    ],
+    "mediaTypes": [
+      "article",
+      "image"
+    ],
+    "aliases": [
+      "청년신문",
+      "Youth Sinmun",
+      "Youth"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.youth.rep.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "manmulsang",
+    "name": "만물상",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.manmulsang.com.kp/",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "ru"
+    ],
+    "mediaTypes": [
+      "article",
+      "image"
+    ],
+    "aliases": [
+      "Manmulsang",
+      "만물상전자상업"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.manmulsang.com.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "kim-chaek-university",
+    "name": "김책공업종합대학",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.kut.edu.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "pdf"
+    ],
+    "aliases": [
+      "김책공대",
+      "Kim Chaek University of Technology",
+      "KUT"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.kut.edu.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "grand-peoples-study-house",
+    "name": "인민대학습당",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.gpsh.edu.kp:8080/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "pdf"
+    ],
+    "aliases": [
+      "Grand People's Study House",
+      "GPSH"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.gpsh.edu.kp:8080/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "samhae-insurance",
+    "name": "삼해보험회사",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.samhae.com.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "pdf"
+    ],
+    "aliases": [
+      "삼해보험",
+      "Samhae Insurance Company",
+      "Samhae"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.samhae.com.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "polestar-insurance",
+    "name": "북극성보험회사",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.polestar.com.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "pdf"
+    ],
+    "aliases": [
+      "북극성보험",
+      "Polestar Insurance Company",
+      "Polestar"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.polestar.com.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "science-technology-commission",
+    "name": "국가과학기술위원회",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.mirae.aca.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "pdf"
+    ],
+    "aliases": [
+      "미래",
+      "State Commission of Science and Technology",
+      "Mirae"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.mirae.aca.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "ministry-public-health",
+    "name": "보건성",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.moph.gov.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "pdf"
+    ],
+    "aliases": [
+      "조선민주주의인민공화국 보건성",
+      "Ministry of Public Health DPRK",
+      "MOPH"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.moph.gov.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "korean-art",
+    "name": "조선예술",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.korart.sca.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "video"
+    ],
+    "aliases": [
+      "Korean Art",
+      "Korart"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.korart.sca.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "ryomyong-education",
+    "name": "려명",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.ryomyong.edu.kp/",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "mediaTypes": [
+      "article",
+      "image",
+      "pdf"
+    ],
+    "aliases": [
+      "Ryomyong",
+      "려명교육"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.ryomyong.edu.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
+    "id": "korean-stamp",
+    "name": "조선우표사",
+    "sourceType": "official_site",
+    "baseUrl": "http://www.korstamp.com.kp/",
+    "languages": [
+      "ko",
+      "en",
+      "zh",
+      "ru"
+    ],
+    "mediaTypes": [
+      "article",
+      "image"
+    ],
+    "aliases": [
+      "조선우표",
+      "Korea Stamp Corporation",
+      "Korstamp"
+    ],
+    "searchTabs": [],
+    "crawler": {
+      "enabled": true,
+      "entryUrl": "http://www.korstamp.com.kp/",
+      "strategy": "official-html-crawl",
+      "schedule": "daily",
+      "robotsPolicy": "respect",
+      "selectors": {
+        "title": "h1, h2, h3, title",
+        "date": "time, .date, [class*=date]",
+        "body": "article, main, .article, .content, body"
+      },
+      "notes": ""
+    }
+  },
+  {
     "id": "choson-sinbo",
     "name": "조선신보",
     "sourceType": "archive",

@@ -1,6 +1,6 @@
-import { createSearchToken, normalizeQuery } from "./normalizeQuery.js?v=search-20260630-1";
-import { resolveKnownEntityDocumentQuery, resolveKnownEntityQuery, shouldUseResolvedEntityForDocumentSearch } from "./knownEntities.js?v=search-20260630-1";
-import { isExactSourceDocumentMatch, resolveExactSourceQuery } from "./sourceQuery.js?v=search-20260630-1";
+import { createSearchToken, normalizeQuery } from "./normalizeQuery.js?v=search-20260803-6";
+import { getResolvedEntitySearchTerms, resolveKnownEntityDocumentQuery, resolveKnownEntityQuery, shouldUseResolvedEntityForDocumentSearch } from "./knownEntities.js?v=search-20260803-6";
+import { isExactSourceDocumentMatch, resolveExactSourceQuery } from "./sourceQuery.js?v=search-20260803-6";
 
 export const DOCUMENT_MINIMUM_SCORE = 100;
 export const BODY_SEARCH_CHARACTER_LIMIT = 1400;
@@ -117,12 +117,12 @@ export function scoreDocument(document, preparedQueryOrText) {
   const scores = [];
 
   for (const term of preparedQuery.terms) {
-    scores.push(scoreTextField(document.title, term, DOCUMENT_SCORE.exactTitle, DOCUMENT_SCORE.titleContains, "title"));
-    scores.push(scoreSnippetField(document.snippet, term));
-    scores.push(scoreBodyField(document.body, term));
-    scores.push(scoreAliases(document.aliases || [], term));
-    scores.push(scoreTextField(document.sourceName, term, DOCUMENT_SCORE.sourceExact, DOCUMENT_SCORE.sourceContains, "sourceName"));
-    scores.push(scoreTextField(document.displaySourceName, term, DOCUMENT_SCORE.sourceExact, DOCUMENT_SCORE.sourceContains, "displaySourceName"));
+    scores.push(scoreIndexedTextField(document, "title", document.title, term, DOCUMENT_SCORE.exactTitle, DOCUMENT_SCORE.titleContains, "title"));
+    scores.push(scoreSnippetField(document.snippet, term, document.searchFields?.snippet));
+    scores.push(scoreBodyField(document.body, term, document.searchFields?.body));
+    scores.push(scoreAliases(document.aliases || [], term, document.searchFields?.aliases));
+    scores.push(scoreIndexedTextField(document, "sourceName", document.sourceName, term, DOCUMENT_SCORE.sourceExact, DOCUMENT_SCORE.sourceContains, "sourceName"));
+    scores.push(scoreIndexedTextField(document, "displaySourceName", document.displaySourceName, term, DOCUMENT_SCORE.sourceExact, DOCUMENT_SCORE.sourceContains, "displaySourceName"));
   }
 
   return scores.reduce((best, next) => (next.value > best.value ? next : best), { value: 0, reason: "no_match" });
@@ -207,7 +207,9 @@ function prepareDocumentBranchQuery(syntaxQuery, exclusionTerms = {}) {
     terms.push(createDocumentTerm(normalized.qwerty, "qwerty"));
   }
   if (shouldUseResolvedEntityForDocumentSearch(normalized.raw, resolvedEntity)) {
-    terms.push(createDocumentTerm(resolvedEntity.canonical, "known_entity"));
+    for (const entityTerm of getResolvedEntitySearchTerms(resolvedEntity)) {
+      terms.push(createDocumentTerm(entityTerm, "known_entity"));
+    }
   }
   terms.push(...titleTerms);
   terms.push(...textTerms);
@@ -368,8 +370,8 @@ export function getHighlightRanges(text = "", preparedQueryOrText) {
   return dedupeRanges(ranges).slice(0, 4);
 }
 
-function scoreTextField(text, term, exactScore, containsScore, reason) {
-  const field = createSearchToken(text || "");
+function scoreTextField(text, term, exactScore, containsScore, reason, indexedField = null) {
+  const field = indexedField || createSearchToken(text || "");
   if (!field.compactLower || !term.token.compactLower) return { value: 0, reason: "no_match" };
 
   if (exactScore > 0 && (field.compactLower === term.token.compactLower || field.lower === term.token.lower)) {
@@ -381,27 +383,31 @@ function scoreTextField(text, term, exactScore, containsScore, reason) {
   return { value: 0, reason: "no_match" };
 }
 
-function scoreAliases(aliases, term) {
+function scoreIndexedTextField(document, fieldName, text, term, exactScore, containsScore, reason) {
+  return scoreTextField(text, term, exactScore, containsScore, reason, document.searchFields?.[fieldName]);
+}
+
+function scoreAliases(aliases, term, indexedAliases = []) {
   let best = { value: 0, reason: "no_match" };
-  for (const alias of aliases) {
-    const score = scoreTextField(alias, term, DOCUMENT_SCORE.aliasExact, DOCUMENT_SCORE.aliasContains, "alias");
+  for (let index = 0; index < aliases.length; index += 1) {
+    const score = scoreTextField(aliases[index], term, DOCUMENT_SCORE.aliasExact, DOCUMENT_SCORE.aliasContains, "alias", indexedAliases[index]);
     if (score.value > best.value) best = score;
   }
   return best;
 }
 
-function scoreSnippetField(text, term) {
+function scoreSnippetField(text, term, indexedField = null) {
   const searchableText = stripSearchDatelines(text);
-  const score = scoreTextField(searchableText, term, 0, DOCUMENT_SCORE.snippetContains, "snippet");
+  const score = scoreTextField(searchableText, term, 0, DOCUMENT_SCORE.snippetContains, "snippet", indexedField);
   if (score.value > 0 && isDatelineOnlyMatch(searchableText, term)) {
     return { value: DOCUMENT_SCORE.datelineContains, reason: "snippet:dateline" };
   }
   return score;
 }
 
-function scoreBodyField(body, term) {
+function scoreBodyField(body, term, indexedField = null) {
   const focusedBody = getSearchableBodyText(body);
-  const score = scoreTextField(focusedBody, term, 0, DOCUMENT_SCORE.bodyContains, "body");
+  const score = scoreTextField(focusedBody, term, 0, DOCUMENT_SCORE.bodyContains, "body", indexedField);
   if (score.value > 0 && isDatelineOnlyMatch(focusedBody, term)) {
     return { value: DOCUMENT_SCORE.datelineContains, reason: "body:dateline" };
   }
@@ -426,12 +432,12 @@ function scoreExactPhraseRequirements(document, preparedQuery) {
 
 function scoreExactPhraseAcrossFields(document, term) {
   const scores = [
-    scoreTextField(document.title, term, DOCUMENT_SCORE.exactTitle, DOCUMENT_SCORE.titleContains, "title"),
-    scoreSnippetField(document.snippet, term),
-    scoreBodyField(document.body, term),
-    scoreAliases(document.aliases || [], term),
-    scoreTextField(document.sourceName, term, DOCUMENT_SCORE.sourceExact, DOCUMENT_SCORE.sourceContains, "sourceName"),
-    scoreTextField(document.displaySourceName, term, DOCUMENT_SCORE.sourceExact, DOCUMENT_SCORE.sourceContains, "displaySourceName"),
+    scoreIndexedTextField(document, "title", document.title, term, DOCUMENT_SCORE.exactTitle, DOCUMENT_SCORE.titleContains, "title"),
+    scoreSnippetField(document.snippet, term, document.searchFields?.snippet),
+    scoreBodyField(document.body, term, document.searchFields?.body),
+    scoreAliases(document.aliases || [], term, document.searchFields?.aliases),
+    scoreIndexedTextField(document, "sourceName", document.sourceName, term, DOCUMENT_SCORE.sourceExact, DOCUMENT_SCORE.sourceContains, "sourceName"),
+    scoreIndexedTextField(document, "displaySourceName", document.displaySourceName, term, DOCUMENT_SCORE.sourceExact, DOCUMENT_SCORE.sourceContains, "displaySourceName"),
   ];
   return scores.reduce((best, next) => (next.value > best.value ? next : best), { value: 0, reason: "no_match" });
 }
@@ -445,22 +451,28 @@ function documentMatchesExcludedTerms(document = {}, preparedQuery = {}) {
       ...(Array.isArray(document.aliases) ? document.aliases : []),
       document.sourceName,
       document.displaySourceName,
-    ]);
+    ], ["title", "snippet", "body", "aliases", "sourceName", "displaySourceName"]);
   });
   if (matchesGenericExclusion) return true;
   if ((preparedQuery.excludedTitleTerms || []).some((term) => (
-    documentContainsSearchToken(document, term, [document.title])
+    documentContainsSearchToken(document, term, [document.title], ["title"])
   ))) return true;
-  if ((preparedQuery.excludedTextTerms || []).some((term) => documentContainsSearchToken(document, term, [document.title, document.snippet, document.body]))) return true;
+  if ((preparedQuery.excludedTextTerms || []).some((term) => documentContainsSearchToken(document, term, [document.title, document.snippet, document.body], ["title", "snippet", "body"]))) return true;
   if ((preparedQuery.excludedUrlTerms || []).some((term) => scoreUrlFields(document, term).value > 0)) return true;
   return false;
 }
 
-function documentContainsSearchToken(document = {}, term = {}, fields = []) {
+function documentContainsSearchToken(document = {}, term = {}, fields = [], indexedFieldNames = []) {
   const token = term?.token || createSearchToken(term?.value || term || "");
   if (!token.compactLower) return false;
-  return fields.some((field) => {
-    const fieldToken = createSearchToken(String(field || ""));
+  const indexedFields = indexedFieldNames.flatMap((fieldName) => {
+    const field = document.searchFields?.[fieldName];
+    return Array.isArray(field) ? field : (field ? [field] : []);
+  });
+  const fieldTokens = indexedFields.length
+    ? indexedFields
+    : fields.map((field) => createSearchToken(String(field || "")));
+  return fieldTokens.some((fieldToken) => {
     if (!fieldToken.compactLower) return false;
     return fieldToken.compactLower.includes(token.compactLower)
       || fieldToken.lower.includes(token.lower);
@@ -471,7 +483,7 @@ function documentMatchesTitleRequirements(document = {}, preparedQuery = {}) {
   const titleTerms = preparedQuery.titleTerms || [];
   if (!titleTerms.length) return true;
   return titleTerms.every((term) => (
-    scoreTextField(document.title, term, DOCUMENT_SCORE.exactTitle, DOCUMENT_SCORE.titleContains, "title").value > 0
+    scoreIndexedTextField(document, "title", document.title, term, DOCUMENT_SCORE.exactTitle, DOCUMENT_SCORE.titleContains, "title").value > 0
   ));
 }
 
@@ -509,8 +521,8 @@ function scoreUrlFields(document = {}, term) {
 
 function scoreDocumentTextFields(document = {}, term) {
   return [
-    scoreSnippetField(document.snippet, term),
-    scoreBodyField(document.body, term),
+    scoreSnippetField(document.snippet, term, document.searchFields?.snippet),
+    scoreBodyField(document.body, term, document.searchFields?.body),
     scoreTextField(document.searchSnippet, term, 0, DOCUMENT_SCORE.snippetContains, "searchSnippet"),
     scoreTextField(document.searchBody, term, 0, DOCUMENT_SCORE.bodyContains, "searchBody"),
     scoreTextField(document.previewText, term, 0, DOCUMENT_SCORE.bodyContains, "previewText"),
@@ -568,18 +580,19 @@ function scorePhraseTerms(document, terms = []) {
 
 function scoreDocumentTermAcrossFields(document, term) {
   return [
-    scoreTextField(document.title, term, DOCUMENT_SCORE.exactTitle, DOCUMENT_SCORE.titleContains, "title"),
-    scoreSnippetField(document.snippet, term),
-    scoreBodyField(document.body, term),
-    scoreAliases(document.aliases || [], term),
-    scoreTextField(document.sourceName, term, DOCUMENT_SCORE.sourceExact, DOCUMENT_SCORE.sourceContains, "sourceName"),
-    scoreTextField(document.displaySourceName, term, DOCUMENT_SCORE.sourceExact, DOCUMENT_SCORE.sourceContains, "displaySourceName"),
+    scoreIndexedTextField(document, "title", document.title, term, DOCUMENT_SCORE.exactTitle, DOCUMENT_SCORE.titleContains, "title"),
+    scoreSnippetField(document.snippet, term, document.searchFields?.snippet),
+    scoreBodyField(document.body, term, document.searchFields?.body),
+    scoreAliases(document.aliases || [], term, document.searchFields?.aliases),
+    scoreIndexedTextField(document, "sourceName", document.sourceName, term, DOCUMENT_SCORE.sourceExact, DOCUMENT_SCORE.sourceContains, "sourceName"),
+    scoreIndexedTextField(document, "displaySourceName", document.displaySourceName, term, DOCUMENT_SCORE.sourceExact, DOCUMENT_SCORE.sourceContains, "displaySourceName"),
   ];
 }
 
 function createRequiredTermGroups(normalized, resolvedEntity) {
   if (shouldUseResolvedEntityForDocumentSearch(normalized.raw, resolvedEntity) && splitDocumentQueryParts(normalized.raw).length <= 1) {
-    return [[createDocumentTerm(resolvedEntity.canonical, "known_entity")]];
+    return [getResolvedEntitySearchTerms(resolvedEntity)
+      .map((term) => createDocumentTerm(term, "known_entity"))];
   }
 
   const splitSource = chooseSplitQuerySource(normalized);
