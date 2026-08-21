@@ -44,6 +44,14 @@
       "destination": "/music/index.html"
     },
     {
+      "source": "/news/category",
+      "destination": "/news/category/index.html"
+    },
+    {
+      "source": "/news/category/",
+      "destination": "/news/category/index.html"
+    },
+    {
       "source": "/news/document",
       "destination": "/news/document/index.html"
     },
@@ -80,6 +88,19 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=0, s-maxage=60, stale-while-revalidate=60"
+        }
+      ]
+    },
+    {
+      "source": "/data/news/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
         }
       ]
     },

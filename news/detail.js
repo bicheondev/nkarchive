@@ -7,16 +7,16 @@
   const galleryElement = document.querySelector("#newsDocumentGallery");
   const heroElement = document.querySelector(".news-document-hero");
   const imageElement = document.querySelector("#newsDocumentImage");
-  if (!documentRoot || !titleElement || !sourceElement || !dateElement || !bodyElement || !galleryElement || !heroElement || !imageElement) return;
+  const shareButton = document.querySelector("#newsShareButton");
+  const shareStatus = document.querySelector("#newsShareStatus");
+  if (!documentRoot || !titleElement || !sourceElement || !dateElement || !bodyElement || !galleryElement || !heroElement || !imageElement || !shareButton || !shareStatus) return;
 
   const params = new URLSearchParams(window.location.search);
   const articleId = params.get("id") || "";
-  const requestedVersion = params.get("v") || "";
-  const DETAILS_URL = requestedVersion
-    ? `/data/news-details.json?v=${encodeURIComponent(requestedVersion)}`
-    : "/data/news-details.json";
+  const DETAILS_URL = "/data/news-details.json";
 
   bindChrome();
+  bindShare();
   loadArticle();
 
   async function loadArticle() {
@@ -26,21 +26,11 @@
     }
 
     try {
-      let response = await fetch(DETAILS_URL, { cache: "no-cache", headers: { Accept: "application/json" } });
-      if (!response.ok) throw new Error(`news_details_${response.status}`);
-      let payload = await response.json();
-      if (requestedVersion && payload?.version !== requestedVersion) {
-        response = await fetch(`${DETAILS_URL}&refresh=${Date.now()}`, {
-          cache: "reload",
-          headers: { Accept: "application/json" },
-        });
-        if (!response.ok) throw new Error(`news_details_${response.status}`);
-        payload = await response.json();
+      let payload = await fetchDetails(DETAILS_URL, "no-cache");
+      if (!hasArticle(payload)) {
+        payload = await fetchDetails(`${DETAILS_URL}?refresh=${Date.now()}`, "reload");
       }
-      if (requestedVersion && payload?.version !== requestedVersion) {
-        throw new Error("news_snapshot_mismatch");
-      }
-      if (!payload?.articles || !Object.hasOwn(payload.articles, articleId)) {
+      if (!hasArticle(payload)) {
         renderError("보관된 기사를 찾지 못했습니다.");
         return;
       }
@@ -52,6 +42,16 @@
     }
   }
 
+  async function fetchDetails(url, cache) {
+    const response = await fetch(url, { cache, headers: { Accept: "application/json" } });
+    if (!response.ok) throw new Error(`news_details_${response.status}`);
+    return response.json();
+  }
+
+  function hasArticle(payload) {
+    return Boolean(payload?.articles && Object.hasOwn(payload.articles, articleId));
+  }
+
   function renderArticle(article) {
     const title = String(article.title || "뉴스 기사");
     const body = String(article.body || article.snippet || "").trim();
@@ -60,7 +60,7 @@
     dateElement.textContent = formatKoreanDate(article.date);
     document.title = `${title} · 북한뉴스아카이브`;
 
-    const paragraphs = splitParagraphs(body);
+    const paragraphs = stripLeadingTitleParagraph(splitParagraphs(body), title);
     bodyElement.replaceChildren(
       ...paragraphs.map((paragraphText) => {
         const paragraph = document.createElement("p");
@@ -70,6 +70,7 @@
     );
 
     renderArticleImages(article);
+    shareButton.disabled = false;
     documentRoot.setAttribute("aria-busy", "false");
   }
 
@@ -84,6 +85,21 @@
       .map((block) => block.trim())
       .filter(Boolean);
     return blocks.length ? blocks : [normalized];
+  }
+
+  function stripLeadingTitleParagraph(paragraphs, title) {
+    const normalizedTitle = normalizeParagraphForTitleComparison(title);
+    if (!normalizedTitle || normalizeParagraphForTitleComparison(paragraphs[0]) !== normalizedTitle) return paragraphs;
+    const remainingParagraphs = paragraphs.slice(1);
+    return remainingParagraphs.length ? remainingParagraphs : ["본문이 보관되지 않은 기사입니다."];
+  }
+
+  function normalizeParagraphForTitleComparison(value) {
+    return String(value || "")
+      .normalize("NFC")
+      .replace(/[\u200b\ufeff]/gu, "")
+      .replace(/\s+/gu, " ")
+      .trim();
   }
 
   function renderArticleImages(article) {
@@ -177,39 +193,24 @@
     const sources = [];
     const cachedPrimarySource = resolveCachedImageSource(article?.cachedUrl);
     const cachedSource = resolveCachedImageSource(article?.cachedThumbnailUrl);
-    const originalPrimarySource = resolveOriginalImageSource(article?.url);
-    const originalSource = resolveOriginalImageSource(article?.thumbnailUrl);
     if (cachedPrimarySource) sources.push(cachedPrimarySource);
-    if (cachedSource) sources.push(cachedSource);
-    if (originalPrimarySource && !sources.includes(originalPrimarySource)) sources.push(originalPrimarySource);
-    if (originalSource && !sources.includes(originalSource)) sources.push(originalSource);
+    if (cachedSource && !sources.includes(cachedSource)) sources.push(cachedSource);
     return sources;
   }
 
   function resolveCachedImageSource(value) {
     const candidate = normalizeImageCandidate(value);
     if (!candidate) return "";
-    if (/^\/(?:data\/search\/assets|cached\/search-assets|api\/search-asset)(?:\/|\?)/u.test(candidate)) {
+    if (/^\/data\/news\/assets\/(?:kcna|rodong-sinmun)\/[a-f0-9]{64}\.(?:jpg|png|gif|webp)$/u.test(candidate)) {
       return candidate;
     }
-    if (/^https:\/\//iu.test(candidate)) return candidate;
-    if (/^http:\/\//iu.test(candidate)) return createAssetProxyUrl(candidate);
     return "";
-  }
-
-  function resolveOriginalImageSource(value) {
-    const candidate = normalizeImageCandidate(value);
-    return /^https?:\/\//iu.test(candidate) ? createAssetProxyUrl(candidate) : "";
   }
 
   function normalizeImageCandidate(value) {
     const candidate = String(value || "").trim();
     if (!candidate || /\/newsf\.gif(?:$|[?#])/iu.test(candidate)) return "";
     return candidate;
-  }
-
-  function createAssetProxyUrl(value) {
-    return `/api/search-asset?url=${encodeURIComponent(value)}`;
   }
 
   function formatKoreanDate(value) {
@@ -220,6 +221,46 @@
 
   function sourceNameForId(sourceId) {
     return sourceId === "rodong-sinmun" ? "로동신문" : "조선중앙통신";
+  }
+
+  function bindShare() {
+    shareButton.addEventListener("click", async () => {
+      const currentUrl = createStableArticleUrl();
+      const title = titleElement.textContent?.trim() || "북한뉴스아카이브 기사";
+      shareButton.disabled = true;
+      shareButton.setAttribute("aria-busy", "true");
+      shareStatus.textContent = "";
+
+      try {
+        if (typeof navigator.share === "function") {
+          await navigator.share({ title, text: title, url: currentUrl });
+          shareStatus.textContent = "기사를 공유했습니다.";
+        } else {
+          if (typeof navigator.clipboard?.writeText !== "function") throw new Error("clipboard_unavailable");
+          await navigator.clipboard.writeText(currentUrl);
+          shareStatus.textContent = "기사 주소를 복사했습니다.";
+        }
+      } catch (error) {
+        if (error?.name === "AbortError") {
+          shareStatus.textContent = "공유를 취소했습니다.";
+        } else {
+          console.error("[news] Unable to share the archived article.", error);
+          shareStatus.textContent = "공유하지 못했습니다. 다시 시도해 주세요.";
+        }
+      } finally {
+        shareButton.disabled = false;
+        shareButton.removeAttribute("aria-busy");
+      }
+    });
+  }
+
+  function createStableArticleUrl() {
+    const url = new URL(window.location.href);
+    url.pathname = "/news/document";
+    url.search = "";
+    url.hash = "";
+    url.searchParams.set("id", articleId);
+    return url.href;
   }
 
   function renderError(messageText) {
@@ -260,7 +301,7 @@
       }
       if ((event.metaKey || event.ctrlKey) && !event.altKey && event.key.toLocaleLowerCase("en-US") === "k") {
         event.preventDefault();
-        window.location.assign("/search");
+        window.location.assign("/news#search");
       }
     });
   }

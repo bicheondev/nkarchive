@@ -1,766 +1,215 @@
 #!/usr/bin/env node
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import fs from "node:fs/promises";
-import http from "node:http";
 import os from "node:os";
 import path from "node:path";
 import {
-  assertFreshNewsSources,
-  assertKcnaDesignCategoryCoverage,
-  assertKcnaMediaPreviewCoverage,
-  assertMirroredPreviewCoverage,
-  enrichCandidateWithInlineImages,
-  fetchArticleHtml,
-  fetchRemoteImageBytes,
-  hasSubstantialArticleBody,
-  hasUsableTimedOutSourceOutput,
-  inlineSameOriginRemoteImages,
-  isValidExplicitDocumentDate,
-  loadNewsInlineImageHelper,
-  mergeDocumentQuality,
-  mergeNewsMirrorDocuments,
+  assertNewsFreshness,
+  flattenCrawledNewsDocuments,
   refreshNewsMirror,
 } from "./refresh-news-mirror.ts";
-import { discoverLinkEntries, extractDocumentFromHtml } from "./search-crawler-utils.ts";
-import { SEARCH_SOURCES } from "../search/sourceConfig.js";
+import {
+  NEWS_DOCUMENT_SCHEMA_VERSION,
+  canonicalizeNewsDocument,
+  stringifyNewsDocumentsJsonl,
+} from "./news-snapshot.ts";
 
-const TEST_NOW = new Date("2026-08-21T12:00:00.000Z");
-const SUBSTANTIAL_BODY = [
-  "첫 문단에서는 새로 진행된 사업의 구체적인 내용과 현장 상황을 상세히 전하고 있다.",
-  "둘째 문단에서는 참가자들의 발언과 앞으로의 계획을 충분한 분량으로 설명하고 있다.",
-  "마지막 문단에는 사업이 주민 생활에 미칠 영향과 후속 조치가 정리되어 있다.",
-].join("\n\n");
+const fixtureBytes = Buffer.from([0xff, 0xd8, 0xff, 0xe0, 0x00, 0x10, 0x4a, 0x46, 0x49, 0x46]);
+const fixtureHash = createHash("sha256").update(fixtureBytes).digest("hex");
+const fixtureAsset = `/data/news/assets/rodong-sinmun/${fixtureHash}.jpg`;
+const stagedOrphanBytes = Buffer.from([...fixtureBytes, 0x01]);
+const stagedOrphanHash = createHash("sha256").update(stagedOrphanBytes).digest("hex");
+const existingOrphanBytes = Buffer.from([...fixtureBytes, 0x02]);
+const existingOrphanHash = createHash("sha256").update(existingOrphanBytes).digest("hex");
 
-function makeDocument({
-  id,
-  sourceId = "kcna",
-  sourceName = sourceId === "kcna" ? "조선중앙통신" : "로동신문",
-  host = sourceId === "kcna" ? "kcna.test" : "rodong.test",
-  title = `${sourceName} 기사`,
-  snippet = "기사의 핵심 내용을 설명하는 요약문",
-  body = SUBSTANTIAL_BODY,
-  date = "2026-08-20",
-  cachedUrl = "",
-  cachedThumbnailUrl = "",
-  mediaType = "article",
-} = {}) {
-  return {
-    id,
-    title,
-    snippet,
-    date,
-    sourceId,
-    sourceName,
-    sourceType: "official_site",
-    displaySourceId: sourceId,
-    displaySourceName: sourceName,
-    displaySourceType: "official_site",
-    mediaType,
-    url: `https://${host}/article/${encodeURIComponent(id)}`,
-    archiveUrl: "",
-    originalSourceUrl: "",
-    thumbnailUrl: "",
-    cachedUrl,
-    cachedThumbnailUrl,
-    language: "ko",
-    aliases: [],
-    body,
-    searchSnippet: "",
-    searchBody: "",
-    previewText: "",
-    previewSourceName: "",
-    previewDocumentId: "",
-    searchTabs: mediaType === "image" ? ["all", "image"] : [],
+const nested = {
+  documents: [{
+    id: "news:rodong-sinmun:fixture001",
+    sourceId: "rodong-sinmun",
+    sourceName: "로동신문",
+    category: { id: "today", label: "오늘호 기사" },
+    categories: [{ id: "social-culture", label: "사회문화생활" }],
+    kind: "article",
+    title: "독립 뉴스 수집 시험 기사",
+    date: "2026-08-22",
+    url: "http://www.rodong.rep.kp/ko/index.php?fixture",
+    body: "검색 인덱스를 거치지 않고 공식 상세면에서 직접 보관한 기사 본문이다.",
+    thumbnailUrl: fixtureAsset,
+    images: [{ sha256: fixtureHash, cachedUrl: fixtureAsset, originalUrl: "", role: "inline" }],
+  }],
+};
+const completeRodongDocuments = createCompleteRodongFixtureDocuments();
+
+const flattened = flattenCrawledNewsDocuments(nested);
+assert.equal(flattened.length, 2);
+assert.deepEqual(flattened[0].categories, ["important", "memory"]);
+assert.equal(flattened[0].cachedThumbnailUrl, fixtureAsset);
+assert.equal(flattened[1].articleId, flattened[0].id);
+assert.equal(flattened[1].cachedUrl, fixtureAsset);
+assert.deepEqual(
+  assertNewsFreshness(flattened, { sourceIds: ["rodong-sinmun"], maxAgeDays: 4, now: "2026-08-22T12:00:00Z" }),
+  { "rodong-sinmun": { newest: "2026-08-22", ageDays: 0, maxAgeDays: 4 } },
+);
+assert.throws(
+  () => assertNewsFreshness(flattened, { sourceIds: ["rodong-sinmun"], maxAgeDays: 1, now: "2026-08-25T00:00:00Z" }),
+  /stale/u,
+);
+
+const rootDir = await fs.mkdtemp(path.join(os.tmpdir(), "standalone-news-refresh-test-"));
+try {
+  const crawlImpl = async (options) => {
+    const output = path.join(options.assetDir, "rodong-sinmun", `${fixtureHash}.jpg`);
+    await fs.mkdir(path.dirname(output), { recursive: true });
+    await fs.writeFile(output, fixtureBytes);
+    await fs.writeFile(path.join(path.dirname(output), `${stagedOrphanHash}.jpg`), stagedOrphanBytes);
+    return {
+      generatedAt: "2026-08-22T12:00:00.000Z",
+      sources: {
+        kcna: { documents: [], errors: [], stats: {} },
+        "rodong-sinmun": {
+          documents: completeRodongDocuments,
+          errors: [],
+          stats: { detailsFetched: completeRodongDocuments.length, imagesCached: 2 },
+        },
+      },
+      documents: completeRodongDocuments,
+    };
   };
-}
-
-function makeReport(sourceId, overrides = {}) {
-  return {
-    sourceId,
-    fetched: 2,
-    indexed: 2,
-    timedOut: false,
-    errors: [],
-    ...overrides,
-  };
-}
-
-function jsonl(documents) {
-  return `${documents.map((document) => JSON.stringify(document)).join("\n")}\n`;
-}
-
-function lineForSource(text, sourceId) {
-  return text.split("\n").find((line) => line && JSON.parse(line).sourceId === sourceId) || "";
-}
-
-function buildSnapshot(documents) {
-  const selected = Object.fromEntries(["kcna", "rodong-sinmun"].map((sourceId) => [
-    sourceId,
-    documents
-      .filter((document) => document.sourceId === sourceId && document.mediaType === "article" && document.language === "ko")
-      .sort((left, right) => right.date.localeCompare(left.date))
-      .slice(0, 120),
-  ]));
-  const newestDate = Object.values(selected).flat().map((document) => document.date).sort().at(-1);
-  const version = `fixture-${Object.values(selected).flat().map((document) => document.id).join("-")}`;
-  const feed = {
-    generatedAt: `${newestDate}T00:00:00.000Z`,
-    version,
+  const sparseCrawlImpl = async () => ({
+    generatedAt: "2026-08-22T12:00:00.000Z",
     sources: {
-      kcna: {
-        id: "kcna",
-        name: "조선중앙통신",
-        articles: selected.kcna.map((document) => ({ id: document.id })),
-      },
-      "rodong-sinmun": {
-        id: "rodong-sinmun",
-        name: "로동신문",
-        articles: selected["rodong-sinmun"].map((document) => ({ id: document.id })),
-      },
+      kcna: { documents: [], errors: [], stats: {} },
+      "rodong-sinmun": { documents: nested.documents, errors: [], stats: { detailsFetched: 1 } },
     },
-  };
-  const details = {
-    generatedAt: feed.generatedAt,
-    version,
-    articles: Object.fromEntries(Object.values(selected).flat().map((document) => [
-      document.id,
-      { id: document.id, body: document.body },
-    ])),
-  };
-  return {
-    feedText: `${JSON.stringify(feed, null, 2)}\n`,
-    detailsText: `${JSON.stringify(details, null, 2)}\n`,
-  };
-}
-
-async function writeFixtureRepository(rootDir) {
-  const documents = [
-    makeDocument({ id: "kcna-existing" }),
-    makeDocument({ id: "rodong-existing", sourceId: "rodong-sinmun" }),
-    makeDocument({ id: "other-existing", sourceId: "other", sourceName: "기타 출처", host: "other.test" }),
-  ];
-  const sources = [
-    {
-      id: "kcna",
-      name: "조선중앙통신",
-      sourceType: "official_site",
-      baseUrl: "https://kcna.test/",
-      languages: ["ko"],
-      mediaTypes: ["article", "image"],
-      aliases: [],
-      searchTabs: [],
-      crawler: { enabled: true, entryUrl: "https://kcna.test/", strategy: "html", schedule: "daily", robotsPolicy: "respect" },
-    },
-    {
-      id: "rodong-sinmun",
-      name: "로동신문",
-      sourceType: "official_site",
-      baseUrl: "https://rodong.test/",
-      languages: ["ko"],
-      mediaTypes: ["article", "image"],
-      aliases: [],
-      searchTabs: [],
-      crawler: { enabled: true, entryUrl: "https://rodong.test/", strategy: "html", schedule: "daily", robotsPolicy: "respect" },
-    },
-    {
-      id: "other",
-      name: "기타 출처",
-      sourceType: "official_site",
-      baseUrl: "https://other.test/",
-      languages: ["ko"],
-      mediaTypes: ["article"],
-      aliases: [],
-      searchTabs: [],
-      crawler: { enabled: true, entryUrl: "https://other.test/", strategy: "html", schedule: "manual", robotsPolicy: "respect" },
-    },
-  ];
-  const health = {
-    generatedAt: "2026-08-20T00:00:00.000Z",
-    summary: {
-      totalSources: 3,
-      searchableSources: 3,
-      healthySources: 3,
-      warningSources: 0,
-      unreachableSources: 0,
-      totalDocuments: 3,
-    },
-    sources: sources.map((source) => ({
-      sourceId: source.id,
-      sourceName: source.name,
-      indexedDocuments: 1,
-      status: "indexed",
-    })),
-  };
-  const snapshot = buildSnapshot(documents);
-  await Promise.all([
-    fs.mkdir(path.join(rootDir, "scripts"), { recursive: true }),
-    fs.mkdir(path.join(rootDir, "search"), { recursive: true }),
-    fs.mkdir(path.join(rootDir, "data/search"), { recursive: true }),
-  ]);
-  await Promise.all([
-    fs.writeFile(path.join(rootDir, "package.json"), '{"private":true,"type":"module"}\n', "utf8"),
-    fs.writeFile(path.join(rootDir, "scripts/generate-news-feed.ts"), "// test fixture generator\n", "utf8"),
-    fs.writeFile(path.join(rootDir, "data/search/documents.jsonl"), jsonl(documents), "utf8"),
-    fs.writeFile(path.join(rootDir, "data/search/sources.json"), `${JSON.stringify(sources, null, 2)}\n`, "utf8"),
-    fs.writeFile(path.join(rootDir, "data/search/source-health.json"), `${JSON.stringify(health, null, 2)}\n`, "utf8"),
-    fs.writeFile(path.join(rootDir, "data/news-feed.json"), snapshot.feedText, "utf8"),
-    fs.writeFile(path.join(rootDir, "data/news-details.json"), snapshot.detailsText, "utf8"),
-  ]);
-  return { documents };
-}
-
-async function writeGeneratedSnapshot(cwd) {
-  const text = await fs.readFile(path.join(cwd, "data/search/documents.jsonl"), "utf8");
-  const documents = text.trim().split("\n").filter(Boolean).map((line) => JSON.parse(line));
-  const snapshot = buildSnapshot(documents);
-  await fs.mkdir(path.join(cwd, "data"), { recursive: true });
-  await Promise.all([
-    fs.writeFile(path.join(cwd, "data/news-feed.json"), snapshot.feedText, "utf8"),
-    fs.writeFile(path.join(cwd, "data/news-details.json"), snapshot.detailsText, "utf8"),
-  ]);
-}
-
-async function testQualityMergeAndSourceIsolation() {
-  const existingKcna = makeDocument({
-    id: "kcna-existing",
-    cachedUrl: "/data/search/assets/kcna/article.html",
-    cachedThumbnailUrl: "/data/search/assets/kcna/photo.jpg",
+    documents: nested.documents,
   });
-  const existingRodong = makeDocument({ id: "rodong-existing", sourceId: "rodong-sinmun" });
-  const incomingThinReplacement = {
-    ...existingKcna,
-    snippet: "짧은 요약",
-    body: "제목과 목록만 있는 짧은 본문",
-    cachedUrl: "",
-    cachedThumbnailUrl: "",
-  };
-  const validNew = makeDocument({ id: "kcna-new", date: "2026-08-21" });
-  const invalidDate = makeDocument({ id: "kcna-invalid-date", date: "2026-02-30" });
-  const thinNew = makeDocument({ id: "kcna-thin", body: "짧은 목록 본문" });
-  const failedSourceNew = makeDocument({ id: "rodong-untrusted", sourceId: "rodong-sinmun", date: "2026-08-21" });
-  const result = mergeNewsMirrorDocuments({
-    existingDocuments: [existingKcna, existingRodong],
-    importedDocuments: [incomingThinReplacement, validNew, invalidDate, thinNew, existingRodong, failedSourceNew],
-    importReport: {
-      preservedSourceIds: ["rodong-sinmun"],
-      reports: [
-        makeReport("kcna", { indexed: 4 }),
-        makeReport("rodong-sinmun", { timedOut: true, errors: ["network timeout"] }),
-      ],
-    },
-    now: TEST_NOW,
-  });
-
-  const mergedExisting = result.documents.find((document) => document.id === existingKcna.id);
-  assert.equal(mergedExisting.body, existingKcna.body, "a thin refresh body must not replace the richer body");
-  assert.equal(mergedExisting.cachedUrl, existingKcna.cachedUrl, "cached article URL must be preserved");
-  assert.equal(mergedExisting.cachedThumbnailUrl, existingKcna.cachedThumbnailUrl, "cached image URL must be preserved");
-  assert.ok(result.documents.some((document) => document.id === validNew.id), "a valid new article should be appended");
-  assert.ok(!result.documents.some((document) => document.id === invalidDate.id), "an impossible explicit date must be rejected");
-  assert.ok(!result.documents.some((document) => document.id === thinNew.id), "a thin listing body must be rejected");
-  assert.ok(!result.documents.some((document) => document.id === failedSourceNew.id), "a failed source must not append new records");
-  assert.deepEqual(
-    result.documents.filter((document) => document.sourceId === "rodong-sinmun"),
-    [existingRodong],
-    "the failed source must remain byte-serializable from its original objects",
-  );
-  assert.equal(result.sourceResults.find((source) => source.sourceId === "rodong-sinmun").status, "preserved");
-
-  const partialRodongDocuments = Array.from({ length: 12 }, (_, index) => makeDocument({
-    id: `rodong-partial-${index}`,
-    sourceId: "rodong-sinmun",
-    date: index === 0 ? "2026-08-18" : "2026-08-17",
-  }));
-  assert.equal(hasUsableTimedOutSourceOutput(partialRodongDocuments, {
-    indexed: partialRodongDocuments.length,
-    now: TEST_NOW,
-  }), true, "a substantial, current timed-out crawl should be usable");
-  const staleExistingRodong = makeDocument({
-    id: "rodong-existing-stale",
-    sourceId: "rodong-sinmun",
-    date: "2026-05-19",
-  });
-  const partialResult = mergeNewsMirrorDocuments({
-    existingDocuments: [existingKcna, staleExistingRodong],
-    importedDocuments: [existingKcna, ...partialRodongDocuments],
-    importReport: {
-      preservedSourceIds: ["rodong-sinmun"],
-      reports: [
-        makeReport("kcna"),
-        makeReport("rodong-sinmun", {
-          fetched: partialRodongDocuments.length,
-          indexed: partialRodongDocuments.length,
-          timedOut: true,
-          errors: ["source time budget exceeded"],
-        }),
-      ],
-    },
-    now: TEST_NOW,
-  });
-  assert.equal(partialResult.sourceResults.find((source) => source.sourceId === "rodong-sinmun").status, "accepted");
-  assert.ok(partialResult.documents.some((document) => document.id === "rodong-partial-0"));
-}
-
-function testDateAndBodyGates() {
-  assert.equal(isValidExplicitDocumentDate("2026-02-29", { now: TEST_NOW }), false);
-  assert.equal(isValidExplicitDocumentDate("2026-08-22", { now: TEST_NOW }), true);
-  assert.equal(isValidExplicitDocumentDate("2026-08-23", { now: TEST_NOW }), false);
-  assert.equal(hasSubstantialArticleBody(makeDocument({ id: "body-check" })), true);
-  assert.equal(hasSubstantialArticleBody(makeDocument({ id: "listing", body: "오늘호 기사 분야별기사 검색 결과" })), false);
-
-  const existing = makeDocument({ id: "kcna-newest", date: "2026-08-20" });
-  const regression = mergeNewsMirrorDocuments({
-    existingDocuments: [existing],
-    importedDocuments: [makeDocument({ id: "kcna-older", date: "2026-08-19" })],
-    importReport: { reports: [makeReport("kcna"), makeReport("rodong-sinmun")] },
-    now: TEST_NOW,
-  });
-  const result = regression.sourceResults.find((source) => source.sourceId === "kcna");
-  assert.equal(result.status, "preserved");
-  assert.match(result.reason, /regressed/u);
-  assert.deepEqual(regression.documents, [existing]);
-}
-
-function testRodongDirectArticlePreservesFullBodyAndExplicitDate() {
-  const source = SEARCH_SOURCES.find((candidate) => candidate.id === "rodong-sinmun");
-  assert.ok(source, "the Rodong source configuration must exist");
-  const paragraph = "생산현장에서는 새로운 설비를 도입하고 공정별 기술지표를 높이기 위한 사업을 힘있게 추진하고있다.";
-  const paragraphs = Array.from({ length: 24 }, (_, index) => (
-    `<p class="TextP">${index + 1}. ${paragraph}</p>`
-  )).join("");
-  const datedUrl = `http://www.rodong.rep.kp/ko/index.php?${Buffer.from("8@2026-08-20-001@fixture").toString("base64")}`;
-  const datedHtml = `<html><body>
-    <div id="article-homepage">2026년 8월 20일</div>
-    <p class="TitleP">새 설비도입과 생산공정의 현대화를 힘있게</p>
-    ${paragraphs}
-    <p class="WriterP">본사기자</p>
-  </body></html>`;
-  const document = extractDocumentFromHtml(datedHtml, datedUrl, source, {});
-  assert.ok(document, "a structured Rodong detail page should be indexed");
-  assert.equal(document.date, "2026-08-20");
-  assert.equal(document.body.length > 900, true, "the former 900-character truncation must not return");
-  assert.match(document.body, /24\. 생산현장/u, "the last source paragraph must survive direct extraction");
-  assert.match(document.body, /본사기자/u, "the source writer line must survive direct extraction");
-
-  const undatedUrl = "http://www.rodong.rep.kp/ko/index.php?OEA=";
-  const undated = extractDocumentFromHtml(
-    datedHtml.replace("<div id=\"article-homepage\">2026년 8월 20일</div>", ""),
-    undatedUrl,
-    source,
-    {},
-  );
-  assert.ok(undated);
-  assert.equal(undated.date, "", "a missing official date must not be replaced with the crawl date");
-}
-
-function testUnknownFieldsSurviveQualityMerge() {
-  const existing = { ...makeDocument({ id: "kcna-fields" }), importerMetadata: { kept: true } };
-  const incoming = { ...existing, body: `${SUBSTANTIAL_BODY}\n${SUBSTANTIAL_BODY}`, importerMetadata: undefined };
-  const merged = mergeDocumentQuality(existing, incoming);
-  assert.deepEqual(merged.importerMetadata, existing.importerMetadata);
-  assert.equal(merged.body, incoming.body);
-
-  const chrome = mergeDocumentQuality(existing, {
-    ...incoming,
-    body: "오늘호 기사 분야별기사 검색 결과 ".repeat(1000),
-  });
-  assert.equal(chrome.body, existing.body, "even a very long listing body must not replace a substantial article body");
-}
-
-function testKcnaVideoListingThumbnailPreserved() {
-  const source = SEARCH_SOURCES.find((candidate) => candidate.id === "kcna");
-  assert.ok(source);
-  const jpeg = Buffer.from("/9j/4AAQSkZJRg==", "base64");
-  const listingThumbnail = `data:;base64,${jpeg.toString("base64")}`;
-  const detailUrl = "http://www.kcna.kp/kp/video/detail/fixture";
-  const entries = discoverLinkEntries(`<!doctype html><html><body>
-    <div class="thumb-img"><a href="${detailUrl}"><img alt="당면한 영농작업을 과학기술적으로 진행" src="${listingThumbnail}"></a></div>
-    <div class="video-title"><a href="${detailUrl}">당면한 영농작업을 과학기술적으로 진행</a><span>[2026.8.21.]</span></div>
-  </body></html>`, "http://www.kcna.kp/kp/video/list/fixture", source);
-  assert.equal(entries.length, 1);
-  assert.equal(entries[0].thumbnailUrl, listingThumbnail, "duplicate KCNA video links must retain the image-card thumbnail");
-  const document = extractDocumentFromHtml(`<!doctype html><html><head>
-    <title>조선중앙통신 | 동화상 | 당면한 영농작업을 과학기술적으로 진행</title>
-    <meta name="description" content="당면한 영농작업을 과학기술적으로 진행하는 소식을 전한다.">
-  </head><body><main>
-    <h1>당면한 영농작업을 과학기술적으로 진행</h1>
-    <p>당면한 영농작업을 과학기술적으로 진행하는 현장의 동화상 자료이다.</p>
-    <video><source src="/kp/video/stream/fixture" type="video/mp4"></video>
-  </main></body></html>`, detailUrl, source, entries[0]);
-  assert.ok(document);
-  assert.equal(document.mediaType, "video");
-  assert.equal(
-    document.thumbnailUrl,
-    listingThumbnail,
-    "KCNA video details must retain the listing data thumbnail until static enrichment",
-  );
-}
-
-function testKcnaDirectDatelineBeatsListingDate() {
-  const source = SEARCH_SOURCES.find((candidate) => candidate.id === "kcna");
-  assert.ok(source);
-  const document = extractDocumentFromHtml(`<!doctype html><html><head>
-    <title>조선중앙통신 | 로씨야 서방의 국가테로행위를 규탄</title>
-    <meta name="description" content="로씨야가 서방의 국가테로행위를 규탄하였다.">
-  </head><body><main>
-    <h1>로씨야 서방의 국가테로행위를 규탄</h1>
-    <p>(모스크바 8월 19일발 조선중앙통신)</p>
-    <p>로씨야외무상이 기자회견에서 서방의 국가테로행위를 규탄하면서 구체적인 사실자료를 밝혔다.</p>
-  </main></body></html>`, "http://www.kcna.kp/kp/article/detail/fixture", source, {
-    date: "2026-08-20",
-  });
-  assert.ok(document);
-  assert.equal(document.date, "2026-08-19", "KCNA direct article datelines must beat the listing publication date");
-}
-
-async function testInlineImageHook() {
-  const article = makeDocument({
-    id: "kcna-inline",
-    cachedThumbnailUrl: "/data/search/assets/kcna/existing-lead.png",
-  });
-  const video = {
-    ...makeDocument({ id: "kcna-video", mediaType: "video" }),
-    url: "https://kcna.test/video/kcna-video.mp4",
-    archiveUrl: "https://kcna.test/gallery/detail/kcna-video",
-  };
-  const result = await enrichCandidateWithInlineImages({
-    documents: [article, video],
-    healthySourceIds: new Set(["kcna"]),
-    stagedAssetDir: path.join(os.tmpdir(), "unused-news-assets"),
-    helper: {
-      async enrichNewsArticleWithInlineImages({ article: input }) {
-        const imageDocument = makeDocument({ id: `${input.id}-image`, mediaType: "image" });
-        return {
-          article: { ...input, cachedThumbnailUrl: "/data/search/assets/kcna/hash.png" },
-          imageDocuments: [{
-            ...imageDocument,
-            url: input.url,
-            archiveUrl: input.url,
-            cachedUrl: "/data/search/assets/kcna/hash.png",
-            cachedThumbnailUrl: "/data/search/assets/kcna/hash.png",
-          }],
-          images: [{ publicUrl: "/data/search/assets/kcna/hash.png" }],
-        };
-      },
-    },
-    fetchHtmlImpl: async () => "<main><p>article</p></main>",
-  });
-  assert.equal(
-    result.documents.find((document) => document.id === article.id).cachedThumbnailUrl,
-    article.cachedThumbnailUrl,
-    "an existing lead image remains preferred while the full gallery is added",
-  );
-  assert.ok(result.documents.some((document) => document.id === `${article.id}-image`));
-  assert.ok(result.documents.some((document) => document.id === `${video.id}-image`));
-  assert.equal(result.report.mirroredImages, 2);
-  assert.equal(result.report.fetchedArticles, 2);
-  assert.equal(result.report.completedDetails, 2);
-  assert.deepEqual(
-    assertMirroredPreviewCoverage(result.documents, {
-      sourceIds: new Set(["kcna"]),
-      minimumCounts: { kcna: 2 },
-    }),
-    [{ sourceId: "kcna", previewCount: 2, minimum: 2 }],
-  );
-
-  const rodongPreviewDocuments = Array.from({ length: 5 }, (_, index) => makeDocument({
-    id: `rodong-preview-${index}`,
-    sourceId: "rodong-sinmun",
-    cachedThumbnailUrl: `/data/search/assets/rodong-sinmun/${String(index).padStart(64, "a")}.jpg`,
-  }));
-  assert.equal(
-    assertMirroredPreviewCoverage(rodongPreviewDocuments, { sourceIds: new Set(["rodong-sinmun"]) })[0].previewCount,
-    5,
-  );
-  assert.throws(
-    () => assertMirroredPreviewCoverage(rodongPreviewDocuments.slice(0, 4), { sourceIds: new Set(["rodong-sinmun"]) }),
-    /at least 5 are required/u,
-  );
-
   await assert.rejects(
-    enrichCandidateWithInlineImages({
-      documents: [article],
-      healthySourceIds: new Set(["kcna"]),
-      stagedAssetDir: path.join(os.tmpdir(), "unused-news-assets"),
-      helper: { enrichNewsArticleWithInlineImages: async () => ({ article }) },
-      fetchHtmlImpl: async () => { throw new Error("blocked upstream"); },
-    }),
-    /could not fetch any kcna article HTML/u,
-  );
-
-  const missingPath = path.join(os.tmpdir(), `missing-news-image-helper-${process.pid}.ts`);
-  assert.equal(await loadNewsInlineImageHelper(missingPath), null);
-  await assert.rejects(loadNewsInlineImageHelper(missingPath, { required: true }), /helper is missing/u);
-}
-
-async function testHtmlFallbackAndRemoteImageMaterialization() {
-  const calls = [];
-  const html = await fetchArticleHtml("https://kcna.test/article/fallback", {
-    fetchImpl: async (url, options) => {
-      calls.push({ url: String(url), headers: options.headers });
-      if (calls.length === 1) throw new Error("official host unavailable");
-      return new Response('<main><img src="/photo/hash"></main>', {
-        status: 200,
-        headers: { "content-type": "text/html; charset=utf-8" },
-      });
-    },
-  });
-  assert.match(html, /\/photo\/hash/u);
-  assert.equal(calls[1].url, "https://r.jina.ai/https://kcna.test/article/fallback");
-  assert.equal(calls[1].headers["X-Return-Format"], "html");
-
-  const png = Buffer.from("iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=", "base64");
-  const jpeg = Buffer.from("/9j/4AAQSkZJRg==", "base64");
-  const materialized = await inlineSameOriginRemoteImages({
-    html: '<main><img src="/photo/hash"><img src="/assets/logo.png"><img src="blob:forbidden"><img src="https://outside.test/photo"></main>',
-    documentUrl: "https://kcna.test/gallery/detail/example",
-    fetchImageImpl: async (url, options) => {
-      assert.equal(url, "https://kcna.test/photo/hash");
-      assert.equal(options.referer, "https://kcna.test/gallery/detail/example");
-      return jpeg;
-    },
-  });
-  assert.equal(materialized.inlined, 1);
-  assert.match(materialized.html, /data:;base64,/u);
-  assert.match(materialized.html, /blob:forbidden/u, "blob URLs are never fetched or materialized");
-  assert.match(materialized.html, /https:\/\/outside\.test\/photo/u, "cross-origin images are never fetched");
-
-  const kcnaPhotoRequests = [];
-  const mirroredJpeg = await fetchRemoteImageBytes("https://kcna.test/photo/hash", {
-    referer: "https://kcna.test/gallery/detail/example",
-    fetchImpl: async (url, options) => {
-      kcnaPhotoRequests.push({ url: String(url), referer: options.headers.Referer || "" });
-      return new Response(jpeg, { status: 200 });
-    },
-  });
-  assert.deepEqual(mirroredJpeg, jpeg);
-  assert.deepEqual(kcnaPhotoRequests, [{
-    url: "https://kcna.test/photo/hash",
-    referer: "https://kcna.test/gallery/detail/example",
-  }], "KCNA gallery JPEG requests should carry their same-origin detail URL as Referer");
-
-  await fetchRemoteImageBytes("https://kcna.test/photo/hash", {
-    referer: "https://outside.test/gallery/detail/example",
-    fetchImpl: async (_url, options) => {
-      assert.equal(options.headers.Referer, undefined, "cross-origin Referer values must be discarded");
-      return new Response(png, { status: 200 });
-    },
-  });
-
-  let fallbackReferer = "";
-  const fallbackServer = http.createServer((request, response) => {
-    if (request.url === "/redirect") {
-      response.writeHead(302, { Location: "/photo" });
-      response.end();
-      return;
-    }
-    if (request.url === "/too-large") {
-      response.writeHead(200, { "Content-Length": "1024" });
-      response.end(Buffer.alloc(1024));
-      return;
-    }
-    if (request.url === "/empty") {
-      response.writeHead(200, { "Content-Length": "0" });
-      response.end();
-      return;
-    }
-    fallbackReferer = String(request.headers.referer || "");
-    response.writeHead(200, { "Content-Length": String(jpeg.byteLength) });
-    response.end(jpeg);
-  });
-  await new Promise((resolve, reject) => {
-    fallbackServer.once("error", reject);
-    fallbackServer.listen(0, "127.0.0.1", resolve);
-  });
-  const fallbackAddress = fallbackServer.address();
-  const fallbackBaseUrl = `http://127.0.0.1:${fallbackAddress.port}`;
-  try {
-    const fallbackBytes = await fetchRemoteImageBytes(`${fallbackBaseUrl}/photo`, {
-      referer: `${fallbackBaseUrl}/gallery/detail/example`,
-      fetchImpl: async () => new Response(Buffer.alloc(0), { status: 200 }),
-    });
-    assert.deepEqual(fallbackBytes, jpeg);
-    assert.equal(fallbackReferer, `${fallbackBaseUrl}/gallery/detail/example`, "an undici 200/empty response must fall back to Node direct");
-    await assert.rejects(
-      fetchRemoteImageBytes(`${fallbackBaseUrl}/redirect`, {
-        fetchImpl: async () => { throw new Error("forced undici failure"); },
-      }),
-      /HTTP 302/u,
-      "the Node direct fallback must reject redirects",
-    );
-    await assert.rejects(
-      fetchRemoteImageBytes(`${fallbackBaseUrl}/too-large`, {
-        maxBytes: 16,
-        fetchImpl: async () => { throw new Error("forced undici failure"); },
-      }),
-      /exceeds 16 bytes/u,
-      "the Node direct fallback must reject an oversized Content-Length before buffering",
-    );
-    await assert.rejects(
-      fetchRemoteImageBytes(`${fallbackBaseUrl}/empty`, {
-        fetchImpl: async () => new Response(Buffer.alloc(0), { status: 200 }),
-      }),
-      /remote image response was empty/u,
-      "empty bodies must fail in both binary fetch paths",
-    );
-    await assert.rejects(
-      fetchRemoteImageBytes(`http://user:password@127.0.0.1:${fallbackAddress.port}/photo`, {
-        fetchImpl: async () => { throw new Error("forced undici failure"); },
-      }),
-      /credential-free http or https/u,
-    );
-  } finally {
-    await new Promise((resolve) => fallbackServer.close(resolve));
-  }
-}
-
-function testFreshnessGate() {
-  const fresh = [
-    makeDocument({ id: "fresh-kcna", date: "2026-08-18" }),
-    makeDocument({ id: "fresh-rodong", sourceId: "rodong-sinmun", date: "2026-08-17" }),
-  ];
-  assert.deepEqual(
-    assertFreshNewsSources(fresh, { now: TEST_NOW, maxAgeDays: 4 }).map((result) => result.ageDays),
-    [3, 4],
-  );
-  assert.throws(
-    () => assertFreshNewsSources([
-      fresh[0],
-      makeDocument({ id: "stale-rodong", sourceId: "rodong-sinmun", date: "2026-08-16" }),
-    ], { now: TEST_NOW, maxAgeDays: 4 }),
-    /News mirror is stale for rodong-sinmun/u,
-  );
-}
-
-function testKcnaDesignCategoryGate() {
-  const requirements = {
-    leadership: { mediaType: "article", count: 2 },
-    photo: { mediaType: "image", count: 1 },
-    video: { mediaType: "video", count: 1 },
-  };
-  const records = [
-    makeDocument({ id: "kcna-leadership-1" }),
-    makeDocument({ id: "kcna-leadership-2" }),
-    makeDocument({ id: "kcna-photo", mediaType: "image" }),
-    makeDocument({ id: "kcna-video-gate", mediaType: "video" }),
-  ];
-  records[0].aliases = ["news-category:leadership"];
-  records[1].aliases = ["news-category:leadership"];
-  records[2].aliases = ["news-category:photo"];
-  records[3].aliases = ["news-category:video"];
-  records[2].cachedThumbnailUrl = `/data/search/assets/kcna/${"b".repeat(64)}.jpg`;
-  records[3].cachedThumbnailUrl = `/data/search/assets/kcna/${"c".repeat(64)}.jpg`;
-  assert.equal(assertKcnaDesignCategoryCoverage(records, { requirements }).length, 3);
-  assert.throws(
-    () => assertKcnaDesignCategoryCoverage(records.slice(0, -1), { requirements }),
-    /0\/1 KCNA video video/u,
-  );
-  assert.equal(
-    assertKcnaMediaPreviewCoverage(records, { requirements: { photo: 1, video: 1 } }).length,
-    2,
-  );
-  assert.throws(
-    () => assertKcnaMediaPreviewCoverage(records, { requirements: { photo: 2, video: 1 } }),
-    /photo has only 1\/2/u,
-  );
-}
-
-async function testTransactionalRefresh({ failPromotion = false } = {}) {
-  const rootDir = await fs.mkdtemp(path.join(os.tmpdir(), "nkarchive-news-refresh-test-"));
-  try {
-    const fixture = await writeFixtureRepository(rootDir);
-    const originalDocumentsText = await fs.readFile(path.join(rootDir, "data/search/documents.jsonl"), "utf8");
-    const originalHealthText = await fs.readFile(path.join(rootDir, "data/search/source-health.json"), "utf8");
-    const originalFeedText = await fs.readFile(path.join(rootDir, "data/news-feed.json"), "utf8");
-    const originalDetailsText = await fs.readFile(path.join(rootDir, "data/news-details.json"), "utf8");
-    let importerSawFullSeed = false;
-    let importerSawIsolatedNewsSeed = false;
-    const runImporterImpl = async ({ outputPath, reportPath }) => {
-      const seeded = (await fs.readFile(outputPath, "utf8")).trim().split("\n").filter(Boolean).map((line) => JSON.parse(line));
-      importerSawFullSeed = seeded.length === fixture.documents.length;
-      const originalIds = new Set(fixture.documents.map((document) => document.id));
-      importerSawIsolatedNewsSeed = seeded
-        .filter((document) => ["kcna", "rodong-sinmun"].includes(document.sourceId))
-        .every((document) => !originalIds.has(document.id) && document.id.startsWith("__news_refresh_seed_v1__"));
-      const imported = [
-        ...seeded,
-        makeDocument({ id: "kcna-new", date: "2026-08-21" }),
-        makeDocument({ id: "rodong-failed-new", sourceId: "rodong-sinmun", date: "2026-08-21" }),
-      ];
-      await fs.writeFile(outputPath, jsonl(imported), "utf8");
-      await fs.writeFile(reportPath, `${JSON.stringify({
-        preservedSourceIds: ["rodong-sinmun"],
-        reports: [
-          makeReport("kcna", { indexed: 2 }),
-          makeReport("rodong-sinmun", { timedOut: true, errors: ["timeout"] }),
-        ],
-      })}\n`, "utf8");
-    };
-    const runCommandImpl = async (command, args, { cwd }) => {
-      if (command === process.execPath) {
-        await writeGeneratedSnapshot(cwd);
-        return { code: 0 };
-      }
-      assert.equal(command, "npm");
-      assert.deepEqual(args, ["run", "generate:news"]);
-      if (failPromotion) return { code: 1 };
-      await writeGeneratedSnapshot(cwd);
-      return { code: 0 };
-    };
-
-    if (failPromotion) {
-      await assert.rejects(
-        refreshNewsMirror({ rootDir, runImporterImpl, runCommandImpl, now: TEST_NOW, categoryRequirements: {} }),
-        /generation failed after document promotion/u,
-      );
-      assert.equal(await fs.readFile(path.join(rootDir, "data/search/documents.jsonl"), "utf8"), originalDocumentsText);
-      assert.equal(await fs.readFile(path.join(rootDir, "data/search/source-health.json"), "utf8"), originalHealthText);
-      assert.equal(await fs.readFile(path.join(rootDir, "data/news-feed.json"), "utf8"), originalFeedText);
-      assert.equal(await fs.readFile(path.join(rootDir, "data/news-details.json"), "utf8"), originalDetailsText);
-      return;
-    }
-
-    const result = await refreshNewsMirror({
+    refreshNewsMirror({
       rootDir,
-      runImporterImpl,
-      runCommandImpl,
-      now: TEST_NOW,
-      categoryRequirements: {},
-    });
-    assert.equal(importerSawFullSeed, true, "the importer must be seeded with the complete current document corpus");
-    assert.equal(importerSawIsolatedNewsSeed, true, "seed IDs must be distinguishable from genuinely crawled IDs");
-    assert.equal(result.promoted, true);
-    const promotedText = await fs.readFile(path.join(rootDir, "data/search/documents.jsonl"), "utf8");
-    const promoted = promotedText.trim().split("\n").filter(Boolean).map((line) => JSON.parse(line));
-    assert.ok(promoted.some((document) => document.id === "kcna-new"));
-    assert.ok(!promoted.some((document) => document.id === "rodong-failed-new"));
-    assert.equal(
-      lineForSource(promotedText, "rodong-sinmun"),
-      lineForSource(originalDocumentsText, "rodong-sinmun"),
-      "a failed source row must remain byte-identical",
-    );
-  } finally {
-    await fs.rm(rootDir, { recursive: true, force: true });
+      now: "2026-08-22T12:00:00Z",
+      maxAgeDays: 4,
+      kcna: false,
+      crawlImpl: sparseCrawlImpl,
+    }),
+    /rodong-sinmun\/leadership 0\/6/u,
+    "a fresh Rodong head must not hide an empty official category crawl",
+  );
+  const reportPath = path.join(rootDir, "report.json");
+  const existingOrphanPath = path.join(rootDir, "data/news/assets/rodong-sinmun", `${existingOrphanHash}.jpg`);
+  await fs.mkdir(path.dirname(existingOrphanPath), { recursive: true });
+  await fs.writeFile(existingOrphanPath, existingOrphanBytes);
+  const legacyUnclassified = canonicalizeNewsDocument({
+    schemaVersion: NEWS_DOCUMENT_SCHEMA_VERSION,
+    id: "news:rodong-sinmun:legacy-unclassified",
+    sourceId: "rodong-sinmun",
+    sourceName: "로동신문",
+    language: "ko",
+    mediaType: "article",
+    title: "이전 검색 결과에서 넘어온 무분류 기사",
+    date: "2026-08-20",
+    url: "http://www.rodong.rep.kp/ko/index.php?legacy-unclassified",
+    snippet: "공식 분류가 없어 새 뉴스 미러에서는 제거해야 하는 기사이다.",
+    body: "공식 분류가 없어 새 뉴스 미러에서는 제거해야 하는 기사이다.",
+    categories: [],
+    cachedThumbnailUrl: `/data/news/assets/rodong-sinmun/${existingOrphanHash}.jpg`,
+  });
+  const documentsPath = path.join(rootDir, "data/news/documents.jsonl");
+  await fs.mkdir(path.dirname(documentsPath), { recursive: true });
+  await fs.writeFile(documentsPath, stringifyNewsDocumentsJsonl([legacyUnclassified]), "utf8");
+  const result = await refreshNewsMirror({
+    rootDir,
+    now: "2026-08-22T12:00:00Z",
+    maxAgeDays: 4,
+    kcna: false,
+    crawlImpl,
+    reportPath,
+  });
+  assert.equal(result.report.status, "success");
+  assert.equal(result.report.promoted, true);
+  assert.equal(result.report.assets.copied, 1);
+  assert.equal(result.report.assets.removed, 1);
+  assert.equal(result.report.merge.removedUnclassified, 1);
+  assert.deepEqual(result.report.assets.removedFiles, [`rodong-sinmun/${existingOrphanHash}.jpg`]);
+  assert.equal(result.documents.some((document) => document.id === legacyUnclassified.id), false);
+  const rodongFeed = result.snapshot.feed.sources["rodong-sinmun"].articles;
+  assert.equal(rodongFeed.some((article) => article.cachedThumbnailUrl === fixtureAsset), true);
+  assert.equal(rodongFeed.filter((article) => article.featuredSections.includes("leadership")).length, 6);
+  assert.equal(rodongFeed.filter((article) => article.featuredSections.includes("video")).length, 6);
+  assert.equal(rodongFeed.filter((article) => article.featuredSections.includes("social")).length, 4);
+  assert.equal(JSON.parse(await fs.readFile(reportPath, "utf8")).status, "success");
+  await fs.access(path.join(rootDir, fixtureAsset));
+  await assert.rejects(fs.access(existingOrphanPath), { code: "ENOENT" });
+  await assert.rejects(
+    fs.access(path.join(rootDir, "data/news/assets/rodong-sinmun", `${stagedOrphanHash}.jpg`)),
+    { code: "ENOENT" },
+  );
+  await fs.access(path.join(rootDir, "data/news/documents.jsonl"));
+  await fs.access(path.join(rootDir, "data/news-feed.json"));
+  await fs.access(path.join(rootDir, "data/news-details.json"));
+
+  const before = await fs.readFile(path.join(rootDir, "data/news/documents.jsonl"), "utf8");
+  await assert.rejects(
+    refreshNewsMirror({
+      rootDir,
+      now: "2026-08-30T00:00:00Z",
+      maxAgeDays: 1,
+      kcna: false,
+      crawlImpl,
+    }),
+    /stale/u,
+  );
+  assert.equal(await fs.readFile(path.join(rootDir, "data/news/documents.jsonl"), "utf8"), before);
+} finally {
+  await fs.rm(rootDir, { recursive: true, force: true });
+}
+
+function createCompleteRodongFixtureDocuments() {
+  const quotas = {
+    leadership: 6,
+    important: 2,
+    anecdote: 5,
+    domestic: 5,
+    memory: 5,
+    // The official live category-7 index currently declares only four records.
+    social: 4,
+    photo: 2,
+    video: 6,
+  };
+  const output = [];
+  let sequence = 0;
+  for (const [categoryId, count] of Object.entries(quotas)) {
+    for (let index = 0; index < count; index += 1) {
+      sequence += 1;
+      const suffix = createHash("sha256").update(`${categoryId}:${index}`).digest("hex").slice(0, 24);
+      const hasImage = categoryId === "photo";
+      output.push({
+        id: `news:rodong-sinmun:${suffix}`,
+        sourceId: "rodong-sinmun",
+        sourceName: "로동신문",
+        category: { id: categoryId, label: categoryId },
+        categories: [categoryId],
+        kind: categoryId === "photo" ? "photo" : categoryId === "video" ? "video" : "article",
+        title: `${categoryId} 공식 분류 기사 ${index + 1}`,
+        date: "2026-08-22",
+        url: `http://www.rodong.rep.kp/ko/index.php?fixture-${sequence}`,
+        body: `${categoryId} 공식 분류에서 직접 수집한 시험 기사 본문이다.`,
+        thumbnailUrl: hasImage ? fixtureAsset : "",
+        images: hasImage
+          ? [{ sha256: fixtureHash, cachedUrl: fixtureAsset, originalUrl: "", role: "inline" }]
+          : [],
+      });
+    }
   }
+  return output;
 }
 
-async function main() {
-  await testQualityMergeAndSourceIsolation();
-  testDateAndBodyGates();
-  testRodongDirectArticlePreservesFullBodyAndExplicitDate();
-  testUnknownFieldsSurviveQualityMerge();
-  testKcnaVideoListingThumbnailPreserved();
-  testKcnaDirectDatelineBeatsListingDate();
-  await testInlineImageHook();
-  await testHtmlFallbackAndRemoteImageMaterialization();
-  testFreshnessGate();
-  testKcnaDesignCategoryGate();
-  await testTransactionalRefresh();
-  await testTransactionalRefresh({ failPromotion: true });
-  console.log("News refresh checks passed (quality merge, source isolation, inline images, transactional promotion). ");
+for (const source of [
+  await fs.readFile(new URL("./refresh-news-mirror.ts", import.meta.url), "utf8"),
+  await fs.readFile(new URL("./news-mirror-crawler.ts", import.meta.url), "utf8"),
+  await fs.readFile(new URL("./news-snapshot.ts", import.meta.url), "utf8"),
+]) {
+  assert.equal(/data\/search|\.\.\/search|api\/search|meilisearch/iu.test(source), false, "standalone news code must not depend on the search product");
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+console.log("Standalone news refresh tests passed.");

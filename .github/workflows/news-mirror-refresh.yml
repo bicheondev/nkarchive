@@ -33,10 +33,13 @@ jobs:
 
       - name: Refresh KCNA and Rodong mirror
         env:
-          DPRK_SEARCH_CRAWL_PROXY: ${{ secrets.DPRK_SEARCH_CRAWL_PROXY }}
+          DPRK_NEWS_CRAWL_PROXY: ${{ secrets.DPRK_NEWS_CRAWL_PROXY }}
         run: >-
           npm run refresh:news --
           --enrich-inline-images
+          --max-list-pages 1
+          --max-documents 96
+          --timeout-ms 120000
           --max-age-days 4
           --report "$NEWS_MIRROR_REPORT"
 
@@ -46,13 +49,7 @@ jobs:
           unexpected=0
           while IFS= read -r -d '' file; do
             case "$file" in
-              data/news-feed.json|data/news-details.json|data/search/documents.jsonl|data/search/source-health.json)
-                ;;
-              data/search/assets/kcna/*|data/search/assets/rodong-sinmun/*)
-                if [[ ! "$file" =~ ^data/search/assets/(kcna|rodong-sinmun)/[a-f0-9]{64}\.(jpg|png|gif|webp)$ ]]; then
-                  echo "Unexpected mirrored asset path: $file"
-                  unexpected=1
-                fi
+              data/news/*|data/news-feed.json|data/news-details.json)
                 ;;
               *)
                 echo "Unexpected refresh change: $file"
@@ -70,14 +67,8 @@ jobs:
             exit 1
           fi
 
-      - name: Test refresh safeguards
-        run: npm run test:news-refresh
-
-      - name: Test inline image mirroring
-        run: npm run test:news-inline-images
-
-      - name: Run complete search and news release gate
-        run: npm run ci:search
+      - name: Run standalone news release gate
+        run: npm run ci:news
 
       - name: Recheck generated paths after all gates
         shell: bash
@@ -85,13 +76,7 @@ jobs:
           unexpected=0
           while IFS= read -r -d '' file; do
             case "$file" in
-              data/news-feed.json|data/news-details.json|data/search/documents.jsonl|data/search/source-health.json)
-                ;;
-              data/search/assets/kcna/*|data/search/assets/rodong-sinmun/*)
-                if [[ ! "$file" =~ ^data/search/assets/(kcna|rodong-sinmun)/[a-f0-9]{64}\.(jpg|png|gif|webp)$ ]]; then
-                  echo "Unexpected mirrored asset path after gates: $file"
-                  unexpected=1
-                fi
+              data/news/*|data/news-feed.json|data/news-details.json)
                 ;;
               *)
                 echo "Unexpected change after gates: $file"
@@ -114,14 +99,8 @@ jobs:
         run: |
           git add -- \
             data/news-feed.json \
-            data/news-details.json \
-            data/search/documents.jsonl \
-            data/search/source-health.json
-          for directory in data/search/assets/kcna data/search/assets/rodong-sinmun; do
-            if [[ -d "$directory" ]]; then
-              git add -A -- "$directory"
-            fi
-          done
+            data/news-details.json
+          git add -A -- data/news
           if git diff --cached --quiet; then
             echo "News mirror is already current; no commit needed."
             exit 0

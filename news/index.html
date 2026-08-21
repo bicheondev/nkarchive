@@ -7,7 +7,7 @@
     <meta name="description" content="조선중앙통신과 로동신문의 기사를 학문적 목적으로 보관하는 뉴스 아카이브입니다." />
     <base href="/" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="stylesheet" href="/news/news.css?v=news-20260821-5" />
+    <link rel="stylesheet" href="/news/news.css?v=news-20260822-1" />
   </head>
   <body class="news-page news-index-page">
     <header class="news-navigation">
@@ -23,10 +23,11 @@
           <span>스토어</span>
           <a href="/live">방송</a>
         </nav>
-        <a class="news-search" href="/search" aria-label="뉴스 기사 검색">
-          <img src="/assets/news-search-list.svg?v=news-20260821-5" alt="" aria-hidden="true" />
+        <label class="news-search" aria-label="현재 뉴스 기사에서 찾기">
+          <img src="/assets/news-search-list.svg?v=news-20260822-1" alt="" aria-hidden="true" />
+          <input id="newsSearchInput" type="search" autocomplete="off" aria-label="현재 뉴스 기사에서 찾기" />
           <span class="news-search-shortcut" aria-hidden="true"><span>⌘</span><span>K</span></span>
-        </a>
+        </label>
         <button class="news-menu-toggle" id="newsMenuToggle" type="button" aria-controls="newsNavigationLinks" aria-expanded="false">메뉴</button>
       </div>
     </header>
@@ -51,6 +52,6 @@
       <p>각 기사의 저작권은 조선중앙통신 및 로동신문에게 있습니다.</p>
     </footer>
 
-    <script src="/news/news.js?v=news-20260821-5" defer></script>
+    <script src="/news/news.js?v=news-20260822-1" defer></script>
   </body>
 </html>

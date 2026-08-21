@@ -4,126 +4,99 @@
   if (!board || !sourceTabs.length) return;
 
   const FEED_URL = "/data/news-feed.json";
-  const SOURCE_STORAGE_KEY = "nkarchive-news-source";
   const SOURCE_IDS = new Set(["kcna", "rodong-sinmun"]);
-  const SECTION_COLUMNS = [
-    ["leadership", "important", "international", "photo"],
-    ["anecdote", "document", "foreign", "video"],
-    ["memory", "domestic", "social"],
-  ];
+  const SECTION_COLUMNS = {
+    kcna: [
+      ["leadership", "important", "international", "photo"],
+      ["anecdote", "document", "foreign", "video"],
+      ["memory", "domestic", "social"],
+    ],
+    "rodong-sinmun": [
+      ["leadership", "important", "photo"],
+      ["anecdote", "domestic", "video"],
+      ["memory", "social"],
+    ],
+  };
   const SECTION_DEFINITIONS = {
     kcna: {
       leadership: {
         title: "경애하는 김정은동지의 혁명활동소식",
         limit: 6,
-        patterns: [/김정은/u, /총비서/u, /원수님/u],
       },
       important: {
         title: "중요소식",
         limit: 2,
-        patterns: [/중요/u, /회의/u, /결정/u, /정령/u, /준공/u, /대회/u, /성명/u, /담화/u, /연설/u],
       },
       international: {
         title: "국제소식",
         limit: 2,
-        patterns: [/국제/u, /세계/u, /유엔/u, /유럽/u, /아시아/u, /아프리카/u, /라틴아메리카/u, /중동/u, /분쟁/u, /제재/u, /평화/u],
       },
       photo: {
         title: "사진",
         limit: 2,
         media: "image",
-        patterns: [/사진/u, /화보/u, /촬영/u],
       },
       anecdote: {
         title: "혁명일화",
         limit: 5,
-        patterns: [/사랑/u, /은정/u, /어버이/u, /현지지도/u, /찾으시/u, /참관하시/u, /방문하시/u],
       },
       document: {
         title: "문건",
         limit: 6,
-        patterns: [/성명/u, /담화/u, /공보/u, /결정/u, /정령/u, /법령/u, /문답/u, /서한/u, /축전/u, /연설/u, /보고/u],
       },
       foreign: {
         title: "대외관계",
         limit: 6,
-        patterns: [/외무/u, /대사/u, /대표단/u, /로씨야/u, /중국/u, /윁남/u, /친선/u, /축전/u, /회담/u, /특사/u, /방문/u],
       },
       video: {
         title: "동화상",
         limit: 6,
         media: "video",
-        patterns: [/동화상/u, /동영상/u, /영상/u, /록화/u, /방영/u, /텔레비죤/u],
       },
       memory: {
         title: "인민은 못 잊습니다",
         limit: 5,
-        patterns: [/추모/u, /추억/u, /기념/u, /렬사/u, /위훈/u, /궁전/u, /해방/u, /묘/u],
       },
       domestic: {
         title: "국내소식",
         limit: 5,
-        patterns: [/생산/u, /건설/u, /공장/u, /농장/u, /발전소/u, /경제/u, /전력/u, /준공/u, /과학기술/u, /혁신/u, /성과/u, /수확/u],
       },
       social: {
         title: "사회생활",
         limit: 5,
-        patterns: [/교육/u, /문화/u, /체육/u, /보건/u, /생활/u, /청년/u, /녀성/u, /학교/u, /예술/u, /공연/u, /명절/u, /아동/u],
       },
     },
     "rodong-sinmun": {
       leadership: {
         title: "경애하는 김정은동지의 혁명활동소식",
         limit: 6,
-        patterns: [/김정은/u, /총비서/u, /원수님/u, /어버이/u],
       },
-      important: { title: "오늘호 기사", limit: 2, mode: "latest-day" },
+      important: { title: "오늘호 기사", limit: 2 },
       anecdote: {
         title: "인민을 위한 정치",
         limit: 5,
-        patterns: [/인민/u, /이민위천/u, /정책/u, /당대회/u, /멸사복무/u, /복리/u, /은정/u],
-      },
-      international: {
-        title: "국제",
-        limit: 2,
-        patterns: [/국제/u, /세계/u, /유엔/u, /유럽/u, /아시아/u, /아프리카/u, /중동/u, /전쟁/u, /분쟁/u, /제재/u, /평화/u],
       },
       photo: {
         title: "사진",
         limit: 2,
         media: "image",
-        patterns: [/사진/u, /화보/u, /촬영/u],
-      },
-      document: {
-        title: "사설·론설",
-        limit: 6,
-        patterns: [/사설/u, /론설/u, /정론/u, /논평/u, /정령/u, /결정/u, /보도/u, /성명/u, /담화/u, /호소문/u],
-      },
-      foreign: {
-        title: "대외관계",
-        limit: 6,
-        patterns: [/외무/u, /대사/u, /대표단/u, /로씨야/u, /중국/u, /윁남/u, /친선/u, /축전/u, /회담/u, /특사/u, /방문/u],
       },
       video: {
-        title: "동화상",
+        title: "동영상",
         limit: 6,
         media: "video",
-        patterns: [/동화상/u, /동영상/u, /영상/u, /록화/u, /방영/u, /텔레비죤/u],
       },
       memory: {
         title: "사회문화생활",
         limit: 5,
-        patterns: [/교육/u, /문화/u, /체육/u, /보건/u, /학교/u, /청년/u, /녀성/u, /예술/u, /생활/u, /료리/u],
       },
       domestic: {
         title: "전진하는 조선",
         limit: 5,
-        patterns: [/생산/u, /건설/u, /공장/u, /농장/u, /과학기술/u, /경제/u, /전력/u, /혁신/u, /발전/u],
       },
       social: {
-        title: "유구한 력사, 찬란한 문화",
+        title: "유구한 력사,찬란한 문화",
         limit: 5,
-        patterns: [/력사/u, /유적/u, /문화유산/u, /민족/u, /고구려/u, /고려/u, /고조선/u, /발굴/u, /전통/u, /기념/u],
       },
     },
   };
@@ -191,7 +164,7 @@
   };
 
   let feed = null;
-  let activeSourceId = readStoredSource();
+  let activeSourceId = "kcna";
 
   bindChrome();
   bindSourceTabs();
@@ -216,6 +189,12 @@
   function bindChrome() {
     const toggle = document.querySelector("#newsMenuToggle");
     const navigation = document.querySelector(".news-navigation");
+    const searchInput = document.querySelector("#newsSearchInput");
+    searchInput?.addEventListener("input", () => applyNewsFilter(searchInput.value));
+    searchInput?.addEventListener("search", () => applyNewsFilter(searchInput.value));
+    if (window.location.hash === "#search") {
+      requestAnimationFrame(() => searchInput?.focus());
+    }
     toggle?.addEventListener("click", () => {
       const nextOpen = !document.body.classList.contains("news-menu-open");
       document.body.classList.toggle("news-menu-open", nextOpen);
@@ -231,12 +210,35 @@
       if (event.key === "Escape") {
         document.body.classList.remove("news-menu-open");
         toggle?.setAttribute("aria-expanded", "false");
+        if (document.activeElement === searchInput || searchInput?.value) {
+          searchInput.value = "";
+          applyNewsFilter("");
+          searchInput?.blur();
+        }
       }
       if ((event.metaKey || event.ctrlKey) && !event.altKey && event.key.toLocaleLowerCase("en-US") === "k") {
         event.preventDefault();
-        window.location.assign("/search");
+        searchInput?.focus();
+        searchInput?.select();
       }
     });
+  }
+
+  function applyNewsFilter(value) {
+    const query = normalizeFilterText(value);
+    for (const section of board.querySelectorAll(".news-section")) {
+      let visibleCount = 0;
+      for (const article of section.querySelectorAll(".news-article")) {
+        const matches = !query || normalizeFilterText(article.textContent).includes(query);
+        article.hidden = !matches;
+        if (matches) visibleCount += 1;
+      }
+      section.hidden = Boolean(query) && visibleCount === 0;
+    }
+  }
+
+  function normalizeFilterText(value) {
+    return String(value || "").normalize("NFKC").replace(/\s+/gu, " ").trim().toLocaleLowerCase("ko-KR");
   }
 
   function bindSourceTabs() {
@@ -249,7 +251,6 @@
   function selectSource(sourceId, { focus = false } = {}) {
     if (!SOURCE_IDS.has(sourceId)) return;
     activeSourceId = sourceId;
-    writeStoredSource(sourceId);
     updateTabs();
     if (feed) renderActiveSource();
     if (focus) getActiveTab()?.focus();
@@ -268,7 +269,8 @@
   function renderActiveSource() {
     const source = feed?.sources?.[activeSourceId];
     const definitions = SECTION_DEFINITIONS[activeSourceId];
-    if (!source || !Array.isArray(source.articles) || !definitions) {
+    const sectionColumns = SECTION_COLUMNS[activeSourceId];
+    if (!source || !Array.isArray(source.articles) || !definitions || !sectionColumns) {
       renderError();
       return;
     }
@@ -277,7 +279,7 @@
     grid.className = "news-board-grid";
     grid.dataset.source = activeSourceId;
 
-    SECTION_COLUMNS.forEach((sectionIds, columnIndex) => {
+    sectionColumns.forEach((sectionIds, columnIndex) => {
       const column = document.createElement("div");
       column.className = "news-column";
       column.dataset.newsColumn = String(columnIndex);
@@ -293,6 +295,7 @@
     });
 
     board.replaceChildren(grid);
+    applyNewsFilter(document.querySelector("#newsSearchInput")?.value || "");
     board.setAttribute("aria-busy", "false");
     board.setAttribute("aria-label", `${source.name} 기사`);
   }
@@ -313,16 +316,16 @@
     header.className = "news-section-header";
     rule.className = "news-section-rule";
     rule.src = columnIndex === 0
-      ? "/assets/news-section-line-453.svg?v=news-20260821-5"
-      : "/assets/news-section-line-454.svg?v=news-20260821-5";
+      ? "/assets/news-section-line-453.svg?v=news-20260822-1"
+      : "/assets/news-section-line-454.svg?v=news-20260822-1";
     rule.alt = "";
     heading.className = "news-section-heading";
     title.className = "news-section-title";
     title.textContent = section.title;
     more.className = "news-section-more";
-    more.href = createSourceBrowseHref(source.id);
+    more.href = `/news/category?source=${encodeURIComponent(source.id)}&section=${encodeURIComponent(section.id)}`;
     more.setAttribute("aria-label", `${source.name} ${section.title} 전체 기사 보기`);
-    arrow.src = "/assets/news-arrow-forward-ios.svg?v=news-20260821-5";
+    arrow.src = "/assets/news-arrow-forward-ios.svg?v=news-20260822-1";
     arrow.alt = "";
     arrow.width = 24;
     arrow.height = 24;
@@ -353,7 +356,7 @@
     link.href = article.detailUrl || `/news/document?id=${encodeURIComponent(article.id || "")}`;
     copy.className = "news-article-copy";
     title.className = "news-article-title";
-    appendHighlightedTitle(title, article.title || "기사");
+    title.textContent = article.title || "기사";
     date.className = "news-article-date";
     date.textContent = formatCompactDate(article.date);
     copy.append(title, date);
@@ -381,55 +384,32 @@
 
   function selectSectionArticles(articles, definition) {
     const sorted = [...articles].sort(compareArticlesNewestFirst);
-    if (definition.mode === "latest-day") {
-      const articleItems = sorted.filter((article) => String(article?.mediaType || "article") === "article");
-      const newestDate = articleItems[0]?.date || "";
-      return articleItems.filter((article) => article.date === newestDate).slice(0, definition.limit);
-    }
-
     const categorized = sorted.filter((article) => (
-      Array.isArray(article?.categories) && article.categories.includes(definition.category)
+      Array.isArray(article?.featuredSections) && article.featuredSections.includes(definition.category)
     ));
-    const categorizedIds = new Set(categorized.map((article) => article.id));
-    const semanticMatches = sorted.filter((article) => (
-      !categorizedIds.has(article.id) && scoreArticle(article, definition) > 0
-    ));
-    return [...categorized, ...semanticMatches].slice(0, definition.limit);
+    return categorized.slice(0, definition.limit);
   }
 
   function resolveArticleImageSources(article) {
     const sources = [];
     const cachedSource = resolveCachedImageSource(article?.cachedThumbnailUrl);
-    const originalSource = resolveOriginalImageSource(article?.thumbnailUrl);
     if (cachedSource) sources.push(cachedSource);
-    if (originalSource && !sources.includes(originalSource)) sources.push(originalSource);
     return sources;
   }
 
   function resolveCachedImageSource(value) {
     const candidate = normalizeImageCandidate(value);
     if (!candidate) return "";
-    if (/^\/(?:data\/search\/assets|cached\/search-assets|api\/search-asset)(?:\/|\?)/u.test(candidate)) {
+    if (/^\/data\/news\/assets\/(?:kcna|rodong-sinmun)\/[a-f0-9]{64}\.(?:jpg|png|gif|webp)$/u.test(candidate)) {
       return candidate;
     }
-    if (/^https:\/\//iu.test(candidate)) return candidate;
-    if (/^http:\/\//iu.test(candidate)) return createAssetProxyUrl(candidate);
     return "";
-  }
-
-  function resolveOriginalImageSource(value) {
-    const candidate = normalizeImageCandidate(value);
-    return /^https?:\/\//iu.test(candidate) ? createAssetProxyUrl(candidate) : "";
   }
 
   function normalizeImageCandidate(value) {
     const candidate = String(value || "").trim();
     if (!candidate || /\/newsf\.gif(?:$|[?#])/iu.test(candidate)) return "";
     return candidate;
-  }
-
-  function createAssetProxyUrl(value) {
-    return `/api/search-asset?url=${encodeURIComponent(value)}`;
   }
 
   function loadFirstAvailableImage(image, sources, onFailure) {
@@ -447,59 +427,9 @@
     tryNextSource();
   }
 
-  function scoreArticle(article, definition) {
-    const mediaScore = scoreArticleMedia(article, definition.media);
-    if (definition.media && mediaScore === 0) return 0;
-    if (!definition.media && String(article?.mediaType || "article") !== "article") return 0;
-    const title = String(article.title || "");
-    const snippet = String(article.snippet || "");
-    const semanticScore = (definition.patterns || []).reduce(
-      (score, pattern) => score + (pattern.test(title) ? 4 : 0) + (pattern.test(snippet) ? 1 : 0),
-      0,
-    );
-    return semanticScore + mediaScore;
-  }
-
-  function scoreArticleMedia(article, media) {
-    if (!media) return 0;
-    const mediaType = [article?.mediaType, article?.mediaKind, article?.contentType]
-      .map((value) => String(value || "").toLocaleLowerCase("en-US"))
-      .join(" ");
-    if (media === "image") {
-      const hasImageFlag = article?.isImage === true || article?.hasImage === true;
-      const hasImageType = /(?:^|[\s/_-])(?:image|photo|picture)(?:$|[\s/_-])/u.test(mediaType);
-      return hasImageFlag || hasImageType || resolveArticleImageSources(article).length ? 6 : 0;
-    }
-    if (media === "video") {
-      const hasVideoFlag = article?.isVideo === true || article?.hasVideo === true;
-      const hasVideoType = /(?:^|[\s/_-])(?:video|vod|broadcast|moving-image)(?:$|[\s/_-])/u.test(mediaType);
-      const hasVideoUrl = /^https?:\/\//iu.test(String(article?.videoUrl || "").trim());
-      return hasVideoFlag || hasVideoType || hasVideoUrl ? 6 : 0;
-    }
-    return 0;
-  }
-
   function compareArticlesNewestFirst(left, right) {
     return String(right?.date || "").localeCompare(String(left?.date || ""))
       || String(left?.id || "").localeCompare(String(right?.id || ""));
-  }
-
-  function appendHighlightedTitle(parent, value) {
-    for (const part of String(value || "").split(/(김정은)/u)) {
-      if (!part) continue;
-      if (part === "김정은") {
-        const strong = document.createElement("strong");
-        strong.textContent = part;
-        parent.append(strong);
-      } else {
-        parent.append(document.createTextNode(part));
-      }
-    }
-  }
-
-  function createSourceBrowseHref(sourceId) {
-    const params = new URLSearchParams({ source: sourceId, lang: "ko", sort: "latest" });
-    return `/search/results?${params.toString()}`;
   }
 
   function formatCompactDate(value) {
@@ -521,23 +451,6 @@
 
   function getActiveTab() {
     return sourceTabs.find((tab) => tab.dataset.newsSource === activeSourceId) || sourceTabs[0];
-  }
-
-  function readStoredSource() {
-    try {
-      const stored = localStorage.getItem(SOURCE_STORAGE_KEY);
-      return SOURCE_IDS.has(stored) ? stored : "kcna";
-    } catch {
-      return "kcna";
-    }
-  }
-
-  function writeStoredSource(sourceId) {
-    try {
-      localStorage.setItem(SOURCE_STORAGE_KEY, sourceId);
-    } catch {
-      // The in-memory selection still works when storage is unavailable.
-    }
   }
 
   function isValidFeed(value) {

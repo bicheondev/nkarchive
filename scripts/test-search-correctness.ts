@@ -568,7 +568,9 @@ async function assertDeploymentConfigIsProductionReady() {
   assert.equal(envLoaderSource.includes("override = false"), true, ".env loader should not override shell or platform environment by default");
   assert.equal(releaseSource.includes("loadDotEnvFile()"), true, "release runner should load .env before checking production environment");
   assert.equal(ciSource.includes("test:search"), true, "CI search gate should run the full correctness suite");
-  assert.equal(ciSource.includes("verify:vercel-bundle"), true, "CI search gate should verify Vercel deploy bundle contents");
+  assert.equal(ciSource.includes("verify:vercel-bundle"), false, "CI search gate should not run the cross-product Vercel bundle verifier");
+  assert.equal(ciSource.includes("generate:news"), false, "CI search gate should not generate the standalone news mirror");
+  assert.equal(ciSource.includes("test:news"), false, "CI search gate should not run standalone news tests");
   assert.equal(ciSource.includes("release:search"), true, "CI search gate should finish with the release dry run");
   assert.equal(bundleVerifierSource.includes("data/search/documents.jsonl"), true, "Vercel bundle verifier should require browser search documents in the deploy upload");
   assert.equal(bundleVerifierSource.includes("/search/results/"), true, "Vercel bundle verifier should require trailing-slash search result rewrites");
@@ -592,6 +594,7 @@ async function assertDeploymentConfigIsProductionReady() {
   assert.equal(syncSource.includes("loadDotEnvFile()"), true, "Meilisearch sync should load .env for direct operator runs");
   assert.equal(uploadSource.includes("loadDotEnvFile()"), true, "R2 asset upload should load .env for direct operator runs");
   assert.equal(importSource.includes("loadDotEnvFile()"), true, "top-level importer should load .env for crawler proxy configuration");
+  assert.equal(importSource.includes("generate:news"), false, "search imports should not regenerate the standalone news mirror");
   assert.equal(readme.includes("load `.env` automatically"), true, "README should document automatic .env loading for operational scripts");
   assert.equal(readme.includes("verify:search-production"), true, "README should document deployed-site search verification");
   assert.equal(readme.includes("ci:search"), true, "README should document the no-secret CI search gate");

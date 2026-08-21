@@ -7,7 +7,7 @@
     <meta name="description" content="조선중앙통신과 로동신문의 보관 기사입니다." />
     <base href="/" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="stylesheet" href="/news/news.css?v=news-20260821-5" />
+    <link rel="stylesheet" href="/news/news.css?v=news-20260822-1" />
   </head>
   <body class="news-page news-document-page">
     <header class="news-navigation">
@@ -23,8 +23,8 @@
           <span>스토어</span>
           <a href="/live">방송</a>
         </nav>
-        <a class="news-search" href="/search" aria-label="뉴스 기사 검색">
-          <img src="/assets/news-search-detail.svg?v=news-20260821-5" alt="" aria-hidden="true" />
+        <a class="news-search" href="/news#search" aria-label="뉴스 기사에서 찾기">
+          <img src="/assets/news-search-detail.svg?v=news-20260822-1" alt="" aria-hidden="true" />
           <span class="news-search-shortcut" aria-hidden="true"><span>⌘</span><span>K</span></span>
         </a>
         <button class="news-menu-toggle" id="newsMenuToggle" type="button" aria-controls="newsNavigationLinks" aria-expanded="false">메뉴</button>
@@ -33,20 +33,27 @@
 
     <main class="news-document-main">
       <article class="news-document" id="newsDocument" aria-busy="true">
-        <div class="news-document-hero" hidden>
-          <img id="newsDocumentImage" alt="" />
+        <div class="news-document-article">
+          <div class="news-document-hero" hidden>
+            <img id="newsDocumentImage" alt="" />
+          </div>
+          <div class="news-document-content">
+            <header class="news-document-header">
+              <h1 id="newsDocumentTitle"></h1>
+              <div class="news-document-meta">
+                <p class="news-document-source" id="newsDocumentSource"></p>
+                <p class="news-document-date" id="newsDocumentDate"></p>
+              </div>
+            </header>
+            <div class="news-document-body" id="newsDocumentBody"></div>
+            <div class="news-document-gallery" id="newsDocumentGallery" aria-label="기사 사진"></div>
+          </div>
         </div>
-        <div class="news-document-content">
-          <header class="news-document-header">
-            <h1 id="newsDocumentTitle"></h1>
-            <div class="news-document-meta">
-              <p class="news-document-source" id="newsDocumentSource"></p>
-              <p class="news-document-date" id="newsDocumentDate"></p>
-            </div>
-          </header>
-          <div class="news-document-body" id="newsDocumentBody"></div>
-          <div class="news-document-gallery" id="newsDocumentGallery" aria-label="기사 사진"></div>
-        </div>
+        <button class="news-document-share" id="newsShareButton" type="button" aria-describedby="newsShareStatus" disabled>
+          <img src="/assets/news-share-link.svg" alt="" aria-hidden="true" />
+          <span>공유하기</span>
+        </button>
+        <p class="news-visually-hidden" id="newsShareStatus" role="status" aria-live="polite" aria-atomic="true"></p>
       </article>
     </main>
 
@@ -55,6 +62,6 @@
       <p>각 기사의 저작권은 조선중앙통신 및 로동신문에게 있습니다.</p>
     </footer>
 
-    <script src="/news/detail.js?v=news-20260821-5" defer></script>
+    <script src="/news/detail.js?v=news-20260822-1" defer></script>
   </body>
 </html>
