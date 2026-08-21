@@ -1053,6 +1053,8 @@ async function runOfficialNewsImporter({
     "--cache-dir",
     cacheDir,
     "--merge-existing-output",
+    "--retries",
+    "3",
   ];
   if (proxyUrl) args.push("--proxy", proxyUrl);
   const result = await runCommandImpl("npm", args, { cwd: rootDir });
