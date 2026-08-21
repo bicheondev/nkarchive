@@ -330,8 +330,17 @@ export function buildNewsInlineImageDocuments(article = {}, images = [], {
   if (!articleUrl) throw new Error("article.url is required");
 
   const normalizedImages = images.map((image, index) => normalizeMirroredImage(image, index));
+  const originalThumbnailUrl = String(article?.thumbnailUrl || "").trim();
   const updatedArticle = normalizedImages.length
-    ? { ...article, cachedThumbnailUrl: normalizedImages[0].publicUrl }
+    ? {
+      ...article,
+      ...(normalizedSourceId === "kcna"
+        && article?.mediaType === "video"
+        && /^data:(?:image\/[^;,]+)?;base64,/iu.test(originalThumbnailUrl)
+        ? { thumbnailUrl: "" }
+        : {}),
+      cachedThumbnailUrl: normalizedImages[0].publicUrl,
+    }
     : { ...article };
   const imageDocuments = normalizedImages.map((image, index) => {
     const galleryIndex = Number.isInteger(image.galleryIndex) ? image.galleryIndex : index;
@@ -395,6 +404,21 @@ export async function mirrorNewsInlineImages({
     containerSelectors,
     maxImages,
   });
+  const listingThumbnail = String(article?.thumbnailUrl || "").trim();
+  if (
+    candidates.length === 0
+    && String(sourceId || article?.sourceId || "") === "kcna"
+    && article?.mediaType === "video"
+    && /^data:(?:image\/[^;,]+)?;base64,/iu.test(listingThumbnail)
+  ) {
+    candidates.push({
+      kind: "inline",
+      dataUri: listingThumbnail,
+      elementId: "listing-thumbnail",
+      alt: cleanText(article?.title || ""),
+      domOrder: 0,
+    });
+  }
   const materialized = await materializeNewsImageCandidates(candidates, {
     fetchImageImpl,
     maxBytes,

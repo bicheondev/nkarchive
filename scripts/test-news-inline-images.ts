@@ -198,6 +198,29 @@ try {
   assert.equal(empty.article.cachedThumbnailUrl, existingThumbnail);
   assert.deepEqual(empty.imageDocuments, []);
 
+  const kcnaVideoThumbnail = `data:;base64,${jpegBytes.toString("base64")}`;
+  const kcnaVideo = {
+    ...article,
+    id: "kcna-video-listing-thumbnail",
+    title: "조선중앙통신 동화상",
+    sourceId: "kcna",
+    sourceName: "조선중앙통신",
+    mediaType: "video",
+    url: "http://www.kcna.kp/kp/video/detail/fixture",
+    thumbnailUrl: kcnaVideoThumbnail,
+  };
+  const mirroredVideo = await mirrorNewsInlineImages({
+    html: '<main><div class="video"><video><source src="/kp/video/stream/fixture" type="video/mp4"></video></div></main>',
+    article: kcnaVideo,
+    assetDir: tempAssetDir,
+  });
+  assert.equal(mirroredVideo.images.length, 1, "a KCNA video listing thumbnail should become its static preview");
+  assert.equal(mirroredVideo.images[0].elementId, "listing-thumbnail");
+  assert.match(mirroredVideo.article.cachedThumbnailUrl, /^\/data\/search\/assets\/kcna\/[a-f0-9]{64}\.jpg$/u);
+  assert.equal(mirroredVideo.article.thumbnailUrl, "", "the source data URL must not survive after static mirroring");
+  assert.equal(mirroredVideo.imageDocuments.length, 1);
+  assert.equal(mirroredVideo.imageDocuments[0].archiveUrl, kcnaVideo.url);
+
   const kcnaArticle = {
     ...article,
     id: "kcna-remote-fixture",

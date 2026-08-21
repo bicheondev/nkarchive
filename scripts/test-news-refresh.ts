@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
+import http from "node:http";
 import os from "node:os";
 import path from "node:path";
 import {
@@ -10,6 +11,7 @@ import {
   assertMirroredPreviewCoverage,
   enrichCandidateWithInlineImages,
   fetchArticleHtml,
+  fetchRemoteImageBytes,
   hasSubstantialArticleBody,
   hasUsableTimedOutSourceOutput,
   inlineSameOriginRemoteImages,
@@ -19,7 +21,7 @@ import {
   mergeNewsMirrorDocuments,
   refreshNewsMirror,
 } from "./refresh-news-mirror.ts";
-import { extractDocumentFromHtml } from "./search-crawler-utils.ts";
+import { discoverLinkEntries, extractDocumentFromHtml } from "./search-crawler-utils.ts";
 import { SEARCH_SOURCES } from "../search/sourceConfig.js";
 
 const TEST_NOW = new Date("2026-08-21T12:00:00.000Z");
@@ -365,6 +367,35 @@ function testUnknownFieldsSurviveQualityMerge() {
   assert.equal(chrome.body, existing.body, "even a very long listing body must not replace a substantial article body");
 }
 
+function testKcnaVideoListingThumbnailPreserved() {
+  const source = SEARCH_SOURCES.find((candidate) => candidate.id === "kcna");
+  assert.ok(source);
+  const jpeg = Buffer.from("/9j/4AAQSkZJRg==", "base64");
+  const listingThumbnail = `data:;base64,${jpeg.toString("base64")}`;
+  const detailUrl = "http://www.kcna.kp/kp/video/detail/fixture";
+  const entries = discoverLinkEntries(`<!doctype html><html><body>
+    <div class="thumb-img"><a href="${detailUrl}"><img alt="당면한 영농작업을 과학기술적으로 진행" src="${listingThumbnail}"></a></div>
+    <div class="video-title"><a href="${detailUrl}">당면한 영농작업을 과학기술적으로 진행</a><span>[2026.8.21.]</span></div>
+  </body></html>`, "http://www.kcna.kp/kp/video/list/fixture", source);
+  assert.equal(entries.length, 1);
+  assert.equal(entries[0].thumbnailUrl, listingThumbnail, "duplicate KCNA video links must retain the image-card thumbnail");
+  const document = extractDocumentFromHtml(`<!doctype html><html><head>
+    <title>조선중앙통신 | 동화상 | 당면한 영농작업을 과학기술적으로 진행</title>
+    <meta name="description" content="당면한 영농작업을 과학기술적으로 진행하는 소식을 전한다.">
+  </head><body><main>
+    <h1>당면한 영농작업을 과학기술적으로 진행</h1>
+    <p>당면한 영농작업을 과학기술적으로 진행하는 현장의 동화상 자료이다.</p>
+    <video><source src="/kp/video/stream/fixture" type="video/mp4"></video>
+  </main></body></html>`, detailUrl, source, entries[0]);
+  assert.ok(document);
+  assert.equal(document.mediaType, "video");
+  assert.equal(
+    document.thumbnailUrl,
+    listingThumbnail,
+    "KCNA video details must retain the listing data thumbnail until static enrichment",
+  );
+}
+
 async function testInlineImageHook() {
   const article = makeDocument({
     id: "kcna-inline",
@@ -462,18 +493,108 @@ async function testHtmlFallbackAndRemoteImageMaterialization() {
   assert.equal(calls[1].headers["X-Return-Format"], "html");
 
   const png = Buffer.from("iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=", "base64");
+  const jpeg = Buffer.from("/9j/4AAQSkZJRg==", "base64");
   const materialized = await inlineSameOriginRemoteImages({
     html: '<main><img src="/photo/hash"><img src="/assets/logo.png"><img src="blob:forbidden"><img src="https://outside.test/photo"></main>',
     documentUrl: "https://kcna.test/gallery/detail/example",
-    fetchImageImpl: async (url) => {
+    fetchImageImpl: async (url, options) => {
       assert.equal(url, "https://kcna.test/photo/hash");
-      return png;
+      assert.equal(options.referer, "https://kcna.test/gallery/detail/example");
+      return jpeg;
     },
   });
   assert.equal(materialized.inlined, 1);
   assert.match(materialized.html, /data:;base64,/u);
   assert.match(materialized.html, /blob:forbidden/u, "blob URLs are never fetched or materialized");
   assert.match(materialized.html, /https:\/\/outside\.test\/photo/u, "cross-origin images are never fetched");
+
+  const kcnaPhotoRequests = [];
+  const mirroredJpeg = await fetchRemoteImageBytes("https://kcna.test/photo/hash", {
+    referer: "https://kcna.test/gallery/detail/example",
+    fetchImpl: async (url, options) => {
+      kcnaPhotoRequests.push({ url: String(url), referer: options.headers.Referer || "" });
+      return new Response(jpeg, { status: 200 });
+    },
+  });
+  assert.deepEqual(mirroredJpeg, jpeg);
+  assert.deepEqual(kcnaPhotoRequests, [{
+    url: "https://kcna.test/photo/hash",
+    referer: "https://kcna.test/gallery/detail/example",
+  }], "KCNA gallery JPEG requests should carry their same-origin detail URL as Referer");
+
+  await fetchRemoteImageBytes("https://kcna.test/photo/hash", {
+    referer: "https://outside.test/gallery/detail/example",
+    fetchImpl: async (_url, options) => {
+      assert.equal(options.headers.Referer, undefined, "cross-origin Referer values must be discarded");
+      return new Response(png, { status: 200 });
+    },
+  });
+
+  let fallbackReferer = "";
+  const fallbackServer = http.createServer((request, response) => {
+    if (request.url === "/redirect") {
+      response.writeHead(302, { Location: "/photo" });
+      response.end();
+      return;
+    }
+    if (request.url === "/too-large") {
+      response.writeHead(200, { "Content-Length": "1024" });
+      response.end(Buffer.alloc(1024));
+      return;
+    }
+    if (request.url === "/empty") {
+      response.writeHead(200, { "Content-Length": "0" });
+      response.end();
+      return;
+    }
+    fallbackReferer = String(request.headers.referer || "");
+    response.writeHead(200, { "Content-Length": String(jpeg.byteLength) });
+    response.end(jpeg);
+  });
+  await new Promise((resolve, reject) => {
+    fallbackServer.once("error", reject);
+    fallbackServer.listen(0, "127.0.0.1", resolve);
+  });
+  const fallbackAddress = fallbackServer.address();
+  const fallbackBaseUrl = `http://127.0.0.1:${fallbackAddress.port}`;
+  try {
+    const fallbackBytes = await fetchRemoteImageBytes(`${fallbackBaseUrl}/photo`, {
+      referer: `${fallbackBaseUrl}/gallery/detail/example`,
+      fetchImpl: async () => new Response(Buffer.alloc(0), { status: 200 }),
+    });
+    assert.deepEqual(fallbackBytes, jpeg);
+    assert.equal(fallbackReferer, `${fallbackBaseUrl}/gallery/detail/example`, "an undici 200/empty response must fall back to Node direct");
+    await assert.rejects(
+      fetchRemoteImageBytes(`${fallbackBaseUrl}/redirect`, {
+        fetchImpl: async () => { throw new Error("forced undici failure"); },
+      }),
+      /HTTP 302/u,
+      "the Node direct fallback must reject redirects",
+    );
+    await assert.rejects(
+      fetchRemoteImageBytes(`${fallbackBaseUrl}/too-large`, {
+        maxBytes: 16,
+        fetchImpl: async () => { throw new Error("forced undici failure"); },
+      }),
+      /exceeds 16 bytes/u,
+      "the Node direct fallback must reject an oversized Content-Length before buffering",
+    );
+    await assert.rejects(
+      fetchRemoteImageBytes(`${fallbackBaseUrl}/empty`, {
+        fetchImpl: async () => new Response(Buffer.alloc(0), { status: 200 }),
+      }),
+      /remote image response was empty/u,
+      "empty bodies must fail in both binary fetch paths",
+    );
+    await assert.rejects(
+      fetchRemoteImageBytes(`http://user:password@127.0.0.1:${fallbackAddress.port}/photo`, {
+        fetchImpl: async () => { throw new Error("forced undici failure"); },
+      }),
+      /credential-free http or https/u,
+    );
+  } finally {
+    await new Promise((resolve) => fallbackServer.close(resolve));
+  }
 }
 
 function testFreshnessGate() {
@@ -611,6 +732,7 @@ async function main() {
   testDateAndBodyGates();
   testRodongDirectArticlePreservesFullBodyAndExplicitDate();
   testUnknownFieldsSurviveQualityMerge();
+  testKcnaVideoListingThumbnailPreserved();
   await testInlineImageHook();
   await testHtmlFallbackAndRemoteImageMaterialization();
   testFreshnessGate();

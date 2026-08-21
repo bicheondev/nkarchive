@@ -649,7 +649,14 @@ function addLinkEntries(target, entries = [], maxLinks = Infinity) {
     if (target.has(entry.url)) {
       const existing = target.get(entry.url);
       const newsCategories = mergeStringLists(existing?.newsCategories, entry.newsCategories);
-      if (newsCategories.length) target.set(entry.url, { ...existing, newsCategories });
+      const thumbnailUrl = String(existing?.thumbnailUrl || entry.thumbnailUrl || "").trim();
+      if (newsCategories.length || thumbnailUrl !== String(existing?.thumbnailUrl || "")) {
+        target.set(entry.url, {
+          ...existing,
+          ...(thumbnailUrl ? { thumbnailUrl } : {}),
+          ...(newsCategories.length ? { newsCategories } : {}),
+        });
+      }
       continue;
     }
     if (target.size >= maxLinks) break;
@@ -2342,8 +2349,14 @@ export function extractDocumentFromHtml(html, url, source, context = {}) {
     || extractDateFromUrl(url),
     source,
   );
-  const thumbnailUrl = resolveUrl($("meta[property='og:image']").attr("content") || $("img[src]").first().attr("src"), url) || "";
   const mediaType = inferMediaType(url, html, source);
+  const pageThumbnailUrl = resolveUrl($("meta[property='og:image']").attr("content") || $("img[src]").first().attr("src"), url) || "";
+  const listingThumbnailUrl = String(context?.thumbnailUrl || "").trim();
+  const thumbnailUrl = source.id === "kcna"
+    && mediaType === "video"
+    && /^data:(?:image\/[^;,]+)?;base64,/iu.test(listingThumbnailUrl)
+    ? listingThumbnailUrl
+    : pageThumbnailUrl;
 
   if (!title || !snippet || title.length < 2 || body.length < getMinimumDocumentBodyLength(source, 20)) return null;
   if (!sourceSpecific.title && isGenericTitle(title, source)) return null;
@@ -4128,9 +4141,20 @@ function dedupeLinkEntries(entries) {
   for (const entry of entries) {
     if (!entry?.url) continue;
     const existing = bestByUrl.get(entry.url);
-    if (!existing || getLinkEntryQualityScore(entry) > getLinkEntryQualityScore(existing)) {
+    if (!existing) {
       bestByUrl.set(entry.url, entry);
+      continue;
     }
+    const preferred = getLinkEntryQualityScore(entry) > getLinkEntryQualityScore(existing)
+      ? entry
+      : existing;
+    const alternate = preferred === entry ? existing : entry;
+    const newsCategories = mergeStringLists(preferred.newsCategories, alternate.newsCategories);
+    bestByUrl.set(entry.url, {
+      ...preferred,
+      thumbnailUrl: preferred.thumbnailUrl || alternate.thumbnailUrl || "",
+      ...(newsCategories.length ? { newsCategories } : {}),
+    });
   }
   return [...bestByUrl.values()];
 }

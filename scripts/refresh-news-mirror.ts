@@ -2,6 +2,8 @@
 import fs from "node:fs/promises";
 import { constants as fsConstants } from "node:fs";
 import { createHash } from "node:crypto";
+import http from "node:http";
+import https from "node:https";
 import os from "node:os";
 import path from "node:path";
 import { spawn } from "node:child_process";
@@ -833,6 +835,7 @@ export async function inlineSameOriginRemoteImages({
         dispatcher,
         timeoutMs: DEFAULT_INLINE_FETCH_TIMEOUT_MS,
         maxBytes: DEFAULT_REMOTE_IMAGE_MAX_BYTES,
+        referer: baseUrl.href,
       });
       dataUriByUrl.set(remoteUrl, `data:;base64,${Buffer.from(bytes).toString("base64")}`);
     } catch (error) {
@@ -853,17 +856,29 @@ export async function fetchRemoteImageBytes(url, {
   dispatcher = null,
   timeoutMs = DEFAULT_INLINE_FETCH_TIMEOUT_MS,
   maxBytes = DEFAULT_REMOTE_IMAGE_MAX_BYTES,
+  referer = "",
   fetchImpl = globalThis.fetch,
+  nodeRequestImpl = fetchBoundedNodeBinary,
 } = {}) {
+  const targetUrl = parseRemoteImageTargetUrl(url).href;
+  let directError;
   try {
-    return await fetchBoundedBinary(url, { dispatcher, timeoutMs, maxBytes, fetchImpl });
-  } catch (proxyError) {
-    if (!dispatcher) throw proxyError;
+    return await fetchBoundedBinary(targetUrl, { dispatcher, timeoutMs, maxBytes, referer, fetchImpl });
+  } catch (primaryError) {
+    directError = primaryError;
+    if (dispatcher) {
+      try {
+        return await fetchBoundedBinary(targetUrl, { timeoutMs, maxBytes, referer, fetchImpl });
+      } catch (fallbackError) {
+        directError = fallbackError;
+      }
+    }
     try {
-      return await fetchBoundedBinary(url, { timeoutMs, maxBytes, fetchImpl });
-    } catch (directError) {
-      throw new Error(`Remote image fetch failed through configured proxy (${proxyError.message}) and directly (${directError.message})`, {
-        cause: directError,
+      return await nodeRequestImpl(targetUrl, { timeoutMs, maxBytes, referer });
+    } catch (nodeError) {
+      const route = dispatcher ? "configured proxy, undici direct, and Node direct" : "undici direct and Node direct";
+      throw new Error(`Remote image fetch failed through ${route} (${directError.message}; ${nodeError.message})`, {
+        cause: nodeError,
       });
     }
   }
@@ -873,10 +888,16 @@ async function fetchBoundedBinary(url, {
   dispatcher = null,
   timeoutMs = DEFAULT_INLINE_FETCH_TIMEOUT_MS,
   maxBytes = DEFAULT_REMOTE_IMAGE_MAX_BYTES,
+  referer = "",
   fetchImpl = globalThis.fetch,
 } = {}) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), normalizePositiveInteger(timeoutMs, DEFAULT_INLINE_FETCH_TIMEOUT_MS));
+  const byteLimit = Math.min(
+    normalizePositiveInteger(maxBytes, DEFAULT_REMOTE_IMAGE_MAX_BYTES),
+    DEFAULT_REMOTE_IMAGE_MAX_BYTES,
+  );
+  const sameOriginReferer = normalizeSameOriginReferer(url, referer);
   try {
     const response = await fetchImpl(url, {
       signal: controller.signal,
@@ -885,16 +906,130 @@ async function fetchBoundedBinary(url, {
         Accept: "image/avif,image/webp,image/png,image/jpeg,image/gif;q=0.9,*/*;q=0.1",
         "Accept-Encoding": "identity",
         "User-Agent": "DPRKArchiveNewsMirror/1.0 (+https://nkarchive.vercel.app/news)",
+        ...(sameOriginReferer ? { Referer: sameOriginReferer } : {}),
       },
       ...(dispatcher ? { dispatcher } : {}),
     });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const contentLength = Number(response.headers.get("content-length") || 0);
-    if (contentLength && contentLength > maxBytes) throw new Error(`remote image exceeds ${maxBytes} bytes`);
-    return readResponseBytes(response, maxBytes);
+    if (contentLength && contentLength > byteLimit) throw new Error(`remote image exceeds ${byteLimit} bytes`);
+    const bytes = await readResponseBytes(response, byteLimit);
+    if (!bytes.byteLength) throw new Error("remote image response was empty");
+    return bytes;
   } finally {
     clearTimeout(timeout);
   }
+}
+
+function normalizeSameOriginReferer(targetUrl, referer = "") {
+  if (!referer) return "";
+  try {
+    const target = new URL(String(targetUrl || ""));
+    const source = new URL(String(referer || ""));
+    if (
+      !["http:", "https:"].includes(target.protocol)
+      || !["http:", "https:"].includes(source.protocol)
+      || target.username
+      || target.password
+      || source.username
+      || source.password
+      || target.origin !== source.origin
+    ) return "";
+    source.hash = "";
+    return source.href;
+  } catch {
+    return "";
+  }
+}
+
+async function fetchBoundedNodeBinary(url, {
+  timeoutMs = DEFAULT_INLINE_FETCH_TIMEOUT_MS,
+  maxBytes = DEFAULT_REMOTE_IMAGE_MAX_BYTES,
+  referer = "",
+} = {}) {
+  const target = parseRemoteImageTargetUrl(url);
+
+  const byteLimit = Math.min(
+    normalizePositiveInteger(maxBytes, DEFAULT_REMOTE_IMAGE_MAX_BYTES),
+    DEFAULT_REMOTE_IMAGE_MAX_BYTES,
+  );
+  const boundedTimeoutMs = normalizePositiveInteger(timeoutMs, DEFAULT_INLINE_FETCH_TIMEOUT_MS);
+  const sameOriginReferer = normalizeSameOriginReferer(target.href, referer);
+  const requestModule = target.protocol === "https:" ? https : http;
+
+  return new Promise((resolve, reject) => {
+    let settled = false;
+    const finish = (error, bytes) => {
+      if (settled) return;
+      settled = true;
+      if (error) reject(error);
+      else resolve(bytes);
+    };
+    const request = requestModule.request(target, {
+      method: "GET",
+      headers: {
+        Accept: "image/avif,image/webp,image/png,image/jpeg,image/gif;q=0.9,*/*;q=0.1",
+        "Accept-Encoding": "identity",
+        "User-Agent": "DPRKArchiveNewsMirror/1.0 (+https://nkarchive.vercel.app/news)",
+        ...(sameOriginReferer ? { Referer: sameOriginReferer } : {}),
+      },
+    }, (response) => {
+      const status = Number(response.statusCode || 0);
+      if (status < 200 || status >= 300) {
+        response.resume();
+        finish(new Error(`HTTP ${status || "unknown"}`));
+        return;
+      }
+      const declaredLength = Number(response.headers["content-length"] || 0);
+      if (declaredLength && declaredLength > byteLimit) {
+        response.destroy();
+        finish(new Error(`remote image exceeds ${byteLimit} bytes`));
+        return;
+      }
+      const chunks = [];
+      let byteLength = 0;
+      response.on("data", (chunkValue) => {
+        if (settled) return;
+        const chunk = Buffer.from(chunkValue || []);
+        byteLength += chunk.byteLength;
+        if (byteLength > byteLimit) {
+          response.destroy();
+          finish(new Error(`remote image exceeds ${byteLimit} bytes`));
+          return;
+        }
+        chunks.push(chunk);
+      });
+      response.on("end", () => {
+        if (!byteLength) {
+          finish(new Error("remote image response was empty"));
+          return;
+        }
+        finish(null, Buffer.concat(chunks, byteLength));
+      });
+      response.on("error", (error) => finish(error));
+    });
+    request.setTimeout(boundedTimeoutMs, () => {
+      request.destroy(new Error(`remote image fetch timed out after ${boundedTimeoutMs}ms`));
+    });
+    request.on("error", (error) => finish(error));
+    request.end();
+  });
+}
+
+function parseRemoteImageTargetUrl(value) {
+  let target;
+  try {
+    target = new URL(String(value || ""));
+  } catch {
+    throw new Error("remote image URL is invalid");
+  }
+  if (
+    !["http:", "https:"].includes(target.protocol)
+    || target.username
+    || target.password
+  ) throw new Error("remote image URL must use credential-free http or https");
+  target.hash = "";
+  return target;
 }
 
 async function runOfficialNewsImporter({
