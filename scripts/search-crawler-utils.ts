@@ -2339,14 +2339,17 @@ export function extractDocumentFromHtml(html, url, source, context = {}) {
     || $("meta[property='og:description']").attr("content")
     || body.slice(0, 280),
   );
-  const date = normalizeCrawledDate(
-    sourceSpecific.date
+  const pageDate = sourceSpecific.date
     || $(source.crawler?.selectors?.date || "time").first().attr("datetime")
     || selectFirstText($, source.crawler?.selectors?.date)
     || $("meta[property='article:published_time']").attr("content")
     || context?.date
     || context?.fallbackDocument?.date
-    || extractDateFromUrl(url),
+    || extractDateFromUrl(url);
+  const date = normalizeCrawledDate(
+    source.id === "kcna"
+      ? extractKoreanDatelineDate(body, pageDate) || pageDate
+      : pageDate,
     source,
   );
   const mediaType = inferMediaType(url, html, source);

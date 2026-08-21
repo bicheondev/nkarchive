@@ -396,6 +396,23 @@ function testKcnaVideoListingThumbnailPreserved() {
   );
 }
 
+function testKcnaDirectDatelineBeatsListingDate() {
+  const source = SEARCH_SOURCES.find((candidate) => candidate.id === "kcna");
+  assert.ok(source);
+  const document = extractDocumentFromHtml(`<!doctype html><html><head>
+    <title>조선중앙통신 | 로씨야 서방의 국가테로행위를 규탄</title>
+    <meta name="description" content="로씨야가 서방의 국가테로행위를 규탄하였다.">
+  </head><body><main>
+    <h1>로씨야 서방의 국가테로행위를 규탄</h1>
+    <p>(모스크바 8월 19일발 조선중앙통신)</p>
+    <p>로씨야외무상이 기자회견에서 서방의 국가테로행위를 규탄하면서 구체적인 사실자료를 밝혔다.</p>
+  </main></body></html>`, "http://www.kcna.kp/kp/article/detail/fixture", source, {
+    date: "2026-08-20",
+  });
+  assert.ok(document);
+  assert.equal(document.date, "2026-08-19", "KCNA direct article datelines must beat the listing publication date");
+}
+
 async function testInlineImageHook() {
   const article = makeDocument({
     id: "kcna-inline",
@@ -733,6 +750,7 @@ async function main() {
   testRodongDirectArticlePreservesFullBodyAndExplicitDate();
   testUnknownFieldsSurviveQualityMerge();
   testKcnaVideoListingThumbnailPreserved();
+  testKcnaDirectDatelineBeatsListingDate();
   await testInlineImageHook();
   await testHtmlFallbackAndRemoteImageMaterialization();
   testFreshnessGate();
