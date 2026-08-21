@@ -5,6 +5,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildNewsSnapshot, parseNewsDocumentsJsonl } from "./news-snapshot.ts";
+import { isIgnoredByRules, parseVercelIgnore } from "./verify-vercel-bundle.ts";
 
 const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(SCRIPT_DIR, "..");
@@ -24,6 +25,22 @@ const [documentsText, feedText, detailsText, indexHtml, documentHtml, newsJs, de
 const documents = parseNewsDocumentsJsonl(documentsText, "data/news/documents.jsonl");
 const feed = JSON.parse(feedText);
 const details = JSON.parse(detailsText);
+const vercelIgnoreRules = parseVercelIgnore(await read(".vercelignore"));
+assert.equal(
+  isIgnoredByRules("assets/fonts/PretendardVariable.woff2", ["fonts/"]),
+  true,
+  "an unanchored directory ignore rule must match nested directories like Vercel does",
+);
+assert.equal(
+  isIgnoredByRules("assets/fonts/PretendardVariable.woff2", ["/fonts/"]),
+  false,
+  "a root-anchored directory ignore rule must not exclude nested asset directories",
+);
+assert.equal(
+  isIgnoredByRules("assets/fonts/PretendardVariable.woff2", vercelIgnoreRules),
+  false,
+  "the News Pretendard font must be included in the Vercel deployment",
+);
 const expected = buildNewsSnapshot(documents, { requireQuotaReady: false });
 assert.equal(feedText, expected.feedText, "news feed must be generated only from data/news/documents.jsonl");
 assert.equal(detailsText, expected.detailsText, "news details must be generated only from data/news/documents.jsonl");

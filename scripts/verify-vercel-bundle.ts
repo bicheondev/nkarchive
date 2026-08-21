@@ -231,10 +231,23 @@ export function isIgnoredByRules(relativePath = "", rules = []) {
 }
 
 function ignoreRuleMatches(rule = "", relativePath = "") {
-  const normalizedRule = toPosix(rule).replace(/^\/+/u, "");
+  const posixRule = toPosix(rule);
+  const anchored = posixRule.startsWith("/");
+  const directoryOnly = posixRule.endsWith("/");
+  const normalizedRule = posixRule.replace(/^\/+|\/+$/gu, "");
   if (!normalizedRule) return false;
-  if (normalizedRule.endsWith("/")) return relativePath.startsWith(normalizedRule);
-  if (!normalizedRule.includes("/")) return path.basename(relativePath) === normalizedRule || matchesSimpleGlob(normalizedRule, path.basename(relativePath));
+
+  if (directoryOnly) {
+    if (anchored || normalizedRule.includes("/")) {
+      return relativePath.startsWith(normalizedRule + "/");
+    }
+    return relativePath.startsWith(normalizedRule + "/")
+      || relativePath.includes("/" + normalizedRule + "/");
+  }
+  if (!normalizedRule.includes("/")) {
+    return path.basename(relativePath) === normalizedRule
+      || matchesSimpleGlob(normalizedRule, path.basename(relativePath));
+  }
   return relativePath === normalizedRule || matchesSimpleGlob(normalizedRule, relativePath);
 }
 
