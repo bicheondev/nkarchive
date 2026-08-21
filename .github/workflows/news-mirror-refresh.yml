@@ -1,0 +1,141 @@
+name: News Mirror Refresh
+
+on:
+  schedule:
+    - cron: "17 0,12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-mirror-refresh-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      NEWS_MIRROR_REPORT: ${{ runner.temp }}/news-mirror-refresh-report.json
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "26"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Refresh KCNA and Rodong mirror
+        env:
+          DPRK_SEARCH_CRAWL_PROXY: ${{ secrets.DPRK_SEARCH_CRAWL_PROXY }}
+        run: >-
+          npm run refresh:news --
+          --enrich-inline-images
+          --max-age-days 4
+          --report "$NEWS_MIRROR_REPORT"
+
+      - name: Reject unexpected generated paths
+        shell: bash
+        run: |
+          unexpected=0
+          while IFS= read -r -d '' file; do
+            case "$file" in
+              data/news-feed.json|data/news-details.json|data/search/documents.jsonl|data/search/source-health.json)
+                ;;
+              data/search/assets/kcna/*|data/search/assets/rodong-sinmun/*)
+                if [[ ! "$file" =~ ^data/search/assets/(kcna|rodong-sinmun)/[a-f0-9]{64}\.(jpg|png|gif|webp)$ ]]; then
+                  echo "Unexpected mirrored asset path: $file"
+                  unexpected=1
+                fi
+                ;;
+              *)
+                echo "Unexpected refresh change: $file"
+                unexpected=1
+                ;;
+            esac
+          done < <(
+            {
+              git diff --name-only -z
+              git diff --cached --name-only -z
+              git ls-files --others --exclude-standard -z
+            } | sort -zu
+          )
+          if [[ "$unexpected" -ne 0 ]]; then
+            exit 1
+          fi
+
+      - name: Test refresh safeguards
+        run: npm run test:news-refresh
+
+      - name: Test inline image mirroring
+        run: npm run test:news-inline-images
+
+      - name: Run complete search and news release gate
+        run: npm run ci:search
+
+      - name: Recheck generated paths after all gates
+        shell: bash
+        run: |
+          unexpected=0
+          while IFS= read -r -d '' file; do
+            case "$file" in
+              data/news-feed.json|data/news-details.json|data/search/documents.jsonl|data/search/source-health.json)
+                ;;
+              data/search/assets/kcna/*|data/search/assets/rodong-sinmun/*)
+                if [[ ! "$file" =~ ^data/search/assets/(kcna|rodong-sinmun)/[a-f0-9]{64}\.(jpg|png|gif|webp)$ ]]; then
+                  echo "Unexpected mirrored asset path after gates: $file"
+                  unexpected=1
+                fi
+                ;;
+              *)
+                echo "Unexpected change after gates: $file"
+                unexpected=1
+                ;;
+            esac
+          done < <(
+            {
+              git diff --name-only -z
+              git diff --cached --name-only -z
+              git ls-files --others --exclude-standard -z
+            } | sort -zu
+          )
+          if [[ "$unexpected" -ne 0 ]]; then
+            exit 1
+          fi
+
+      - name: Commit refreshed mirror
+        shell: bash
+        run: |
+          git add -- \
+            data/news-feed.json \
+            data/news-details.json \
+            data/search/documents.jsonl \
+            data/search/source-health.json
+          for directory in data/search/assets/kcna data/search/assets/rodong-sinmun; do
+            if [[ -d "$directory" ]]; then
+              git add -A -- "$directory"
+            fi
+          done
+          if git diff --cached --quiet; then
+            echo "News mirror is already current; no commit needed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh KCNA and Rodong mirror"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Upload refresh report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-mirror-refresh-report-${{ github.run_id }}
+          path: ${{ env.NEWS_MIRROR_REPORT }}
+          if-no-files-found: ignore
+          retention-days: 14

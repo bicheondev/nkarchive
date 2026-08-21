@@ -6170,7 +6170,8 @@ async function assertSourceCatalogMatchesGoal() {
   assert.equal((ryugyongSource?.crawler?.limitPerSource || 0) >= 300, true, "류경 production crawl should keep broad media coverage instead of capping near the first listing pages");
   assert.equal((ryugyongSource?.crawler?.maxDiscoveryPages || 0) >= 70, true, "류경 should have enough discovery-page budget for generated photo/movie listing pages");
   const rodongSource = SEARCH_SOURCES.find((source) => source.id === "rodong-sinmun");
-  assert.equal(rodongSource?.crawler?.cacheFirstReadable, true, "로동신문 should reuse readable snapshots before slow source refreshes consume the crawl budget");
+  assert.equal(rodongSource?.crawler?.preferReadable, false, "로동신문 scheduled refreshes should try the current official page before the readable fallback");
+  assert.equal(rodongSource?.crawler?.cacheFirstReadable, false, "로동신문 scheduled refreshes must not let an older readable snapshot hide current articles");
   assert.equal((rodongSource?.crawler?.requestDelayMs || 0) >= 1200, true, "로동신문 detail fetches should be paced enough for stable readable-body coverage");
   assert.equal((rodongSource?.crawler?.maxDetailFetchesPerSource || 0) >= 220, true, "로동신문 should fetch enough detail pages to avoid mostly title/date fallbacks");
   assert.equal(

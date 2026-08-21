@@ -4,14 +4,17 @@
   const sourceElement = document.querySelector("#newsDocumentSource");
   const dateElement = document.querySelector("#newsDocumentDate");
   const bodyElement = document.querySelector("#newsDocumentBody");
+  const galleryElement = document.querySelector("#newsDocumentGallery");
   const heroElement = document.querySelector(".news-document-hero");
   const imageElement = document.querySelector("#newsDocumentImage");
-  if (!documentRoot || !titleElement || !sourceElement || !dateElement || !bodyElement || !heroElement || !imageElement) return;
+  if (!documentRoot || !titleElement || !sourceElement || !dateElement || !bodyElement || !galleryElement || !heroElement || !imageElement) return;
 
   const params = new URLSearchParams(window.location.search);
   const articleId = params.get("id") || "";
-  const requestedVersion = params.get("v") || "news-20260821-4";
-  const DETAILS_URL = `/data/news-details.json?v=${encodeURIComponent(requestedVersion)}`;
+  const requestedVersion = params.get("v") || "";
+  const DETAILS_URL = requestedVersion
+    ? `/data/news-details.json?v=${encodeURIComponent(requestedVersion)}`
+    : "/data/news-details.json";
 
   bindChrome();
   loadArticle();
@@ -23,10 +26,18 @@
     }
 
     try {
-      const response = await fetch(DETAILS_URL, { headers: { Accept: "application/json" } });
+      let response = await fetch(DETAILS_URL, { cache: "no-cache", headers: { Accept: "application/json" } });
       if (!response.ok) throw new Error(`news_details_${response.status}`);
-      const payload = await response.json();
-      if (params.has("v") && payload?.version !== requestedVersion) {
+      let payload = await response.json();
+      if (requestedVersion && payload?.version !== requestedVersion) {
+        response = await fetch(`${DETAILS_URL}&refresh=${Date.now()}`, {
+          cache: "reload",
+          headers: { Accept: "application/json" },
+        });
+        if (!response.ok) throw new Error(`news_details_${response.status}`);
+        payload = await response.json();
+      }
+      if (requestedVersion && payload?.version !== requestedVersion) {
         throw new Error("news_snapshot_mismatch");
       }
       if (!payload?.articles || !Object.hasOwn(payload.articles, articleId)) {
@@ -58,7 +69,7 @@
       }),
     );
 
-    renderHero(article);
+    renderArticleImages(article);
     documentRoot.setAttribute("aria-busy", "false");
   }
 
@@ -75,37 +86,102 @@
     return blocks.length ? blocks : [normalized];
   }
 
-  function renderHero(article) {
-    const sources = resolveArticleImageSources(article);
+  function renderArticleImages(article) {
+    const imageRecords = collectArticleImages(article);
     heroElement.hidden = true;
     imageElement.alt = "";
     imageElement.removeAttribute("src");
-    if (!sources.length) return;
+    galleryElement.replaceChildren();
+    galleryElement.hidden = true;
+    if (!imageRecords.length) return;
 
+    let recordIndex = 0;
     let sourceIndex = 0;
-    const tryNextSource = () => {
-      if (sourceIndex >= sources.length) {
+    let currentSources = [];
+    const tryNextHero = () => {
+      if (sourceIndex < currentSources.length) {
+        imageElement.src = currentSources[sourceIndex];
+        sourceIndex += 1;
+        return;
+      }
+      if (recordIndex >= imageRecords.length) {
         heroElement.hidden = true;
         imageElement.removeAttribute("src");
         return;
       }
-      imageElement.src = sources[sourceIndex];
-      sourceIndex += 1;
+      currentSources = resolveArticleImageSources(imageRecords[recordIndex]);
+      sourceIndex = 0;
+      recordIndex += 1;
+      tryNextHero();
     };
-    imageElement.addEventListener("load", () => {
+    imageElement.onload = () => {
+      const heroRecordIndex = recordIndex - 1;
       heroElement.hidden = false;
-    }, { once: true });
-    imageElement.addEventListener("error", tryNextSource);
+      renderGallery(imageRecords.filter((_, index) => index !== heroRecordIndex));
+    };
+    imageElement.onerror = tryNextHero;
     imageElement.decoding = "async";
     imageElement.referrerPolicy = "no-referrer";
-    tryNextSource();
+    tryNextHero();
+  }
+
+  function collectArticleImages(article) {
+    const imageRecords = Array.isArray(article?.images) ? article.images.filter(Boolean) : [];
+    const legacyLead = {
+      id: `${String(article?.id || "article")}-lead`,
+      thumbnailUrl: article?.thumbnailUrl,
+      cachedThumbnailUrl: article?.cachedThumbnailUrl,
+    };
+    const records = resolveArticleImageSources(legacyLead).length ? [legacyLead, ...imageRecords] : imageRecords;
+    const seen = new Set();
+    return records.filter((record) => {
+      const identity = resolveArticleImageSources(record)[0] || "";
+      if (!identity || seen.has(identity)) return false;
+      seen.add(identity);
+      return true;
+    });
+  }
+
+  function renderGallery(records) {
+    const figures = records.flatMap((record) => {
+      const sources = resolveArticleImageSources(record);
+      if (!sources.length) return [];
+      const figure = document.createElement("figure");
+      const image = document.createElement("img");
+      let sourceIndex = 0;
+      const tryNextSource = () => {
+        if (sourceIndex >= sources.length) {
+          figure.remove();
+          if (!galleryElement.children.length) galleryElement.hidden = true;
+          return;
+        }
+        image.src = sources[sourceIndex];
+        sourceIndex += 1;
+      };
+      figure.className = "news-document-gallery-item";
+      image.alt = "";
+      image.loading = "lazy";
+      image.decoding = "async";
+      image.referrerPolicy = "no-referrer";
+      image.addEventListener("error", tryNextSource);
+      figure.append(image);
+      tryNextSource();
+      return [figure];
+    });
+    if (!figures.length) return;
+    galleryElement.replaceChildren(...figures);
+    galleryElement.hidden = false;
   }
 
   function resolveArticleImageSources(article) {
     const sources = [];
+    const cachedPrimarySource = resolveCachedImageSource(article?.cachedUrl);
     const cachedSource = resolveCachedImageSource(article?.cachedThumbnailUrl);
+    const originalPrimarySource = resolveOriginalImageSource(article?.url);
     const originalSource = resolveOriginalImageSource(article?.thumbnailUrl);
+    if (cachedPrimarySource) sources.push(cachedPrimarySource);
     if (cachedSource) sources.push(cachedSource);
+    if (originalPrimarySource && !sources.includes(originalPrimarySource)) sources.push(originalPrimarySource);
     if (originalSource && !sources.includes(originalSource)) sources.push(originalSource);
     return sources;
   }

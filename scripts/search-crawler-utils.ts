@@ -150,7 +150,7 @@ export async function crawlSources(sources, {
     let indexedForSource = 0;
     for (const entry of entries.filter((entry) => entry.embeddedDocument)) {
       if (indexedForSource >= sourceOptions.limitPerSource) break;
-      documents.push(entry.embeddedDocument);
+      documents.push(applyNewsCategoryMetadata(entry.embeddedDocument, entry));
       report.indexed += 1;
       indexedForSource += 1;
     }
@@ -239,7 +239,7 @@ export async function crawlSources(sources, {
 
           const mediaDocument = extractMediaDocumentFromLink(entry, source);
           if (mediaDocument) {
-            documents.push(mediaDocument);
+            documents.push(applyNewsCategoryMetadata(mediaDocument, entry));
             report.indexed += 1;
             continue;
           }
@@ -247,7 +247,7 @@ export async function crawlSources(sources, {
           if (source.crawler?.preferListingDocuments && !entry.forceDetailFetch) {
             const fallbackDocument = createFallbackDocumentForEntry(entry, source, report);
             if (fallbackDocument) {
-              documents.push(fallbackDocument);
+              documents.push(applyNewsCategoryMetadata(fallbackDocument, entry));
               report.indexed += 1;
               continue;
             }
@@ -256,7 +256,7 @@ export async function crawlSources(sources, {
           if (sourceOptions.maxDetailFetchesPerSource && detailFetchesStarted >= sourceOptions.maxDetailFetchesPerSource) {
             const fallbackDocument = createFallbackDocumentForEntry(entry, source, report);
             if (fallbackDocument) {
-              documents.push(fallbackDocument);
+              documents.push(applyNewsCategoryMetadata(fallbackDocument, entry));
               report.indexed += 1;
               report.detailFetchLimitFallbacks = (report.detailFetchLimitFallbacks || 0) + 1;
               report.detailFetchLimitReached = true;
@@ -280,7 +280,10 @@ export async function crawlSources(sources, {
           const extractedDocument = extractDocumentFromHtml(html, url, source, entry);
           const fallbackDocument = entry.fallbackDocument
             || createFallbackDocumentForEntry(entry, source, null);
-          const document = selectFetchedOrFallbackDocument(extractedDocument, fallbackDocument);
+          const document = applyNewsCategoryMetadata(
+            selectFetchedOrFallbackDocument(extractedDocument, fallbackDocument),
+            entry,
+          );
           if (document && fallbackDocument && document === fallbackDocument && !entry.fallbackDocument && report) {
             report.searchResultFallbacks = (report.searchResultFallbacks || 0) + 1;
           }
@@ -296,7 +299,7 @@ export async function crawlSources(sources, {
         } catch (error) {
           const fallbackDocument = createFallbackDocumentForEntry(entry, source, report);
           if (fallbackDocument) {
-            documents.push(fallbackDocument);
+            documents.push(applyNewsCategoryMetadata(fallbackDocument, entry));
             report.indexed += 1;
             continue;
           }
@@ -326,7 +329,7 @@ function drainQueueAsFallbackDocuments(queue, source, report, documents, limitPe
     const entry = queue.shift();
     const fallbackDocument = createFallbackDocumentForEntry(entry, source, report);
     if (!fallbackDocument) continue;
-    documents.push(fallbackDocument);
+    documents.push(applyNewsCategoryMetadata(fallbackDocument, entry));
     if (report) {
       report.indexed += 1;
       report.deadlineFallbacks = (report.deadlineFallbacks || 0) + 1;
@@ -597,7 +600,11 @@ export async function discoverSourceEntries(source, {
         cacheFirstReadable: false,
       });
       reportDiscoveryFetch(report);
+      const pageNewsCategories = inferNewsCategoriesFromListingUrl(pageUrl, source);
       const discovered = discoverLinkEntries(html, pageUrl, source)
+        .map((entry) => pageNewsCategories.length
+          ? { ...entry, newsCategories: mergeStringLists(entry.newsCategories, pageNewsCategories) }
+          : entry)
         .filter((entry) => isAllowedSourceUrl(entry.url, source))
         .filter((entry) => isRobotsAllowedWithReport(entry.url, source, robotsRules, report));
 
@@ -638,10 +645,46 @@ export async function discoverSourceEntries(source, {
 
 function addLinkEntries(target, entries = [], maxLinks = Infinity) {
   for (const entry of entries) {
-    if (!entry?.url || target.has(entry.url)) continue;
+    if (!entry?.url) continue;
+    if (target.has(entry.url)) {
+      const existing = target.get(entry.url);
+      const newsCategories = mergeStringLists(existing?.newsCategories, entry.newsCategories);
+      if (newsCategories.length) target.set(entry.url, { ...existing, newsCategories });
+      continue;
+    }
     if (target.size >= maxLinks) break;
     target.set(entry.url, entry);
   }
+}
+
+function inferNewsCategoriesFromListingUrl(value = "", source = {}) {
+  if (source.id !== "kcna") return [];
+  const url = String(value || "");
+  const mappings = [
+    ["b0721b9f23054ddc7fe56c2811a12715", "leadership"],
+    ["6a47505ba5268fd7749c0fe11e4b24b4", "important"],
+    ["ecc14533d88be93068af4178946b1b05", "international"],
+    ["6837a75abf5c6249d0e39ee758e763ea", /\/video\/list\//iu.test(url) ? "video" : "photo"],
+    ["503e9b606704f9b1c625fa5755928cd3", "anecdote"],
+    ["1afa96195f9b303902490a126ab7285f", "document"],
+    ["e2f336db98b5e69c75e0da264e037e8d", "foreign"],
+    ["7bc083f00425be6aadfb828fba1cb5a7", "memory"],
+    ["2f7d854121ccbbfbe6feae9fdcc3556e", "domestic"],
+    ["680e40b40899891bbe75a7072e3285e7", "social"],
+  ];
+  return mappings.filter(([token]) => url.includes(token)).map(([, category]) => category);
+}
+
+function mergeStringLists(...values) {
+  return [...new Set(values.flatMap((value) => Array.isArray(value) ? value : []).map(String).filter(Boolean))];
+}
+
+function applyNewsCategoryMetadata(document, entry) {
+  if (!document) return document;
+  const categories = mergeStringLists(entry?.newsCategories);
+  if (!categories.length) return document;
+  const aliases = mergeStringLists(document.aliases, categories.map((category) => `news-category:${category}`));
+  return { ...document, aliases };
 }
 
 function createGeneratedDiscoveryPageUrls(source = {}, entryUrl = "") {
@@ -2293,7 +2336,10 @@ export function extractDocumentFromHtml(html, url, source, context = {}) {
     sourceSpecific.date
     || $(source.crawler?.selectors?.date || "time").first().attr("datetime")
     || selectFirstText($, source.crawler?.selectors?.date)
-    || $("meta[property='article:published_time']").attr("content"),
+    || $("meta[property='article:published_time']").attr("content")
+    || context?.date
+    || context?.fallbackDocument?.date
+    || extractDateFromUrl(url),
     source,
   );
   const thumbnailUrl = resolveUrl($("meta[property='og:image']").attr("content") || $("img[src]").first().attr("src"), url) || "";
@@ -3572,6 +3618,7 @@ function normalizeDate(value = "") {
 }
 
 function normalizeCrawledDate(value = "", source = {}) {
+  if (["kcna", "rodong-sinmun"].includes(source.id) && !extractDateText(value)) return "";
   const date = normalizeDate(value);
   const today = new Date().toISOString().slice(0, 10);
   if (source.crawler?.futureDatePolicy === "crawl-date" && date > today) return today;
@@ -3748,18 +3795,30 @@ function extractSourceSpecificDocument($, url, source) {
 
 function extractRodongDocument($, url, source) {
   let title = cleanText(
-    $("meta[property='og:title']").attr("content")
+    $(".TitleP").first().text()
+    || $("meta[property='og:title']").attr("content")
     || $("h1, h2, h3").first().text()
     || $("title").text(),
   );
   title = cleanReadableTitle(title.replace(/\s*-\s*로동신문.*$/i, ""));
+  const paragraphs = $(".TextP")
+    .map((_, element) => cleanText($(element).text()))
+    .get()
+    .filter(Boolean);
+  const writer = cleanText($(".WriterP").first().text());
+  const structuredBody = [...paragraphs, writer].filter(Boolean).join("\n\n");
   const pageText = cleanText($("body").text());
-  const date = normalizeDate(pageText);
+  const explicitDateText = extractDateText($("#article-homepage").first().text() || pageText)
+    || extractDateFromUrl(url);
+  const date = explicitDateText ? normalizeDate(explicitDateText) : "";
   const titleIndex = title ? pageText.indexOf(title) : -1;
   const focusedText = titleIndex >= 0
-    ? pageText.slice(titleIndex, findRodongBodyBoundary(pageText, titleIndex + title.length))
+    ? pageText.slice(
+      titleIndex,
+      findRodongBodyBoundary(pageText, titleIndex + title.length, source.crawler?.maxBodyLength),
+    )
     : title;
-  const body = cleanText(focusedText).slice(0, 900);
+  const body = structuredBody || cleanText(focusedText);
   const snippet = [title, date ? `[${date}]` : ""].filter(Boolean).join(" ");
 
   if (!title || isGenericTitle(title, source)) return {};
@@ -3771,7 +3830,7 @@ function extractRodongDocument($, url, source) {
   };
 }
 
-function findRodongBodyBoundary(text = "", startIndex = 0) {
+function findRodongBodyBoundary(text = "", startIndex = 0, maxBodyLength = 14000) {
   const boundaries = [
     "오늘호 기사",
     "인민을 위한 정치",
@@ -3782,7 +3841,9 @@ function findRodongBodyBoundary(text = "", startIndex = 0) {
   ]
     .map((boundary) => text.indexOf(boundary, startIndex))
     .filter((index) => index > startIndex);
-  return boundaries.length ? Math.min(...boundaries) : Math.min(text.length, startIndex + 900);
+  const configuredLimit = Number(maxBodyLength);
+  const safeLimit = Number.isFinite(configuredLimit) && configuredLimit > 0 ? configuredLimit : 14000;
+  return boundaries.length ? Math.min(...boundaries) : Math.min(text.length, startIndex + safeLimit);
 }
 
 function extractMinjuDocument($, url) {
@@ -3842,6 +3903,12 @@ function inferMediaType(url, html, source) {
   if (isPdfUrl(url)) return "pdf";
   const mediaAssetType = inferMediaAssetType(url, source);
   if (mediaAssetType) return mediaAssetType;
+  if (source.id === "kcna" && /\/(?:kp|en|jp|cn|ru|sp|es)\/gallery\/detail\//iu.test(String(url || ""))) {
+    return "image";
+  }
+  if (source.id === "kcna" && /\/(?:kp|en|jp|cn|ru|sp|es)\/video\/detail\//iu.test(String(url || ""))) {
+    return "video";
+  }
   if (source.id === "voice-of-korea" && /\/detail_com\/vi_(?:audio|video)(?:\/|$)/i.test(String(url || ""))) {
     return "broadcast";
   }
