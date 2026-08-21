@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 150
     env:
-      NEWS_MIRROR_REPORT: ${{ runner.temp }}/news-mirror-refresh-report.json
+      NEWS_MIRROR_REPORT: /tmp/news-mirror-refresh-report.json
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
