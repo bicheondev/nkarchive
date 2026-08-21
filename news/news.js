@@ -346,9 +346,9 @@
     const copy = document.createElement("div");
     const title = document.createElement("p");
     const date = document.createElement("p");
-    const imageSources = slot.thumbnail ? resolveArticleImageSources(article) : [];
+    const imageSources = resolveArticleImageSources(article);
 
-    item.className = `news-article news-slot-${slot.height}${imageSources.length ? " has-thumbnail" : ""}`;
+    item.className = `news-article news-slot-${slot.height}${imageSources.length ? " has-thumbnail" : ""}${imageSources.length && slot.thumbnail ? " news-thumbnail-featured" : ""}`;
     link.className = "news-article-link";
     link.href = article.detailUrl || `/news/document?id=${encodeURIComponent(article.id || "")}`;
     copy.className = "news-article-copy";

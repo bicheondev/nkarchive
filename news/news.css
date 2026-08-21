@@ -392,6 +392,24 @@ button {
   object-fit: cover;
 }
 
+.news-article.has-thumbnail:not(.news-thumbnail-featured).news-slot-40 .news-article-link {
+  padding-right: 76px;
+}
+
+.news-article.has-thumbnail:not(.news-thumbnail-featured).news-slot-40 .news-article-thumbnail {
+  width: 60px;
+  height: 40px;
+}
+
+.news-article.has-thumbnail:not(.news-thumbnail-featured).news-slot-62 .news-article-link {
+  padding-right: 117px;
+}
+
+.news-article.has-thumbnail:not(.news-thumbnail-featured).news-slot-62 .news-article-thumbnail {
+  width: 93px;
+  height: 62px;
+}
+
 .news-source-switcher {
   position: fixed;
   top: auto;

@@ -107,6 +107,9 @@ assert.match(newsSource, /const categorized = sorted\.filter/u);
 assert.match(newsSource, /const semanticMatches = sorted\.filter/u);
 assert.doesNotMatch(newsSource, /right\.score - left\.score/u);
 assert.match(newsSource, /cachedThumbnailUrl|thumbnailUrl/u);
+assert.match(newsSource, /const imageSources = resolveArticleImageSources\(article\);/u);
+assert.doesNotMatch(newsSource, /slot\.thumbnail \? resolveArticleImageSources/u);
+assert.match(newsCss, /news-thumbnail-featured/u);
 assert.match(newsSource, /fetch\(FEED_URL, \{ cache: "no-cache"/u);
 assert.match(newsSource, /figure\.remove\(\);[\s\S]*?item\.classList\.remove\("has-thumbnail"\)/u);
 assert.doesNotMatch(newsSource, /news-list-image-/u);
@@ -157,8 +160,9 @@ for (const dataPath of ["/data/news-feed.json", "/data/news-details.json"]) {
 let articleCount = 0;
 assert.match(feed.version, /^[a-f0-9]{16}$/u);
 assert.equal(details.version, feed.version);
-assert.match(generatorSource, /NEWS_SNAPSHOT_SCHEMA_VERSION = 4;/u);
+assert.match(generatorSource, /NEWS_SNAPSHOT_SCHEMA_VERSION = 5;/u);
 assert.match(generatorSource, /createArticleMediaIndex|archiveUrl|displayOrder/u);
+assert.match(generatorSource, /byTitleDate|normalizeMediaAssociationTitle/u);
 assert.match(generatorSource, /KCNA_ARTICLE_CATEGORY_LIMITS/u);
 assert.match(generatorSource, /--documents|--feed-out|--details-out|--check/u);
 assert.match(sourceConfigSource, /\/article\/list\/b0721b9f23054ddc7fe56c2811a12715/u);
@@ -214,6 +218,71 @@ assert.equal(
   true,
   "KCNA category quota candidates outside the latest 120 articles must remain selectable",
 );
+const titleAndMediaFixture = [
+  {
+    ...categoryOutsideLatestWindow,
+    id: "kcna-title-media-article",
+    title: "조선중앙통신 | 사진과 같은 기사",
+    snippet: "조선중앙통신, KCNA, 기사, 사진과 같은 기사",
+    body: "사진과 같은 기사 본문",
+    date: "2026-08-21",
+    url: "https://kcna.example/article/title-media",
+    aliases: ["news-category:important"],
+  },
+  {
+    ...categoryOutsideLatestWindow,
+    id: "kcna-title-media-image",
+    title: "사진과 같은 기사 (1/1)",
+    snippet: "사진 자료",
+    body: "사진 자료 본문",
+    date: "2026-08-21",
+    mediaType: "image",
+    url: "https://kcna.example/gallery/title-media",
+    archiveUrl: "",
+    cachedThumbnailUrl: "/data/search/assets/kcna/title-media.jpg",
+    aliases: ["news-category:photo"],
+    displayOrder: 0,
+  },
+  ...[
+    ["kcna-title-two-stage", "조선중앙통신 | 기사 | 두단계 제목", "두단계 제목"],
+    ["kcna-title-english", "KCNA | Article | Headline", "Headline"],
+    ["kcna-title-pipe", "A | B", "A | B"],
+  ].map(([id, title, expectedTitle], index) => ({
+    ...categoryOutsideLatestWindow,
+    id,
+    title,
+    expectedTitle,
+    date: "2026-08-20",
+    url: `https://kcna.example/article/title-${index}`,
+    aliases: [],
+  })),
+  {
+    ...categoryOutsideLatestWindow,
+    id: "rodong-title-media-fixture",
+    sourceId: "rodong-sinmun",
+    sourceName: "로동신문",
+    title: "로동신문 정상 기사",
+    date: "2026-08-21",
+    url: "https://rodong.example/article/title-media",
+    aliases: [],
+  },
+];
+const titleAndMediaSnapshot = generateNewsSnapshot(titleAndMediaFixture);
+const associatedArticle = titleAndMediaSnapshot.feed.sources.kcna.articles
+  .find((article) => article.id === "kcna-title-media-article");
+const associatedDetail = titleAndMediaSnapshot.details.articles["kcna-title-media-article"];
+assert.equal(associatedArticle.title, "사진과 같은 기사");
+assert.equal(associatedArticle.snippet, "사진과 같은 기사");
+assert.equal(associatedArticle.hasImage, true);
+assert.equal(associatedArticle.cachedThumbnailUrl, "/data/search/assets/kcna/title-media.jpg");
+assert.equal(associatedDetail.images.some((image) => image.id === "kcna-title-media-image"), true);
+for (const fixture of titleAndMediaFixture.filter((document) => document.expectedTitle)) {
+  assert.equal(
+    titleAndMediaSnapshot.details.articles[fixture.id]?.title,
+    fixture.expectedTitle,
+    `${fixture.id} should only remove known leading source chrome`,
+  );
+}
 for (const sourceId of ["kcna", "rodong-sinmun"]) {
   const source = feed.sources[sourceId];
   assert.equal(source.id, sourceId);
@@ -238,18 +307,18 @@ for (const sourceId of ["kcna", "rodong-sinmun"]) {
     assert.ok(detail?.sourceName);
     assert.ok(detail?.body, `${article.id} should include an archived article body`);
     assert.ok(sourceDocument?.body, `${article.id} should exist in the search archive`);
-    assert.equal(article.title, cleanArticleTitle(sourceDocument?.title));
+    assert.equal(article.title, cleanArticleTitle(sourceDocument?.title, sourceId));
     assert.equal(article.date, String(sourceDocument?.date || ""));
-    assert.equal(article.snippet, String(sourceDocument?.snippet || ""));
+    assert.equal(article.snippet, cleanArticleSnippet(sourceDocument?.snippet, sourceId));
     assert.equal(article.url, String(sourceDocument?.url || ""));
     assert.equal(article.mediaType, ["image", "video"].includes(sourceDocument?.mediaType) ? sourceDocument.mediaType : "article");
     assert.equal(article.hasImage, Array.isArray(detail.images) && detail.images.length > 0);
     assert.equal(article.hasVideo, detail.mediaType === "video" || (Array.isArray(detail.videos) && detail.videos.length > 0));
     assert.equal(typeof article.thumbnailUrl, "string");
     assert.equal(typeof article.cachedThumbnailUrl, "string");
-    assert.equal(detail.title, cleanArticleTitle(sourceDocument?.title));
+    assert.equal(detail.title, cleanArticleTitle(sourceDocument?.title, sourceId));
     assert.equal(detail.date, String(sourceDocument?.date || ""));
-    assert.equal(detail.snippet, String(sourceDocument?.snippet || ""));
+    assert.equal(detail.snippet, cleanArticleSnippet(sourceDocument?.snippet, sourceId));
     assert.equal(detail.body, String(sourceDocument?.body || ""));
     assert.equal(detail.url, String(sourceDocument?.url || ""));
     assert.equal(detail.thumbnailUrl, article.thumbnailUrl);
@@ -262,7 +331,15 @@ for (const sourceId of ["kcna", "rodong-sinmun"]) {
       const imageDocument = documentsById.get(image.id);
       if (imageDocument?.mediaType === "image") {
         assert.equal(imageDocument.sourceId, sourceId);
-        assert.equal(imageDocument.archiveUrl, sourceDocument.url);
+        const exactUrlAssociation = imageDocument.archiveUrl === sourceDocument.url;
+        const exactTitleDateAssociation = imageDocument.date === sourceDocument.date
+          && normalizeMediaAssociationTitle(imageDocument.title, sourceId)
+            === normalizeMediaAssociationTitle(sourceDocument.title, sourceId);
+        assert.equal(
+          exactUrlAssociation || exactTitleDateAssociation,
+          true,
+          `${image.id} should be linked by exact article URL or exact source/date/title`,
+        );
       }
     }
     assert.doesNotMatch(JSON.stringify(article), /\/assets\/news-(?:detail-hero|list-image-)/u);
@@ -282,8 +359,37 @@ function read(relativePath) {
   return fs.readFile(path.join(ROOT_DIR, relativePath), "utf8");
 }
 
-function cleanArticleTitle(value) {
-  return String(value || "")
+function cleanArticleTitle(value, sourceId = "") {
+  const title = String(value || "")
     .replace(/\s*\[20\d{2}[./-]\d{2}[./-]\d{2}\.?\]\s*$/u, "")
+    .trim();
+  const sourcePrefix = sourceId === "kcna"
+    ? /^(?:조선중앙통신|KCNA|Korean Central News Agency)\s*\|\s*/iu
+    : sourceId === "rodong-sinmun"
+      ? /^(?:로동신문|Rodong Sinmun)\s*\|\s*/iu
+      : null;
+  if (!sourcePrefix) return title;
+  return title
+    .replace(sourcePrefix, "")
+    .replace(/^(?:기사|Article|사진|Photo|동화상|Video)\s*\|\s*/iu, "")
+    .trim();
+}
+
+function cleanArticleSnippet(value, sourceId = "") {
+  const snippet = String(value || "").trim();
+  if (sourceId !== "kcna") return snippet;
+  return snippet
+    .replace(
+      /^(?:조선중앙통신|KCNA|Korean Central News Agency)\s*,\s*(?:KCNA\s*,\s*)?(?:(?:기사|Article|사진|Photo|동화상|Video)\s*,\s*)?/iu,
+      "",
+    )
+    .trim();
+}
+
+function normalizeMediaAssociationTitle(value, sourceId = "") {
+  return cleanArticleTitle(value, sourceId)
+    .replace(/\s*\(\s*\d+\s*\/\s*\d+\s*\)\s*$/u, "")
+    .normalize("NFKC")
+    .replace(/\s+/gu, " ")
     .trim();
 }

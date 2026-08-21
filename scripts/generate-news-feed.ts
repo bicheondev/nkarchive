@@ -23,7 +23,7 @@ const KCNA_ARTICLE_CATEGORY_LIMITS = Object.freeze({
   domestic: 5,
   social: 5,
 });
-export const NEWS_SNAPSHOT_SCHEMA_VERSION = 4;
+export const NEWS_SNAPSHOT_SCHEMA_VERSION = 5;
 const SOURCE_DEFINITIONS = [
   { id: "kcna", name: "조선중앙통신" },
   { id: "rodong-sinmun", name: "로동신문" },
@@ -166,30 +166,67 @@ function selectCategoryCompleteMedia(candidates = [], category, requiredCount, l
 }
 
 function createArticleMediaIndex(documents) {
-  const index = new Map();
+  const byArticleUrl = new Map();
+  const byTitleDate = new Map();
   for (const document of documents) {
     if (!document || !["image", "video"].includes(document.mediaType)) continue;
     const articleUrl = normalizeArticleUrl(document.archiveUrl || document.originalSourceUrl);
-    if (!articleUrl || !document.sourceId) continue;
-    const key = `${document.sourceId}\u0000${articleUrl}`;
-    const bucket = index.get(key) || { images: [], videos: [] };
-    if (document.mediaType === "image") bucket.images.push(document);
-    if (document.mediaType === "video") bucket.videos.push(document);
-    index.set(key, bucket);
+    if (!document.sourceId) continue;
+    if (articleUrl) addMediaToIndex(byArticleUrl, `${document.sourceId}\u0000${articleUrl}`, document);
+    const titleDateKey = createMediaTitleDateKey(document);
+    if (titleDateKey) addMediaToIndex(byTitleDate, titleDateKey, document);
   }
-  for (const bucket of index.values()) {
-    bucket.images.sort(compareMediaDocuments);
-    bucket.videos.sort(compareMediaDocuments);
+  for (const index of [byArticleUrl, byTitleDate]) {
+    for (const bucket of index.values()) {
+      bucket.images.sort(compareMediaDocuments);
+      bucket.videos.sort(compareMediaDocuments);
+    }
   }
-  return index;
+  return { byArticleUrl, byTitleDate };
+}
+
+function addMediaToIndex(index, key, document) {
+  const bucket = index.get(key) || { images: [], videos: [] };
+  if (document.mediaType === "image") bucket.images.push(document);
+  if (document.mediaType === "video") bucket.videos.push(document);
+  index.set(key, bucket);
+}
+
+function createMediaTitleDateKey(document) {
+  const sourceId = String(document?.sourceId || "");
+  const language = String(document?.language || "");
+  const date = String(document?.date || "");
+  const title = normalizeMediaAssociationTitle(document?.title, sourceId);
+  return sourceId && language && date && title
+    ? `${sourceId}\u0000${language}\u0000${date}\u0000${title}`
+    : "";
+}
+
+function mergeMediaBuckets(...buckets) {
+  const merged = { images: [], videos: [] };
+  for (const mediaType of ["images", "videos"]) {
+    const seen = new Set();
+    for (const document of buckets.flatMap((bucket) => bucket?.[mediaType] || [])) {
+      const identity = String(document?.id || "");
+      if (!identity || seen.has(identity)) continue;
+      seen.add(identity);
+      merged[mediaType].push(document);
+    }
+    merged[mediaType].sort(compareMediaDocuments);
+  }
+  return merged;
 }
 
 function buildNewsRecord(document, source, mediaIndex) {
   const id = String(document?.id || "");
   const key = `${source.id}\u0000${normalizeArticleUrl(document?.url || document?.archiveUrl)}`;
-  const associatedMedia = mediaIndex.get(key) || { images: [], videos: [] };
+  const associatedMedia = mergeMediaBuckets(
+    mediaIndex.byArticleUrl.get(key),
+    mediaIndex.byTitleDate.get(createMediaTitleDateKey(document)),
+  );
   const images = dedupeImageDescriptors([
     ...associatedMedia.images.map(toImageDescriptor),
+    ...associatedMedia.videos.flatMap(imageDescriptorsFromDocument),
     ...imageDescriptorsFromDocument(document),
   ]);
   const videos = associatedMedia.videos.map(toVideoDescriptor).filter(Boolean);
@@ -197,9 +234,9 @@ function buildNewsRecord(document, source, mediaIndex) {
   return {
     document: {
       id,
-      title: cleanArticleTitle(document?.title),
+      title: cleanArticleTitle(document?.title, source.id),
       date: String(document?.date || ""),
-      snippet: String(document?.snippet || ""),
+      snippet: cleanArticleSnippet(document?.snippet, source.id),
       body: String(document?.body || ""),
       url: String(document?.url || document?.archiveUrl || ""),
       mediaType: ["image", "video"].includes(document?.mediaType) ? document.mediaType : "article",
@@ -344,9 +381,38 @@ function isGenericSourceArtwork(value) {
   }
 }
 
-function cleanArticleTitle(value) {
-  return String(value || "")
+function cleanArticleTitle(value, sourceId = "") {
+  const title = String(value || "")
     .replace(/\s*\[20\d{2}[./-]\d{2}[./-]\d{2}\.?\]\s*$/u, "")
+    .trim();
+  const sourcePrefix = sourceId === "kcna"
+    ? /^(?:조선중앙통신|KCNA|Korean Central News Agency)\s*\|\s*/iu
+    : sourceId === "rodong-sinmun"
+      ? /^(?:로동신문|Rodong Sinmun)\s*\|\s*/iu
+      : null;
+  if (!sourcePrefix) return title;
+  return title
+    .replace(sourcePrefix, "")
+    .replace(/^(?:기사|Article|사진|Photo|동화상|Video)\s*\|\s*/iu, "")
+    .trim();
+}
+
+function cleanArticleSnippet(value, sourceId = "") {
+  const snippet = String(value || "").trim();
+  if (sourceId !== "kcna") return snippet;
+  return snippet
+    .replace(
+      /^(?:조선중앙통신|KCNA|Korean Central News Agency)\s*,\s*(?:KCNA\s*,\s*)?(?:(?:기사|Article|사진|Photo|동화상|Video)\s*,\s*)?/iu,
+      "",
+    )
+    .trim();
+}
+
+function normalizeMediaAssociationTitle(value, sourceId = "") {
+  return cleanArticleTitle(value, sourceId)
+    .replace(/\s*\(\s*\d+\s*\/\s*\d+\s*\)\s*$/u, "")
+    .normalize("NFKC")
+    .replace(/\s+/gu, " ")
     .trim();
 }
 

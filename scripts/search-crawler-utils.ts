@@ -2322,23 +2322,23 @@ export function extractDocumentFromHtml(html, url, source, context = {}) {
   removeNoise($);
   const sourceSpecific = extractSourceSpecificDocument($, url, source);
 
-  const title = cleanDocumentTitle(cleanText(
+  const title = normalizeReadableMetadataTitle(cleanDocumentTitle(cleanText(
     sourceSpecific.title
     || selectFirstText($, source.crawler?.selectors?.title)
     || $("meta[property='og:title']").attr("content")
     || $("meta[name='twitter:title']").attr("content")
     || $("title").text(),
-  ));
+  )), source);
   const body = limitDocumentBodyLength(
     cleanBodyText(sourceSpecific.body || selectFirstBodyText($, source.crawler?.selectors?.body) || preserveHtmlBlockText($("body"))),
     source,
   );
-  const snippet = cleanText(
+  const snippet = normalizeReadableMetadataSnippet(cleanText(
     sourceSpecific.snippet
     || $("meta[name='description']").attr("content")
     || $("meta[property='og:description']").attr("content")
     || body.slice(0, 280),
-  );
+  ), source);
   const pageDate = sourceSpecific.date
     || $(source.crawler?.selectors?.date || "time").first().attr("datetime")
     || selectFirstText($, source.crawler?.selectors?.date)
@@ -2479,8 +2479,19 @@ function extractOriginalSourceUrlFromReadableText(markdown = "", source = {}) {
 function normalizeReadableMetadataTitle(title, source) {
   const value = cleanText(title);
   if (source.id !== "kcna") return value;
-  const kcnaArticleTitle = value.match(/^(?:조선중앙통신|KCNA|Korean Central News Agency)\s*\|\s*(?:기사|Article)\s*\|\s*(.+)$/i);
+  const kcnaArticleTitle = value.match(
+    /^(?:조선중앙통신|KCNA|Korean Central News Agency)\s*\|\s*(?:(?:기사|Article|사진|Photo|동화상|Video)\s*\|\s*)?(.+)$/iu,
+  );
   return kcnaArticleTitle ? kcnaArticleTitle[1] : value;
+}
+
+function normalizeReadableMetadataSnippet(snippet, source) {
+  const value = cleanText(snippet);
+  if (source.id !== "kcna") return value;
+  return value.replace(
+    /^(?:조선중앙통신|KCNA|Korean Central News Agency)\s*,\s*(?:KCNA\s*,\s*)?(?:(?:기사|Article|사진|Photo|동화상|Video)\s*,\s*)?/iu,
+    "",
+  ).trim();
 }
 
 export function extractPdfDocumentFromLink(entry, source) {
