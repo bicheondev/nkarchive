@@ -294,6 +294,7 @@ export function mergeNewsMirrorDocuments({
       existingDocuments: existingForSource,
       importedDocuments: importedForSource,
       preservedSourceIds,
+      now,
     });
     const existingNewestDate = getNewestKoreanArticleDate(existingForSource);
     const freshImportedNewestDate = getNewestKoreanArticleDate(importedForSource);
@@ -471,20 +472,50 @@ export function getSourceFailureReason({
   existingDocuments = [],
   importedDocuments = [],
   preservedSourceIds = new Set(),
+  now = new Date(),
 } = {}) {
   if (!report) return "crawler report is missing";
-  if (report.timedOut) return "crawler timed out";
   const errors = Array.isArray(report.errors) ? report.errors : [];
   const indexed = Number(report.indexed || 0);
   const fetched = Number(report.fetched || 0);
+  const usablePartialOutput = report.timedOut && hasUsableTimedOutSourceOutput(importedDocuments, {
+    indexed,
+    now,
+  });
+  if (report.timedOut && !usablePartialOutput) return "crawler timed out";
   if (!importedDocuments.length && existingDocuments.length) return "crawler output lost the existing source";
   if (indexed <= 0) return errors.length
     ? `crawler indexed no documents (${errors[0]})`
     : "crawler indexed no documents";
-  if (errors.length && fetched <= 0 && preservedSourceIds.has(sourceId)) {
+  if (errors.length && fetched <= 0 && preservedSourceIds.has(sourceId) && !usablePartialOutput) {
     return `crawler failed before fetching source documents (${errors[0]})`;
   }
   return "";
+}
+
+export function hasUsableTimedOutSourceOutput(documents = [], {
+  indexed = 0,
+  now = new Date(),
+  minimumDocuments = 10,
+  maxAgeDays = DEFAULT_MAX_NEWS_AGE_DAYS,
+} = {}) {
+  const substantialDocuments = documents.filter((document) => (
+    NEWS_SOURCE_IDS.includes(document?.sourceId)
+    && document.mediaType === "article"
+    && document.language === "ko"
+    && isValidExplicitDocumentDate(document.date, { now })
+    && hasSubstantialArticleBody(document)
+  ));
+  if (Number(indexed || 0) < minimumDocuments || substantialDocuments.length < minimumDocuments) return false;
+  const newestDate = getNewestKoreanArticleDate(substantialDocuments);
+  if (!newestDate) return false;
+  const today = new Date(now);
+  if (Number.isNaN(today.getTime())) return false;
+  const ageDays = Math.floor((
+    Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate())
+    - Date.parse(`${newestDate}T00:00:00.000Z`)
+  ) / 86400000);
+  return ageDays >= -MAX_FUTURE_DATE_SKEW_DAYS && ageDays <= normalizeNonNegativeInteger(maxAgeDays, DEFAULT_MAX_NEWS_AGE_DAYS);
 }
 
 export function assertFreshNewsSources(documents = [], {

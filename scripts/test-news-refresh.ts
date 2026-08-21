@@ -11,6 +11,7 @@ import {
   enrichCandidateWithInlineImages,
   fetchArticleHtml,
   hasSubstantialArticleBody,
+  hasUsableTimedOutSourceOutput,
   inlineSameOriginRemoteImages,
   isValidExplicitDocumentDate,
   loadNewsInlineImageHelper,
@@ -262,6 +263,40 @@ async function testQualityMergeAndSourceIsolation() {
     "the failed source must remain byte-serializable from its original objects",
   );
   assert.equal(result.sourceResults.find((source) => source.sourceId === "rodong-sinmun").status, "preserved");
+
+  const partialRodongDocuments = Array.from({ length: 12 }, (_, index) => makeDocument({
+    id: `rodong-partial-${index}`,
+    sourceId: "rodong-sinmun",
+    date: index === 0 ? "2026-08-18" : "2026-08-17",
+  }));
+  assert.equal(hasUsableTimedOutSourceOutput(partialRodongDocuments, {
+    indexed: partialRodongDocuments.length,
+    now: TEST_NOW,
+  }), true, "a substantial, current timed-out crawl should be usable");
+  const staleExistingRodong = makeDocument({
+    id: "rodong-existing-stale",
+    sourceId: "rodong-sinmun",
+    date: "2026-05-19",
+  });
+  const partialResult = mergeNewsMirrorDocuments({
+    existingDocuments: [existingKcna, staleExistingRodong],
+    importedDocuments: [existingKcna, ...partialRodongDocuments],
+    importReport: {
+      preservedSourceIds: ["rodong-sinmun"],
+      reports: [
+        makeReport("kcna"),
+        makeReport("rodong-sinmun", {
+          fetched: partialRodongDocuments.length,
+          indexed: partialRodongDocuments.length,
+          timedOut: true,
+          errors: ["source time budget exceeded"],
+        }),
+      ],
+    },
+    now: TEST_NOW,
+  });
+  assert.equal(partialResult.sourceResults.find((source) => source.sourceId === "rodong-sinmun").status, "accepted");
+  assert.ok(partialResult.documents.some((document) => document.id === "rodong-partial-0"));
 }
 
 function testDateAndBodyGates() {
