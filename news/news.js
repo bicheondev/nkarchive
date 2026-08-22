@@ -291,9 +291,9 @@
     const element = document.createElement("section");
     const header = document.createElement("header");
     const rule = document.createElement("img");
-    const heading = document.createElement("div");
+    const heading = document.createElement("a");
     const title = document.createElement("h2");
-    const more = document.createElement("a");
+    const more = document.createElement("span");
     const arrow = document.createElement("img");
     const list = document.createElement("div");
     const slots = SECTION_SLOTS[section.id] || [];
@@ -307,11 +307,12 @@
       : "/assets/news-section-line-454.svg?v=news-20260822-1";
     rule.alt = "";
     heading.className = "news-section-heading";
+    heading.href = `/news/category?source=${encodeURIComponent(source.id)}&section=${encodeURIComponent(section.id)}`;
+    heading.setAttribute("aria-label", `${source.name} ${section.title} 전체 기사 보기`);
     title.className = "news-section-title";
     title.textContent = section.title;
     more.className = "news-section-more";
-    more.href = `/news/category?source=${encodeURIComponent(source.id)}&section=${encodeURIComponent(section.id)}`;
-    more.setAttribute("aria-label", `${source.name} ${section.title} 전체 기사 보기`);
+    more.setAttribute("aria-hidden", "true");
     arrow.src = "/assets/news-arrow-forward-ios.svg?v=news-20260822-1";
     arrow.alt = "";
     arrow.width = 24;

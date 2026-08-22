@@ -111,6 +111,11 @@ assert.doesNotMatch(
 );
 assert.match(newsJs, /const sectionColumns = SECTION_COLUMNS\[activeSourceId\]/u);
 assert.match(newsJs, /sectionColumns\.forEach\(\(sectionIds, columnIndex\)/u);
+assert.match(newsJs, /const heading = document\.createElement\("a"\)/u, "the whole section heading must be a category link");
+assert.match(newsJs, /const more = document\.createElement\("span"\)/u, "the arrow must remain decorative inside the heading link");
+assert.match(newsJs, /heading\.href = `\/news\/category\?source=/u);
+assert.doesNotMatch(newsJs, /more\.href\s*=/u, "the section heading must not contain a nested link");
+assert.match(newsCss, /\.news-section-heading:focus-visible\s*\{[^}]*outline:\s*2px solid var\(--news-gray-500\)/su);
 assert.equal(newsJs.includes("news-thumbnail-featured"), false, "all homepage thumbnails must use one visual size");
 assert.match(
   newsJs,

@@ -131,6 +131,11 @@ for (const invalid of [undefined, null, "", "0", "-1", "2x", "1000000"]) {
 }
 
 assert.match(indexScript, /\/news\/category\?source=\$\{encodeURIComponent\(source\.id\)\}&section=\$\{encodeURIComponent\(section\.id\)\}/u);
+assert.match(indexScript, /const heading = document\.createElement\("a"\)/u);
+assert.match(indexScript, /const more = document\.createElement\("span"\)/u);
+assert.match(indexScript, /heading\.href = `\/news\/category\?source=/u);
+assert.match(indexScript, /heading\.setAttribute\("aria-label", `\$\{source\.name\} \$\{section\.title\} 전체 기사 보기`\)/u);
+assert.doesNotMatch(indexScript, /more\.href\s*=/u);
 
 assert.match(styles, /\.news-category-view\s*\{[^}]*width:\s*1024px/su);
 assert.match(styles, /\.news-category-title\s*\{[^}]*font-size:\s*36px[^}]*line-height:\s*1\.35/su);
