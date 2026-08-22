@@ -111,6 +111,43 @@ assert.doesNotMatch(
 );
 assert.match(newsJs, /const sectionColumns = SECTION_COLUMNS\[activeSourceId\]/u);
 assert.match(newsJs, /sectionColumns\.forEach\(\(sectionIds, columnIndex\)/u);
+assert.equal(newsJs.includes("news-thumbnail-featured"), false, "all homepage thumbnails must use one visual size");
+assert.match(
+  newsJs,
+  /const imageSources = slot\.thumbnail \? resolveArticleImageSources\(article\) : \[\];/u,
+  "only Figma-designated article slots may render a thumbnail",
+);
+assert.match(newsJs, /important:\s*Array\.from\(\{ length: 6 \}, \(\) => \(\{ height: 80, thumbnail: true \}\)\)/u);
+assert.match(newsJs, /photo:\s*Array\.from\(\{ length: 5 \}, \(\) => \(\{ height: 80, thumbnail: true \}\)\)/u);
+assert.match(newsJs, /video:\s*Array\.from\(\{ length: 5 \}, \(\) => \(\{ height: 62, thumbnail: true \}\)\)/u);
+assert.match(newsJs, /important:\s*\{\s*title:\s*"오늘호 기사",\s*limit:\s*6\s*\}/u);
+assert.match(newsJs, /title:\s*"중요소식",\s*limit:\s*6/u);
+assert.match(newsJs, /title:\s*"사진",\s*limit:\s*5,[\s\S]*?media:\s*"image"/u);
+assert.match(newsJs, /title:\s*"동화상",\s*limit:\s*5,[\s\S]*?media:\s*"video"/u);
+assert.match(
+  newsCss,
+  /\.news-article-thumbnail\s*\{[\s\S]*?width:\s*120px;[\s\S]*?height:\s*80px;/u,
+  "desktop article thumbnails must all be 120 by 80 pixels",
+);
+assert.doesNotMatch(
+  newsCss,
+  /\.news-article\.has-thumbnail:not\(\.news-thumbnail-featured\)/u,
+  "slot height must not shrink a real article thumbnail",
+);
+assert.match(newsCss, /\.news-index-main\s*\{[^}]*min-height:\s*2567px/su);
+assert.match(newsCss, /\.news-board\s*\{[^}]*min-height:\s*2402px/su);
+assert.match(newsCss, /\.news-section\[data-section="important"\]\s*\{[^}]*height:\s*636px/su);
+assert.match(newsCss, /\.news-section\[data-section="photo"\]\s*\{[^}]*height:\s*538px/su);
+assert.match(newsCss, /\.news-section\[data-section="video"\]\s*\{[^}]*height:\s*488px/su);
+assert.match(newsCss, /\.news-section\[data-section="important"\] \.news-list\s*\{[^}]*--news-list-height:\s*570px;[^}]*gap:\s*18px/su);
+assert.match(newsCss, /\.news-section\[data-section="photo"\] \.news-list\s*\{[^}]*--news-list-height:\s*472px;[^}]*gap:\s*18px/su);
+assert.match(newsCss, /\.news-section\[data-section="video"\] \.news-list\s*\{[^}]*--news-list-height:\s*422px;[^}]*gap:\s*28px/su);
+assert.match(newsCss, /\.news-article\.has-thumbnail \.news-article-link\s*\{[^}]*padding-right:\s*156px/su);
+assert.match(
+  newsCss,
+  /@media \(max-width: 760px\)[\s\S]*?\.news-article\.has-thumbnail \.news-article-link\s*\{[^}]*padding-right:\s*125px[\s\S]*?\.news-article-thumbnail\s*\{[^}]*width:\s*105px;[^}]*height:\s*70px/su,
+  "mobile thumbnails must preserve the Figma-derived 105 by 70 size",
+);
 assert.match(newsCss, /\.news-source-switcher\s*\{[\s\S]*?position:\s*fixed/u, "source selector must remain floating");
 assert.match(newsCss, /bottom:\s*calc\(32px \+ env\(safe-area-inset-bottom, 0px\)\)/u);
 

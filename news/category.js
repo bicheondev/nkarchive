@@ -1,10 +1,12 @@
 (function initializeNewsCategory() {
   const title = document.querySelector("#newsCategoryTitle");
   const list = document.querySelector("#newsCategoryList");
-  if (!title || !list) return;
+  const pagination = document.querySelector("#newsCategoryPagination");
+  if (!title || !list || !pagination) return;
 
   const FEED_URL = "/data/news-feed.json";
-  const CATEGORY_LIMIT = 5;
+  const PAGE_SIZE = 5;
+  const PAGE_WINDOW = 5;
   const SOURCE_DEFINITIONS = Object.freeze({
     kcna: {
       name: "조선중앙통신",
@@ -38,7 +40,9 @@
   });
 
   const context = readCategoryContext();
+  let categoryArticles = [];
   let renderedArticles = [];
+  let currentPage = context?.page || 1;
 
   bindChrome();
   if (!context) {
@@ -63,9 +67,9 @@
       const source = feed?.sources?.[context.sourceId];
       if (!feed?.version || !Array.isArray(source?.articles)) throw new Error("invalid_news_feed");
 
-      renderedArticles = selectCategoryArticles(source.articles, context);
+      categoryArticles = selectCategoryArticles(source.articles, context);
       list.dataset.generatedAt = String(feed.generatedAt || "");
-      renderArticles(renderedArticles);
+      applyFilter(document.querySelector("#newsCategorySearchInput")?.value || "", { resetPage: false });
     } catch (error) {
       console.error("[news/category] Unable to load the news snapshot.", error);
       renderError("뉴스 아카이브를 불러오지 못했습니다.");
@@ -76,31 +80,98 @@
     const parameters = new URLSearchParams(window.location.search);
     const sourceId = parameters.get("source") || "";
     const sectionId = parameters.get("section") || "";
+    const page = normalizePageNumber(parameters.get("page"));
+    const query = String(parameters.get("q") || "").trim();
     const source = SOURCE_DEFINITIONS[sourceId];
     const sectionTitle = source?.sections?.[sectionId];
     if (!source || !sectionTitle) return null;
-    return { sourceId, sectionId, sectionTitle, sourceName: source.name };
+    return { sourceId, sectionId, sectionTitle, sourceName: source.name, page, query };
   }
 
   function selectCategoryArticles(articles, category) {
     const sorted = [...articles].sort(compareArticlesNewestFirst);
     return sorted.filter((article) => (
       Array.isArray(article?.categories) && article.categories.includes(category.sectionId)
-    )).slice(0, CATEGORY_LIMIT);
+    ));
   }
 
   function renderArticles(articles) {
-    if (!articles.length) {
-      renderEmpty("이 카테고리에 보관된 기사가 없습니다.");
-      return;
-    }
-
     const fragment = document.createDocumentFragment();
     for (const article of articles) fragment.append(createArticle(article));
     list.replaceChildren(fragment);
     list.setAttribute("aria-busy", "false");
     list.setAttribute("aria-label", `${context.sourceName} ${context.sectionTitle} 기사`);
-    applyFilter(document.querySelector("#newsCategorySearchInput")?.value || "");
+  }
+
+  function renderPagination(totalPages) {
+    pagination.replaceChildren();
+    if (totalPages <= 1) {
+      pagination.hidden = true;
+      return;
+    }
+
+    pagination.hidden = false;
+    pagination.append(createPaginationArrow(currentPage - 1, "이전 페이지", currentPage === 1));
+    for (const page of getPaginationRange(currentPage, totalPages)) {
+      if (page === currentPage) {
+        const current = document.createElement("span");
+        current.className = "news-category-page-number active";
+        current.setAttribute("aria-current", "page");
+        current.textContent = String(page);
+        pagination.append(current);
+      } else {
+        const link = document.createElement("a");
+        link.className = "news-category-page-number";
+        link.href = buildPageUrl(page);
+        link.setAttribute("aria-label", `${page}페이지`);
+        link.textContent = String(page);
+        pagination.append(link);
+      }
+    }
+    pagination.append(createPaginationArrow(currentPage + 1, "다음 페이지", currentPage === totalPages, true));
+  }
+
+  function createPaginationArrow(page, label, disabled, next = false) {
+    const control = document.createElement(disabled ? "span" : "a");
+    const image = document.createElement("img");
+    control.className = "news-category-page-arrow";
+    control.setAttribute("aria-label", label);
+    if (disabled) control.setAttribute("aria-disabled", "true");
+    else control.href = buildPageUrl(page);
+    image.className = `news-category-page-arrow-icon${next ? " next" : ""}`;
+    image.src = "/assets/news-pagination-arrow-left.svg?v=news-20260822-1";
+    image.alt = "";
+    control.append(image);
+    return control;
+  }
+
+  function buildPageUrl(page) {
+    const parameters = new URLSearchParams({
+      source: context.sourceId,
+      section: context.sectionId,
+      page: String(page),
+    });
+    const query = String(document.querySelector("#newsCategorySearchInput")?.value || "").trim();
+    if (query) parameters.set("q", query);
+    return `/news/category?${parameters.toString()}`;
+  }
+
+  function getPaginationRange(page, totalPages) {
+    const visibleCount = Math.min(PAGE_WINDOW, totalPages);
+    const maximumStart = Math.max(1, totalPages - visibleCount + 1);
+    const start = Math.min(Math.max(1, page - Math.floor(visibleCount / 2)), maximumStart);
+    return Array.from({ length: visibleCount }, (_, index) => start + index);
+  }
+
+  function paginateArticles(articles, page) {
+    const totalPages = Math.max(1, Math.ceil(articles.length / PAGE_SIZE));
+    const selectedPage = Math.min(Math.max(1, page), totalPages);
+    const start = (selectedPage - 1) * PAGE_SIZE;
+    return {
+      articles: articles.slice(start, start + PAGE_SIZE),
+      page: selectedPage,
+      totalPages,
+    };
   }
 
   function createArticle(article) {
@@ -173,6 +244,7 @@
     const navigation = document.querySelector(".news-navigation");
     const searchInput = document.querySelector("#newsCategorySearchInput");
 
+    if (searchInput && context?.query) searchInput.value = context.query;
     searchInput?.addEventListener("input", () => applyFilter(searchInput.value));
     searchInput?.addEventListener("search", () => applyFilter(searchInput.value));
     if (window.location.hash === "#search") requestAnimationFrame(() => searchInput?.focus());
@@ -208,32 +280,40 @@
     });
   }
 
-  function applyFilter(value) {
-    if (!renderedArticles.length) return;
-    const query = normalizeFilterText(value);
-    let visibleCount = 0;
-    for (const item of list.querySelectorAll(".news-category-row")) {
-      const matches = !query || String(item.dataset.searchText || "").includes(query);
-      item.hidden = !matches;
-      if (matches) visibleCount += 1;
+  function applyFilter(value, { resetPage = true } = {}) {
+    const rawQuery = String(value || "").trim();
+    const query = normalizeFilterText(rawQuery);
+    if (resetPage) currentPage = 1;
+
+    const matches = query
+      ? categoryArticles.filter((article) => (
+        normalizeFilterText(`${article?.title || ""} ${formatLongDate(article?.date)}`).includes(query)
+      ))
+      : categoryArticles;
+
+    if (!matches.length) {
+      renderedArticles = [];
+      renderEmpty(query
+        ? "현재 카테고리에서 일치하는 기사가 없습니다."
+        : "이 카테고리에 보관된 기사가 없습니다.");
+      return;
     }
 
-    let status = list.querySelector(".news-category-filter-empty");
-    if (!visibleCount && query) {
-      if (!status) {
-        status = document.createElement("p");
-        status.className = "news-category-empty news-category-filter-empty";
-        status.textContent = "현재 카테고리에서 일치하는 기사가 없습니다.";
-        list.append(status);
-      }
-      status.hidden = false;
-    } else if (status) {
-      status.hidden = true;
-    }
+    const page = paginateArticles(matches, currentPage);
+    currentPage = page.page;
+    renderedArticles = page.articles;
+    renderArticles(renderedArticles);
+    renderPagination(page.totalPages);
   }
 
   function normalizeFilterText(value) {
     return String(value || "").normalize("NFKC").replace(/\s+/gu, " ").trim().toLocaleLowerCase("ko-KR");
+  }
+
+  function normalizePageNumber(value) {
+    const candidate = String(value || "").trim();
+    if (!/^[1-9]\d{0,5}$/u.test(candidate)) return 1;
+    return Number(candidate);
   }
 
   function renderEmpty(message) {
@@ -242,6 +322,8 @@
     empty.textContent = message;
     list.replaceChildren(empty);
     list.setAttribute("aria-busy", "false");
+    pagination.replaceChildren();
+    pagination.hidden = true;
   }
 
   function renderError(message) {
@@ -254,5 +336,7 @@
     empty.append(back);
     list.replaceChildren(empty);
     list.setAttribute("aria-busy", "false");
+    pagination.replaceChildren();
+    pagination.hidden = true;
   }
 })();

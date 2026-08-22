@@ -135,7 +135,7 @@ try {
   const rodongFeed = result.snapshot.feed.sources["rodong-sinmun"].articles;
   assert.equal(rodongFeed.some((article) => article.cachedThumbnailUrl === fixtureAsset), true);
   assert.equal(rodongFeed.filter((article) => article.featuredSections.includes("leadership")).length, 6);
-  assert.equal(rodongFeed.filter((article) => article.featuredSections.includes("video")).length, 6);
+  assert.equal(rodongFeed.filter((article) => article.featuredSections.includes("video")).length, 5);
   assert.equal(rodongFeed.filter((article) => article.featuredSections.includes("social")).length, 4);
   assert.equal(JSON.parse(await fs.readFile(reportPath, "utf8")).status, "success");
   await fs.access(path.join(rootDir, fixtureAsset));
@@ -167,14 +167,14 @@ try {
 function createCompleteRodongFixtureDocuments() {
   const quotas = {
     leadership: 6,
-    important: 2,
+    important: 6,
     anecdote: 5,
     domestic: 5,
     memory: 5,
     // The official live category-7 index currently declares only four records.
     social: 4,
-    photo: 2,
-    video: 6,
+    photo: 5,
+    video: 5,
   };
   const output = [];
   let sequence = 0;

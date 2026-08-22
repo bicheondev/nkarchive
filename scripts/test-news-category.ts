@@ -13,15 +13,21 @@ const vercel = JSON.parse(fs.readFileSync(path.join(rootDir, "vercel.json"), "ut
 assert.match(html, /id="newsCategoryTitle"/u);
 assert.match(html, /id="newsCategoryList"/u);
 assert.match(html, /id="newsCategorySearchInput"/u);
+assert.match(html, /id="newsCategoryPagination"[^>]*aria-label="카테고리 페이지"/u);
 assert.match(html, /\/news\/category\.css/u);
 assert.match(html, /\/news\/category\.js/u);
+assert.match(html, /news-category-20260822-2/u);
 
 assert.match(script, /const FEED_URL = "\/data\/news-feed\.json"/u);
 assert.match(script, /\/data\/news\/assets\//u);
 assert.match(script, /\/news\/document/u);
 assert.match(script, /parameters\.get\("source"\)/u);
 assert.match(script, /parameters\.get\("section"\)/u);
-assert.match(script, /const CATEGORY_LIMIT = 5/u);
+assert.match(script, /parameters\.get\("page"\)/u);
+assert.match(script, /parameters\.get\("q"\)/u);
+assert.match(script, /const PAGE_SIZE = 5/u);
+assert.match(script, /const PAGE_WINDOW = 5/u);
+assert.match(script, /news-pagination-arrow-left\.svg/u);
 assert.doesNotMatch(script, /\/data\/search|\/api\/search|\/search\/results|meilisearch/iu);
 assert.doesNotMatch(script, /latest-day|category\.sourceId\s*===\s*["']rodong-sinmun["']/u);
 const rodongDefinitionsMatch = script.match(/"rodong-sinmun":\s*\{([\s\S]*?)\n\s*\},\n\s*\}\);/u);
@@ -34,7 +40,7 @@ assert.doesNotMatch(
 
 const harnessScript = script.replace(
   "  const context = readCategoryContext();",
-  "  globalThis.__newsCategoryTest = { selectCategoryArticles, compareArticlesNewestFirst }; return;\n  const context = readCategoryContext();",
+  "  globalThis.__newsCategoryTest = { selectCategoryArticles, compareArticlesNewestFirst, getPaginationRange, normalizePageNumber, paginateArticles }; return;\n  const context = readCategoryContext();",
 );
 assert.notEqual(harnessScript, script, "category test harness injection failed");
 
@@ -48,6 +54,12 @@ const categoryTest = sandbox.__newsCategoryTest as {
     articles: Array<Record<string, unknown>>,
     category: { sourceId: string; sectionId: string },
   ) => Array<Record<string, unknown>>;
+  getPaginationRange: (page: number, totalPages: number) => number[];
+  normalizePageNumber: (value: unknown) => number;
+  paginateArticles: (
+    articles: Array<Record<string, unknown>>,
+    page: number,
+  ) => { articles: Array<Record<string, unknown>>; page: number; totalPages: number };
 };
 
 const importantArticles = [
@@ -65,8 +77,18 @@ const selectedImportant = categoryTest.selectCategoryArticles(importantArticles,
 });
 assert.deepEqual(
   Array.from(selectedImportant, (article) => article.id),
+  ["day-21", "day-20", "kim", "commentary", "day-18", "day-17"],
+  "category selection must retain every exact official article before pagination",
+);
+assert.deepEqual(
+  Array.from(categoryTest.paginateArticles(selectedImportant, 1).articles, (article) => article.id),
   ["day-21", "day-20", "kim", "commentary", "day-18"],
-  "category page must render the Figma frame's latest five with Korean title ordering on equal dates",
+  "the first category page must match the Figma frame's latest five",
+);
+assert.deepEqual(
+  Array.from(categoryTest.paginateArticles(selectedImportant, 2).articles, (article) => article.id),
+  ["day-17"],
+  "later pages must expose the remaining exact-category articles",
 );
 
 assert.ok(
@@ -95,8 +117,18 @@ const selectedRodong = categoryTest.selectCategoryArticles(rodongToday, {
   sourceId: "rodong-sinmun",
   sectionId: "important",
 });
-assert.equal(selectedRodong.length, 5);
-assert.ok(selectedRodong.every((article) => article.date === "2026-08-21"));
+assert.equal(selectedRodong.length, 7);
+assert.equal(categoryTest.paginateArticles(selectedRodong, 1).articles.length, 5);
+assert.equal(categoryTest.paginateArticles(selectedRodong, 2).articles.length, 2);
+
+assert.deepEqual(Array.from(categoryTest.getPaginationRange(1, 7)), [1, 2, 3, 4, 5]);
+assert.deepEqual(Array.from(categoryTest.getPaginationRange(4, 7)), [2, 3, 4, 5, 6]);
+assert.deepEqual(Array.from(categoryTest.getPaginationRange(7, 7)), [3, 4, 5, 6, 7]);
+assert.deepEqual(Array.from(categoryTest.getPaginationRange(2, 3)), [1, 2, 3]);
+assert.equal(categoryTest.normalizePageNumber("3"), 3);
+for (const invalid of [undefined, null, "", "0", "-1", "2x", "1000000"]) {
+  assert.equal(categoryTest.normalizePageNumber(invalid), 1);
+}
 
 assert.match(indexScript, /\/news\/category\?source=\$\{encodeURIComponent\(source\.id\)\}&section=\$\{encodeURIComponent\(section\.id\)\}/u);
 
@@ -105,6 +137,14 @@ assert.match(styles, /\.news-category-title\s*\{[^}]*font-size:\s*36px[^}]*line-
 assert.match(styles, /\.news-category-list\s*\{[^}]*gap:\s*64px[^}]*margin-top:\s*86px/su);
 assert.match(styles, /\.news-category-row\s*\{[^}]*height:\s*128px/su);
 assert.match(styles, /\.news-category-thumbnail\s*\{[^}]*width:\s*228px[^}]*height:\s*128px[^}]*border-radius:\s*12px/su);
+assert.match(styles, /\.news-category-pagination\s*\{[^}]*min-height:\s*36px[^}]*gap:\s*6px[^}]*margin-top:\s*54px/su);
+assert.match(styles, /\.news-category-page-number\.active\s*\{[^}]*background:\s*var\(--news-gray-200\)[^}]*color:\s*var\(--news-gray-700\)/su);
+assert.match(styles, /\.news-category-page-arrow,[\s\S]*?\.news-category-page-number\s*\{[^}]*width:\s*36px[^}]*height:\s*36px[^}]*border-radius:\s*18px[^}]*font-size:\s*17px[^}]*font-weight:\s*500/su);
+assert.match(styles, /\.news-category-page-arrow-icon\.next\s*\{[^}]*transform:\s*scaleX\(-1\)/su);
+
+const paginationAsset = fs.readFileSync(path.join(rootDir, "assets/news-pagination-arrow-left.svg"), "utf8");
+assert.match(paginationAsset, /width="36" height="36" viewBox="0 0 36 36"/u);
+assert.match(paginationAsset, /fill="#9CA3AF"/u);
 
 const rewrites = Array.isArray(vercel.rewrites) ? vercel.rewrites : [];
 for (const route of ["/news/category", "/news/category/"]) {

@@ -10,6 +10,7 @@ const NEWS_REQUIRED_DEPLOY_FILES = [
   "favicon.svg",
   "assets/fonts/PretendardVariable.woff2",
   "assets/news-arrow-forward-ios.svg",
+  "assets/news-pagination-arrow-left.svg",
   "assets/news-search-detail.svg",
   "assets/news-search-list.svg",
   "assets/news-section-line-453.svg",

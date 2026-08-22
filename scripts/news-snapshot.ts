@@ -22,13 +22,13 @@ export const NEWS_SECTION_IDS = Object.freeze([
 ]);
 export const NEWS_SECTION_QUOTAS = Object.freeze({
   leadership: 6,
-  important: 2,
+  important: 6,
   international: 2,
-  photo: 2,
+  photo: 5,
   anecdote: 5,
   document: 6,
   foreign: 6,
-  video: 6,
+  video: 5,
   memory: 5,
   domestic: 5,
   social: 5,

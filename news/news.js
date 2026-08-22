@@ -25,7 +25,7 @@
       },
       important: {
         title: "중요소식",
-        limit: 2,
+        limit: 6,
       },
       international: {
         title: "국제소식",
@@ -33,7 +33,7 @@
       },
       photo: {
         title: "사진",
-        limit: 2,
+        limit: 5,
         media: "image",
       },
       anecdote: {
@@ -50,7 +50,7 @@
       },
       video: {
         title: "동화상",
-        limit: 6,
+        limit: 5,
         media: "video",
       },
       memory: {
@@ -71,19 +71,19 @@
         title: "경애하는 김정은동지의 혁명활동소식",
         limit: 6,
       },
-      important: { title: "오늘호 기사", limit: 2 },
+      important: { title: "오늘호 기사", limit: 6 },
       anecdote: {
         title: "인민을 위한 정치",
         limit: 5,
       },
       photo: {
         title: "사진",
-        limit: 2,
+        limit: 5,
         media: "image",
       },
       video: {
         title: "동영상",
-        limit: 6,
+        limit: 5,
         media: "video",
       },
       memory: {
@@ -109,18 +109,12 @@
       { height: 62, thumbnail: true },
       { height: 62, thumbnail: true },
     ],
-    important: [
-      { height: 80, thumbnail: true },
-      { height: 80, thumbnail: true },
-    ],
+    important: Array.from({ length: 6 }, () => ({ height: 80, thumbnail: true })),
     international: [
       { height: 80, thumbnail: true },
       { height: 80, thumbnail: true },
     ],
-    photo: [
-      { height: 80, thumbnail: true },
-      { height: 80, thumbnail: true },
-    ],
+    photo: Array.from({ length: 5 }, () => ({ height: 80, thumbnail: true })),
     anecdote: Array.from({ length: 5 }, () => ({ height: 40 })),
     document: [
       { height: 40 },
@@ -138,14 +132,7 @@
       { height: 62, thumbnail: true },
       { height: 62 },
     ],
-    video: [
-      { height: 40 },
-      { height: 40 },
-      { height: 40 },
-      { height: 40 },
-      { height: 62, thumbnail: true },
-      { height: 62 },
-    ],
+    video: Array.from({ length: 5 }, () => ({ height: 62, thumbnail: true })),
     memory: Array.from({ length: 5 }, () => ({ height: 40 })),
     domestic: [
       { height: 40 },
@@ -349,9 +336,9 @@
     const copy = document.createElement("div");
     const title = document.createElement("p");
     const date = document.createElement("p");
-    const imageSources = resolveArticleImageSources(article);
+    const imageSources = slot.thumbnail ? resolveArticleImageSources(article) : [];
 
-    item.className = `news-article news-slot-${slot.height}${imageSources.length ? " has-thumbnail" : ""}${imageSources.length && slot.thumbnail ? " news-thumbnail-featured" : ""}`;
+    item.className = `news-article news-slot-${slot.height}${imageSources.length ? " has-thumbnail" : ""}`;
     link.className = "news-article-link";
     link.href = article.detailUrl || `/news/document?id=${encodeURIComponent(article.id || "")}`;
     copy.className = "news-article-copy";

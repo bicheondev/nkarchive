@@ -173,13 +173,13 @@ button {
 
 .news-index-main {
   position: relative;
-  min-height: 2523px;
+  min-height: 2567px;
   padding-top: 135px;
 }
 
 .news-board {
   width: 1457px;
-  min-height: 2224px;
+  min-height: 2402px;
   margin: 0 auto;
   transform: translateX(0.5px);
 }
@@ -212,10 +212,16 @@ button {
   height: 612px;
 }
 
-.news-section[data-section="important"],
-.news-section[data-section="international"],
-.news-section[data-section="photo"] {
+.news-section[data-section="important"] {
+  height: 636px;
+}
+
+.news-section[data-section="international"] {
   height: 244px;
+}
+
+.news-section[data-section="photo"] {
+  height: 538px;
 }
 
 .news-section[data-section="anecdote"],
@@ -226,7 +232,7 @@ button {
 .news-section[data-section="document"],
 .news-section[data-section="foreign"],
 .news-section[data-section="video"] {
-  height: 510px;
+  height: 488px;
 }
 
 .news-section[data-section="domestic"],
@@ -293,10 +299,18 @@ button {
   --news-list-height: 546px;
 }
 
-.news-section[data-section="important"] .news-list,
-.news-section[data-section="international"] .news-list,
-.news-section[data-section="photo"] .news-list {
+.news-section[data-section="important"] .news-list {
+  --news-list-height: 570px;
+  gap: 18px;
+}
+
+.news-section[data-section="international"] .news-list {
   --news-list-height: 178px;
+  gap: 18px;
+}
+
+.news-section[data-section="photo"] .news-list {
+  --news-list-height: 472px;
   gap: 18px;
 }
 
@@ -306,9 +320,13 @@ button {
 }
 
 .news-section[data-section="document"] .news-list,
-.news-section[data-section="foreign"] .news-list,
-.news-section[data-section="video"] .news-list {
+.news-section[data-section="foreign"] .news-list {
   --news-list-height: 444px;
+}
+
+.news-section[data-section="video"] .news-list {
+  --news-list-height: 422px;
+  gap: 28px;
 }
 
 .news-section[data-section="domestic"] .news-list,
@@ -404,24 +422,6 @@ button {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.news-article.has-thumbnail:not(.news-thumbnail-featured).news-slot-40 .news-article-link {
-  padding-right: 76px;
-}
-
-.news-article.has-thumbnail:not(.news-thumbnail-featured).news-slot-40 .news-article-thumbnail {
-  width: 60px;
-  height: 40px;
-}
-
-.news-article.has-thumbnail:not(.news-thumbnail-featured).news-slot-62 .news-article-link {
-  padding-right: 117px;
-}
-
-.news-article.has-thumbnail:not(.news-thumbnail-featured).news-slot-62 .news-article-thumbnail {
-  width: 93px;
-  height: 62px;
 }
 
 .news-source-switcher {
