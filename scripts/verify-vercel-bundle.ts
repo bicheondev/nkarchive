@@ -15,27 +15,36 @@ const NEWS_REQUIRED_DEPLOY_FILES = [
   "favicon.svg",
   "assets/fonts/PretendardVariable.woff2",
   "assets/news-arrow-forward-ios.svg",
+  "assets/arca-channel.svg",
+  "assets/discord-channel.svg",
   "assets/news-pagination-arrow-left.svg",
   "assets/news-search-detail.svg",
   "assets/news-search-list.svg",
   "assets/news-section-line-453.svg",
   "assets/news-section-line-454.svg",
   "assets/news-share-link.svg",
+  "og.png",
   "api/news-comments.js",
+  "api/news-document.js",
   "api/news-image.js",
   "lib/news-image-policy.js",
   "news/comments.js",
+  "news/disclaimer.js",
+  "news/header.js",
   "news/index.html",
   "news/category/index.html",
   "news/category.css",
   "news/category.js",
-  "news/document/index.html",
+  "news/search/index.html",
+  "news/search.js",
+  "news/document-template.html",
   "news/news.css",
   "news/news.js",
   "news/detail.js",
   "data/news-feed.json",
   "data/news-details.json",
   "data/news/image-proxy-allowlist.json",
+  "data/news/search-index.json",
   "package.json",
   "package-lock.json",
   "vercel.json",
@@ -77,8 +86,10 @@ const NEWS_REQUIRED_REWRITES = new Map([
   ["/news/", "/news/index.html"],
   ["/news/category", "/news/category/index.html"],
   ["/news/category/", "/news/category/index.html"],
-  ["/news/document", "/news/document/index.html"],
-  ["/news/document/", "/news/document/index.html"],
+  ["/news/search", "/news/search/index.html"],
+  ["/news/search/", "/news/search/index.html"],
+  ["/news/document", "/api/news-document"],
+  ["/news/document/", "/api/news-document"],
 ]);
 const REQUIRED_REWRITES = new Map([
   ...NEWS_REQUIRED_REWRITES,
@@ -140,6 +151,11 @@ export async function verifyVercelBundle({
       || commentsFunction?.includeFiles !== "data/news/details/*.json") {
       throw new Error("News comments function must include the published detail shards and use the bounded runtime");
     }
+    const documentFunction = vercelConfig.functions?.["api/news-document.js"];
+    if (documentFunction?.maxDuration !== 30
+      || documentFunction?.includeFiles !== "{data/news/details/*.json,news/document-template.html}") {
+      throw new Error("News document function must include its template and published detail shards within the bounded runtime");
+    }
   }
   const rewriteMap = new Map((vercelConfig.rewrites || []).map((entry) => [entry.source, entry.destination]));
   for (const [source, destination] of requiredRewrites) {
@@ -154,7 +170,8 @@ export async function verifyVercelBundle({
     if (matched) throw new Error(`Vercel deploy bundle should exclude ${fileName}`);
   }
   if (normalizedScope === "news" || normalizedScope === "all") {
-    await assertNewsShardsIncluded(rootDir, included);
+    const publishedArticleIds = await assertNewsShardsIncluded(rootDir, included);
+    await assertNewsSearchIndex(rootDir, included, publishedArticleIds);
     await assertNewsImageProxyAllowlist(rootDir, included);
     await assertReferencedNewsAssetsIncluded(rootDir, included, candidateRelativePaths);
   }
@@ -245,6 +262,7 @@ async function assertNewsShardsIncluded(rootDir, included) {
   if (detailsManifest.shardCount !== 256 || detailsManifest.shardPattern !== "/data/news/details/{shard}.json") {
     throw new Error("News detail shard manifest is invalid");
   }
+  const publishedArticleIds = new Set();
   for (let index = 0; index < detailsManifest.shardCount; index += 1) {
     const shard = index.toString(16).padStart(2, "0");
     const relativePath = `data/news/details/${shard}.json`;
@@ -253,6 +271,13 @@ async function assertNewsShardsIncluded(rootDir, included) {
     if (payload.version !== detailsManifest.version || payload.shard !== shard || !payload.articles) {
       throw new Error(`News detail shard is inconsistent: ${relativePath}`);
     }
+    for (const articleId of Object.keys(payload.articles)) {
+      if (publishedArticleIds.has(articleId)) throw new Error(`News detail id is duplicated across shards: ${articleId}`);
+      publishedArticleIds.add(articleId);
+    }
+  }
+  if (publishedArticleIds.size !== detailsManifest.totalItems) {
+    throw new Error("News detail manifest total does not match the published shard union");
   }
 
   const feed = JSON.parse(await fs.readFile(path.join(rootDir, "data/news-feed.json"), "utf8"));
@@ -270,6 +295,47 @@ async function assertNewsShardsIncluded(rootDir, included) {
       }
     }
   }
+  return publishedArticleIds;
+}
+
+async function assertNewsSearchIndex(rootDir, included, publishedArticleIds) {
+  const relativePath = "data/news/search-index.json";
+  if (!included.has(relativePath)) throw new Error(`Required News search index is missing: ${relativePath}`);
+  const text = await fs.readFile(path.join(rootDir, relativePath), "utf8");
+  const payload = JSON.parse(text);
+  const feed = JSON.parse(await fs.readFile(path.join(rootDir, "data/news-feed.json"), "utf8"));
+  if (!payload || typeof payload !== "object" || Array.isArray(payload)
+    || payload.schemaVersion !== 1
+    || payload.version !== feed.version
+    || payload.generatedAt !== feed.generatedAt
+    || !Number.isSafeInteger(payload.totalItems)
+    || !Array.isArray(payload.articles)
+    || payload.totalItems !== payload.articles.length
+    || payload.totalItems !== publishedArticleIds.size) {
+    throw new Error("News all-article search index metadata is invalid");
+  }
+  const ids = new Set();
+  let previousDate = "9999-99-99";
+  const expectedKeys = [
+    "cachedThumbnailUrl", "date", "detailUrl", "id", "snippet",
+    "sourceId", "sourceName", "thumbnailUrl", "title", "url",
+  ];
+  for (const article of payload.articles) {
+    const keys = Object.keys(article || {}).sort(compareText);
+    if (JSON.stringify(keys) !== JSON.stringify(expectedKeys)
+      || !publishedArticleIds.has(article.id)
+      || ids.has(article.id)
+      || !/^(?:kcna|rodong-sinmun)$/u.test(String(article.sourceId || ""))
+      || !/^20\d{2}-\d{2}-\d{2}$/u.test(String(article.date || ""))
+      || article.date > previousDate
+      || article.detailUrl !== `/news/document?id=${encodeURIComponent(article.id)}`) {
+      throw new Error(`News all-article search entry is invalid: ${String(article?.id || "(missing)")}`);
+    }
+    ids.add(article.id);
+    previousDate = article.date;
+  }
+  if (ids.size !== publishedArticleIds.size) throw new Error("News search index does not cover every published article exactly once");
+  if (text !== `${JSON.stringify(payload)}\n`) throw new Error("News search index must use compact deterministic JSON");
 }
 
 function collectNewsAssetReferences(value, references) {

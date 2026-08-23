@@ -26,6 +26,7 @@ const [
   newsJs,
   categoryJs,
   detailJs,
+  disclaimerJs,
   newsCss,
   newsImageApi,
 ] = await Promise.all([
@@ -34,10 +35,11 @@ const [
   read("data/news-details.json"),
   read("data/news/image-proxy-allowlist.json"),
   read("news/index.html"),
-  read("news/document/index.html"),
+  read("news/document-template.html"),
   read("news/news.js"),
   read("news/category.js"),
   read("news/detail.js"),
+  read("news/disclaimer.js"),
   read("news/news.css"),
   read("api/news-image.js"),
 ]);
@@ -144,14 +146,47 @@ for (const article of Object.values(detailArticles)) {
   }
 }
 
-const standaloneSources = [indexHtml, documentHtml, newsJs, categoryJs, detailJs, newsImageApi];
+const headerJs = await read("news/header.js");
+const standaloneSources = [indexHtml, documentHtml, headerJs, newsJs, categoryJs, detailJs, newsImageApi];
 for (const source of standaloneSources) {
   assert.equal(/(?:href|src)=["']\/search|data\/search|api\/search|meilisearch/iu.test(source), false, "news runtime must not depend on Search");
 }
-assert.match(indexHtml, /id="newsSearchInput"/u, "news search must be a page-local filter");
+assert.match(indexHtml, /<form class="news-search" action="\/news\/search"/u,
+  "the homepage search must submit to the complete News archive");
+assert.match(indexHtml, /id="newsSearchInput"[^>]*name="q"[^>]*data-news-global-search/u);
+assert.match(indexHtml, /\/news\/header\.js\?v=news-header-20260823-2/u);
+assert.match(indexHtml, /class="material-symbols-rounded news-menu-toggle-icon"[^>]*>drag_handle<\/span>/u,
+  "News must use the same mobile menu icon as the Font page");
+assert.doesNotMatch(newsJs, /applyNewsFilter|normalizeFilterText/u,
+  "the homepage must not pretend its preview-only DOM is the complete search corpus");
 assert.equal(newsJs.includes("localStorage"), false, "KCNA must be the deterministic default source");
 assert.match(newsJs, /let activeSourceId = "kcna"/u);
-assert.match(indexHtml, /news-20260823-2/u, "the homepage assets must use the current cache key");
+assert.match(indexHtml, /\/news\/news\.css\?v=news-20260823-4/u, "the homepage stylesheet must use the current cache key");
+assert.match(indexHtml, /\/news\/news\.js\?v=news-20260823-3/u, "the homepage script must use the current cache key");
+assert.match(indexHtml, /id="newsDisclaimer"[^>]*role="alertdialog"[^>]*aria-modal="true"[^>]*aria-labelledby="newsDisclaimerTitle"[^>]*aria-describedby="newsDisclaimerDescription"[^>]*hidden/u,
+  "the News warning must expose the same modal accessibility contract as Live");
+assert.match(indexHtml, /<h2 id="newsDisclaimerTitle">경고 사항<\/h2>/u);
+assert.match(indexHtml, /본 사이트에는 학문적 연구의 목적으로 기사의 원문을 그대로 가져온 것으로/u);
+assert.doesNotMatch(indexHtml, /스트리밍의 원본/u, "the News warning must refer to original article text, not streaming");
+assert.match(indexHtml, /id="newsDisclaimerDontShow" type="checkbox" checked/u,
+  "the permanent-dismissal choice must default to checked just like Live");
+assert.match(indexHtml, /\/news\/disclaimer\.js\?v=news-disclaimer-20260823-1/u);
+assert.match(disclaimerJs, /const STORAGE_KEY = "news-disclaimer-dismissed"/u);
+assert.match(disclaimerJs, /window\.localStorage\.getItem\(STORAGE_KEY\) === "true"/u);
+assert.match(disclaimerJs, /window\.localStorage\.setItem\(STORAGE_KEY, "true"\)/u);
+assert.doesNotMatch(disclaimerJs, /sessionStorage/u, "News must preserve Live's localStorage dismissal semantics");
+assert.match(disclaimerJs, /window\.requestAnimationFrame\(\(\) => closeButton\.focus\(\)\)/u,
+  "the modal must receive focus when opened");
+assert.match(disclaimerJs, /event\.key === "Escape"[\s\S]*?dismiss\(\)/u,
+  "Escape must dismiss the warning exactly like Live");
+assert.match(disclaimerJs, /event\.key !== "Tab"[\s\S]*?event\.shiftKey[\s\S]*?last\.focus\(\)[\s\S]*?first\.focus\(\)/u,
+  "keyboard focus must remain trapped inside the modal");
+assert.match(newsCss, /\.news-disclaimer-overlay\s*\{[^}]*background:\s*rgba\(241, 245, 249, 0\.66\)[^}]*backdrop-filter:\s*blur\(10px\)/su,
+  "the News warning backdrop must match Live");
+assert.match(newsCss, /\.news-disclaimer-panel\s*\{[^}]*width:\s*min\(340px, calc\(100vw - 40px\)\)[^}]*border-radius:\s*20px/su,
+  "the News warning panel dimensions must match Live");
+assert.match(newsCss, /url\("\/assets\/live-alert-checkbox\.svg"\)/u,
+  "the News warning must reuse Live's checked-state artwork");
 assert.equal(
   [...newsJs.matchAll(/title:\s*"혁명활동소식"/gu)].length,
   2,
@@ -287,6 +322,22 @@ assert.match(
 );
 assert.match(newsCss, /\.news-source-switcher\s*\{[\s\S]*?position:\s*fixed/u, "source selector must remain floating");
 assert.match(newsCss, /bottom:\s*calc\(32px \+ env\(safe-area-inset-bottom, 0px\)\)/u);
+assert.match(headerJs, /matchMedia\?\.\("\(max-width: 1100px\)"\)/u,
+  "News and Font must switch to the full-screen menu at the same width");
+assert.match(headerJs, /toggleIcon\.textContent = shouldOpen \? "close" : "drag_handle"/u,
+  "the shared News menu must swap the exact Font menu/close icons");
+assert.doesNotMatch(headerJs, /toggle\.textContent/u, "the menu control must not fall back to text labels");
+assert.match(
+  newsCss,
+  /@media \(max-width: 1100px\)[\s\S]*?body\.news-page::before\s*\{[^}]*inset:\s*64px 0 0;[^}]*background:\s*rgba\(255, 255, 255, 0\.3\);[^}]*backdrop-filter:\s*blur\(18px\) saturate\(1\.12\)/u,
+  "the News menu must preserve the Font page's separate blurred background layer",
+);
+assert.match(
+  newsCss,
+  /\.news-navigation-links\s*\{[^}]*background:\s*rgba\(255, 255, 255, 0\.78\);[^}]*backdrop-filter:\s*blur\(22px\) saturate\(1\.3\)/su,
+  "the full-screen News navigation must use the identical translucent blur surface",
+);
+assert.match(newsCss, /\.news-menu-toggle-icon\s*\{[^}]*width:\s*24px;[^}]*height:\s*24px;[^}]*color:\s*#45556c/su);
 
 console.log(`Standalone news tests passed: ${documents.length} records, version ${feed.version}.`);
 

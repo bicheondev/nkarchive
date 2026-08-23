@@ -118,7 +118,6 @@
   let feed = null;
   let activeSourceId = "kcna";
 
-  bindChrome();
   bindSourceTabs();
   updateTabs();
   loadFeed();
@@ -136,61 +135,6 @@
       console.error("[news] Unable to load the news snapshot.", error);
       renderError();
     }
-  }
-
-  function bindChrome() {
-    const toggle = document.querySelector("#newsMenuToggle");
-    const navigation = document.querySelector(".news-navigation");
-    const searchInput = document.querySelector("#newsSearchInput");
-    searchInput?.addEventListener("input", () => applyNewsFilter(searchInput.value));
-    searchInput?.addEventListener("search", () => applyNewsFilter(searchInput.value));
-    if (window.location.hash === "#search") {
-      requestAnimationFrame(() => searchInput?.focus());
-    }
-    toggle?.addEventListener("click", () => {
-      const nextOpen = !document.body.classList.contains("news-menu-open");
-      document.body.classList.toggle("news-menu-open", nextOpen);
-      toggle.setAttribute("aria-expanded", String(nextOpen));
-    });
-    document.addEventListener("click", (event) => {
-      if (!document.body.classList.contains("news-menu-open")) return;
-      if (navigation?.contains(event.target)) return;
-      document.body.classList.remove("news-menu-open");
-      toggle?.setAttribute("aria-expanded", "false");
-    });
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape") {
-        document.body.classList.remove("news-menu-open");
-        toggle?.setAttribute("aria-expanded", "false");
-        if (document.activeElement === searchInput || searchInput?.value) {
-          searchInput.value = "";
-          applyNewsFilter("");
-          searchInput?.blur();
-        }
-      }
-      if ((event.metaKey || event.ctrlKey) && !event.altKey && event.key.toLocaleLowerCase("en-US") === "k") {
-        event.preventDefault();
-        searchInput?.focus();
-        searchInput?.select();
-      }
-    });
-  }
-
-  function applyNewsFilter(value) {
-    const query = normalizeFilterText(value);
-    for (const section of board.querySelectorAll(".news-section")) {
-      let visibleCount = 0;
-      for (const article of section.querySelectorAll(".news-article")) {
-        const matches = !query || normalizeFilterText(article.textContent).includes(query);
-        article.hidden = !matches;
-        if (matches) visibleCount += 1;
-      }
-      section.hidden = Boolean(query) && visibleCount === 0;
-    }
-  }
-
-  function normalizeFilterText(value) {
-    return String(value || "").normalize("NFKC").replace(/\s+/gu, " ").trim().toLocaleLowerCase("ko-KR");
   }
 
   function bindSourceTabs() {
@@ -247,7 +191,6 @@
     });
 
     board.replaceChildren(grid);
-    applyNewsFilter(document.querySelector("#newsSearchInput")?.value || "");
     board.setAttribute("aria-busy", "false");
     board.setAttribute("aria-label", `${source.name} 기사`);
   }

@@ -13,11 +13,18 @@ const vercel = JSON.parse(fs.readFileSync(path.join(rootDir, "vercel.json"), "ut
 assert.match(html, /id="newsCategoryTitle"/u);
 assert.match(html, /id="newsCategoryList"/u);
 assert.match(html, /id="newsCategorySearchInput"/u);
+assert.match(html, /<form class="news-search" action="\/news\/search"/u);
+assert.match(html, /name="q"[^>]*data-news-global-search/u);
+assert.match(html, /\/news\/header\.js\?v=news-header-20260823-2/u);
+assert.match(html, /https:\/\/discord\.gg\/QT3T3JpeDD/u);
+assert.match(html, /https:\/\/arca\.live\/b\/dprk\//u);
+assert.match(html, /class="news-navigation-disabled" aria-disabled="true">사전/u);
+assert.match(html, /class="material-symbols-rounded news-menu-toggle-icon"[^>]*>drag_handle<\/span>/u);
 assert.match(html, /id="newsCategoryPagination"[^>]*aria-label="카테고리 페이지"/u);
 assert.match(html, /\/news\/category\.css/u);
 assert.match(html, /\/news\/category\.js/u);
-assert.match(html, /news-category-20260823-1/u);
-assert.match(html, /category\.css\?v=news-category-20260823-1/u);
+assert.match(html, /news-category-20260823-2/u);
+assert.match(html, /category\.css\?v=news-category-20260823-2/u);
 
 assert.match(script, /const CATEGORY_ROOT_URL = "\/data\/news\/categories"/u);
 assert.doesNotMatch(script, /\/data\/news-feed\.json/u, "category pages must not download the homepage preview feed");
@@ -30,7 +37,8 @@ assert.match(script, /\/news\/document/u);
 assert.match(script, /parameters\.get\("source"\)/u);
 assert.match(script, /parameters\.get\("section"\)/u);
 assert.match(script, /parameters\.get\("page"\)/u);
-assert.match(script, /parameters\.get\("q"\)/u);
+assert.doesNotMatch(script, /parameters\.get\("q"\)|applyFilter/u,
+  "category pages must send searches to the all-article results page instead of filtering five rows");
 assert.match(script, /const PAGE_SIZE = 5/u);
 assert.match(script, /const PAGE_WINDOW = 5/u);
 assert.equal(
@@ -112,7 +120,7 @@ assert.match(indexScript, /heading\.href = `\/news\/category\?source=/u);
 assert.match(indexScript, /heading\.setAttribute\("aria-label", `\$\{source\.name\} \$\{section\.title\} 전체 기사 보기`\)/u);
 assert.doesNotMatch(indexScript, /more\.href\s*=/u);
 
-assert.match(styles, /\.news-category-view\s*\{[^}]*width:\s*1024px/su);
+assert.match(styles, /\.news-category-view\s*\{[^}]*width:\s*800px/su);
 assert.match(styles, /\.news-category-title\s*\{[^}]*font-size:\s*36px[^}]*line-height:\s*1\.35/su);
 assert.match(styles, /\.news-category-list\s*\{[^}]*gap:\s*64px[^}]*margin-top:\s*86px/su);
 assert.match(styles, /\.news-category-row\s*\{[^}]*height:\s*128px/su);

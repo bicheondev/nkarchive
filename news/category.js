@@ -40,12 +40,9 @@
   });
 
   const context = readCategoryContext();
-  let categoryArticles = [];
-  let renderedArticles = [];
   let currentPage = context?.page || 1;
   let totalPages = 1;
 
-  bindChrome();
   if (!context) {
     renderError("카테고리를 찾을 수 없습니다.");
     return;
@@ -68,11 +65,11 @@
       const payload = await response.json();
       if (!isValidCategoryPage(payload, context, currentPage)) throw new Error("invalid_news_category");
 
-      categoryArticles = payload.articles;
       currentPage = payload.page;
       totalPages = payload.totalPages;
       list.dataset.generatedAt = String(payload.generatedAt || "");
-      applyFilter(document.querySelector("#newsCategorySearchInput")?.value || "");
+      renderArticles(payload.articles);
+      renderPagination(totalPages);
     } catch (error) {
       console.error("[news/category] Unable to load the category page.", error);
       renderError("뉴스 아카이브를 불러오지 못했습니다.");
@@ -113,11 +110,10 @@
     const sourceId = parameters.get("source") || "";
     const sectionId = parameters.get("section") || "";
     const page = normalizePageNumber(parameters.get("page"));
-    const query = String(parameters.get("q") || "").trim();
     const source = SOURCE_DEFINITIONS[sourceId];
     const sectionTitle = source?.sections?.[sectionId];
     if (!source || !sectionTitle) return null;
-    return { sourceId, sectionId, sectionTitle, sourceName: source.name, page, query };
+    return { sourceId, sectionId, sectionTitle, sourceName: source.name, page };
   }
 
   function renderArticles(articles) {
@@ -176,8 +172,6 @@
       section: context.sectionId,
       page: String(page),
     });
-    const query = String(document.querySelector("#newsCategorySearchInput")?.value || "").trim();
-    if (query) parameters.set("q", query);
     return `/news/category?${parameters.toString()}`;
   }
 
@@ -198,7 +192,6 @@
 
     item.className = "news-category-row";
     item.setAttribute("role", "listitem");
-    item.dataset.searchText = normalizeFilterText(`${article?.title || ""} ${formatLongDate(article?.date)}`);
     link.className = "news-category-row-link";
     link.href = resolveDetailUrl(article);
     copy.className = "news-category-copy";
@@ -301,75 +294,6 @@
   function formatLongDate(value) {
     const match = String(value || "").match(/^(20\d{2})-(\d{2})-(\d{2})$/u);
     return match ? `${match[1]}년 ${Number(match[2])}월 ${Number(match[3])}일` : String(value || "");
-  }
-
-  function bindChrome() {
-    const toggle = document.querySelector("#newsMenuToggle");
-    const navigation = document.querySelector(".news-navigation");
-    const searchInput = document.querySelector("#newsCategorySearchInput");
-
-    if (searchInput && context?.query) searchInput.value = context.query;
-    searchInput?.addEventListener("input", () => applyFilter(searchInput.value));
-    searchInput?.addEventListener("search", () => applyFilter(searchInput.value));
-    if (window.location.hash === "#search") requestAnimationFrame(() => searchInput?.focus());
-
-    toggle?.addEventListener("click", () => {
-      const nextOpen = !document.body.classList.contains("news-menu-open");
-      document.body.classList.toggle("news-menu-open", nextOpen);
-      toggle.setAttribute("aria-expanded", String(nextOpen));
-    });
-
-    document.addEventListener("click", (event) => {
-      if (!document.body.classList.contains("news-menu-open")) return;
-      if (navigation?.contains(event.target)) return;
-      document.body.classList.remove("news-menu-open");
-      toggle?.setAttribute("aria-expanded", "false");
-    });
-
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape") {
-        document.body.classList.remove("news-menu-open");
-        toggle?.setAttribute("aria-expanded", "false");
-        if (document.activeElement === searchInput || searchInput?.value) {
-          searchInput.value = "";
-          applyFilter("");
-          searchInput.blur();
-        }
-      }
-      if ((event.metaKey || event.ctrlKey) && !event.altKey && event.key.toLocaleLowerCase("en-US") === "k") {
-        event.preventDefault();
-        searchInput?.focus();
-        searchInput?.select();
-      }
-    });
-  }
-
-  function applyFilter(value) {
-    const rawQuery = String(value || "").trim();
-    const query = normalizeFilterText(rawQuery);
-
-    const matches = query
-      ? categoryArticles.filter((article) => (
-        normalizeFilterText(`${article?.title || ""} ${formatLongDate(article?.date)}`).includes(query)
-      ))
-      : categoryArticles;
-
-    if (!matches.length) {
-      renderedArticles = [];
-      renderEmpty(query
-        ? "현재 카테고리에서 일치하는 기사가 없습니다."
-        : "이 카테고리에 보관된 기사가 없습니다.");
-      if (query) renderPagination(totalPages);
-      return;
-    }
-
-    renderedArticles = matches;
-    renderArticles(renderedArticles);
-    renderPagination(totalPages);
-  }
-
-  function normalizeFilterText(value) {
-    return String(value || "").normalize("NFKC").replace(/\s+/gu, " ").trim().toLocaleLowerCase("ko-KR");
   }
 
   function normalizePageNumber(value) {

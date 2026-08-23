@@ -453,6 +453,7 @@ try {
   const staleDetailShardPath = path.join(rootDir, "data/news/details/stale.json");
   const staleCategoryPagePath = path.join(rootDir, "data/news/categories/stale/page-99.json");
   const imageProxyAllowlistPath = path.join(rootDir, "data/news/image-proxy-allowlist.json");
+  const searchIndexPath = path.join(rootDir, "data/news/search-index.json");
   await fs.mkdir(path.dirname(existingOrphanPath), { recursive: true });
   await fs.writeFile(existingOrphanPath, existingOrphanBytes);
   await fs.mkdir(path.dirname(staleDetailShardPath), { recursive: true });
@@ -460,6 +461,7 @@ try {
   await fs.mkdir(path.dirname(staleCategoryPagePath), { recursive: true });
   await fs.writeFile(staleCategoryPagePath, "stale\n", "utf8");
   await fs.writeFile(imageProxyAllowlistPath, "stale\n", "utf8");
+  await fs.writeFile(searchIndexPath, "stale\n", "utf8");
   const legacyUnclassified = canonicalizeNewsDocument({
     schemaVersion: NEWS_DOCUMENT_SCHEMA_VERSION,
     id: "news:rodong-sinmun:legacy-unclassified",
@@ -558,10 +560,16 @@ try {
     result.snapshot.imageProxyAllowlistText,
     "refresh promotion must atomically replace the stale proxy allowlist from the canonical snapshot",
   );
+  assert.equal(
+    await fs.readFile(searchIndexPath, "utf8"),
+    result.snapshot.searchIndexText,
+    "refresh promotion must atomically replace the complete search index from the canonical snapshot",
+  );
   await assert.rejects(fs.access(staleDetailShardPath), { code: "ENOENT" });
   await assert.rejects(fs.access(staleCategoryPagePath), { code: "ENOENT" });
   assert.equal(result.report.snapshot.detailShards, 256);
   assert.ok(result.report.snapshot.categoryPages > 0);
+  assert.equal(result.report.snapshot.searchItems, result.snapshot.searchIndex.totalItems);
   assert.equal(result.report.snapshot.imageProxyPairs, result.snapshot.imageProxyAllowlist.pairCount);
 
   const before = await fs.readFile(path.join(rootDir, "data/news/documents.jsonl"), "utf8");
@@ -897,6 +905,7 @@ async function testGeneratedPathReleaseGates() {
     "data/news-details.json",
     "data/news/documents.jsonl",
     "data/news/image-proxy-allowlist.json",
+    "data/news/search-index.json",
     "data/news/details/0a.json",
     `data/news/assets/kcna/${"a".repeat(64)}.jpg`,
     "data/news/categories/kcna/international/page-12.json",

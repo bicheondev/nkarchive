@@ -3,31 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Internal shell served by api/news-document.js. -->
+    <!-- NEWS_DOCUMENT_META_START -->
     <title>뉴스 기사 · 북한뉴스아카이브</title>
     <meta name="description" content="조선중앙통신과 로동신문의 보관 기사입니다." />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href="https://nkarchive.vercel.app/news" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="뉴스 기사 · 북한뉴스아카이브" />
+    <meta property="og:description" content="조선중앙통신과 로동신문의 보관 기사입니다." />
+    <meta property="og:url" content="https://nkarchive.vercel.app/news" />
+    <meta property="og:site_name" content="북한뉴스아카이브" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:image" content="https://nkarchive.vercel.app/og.png" />
+    <meta property="og:image:secure_url" content="https://nkarchive.vercel.app/og.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="북한뉴스아카이브" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="뉴스 기사 · 북한뉴스아카이브" />
+    <meta name="twitter:description" content="조선중앙통신과 로동신문의 보관 기사입니다." />
+    <meta name="twitter:image" content="https://nkarchive.vercel.app/og.png" />
+    <meta name="twitter:image:alt" content="북한뉴스아카이브" />
+    <!-- NEWS_DOCUMENT_META_END -->
     <base href="/" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="stylesheet" href="/news/news.css?v=news-20260823-2" />
+    <link rel="stylesheet" href="/news/news.css?v=news-20260823-4" />
   </head>
   <body class="news-page news-document-page">
     <header class="news-navigation">
       <div class="news-navigation-inner">
         <a class="news-logo" href="/news" aria-label="뉴스 홈">★News</a>
         <nav class="news-navigation-links" id="newsNavigationLinks" aria-label="주요 메뉴">
-          <span>사전</span>
+          <span class="news-navigation-disabled" aria-disabled="true">사전</span>
           <a href="/music">음악</a>
           <a href="/font">폰트</a>
           <a class="active" href="/news" aria-current="page">뉴스</a>
-          <span>번역</span>
-          <span>문헌</span>
-          <span>스토어</span>
+          <span class="news-navigation-disabled" aria-disabled="true">번역</span>
+          <span class="news-navigation-disabled" aria-disabled="true">문헌</span>
+          <span class="news-navigation-disabled" aria-disabled="true">스토어</span>
           <a href="/live">방송</a>
         </nav>
-        <a class="news-search" href="/news#search" aria-label="뉴스 기사에서 찾기">
-          <img src="/assets/news-search-detail.svg?v=news-20260822-1" alt="" aria-hidden="true" />
-          <span class="news-search-shortcut" aria-hidden="true"><span>⌘</span><span>K</span></span>
-        </a>
-        <button class="news-menu-toggle" id="newsMenuToggle" type="button" aria-controls="newsNavigationLinks" aria-expanded="false">메뉴</button>
+        <div class="news-navigation-actions news-navigation-actions-buttons-only">
+          <nav class="news-channel-links" aria-label="커뮤니티 바로가기">
+            <a class="news-channel-link news-channel-discord" href="https://discord.gg/QT3T3JpeDD" target="_blank" rel="noopener noreferrer" aria-label="북한아카이브 디스코드 바로가기"><img src="/assets/discord-channel.svg?v=news-20260823-1" alt="" aria-hidden="true" /></a>
+            <a class="news-channel-link news-channel-arca" href="https://arca.live/b/dprk/" target="_blank" rel="noopener noreferrer" aria-label="아카라이브 북한 채널 바로가기"><img src="/assets/arca-channel.svg?v=news-20260823-1" alt="" aria-hidden="true" /></a>
+          </nav>
+        </div>
+        <button class="news-menu-toggle" id="newsMenuToggle" type="button" aria-label="메뉴 열기" aria-controls="newsNavigationLinks" aria-expanded="false"><span class="material-symbols-rounded news-menu-toggle-icon" aria-hidden="true">drag_handle</span></button>
       </div>
     </header>
 
@@ -79,7 +103,8 @@
       <p>각 기사의 저작권은 조선중앙통신 및 로동신문에게 있습니다.</p>
     </footer>
 
+    <script src="/news/header.js?v=news-header-20260823-2" defer></script>
     <script src="/news/comments.js?v=news-comments-20260823-1" defer></script>
-    <script src="/news/detail.js?v=news-detail-20260823-1" defer></script>
+    <script src="/news/detail.js?v=news-detail-20260823-2" defer></script>
   </body>
 </html>

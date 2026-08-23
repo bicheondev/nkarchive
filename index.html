@@ -19,7 +19,7 @@
     <meta name="twitter:image:src" content="/og.png" />
     <base href="/" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link rel="stylesheet" href="/styles.css?v=site-20260821-1" />
+    <link rel="stylesheet" href="/styles.css?v=site-20260823-1" />
     <script>
       window.__INITIAL_ROUTE__ = new URLSearchParams(window.location.search).get("route");
       const initialPath = window.location.pathname.replace(/\/+$/, "");
@@ -49,22 +49,6 @@
           <a href="/live" data-route="live">방송</a>
           <a href="/search" data-route="search">검색</a>
         </nav>
-        <div class="top-action-links">
-          <a class="top-channel-link discord-channel-link" href="https://discord.gg/QT3T3JpeDD" target="_blank" rel="noopener noreferrer">
-            <img class="top-channel-icon discord-channel-icon" src="/assets/discord-channel.svg?v=music-20260513-9" alt="" aria-hidden="true" />
-            <span class="top-channel-content">
-              <span class="top-channel-text">북한아카이브 디스코드 바로가기</span>
-              <img class="top-channel-arrow" src="/assets/arrow-forward-ios.svg?v=music-20260513-9" alt="" aria-hidden="true" />
-            </span>
-          </a>
-          <a class="top-channel-link arca-channel-link" href="https://arca.live/b/dprk/" target="_blank" rel="noopener noreferrer">
-            <img class="top-channel-icon arca-channel-icon" src="/assets/arca-channel.svg?v=music-20260513-9" alt="" aria-hidden="true" />
-            <span class="top-channel-content arca-channel-content">
-              <span class="top-channel-text arca-channel-text">아카라이브 북한 채널 바로가기</span>
-              <img class="top-channel-arrow arca-channel-arrow" src="/assets/arrow-forward-ios.svg?v=music-20260513-9" alt="" aria-hidden="true" />
-            </span>
-          </a>
-        </div>
         <button class="music-header-search" id="musicHeaderSearch" type="button" aria-label="음악 검색">
           <span class="material-symbols-rounded music-header-search-icon" aria-hidden="true">search</span>
           <span class="music-header-shortcut" aria-hidden="true">
@@ -72,6 +56,14 @@
             <span>K</span>
           </span>
         </button>
+        <div class="top-action-links" role="group" aria-label="커뮤니티 바로가기">
+          <a class="top-channel-link discord-channel-link" href="https://discord.gg/QT3T3JpeDD" target="_blank" rel="noopener noreferrer" aria-label="북한아카이브 디스코드 바로가기">
+            <img class="top-channel-icon discord-channel-icon" src="/assets/discord-channel.svg?v=music-20260513-9" alt="" aria-hidden="true" />
+          </a>
+          <a class="top-channel-link arca-channel-link" href="https://arca.live/b/dprk/" target="_blank" rel="noopener noreferrer" aria-label="아카라이브 북한 채널 바로가기">
+            <img class="top-channel-icon arca-channel-icon" src="/assets/arca-channel.svg?v=music-20260513-9" alt="" aria-hidden="true" />
+          </a>
+        </div>
         <button class="menu-toggle" id="siteMenuToggle" type="button" aria-label="메뉴 열기" aria-controls="primaryNav" aria-expanded="false">
           <span class="material-symbols-rounded menu-toggle-icon" aria-hidden="true">drag_handle</span>
         </button>

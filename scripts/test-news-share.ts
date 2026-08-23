@@ -11,7 +11,7 @@ const ROOT_DIR = path.resolve(SCRIPT_DIR, "..");
 const readText = (relativePath) => fs.readFile(path.join(ROOT_DIR, relativePath), "utf8");
 
 const [html, script, css, icon] = await Promise.all([
-  readText("news/document/index.html"),
+  readText("news/document-template.html"),
   readText("news/detail.js"),
   readText("news/news.css"),
   fs.readFile(path.join(ROOT_DIR, "assets/news-share-link.svg")),
@@ -24,7 +24,12 @@ assert.equal(
 );
 assert.match(html, /<div class="news-document-article">[\s\S]*?<button class="news-document-share"/u);
 assert.match(html, /\/news\/comments\.js\?v=news-comments-20260823-1/u);
-assert.match(html, /\/news\/detail\.js\?v=news-detail-20260823-1/u);
+assert.match(html, /\/news\/header\.js\?v=news-header-20260823-2/u);
+assert.match(html, /\/news\/detail\.js\?v=news-detail-20260823-2/u);
+assert.doesNotMatch(html, /data-news-global-search/u, "article pages only need the shared channel buttons");
+assert.match(html, /https:\/\/discord\.gg\/QT3T3JpeDD/u);
+assert.match(html, /https:\/\/arca\.live\/b\/dprk\//u);
+assert.match(html, /class="material-symbols-rounded news-menu-toggle-icon"[^>]*>drag_handle<\/span>/u);
 assert.match(html, /id="newsShareButton"[^>]*type="button"[^>]*aria-describedby="newsShareStatus"[^>]*disabled/u);
 assert.match(html, /<img src="\/assets\/news-share-link\.svg" alt="" aria-hidden="true" \/>[\s\S]*?<span>공유하기<\/span>/u);
 assert.match(html, /id="newsShareStatus"[^>]*role="status"[^>]*aria-live="polite"[^>]*aria-atomic="true"/u);

@@ -4,6 +4,10 @@
       "maxDuration": 30,
       "includeFiles": "data/news/details/*.json"
     },
+    "api/news-document.js": {
+      "maxDuration": 30,
+      "includeFiles": "{data/news/details/*.json,news/document-template.html}"
+    },
     "api/news-image.js": {
       "maxDuration": 30,
       "includeFiles": "data/news/image-proxy-allowlist.json"
@@ -60,12 +64,20 @@
       "destination": "/news/category/index.html"
     },
     {
+      "source": "/news/search",
+      "destination": "/news/search/index.html"
+    },
+    {
+      "source": "/news/search/",
+      "destination": "/news/search/index.html"
+    },
+    {
       "source": "/news/document",
-      "destination": "/news/document/index.html"
+      "destination": "/api/news-document"
     },
     {
       "source": "/news/document/",
-      "destination": "/news/document/index.html"
+      "destination": "/api/news-document"
     },
     {
       "source": "/news",
@@ -92,6 +104,15 @@
     },
     {
       "source": "/data/news-details.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, s-maxage=60, stale-while-revalidate=60"
+        }
+      ]
+    },
+    {
+      "source": "/data/news/search-index.json",
       "headers": [
         {
           "key": "Cache-Control",

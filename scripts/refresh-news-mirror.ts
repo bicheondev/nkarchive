@@ -24,6 +24,7 @@ export const DEFAULT_DETAILS_PATH = path.join(ROOT_DIR, "data/news-details.json"
 export const DEFAULT_ASSET_DIR = path.join(ROOT_DIR, "data/news/assets");
 export const DEFAULT_DETAIL_SHARDS_DIR = path.join(ROOT_DIR, "data/news/details");
 export const DEFAULT_CATEGORY_PAGES_DIR = path.join(ROOT_DIR, "data/news/categories");
+export const DEFAULT_SEARCH_INDEX_PATH = path.join(ROOT_DIR, "data/news/search-index.json");
 export const DEFAULT_IMAGE_PROXY_ALLOWLIST_PATH = path.join(ROOT_DIR, "data/news/image-proxy-allowlist.json");
 export const DEFAULT_PUBLIC_ASSET_BASE = "/data/news/assets";
 export const DEFAULT_MAX_AGE_DAYS = 4;
@@ -41,6 +42,7 @@ export async function refreshNewsMirror({
   detailsPath = path.join(rootDir, "data/news-details.json"),
   detailShardsDir = path.join(rootDir, "data/news/details"),
   categoryPagesDir = path.join(rootDir, "data/news/categories"),
+  searchIndexPath = path.join(rootDir, "data/news/search-index.json"),
   imageProxyAllowlistPath = path.join(rootDir, "data/news/image-proxy-allowlist.json"),
   assetDir = path.join(rootDir, "data/news/assets"),
   publicAssetBase = DEFAULT_PUBLIC_ASSET_BASE,
@@ -148,6 +150,7 @@ export async function refreshNewsMirror({
       [documentsPath, documentsText],
       [feedPath, snapshot.feedText],
       [detailsPath, snapshot.detailsText],
+      [searchIndexPath, snapshot.searchIndexText],
       [imageProxyAllowlistPath, snapshot.imageProxyAllowlistText],
     ];
     const detailShardFiles = new Map([...snapshot.detailShardTexts].map(([shard, text]) => [`${shard}.json`, text]));
@@ -184,6 +187,7 @@ export async function refreshNewsMirror({
       feedCounts: Object.fromEntries(Object.entries(snapshot.feed.sources).map(([id, source]) => [id, source.articles.length])),
       detailShards: detailShardFiles.size,
       categoryPages: categoryPageFiles.size,
+      searchItems: snapshot.searchIndex.totalItems,
       imageProxyPairs: snapshot.imageProxyAllowlist.pairCount,
       missingQuotas: snapshot.readiness.missing.map(({ sourceId, section, count, minimum }) => ({ sourceId, section, count, minimum })),
     };

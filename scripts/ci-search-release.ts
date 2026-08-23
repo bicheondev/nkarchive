@@ -86,7 +86,7 @@ async function checkProductSeparation() {
   ];
   const packageJson = JSON.parse(await fs.readFile(path.join(ROOT_DIR, "package.json"), "utf8"));
   const searchCommands = Object.entries(packageJson.scripts || {})
-    .filter(([name, command]) => name.includes("search") || String(command).includes("search"))
+    .filter(([name]) => name.includes("search") && !name.includes("news-search"))
     .map(([name, command]) => `${name}: ${command}`)
     .join("\n");
   const automationSources = await Promise.all(

@@ -281,8 +281,9 @@ select {
 }
 
 .site-nav-disabled {
+  color: #D1D5DB;
   cursor: default;
-  opacity: 0.48;
+  opacity: 1;
 }
 
 .site-nav a::after {
@@ -321,66 +322,44 @@ select {
 .top-action-links {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
   margin-left: auto;
 }
 
 .top-channel-link {
-  --top-channel-expanded-width: 231px;
   --top-channel-color: #3d414d;
   --top-channel-focus-color: rgba(61, 65, 77, 0.28);
-  --top-channel-shadow-color: rgba(49, 65, 88, 0.18);
 
   display: flex;
   align-items: center;
   flex: 0 0 auto;
-  gap: 0;
   justify-content: center;
   width: 28px;
   height: 28px;
-  overflow: hidden;
   padding: 4px;
   border-radius: 1000px;
   background: var(--top-channel-color);
   box-sizing: border-box;
-  color: var(--slate-0);
-  font-family: "Pretendard Variable", Pretendard, var(--ui-font-family);
-  font-size: 15px;
-  font-weight: 400;
-  line-height: normal;
-  white-space: nowrap;
   transition:
-    width 420ms var(--motion-ease-apple),
-    gap 420ms var(--motion-ease-apple),
-    padding 420ms var(--motion-ease-apple),
     transform var(--motion-duration-base) var(--motion-ease-apple),
     background-color var(--motion-duration-fast) ease,
     box-shadow var(--motion-duration-base) var(--motion-ease-apple);
-  will-change: width;
 }
 
 .discord-channel-link {
-  --top-channel-expanded-width: 241px;
   --top-channel-color: #5865f2;
   --top-channel-focus-color: rgba(88, 101, 242, 0.28);
-  --top-channel-shadow-color: rgba(88, 101, 242, 0.24);
 }
 
 .arca-channel-link {
-  --top-channel-expanded-width: 231px;
   --top-channel-color: #3d414d;
   --top-channel-focus-color: rgba(61, 65, 77, 0.28);
-  --top-channel-shadow-color: rgba(49, 65, 88, 0.18);
+  padding: 4px 5px;
 }
 
 .top-channel-link:hover,
 .top-channel-link:focus-visible {
-  gap: 6px;
-  justify-content: flex-start;
-  width: var(--top-channel-expanded-width);
-  padding: 4px 5px;
-  background: var(--top-channel-color);
-  box-shadow: 0 10px 24px var(--top-channel-shadow-color);
+  box-shadow: 0 8px 18px rgba(49, 65, 88, 0.14);
   transform: translate3d(0, -1px, 0);
 }
 
@@ -396,46 +375,6 @@ select {
 .top-channel-icon {
   width: 18px;
   height: 18px;
-  flex: 0 0 auto;
-}
-
-.top-channel-content {
-  display: flex;
-  align-items: center;
-  flex: 0 0 auto;
-  gap: 2px;
-  width: 0;
-  min-width: 0;
-  overflow: hidden;
-  opacity: 0;
-  transform: translateX(-4px);
-  transition:
-    width 420ms var(--motion-ease-apple),
-    opacity 120ms ease,
-    transform 420ms var(--motion-ease-apple);
-  pointer-events: none;
-}
-
-.top-channel-link:hover .top-channel-content,
-.top-channel-link:focus-visible .top-channel-content {
-  width: calc(var(--top-channel-expanded-width) - 34px);
-  opacity: 1;
-  transform: translateX(0);
-  transition:
-    width 420ms var(--motion-ease-apple),
-    opacity 180ms ease 80ms,
-    transform 420ms var(--motion-ease-apple);
-}
-
-.top-channel-text {
-  flex: 0 0 auto;
-  color: var(--slate-0);
-  font-weight: 400;
-}
-
-.top-channel-arrow {
-  width: 15px;
-  height: 15px;
   flex: 0 0 auto;
 }
 
@@ -489,12 +428,12 @@ select {
   padding: 0 6px;
 }
 
-html[data-route="music"] .top-action-links {
-  display: none;
-}
-
 html[data-route="music"] .music-header-search {
   display: flex;
+}
+
+html[data-route="music"] .top-action-links {
+  margin-left: 48px;
 }
 
 .menu-toggle {
@@ -3333,14 +3272,6 @@ html[data-route="music"] .music-header-search {
     margin-left: auto;
   }
 
-  .discord-channel-link {
-    --top-channel-expanded-width: min(241px, calc(100vw - 150px));
-  }
-
-  .arca-channel-link {
-    --top-channel-expanded-width: min(231px, calc(100vw - 150px));
-  }
-
   .archive-shell {
     padding-top: 40px;
   }
@@ -3488,6 +3419,10 @@ html[data-route="music"] .music-header-search {
 @media (max-width: 760px) {
   html[data-route="music"] .music-header-search {
     display: none;
+  }
+
+  html[data-route="music"] .top-action-links {
+    margin-left: auto;
   }
 
   .music-section-stack {

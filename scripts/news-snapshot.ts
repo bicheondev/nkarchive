@@ -11,12 +11,14 @@ export const NEWS_SNAPSHOT_SCHEMA_VERSION = 3;
 export const DEFAULT_MAX_NEWS_ITEMS_PER_SOURCE = 20_000;
 export const NEWS_DETAIL_SHARD_COUNT = 256;
 export const NEWS_CATEGORY_PAGE_SIZE = 5;
+export const NEWS_SEARCH_INDEX_SCHEMA_VERSION = 1;
 export const NEWS_ASSET_PUBLIC_PREFIX = "/data/news/assets/";
 export const NEWS_DOCUMENTS_PUBLIC_PATH = "/data/news/documents.jsonl";
 export const NEWS_FEED_PUBLIC_PATH = "/data/news-feed.json";
 export const NEWS_DETAILS_PUBLIC_PATH = "/data/news-details.json";
 export const NEWS_DETAIL_SHARD_PUBLIC_PATTERN = "/data/news/details/{shard}.json";
 export const NEWS_CATEGORY_PAGE_PUBLIC_PATTERN = "/data/news/categories/{source}/{section}/page-{page}.json";
+export const NEWS_SEARCH_INDEX_PUBLIC_PATH = "/data/news/search-index.json";
 export const NEWS_IMAGE_PROXY_ALLOWLIST_PUBLIC_PATH = "/data/news/image-proxy-allowlist.json";
 export const NEWS_MEDIA_TYPES = Object.freeze(["article", "image", "video"]);
 export const NEWS_SECTION_IDS = Object.freeze([
@@ -462,6 +464,17 @@ export function buildNewsSnapshot(values, {
     shardCount: NEWS_DETAIL_SHARD_COUNT,
     shardPattern: NEWS_DETAIL_SHARD_PUBLIC_PATTERN,
   };
+  const searchArticles = [...sourceRecords.values()]
+    .flat()
+    .sort((left, right) => compareNewestFirst(left.document, right.document))
+    .map(toSearchArticle);
+  const searchIndex = {
+    schemaVersion: NEWS_SEARCH_INDEX_SCHEMA_VERSION,
+    generatedAt,
+    version,
+    totalItems: searchArticles.length,
+    articles: searchArticles,
+  };
   const detailShards = buildDetailShards(detailArticles, { generatedAt, version });
   const categoryPages = buildCategoryPages(categoryRecords, sources, readiness.assignments, {
     generatedAt,
@@ -479,8 +492,10 @@ export function buildNewsSnapshot(values, {
   return {
     feed,
     details,
+    searchIndex,
     feedText: `${JSON.stringify(feed, null, 2)}\n`,
     detailsText: `${JSON.stringify(details, null, 2)}\n`,
+    searchIndexText: `${JSON.stringify(searchIndex)}\n`,
     detailShards,
     detailShardTexts,
     categoryPages,
@@ -778,6 +793,22 @@ function toFeedArticle(record, assignments) {
   };
 }
 
+function toSearchArticle(record) {
+  const { document, lead } = record;
+  return {
+    id: document.id,
+    title: document.title,
+    date: document.date,
+    sourceId: document.sourceId,
+    sourceName: document.sourceName,
+    snippet: document.snippet,
+    url: document.url,
+    thumbnailUrl: lead.thumbnailUrl,
+    cachedThumbnailUrl: lead.cachedThumbnailUrl,
+    detailUrl: `/news/document?id=${encodeURIComponent(document.id)}`,
+  };
+}
+
 function toDetailArticle(record, assignments) {
   return {
     ...record.document,
@@ -1000,6 +1031,12 @@ function normalizeTitle(value, { sourceId = "", body = "" } = {}) {
     .join("\n");
   if (sourceId !== "rodong-sinmun" || title.includes("\n")) return title;
 
+  const pageSuffixMatch = title.match(/\s+(\[[1-9]\d*면\])$/u);
+  const comparableTitle = pageSuffixMatch
+    ? title.slice(0, -pageSuffixMatch[0].length)
+    : title;
+  const pageSuffix = pageSuffixMatch ? ` ${pageSuffixMatch[1]}` : "";
+
   const leadingParagraphs = String(body || "")
     .split(/\n+/u)
     .map((paragraph) => normalizeText(paragraph))
@@ -1007,7 +1044,7 @@ function normalizeTitle(value, { sourceId = "", body = "" } = {}) {
     .slice(0, 5);
   for (let lineCount = 2; lineCount <= leadingParagraphs.length; lineCount += 1) {
     const lines = leadingParagraphs.slice(0, lineCount);
-    if (title === lines.join("")) return lines.join("\n");
+    if (comparableTitle === lines.join("")) return `${lines.join("\n")}${pageSuffix}`;
   }
   return title;
 }

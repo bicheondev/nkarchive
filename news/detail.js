@@ -15,7 +15,6 @@
   const articleId = params.get("id") || "";
   const DETAILS_ROOT_URL = "/data/news/details";
 
-  bindChrome();
   bindShare();
   loadArticle();
 
@@ -346,29 +345,4 @@
     error.focus({ preventScroll: true });
   }
 
-  function bindChrome() {
-    const toggle = document.querySelector("#newsMenuToggle");
-    const navigation = document.querySelector(".news-navigation");
-    toggle?.addEventListener("click", () => {
-      const nextOpen = !document.body.classList.contains("news-menu-open");
-      document.body.classList.toggle("news-menu-open", nextOpen);
-      toggle.setAttribute("aria-expanded", String(nextOpen));
-    });
-    document.addEventListener("click", (event) => {
-      if (!document.body.classList.contains("news-menu-open")) return;
-      if (navigation?.contains(event.target)) return;
-      document.body.classList.remove("news-menu-open");
-      toggle?.setAttribute("aria-expanded", "false");
-    });
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape") {
-        document.body.classList.remove("news-menu-open");
-        toggle?.setAttribute("aria-expanded", "false");
-      }
-      if ((event.metaKey || event.ctrlKey) && !event.altKey && event.key.toLocaleLowerCase("en-US") === "k") {
-        event.preventDefault();
-        window.location.assign("/news#search");
-      }
-    });
-  }
 })();

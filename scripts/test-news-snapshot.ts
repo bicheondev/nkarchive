@@ -15,6 +15,8 @@ import {
   DEFAULT_MAX_NEWS_ITEMS_PER_SOURCE,
   NEWS_SECTION_IDS,
   NEWS_SECTION_QUOTAS,
+  NEWS_SEARCH_INDEX_PUBLIC_PATH,
+  NEWS_SEARCH_INDEX_SCHEMA_VERSION,
   NEWS_SOURCE_SECTION_IDS,
   assertNewsSectionQuotaReadiness,
   buildNewsSnapshot,
@@ -135,6 +137,18 @@ assert.equal(
   repairedRodongTitleArticle.title,
   multilineCanonicalTitle,
   "a legacy Rodong title may be repaired from an exact concatenation of its leading archived title paragraphs",
+);
+const repairedRodongPrintTitleArticle = article({
+  id: "rodong-legacy-joined-print-title",
+  sourceId: "rodong-sinmun",
+  sourceName: "로동신문",
+  title: `${legacyJoinedRodongTitle} [2면]`,
+  body: `${multilineCanonicalTitle.replace("\n", "\n\n")}\n\n나는 사랑하는 우리 조국과 빛나는 력사를 함께 하여왔다.`,
+});
+assert.equal(
+  repairedRodongPrintTitleArticle.title,
+  `${multilineCanonicalTitle} [2면]`,
+  "a Rodong print-page suffix must remain attached after repairing its joined leading title paragraphs",
 );
 assert.equal(
   article({
@@ -347,6 +361,7 @@ const reversedSnapshot = buildNewsSnapshot([...documents].reverse());
 assert.equal(snapshot.feed.version, reversedSnapshot.feed.version, "snapshot version must ignore input order");
 assert.equal(snapshot.feedText, reversedSnapshot.feedText, "snapshot JSON must be deterministic");
 assert.equal(snapshot.detailsText, reversedSnapshot.detailsText, "detail JSON must be deterministic");
+assert.equal(snapshot.searchIndexText, reversedSnapshot.searchIndexText, "search index JSON must be deterministic");
 assert.deepEqual(
   [...snapshot.detailShardTexts],
   [...reversedSnapshot.detailShardTexts],
@@ -365,6 +380,37 @@ assert.equal(
 assert.equal(snapshot.feed.generatedAt, "2026-08-22T00:00:00.000Z");
 assert.match(snapshot.feed.version, /^[a-f0-9]{16}$/u);
 assert.equal(snapshot.feed.version, snapshot.details.version);
+assert.equal(snapshot.searchIndex.schemaVersion, NEWS_SEARCH_INDEX_SCHEMA_VERSION);
+assert.equal(snapshot.searchIndex.version, snapshot.feed.version);
+assert.equal(snapshot.searchIndex.totalItems, snapshot.details.totalItems);
+assert.equal(snapshot.searchIndex.articles.length, snapshot.details.totalItems);
+assert.equal(NEWS_SEARCH_INDEX_PUBLIC_PATH, "/data/news/search-index.json");
+assert.equal(
+  new Set(snapshot.searchIndex.articles.map((item) => item.id)).size,
+  snapshot.searchIndex.totalItems,
+  "the full search index must contain every selected article exactly once",
+);
+assert.deepEqual(
+  snapshot.searchIndex.articles.map((item) => item.date),
+  [...snapshot.searchIndex.articles.map((item) => item.date)].sort().reverse(),
+  "the full search index must be newest first",
+);
+assert.deepEqual(
+  Object.keys(snapshot.searchIndex.articles[0]),
+  [
+    "id",
+    "title",
+    "date",
+    "sourceId",
+    "sourceName",
+    "snippet",
+    "url",
+    "thumbnailUrl",
+    "cachedThumbnailUrl",
+    "detailUrl",
+  ],
+  "the browser search index must exclude full article bodies",
+);
 assert.equal(snapshot.details.shardCount, NEWS_DETAIL_SHARD_COUNT);
 assert.equal(snapshot.details.shardPattern, NEWS_DETAIL_SHARD_PUBLIC_PATTERN);
 assert.equal(snapshot.details.articles, undefined, "the detail manifest must not embed every article");
@@ -385,6 +431,11 @@ assert.equal(
   largeSourceSnapshot.details.totalItems,
   largeSourceFixture.length,
   "detail shards must retain every record beyond the legacy 500/2,000-item boundaries",
+);
+assert.equal(
+  largeSourceSnapshot.searchIndex.totalItems,
+  largeSourceFixture.length,
+  "the search index must retain every record beyond the legacy 500/2,000-item boundaries",
 );
 assert.equal(
   [...largeSourceSnapshot.detailShards.values()]
@@ -733,6 +784,11 @@ try {
   );
   await generateNewsFiles({ documentsPath, feedPath, detailsPath, check: true });
   assert.equal(
+    await fs.readFile(generated.searchIndexPath, "utf8"),
+    generated.searchIndexText,
+    "the generated compact search index must exactly match the canonical snapshot",
+  );
+  assert.equal(
     await fs.readFile(generated.imageProxyAllowlistPath, "utf8"),
     generated.imageProxyAllowlistText,
     "the generated compact allowlist must exactly match the canonical snapshot",
@@ -748,6 +804,14 @@ try {
     generateNewsFiles({ documentsPath, feedPath, detailsPath, check: true }),
     /image-proxy-allowlist\.json is stale/u,
     "--check must byte-verify the image proxy allowlist",
+  );
+  await generateNewsFiles({ documentsPath, feedPath, detailsPath });
+
+  await fs.appendFile(generated.searchIndexPath, " ", "utf8");
+  await assert.rejects(
+    generateNewsFiles({ documentsPath, feedPath, detailsPath, check: true }),
+    /search-index\.json is stale/u,
+    "--check must byte-verify the complete search index",
   );
   await generateNewsFiles({ documentsPath, feedPath, detailsPath });
 

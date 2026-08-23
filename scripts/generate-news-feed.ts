@@ -14,6 +14,7 @@ export const DEFAULT_NEWS_FEED_PATH = path.join(ROOT_DIR, "data/news-feed.json")
 export const DEFAULT_NEWS_DETAILS_PATH = path.join(ROOT_DIR, "data/news-details.json");
 export const DEFAULT_NEWS_DETAIL_SHARDS_DIR = path.join(ROOT_DIR, "data/news/details");
 export const DEFAULT_NEWS_CATEGORY_PAGES_DIR = path.join(ROOT_DIR, "data/news/categories");
+export const DEFAULT_NEWS_SEARCH_INDEX_PATH = path.join(ROOT_DIR, "data/news/search-index.json");
 export const DEFAULT_NEWS_IMAGE_PROXY_ALLOWLIST_PATH = path.join(ROOT_DIR, "data/news/image-proxy-allowlist.json");
 
 export async function generateNewsFiles({
@@ -22,6 +23,7 @@ export async function generateNewsFiles({
   detailsPath = DEFAULT_NEWS_DETAILS_PATH,
   detailShardsDir,
   categoryPagesDir,
+  searchIndexPath,
   imageProxyAllowlistPath,
   check = false,
   requireQuotaReady = false,
@@ -32,6 +34,7 @@ export async function generateNewsFiles({
   const generatedDataRoot = path.join(path.dirname(resolvedDetailsPath), "news");
   const resolvedDetailShardsDir = path.resolve(detailShardsDir || path.join(generatedDataRoot, "details"));
   const resolvedCategoryPagesDir = path.resolve(categoryPagesDir || path.join(generatedDataRoot, "categories"));
+  const resolvedSearchIndexPath = path.resolve(searchIndexPath || path.join(generatedDataRoot, "search-index.json"));
   const resolvedImageProxyAllowlistPath = path.resolve(
     imageProxyAllowlistPath || path.join(generatedDataRoot, "image-proxy-allowlist.json"),
   );
@@ -41,6 +44,7 @@ export async function generateNewsFiles({
   const outputs = [
     [resolvedFeedPath, snapshot.feedText],
     [resolvedDetailsPath, snapshot.detailsText],
+    [resolvedSearchIndexPath, snapshot.searchIndexText],
     [resolvedImageProxyAllowlistPath, snapshot.imageProxyAllowlistText],
   ];
   const detailShardFiles = new Map([...snapshot.detailShardTexts].map(([shard, text]) => [
@@ -74,6 +78,7 @@ export async function generateNewsFiles({
     detailsPath: resolvedDetailsPath,
     detailShardsDir: resolvedDetailShardsDir,
     categoryPagesDir: resolvedCategoryPagesDir,
+    searchIndexPath: resolvedSearchIndexPath,
     imageProxyAllowlistPath: resolvedImageProxyAllowlistPath,
   };
 }
@@ -89,6 +94,7 @@ function parseArguments(argv) {
     else if (argument === "--details-out") options.detailsPath = requireValue(argv, ++index, argument);
     else if (argument === "--detail-shards-out") options.detailShardsDir = requireValue(argv, ++index, argument);
     else if (argument === "--category-pages-out") options.categoryPagesDir = requireValue(argv, ++index, argument);
+    else if (argument === "--search-index-out") options.searchIndexPath = requireValue(argv, ++index, argument);
     else if (argument === "--image-proxy-allowlist-out") options.imageProxyAllowlistPath = requireValue(argv, ++index, argument);
     else throw new Error(`Unknown argument: ${argument}`);
   }

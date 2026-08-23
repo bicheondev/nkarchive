@@ -455,7 +455,7 @@ async function assertProjectShellNavigationIsAccessible() {
   assert.equal(homeHtml.includes('aria-label="주요 메뉴"'), true, "project shell primary navigation should use a Korean accessible name");
   assert.equal(homeHtml.includes('aria-label="Archive home"'), false, "project shell should not expose English logo labels");
   assert.equal(homeHtml.includes('aria-label="Primary"'), false, "project shell should not expose English nav labels");
-  assert.equal(homeHtml.includes('/styles.css?v=site-20260821-1'), true, "project shell should use the current shared style cache key");
+  assert.equal(homeHtml.includes('/styles.css?v=site-20260823-1'), true, "project shell should use the current shared style cache key");
   assert.equal(homeHtml.includes('/app.js?v=site-20260821-1'), true, "project shell should use the current app runtime cache key");
   assert.equal(liveHtml.includes('window.location.replace("/?route=live&v=live-20260701-2")'), true, "/live should redirect into the current shared app shell instead of shipping a stale duplicate shell");
   const navHtml = navMatch?.[0] || "";
@@ -470,6 +470,21 @@ async function assertProjectShellNavigationIsAccessible() {
   assert.equal(projectLogoRule.includes("font-family: var(--logo-font-family);"), true, "project shell logo should use the shared Pretendard logo font");
   assert.equal(projectLogoRule.includes("transform: scaleX(var(--logo-tracking-scale));"), true, "project shell logo should visually tighten tracking by 4%");
   assert.equal(css.includes(".site-nav-disabled"), true, "disabled project shell nav destinations should keep explicit styling");
+  const disabledNavRules = [...css.matchAll(/\.site-nav-disabled\s*\{([\s\S]*?)\n\}/g)].map((match) => match[1]);
+  assert.equal(disabledNavRules.some((rule) => rule.includes("color: #D1D5DB;")), true, "unavailable project destinations should use exact gray-300 text");
+  assert.equal(disabledNavRules.some((rule) => rule.includes("opacity: 1;")), true, "unavailable project destinations should not be dimmed with opacity");
+  assert.equal(homeHtml.includes('role="group" aria-label="커뮤니티 바로가기"'), true, "project shell channel shortcuts should expose an accessible group name");
+  assert.equal(homeHtml.includes('aria-label="북한아카이브 디스코드 바로가기"'), true, "Discord shortcut should have an accessible name");
+  assert.equal(homeHtml.includes('aria-label="아카라이브 북한 채널 바로가기"'), true, "Arca shortcut should have an accessible name");
+  assert.equal(homeHtml.includes('class="top-channel-content"'), false, "channel shortcuts should remain compact icon-only buttons");
+  assert.equal(homeHtml.indexOf('class="music-header-search"') < homeHtml.indexOf('class="top-action-links"'), true, "music search should precede channel shortcuts in the header");
+  const actionLinksRule = css.match(/\.top-action-links\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(actionLinksRule.includes("gap: 6px;"), true, "channel shortcut buttons should use the Figma six-pixel gap");
+  const channelLinkRule = css.match(/\.top-channel-link\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(channelLinkRule.includes("width: 28px;"), true, "channel shortcut buttons should stay 28 pixels wide");
+  assert.equal(channelLinkRule.includes("height: 28px;"), true, "channel shortcut buttons should stay 28 pixels tall");
+  const musicActionsRule = css.match(/html\[data-route="music"\] \.top-action-links\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(musicActionsRule.includes("margin-left: 48px;"), true, "music search and channel shortcuts should use the Figma 48-pixel gap");
   assert.equal(navHtml.includes('href="/search" data-route="search"'), true, "project shell search nav item should expose a route id for active-state styling");
   assert.equal(appSource.includes('const ROUTE_SEARCH = "search";'), true, "project shell should recognize the search route for active-state styling");
   assert.equal(appSource.includes('if (link.dataset.route === ROUTE_SEARCH) continue;'), true, "project shell should leave /search navigation to the static search shell");
@@ -568,6 +583,8 @@ async function assertDeploymentConfigIsProductionReady() {
   assert.equal(envLoaderSource.includes("override = false"), true, ".env loader should not override shell or platform environment by default");
   assert.equal(releaseSource.includes("loadDotEnvFile()"), true, "release runner should load .env before checking production environment");
   assert.equal(ciSource.includes("test:search"), true, "CI search gate should run the full correctness suite");
+  assert.equal(ciSource.includes('!name.includes("news-search")'), true,
+    "CI search product-separation checks must ignore the standalone News search test command");
   assert.equal(ciSource.includes("verify:vercel-bundle"), false, "CI search gate should not run the cross-product Vercel bundle verifier");
   assert.equal(ciSource.includes("generate:news"), false, "CI search gate should not generate the standalone news mirror");
   assert.equal(ciSource.includes("test:news"), false, "CI search gate should not run standalone news tests");

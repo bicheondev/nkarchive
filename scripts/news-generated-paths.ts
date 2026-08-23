@@ -33,6 +33,7 @@ const EXACT_NEWS_GENERATED_PATHS = new Set([
   "data/news-details.json",
   "data/news/documents.jsonl",
   "data/news/image-proxy-allowlist.json",
+  "data/news/search-index.json",
 ]);
 
 /**
