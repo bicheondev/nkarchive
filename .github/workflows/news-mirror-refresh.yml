@@ -36,10 +36,18 @@ jobs:
           node-version: "26"
           cache: npm
 
+      - name: Set up Python for complete YouTube listings
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install pinned YouTube listing reader
+        run: python -m pip install --disable-pip-version-check "yt-dlp==2026.8.19"
+
       - name: Install dependencies
         run: npm ci
 
-      - name: Refresh KCNA and Rodong independently
+      - name: Refresh KCNA, Rodong, and YouTube independently
         shell: bash
         env:
           DPRK_NEWS_CRAWL_PROXY: ${{ secrets.DPRK_NEWS_CRAWL_PROXY }}
@@ -89,8 +97,16 @@ jobs:
           rodong_status=$?
           printf 'rodong-sinmun=%s\n' "$rodong_status" >> "$NEWS_MIRROR_STATUS_PATH"
 
+          timeout --foreground --signal=TERM --kill-after=30s 20m npm run refresh:news-youtube -- \
+            --timeout-ms 30000 \
+            --yt-dlp-timeout-ms 240000 \
+            --report "$NEWS_MIRROR_REPORT_DIR/youtube.json"
+          youtube_status=$?
+          printf 'youtube=%s\n' "$youtube_status" >> "$NEWS_MIRROR_STATUS_PATH"
+
           echo "KCNA refresh exit status: $kcna_status"
           echo "Rodong refresh exit status: $rodong_status"
+          echo "YouTube refresh exit status: $youtube_status"
 
       - name: Reject unexpected generated paths
         shell: bash
@@ -126,7 +142,7 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: refresh KCNA and Rodong mirror"
+          git commit -m "chore: refresh News sources"
           git push origin "HEAD:${GITHUB_REF_NAME}"
 
       - name: Fail after preserving successful source refreshes
@@ -141,6 +157,7 @@ jobs:
           failed=0
           kcna_seen=0
           rodong_seen=0
+          youtube_seen=0
           while IFS='=' read -r source status; do
             case "$source" in
               kcna)
@@ -148,6 +165,9 @@ jobs:
                 ;;
               rodong-sinmun)
                 rodong_seen=$((rodong_seen + 1))
+                ;;
+              youtube)
+                youtube_seen=$((youtube_seen + 1))
                 ;;
               *)
                 echo "Unexpected source refresh status: ${source:-empty}."
@@ -159,8 +179,8 @@ jobs:
               failed=1
             fi
           done < "$NEWS_MIRROR_STATUS_PATH"
-          if [[ "$kcna_seen" -ne 1 ]] || [[ "$rodong_seen" -ne 1 ]]; then
-            echo "Expected exactly one status for each official news source."
+          if [[ "$kcna_seen" -ne 1 ]] || [[ "$rodong_seen" -ne 1 ]] || [[ "$youtube_seen" -ne 1 ]]; then
+            echo "Expected exactly one status for each scheduled News source."
             failed=1
           fi
           exit "$failed"

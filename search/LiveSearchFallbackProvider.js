@@ -1,4 +1,4 @@
-import { groupResultsBySource, getResultDisplaySourceId } from "./resultFilters.js?v=search-20260803-6";
+import { groupResultsBySource, getResultDisplaySourceId } from "./resultFilters.js?v=search-20260823-7";
 
 const DEFAULT_ENDPOINT = "/api/search-live";
 const DEFAULT_MINIMUM_RESULTS = 12;

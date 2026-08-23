@@ -405,7 +405,8 @@ async function assertSearchNavigationIsAccessible() {
     assert.equal(html.includes('id="searchNavMenu"'), true, `${name} should expose a controlled mobile nav menu region`);
     assert.equal(html.includes('aria-controls="searchNavMenu"'), true, `${name} menu button should control the nav region`);
     assert.equal(html.includes('aria-expanded="false"'), true, `${name} menu button should start collapsed`);
-    assert.equal(html.includes('/search/search.css?v=search-20260803-6'), true, `${name} should use the current search style cache key`);
+    assert.equal(html.includes('/search/search.css?v=search-20260823-7'), true, `${name} should use the current search style cache key`);
+    assert.equal(html.includes('/search/searchPortal.js?v=search-20260823-7'), true, `${name} should use the current search portal cache key`);
     assert.equal(html.includes('href="#"'), false, `${name} should not ship dead placeholder navigation links`);
     assert.equal(html.includes('aria-disabled="true"'), true, `${name} should mark unavailable nav destinations as disabled text`);
     assert.equal(html.includes('aria-label="검색 홈"'), true, `${name} logo link should use a Korean accessible name`);
@@ -416,6 +417,16 @@ async function assertSearchNavigationIsAccessible() {
     assert.equal(html.includes("설정"), false, `${name} should not ship disabled search-only utility links in the shared nav`);
     assert.equal(html.includes('aria-label="Search home"'), false, `${name} should not expose English logo labels inside the Korean search portal`);
     assert.equal(html.includes('aria-label="Primary"'), false, `${name} should not expose English nav labels inside the Korean search portal`);
+    assert.equal(html.includes('class="active" href="/search" aria-current="page">검색</a>'), true,
+      `${name} should keep Search enabled and active in the shared navigation`);
+    assert.equal(html.includes('class="search-nav-actions"'), true, `${name} should include the shared header action region`);
+    assert.equal(html.includes('aria-label="커뮤니티 바로가기"'), true, `${name} should name its channel shortcut group`);
+    assert.equal(html.includes('aria-label="북한아카이브 디스코드 바로가기"'), true, `${name} should expose the Discord shortcut`);
+    assert.equal(html.includes('aria-label="아카라이브 북한 채널 바로가기"'), true, `${name} should expose the Arca shortcut`);
+    assert.equal(html.includes('class="search-channel-content"'), true, `${name} should include expandable channel labels`);
+    assert.equal(html.includes('class="material-symbols-rounded search-menu-button-icon"'), true,
+      `${name} should use the same Material menu icon as News`);
+    assert.equal(html.includes(">drag_handle</span>"), true, `${name} mobile menu should start with the drag-handle icon`);
   }
 
   assert.equal(css.includes('--search-font: "Pretendard Variable", Pretendard'), true, "search UI font stack should prioritize Pretendard consistently");
@@ -426,18 +437,42 @@ async function assertSearchNavigationIsAccessible() {
   const searchHeroLogoRule = css.match(/\.search-hero-logo\s*\{([\s\S]*?)\n\}/)?.[1] || "";
   const sourceResultLogoRule = css.match(/\.source-result-logo\s*\{([\s\S]*?)\n\}/)?.[1] || "";
   assert.equal(searchLogoRule.includes("font-family: var(--search-logo-font);"), true, "search nav logo should use the shared Pretendard logo font");
-  assert.equal(searchLogoRule.includes("transform: scaleX(var(--search-logo-tracking-scale));"), true, "search nav logo should visually tighten tracking by 4%");
+  assert.equal(searchLogoRule.includes("font-weight: 400;"), true, "search nav logo should match the News header weight");
+  assert.equal(searchLogoRule.includes("letter-spacing: -0.6px;"), true, "search nav logo should match the News header tracking");
+  assert.equal(searchLogoRule.includes("transition:"), false, "search nav logo should not transition");
   assert.equal(searchHeroLogoRule.includes("font-family: var(--search-logo-font);"), true, "search hero logo should use the shared Pretendard logo font");
   assert.equal(searchHeroLogoRule.includes("transform: scaleX(var(--search-logo-tracking-scale));"), true, "search hero logo should visually tighten tracking by 4%");
   assert.equal(sourceResultLogoRule.includes("font-family: var(--search-logo-font);"), true, "source-card fallback logos should use the shared Pretendard logo font");
-  assert.equal(css.includes("search-nav-actions"), false, "search UI should not keep removed utility-nav styling around the shared header");
+  const searchNavRule = css.match(/\.search-nav\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(searchNavRule.includes("height: var(--search-nav-height);"), true, "search header should use the shared 70-pixel desktop height");
+  assert.equal(searchNavRule.includes("animation:"), false, "search header should not animate into place");
+  assert.equal(searchNavRule.includes("transition:"), false, "search header should not transition");
+  const searchNavInnerRule = css.match(/\.search-nav-inner\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(searchNavInnerRule.includes("width: 1456px;"), true, "wide search header should match the News inner width");
+  assert.equal(searchNavInnerRule.includes("height: 34px;"), true, "search header should match the News desktop inner height");
+  assert.equal(searchNavInnerRule.includes("margin: 18px auto;"), true, "search header should match the News desktop vertical spacing");
+  const searchChannelsRule = css.match(/\.search-channel-links\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(searchChannelsRule.includes("gap: 10px;"), true, "search channel buttons should match the News ten-pixel gap");
+  const searchChannelRule = css.match(/\.search-channel-link\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(searchChannelRule.includes("width: 28px;"), true, "search channel buttons should start at 28 pixels");
+  assert.equal(searchChannelRule.includes("transition:"), false, "search channel buttons should expand immediately");
+  const expandedSearchChannelRule = css.match(/\.search-channel-link:hover,\s*\n\.search-channel-link:focus-visible\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(expandedSearchChannelRule.includes("width: var(--search-channel-expanded-width);"), true,
+    "search channel buttons should expand on hover and keyboard focus");
   assert.equal(css.includes("body.search-nav-open .search-nav-menu"), true, "mobile nav CSS should render the collapsed menu when opened");
   assert.equal(css.includes(".search-nav-disabled"), true, "disabled nav destinations should keep explicit styling");
-  assert.equal(css.includes("body.search-nav-open .search-nav-links span"), true, "mobile search nav should give disabled items the same spacing as links");
-  assert.equal(/letter-spacing:\s*-\d/.test(css), false, "search UI CSS should not use negative letter spacing");
+  assert.equal(css.includes(".search-nav-links span"), true, "mobile search nav should give disabled items the same spacing as links");
+  const searchDisabledRule = css.match(/\.search-nav-disabled\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(searchDisabledRule.includes("color: #d1d5db;"), true, "unavailable search destinations should use gray-300");
+  assert.equal(css.includes("@media (max-width: 1100px)"), true, "search shell should use the News mobile breakpoint");
+  assert.equal(css.includes("backdrop-filter: blur(22px) saturate(1.3);"), true, "search mobile menu should match the News foreground blur");
+  assert.equal(css.includes("backdrop-filter: blur(18px) saturate(1.12);"), true, "search mobile menu should retain the News background blur");
   assertCssCustomPropertiesResolved(css, "search/search.css");
   assert.equal(portalSource.includes("initializeSearchNavigation"), true, "search portal should initialize mobile nav behavior");
   assert.equal(portalSource.includes('event.key === "Escape"'), true, "mobile nav should close from Escape");
+  assert.equal(portalSource.includes('window.matchMedia?.("(max-width: 1100px)")'), true, "search menu behavior should use the News mobile breakpoint");
+  assert.equal(portalSource.includes('menuButtonIcon.textContent = shouldOpen ? "close" : "drag_handle"'), true,
+    "search mobile menu should switch between the News drag-handle and close icons");
 }
 
 async function assertProjectShellNavigationIsAccessible() {
@@ -455,7 +490,7 @@ async function assertProjectShellNavigationIsAccessible() {
   assert.equal(homeHtml.includes('aria-label="주요 메뉴"'), true, "project shell primary navigation should use a Korean accessible name");
   assert.equal(homeHtml.includes('aria-label="Archive home"'), false, "project shell should not expose English logo labels");
   assert.equal(homeHtml.includes('aria-label="Primary"'), false, "project shell should not expose English nav labels");
-  assert.equal(homeHtml.includes('/styles.css?v=site-20260823-1'), true, "project shell should use the current shared style cache key");
+  assert.equal(homeHtml.includes('/styles.css?v=site-20260823-2'), true, "project shell should use the current shared style cache key");
   assert.equal(homeHtml.includes('/app.js?v=site-20260821-1'), true, "project shell should use the current app runtime cache key");
   assert.equal(liveHtml.includes('window.location.replace("/?route=live&v=live-20260701-2")'), true, "/live should redirect into the current shared app shell instead of shipping a stale duplicate shell");
   const navHtml = navMatch?.[0] || "";
@@ -468,7 +503,8 @@ async function assertProjectShellNavigationIsAccessible() {
   assert.equal(css.includes('src: url("/assets/fonts/PretendardVariable.woff2")'), true, "project shell should load Pretendard from the same local static asset as search");
   const projectLogoRule = css.match(/\.logo\s*\{([\s\S]*?)\n\}/)?.[1] || "";
   assert.equal(projectLogoRule.includes("font-family: var(--logo-font-family);"), true, "project shell logo should use the shared Pretendard logo font");
-  assert.equal(projectLogoRule.includes("transform: scaleX(var(--logo-tracking-scale));"), true, "project shell logo should visually tighten tracking by 4%");
+  assert.equal(projectLogoRule.includes("font-weight: 400;"), true, "project shell logo should match the News header weight");
+  assert.equal(projectLogoRule.includes("letter-spacing: -0.6px;"), true, "project shell logo should match the News header tracking");
   assert.equal(css.includes(".site-nav-disabled"), true, "disabled project shell nav destinations should keep explicit styling");
   const disabledNavRules = [...css.matchAll(/\.site-nav-disabled\s*\{([\s\S]*?)\n\}/g)].map((match) => match[1]);
   assert.equal(disabledNavRules.some((rule) => rule.includes("color: #D1D5DB;")), true, "unavailable project destinations should use exact gray-300 text");
@@ -476,15 +512,43 @@ async function assertProjectShellNavigationIsAccessible() {
   assert.equal(homeHtml.includes('role="group" aria-label="커뮤니티 바로가기"'), true, "project shell channel shortcuts should expose an accessible group name");
   assert.equal(homeHtml.includes('aria-label="북한아카이브 디스코드 바로가기"'), true, "Discord shortcut should have an accessible name");
   assert.equal(homeHtml.includes('aria-label="아카라이브 북한 채널 바로가기"'), true, "Arca shortcut should have an accessible name");
-  assert.equal(homeHtml.includes('class="top-channel-content"'), false, "channel shortcuts should remain compact icon-only buttons");
-  assert.equal(homeHtml.indexOf('class="music-header-search"') < homeHtml.indexOf('class="top-action-links"'), true, "music search should precede channel shortcuts in the header");
+  assert.equal(homeHtml.includes('class="top-channel-content"'), true, "channel shortcuts should include the expandable label content");
+  assert.equal(homeHtml.includes('class="top-channel-text">북한아카이브 디스코드 바로가기</span>'), true,
+    "Discord shortcut should expose its label when expanded");
+  assert.equal(homeHtml.includes('class="top-channel-text arca-channel-text">아카라이브 북한 채널 바로가기</span>'), true,
+    "Arca shortcut should expose its label when expanded");
+  assert.equal((homeHtml.match(/class="top-channel-arrow(?: [^"]*)?"/g) || []).length, 2,
+    "both channel shortcuts should include a trailing chevron");
+  assert.equal(homeHtml.includes('class="navigation-actions"'), true, "project shell should share the News header action layout");
+  assert.equal(homeHtml.indexOf('class="music-header-search"') < homeHtml.indexOf('class="top-action-links"'), true, "music search should precede channel shortcuts in the header action group");
+  const navigationActionsRule = css.match(/\.navigation-actions\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(navigationActionsRule.includes("gap: 48px;"), true, "header search and channel shortcuts should match the News 48-pixel action gap");
   const actionLinksRule = css.match(/\.top-action-links\s*\{([\s\S]*?)\n\}/)?.[1] || "";
-  assert.equal(actionLinksRule.includes("gap: 6px;"), true, "channel shortcut buttons should use the Figma six-pixel gap");
+  assert.equal(actionLinksRule.includes("gap: 10px;"), true, "channel shortcut buttons should match the legacy Font and News ten-pixel gap");
   const channelLinkRule = css.match(/\.top-channel-link\s*\{([\s\S]*?)\n\}/)?.[1] || "";
-  assert.equal(channelLinkRule.includes("width: 28px;"), true, "channel shortcut buttons should stay 28 pixels wide");
+  assert.equal(channelLinkRule.includes("width: 28px;"), true, "channel shortcut buttons should start 28 pixels wide");
   assert.equal(channelLinkRule.includes("height: 28px;"), true, "channel shortcut buttons should stay 28 pixels tall");
-  const musicActionsRule = css.match(/html\[data-route="music"\] \.top-action-links\s*\{([\s\S]*?)\n\}/)?.[1] || "";
-  assert.equal(musicActionsRule.includes("margin-left: 48px;"), true, "music search and channel shortcuts should use the Figma 48-pixel gap");
+  assert.equal(channelLinkRule.includes("overflow: hidden;"), true, "collapsed channel shortcuts should clip their labels");
+  const expandedChannelRule = css.match(/\.top-channel-link:hover,\s*\n\.top-channel-link:focus-visible\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(expandedChannelRule.includes("width: var(--top-channel-expanded-width);"), true,
+    "channel shortcuts should expand on hover and keyboard focus");
+  assert.equal(css.includes(".top-channel-link:focus-visible .top-channel-content"), true,
+    "keyboard focus should reveal the channel label content");
+  const navigationInnerRule = css.match(/\.navigation-inner\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(navigationInnerRule.includes("width: 1456px;"), true, "wide project navigation should match the News 1456-pixel inner width");
+  assert.equal(navigationInnerRule.includes("height: 34px;"), true, "desktop project navigation should match the News 34-pixel inner height");
+  assert.equal(navigationInnerRule.includes("margin: 18px auto;"), true, "desktop project navigation should match the News vertical margins");
+  const projectNavRule = css.match(/\.site-nav\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(projectNavRule.includes("left: 50%;"), true, "project navigation should stay centered with the enabled Search destination");
+  assert.equal(projectNavRule.includes("width: max-content;"), true, "project navigation should size itself to all nine destinations");
+  assert.equal(projectNavRule.includes("transform: translateX(-50%);"), true, "project navigation should center from its own dynamic width");
+  const navigationBarRule = css.match(/\.navigation-bar\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(navigationBarRule.includes("height: var(--site-navigation-height);"), true, "desktop project header should use the shared 70-pixel height");
+  assert.equal(navigationBarRule.includes("animation:"), false, "project header should not animate into place");
+  assert.equal(navigationBarRule.includes("transition:"), false, "project header should not transition");
+  assert.equal(channelLinkRule.includes("transition:"), false, "channel shortcut expansion should be immediate");
+  assert.equal(css.includes("@media (max-width: 1100px)"), true, "project shell should use the News mobile header breakpoint");
+  assert.equal(css.includes("width: calc(100vw - 40px);"), true, "mobile project navigation should retain 20-pixel side margins");
   assert.equal(navHtml.includes('href="/search" data-route="search"'), true, "project shell search nav item should expose a route id for active-state styling");
   assert.equal(appSource.includes('const ROUTE_SEARCH = "search";'), true, "project shell should recognize the search route for active-state styling");
   assert.equal(appSource.includes('if (link.dataset.route === ROUTE_SEARCH) continue;'), true, "project shell should leave /search navigation to the static search shell");

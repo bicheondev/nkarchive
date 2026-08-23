@@ -867,13 +867,19 @@ async function testRefreshWorkflowIsolation() {
   const newsCiWorkflow = await fs.readFile(new URL("../.github/workflows/news-ci.yml", import.meta.url), "utf8");
   const kcnaIndex = workflow.indexOf("--kcna-only");
   const rodongIndex = workflow.indexOf("--rodong-only");
+  const youtubeIndex = workflow.indexOf("refresh:news-youtube");
   const commitIndex = workflow.indexOf("- name: Commit refreshed mirror");
   const failureIndex = workflow.indexOf("- name: Fail after preserving successful source refreshes");
-  assert.ok(kcnaIndex >= 0 && rodongIndex > kcnaIndex, "workflow must refresh KCNA and Rodong as sequential source transactions");
+  assert.ok(
+    kcnaIndex >= 0 && rodongIndex > kcnaIndex && youtubeIndex > rodongIndex,
+    "workflow must refresh KCNA, Rodong, and YouTube as sequential source transactions",
+  );
   const kcnaTransaction = workflow.slice(kcnaIndex, rodongIndex);
   const rodongTransaction = workflow.slice(rodongIndex, commitIndex);
   assert.match(workflow, /timeout --foreground --signal=TERM --kill-after=30s 240m npm run refresh:news --[\s\S]*--kcna-only/u);
   assert.match(workflow, /timeout --foreground --signal=TERM --kill-after=30s 80m npm run refresh:news --[\s\S]*--rodong-only/u);
+  assert.match(workflow, /yt-dlp==2026\.8\.19/u, "workflow must pin the full YouTube listing reader");
+  assert.match(workflow, /timeout --foreground --signal=TERM --kill-after=30s 20m npm run refresh:news-youtube --[\s\S]*--yt-dlp-timeout-ms 240000[\s\S]*--report "\$NEWS_MIRROR_REPORT_DIR\/youtube\.json"/u);
   assert.match(kcnaTransaction, /--max-list-pages 400[\s\S]*--max-documents 20000[\s\S]*--max-documents-per-category 10000/u);
   assert.match(rodongTransaction, /--max-list-pages 400[\s\S]*--max-documents 20000[\s\S]*--max-documents-per-category 10000/u);
   assert.doesNotMatch(kcnaTransaction, /--detail-concurrency/u, "KCNA must retain its source-specific concurrency default");
@@ -888,6 +894,7 @@ async function testRefreshWorkflowIsolation() {
   assert.match(workflow, /NEWS_MIRROR_FULL_BACKFILL:[\s\S]*refresh_mode_args=\(\)[\s\S]*refresh_mode_args\+=\(--full-backfill\)/u);
   assert.doesNotMatch(workflow, /--max-list-pages 1(?:\s|\\)|--max-documents 96(?:\s|\\)/u, "production refresh must not retain the shallow 1-page/96-document crawl");
   assert.match(workflow, /NEWS_MIRROR_REPORT_DIR[\s\S]*kcna\.json[\s\S]*rodong-sinmun\.json/u, "workflow must retain separate source reports");
+  assert.match(workflow, /youtube_status=\$\?[\s\S]*printf 'youtube=%s\\n'/u, "workflow must record YouTube failure without stopping article promotion");
   assert.equal(
     (workflow.match(/sort -zu \| node scripts\/news-generated-paths\.ts --stdin0/gu) || []).length,
     2,
@@ -906,6 +913,7 @@ async function testGeneratedPathReleaseGates() {
     "data/news/documents.jsonl",
     "data/news/image-proxy-allowlist.json",
     "data/news/search-index.json",
+    "data/news/youtube-videos.json",
     "data/news/details/0a.json",
     `data/news/assets/kcna/${"a".repeat(64)}.jpg`,
     "data/news/categories/kcna/international/page-12.json",

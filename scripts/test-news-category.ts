@@ -16,15 +16,19 @@ assert.match(html, /id="newsCategorySearchInput"/u);
 assert.match(html, /<form class="news-search" action="\/news\/search"/u);
 assert.match(html, /name="q"[^>]*data-news-global-search/u);
 assert.match(html, /\/news\/header\.js\?v=news-header-20260823-2/u);
+assert.match(html, /\/news\/news\.css\?v=news-20260823-6/u);
 assert.match(html, /https:\/\/discord\.gg\/QT3T3JpeDD/u);
 assert.match(html, /https:\/\/arca\.live\/b\/dprk\//u);
+assert.match(html, /<a href="\/search">검색<\/a>/u);
+assert.equal([...html.matchAll(/class="news-channel-content" aria-hidden="true"/gu)].length, 2);
+assert.equal([...html.matchAll(/class="news-channel-arrow"/gu)].length, 2);
 assert.match(html, /class="news-navigation-disabled" aria-disabled="true">사전/u);
 assert.match(html, /class="material-symbols-rounded news-menu-toggle-icon"[^>]*>drag_handle<\/span>/u);
 assert.match(html, /id="newsCategoryPagination"[^>]*aria-label="카테고리 페이지"/u);
 assert.match(html, /\/news\/category\.css/u);
 assert.match(html, /\/news\/category\.js/u);
-assert.match(html, /news-category-20260823-2/u);
-assert.match(html, /category\.css\?v=news-category-20260823-2/u);
+assert.match(html, /category\.js\?v=news-category-20260823-3/u);
+assert.match(html, /category\.css\?v=news-category-20260823-3/u);
 
 assert.match(script, /const CATEGORY_ROOT_URL = "\/data\/news\/categories"/u);
 assert.doesNotMatch(script, /\/data\/news-feed\.json/u, "category pages must not download the homepage preview feed");
@@ -128,6 +132,11 @@ assert.match(
   styles,
   /\.news-category-row-title\s*\{[^}]*white-space:\s*pre-line/su,
   "category titles must render canonical source line breaks",
+);
+assert.match(
+  styles,
+  /\.news-category-row-title\s*\{[^}]*-webkit-line-clamp:\s*2;[^}]*line-clamp:\s*2;[^}]*max-height:\s*2\.9em;/su,
+  "category titles must never occupy more than two lines",
 );
 assert.match(styles, /\.news-category-thumbnail\s*\{[^}]*width:\s*228px[^}]*height:\s*128px[^}]*border-radius:\s*12px/su);
 assert.match(styles, /\.news-category-pagination\s*\{[^}]*min-height:\s*36px[^}]*gap:\s*6px[^}]*margin-top:\s*54px/su);

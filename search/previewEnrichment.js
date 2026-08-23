@@ -1,4 +1,4 @@
-import { createDocumentPresentation } from "./documentSearch.js?v=search-20260803-6";
+import { createDocumentPresentation } from "./documentSearch.js?v=search-20260823-7";
 
 const PREVIEW_CORPUS_INDEXES = new WeakMap();
 

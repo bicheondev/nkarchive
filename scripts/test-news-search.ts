@@ -8,25 +8,40 @@ const rootDir = process.cwd();
 const html = fs.readFileSync(path.join(rootDir, "news/search/index.html"), "utf8");
 const script = fs.readFileSync(path.join(rootDir, "news/search.js"), "utf8");
 const styles = fs.readFileSync(path.join(rootDir, "news/category.css"), "utf8");
+const searchStyles = fs.readFileSync(path.join(rootDir, "news/search.css"), "utf8");
 const indexText = fs.readFileSync(path.join(rootDir, "data/news/search-index.json"), "utf8");
 const searchIndex = JSON.parse(indexText);
+const youtubeIndexText = fs.readFileSync(path.join(rootDir, "data/news/youtube-videos.json"), "utf8");
+const youtubeIndex = JSON.parse(youtubeIndexText);
 const feed = JSON.parse(fs.readFileSync(path.join(rootDir, "data/news-feed.json"), "utf8"));
 
 assert.match(html, /<form class="news-search"[^>]*action="\/news\/search"[^>]*role="search"/u);
 assert.match(html, /id="newsSearchInput"[^>]*name="q"[^>]*data-news-global-search/u);
+assert.match(html, /id="newsSearchSource"[^>]*name="source"[^>]*type="hidden"[^>]*value="kcna"/u);
 assert.match(html, /id="newsSearchResults"[^>]*role="list"/u);
 assert.match(html, /id="newsSearchPagination"[^>]*aria-label="검색 결과 페이지"/u);
-assert.match(html, /\/news\/category\.css\?v=news-category-20260823-2/u);
-assert.match(html, /\/news\/news\.css\?v=news-20260823-4/u);
+assert.match(html, /\/news\/category\.css\?v=news-category-20260823-3/u);
+assert.match(html, /\/news\/news\.css\?v=news-20260823-6/u);
 assert.match(html, /\/news\/header\.js\?v=news-header-20260823-2/u);
-assert.match(html, /\/news\/search\.js\?v=news-search-20260823-1/u);
+assert.match(html, /\/news\/search\.css\?v=news-search-20260823-1/u);
+assert.match(html, /\/news\/search\.js\?v=news-search-20260823-3/u);
 assert.match(html, /class="news-navigation-actions"/u);
 assert.match(html, /class="news-navigation-disabled" aria-disabled="true"/u);
 assert.match(html, /https:\/\/discord\.gg\/QT3T3JpeDD/u);
 assert.match(html, /https:\/\/arca\.live\/b\/dprk\//u);
+assert.match(html, /<a href="\/search">검색<\/a>/u);
+assert.equal([...html.matchAll(/class="news-channel-content" aria-hidden="true"/gu)].length, 2);
+assert.equal([...html.matchAll(/class="news-channel-arrow"/gu)].length, 2);
 assert.match(html, /class="material-symbols-rounded news-menu-toggle-icon"[^>]*>drag_handle<\/span>/u);
-assert.doesNotMatch(html, /<h1\b|news-category-title|news-source-switcher|newsSourceKcna|newsSourceRodong/u,
-  "the search result view must omit the visible category heading and source switcher");
+assert.doesNotMatch(html, /<h1\b|news-category-title/u,
+  "the search result view must omit the visible category heading");
+assert.match(html, /class="news-source-switcher news-search-source-switcher"[^>]*role="tablist"[^>]*aria-label="검색 매체"/u);
+for (const [sourceId, label] of [["kcna", "조선중앙통신"], ["rodong-sinmun", "로동신문"], ["youtube", "YouTube"]]) {
+  assert.match(html, new RegExp(`data-news-search-source="${sourceId}"[^>]*>${label}<\\/a>`, "u"));
+}
+assert.equal([...html.matchAll(/data-news-search-source=/gu)].length, 3);
+assert.match(searchStyles, /\.news-search-source-switcher\s*\{[^}]*width:\s*292px;/su,
+  "the three-source search selector must reuse the exact shared floating pill width");
 
 assert.match(styles, /\.news-category-view\s*\{[^}]*width:\s*800px/su,
   "category and search result views must use the exact 800px desktop width");
@@ -35,8 +50,14 @@ assert.match(styles, /\.news-search-results-list\s*\{[^}]*margin-top:\s*0/su,
 assert.match(styles, /\.news-category-row\s*\{[^}]*height:\s*128px/su);
 assert.match(styles, /\.news-category-list\s*\{[^}]*gap:\s*64px/su);
 assert.match(styles, /\.news-category-thumbnail\s*\{[^}]*width:\s*228px[^}]*height:\s*128px/su);
+assert.match(
+  styles,
+  /\.news-category-row-title\s*\{[^}]*-webkit-line-clamp:\s*2;[^}]*line-clamp:\s*2;[^}]*max-height:\s*2\.9em;/su,
+  "search result titles must never occupy more than two lines",
+);
 
 assert.match(script, /const SEARCH_INDEX_URL = "\/data\/news\/search-index\.json"/u);
+assert.match(script, /const YOUTUBE_INDEX_URL = "\/data\/news\/youtube-videos\.json"/u);
 assert.match(script, /const PAGE_SIZE = 5/u);
 assert.match(script, /const SEARCH_DEBOUNCE_MS = 150/u);
 assert.match(script, /history\.replaceState/u);
@@ -44,6 +65,13 @@ assert.match(script, /history\.pushState/u);
 assert.match(script, /window\.addEventListener\("popstate", syncFromLocation\)/u);
 assert.match(script, /tokens\.every\(\(token\) => entry\.searchText\.includes\(token\)\)/u,
   "all normalized query tokens must match one article");
+assert.match(script, /searchText:\s*normalizeSearchText\(article\.title\)/u,
+  "full News search must index article titles only");
+assert.match(script, /filterArticlesBySource\(articles, sourceId\)/u,
+  "official News search must be restricted to the selected source");
+assert.match(script, /payload\.videos\.map\(prepareYoutubeVideo\)/u,
+  "YouTube search must index every video from the dedicated full-channel artifact");
+assert.match(script, /data-news-search-source/u);
 assert.match(script, /articleTitle\.textContent =/u);
 assert.doesNotMatch(script, /innerHTML/u, "search results must never render source text as HTML");
 assert.doesNotMatch(script, /news-menu-open/u,
@@ -55,13 +83,19 @@ const harnessScript = script.replace(
   "  bindSearchControls();",
   `  globalThis.__newsSearchTest = {
     buildSearchUrl,
+    filterArticlesBySource,
     findMatchingArticles,
     getPaginationRange,
     isAllowedOfficialNewsImageUrl,
+    isAllowedYoutubeThumbnailUrl,
+    isAllowedYoutubeVideoUrl,
     isValidSearchIndex,
+    isValidYoutubeIndex,
     normalizePageNumber,
     normalizeSearchText,
+    normalizeSourceId,
     prepareSearchArticle,
+    prepareYoutubeVideo,
     resolveCachedImageSource,
     resolveNewsImageProxySource,
     validateQuery,
@@ -72,7 +106,10 @@ assert.notEqual(harnessScript, script, "search test harness injection failed");
 
 const placeholder = {};
 const sandbox: Record<string, unknown> = {
-  document: { querySelector: () => placeholder },
+  document: {
+    querySelector: () => placeholder,
+    querySelectorAll: () => [placeholder, placeholder, placeholder],
+  },
   TextEncoder,
   URL,
   URLSearchParams,
@@ -80,14 +117,20 @@ const sandbox: Record<string, unknown> = {
 };
 vm.runInNewContext(harnessScript, sandbox, { filename: "news/search.js" });
 const searchTest = sandbox.__newsSearchTest as {
-  buildSearchUrl: (query: string, page: number) => string;
+  buildSearchUrl: (query: string, page: number, sourceId?: string) => string;
+  filterArticlesBySource: (articles: Array<{ article: any; searchText: string }>, sourceId: string) => Array<{ article: any }>;
   findMatchingArticles: (articles: Array<{ article: unknown; searchText: string }>, tokens: string[]) => Array<{ article: any }>;
   getPaginationRange: (page: number, totalPages: number) => number[];
   isAllowedOfficialNewsImageUrl: (value: string) => boolean;
+  isAllowedYoutubeThumbnailUrl: (value: string, expectedVideoId?: string) => boolean;
+  isAllowedYoutubeVideoUrl: (value: string, expectedVideoId?: string) => boolean;
   isValidSearchIndex: (value: unknown) => boolean;
+  isValidYoutubeIndex: (value: unknown) => boolean;
   normalizePageNumber: (value: unknown) => number;
   normalizeSearchText: (value: unknown) => string;
+  normalizeSourceId: (value: unknown) => string;
   prepareSearchArticle: (article: Record<string, unknown>) => { article: Record<string, unknown>; searchText: string };
+  prepareYoutubeVideo: (video: Record<string, unknown>) => { article: Record<string, unknown>; searchText: string };
   resolveCachedImageSource: (value: string, sourceId: string) => string;
   resolveNewsImageProxySource: (value: string, referer: string) => string;
   validateQuery: (value: unknown) => { valid: boolean; query: string; tokens: string[]; message: string };
@@ -114,6 +157,18 @@ assert.equal(searchTest.isValidSearchIndex({
   ...searchIndex,
   articles: [...searchIndex.articles.slice(0, -1), searchIndex.articles[0]],
 }), false, "duplicate article ids must invalidate the browser index");
+assert.equal(youtubeIndexText, `${JSON.stringify(youtubeIndex)}\n`, "the full YouTube search artifact must use compact deterministic JSON");
+assert.equal(searchTest.isValidYoutubeIndex(youtubeIndex), true);
+assert.equal(youtubeIndex.totalItems, youtubeIndex.videos.length);
+assert.equal(youtubeIndex.channelCounts["메아리"] + youtubeIndex.channelCounts.supersuhui, youtubeIndex.totalItems);
+assert.equal(youtubeIndex.channelCounts["메아리"] > 0, true);
+assert.equal(youtubeIndex.channelCounts.supersuhui > 0, true);
+const preparedYoutubeIndex = youtubeIndex.videos.map(searchTest.prepareYoutubeVideo);
+assert.equal(preparedYoutubeIndex.length, youtubeIndex.totalItems,
+  "every published video from both channels must be searchable, without a feature subset or cap");
+const firstYoutubeTitleQuery = searchTest.validateQuery(youtubeIndex.videos[0].title);
+assert.equal(searchTest.findMatchingArticles(preparedYoutubeIndex, firstYoutubeTitleQuery.tokens)
+  .some((entry) => entry.article.id === youtubeIndex.videos[0].id), true);
 
 const detailIds = new Set<string>();
 for (const fileName of fs.readdirSync(path.join(rootDir, "data/news/details")).filter((name) => name.endsWith(".json"))) {
@@ -128,6 +183,15 @@ assert.deepEqual(
 );
 
 const preparedIndex = searchIndex.articles.map(searchTest.prepareSearchArticle);
+for (const sourceId of ["kcna", "rodong-sinmun"]) {
+  const selectedEntries = searchTest.filterArticlesBySource(preparedIndex, sourceId);
+  assert.equal(selectedEntries.length, feed.sources[sourceId].totalItems);
+  assert.equal(selectedEntries.every((entry) => entry.article.sourceId === sourceId), true,
+    `${sourceId} search must never leak results from another medium`);
+}
+assert.equal(searchTest.normalizeSourceId("youtube"), "youtube");
+assert.equal(searchTest.normalizeSourceId("rodong-sinmun"), "rodong-sinmun");
+assert.equal(searchTest.normalizeSourceId("invalid"), "kcna");
 const archivedOnlyId = "news:kcna:6317a9a751ba5e98c39aacef";
 assert.equal(
   Object.values(feed.sources).some((source: any) => source.articles.some((article: any) => article.id === archivedOnlyId)),
@@ -154,10 +218,60 @@ const crossFieldArticle = searchTest.prepareSearchArticle({
   cachedThumbnailUrl: "",
   detailUrl: "/news/document?id=news%3Arodong-sinmun%3Atest-search",
 });
-for (const query of ["과학 교육", "로동신문 2025년", "2025.03.08."]) {
+for (const query of ["과학기술 힘", "과학기술의 힘"]) {
   const validated = searchTest.validateQuery(query);
-  assert.equal(searchTest.findMatchingArticles([crossFieldArticle], validated.tokens).length, 1, `${query} token-AND search`);
+  assert.equal(searchTest.findMatchingArticles([crossFieldArticle], validated.tokens).length, 1, `${query} title-only token-AND search`);
 }
+for (const query of ["교육사업", "로동신문", "2025", "과학 교육"]) {
+  const validated = searchTest.validateQuery(query);
+  assert.equal(searchTest.findMatchingArticles([crossFieldArticle], validated.tokens).length, 0,
+    `${query} must not match snippet, source, date, or a cross-field combination`);
+}
+
+const youtubeVideoId = "UPUkZp6_EXU";
+const youtubeVideo = {
+  id: `youtube:${youtubeVideoId}`,
+  videoId: youtubeVideoId,
+  title: "원산갈마해안관광지구 준공식",
+  channelName: "메아리",
+  publishedAt: "2026-08-22T12:00:00.000Z",
+  date: "2026-08-22",
+  url: `https://www.youtube.com/watch?v=${youtubeVideoId}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${youtubeVideoId}/hqdefault.jpg`,
+};
+const supersuhuiVideoId = "43cor_kHqow";
+const supersuhuiVideo = {
+  id: `youtube:${supersuhuiVideoId}`,
+  videoId: supersuhuiVideoId,
+  title: "중앙텔레비죤 20시보도",
+  channelName: "supersuhui",
+  publishedAt: "2026-08-21T12:00:00.000Z",
+  date: "2026-08-21",
+  url: `https://www.youtube.com/watch?v=${supersuhuiVideoId}`,
+  thumbnailUrl: `https://i1.ytimg.com/vi_webp/${supersuhuiVideoId}/maxresdefault.webp`,
+};
+const youtubePayload = {
+  schemaVersion: 1,
+  generatedAt: "2026-08-23T00:00:00.000Z",
+  version: "fixture-youtube-v1",
+  totalItems: 2,
+  channelCounts: { 메아리: 1, supersuhui: 1 },
+  videos: [youtubeVideo, supersuhuiVideo],
+};
+assert.equal(searchTest.isValidYoutubeIndex(youtubePayload), true);
+assert.equal(searchTest.isValidYoutubeIndex({ ...youtubePayload, totalItems: 1 }), false);
+assert.equal(searchTest.isValidYoutubeIndex({ ...youtubePayload, videos: [...youtubePayload.videos].reverse() }), false,
+  "the full YouTube artifact must remain newest-first");
+assert.equal(searchTest.isAllowedYoutubeVideoUrl(youtubeVideo.url, youtubeVideoId), true);
+assert.equal(searchTest.isAllowedYoutubeVideoUrl("https://attacker.example/watch?v=UPUkZp6_EXU"), false);
+assert.equal(searchTest.isAllowedYoutubeThumbnailUrl(youtubeVideo.thumbnailUrl, youtubeVideoId), true);
+assert.equal(searchTest.isAllowedYoutubeThumbnailUrl("https://attacker.example/vi/UPUkZp6_EXU/hqdefault.jpg"), false);
+const preparedYoutube = youtubePayload.videos.map(searchTest.prepareYoutubeVideo);
+assert.equal(searchTest.findMatchingArticles(preparedYoutube, searchTest.validateQuery("원산갈마").tokens).length, 1);
+assert.equal(searchTest.findMatchingArticles(preparedYoutube, searchTest.validateQuery("메아리").tokens).length, 0,
+  "YouTube search must index titles only, not channel names");
+assert.equal(preparedYoutube.every((entry) => entry.article.sourceId === "youtube"), true);
+assert.equal(preparedYoutube[0].article.detailUrl, youtubeVideo.url);
 assert.equal(
   searchTest.findMatchingArticles([crossFieldArticle], searchTest.validateQuery("과학 불일치").tokens).length,
   0,
@@ -166,8 +280,9 @@ assert.equal(searchTest.normalizeSearchText("  ＫＣＮＡ\n기사  "), "kcna �
 assert.equal(searchTest.validateQuery("정상\u202e검색").valid, false);
 assert.equal(searchTest.validateQuery("가".repeat(101)).valid, false);
 
-assert.equal(searchTest.buildSearchUrl("김정은 동지", 2), "/news/search?q=%EA%B9%80%EC%A0%95%EC%9D%80+%EB%8F%99%EC%A7%80&page=2");
-assert.equal(searchTest.buildSearchUrl("", 9), "/news/search");
+assert.equal(searchTest.buildSearchUrl("김정은 동지", 2, "rodong-sinmun"), "/news/search?source=rodong-sinmun&q=%EA%B9%80%EC%A0%95%EC%9D%80+%EB%8F%99%EC%A7%80&page=2");
+assert.equal(searchTest.buildSearchUrl("", 9, "youtube"), "/news/search?source=youtube");
+assert.equal(searchTest.buildSearchUrl("뉴스", 1, "invalid"), "/news/search?source=kcna&q=%EB%89%B4%EC%8A%A4");
 assert.deepEqual(Array.from(searchTest.getPaginationRange(1, 8)), [1, 2, 3, 4, 5]);
 assert.deepEqual(Array.from(searchTest.getPaginationRange(5, 8)), [3, 4, 5, 6, 7]);
 assert.deepEqual(Array.from(searchTest.getPaginationRange(8, 8)), [4, 5, 6, 7, 8]);

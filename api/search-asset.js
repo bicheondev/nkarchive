@@ -1,5 +1,5 @@
 import { ProxyAgent } from "undici";
-import { SEARCH_SOURCES } from "../search/sourceConfig.js?v=search-20260803-6";
+import { SEARCH_SOURCES } from "../search/sourceConfig.js?v=search-20260823-7";
 
 const ALLOWED_ASSET_HOSTS = new Set([
   ...createConfiguredAssetHosts(),

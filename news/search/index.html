@@ -7,8 +7,9 @@
     <meta name="description" content="조선중앙통신과 로동신문에 보관된 전체 기사를 검색합니다." />
     <base href="/" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="stylesheet" href="/news/news.css?v=news-20260823-4" />
-    <link rel="stylesheet" href="/news/category.css?v=news-category-20260823-2" />
+    <link rel="stylesheet" href="/news/news.css?v=news-20260823-6" />
+    <link rel="stylesheet" href="/news/category.css?v=news-category-20260823-3" />
+    <link rel="stylesheet" href="/news/search.css?v=news-search-20260823-1" />
   </head>
   <body class="news-page news-category-page news-search-results-page">
     <header class="news-navigation">
@@ -23,19 +24,23 @@
           <span class="news-navigation-disabled" aria-disabled="true">문헌</span>
           <span class="news-navigation-disabled" aria-disabled="true">스토어</span>
           <a href="/live">방송</a>
+          <a href="/search">검색</a>
         </nav>
         <div class="news-navigation-actions">
           <form class="news-search" id="newsSearchForm" action="/news/search" method="get" role="search" aria-label="전체 뉴스 기사 검색">
             <img src="/assets/news-search-list.svg?v=news-20260822-1" alt="" aria-hidden="true" />
             <input id="newsSearchInput" name="q" type="search" maxlength="100" autocomplete="off" aria-label="전체 뉴스 기사 검색" data-news-global-search />
+            <input id="newsSearchSource" name="source" type="hidden" value="kcna" />
             <span class="news-search-shortcut" aria-hidden="true"><span>⌘</span><span>K</span></span>
           </form>
           <nav class="news-channel-links" aria-label="커뮤니티 바로가기">
             <a class="news-channel-link news-channel-discord" href="https://discord.gg/QT3T3JpeDD" target="_blank" rel="noopener noreferrer" aria-label="북한아카이브 디스코드 바로가기">
               <img src="/assets/discord-channel.svg?v=news-20260823-1" alt="" aria-hidden="true" />
+              <span class="news-channel-content" aria-hidden="true"><span class="news-channel-text">북한아카이브 디스코드 바로가기</span><img class="news-channel-arrow" src="/assets/arrow-forward-ios.svg?v=news-20260823-1" alt="" /></span>
             </a>
             <a class="news-channel-link news-channel-arca" href="https://arca.live/b/dprk/" target="_blank" rel="noopener noreferrer" aria-label="아카라이브 북한 채널 바로가기">
               <img src="/assets/arca-channel.svg?v=news-20260823-1" alt="" aria-hidden="true" />
+              <span class="news-channel-content" aria-hidden="true"><span class="news-channel-text">아카라이브 북한 채널 바로가기</span><img class="news-channel-arrow" src="/assets/arrow-forward-ios.svg?v=news-20260823-1" alt="" /></span>
             </a>
           </nav>
         </div>
@@ -53,6 +58,12 @@
         </div>
         <nav class="news-category-pagination" id="newsSearchPagination" aria-label="검색 결과 페이지" hidden></nav>
       </section>
+
+      <nav class="news-source-switcher news-search-source-switcher" role="tablist" aria-label="검색 매체">
+        <a class="news-source-tab active" id="newsSearchSourceKcna" href="/news/search?source=kcna" role="tab" aria-controls="newsSearchResults" aria-selected="true" aria-current="page" data-news-source="kcna" data-news-search-source="kcna">조선중앙통신</a>
+        <a class="news-source-tab" id="newsSearchSourceRodong" href="/news/search?source=rodong-sinmun" role="tab" aria-controls="newsSearchResults" aria-selected="false" data-news-source="rodong-sinmun" data-news-search-source="rodong-sinmun">로동신문</a>
+        <a class="news-source-tab" id="newsSearchSourceYoutube" href="/news/search?source=youtube" role="tab" aria-controls="newsSearchResults" aria-selected="false" data-news-source="youtube" data-news-search-source="youtube">YouTube</a>
+      </nav>
     </main>
 
     <footer class="news-footer">
@@ -61,6 +72,6 @@
     </footer>
 
     <script src="/news/header.js?v=news-header-20260823-2" defer></script>
-    <script src="/news/search.js?v=news-search-20260823-1" defer></script>
+    <script src="/news/search.js?v=news-search-20260823-3" defer></script>
   </body>
 </html>

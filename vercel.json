@@ -72,6 +72,14 @@
       "destination": "/news/search/index.html"
     },
     {
+      "source": "/news/youtube",
+      "destination": "/news/youtube/index.html"
+    },
+    {
+      "source": "/news/youtube/",
+      "destination": "/news/youtube/index.html"
+    },
+    {
       "source": "/news/document",
       "destination": "/api/news-document"
     },
@@ -113,6 +121,15 @@
     },
     {
       "source": "/data/news/search-index.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, s-maxage=60, stale-while-revalidate=60"
+        }
+      ]
+    },
+    {
+      "source": "/data/news/youtube-videos.json",
       "headers": [
         {
           "key": "Cache-Control",

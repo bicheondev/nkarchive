@@ -79,7 +79,9 @@
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  max-height: 2.9em;
   color: var(--news-gray-700);
   font-size: 20px;
   font-weight: 700;

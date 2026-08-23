@@ -1,4 +1,4 @@
-import { PUBLIC_DPRK_SITE_CATALOG } from "./dprkPublicSourceCatalog.js?v=search-20260803-6";
+import { PUBLIC_DPRK_SITE_CATALOG } from "./dprkPublicSourceCatalog.js?v=search-20260823-7";
 
 const OFFICIAL_SITE_CRAWL_BUDGET = {
   limitPerSource: 160,

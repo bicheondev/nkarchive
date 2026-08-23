@@ -1,5 +1,5 @@
-import { createSearchToken, getSearchScore, isStandaloneConsonantOnlySearch, normalizeQuery } from "./normalizeQuery.js?v=search-20260803-6";
-import { getKnownEntitySuggestionEntries } from "./knownEntities.js?v=search-20260803-6";
+import { createSearchToken, getSearchScore, isStandaloneConsonantOnlySearch, normalizeQuery } from "./normalizeQuery.js?v=search-20260823-7";
+import { getKnownEntitySuggestionEntries } from "./knownEntities.js?v=search-20260823-7";
 import {
   DATE_END_OPERATOR_NAMES,
   DATE_RANGE_OPERATOR_NAMES,
@@ -8,7 +8,7 @@ import {
   MEDIA_OPERATOR_NAMES,
   SITE_OPERATOR_NAMES,
   SOURCE_OPERATOR_NAMES,
-} from "./queryOperators.js?v=search-20260803-6";
+} from "./queryOperators.js?v=search-20260823-7";
 
 const SOURCE_TYPE_LABELS = {
   official_site: "공식 자료원",

@@ -1,6 +1,7 @@
 (function initializeNewsIndex() {
   const board = document.querySelector("#newsBoard");
   const sourceTabs = [...document.querySelectorAll("[data-news-source]")];
+  const searchSource = document.querySelector("#newsSearchSource");
   if (!board || !sourceTabs.length) return;
 
   const FEED_URL = "/data/news-feed.json";
@@ -116,7 +117,7 @@
   };
 
   let feed = null;
-  let activeSourceId = "kcna";
+  let activeSourceId = getInitialSourceId();
 
   bindSourceTabs();
   updateTabs();
@@ -147,12 +148,17 @@
   function selectSource(sourceId, { focus = false } = {}) {
     if (!SOURCE_IDS.has(sourceId)) return;
     activeSourceId = sourceId;
+    const nextUrl = new URL(window.location.href);
+    if (sourceId === "kcna") nextUrl.searchParams.delete("source");
+    else nextUrl.searchParams.set("source", sourceId);
+    window.history.replaceState(null, "", `${nextUrl.pathname}${nextUrl.search}${nextUrl.hash}`);
     updateTabs();
     if (feed) renderActiveSource();
     if (focus) getActiveTab()?.focus();
   }
 
   function updateTabs() {
+    if (searchSource) searchSource.value = activeSourceId;
     for (const tab of sourceTabs) {
       const isActive = tab.dataset.newsSource === activeSourceId;
       tab.classList.toggle("active", isActive);
@@ -160,6 +166,11 @@
       tab.tabIndex = isActive ? 0 : -1;
       if (isActive) board.setAttribute("aria-labelledby", tab.id);
     }
+  }
+
+  function getInitialSourceId() {
+    const sourceId = new URLSearchParams(window.location.search).get("source") || "kcna";
+    return SOURCE_IDS.has(sourceId) ? sourceId : "kcna";
   }
 
   function renderActiveSource() {

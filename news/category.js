@@ -2,6 +2,7 @@
   const title = document.querySelector("#newsCategoryTitle");
   const list = document.querySelector("#newsCategoryList");
   const pagination = document.querySelector("#newsCategoryPagination");
+  const searchSource = document.querySelector("#newsCategorySearchSource");
   if (!title || !list || !pagination) return;
 
   const CATEGORY_ROOT_URL = "/data/news/categories";
@@ -49,6 +50,7 @@
   }
 
   title.textContent = context.sectionTitle;
+  if (searchSource) searchSource.value = context.sourceId;
   document.title = `${context.sectionTitle} | 북한뉴스아카이브`;
   list.dataset.source = context.sourceId;
   list.dataset.section = context.sectionId;

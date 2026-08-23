@@ -1,0 +1,13 @@
+.news-search-source-switcher {
+  width: 292px;
+}
+
+.news-search-source-switcher .news-source-tab[data-news-source="youtube"] {
+  width: 80px;
+  min-width: 80px;
+}
+
+.news-search-source-switcher .news-source-tab:focus-visible {
+  outline: 2px solid var(--news-gray-500);
+  outline-offset: 2px;
+}

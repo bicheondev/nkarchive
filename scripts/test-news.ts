@@ -147,9 +147,13 @@ for (const article of Object.values(detailArticles)) {
 }
 
 const headerJs = await read("news/header.js");
-const standaloneSources = [indexHtml, documentHtml, headerJs, newsJs, categoryJs, detailJs, newsImageApi];
-for (const source of standaloneSources) {
-  assert.equal(/(?:href|src)=["']\/search|data\/search|api\/search|meilisearch/iu.test(source), false, "news runtime must not depend on Search");
+const standaloneRuntimeSources = [headerJs, newsJs, categoryJs, detailJs, newsImageApi];
+for (const source of standaloneRuntimeSources) {
+  assert.equal(/data\/search|api\/search|meilisearch/iu.test(source), false, "news runtime must not depend on Search");
+}
+for (const shellHtml of [indexHtml, documentHtml]) {
+  assert.equal(/(?:data\/search|api\/search|meilisearch)/iu.test(shellHtml), false,
+    "News shells may link to the site search without depending on its runtime");
 }
 assert.match(indexHtml, /<form class="news-search" action="\/news\/search"/u,
   "the homepage search must submit to the complete News archive");
@@ -160,9 +164,48 @@ assert.match(indexHtml, /class="material-symbols-rounded news-menu-toggle-icon"[
 assert.doesNotMatch(newsJs, /applyNewsFilter|normalizeFilterText/u,
   "the homepage must not pretend its preview-only DOM is the complete search corpus");
 assert.equal(newsJs.includes("localStorage"), false, "KCNA must be the deterministic default source");
-assert.match(newsJs, /let activeSourceId = "kcna"/u);
-assert.match(indexHtml, /\/news\/news\.css\?v=news-20260823-4/u, "the homepage stylesheet must use the current cache key");
-assert.match(indexHtml, /\/news\/news\.js\?v=news-20260823-3/u, "the homepage script must use the current cache key");
+assert.match(newsJs, /let activeSourceId = getInitialSourceId\(\)/u);
+assert.match(newsJs, /new URLSearchParams\(window\.location\.search\)\.get\("source"\) \|\| "kcna"/u,
+  "the homepage must default to KCNA while accepting a stable Rodong source URL");
+assert.match(indexHtml, /id="newsSearchSource" name="source" type="hidden" value="kcna"/u,
+  "homepage searches must carry the selected official source");
+assert.match(indexHtml, /href="\/news\/youtube"[^>]*data-news-media="youtube"[^>]*>YouTube<\/a>/u,
+  "the shared floating selector must expose the complete YouTube catalog");
+assert.match(indexHtml, /\/news\/news\.css\?v=news-20260823-6/u, "the homepage stylesheet must use the current cache key");
+assert.match(indexHtml, /\/news\/news\.js\?v=news-20260823-4/u, "the homepage script must use the current cache key");
+for (const shellHtml of [indexHtml, documentHtml]) {
+  assert.match(shellHtml, /<a href="\/search">검색<\/a>/u,
+    "every News shell must expose the enabled site-search destination");
+  assert.equal(
+    [...shellHtml.matchAll(/class="news-channel-content" aria-hidden="true"/gu)].length,
+    2,
+    "every News shell must include expandable labels for both community buttons",
+  );
+  assert.equal(
+    [...shellHtml.matchAll(/class="news-channel-arrow" src="\/assets\/arrow-forward-ios\.svg\?v=news-20260823-1"/gu)].length,
+    2,
+    "every expanded community button must end with the shared chevron",
+  );
+}
+assert.match(documentHtml, /\/news\/news\.css\?v=news-20260823-6/u,
+  "article shells must use the current shared News stylesheet");
+assert.match(newsCss, /\.news-channel-link\s*\{[^}]*width:\s*28px;[^}]*height:\s*28px;/su,
+  "community buttons must remain icon-only at rest");
+assert.match(newsCss, /\.news-channel-link:hover,\s*\.news-channel-link:focus-visible\s*\{[^}]*width:\s*var\(--news-channel-expanded-width\);[^}]*gap:\s*6px;/su,
+  "desktop hover and keyboard focus must reveal the community label instantly");
+assert.match(newsCss, /\.news-channel-link:hover \.news-channel-content,\s*\.news-channel-link:focus-visible \.news-channel-content\s*\{[^}]*width:\s*calc\(var\(--news-channel-expanded-width\) - 34px\);[^}]*opacity:\s*1;/su);
+const newsChannelLinkRule = newsCss.match(/\.news-channel-link\s*\{([^}]*)\}/u)?.[1] || "";
+const newsChannelContentRule = newsCss.match(/\.news-channel-content\s*\{([^}]*)\}/u)?.[1] || "";
+assert.doesNotMatch(newsChannelLinkRule, /transition|animation/u,
+  "community buttons must expand without animation");
+assert.doesNotMatch(newsChannelContentRule, /transition|animation/u,
+  "community labels must appear without animation");
+assert.match(newsCss, /\.news-navigation-links\s*\{[^}]*left:\s*50%;[^}]*width:\s*max-content;[^}]*transform:\s*translateX\(-50%\);/su,
+  "the complete nine-item navigation must remain centered at every desktop width");
+assert.match(newsCss, /@media \(max-width: 1500px\)\s*\{[\s\S]*?\.news-navigation-inner\s*\{[^}]*width:\s*calc\(100vw - 80px\);/u,
+  "desktop News headers must preserve the Font header's 40px side margins");
+assert.match(newsCss, /@media \(max-width: 1100px\)[\s\S]*?\.news-navigation-inner\s*\{[^}]*width:\s*calc\(100vw - 40px\);/u,
+  "compact News headers must preserve 20px side margins");
 assert.match(indexHtml, /id="newsDisclaimer"[^>]*role="alertdialog"[^>]*aria-modal="true"[^>]*aria-labelledby="newsDisclaimerTitle"[^>]*aria-describedby="newsDisclaimerDescription"[^>]*hidden/u,
   "the News warning must expose the same modal accessibility contract as Live");
 assert.match(indexHtml, /<h2 id="newsDisclaimerTitle">경고 사항<\/h2>/u);
@@ -291,6 +334,11 @@ assert.match(
   newsCss,
   /\.news-article-title\s*\{[^}]*white-space:\s*pre-line/su,
   "homepage titles must render source-authored line breaks",
+);
+assert.match(
+  newsCss,
+  /\.news-article-title\s*\{[^}]*-webkit-line-clamp:\s*2;/su,
+  "homepage titles must never occupy more than two lines",
 );
 assert.doesNotMatch(
   newsCss,

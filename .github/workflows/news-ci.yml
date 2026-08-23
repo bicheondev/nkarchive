@@ -19,10 +19,14 @@ on:
       - "package.json"
       - "package-lock.json"
       - "scripts/generate-news-feed.ts"
+      - "scripts/import-youtube-metadata.ts"
       - "scripts/news-*.ts"
       - "scripts/refresh-news-mirror.ts"
+      - "scripts/refresh-news-youtube.ts"
       - "scripts/test-news*.ts"
       - "scripts/verify-vercel-bundle.ts"
+      - "search/dprkPublicSourceCatalog.js"
+      - "search/sourceConfig.js"
       - "vercel.json"
   push:
     branches:
@@ -45,10 +49,14 @@ on:
       - "package.json"
       - "package-lock.json"
       - "scripts/generate-news-feed.ts"
+      - "scripts/import-youtube-metadata.ts"
       - "scripts/news-*.ts"
       - "scripts/refresh-news-mirror.ts"
+      - "scripts/refresh-news-youtube.ts"
       - "scripts/test-news*.ts"
       - "scripts/verify-vercel-bundle.ts"
+      - "search/dprkPublicSourceCatalog.js"
+      - "search/sourceConfig.js"
       - "vercel.json"
 
 permissions:

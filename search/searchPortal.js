@@ -1,12 +1,12 @@
-import { createSearchBar } from "../components/SearchBar.js?v=search-20260803-6";
-import { createSearchTabId, createSearchTabs } from "../components/SearchTabs.js?v=search-20260803-6";
-import { createSourceResultCard } from "../components/SourceResultCard.js?v=search-20260803-6";
-import { connectSearchSuggestions, createSearchSuggestions, updateSearchSuggestions } from "../components/SearchSuggestions.js?v=search-20260803-6";
-import { searchProvider } from "./provider.js?v=search-20260803-6";
-import { hasSearchQuery, RESULT_TABS } from "./resultFilters.js?v=search-20260803-6";
-import { hasStructuredSearchOperators, parseSearchQueryOperators } from "./queryOperators.js?v=search-20260803-6";
-import { SEARCH_LANGUAGES } from "./schemas.js?v=search-20260803-6";
-import { SOURCE_BY_ID } from "./sourceConfig.js?v=search-20260803-6";
+import { createSearchBar } from "../components/SearchBar.js?v=search-20260823-7";
+import { createSearchTabId, createSearchTabs } from "../components/SearchTabs.js?v=search-20260823-7";
+import { createSourceResultCard } from "../components/SourceResultCard.js?v=search-20260823-7";
+import { connectSearchSuggestions, createSearchSuggestions, updateSearchSuggestions } from "../components/SearchSuggestions.js?v=search-20260823-7";
+import { searchProvider } from "./provider.js?v=search-20260823-7";
+import { hasSearchQuery, RESULT_TABS } from "./resultFilters.js?v=search-20260823-7";
+import { hasStructuredSearchOperators, parseSearchQueryOperators } from "./queryOperators.js?v=search-20260823-7";
+import { SEARCH_LANGUAGES } from "./schemas.js?v=search-20260823-7";
+import { SOURCE_BY_ID } from "./sourceConfig.js?v=search-20260823-7";
 
 const DEFAULT_QUERY = "";
 const RESULTS_PATH = "/search/results";
@@ -49,7 +49,7 @@ const MEDIA_TYPE_LABELS = {
 };
 const CANONICAL_RESULT_PARAMS = new Set(["q", "tab", "source", "exclude_source", "exclude_type", "lang", "exclude_lang", "page", "sort", "after", "before"]);
 const CANONICAL_DOCUMENT_PARAMS = new Set(["q", "tab", "source", "exclude_source", "exclude_type", "lang", "exclude_lang", "page", "sort", "after", "before", "id"]);
-const YOUTUBE_LOGO_SRC = "/assets/search-youtube-logo.svg?v=search-20260803-6";
+const YOUTUBE_LOGO_SRC = "/assets/search-youtube-logo.svg?v=search-20260823-7";
 const PUBLIC_DIRECT_ASSET_HOSTS = new Set([
   "kcnawatch.org",
   "www.kcnawatch.org",
@@ -75,13 +75,21 @@ if (root) {
 }
 
 function initializeSearchNavigation() {
+  const navigation = document.querySelector(".search-nav");
   const menuButton = document.querySelector(".search-menu-button");
+  const menuButtonIcon = menuButton?.querySelector(".search-menu-button-icon");
   const menu = document.getElementById(menuButton?.getAttribute("aria-controls") || "");
-  if (!menuButton || !menu) return;
+  if (!navigation || !menuButton || !menu) return;
+
+  const mobileMenuQuery = window.matchMedia?.("(max-width: 1100px)");
 
   const setMenuOpen = (isOpen) => {
-    document.body.classList.toggle("search-nav-open", isOpen);
-    menuButton.setAttribute("aria-expanded", String(isOpen));
+    const shouldOpen = Boolean(isOpen) && (mobileMenuQuery?.matches ?? window.innerWidth <= 1100);
+    document.body.classList.toggle("search-nav-open", shouldOpen);
+    menuButton.classList.toggle("active", shouldOpen);
+    menuButton.setAttribute("aria-expanded", String(shouldOpen));
+    menuButton.setAttribute("aria-label", shouldOpen ? "메뉴 닫기" : "메뉴 열기");
+    if (menuButtonIcon) menuButtonIcon.textContent = shouldOpen ? "close" : "drag_handle";
   };
 
   menuButton.addEventListener("click", () => {
@@ -92,18 +100,22 @@ function initializeSearchNavigation() {
     if (event.target.closest("a")) setMenuOpen(false);
   });
 
+  document.addEventListener("click", (event) => {
+    if (!document.body.classList.contains("search-nav-open")) return;
+    if (navigation.contains(event.target)) return;
+    setMenuOpen(false);
+  });
+
   const closeFromEscape = (event) => {
     if (event.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
       setMenuOpen(false);
-      menuButton.focus();
+      menuButton.focus({ preventScroll: true });
     }
   };
 
   document.addEventListener("keydown", closeFromEscape);
-  window.addEventListener("keydown", closeFromEscape);
-
-  window.matchMedia("(min-width: 1181px)").addEventListener("change", (event) => {
-    if (event.matches) setMenuOpen(false);
+  mobileMenuQuery?.addEventListener?.("change", (event) => {
+    if (!event.matches) setMenuOpen(false);
   });
 }
 

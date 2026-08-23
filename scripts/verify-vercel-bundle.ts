@@ -36,7 +36,11 @@ const NEWS_REQUIRED_DEPLOY_FILES = [
   "news/category.css",
   "news/category.js",
   "news/search/index.html",
+  "news/search.css",
   "news/search.js",
+  "news/youtube/index.html",
+  "news/youtube.css",
+  "news/youtube.js",
   "news/document-template.html",
   "news/news.css",
   "news/news.js",
@@ -45,6 +49,7 @@ const NEWS_REQUIRED_DEPLOY_FILES = [
   "data/news-details.json",
   "data/news/image-proxy-allowlist.json",
   "data/news/search-index.json",
+  "data/news/youtube-videos.json",
   "package.json",
   "package-lock.json",
   "vercel.json",
@@ -88,6 +93,8 @@ const NEWS_REQUIRED_REWRITES = new Map([
   ["/news/category/", "/news/category/index.html"],
   ["/news/search", "/news/search/index.html"],
   ["/news/search/", "/news/search/index.html"],
+  ["/news/youtube", "/news/youtube/index.html"],
+  ["/news/youtube/", "/news/youtube/index.html"],
   ["/news/document", "/api/news-document"],
   ["/news/document/", "/api/news-document"],
 ]);
@@ -172,8 +179,10 @@ export async function verifyVercelBundle({
   if (normalizedScope === "news" || normalizedScope === "all") {
     const publishedArticleIds = await assertNewsShardsIncluded(rootDir, included);
     await assertNewsSearchIndex(rootDir, included, publishedArticleIds);
+    await assertNewsYouTubeIndex(rootDir, included);
     await assertNewsImageProxyAllowlist(rootDir, included);
     await assertReferencedNewsAssetsIncluded(rootDir, included, candidateRelativePaths);
+    assertStaticNewsDataCacheHeader(vercelConfig, "/data/news/youtube-videos.json");
   }
 
   return {
@@ -338,6 +347,71 @@ async function assertNewsSearchIndex(rootDir, included, publishedArticleIds) {
   if (text !== `${JSON.stringify(payload)}\n`) throw new Error("News search index must use compact deterministic JSON");
 }
 
+async function assertNewsYouTubeIndex(rootDir, included) {
+  const relativePath = "data/news/youtube-videos.json";
+  if (!included.has(relativePath)) throw new Error(`Required News YouTube index is missing: ${relativePath}`);
+  const text = await fs.readFile(path.join(rootDir, relativePath), "utf8");
+  const payload = JSON.parse(text);
+  const channelNames = new Set(["메아리", "supersuhui"]);
+  if (!payload || typeof payload !== "object" || Array.isArray(payload)
+    || payload.schemaVersion !== 1
+    || !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/u.test(String(payload.generatedAt || ""))
+    || !/^[a-f0-9]{16}$/u.test(String(payload.version || ""))
+    || !Number.isSafeInteger(payload.totalItems)
+    || payload.totalItems <= 0
+    || !Array.isArray(payload.videos)
+    || payload.totalItems !== payload.videos.length
+    || !payload.channelCounts
+    || Object.keys(payload.channelCounts).sort(compareText).join("\n") !== [...channelNames].sort(compareText).join("\n")) {
+    throw new Error("News YouTube index metadata is invalid");
+  }
+
+  const ids = new Set();
+  const channelCounts = { "메아리": 0, supersuhui: 0 };
+  let previous = null;
+  const expectedKeys = ["channelName", "date", "id", "publishedAt", "thumbnailUrl", "title", "url", "videoId"];
+  for (const video of payload.videos) {
+    const videoId = String(video?.videoId || "");
+    const keys = Object.keys(video || {}).sort(compareText);
+    if (JSON.stringify(keys) !== JSON.stringify(expectedKeys)
+      || !/^[A-Za-z0-9_-]{11}$/u.test(videoId)
+      || video.id !== `youtube-${videoId}`
+      || ids.has(video.id)
+      || !channelNames.has(video.channelName)
+      || !String(video.title || "").trim()
+      || !/^\d{4}-\d{2}-\d{2}$/u.test(String(video.date || ""))
+      || !Number.isFinite(Date.parse(video.publishedAt))
+      || video.date !== String(video.publishedAt).slice(0, 10)
+      || video.url !== `https://www.youtube.com/watch?v=${videoId}`
+      || video.thumbnailUrl !== `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`) {
+      throw new Error(`News YouTube entry is invalid: ${String(video?.id || "(missing)")}`);
+    }
+    if (previous && (video.publishedAt > previous.publishedAt
+      || (video.publishedAt === previous.publishedAt && videoId < previous.videoId))) {
+      throw new Error(`News YouTube entries are not newest-first: ${video.id}`);
+    }
+    ids.add(video.id);
+    channelCounts[video.channelName] += 1;
+    previous = video;
+  }
+  for (const channelName of channelNames) {
+    if (!Number.isSafeInteger(payload.channelCounts[channelName])
+      || payload.channelCounts[channelName] <= 0
+      || payload.channelCounts[channelName] !== channelCounts[channelName]) {
+      throw new Error(`News YouTube channel count is invalid: ${channelName}`);
+    }
+  }
+  if (text !== `${JSON.stringify(payload)}\n`) throw new Error("News YouTube index must use compact deterministic JSON");
+}
+
+function assertStaticNewsDataCacheHeader(vercelConfig, source) {
+  const headerEntry = (vercelConfig.headers || []).find((entry) => entry.source === source);
+  const cacheControl = (headerEntry?.headers || []).find((header) => header.key.toLowerCase() === "cache-control")?.value;
+  if (cacheControl !== "public, max-age=0, s-maxage=60, stale-while-revalidate=60") {
+    throw new Error(`News static data cache header is invalid: ${source}`);
+  }
+}
+
 function collectNewsAssetReferences(value, references) {
   if (typeof value === "string") {
     if (!value.startsWith("/data/news/assets/")) return;
@@ -444,6 +518,7 @@ async function listFiles(dirPath) {
   const entries = await fs.readdir(dirPath, { withFileTypes: true });
   const files = [];
   for (const entry of entries) {
+    if (entry.isDirectory() && new Set([".git", ".vercel", "node_modules"]).has(entry.name)) continue;
     const entryPath = path.join(dirPath, entry.name);
     if (entry.isDirectory()) {
       files.push(...await listFiles(entryPath));

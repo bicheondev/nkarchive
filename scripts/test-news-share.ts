@@ -24,11 +24,15 @@ assert.equal(
 );
 assert.match(html, /<div class="news-document-article">[\s\S]*?<button class="news-document-share"/u);
 assert.match(html, /\/news\/comments\.js\?v=news-comments-20260823-1/u);
+assert.match(html, /\/news\/news\.css\?v=news-20260823-6/u);
 assert.match(html, /\/news\/header\.js\?v=news-header-20260823-2/u);
 assert.match(html, /\/news\/detail\.js\?v=news-detail-20260823-2/u);
 assert.doesNotMatch(html, /data-news-global-search/u, "article pages only need the shared channel buttons");
 assert.match(html, /https:\/\/discord\.gg\/QT3T3JpeDD/u);
 assert.match(html, /https:\/\/arca\.live\/b\/dprk\//u);
+assert.match(html, /<a href="\/search">검색<\/a>/u);
+assert.equal([...html.matchAll(/class="news-channel-content" aria-hidden="true"/gu)].length, 2);
+assert.equal([...html.matchAll(/class="news-channel-arrow"/gu)].length, 2);
 assert.match(html, /class="material-symbols-rounded news-menu-toggle-icon"[^>]*>drag_handle<\/span>/u);
 assert.match(html, /id="newsShareButton"[^>]*type="button"[^>]*aria-describedby="newsShareStatus"[^>]*disabled/u);
 assert.match(html, /<img src="\/assets\/news-share-link\.svg" alt="" aria-hidden="true" \/>[\s\S]*?<span>공유하기<\/span>/u);

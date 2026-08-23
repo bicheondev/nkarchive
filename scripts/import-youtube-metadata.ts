@@ -313,6 +313,7 @@ async function fetchYouTubeSeedVideoDocument(seedVideo, source, {
     title: cleanText(seedVideo.title || oembed.title || watchMetadata.title),
     description: cleanText(seedVideo.description || watchMetadata.description || ""),
     date: normalizeDate(seedVideo.date || watchMetadata.date || ""),
+    publishedAt: normalizePublishedAt(seedVideo.date || watchMetadata.date || ""),
     url: seedVideo.url,
     thumbnailUrl: cleanText(oembed.thumbnail_url || `https://i.ytimg.com/vi/${seedVideo.videoId}/hqdefault.jpg`),
     source,
@@ -355,6 +356,7 @@ function createYouTubeDocument({
   title,
   description = "",
   date = "",
+  publishedAt = "",
   url = "",
   thumbnailUrl = "",
   source,
@@ -374,9 +376,14 @@ function createYouTubeDocument({
     snippet,
     body: [title, description, aliases.join(" ")].filter(Boolean).join(" "),
     date: normalizeDate(date),
+    publishedAt: normalizePublishedAt(publishedAt || date),
     sourceId: source.id,
     sourceName: source.name,
     sourceType: source.sourceType,
+    youtubeChannelId: cleanText(channel.channelId || ""),
+    youtubeChannelName: cleanText(channel.name || ""),
+    youtubeFeedChannelId: cleanText(channel.feedChannelId || ""),
+    youtubeFeedChannelName: cleanText(channel.feedChannelName || ""),
     mediaType: "video",
     url,
     archiveUrl: "",
@@ -395,6 +402,8 @@ export function parseYouTubeFeed(xml = "", source, channel = {}) {
     const title = cleanText(node.find("title").first().text());
     const description = cleanText(node.find("media\\:description, description").first().text());
     const published = cleanText(node.find("published").first().text() || node.find("updated").first().text());
+    const channelId = cleanText(node.find("yt\\:channelId, channelId").first().text());
+    const channelName = cleanText(node.find("author > name").first().text());
     const url = cleanText(node.find("link[rel='alternate']").first().attr("href")) || (videoId ? `https://www.youtube.com/watch?v=${videoId}` : "");
     const thumbnailUrl = cleanText(node.find("media\\:thumbnail, thumbnail").first().attr("url")) || (videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : "");
     if (!videoId || !title || !url) return null;
@@ -403,11 +412,18 @@ export function parseYouTubeFeed(xml = "", source, channel = {}) {
       videoId,
       title,
       date: normalizeDate(published),
+      publishedAt: normalizePublishedAt(published),
       url,
       thumbnailUrl,
       description,
       source,
-      channel,
+      channel: {
+        ...channel,
+        channelId: channelId || channel.channelId,
+        name: channelName || channel.name,
+        feedChannelId: channelId,
+        feedChannelName: channelName,
+      },
     });
   }).filter(Boolean);
 }
@@ -474,6 +490,11 @@ function normalizeDate(value = "") {
   const timestamp = Date.parse(value);
   if (Number.isFinite(timestamp)) return new Date(timestamp).toISOString().slice(0, 10);
   return new Date().toISOString().slice(0, 10);
+}
+
+function normalizePublishedAt(value = "") {
+  const timestamp = Date.parse(value);
+  return Number.isFinite(timestamp) ? new Date(timestamp).toISOString() : "";
 }
 
 function cleanText(value = "") {
