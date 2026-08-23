@@ -39,8 +39,8 @@ assert.match(html, /<img src="\/assets\/news-share-link\.svg" alt="" aria-hidden
 assert.match(html, /id="newsShareStatus"[^>]*role="status"[^>]*aria-live="polite"[^>]*aria-atomic="true"/u);
 assert.match(html, /<hr class="news-comments-divider" \/>/u);
 assert.match(html, /<section class="news-comments" id="newsComments"[^>]*aria-labelledby="newsCommentsTitle"/u);
-assert.match(html, /id="newsCommentName"[^>]*value="익명"[^>]*maxlength="20"/u);
-assert.match(html, /id="newsCommentContent"[^>]*maxlength="500"[^>]*placeholder="자유롭게 의견을 남겨 주세요\."/u);
+assert.match(html, /id="newsCommentName"[^>]*value="익명"[^>]*maxlength="20"[^>]*placeholder="닉네임"/u);
+assert.match(html, /id="newsCommentContent"[^>]*maxlength="500"[^>]*placeholder="국가보안법에 저촉되는 댓글은 삭제될 수 있습니다\."/u);
 assert.match(html, /id="newsCommentsSubmit"[^>]*type="submit"[^>]*disabled>댓글 남기기<\/button>/u);
 
 assert.match(css, /\.news-document\s*\{[\s\S]*?gap:\s*54px;/u, "share action must sit 54px below the article stack");
