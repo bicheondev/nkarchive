@@ -327,6 +327,14 @@ select {
   font-weight: 400;
   line-height: normal;
   white-space: nowrap;
+  transition:
+    width 420ms var(--motion-ease-apple),
+    gap 420ms var(--motion-ease-apple),
+    padding 420ms var(--motion-ease-apple),
+    transform var(--motion-duration-base) var(--motion-ease-apple),
+    background-color var(--motion-duration-fast) ease,
+    box-shadow var(--motion-duration-base) var(--motion-ease-apple);
+  will-change: width;
 }
 
 .discord-channel-link {
@@ -351,11 +359,11 @@ select {
   padding: 4px 5px;
   background: var(--top-channel-color);
   box-shadow: 0 10px 24px var(--top-channel-shadow-color);
-  transform: translateY(-1px);
+  transform: translate3d(0, -1px, 0);
 }
 
 .top-channel-link:active {
-  transform: none;
+  transform: translate3d(0, 0, 0) scale(0.985);
 }
 
 .top-channel-link:focus-visible {
@@ -380,6 +388,10 @@ select {
   opacity: 0;
   transform: translateX(-4px);
   pointer-events: none;
+  transition:
+    width 420ms var(--motion-ease-apple),
+    opacity 120ms ease,
+    transform 420ms var(--motion-ease-apple);
 }
 
 .top-channel-link:hover .top-channel-content,
@@ -387,6 +399,10 @@ select {
   width: calc(var(--top-channel-expanded-width) - 34px);
   opacity: 1;
   transform: translateX(0);
+  transition:
+    width 420ms var(--motion-ease-apple),
+    opacity 180ms ease 80ms,
+    transform 420ms var(--motion-ease-apple);
 }
 
 .top-channel-text {
@@ -465,6 +481,9 @@ html[data-route="music"] .music-header-search {
   cursor: pointer;
   margin-left: 4px;
   padding: 0;
+  transition:
+    background-color var(--motion-duration-fast) ease,
+    transform var(--motion-duration-base) var(--motion-ease-apple);
 }
 
 .menu-toggle:hover,
@@ -479,6 +498,7 @@ html[data-route="music"] .music-header-search {
 
 .menu-toggle:active {
   background: var(--slate-100);
+  transform: scale(0.96);
 }
 
 .menu-toggle-icon {
@@ -488,10 +508,14 @@ html[data-route="music"] .music-header-search {
   font-size: 24px;
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
   line-height: 1;
+  transition:
+    color var(--motion-duration-fast) ease,
+    opacity var(--motion-duration-fast) ease,
+    transform 420ms var(--motion-ease-apple);
 }
 
 .menu-toggle.active .menu-toggle-icon {
-  transform: none;
+  transform: rotate(90deg) scale(0.92);
 }
 
 .music-shell {
@@ -3179,6 +3203,9 @@ html[data-route="music"] .music-header-search {
     content: "";
     opacity: 0;
     pointer-events: none;
+    transition:
+      opacity var(--motion-duration-base) ease,
+      visibility var(--motion-duration-base) ease;
     visibility: hidden;
     -webkit-backdrop-filter: blur(18px) saturate(1.12);
   }
@@ -3244,6 +3271,10 @@ html[data-route="music"] .music-header-search {
     opacity: 0;
     pointer-events: none;
     transform: translate3d(0, -10px, 0);
+    transition:
+      opacity var(--motion-duration-base) ease,
+      transform 420ms var(--motion-ease-apple),
+      visibility var(--motion-duration-base) ease;
     visibility: hidden;
   }
 
@@ -3263,6 +3294,9 @@ html[data-route="music"] .music-header-search {
 
   .site-nav a {
     transform: none;
+    transition:
+      color var(--motion-duration-fast) ease,
+      opacity var(--motion-duration-fast) ease;
   }
 
   .site-nav a::after {
@@ -3292,11 +3326,11 @@ html[data-route="music"] .music-header-search {
   }
 
   .discord-channel-link {
-    --top-channel-expanded-width: min(241px, calc(100vw - 150px));
+    --top-channel-expanded-width: min(241px, max(28px, calc(100vw - 194px)));
   }
 
   .arca-channel-link {
-    --top-channel-expanded-width: min(231px, calc(100vw - 150px));
+    --top-channel-expanded-width: min(231px, max(28px, calc(100vw - 194px)));
   }
 
   .archive-shell {

@@ -18,6 +18,9 @@
   --news-gray-500: #6b7280;
   --news-gray-600: #4b5563;
   --news-gray-700: #374151;
+  --news-motion-ease-apple: cubic-bezier(0.16, 1, 0.3, 1);
+  --news-motion-duration-fast: 160ms;
+  --news-motion-duration-base: 260ms;
   --news-detail-nav: #45556c;
   --news-detail-border: #e2e8f0;
   --news-detail-search: #f8fafc;
@@ -352,7 +355,7 @@ button {
   display: flex;
   width: 28px;
   height: 28px;
-  flex: 0 0 28px;
+  flex: 0 0 auto;
   align-items: center;
   gap: 0;
   justify-content: center;
@@ -364,6 +367,14 @@ button {
   font-weight: 400;
   line-height: normal;
   white-space: nowrap;
+  transition:
+    width 420ms var(--news-motion-ease-apple),
+    gap 420ms var(--news-motion-ease-apple),
+    padding 420ms var(--news-motion-ease-apple),
+    transform var(--news-motion-duration-base) var(--news-motion-ease-apple),
+    background-color var(--news-motion-duration-fast) ease,
+    box-shadow var(--news-motion-duration-base) var(--news-motion-ease-apple);
+  will-change: width;
 }
 
 .news-channel-discord {
@@ -391,12 +402,11 @@ button {
 .news-channel-link:hover,
 .news-channel-link:focus-visible {
   width: var(--news-channel-expanded-width);
-  flex-basis: var(--news-channel-expanded-width);
   gap: 6px;
   justify-content: flex-start;
   padding: 4px 5px;
   box-shadow: 0 10px 24px var(--news-channel-shadow-color);
-  transform: translateY(-1px);
+  transform: translate3d(0, -1px, 0);
 }
 
 .news-channel-link:focus-visible {
@@ -405,7 +415,7 @@ button {
 }
 
 .news-channel-link:active {
-  transform: none;
+  transform: translate3d(0, 0, 0) scale(0.985);
 }
 
 .news-channel-content {
@@ -419,6 +429,10 @@ button {
   opacity: 0;
   pointer-events: none;
   transform: translateX(-4px);
+  transition:
+    width 420ms var(--news-motion-ease-apple),
+    opacity 120ms ease,
+    transform 420ms var(--news-motion-ease-apple);
 }
 
 .news-channel-link:hover .news-channel-content,
@@ -426,6 +440,10 @@ button {
   width: calc(var(--news-channel-expanded-width) - 34px);
   opacity: 1;
   transform: translateX(0);
+  transition:
+    width 420ms var(--news-motion-ease-apple),
+    opacity 180ms ease 80ms,
+    transform 420ms var(--news-motion-ease-apple);
 }
 
 .news-channel-text {
@@ -494,6 +512,9 @@ button {
   border-radius: 999px;
   background: transparent;
   cursor: pointer;
+  transition:
+    background-color var(--news-motion-duration-fast) ease,
+    transform var(--news-motion-duration-base) var(--news-motion-ease-apple);
 }
 
 .news-menu-toggle:hover,
@@ -517,6 +538,10 @@ button {
   font-size: 24px;
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
   line-height: 1;
+  transition:
+    color var(--news-motion-duration-fast) ease,
+    opacity var(--news-motion-duration-fast) ease,
+    transform 420ms var(--news-motion-ease-apple);
 }
 
 .news-menu-toggle.active .news-menu-toggle-icon {
@@ -1382,6 +1407,9 @@ button {
     content: "";
     opacity: 0;
     pointer-events: none;
+    transition:
+      opacity var(--news-motion-duration-base) ease,
+      visibility var(--news-motion-duration-base) ease;
     visibility: hidden;
     -webkit-backdrop-filter: blur(18px) saturate(1.12);
   }
@@ -1428,6 +1456,14 @@ button {
     z-index: 1;
   }
 
+  .news-channel-discord {
+    --news-channel-expanded-width: min(241px, max(28px, calc(100vw - 194px)));
+  }
+
+  .news-channel-arca {
+    --news-channel-expanded-width: min(231px, max(28px, calc(100vw - 194px)));
+  }
+
   .news-menu-toggle {
     display: inline-flex;
   }
@@ -1458,6 +1494,10 @@ button {
     opacity: 0;
     pointer-events: none;
     transform: translate3d(0, -10px, 0);
+    transition:
+      opacity var(--news-motion-duration-base) ease,
+      transform 420ms var(--news-motion-ease-apple),
+      visibility var(--news-motion-duration-base) ease;
     visibility: hidden;
   }
 
@@ -1479,6 +1519,12 @@ button {
   .news-navigation-links a:focus-visible {
     color: var(--news-gray-500);
     outline: 0;
+  }
+
+  .news-navigation-links a {
+    transition:
+      color var(--news-motion-duration-fast) ease,
+      opacity var(--news-motion-duration-fast) ease;
   }
 
   .news-navigation-links .active {
@@ -1562,6 +1608,17 @@ button {
   *::before,
   *::after {
     scroll-behavior: auto !important;
+  }
+
+  .news-channel-link,
+  .news-channel-content,
+  .news-menu-toggle,
+  .news-menu-toggle-icon,
+  body.news-page::before,
+  .news-navigation-links,
+  .news-navigation-links a {
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
   }
 
 }

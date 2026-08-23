@@ -405,8 +405,8 @@ async function assertSearchNavigationIsAccessible() {
     assert.equal(html.includes('id="searchNavMenu"'), true, `${name} should expose a controlled mobile nav menu region`);
     assert.equal(html.includes('aria-controls="searchNavMenu"'), true, `${name} menu button should control the nav region`);
     assert.equal(html.includes('aria-expanded="false"'), true, `${name} menu button should start collapsed`);
-    assert.equal(html.includes('/search/search.css?v=search-20260823-7'), true, `${name} should use the current search style cache key`);
-    assert.equal(html.includes('/search/searchPortal.js?v=search-20260823-7'), true, `${name} should use the current search portal cache key`);
+    assert.equal(html.includes('/search/search.css?v=search-20260823-8'), true, `${name} should use the current search style cache key`);
+    assert.equal(html.includes('/search/searchPortal.js?v=search-20260823-8'), true, `${name} should use the current search portal cache key`);
     assert.equal(html.includes('href="#"'), false, `${name} should not ship dead placeholder navigation links`);
     assert.equal(html.includes('aria-disabled="true"'), true, `${name} should mark unavailable nav destinations as disabled text`);
     assert.equal(html.includes('aria-label="검색 홈"'), true, `${name} logo link should use a Korean accessible name`);
@@ -455,10 +455,17 @@ async function assertSearchNavigationIsAccessible() {
   assert.equal(searchChannelsRule.includes("gap: 10px;"), true, "search channel buttons should match the News ten-pixel gap");
   const searchChannelRule = css.match(/\.search-channel-link\s*\{([\s\S]*?)\n\}/)?.[1] || "";
   assert.equal(searchChannelRule.includes("width: 28px;"), true, "search channel buttons should start at 28 pixels");
-  assert.equal(searchChannelRule.includes("transition:"), false, "search channel buttons should expand immediately");
+  assert.equal(searchChannelRule.includes("width 420ms var(--search-motion-ease-apple)"), true,
+    "search channel buttons should restore the legacy Font expansion motion");
   const expandedSearchChannelRule = css.match(/\.search-channel-link:hover,\s*\n\.search-channel-link:focus-visible\s*\{([\s\S]*?)\n\}/)?.[1] || "";
   assert.equal(expandedSearchChannelRule.includes("width: var(--search-channel-expanded-width);"), true,
     "search channel buttons should expand on hover and keyboard focus");
+  assert.equal(css.includes("max(28px, calc(100vw - 194px))"), true,
+    "compact search headers should keep expanded shortcuts inside the available action width");
+  assert.equal(css.includes("opacity 180ms ease 80ms"), true,
+    "search channel labels should retain the delayed legacy fade when opening");
+  assert.equal(css.includes("@media (prefers-reduced-motion: reduce)"), true,
+    "search channel motion should honor reduced-motion preferences");
   assert.equal(css.includes("body.search-nav-open .search-nav-menu"), true, "mobile nav CSS should render the collapsed menu when opened");
   assert.equal(css.includes(".search-nav-disabled"), true, "disabled nav destinations should keep explicit styling");
   assert.equal(css.includes(".search-nav-links span"), true, "mobile search nav should give disabled items the same spacing as links");
@@ -473,6 +480,18 @@ async function assertSearchNavigationIsAccessible() {
   assert.equal(portalSource.includes('window.matchMedia?.("(max-width: 1100px)")'), true, "search menu behavior should use the News mobile breakpoint");
   assert.equal(portalSource.includes('menuButtonIcon.textContent = shouldOpen ? "close" : "drag_handle"'), true,
     "search mobile menu should switch between the News drag-handle and close icons");
+  const searchMenuButtonRule = css.match(/\.search-menu-button\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  const searchMenuIconRule = css.match(/\.search-menu-button-icon\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(searchMenuButtonRule.includes("transform var(--search-motion-duration-base) var(--search-motion-ease-apple)"), true,
+    "search mobile menu buttons should retain the legacy press transition");
+  assert.equal(searchMenuIconRule.includes("transform 420ms var(--search-motion-ease-apple)"), true,
+    "search mobile menu icons should retain the legacy open-close motion");
+  assert.equal(css.includes(".search-menu-button.active .search-menu-button-icon"), true,
+    "search close icons should rotate into place when the menu opens");
+  assert.match(css, /@media \(max-width: 1100px\)[\s\S]*?\.search-nav-menu\s*\{[^}]*transform:\s*translate3d\(0, -10px, 0\);[^}]*transition:[^}]*transform 420ms var\(--search-motion-ease-apple\)/u,
+    "search full-screen menus should restore the legacy slide timing from ten pixels above");
+  assert.match(css, /body\.search-nav-open \.search-nav-menu\s*\{[^}]*transform:\s*translate3d\(0, 0, 0\);/u,
+    "open search menus should animate into their final position");
 }
 
 async function assertProjectShellNavigationIsAccessible() {
@@ -490,7 +509,7 @@ async function assertProjectShellNavigationIsAccessible() {
   assert.equal(homeHtml.includes('aria-label="주요 메뉴"'), true, "project shell primary navigation should use a Korean accessible name");
   assert.equal(homeHtml.includes('aria-label="Archive home"'), false, "project shell should not expose English logo labels");
   assert.equal(homeHtml.includes('aria-label="Primary"'), false, "project shell should not expose English nav labels");
-  assert.equal(homeHtml.includes('/styles.css?v=site-20260823-2'), true, "project shell should use the current shared style cache key");
+  assert.equal(homeHtml.includes('/styles.css?v=site-20260823-3'), true, "project shell should use the current shared style cache key");
   assert.equal(homeHtml.includes('/app.js?v=site-20260821-1'), true, "project shell should use the current app runtime cache key");
   assert.equal(liveHtml.includes('window.location.replace("/?route=live&v=live-20260701-2")'), true, "/live should redirect into the current shared app shell instead of shipping a stale duplicate shell");
   const navHtml = navMatch?.[0] || "";
@@ -532,6 +551,8 @@ async function assertProjectShellNavigationIsAccessible() {
   const expandedChannelRule = css.match(/\.top-channel-link:hover,\s*\n\.top-channel-link:focus-visible\s*\{([\s\S]*?)\n\}/)?.[1] || "";
   assert.equal(expandedChannelRule.includes("width: var(--top-channel-expanded-width);"), true,
     "channel shortcuts should expand on hover and keyboard focus");
+  assert.equal(css.includes("max(28px, calc(100vw - 194px))"), true,
+    "compact project headers should keep expanded shortcuts inside the available action width");
   assert.equal(css.includes(".top-channel-link:focus-visible .top-channel-content"), true,
     "keyboard focus should reveal the channel label content");
   const navigationInnerRule = css.match(/\.navigation-inner\s*\{([\s\S]*?)\n\}/)?.[1] || "";
@@ -546,7 +567,20 @@ async function assertProjectShellNavigationIsAccessible() {
   assert.equal(navigationBarRule.includes("height: var(--site-navigation-height);"), true, "desktop project header should use the shared 70-pixel height");
   assert.equal(navigationBarRule.includes("animation:"), false, "project header should not animate into place");
   assert.equal(navigationBarRule.includes("transition:"), false, "project header should not transition");
-  assert.equal(channelLinkRule.includes("transition:"), false, "channel shortcut expansion should be immediate");
+  assert.equal(channelLinkRule.includes("width 420ms var(--motion-ease-apple)"), true,
+    "channel shortcuts should retain the legacy Font expansion motion");
+  const menuToggleRule = css.match(/\.menu-toggle\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  const menuToggleIconRule = css.match(/\.menu-toggle-icon\s*\{([\s\S]*?)\n\}/)?.[1] || "";
+  assert.equal(menuToggleRule.includes("transform var(--motion-duration-base) var(--motion-ease-apple)"), true,
+    "project mobile menu buttons should retain the legacy press transition");
+  assert.equal(menuToggleIconRule.includes("transform 420ms var(--motion-ease-apple)"), true,
+    "project mobile menu icons should retain the legacy open-close motion");
+  assert.equal(css.includes(".menu-toggle.active .menu-toggle-icon"), true,
+    "project close icons should rotate into place when the menu opens");
+  assert.match(css, /@media \(max-width: 1100px\)[\s\S]*?\.site-nav\s*\{[^}]*transform:\s*translate3d\(0, -10px, 0\);[^}]*transition:[^}]*transform 420ms var\(--motion-ease-apple\)/u,
+    "project full-screen menus should retain the legacy slide timing from ten pixels above");
+  assert.match(css, /body\.mobile-menu-open \.site-nav\s*\{[^}]*transform:\s*translate3d\(0, 0, 0\);/u,
+    "open project menus should animate into their final position");
   assert.equal(css.includes("@media (max-width: 1100px)"), true, "project shell should use the News mobile header breakpoint");
   assert.equal(css.includes("width: calc(100vw - 40px);"), true, "mobile project navigation should retain 20-pixel side margins");
   assert.equal(navHtml.includes('href="/search" data-route="search"'), true, "project shell search nav item should expose a route id for active-state styling");

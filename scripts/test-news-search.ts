@@ -21,7 +21,7 @@ assert.match(html, /id="newsSearchSource"[^>]*name="source"[^>]*type="hidden"[^>
 assert.match(html, /id="newsSearchResults"[^>]*role="list"/u);
 assert.match(html, /id="newsSearchPagination"[^>]*aria-label="검색 결과 페이지"/u);
 assert.match(html, /\/news\/category\.css\?v=news-category-20260823-3/u);
-assert.match(html, /\/news\/news\.css\?v=news-20260823-6/u);
+assert.match(html, /\/news\/news\.css\?v=news-20260823-7/u);
 assert.match(html, /\/news\/header\.js\?v=news-header-20260823-2/u);
 assert.match(html, /\/news\/search\.css\?v=news-search-20260823-1/u);
 assert.match(html, /\/news\/search\.js\?v=news-search-20260823-3/u);

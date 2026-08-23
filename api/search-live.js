@@ -2,11 +2,11 @@ import {
   getRodongLiveDocument,
   normalizeLiveSearchQuery,
   searchRodongDocuments,
-} from "../search/rodongLiveSearch.server.js?v=search-20260823-7";
+} from "../search/rodongLiveSearch.server.js?v=search-20260823-8";
 import {
   getChosonSinboLiveDocument,
   searchChosonSinboDocuments,
-} from "../search/chosonSinboLiveSearch.server.js?v=search-20260823-7";
+} from "../search/chosonSinboLiveSearch.server.js?v=search-20260823-8";
 
 const CACHE_CONTROL = "public, max-age=0, s-maxage=300, stale-while-revalidate=3600";
 const LIVE_SOURCE_IDS = ["rodong-sinmun", "choson-sinbo"];

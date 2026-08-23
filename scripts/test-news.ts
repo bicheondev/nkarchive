@@ -171,7 +171,7 @@ assert.match(indexHtml, /id="newsSearchSource" name="source" type="hidden" value
   "homepage searches must carry the selected official source");
 assert.match(indexHtml, /href="\/news\/youtube"[^>]*data-news-media="youtube"[^>]*>YouTube<\/a>/u,
   "the shared floating selector must expose the complete YouTube catalog");
-assert.match(indexHtml, /\/news\/news\.css\?v=news-20260823-6/u, "the homepage stylesheet must use the current cache key");
+assert.match(indexHtml, /\/news\/news\.css\?v=news-20260823-7/u, "the homepage stylesheet must use the current cache key");
 assert.match(indexHtml, /\/news\/news\.js\?v=news-20260823-4/u, "the homepage script must use the current cache key");
 for (const shellHtml of [indexHtml, documentHtml]) {
   assert.match(shellHtml, /<a href="\/search">검색<\/a>/u,
@@ -187,19 +187,25 @@ for (const shellHtml of [indexHtml, documentHtml]) {
     "every expanded community button must end with the shared chevron",
   );
 }
-assert.match(documentHtml, /\/news\/news\.css\?v=news-20260823-6/u,
+assert.match(documentHtml, /\/news\/news\.css\?v=news-20260823-7/u,
   "article shells must use the current shared News stylesheet");
 assert.match(newsCss, /\.news-channel-link\s*\{[^}]*width:\s*28px;[^}]*height:\s*28px;/su,
   "community buttons must remain icon-only at rest");
 assert.match(newsCss, /\.news-channel-link:hover,\s*\.news-channel-link:focus-visible\s*\{[^}]*width:\s*var\(--news-channel-expanded-width\);[^}]*gap:\s*6px;/su,
-  "desktop hover and keyboard focus must reveal the community label instantly");
+  "desktop hover and keyboard focus must reveal the community label");
 assert.match(newsCss, /\.news-channel-link:hover \.news-channel-content,\s*\.news-channel-link:focus-visible \.news-channel-content\s*\{[^}]*width:\s*calc\(var\(--news-channel-expanded-width\) - 34px\);[^}]*opacity:\s*1;/su);
 const newsChannelLinkRule = newsCss.match(/\.news-channel-link\s*\{([^}]*)\}/u)?.[1] || "";
 const newsChannelContentRule = newsCss.match(/\.news-channel-content\s*\{([^}]*)\}/u)?.[1] || "";
-assert.doesNotMatch(newsChannelLinkRule, /transition|animation/u,
-  "community buttons must expand without animation");
-assert.doesNotMatch(newsChannelContentRule, /transition|animation/u,
-  "community labels must appear without animation");
+assert.match(newsChannelLinkRule, /transition:[\s\S]*width 420ms var\(--news-motion-ease-apple\)[\s\S]*gap 420ms var\(--news-motion-ease-apple\)[\s\S]*padding 420ms var\(--news-motion-ease-apple\)/u,
+  "community buttons must restore the legacy Font expansion motion");
+assert.match(newsChannelContentRule, /transition:[\s\S]*width 420ms var\(--news-motion-ease-apple\)[\s\S]*opacity 120ms ease[\s\S]*transform 420ms var\(--news-motion-ease-apple\)/u,
+  "community labels must animate closed with the legacy timing");
+assert.match(newsCss, /\.news-channel-link:hover \.news-channel-content,[\s\S]*?opacity 180ms ease 80ms/u,
+  "community labels must retain the delayed legacy fade when opening");
+assert.match(newsCss, /@media \(prefers-reduced-motion: reduce\)[\s\S]*?\.news-channel-link,[\s\S]*?transition-duration:\s*0\.01ms !important;/u,
+  "community motion must honor reduced-motion preferences");
+assert.match(newsCss, /@media \(max-width: 1100px\)[\s\S]*?\.news-channel-discord\s*\{[^}]*max\(28px, calc\(100vw - 194px\)\)/u,
+  "compact headers must constrain expanded community buttons to the viewport");
 assert.match(newsCss, /\.news-navigation-links\s*\{[^}]*left:\s*50%;[^}]*width:\s*max-content;[^}]*transform:\s*translateX\(-50%\);/su,
   "the complete nine-item navigation must remain centered at every desktop width");
 assert.match(newsCss, /@media \(max-width: 1500px\)\s*\{[\s\S]*?\.news-navigation-inner\s*\{[^}]*width:\s*calc\(100vw - 80px\);/u,
@@ -386,6 +392,18 @@ assert.match(
   "the full-screen News navigation must use the identical translucent blur surface",
 );
 assert.match(newsCss, /\.news-menu-toggle-icon\s*\{[^}]*width:\s*24px;[^}]*height:\s*24px;[^}]*color:\s*#45556c/su);
+const newsMenuToggleRule = newsCss.match(/\.news-menu-toggle\s*\{([^}]*)\}/u)?.[1] || "";
+const newsMenuToggleIconRule = newsCss.match(/\.news-menu-toggle-icon\s*\{([^}]*)\}/u)?.[1] || "";
+assert.match(newsMenuToggleRule, /background-color var\(--news-motion-duration-fast\) ease,[\s\S]*transform var\(--news-motion-duration-base\) var\(--news-motion-ease-apple\)/u,
+  "the mobile menu button must restore the legacy press transition");
+assert.match(newsMenuToggleIconRule, /transform 420ms var\(--news-motion-ease-apple\)/u,
+  "the mobile menu icon must restore the legacy open-close motion");
+assert.match(newsCss, /\.news-menu-toggle\.active \.news-menu-toggle-icon\s*\{[^}]*rotate\(90deg\) scale\(0\.92\)/u,
+  "the close icon must rotate into place when the menu opens");
+assert.match(newsCss, /@media \(max-width: 1100px\)[\s\S]*?body\.news-page::before\s*\{[^}]*transition:[^}]*opacity var\(--news-motion-duration-base\) ease,[^}]*visibility var\(--news-motion-duration-base\) ease;/u,
+  "the mobile menu backdrop must fade with the legacy timing");
+assert.match(newsCss, /\.news-navigation-links\s*\{[^}]*transform:\s*translate3d\(0, -10px, 0\);[^}]*transition:[^}]*transform 420ms var\(--news-motion-ease-apple\)/su,
+  "the full-screen menu must restore the legacy slide-and-fade motion");
 
 console.log(`Standalone news tests passed: ${documents.length} records, version ${feed.version}.`);
 

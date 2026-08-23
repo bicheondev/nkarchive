@@ -336,7 +336,7 @@ async function testYouTubeUiConsumesTheCompleteArtifactSafely() {
   assert.deepEqual(switcherTabs, ["kcna", "rodong-sinmun", "youtube"], "the floating switcher must expose all three media sources");
   assert.match(sharedCss, /\.news-source-switcher\s*\{[\s\S]*?position:\s*fixed;[\s\S]*?bottom:\s*calc\(32px/u);
   assert.match(html, /<header class="news-navigation">[\s\S]*?class="news-navigation-inner"/u);
-  assert.match(html, /\/news\/news\.css\?v=news-20260823-6/u);
+  assert.match(html, /\/news\/news\.css\?v=news-20260823-7/u);
   assert.match(html, /class="news-logo" href="\/news"/u);
   assert.match(html, /class="news-navigation-links" id="newsNavigationLinks"/u);
   assert.match(html, /class="news-navigation-actions"/u);

@@ -1,12 +1,12 @@
-import { createSearchBar } from "../components/SearchBar.js?v=search-20260823-7";
-import { createSearchTabId, createSearchTabs } from "../components/SearchTabs.js?v=search-20260823-7";
-import { createSourceResultCard } from "../components/SourceResultCard.js?v=search-20260823-7";
-import { connectSearchSuggestions, createSearchSuggestions, updateSearchSuggestions } from "../components/SearchSuggestions.js?v=search-20260823-7";
-import { searchProvider } from "./provider.js?v=search-20260823-7";
-import { hasSearchQuery, RESULT_TABS } from "./resultFilters.js?v=search-20260823-7";
-import { hasStructuredSearchOperators, parseSearchQueryOperators } from "./queryOperators.js?v=search-20260823-7";
-import { SEARCH_LANGUAGES } from "./schemas.js?v=search-20260823-7";
-import { SOURCE_BY_ID } from "./sourceConfig.js?v=search-20260823-7";
+import { createSearchBar } from "../components/SearchBar.js?v=search-20260823-8";
+import { createSearchTabId, createSearchTabs } from "../components/SearchTabs.js?v=search-20260823-8";
+import { createSourceResultCard } from "../components/SourceResultCard.js?v=search-20260823-8";
+import { connectSearchSuggestions, createSearchSuggestions, updateSearchSuggestions } from "../components/SearchSuggestions.js?v=search-20260823-8";
+import { searchProvider } from "./provider.js?v=search-20260823-8";
+import { hasSearchQuery, RESULT_TABS } from "./resultFilters.js?v=search-20260823-8";
+import { hasStructuredSearchOperators, parseSearchQueryOperators } from "./queryOperators.js?v=search-20260823-8";
+import { SEARCH_LANGUAGES } from "./schemas.js?v=search-20260823-8";
+import { SOURCE_BY_ID } from "./sourceConfig.js?v=search-20260823-8";
 
 const DEFAULT_QUERY = "";
 const RESULTS_PATH = "/search/results";
@@ -49,7 +49,7 @@ const MEDIA_TYPE_LABELS = {
 };
 const CANONICAL_RESULT_PARAMS = new Set(["q", "tab", "source", "exclude_source", "exclude_type", "lang", "exclude_lang", "page", "sort", "after", "before"]);
 const CANONICAL_DOCUMENT_PARAMS = new Set(["q", "tab", "source", "exclude_source", "exclude_type", "lang", "exclude_lang", "page", "sort", "after", "before", "id"]);
-const YOUTUBE_LOGO_SRC = "/assets/search-youtube-logo.svg?v=search-20260823-7";
+const YOUTUBE_LOGO_SRC = "/assets/search-youtube-logo.svg?v=search-20260823-8";
 const PUBLIC_DIRECT_ASSET_HOSTS = new Set([
   "kcnawatch.org",
   "www.kcnawatch.org",

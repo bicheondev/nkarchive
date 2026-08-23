@@ -16,7 +16,7 @@ assert.match(html, /id="newsCategorySearchInput"/u);
 assert.match(html, /<form class="news-search" action="\/news\/search"/u);
 assert.match(html, /name="q"[^>]*data-news-global-search/u);
 assert.match(html, /\/news\/header\.js\?v=news-header-20260823-2/u);
-assert.match(html, /\/news\/news\.css\?v=news-20260823-6/u);
+assert.match(html, /\/news\/news\.css\?v=news-20260823-7/u);
 assert.match(html, /https:\/\/discord\.gg\/QT3T3JpeDD/u);
 assert.match(html, /https:\/\/arca\.live\/b\/dprk\//u);
 assert.match(html, /<a href="\/search">검색<\/a>/u);

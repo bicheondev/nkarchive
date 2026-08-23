@@ -24,7 +24,7 @@ assert.equal(
 );
 assert.match(html, /<div class="news-document-article">[\s\S]*?<button class="news-document-share"/u);
 assert.match(html, /\/news\/comments\.js\?v=news-comments-20260823-1/u);
-assert.match(html, /\/news\/news\.css\?v=news-20260823-6/u);
+assert.match(html, /\/news\/news\.css\?v=news-20260823-7/u);
 assert.match(html, /\/news\/header\.js\?v=news-header-20260823-2/u);
 assert.match(html, /\/news\/detail\.js\?v=news-detail-20260823-2/u);
 assert.doesNotMatch(html, /data-news-global-search/u, "article pages only need the shared channel buttons");

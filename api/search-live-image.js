@@ -1,4 +1,4 @@
-import { getRodongLiveImage } from "../search/rodongLiveSearch.server.js?v=search-20260823-7";
+import { getRodongLiveImage } from "../search/rodongLiveSearch.server.js?v=search-20260823-8";
 
 const CACHE_CONTROL = "public, max-age=86400, s-maxage=604800, stale-while-revalidate=604800";
 const CONTENT_SECURITY_POLICY = [
