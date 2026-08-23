@@ -86,6 +86,7 @@
     renderArticleImages(article);
     shareButton.disabled = false;
     documentRoot.setAttribute("aria-busy", "false");
+    window.NewsComments?.initialize(articleId);
   }
 
   function splitParagraphs(value) {
@@ -102,9 +103,22 @@
   }
 
   function stripLeadingTitleParagraph(paragraphs, title) {
+    const normalizedTitleLines = String(title || "")
+      .replace(/\r\n?/gu, "\n")
+      .split(/\n+/u)
+      .map((line) => normalizeParagraphForTitleComparison(line))
+      .filter(Boolean);
+    if (!normalizedTitleLines.length) return paragraphs;
+
+    const matchesTitleLinePrefix = normalizedTitleLines.every((line, index) => (
+      normalizeParagraphForTitleComparison(paragraphs[index]) === line
+    ));
     const normalizedTitle = normalizeParagraphForTitleComparison(title);
-    if (!normalizedTitle || normalizeParagraphForTitleComparison(paragraphs[0]) !== normalizedTitle) return paragraphs;
-    const remainingParagraphs = paragraphs.slice(1);
+    const titleParagraphCount = matchesTitleLinePrefix
+      ? normalizedTitleLines.length
+      : normalizeParagraphForTitleComparison(paragraphs[0]) === normalizedTitle ? 1 : 0;
+    if (!titleParagraphCount) return paragraphs;
+    const remainingParagraphs = paragraphs.slice(titleParagraphCount);
     return remainingParagraphs.length ? remainingParagraphs : ["본문이 보관되지 않은 기사입니다."];
   }
 

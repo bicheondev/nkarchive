@@ -1,5 +1,9 @@
 {
   "functions": {
+    "api/news-comments.js": {
+      "maxDuration": 30,
+      "includeFiles": "data/news/details/*.json"
+    },
     "api/news-image.js": {
       "maxDuration": 30,
       "includeFiles": "data/news/image-proxy-allowlist.json"

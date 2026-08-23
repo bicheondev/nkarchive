@@ -392,6 +392,54 @@ function testRodongTokensAndParsers() {
   ]);
   assert.deepEqual(listing.pagination, { currentPage: 1, declaredLastPage: 2, declaredTotal: 2 });
 
+  const multilineTitle = "경애하는 김정은동지께서 창립 80돐을 맞는 국립교향악단에 축하서한을 보내시였다\n국립교향악단 창작가, 예술인들에게";
+  const multilineDetailToken = rodongDetailToken("2026-08-08", "1", "058");
+  const multilineListing = parseRodongListing(`
+    <main><div id="PathBar">홈 &gt; 혁명활동소식 &gt; 1건</div>
+      <div id="RevoListDIV"><ul><li>
+        <a href="/index.php?${multilineDetailToken}">
+          경애하는   김정은동지께서 창립 80돐을 맞는 국립교향악단에 축하서한을 보내시였다<br>
+          국립교향악단  창작가,   예술인들에게
+        </a>
+        <time>2026.8.8.</time>
+      </li></ul></div>
+    </main>`, listingUrl, category);
+  assert.equal(
+    multilineListing.entries[0]?.title,
+    multilineTitle,
+    "an official Rodong <br> inside the title must remain one semantic newline while ordinary spacing is collapsed",
+  );
+  const multilineDetail = parseRodongDetail(`
+    <main>
+      <div id="ContDIV">
+        <br>
+        <p class="TitleP">경애하는 김정은동지께서 창립 80돐을 맞는 국립교향악단에 축하서한을 보내시였다</p>
+        <p class="TitleP">국립교향악단 창작가, 예술인들에게</p>
+        <br>
+        <p class="TextP">공식 기사 본문이다.</p>
+        <p class="TitleP">김정은</p>
+      </div>
+    </main>`, multilineListing.entries[0].url, multilineListing.entries[0]);
+  assert.equal(
+    multilineDetail.title,
+    multilineTitle,
+    "consecutive official TitleP paragraphs must become title lines without capturing a later signature",
+  );
+
+  const formattedMarkupDetail = parseRodongDetail(`
+    <main>
+      <h1>
+        경애하는 <strong>김정은</strong>동지께서
+        공연을 관람하시였다
+      </h1>
+      <div id="ContDIV"><p>공식 기사 본문이다.</p></div>
+    </main>`, listing.entries[0].url, { title: "대체 제목", date: "2026-08-17" });
+  assert.equal(
+    formattedMarkupDetail.title,
+    "경애하는 김정은동지께서 공연을 관람하시였다",
+    "source-code indentation and wrapping without a <br> must remain ordinary normalized whitespace",
+  );
+
   const todayDetailToken = rodongDetailToken("2026-08-22", "2", "023");
   const auxiliaryThumbnailToken = rodongDetailToken("2026-08-22", "15", "023");
   const todayListing = parseRodongListing(`

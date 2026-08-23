@@ -129,20 +129,22 @@ const LOCAL_ASSET_PATTERN = /^\/data\/news\/assets\/[a-z0-9][a-z0-9-]{1,63}\/[a-
  */
 export function canonicalizeNewsDocument(value = {}) {
   const mediaType = normalizeText(value.mediaType || "article").toLocaleLowerCase("en-US");
+  const sourceId = normalizeText(value.sourceId).toLocaleLowerCase("en-US");
+  const body = normalizeBody(value.body);
   return {
     schemaVersion: NEWS_DOCUMENT_SCHEMA_VERSION,
     id: normalizeText(value.id),
-    sourceId: normalizeText(value.sourceId).toLocaleLowerCase("en-US"),
+    sourceId,
     sourceName: normalizeText(value.sourceName),
     language: normalizeText(value.language || "ko").toLocaleLowerCase("en-US"),
     mediaType,
-    title: normalizeText(value.title),
+    title: normalizeTitle(value.title, { sourceId, body }),
     date: normalizeText(value.date),
     url: normalizeRemoteUrl(value.url),
     articleId: normalizeText(value.articleId),
     articleUrl: normalizeRemoteUrl(value.articleUrl),
     snippet: normalizeText(value.snippet),
-    body: normalizeBody(value.body),
+    body,
     categories: normalizeCategories(value.categories),
     categoryOrders: normalizeCategoryOrders(value.categoryOrders),
     thumbnailUrl: normalizeRemoteUrl(value.thumbnailUrl),
@@ -986,6 +988,28 @@ function createTitleIdentity(value) {
 
 function normalizeText(value) {
   return String(value || "").normalize("NFKC").replace(/\s+/gu, " ").trim();
+}
+
+function normalizeTitle(value, { sourceId = "", body = "" } = {}) {
+  const title = String(value || "")
+    .normalize("NFKC")
+    .replace(/\r\n?/gu, "\n")
+    .split(/\n+/u)
+    .map((line) => line.replace(/[\t\u00a0 ]+/gu, " ").trim())
+    .filter(Boolean)
+    .join("\n");
+  if (sourceId !== "rodong-sinmun" || title.includes("\n")) return title;
+
+  const leadingParagraphs = String(body || "")
+    .split(/\n+/u)
+    .map((paragraph) => normalizeText(paragraph))
+    .filter(Boolean)
+    .slice(0, 5);
+  for (let lineCount = 2; lineCount <= leadingParagraphs.length; lineCount += 1) {
+    const lines = leadingParagraphs.slice(0, lineCount);
+    if (title === lines.join("")) return lines.join("\n");
+  }
+  return title;
 }
 
 function normalizeBody(value) {

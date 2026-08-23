@@ -21,8 +21,10 @@ const NEWS_REQUIRED_DEPLOY_FILES = [
   "assets/news-section-line-453.svg",
   "assets/news-section-line-454.svg",
   "assets/news-share-link.svg",
+  "api/news-comments.js",
   "api/news-image.js",
   "lib/news-image-policy.js",
+  "news/comments.js",
   "news/index.html",
   "news/category/index.html",
   "news/category.css",
@@ -34,6 +36,8 @@ const NEWS_REQUIRED_DEPLOY_FILES = [
   "data/news-feed.json",
   "data/news-details.json",
   "data/news/image-proxy-allowlist.json",
+  "package.json",
+  "package-lock.json",
   "vercel.json",
 ];
 const REQUIRED_DEPLOY_FILES = [
@@ -130,6 +134,13 @@ export async function verifyVercelBundle({
     if (!included.has(fileName)) throw new Error(`Required Vercel deploy file is missing from the bundle: ${fileName}`);
   }
   const vercelConfig = JSON.parse(await fs.readFile(path.join(rootDir, "vercel.json"), "utf8"));
+  if (normalizedScope === "news" || normalizedScope === "all") {
+    const commentsFunction = vercelConfig.functions?.["api/news-comments.js"];
+    if (commentsFunction?.maxDuration !== 30
+      || commentsFunction?.includeFiles !== "data/news/details/*.json") {
+      throw new Error("News comments function must include the published detail shards and use the bounded runtime");
+    }
+  }
   const rewriteMap = new Map((vercelConfig.rewrites || []).map((entry) => [entry.source, entry.destination]));
   for (const [source, destination] of requiredRewrites) {
     if (rewriteMap.get(source) !== destination) {

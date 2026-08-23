@@ -108,6 +108,55 @@ function createQuotaFixture() {
   return records;
 }
 
+const multilineCanonicalTitle = "경애하는 김정은동지께서 창립 80돐을 맞는 국립교향악단에 축하서한을 보내시였다\n국립교향악단 창작가, 예술인들에게";
+const multilineTitleArticle = article({
+  id: "wire-multiline-title",
+  title: "  경애하는\t김정은동지께서  창립 80돐을 맞는 국립교향악단에 축하서한을 보내시였다 \r\n\r\n 국립교향악단  창작가,\t예술인들에게  ",
+});
+assert.equal(
+  multilineTitleArticle.title,
+  multilineCanonicalTitle,
+  "snapshot canonicalization must preserve semantic title lines and normalize only whitespace within each line",
+);
+assert.equal(
+  parseNewsDocumentsJsonl(stringifyNewsDocumentsJsonl([multilineTitleArticle]))[0]?.title,
+  multilineCanonicalTitle,
+  "the canonical JSONL round trip must retain title newlines",
+);
+const legacyJoinedRodongTitle = multilineCanonicalTitle.replace("\n", "");
+const repairedRodongTitleArticle = article({
+  id: "rodong-legacy-joined-title",
+  sourceId: "rodong-sinmun",
+  sourceName: "로동신문",
+  title: legacyJoinedRodongTitle,
+  body: `${multilineCanonicalTitle.replace("\n", "\n\n")}\n\n나는 사랑하는 우리 조국과 빛나는 력사를 함께 하여왔다.`,
+});
+assert.equal(
+  repairedRodongTitleArticle.title,
+  multilineCanonicalTitle,
+  "a legacy Rodong title may be repaired from an exact concatenation of its leading archived title paragraphs",
+);
+assert.equal(
+  article({
+    id: "wire-unrelated-leading-paragraphs",
+    title: legacyJoinedRodongTitle,
+    body: `${multilineCanonicalTitle.replace("\n", "\n\n")}\n\n본문`,
+  }).title,
+  legacyJoinedRodongTitle,
+  "the bounded legacy repair must never rewrite another source",
+);
+assert.equal(
+  article({
+    id: "rodong-nonmatching-leading-paragraphs",
+    sourceId: "rodong-sinmun",
+    sourceName: "로동신문",
+    title: "독립된 한줄 제목",
+    body: "서로\n\n다른\n\n본문",
+  }).title,
+  "독립된 한줄 제목",
+  "ordinary Rodong titles must remain unchanged unless the archived evidence matches exactly",
+);
+
 const base = article({
   id: "wire-merge",
   title: "기존 기사",

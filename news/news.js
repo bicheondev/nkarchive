@@ -100,54 +100,19 @@
       },
     },
   };
+  const createArticleSlots = (count) => Array.from({ length: count }, () => ({ height: 80 }));
   const SECTION_SLOTS = {
-    leadership: [
-      { height: 62, thumbnail: true },
-      { height: 62, thumbnail: true },
-      { height: 62 },
-      { height: 40 },
-      { height: 62, thumbnail: true },
-      { height: 62, thumbnail: true },
-    ],
-    important: Array.from({ length: 6 }, () => ({ height: 80, thumbnail: true })),
-    international: [
-      { height: 80, thumbnail: true },
-      { height: 80, thumbnail: true },
-    ],
-    photo: Array.from({ length: 5 }, () => ({ height: 80, thumbnail: true })),
-    anecdote: Array.from({ length: 5 }, () => ({ height: 40 })),
-    document: [
-      { height: 40 },
-      { height: 40 },
-      { height: 40 },
-      { height: 40 },
-      { height: 62, thumbnail: true },
-      { height: 62 },
-    ],
-    foreign: [
-      { height: 40 },
-      { height: 40 },
-      { height: 40 },
-      { height: 40 },
-      { height: 62, thumbnail: true },
-      { height: 62 },
-    ],
-    video: Array.from({ length: 5 }, () => ({ height: 62, thumbnail: true })),
-    memory: Array.from({ length: 5 }, () => ({ height: 40 })),
-    domestic: [
-      { height: 40 },
-      { height: 62 },
-      { height: 40 },
-      { height: 40 },
-      { height: 62 },
-    ],
-    social: [
-      { height: 40 },
-      { height: 62 },
-      { height: 40 },
-      { height: 40 },
-      { height: 62 },
-    ],
+    leadership: createArticleSlots(6),
+    important: createArticleSlots(6),
+    international: createArticleSlots(2),
+    photo: createArticleSlots(5),
+    anecdote: createArticleSlots(5),
+    document: createArticleSlots(6),
+    foreign: createArticleSlots(6),
+    video: createArticleSlots(5),
+    memory: createArticleSlots(5),
+    domestic: createArticleSlots(5),
+    social: createArticleSlots(5),
   };
 
   let feed = null;

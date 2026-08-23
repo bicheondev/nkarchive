@@ -17,6 +17,7 @@ assert.match(html, /id="newsCategoryPagination"[^>]*aria-label="카테고리 페
 assert.match(html, /\/news\/category\.css/u);
 assert.match(html, /\/news\/category\.js/u);
 assert.match(html, /news-category-20260823-1/u);
+assert.match(html, /category\.css\?v=news-category-20260823-1/u);
 
 assert.match(script, /const CATEGORY_ROOT_URL = "\/data\/news\/categories"/u);
 assert.doesNotMatch(script, /\/data\/news-feed\.json/u, "category pages must not download the homepage preview feed");
@@ -115,6 +116,11 @@ assert.match(styles, /\.news-category-view\s*\{[^}]*width:\s*1024px/su);
 assert.match(styles, /\.news-category-title\s*\{[^}]*font-size:\s*36px[^}]*line-height:\s*1\.35/su);
 assert.match(styles, /\.news-category-list\s*\{[^}]*gap:\s*64px[^}]*margin-top:\s*86px/su);
 assert.match(styles, /\.news-category-row\s*\{[^}]*height:\s*128px/su);
+assert.match(
+  styles,
+  /\.news-category-row-title\s*\{[^}]*white-space:\s*pre-line/su,
+  "category titles must render canonical source line breaks",
+);
 assert.match(styles, /\.news-category-thumbnail\s*\{[^}]*width:\s*228px[^}]*height:\s*128px[^}]*border-radius:\s*12px/su);
 assert.match(styles, /\.news-category-pagination\s*\{[^}]*min-height:\s*36px[^}]*gap:\s*6px[^}]*margin-top:\s*54px/su);
 assert.match(styles, /\.news-category-page-number\.active\s*\{[^}]*background:\s*var\(--news-gray-200\)[^}]*color:\s*var\(--news-gray-700\)/su);

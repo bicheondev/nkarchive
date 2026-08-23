@@ -151,7 +151,7 @@ for (const source of standaloneSources) {
 assert.match(indexHtml, /id="newsSearchInput"/u, "news search must be a page-local filter");
 assert.equal(newsJs.includes("localStorage"), false, "KCNA must be the deterministic default source");
 assert.match(newsJs, /let activeSourceId = "kcna"/u);
-assert.match(indexHtml, /news-20260823-1/u, "the homepage script cache key must change with the section label");
+assert.match(indexHtml, /news-20260823-2/u, "the homepage assets must use the current cache key");
 assert.equal(
   [...newsJs.matchAll(/title:\s*"혁명활동소식"/gu)].length,
   2,
@@ -218,9 +218,31 @@ assert.doesNotMatch(
   /slot\.thumbnail \? resolveArticleImageSources/u,
   "thumbnail visibility must not depend on a layout-only slot hint",
 );
-assert.match(newsJs, /important:\s*Array\.from\(\{ length: 6 \}, \(\) => \(\{ height: 80, thumbnail: true \}\)\)/u);
-assert.match(newsJs, /photo:\s*Array\.from\(\{ length: 5 \}, \(\) => \(\{ height: 80, thumbnail: true \}\)\)/u);
-assert.match(newsJs, /video:\s*Array\.from\(\{ length: 5 \}, \(\) => \(\{ height: 62, thumbnail: true \}\)\)/u);
+assert.match(
+  newsJs,
+  /const createArticleSlots = \(count\) => Array\.from\(\{ length: count \}, \(\) => \(\{ height: 80 \}\)\)/u,
+  "every homepage slot must be generated at the same 80px height",
+);
+for (const [sectionId, count] of Object.entries({
+  leadership: 6,
+  important: 6,
+  international: 2,
+  photo: 5,
+  anecdote: 5,
+  document: 6,
+  foreign: 6,
+  video: 5,
+  memory: 5,
+  domestic: 5,
+  social: 5,
+})) {
+  assert.match(
+    newsJs,
+    new RegExp(`${sectionId}:\\s*createArticleSlots\\(${count}\\)`, "u"),
+    `${sectionId} must use ${count} uniform 80px slots`,
+  );
+}
+assert.doesNotMatch(newsJs, /height:\s*(?:40|62)\b/u, "homepage slot definitions must not reintroduce mixed row heights");
 assert.match(newsJs, /important:\s*\{\s*title:\s*"오늘호 기사",\s*limit:\s*6\s*\}/u);
 assert.match(newsJs, /title:\s*"중요소식",\s*limit:\s*6/u);
 assert.match(newsJs, /title:\s*"사진",\s*limit:\s*5,[\s\S]*?media:\s*"image"/u);
@@ -229,6 +251,11 @@ assert.match(
   newsCss,
   /\.news-article-thumbnail\s*\{[\s\S]*?width:\s*120px;[\s\S]*?height:\s*80px;/u,
   "desktop article thumbnails must all be 120 by 80 pixels",
+);
+assert.match(
+  newsCss,
+  /\.news-article-title\s*\{[^}]*white-space:\s*pre-line/su,
+  "homepage titles must render source-authored line breaks",
 );
 assert.doesNotMatch(
   newsCss,
@@ -239,21 +266,24 @@ assert.match(newsCss, /\.news-index-main\s*\{[^}]*min-height:\s*2567px/su);
 assert.match(newsCss, /\.news-board\s*\{[^}]*min-height:\s*2402px/su);
 assert.match(newsCss, /\.news-section\[data-section="important"\]\s*\{[^}]*min-height:\s*636px/su);
 assert.match(newsCss, /\.news-section\[data-section="photo"\]\s*\{[^}]*min-height:\s*538px/su);
-assert.match(newsCss, /\.news-section\[data-section="video"\]\s*\{[^}]*min-height:\s*488px/su);
+assert.match(newsCss, /\.news-section\[data-section="leadership"\]\s*\{[^}]*min-height:\s*706px/su);
+assert.match(newsCss, /\.news-section\[data-section="video"\]\s*\{[^}]*min-height:\s*578px/su);
 assert.match(newsCss, /\.news-list\s*\{[^}]*min-height:\s*var\(--news-list-height\)/su);
 assert.match(
   newsCss,
-  /\.news-article\.has-thumbnail\s*\{[^}]*--news-slot-height:\s*80px/su,
-  "desktop rows with real thumbnails must expand to the uniform 120 by 80 image height",
+  /\.news-article\s*\{[^}]*height:\s*80px;[^}]*flex:\s*0 0 80px;/su,
+  "every homepage article row must remain exactly 80px whether or not it has an image",
 );
+assert.doesNotMatch(newsCss, /\.news-slot-(?:40|62)\b/u, "mixed-height slot styles must be removed");
+assert.doesNotMatch(newsCss, /--news-slot-height/u, "row height must not depend on thumbnail or responsive state");
 assert.match(newsCss, /\.news-section\[data-section="important"\] \.news-list\s*\{[^}]*--news-list-height:\s*570px;[^}]*gap:\s*18px/su);
 assert.match(newsCss, /\.news-section\[data-section="photo"\] \.news-list\s*\{[^}]*--news-list-height:\s*472px;[^}]*gap:\s*18px/su);
-assert.match(newsCss, /\.news-section\[data-section="video"\] \.news-list\s*\{[^}]*--news-list-height:\s*422px;[^}]*gap:\s*28px/su);
+assert.match(newsCss, /\.news-section\[data-section="video"\] \.news-list\s*\{[^}]*--news-list-height:\s*512px;[^}]*gap:\s*28px/su);
 assert.match(newsCss, /\.news-article\.has-thumbnail \.news-article-link\s*\{[^}]*padding-right:\s*156px/su);
 assert.match(
   newsCss,
-  /@media \(max-width: 760px\)[\s\S]*?\.news-article\.has-thumbnail\s*\{[^}]*--news-slot-height:\s*70px[^}]*\}[\s\S]*?\.news-article\.has-thumbnail \.news-article-link\s*\{[^}]*padding-right:\s*125px[\s\S]*?\.news-article-thumbnail\s*\{[^}]*width:\s*105px;[^}]*height:\s*70px/su,
-  "mobile thumbnails must preserve the Figma-derived 105 by 70 size",
+  /@media \(max-width: 760px\)[\s\S]*?\.news-article\.has-thumbnail \.news-article-link\s*\{[^}]*padding-right:\s*125px[\s\S]*?\.news-article-thumbnail\s*\{[^}]*width:\s*105px;[^}]*height:\s*70px/su,
+  "mobile thumbnails may be 105 by 70 while their parent rows stay 80px",
 );
 assert.match(newsCss, /\.news-source-switcher\s*\{[\s\S]*?position:\s*fixed/u, "source selector must remain floating");
 assert.match(newsCss, /bottom:\s*calc\(32px \+ env\(safe-area-inset-bottom, 0px\)\)/u);

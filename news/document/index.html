@@ -7,7 +7,7 @@
     <meta name="description" content="조선중앙통신과 로동신문의 보관 기사입니다." />
     <base href="/" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="stylesheet" href="/news/news.css?v=news-20260822-4" />
+    <link rel="stylesheet" href="/news/news.css?v=news-20260823-2" />
   </head>
   <body class="news-page news-document-page">
     <header class="news-navigation">
@@ -54,6 +54,23 @@
           <span>공유하기</span>
         </button>
         <p class="news-visually-hidden" id="newsShareStatus" role="status" aria-live="polite" aria-atomic="true"></p>
+        <hr class="news-comments-divider" />
+        <section class="news-comments" id="newsComments" aria-labelledby="newsCommentsTitle" aria-busy="true" hidden>
+          <div class="news-comments-compose">
+            <h2 class="news-comments-title" id="newsCommentsTitle">댓글 <span id="newsCommentsCount">0</span></h2>
+            <form class="news-comments-form" id="newsCommentsForm" novalidate>
+              <label class="news-visually-hidden" for="newsCommentName">이름</label>
+              <input class="news-comments-name" id="newsCommentName" name="name" type="text" value="익명" maxlength="20" autocomplete="nickname" />
+              <label class="news-visually-hidden" for="newsCommentContent">댓글</label>
+              <textarea class="news-comments-content" id="newsCommentContent" name="content" maxlength="500" placeholder="자유롭게 의견을 남겨 주세요." required></textarea>
+              <label class="news-comments-honeypot" aria-hidden="true">웹사이트<input id="newsCommentWebsite" name="website" type="text" tabindex="-1" autocomplete="off" /></label>
+              <button class="news-comments-submit" id="newsCommentsSubmit" type="submit" disabled>댓글 남기기</button>
+            </form>
+          </div>
+          <p class="news-comments-status" id="newsCommentsStatus" role="status" aria-live="polite" aria-atomic="true">댓글을 불러오는 중입니다.</p>
+          <ol class="news-comments-list" id="newsCommentsList"></ol>
+          <button class="news-comments-more" id="newsCommentsMore" type="button" hidden>댓글 더 보기</button>
+        </section>
       </article>
     </main>
 
@@ -62,6 +79,7 @@
       <p>각 기사의 저작권은 조선중앙통신 및 로동신문에게 있습니다.</p>
     </footer>
 
-    <script src="/news/detail.js?v=news-20260822-2" defer></script>
+    <script src="/news/comments.js?v=news-comments-20260823-1" defer></script>
+    <script src="/news/detail.js?v=news-detail-20260823-1" defer></script>
   </body>
 </html>

@@ -482,7 +482,7 @@ export function parseKcnaListing(html = "", listingUrl = "", category = {}) {
       if (seen.has(url)) return;
       const scope = findListingItemScope($, element);
       const scopeText = normalizedText(scope.text());
-      const rawTitle = normalizedText(
+      const rawTitle = normalizedTitleText(
         $(element).attr("title")
         || cloneTextWithoutMedia($, $(element))
         || firstCandidateText($, scope, "h1, h2, h3, h4, .title, [class*=title]"),
@@ -824,7 +824,7 @@ export function parseRodongListing(html = "", listingUrl = "", category = {}) {
     const scope = findListingItemScope($, element);
     const linkTitle = cloneTextWithoutMedia($, $(element));
     const scopedTitle = firstCandidateText($, scope, "h1, h2, h3, h4, .title, [class*=title]");
-    const rawTitle = normalizedText(category.id === "video"
+    const rawTitle = normalizedTitleText(category.id === "video"
       ? scopedTitle || $(element).attr("title") || linkTitle
       : linkTitle || $(element).attr("title") || scopedTitle);
     const title = stripTrailingDate(rawTitle);
@@ -884,7 +884,7 @@ function parseRodongPhotoListingEntries($, listingUrl, category) {
     if (!className || !/^fancybox-[a-z0-9_-]+$/iu.test(className)) return;
     const scope = $(`a.${className}`).first().closest(".thumbnail");
     if (!scope.length) return;
-    const title = normalizedText(scope.find(".span-title").first().text());
+    const title = titleTextFromNode($, scope.find(".span-title").first());
     const date = normalizeDate(scope.find(".gallery_cal, .artDate, .date").first().text())
       || normalizeDate(source.match(/his\(["']([^"']+)["']\)/u)?.[1] || "");
     if (!isPlausibleTitle(title) || !date) return;
@@ -923,7 +923,8 @@ export function parseRodongDetail(html = "", detailUrl = "", fallback = {}) {
   const $ = cheerio.load(sourceHtml);
   removeNonContentNodes($);
   const title = stripTrailingDate(
-    bestTitle($, [".article_title", ".article-title", ".rodong_title", ".view_title", "article h1", "main h1", "h1", "h2"])
+    rodongOfficialParagraphTitle($)
+    || bestTitle($, [".article_title", ".article-title", ".rodong_title", ".view_title", "article h1", "main h1", "h1", "h2"])
     || fallback.title
     || "",
   );
@@ -1631,7 +1632,7 @@ function makeRemoteImageDescriptor(reference, sourceId = "") {
 }
 
 function makeNormalizedDocument({ entry, parsed, sourceId, sourceName, images, galleryUrl, mirroredAt }) {
-  const title = normalizedText(parsed.title || entry.title);
+  const title = normalizedTitleText(parsed.title || entry.title);
   const date = normalizeDate(parsed.date || entry.date);
   const body = normalizedBody(parsed.body);
   if (!isPlausibleTitle(title)) throw new Error(`Detail title is missing: ${entry.url}`);
@@ -1935,7 +1936,7 @@ function makeReusedDocument(entry, known, context) {
     categories: normalizeEntryCategories(entry),
     categoryOrders: mergeOfficialCategoryOrders(entry.categoryOrders),
     kind: ["article", "photo", "video"].includes(entry.kind) ? entry.kind : "article",
-    title: normalizedText(entry.title),
+    title: normalizedTitleText(entry.title),
     date: normalizeDate(entry.date),
     url: entry.url,
     body: isKcnaMedia ? "" : normalizedBody(known.body),
@@ -3025,13 +3026,13 @@ function findListingItemScope($, element) {
 function cloneTextWithoutMedia($, node) {
   const clone = node.clone();
   clone.find("img, picture, video, svg, i, time, .date, [class*=date]").remove();
-  return normalizedText(clone.text());
+  return titleTextFromNode($, clone);
 }
 
 function firstCandidateText($, node, selectors) {
   let value = "";
   node.find(selectors).each((_, element) => {
-    if (!value) value = normalizedText($(element).text());
+    if (!value) value = titleTextFromNode($, $(element));
   });
   return value;
 }
@@ -3153,12 +3154,28 @@ function extractParagraphText($, node) {
 
 function bestTitle($, selectors) {
   for (const selector of selectors) {
-    const values = $(selector).map((_, element) => normalizedText($(element).text())).get();
+    const values = $(selector).map((_, element) => titleTextFromNode($, $(element))).get();
     const title = values.find(isPlausibleTitle);
     if (title) return title;
   }
   const meta = normalizedText($("meta[property='og:title']").attr("content") || "");
   return isPlausibleTitle(meta) ? meta : "";
+}
+
+function rodongOfficialParagraphTitle($) {
+  const content = $("#ContDIV").first();
+  if (!content.length) return "";
+  const lines = [];
+  for (const element of content.find("p").toArray()) {
+    const paragraph = $(element);
+    if (!normalizedText(paragraph.text())) continue;
+    if (!paragraph.hasClass("TitleP")) {
+      return lines.join("\n");
+    }
+    const line = titleTextFromNode($, paragraph);
+    if (line) lines.push(line);
+  }
+  return lines.join("\n");
 }
 
 function firstDateFromSelectors($, selectors) {
@@ -3197,10 +3214,36 @@ function normalizeDate(value = "") {
 }
 
 function stripTrailingDate(value = "") {
-  return normalizedText(value)
+  return normalizedTitleText(value)
     .replace(/\s*[\[(]?20\d{2}\s*[.\/-]\s*\d{1,2}\s*[.\/-]\s*\d{1,2}\s*\.?[\])]?\s*$/u, "")
     .replace(/\s*(?:📷|camera)\s*$/iu, "")
     .trim();
+}
+
+const TITLE_BREAK_SENTINEL = "\uE000";
+
+/**
+ * Preserve only source-authored HTML line breaks in titles. Whitespace that
+ * exists merely because the source markup is indented remains collapsible.
+ */
+function titleTextFromNode($, node) {
+  if (!node?.length) return "";
+  const clone = node.clone();
+  clone.find("br").replaceWith(TITLE_BREAK_SENTINEL);
+  return String(clone.text() || "")
+    .split(TITLE_BREAK_SENTINEL)
+    .map((line) => normalizedText(line))
+    .filter(Boolean)
+    .join("\n");
+}
+
+function normalizedTitleText(value = "") {
+  return String(value || "")
+    .replace(/\r\n?/gu, "\n")
+    .split(/\n+/u)
+    .map((line) => normalizedText(line))
+    .filter(Boolean)
+    .join("\n");
 }
 
 function normalizedText(value = "") {

@@ -23,10 +23,16 @@ assert.equal(
   "share icon must preserve the exact exported Figma asset",
 );
 assert.match(html, /<div class="news-document-article">[\s\S]*?<button class="news-document-share"/u);
-assert.match(html, /\/news\/detail\.js\?v=news-20260822-2/u);
+assert.match(html, /\/news\/comments\.js\?v=news-comments-20260823-1/u);
+assert.match(html, /\/news\/detail\.js\?v=news-detail-20260823-1/u);
 assert.match(html, /id="newsShareButton"[^>]*type="button"[^>]*aria-describedby="newsShareStatus"[^>]*disabled/u);
 assert.match(html, /<img src="\/assets\/news-share-link\.svg" alt="" aria-hidden="true" \/>[\s\S]*?<span>공유하기<\/span>/u);
 assert.match(html, /id="newsShareStatus"[^>]*role="status"[^>]*aria-live="polite"[^>]*aria-atomic="true"/u);
+assert.match(html, /<hr class="news-comments-divider" \/>/u);
+assert.match(html, /<section class="news-comments" id="newsComments"[^>]*aria-labelledby="newsCommentsTitle"/u);
+assert.match(html, /id="newsCommentName"[^>]*value="익명"[^>]*maxlength="20"/u);
+assert.match(html, /id="newsCommentContent"[^>]*maxlength="500"[^>]*placeholder="자유롭게 의견을 남겨 주세요\."/u);
+assert.match(html, /id="newsCommentsSubmit"[^>]*type="submit"[^>]*disabled>댓글 남기기<\/button>/u);
 
 assert.match(css, /\.news-document\s*\{[\s\S]*?gap:\s*54px;/u, "share action must sit 54px below the article stack");
 assert.match(css, /\.news-document-article\s*\{[\s\S]*?gap:\s*36px;/u, "hero and article content must keep the Figma spacing");
@@ -44,6 +50,13 @@ for (const expectedStyle of [
   assert.match(shareRule, expectedStyle, `share control is missing ${expectedStyle}`);
 }
 assert.match(css, /\.news-document-share img\s*\{[\s\S]*?width:\s*24px;[\s\S]*?height:\s*24px;/u);
+assert.match(css, /\.news-document-header h1\s*\{[^}]*white-space:\s*pre-line/su, "detail titles must render source-authored line breaks");
+assert.match(css, /\.news-comments-divider\s*\{[^}]*height:\s*1px;[^}]*background:\s*var\(--news-gray-300\)/su);
+assert.match(css, /\.news-comments-compose\s*\{[^}]*gap:\s*40px/su);
+assert.match(css, /\.news-comments-name\s*\{[^}]*height:\s*40px;[^}]*padding:\s*0 12px/su);
+assert.match(css, /\.news-comments-content\s*\{[^}]*height:\s*104px;[^}]*padding:\s*8px 12px/su);
+assert.match(css, /\.news-comments-submit\s*\{[^}]*padding:\s*9px 12px;[^}]*border-radius:\s*10px;[^}]*background:\s*#3b82f6/su);
+assert.match(css, /\.news-comment\s*\{[^}]*gap:\s*10px;[^}]*padding:\s*20px;[^}]*border-radius:\s*20px;[^}]*background:\s*var\(--news-gray-50\)/su);
 
 assert.match(script, /typeof navigator\.share === "function"/u);
 assert.match(script, /const currentUrl = createStableArticleUrl\(\)/u);
@@ -59,6 +72,7 @@ assert.equal(/(?:\/search|data\/search|api\/search|meilisearch)/iu.test(script),
 assert.match(script, /cachedPrimarySource[\s\S]*?cachedSource[\s\S]*?resolveNewsImageProxySource/u,
   "article images must prefer cached files before the official News proxy");
 assert.match(script, /`\/api\/news-image\?\$\{parameters\.toString\(\)\}`/u);
+assert.match(script, /window\.NewsComments\?\.initialize\(articleId\)/u, "comments must initialize only after a published article renders");
 
 assert.deepEqual(
   await renderBodyParagraphs({
@@ -82,6 +96,14 @@ assert.deepEqual(
   await renderBodyParagraphs({ title: "반복 제목", body: "반복 제목" }),
   ["본문이 보관되지 않은 기사입니다."],
   "title-only bodies must render the empty-body fallback",
+);
+assert.deepEqual(
+  await renderBodyParagraphs({
+    title: "첫째 제목줄\n둘째 제목줄",
+    body: "첫째 제목줄\n\n둘째 제목줄\n\n실제 기사 본문",
+  }),
+  ["실제 기사 본문"],
+  "every canonical title line must be removed from the body prefix without hiding the article text",
 );
 
 const rolloverArticle = { title: "오래 공유되는 기사", body: "새 스냅샷에서도 읽히는 본문" };
