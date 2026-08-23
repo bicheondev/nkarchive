@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-23T00:00:00.000Z",
-  "version": "293896d4c38230c1",
+  "version": "e1a15217c8617362",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,35 +8,37 @@
   "section": "domestic",
   "page": 815,
   "pageSize": 5,
-  "totalItems": 4140,
-  "totalPages": 828,
+  "totalItems": 4150,
+  "totalPages": 830,
   "articles": [
     {
-      "id": "news:kcna:9bb5473eb7355b44f4ce7863",
-      "title": "121호림업련합기업소창립 30돐 기념보고회 진행",
-      "date": "2025-08-30",
-      "snippet": "(평양 8월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3f424eaf042cbd60061579de7330e94f",
+      "id": "news:kcna:b94eee4e38ac52e5b0f6812b",
+      "title": "자강도 우시군 평상리에서 살림집입사모임 진행",
+      "date": "2025-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b5061e4a6c07c74e93eb3b7a6772397f",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 4071
+        "domestic": 4071,
+        "social": 672
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9bb5473eb7355b44f4ce7863"
+      "thumbnailUrl": "http://www.kcna.kp/photo/f7e7c2e4a594d1a7363b96695643a72a1f06c3c1c20ef67ba3df8c3a31455e6e",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/fd6921a0b1abee191c0d16ad1bc5dfe458ca9aa61947352119058190a2a29b27.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab94eee4e38ac52e5b0f6812b"
     },
     {
-      "id": "news:kcna:08019e8d8e3dc70df7829236",
-      "title": "농업부문에서 재해성이상기후에 의한 농작물피해를 최소화하기 위한 사업 전개",
+      "id": "news:kcna:1751a3c5db8eb889e2f9dee5",
+      "title": "평양시에서 공장대학부문 실험기구 및 교육지원프로그람전시회 진행",
       "date": "2025-08-30",
       "snippet": "(평양 8월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5cab3273c9636ebeea5d6ee1d3c3ba37",
+      "url": "http://www.kcna.kp/kp/article/detail/f0c5d5f2f3a2771aa7b8a0b7130a93c6",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -49,14 +51,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A08019e8d8e3dc70df7829236"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1751a3c5db8eb889e2f9dee5"
     },
     {
-      "id": "news:kcna:e2df9a5ff3c9147555a54aa1",
-      "title": "2.16예술교육출판사에서 예술교육도서들 새로 발행",
-      "date": "2025-08-29",
-      "snippet": "(평양 8월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8f4eeea5f9314aa92f6a1e102b7f73e0",
+      "id": "news:kcna:e3579bfcff7957c24f0ce30b",
+      "title": "2025년 8월 30일 신문개관",
+      "date": "2025-08-30",
+      "snippet": "(평양 8월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0ec0526003f1fbd923060ec93742e098",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -69,34 +71,36 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae2df9a5ff3c9147555a54aa1"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae3579bfcff7957c24f0ce30b"
     },
     {
-      "id": "news:kcna:cfa6d81e838dace59f8f1809",
-      "title": "2025년 8월 29일 신문개관",
-      "date": "2025-08-29",
-      "snippet": "(평양 8월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ce68420f2fb58cba7953297dc59a8789",
+      "id": "news:kcna:8e8f848f85173f91e3335eb2",
+      "title": "조선인민군 해외작전부대 참전군인들에 대한 국가표창수여식 진행",
+      "date": "2025-08-30",
+      "snippet": "(평양 8월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e53847681f30e35efaefacd9232f7979",
       "mediaType": "article",
       "categories": [
+        "important",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 517,
         "domestic": 4074
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acfa6d81e838dace59f8f1809"
+      "thumbnailUrl": "http://www.kcna.kp/photo/08b9d593fb21b369c5876242488caa83524a594e6edf2a7767beb2fb8bb03a8a",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/91296936b453121a667fa73251e57558c8201234991b19cc055baa02927cb646.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8e8f848f85173f91e3335eb2"
     },
     {
-      "id": "news:kcna:0f5f7c7b3d537e85cb3b9cef",
-      "title": "평양시 만경대구역에서 새로운 밀재배방법 도입,모든 농장이 다수확농장의 영예 쟁취",
-      "date": "2025-08-29",
-      "snippet": "(평양 8월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8821cf9844652e1e896d2fbf31215299",
+      "id": "news:kcna:102115fd0960d61d79f6cced",
+      "title": "석탄공업부문에서 새 탄광,새 갱건설에 주력",
+      "date": "2025-08-30",
+      "snippet": "(평양 8월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6b50fc1a15d6e1d0f002816f2a23a189",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -109,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0f5f7c7b3d537e85cb3b9cef"
+      "detailUrl": "/news/document?id=news%3Akcna%3A102115fd0960d61d79f6cced"
     }
   ]
 }

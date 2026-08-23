@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-23T00:00:00.000Z",
-  "version": "293896d4c38230c1",
+  "version": "e1a15217c8617362",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 40,
   "pageSize": 5,
-  "totalItems": 221,
+  "totalItems": 222,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:eb4a6bccd72daea9db942948",
+      "title": "한장의 현장속보를 보시고도",
+      "date": "2025-10-01",
+      "snippet": "1971년 5월 어느날 위대한 령도자 김정일동지께서 모내기가 한창인 청산리를 찾으시였을 때였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/e8f2bb76ce7ce315c6da7bb2665a9d09",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 195
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aeb4a6bccd72daea9db942948"
+    },
     {
       "id": "news:kcna:d415a5d9719d97076840664a",
       "title": "우리 인민에게 더 좋은 신발을 안겨주시려고",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 195
+        "memory": 196
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 196
+        "memory": 197
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 197
+        "memory": 198
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 198
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Add48911274914b78b945f302"
-    },
-    {
-      "id": "news:kcna:1678109f84e39b2e1ae0cf39",
-      "title": "진펄길도 마다하지 않으시고",
-      "date": "2025-09-23",
-      "snippet": "위대한 수령 김일성동지께서는 1954년 4월 15일 이른새벽 중화군 삼정리(당시)를 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/6b017f477334126d29aefeb7691dba8a",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 199
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1678109f84e39b2e1ae0cf39"
+      "detailUrl": "/news/document?id=news%3Akcna%3Add48911274914b78b945f302"
     }
   ]
 }

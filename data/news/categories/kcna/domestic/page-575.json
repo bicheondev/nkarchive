@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-23T00:00:00.000Z",
-  "version": "293896d4c38230c1",
+  "version": "e1a15217c8617362",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,15 @@
   "section": "domestic",
   "page": 575,
   "pageSize": 5,
-  "totalItems": 4140,
-  "totalPages": 828,
+  "totalItems": 4150,
+  "totalPages": 830,
   "articles": [
     {
-      "id": "news:kcna:3f41e86d2c34757ada286bab",
-      "title": "콩농사성과발표회 진행",
-      "date": "2025-12-04",
-      "snippet": "(평양 12월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4736cd58304603b40e8be4b18070f4d1",
+      "id": "news:kcna:1ea925ed9c89684413e55979",
+      "title": "개건현대화된 함흥밀가공공장 준공",
+      "date": "2025-12-05",
+      "snippet": "(평양 12월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a9e5d16adf1a27e0a1b314479427510b",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -29,14 +29,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3f41e86d2c34757ada286bab"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1ea925ed9c89684413e55979"
     },
     {
-      "id": "news:kcna:e02c9d4bff0ade92a26214a6",
-      "title": "함흥시세멘트공장 기와분공장 준공",
-      "date": "2025-12-04",
-      "snippet": "(평양 12월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2f470a5394d780ebb41a8b1f5d4f6d87",
+      "id": "news:kcna:779eeefbce7428b2067927cb",
+      "title": "새로 건설된 청진물놀이장 준공",
+      "date": "2025-12-05",
+      "snippet": "(평양 12월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a1aea068c5c8cf634117924041c6cc0f",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -45,38 +45,40 @@
         "domestic": 2872
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae02c9d4bff0ade92a26214a6"
+      "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f522545754a10c5c53d64c372d3173ec2a",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/9baa91886e6b44260e05a9cb5c31ebb76e223a4f8e222d82c1a2fdbd4bcd4914.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A779eeefbce7428b2067927cb"
     },
     {
-      "id": "news:kcna:debd89b0dcac535727f2c457",
-      "title": "평양양말공장에서 자동포장기 새로 제작,시운전 진행",
-      "date": "2025-12-04",
-      "snippet": "(평양 12월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9fcf762feed0180e0a004db7d7a88d37",
+      "id": "news:kcna:af32207bd8a3c10510ccf424",
+      "title": "남포시 강서구역 잠진농장,룡강군 룡호농장 살림집입사모임 진행",
+      "date": "2025-12-05",
+      "snippet": "(평양 12월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2d814dfe5221e4c6a9ba4a833f5b36f8",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 2873
+        "domestic": 2873,
+        "social": 452
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adebd89b0dcac535727f2c457"
+      "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f5240fff1efe4f6114e66fd5fe529f5fe5",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/fcdedf5f34ade0f7a40307a93d603d311edbf42ceace34c6fc965afb162e2c50.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaf32207bd8a3c10510ccf424"
     },
     {
-      "id": "news:kcna:40e0ed72077ba65eba13add7",
-      "title": "개건된 경성타일공장 준공",
-      "date": "2025-12-04",
-      "snippet": "(평양 12월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/eabc501edf8dc861bdc2024030a3721d",
+      "id": "news:kcna:411eabeaec1e856651917ecb",
+      "title": "평안남도에서 환경보호연구소를 새로 건설",
+      "date": "2025-12-05",
+      "snippet": "(평양 12월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c47e8f10a7a9a26d972a4301e896c8cf",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -89,29 +91,27 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A40e0ed72077ba65eba13add7"
+      "detailUrl": "/news/document?id=news%3Akcna%3A411eabeaec1e856651917ecb"
     },
     {
-      "id": "news:kcna:5ea5e91591c62d3e137b14ef",
-      "title": "우리 나라 주재 윁남대사관 사진전시회와 연회 마련",
-      "date": "2025-12-04",
-      "snippet": "(평양 12월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/726bd2e242ca8e5369f3f1a008cf5cbe",
+      "id": "news:kcna:3adb9627d506e054c083b33f",
+      "title": "제55차 예술인체육대회 진행",
+      "date": "2025-12-05",
+      "snippet": "(평양 12월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/97ee945a202d4db99f73bf5c061dc696",
       "mediaType": "article",
       "categories": [
-        "foreign",
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 466,
         "domestic": 2875
       },
       "featuredSections": [],
-      "hasImage": true,
+      "hasImage": false,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f557824b9bbf78acf3f4830275ed7b29ea",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/4d3fb8f492da3eb1173ad7d517ca61ce8659016956b079c46be6557475bdc885.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5ea5e91591c62d3e137b14ef"
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3adb9627d506e054c083b33f"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-23T00:00:00.000Z",
-  "version": "293896d4c38230c1",
+  "version": "e1a15217c8617362",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 15,
   "pageSize": 5,
-  "totalItems": 221,
+  "totalItems": 222,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:f47a7eef443d3df1ebafa417",
+      "title": "료양소에서 날린 지급전보",
+      "date": "2026-04-23",
+      "snippet": "위대한 수령 김일성동지께서는 1948년 6월 어느날 평강료양소(당시)를 찾으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/0f468d17cebb6b928cdc8f46480650d9",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 70
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af47a7eef443d3df1ebafa417"
+    },
     {
       "id": "news:kcna:aba9ef4f5e6b12edbb20bd27",
       "title": "수첩에 적으신 상품이름",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 70
+        "memory": 71
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 71
+        "memory": 72
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 72
+        "memory": 73
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 73
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad3831bb8276f23e203295d92"
-    },
-    {
-      "id": "news:kcna:fe08de150c836a4ad3f730dd",
-      "title": "사랑의 특별렬차",
-      "date": "2026-04-14",
-      "snippet": "1993년 12월초 어느날이였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/2083c6c57d309d737e777f2b7e17dda0",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 74
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afe08de150c836a4ad3f730dd"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad3831bb8276f23e203295d92"
     }
   ]
 }

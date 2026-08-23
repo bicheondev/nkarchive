@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-23T00:00:00.000Z",
-  "version": "293896d4c38230c1",
+  "version": "e1a15217c8617362",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 37,
   "pageSize": 5,
-  "totalItems": 221,
+  "totalItems": 222,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:4e5f937c37ac5ade5884812f",
+      "title": "초막에서 맞으신 새날",
+      "date": "2025-10-23",
+      "snippet": "1950년 10월 어느날 평안북도 창성군에서 있은 일이다.",
+      "url": "http://www.kcna.kp/kp/article/detail/e7e2464084d9b27a64cbbbd898b9ec66",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 180
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4e5f937c37ac5ade5884812f"
+    },
     {
       "id": "news:kcna:96e2d43367843c8406cc5657",
       "title": "우리 제약공업의 사명",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 180
+        "memory": 181
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 181
+        "memory": 182
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 182
+        "memory": 183
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 183
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab1b7786ee68f3fab29790d37"
-    },
-    {
-      "id": "news:kcna:a35168d039829dbd2b53a95d",
-      "title": "먼저 사용해보신 주사기",
-      "date": "2025-10-14",
-      "snippet": "위대한 령도자 김정일동지께서 2000년 12월 어느날 대동강주사기공장을 현지지도하시고 돌아가실 때였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/56878413f70510cf42cb1a6d391e788e",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 184
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa35168d039829dbd2b53a95d"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab1b7786ee68f3fab29790d37"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-23T00:00:00.000Z",
-  "version": "293896d4c38230c1",
+  "version": "e1a15217c8617362",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 33,
   "pageSize": 5,
-  "totalItems": 221,
+  "totalItems": 222,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:ff569585f49ddce20fbc4cfc",
+      "title": "나쁜 땅이란 없다",
+      "date": "2025-11-21",
+      "snippet": "1974년 10월 어느날 위대한 령도자 김정일동지께서 한 농장을 찾으시였을 때였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/8965f57a37e407d8e55ff2ba5e6c5fae",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 160
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aff569585f49ddce20fbc4cfc"
+    },
     {
       "id": "news:kcna:2943fec92a8fc7f7c1e9c0a2",
       "title": "원아들과 보내신 하루",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 160
+        "memory": 161
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 161
+        "memory": 162
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 162
+        "memory": 163
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 163
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4e017c9bce24e9e778d21dec"
-    },
-    {
-      "id": "news:kcna:ce81ef8b7659eeea14a61a25",
-      "title": "장연호가 전하는 이야기",
-      "date": "2025-11-12",
-      "snippet": "1967년 7월 어느날 위대한 령도자 김정일동지께서는 함경남도 북청군 장호수산협동조합을 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/1e19c4efb34945de03371fb64d6652d3",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 164
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ace81ef8b7659eeea14a61a25"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4e017c9bce24e9e778d21dec"
     }
   ]
 }

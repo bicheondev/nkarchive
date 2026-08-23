@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-23T00:00:00.000Z",
-  "version": "293896d4c38230c1",
+  "version": "e1a15217c8617362",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 7,
   "pageSize": 5,
-  "totalItems": 221,
+  "totalItems": 222,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:52f1ca7f4e9e1b0a32234d14",
+      "title": "인민군전사들의 위훈을 빛내여주시며",
+      "date": "2026-06-30",
+      "snippet": "1950년 6월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/b7f8d53a98577d898ee8477e627f3b9c",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 30
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A52f1ca7f4e9e1b0a32234d14"
+    },
     {
       "id": "news:kcna:b8002eaa0ff596daa20a0ba8",
       "title": "전화의 나날에 일떠선 기계제작공업기지",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 30
+        "memory": 31
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 31
+        "memory": 32
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 32
+        "memory": 33
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 33
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae4f2985fed619c46627924dc"
-    },
-    {
-      "id": "news:kcna:57bb5b45bfa83750fa824d2c",
-      "title": "약수터가 전하는 사연",
-      "date": "2026-06-22",
-      "snippet": "위대한 수령 김일성동지께서는 1946년 8월 어느날 당시의 강서군 청산리소재지에서 10리가량 떨어진 한 약수터를 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/d4b7356d5ee881d85b030843997247ae",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 34
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A57bb5b45bfa83750fa824d2c"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae4f2985fed619c46627924dc"
     }
   ]
 }

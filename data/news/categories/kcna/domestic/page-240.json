@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-23T00:00:00.000Z",
-  "version": "293896d4c38230c1",
+  "version": "e1a15217c8617362",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,37 +8,35 @@
   "section": "domestic",
   "page": 240,
   "pageSize": 5,
-  "totalItems": 4140,
-  "totalPages": 828,
+  "totalItems": 4150,
+  "totalPages": 830,
   "articles": [
     {
-      "id": "news:kcna:3673edd05ece4b44992e29bc",
-      "title": "제24차 평양봄철국제상품전람회 개막",
-      "date": "2026-05-05",
-      "snippet": "(평양 5월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/aa3e96c65f12c5904ede32d5e9005112",
+      "id": "news:kcna:2ffcc08169fc24692cc64fd1",
+      "title": "검덕지구 살림집 및 공공건물공사 추진",
+      "date": "2026-05-06",
+      "snippet": "(평양 5월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0a28022f64b643dcd5238950f334eb3f",
       "mediaType": "article",
       "categories": [
-        "foreign",
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 184,
         "domestic": 1195
       },
       "featuredSections": [],
-      "hasImage": true,
+      "hasImage": false,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e0000643c2a90a9f617998b6a23db3051715637",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/dc25d74ecaedb630c20bad9900df379ef34e16ce8acd64df587f9f14911746b5.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3673edd05ece4b44992e29bc"
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2ffcc08169fc24692cc64fd1"
     },
     {
-      "id": "news:kcna:5c6cf4280ac0a1842873e9bf",
-      "title": "개성시의 보건부문에서 효률적인 치료방법 도입",
-      "date": "2026-05-05",
-      "snippet": "(평양 5월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/28b8c11bb313c0ee76636a38a6e29e2b",
+      "id": "news:kcna:fa66f88ec844b15eeae06bda",
+      "title": "《농촌건설평양시마감건재전시회-2026》 진행",
+      "date": "2026-05-06",
+      "snippet": "(평양 5월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9b5667107146b2cc61c1be5577c71a00",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -51,14 +49,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5c6cf4280ac0a1842873e9bf"
+      "detailUrl": "/news/document?id=news%3Akcna%3Afa66f88ec844b15eeae06bda"
     },
     {
-      "id": "news:kcna:5a944c9920727dfff4dfb28a",
-      "title": "남포시에서 농촌살림집,공공건물공사 추진",
-      "date": "2026-05-05",
-      "snippet": "(평양 5월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7dcc02d992ca937bcbe0abac45520f09",
+      "id": "news:kcna:1f0be6e700ec49392ad3075d",
+      "title": "《소년신문》창간 80돐 기념보고회 진행",
+      "date": "2026-05-06",
+      "snippet": "(평양 5월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/957edbbfcd2a24f72961580bd9780284",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -71,34 +69,36 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5a944c9920727dfff4dfb28a"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1f0be6e700ec49392ad3075d"
     },
     {
-      "id": "news:kcna:42d7d527d3395be39be57f91",
-      "title": "조선혁명의 백승사에 빛나는 위대한 단결",
-      "date": "2026-05-05",
-      "snippet": "(평양 5월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5e76385fe3460c7afea4d823a4f17fe4",
+      "id": "news:kcna:00aee4d3fa9c4ea81b19e2cc",
+      "title": "강원도에서 농촌학교들을 도와주는 사업 추진",
+      "date": "2026-05-06",
+      "snippet": "(평양 5월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b4f6f3668951bfd190b8b3dd11d040ba",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 1198
+        "domestic": 1198,
+        "social": 120
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A42d7d527d3395be39be57f91"
+      "detailUrl": "/news/document?id=news%3Akcna%3A00aee4d3fa9c4ea81b19e2cc"
     },
     {
-      "id": "news:kcna:d342d00d968ae6810e3ba76c",
-      "title": "인민경제 모든 부문,단위에서 대중적혁신운동 전개,당대회이후 공업생산 지난해 같은 시기에 비해 107% 장성",
+      "id": "news:kcna:a744b5a4485b8c556776eda1",
+      "title": "조국해방의 서광을 안아온 력사적사변",
       "date": "2026-05-05",
       "snippet": "(평양 5월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/302e05212addbf7e8dcce73fac373339",
+      "url": "http://www.kcna.kp/kp/article/detail/a67a880ac3a6dd826954bc62625c1f04",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad342d00d968ae6810e3ba76c"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa744b5a4485b8c556776eda1"
     }
   ]
 }

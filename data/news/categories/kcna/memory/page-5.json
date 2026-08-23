@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-23T00:00:00.000Z",
-  "version": "293896d4c38230c1",
+  "version": "e1a15217c8617362",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 5,
   "pageSize": 5,
-  "totalItems": 221,
+  "totalItems": 222,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:d98524016ca3019e07c7cfed",
+      "title": "토끼기르기를 결심하신 사연",
+      "date": "2026-07-22",
+      "snippet": "조국해방전쟁이 한창이던 1951년 5월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/851ead6db3ba60ef5b5fcc3b72bc86a6",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 20
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad98524016ca3019e07c7cfed"
+    },
     {
       "id": "news:kcna:b976a7b25cfbce96a08dfcfe",
       "title": "행군의 중요성을 깨우쳐주시며",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 20
+        "memory": 21
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 21
+        "memory": 22
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 22
+        "memory": 23
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 23
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0ce5fa3b5463cc3a0603fd26"
-    },
-    {
-      "id": "news:kcna:540a420e7ddd62eef32d0a48",
-      "title": "당겨진 일정계획",
-      "date": "2026-07-09",
-      "snippet": "위대한 수령 김일성동지께서는 자강도에 대한 현지지도를 앞둔 1958년 7월 어느날 한 일군에게 여러 대상을 찍어주시며 구체적인 일정계획을 짜보라고 하시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/bba6cde4a01f38a003cd1df6ae40803d",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 24
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A540a420e7ddd62eef32d0a48"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0ce5fa3b5463cc3a0603fd26"
     }
   ]
 }
