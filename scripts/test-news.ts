@@ -151,6 +151,13 @@ for (const source of standaloneSources) {
 assert.match(indexHtml, /id="newsSearchInput"/u, "news search must be a page-local filter");
 assert.equal(newsJs.includes("localStorage"), false, "KCNA must be the deterministic default source");
 assert.match(newsJs, /let activeSourceId = "kcna"/u);
+assert.match(indexHtml, /news-20260823-1/u, "the homepage script cache key must change with the section label");
+assert.equal(
+  [...newsJs.matchAll(/title:\s*"혁명활동소식"/gu)].length,
+  2,
+  "both official sources must use the concise leadership section label",
+);
+assert.doesNotMatch(newsJs, /경애하는 김정은동지의 혁명활동소식/u);
 assert.doesNotMatch(newsJs, /news-details\.json/u, "homepage must load only the preview feed");
 assert.match(categoryJs, /\/data\/news\/categories/u, "category pages must load only their requested static page");
 assert.doesNotMatch(categoryJs, /news-feed\.json|news-details\.json/u, "category pages must not download a whole archive");

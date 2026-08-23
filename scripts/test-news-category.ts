@@ -16,7 +16,7 @@ assert.match(html, /id="newsCategorySearchInput"/u);
 assert.match(html, /id="newsCategoryPagination"[^>]*aria-label="카테고리 페이지"/u);
 assert.match(html, /\/news\/category\.css/u);
 assert.match(html, /\/news\/category\.js/u);
-assert.match(html, /news-category-20260822-3/u);
+assert.match(html, /news-category-20260823-1/u);
 
 assert.match(script, /const CATEGORY_ROOT_URL = "\/data\/news\/categories"/u);
 assert.doesNotMatch(script, /\/data\/news-feed\.json/u, "category pages must not download the homepage preview feed");
@@ -32,6 +32,12 @@ assert.match(script, /parameters\.get\("page"\)/u);
 assert.match(script, /parameters\.get\("q"\)/u);
 assert.match(script, /const PAGE_SIZE = 5/u);
 assert.match(script, /const PAGE_WINDOW = 5/u);
+assert.equal(
+  [...script.matchAll(/leadership:\s*"혁명활동소식"/gu)].length,
+  2,
+  "both category sources must use the concise leadership label",
+);
+assert.doesNotMatch(script, /경애하는 김정은동지의 혁명활동소식/u);
 assert.match(script, /news-pagination-arrow-left\.svg/u);
 assert.doesNotMatch(script, /\/data\/search|\/api\/search|\/search\/results|meilisearch/iu);
 assert.doesNotMatch(script, /latest-day|category\.sourceId\s*===\s*["']rodong-sinmun["']/u);

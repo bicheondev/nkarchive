@@ -11,7 +11,7 @@
     kcna: {
       name: "조선중앙통신",
       sections: {
-        leadership: "경애하는 김정은동지의 혁명활동소식",
+        leadership: "혁명활동소식",
         important: "중요소식",
         international: "국제소식",
         photo: "사진",
@@ -27,7 +27,7 @@
     "rodong-sinmun": {
       name: "로동신문",
       sections: {
-        leadership: "경애하는 김정은동지의 혁명활동소식",
+        leadership: "혁명활동소식",
         important: "오늘호 기사",
         photo: "사진",
         anecdote: "인민을 위한 정치",

@@ -20,7 +20,7 @@
   const SECTION_DEFINITIONS = {
     kcna: {
       leadership: {
-        title: "경애하는 김정은동지의 혁명활동소식",
+        title: "혁명활동소식",
         limit: 6,
       },
       important: {
@@ -68,7 +68,7 @@
     },
     "rodong-sinmun": {
       leadership: {
-        title: "경애하는 김정은동지의 혁명활동소식",
+        title: "혁명활동소식",
         limit: 6,
       },
       important: { title: "오늘호 기사", limit: 6 },
