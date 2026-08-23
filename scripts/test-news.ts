@@ -4,22 +4,42 @@ import { createHash } from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildNewsSnapshot, parseNewsDocumentsJsonl } from "./news-snapshot.ts";
+import {
+  NEWS_SOURCE_SECTION_IDS,
+  buildNewsSnapshot,
+  newsDetailShardForId,
+  parseNewsDocumentsJsonl,
+} from "./news-snapshot.ts";
 import { isIgnoredByRules, parseVercelIgnore } from "./verify-vercel-bundle.ts";
 
 const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(SCRIPT_DIR, "..");
 const read = (relativePath) => fs.readFile(path.join(ROOT_DIR, relativePath), "utf8");
 
-const [documentsText, feedText, detailsText, indexHtml, documentHtml, newsJs, detailJs, newsCss] = await Promise.all([
+const [
+  documentsText,
+  feedText,
+  detailsText,
+  imageProxyAllowlistText,
+  indexHtml,
+  documentHtml,
+  newsJs,
+  categoryJs,
+  detailJs,
+  newsCss,
+  newsImageApi,
+] = await Promise.all([
   read("data/news/documents.jsonl"),
   read("data/news-feed.json"),
   read("data/news-details.json"),
+  read("data/news/image-proxy-allowlist.json"),
   read("news/index.html"),
   read("news/document/index.html"),
   read("news/news.js"),
+  read("news/category.js"),
   read("news/detail.js"),
   read("news/news.css"),
+  read("api/news-image.js"),
 ]);
 
 const documents = parseNewsDocumentsJsonl(documentsText, "data/news/documents.jsonl");
@@ -41,18 +61,58 @@ assert.equal(
   false,
   "the News Pretendard font must be included in the Vercel deployment",
 );
+assert.equal(
+  isIgnoredByRules("data/news/documents.jsonl", vercelIgnoreRules),
+  true,
+  "the canonical News corpus must stay out of the browser deployment",
+);
 const expected = buildNewsSnapshot(documents, { requireQuotaReady: false });
 assert.equal(feedText, expected.feedText, "news feed must be generated only from data/news/documents.jsonl");
 assert.equal(detailsText, expected.detailsText, "news details must be generated only from data/news/documents.jsonl");
+assert.equal(
+  imageProxyAllowlistText,
+  expected.imageProxyAllowlistText,
+  "news image proxy allowlist must exactly match the canonical published image/referer pairs",
+);
 assert.equal(feed.version, details.version);
 assert.equal(feed.generatedAt, details.generatedAt);
 assert.match(feed.version, /^[a-f0-9]{16}$/u);
+assert.equal(details.shardCount, 256);
+assert.equal(details.shardPattern, "/data/news/details/{shard}.json");
+
+const expectedDetailFiles = [...expected.detailShardTexts.keys()].map((shard) => `${shard}.json`).sort();
+const actualDetailFiles = (await listRelativeFiles("data/news/details")).sort();
+assert.deepEqual(actualDetailFiles, expectedDetailFiles, "detail shard files must exactly match the generated 256-shard manifest");
+for (const [shard, text] of expected.detailShardTexts) {
+  assert.equal(await read(`data/news/details/${shard}.json`), text, `detail shard ${shard} must be deterministic`);
+}
+
+const expectedCategoryFiles = [...expected.categoryPageTexts.keys()].sort();
+const actualCategoryFiles = (await listRelativeFiles("data/news/categories")).sort();
+assert.deepEqual(actualCategoryFiles, expectedCategoryFiles, "category page files must exactly match the generated five-row shards");
+for (const [relativePath, text] of expected.categoryPageTexts) {
+  assert.equal(await read(`data/news/categories/${relativePath}`), text, `${relativePath} must be deterministic`);
+}
+
+const detailArticles = Object.fromEntries(
+  [...expected.detailShards.values()].flatMap((payload) => Object.entries(payload.articles)),
+);
+assert.equal(Object.keys(detailArticles).length, details.totalItems);
 
 for (const sourceId of ["kcna", "rodong-sinmun"]) {
   const source = feed.sources[sourceId];
   assert.ok(source && Array.isArray(source.articles) && source.articles.length, `${sourceId} feed must not be empty`);
+  assert.equal(Number.isSafeInteger(source.totalItems), true, `${sourceId} must publish its full archive count`);
+  assert.ok(source.totalItems >= source.articles.length, `${sourceId} homepage feed must be preview-only`);
+  assert.equal(typeof source.categoryCounts, "object", `${sourceId} must publish category counts`);
+  assert.deepEqual(
+    Object.keys(source.categoryCounts),
+    NEWS_SOURCE_SECTION_IDS[sourceId],
+    `${sourceId} must publish only its official category counts`,
+  );
   for (const article of source.articles) {
-    assert.equal(Object.hasOwn(details.articles, article.id), true, `${article.id} must have standalone details`);
+    const shard = expected.detailShards.get(newsDetailShardForId(article.id));
+    assert.equal(Object.hasOwn(shard.articles, article.id), true, `${article.id} must have sharded standalone details`);
     assert.equal(/^\s*(?:조선중앙통신|KCNA)\s*\|/iu.test(article.title), false, "source chrome must not appear in titles");
     assert.equal(
       article.detailUrl,
@@ -70,27 +130,47 @@ for (const sourceId of ["kcna", "rodong-sinmun"]) {
   }
 }
 
-for (const article of Object.values(details.articles)) {
+const checkedAssets = new Set();
+for (const article of Object.values(detailArticles)) {
   assert.equal(article.sourceId === "kcna" || article.sourceId === "rodong-sinmun", true);
   for (const record of [article, ...(article.images || [])]) {
     for (const localUrl of [record.cachedUrl, record.cachedThumbnailUrl].filter(Boolean)) {
       assertNewsAssetUrl(localUrl);
-      await assertAssetIntegrity(localUrl);
+      if (!checkedAssets.has(localUrl)) {
+        checkedAssets.add(localUrl);
+        await assertAssetIntegrity(localUrl);
+      }
     }
   }
 }
 
-const standaloneSources = [indexHtml, documentHtml, newsJs, detailJs];
+const standaloneSources = [indexHtml, documentHtml, newsJs, categoryJs, detailJs, newsImageApi];
 for (const source of standaloneSources) {
   assert.equal(/(?:href|src)=["']\/search|data\/search|api\/search|meilisearch/iu.test(source), false, "news runtime must not depend on Search");
 }
 assert.match(indexHtml, /id="newsSearchInput"/u, "news search must be a page-local filter");
 assert.equal(newsJs.includes("localStorage"), false, "KCNA must be the deterministic default source");
 assert.match(newsJs, /let activeSourceId = "kcna"/u);
+assert.doesNotMatch(newsJs, /news-details\.json/u, "homepage must load only the preview feed");
+assert.match(categoryJs, /\/data\/news\/categories/u, "category pages must load only their requested static page");
+assert.doesNotMatch(categoryJs, /news-feed\.json|news-details\.json/u, "category pages must not download a whole archive");
+assert.match(detailJs, /\/data\/news\/details/u, "detail pages must load one deterministic id shard");
+assert.doesNotMatch(detailJs, /\/data\/news-details\.json/u, "detail pages must not download a whole archive");
+assert.match(detailJs, /Math\.imul\(hash, 0x01000193\)/u, "client and generator must share the documented FNV-1a hash");
 assert.equal(newsJs.includes("appendHighlightedTitle"), false, "article names must not receive person-specific bold markup");
 assert.equal(newsJs.includes("createElement(\"strong\")"), false);
 assert.equal(newsJs.includes("patterns:"), false, "official categories must never be filled by title-keyword guessing");
 assert.equal(newsJs.includes("latest-day"), false, "Rodong today articles must come from the exact official category");
+assert.match(
+  newsJs,
+  /compareArticlesNewestFirst\(left, right, definition\.category\)/u,
+  "homepage sections must compare same-date previews in their exact category context",
+);
+assert.match(
+  newsJs,
+  /categoryOrders\?\.\[sectionId\][\s\S]*?Number\.MAX_SAFE_INTEGER/u,
+  "homepage same-date previews must honor official category order with a deterministic fallback",
+);
 assert.match(
   newsJs,
   /kcna:\s*\[\s*\["leadership", "important", "international", "photo"\],\s*\["anecdote", "document", "foreign", "video"\],\s*\["memory", "domestic", "social"\],\s*\]/u,
@@ -119,8 +199,17 @@ assert.match(newsCss, /\.news-section-heading:focus-visible\s*\{[^}]*outline:\s*
 assert.equal(newsJs.includes("news-thumbnail-featured"), false, "all homepage thumbnails must use one visual size");
 assert.match(
   newsJs,
-  /const imageSources = slot\.thumbnail \? resolveArticleImageSources\(article\) : \[\];/u,
-  "only Figma-designated article slots may render a thumbnail",
+  /const imageSources = resolveArticleImageSources\(article\);/u,
+  "every homepage article with a real cached image must render its thumbnail",
+);
+assert.match(newsJs, /sources\.push\(cachedSource\)[\s\S]*?resolveNewsImageProxySource/u,
+  "homepage images must prefer the standalone cache before the official-image proxy");
+assert.match(newsJs, /`\/api\/news-image\?\$\{parameters\.toString\(\)\}`/u,
+  "homepage images must fall back through the standalone News proxy");
+assert.doesNotMatch(
+  newsJs,
+  /slot\.thumbnail \? resolveArticleImageSources/u,
+  "thumbnail visibility must not depend on a layout-only slot hint",
 );
 assert.match(newsJs, /important:\s*Array\.from\(\{ length: 6 \}, \(\) => \(\{ height: 80, thumbnail: true \}\)\)/u);
 assert.match(newsJs, /photo:\s*Array\.from\(\{ length: 5 \}, \(\) => \(\{ height: 80, thumbnail: true \}\)\)/u);
@@ -141,16 +230,22 @@ assert.doesNotMatch(
 );
 assert.match(newsCss, /\.news-index-main\s*\{[^}]*min-height:\s*2567px/su);
 assert.match(newsCss, /\.news-board\s*\{[^}]*min-height:\s*2402px/su);
-assert.match(newsCss, /\.news-section\[data-section="important"\]\s*\{[^}]*height:\s*636px/su);
-assert.match(newsCss, /\.news-section\[data-section="photo"\]\s*\{[^}]*height:\s*538px/su);
-assert.match(newsCss, /\.news-section\[data-section="video"\]\s*\{[^}]*height:\s*488px/su);
+assert.match(newsCss, /\.news-section\[data-section="important"\]\s*\{[^}]*min-height:\s*636px/su);
+assert.match(newsCss, /\.news-section\[data-section="photo"\]\s*\{[^}]*min-height:\s*538px/su);
+assert.match(newsCss, /\.news-section\[data-section="video"\]\s*\{[^}]*min-height:\s*488px/su);
+assert.match(newsCss, /\.news-list\s*\{[^}]*min-height:\s*var\(--news-list-height\)/su);
+assert.match(
+  newsCss,
+  /\.news-article\.has-thumbnail\s*\{[^}]*--news-slot-height:\s*80px/su,
+  "desktop rows with real thumbnails must expand to the uniform 120 by 80 image height",
+);
 assert.match(newsCss, /\.news-section\[data-section="important"\] \.news-list\s*\{[^}]*--news-list-height:\s*570px;[^}]*gap:\s*18px/su);
 assert.match(newsCss, /\.news-section\[data-section="photo"\] \.news-list\s*\{[^}]*--news-list-height:\s*472px;[^}]*gap:\s*18px/su);
 assert.match(newsCss, /\.news-section\[data-section="video"\] \.news-list\s*\{[^}]*--news-list-height:\s*422px;[^}]*gap:\s*28px/su);
 assert.match(newsCss, /\.news-article\.has-thumbnail \.news-article-link\s*\{[^}]*padding-right:\s*156px/su);
 assert.match(
   newsCss,
-  /@media \(max-width: 760px\)[\s\S]*?\.news-article\.has-thumbnail \.news-article-link\s*\{[^}]*padding-right:\s*125px[\s\S]*?\.news-article-thumbnail\s*\{[^}]*width:\s*105px;[^}]*height:\s*70px/su,
+  /@media \(max-width: 760px\)[\s\S]*?\.news-article\.has-thumbnail\s*\{[^}]*--news-slot-height:\s*70px[^}]*\}[\s\S]*?\.news-article\.has-thumbnail \.news-article-link\s*\{[^}]*padding-right:\s*125px[\s\S]*?\.news-article-thumbnail\s*\{[^}]*width:\s*105px;[^}]*height:\s*70px/su,
   "mobile thumbnails must preserve the Figma-derived 105 by 70 size",
 );
 assert.match(newsCss, /\.news-source-switcher\s*\{[\s\S]*?position:\s*fixed/u, "source selector must remain floating");
@@ -172,4 +267,20 @@ async function assertAssetIntegrity(publicUrl) {
   const expectedHash = path.basename(filePath).split(".", 1)[0];
   const actualHash = createHash("sha256").update(bytes).digest("hex");
   assert.equal(actualHash, expectedHash, `${publicUrl} must be content-addressed`);
+}
+
+async function listRelativeFiles(relativeRoot) {
+  const absoluteRoot = path.join(ROOT_DIR, relativeRoot);
+  const output = [];
+  async function visit(directory, prefix = "") {
+    const entries = await fs.readdir(directory, { withFileTypes: true });
+    for (const entry of entries) {
+      const relativePath = prefix ? `${prefix}/${entry.name}` : entry.name;
+      const absolutePath = path.join(directory, entry.name);
+      if (entry.isDirectory()) await visit(absolutePath, relativePath);
+      else if (entry.isFile()) output.push(relativePath);
+    }
+  }
+  await visit(absoluteRoot);
+  return output;
 }

@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "17 0,12 * * *"
   workflow_dispatch:
+    inputs:
+      full_backfill:
+        description: Fetch every official article detail again instead of reusing unchanged archive records
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -15,9 +21,11 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 360
     env:
-      NEWS_MIRROR_REPORT: /tmp/news-mirror-refresh-report.json
+      NEWS_MIRROR_REPORT_DIR: /tmp/news-mirror-refresh-reports
+      NEWS_MIRROR_STATUS_PATH: /tmp/news-mirror-refresh-status.txt
+      NEWS_MIRROR_FULL_BACKFILL: ${{ inputs.full_backfill || false }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -31,41 +39,67 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Refresh KCNA and Rodong mirror
+      - name: Refresh KCNA and Rodong independently
+        shell: bash
         env:
           DPRK_NEWS_CRAWL_PROXY: ${{ secrets.DPRK_NEWS_CRAWL_PROXY }}
-        run: >-
-          npm run refresh:news --
-          --enrich-inline-images
-          --max-list-pages 1
-          --max-documents 96
-          --timeout-ms 120000
-          --max-age-days 4
-          --report "$NEWS_MIRROR_REPORT"
+        run: |
+          set +e
+          mkdir -p "$NEWS_MIRROR_REPORT_DIR"
+          : > "$NEWS_MIRROR_STATUS_PATH"
+          refresh_mode_args=()
+          if [[ "$NEWS_MIRROR_FULL_BACKFILL" == "true" ]]; then
+            refresh_mode_args+=(--full-backfill)
+          fi
+
+          timeout --foreground --signal=TERM --kill-after=30s 240m npm run refresh:news -- \
+            --kcna-only \
+            --enrich-inline-images \
+            --max-list-pages 400 \
+            --max-documents 20000 \
+            --max-documents-per-category 10000 \
+            --max-images-per-document 100 \
+            --max-images-per-crawl 20000 \
+            --max-image-bytes-per-crawl 8589934592 \
+            --defer-remote-images \
+            --timeout-ms 120000 \
+            --max-age-days 4 \
+            --recent-detail-days 7 \
+            "${refresh_mode_args[@]}" \
+            --report "$NEWS_MIRROR_REPORT_DIR/kcna.json"
+          kcna_status=$?
+          printf 'kcna=%s\n' "$kcna_status" >> "$NEWS_MIRROR_STATUS_PATH"
+
+          timeout --foreground --signal=TERM --kill-after=30s 80m npm run refresh:news -- \
+            --rodong-only \
+            --enrich-inline-images \
+            --max-list-pages 400 \
+            --max-documents 20000 \
+            --max-documents-per-category 10000 \
+            --max-images-per-document 100 \
+            --max-images-per-crawl 20000 \
+            --max-image-bytes-per-crawl 8589934592 \
+            --detail-concurrency 2 \
+            --defer-remote-images \
+            --timeout-ms 120000 \
+            --max-age-days 4 \
+            --recent-detail-days 7 \
+            "${refresh_mode_args[@]}" \
+            --report "$NEWS_MIRROR_REPORT_DIR/rodong-sinmun.json"
+          rodong_status=$?
+          printf 'rodong-sinmun=%s\n' "$rodong_status" >> "$NEWS_MIRROR_STATUS_PATH"
+
+          echo "KCNA refresh exit status: $kcna_status"
+          echo "Rodong refresh exit status: $rodong_status"
 
       - name: Reject unexpected generated paths
         shell: bash
         run: |
-          unexpected=0
-          while IFS= read -r -d '' file; do
-            case "$file" in
-              data/news/*|data/news-feed.json|data/news-details.json)
-                ;;
-              *)
-                echo "Unexpected refresh change: $file"
-                unexpected=1
-                ;;
-            esac
-          done < <(
-            {
-              git diff --name-only -z
-              git diff --cached --name-only -z
-              git ls-files --others --exclude-standard -z
-            } | sort -zu
-          )
-          if [[ "$unexpected" -ne 0 ]]; then
-            exit 1
-          fi
+          {
+            git diff --name-only -z
+            git diff --cached --name-only -z
+            git ls-files --others --exclude-standard -z
+          } | sort -zu | node scripts/news-generated-paths.ts --stdin0
 
       - name: Run standalone news release gate
         run: npm run ci:news
@@ -73,26 +107,11 @@ jobs:
       - name: Recheck generated paths after all gates
         shell: bash
         run: |
-          unexpected=0
-          while IFS= read -r -d '' file; do
-            case "$file" in
-              data/news/*|data/news-feed.json|data/news-details.json)
-                ;;
-              *)
-                echo "Unexpected change after gates: $file"
-                unexpected=1
-                ;;
-            esac
-          done < <(
-            {
-              git diff --name-only -z
-              git diff --cached --name-only -z
-              git ls-files --others --exclude-standard -z
-            } | sort -zu
-          )
-          if [[ "$unexpected" -ne 0 ]]; then
-            exit 1
-          fi
+          {
+            git diff --name-only -z
+            git diff --cached --name-only -z
+            git ls-files --others --exclude-standard -z
+          } | sort -zu | node scripts/news-generated-paths.ts --stdin0
 
       - name: Commit refreshed mirror
         shell: bash
@@ -110,11 +129,49 @@ jobs:
           git commit -m "chore: refresh KCNA and Rodong mirror"
           git push origin "HEAD:${GITHUB_REF_NAME}"
 
-      - name: Upload refresh report
+      - name: Fail after preserving successful source refreshes
+        if: always()
+        shell: bash
+        run: |
+          if [[ ! -f "$NEWS_MIRROR_STATUS_PATH" ]]; then
+            echo "Source refresh status file is missing."
+            exit 1
+          fi
+
+          failed=0
+          kcna_seen=0
+          rodong_seen=0
+          while IFS='=' read -r source status; do
+            case "$source" in
+              kcna)
+                kcna_seen=$((kcna_seen + 1))
+                ;;
+              rodong-sinmun)
+                rodong_seen=$((rodong_seen + 1))
+                ;;
+              *)
+                echo "Unexpected source refresh status: ${source:-empty}."
+                failed=1
+                ;;
+            esac
+            if [[ ! "$status" =~ ^[0-9]+$ ]] || [[ "$status" -ne 0 ]]; then
+              echo "$source refresh failed with exit status ${status:-unknown}."
+              failed=1
+            fi
+          done < "$NEWS_MIRROR_STATUS_PATH"
+          if [[ "$kcna_seen" -ne 1 ]] || [[ "$rodong_seen" -ne 1 ]]; then
+            echo "Expected exactly one status for each official news source."
+            failed=1
+          fi
+          exit "$failed"
+
+      - name: Upload refresh reports
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: news-mirror-refresh-report-${{ github.run_id }}
-          path: ${{ env.NEWS_MIRROR_REPORT }}
+          path: |
+            ${{ env.NEWS_MIRROR_REPORT_DIR }}
+            ${{ env.NEWS_MIRROR_STATUS_PATH }}
           if-no-files-found: ignore
           retention-days: 14

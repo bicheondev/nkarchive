@@ -23,6 +23,7 @@ assert.equal(
   "share icon must preserve the exact exported Figma asset",
 );
 assert.match(html, /<div class="news-document-article">[\s\S]*?<button class="news-document-share"/u);
+assert.match(html, /\/news\/detail\.js\?v=news-20260822-2/u);
 assert.match(html, /id="newsShareButton"[^>]*type="button"[^>]*aria-describedby="newsShareStatus"[^>]*disabled/u);
 assert.match(html, /<img src="\/assets\/news-share-link\.svg" alt="" aria-hidden="true" \/>[\s\S]*?<span>공유하기<\/span>/u);
 assert.match(html, /id="newsShareStatus"[^>]*role="status"[^>]*aria-live="polite"[^>]*aria-atomic="true"/u);
@@ -49,9 +50,15 @@ assert.match(script, /const currentUrl = createStableArticleUrl\(\)/u);
 assert.match(script, /await navigator\.share\(\{ title, text: title, url: currentUrl \}\)/u);
 assert.match(script, /await navigator\.clipboard\.writeText\(currentUrl\)/u);
 assert.match(script, /shareStatus\.textContent = "기사 주소를 복사했습니다\."/u);
-assert.match(script, /`\$\{DETAILS_URL\}\?refresh=\$\{Date\.now\(\)\}`/u, "a missing article may retry with an internal cache buster");
+assert.match(script, /const DETAILS_ROOT_URL = "\/data\/news\/details"/u);
+assert.match(script, /newsDetailShardForId\(articleId\)/u);
+assert.match(script, /`\$\{shardUrl\}\?refresh=\$\{Date\.now\(\)\}`/u, "a missing article may retry its deterministic shard with an internal cache buster");
+assert.doesNotMatch(script, /\/data\/news-details\.json/u, "detail pages must not download a whole-corpus payload");
 assert.doesNotMatch(script, /requestedVersion|news_snapshot_mismatch/u, "detail loading must not reject a stable link after a snapshot rollover");
 assert.equal(/(?:\/search|data\/search|api\/search|meilisearch)/iu.test(script), false, "article sharing must remain independent of Search");
+assert.match(script, /cachedPrimarySource[\s\S]*?cachedSource[\s\S]*?resolveNewsImageProxySource/u,
+  "article images must prefer cached files before the official News proxy");
+assert.match(script, /`\/api\/news-image\?\$\{parameters\.toString\(\)\}`/u);
 
 assert.deepEqual(
   await renderBodyParagraphs({
@@ -82,7 +89,7 @@ const rollover = await runDetailPage({
   article: rolloverArticle,
   search: "?id=focused-test-article&v=retired-snapshot",
   href: "https://nkarchive.vercel.app/news/document?id=focused-test-article&v=retired-snapshot&utm_source=test#fragment",
-  payloads: [{ version: "current-snapshot", articles: { "focused-test-article": rolloverArticle } }],
+  payloads: [{ version: "current-snapshot", shard: "6a", articles: { "focused-test-article": rolloverArticle } }],
 });
 assert.deepEqual(
   rollover.elements.get("#newsDocumentBody").children.map((child) => child.textContent),
@@ -90,7 +97,7 @@ assert.deepEqual(
   "a link carrying an obsolete snapshot hint must still load the current retained article",
 );
 assert.deepEqual(rollover.fetchCalls.map(({ url, init }) => ({ url, cache: init.cache })), [
-  { url: "/data/news-details.json", cache: "no-cache" },
+  { url: "/data/news/details/6a.json", cache: "no-cache" },
 ]);
 await rollover.elements.get("#newsShareButton").dispatch("click");
 assert.deepEqual(
@@ -102,13 +109,13 @@ assert.deepEqual(
 const retry = await runDetailPage({
   article: rolloverArticle,
   payloads: [
-    { version: "stale-edge", articles: {} },
-    { version: "current-snapshot", articles: { "focused-test-article": rolloverArticle } },
+    { version: "stale-edge", shard: "6a", articles: {} },
+    { version: "current-snapshot", shard: "6a", articles: { "focused-test-article": rolloverArticle } },
   ],
 });
 assert.equal(retry.fetchCalls.length, 2, "a stale details response missing the retained id must be retried once");
-assert.equal(retry.fetchCalls[0].url, "/data/news-details.json");
-assert.match(retry.fetchCalls[1].url, /^\/data\/news-details\.json\?refresh=\d+$/u);
+assert.equal(retry.fetchCalls[0].url, "/data/news/details/6a.json");
+assert.match(retry.fetchCalls[1].url, /^\/data\/news\/details\/6a\.json\?refresh=\d+$/u);
 assert.equal(retry.fetchCalls[1].init.cache, "reload");
 
 console.log("News article detail and share button tests passed.");
@@ -122,7 +129,7 @@ async function runDetailPage({
   article,
   search = "?id=focused-test-article",
   href = `https://nkarchive.vercel.app/news/document${search}`,
-  payloads = [{ articles: { "focused-test-article": article } }],
+  payloads = [{ shard: "6a", articles: { "focused-test-article": article } }],
 } = {}) {
   const elements = new Map([
     ["#newsDocument", createFakeElement()],

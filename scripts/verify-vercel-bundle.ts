@@ -2,6 +2,11 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import {
+  NEWS_IMAGE_PAIR_HASH_ALGORITHM,
+  NEWS_IMAGE_PAIR_HASH_VERSION,
+} from "../lib/news-image-policy.js";
+import { assertCanonicalNewsGeneratedPaths } from "./news-generated-paths.ts";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, "..");
@@ -16,6 +21,8 @@ const NEWS_REQUIRED_DEPLOY_FILES = [
   "assets/news-section-line-453.svg",
   "assets/news-section-line-454.svg",
   "assets/news-share-link.svg",
+  "api/news-image.js",
+  "lib/news-image-policy.js",
   "news/index.html",
   "news/category/index.html",
   "news/category.css",
@@ -26,7 +33,7 @@ const NEWS_REQUIRED_DEPLOY_FILES = [
   "news/detail.js",
   "data/news-feed.json",
   "data/news-details.json",
-  "data/news/documents.jsonl",
+  "data/news/image-proxy-allowlist.json",
   "vercel.json",
 ];
 const REQUIRED_DEPLOY_FILES = [
@@ -53,6 +60,7 @@ const NEWS_FORBIDDEN_DEPLOY_FILES = [
   "assets/news-list-image-3.webp",
   "assets/news-list-image-4.webp",
   "assets/news-list-image-5.webp",
+  "data/news/documents.jsonl",
   ".env",
 ];
 const FORBIDDEN_DEPLOY_FILES = [
@@ -101,6 +109,12 @@ export async function verifyVercelBundle({
   const candidateFiles = normalizedScope === "news"
     ? await listNewsBundleCandidateFiles(rootDir)
     : await listFiles(rootDir);
+  const candidateRelativePaths = candidateFiles.map((filePath) => toPosix(path.relative(rootDir, filePath)));
+  if (normalizedScope === "news" || normalizedScope === "all") {
+    assertCanonicalNewsGeneratedPaths(candidateRelativePaths.filter(isNewsGeneratedOwnedPath), {
+      label: "News repository paths",
+    });
+  }
 
   for (const filePath of candidateFiles) {
     const relativePath = toPosix(path.relative(rootDir, filePath));
@@ -129,7 +143,9 @@ export async function verifyVercelBundle({
     if (matched) throw new Error(`Vercel deploy bundle should exclude ${fileName}`);
   }
   if (normalizedScope === "news" || normalizedScope === "all") {
-    await assertReferencedNewsAssetsIncluded(rootDir, included);
+    await assertNewsShardsIncluded(rootDir, included);
+    await assertNewsImageProxyAllowlist(rootDir, included);
+    await assertReferencedNewsAssetsIncluded(rootDir, included, candidateRelativePaths);
   }
 
   return {
@@ -154,7 +170,7 @@ function normalizeScope(value) {
   return scope;
 }
 
-async function assertReferencedNewsAssetsIncluded(rootDir, included) {
+export async function assertReferencedNewsAssetsIncluded(rootDir, included, candidateRelativePaths = []) {
   const values = [
     JSON.parse(await fs.readFile(path.join(rootDir, "data/news-feed.json"), "utf8")),
     JSON.parse(await fs.readFile(path.join(rootDir, "data/news-details.json"), "utf8")),
@@ -163,12 +179,84 @@ async function assertReferencedNewsAssetsIncluded(rootDir, included) {
       .filter((line) => line.trim())
       .map((line) => JSON.parse(line)),
   ];
+  for (const relativePath of included) {
+    if (!/^data\/news\/(?:details\/[a-f0-9]{2}|categories\/(?:kcna|rodong-sinmun)\/[a-z-]+\/page-[1-9][0-9]*)\.json$/u.test(relativePath)) continue;
+    values.push(JSON.parse(await fs.readFile(path.join(rootDir, relativePath), "utf8")));
+  }
   const references = new Set();
   for (const value of values) collectNewsAssetReferences(value, references);
   for (const reference of references) {
     const relativePath = reference.slice(1);
     if (!included.has(relativePath)) {
       throw new Error(`Referenced news asset is missing from the Vercel bundle: ${relativePath}`);
+    }
+  }
+  for (const relativePath of candidateRelativePaths.filter(isCanonicalNewsAssetPath)) {
+    if (!references.has(`/${relativePath}`)) {
+      throw new Error(`Unreferenced news asset is present in the repository: ${relativePath}`);
+    }
+  }
+}
+
+export async function assertNewsImageProxyAllowlist(rootDir, included) {
+  const relativePath = "data/news/image-proxy-allowlist.json";
+  if (!included.has(relativePath)) throw new Error(`Required News image proxy allowlist is missing: ${relativePath}`);
+  const text = await fs.readFile(path.join(rootDir, relativePath), "utf8");
+  const payload = JSON.parse(text);
+  const feed = JSON.parse(await fs.readFile(path.join(rootDir, "data/news-feed.json"), "utf8"));
+  const expectedKeys = ["algorithm", "pairCount", "pairHashes", "schemaVersion", "snapshotVersion"];
+  if (!payload || typeof payload !== "object" || Array.isArray(payload)
+    || JSON.stringify(Object.keys(payload).sort()) !== JSON.stringify(expectedKeys)) {
+    throw new Error("News image proxy allowlist has an invalid shape");
+  }
+  if (payload.schemaVersion !== NEWS_IMAGE_PAIR_HASH_VERSION
+    || payload.algorithm !== NEWS_IMAGE_PAIR_HASH_ALGORITHM
+    || !/^[a-f0-9]{16}$/u.test(String(payload.snapshotVersion || ""))
+    || payload.snapshotVersion !== feed.version
+    || !Number.isSafeInteger(payload.pairCount)
+    || payload.pairCount < 0
+    || !Array.isArray(payload.pairHashes)
+    || payload.pairCount !== payload.pairHashes.length
+    || payload.pairHashes.some((hash) => !/^[a-f0-9]{64}$/u.test(String(hash)))) {
+    throw new Error("News image proxy allowlist metadata is invalid");
+  }
+  const normalizedHashes = [...new Set(payload.pairHashes)].sort(compareText);
+  if (JSON.stringify(payload.pairHashes) !== JSON.stringify(normalizedHashes)) {
+    throw new Error("News image proxy allowlist hashes must be sorted and unique");
+  }
+  if (text !== `${JSON.stringify(payload)}\n`) {
+    throw new Error("News image proxy allowlist must use compact deterministic JSON");
+  }
+}
+
+async function assertNewsShardsIncluded(rootDir, included) {
+  const detailsManifest = JSON.parse(await fs.readFile(path.join(rootDir, "data/news-details.json"), "utf8"));
+  if (detailsManifest.shardCount !== 256 || detailsManifest.shardPattern !== "/data/news/details/{shard}.json") {
+    throw new Error("News detail shard manifest is invalid");
+  }
+  for (let index = 0; index < detailsManifest.shardCount; index += 1) {
+    const shard = index.toString(16).padStart(2, "0");
+    const relativePath = `data/news/details/${shard}.json`;
+    if (!included.has(relativePath)) throw new Error(`Required News detail shard is missing: ${relativePath}`);
+    const payload = JSON.parse(await fs.readFile(path.join(rootDir, relativePath), "utf8"));
+    if (payload.version !== detailsManifest.version || payload.shard !== shard || !payload.articles) {
+      throw new Error(`News detail shard is inconsistent: ${relativePath}`);
+    }
+  }
+
+  const feed = JSON.parse(await fs.readFile(path.join(rootDir, "data/news-feed.json"), "utf8"));
+  for (const source of Object.values(feed.sources || {})) {
+    for (const [section, totalItems] of Object.entries(source.categoryCounts || {})) {
+      const totalPages = Math.max(1, Math.ceil(Number(totalItems) / 5));
+      for (let page = 1; page <= totalPages; page += 1) {
+        const relativePath = `data/news/categories/${source.id}/${section}/page-${page}.json`;
+        if (!included.has(relativePath)) throw new Error(`Required News category page is missing: ${relativePath}`);
+        const payload = JSON.parse(await fs.readFile(path.join(rootDir, relativePath), "utf8"));
+        if (payload.version !== feed.version || payload.source?.id !== source.id || payload.section !== section
+          || payload.page !== page || payload.totalItems !== totalItems || payload.pageSize !== 5) {
+          throw new Error(`News category page is inconsistent: ${relativePath}`);
+        }
+      }
     }
   }
 }
@@ -189,6 +277,16 @@ function collectNewsAssetReferences(value, references) {
   if (value && typeof value === "object") {
     for (const item of Object.values(value)) collectNewsAssetReferences(item, references);
   }
+}
+
+function isNewsGeneratedOwnedPath(relativePath) {
+  return relativePath === "data/news-feed.json"
+    || relativePath === "data/news-details.json"
+    || relativePath.startsWith("data/news/");
+}
+
+function isCanonicalNewsAssetPath(relativePath) {
+  return /^data\/news\/assets\/(?:kcna|rodong-sinmun)\/[a-f0-9]{64}\.(?:jpg|png|gif|webp)$/u.test(relativePath);
 }
 
 async function listNewsBundleCandidateFiles(rootDir) {
@@ -274,6 +372,8 @@ async function listFiles(dirPath) {
       files.push(...await listFiles(entryPath));
     } else if (entry.isFile()) {
       files.push(entryPath);
+    } else {
+      throw new Error(`Unexpected non-file entry in Vercel bundle candidates: ${entryPath}`);
     }
   }
   return files;
@@ -301,6 +401,10 @@ function formatBytes(bytes = 0) {
     value /= 1024;
   }
   return `${value.toFixed(1)} TB`;
+}
+
+function compareText(left, right) {
+  return String(left).localeCompare(String(right), "en");
 }
 
 function escapeRegExp(value = "") {

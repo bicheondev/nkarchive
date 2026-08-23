@@ -209,35 +209,35 @@ button {
 }
 
 .news-section[data-section="leadership"] {
-  height: 612px;
+  min-height: 612px;
 }
 
 .news-section[data-section="important"] {
-  height: 636px;
+  min-height: 636px;
 }
 
 .news-section[data-section="international"] {
-  height: 244px;
+  min-height: 244px;
 }
 
 .news-section[data-section="photo"] {
-  height: 538px;
+  min-height: 538px;
 }
 
 .news-section[data-section="anecdote"],
 .news-section[data-section="memory"] {
-  height: 394px;
+  min-height: 394px;
 }
 
 .news-section[data-section="document"],
 .news-section[data-section="foreign"],
 .news-section[data-section="video"] {
-  height: 488px;
+  min-height: 488px;
 }
 
 .news-section[data-section="domestic"],
 .news-section[data-section="social"] {
-  height: 438px;
+  min-height: 438px;
 }
 
 .news-section-header {
@@ -295,7 +295,7 @@ button {
 
 .news-list {
   display: flex;
-  height: var(--news-list-height);
+  min-height: var(--news-list-height);
   flex-direction: column;
   gap: 32px;
   margin-top: 28px;
@@ -357,6 +357,10 @@ button {
 }
 
 .news-slot-80 {
+  --news-slot-height: 80px;
+}
+
+.news-article.has-thumbnail {
   --news-slot-height: 80px;
 }
 
@@ -922,6 +926,10 @@ button {
     overflow: hidden;
     font-size: 23px;
     text-overflow: ellipsis;
+  }
+
+  .news-article.has-thumbnail {
+    --news-slot-height: 70px;
   }
 
   .news-article.has-thumbnail .news-article-link {

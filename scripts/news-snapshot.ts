@@ -1,11 +1,23 @@
 import { createHash } from "node:crypto";
+import {
+  NEWS_IMAGE_PAIR_HASH_ALGORITHM,
+  NEWS_IMAGE_PAIR_HASH_VERSION,
+  hashPublishedNewsImagePair,
+  parseOfficialNewsImageUrl,
+} from "../lib/news-image-policy.js";
 
 export const NEWS_DOCUMENT_SCHEMA_VERSION = 1;
-export const NEWS_SNAPSHOT_SCHEMA_VERSION = 2;
+export const NEWS_SNAPSHOT_SCHEMA_VERSION = 3;
+export const DEFAULT_MAX_NEWS_ITEMS_PER_SOURCE = 20_000;
+export const NEWS_DETAIL_SHARD_COUNT = 256;
+export const NEWS_CATEGORY_PAGE_SIZE = 5;
 export const NEWS_ASSET_PUBLIC_PREFIX = "/data/news/assets/";
 export const NEWS_DOCUMENTS_PUBLIC_PATH = "/data/news/documents.jsonl";
 export const NEWS_FEED_PUBLIC_PATH = "/data/news-feed.json";
 export const NEWS_DETAILS_PUBLIC_PATH = "/data/news-details.json";
+export const NEWS_DETAIL_SHARD_PUBLIC_PATTERN = "/data/news/details/{shard}.json";
+export const NEWS_CATEGORY_PAGE_PUBLIC_PATTERN = "/data/news/categories/{source}/{section}/page-{page}.json";
+export const NEWS_IMAGE_PROXY_ALLOWLIST_PUBLIC_PATH = "/data/news/image-proxy-allowlist.json";
 export const NEWS_MEDIA_TYPES = Object.freeze(["article", "image", "video"]);
 export const NEWS_SECTION_IDS = Object.freeze([
   "leadership",
@@ -20,6 +32,19 @@ export const NEWS_SECTION_IDS = Object.freeze([
   "domestic",
   "social",
 ]);
+export const NEWS_SOURCE_SECTION_IDS = Object.freeze({
+  kcna: NEWS_SECTION_IDS,
+  "rodong-sinmun": Object.freeze([
+    "leadership",
+    "important",
+    "photo",
+    "anecdote",
+    "video",
+    "memory",
+    "domestic",
+    "social",
+  ]),
+});
 export const NEWS_SECTION_QUOTAS = Object.freeze({
   leadership: 6,
   important: 6,
@@ -41,7 +66,14 @@ export const NEWS_SOURCE_SECTION_QUOTAS = Object.freeze({
     international: 0,
     document: 0,
     foreign: 0,
-    // The live official category-7 index currently declares and exposes 4 total records.
+  }),
+});
+export const NEWS_SOURCE_SECTION_READINESS_MINIMUMS = Object.freeze({
+  kcna: NEWS_SECTION_QUOTAS,
+  "rodong-sinmun": Object.freeze({
+    ...NEWS_SOURCE_SECTION_QUOTAS["rodong-sinmun"],
+    // The live official category-7 index currently declares and exposes 4 total records,
+    // while the homepage design reserves up to 5 preview slots.
     social: 4,
   }),
 });
@@ -49,6 +81,21 @@ export const DEFAULT_NEWS_SOURCE_DEFINITIONS = Object.freeze([
   Object.freeze({ id: "kcna", name: "조선중앙통신" }),
   Object.freeze({ id: "rodong-sinmun", name: "로동신문" }),
 ]);
+
+/**
+ * Stable browser/Node-compatible detail shard for a canonical article id.
+ * FNV-1a is applied to JavaScript UTF-16 code units and the low byte selects
+ * one of the fixed 256 shards.
+ */
+export function newsDetailShardForId(value) {
+  const text = String(value || "");
+  let hash = 0x811c9dc5;
+  for (let index = 0; index < text.length; index += 1) {
+    hash ^= text.charCodeAt(index);
+    hash = Math.imul(hash, 0x01000193);
+  }
+  return ((hash >>> 0) & 0xff).toString(16).padStart(2, "0");
+}
 
 const SECTION_MEDIA_TYPES = Object.freeze({ photo: "image", video: "video" });
 const DOCUMENT_KEYS = new Set([
@@ -66,6 +113,7 @@ const DOCUMENT_KEYS = new Set([
   "snippet",
   "body",
   "categories",
+  "categoryOrders",
   "thumbnailUrl",
   "cachedUrl",
   "cachedThumbnailUrl",
@@ -96,6 +144,7 @@ export function canonicalizeNewsDocument(value = {}) {
     snippet: normalizeText(value.snippet),
     body: normalizeBody(value.body),
     categories: normalizeCategories(value.categories),
+    categoryOrders: normalizeCategoryOrders(value.categoryOrders),
     thumbnailUrl: normalizeRemoteUrl(value.thumbnailUrl),
     cachedUrl: normalizeLocalAssetUrl(value.cachedUrl),
     cachedThumbnailUrl: normalizeLocalAssetUrl(value.cachedThumbnailUrl),
@@ -135,7 +184,7 @@ export function validateNewsDocument(value, {
     document.cachedUrl,
     document.cachedThumbnailUrl,
     document.thumbnailUrl,
-    isLikelyImageUrl(document.url) ? document.url : "",
+    resolveOfficialImageOriginUrl(document),
   ].some(Boolean)) {
     throw new Error(`${label} image has no usable image asset`);
   }
@@ -144,6 +193,19 @@ export function validateNewsDocument(value, {
   if (unknownCategories.length) throw new Error(`${label} has an unknown category: ${unknownCategories[0]}`);
   for (const category of document.categories) {
     if (!NEWS_SECTION_IDS.includes(category)) throw new Error(`${label} has an unknown category: ${category}`);
+  }
+  if (value.categoryOrders !== undefined && !isPlainObject(value.categoryOrders)) {
+    throw new Error(`${label} categoryOrders must be an object`);
+  }
+  const unknownOrderCategories = Object.keys(value.categoryOrders || {})
+    .filter((category) => !NEWS_SECTION_IDS.includes(category));
+  if (unknownOrderCategories.length) {
+    throw new Error(`${label} has an unknown categoryOrders key: ${unknownOrderCategories[0]}`);
+  }
+  for (const [category, order] of Object.entries(value.categoryOrders || {})) {
+    if (!Number.isSafeInteger(order) || order < 0) {
+      throw new Error(`${label} has an invalid categoryOrders value for ${category}`);
+    }
   }
   for (const [field, raw] of [
     ["cachedUrl", value.cachedUrl],
@@ -270,6 +332,7 @@ export function assertNewsSectionQuotaReadiness(values, {
   sourceDefinitions,
   sectionQuotas = NEWS_SECTION_QUOTAS,
   quotasBySource = NEWS_SOURCE_SECTION_QUOTAS,
+  readinessMinimumsBySource,
   throwOnError = true,
 } = {}) {
   const documents = validateNewsDocuments(values, { label: "news quota documents" });
@@ -277,12 +340,21 @@ export function assertNewsSectionQuotaReadiness(values, {
   const mediaIndex = createArticleMediaIndex(documents);
   const results = [];
   const assignments = new Map();
+  const defaultReadinessMinimums = readinessMinimumsBySource === undefined
+    && quotasBySource === NEWS_SOURCE_SECTION_QUOTAS
+    ? NEWS_SOURCE_SECTION_READINESS_MINIMUMS
+    : {};
   for (const source of sources) {
     const sourceDocuments = documents
       .filter((document) => document.sourceId === source.id && document.language === "ko")
       .sort(compareNewestFirst);
     const quotas = normalizeSectionQuotas(quotasBySource[source.id] || sectionQuotas);
-    const selection = selectOfficialSectionRecords(sourceDocuments, quotas, mediaIndex);
+    const readinessMinimums = normalizeSectionQuotas(
+      readinessMinimumsBySource?.[source.id]
+        || defaultReadinessMinimums[source.id]
+        || quotas,
+    );
+    const selection = selectOfficialSectionRecords(sourceDocuments, quotas, readinessMinimums, mediaIndex);
     results.push(...selection.results.map((result) => ({ sourceId: source.id, ...result })));
     assignments.set(source.id, selection.assignments);
   }
@@ -299,7 +371,8 @@ export function buildNewsSnapshot(values, {
   sourceDefinitions,
   sectionQuotas = NEWS_SECTION_QUOTAS,
   quotasBySource = NEWS_SOURCE_SECTION_QUOTAS,
-  maxItemsPerSource = 500,
+  readinessMinimumsBySource,
+  maxItemsPerSource,
   requireQuotaReady = true,
 } = {}) {
   const documents = validateNewsDocuments(values, { label: "news snapshot documents" });
@@ -309,12 +382,15 @@ export function buildNewsSnapshot(values, {
     sourceDefinitions: sources,
     sectionQuotas,
     quotasBySource,
+    readinessMinimumsBySource,
     throwOnError: requireQuotaReady,
   });
   const mediaIndex = createArticleMediaIndex(documents);
   const selectedBySource = new Map();
   const snapshotSources = {};
   const detailArticles = {};
+  const sourceRecords = new Map();
+  const categoryRecords = new Map();
 
   for (const source of sources) {
     const sourceDocuments = documents
@@ -322,24 +398,34 @@ export function buildNewsSnapshot(values, {
       .sort(compareNewestFirst);
     const assignments = readiness.assignments.get(source.id) || new Map();
     const assignedIds = new Set(assignments.keys());
-    const feedCandidates = sourceDocuments.filter(isFeedCandidate);
-    const selectionLimit = normalizePositiveInteger(maxItemsPerSource, 500);
-    if (assignedIds.size > selectionLimit) {
-      throw new Error(`${source.id} needs ${assignedIds.size} assigned records but maxItemsPerSource is ${selectionLimit}`);
-    }
-    const selected = [
-      ...feedCandidates.filter((document) => assignedIds.has(document.id)),
-      ...feedCandidates.filter((document) => !assignedIds.has(document.id)),
-    ]
+    const selected = sourceDocuments
+      .filter(isFeedCandidate)
       .filter(uniqueBy((document) => document.id))
-      .slice(0, selectionLimit)
       .sort(compareNewestFirst);
+    const selectionLimit = normalizeOptionalPositiveInteger(maxItemsPerSource);
+    if (selectionLimit !== null && selected.length > selectionLimit) {
+      throw new Error(
+        `${source.id} has ${selected.length} records, exceeding explicit maxItemsPerSource ${selectionLimit}`,
+      );
+    }
     selectedBySource.set(source.id, selected);
     const records = selected.map((document) => buildSnapshotRecord(document, source, mediaIndex));
+    sourceRecords.set(source.id, records);
+    const previewRecords = records.filter((record) => assignedIds.has(record.document.id));
+    const categoryCounts = {};
+    for (const section of sectionIdsForSource(source.id)) {
+      const recordsForCategory = records.filter((record) => (
+        isSnapshotRecordInSection(record, section)
+      )).sort((left, right) => compareNewestFirst(left.document, right.document, section));
+      categoryRecords.set(createCategoryKey(source.id, section), recordsForCategory);
+      categoryCounts[section] = recordsForCategory.length;
+    }
     snapshotSources[source.id] = {
       id: source.id,
       name: source.name,
-      articles: records.map((record) => toFeedArticle(record, assignments)),
+      totalItems: records.length,
+      categoryCounts,
+      articles: previewRecords.map((record) => toFeedArticle(record, assignments)),
     };
     for (const record of records) detailArticles[record.document.id] = toDetailArticle(record, assignments);
   }
@@ -352,7 +438,7 @@ export function buildNewsSnapshot(values, {
   if (!newestDate) throw new Error("No Korean news records were selected");
   const versionMaterial = sources.map((source) => ({
     source: snapshotSources[source.id],
-    details: [...selectedBySource.get(source.id)].map((document) => detailArticles[document.id]),
+    details: sourceRecords.get(source.id).map((record) => detailArticles[record.document.id]),
   }));
   const version = createHash("sha256")
     .update(`standalone-news-snapshot:${NEWS_SNAPSHOT_SCHEMA_VERSION}\n`)
@@ -367,20 +453,126 @@ export function buildNewsSnapshot(values, {
   }
   const generatedAt = `${newestDate}T00:00:00.000Z`;
   const feed = { generatedAt, version, sources: snapshotSources };
-  const details = { generatedAt, version, articles: detailArticles };
+  const details = {
+    generatedAt,
+    version,
+    totalItems: Object.keys(detailArticles).length,
+    shardCount: NEWS_DETAIL_SHARD_COUNT,
+    shardPattern: NEWS_DETAIL_SHARD_PUBLIC_PATTERN,
+  };
+  const detailShards = buildDetailShards(detailArticles, { generatedAt, version });
+  const categoryPages = buildCategoryPages(categoryRecords, sources, readiness.assignments, {
+    generatedAt,
+    version,
+  });
+  const imageProxyAllowlist = buildNewsImageProxyAllowlist(detailArticles, { version });
+  const detailShardTexts = new Map([...detailShards].map(([shard, payload]) => [
+    shard,
+    `${JSON.stringify(payload, null, 2)}\n`,
+  ]));
+  const categoryPageTexts = new Map([...categoryPages].map(([relativePath, payload]) => [
+    relativePath,
+    `${JSON.stringify(payload, null, 2)}\n`,
+  ]));
   return {
     feed,
     details,
     feedText: `${JSON.stringify(feed, null, 2)}\n`,
     detailsText: `${JSON.stringify(details, null, 2)}\n`,
+    detailShards,
+    detailShardTexts,
+    categoryPages,
+    categoryPageTexts,
+    imageProxyAllowlist: imageProxyAllowlist.payload,
+    imageProxyAllowlistText: imageProxyAllowlist.text,
     readiness,
     selectedBySource,
   };
 }
 
+/**
+ * Hash only pairs that are actually published to the browser in this
+ * snapshot. Cached assets remain first-choice in clients, while this compact
+ * artifact authorizes the exact official fallback URL and its exact referer.
+ */
+export function buildNewsImageProxyAllowlist(detailArticles, { version } = {}) {
+  const pairHashes = new Set();
+  const addPair = (imageUrl, refererUrl) => {
+    const hash = hashPublishedNewsImagePair(imageUrl, refererUrl);
+    if (hash) pairHashes.add(hash);
+  };
+  for (const article of Object.values(detailArticles || {})) {
+    addPair(article?.thumbnailUrl, article?.url);
+    for (const image of article?.images || []) {
+      addPair(image?.url, image?.refererUrl);
+      addPair(image?.thumbnailUrl, image?.refererUrl);
+    }
+  }
+  const hashes = [...pairHashes].sort(compareText);
+  const payload = {
+    schemaVersion: NEWS_IMAGE_PAIR_HASH_VERSION,
+    snapshotVersion: String(version || ""),
+    algorithm: NEWS_IMAGE_PAIR_HASH_ALGORITHM,
+    pairCount: hashes.length,
+    pairHashes: hashes,
+  };
+  return { payload, text: `${JSON.stringify(payload)}\n` };
+}
+
 export const parseNewsJsonl = parseNewsDocumentsJsonl;
 export const stringifyNewsJsonl = stringifyNewsDocumentsJsonl;
 export const generateNewsSnapshot = buildNewsSnapshot;
+
+function buildDetailShards(detailArticles, { generatedAt, version }) {
+  const shards = new Map();
+  for (let index = 0; index < NEWS_DETAIL_SHARD_COUNT; index += 1) {
+    const shard = index.toString(16).padStart(2, "0");
+    shards.set(shard, { generatedAt, version, shard, articles: {} });
+  }
+  for (const [id, article] of Object.entries(detailArticles)) {
+    const shard = newsDetailShardForId(id);
+    shards.get(shard).articles[id] = article;
+  }
+  return shards;
+}
+
+function buildCategoryPages(categoryRecords, sources, assignmentsBySource, { generatedAt, version }) {
+  const pages = new Map();
+  for (const source of sources) {
+    const assignments = assignmentsBySource.get(source.id) || new Map();
+    for (const section of sectionIdsForSource(source.id)) {
+      const records = categoryRecords.get(createCategoryKey(source.id, section)) || [];
+      const articles = records.map((record) => {
+        const article = toFeedArticle(record, assignments);
+        article.detailUrl = `/news/document?id=${encodeURIComponent(article.id)}`;
+        return article;
+      });
+      const totalPages = Math.max(1, Math.ceil(articles.length / NEWS_CATEGORY_PAGE_SIZE));
+      for (let page = 1; page <= totalPages; page += 1) {
+        const relativePath = `${source.id}/${section}/page-${page}.json`;
+        pages.set(relativePath, {
+          generatedAt,
+          version,
+          source: { id: source.id, name: source.name },
+          section,
+          page,
+          pageSize: NEWS_CATEGORY_PAGE_SIZE,
+          totalItems: articles.length,
+          totalPages,
+          articles: articles.slice(
+            (page - 1) * NEWS_CATEGORY_PAGE_SIZE,
+            page * NEWS_CATEGORY_PAGE_SIZE,
+          ),
+        });
+      }
+    }
+  }
+  return pages;
+}
+
+function createCategoryKey(sourceId, section) {
+  return `${sourceId}\u0000${section}`;
+}
 
 function assertSourceHeadDoesNotRegress(existing, incoming) {
   const incomingSourceIds = new Set(incoming
@@ -416,6 +608,9 @@ function mergeDocumentQuality(current, incoming) {
     snippet: chooseRicherText(current.snippet, incoming.snippet),
     body: chooseRicherText(current.body, incoming.body),
     categories: [...current.categories, ...incoming.categories],
+    categoryOrders: Object.keys(incoming.categoryOrders).length
+      ? incoming.categoryOrders
+      : current.categoryOrders,
     thumbnailUrl: incoming.thumbnailUrl || current.thumbnailUrl,
     cachedUrl: incoming.cachedUrl || current.cachedUrl,
     cachedThumbnailUrl: incoming.cachedThumbnailUrl || current.cachedThumbnailUrl,
@@ -423,14 +618,15 @@ function mergeDocumentQuality(current, incoming) {
   });
 }
 
-function selectOfficialSectionRecords(documents, quotas, mediaIndex) {
+function selectOfficialSectionRecords(documents, quotas, readinessMinimums, mediaIndex) {
   const assignments = new Map();
   const results = [];
   for (const section of NEWS_SECTION_IDS) {
     const uniqueCandidates = [];
     const seenIds = new Set();
     const seenTitles = new Set();
-    for (const document of documents) {
+    const officialOrder = [...documents].sort((left, right) => compareNewestFirst(left, right, section));
+    for (const document of officialOrder) {
       if (!isSectionCandidate(document, section, mediaIndex)) continue;
       const titleKey = createTitleIdentity(document.title);
       if (seenIds.has(document.id) || seenTitles.has(titleKey)) continue;
@@ -447,11 +643,15 @@ function selectOfficialSectionRecords(documents, quotas, mediaIndex) {
       section,
       mediaType: SECTION_MEDIA_TYPES[section] || "article",
       count: selected.length,
-      minimum: quotas[section],
+      minimum: readinessMinimums[section],
       available: uniqueCandidates.length,
     });
   }
   return { assignments, results };
+}
+
+function sectionIdsForSource(sourceId) {
+  return NEWS_SOURCE_SECTION_IDS[sourceId] || NEWS_SECTION_IDS;
 }
 
 function isSectionCandidate(document, section, mediaIndex) {
@@ -460,6 +660,13 @@ function isSectionCandidate(document, section, mediaIndex) {
   if (section === "photo") return hasImage(document, mediaIndex);
   if (section === "video") return hasVideo(document, mediaIndex);
   return document.mediaType === "article";
+}
+
+function isSnapshotRecordInSection(record, section) {
+  if (!record.document.categories.includes(section)) return false;
+  if (section === "photo") return record.images.length > 0;
+  if (section === "video") return record.document.mediaType === "video" || record.videos.length > 0;
+  return record.document.mediaType === "article";
 }
 
 function isFeedCandidate(document) {
@@ -537,6 +744,7 @@ function buildSnapshotRecord(document, source, mediaIndex) {
       sourceId: source.id,
       sourceName: source.name,
       categories: document.categories,
+      categoryOrders: document.categoryOrders,
     },
     images: dedupedImages,
     videos: dedupedVideos,
@@ -558,6 +766,7 @@ function toFeedArticle(record, assignments) {
     url: document.url,
     mediaType: document.mediaType,
     categories: document.categories,
+    categoryOrders: document.categoryOrders,
     featuredSections: sections,
     hasImage: images.length > 0,
     hasVideo: document.mediaType === "video" || videos.length > 0,
@@ -587,17 +796,20 @@ function imageDescriptorsFromDocument(document) {
     cachedUrl: document.cachedUrl,
     thumbnailUrl: document.thumbnailUrl,
     cachedThumbnailUrl: document.cachedThumbnailUrl || document.cachedUrl,
+    refererUrl: document.mediaType === "article" ? document.url : document.articleUrl,
     displayOrder: document.displayOrder,
   }];
 }
 
 function toImageDescriptor(document) {
+  const originUrl = resolveOfficialImageOriginUrl(document);
   return {
     id: document.id,
-    url: isLikelyImageUrl(document.url) ? document.url : document.thumbnailUrl,
+    url: originUrl || document.thumbnailUrl,
     cachedUrl: document.cachedUrl,
-    thumbnailUrl: document.thumbnailUrl || (isLikelyImageUrl(document.url) ? document.url : ""),
+    thumbnailUrl: document.thumbnailUrl || originUrl,
     cachedThumbnailUrl: document.cachedThumbnailUrl || document.cachedUrl,
+    refererUrl: document.articleUrl,
     displayOrder: document.displayOrder,
   };
 }
@@ -657,6 +869,14 @@ function normalizeCategories(value) {
   return NEWS_SECTION_IDS.filter((category) => unique.has(category));
 }
 
+function normalizeCategoryOrders(value) {
+  if (!isPlainObject(value)) return {};
+  return Object.fromEntries(NEWS_SECTION_IDS.flatMap((category) => {
+    const order = value[category];
+    return Number.isSafeInteger(order) && order >= 0 ? [[category, order]] : [];
+  }));
+}
+
 function normalizeRemoteUrl(value) {
   const candidate = String(value || "").trim();
   if (!candidate) return "";
@@ -701,6 +921,34 @@ function isLikelyImageUrl(value) {
   }
 }
 
+function resolveOfficialImageOriginUrl(document) {
+  const candidate = normalizeRemoteUrl(document?.url);
+  if (!candidate || document?.mediaType !== "image") return "";
+  // Rodong uses the same index.php route for lists, articles, videos, and
+  // binary media.  An exact decoded image token is authoritative even when a
+  // photo-only record necessarily uses its first image as the synthetic
+  // parent URL as well.
+  if (parseOfficialNewsImageUrl(candidate)) return candidate;
+  if (
+    document.articleUrl
+    && normalizeAssociationUrl(candidate) === normalizeAssociationUrl(document.articleUrl)
+  ) return "";
+  if (isLikelyImageUrl(candidate)) return candidate;
+  try {
+    const url = new URL(candidate);
+    const host = url.hostname.toLocaleLowerCase("en-US");
+    if (
+      document.sourceId === "kcna"
+      && (host === "kcna.kp" || host === "www.kcna.kp")
+      && /^\/photo\/[a-f0-9]{32,128}$/iu.test(url.pathname)
+      && !url.search
+    ) return candidate;
+  } catch {
+    return "";
+  }
+  return "";
+}
+
 function isIsoDate(value) {
   const match = String(value || "").match(/^(\d{4})-(\d{2})-(\d{2})$/u);
   if (!match) return false;
@@ -709,7 +957,23 @@ function isIsoDate(value) {
 }
 
 function createDocumentIdentity(document) {
-  return `${document.sourceId}\u0000${document.mediaType}\u0000${normalizeAssociationUrl(document.url)}`;
+  const remoteUrl = normalizeAssociationUrl(document.url);
+  if (document.mediaType === "article") {
+    return `${document.sourceId}\u0000${document.mediaType}\u0000${remoteUrl}`;
+  }
+  const articleUrl = normalizeAssociationUrl(document.articleUrl);
+  const association = articleUrl || `id:${document.articleId}`;
+  const originalAssetUrl = remoteUrl && remoteUrl !== articleUrl ? remoteUrl : "";
+  const thumbnailAssetUrl = normalizeAssociationUrl(document.thumbnailUrl);
+  const cachedAssetUrl = document.cachedUrl || document.cachedThumbnailUrl;
+  const asset = originalAssetUrl || thumbnailAssetUrl || cachedAssetUrl || document.mediaType;
+  return [
+    document.sourceId,
+    document.mediaType,
+    association,
+    asset,
+    `slot:${document.displayOrder}`,
+  ].join("\u0000");
 }
 
 function createSourceUrlKey(sourceId, url) {
@@ -739,9 +1003,13 @@ function normalizeDisplayOrder(value) {
   return Number.isInteger(number) && number >= 0 ? number : 0;
 }
 
-function normalizePositiveInteger(value, fallback) {
+function normalizeOptionalPositiveInteger(value) {
+  if (value === undefined || value === null || value === "") return null;
   const number = Number(value);
-  return Number.isInteger(number) && number > 0 ? number : fallback;
+  if (!Number.isInteger(number) || number <= 0) {
+    throw new Error(`Invalid maxItemsPerSource: ${value}`);
+  }
+  return number;
 }
 
 function normalizeNonNegativeInteger(value) {
@@ -756,8 +1024,27 @@ function compareCanonicalDocuments(left, right) {
     || compareText(left.mediaType, right.mediaType);
 }
 
-function compareNewestFirst(left, right) {
-  return compareText(right.date, left.date) || compareText(left.id, right.id);
+function compareNewestFirst(left, right, section = "") {
+  return compareText(right.date, left.date)
+    || compareCategoryOrder(left, right, section)
+    || compareText(left.id, right.id);
+}
+
+function compareCategoryOrder(left, right, section) {
+  const leftOrder = categoryOrderValue(left, section);
+  const rightOrder = categoryOrderValue(right, section);
+  return leftOrder - rightOrder;
+}
+
+function categoryOrderValue(document, section) {
+  const orders = isPlainObject(document?.categoryOrders) ? document.categoryOrders : {};
+  if (section) {
+    return Number.isSafeInteger(orders[section]) && orders[section] >= 0
+      ? orders[section]
+      : Number.MAX_SAFE_INTEGER;
+  }
+  const values = Object.values(orders).filter((value) => Number.isSafeInteger(value) && value >= 0);
+  return values.length ? Math.min(...values) : Number.MAX_SAFE_INTEGER;
 }
 
 function compareMediaOrder(left, right) {

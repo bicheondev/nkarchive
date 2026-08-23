@@ -16,10 +16,15 @@ assert.match(html, /id="newsCategorySearchInput"/u);
 assert.match(html, /id="newsCategoryPagination"[^>]*aria-label="카테고리 페이지"/u);
 assert.match(html, /\/news\/category\.css/u);
 assert.match(html, /\/news\/category\.js/u);
-assert.match(html, /news-category-20260822-2/u);
+assert.match(html, /news-category-20260822-3/u);
 
-assert.match(script, /const FEED_URL = "\/data\/news-feed\.json"/u);
+assert.match(script, /const CATEGORY_ROOT_URL = "\/data\/news\/categories"/u);
+assert.doesNotMatch(script, /\/data\/news-feed\.json/u, "category pages must not download the homepage preview feed");
+assert.match(script, /buildCategoryDataUrl\(context, currentPage\)/u);
+assert.match(script, /page-\$\{page\}\.json/u);
 assert.match(script, /\/data\/news\/assets\//u);
+assert.match(script, /sources\.push\(cachedSource\)[\s\S]*?resolveNewsImageProxySource/u);
+assert.match(script, /`\/api\/news-image\?\$\{parameters\.toString\(\)\}`/u);
 assert.match(script, /\/news\/document/u);
 assert.match(script, /parameters\.get\("source"\)/u);
 assert.match(script, /parameters\.get\("section"\)/u);
@@ -40,7 +45,7 @@ assert.doesNotMatch(
 
 const harnessScript = script.replace(
   "  const context = readCategoryContext();",
-  "  globalThis.__newsCategoryTest = { selectCategoryArticles, compareArticlesNewestFirst, getPaginationRange, normalizePageNumber, paginateArticles }; return;\n  const context = readCategoryContext();",
+  "  globalThis.__newsCategoryTest = { buildCategoryDataUrl, isValidCategoryPage, getPaginationRange, normalizePageNumber }; return;\n  const context = readCategoryContext();",
 );
 assert.notEqual(harnessScript, script, "category test harness injection failed");
 
@@ -49,77 +54,40 @@ const sandbox: Record<string, unknown> = {
 };
 vm.runInNewContext(harnessScript, sandbox, { filename: "news/category.js" });
 const categoryTest = sandbox.__newsCategoryTest as {
-  compareArticlesNewestFirst: (left: Record<string, unknown>, right: Record<string, unknown>) => number;
-  selectCategoryArticles: (
-    articles: Array<Record<string, unknown>>,
+  buildCategoryDataUrl: (category: { sourceId: string; sectionId: string }, page: number) => string;
+  isValidCategoryPage: (
+    payload: Record<string, unknown>,
     category: { sourceId: string; sectionId: string },
-  ) => Array<Record<string, unknown>>;
+    requestedPage: number,
+  ) => boolean;
   getPaginationRange: (page: number, totalPages: number) => number[];
   normalizePageNumber: (value: unknown) => number;
-  paginateArticles: (
-    articles: Array<Record<string, unknown>>,
-    page: number,
-  ) => { articles: Array<Record<string, unknown>>; page: number; totalPages: number };
 };
 
-const importantArticles = [
-  { id: "unrelated", title: "중요해 보이지만 국내소식", date: "2026-08-22", categories: ["domestic"] },
-  { id: "day-21", title: "전국당간부양성부문교원강습회 진행", date: "2026-08-21", categories: ["important"] },
-  { id: "day-20", title: "김여정 조선로동당 중앙위원회 부장 담화 발표", date: "2026-08-20", categories: ["important"] },
-  { id: "commentary", title: "조선중앙통신사 론평", date: "2026-08-19", categories: ["important"] },
-  { id: "kim", title: "김여정 조선로동당 중앙위원회 부장 주요국제문제들에 대한 립장 발표", date: "2026-08-19", categories: ["important"] },
-  { id: "day-18", title: "박태성 내각총리 여러 부문 사업 현지료해", date: "2026-08-18", categories: ["important"] },
-  { id: "day-17", title: "여섯번째 기사", date: "2026-08-17", categories: ["important"] },
-];
-const selectedImportant = categoryTest.selectCategoryArticles(importantArticles, {
-  sourceId: "kcna",
-  sectionId: "important",
-});
-assert.deepEqual(
-  Array.from(selectedImportant, (article) => article.id),
-  ["day-21", "day-20", "kim", "commentary", "day-18", "day-17"],
-  "category selection must retain every exact official article before pagination",
-);
-assert.deepEqual(
-  Array.from(categoryTest.paginateArticles(selectedImportant, 1).articles, (article) => article.id),
-  ["day-21", "day-20", "kim", "commentary", "day-18"],
-  "the first category page must match the Figma frame's latest five",
-);
-assert.deepEqual(
-  Array.from(categoryTest.paginateArticles(selectedImportant, 2).articles, (article) => article.id),
-  ["day-17"],
-  "later pages must expose the remaining exact-category articles",
-);
-
-assert.ok(
-  categoryTest.compareArticlesNewestFirst(
-    { id: "a", title: "같은 제목", date: "2026-08-19" },
-    { id: "b", title: "같은 제목", date: "2026-08-19" },
-  ) < 0,
-  "article id must be the final deterministic tie-breaker",
-);
-
-const rodongToday = Array.from({ length: 6 }, (_, index) => ({
-  id: `today-${index}`,
-  title: `오늘 기사 ${index}`,
-  date: "2026-08-21",
-  categories: ["important"],
-  mediaType: "article",
-}));
-rodongToday.push({
-  id: "yesterday",
-  title: "어제 기사",
-  date: "2026-08-20",
-  categories: ["important"],
-  mediaType: "article",
-});
-const selectedRodong = categoryTest.selectCategoryArticles(rodongToday, {
+const categoryContext = {
   sourceId: "rodong-sinmun",
   sectionId: "important",
-});
-assert.equal(selectedRodong.length, 7);
-assert.equal(categoryTest.paginateArticles(selectedRodong, 1).articles.length, 5);
-assert.equal(categoryTest.paginateArticles(selectedRodong, 2).articles.length, 2);
+};
+assert.equal(
+  categoryTest.buildCategoryDataUrl(categoryContext, 27),
+  "/data/news/categories/rodong-sinmun/important/page-27.json",
+  "category navigation must fetch only the requested five-row static shard",
+);
+const validPage = {
+  version: "0123456789abcdef",
+  generatedAt: "2026-08-22T00:00:00.000Z",
+  source: { id: "rodong-sinmun", name: "로동신문" },
+  section: "important",
+  page: 27,
+  pageSize: 5,
+  totalItems: 139,
+  totalPages: 28,
+  articles: Array.from({ length: 5 }, (_, index) => ({ id: `today-${index}` })),
+};
+assert.equal(categoryTest.isValidCategoryPage(validPage, categoryContext, 27), true);
+assert.equal(categoryTest.isValidCategoryPage({ ...validPage, page: 26 }, categoryContext, 27), false);
+assert.equal(categoryTest.isValidCategoryPage({ ...validPage, source: { id: "kcna", name: "조선중앙통신" } }, categoryContext, 27), false);
+assert.equal(categoryTest.isValidCategoryPage({ ...validPage, articles: [...validPage.articles, { id: "overflow" }] }, categoryContext, 27), false);
 
 assert.deepEqual(Array.from(categoryTest.getPaginationRange(1, 7)), [1, 2, 3, 4, 5]);
 assert.deepEqual(Array.from(categoryTest.getPaginationRange(4, 7)), [2, 3, 4, 5, 6]);

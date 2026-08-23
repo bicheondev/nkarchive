@@ -22,7 +22,9 @@ const DEFAULT_ASSET_CACHE_REPORT_PATH = path.join(ROOT_DIR, "data/search/asset-c
 const DEFAULT_RUNTIME_DIRS = [
   path.join(ROOT_DIR, "search"),
   path.join(ROOT_DIR, "components"),
-  path.join(ROOT_DIR, "api"),
+  path.join(ROOT_DIR, "api/search-asset.js"),
+  path.join(ROOT_DIR, "api/search-live.js"),
+  path.join(ROOT_DIR, "api/search-live-image.js"),
 ];
 const DEFAULT_ASSET_PROXY_PATH = path.join(ROOT_DIR, "api/search-asset.js");
 const DEFAULT_ROUTE_SHELLS = [
@@ -1532,6 +1534,18 @@ function countBy(items, getKey) {
 async function listRuntimeFiles(directories) {
   const files = [];
   for (const directory of directories) {
+    let candidateStat;
+    try {
+      candidateStat = await fs.stat(directory);
+    } catch (error) {
+      if (error.code === "ENOENT") continue;
+      throw error;
+    }
+    if (candidateStat.isFile()) {
+      if (/\.(js|html|css)$/u.test(path.basename(directory))) files.push(directory);
+      continue;
+    }
+    if (!candidateStat.isDirectory()) continue;
     let entries = [];
     try {
       entries = await fs.readdir(directory, { withFileTypes: true });

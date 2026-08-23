@@ -4,7 +4,7 @@
   "scripts": {
     "audit:search": "node scripts/audit-search-production.ts",
     "cache:search-assets": "node scripts/cache-search-assets.ts",
-    "ci:news": "node --check news/news.js && node --check news/detail.js && node --check news/category.js && npm run generate:news -- --check --require-quota-ready && npm run test:news-mirror-crawler && npm run test:news-snapshot && npm run test:news-refresh && npm run test:news-category && npm run test:news-share && npm run test:news && npm run verify:vercel-bundle -- --scope news",
+    "ci:news": "node --check news/news.js && node --check news/detail.js && node --check news/category.js && node --check api/news-image.js && npm run generate:news -- --check --require-quota-ready && npm run test:news-mirror-crawler && npm run test:news-snapshot && npm run test:news-refresh && npm run test:news-category && npm run test:news-share && npm run test:news-image-api && npm run test:news && npm run verify:vercel-bundle -- --scope news",
     "ci:search": "node scripts/ci-search-release.ts",
     "generate:news": "node scripts/generate-news-feed.ts",
     "ingest:search": "node scripts/ingest-search-documents.ts",
@@ -22,6 +22,7 @@
     "sync:meilisearch": "node scripts/sync-meilisearch.ts",
     "test:news": "node scripts/test-news.ts",
     "test:news-category": "node scripts/test-news-category.ts",
+    "test:news-image-api": "node scripts/test-news-image-api.ts",
     "test:news-mirror-crawler": "node scripts/test-news-mirror-crawler.ts",
     "test:news-refresh": "node scripts/test-news-refresh.ts",
     "test:news-share": "node scripts/test-news-share.ts",
@@ -34,6 +35,6 @@
   },
   "dependencies": {
     "cheerio": "^1.2.0",
-    "undici": "^7.25.0"
+    "undici": "7.29.0"
   }
 }

@@ -13,7 +13,7 @@
 
   const params = new URLSearchParams(window.location.search);
   const articleId = params.get("id") || "";
-  const DETAILS_URL = "/data/news-details.json";
+  const DETAILS_ROOT_URL = "/data/news/details";
 
   bindChrome();
   bindShare();
@@ -26,11 +26,13 @@
     }
 
     try {
-      let payload = await fetchDetails(DETAILS_URL, "no-cache");
-      if (!hasArticle(payload)) {
-        payload = await fetchDetails(`${DETAILS_URL}?refresh=${Date.now()}`, "reload");
+      const articleShard = newsDetailShardForId(articleId);
+      const shardUrl = `${DETAILS_ROOT_URL}/${articleShard}.json`;
+      let payload = await fetchDetails(shardUrl, "no-cache");
+      if (!hasArticle(payload, articleShard)) {
+        payload = await fetchDetails(`${shardUrl}?refresh=${Date.now()}`, "reload");
       }
-      if (!hasArticle(payload)) {
+      if (!hasArticle(payload, articleShard)) {
         renderError("보관된 기사를 찾지 못했습니다.");
         return;
       }
@@ -48,8 +50,20 @@
     return response.json();
   }
 
-  function hasArticle(payload) {
-    return Boolean(payload?.articles && Object.hasOwn(payload.articles, articleId));
+  function hasArticle(payload, expectedShard) {
+    return Boolean(payload?.shard === expectedShard
+      && payload.articles
+      && Object.hasOwn(payload.articles, articleId));
+  }
+
+  function newsDetailShardForId(value) {
+    const normalizedId = String(value || "");
+    let hash = 0x811c9dc5;
+    for (let index = 0; index < normalizedId.length; index += 1) {
+      hash ^= normalizedId.charCodeAt(index);
+      hash = Math.imul(hash, 0x01000193);
+    }
+    return ((hash >>> 0) & 0xff).toString(16).padStart(2, "0");
   }
 
   function renderArticle(article) {
@@ -147,6 +161,7 @@
       id: `${String(article?.id || "article")}-lead`,
       thumbnailUrl: article?.thumbnailUrl,
       cachedThumbnailUrl: article?.cachedThumbnailUrl,
+      refererUrl: article?.url,
     };
     const records = resolveArticleImageSources(legacyLead).length ? [legacyLead, ...imageRecords] : imageRecords;
     const seen = new Set();
@@ -195,6 +210,10 @@
     const cachedSource = resolveCachedImageSource(article?.cachedThumbnailUrl);
     if (cachedPrimarySource) sources.push(cachedPrimarySource);
     if (cachedSource && !sources.includes(cachedSource)) sources.push(cachedSource);
+    for (const value of [article?.url, article?.thumbnailUrl]) {
+      const remoteSource = resolveNewsImageProxySource(value, article?.refererUrl);
+      if (remoteSource && !sources.includes(remoteSource)) sources.push(remoteSource);
+    }
     return sources;
   }
 
@@ -211,6 +230,39 @@
     const candidate = String(value || "").trim();
     if (!candidate || /\/newsf\.gif(?:$|[?#])/iu.test(candidate)) return "";
     return candidate;
+  }
+
+  function resolveNewsImageProxySource(value, refererValue) {
+    const candidate = normalizeImageCandidate(value);
+    if (!isAllowedOfficialNewsImageUrl(candidate)) return "";
+    const parameters = new URLSearchParams({ url: candidate });
+    if (isSameOfficialNewsOrigin(refererValue, candidate)) parameters.set("referer", String(refererValue));
+    return `/api/news-image?${parameters.toString()}`;
+  }
+
+  function isAllowedOfficialNewsImageUrl(value) {
+    try {
+      const url = new URL(value);
+      const host = url.hostname.toLocaleLowerCase("en-US").replace(/^www\./u, "");
+      if (host === "kcna.kp") return /^\/photo\/[a-f0-9]{32,128}$/iu.test(url.pathname) && !url.search;
+      return host === "rodong.rep.kp"
+        && /^\/ko\/index\.php$/u.test(url.pathname)
+        && /^\?[A-Za-z0-9+/_=-]{8,8192}$/u.test(url.search);
+    } catch {
+      return false;
+    }
+  }
+
+  function isSameOfficialNewsOrigin(value, imageValue) {
+    try {
+      const referer = new URL(String(value || ""));
+      const image = new URL(imageValue);
+      return referer.protocol === image.protocol
+        && referer.hostname.replace(/^www\./u, "") === image.hostname.replace(/^www\./u, "")
+        && referer.port === image.port;
+    } catch {
+      return false;
+    }
   }
 
   function formatKoreanDate(value) {

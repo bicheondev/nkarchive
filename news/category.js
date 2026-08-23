@@ -4,7 +4,7 @@
   const pagination = document.querySelector("#newsCategoryPagination");
   if (!title || !list || !pagination) return;
 
-  const FEED_URL = "/data/news-feed.json";
+  const CATEGORY_ROOT_URL = "/data/news/categories";
   const PAGE_SIZE = 5;
   const PAGE_WINDOW = 5;
   const SOURCE_DEFINITIONS = Object.freeze({
@@ -43,6 +43,7 @@
   let categoryArticles = [];
   let renderedArticles = [];
   let currentPage = context?.page || 1;
+  let totalPages = 1;
 
   bindChrome();
   if (!context) {
@@ -54,26 +55,57 @@
   document.title = `${context.sectionTitle} | 북한뉴스아카이브`;
   list.dataset.source = context.sourceId;
   list.dataset.section = context.sectionId;
-  loadFeed();
+  loadCategoryPage();
 
-  async function loadFeed() {
+  async function loadCategoryPage() {
     try {
-      const response = await fetch(FEED_URL, {
+      const pageUrl = buildCategoryDataUrl(context, currentPage);
+      const response = await fetch(pageUrl, {
         cache: "no-cache",
         headers: { Accept: "application/json" },
       });
-      if (!response.ok) throw new Error(`news_feed_${response.status}`);
-      const feed = await response.json();
-      const source = feed?.sources?.[context.sourceId];
-      if (!feed?.version || !Array.isArray(source?.articles)) throw new Error("invalid_news_feed");
+      if (!response.ok) throw new Error(`news_category_${response.status}`);
+      const payload = await response.json();
+      if (!isValidCategoryPage(payload, context, currentPage)) throw new Error("invalid_news_category");
 
-      categoryArticles = selectCategoryArticles(source.articles, context);
-      list.dataset.generatedAt = String(feed.generatedAt || "");
-      applyFilter(document.querySelector("#newsCategorySearchInput")?.value || "", { resetPage: false });
+      categoryArticles = payload.articles;
+      currentPage = payload.page;
+      totalPages = payload.totalPages;
+      list.dataset.generatedAt = String(payload.generatedAt || "");
+      applyFilter(document.querySelector("#newsCategorySearchInput")?.value || "");
     } catch (error) {
-      console.error("[news/category] Unable to load the news snapshot.", error);
+      console.error("[news/category] Unable to load the category page.", error);
       renderError("뉴스 아카이브를 불러오지 못했습니다.");
     }
+  }
+
+  function buildCategoryDataUrl(category, page) {
+    return `${CATEGORY_ROOT_URL}/${encodeURIComponent(category.sourceId)}/${encodeURIComponent(category.sectionId)}/page-${page}.json`;
+  }
+
+  function isValidCategoryPage(payload, category, requestedPage) {
+    const hasValidShape = Boolean(payload && typeof payload === "object"
+      && typeof payload.version === "string"
+      && payload.version.length > 0
+      && payload.source?.id === category.sourceId
+      && payload.section === category.sectionId
+      && payload.pageSize === PAGE_SIZE
+      && payload.page === requestedPage
+      && Number.isSafeInteger(payload.totalItems)
+      && payload.totalItems >= 0
+      && Number.isSafeInteger(payload.totalPages)
+      && payload.totalPages >= 1
+      && Array.isArray(payload.articles)
+      && payload.articles.length <= PAGE_SIZE);
+    if (!hasValidShape) return false;
+    const expectedTotalPages = Math.max(1, Math.ceil(payload.totalItems / PAGE_SIZE));
+    const expectedItemsOnPage = Math.max(0, Math.min(
+      PAGE_SIZE,
+      payload.totalItems - ((payload.page - 1) * PAGE_SIZE),
+    ));
+    return payload.totalPages === expectedTotalPages
+      && payload.page <= payload.totalPages
+      && payload.articles.length === expectedItemsOnPage;
   }
 
   function readCategoryContext() {
@@ -86,13 +118,6 @@
     const sectionTitle = source?.sections?.[sectionId];
     if (!source || !sectionTitle) return null;
     return { sourceId, sectionId, sectionTitle, sourceName: source.name, page, query };
-  }
-
-  function selectCategoryArticles(articles, category) {
-    const sorted = [...articles].sort(compareArticlesNewestFirst);
-    return sorted.filter((article) => (
-      Array.isArray(article?.categories) && article.categories.includes(category.sectionId)
-    ));
   }
 
   function renderArticles(articles) {
@@ -163,24 +188,13 @@
     return Array.from({ length: visibleCount }, (_, index) => start + index);
   }
 
-  function paginateArticles(articles, page) {
-    const totalPages = Math.max(1, Math.ceil(articles.length / PAGE_SIZE));
-    const selectedPage = Math.min(Math.max(1, page), totalPages);
-    const start = (selectedPage - 1) * PAGE_SIZE;
-    return {
-      articles: articles.slice(start, start + PAGE_SIZE),
-      page: selectedPage,
-      totalPages,
-    };
-  }
-
   function createArticle(article) {
     const item = document.createElement("article");
     const link = document.createElement("a");
     const copy = document.createElement("div");
     const articleTitle = document.createElement("h2");
     const date = document.createElement("time");
-    const imageSource = resolveCachedImageSource(article?.cachedThumbnailUrl, context.sourceId);
+    const imageSources = resolveArticleImageSources(article, context.sourceId);
 
     item.className = "news-category-row";
     item.setAttribute("role", "listitem");
@@ -196,7 +210,7 @@
     copy.append(articleTitle, date);
     link.append(copy);
 
-    if (imageSource) {
+    if (imageSources.length) {
       const figure = document.createElement("div");
       const image = document.createElement("img");
       figure.className = "news-category-thumbnail";
@@ -204,8 +218,7 @@
       image.loading = "lazy";
       image.decoding = "async";
       image.referrerPolicy = "no-referrer";
-      image.addEventListener("error", () => figure.remove(), { once: true });
-      image.src = imageSource;
+      loadFirstAvailableImage(image, imageSources, () => figure.remove());
       figure.append(image);
       link.append(figure);
     }
@@ -228,10 +241,61 @@
     return /^[a-f0-9]{64}\.(?:jpe?g|png|gif|webp)$/u.test(fileName) ? candidate : "";
   }
 
-  function compareArticlesNewestFirst(left, right) {
-    return String(right?.date || "").localeCompare(String(left?.date || ""))
-      || String(left?.title || "").localeCompare(String(right?.title || ""), "ko-KR")
-      || String(left?.id || "").localeCompare(String(right?.id || ""));
+  function resolveArticleImageSources(article, sourceId) {
+    const sources = [];
+    const cachedSource = resolveCachedImageSource(article?.cachedThumbnailUrl, sourceId);
+    if (cachedSource) sources.push(cachedSource);
+    const remoteSource = resolveNewsImageProxySource(article?.thumbnailUrl, article?.url);
+    if (remoteSource && !sources.includes(remoteSource)) sources.push(remoteSource);
+    return sources;
+  }
+
+  function resolveNewsImageProxySource(value, refererValue) {
+    const candidate = String(value || "").trim();
+    if (!isAllowedOfficialNewsImageUrl(candidate)) return "";
+    const parameters = new URLSearchParams({ url: candidate });
+    if (isSameOfficialNewsOrigin(refererValue, candidate)) parameters.set("referer", String(refererValue));
+    return `/api/news-image?${parameters.toString()}`;
+  }
+
+  function isAllowedOfficialNewsImageUrl(value) {
+    try {
+      const url = new URL(value);
+      const host = url.hostname.toLocaleLowerCase("en-US").replace(/^www\./u, "");
+      if (host === "kcna.kp") return /^\/photo\/[a-f0-9]{32,128}$/iu.test(url.pathname) && !url.search;
+      return host === "rodong.rep.kp"
+        && /^\/ko\/index\.php$/u.test(url.pathname)
+        && /^\?[A-Za-z0-9+/_=-]{8,8192}$/u.test(url.search);
+    } catch {
+      return false;
+    }
+  }
+
+  function isSameOfficialNewsOrigin(value, imageValue) {
+    try {
+      const referer = new URL(String(value || ""));
+      const image = new URL(imageValue);
+      return referer.protocol === image.protocol
+        && referer.hostname.replace(/^www\./u, "") === image.hostname.replace(/^www\./u, "")
+        && referer.port === image.port;
+    } catch {
+      return false;
+    }
+  }
+
+  function loadFirstAvailableImage(image, sources, onFailure) {
+    let index = 0;
+    const tryNext = () => {
+      if (index >= sources.length) {
+        image.removeAttribute("src");
+        onFailure();
+        return;
+      }
+      image.src = sources[index];
+      index += 1;
+    };
+    image.addEventListener("error", tryNext);
+    tryNext();
   }
 
   function formatLongDate(value) {
@@ -280,10 +344,9 @@
     });
   }
 
-  function applyFilter(value, { resetPage = true } = {}) {
+  function applyFilter(value) {
     const rawQuery = String(value || "").trim();
     const query = normalizeFilterText(rawQuery);
-    if (resetPage) currentPage = 1;
 
     const matches = query
       ? categoryArticles.filter((article) => (
@@ -296,14 +359,13 @@
       renderEmpty(query
         ? "현재 카테고리에서 일치하는 기사가 없습니다."
         : "이 카테고리에 보관된 기사가 없습니다.");
+      if (query) renderPagination(totalPages);
       return;
     }
 
-    const page = paginateArticles(matches, currentPage);
-    currentPage = page.page;
-    renderedArticles = page.articles;
+    renderedArticles = matches;
     renderArticles(renderedArticles);
-    renderPagination(page.totalPages);
+    renderPagination(totalPages);
   }
 
   function normalizeFilterText(value) {

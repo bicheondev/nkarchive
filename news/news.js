@@ -337,7 +337,7 @@
     const copy = document.createElement("div");
     const title = document.createElement("p");
     const date = document.createElement("p");
-    const imageSources = slot.thumbnail ? resolveArticleImageSources(article) : [];
+    const imageSources = resolveArticleImageSources(article);
 
     item.className = `news-article news-slot-${slot.height}${imageSources.length ? " has-thumbnail" : ""}`;
     link.className = "news-article-link";
@@ -371,7 +371,9 @@
   }
 
   function selectSectionArticles(articles, definition) {
-    const sorted = [...articles].sort(compareArticlesNewestFirst);
+    const sorted = [...articles].sort((left, right) => (
+      compareArticlesNewestFirst(left, right, definition.category)
+    ));
     const categorized = sorted.filter((article) => (
       Array.isArray(article?.featuredSections) && article.featuredSections.includes(definition.category)
     ));
@@ -382,6 +384,8 @@
     const sources = [];
     const cachedSource = resolveCachedImageSource(article?.cachedThumbnailUrl);
     if (cachedSource) sources.push(cachedSource);
+    const remoteSource = resolveNewsImageProxySource(article?.thumbnailUrl, article?.url);
+    if (remoteSource && !sources.includes(remoteSource)) sources.push(remoteSource);
     return sources;
   }
 
@@ -400,6 +404,41 @@
     return candidate;
   }
 
+  function resolveNewsImageProxySource(value, refererValue) {
+    const candidate = normalizeImageCandidate(value);
+    if (!isAllowedOfficialNewsImageUrl(candidate)) return "";
+    const parameters = new URLSearchParams({ url: candidate });
+    if (isAllowedOfficialNewsRefererUrl(refererValue, candidate)) parameters.set("referer", String(refererValue));
+    return `/api/news-image?${parameters.toString()}`;
+  }
+
+  function isAllowedOfficialNewsImageUrl(value) {
+    try {
+      const url = new URL(value);
+      const host = url.hostname.toLocaleLowerCase("en-US").replace(/^www\./u, "");
+      if (host === "kcna.kp") return /^\/photo\/[a-f0-9]{32,128}$/iu.test(url.pathname) && !url.search;
+      return host === "rodong.rep.kp"
+        && /^\/ko\/index\.php$/u.test(url.pathname)
+        && /^\?[A-Za-z0-9+/_=-]{8,8192}$/u.test(url.search);
+    } catch {
+      return false;
+    }
+  }
+
+  function isAllowedOfficialNewsRefererUrl(value, imageValue) {
+    try {
+      const referer = new URL(String(value || ""));
+      const image = new URL(imageValue);
+      return referer.origin === image.origin || (
+        referer.protocol === image.protocol
+        && referer.hostname.replace(/^www\./u, "") === image.hostname.replace(/^www\./u, "")
+        && referer.port === image.port
+      );
+    } catch {
+      return false;
+    }
+  }
+
   function loadFirstAvailableImage(image, sources, onFailure) {
     let sourceIndex = 0;
     const tryNextSource = () => {
@@ -415,9 +454,22 @@
     tryNextSource();
   }
 
-  function compareArticlesNewestFirst(left, right) {
+  function compareArticlesNewestFirst(left, right, sectionId = "") {
     return String(right?.date || "").localeCompare(String(left?.date || ""))
+      || compareOfficialCategoryOrder(left, right, sectionId)
       || String(left?.id || "").localeCompare(String(right?.id || ""));
+  }
+
+  function compareOfficialCategoryOrder(left, right, sectionId) {
+    const leftOrder = left?.categoryOrders?.[sectionId];
+    const rightOrder = right?.categoryOrders?.[sectionId];
+    const normalizedLeft = Number.isSafeInteger(leftOrder) && leftOrder >= 0
+      ? leftOrder
+      : Number.MAX_SAFE_INTEGER;
+    const normalizedRight = Number.isSafeInteger(rightOrder) && rightOrder >= 0
+      ? rightOrder
+      : Number.MAX_SAFE_INTEGER;
+    return normalizedLeft - normalizedRight;
   }
 
   function formatCompactDate(value) {
@@ -446,7 +498,14 @@
       && typeof value.version === "string"
       && value.version.length > 0
       && value.sources
-      && [...SOURCE_IDS].every((sourceId) => Array.isArray(value.sources[sourceId]?.articles));
+      && [...SOURCE_IDS].every((sourceId) => {
+        const source = value.sources[sourceId];
+        return Array.isArray(source?.articles)
+          && Number.isSafeInteger(source.totalItems)
+          && source.totalItems >= source.articles.length
+          && source.categoryCounts
+          && typeof source.categoryCounts === "object";
+      });
   }
 
   function renderError() {

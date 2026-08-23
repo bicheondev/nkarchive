@@ -1,5 +1,9 @@
 {
   "functions": {
+    "api/news-image.js": {
+      "maxDuration": 30,
+      "includeFiles": "data/news/image-proxy-allowlist.json"
+    },
     "api/search-asset.js": {
       "maxDuration": 30
     },
@@ -97,6 +101,19 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    },
+    {
+      "source": "/api/news-image",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, s-maxage=31536000, stale-while-revalidate=31536000, immutable"
         },
         {
           "key": "X-Content-Type-Options",
