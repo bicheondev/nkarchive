@@ -24,7 +24,7 @@ assert.match(html, /\/news\/category\.css\?v=news-category-20260823-3/u);
 assert.match(html, /\/news\/news\.css\?v=news-20260823-7/u);
 assert.match(html, /\/news\/header\.js\?v=news-header-20260823-2/u);
 assert.match(html, /\/news\/search\.css\?v=news-search-20260823-1/u);
-assert.match(html, /\/news\/search\.js\?v=news-search-20260823-3/u);
+assert.match(html, /\/news\/search\.js\?v=news-search-20260824-1/u);
 assert.match(html, /class="news-navigation-actions"/u);
 assert.match(html, /class="news-navigation-disabled" aria-disabled="true"/u);
 assert.match(html, /https:\/\/discord\.gg\/QT3T3JpeDD/u);
@@ -58,6 +58,17 @@ assert.match(
 
 assert.match(script, /const SEARCH_INDEX_URL = "\/data\/news\/search-index\.json"/u);
 assert.match(script, /const YOUTUBE_INDEX_URL = "\/data\/news\/youtube-videos\.json"/u);
+assert.match(script, /const LATEST_NEWS_URL = "\/api\/news-latest"/u);
+assert.match(script, /const LATEST_YOUTUBE_URL = "\/api\/news-youtube-latest"/u);
+assert.match(script, /queueLatestNews\(sourceId\)/u);
+assert.match(script, /queueLatestYoutube\(\)/u);
+assert.match(script, /await indexPromise;[\s\S]*?return filterArticlesBySource\(preparedArticles, sourceId\);/u,
+  "News search rerenders must read the asynchronously merged overlay, not the original static promise value");
+assert.match(script, /await youtubeIndexPromise;[\s\S]*?return preparedYoutubeVideos;/u,
+  "YouTube search rerenders must read the asynchronously merged overlay, not the original static promise value");
+assert.match(script, /\["live", "degraded", "fallback"\]\.includes\(source\.mode\)/u);
+assert.match(script, /mergePreparedEntries\([\s\S]*?payload\.videos\.map\(prepareYoutubeVideo\),[\s\S]*?preparedYoutubeVideos/u,
+  "YouTube search must merge the recent Atom overlay into the complete static index");
 assert.match(script, /const PAGE_SIZE = 5/u);
 assert.match(script, /const SEARCH_DEBOUNCE_MS = 150/u);
 assert.match(script, /history\.replaceState/u);
@@ -91,6 +102,8 @@ const harnessScript = script.replace(
     isAllowedYoutubeVideoUrl,
     isValidSearchIndex,
     isValidYoutubeIndex,
+    loadSearchIndex,
+    loadYoutubeIndex,
     normalizePageNumber,
     normalizeSearchText,
     normalizeSourceId,
@@ -98,13 +111,16 @@ const harnessScript = script.replace(
     prepareYoutubeVideo,
     resolveCachedImageSource,
     resolveNewsImageProxySource,
+    setCurrentSourceForOverlayTest: (sourceId) => { currentSourceId = sourceId; },
     validateQuery,
+    waitForLatestNewsForOverlayTest: (sourceId) => latestNewsPromises.get(sourceId),
+    waitForLatestYoutubeForOverlayTest: () => latestYoutubePromise,
   }; return;
   bindSearchControls();`,
 );
 assert.notEqual(harnessScript, script, "search test harness injection failed");
 
-const placeholder = {};
+const placeholder = { dataset: {} };
 const sandbox: Record<string, unknown> = {
   document: {
     querySelector: () => placeholder,
@@ -126,6 +142,8 @@ const searchTest = sandbox.__newsSearchTest as {
   isAllowedYoutubeVideoUrl: (value: string, expectedVideoId?: string) => boolean;
   isValidSearchIndex: (value: unknown) => boolean;
   isValidYoutubeIndex: (value: unknown) => boolean;
+  loadSearchIndex: (sourceId: string) => Promise<Array<{ article: any }>>;
+  loadYoutubeIndex: () => Promise<Array<{ article: any }>>;
   normalizePageNumber: (value: unknown) => number;
   normalizeSearchText: (value: unknown) => string;
   normalizeSourceId: (value: unknown) => string;
@@ -133,8 +151,133 @@ const searchTest = sandbox.__newsSearchTest as {
   prepareYoutubeVideo: (video: Record<string, unknown>) => { article: Record<string, unknown>; searchText: string };
   resolveCachedImageSource: (value: string, sourceId: string) => string;
   resolveNewsImageProxySource: (value: string, referer: string) => string;
+  setCurrentSourceForOverlayTest: (sourceId: string) => void;
   validateQuery: (value: unknown) => { valid: boolean; query: string; tokens: string[]; message: string };
+  waitForLatestNewsForOverlayTest: (sourceId: string) => Promise<void> | undefined;
+  waitForLatestYoutubeForOverlayTest: () => Promise<void> | null;
 };
+
+await testAsyncLatestOverlaysAppearInSearch();
+
+async function testAsyncLatestOverlaysAppearInSearch() {
+  const staticNewsUrl = `http://www.kcna.kp/kp/article/detail/${"a".repeat(32)}`;
+  const latestNewsUrl = `http://www.kcna.kp/kp/article/detail/${"b".repeat(32)}`;
+  const staticNewsId = `news:kcna:${"1".repeat(24)}`;
+  const latestNewsId = `news:kcna:${"2".repeat(24)}`;
+  const staticNewsPayload = {
+    schemaVersion: 1,
+    version: "1".repeat(16),
+    generatedAt: "2026-08-24T00:00:00.000Z",
+    totalItems: 1,
+    articles: [{
+      id: staticNewsId,
+      title: "게시된 정적 뉴스",
+      date: "2026-08-23",
+      sourceId: "kcna",
+      sourceName: "조선중앙통신",
+      snippet: "",
+      url: staticNewsUrl,
+      thumbnailUrl: "",
+      cachedThumbnailUrl: "",
+      detailUrl: `/news/document?id=${encodeURIComponent(staticNewsId)}`,
+    }],
+  };
+  const latestNewsPayload = {
+    schemaVersion: 1,
+    generatedAt: "2026-08-24T01:00:00.000Z",
+    sources: {
+      kcna: {
+        id: "kcna",
+        mode: "live",
+        articles: [{
+          id: latestNewsId,
+          sourceId: "kcna",
+          sourceName: "조선중앙통신",
+          title: "접속 후 들어온 최신 뉴스",
+          date: "2026-08-24",
+          snippet: "",
+          url: latestNewsUrl,
+          thumbnailUrl: "",
+          cachedThumbnailUrl: "",
+          detailUrl: latestNewsUrl,
+          archived: false,
+        }],
+      },
+    },
+  };
+  const staticYoutubeId = "AAAAAAAAAAA";
+  const latestYoutubeId = "BBBBBBBBBBB";
+  const staticYoutubePayload = {
+    schemaVersion: 1,
+    version: "static-youtube",
+    generatedAt: "2026-08-24T00:00:00.000Z",
+    totalItems: 1,
+    channelCounts: { 메아리: 1, supersuhui: 0 },
+    videos: [makeOverlayVideo(staticYoutubeId, "메아리", "게시된 정적 영상", "2026-08-23T01:00:00.000Z")],
+  };
+  const latestYoutubePayload = {
+    schemaVersion: 1,
+    version: "latest-youtube",
+    generatedAt: "2026-08-24T02:00:00.000Z",
+    totalItems: 1,
+    channelCounts: { 메아리: 0, supersuhui: 1 },
+    videos: [makeOverlayVideo(latestYoutubeId, "supersuhui", "접속 후 들어온 최신 영상", "2026-08-24T02:00:00.000Z")],
+    refresh: { status: "success", checkedAt: "2026-08-24T02:00:00.000Z" },
+  };
+
+  let releaseNewsLatest!: () => void;
+  let releaseYoutubeLatest!: () => void;
+  const newsLatestResponse = new Promise<any>((resolve) => {
+    releaseNewsLatest = () => resolve(jsonResponse(latestNewsPayload));
+  });
+  const youtubeLatestResponse = new Promise<any>((resolve) => {
+    releaseYoutubeLatest = () => resolve(jsonResponse(latestYoutubePayload));
+  });
+  sandbox.fetch = (url: string) => {
+    if (url === "/data/news/search-index.json") return Promise.resolve(jsonResponse(staticNewsPayload));
+    if (url === "/api/news-latest?source=kcna") return newsLatestResponse;
+    if (url === "/data/news/youtube-videos.json") return Promise.resolve(jsonResponse(staticYoutubePayload));
+    if (url === "/api/news-youtube-latest") return youtubeLatestResponse;
+    return Promise.reject(new Error(`unexpected search fixture URL: ${url}`));
+  };
+
+  searchTest.setCurrentSourceForOverlayTest("youtube");
+  const initialNews = await searchTest.loadSearchIndex("kcna");
+  assert.deepEqual(Array.from(initialNews, (entry) => entry.article.id), [staticNewsId]);
+  releaseNewsLatest();
+  await searchTest.waitForLatestNewsForOverlayTest("kcna");
+  const refreshedNews = await searchTest.loadSearchIndex("kcna");
+  assert.deepEqual(Array.from(refreshedNews, (entry) => entry.article.id), [latestNewsId, staticNewsId],
+    "the resolved access-time News overlay must be searchable on the next render");
+
+  searchTest.setCurrentSourceForOverlayTest("kcna");
+  const initialYoutube = await searchTest.loadYoutubeIndex();
+  assert.deepEqual(Array.from(initialYoutube, (entry) => entry.article.id), [`youtube-${staticYoutubeId}`]);
+  releaseYoutubeLatest();
+  await searchTest.waitForLatestYoutubeForOverlayTest();
+  const refreshedYoutube = await searchTest.loadYoutubeIndex();
+  assert.deepEqual(Array.from(refreshedYoutube, (entry) => entry.article.id), [
+    `youtube-${latestYoutubeId}`,
+    `youtube-${staticYoutubeId}`,
+  ], "the resolved access-time YouTube overlay must be searchable on the next render");
+}
+
+function makeOverlayVideo(videoId: string, channelName: string, title: string, publishedAt: string) {
+  return {
+    id: `youtube-${videoId}`,
+    videoId,
+    title,
+    channelName,
+    publishedAt,
+    date: publishedAt.slice(0, 10),
+    url: `https://www.youtube.com/watch?v=${videoId}`,
+    thumbnailUrl: `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`,
+  };
+}
+
+function jsonResponse(payload: unknown) {
+  return { ok: true, status: 200, json: async () => payload };
+}
 
 assert.equal(indexText, `${JSON.stringify(searchIndex)}\n`, "the full search index must use compact deterministic JSON");
 assert.equal(searchIndex.schemaVersion, 1);

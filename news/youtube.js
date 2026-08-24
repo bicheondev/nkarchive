@@ -1,5 +1,6 @@
 (function initializeNewsYouTube() {
   const DATA_URL = "/data/news/youtube-videos.json";
+  const LATEST_DATA_URL = "/api/news-youtube-latest";
   const RENDER_BATCH_SIZE = 24;
   const CHANNEL_NAMES = new Set(["메아리", "supersuhui"]);
   const section = document.querySelector(".news-youtube-section");
@@ -9,6 +10,8 @@
   if (!section || !grid || !status || !moreButton) return;
 
   let renderObserver = null;
+  let renderedSignature = "";
+  let publishedVideos = [];
 
   loadVideos();
 
@@ -25,6 +28,7 @@
       if (!videos.length) throw new Error("empty_youtube_feed");
       renderVideos(videos);
       status.hidden = true;
+      void refreshLatestVideos();
     } catch (error) {
       console.error(error);
       status.textContent = "YouTube 영상 목록을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.";
@@ -34,7 +38,26 @@
     }
   }
 
+  async function refreshLatestVideos() {
+    try {
+      const response = await fetch(LATEST_DATA_URL, { headers: { Accept: "application/json" } });
+      if (!response.ok) throw new Error(`youtube_latest_${response.status}`);
+      const payload = await response.json();
+      if (!isValidPayload(payload)) throw new Error("invalid_youtube_latest");
+      const videos = mergeLatestVideos(payload.videos, publishedVideos);
+      if (!videos.length) throw new Error("empty_youtube_latest");
+      const nextSignature = createVideoSignature(videos);
+      if (nextSignature !== renderedSignature) renderVideos(videos);
+      section.dataset.latestCheckedAt = String(payload.refresh?.checkedAt || payload.generatedAt || "");
+      section.dataset.latestMode = String(payload.refresh?.status || "success");
+    } catch (error) {
+      console.warn("[news/youtube] Live freshness check failed; keeping the published list.", error);
+    }
+  }
+
   function renderVideos(videos) {
+    publishedVideos = videos;
+    renderedSignature = createVideoSignature(videos);
     let renderedCount = 0;
     grid.replaceChildren();
     renderObserver?.disconnect();
@@ -61,6 +84,21 @@
       }, { rootMargin: "600px 0px" });
       renderObserver.observe(moreButton);
     }
+  }
+
+  function createVideoSignature(videos) {
+    const frontier = videos.slice(0, 30).map((video) => (
+      `${video.videoId}:${video.publishedAt}:${video.title}`
+    )).join("|");
+    return `${videos.length}:${frontier}`;
+  }
+
+  function mergeLatestVideos(latestVideos, staticVideos) {
+    const byId = new Map();
+    for (const video of [...latestVideos, ...staticVideos]) {
+      if (!byId.has(video.videoId)) byId.set(video.videoId, video);
+    }
+    return [...byId.values()].sort(compareNewestFirst);
   }
 
   function createVideoCard(video, index, totalItems) {

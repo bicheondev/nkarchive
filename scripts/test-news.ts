@@ -172,7 +172,7 @@ assert.match(indexHtml, /id="newsSearchSource" name="source" type="hidden" value
 assert.match(indexHtml, /href="\/news\/youtube"[^>]*data-news-media="youtube"[^>]*>YouTube<\/a>/u,
   "the shared floating selector must expose the complete YouTube catalog");
 assert.match(indexHtml, /\/news\/news\.css\?v=news-20260823-7/u, "the homepage stylesheet must use the current cache key");
-assert.match(indexHtml, /\/news\/news\.js\?v=news-20260823-4/u, "the homepage script must use the current cache key");
+assert.match(indexHtml, /\/news\/news\.js\?v=news-20260824-1/u, "the homepage script must use the current cache key");
 for (const shellHtml of [indexHtml, documentHtml]) {
   assert.match(shellHtml, /<a href="\/search">검색<\/a>/u,
     "every News shell must expose the enabled site-search destination");
@@ -243,6 +243,15 @@ assert.equal(
 );
 assert.doesNotMatch(newsJs, /경애하는 김정은동지의 혁명활동소식/u);
 assert.doesNotMatch(newsJs, /news-details\.json/u, "homepage must load only the preview feed");
+assert.match(newsJs, /const LATEST_NEWS_URL = "\/api\/news-latest"/u,
+  "every homepage visit must perform the cached live freshness check");
+assert.match(newsJs, /void refreshLatestFeed\(\)/u);
+assert.match(newsJs, /Promise\.allSettled\(\[\.\.\.SOURCE_IDS\]\.map\(refreshLatestSource\)\)/u,
+  "homepage and category/search views must share the same per-source five-minute cache keys");
+assert.match(newsJs, /freshness check failed; keeping the published snapshot/u,
+  "a live upstream failure must leave the published archive visible");
+assert.match(newsJs, /\["live", "degraded", "fallback"\]\.includes\(source\.mode\)/u,
+  "partial source refreshes must be exposed without pretending every category was live");
 assert.match(categoryJs, /\/data\/news\/categories/u, "category pages must load only their requested static page");
 assert.doesNotMatch(categoryJs, /news-feed\.json|news-details\.json/u, "category pages must not download a whole archive");
 assert.match(detailJs, /\/data\/news\/details/u, "detail pages must load one deterministic id shard");

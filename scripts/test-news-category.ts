@@ -27,10 +27,21 @@ assert.match(html, /class="material-symbols-rounded news-menu-toggle-icon"[^>]*>
 assert.match(html, /id="newsCategoryPagination"[^>]*aria-label="카테고리 페이지"/u);
 assert.match(html, /\/news\/category\.css/u);
 assert.match(html, /\/news\/category\.js/u);
-assert.match(html, /category\.js\?v=news-category-20260823-3/u);
+assert.match(html, /category\.js\?v=news-category-20260824-1/u);
 assert.match(html, /category\.css\?v=news-category-20260823-3/u);
 
 assert.match(script, /const CATEGORY_ROOT_URL = "\/data\/news\/categories"/u);
+assert.match(script, /const LATEST_NEWS_URL = "\/api\/news-latest"/u);
+assert.match(script, /currentPage === 1\) void refreshLatestCategory/u,
+  "the first category page must overlay access-time updates without changing archived pages");
+assert.match(script, /mergeLatestCategoryArticles\(staticArticles, latestArticles, source\.mode\)/u,
+  "the live first-page overlay must use the bounded category merge contract");
+assert.match(script, /article\?\.archived === false && !staticUrls\.has/u,
+  "only genuinely unpublished listing rows may be inserted ahead of the static page");
+assert.match(script, /if \(mode === "fallback"\) return publishedRows;/u,
+  "an upstream fallback must leave the published category page unchanged");
+assert.match(script, /Live freshness check failed; keeping the published page/u);
+assert.match(script, /\["live", "degraded", "fallback"\]\.includes\(source\.mode\)/u);
 assert.doesNotMatch(script, /\/data\/news-feed\.json/u, "category pages must not download the homepage preview feed");
 assert.match(script, /buildCategoryDataUrl\(context, currentPage\)/u);
 assert.match(script, /page-\$\{page\}\.json/u);
@@ -64,7 +75,7 @@ assert.doesNotMatch(
 
 const harnessScript = script.replace(
   "  const context = readCategoryContext();",
-  "  globalThis.__newsCategoryTest = { buildCategoryDataUrl, isValidCategoryPage, getPaginationRange, normalizePageNumber }; return;\n  const context = readCategoryContext();",
+  "  const context = { sourceId: 'kcna', sectionId: 'important' }; globalThis.__newsCategoryTest = { buildCategoryDataUrl, isValidCategoryPage, getPaginationRange, mergeLatestCategoryArticles, normalizePageNumber }; return;",
 );
 assert.notEqual(harnessScript, script, "category test harness injection failed");
 
@@ -80,8 +91,57 @@ const categoryTest = sandbox.__newsCategoryTest as {
     requestedPage: number,
   ) => boolean;
   getPaginationRange: (page: number, totalPages: number) => number[];
+  mergeLatestCategoryArticles: (staticArticles: any[], latestArticles: any[], mode: string) => any[];
   normalizePageNumber: (value: unknown) => number;
 };
+
+testLatestCategoryMergeBehavior();
+
+function testLatestCategoryMergeBehavior() {
+  const staticRows = Array.from({ length: 5 }, (_, index) => categoryArticle(`static-${index}`, index));
+  const upToDateListing = Array.from({ length: 10 }, (_, index) => (
+    index < staticRows.length
+      ? { ...staticRows[index], archived: true }
+      : categoryArticle(`archived-position-${index}`, index, true)
+  ));
+  assert.deepEqual(
+    Array.from(categoryTest.mergeLatestCategoryArticles(staticRows, upToDateListing, "live"), (article) => article.id),
+    staticRows.map((article) => article.id),
+    "an up-to-date page must not mistake ordinary listing positions 6-10 for new articles",
+  );
+
+  const newcomer = categoryArticle("genuine-newcomer", 0, false, "2026-08-24");
+  const shiftedListing = [
+    newcomer,
+    ...staticRows.map((article, index) => ({ ...article, archived: true, categoryOrders: { important: index + 1 } })),
+    ...Array.from({ length: 4 }, (_, index) => categoryArticle(`older-${index}`, index + 6, true, "2026-08-22")),
+  ];
+  assert.deepEqual(
+    Array.from(categoryTest.mergeLatestCategoryArticles(staticRows, shiftedListing, "live"), (article) => article.id),
+    [newcomer.id, ...staticRows.slice(0, 4).map((article) => article.id)],
+    "one genuine unarchived newcomer must enter the sorted five-row page without admitting older archived positions",
+  );
+
+  const fallbackRows = [
+    categoryArticle("fallback-old", 0, true, "2026-08-01"),
+    categoryArticle("fallback-unpublished", 1, false, "2026-08-25"),
+  ];
+  assert.deepEqual(
+    Array.from(categoryTest.mergeLatestCategoryArticles(staticRows, fallbackRows, "fallback"), (article) => article.id),
+    staticRows.map((article) => article.id),
+    "fallback mode must preserve the static page order exactly",
+  );
+}
+
+function categoryArticle(id: string, order: number, archived = true, date = "2026-08-23") {
+  return {
+    id,
+    url: `http://www.kcna.kp/kp/article/detail/${id.padEnd(32, "a").slice(0, 32)}`,
+    date,
+    categoryOrders: { important: order },
+    archived,
+  };
+}
 
 const categoryContext = {
   sourceId: "rodong-sinmun",

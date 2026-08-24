@@ -12,6 +12,13 @@
       "maxDuration": 30,
       "includeFiles": "data/news/image-proxy-allowlist.json"
     },
+    "api/news-latest.js": {
+      "maxDuration": 30,
+      "includeFiles": "{data/news-feed.json,data/news/search-index.json,scripts/news-mirror-crawler.ts,lib/news-image-policy.js}"
+    },
+    "api/news-youtube-latest.js": {
+      "maxDuration": 30
+    },
     "api/search-asset.js": {
       "maxDuration": 30
     },

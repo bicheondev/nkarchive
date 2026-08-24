@@ -5,6 +5,7 @@
   if (!board || !sourceTabs.length) return;
 
   const FEED_URL = "/data/news-feed.json";
+  const LATEST_NEWS_URL = "/api/news-latest";
   const SOURCE_IDS = new Set(["kcna", "rodong-sinmun"]);
   const SECTION_COLUMNS = {
     kcna: [
@@ -118,6 +119,7 @@
 
   let feed = null;
   let activeSourceId = getInitialSourceId();
+  const latestModes = {};
 
   bindSourceTabs();
   updateTabs();
@@ -132,9 +134,38 @@
       feed = nextFeed;
       board.dataset.generatedAt = String(feed.generatedAt || "");
       renderActiveSource();
+      void refreshLatestFeed();
     } catch (error) {
       console.error("[news] Unable to load the news snapshot.", error);
       renderError();
+    }
+  }
+
+  async function refreshLatestFeed() {
+    await Promise.allSettled([...SOURCE_IDS].map(refreshLatestSource));
+  }
+
+  async function refreshLatestSource(sourceId) {
+    try {
+      const response = await fetch(`${LATEST_NEWS_URL}?source=${sourceId}`, {
+        headers: { Accept: "application/json" },
+      });
+      if (!response.ok) throw new Error(`news_latest_${response.status}`);
+      const payload = await response.json();
+      if (!isValidLatestPayload(payload, [sourceId])) throw new Error("invalid_news_latest");
+      const latestSource = payload.sources[sourceId];
+      feed.sources[sourceId].articles = mergeLatestArticles(
+        feed.sources[sourceId].articles,
+        latestSource.articles,
+      );
+      board.dataset.latestCheckedAt = payload.generatedAt;
+      latestModes[sourceId] = latestSource.mode;
+      if (sourceId === activeSourceId) {
+        board.dataset.latestMode = latestSource.mode;
+        renderActiveSource();
+      }
+    } catch (error) {
+      console.warn(`[news] ${sourceId} freshness check failed; keeping the published snapshot.`, error);
     }
   }
 
@@ -181,6 +212,7 @@
       renderError();
       return;
     }
+    board.dataset.latestMode = latestModes[activeSourceId] || "";
 
     const grid = document.createElement("div");
     grid.className = "news-board-grid";
@@ -260,7 +292,11 @@
 
     item.className = `news-article news-slot-${slot.height}${imageSources.length ? " has-thumbnail" : ""}`;
     link.className = "news-article-link";
-    link.href = article.detailUrl || `/news/document?id=${encodeURIComponent(article.id || "")}`;
+    link.href = resolveArticleDetailUrl(article);
+    if (article.archived === false) {
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+    }
     copy.className = "news-article-copy";
     title.className = "news-article-title";
     title.textContent = article.title || "기사";
@@ -389,6 +425,82 @@
       ? rightOrder
       : Number.MAX_SAFE_INTEGER;
     return normalizedLeft - normalizedRight;
+  }
+
+  function mergeLatestArticles(staticArticles, latestArticles) {
+    const merged = [];
+    const seenIds = new Set();
+    const seenUrls = new Set();
+    for (const article of [...latestArticles, ...staticArticles]) {
+      const id = String(article?.id || "");
+      const url = String(article?.url || "");
+      if (!id || !url || seenIds.has(id) || seenUrls.has(url)) continue;
+      seenIds.add(id);
+      seenUrls.add(url);
+      merged.push(article);
+    }
+    return merged;
+  }
+
+  function resolveArticleDetailUrl(article) {
+    const candidate = String(article?.detailUrl || "").trim();
+    if (article?.archived === false && isOfficialArticleUrl(article?.sourceId, candidate)) return candidate;
+    const expected = `/news/document?id=${encodeURIComponent(article?.id || "")}`;
+    return expected;
+  }
+
+  function isValidLatestPayload(value, sourceIds = [...SOURCE_IDS]) {
+    if (!value || value.schemaVersion !== 1 || typeof value.generatedAt !== "string" || !value.sources) return false;
+    return sourceIds.every((sourceId) => {
+      const source = value.sources[sourceId];
+      return source?.id === sourceId
+        && ["live", "degraded", "fallback"].includes(source.mode)
+        && Array.isArray(source.articles)
+        && source.articles.length <= 256
+        && source.articles.every((article) => isValidLatestArticle(article, sourceId));
+    });
+  }
+
+  function isValidLatestArticle(article, sourceId) {
+    const id = String(article?.id || "");
+    const detailUrl = String(article?.detailUrl || "");
+    const expectedDetailUrl = `/news/document?id=${encodeURIComponent(id)}`;
+    const validDetailUrl = article?.archived === false
+      ? detailUrl === article.url && isOfficialArticleUrl(sourceId, detailUrl)
+      : detailUrl === expectedDetailUrl;
+    return article && article.sourceId === sourceId
+      && isValidPublishedIdForSource(id, sourceId)
+      && typeof article.title === "string"
+      && article.title.trim().length > 0
+      && /^20\d{2}-\d{2}-\d{2}$/u.test(String(article.date || ""))
+      && isOfficialArticleUrl(sourceId, article.url)
+      && typeof article.archived === "boolean"
+      && Array.isArray(article.categories)
+      && Array.isArray(article.featuredSections)
+      && validDetailUrl;
+  }
+
+  function isValidPublishedIdForSource(id, sourceId) {
+    if (/^news:(?:kcna|rodong-sinmun):[a-f0-9]{24}$/u.test(id)) return id.startsWith(`news:${sourceId}:`);
+    return sourceId === "kcna" && /^kcna-[a-f0-9]{16}$/u.test(id);
+  }
+
+  function isOfficialArticleUrl(sourceId, value) {
+    try {
+      const url = new URL(String(value || ""));
+      if (url.username || url.password || url.port) return false;
+      if (sourceId === "kcna") {
+        return url.origin === "http://www.kcna.kp"
+          && /^\/kp\/(?:article|gallery|video)\/detail\/[a-f0-9]{32}$/u.test(url.pathname)
+          && !url.search;
+      }
+      return sourceId === "rodong-sinmun"
+        && url.origin === "http://www.rodong.rep.kp"
+        && url.pathname === "/ko/index.php"
+        && /^\?[A-Za-z0-9+/]+={0,2}$/u.test(url.search);
+    } catch {
+      return false;
+    }
   }
 
   function formatCompactDate(value) {

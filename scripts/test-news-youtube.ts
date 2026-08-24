@@ -304,6 +304,14 @@ async function testYouTubeUiConsumesTheCompleteArtifactSafely() {
   assert.equal(artifact.channelCounts["메아리"] > 15, true, "메아리 coverage must extend past the 15-row RSS window");
   assert.equal(artifact.channelCounts.supersuhui > 15, true, "supersuhui coverage must extend past the 15-row RSS window");
   assert.match(javascript, /const DATA_URL = "\/data\/news\/youtube-videos\.json"/u);
+  assert.match(javascript, /const LATEST_DATA_URL = "\/api\/news-youtube-latest"/u);
+  assert.match(javascript, /void refreshLatestVideos\(\)/u,
+    "every YouTube visit must overlay the cached official-feed freshness check");
+  assert.match(javascript, /mergeLatestVideos\(payload\.videos, publishedVideos\)/u,
+    "the recent Atom window must merge into, rather than replace, the complete catalog");
+  assert.match(javascript, /videos\.slice\(0, 30\)[\s\S]*?video\.publishedAt[\s\S]*?video\.title/u,
+    "freshness signatures must notice metadata changes even when video ids are unchanged");
+  assert.match(html, /\/news\/youtube\.js\?v=news-youtube-20260824-1/u);
   assert.match(javascript, /const videos = \[\.\.\.payload\.videos\]\.sort\(compareNewestFirst\)/u);
   assert.doesNotMatch(javascript, /\.slice\(\s*0\s*,\s*(?:6|15)\s*\)/u, "the UI must not cap the artifact to a teaser or RSS window");
 

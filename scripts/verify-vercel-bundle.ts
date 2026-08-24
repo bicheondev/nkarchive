@@ -27,6 +27,8 @@ const NEWS_REQUIRED_DEPLOY_FILES = [
   "api/news-comments.js",
   "api/news-document.js",
   "api/news-image.js",
+  "api/news-latest.js",
+  "api/news-youtube-latest.js",
   "lib/news-image-policy.js",
   "news/comments.js",
   "news/disclaimer.js",
@@ -162,6 +164,16 @@ export async function verifyVercelBundle({
     if (documentFunction?.maxDuration !== 30
       || documentFunction?.includeFiles !== "{data/news/details/*.json,news/document-template.html}") {
       throw new Error("News document function must include its template and published detail shards within the bounded runtime");
+    }
+    const latestFunction = vercelConfig.functions?.["api/news-latest.js"];
+    if (latestFunction?.maxDuration !== 30
+      || latestFunction?.includeFiles !== "{data/news-feed.json,data/news/search-index.json,scripts/news-mirror-crawler.ts,lib/news-image-policy.js}") {
+      throw new Error("News latest function must include its published indexes and fixed parser dependencies within the bounded runtime");
+    }
+    const youtubeLatestFunction = vercelConfig.functions?.["api/news-youtube-latest.js"];
+    if (youtubeLatestFunction?.maxDuration !== 30
+      || Object.hasOwn(youtubeLatestFunction, "includeFiles")) {
+      throw new Error("News YouTube latest function must use the bounded runtime without duplicating the published catalog");
     }
   }
   const rewriteMap = new Map((vercelConfig.rewrites || []).map((entry) => [entry.source, entry.destination]));

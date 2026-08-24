@@ -6,6 +6,7 @@
   if (!title || !list || !pagination) return;
 
   const CATEGORY_ROOT_URL = "/data/news/categories";
+  const LATEST_NEWS_URL = "/api/news-latest";
   const PAGE_SIZE = 5;
   const PAGE_WINDOW = 5;
   const SOURCE_DEFINITIONS = Object.freeze({
@@ -72,9 +73,31 @@
       list.dataset.generatedAt = String(payload.generatedAt || "");
       renderArticles(payload.articles);
       renderPagination(totalPages);
+      if (currentPage === 1) void refreshLatestCategory(payload.articles);
     } catch (error) {
       console.error("[news/category] Unable to load the category page.", error);
       renderError("뉴스 아카이브를 불러오지 못했습니다.");
+    }
+  }
+
+  async function refreshLatestCategory(staticArticles) {
+    try {
+      const response = await fetch(`${LATEST_NEWS_URL}?source=${context.sourceId}`, {
+        headers: { Accept: "application/json" },
+      });
+      if (!response.ok) throw new Error(`news_category_latest_${response.status}`);
+      const payload = await response.json();
+      const source = payload?.sources?.[context.sourceId];
+      if (!isValidLatestSource(payload, source)) throw new Error("invalid_news_category_latest");
+      const latestArticles = source.articles.filter((article) => (
+        article.featuredSections.includes(context.sectionId)
+        || article.categories.includes(context.sectionId)
+      )).sort(compareLatestCategoryArticles);
+      renderArticles(mergeLatestCategoryArticles(staticArticles, latestArticles, source.mode));
+      list.dataset.latestCheckedAt = payload.generatedAt;
+      list.dataset.latestMode = source.mode;
+    } catch (error) {
+      console.warn("[news/category] Live freshness check failed; keeping the published page.", error);
     }
   }
 
@@ -196,6 +219,10 @@
     item.setAttribute("role", "listitem");
     link.className = "news-category-row-link";
     link.href = resolveDetailUrl(article);
+    if (article?.archived === false) {
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+    }
     copy.className = "news-category-copy";
     articleTitle.className = "news-category-row-title";
     articleTitle.textContent = article?.title || "기사";
@@ -224,8 +251,93 @@
 
   function resolveDetailUrl(article) {
     const candidate = String(article?.detailUrl || "").trim();
-    if (/^\/news\/document(?:[/?#]|$)/u.test(candidate)) return candidate;
-    return `/news/document?id=${encodeURIComponent(article?.id || "")}`;
+    if (article?.archived === false && isOfficialArticleUrl(context.sourceId, candidate)) return candidate;
+    const expected = `/news/document?id=${encodeURIComponent(article?.id || "")}`;
+    return expected;
+  }
+
+  function isValidLatestSource(payload, source) {
+    return payload?.schemaVersion === 1
+      && typeof payload.generatedAt === "string"
+      && source?.id === context.sourceId
+      && ["live", "degraded", "fallback"].includes(source.mode)
+      && Array.isArray(source.articles)
+      && source.articles.length <= 256
+      && source.articles.every((article) => isValidLatestArticle(article, context.sourceId));
+  }
+
+  function isValidLatestArticle(article, sourceId) {
+    const id = String(article?.id || "");
+    const detailUrl = String(article?.detailUrl || "");
+    const expectedDetailUrl = `/news/document?id=${encodeURIComponent(id)}`;
+    const validDetailUrl = article?.archived === false
+      ? detailUrl === article.url && isOfficialArticleUrl(sourceId, detailUrl)
+      : detailUrl === expectedDetailUrl;
+    return article?.sourceId === sourceId
+      && isValidPublishedIdForSource(id, sourceId)
+      && typeof article.title === "string"
+      && article.title.trim().length > 0
+      && /^20\d{2}-\d{2}-\d{2}$/u.test(String(article.date || ""))
+      && isOfficialArticleUrl(sourceId, article.url)
+      && typeof article.archived === "boolean"
+      && Array.isArray(article.categories)
+      && Array.isArray(article.featuredSections)
+      && validDetailUrl;
+  }
+
+  function isValidPublishedIdForSource(id, sourceId) {
+    if (/^news:(?:kcna|rodong-sinmun):[a-f0-9]{24}$/u.test(id)) return id.startsWith(`news:${sourceId}:`);
+    return sourceId === "kcna" && /^kcna-[a-f0-9]{16}$/u.test(id);
+  }
+
+  function isOfficialArticleUrl(sourceId, value) {
+    try {
+      const url = new URL(String(value || ""));
+      if (url.username || url.password || url.port) return false;
+      if (sourceId === "kcna") {
+        return url.origin === "http://www.kcna.kp"
+          && /^\/kp\/(?:article|gallery|video)\/detail\/[a-f0-9]{32}$/u.test(url.pathname)
+          && !url.search;
+      }
+      return sourceId === "rodong-sinmun"
+        && url.origin === "http://www.rodong.rep.kp"
+        && url.pathname === "/ko/index.php"
+        && /^\?[A-Za-z0-9+/]+={0,2}$/u.test(url.search);
+    } catch {
+      return false;
+    }
+  }
+
+  function compareLatestCategoryArticles(left, right) {
+    const leftOrder = left?.categoryOrders?.[context.sectionId];
+    const rightOrder = right?.categoryOrders?.[context.sectionId];
+    return String(right?.date || "").localeCompare(String(left?.date || ""))
+      || (Number.isSafeInteger(leftOrder) ? leftOrder : Number.MAX_SAFE_INTEGER)
+        - (Number.isSafeInteger(rightOrder) ? rightOrder : Number.MAX_SAFE_INTEGER)
+      || String(left?.id || "").localeCompare(String(right?.id || ""));
+  }
+
+  function mergeLatestCategoryArticles(staticArticles, latestArticles, mode) {
+    const publishedRows = Array.isArray(staticArticles) ? staticArticles.slice(0, PAGE_SIZE) : [];
+    if (mode === "fallback") return publishedRows;
+    const staticUrls = new Set(publishedRows.map((article) => String(article?.url || "")));
+    const latestByUrl = new Map(latestArticles.map((article) => [String(article?.url || ""), article]));
+    const newcomers = latestArticles.filter((article) => (
+      article?.archived === false && !staticUrls.has(String(article?.url || ""))
+    ));
+    const refreshedStatic = publishedRows.map((article) => (
+      latestByUrl.get(String(article?.url || "")) || article
+    ));
+    const seenUrls = new Set();
+    return [...newcomers, ...refreshedStatic]
+      .filter((article) => {
+        const url = String(article?.url || "");
+        if (!url || seenUrls.has(url)) return false;
+        seenUrls.add(url);
+        return true;
+      })
+      .sort(compareLatestCategoryArticles)
+      .slice(0, PAGE_SIZE);
   }
 
   function resolveCachedImageSource(value, sourceId) {
