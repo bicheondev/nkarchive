@@ -510,7 +510,7 @@ async function assertProjectShellNavigationIsAccessible() {
   assert.equal(homeHtml.includes('aria-label="Archive home"'), false, "project shell should not expose English logo labels");
   assert.equal(homeHtml.includes('aria-label="Primary"'), false, "project shell should not expose English nav labels");
   assert.equal(homeHtml.includes('/styles.css?v=site-20260823-3'), true, "project shell should use the current shared style cache key");
-  assert.equal(homeHtml.includes('/app.js?v=site-20260821-1'), true, "project shell should use the current app runtime cache key");
+  assert.equal(homeHtml.includes('/app.js?v=site-20260825-1'), true, "project shell should use the current app runtime cache key");
   assert.equal(liveHtml.includes('window.location.replace("/?route=live&v=live-20260701-2")'), true, "/live should redirect into the current shared app shell instead of shipping a stale duplicate shell");
   const navHtml = navMatch?.[0] || "";
   assert.equal(navHtml.includes('href="#"'), false, "project shell navigation should not ship dead placeholder links");
@@ -587,6 +587,18 @@ async function assertProjectShellNavigationIsAccessible() {
   assert.equal(appSource.includes('const ROUTE_SEARCH = "search";'), true, "project shell should recognize the search route for active-state styling");
   assert.equal(appSource.includes('if (link.dataset.route === ROUTE_SEARCH) continue;'), true, "project shell should leave /search navigation to the static search shell");
   assert.equal(appSource.includes("if (path === SEARCH_PATH) return ROUTE_SEARCH;"), true, "project shell should infer /search as the search route instead of the music route");
+  assert.equal(appSource.includes('const FONT_SINGLE_COLUMN_MEDIA_QUERY = "(max-width: 760px)";'), true,
+    "mobile font cards should share the phone layout breakpoint");
+  assert.equal(appSource.includes("const cardWidth = singleColumn ? gridWidth : CARD_WIDTH;"), true,
+    "mobile font cards should fill the available grid width");
+  assert.match(appSource, /const columns = singleColumn\s*\? 1\s*:\s*Math\.max\(1,/u,
+    "mobile font results should render exactly one card per row");
+  assert.equal(appSource.includes("virtualLayout.cardWidth === metrics.cardWidth"), true,
+    "font virtualization should rerender when the responsive card width changes");
+  assert.equal(appSource.includes('card.style.width = `${metrics.cardWidth}px`;'), true,
+    "rendered font cards should receive the responsive width");
+  assert.equal(appSource.includes("column * (metrics.cardWidth + GRID_GAP)"), true,
+    "font card positions should use the responsive card width");
   assert.equal(appSource.includes('label: "고려전선"'), true, "broadcast sources should expose 고려전선 as the Koryo Front source label");
   assert.equal(appSource.includes('activeSource = "koryo"'), true, "KCTV should keep 고려전선 as the default source");
   assert.equal(appSource.includes("https://kctv.koryofront.org/stream/index.m3u8"), true, "KCTV should use the Koryo Front KCTV HLS stream");

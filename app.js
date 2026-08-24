@@ -2,6 +2,7 @@ const DEFAULT_SAMPLE = "동해 물과 백두산이\n마르고 닳도록";
 const CARD_WIDTH = 235;
 const CARD_HEIGHT = 255;
 const GRID_GAP = 20;
+const FONT_SINGLE_COLUMN_MEDIA_QUERY = "(max-width: 760px)";
 const OVERSCAN_ROWS = 2;
 const INITIAL_RESULT_COUNT = 24;
 const RESULT_BATCH_SIZE = 24;
@@ -2612,6 +2613,7 @@ function renderVirtualGrid(force) {
     !force &&
     virtualLayout &&
     virtualLayout.columns === metrics.columns &&
+    virtualLayout.cardWidth === metrics.cardWidth &&
     virtualLayout.loadedResultCount === loadedResultCount &&
     virtualLayout.startIndex === range.startIndex &&
     virtualLayout.endIndex === range.endIndex &&
@@ -2656,13 +2658,18 @@ function extendLoadedResultsForScroll() {
 
 function getGridMetrics(itemCount) {
   const gridWidth = grid.clientWidth || Number.parseFloat(getComputedStyle(grid).width) || CARD_WIDTH;
-  const columns = Math.max(1, Math.floor((gridWidth + GRID_GAP) / (CARD_WIDTH + GRID_GAP)));
+  const singleColumn = window.matchMedia(FONT_SINGLE_COLUMN_MEDIA_QUERY).matches;
+  const cardWidth = singleColumn ? gridWidth : CARD_WIDTH;
+  const columns = singleColumn
+    ? 1
+    : Math.max(1, Math.floor((gridWidth + GRID_GAP) / (cardWidth + GRID_GAP)));
   const rows = Math.ceil(itemCount / columns);
   const totalHeight = rows ? rows * CARD_HEIGHT + (rows - 1) * GRID_GAP : 0;
-  const usedWidth = columns * CARD_WIDTH + (columns - 1) * GRID_GAP;
+  const usedWidth = columns * cardWidth + (columns - 1) * GRID_GAP;
   const horizontalOffset = Math.max(0, (gridWidth - usedWidth) / 2);
 
   return {
+    cardWidth,
     columns,
     rows,
     totalHeight,
@@ -2698,7 +2705,8 @@ function createFontCard(font, index, metrics, request) {
   const row = Math.floor(index / metrics.columns);
   const column = index % metrics.columns;
 
-  card.style.left = `${metrics.horizontalOffset + column * (CARD_WIDTH + GRID_GAP)}px`;
+  card.style.width = `${metrics.cardWidth}px`;
+  card.style.left = `${metrics.horizontalOffset + column * (metrics.cardWidth + GRID_GAP)}px`;
   card.style.top = `${row * (CARD_HEIGHT + GRID_GAP)}px`;
   applyFontRequestToCard(card, request);
 
