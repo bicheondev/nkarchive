@@ -30,6 +30,7 @@ const NEWS_REQUIRED_DEPLOY_FILES = [
   "api/news-latest.js",
   "api/news-youtube-latest.js",
   "lib/news-image-policy.js",
+  "lib/news-latest-runtime.js",
   "news/comments.js",
   "news/disclaimer.js",
   "news/header.js",
@@ -167,7 +168,7 @@ export async function verifyVercelBundle({
     }
     const latestFunction = vercelConfig.functions?.["api/news-latest.js"];
     if (latestFunction?.maxDuration !== 30
-      || latestFunction?.includeFiles !== "{data/news-feed.json,data/news/search-index.json,scripts/news-mirror-crawler.ts,lib/news-image-policy.js}") {
+      || latestFunction?.includeFiles !== "{data/news-feed.json,data/news/search-index.json,lib/news-latest-runtime.js}") {
       throw new Error("News latest function must include its published indexes and fixed parser dependencies within the bounded runtime");
     }
     const youtubeLatestFunction = vercelConfig.functions?.["api/news-youtube-latest.js"];

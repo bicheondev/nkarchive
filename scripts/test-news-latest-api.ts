@@ -4,7 +4,11 @@ import { createHash } from "node:crypto";
 import {
   createNewsLatestHandler,
 } from "../api/news-latest.js";
-import { KCNA_CATEGORY_LISTS } from "./news-mirror-crawler.ts";
+import {
+  KCNA_CATEGORY_LISTS,
+  buildRodongHtmlFallbackUrl,
+  fetchBoundedHtml,
+} from "../lib/news-latest-runtime.js";
 
 const NOW = new Date("2026-08-25T01:02:03.000Z");
 const KCNA_FEED_URL = `http://www.kcna.kp/kp/article/detail/${"a".repeat(32)}`;
@@ -54,6 +58,7 @@ await testFallbackAndHttpContract();
 await testOverallRefreshDeadline();
 await testRodongFixedOriginAndArchiveMatch();
 await testRodongJinaFallbackBounds();
+await testSlimRuntimeFetchBounds();
 
 console.log("News latest API tests passed.");
 
@@ -412,6 +417,91 @@ async function testRodongJinaFallbackBounds() {
     officialListing,
     `https://r.jina.ai/${officialListing}`,
   ]);
+}
+
+async function testSlimRuntimeFetchBounds() {
+  await assert.rejects(
+    fetchBoundedHtml("https://fixed.example/news", {
+      fetchImpl: async () => new Response(Buffer.alloc(1_025, 97), {
+        headers: { "Content-Type": "text/html; charset=utf-8" },
+      }),
+      htmlMaxBytes: 1_024,
+      timeoutMs: 200,
+      maxRedirects: 0,
+    }),
+    /Response exceeds 1024 bytes/u,
+    "the slim runtime must enforce its streamed response byte ceiling",
+  );
+
+  let rejectedBodyCancelled = false;
+  await assert.rejects(
+    fetchBoundedHtml("https://fixed.example/news", {
+      fetchImpl: async () => new Response(new ReadableStream({
+        cancel() { rejectedBodyCancelled = true; },
+      }), { status: 503 }),
+      htmlMaxBytes: 1_024,
+      timeoutMs: 200,
+      maxRedirects: 0,
+    }),
+    /HTTP 503/u,
+  );
+  assert.equal(rejectedBodyCancelled, true, "a rejected upstream body must be cancelled before returning fallback data");
+
+  let oversizedBodyCancelled = false;
+  await assert.rejects(
+    fetchBoundedHtml("https://fixed.example/news", {
+      fetchImpl: async () => new Response(new ReadableStream({
+        cancel() { oversizedBodyCancelled = true; },
+      }), { headers: { "Content-Length": "2048" } }),
+      htmlMaxBytes: 1_024,
+      timeoutMs: 200,
+      maxRedirects: 0,
+    }),
+    /Response exceeds 1024 bytes/u,
+  );
+  assert.equal(oversizedBodyCancelled, true, "an oversized declared body must be cancelled before returning fallback data");
+
+  let redirectBodyCancelled = false;
+  await assert.rejects(
+    fetchBoundedHtml("https://fixed.example/news", {
+      fetchImpl: async () => new Response(new ReadableStream({
+        cancel() { redirectBodyCancelled = true; },
+      }), {
+        status: 302,
+        headers: { Location: "https://unexpected.example/news" },
+      }),
+      htmlMaxBytes: 1_024,
+      timeoutMs: 200,
+      maxRedirects: 1,
+    }),
+    /Cross-origin redirect rejected/u,
+    "the slim runtime must not follow an upstream-controlled cross-origin redirect",
+  );
+  assert.equal(redirectBodyCancelled, true, "a rejected redirect body must be cancelled before returning fallback data");
+
+  const startedAt = Date.now();
+  await assert.rejects(
+    fetchBoundedHtml("https://fixed.example/news", {
+      fetchImpl: async (_url, init) => new Promise((_, reject) => {
+        init.signal.addEventListener("abort", () => reject(init.signal.reason), { once: true });
+      }),
+      htmlMaxBytes: 1_024,
+      timeoutMs: 100,
+      maxRedirects: 0,
+    }),
+    /Request exceeded 100ms/u,
+    "the slim runtime must abort a stalled upstream",
+  );
+  assert.ok(Date.now() - startedAt < 500, "the upstream deadline must remain bounded");
+
+  assert.equal(
+    buildRodongHtmlFallbackUrl("http://www.rodong.rep.kp/ko/"),
+    "https://r.jina.ai/http://www.rodong.rep.kp/ko/",
+  );
+  assert.throws(
+    () => buildRodongHtmlFallbackUrl("https://unexpected.example/ko/"),
+    /official origin/u,
+  );
 }
 
 function encodeRodongCategoryToken(categoryCode, page) {

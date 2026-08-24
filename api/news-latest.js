@@ -9,7 +9,7 @@ import {
   parseKcnaListing,
   parseRodongHomepageCategories,
   parseRodongListing,
-} from "../scripts/news-mirror-crawler.ts";
+} from "../lib/news-latest-runtime.js";
 
 const PUBLIC_ORIGIN = "https://nkarchive.vercel.app";
 const RODONG_HOME_URL = "http://www.rodong.rep.kp/ko/";
