@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T00:00:00.000Z",
-  "version": "e1a15217c8617362",
+  "generatedAt": "2026-08-25T00:00:00.000Z",
+  "version": "1ddb956594ce47dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 38,
   "pageSize": 5,
-  "totalItems": 773,
+  "totalItems": 771,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:3673edd05ece4b44992e29bc",
+      "title": "제24차 평양봄철국제상품전람회 개막",
+      "date": "2026-05-05",
+      "snippet": "(평양 5월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/aa3e96c65f12c5904ede32d5e9005112",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 185,
+        "domestic": 1219
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e0000643c2a90a9f617998b6a23db3051715637",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/dc25d74ecaedb630c20bad9900df379ef34e16ce8acd64df587f9f14911746b5.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3673edd05ece4b44992e29bc"
+    },
     {
       "id": "news:kcna:f21f1f82121950e7aad04bf7",
       "title": "조선민주주의인민공화국 외무성 대변인대답",
@@ -24,9 +46,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 121,
-        "foreign": 185,
-        "domestic": 1222
+        "important": 122,
+        "foreign": 186,
+        "domestic": 1236
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,8 +69,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 806,
-        "foreign": 186
+        "international": 813,
+        "foreign": 187
       },
       "featuredSections": [],
       "hasImage": false,
@@ -70,9 +92,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 122,
-        "international": 825,
-        "foreign": 187
+        "important": 123,
+        "international": 832,
+        "foreign": 188
       },
       "featuredSections": [],
       "hasImage": false,
@@ -93,8 +115,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 188,
-        "domestic": 1246
+        "foreign": 189,
+        "domestic": 1260
       },
       "featuredSections": [],
       "hasImage": true,
@@ -102,28 +124,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/48ee1e57cc5c856b2790b5700793328b4094578d272f7e9f26ac50d5483dad5f",
       "cachedThumbnailUrl": "/data/news/assets/kcna/ca6ee9674d2637bb97fa040aebc1b4f4040d431891c08d136257d0c82d9af790.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A10c95a893fe9d24e2a4c21bb"
-    },
-    {
-      "id": "news:kcna:67bd7a5520316e7fa66411b4",
-      "title": "제34차 4월의 봄 친선예술축전 페막",
-      "date": "2026-05-01",
-      "snippet": "(평양 5월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2a29130bb5925dccbff94941ff46b534",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 189,
-        "domestic": 1247
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A67bd7a5520316e7fa66411b4"
     }
   ]
 }

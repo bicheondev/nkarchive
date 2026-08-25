@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T00:00:00.000Z",
-  "version": "e1a15217c8617362",
+  "generatedAt": "2026-08-25T00:00:00.000Z",
+  "version": "1ddb956594ce47dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,34 @@
   "section": "important",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 521,
+  "totalItems": 522,
   "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:0b187596d3afdbd16fbbb9be",
+      "title": "박태성 내각총리 삼지연산악관광지구건설과 함흥시의 공장,기업소들을 현지료해",
+      "date": "2026-08-25",
+      "snippet": "(평양 8월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8a6287b8ea93fdb5544d8eb211ad4d8c",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 0,
+        "domestic": 1
+      },
+      "featuredSections": [
+        "important",
+        "domestic"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29474dacbb67165c2b32503220d7044553",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/aa8afcf501ab2ec24d87add271afd77e695140d70f60fe9f1c7a3511818c7334.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0b187596d3afdbd16fbbb9be"
+    },
     {
       "id": "kcna-c457059f87799fc0",
       "title": "전국당간부양성부문교원강습회 진행",
@@ -23,8 +48,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 0,
-        "domestic": 27
+        "important": 1,
+        "domestic": 41
       },
       "featuredSections": [
         "important"
@@ -48,9 +73,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 1,
+        "important": 2,
         "document": 0,
-        "domestic": 35
+        "domestic": 49
       },
       "featuredSections": [
         "important",
@@ -75,9 +100,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 2,
+        "important": 3,
         "document": 1,
-        "domestic": 46
+        "domestic": 60
       },
       "featuredSections": [
         "important",
@@ -102,9 +127,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 3,
-        "foreign": 4,
-        "domestic": 54
+        "important": 4,
+        "foreign": 5,
+        "domestic": 68
       },
       "featuredSections": [
         "important",
@@ -115,30 +140,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-2b185c907681761e"
-    },
-    {
-      "id": "kcna-1a1500be13b240f7",
-      "title": "박태성 내각총리 여러 부문 사업 현지료해",
-      "date": "2026-08-18",
-      "snippet": "(평양 8월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/38c0a190e838442efef2203154b0d75f",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 4,
-        "domestic": 64
-      },
-      "featuredSections": [
-        "important"
-      ],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2908008c934b3ab58f8d649a4fe9cc4dd0",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/903025220d84bb69f43b83e61e1b2390df012d8568cbdb5391ab75826a0cbf7c.jpg",
-      "detailUrl": "/news/document?id=kcna-1a1500be13b240f7"
     }
   ]
 }

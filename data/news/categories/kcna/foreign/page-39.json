@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T00:00:00.000Z",
-  "version": "e1a15217c8617362",
+  "generatedAt": "2026-08-25T00:00:00.000Z",
+  "version": "1ddb956594ce47dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 39,
   "pageSize": 5,
-  "totalItems": 773,
+  "totalItems": 771,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:67bd7a5520316e7fa66411b4",
+      "title": "제34차 4월의 봄 친선예술축전 페막",
+      "date": "2026-05-01",
+      "snippet": "(평양 5월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2a29130bb5925dccbff94941ff46b534",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 190,
+        "domestic": 1261
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A67bd7a5520316e7fa66411b4"
+    },
     {
       "id": "news:kcna:49826cf8566b098cfbcf2a4f",
       "title": "우리 나라 특명전권대사 에티오피아대통령을 작별방문",
@@ -23,8 +45,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 826,
-        "foreign": 190
+        "international": 833,
+        "foreign": 191
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +67,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 834,
-        "foreign": 191
+        "international": 841,
+        "foreign": 192
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,8 +89,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 842,
-        "foreign": 192
+        "international": 849,
+        "foreign": 193
       },
       "featuredSections": [],
       "hasImage": false,
@@ -89,8 +111,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 193,
-        "domestic": 1273
+        "foreign": 194,
+        "domestic": 1287
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,30 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aa9d394466607b62f707dcf19"
-    },
-    {
-      "id": "news:kcna:b8b41019fca2d00d1c20beae",
-      "title": "로씨야련방 공식대표단 귀국",
-      "date": "2026-04-28",
-      "snippet": "(평양 4월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c4484f4df9afdee4442be0b9ca05a3eb",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 126,
-        "foreign": 194,
-        "domestic": 1277
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66619a57796e220f84db1e6f2db8a570dc",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/b199a9c99d23f040c5656af79c9042bae9ff3fdb05d7051fb30fee0129feb7a0.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab8b41019fca2d00d1c20beae"
     }
   ]
 }

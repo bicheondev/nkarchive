@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T00:00:00.000Z",
-  "version": "e1a15217c8617362",
+  "generatedAt": "2026-08-25T00:00:00.000Z",
+  "version": "1ddb956594ce47dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,53 @@
   "section": "social",
   "page": 88,
   "pageSize": 5,
-  "totalItems": 687,
-  "totalPages": 138,
+  "totalItems": 683,
+  "totalPages": 137,
   "articles": [
+    {
+      "id": "news:kcna:98fb9a4c1f58bc5773c8c8e8",
+      "title": "함경남도 영광군 인다농장,북청군 룡전과수농장 당우분장에서 새집들이와 결산분배 진행",
+      "date": "2025-12-14",
+      "snippet": "(평양 12월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/09ce8d8dca070e1c071677b626e72867",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2793,
+        "social": 435
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f5c6e1f5597b99221f0a5bbc9438570a19",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/152fa35ef97500c14d99c19bd28c9f1ae29effb8afb5674284131d245f0a3ce4.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A98fb9a4c1f58bc5773c8c8e8"
+    },
+    {
+      "id": "news:kcna:0f0c1e550f4cadbec3d55b09",
+      "title": "이란대통령 녀성들의 지위와 역할에 대해 언급",
+      "date": "2025-12-13",
+      "snippet": "(테헤란 12월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e53d2564a29bdef6dc7137a68bc229a2",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 1904,
+        "social": 436
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0f0c1e550f4cadbec3d55b09"
+    },
     {
       "id": "news:kcna:04484895122110b5651de95f",
       "title": "황해북도 곡산군과 강원도 법동군의 여러 농장마을에 문화주택들이 일떠섰다",
@@ -23,8 +67,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2786,
-        "social": 435
+        "domestic": 2800,
+        "social": 437
       },
       "featuredSections": [],
       "hasImage": true,
@@ -45,8 +89,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2787,
-        "social": 436
+        "domestic": 2801,
+        "social": 438
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,8 +111,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2795,
-        "social": 437
+        "domestic": 2809,
+        "social": 439
       },
       "featuredSections": [],
       "hasImage": false,
@@ -76,50 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Af1325d72e2c995aecd685815"
-    },
-    {
-      "id": "news:kcna:e7ee739bb90c54328e7090c5",
-      "title": "황해남도 신원군 월당농장과 평안북도 염주군 내중농장에서 새집들이 진행",
-      "date": "2025-12-12",
-      "snippet": "(평양 12월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9ad9a614281ea78a5c89f51ef5653e48",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2799,
-        "social": 438
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f5bdb0aa2f75f8ed1a73b6b7980dad7b8b",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/c4556d649625cf403e532f285aa8e92563903e61a1db4079bf1906fb0ca03e5c.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae7ee739bb90c54328e7090c5"
-    },
-    {
-      "id": "news:kcna:5a8767c50f908e0d6121f0aa",
-      "title": "남포시 항구구역 우산목화농장과 자강도 만포시 건하농장에서 살림집입사모임 진행",
-      "date": "2025-12-11",
-      "snippet": "(평양 12월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/77572e9e7eef680574e4fe829b4b55ed",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2808,
-        "social": 439
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f5da0f19425be0c97015583c753accf2c1",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/bc51cce888999da761117923afd701e3baef2ec95e0810343e93be680c1ba3a0.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5a8767c50f908e0d6121f0aa"
     }
   ]
 }

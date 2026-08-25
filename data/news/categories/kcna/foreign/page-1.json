@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T00:00:00.000Z",
-  "version": "e1a15217c8617362",
+  "generatedAt": "2026-08-25T00:00:00.000Z",
+  "version": "1ddb956594ce47dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,34 @@
   "section": "foreign",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 773,
+  "totalItems": 771,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:733a025752c09fce8e9881bd",
+      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 로씨야련방공산당 중앙위원회와 공산당련맹-쏘련공산당 중앙리사회에서 꽃바구니를 보내여왔다",
+      "date": "2026-08-25",
+      "snippet": "(평양 8월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/56cee8ebc4bca492fdb87a6e0b2eba33",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 0,
+        "domestic": 2
+      },
+      "featuredSections": [
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2943d4b999298106bf32e1b4d28f2d5029",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/4cc6defe1b7c475101258c97f142c032ec9553bc87a77e14e58428feb3faac4c.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A733a025752c09fce8e9881bd"
+    },
     {
       "id": "news:kcna:6fce3edcb81071ad63b85a40",
       "title": "니까라과공화국 특명전권대사 만경대 방문,꽃바구니 진정",
@@ -23,8 +48,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 0,
-        "domestic": 16
+        "foreign": 1,
+        "domestic": 30
       },
       "featuredSections": [
         "foreign"
@@ -47,8 +72,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 1,
-        "domestic": 21
+        "foreign": 2,
+        "domestic": 35
       },
       "featuredSections": [
         "foreign"
@@ -71,8 +96,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 24,
-        "foreign": 2
+        "international": 31,
+        "foreign": 3
       },
       "featuredSections": [
         "foreign"
@@ -95,8 +120,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 3,
-        "domestic": 36
+        "foreign": 4,
+        "domestic": 50
       },
       "featuredSections": [
         "foreign"
@@ -106,33 +131,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29253cc3a5759eb06d5ea239327cc4bc4b",
       "cachedThumbnailUrl": "/data/news/assets/kcna/f8d76c3c72d347ed3631a783801c48ec508339e49098b1586fecdac3da107e3a.jpg",
       "detailUrl": "/news/document?id=kcna-438023acd6f23bdf"
-    },
-    {
-      "id": "kcna-2b185c907681761e",
-      "title": "조선중앙통신사 론평--적대세력의 군사적위협을 무력화하기 위한 우리의 자위적권리행사는 더욱 명백한 행동으로 표현될것이다",
-      "date": "2026-08-19",
-      "snippet": "(평양 8월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/15f79e4a495c8d8bc65be14f92ad8699",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 3,
-        "foreign": 4,
-        "domestic": 54
-      },
-      "featuredSections": [
-        "important",
-        "foreign"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-2b185c907681761e"
     }
   ]
 }

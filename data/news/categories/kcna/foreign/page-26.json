@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T00:00:00.000Z",
-  "version": "e1a15217c8617362",
+  "generatedAt": "2026-08-25T00:00:00.000Z",
+  "version": "1ddb956594ce47dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 26,
   "pageSize": 5,
-  "totalItems": 773,
+  "totalItems": 771,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:b351498bb9e2e0b09efab205",
+      "title": "윁남사회주의공화국 공안성대표단 여러곳 참관",
+      "date": "2026-06-16",
+      "snippet": "(평양 6월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f87dd9e63d9f09d4a4e217cca816ce4c",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 125,
+        "domestic": 768
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e3491479993d384b7a35b238c47fd0ee91",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/0f42d0c5cea41183b33c489832255efab4375db375337ac69fb363dc029967c2.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab351498bb9e2e0b09efab205"
+    },
     {
       "id": "news:kcna:6460056fadba1df1b1babdf6",
       "title": "조선민주주의인민공화국 사회안전상과 윁남사회주의공화국 공안상사이의 회담 진행",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 125,
-        "domestic": 765
+        "foreign": 126,
+        "domestic": 779
       },
       "featuredSections": [],
       "hasImage": true,
@@ -47,10 +69,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 80,
+        "important": 81,
         "document": 10,
-        "foreign": 126,
-        "domestic": 775
+        "foreign": 127,
+        "domestic": 789
       },
       "featuredSections": [],
       "hasImage": false,
@@ -71,8 +93,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 127,
-        "domestic": 776
+        "foreign": 128,
+        "domestic": 790
       },
       "featuredSections": [],
       "hasImage": true,
@@ -95,10 +117,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 81,
+        "important": 82,
         "document": 11,
-        "foreign": 128,
-        "domestic": 779
+        "foreign": 129,
+        "domestic": 793
       },
       "featuredSections": [],
       "hasImage": false,
@@ -106,32 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-6a97b833a95ac309"
-    },
-    {
-      "id": "kcna-748797daffae8eb9",
-      "title": "조선민주주의인민공화국 외무성 대외정책실장 미국의 해외무기판매책동이 지역 및 국제정세에 미칠 엄중성에 대해 경고",
-      "date": "2026-06-13",
-      "snippet": "(평양 6월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/14b25495b27db95054f095f07c2dc31a",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 82,
-        "document": 12,
-        "foreign": 129,
-        "domestic": 784
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-748797daffae8eb9"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T00:00:00.000Z",
-  "version": "e1a15217c8617362",
+  "generatedAt": "2026-08-25T00:00:00.000Z",
+  "version": "1ddb956594ce47dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,53 @@
   "section": "social",
   "page": 87,
   "pageSize": 5,
-  "totalItems": 687,
-  "totalPages": 138,
+  "totalItems": 683,
+  "totalPages": 137,
   "articles": [
+    {
+      "id": "news:kcna:01db881940ae9d85de04baab",
+      "title": "이딸리아전역에서 대규모파업과 시위",
+      "date": "2025-12-15",
+      "snippet": "(평양 12월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bf7b31f9a2d3a3d144e1b42ceb386bfb",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 1891,
+        "social": 430
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A01db881940ae9d85de04baab"
+    },
+    {
+      "id": "news:kcna:b65bbdddb4f2f460dfb8bc0e",
+      "title": "뽀르뚜갈근로자들 특권층의 리익을 위한 로동법개정을 반대하여 투쟁",
+      "date": "2025-12-15",
+      "snippet": "(평양 12월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2bd0450033682c5937c92f8ec42e3bb0",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 1892,
+        "social": 431
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab65bbdddb4f2f460dfb8bc0e"
+    },
     {
       "id": "news:kcna:9869d147b7a1920f0d0e2e45",
       "title": "함경남도 함흥시 마전농장,내호농장과 부전군 백상농장에서 새집들이 진행",
@@ -23,8 +67,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2771,
-        "social": 430
+        "domestic": 2785,
+        "social": 432
       },
       "featuredSections": [],
       "hasImage": true,
@@ -45,8 +89,8 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1889,
-        "social": 431
+        "international": 1896,
+        "social": 433
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,51 +111,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2778,
-        "social": 432
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae0477bdceeaf3887ef64eb07"
-    },
-    {
-      "id": "news:kcna:98fb9a4c1f58bc5773c8c8e8",
-      "title": "함경남도 영광군 인다농장,북청군 룡전과수농장 당우분장에서 새집들이와 결산분배 진행",
-      "date": "2025-12-14",
-      "snippet": "(평양 12월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/09ce8d8dca070e1c071677b626e72867",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2779,
-        "social": 433
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f5c6e1f5597b99221f0a5bbc9438570a19",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/152fa35ef97500c14d99c19bd28c9f1ae29effb8afb5674284131d245f0a3ce4.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A98fb9a4c1f58bc5773c8c8e8"
-    },
-    {
-      "id": "news:kcna:0f0c1e550f4cadbec3d55b09",
-      "title": "이란대통령 녀성들의 지위와 역할에 대해 언급",
-      "date": "2025-12-13",
-      "snippet": "(테헤란 12월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e53d2564a29bdef6dc7137a68bc229a2",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "social"
-      ],
-      "categoryOrders": {
-        "international": 1897,
+        "domestic": 2792,
         "social": 434
       },
       "featuredSections": [],
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0f0c1e550f4cadbec3d55b09"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae0477bdceeaf3887ef64eb07"
     }
   ]
 }
