@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "1ddb956594ce47dc",
+  "version": "2400643da413fa0b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 22,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:adb5cbf772808dd142f4b53d",
+      "title": "몸소 열어보신 가방",
+      "date": "2026-03-02",
+      "snippet": "위대한 수령 김일성동지께서는 1969년 가을 어느 날 어깨에 가방을 메고 걸어가고있는 한 어린이를 보게 되시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/0ec5d591803df9eec1a61de665544296",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 105
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aadb5cbf772808dd142f4b53d"
+    },
     {
       "id": "news:kcna:0eab55d548ab40d973f53355",
       "title": "값높은 영예",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 105
+        "memory": 106
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 106
+        "memory": 107
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 107
+        "memory": 108
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 108
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A22494067b403057a5335f584"
-    },
-    {
-      "id": "news:kcna:e38f28a2d807aaf864344199",
-      "title": "사업이 곧 휴식이라고 하시며",
-      "date": "2026-02-23",
-      "snippet": "조선로동당 제6차대회를 앞두고있던 1980년 10월 어느날이였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/926c133cf56e2f5979817f3e5bd838a0",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 109
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae38f28a2d807aaf864344199"
+      "detailUrl": "/news/document?id=news%3Akcna%3A22494067b403057a5335f584"
     }
   ]
 }

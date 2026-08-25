@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "1ddb956594ce47dc",
+  "version": "2400643da413fa0b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 10,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:e28a8e6f880456eefdb704b1",
+      "title": "구시산의 돌벼락",
+      "date": "2026-06-05",
+      "snippet": "항일혁명전쟁시기인 1937년 6월 5일 구시산전투때의 일이다.",
+      "url": "http://www.kcna.kp/kp/article/detail/6f8818a0e5e8a01907c8c208a5a3f351",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 45
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae28a8e6f880456eefdb704b1"
+    },
     {
       "id": "news:kcna:6fd15fa9fe38e28acf398ad5",
       "title": "보천보에서 울리신 총성",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 45
+        "memory": 46
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 46
+        "memory": 47
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 47
+        "memory": 48
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 48
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac9c31f8bf3e4e4e709a248c3"
-    },
-    {
-      "id": "news:kcna:8b2e1789cce8ae75db4fa415",
-      "title": "몸소 무우를 가꾸신 사연",
-      "date": "2026-05-29",
-      "snippet": "위대한 수령 김일성동지께서는 1966년 7월 어느날 평양시의 농촌경리사업을 맡아보고있는 일군들을 부르시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/7a2f2ab80a2e9a1dc3aa31b8256292d8",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 49
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8b2e1789cce8ae75db4fa415"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac9c31f8bf3e4e4e709a248c3"
     }
   ]
 }

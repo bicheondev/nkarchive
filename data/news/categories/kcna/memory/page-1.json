@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "1ddb956594ce47dc",
+  "version": "2400643da413fa0b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "memory",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:519facd3ac7fde7b0b528b7c",
+      "title": "고향과 조국에 대한 사랑을 심어주시며",
+      "date": "2026-08-25",
+      "snippet": "위대한 수령 김일성동지께서는 조국해방전쟁이 한창이던 1950년 8월 어느날 서흥군에서 철길복구장으로 나가는 처녀들을 만나게 되시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/edbccb7d627e84d23cfa19885c540b19",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 0
+      },
+      "featuredSections": [
+        "memory"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A519facd3ac7fde7b0b528b7c"
+    },
     {
       "id": "news:kcna:c45db61f86f08be079490028",
       "title": "현지지도의 길을 이어가시며",
@@ -22,7 +44,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 0
+        "memory": 1
       },
       "featuredSections": [
         "memory"
@@ -44,7 +66,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 1
+        "memory": 2
       },
       "featuredSections": [
         "memory"
@@ -66,7 +88,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 2
+        "memory": 3
       },
       "featuredSections": [
         "memory"
@@ -88,28 +110,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 3
-      },
-      "featuredSections": [
-        "memory"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-b3ff45e4c3cf6b2b"
-    },
-    {
-      "id": "kcna-1829fd05d2e3de5f",
-      "title": "콩농사에서 일대 전환을 마련하시려",
-      "date": "2026-08-17",
-      "snippet": "위대한 수령 김일성동지께서는 1959년 3월 어느날 함경북도 길주군의한 협동농장(당시)을 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/2f338bb0d5e14a5c5b2f9e682cb194d9",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 4
       },
       "featuredSections": [
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-1829fd05d2e3de5f"
+      "detailUrl": "/news/document?id=kcna-b3ff45e4c3cf6b2b"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "1ddb956594ce47dc",
+  "version": "2400643da413fa0b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 8,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:e4f2985fed619c46627924dc",
+      "title": "이틀동안에 다 보자고 하시며",
+      "date": "2026-06-23",
+      "snippet": "위대한 령도자 김정일동지께서 1998년 1월 어느날 자강도를 찾으시였을 때였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/e689cf3b608a61fe695cfd7a6dfd0465",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 35
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae4f2985fed619c46627924dc"
+    },
     {
       "id": "news:kcna:57bb5b45bfa83750fa824d2c",
       "title": "약수터가 전하는 사연",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 35
+        "memory": 36
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 36
+        "memory": 37
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 37
+        "memory": 38
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 38
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7a6e0b2b97c4cceaa64dcc8e"
-    },
-    {
-      "id": "news:kcna:87c420db3f0487883e390c3f",
-      "title": "《연풍호》에 깃든 사연",
-      "date": "2026-06-13",
-      "snippet": "위대한 수령 김일성동지께서는 1956년 5월 어느날 완공된 평남관개시설들을 돌아보시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/e972e71832cdf7fd634dfb0a3df6266d",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 39
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A87c420db3f0487883e390c3f"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7a6e0b2b97c4cceaa64dcc8e"
     }
   ]
 }

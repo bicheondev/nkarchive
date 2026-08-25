@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "1ddb956594ce47dc",
+  "version": "2400643da413fa0b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 11,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:8b2e1789cce8ae75db4fa415",
+      "title": "몸소 무우를 가꾸신 사연",
+      "date": "2026-05-29",
+      "snippet": "위대한 수령 김일성동지께서는 1966년 7월 어느날 평양시의 농촌경리사업을 맡아보고있는 일군들을 부르시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/7a2f2ab80a2e9a1dc3aa31b8256292d8",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 50
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8b2e1789cce8ae75db4fa415"
+    },
     {
       "id": "news:kcna:95784952f6f233489838ea25",
       "title": "선참으로 건느신 외나무다리",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 50
+        "memory": 51
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 51
+        "memory": 52
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 52
+        "memory": 53
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 53
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad426c13a0812f8d235dfc5cd"
-    },
-    {
-      "id": "news:kcna:4224681846ace3ee5c0a2535",
-      "title": "농사는 하늘이 짓는것이 아니다",
-      "date": "2026-05-27",
-      "snippet": "위대한 수령 김일성동지께서는 1962년 1월 어느날 안악군에 있는 한 조합(당시)을 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/cd02d1d8f7c3c069cde1dfa24cf35784",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 54
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4224681846ace3ee5c0a2535"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad426c13a0812f8d235dfc5cd"
     }
   ]
 }

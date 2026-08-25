@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "1ddb956594ce47dc",
+  "version": "2400643da413fa0b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 12,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:4224681846ace3ee5c0a2535",
+      "title": "농사는 하늘이 짓는것이 아니다",
+      "date": "2026-05-27",
+      "snippet": "위대한 수령 김일성동지께서는 1962년 1월 어느날 안악군에 있는 한 조합(당시)을 찾으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/cd02d1d8f7c3c069cde1dfa24cf35784",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 55
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4224681846ace3ee5c0a2535"
+    },
     {
       "id": "news:kcna:f1aa448a5e20f46494755e0d",
       "title": "재일동포학생들을 위해 미루신 현지지도일정",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 55
+        "memory": 56
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 56
+        "memory": 57
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 57
+        "memory": 58
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 58
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab4d231355d313eb5dcf90d19"
-    },
-    {
-      "id": "news:kcna:2e6839a873de25789e7c1c10",
-      "title": "인민을 위한 걸음",
-      "date": "2026-05-17",
-      "snippet": "위대한 수령 김일성동지께서 1969년 11월 어느날 평양시의 거리들을 돌아보실 때였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/01518208315ffb42a0ae2a8730a53bf6",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 59
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2e6839a873de25789e7c1c10"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab4d231355d313eb5dcf90d19"
     }
   ]
 }

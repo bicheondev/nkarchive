@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "1ddb956594ce47dc",
+  "version": "2400643da413fa0b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "social",
   "page": 125,
   "pageSize": 5,
-  "totalItems": 683,
+  "totalItems": 684,
   "totalPages": 137,
   "articles": [
+    {
+      "id": "news:kcna:2f23bfb9a6d5a5cb57e3abdb",
+      "title": "함경북도에서 청진관 새로 건설,개관식 진행",
+      "date": "2025-09-25",
+      "snippet": "(평양 9월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8deeadc030b682450841450160d05192",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 3836,
+        "social": 620
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/3d3755d837f6dc968fa55dbecad26d225019c74b5d2996a94bd9e48fb9e5d2b8",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/1da8b6afb0f2dc94243aba4c1deb72b58302a0e27dda699696af520364f6f672.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2f23bfb9a6d5a5cb57e3abdb"
+    },
     {
       "id": "news:kcna:00401fd007b995a54fface4e",
       "title": "이딸리아에서 팔레스티나를 지지하여 파업과 시위",
@@ -23,8 +45,8 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 2499,
-        "social": 620
+        "international": 2505,
+        "social": 621
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +67,8 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 2502,
-        "social": 621
+        "international": 2508,
+        "social": 622
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,8 +89,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3838,
-        "social": 622
+        "domestic": 3845,
+        "social": 623
       },
       "featuredSections": [],
       "hasImage": false,
@@ -89,29 +111,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3839,
-        "social": 623
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af75535e747fbaeab7fe647a2"
-    },
-    {
-      "id": "news:kcna:cffcf18e16dabd1868726b22",
-      "title": "수단에서 분쟁으로 많은 인명피해",
-      "date": "2025-09-23",
-      "snippet": "(평양 9월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/bdceeca3359c6ecf731d84e80400661e",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "social"
-      ],
-      "categoryOrders": {
-        "international": 2511,
+        "domestic": 3846,
         "social": 624
       },
       "featuredSections": [],
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acffcf18e16dabd1868726b22"
+      "detailUrl": "/news/document?id=news%3Akcna%3Af75535e747fbaeab7fe647a2"
     }
   ]
 }

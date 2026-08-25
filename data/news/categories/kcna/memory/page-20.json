@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "1ddb956594ce47dc",
+  "version": "2400643da413fa0b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 20,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:5b433110ddb819fb72d70419",
+      "title": "천지개벽된 산골군의 모습을 보시며",
+      "date": "2026-03-17",
+      "snippet": "1996년 6월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/9ebfbf2a83a1c7348beb230df2c13fa3",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 95
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5b433110ddb819fb72d70419"
+    },
     {
       "id": "news:kcna:46ed287df2bc4dffc8e42b7b",
       "title": "녀성농민이 흘린 눈물",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 95
+        "memory": 96
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 96
+        "memory": 97
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 97
+        "memory": 98
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 98
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa35c92dfbf7ec08399a43fdb"
-    },
-    {
-      "id": "news:kcna:5398510365ef46fce4dead18",
-      "title": "크나큰 믿음속에 참된 삶을 누려온 녀성포수",
-      "date": "2026-03-08",
-      "snippet": "위대한 수령 김일성동지께서 1947년 12월 어느날 강원도 평강군에서 온 리수덕부부를 만나시였을 때이다.",
-      "url": "http://www.kcna.kp/kp/article/detail/ae0a9bc23e779bd3cbe68a3af8f9e438",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 99
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5398510365ef46fce4dead18"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa35c92dfbf7ec08399a43fdb"
     }
   ]
 }

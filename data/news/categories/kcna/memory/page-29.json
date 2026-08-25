@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "1ddb956594ce47dc",
+  "version": "2400643da413fa0b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 29,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:845b4487fd2fb456d7468bee",
+      "title": "산간지대 농민들의 생활을 향상시키시려고",
+      "date": "2026-01-02",
+      "snippet": "위대한 수령 김일성동지께서는 1947년 9월 어느날 양덕군을 찾으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/a355807cf6fb2b4a57016269ce210444",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 140
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A845b4487fd2fb456d7468bee"
+    },
     {
       "id": "news:kcna:95aae80eacc647d12ad843de",
       "title": "막장에서 일하는 광부들을 아껴야 한다고 하시며",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 140
+        "memory": 141
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 141
+        "memory": 142
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 142
+        "memory": 143
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 143
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abbc9c9cbdba9d993250dca42"
-    },
-    {
-      "id": "news:kcna:54214fbfa0d97ab4b6c749c1",
-      "title": "개성특식-추어탕",
-      "date": "2025-12-22",
-      "snippet": "위대한 수령 김일성동지께서 1972년 9월 어느날 개성시를 찾으시였을 때였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/ab13feace35735ada7d8c66ad1aed81c",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 144
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A54214fbfa0d97ab4b6c749c1"
+      "detailUrl": "/news/document?id=news%3Akcna%3Abbc9c9cbdba9d993250dca42"
     }
   ]
 }

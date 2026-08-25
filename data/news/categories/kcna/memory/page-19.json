@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "1ddb956594ce47dc",
+  "version": "2400643da413fa0b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 19,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:b7c866c43ead4096820d4d26",
+      "title": "몸소 피해지역에까지 나가시여",
+      "date": "2026-03-25",
+      "snippet": "1967년 8월 평양시는 큰물로 커다란 피해를 입었다.",
+      "url": "http://www.kcna.kp/kp/article/detail/5ee098ddda721ca811015eac790fa9ee",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 90
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab7c866c43ead4096820d4d26"
+    },
     {
       "id": "news:kcna:de0b7022037d6ba85a193607",
       "title": "참으로 좋은 일이라고 하시며",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 90
+        "memory": 91
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 91
+        "memory": 92
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 92
+        "memory": 93
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 93
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4324313e4d0f864f2df28d2e"
-    },
-    {
-      "id": "news:kcna:5b433110ddb819fb72d70419",
-      "title": "천지개벽된 산골군의 모습을 보시며",
-      "date": "2026-03-17",
-      "snippet": "1996년 6월 어느날이였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/9ebfbf2a83a1c7348beb230df2c13fa3",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 94
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5b433110ddb819fb72d70419"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4324313e4d0f864f2df28d2e"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "1ddb956594ce47dc",
+  "version": "2400643da413fa0b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 13,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:2e6839a873de25789e7c1c10",
+      "title": "인민을 위한 걸음",
+      "date": "2026-05-17",
+      "snippet": "위대한 수령 김일성동지께서 1969년 11월 어느날 평양시의 거리들을 돌아보실 때였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/01518208315ffb42a0ae2a8730a53bf6",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 60
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2e6839a873de25789e7c1c10"
+    },
     {
       "id": "news:kcna:8f4f921cec0e9dd38682fe82",
       "title": "해학적인 비유법을 구사하시며 하신 당부",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 60
+        "memory": 61
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 61
+        "memory": 62
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 62
+        "memory": 63
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 63
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A78b98167bbb6f7e514cbb280"
-    },
-    {
-      "id": "news:kcna:bfdcb253ba2daf48f3ad678a",
-      "title": "천도교 도정의 감탄",
-      "date": "2026-05-04",
-      "snippet": "항일혁명전쟁시기인 1936년 초겨울 어느날 위대한 수령 김일성동지께서 조국광복회가 창립되였다는 소식을 듣고 밀영에 찾아온 천도교 도정을 만나주실 때의 일이다.",
-      "url": "http://www.kcna.kp/kp/article/detail/2a4c3459d034b1739ac775dc6135abdf",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 64
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abfdcb253ba2daf48f3ad678a"
+      "detailUrl": "/news/document?id=news%3Akcna%3A78b98167bbb6f7e514cbb280"
     }
   ]
 }

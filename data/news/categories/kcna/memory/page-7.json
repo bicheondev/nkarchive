@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "1ddb956594ce47dc",
+  "version": "2400643da413fa0b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 7,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:72238db5871d640ac01912a2",
+      "title": "류다른 전투임무",
+      "date": "2026-07-01",
+      "snippet": "조국해방전쟁이 한창이던 1952년 2월 어느날에 있은 일이다.",
+      "url": "http://www.kcna.kp/kp/article/detail/152ea97c085286d88c9e86d777f67edc",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 30
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A72238db5871d640ac01912a2"
+    },
     {
       "id": "news:kcna:52f1ca7f4e9e1b0a32234d14",
       "title": "인민군전사들의 위훈을 빛내여주시며",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 30
+        "memory": 31
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 31
+        "memory": 32
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 32
+        "memory": 33
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 33
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A583c2206867a8070f9a3c0f8"
-    },
-    {
-      "id": "news:kcna:e4f2985fed619c46627924dc",
-      "title": "이틀동안에 다 보자고 하시며",
-      "date": "2026-06-23",
-      "snippet": "위대한 령도자 김정일동지께서 1998년 1월 어느날 자강도를 찾으시였을 때였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/e689cf3b608a61fe695cfd7a6dfd0465",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 34
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae4f2985fed619c46627924dc"
+      "detailUrl": "/news/document?id=news%3Akcna%3A583c2206867a8070f9a3c0f8"
     }
   ]
 }

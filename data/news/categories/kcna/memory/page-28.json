@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "1ddb956594ce47dc",
+  "version": "2400643da413fa0b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 28,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:f331a438c8bf8d613a6917ad",
+      "title": "간석지에 건설된 저수지",
+      "date": "2026-01-12",
+      "snippet": "1979년 9월 어느날 위대한 수령 김일성동지께서 황해남도를 현지에서 지도하고계실 때였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/2ff35d363c3fa4d4ddf8ca5b51d91a9a",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 135
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af331a438c8bf8d613a6917ad"
+    },
     {
       "id": "news:kcna:228894e56c6f46cc55fa5d5d",
       "title": "전화의 나날에 태여난 첫 공장대학",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 135
+        "memory": 136
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 136
+        "memory": 137
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 137
+        "memory": 138
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 138
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af709352b53227be48bc16bbd"
-    },
-    {
-      "id": "news:kcna:845b4487fd2fb456d7468bee",
-      "title": "산간지대 농민들의 생활을 향상시키시려고",
-      "date": "2026-01-02",
-      "snippet": "위대한 수령 김일성동지께서는 1947년 9월 어느날 양덕군을 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/a355807cf6fb2b4a57016269ce210444",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 139
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A845b4487fd2fb456d7468bee"
+      "detailUrl": "/news/document?id=news%3Akcna%3Af709352b53227be48bc16bbd"
     }
   ]
 }

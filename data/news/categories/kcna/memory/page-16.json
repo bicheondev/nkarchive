@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "1ddb956594ce47dc",
+  "version": "2400643da413fa0b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 16,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:d3831bb8276f23e203295d92",
+      "title": "제일 기쁜 날들중의 하루",
+      "date": "2026-04-15",
+      "snippet": "1974년 4월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/ed06c7e648bf6cb28c8dd0912c5d7159",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 75
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad3831bb8276f23e203295d92"
+    },
     {
       "id": "news:kcna:fe08de150c836a4ad3f730dd",
       "title": "사랑의 특별렬차",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 75
+        "memory": 76
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 76
+        "memory": 77
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 77
+        "memory": 78
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 78
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A61f42d88ee9f34454f8faebb"
-    },
-    {
-      "id": "news:kcna:d4b15a53f00611dbb4993a24",
-      "title": "사랑의 조치",
-      "date": "2026-04-08",
-      "snippet": "위대한 령도자 김정일동지께서는 총련 조선대학교창립 25돐 기념행사준비가 한창이던 1981년 1월 어느날 일군들을 만나시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/0c48e60728e58a4cc1839e8b861c7e9f",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 79
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad4b15a53f00611dbb4993a24"
+      "detailUrl": "/news/document?id=news%3Akcna%3A61f42d88ee9f34454f8faebb"
     }
   ]
 }
