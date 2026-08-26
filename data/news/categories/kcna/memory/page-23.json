@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "5b4278c7f52e26c5",
+  "version": "d811e40257b41a43",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 23,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:22494067b403057a5335f584",
+      "title": "비약의 근본원천",
+      "date": "2026-02-24",
+      "snippet": "위대한 령도자 김정일동지께서는 1980년 1월 어느날 일군들과 자리를 같이하시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/112b8a0b492da70f6a96cd54b5a589b1",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 110
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A22494067b403057a5335f584"
+    },
     {
       "id": "news:kcna:e38f28a2d807aaf864344199",
       "title": "사업이 곧 휴식이라고 하시며",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 110
+        "memory": 111
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 111
+        "memory": 112
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 112
+        "memory": 113
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 113
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae600ca0595f9bd694cc67309"
-    },
-    {
-      "id": "news:kcna:23337c97928d998ae5547766",
-      "title": "교훈적인 계기로 된 굴뚫기경기",
-      "date": "2026-02-15",
-      "snippet": "위대한 령도자 김정일동지께서는 1984년 어느날 무산광산(당시)을 현지지도하시다가 이곳 일군들이 착정기를 다른 나라에서 사다쓸 생각을 하고있다는 사실을 알게 되시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/94a2730266ccf791ab723b31b124c74c",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 114
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A23337c97928d998ae5547766"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae600ca0595f9bd694cc67309"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "5b4278c7f52e26c5",
+  "version": "d811e40257b41a43",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "memory",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:da529f9da9767bd1b5268965",
+      "title": "늦추어진 공연시간",
+      "date": "2026-08-26",
+      "snippet": "1998년 6월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/c86b68e63c9f853d9f65c4a72a7e192d",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 0
+      },
+      "featuredSections": [
+        "memory"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ada529f9da9767bd1b5268965"
+    },
     {
       "id": "news:kcna:519facd3ac7fde7b0b528b7c",
       "title": "고향과 조국에 대한 사랑을 심어주시며",
@@ -22,7 +44,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 0
+        "memory": 1
       },
       "featuredSections": [
         "memory"
@@ -44,7 +66,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 1
+        "memory": 2
       },
       "featuredSections": [
         "memory"
@@ -66,7 +88,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 2
+        "memory": 3
       },
       "featuredSections": [
         "memory"
@@ -88,28 +110,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 3
-      },
-      "featuredSections": [
-        "memory"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-df6526e18cb6c28b"
-    },
-    {
-      "id": "kcna-b3ff45e4c3cf6b2b",
-      "title": "땀흘려 땅을 걸구는것이 진정한 농사군",
-      "date": "2026-08-19",
-      "snippet": "위대한 수령 김일성동지께서는 1948년 6월 어느날 당시의 함경북도 길주군 웅평면 백원리마을의 첫어구에서 차를 세우게 하시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/1e681f44d0988233ca791c62b07782e3",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 4
       },
       "featuredSections": [
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-b3ff45e4c3cf6b2b"
+      "detailUrl": "/news/document?id=kcna-df6526e18cb6c28b"
     }
   ]
 }

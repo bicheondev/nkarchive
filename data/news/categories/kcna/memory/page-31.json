@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "5b4278c7f52e26c5",
+  "version": "d811e40257b41a43",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 31,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:3f62a9a8996adc08072cc6e4",
+      "title": "몸소 찾아주신 10만평의 논",
+      "date": "2025-12-15",
+      "snippet": "1954년 10월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/fb8bd0d56e5f7e5d76dbfddf05b05777",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 150
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3f62a9a8996adc08072cc6e4"
+    },
     {
       "id": "news:kcna:8e8acddea4939eb6964cb38a",
       "title": "섬초소들에 보내주신 《어머니대표단》",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 150
+        "memory": 151
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 151
+        "memory": 152
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 152
+        "memory": 153
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 153
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac3bbbbb13018fb2a218638b5"
-    },
-    {
-      "id": "news:kcna:53e6d9174724a7b221fc5451",
-      "title": "농촌의 새집에서 묵으신 사연",
-      "date": "2025-12-03",
-      "snippet": "1958년 1월 어느날 위대한 수령 김일성동지께서는 황해남도 신천군의 새날농업협동조합(당시)을 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/2fc67b7a02289db67364932f7f0cb717",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 154
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A53e6d9174724a7b221fc5451"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac3bbbbb13018fb2a218638b5"
     }
   ]
 }

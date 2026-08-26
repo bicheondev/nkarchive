@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "5b4278c7f52e26c5",
+  "version": "d811e40257b41a43",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 37,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:13d336bc83cc8f586aa1855c",
+      "title": "어머니에게 전해진 아들의 편지",
+      "date": "2025-10-25",
+      "snippet": "1952년 12월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/5257680cd987812794141adadce297df",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 180
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A13d336bc83cc8f586aa1855c"
+    },
     {
       "id": "news:kcna:43406aad84d6c0d9a64ea30b",
       "title": "《고물상》이 아니라 《보물상》이라고 하시며",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 180
+        "memory": 181
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 181
+        "memory": 182
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 182
+        "memory": 183
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 183
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acef4230d2b2fe340957c19cd"
-    },
-    {
-      "id": "news:kcna:cce048ebf0e463b3f4190a79",
-      "title": "녀성로동자에게 지어주신 새 이름",
-      "date": "2025-10-18",
-      "snippet": "1948년 6월 어느날 위대한 수령 김일성동지께서 한 휴양소를 찾으시였을 때였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/6f6b3dc43036af7c269a745e9b808a6b",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 184
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acce048ebf0e463b3f4190a79"
+      "detailUrl": "/news/document?id=news%3Akcna%3Acef4230d2b2fe340957c19cd"
     }
   ]
 }

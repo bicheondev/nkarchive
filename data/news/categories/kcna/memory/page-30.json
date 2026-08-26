@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "5b4278c7f52e26c5",
+  "version": "d811e40257b41a43",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 30,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:bbc9c9cbdba9d993250dca42",
+      "title": "광부들을 위해서라면 아까울것이 없다고 하시며",
+      "date": "2025-12-23",
+      "snippet": "1976년 6월 어느날 깊은 밤이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/406664ac20d791228aae59d1f0e57275",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 145
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abbc9c9cbdba9d993250dca42"
+    },
     {
       "id": "news:kcna:54214fbfa0d97ab4b6c749c1",
       "title": "개성특식-추어탕",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 145
+        "memory": 146
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 146
+        "memory": 147
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 147
+        "memory": 148
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 148
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac255bfae8302048cd09cb4bb"
-    },
-    {
-      "id": "news:kcna:3f62a9a8996adc08072cc6e4",
-      "title": "몸소 찾아주신 10만평의 논",
-      "date": "2025-12-15",
-      "snippet": "1954년 10월 어느날이였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/fb8bd0d56e5f7e5d76dbfddf05b05777",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 149
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3f62a9a8996adc08072cc6e4"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac255bfae8302048cd09cb4bb"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "5b4278c7f52e26c5",
+  "version": "d811e40257b41a43",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,35 +8,37 @@
   "section": "domestic",
   "page": 589,
   "pageSize": 5,
-  "totalItems": 4145,
-  "totalPages": 829,
+  "totalItems": 4151,
+  "totalPages": 831,
   "articles": [
     {
-      "id": "news:kcna:5ee09b2db268ce029870b523",
-      "title": "2025년 12월 1일 《로동신문》개관",
-      "date": "2025-12-01",
-      "snippet": "(평양 12월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c5810ba0eface68ab2549dd416fb545f",
+      "id": "news:kcna:def0649a3606740c001bb8e0",
+      "title": "평안북도 룡천군 장산농장,천마군 비화농장에 현대적인 문화주택들이 일떠섰다",
+      "date": "2025-12-02",
+      "snippet": "(평양 12월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/475539b630a5fae1cdcb3d4e918b65ae",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 2941
+        "domestic": 2941,
+        "social": 464
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5ee09b2db268ce029870b523"
+      "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f5d1b4c71be2dc856df54201640b4d8e8d",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/4e0f428152d6dd42dab70b1429ae20fe34fc268bdf8e11b83f5ee30fba031bc1.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Adef0649a3606740c001bb8e0"
     },
     {
-      "id": "news:kcna:d2858fec4fa36e8c4a9db042",
-      "title": "개건현대화된 라선종합식료공장 조업",
-      "date": "2025-12-01",
-      "snippet": "(평양 12월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1ca468ad1d1ff1f7ceefd67c53082ee3",
+      "id": "news:kcna:2340faf423f86c5490eea316",
+      "title": "2025년-2026년 조선민주주의인민공화국 1부류축구련맹전,녀자 1부류축구련맹전 시작",
+      "date": "2025-12-02",
+      "snippet": "(평양 12월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c89ebdf6cde4971ba77e6e7ab3d0ffd9",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -49,21 +51,43 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad2858fec4fa36e8c4a9db042"
+      "detailUrl": "/news/document?id=news%3Akcna%3A2340faf423f86c5490eea316"
     },
     {
-      "id": "news:kcna:67fa4a99f1244b3c74f573e1",
-      "title": "각지 대학들에서 계급의식을 심어주기 위한 교양사업에 주력",
-      "date": "2025-12-01",
-      "snippet": "(평양 12월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7fed870e2dd42ff67b7b9ca4f8271555",
+      "id": "news:kcna:295d53723433da2357fde225",
+      "title": "라오스대사관 연회 마련",
+      "date": "2025-12-02",
+      "snippet": "(평양 12월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6047940aa9692c0707161783881cee95",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 474,
+        "domestic": 2943
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A295d53723433da2357fde225"
+    },
+    {
+      "id": "news:kcna:37cde2463008c259fb2ebfae",
+      "title": "전국청년학생들의 백두산지구 혁명전적지 답사행군 출발모임 진행",
+      "date": "2025-12-02",
+      "snippet": "(평양 12월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/65e960c1bb2b992f21b34651be68fa52",
       "mediaType": "article",
       "categories": [
         "domestic",
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2943,
+        "domestic": 2944,
         "social": 465
       },
       "featuredSections": [],
@@ -71,49 +95,27 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A67fa4a99f1244b3c74f573e1"
+      "detailUrl": "/news/document?id=news%3Akcna%3A37cde2463008c259fb2ebfae"
     },
     {
-      "id": "news:kcna:525cfe0522e90d149ca50ee4",
-      "title": "평안남도량곡중계사업소 새로 건설",
-      "date": "2025-12-01",
-      "snippet": "(평양 12월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fa356d816f7ea9a41d6966e4af5d85b0",
+      "id": "news:kcna:8da7781e6cec982cda435201",
+      "title": "중앙계급교양관 창립 30돐을 기념",
+      "date": "2025-12-02",
+      "snippet": "(평양 12월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c9cd8cf2709acc96575000eb62fe17c0",
       "mediaType": "article",
       "categories": [
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2944
+        "domestic": 2945
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A525cfe0522e90d149ca50ee4"
-    },
-    {
-      "id": "news:kcna:e55f1b27034e5c8c20a1d886",
-      "title": "황해북도농촌경리위원회 만금온실농장과 평안남도 북창군 연류농장,남상농장에서 새집들이 진행",
-      "date": "2025-12-01",
-      "snippet": "(평양 12월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4ae377d1ddaf34c935c1b8b8e2f1a16c",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2945,
-        "social": 466
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f54d3bff47c71ed3b561ba70e43866e1ef",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/441317653ca0f3bd72b51b445cf29779959b95294fe5294f29dfd7acb85593eb.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae55f1b27034e5c8c20a1d886"
+      "detailUrl": "/news/document?id=news%3Akcna%3A8da7781e6cec982cda435201"
     }
   ]
 }

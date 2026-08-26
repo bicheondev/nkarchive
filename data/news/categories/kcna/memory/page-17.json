@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "5b4278c7f52e26c5",
+  "version": "d811e40257b41a43",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 17,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:61f42d88ee9f34454f8faebb",
+      "title": "몸소 가르쳐주신 농사방법",
+      "date": "2026-04-10",
+      "snippet": "1993년 3월 어느날 평양에서는 위대한 수령 김일성동지를 모시고 함경남도,강원도 농업부문 일군협의회가 진행되였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/531b43d8f26cfa96f1ad4f2d36003890",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 80
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A61f42d88ee9f34454f8faebb"
+    },
     {
       "id": "news:kcna:d4b15a53f00611dbb4993a24",
       "title": "사랑의 조치",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 80
+        "memory": 81
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 81
+        "memory": 82
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 82
+        "memory": 83
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 83
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A580ca2106726c36599886206"
-    },
-    {
-      "id": "news:kcna:ce7b74cb28bc8fa57576d95b",
-      "title": "평양학생소년궁전에 보내주신 대형박제표본",
-      "date": "2026-04-02",
-      "snippet": "1987년 4월 어느날 위대한 령도자 김정일동지께 인민군군인들이 충정의 마음을 담아 선물을 마련하여 올리였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/99d9a05ed1de57c47cf40426e826501f",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 84
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ace7b74cb28bc8fa57576d95b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A580ca2106726c36599886206"
     }
   ]
 }

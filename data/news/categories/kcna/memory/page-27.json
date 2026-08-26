@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "5b4278c7f52e26c5",
+  "version": "d811e40257b41a43",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 27,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:331ece80ed0e437140965ba9",
+      "title": "《비단섬》은 이렇게 생겨났다",
+      "date": "2026-01-21",
+      "snippet": "1958년 6월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/88852cef64fa7eacddfc09c6ad4c8406",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 130
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A331ece80ed0e437140965ba9"
+    },
     {
       "id": "news:kcna:52ec6c3fb7b5fc9b26efb6dd",
       "title": "몸소 열어주신 묘향산의 등산길",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 130
+        "memory": 131
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 131
+        "memory": 132
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 132
+        "memory": 133
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 133
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A76d2fbc55bd31b7ac7930cbe"
-    },
-    {
-      "id": "news:kcna:b29d112679467991ea804c04",
-      "title": "일군들에게 가르쳐주신 례의도덕",
-      "date": "2026-01-13",
-      "snippet": "1989년 10월 어느날 저녁에 있은 일이다.",
-      "url": "http://www.kcna.kp/kp/article/detail/78683e781e3dbfec1f3bcecf3052c767",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 134
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab29d112679467991ea804c04"
+      "detailUrl": "/news/document?id=news%3Akcna%3A76d2fbc55bd31b7ac7930cbe"
     }
   ]
 }

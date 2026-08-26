@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "5b4278c7f52e26c5",
+  "version": "d811e40257b41a43",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 32,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:53e6d9174724a7b221fc5451",
+      "title": "농촌의 새집에서 묵으신 사연",
+      "date": "2025-12-03",
+      "snippet": "1958년 1월 어느날 위대한 수령 김일성동지께서는 황해남도 신천군의 새날농업협동조합(당시)을 찾으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/2fc67b7a02289db67364932f7f0cb717",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 155
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A53e6d9174724a7b221fc5451"
+    },
     {
       "id": "news:kcna:c9110f32ba606940bd53de9a",
       "title": "몸소 정해주신 옥류관의 위치",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 155
+        "memory": 156
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 156
+        "memory": 157
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 157
+        "memory": 158
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 158
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3dbd61721f280ba941336c6f"
-    },
-    {
-      "id": "news:kcna:d4d8a11014f08a81230bb366",
-      "title": "송암동굴안에 생겨난 칠색송어떼",
-      "date": "2025-11-24",
-      "snippet": "2002년 4월 어느날이였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/efdc3253cef4a174b030326cb4f8b261",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 159
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad4d8a11014f08a81230bb366"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3dbd61721f280ba941336c6f"
     }
   ]
 }
