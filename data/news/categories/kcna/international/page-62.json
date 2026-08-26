@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 62,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:a8c4686ca105a82d78548941",
+      "title": "여러 나라사이의 협조",
+      "date": "2026-07-12",
+      "snippet": "(평양 7월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a3a53887805c25bce7e56d2e7ee53136",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 305
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa8c4686ca105a82d78548941"
+    },
     {
       "id": "news:kcna:36f9ad16d2c4f7f8b9ec85db",
       "title": "일본에서 당국의 위험한 전쟁정책을 반대하여 집회",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 305
+        "international": 306
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +65,8 @@
       ],
       "categoryOrders": {
         "important": 55,
-        "international": 306,
-        "foreign": 81
+        "international": 307,
+        "foreign": 82
       },
       "featuredSections": [],
       "hasImage": true,
@@ -69,8 +89,8 @@
       ],
       "categoryOrders": {
         "important": 56,
-        "international": 307,
-        "foreign": 82
+        "international": 308,
+        "foreign": 83
       },
       "featuredSections": [],
       "hasImage": true,
@@ -91,8 +111,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 308,
-        "foreign": 84
+        "international": 309,
+        "foreign": 85
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,26 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A4974197e62121cd162a06476"
-    },
-    {
-      "id": "news:kcna:3723cd8fdec74a4ec3b0628c",
-      "title": "로씨야외무성 대변인 나토의 전쟁책동을 규탄",
-      "date": "2026-07-11",
-      "snippet": "(모스크바 7월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ec3a9caaf1a1a6498404e81ce0a29ca5",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 309
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3723cd8fdec74a4ec3b0628c"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 136,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:d3d2f9765d6304da4acca574",
+      "title": "로씨야 나토의 핵무력강화책동에 경고",
+      "date": "2026-05-21",
+      "snippet": "(모스크바 5월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/56657708669a9008474454b3ab50df9a",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 675
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad3d2f9765d6304da4acca574"
+    },
     {
       "id": "news:kcna:e31afe70b7e0bbad194fb3b7",
       "title": "나토의 무분별한 군사연습소동",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 675
+        "international": 676
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 676,
-        "foreign": 158
+        "international": 677,
+        "foreign": 159
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 677
+        "international": 678
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 678
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aef3a732ba5aa0b38f99380a9"
-    },
-    {
-      "id": "news:kcna:e3eed400bba45f68f482fe10",
-      "title": "팔레스티나외무성 이스라엘의 불법무도한 처사를 규탄",
-      "date": "2026-05-20",
-      "snippet": "(평양 5월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7abfb63f26cc01b345d1281e89b02340",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 679
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae3eed400bba45f68f482fe10"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aef3a732ba5aa0b38f99380a9"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 283,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:940c4655ceebc1031f9ab44e",
+      "title": "카나다인들 미국이 국가주권을 위협하고있다고 주장",
+      "date": "2026-02-20",
+      "snippet": "(평양 2월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2748309634860f7cd87288ff467b97bb",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1410
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A940c4655ceebc1031f9ab44e"
+    },
     {
       "id": "news:kcna:a1fb0f25f14d27f11d007db9",
       "title": "라오스의 축산업발전노력",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1410
+        "international": 1411
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +65,8 @@
       ],
       "categoryOrders": {
         "important": 280,
-        "international": 1411,
-        "foreign": 372
+        "international": 1412,
+        "foreign": 373
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +88,7 @@
       ],
       "categoryOrders": {
         "important": 281,
-        "international": 1412
+        "international": 1413
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,7 +110,7 @@
       ],
       "categoryOrders": {
         "important": 282,
-        "international": 1413
+        "international": 1414
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,28 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A121f48a6d5390d1305cac552"
-    },
-    {
-      "id": "news:kcna:5719777e0114e71b139fc35c",
-      "title": "조선로동당 제9차대회에 축기를 보내여왔다",
-      "date": "2026-02-20",
-      "snippet": "(평양 2월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5b4d5b273c6f33c518be2ec52ac09657",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "international": 1414,
-        "domestic": 2100
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5719777e0114e71b139fc35c"
     }
   ]
 }

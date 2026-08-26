@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 118,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:32ec3307da4d7fabdb8e4d4e",
+      "title": "여러 나라사이의 협조",
+      "date": "2026-06-03",
+      "snippet": "(평양 6월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/91371397cb66918cc042656cf9018f41",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 585
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A32ec3307da4d7fabdb8e4d4e"
+    },
     {
       "id": "news:kcna:7121f0fbdff783ceaf6fc564",
       "title": "중국 일본의 《새형의 군국주의》를 억제할것을 주장",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 585
+        "international": 586
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 586
+        "international": 587
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 587
+        "international": 588
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,28 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 588
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0865f37d40ced9ed58884ea7"
-    },
-    {
-      "id": "news:kcna:d5cc642875839c6724d8ff19",
-      "title": "일본의 무기수출확대놀음은 전쟁상인의 본색을 여지없이 드러낸 위험천만한 행태이다",
-      "date": "2026-06-03",
-      "snippet": "(평양 6월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/007ff2404b8092c114bf4744d971d1b7",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international"
-      ],
-      "categoryOrders": {
-        "important": 92,
         "international": 589
       },
       "featuredSections": [],
@@ -111,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad5cc642875839c6724d8ff19"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0865f37d40ced9ed58884ea7"
     }
   ]
 }

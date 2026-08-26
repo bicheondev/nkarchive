@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 291,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:05755c262a8b025170b78358",
+      "title": "까리브해에서 미해군 함선들 충돌",
+      "date": "2026-02-15",
+      "snippet": "(평양 2월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6d66dc0c75f5ab58dab1b0b7fd7da6cc",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1450
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A05755c262a8b025170b78358"
+    },
     {
       "id": "news:kcna:d8284ce3f310a23e5d61e052",
       "title": "이란 미싸일무력은 흥정물이 될수 없다고 강조",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1450
+        "international": 1451
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1451,
-        "foreign": 381
+        "international": 1452,
+        "foreign": 382
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1452
+        "international": 1453
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1453
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab28348a37cac11a314d2a23c"
-    },
-    {
-      "id": "news:kcna:ca8368a11fa56bf0a31334e7",
-      "title": "이란외무상 나라의 자주적권리와 존엄은 흥정물이 아니라고 강조",
-      "date": "2026-02-14",
-      "snippet": "(테헤란 2월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/bb6910323af90e527fed46f5b0617d1e",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1454
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aca8368a11fa56bf0a31334e7"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab28348a37cac11a314d2a23c"
     }
   ]
 }

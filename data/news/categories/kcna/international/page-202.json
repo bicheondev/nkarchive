@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 202,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:142ec3eb408cee2d0accbea7",
+      "title": "일본에서 기업체파산건수 증가",
+      "date": "2026-04-10",
+      "snippet": "(평양 4월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a802ff77ac1150abfd33e0526df4a00f",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1005
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A142ec3eb408cee2d0accbea7"
+    },
     {
       "id": "news:kcna:dbd9f4a20030f0485b6df7e1",
       "title": "몽골에서 관광업발전",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1005
+        "international": 1006
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1006
+        "international": 1007
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,8 +83,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1007,
-        "foreign": 255
+        "international": 1008,
+        "foreign": 256
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1008
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A411601d526f3985da0645958"
-    },
-    {
-      "id": "news:kcna:dfdd063afae23648f320b3f5",
-      "title": "뛰르끼예대통령 이스라엘의 전쟁책동을 단죄",
-      "date": "2026-04-09",
-      "snippet": "(평양 4월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/21baf81ab6aff7464d24b4f5fc304238",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1009
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adfdd063afae23648f320b3f5"
+      "detailUrl": "/news/document?id=news%3Akcna%3A411601d526f3985da0645958"
     }
   ]
 }

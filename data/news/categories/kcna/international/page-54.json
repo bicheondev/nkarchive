@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 54,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:8abe6d4676f1198d508ece29",
+      "title": "끼르기즈스딴에서 국내총생산액 장성",
+      "date": "2026-07-18",
+      "snippet": "(평양 7월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5efe579c436e30f9b785af86f5caafd5",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 265
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8abe6d4676f1198d508ece29"
+    },
     {
       "id": "news:kcna:e76efc8131f8d2a100a775e9",
       "title": "중국에서 세계인공지능협조기구 창설",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 265
+        "international": 266
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 266
+        "international": 267
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,8 +83,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 267,
-        "foreign": 64
+        "international": 268,
+        "foreign": 65
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 268
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A174ec36c646662aa24ef7662"
-    },
-    {
-      "id": "news:kcna:a5c9d418c6075321c71984fb",
-      "title": "에짚트에서 수산물생산을 늘이기 위해 노력",
-      "date": "2026-07-17",
-      "snippet": "(평양 7월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/507335d7c4b736504a3fa008c099f298",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 269
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa5c9d418c6075321c71984fb"
+      "detailUrl": "/news/document?id=news%3Akcna%3A174ec36c646662aa24ef7662"
     }
   ]
 }

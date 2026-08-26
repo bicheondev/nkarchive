@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 29,
   "pageSize": 5,
-  "totalItems": 771,
-  "totalPages": 155,
+  "totalItems": 770,
+  "totalPages": 154,
   "articles": [
+    {
+      "id": "news:kcna:07bcd0298d73651b23abff8c",
+      "title": "벨라루씨와 로씨야에 갔던 우리 나라 정부경제대표단 귀국",
+      "date": "2026-06-09",
+      "snippet": "(평양 6월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c8012434711142c04d93c698b6f935dd",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 140,
+        "domestic": 850
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A07bcd0298d73651b23abff8c"
+    },
     {
       "id": "news:kcna:b5f64d20696743005f70fc7e",
       "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
@@ -25,8 +47,8 @@
       ],
       "categoryOrders": {
         "important": 90,
-        "foreign": 140,
-        "domestic": 867
+        "foreign": 141,
+        "domestic": 870
       },
       "featuredSections": [],
       "hasImage": false,
@@ -49,8 +71,8 @@
       ],
       "categoryOrders": {
         "important": 91,
-        "foreign": 141,
-        "domestic": 884
+        "foreign": 142,
+        "domestic": 887
       },
       "featuredSections": [],
       "hasImage": false,
@@ -71,8 +93,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 142,
-        "domestic": 922
+        "foreign": 143,
+        "domestic": 925
       },
       "featuredSections": [],
       "hasImage": true,
@@ -93,31 +115,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 598,
-        "foreign": 143
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab73b0b3f13bbe553b7a7c1db"
-    },
-    {
-      "id": "news:kcna:29ed8dae48522e9c25cf6f8c",
-      "title": "조선민주주의인민공화국 국가정보국대표단 로씨야에서 진행된 제1차 국제안전연단에 참가",
-      "date": "2026-05-31",
-      "snippet": "(평양 5월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9e24f7ab35ed6aa9bce675f1aa36c038",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 94,
-        "international": 610,
+        "international": 599,
         "foreign": 144
       },
       "featuredSections": [],
@@ -125,7 +123,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A29ed8dae48522e9c25cf6f8c"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab73b0b3f13bbe553b7a7c1db"
     }
   ]
 }

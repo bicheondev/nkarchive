@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 247,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:4c5dcbe88f57e7d0760a0683",
+      "title": "캄보쟈에서 수출증가",
+      "date": "2026-03-13",
+      "snippet": "(평양 3월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/627c699caf38122642468bdf211d3b3d",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1230
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4c5dcbe88f57e7d0760a0683"
+    },
     {
       "id": "news:kcna:2be7729d6aa1a18321ebefe2",
       "title": "브라질과 남아프리카 방위분야에서 협조 강화",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1230
+        "international": 1231
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1231
+        "international": 1232
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1232
+        "international": 1233
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1233
+        "international": 1234
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,28 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aee774f7b6df8f06bb2fc7118"
-    },
-    {
-      "id": "news:kcna:eb05e28834cc55ef563cd840",
-      "title": "일본에서 당국의 전쟁정책을 반대하여 집회",
-      "date": "2026-03-13",
-      "snippet": "(평양 3월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/aa8aee1128056d14e272227006df75c7",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "social"
-      ],
-      "categoryOrders": {
-        "international": 1234,
-        "social": 215
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aeb05e28834cc55ef563cd840"
     }
   ]
 }

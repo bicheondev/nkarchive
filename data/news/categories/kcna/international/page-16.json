@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 16,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:b839c1a48aa05d178c425a83",
+      "title": "팔레스티나인기자들에 대한 이스라엘의 만행",
+      "date": "2026-08-14",
+      "snippet": "(평양 8월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/59d9a238ae04d66a2e0aa8864959d0ac",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 75
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab839c1a48aa05d178c425a83"
+    },
     {
       "id": "news:kcna:00895b93ed336caf3e34ce2d",
       "title": "로씨야대통령 국가의 안전과 리익을 수호할 립장 강조",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 75
+        "international": 76
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 76
+        "international": 77
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,8 +85,8 @@
       ],
       "categoryOrders": {
         "important": 12,
-        "international": 77,
-        "foreign": 23
+        "international": 78,
+        "foreign": 24
       },
       "featuredSections": [],
       "hasImage": true,
@@ -89,8 +109,8 @@
       ],
       "categoryOrders": {
         "important": 15,
-        "international": 78,
-        "foreign": 26
+        "international": 79,
+        "foreign": 27
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,26 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-7891b3f1478f5756"
-    },
-    {
-      "id": "news:kcna:9457f66d5470e5dedbf93968",
-      "title": "태풍17호 발생",
-      "date": "2026-08-13",
-      "snippet": "(평양 8월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/917c4397debb475f78d7a6e29a212179",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 79
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9457f66d5470e5dedbf93968"
     }
   ]
 }

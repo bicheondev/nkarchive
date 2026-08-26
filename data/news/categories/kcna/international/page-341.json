@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 341,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:35f3034b221fee98f795b49a",
+      "title": "미국에서 총기류범죄",
+      "date": "2026-01-12",
+      "snippet": "(평양 1월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/19ff321160fdb1a001621872053b4682",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1700
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A35f3034b221fee98f795b49a"
+    },
     {
       "id": "news:kcna:adf19fbf3986ec5c52ad03fa",
       "title": "브릭스성원국들 합동해상훈련 시작",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1700
+        "international": 1701
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1701,
+        "international": 1702,
         "social": 373
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1702
+        "international": 1703
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,7 +105,7 @@
         "document"
       ],
       "categoryOrders": {
-        "international": 1703,
+        "international": 1704,
         "document": 50
       },
       "featuredSections": [],
@@ -94,26 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aa464163c0061cea29e14acf6"
-    },
-    {
-      "id": "news:kcna:c56bff8128b0cd74479c59c5",
-      "title": "뉴질랜드의 해안으로 고래들이 밀려나오는 현상 발생",
-      "date": "2026-01-11",
-      "snippet": "(평양 1월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0df0d195016dbcdf4064fc0a16eb5d04",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 1704
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac56bff8128b0cd74479c59c5"
     }
   ]
 }

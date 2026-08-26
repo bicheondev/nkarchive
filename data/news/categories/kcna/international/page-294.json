@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "international",
   "page": 294,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:b43987fa03473c9b1ec49dc3",
+      "title": "이란에서 이슬람교혁명승리 47돐 경축",
+      "date": "2026-02-13",
+      "snippet": "(테헤란 2월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/304ed2cfc21d34cb23d4292c8f4fa885",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 1465,
+        "social": 287
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab43987fa03473c9b1ec49dc3"
+    },
     {
       "id": "news:kcna:54fb1eb35311e95f33216ddc",
       "title": "중국외교부 일본이 침략력사를 심각히 반성할것을 요구",
@@ -22,7 +44,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1465
+        "international": 1466
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +65,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1466,
-        "foreign": 386
+        "international": 1467,
+        "foreign": 387
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,8 +89,8 @@
       ],
       "categoryOrders": {
         "important": 293,
-        "international": 1467,
-        "foreign": 388
+        "international": 1468,
+        "foreign": 389
       },
       "featuredSections": [],
       "hasImage": true,
@@ -88,26 +110,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1468
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab9c04012b7fddeeb3432f32a"
-    },
-    {
-      "id": "news:kcna:9313b7f390bedb815909423a",
-      "title": "시급한 대책을 요구하는 지구온난화문제",
-      "date": "2026-02-12",
-      "snippet": "(평양 2월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d81dcc2e50e9d520e57e7068c3e285f3",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1469
       },
       "featuredSections": [],
@@ -115,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9313b7f390bedb815909423a"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab9c04012b7fddeeb3432f32a"
     }
   ]
 }

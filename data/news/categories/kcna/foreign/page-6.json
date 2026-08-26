@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 6,
   "pageSize": 5,
-  "totalItems": 771,
-  "totalPages": 155,
+  "totalItems": 770,
+  "totalPages": 154,
   "articles": [
+    {
+      "id": "kcna-e75a6bb18b71348c",
+      "title": "경애하는 김정은동지께 우리 나라 주재 외교단이 꽃바구니와 축하편지를 드리였다",
+      "date": "2026-08-14",
+      "snippet": "(평양 8월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d69a049f2f49e5f3d1d544dbe0f5d49b",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 13,
+        "foreign": 25,
+        "domestic": 139
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2955288f90d0075bc3ea95f33ccf280379",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/502028352b717d65931f0229840b1cf0a7a5187f061167fba89798d47563ef3f.jpg",
+      "detailUrl": "/news/document?id=kcna-e75a6bb18b71348c"
+    },
     {
       "id": "kcna-fb857dc5f25284ae",
       "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
@@ -27,8 +51,8 @@
       "categoryOrders": {
         "important": 14,
         "document": 2,
-        "foreign": 25,
-        "domestic": 137
+        "foreign": 26,
+        "domestic": 140
       },
       "featuredSections": [
         "document"
@@ -53,8 +77,8 @@
       ],
       "categoryOrders": {
         "important": 15,
-        "international": 78,
-        "foreign": 26
+        "international": 79,
+        "foreign": 27
       },
       "featuredSections": [],
       "hasImage": false,
@@ -75,8 +99,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 27,
-        "domestic": 139
+        "foreign": 28,
+        "domestic": 142
       },
       "featuredSections": [],
       "hasImage": true,
@@ -97,8 +121,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 28,
-        "domestic": 145
+        "foreign": 29,
+        "domestic": 148
       },
       "featuredSections": [],
       "hasImage": true,
@@ -106,30 +130,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29850407effd1d7a07864fb5f079643a86",
       "cachedThumbnailUrl": "/data/news/assets/kcna/efe6f0693cff03f06b2f35556c0b0c058f95b2d7a366a01ce51fea29af2582e3.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Aa075d76d9935d15bae22d30a"
-    },
-    {
-      "id": "news:kcna:ae582216ac7dbefa3119b95b",
-      "title": "경애하는 김정은동지께 나이제리아련방공화국 대통령이 꽃바구니를 보내여왔다",
-      "date": "2026-08-13",
-      "snippet": "(평양 8월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5c394d5ef868807860d30830b54b0e14",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 16,
-        "international": 87,
-        "foreign": 29
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2984b6c174df1f7beaf862e1d4e1434188",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/eae41ba364d7269f5ed9fa9d4f5eed0e4bc55715ec2f7758444e0c8c267cff8b.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aae582216ac7dbefa3119b95b"
     }
   ]
 }

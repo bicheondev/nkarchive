@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 462,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:c8048de155f36f127c74fe26",
+      "title": "이란 미국의 주장에 반박",
+      "date": "2025-10-19",
+      "snippet": "(평양 10월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cc9e80772c99f4333ded6f7d1be2ab86",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2305
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac8048de155f36f127c74fe26"
+    },
     {
       "id": "news:kcna:d590f4c85a8292ad436ba689",
       "title": "여러 나라의 각계인사들 우리 나라 대표부들을 축하방문",
@@ -23,8 +43,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2305,
-        "foreign": 546
+        "international": 2306,
+        "foreign": 547
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2306
+        "international": 2307
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2307
+        "international": 2308
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2308
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2ef3efe72395ac1d3ad56183"
-    },
-    {
-      "id": "news:kcna:eb03fb95fcbb17bc6c1df9e7",
-      "title": "뛰르끼예에서 테로분자들 체포",
-      "date": "2025-10-18",
-      "snippet": "(평양 10월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/11233b929e7778b971bc81cbbb41b1dc",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 2309
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aeb03fb95fcbb17bc6c1df9e7"
+      "detailUrl": "/news/document?id=news%3Akcna%3A2ef3efe72395ac1d3ad56183"
     }
   ]
 }

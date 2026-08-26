@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 476,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:7accc9624b8f8c4682849265",
+      "title": "이스라엘군 가자지대에 대한 폭격과 포격을 감행",
+      "date": "2025-10-10",
+      "snippet": "(평양 10월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3991f7915a69b3e0570ed11e15978143",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2375
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7accc9624b8f8c4682849265"
+    },
     {
       "id": "news:kcna:d1544b4113f21917a8ab6c69",
       "title": "뛰르끼예에서 테로분자들 체포",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2375
+        "international": 2376
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2376
+        "international": 2377
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,8 +83,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2377,
-        "foreign": 628
+        "international": 2378,
+        "foreign": 629
       },
       "featuredSections": [],
       "hasImage": false,
@@ -87,8 +107,8 @@
       ],
       "categoryOrders": {
         "important": 435,
-        "international": 2378,
-        "foreign": 630
+        "international": 2379,
+        "foreign": 631
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,26 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A18476dc99a13a7420d94aa0f"
-    },
-    {
-      "id": "news:kcna:2ec73d3d4d4c680dfe5ffad3",
-      "title": "스리랑카와 뛰르끼예에서 마약 압수",
-      "date": "2025-10-09",
-      "snippet": "(평양 10월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e9b67d0538e1bea6b3f07eda1f4788d1",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 2379
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2ec73d3d4d4c680dfe5ffad3"
     }
   ]
 }

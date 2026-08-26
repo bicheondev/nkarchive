@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 50,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:d1ec93eb3c7be6dace9b3c50",
+      "title": "에짚트에서 고대무덤 발견",
+      "date": "2026-07-21",
+      "snippet": "(평양 7월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2bcfd95e237f78c7fa1b46f98db876c6",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 245
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad1ec93eb3c7be6dace9b3c50"
+    },
     {
       "id": "news:kcna:673fdbd6e9a5f72cbf1993d5",
       "title": "수단외무성 미국의 제재책동을 규탄배격",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 245
+        "international": 246
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 246
+        "international": 247
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,8 +85,8 @@
       ],
       "categoryOrders": {
         "important": 38,
-        "international": 247,
-        "foreign": 50
+        "international": 248,
+        "foreign": 51
       },
       "featuredSections": [],
       "hasImage": true,
@@ -89,28 +109,6 @@
       ],
       "categoryOrders": {
         "important": 39,
-        "international": 248,
-        "foreign": 51
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A660a0b4e5af613a59b4356b4"
-    },
-    {
-      "id": "news:kcna:0e7297d6ad22c3c80ef65181",
-      "title": "조선민주주의인민공화국 외무상 무명전사묘에 화환 진정",
-      "date": "2026-07-21",
-      "snippet": "(평양 7월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ff223f83273f9bc7dc65d82ef39f4947",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
         "international": 249,
         "foreign": 52
       },
@@ -119,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0e7297d6ad22c3c80ef65181"
+      "detailUrl": "/news/document?id=news%3Akcna%3A660a0b4e5af613a59b4356b4"
     }
   ]
 }

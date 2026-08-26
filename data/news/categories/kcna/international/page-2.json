@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:6df91788f775fec81b7f1754",
+      "title": "여러 나라사이의 협조",
+      "date": "2026-08-25",
+      "snippet": "(평양 8월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/52e3f24302df838da57b63b0f4cb32f8",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 5
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6df91788f775fec81b7f1754"
+    },
     {
       "id": "news:kcna:9e8ffbc8531130c8ac6e448a",
       "title": "기네에서 폭우로 인한 사상자 발생",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 5
+        "international": 6
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 6
+        "international": 7
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 7
+        "international": 8
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 8
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0776b9294b49e24e3c72a7f5"
-    },
-    {
-      "id": "news:kcna:04b86c49310bce5cd5d74f8a",
-      "title": "인도네시아에서 대기오염을 줄이기 위한 노력",
-      "date": "2026-08-24",
-      "snippet": "(평양 8월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9a7b1a055558e912ac233c62f1ea962c",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 9
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A04b86c49310bce5cd5d74f8a"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0776b9294b49e24e3c72a7f5"
     }
   ]
 }

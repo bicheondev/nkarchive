@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 13,
   "pageSize": 5,
-  "totalItems": 771,
-  "totalPages": 155,
+  "totalItems": 770,
+  "totalPages": 154,
   "articles": [
+    {
+      "id": "news:kcna:3f278dde3ad4806f69090607",
+      "title": "력사를 통해 본 천년숙적 일본의 죄악--막대한 물질적피해를 준 산업시설파괴범죄",
+      "date": "2026-07-19",
+      "snippet": "(평양 7월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7bd7f3b2b1fe8f9afa668e96d85071a5",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 60,
+        "domestic": 414
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3f278dde3ad4806f69090607"
+    },
     {
       "id": "kcna-43f65c4f37a4e35b",
       "title": "조선민주주의인민공화국 국방성 대변인 담화 발표",
@@ -27,8 +49,8 @@
       "categoryOrders": {
         "important": 42,
         "document": 7,
-        "foreign": 60,
-        "domestic": 420
+        "foreign": 61,
+        "domestic": 423
       },
       "featuredSections": [
         "document"
@@ -53,8 +75,8 @@
       ],
       "categoryOrders": {
         "important": 43,
-        "foreign": 61,
-        "domestic": 422
+        "foreign": 62,
+        "domestic": 425
       },
       "featuredSections": [],
       "hasImage": true,
@@ -77,8 +99,8 @@
       ],
       "categoryOrders": {
         "important": 44,
-        "foreign": 62,
-        "domestic": 423
+        "foreign": 63,
+        "domestic": 426
       },
       "featuredSections": [],
       "hasImage": true,
@@ -99,8 +121,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 63,
-        "domestic": 424
+        "foreign": 64,
+        "domestic": 427
       },
       "featuredSections": [],
       "hasImage": true,
@@ -108,28 +130,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d7e1f1764f071afc1ae1120fa6ea982ef",
       "cachedThumbnailUrl": "/data/news/assets/kcna/80b40190dd66e3eedeaee9f1a65a52a12b16a1df87ef74bc6ae38af21d4c236f.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A848c067f56946b65d9e23fba"
-    },
-    {
-      "id": "news:kcna:0b540a58dbf212308bc0d04f",
-      "title": "여러 나라에서 추모행사 진행",
-      "date": "2026-07-17",
-      "snippet": "(평양 7월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fdd4b01b3a1675678b32107b49c5191d",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 267,
-        "foreign": 64
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0b540a58dbf212308bc0d04f"
     }
   ]
 }

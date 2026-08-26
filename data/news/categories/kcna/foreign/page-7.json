@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 7,
   "pageSize": 5,
-  "totalItems": 771,
-  "totalPages": 155,
+  "totalItems": 770,
+  "totalPages": 154,
   "articles": [
+    {
+      "id": "news:kcna:ae582216ac7dbefa3119b95b",
+      "title": "경애하는 김정은동지께 나이제리아련방공화국 대통령이 꽃바구니를 보내여왔다",
+      "date": "2026-08-13",
+      "snippet": "(평양 8월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5c394d5ef868807860d30830b54b0e14",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 16,
+        "international": 88,
+        "foreign": 30
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2984b6c174df1f7beaf862e1d4e1434188",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/eae41ba364d7269f5ed9fa9d4f5eed0e4bc55715ec2f7758444e0c8c267cff8b.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aae582216ac7dbefa3119b95b"
+    },
     {
       "id": "news:kcna:0681211d935ea830f05ad49b",
       "title": "경애하는 김정은동지께 팔레스티나국가 대통령이 꽃바구니를 보내여왔다",
@@ -25,8 +49,8 @@
       ],
       "categoryOrders": {
         "important": 17,
-        "international": 88,
-        "foreign": 30
+        "international": 89,
+        "foreign": 31
       },
       "featuredSections": [],
       "hasImage": true,
@@ -47,8 +71,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 31,
-        "domestic": 162
+        "foreign": 32,
+        "domestic": 165
       },
       "featuredSections": [],
       "hasImage": true,
@@ -69,8 +93,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 32,
-        "domestic": 163
+        "foreign": 33,
+        "domestic": 166
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,8 +115,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 138,
-        "foreign": 33
+        "international": 139,
+        "foreign": 34
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,32 +124,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A5bf89b32ad3ebbb19359d3f2"
-    },
-    {
-      "id": "kcna-cad58de86ad14a59",
-      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
-      "date": "2026-08-05",
-      "snippet": "(평양 8월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/11d0fe97ec038b7c039e4943877e38f7",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 24,
-        "document": 5,
-        "foreign": 34,
-        "domestic": 226
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-cad58de86ad14a59"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 33,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:930c1fcfca10a548275e843e",
+      "title": "영국에서 열파로 인한 인명피해",
+      "date": "2026-08-02",
+      "snippet": "(평양 8월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8da0e5acc97e54edb9e1cf930fb41b52",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 160
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A930c1fcfca10a548275e843e"
+    },
     {
       "id": "news:kcna:5c13ef6a1672dcf5800f59b5",
       "title": "중국 중경시에서 산사태로 수십명의 사망자 발생",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 160
+        "international": 161
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 161
+        "international": 162
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 162
+        "international": 163
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 163
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac78e324614ba10ed4bec1990"
-    },
-    {
-      "id": "news:kcna:38de46a0639d659d248bb2de",
-      "title": "나이제리아에서 반테로투쟁 강화",
-      "date": "2026-08-02",
-      "snippet": "(평양 8월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e526d948bf53d2be2f24172e2c16c502",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 164
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A38de46a0639d659d248bb2de"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac78e324614ba10ed4bec1990"
     }
   ]
 }

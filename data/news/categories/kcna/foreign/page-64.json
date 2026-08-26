@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 64,
   "pageSize": 5,
-  "totalItems": 771,
-  "totalPages": 155,
+  "totalItems": 770,
+  "totalPages": 154,
   "articles": [
+    {
+      "id": "news:kcna:de7cb55532f5ff30b8a6b0f6",
+      "title": "벨라루씨공화국 대통령 알렉싼드르 루까쉔꼬동지가 우리 나라를 방문한다",
+      "date": "2026-03-24",
+      "snippet": "(평양 3월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8b03f5fa807bcaa9ca85d8b81529b3f2",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 206,
+        "foreign": 315,
+        "domestic": 1756
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ade7cb55532f5ff30b8a6b0f6"
+    },
     {
       "id": "news:kcna:5b2f5bdcba9df8388c975fbb",
       "title": "경애하는 김정은동지께 로씨야련방 대통령이 축전을 보내여왔다",
@@ -25,8 +49,8 @@
       ],
       "categoryOrders": {
         "important": 207,
-        "international": 1159,
-        "foreign": 315
+        "international": 1160,
+        "foreign": 316
       },
       "featuredSections": [],
       "hasImage": false,
@@ -49,8 +73,8 @@
       ],
       "categoryOrders": {
         "important": 208,
-        "foreign": 316,
-        "domestic": 1757
+        "foreign": 317,
+        "domestic": 1760
       },
       "featuredSections": [],
       "hasImage": false,
@@ -71,8 +95,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1160,
-        "foreign": 317
+        "international": 1161,
+        "foreign": 318
       },
       "featuredSections": [],
       "hasImage": false,
@@ -93,8 +117,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 318,
-        "domestic": 1760
+        "foreign": 319,
+        "domestic": 1763
       },
       "featuredSections": [],
       "hasImage": false,
@@ -102,32 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A711ced39212508aa737d4e97"
-    },
-    {
-      "id": "news:kcna:ef43f5907a29e3c603f9fa65",
-      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
-      "date": "2026-03-23",
-      "snippet": "(평양 3월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5c4f244174745f16cc69800fdc065659",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 211,
-        "document": 25,
-        "foreign": 319,
-        "domestic": 1764
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aef43f5907a29e3c603f9fa65"
     }
   ]
 }

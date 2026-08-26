@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 495,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:79e41dc03768ca21045642c9",
+      "title": "가나대통령 서방나라들에 배상을 요구",
+      "date": "2025-09-29",
+      "snippet": "(평양 9월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3cbb8389444ede6f1b8c4314cc22b3ac",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2470
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A79e41dc03768ca21045642c9"
+    },
     {
       "id": "news:kcna:b39827f2dbbe79d98100462e",
       "title": "로씨야외무상 나토의 확대를 비난",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2470
+        "international": 2471
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +65,8 @@
       ],
       "categoryOrders": {
         "important": 467,
-        "international": 2471,
-        "foreign": 698
+        "international": 2472,
+        "foreign": 699
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2472
+        "international": 2473
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2473
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2a33141af101d354ced751aa"
-    },
-    {
-      "id": "news:kcna:72f69f882e2af605811be1af",
-      "title": "일본에서 살인범죄",
-      "date": "2025-09-28",
-      "snippet": "(평양 9월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1e81170725e22ce7ed78358a23d19bb2",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 2474
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A72f69f882e2af605811be1af"
+      "detailUrl": "/news/document?id=news%3Akcna%3A2a33141af101d354ced751aa"
     }
   ]
 }

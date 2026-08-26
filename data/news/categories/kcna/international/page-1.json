@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,34 @@
   "section": "international",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:c6df7835d85b04355183fdd7",
+      "title": "력사를 통해 본 천년숙적 일본의 죄악--재일조선동포들에 대한 박해와 학살",
+      "date": "2026-08-26",
+      "snippet": "(평양 8월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1383a915f23b0a3d8cf783fe0a998088",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 0,
+        "foreign": 0
+      },
+      "featuredSections": [
+        "international",
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac6df7835d85b04355183fdd7"
+    },
     {
       "id": "news:kcna:336bc29f1545942cca8b6761",
       "title": "인디아앞바다에서 화물선침몰사고",
@@ -22,7 +47,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 0
+        "international": 1
       },
       "featuredSections": [
         "international"
@@ -44,11 +69,9 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1
+        "international": 2
       },
-      "featuredSections": [
-        "international"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -66,7 +89,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2
+        "international": 3
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +109,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 3
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab1656d5cfe7220150a555b65"
-    },
-    {
-      "id": "news:kcna:6df91788f775fec81b7f1754",
-      "title": "여러 나라사이의 협조",
-      "date": "2026-08-25",
-      "snippet": "(평양 8월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/52e3f24302df838da57b63b0f4cb32f8",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 4
       },
       "featuredSections": [],
@@ -113,7 +116,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6df91788f775fec81b7f1754"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab1656d5cfe7220150a555b65"
     }
   ]
 }

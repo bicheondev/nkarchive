@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 14,
   "pageSize": 5,
-  "totalItems": 771,
-  "totalPages": 155,
+  "totalItems": 770,
+  "totalPages": 154,
   "articles": [
+    {
+      "id": "news:kcna:0b540a58dbf212308bc0d04f",
+      "title": "여러 나라에서 추모행사 진행",
+      "date": "2026-07-17",
+      "snippet": "(평양 7월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/fdd4b01b3a1675678b32107b49c5191d",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 268,
+        "foreign": 65
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0b540a58dbf212308bc0d04f"
+    },
     {
       "id": "news:kcna:960a9b4ea11998e13063dfad",
       "title": "중화인민공화국 당 및 정부대표단 금수산태양궁전을 찾아 경의 표시",
@@ -25,8 +47,8 @@
       ],
       "categoryOrders": {
         "important": 45,
-        "foreign": 65,
-        "domestic": 435
+        "foreign": 66,
+        "domestic": 438
       },
       "featuredSections": [],
       "hasImage": true,
@@ -49,8 +71,8 @@
       ],
       "categoryOrders": {
         "important": 46,
-        "foreign": 66,
-        "domestic": 436
+        "foreign": 67,
+        "domestic": 439
       },
       "featuredSections": [],
       "hasImage": true,
@@ -73,8 +95,8 @@
       ],
       "categoryOrders": {
         "important": 47,
-        "foreign": 67,
-        "domestic": 437
+        "foreign": 68,
+        "domestic": 440
       },
       "featuredSections": [],
       "hasImage": true,
@@ -95,8 +117,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 68,
-        "domestic": 438
+        "foreign": 69,
+        "domestic": 441
       },
       "featuredSections": [],
       "hasImage": false,
@@ -104,28 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A3849da02ac1ee3d4f470596e"
-    },
-    {
-      "id": "news:kcna:f909a1ca2fddaf5796c2b499",
-      "title": "중화인민공화국 당 및 정부대표단이 중국인민지원군렬사릉원을 찾았다",
-      "date": "2026-07-17",
-      "snippet": "(평양 7월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a842fbd40a43bf620960d26fc19015a8",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 69,
-        "domestic": 439
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d4e4d920f088bd9f8d75ccfe8bd9bce88",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/312a490c367b7dbbc2b04f66dcd9ca8e85835dac6cc6694f0a1d3be51720c651.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af909a1ca2fddaf5796c2b499"
     }
   ]
 }

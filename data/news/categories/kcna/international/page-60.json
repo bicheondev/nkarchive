@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 60,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:ed0237c140e7e776f1d0840c",
+      "title": "베네수엘라에서 지진으로 인한 사망자 4 300여명으로 증가",
+      "date": "2026-07-13",
+      "snippet": "(평양 7월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cbc50d06ba81589e7da8499e97e4d141",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 295
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aed0237c140e7e776f1d0840c"
+    },
     {
       "id": "news:kcna:b47db887eb4d120aaee9bd34",
       "title": "중국 나토사무총장의 망발을 배격",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 295
+        "international": 296
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 296
+        "international": 297
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 297
+        "international": 298
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,8 +103,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 298,
-        "foreign": 80
+        "international": 299,
+        "foreign": 81
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,26 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d4c232d109ad43c912d3caf3a396be31b",
       "cachedThumbnailUrl": "/data/news/assets/kcna/a391076473287ebbdee41d1be45f6b68ba2176b572212fa050d480ebbe0fbf38.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Af3d981d07716a40f0ebd6959"
-    },
-    {
-      "id": "news:kcna:66338659d2def6562a7338a3",
-      "title": "해외동포조직들에서 추모행사 진행",
-      "date": "2026-07-12",
-      "snippet": "(평양 7월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8d767a40e9c9c083cd9837fedb673d98",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 299
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A66338659d2def6562a7338a3"
     }
   ]
 }

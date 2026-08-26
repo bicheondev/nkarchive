@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 312,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:f15c8396e82accd9366a3f83",
+      "title": "파키스탄에서 테로소탕작전",
+      "date": "2026-02-02",
+      "snippet": "(평양 2월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/50547ae47471552513c3131a055dd567",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1555
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af15c8396e82accd9366a3f83"
+    },
     {
       "id": "news:kcna:1729b3fe97f3c9e7c21ffec6",
       "title": "도이췰란드에서 실업자 증가",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1555,
+        "international": 1556,
         "social": 305
       },
       "featuredSections": [],
@@ -45,8 +65,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1556,
-        "foreign": 400
+        "international": 1557,
+        "foreign": 401
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1557
+        "international": 1558
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1558
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A811f2642e607e9825d099fdc"
-    },
-    {
-      "id": "news:kcna:7640e26e25065bb292ec0654",
-      "title": "기후변화가 말라리아전파의 기본원인이라는 연구결과 발표",
-      "date": "2026-02-01",
-      "snippet": "(평양 2월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9579c5bfd7540374d99d63684b0cde8c",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1559
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7640e26e25065bb292ec0654"
+      "detailUrl": "/news/document?id=news%3Akcna%3A811f2642e607e9825d099fdc"
     }
   ]
 }

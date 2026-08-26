@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 524,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:a6a4ba1cb650746f36e0a9b0",
+      "title": "브릭스수뇌자회의 진행",
+      "date": "2025-09-11",
+      "snippet": "(평양 9월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/02a427d006c7d6d9599ca582d742ed11",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2615
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa6a4ba1cb650746f36e0a9b0"
+    },
     {
       "id": "news:kcna:fad82e57a21989266662c32b",
       "title": "중국 이스라엘이 군사행동을 즉시 중지할것을 요구",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2615
+        "international": 2616
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2616
+        "international": 2617
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2617
+        "international": 2618
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,28 +105,6 @@
       ],
       "categoryOrders": {
         "important": 481,
-        "international": 2618,
-        "foreign": 721
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac588bf6eec4c479a71f264d5"
-    },
-    {
-      "id": "news:kcna:3c57c59ceb88fd1c49cfe79a",
-      "title": "중국주재 우리 나라 대사관 경축연회 마련",
-      "date": "2025-09-11",
-      "snippet": "(평양 9월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/99930f4fc6d930fb492ae4078e124281",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
         "international": 2619,
         "foreign": 722
       },
@@ -115,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3c57c59ceb88fd1c49cfe79a"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac588bf6eec4c479a71f264d5"
     }
   ]
 }

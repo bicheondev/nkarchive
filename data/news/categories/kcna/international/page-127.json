@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 127,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:f325851fdbcd4b2006dfb862",
+      "title": "팔레스티나인들 이스라엘의 수감자학대만행에 항의",
+      "date": "2026-05-27",
+      "snippet": "(평양 5월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d73dd756886c74530b03e90e083199df",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 630
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af325851fdbcd4b2006dfb862"
+    },
     {
       "id": "news:kcna:e57f8fe65e20be4993795801",
       "title": "세계보건기구 총국장 민주꽁고에서의 에볼라비루스전파상황에 우려",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 630
+        "international": 631
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 631
+        "international": 632
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,8 +83,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 632,
-        "foreign": 155
+        "international": 633,
+        "foreign": 156
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 633
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0bb65204d2b5627e57b0ee8f"
-    },
-    {
-      "id": "news:kcna:2464a9642907d77eac12c496",
-      "title": "이스라엘의 군사적공격으로 레바논에서 사상자수 증가",
-      "date": "2026-05-26",
-      "snippet": "(평양 5월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/275b3962e676256a711fc59f5b6a41a4",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 634
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2464a9642907d77eac12c496"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0bb65204d2b5627e57b0ee8f"
     }
   ]
 }

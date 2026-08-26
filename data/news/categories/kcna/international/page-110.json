@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 110,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:dd3f5eee18b27d7fe44c9640",
+      "title": "때이른 열파로 가열되는 지구",
+      "date": "2026-06-09",
+      "snippet": "(평양 6월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ddfd988784e516dcbccd14156c3a898a",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 545
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Add3f5eee18b27d7fe44c9640"
+    },
     {
       "id": "news:kcna:686398471ef946aed9c8ff88",
       "title": "파키스탄에서 반테로작전",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 545
+        "international": 546
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 546
+        "international": 547
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 547
+        "international": 548
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 548
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9dea760109be6c2fd290c83e"
-    },
-    {
-      "id": "news:kcna:70a6648b31f2f2795c09252d",
-      "title": "중국에서 소년선봉대활동 강화",
-      "date": "2026-06-09",
-      "snippet": "(베이징 6월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/00f0d3dfb15ac5db1dad87991ddc1f2e",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 549
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A70a6648b31f2f2795c09252d"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9dea760109be6c2fd290c83e"
     }
   ]
 }

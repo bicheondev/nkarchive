@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 41,
   "pageSize": 5,
-  "totalItems": 771,
-  "totalPages": 155,
+  "totalItems": 770,
+  "totalPages": 154,
   "articles": [
+    {
+      "id": "news:kcna:25437cb2a83eb7f93c576eaf",
+      "title": "조선인민군 해외작전부대 지휘관,전투원들에게 로씨야련방 국가표창 수여",
+      "date": "2026-04-27",
+      "snippet": "(평양 4월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3aa3fdc8c61b985a5aa8b0f7a80de629",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 130,
+        "foreign": 200,
+        "domestic": 1315
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66c7d4033029873ad17d181c5e3b7be090",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/5dc5a33b590a0e459037f194d4850695ad7ac6f97c3e7ba4f8f0edcd2471ea45.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A25437cb2a83eb7f93c576eaf"
+    },
     {
       "id": "news:kcna:e8f67d0aa5593900f47cbb44",
       "title": "로씨야련방 공식대표단 조국해방전쟁승리기념관 참관",
@@ -25,8 +49,8 @@
       ],
       "categoryOrders": {
         "important": 132,
-        "foreign": 200,
-        "domestic": 1314
+        "foreign": 201,
+        "domestic": 1317
       },
       "featuredSections": [],
       "hasImage": true,
@@ -49,8 +73,8 @@
       ],
       "categoryOrders": {
         "important": 133,
-        "foreign": 201,
-        "domestic": 1315
+        "foreign": 202,
+        "domestic": 1318
       },
       "featuredSections": [],
       "hasImage": true,
@@ -71,8 +95,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 873,
-        "foreign": 202
+        "international": 874,
+        "foreign": 203
       },
       "featuredSections": [],
       "hasImage": false,
@@ -95,8 +119,8 @@
       ],
       "categoryOrders": {
         "important": 134,
-        "international": 880,
-        "foreign": 203
+        "international": 881,
+        "foreign": 204
       },
       "featuredSections": [],
       "hasImage": false,
@@ -104,28 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Adb9db6e290aeceaed9efef5b"
-    },
-    {
-      "id": "news:kcna:e868577b88e3f3b357b27b55",
-      "title": "조선로동당 중앙위원회가 벨라야 루씨당 제4차대회에 축전을 보내였다",
-      "date": "2026-04-26",
-      "snippet": "(평양 4월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c1d3d731a508be99c527b9e7aa6850cd",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 204,
-        "domestic": 1327
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae868577b88e3f3b357b27b55"
     }
   ]
 }

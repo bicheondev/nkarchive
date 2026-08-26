@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,71 @@
   "section": "domestic",
   "page": 504,
   "pageSize": 5,
-  "totalItems": 4151,
-  "totalPages": 831,
+  "totalItems": 4145,
+  "totalPages": 829,
   "articles": [
+    {
+      "id": "news:kcna:4017cc1719a8236ea1fc9c87",
+      "title": "2026년 1월 13일 신문개관",
+      "date": "2026-01-13",
+      "snippet": "(평양 1월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f26d1fe43b0d383d968ec389efde9ffc",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2516
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4017cc1719a8236ea1fc9c87"
+    },
+    {
+      "id": "news:kcna:4c9b59caf5092a69794ba1e7",
+      "title": "평양시안의 녀맹조직들에서 선전선동활동 활발",
+      "date": "2026-01-13",
+      "snippet": "(평양 1월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/02bdec216b0273553e635be1aac7b767",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2517
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4c9b59caf5092a69794ba1e7"
+    },
+    {
+      "id": "news:kcna:af0b8bad005e3dc869adf499",
+      "title": "사회주의애국청년동맹창립 80돐기념 사진전람회 개막",
+      "date": "2026-01-13",
+      "snippet": "(평양 1월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/aa36b5543a16ae89507297200aa65ea6",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2518,
+        "social": 371
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e4513c2b60899fe9b48fb2bfd06551c297c0",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/2358fea16c883d87ec56078c0b92dabe9680b602eda2779f2ded0b69e1ee1348.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaf0b8bad005e3dc869adf499"
+    },
     {
       "id": "news:kcna:cdfcfc1c97ab3b134a39ed24",
       "title": "황해북도농촌경리위원회 황주읍농장,린산군 석련농장에서 살림집입사모임 진행",
@@ -23,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2516,
+        "domestic": 2519,
         "social": 372
       },
       "featuredSections": [],
@@ -44,66 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2517
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A741bc8c1e45f05bb7bb06a4d"
-    },
-    {
-      "id": "news:kcna:1dcdb141681507c856027fe6",
-      "title": "주체적청년운동사에 깃든 절세위인들의 불멸의 령도업적을 깊이 체득하기 위한 연구토론회 진행",
-      "date": "2026-01-13",
-      "snippet": "(평양 1월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e9531ad32c5d8fdf87c03b6bdc133cfb",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2518
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451bc52783858db8fd124d5297826256586",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/925aa2ac4854e90ad24676d9f06fd43e82c15761def01a083c195a5460eb7fc4.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1dcdb141681507c856027fe6"
-    },
-    {
-      "id": "news:kcna:c86835d0a7d31d7d11587e4d",
-      "title": "원산어구종합공장 준공",
-      "date": "2026-01-13",
-      "snippet": "(평양 1월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/076ac79e612fe685149da2d0d056e60b",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2519
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac86835d0a7d31d7d11587e4d"
-    },
-    {
-      "id": "news:kcna:8c6963cbde559ad830202599",
-      "title": "국가과학원 흑색금속연구소에서 황해제철련합기업소의 합금철로를 에네르기절약형으로 개조",
-      "date": "2026-01-12",
-      "snippet": "(평양 1월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f378d4258bddc20d5bdbbf68f449dde3",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2520
       },
       "featuredSections": [],
@@ -111,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8c6963cbde559ad830202599"
+      "detailUrl": "/news/document?id=news%3Akcna%3A741bc8c1e45f05bb7bb06a4d"
     }
   ]
 }

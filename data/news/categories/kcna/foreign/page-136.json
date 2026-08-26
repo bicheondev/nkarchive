@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 136,
   "pageSize": 5,
-  "totalItems": 771,
-  "totalPages": 155,
+  "totalItems": 770,
+  "totalPages": 154,
   "articles": [
+    {
+      "id": "news:kcna:6d9bb36485256b2094f30334",
+      "title": "해외연고자가족들 도착",
+      "date": "2025-10-07",
+      "snippet": "(평양 10월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f4ba20db2e58e66023cccf3aa584cd78",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 675,
+        "domestic": 3689
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bbde2875c56cefd96954d052008716a8d9",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/b80e0b22640fab48a0580403e5cea58e50591ae89779efc2b1446f2b69df0d40.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6d9bb36485256b2094f30334"
+    },
     {
       "id": "news:kcna:b505c6cf6cf0eff1fdc108f1",
       "title": "경애하는 김정은동지께서 로씨야련방 대통령에게 축전을 보내시였다",
@@ -25,8 +47,8 @@
       ],
       "categoryOrders": {
         "important": 448,
-        "foreign": 675,
-        "domestic": 3691
+        "foreign": 676,
+        "domestic": 3694
       },
       "featuredSections": [],
       "hasImage": false,
@@ -49,8 +71,8 @@
       ],
       "categoryOrders": {
         "important": 449,
-        "foreign": 676,
-        "domestic": 3692
+        "foreign": 677,
+        "domestic": 3695
       },
       "featuredSections": [],
       "hasImage": false,
@@ -73,8 +95,8 @@
       ],
       "categoryOrders": {
         "important": 450,
-        "foreign": 677,
-        "domestic": 3695
+        "foreign": 678,
+        "domestic": 3698
       },
       "featuredSections": [],
       "hasImage": false,
@@ -97,8 +119,8 @@
       ],
       "categoryOrders": {
         "important": 451,
-        "foreign": 678,
-        "domestic": 3698
+        "foreign": 679,
+        "domestic": 3701
       },
       "featuredSections": [],
       "hasImage": true,
@@ -106,30 +128,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb89163806c65685eaeedc99aaa9516d96",
       "cachedThumbnailUrl": "/data/news/assets/kcna/c707e5e5a51eb030ee2caff8072e7aa24b483332eeed2e84340182a3d1329511.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A03ced7feb1c5afc196ec2276"
-    },
-    {
-      "id": "news:kcna:4478b78add5c2b0460246614",
-      "title": "경애하는 김정은동지께 나이제리아련방공화국 대통령이 꽃바구니를 보내여왔다",
-      "date": "2025-10-06",
-      "snippet": "(평양 10월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b9166e345ddf99b7263446b832e6383e",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 452,
-        "international": 2412,
-        "foreign": 679
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bbaded9d78f678432d521fc9de39e548ce",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/e78544048a824a83bc96d5f43b4614b663f635306aa1b104576b667400b510b4.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4478b78add5c2b0460246614"
     }
   ]
 }

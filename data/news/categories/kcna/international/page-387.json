@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 387,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:13007ee7fe3f7c405be4c4e9",
+      "title": "미국의 교정에서 칼부림범죄",
+      "date": "2025-12-11",
+      "snippet": "(평양 12월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4b7c0185f056297ea6da880da581f2ea",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1930
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A13007ee7fe3f7c405be4c4e9"
+    },
     {
       "id": "news:kcna:201dd3f434e2dece91ba2544",
       "title": "윁남에서 새 인구법 채택",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1930
+        "international": 1931
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "important": 358,
-        "international": 1931
+        "international": 1932
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1932
+        "international": 1933
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1933
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A444e337d3f3ff92570dc30a2"
-    },
-    {
-      "id": "news:kcna:ce9b42742703adb6591b1487",
-      "title": "마쟈르수상 우크라이나의 유럽동맹가입이 초래할 위험성에 경고",
-      "date": "2025-12-10",
-      "snippet": "(평양 12월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e6826ed62f2ee1659f027dfaa078ddfd",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1934
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ace9b42742703adb6591b1487"
+      "detailUrl": "/news/document?id=news%3Akcna%3A444e337d3f3ff92570dc30a2"
     }
   ]
 }

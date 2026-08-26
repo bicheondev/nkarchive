@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 14,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:476451a3594d0ebb8c431819",
+      "title": "오스트랄리아에서 칼부림범죄",
+      "date": "2026-08-15",
+      "snippet": "(평양 8월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ceec99f54f8e55b65a46ba4db916afc8",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 65
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A476451a3594d0ebb8c431819"
+    },
     {
       "id": "news:kcna:2a7da2899d8455d99313c571",
       "title": "도이췰란드의 기업체파산건수 1만 8 000여건",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 65
+        "international": 66
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 66
+        "international": 67
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 67
+        "international": 68
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 68
+        "international": 69
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,30 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aaa9306fb05801346fb29bab6"
-    },
-    {
-      "id": "kcna-9b187513f3c2f017",
-      "title": "경애하는 김정은동지께 전로씨야정당 《통일로씨야》 위원장이 축전을 보내여왔다",
-      "date": "2026-08-15",
-      "snippet": "(평양 8월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/91d26925c5aac2b35f9937d85c0966b2",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 10,
-        "international": 69,
-        "foreign": 19
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-9b187513f3c2f017"
     }
   ]
 }

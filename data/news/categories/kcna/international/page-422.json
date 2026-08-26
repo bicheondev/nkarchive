@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 422,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:c03f465299d5e8f88680f3e1",
+      "title": "여러 나라사이의 협조",
+      "date": "2025-11-14",
+      "snippet": "(평양 11월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8780ecae37864fe421fe4a33a0068a6d",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2105
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac03f465299d5e8f88680f3e1"
+    },
     {
       "id": "news:kcna:ebd9364403896f82b439c88f",
       "title": "민주꽁고에서 식량부족난 악화",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2105
+        "international": 2106
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2106
+        "international": 2107
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2107
+        "international": 2108
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2108
+        "international": 2109
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,30 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Acaad231b2af24bbc4cc4c16f"
-    },
-    {
-      "id": "news:kcna:99b945239d571682bd1b2cac",
-      "title": "조선민주주의인민공화국 최선희 외무상 담화 발표",
-      "date": "2025-11-14",
-      "snippet": "(평양 11월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f208f844cfc920841e4d27500f560079",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 369,
-        "international": 2109,
-        "domestic": 3109
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A99b945239d571682bd1b2cac"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 172,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:134b3a907ae272b340db74f4",
+      "title": "쓰르비아대통령 서방의 처사를 비난",
+      "date": "2026-04-29",
+      "snippet": "(평양 4월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/79a4a0be16982a8925c9cf8eb867aa8a",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 855
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A134b3a907ae272b340db74f4"
+    },
     {
       "id": "news:kcna:81b416b137a9ae9b5e7855c8",
       "title": "여러 나라와 지역기구 인사들 우리 나라 대표부들을 축하방문",
@@ -23,8 +43,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 855,
-        "foreign": 193
+        "international": 856,
+        "foreign": 194
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 856
+        "international": 857
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 857
+        "international": 858
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 858
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7ffa15bcc5fea849cca2ed0b"
-    },
-    {
-      "id": "news:kcna:05329730d85f3f133b0e7a37",
-      "title": "일본에서 살인범죄 성행",
-      "date": "2026-04-28",
-      "snippet": "(평양 4월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/55cf8acdf3730bc552034f90b6da1019",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 859
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A05329730d85f3f133b0e7a37"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7ffa15bcc5fea849cca2ed0b"
     }
   ]
 }

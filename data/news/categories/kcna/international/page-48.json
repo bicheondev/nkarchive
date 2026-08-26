@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 48,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:50dfd163f703effba996970d",
+      "title": "여러 나라에서 사고",
+      "date": "2026-07-23",
+      "snippet": "(평양 7월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/af35ca71b69e5420991ecd43afe1d07e",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 235
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A50dfd163f703effba996970d"
+    },
     {
       "id": "news:kcna:72a29aa852f947dd21f695d5",
       "title": "카나다 미국의 관세부과행위를 비난",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 235
+        "international": 236
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 236
+        "international": 237
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 237
+        "international": 238
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 238
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6235fbbc6ee8ec2b4a125f57"
-    },
-    {
-      "id": "news:kcna:275c6dc1872f6ff7b5cda8f6",
-      "title": "로씨야에서 교육사업 중시",
-      "date": "2026-07-22",
-      "snippet": "(모스크바 7월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f791f7a4ad790606a0290d6361bfb9c6",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 239
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A275c6dc1872f6ff7b5cda8f6"
+      "detailUrl": "/news/document?id=news%3Akcna%3A6235fbbc6ee8ec2b4a125f57"
     }
   ]
 }

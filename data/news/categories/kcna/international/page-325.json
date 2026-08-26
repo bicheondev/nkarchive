@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 325,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:30e912267cfbc23d7835e6b4",
+      "title": "벨지끄에서 칼부림범죄",
+      "date": "2026-01-24",
+      "snippet": "(평양 1월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e48040f38a2b8cf28ea1d2dcc01412a5",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1620
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A30e912267cfbc23d7835e6b4"
+    },
     {
       "id": "news:kcna:728d9a48d80bc33e488b20a2",
       "title": "나이제리아의 심각한 식량위기",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1620,
+        "international": 1621,
         "social": 331
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1621
+        "international": 1622
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1622
+        "international": 1623
       },
       "featuredSections": [],
       "hasImage": false,
@@ -87,8 +107,8 @@
       ],
       "categoryOrders": {
         "important": 308,
-        "international": 1623,
-        "foreign": 406
+        "international": 1624,
+        "foreign": 407
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,26 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A666b27f8d3ef5ba3dfeef5ca"
-    },
-    {
-      "id": "news:kcna:142d470d99c2bfeee88dd5c6",
-      "title": "로씨야외무상 서방의 대결정책을 비난",
-      "date": "2026-01-23",
-      "snippet": "(모스크바 1월 22일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3d604bafe17cc377bd1d5af36db9f19b",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 1624
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A142d470d99c2bfeee88dd5c6"
     }
   ]
 }

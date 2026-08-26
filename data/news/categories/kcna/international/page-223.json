@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 223,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:a17e7c238f72e78446096e1b",
+      "title": "나미비아정부 공업화계획 발표",
+      "date": "2026-03-28",
+      "snippet": "(평양 3월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ce8134bdd6bdc77fb263cac4298eb238",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1110
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa17e7c238f72e78446096e1b"
+    },
     {
       "id": "news:kcna:1faf98c52ecc9ff73ad6bad2",
       "title": "인도네시아대통령 도시오물을 에네르기로 전환할데 대해 강조",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1110
+        "international": 1111
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1111
+        "international": 1112
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1112
+        "international": 1113
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,8 +103,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1113,
-        "foreign": 294
+        "international": 1114,
+        "foreign": 295
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,30 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e6081cb18cf721bb9a98f6615bf2d434db6",
       "cachedThumbnailUrl": "/data/news/assets/kcna/6b181c846fccd1808086d77d172a40ad0f34056ce42fe0a323d831e8b3f3216b.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A22bb785ff2999d13a0d78a90"
-    },
-    {
-      "id": "news:kcna:29fc7ac8d4853f08b86966b6",
-      "title": "경애하는 김정은동지께 팔레스티나국가 대통령이 축전을 보내여왔다",
-      "date": "2026-03-28",
-      "snippet": "(평양 3월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b28be71485a123b93d63ccf71f983410",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 190,
-        "international": 1114,
-        "foreign": 296
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A29fc7ac8d4853f08b86966b6"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 415,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:ad3d0110ea5d43157693d738",
+      "title": "파키스탄에서 어린이예방접종",
+      "date": "2025-11-19",
+      "snippet": "(평양 11월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8af9cfe0836c414721dfcd6682cad4fa",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2070
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aad3d0110ea5d43157693d738"
+    },
     {
       "id": "news:kcna:714b5957ab577d6cecae83b0",
       "title": "아프가니스탄에서 반마약작전",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2070
+        "international": 2071
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2071
+        "international": 2072
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2072
+        "international": 2073
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2073
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abf88ea65345979b0522a46fc"
-    },
-    {
-      "id": "news:kcna:a4fea6ba5029c435a4db462a",
-      "title": "중국 섬서성에서 고속철도시험운행 시작",
-      "date": "2025-11-19",
-      "snippet": "(베이징 11월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/278582415513b215f5fe4820178c70e9",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 2074
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa4fea6ba5029c435a4db462a"
+      "detailUrl": "/news/document?id=news%3Akcna%3Abf88ea65345979b0522a46fc"
     }
   ]
 }

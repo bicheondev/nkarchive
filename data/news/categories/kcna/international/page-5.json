@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 5,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:ef04c00a7bd76081b7e38855",
+      "title": "일본에서 당국의 군국화정책을 반대하여 시위",
+      "date": "2026-08-22",
+      "snippet": "(평양 8월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e5fad2eef0dca46aa0e550ab131c7723",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 20
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aef04c00a7bd76081b7e38855"
+    },
     {
       "id": "news:kcna:733b3b0b47d3c2f0450bbd72",
       "title": "중국외교부 대변인 인공지능분야에서의 미국의 대결책동 반대",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 20
+        "international": 21
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 21
+        "international": 22
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 22
+        "international": 23
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 23
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab0988fa5b602342361f9cafe"
-    },
-    {
-      "id": "kcna-bf6f9b8aecd22f4c",
-      "title": "인도네시아 태양열에 의한 전력생산을 장려",
-      "date": "2026-08-21",
-      "snippet": "(평양 8월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/26ea83e7162c80905fb882531a16984c",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 24
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-bf6f9b8aecd22f4c"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab0988fa5b602342361f9cafe"
     }
   ]
 }

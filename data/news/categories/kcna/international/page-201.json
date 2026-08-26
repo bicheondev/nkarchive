@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 201,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:a0aa172c641b566eddb552f8",
+      "title": "윁남에서 공업생산 장성",
+      "date": "2026-04-10",
+      "snippet": "(평양 4월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/34209d7033ce8a8367552e2b9192dcbe",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1000
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa0aa172c641b566eddb552f8"
+    },
     {
       "id": "news:kcna:d33a47f4aa0fcebd94dda9e6",
       "title": "중국에서 위성 발사",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1000
+        "international": 1001
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1001,
+        "international": 1002,
         "social": 155
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1002
+        "international": 1003
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1003
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A891e0b368b8f7517f0156818"
-    },
-    {
-      "id": "news:kcna:142ec3eb408cee2d0accbea7",
-      "title": "일본에서 기업체파산건수 증가",
-      "date": "2026-04-10",
-      "snippet": "(평양 4월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a802ff77ac1150abfd33e0526df4a00f",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1004
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A142ec3eb408cee2d0accbea7"
+      "detailUrl": "/news/document?id=news%3Akcna%3A891e0b368b8f7517f0156818"
     }
   ]
 }

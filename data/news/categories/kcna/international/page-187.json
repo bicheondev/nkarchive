@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 187,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:0887f2bb357a6089d57e8e88",
+      "title": "아제르바이쟌에서 풍력을 리용한 전력생산 증가",
+      "date": "2026-04-18",
+      "snippet": "(평양 4월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3aec78d008310b43dd2331fd5365c46f",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 930
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0887f2bb357a6089d57e8e88"
+    },
     {
       "id": "news:kcna:e72c90ca5b29343a5d9c7575",
       "title": "인디아에서 수출액 증가",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 930
+        "international": 931
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +65,8 @@
       ],
       "categoryOrders": {
         "important": 147,
-        "international": 931,
-        "foreign": 230
+        "international": 932,
+        "foreign": 231
       },
       "featuredSections": [],
       "hasImage": true,
@@ -67,8 +87,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 932,
-        "foreign": 231
+        "international": 933,
+        "foreign": 232
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,26 +108,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 933
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A72baace5bb2d03c8085fc915"
-    },
-    {
-      "id": "news:kcna:4a41cffd2b005d2f44cdefb3",
-      "title": "중국 일본의 무력증강책동을 규탄",
-      "date": "2026-04-17",
-      "snippet": "(베이징 4월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c8a936bc5e780898ecb55085a2e65797",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 934
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4a41cffd2b005d2f44cdefb3"
+      "detailUrl": "/news/document?id=news%3Akcna%3A72baace5bb2d03c8085fc915"
     }
   ]
 }

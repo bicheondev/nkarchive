@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 66,
   "pageSize": 5,
-  "totalItems": 771,
-  "totalPages": 155,
+  "totalItems": 770,
+  "totalPages": 154,
   "articles": [
+    {
+      "id": "news:kcna:e5aede089a8fb29cae83de1d",
+      "title": "외국손님들과 재중동포들 평양시의 선거장을 참관",
+      "date": "2026-03-16",
+      "snippet": "(평양 3월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/58d50592777adbf4e2ae97214333a86d",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 325,
+        "domestic": 1850
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60b79bf8984fddfda0b56bb545912bbd04",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/16247a01a3f58fa803bd9ecb90e4d49372d56b120270d5788d3bdc2e9c8c6303.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae5aede089a8fb29cae83de1d"
+    },
     {
       "id": "news:kcna:e10e157e09771c0002547eaa",
       "title": "경애하는 김정은동지께서 니까라과공화국 공동대통령들에게 답전을 보내시였다",
@@ -25,8 +47,8 @@
       ],
       "categoryOrders": {
         "important": 228,
-        "foreign": 325,
-        "domestic": 1856
+        "foreign": 326,
+        "domestic": 1859
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,8 +69,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1216,
-        "foreign": 326
+        "international": 1217,
+        "foreign": 327
       },
       "featuredSections": [],
       "hasImage": false,
@@ -71,8 +93,8 @@
       ],
       "categoryOrders": {
         "important": 229,
-        "foreign": 327,
-        "domestic": 1865
+        "foreign": 328,
+        "domestic": 1868
       },
       "featuredSections": [],
       "hasImage": false,
@@ -95,8 +117,8 @@
       ],
       "categoryOrders": {
         "important": 230,
-        "foreign": 328,
-        "domestic": 1866
+        "foreign": 329,
+        "domestic": 1869
       },
       "featuredSections": [],
       "hasImage": false,
@@ -104,28 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Afaee1100f52921393751cb7f"
-    },
-    {
-      "id": "news:kcna:8da658ad0d2e535377bb979c",
-      "title": "여러 나라의 각계인사들 우리 나라 대표부들을 축하방문",
-      "date": "2026-03-14",
-      "snippet": "(평양 3월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d056653373da9984ca453a04636ba09b",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 1225,
-        "foreign": 329
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8da658ad0d2e535377bb979c"
     }
   ]
 }

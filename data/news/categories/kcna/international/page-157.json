@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 157,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:6442e6421683181eb0f7653b",
+      "title": "윁남에서 무역액 증가",
+      "date": "2026-05-08",
+      "snippet": "(평양 5월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bcb58e833cd8a9e98ed306525d680ffd",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 780
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6442e6421683181eb0f7653b"
+    },
     {
       "id": "news:kcna:c6d954c59ee3489549496bfb",
       "title": "로씨야에서 경축행사들 진행",
@@ -23,8 +43,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 780,
-        "foreign": 178
+        "international": 781,
+        "foreign": 179
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 781
+        "international": 782
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 782
+        "international": 783
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 783
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A91b75194a24b0db90bf17229"
-    },
-    {
-      "id": "news:kcna:d735f9e7347223004da6f1f2",
-      "title": "팔레스티나 이스라엘의 정착촌도로건설계획을 규탄",
-      "date": "2026-05-07",
-      "snippet": "(평양 5월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/eb77613833ef132564be177617cfeecb",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 784
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad735f9e7347223004da6f1f2"
+      "detailUrl": "/news/document?id=news%3Akcna%3A91b75194a24b0db90bf17229"
     }
   ]
 }

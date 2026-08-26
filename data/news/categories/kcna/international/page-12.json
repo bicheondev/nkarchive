@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 12,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:8a96aff4f436b5490ed4d1e3",
+      "title": "스리랑카에서 싸이버범죄와의 투쟁 강화",
+      "date": "2026-08-17",
+      "snippet": "(평양 8월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2373ccf754f5738210545f882dee9577",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 55
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8a96aff4f436b5490ed4d1e3"
+    },
     {
       "id": "news:kcna:9c014de6b6ad3bd69eccc1bd",
       "title": "르완다에서 농산물수출액 증가",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 55
+        "international": 56
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 56,
-        "foreign": 11
+        "international": 57,
+        "foreign": 12
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 57
+        "international": 58
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 58
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abb627598240e593d5eaa5ff8"
-    },
-    {
-      "id": "news:kcna:7e692e010f1d2703674967d5",
-      "title": "중국 일본이 재군사화의 위험한 행위를 중지할것을 요구",
-      "date": "2026-08-16",
-      "snippet": "(베이징 8월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f7c58e53c8ee55fe015b4033c565786d",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 59
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7e692e010f1d2703674967d5"
+      "detailUrl": "/news/document?id=news%3Akcna%3Abb627598240e593d5eaa5ff8"
     }
   ]
 }

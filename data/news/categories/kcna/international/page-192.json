@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 192,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:803b0d79919ae7ed54bbfefb",
+      "title": "윁남의 공업지구건설계획",
+      "date": "2026-04-15",
+      "snippet": "(평양 4월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c47c6e4dda5d264c05082511b4e88b16",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 955
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A803b0d79919ae7ed54bbfefb"
+    },
     {
       "id": "news:kcna:aa3f0e49c522b7cebc06f1b6",
       "title": "로씨야에서 온실남새생산",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 955
+        "international": 956
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 956
+        "international": 957
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,8 +85,8 @@
       ],
       "categoryOrders": {
         "important": 151,
-        "international": 957,
-        "foreign": 234
+        "international": 958,
+        "foreign": 235
       },
       "featuredSections": [],
       "hasImage": true,
@@ -88,28 +108,6 @@
       ],
       "categoryOrders": {
         "important": 152,
-        "international": 958
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2ff50965ba11fa840ecee3d3"
-    },
-    {
-      "id": "news:kcna:9b19b43331507eae0adf8b89",
-      "title": "경애하는 김정은원수님께 재중조선인총련합회가 축하편지를 드리였다",
-      "date": "2026-04-15",
-      "snippet": "(평양 4월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a81b16c780fe4abcc10b31ecfc0b6d00",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international"
-      ],
-      "categoryOrders": {
-        "important": 153,
         "international": 959
       },
       "featuredSections": [],
@@ -117,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9b19b43331507eae0adf8b89"
+      "detailUrl": "/news/document?id=news%3Akcna%3A2ff50965ba11fa840ecee3d3"
     }
   ]
 }

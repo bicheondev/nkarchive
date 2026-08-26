@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 331,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:216826676775ef91e0910449",
+      "title": "레바논에 대한 이스라엘의 공습만행",
+      "date": "2026-01-19",
+      "snippet": "(평양 1월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2bd6ae93ca2606f889530f503190b08c",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1650
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A216826676775ef91e0910449"
+    },
     {
       "id": "news:kcna:110c8141ebab6b9805cfb5f7",
       "title": "미국회의원들 그린랜드병합시도를 비난",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1650
+        "international": 1651
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1651
+        "international": 1652
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1652
+        "international": 1653
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1653,
+        "international": 1654,
         "social": 350
       },
       "featuredSections": [],
@@ -92,26 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A8d06c31434284a5eec18124d"
-    },
-    {
-      "id": "news:kcna:612b49ba86b7f9be15d04e51",
-      "title": "스리랑카에서 풍력발전소건설",
-      "date": "2026-01-19",
-      "snippet": "(평양 1월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7115fc2b5a7adbd1c5e544d6a7d3bcc3",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 1654
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A612b49ba86b7f9be15d04e51"
     }
   ]
 }

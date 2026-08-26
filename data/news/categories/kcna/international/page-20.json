@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 20,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:dbc8354e91dc7e0b7737915f",
+      "title": "프랑스에서 열파와 고온으로 지하수 급격히 감소",
+      "date": "2026-08-12",
+      "snippet": "(평양 8월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a20640b076d5ec212e87d97694d4fc65",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 95
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Adbc8354e91dc7e0b7737915f"
+    },
     {
       "id": "kcna-1e11b92604277ccb",
       "title": "조선민주주의인민공화국 외무성 장금철제1부상 겸 10국 국장 담화 발표",
@@ -25,7 +45,7 @@
       ],
       "categoryOrders": {
         "important": 18,
-        "international": 95,
+        "international": 96,
         "document": 3
       },
       "featuredSections": [
@@ -50,7 +70,7 @@
       ],
       "categoryOrders": {
         "important": 19,
-        "international": 96
+        "international": 97
       },
       "featuredSections": [],
       "hasImage": false,
@@ -70,7 +90,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 97
+        "international": 98
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,26 +110,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 98
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abcf85ee1ee42ced4f4e6d071"
-    },
-    {
-      "id": "news:kcna:7901879bad27b168d54e1b91",
-      "title": "파키스탄에서 반테로작전",
-      "date": "2026-08-11",
-      "snippet": "(평양 8월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0b01a1398d9c862c2beff57a7ea58e70",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 99
       },
       "featuredSections": [],
@@ -117,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7901879bad27b168d54e1b91"
+      "detailUrl": "/news/document?id=news%3Akcna%3Abcf85ee1ee42ced4f4e6d071"
     }
   ]
 }

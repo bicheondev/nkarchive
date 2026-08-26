@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 28,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:735613fa473848b67053b12a",
+      "title": "유엔관리 기후위기에 대해 경고",
+      "date": "2026-08-06",
+      "snippet": "(평양 8월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2f01ca9bd71d712938d2ec5bbc06d2c0",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 135
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A735613fa473848b67053b12a"
+    },
     {
       "id": "news:kcna:da9ffc5378742da151cea1ba",
       "title": "반테로국제연구토론회 중국에서 진행",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 135
+        "international": 136
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 136
+        "international": 137
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 137
+        "international": 138
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,8 +103,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 138,
-        "foreign": 33
+        "international": 139,
+        "foreign": 34
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,26 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A5bf89b32ad3ebbb19359d3f2"
-    },
-    {
-      "id": "news:kcna:b37907a033713c1930e88296",
-      "title": "일본 구마모또현에서 고온현상",
-      "date": "2026-08-05",
-      "snippet": "(평양 8월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/869bffc331f25fb43bfeba27259827ce",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 139
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab37907a033713c1930e88296"
     }
   ]
 }

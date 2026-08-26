@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 468,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:675f6f07f5a73c96daebe4c2",
+      "title": "《채무함정》에 빠진 유럽",
+      "date": "2025-10-15",
+      "snippet": "(평양 10월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ae1ac052eab1fa3b17ca06b87e811a1a",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2335
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A675f6f07f5a73c96daebe4c2"
+    },
     {
       "id": "news:kcna:19f00ec5d6c14efc2d459ac5",
       "title": "슬로벤스꼬에서 렬차충돌사고",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2335
+        "international": 2336
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2336
+        "international": 2337
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2337
+        "international": 2338
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,8 +105,8 @@
       ],
       "categoryOrders": {
         "important": 419,
-        "international": 2338,
-        "foreign": 560
+        "international": 2339,
+        "foreign": 561
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,26 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aa54c843010c18e7012b3dc4b"
-    },
-    {
-      "id": "news:kcna:f590053c720d11445097233a",
-      "title": "이란 레바논에 대한 이스라엘의 공습만행을 규탄",
-      "date": "2025-10-14",
-      "snippet": "(테헤란 10월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d20b2e5e6529dd5284005f4862d2ffe7",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 2339
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af590053c720d11445097233a"
     }
   ]
 }

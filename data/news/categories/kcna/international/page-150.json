@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 150,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:28fc468bb05204d7de77f93e",
+      "title": "보쯔와나와 르완다사이의 협조",
+      "date": "2026-05-12",
+      "snippet": "(평양 5월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bb128d48abe76e8827b21ae45f0687f4",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 745
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A28fc468bb05204d7de77f93e"
+    },
     {
       "id": "news:kcna:9f6ca2ed798cdb3f12084ec2",
       "title": "이스라엘이 레바논을 또다시 공습",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 745
+        "international": 746
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 746
+        "international": 747
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 747
+        "international": 748
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 748
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aba9bace76fe9b3a65f1bcd7e"
-    },
-    {
-      "id": "news:kcna:22170bd3b4553a97eb0b4dd5",
-      "title": "파키스탄에서 테로공격으로 많은 사상자 발생",
-      "date": "2026-05-12",
-      "snippet": "(평양 5월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1b827d31aa88ebca8521f99d057e6548",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 749
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A22170bd3b4553a97eb0b4dd5"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aba9bace76fe9b3a65f1bcd7e"
     }
   ]
 }

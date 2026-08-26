@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 445,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:6bb4dc3dc966bd03ff517bca",
+      "title": "이스라엘 가자지대와 레바논남부에 대한 무인기공격 감행",
+      "date": "2025-10-29",
+      "snippet": "(평양 10월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4f6018039a1b155e8b797d2f23b8de94",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2220
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6bb4dc3dc966bd03ff517bca"
+    },
     {
       "id": "news:kcna:f796c02fa6613b94d2eec482",
       "title": "미국 펜실바니아주에서 총기류범죄",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2220
+        "international": 2221
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2221,
-        "foreign": 517
+        "international": 2222,
+        "foreign": 518
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2222
+        "international": 2223
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2223
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adef1e9021ae56a5558ccdfca"
-    },
-    {
-      "id": "news:kcna:bf035fd7b9f1f2515961db87",
-      "title": "슬로벤스꼬수상 우크라이나에 대한 지원을 반대",
-      "date": "2025-10-28",
-      "snippet": "(평양 10월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/76426585a00431b2ae9ae03fabb19750",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 2224
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abf035fd7b9f1f2515961db87"
+      "detailUrl": "/news/document?id=news%3Akcna%3Adef1e9021ae56a5558ccdfca"
     }
   ]
 }

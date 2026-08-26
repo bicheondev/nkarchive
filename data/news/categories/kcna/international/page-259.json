@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 259,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:8f96781d3053f4e04d92363c",
+      "title": "챠드와 니제르에서 반테로투쟁",
+      "date": "2026-03-05",
+      "snippet": "(평양 3월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5c2fc15f89ba638cc3c392cf72c2b5c7",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1290
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8f96781d3053f4e04d92363c"
+    },
     {
       "id": "news:kcna:a5d1dfea37236c5c45c6314d",
       "title": "네팔에서 관광업발전",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1290
+        "international": 1291
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1291
+        "international": 1292
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,8 +85,8 @@
       ],
       "categoryOrders": {
         "important": 245,
-        "international": 1292,
-        "foreign": 339
+        "international": 1293,
+        "foreign": 340
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1293
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac17109bf8b562081097f0caf"
-    },
-    {
-      "id": "news:kcna:418cc2cd86353332533486f3",
-      "title": "여러 나라에서 사고",
-      "date": "2026-03-04",
-      "snippet": "(평양 3월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/052f3eb1ffb4acc42f22e76eb8a35e95",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1294
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A418cc2cd86353332533486f3"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac17109bf8b562081097f0caf"
     }
   ]
 }

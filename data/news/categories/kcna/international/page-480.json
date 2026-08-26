@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "international",
   "page": 480,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:f6fb8992024f8863812f9f20",
+      "title": "조선로동당 중앙위원회에 몽골인민당 중앙위원회가 꽃바구니를 보내여왔다",
+      "date": "2025-10-08",
+      "snippet": "(평양 10월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/22e5b89b15d1fd66f6742e945dd8b632",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 2395,
+        "foreign": 655
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb2cc10535815c84a0f1dd525d399d901d",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/a0ebc676a1a6085b5c6617db8677cbb246d578ca9a91062bf53acf00d5bea628.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af6fb8992024f8863812f9f20"
+    },
     {
       "id": "news:kcna:afc33ecb0522923671131c9e",
       "title": "조선로동당 중앙위원회에 중국공산당 중앙위원회가 꽃바구니를 보내여왔다",
@@ -23,8 +45,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2395,
-        "foreign": 659
+        "international": 2396,
+        "foreign": 660
       },
       "featuredSections": [],
       "hasImage": true,
@@ -47,8 +69,8 @@
       ],
       "categoryOrders": {
         "important": 443,
-        "international": 2396,
-        "foreign": 660
+        "international": 2397,
+        "foreign": 661
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,7 +90,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2397
+        "international": 2398
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,7 +110,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2398
+        "international": 2399
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,28 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A8946f5ecafda752d544c3a62"
-    },
-    {
-      "id": "news:kcna:c0437c69cc5890f9aa565509",
-      "title": "네데를란드에서 반이스라엘시위",
-      "date": "2025-10-07",
-      "snippet": "(평양 10월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/bdcd931c5a857efa87d5b1286254fcf2",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "social"
-      ],
-      "categoryOrders": {
-        "international": 2399,
-        "social": 594
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac0437c69cc5890f9aa565509"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 249,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:9f3d950d08171f547bb730d9",
+      "title": "인도네시아해안으로 고래들이 무리로 밀려나오는 현상 발생",
+      "date": "2026-03-12",
+      "snippet": "(평양 3월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/03bd4780de5ce5fadbffdc813b57bf48",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1240
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9f3d950d08171f547bb730d9"
+    },
     {
       "id": "news:kcna:126c6d65d7597d2a09d6991f",
       "title": "레바논에서 이스라엘의 군사적공격으로 인명피해 증대",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1240,
+        "international": 1241,
         "social": 218
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1241
+        "international": 1242
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1242
+        "international": 1243
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1243
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A56c71a64f62dd49187c14eb8"
-    },
-    {
-      "id": "news:kcna:f610115d425cfeb63fe6504a",
-      "title": "마쟈르 로씨야의 에네르기부문에 대한 제재해제를 요구",
-      "date": "2026-03-12",
-      "snippet": "(평양 3월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/70f4bde8b92eed0e7e26aed50de7f8ec",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1244
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af610115d425cfeb63fe6504a"
+      "detailUrl": "/news/document?id=news%3Akcna%3A56c71a64f62dd49187c14eb8"
     }
   ]
 }

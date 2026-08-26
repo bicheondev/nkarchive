@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 399,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:89b35d9f0a6c4968ac0d95ce",
+      "title": "메히꼬에서 총격사건",
+      "date": "2025-12-02",
+      "snippet": "(평양 12월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b03a17f8302c847145646bacc48e1709",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1990
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A89b35d9f0a6c4968ac0d95ce"
+    },
     {
       "id": "news:kcna:4d812b4b43edfe85546b0a39",
       "title": "윁남에서 인공지능기술교육 강화",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1990
+        "international": 1991
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1991,
+        "international": 1992,
         "social": 460
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1992
+        "international": 1993
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,7 +105,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1993,
+        "international": 1994,
         "social": 461
       },
       "featuredSections": [],
@@ -94,26 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ad822222ffe9462121813098f"
-    },
-    {
-      "id": "news:kcna:e956097d791a658b8c69fb8e",
-      "title": "중국에서 위성 발사",
-      "date": "2025-12-02",
-      "snippet": "(베이징 12월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/df12a1005471c8935a4f415a64770b16",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 1994
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae956097d791a658b8c69fb8e"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 457,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:2ef7feb6a9218956863dba87",
+      "title": "나이제리아에서 반테로작전",
+      "date": "2025-10-22",
+      "snippet": "(평양 10월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/912519890a8ec7012e814485fbd97167",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2280
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2ef7feb6a9218956863dba87"
+    },
     {
       "id": "news:kcna:9a06a72016cc6bae548ebd0e",
       "title": "일본《자위대》의 무모한 군사연습소동",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2280
+        "international": 2281
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2281
+        "international": 2282
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,8 +83,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2282,
-        "foreign": 542
+        "international": 2283,
+        "foreign": 543
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2283
+        "international": 2284
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Abb413a2d7b50ea96deb9dbc9"
-    },
-    {
-      "id": "news:kcna:7609f375b98cdc1ea285956e",
-      "title": "미국전역에서 대규모반정부시위--2 700개 도시에서 약 700만명이 시위에 참가",
-      "date": "2025-10-21",
-      "snippet": "(평양 10월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/31feb6d29a47c5e4306c5daae70f591e",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "social"
-      ],
-      "categoryOrders": {
-        "international": 2284,
-        "social": 564
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7609f375b98cdc1ea285956e"
     }
   ]
 }

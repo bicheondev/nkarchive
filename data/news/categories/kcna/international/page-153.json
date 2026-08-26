@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 153,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:bdb427a6d2bd7c737f86f1df",
+      "title": "스리랑카에서 반마약투쟁 강화",
+      "date": "2026-05-10",
+      "snippet": "(평양 5월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f3e77b005deff45346606e678461ef80",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 760
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abdb427a6d2bd7c737f86f1df"
+    },
     {
       "id": "news:kcna:7f4975a9e229ddb9a4056c74",
       "title": "중국외교부 일본의 《신군국주의》망동을 저지시킬것을 주장",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 760
+        "international": 761
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 761,
+        "international": 762,
         "social": 117
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 762
+        "international": 763
       },
       "featuredSections": [],
       "hasImage": false,
@@ -87,8 +107,8 @@
       ],
       "categoryOrders": {
         "important": 115,
-        "international": 763,
-        "foreign": 173
+        "international": 764,
+        "foreign": 174
       },
       "featuredSections": [],
       "hasImage": true,
@@ -96,28 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064e93b9eb10e536b6b22ec50ede4e821f3",
       "cachedThumbnailUrl": "/data/news/assets/kcna/dca71691f61a77685f889a2655821db5e33b0f480f05cafcd2254f33b41ce640.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Af33dfbc3658714a2df9afaeb"
-    },
-    {
-      "id": "news:kcna:443342314ff1ba63db282cc7",
-      "title": "우리 나라 특명전권대사 브라질대통령에게 신임장을 봉정",
-      "date": "2026-05-10",
-      "snippet": "(평양 5월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/044c781e8d1e3188214a796a1f70fc2a",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 764,
-        "foreign": 174
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A443342314ff1ba63db282cc7"
     }
   ]
 }

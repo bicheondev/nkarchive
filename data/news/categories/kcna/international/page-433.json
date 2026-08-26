@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 433,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:28b12f467e9c1a06311e0ec2",
+      "title": "예멘항쟁세력 이스라엘의 군사적공격에 대응할 립장 강조",
+      "date": "2025-11-06",
+      "snippet": "(평양 11월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/91d364a9f3d22d6c3c70df26ca12ccb7",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2160
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A28b12f467e9c1a06311e0ec2"
+    },
     {
       "id": "news:kcna:0dc0c03d18a3859c8719b9d5",
       "title": "이란에서 반미집회",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 2160,
+        "international": 2161,
         "social": 526
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2161
+        "international": 2162
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,8 +87,8 @@
       ],
       "categoryOrders": {
         "important": 383,
-        "international": 2162,
-        "domestic": 3218
+        "international": 2163,
+        "domestic": 3221
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,26 +108,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2163
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A11c332aeb0c4bd11b228e6b5"
-    },
-    {
-      "id": "news:kcna:b2067853daa4880ad81d50ea",
-      "title": "인디아에서 통신위성 발사",
-      "date": "2025-11-05",
-      "snippet": "(뉴델리 11월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/64b435d1e4e0810fb33caf935609bf19",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 2164
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab2067853daa4880ad81d50ea"
+      "detailUrl": "/news/document?id=news%3Akcna%3A11c332aeb0c4bd11b228e6b5"
     }
   ]
 }

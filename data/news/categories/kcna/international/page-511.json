@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "international",
   "page": 511,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:f328a0c3936a5fb6e50a5796",
+      "title": "영국에서 반미시위",
+      "date": "2025-09-19",
+      "snippet": "(평양 9월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/925b6b605c7962f26c0aab3efeb5a3a6",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 2550,
+        "social": 636
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af328a0c3936a5fb6e50a5796"
+    },
     {
       "id": "news:kcna:6695291379b7e847157c5af1",
       "title": "로씨야국가회의 의장 유럽나라들의 적대행위를 비난",
@@ -22,7 +44,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2550
+        "international": 2551
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2551
+        "international": 2552
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,8 +85,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2552,
-        "foreign": 710
+        "international": 2553,
+        "foreign": 711
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2553
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac73f9de311fa764483bb893b"
-    },
-    {
-      "id": "news:kcna:d99f47fd7aa654a2dca69ca2",
-      "title": "로씨야안전리사회 부의장 나토성원국들에 경고",
-      "date": "2025-09-18",
-      "snippet": "(모스크바 9월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2b397280c66c212f52ac5b69d14a6a9a",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 2554
       },
       "featuredSections": [],
@@ -111,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad99f47fd7aa654a2dca69ca2"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac73f9de311fa764483bb893b"
     }
   ]
 }

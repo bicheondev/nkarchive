@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 89,
   "pageSize": 5,
-  "totalItems": 771,
-  "totalPages": 155,
+  "totalItems": 770,
+  "totalPages": 154,
   "articles": [
+    {
+      "id": "news:kcna:35223c7f07c3b0a95f969b7e",
+      "title": "경애하는 김정은동지께 우리 나라 주재 외교단이 축하편지를 드리였다",
+      "date": "2025-12-27",
+      "snippet": "(평양 12월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b26914ab1b4400a1aa4bb008203a3f27",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 345,
+        "foreign": 440,
+        "domestic": 2685
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ffe5d56a39d0722cf263325ca54d63b2c6",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/2b959107217eb734c584e404c596328fc3aeb5c87d50e148053dfbb85f093a0a.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A35223c7f07c3b0a95f969b7e"
+    },
     {
       "id": "news:kcna:787c325d54255ef3b0e6a353",
       "title": "위대한 령도자 김정일동지의 서거 14돐에 즈음하여 여러 나라 단체와 인사들 성명,담화 발표",
@@ -23,8 +47,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1823,
-        "foreign": 440
+        "international": 1824,
+        "foreign": 441
       },
       "featuredSections": [],
       "hasImage": false,
@@ -49,8 +73,8 @@
       "categoryOrders": {
         "important": 347,
         "document": 51,
-        "foreign": 441,
-        "domestic": 2697
+        "foreign": 442,
+        "domestic": 2700
       },
       "featuredSections": [],
       "hasImage": false,
@@ -73,8 +97,8 @@
       ],
       "categoryOrders": {
         "important": 348,
-        "international": 1829,
-        "foreign": 442
+        "international": 1830,
+        "foreign": 443
       },
       "featuredSections": [],
       "hasImage": false,
@@ -95,29 +119,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1830,
-        "foreign": 443
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aad93eac5feaa9e9d06a9bb54"
-    },
-    {
-      "id": "news:kcna:3759cb6aca3f4f03ebf14a0d",
-      "title": "베네수엘라 미국의 해적행위를 단죄",
-      "date": "2025-12-24",
-      "snippet": "(평양 12월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7187f9dd18bb346c2e52d13829328981",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 1837,
+        "international": 1831,
         "foreign": 444
       },
       "featuredSections": [],
@@ -125,7 +127,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3759cb6aca3f4f03ebf14a0d"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aad93eac5feaa9e9d06a9bb54"
     }
   ]
 }

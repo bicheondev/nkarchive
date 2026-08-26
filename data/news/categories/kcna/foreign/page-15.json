@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 15,
   "pageSize": 5,
-  "totalItems": 771,
-  "totalPages": 155,
+  "totalItems": 770,
+  "totalPages": 154,
   "articles": [
+    {
+      "id": "news:kcna:f909a1ca2fddaf5796c2b499",
+      "title": "중화인민공화국 당 및 정부대표단이 중국인민지원군렬사릉원을 찾았다",
+      "date": "2026-07-17",
+      "snippet": "(평양 7월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a842fbd40a43bf620960d26fc19015a8",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 70,
+        "domestic": 442
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d4e4d920f088bd9f8d75ccfe8bd9bce88",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/312a490c367b7dbbc2b04f66dcd9ca8e85835dac6cc6694f0a1d3be51720c651.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af909a1ca2fddaf5796c2b499"
+    },
     {
       "id": "news:kcna:d0a24e26039830c9854da2b7",
       "title": "여러 나라의 각계인사들 우리 나라 대표부들을 방문",
@@ -23,8 +45,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 281,
-        "foreign": 70
+        "international": 282,
+        "foreign": 71
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,8 +69,8 @@
       ],
       "categoryOrders": {
         "important": 48,
-        "foreign": 71,
-        "domestic": 450
+        "foreign": 72,
+        "domestic": 453
       },
       "featuredSections": [],
       "hasImage": true,
@@ -71,8 +93,8 @@
       ],
       "categoryOrders": {
         "important": 49,
-        "foreign": 72,
-        "domestic": 451
+        "foreign": 73,
+        "domestic": 454
       },
       "featuredSections": [],
       "hasImage": true,
@@ -95,8 +117,8 @@
       ],
       "categoryOrders": {
         "important": 50,
-        "foreign": 73,
-        "domestic": 452
+        "foreign": 74,
+        "domestic": 455
       },
       "featuredSections": [],
       "hasImage": true,
@@ -104,28 +126,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d784ea0d3a69fefd8991d7c95fd57263d",
       "cachedThumbnailUrl": "/data/news/assets/kcna/fc64708168838085d81ce6a41d5d68777dd46bb753ff804548d8adc31bc3c74f.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Aff9effe8e9972e7a9b334c0d"
-    },
-    {
-      "id": "news:kcna:7caf099ead171e0d709b8f1b",
-      "title": "여러 나라에서 추모모임 진행",
-      "date": "2026-07-15",
-      "snippet": "(평양 7월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/cf787aa39b00cb42f6e51d79ac1fecb9",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 287,
-        "foreign": 74
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7caf099ead171e0d709b8f1b"
     }
   ]
 }

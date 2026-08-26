@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 64,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:90d1dafdd3b9e31ef83cde5c",
+      "title": "습근평주석 로동안전사고를 철저히 막을데 대해 강조",
+      "date": "2026-07-11",
+      "snippet": "(베이징 7월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/868f7e2afe4a1874d2a8bd6f99e4fbdd",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 315
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A90d1dafdd3b9e31ef83cde5c"
+    },
     {
       "id": "news:kcna:94c53ee7c5e57b0b0ae53b15",
       "title": "에짚트에서 원자력발전소건설 추진",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 315
+        "international": 316
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 316,
-        "foreign": 85
+        "international": 317,
+        "foreign": 86
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,8 +87,8 @@
       ],
       "categoryOrders": {
         "important": 59,
-        "international": 317,
-        "foreign": 88
+        "international": 318,
+        "foreign": 89
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,8 +111,8 @@
       ],
       "categoryOrders": {
         "important": 60,
-        "international": 318,
-        "foreign": 89
+        "international": 319,
+        "foreign": 90
       },
       "featuredSections": [],
       "hasImage": true,
@@ -100,30 +120,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d9f4113189f9101519cb3b75b01180d93",
       "cachedThumbnailUrl": "/data/news/assets/kcna/42c13eecfe5ded5e87b011d44fa1e5f6d9051aea59c1b22d55355bb1d1b375d1.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ab961cee60021dc682ab72e4a"
-    },
-    {
-      "id": "news:kcna:f3294eaf7479b96a11d8611d",
-      "title": "조선민주주의인민공화국 내각총리 중화인민공화국 전국인민대표대회 상무위원회 위원장과 상봉",
-      "date": "2026-07-11",
-      "snippet": "(평양 7월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7fcefe6ff80d6f81aee0ade695199b6d",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 61,
-        "international": 319,
-        "foreign": 90
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d02e0fb9e911631a887b8b7252809082d",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/d551d08f119a2388959677da01d4f090107f2cd05efe57389a5b0784d3d3f0c7.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af3294eaf7479b96a11d8611d"
     }
   ]
 }

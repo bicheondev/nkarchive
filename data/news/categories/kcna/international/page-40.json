@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 40,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:a09750a45b1774907a3834ee",
+      "title": "네팔에서 첫 차굴 개통",
+      "date": "2026-07-29",
+      "snippet": "(평양 7월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d8adb20c22f4d89dd96869d4332560f1",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 195
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa09750a45b1774907a3834ee"
+    },
     {
       "id": "news:kcna:bdb983ef16c77be20457f5e4",
       "title": "일본에서 미군기지반환을 요구하여 집회",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 195
+        "international": 196
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 196
+        "international": 197
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 197
+        "international": 198
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 198
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0b0ffe74fb90e0e3efb3bc5f"
-    },
-    {
-      "id": "news:kcna:8568db69533fab5c4b4fa1dc",
-      "title": "도이췰란드에서 강력범죄",
-      "date": "2026-07-28",
-      "snippet": "(평양 7월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f5bd4f6de66f72f3b5ea791d65fa7aa9",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 199
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8568db69533fab5c4b4fa1dc"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0b0ffe74fb90e0e3efb3bc5f"
     }
   ]
 }

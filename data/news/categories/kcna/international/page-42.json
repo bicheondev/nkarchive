@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 42,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:4cf0df4b395b46fdcf1b2cfd",
+      "title": "프랑스에서 력대 최악의 들불피해",
+      "date": "2026-07-27",
+      "snippet": "(평양 7월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1e23d4a36c75fb1ee63b9e3bc739bef8",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 205
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4cf0df4b395b46fdcf1b2cfd"
+    },
     {
       "id": "news:kcna:7ed25e94700b595436b4c2bb",
       "title": "라오스수상 남부지역의 사회경제발전을 위한 방도들에 언급",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 205
+        "international": 206
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +65,8 @@
       ],
       "categoryOrders": {
         "important": 29,
-        "international": 206,
-        "foreign": 40
+        "international": 207,
+        "foreign": 41
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 207
+        "international": 208
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 208
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ace8d25ef8e673a37441bbce7"
-    },
-    {
-      "id": "news:kcna:2a1a6b1725cb680bdcac92f9",
-      "title": "중국상무부 유럽동맹의 제재조치에 대응",
-      "date": "2026-07-26",
-      "snippet": "(베이징 7월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ffa3647fd5acf462ae740bfabc2421d4",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 209
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2a1a6b1725cb680bdcac92f9"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ace8d25ef8e673a37441bbce7"
     }
   ]
 }

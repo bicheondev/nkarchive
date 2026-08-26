@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 81,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:499cb4900f7be03a0dd1cad8",
+      "title": "중국정부 일본에 대한 제재 실시",
+      "date": "2026-06-30",
+      "snippet": "(베이징 6월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1dffcf003ce2a2a313992785fb1a0f8f",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 400
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A499cb4900f7be03a0dd1cad8"
+    },
     {
       "id": "news:kcna:695787699343951c793868e5",
       "title": "오스트랄리아에서 총기류범죄",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 400
+        "international": 401
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 401
+        "international": 402
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 402
+        "international": 403
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 403
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A461cc2c7795fd1db17426aad"
-    },
-    {
-      "id": "news:kcna:05bf8232283bd72914852f70",
-      "title": "라오스에서 반마약투쟁 강화",
-      "date": "2026-06-29",
-      "snippet": "(평양 6월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/65c11e9ba741c61ec837e591d0e6c2d4",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 404
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A05bf8232283bd72914852f70"
+      "detailUrl": "/news/document?id=news%3Akcna%3A461cc2c7795fd1db17426aad"
     }
   ]
 }

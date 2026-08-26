@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 194,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:eb907e1f64c2b4b956ce3939",
+      "title": "윁남에서 첫 고속철도건설 시작",
+      "date": "2026-04-14",
+      "snippet": "(평양 4월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/804f56597ed185997c1c2ed429599af0",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 965
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aeb907e1f64c2b4b956ce3939"
+    },
     {
       "id": "news:kcna:da0b5ebaaa45dcb0375282ab",
       "title": "팔레스티나대통령부 이스라엘의 도발행위를 규탄",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 965
+        "international": 966
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 966
+        "international": 967
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 967,
+        "international": 968,
         "social": 151
       },
       "featuredSections": [],
@@ -84,7 +104,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 968
+        "international": 969
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,30 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A7b88d10bde42d99b9d77e4b0"
-    },
-    {
-      "id": "news:kcna:a97f50aa737a8c0e2d6106b2",
-      "title": "경애하는 김정은동지께 윁남공산당 중앙위원회 총비서,윁남사회주의공화국 주석이 답전을 보내여왔다",
-      "date": "2026-04-14",
-      "snippet": "(평양 4월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d4dc57d2e32d8518b39c75c4b5c2888d",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 156,
-        "international": 969,
-        "foreign": 240
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa97f50aa737a8c0e2d6106b2"
     }
   ]
 }

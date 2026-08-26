@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 31,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:e6146990bd13d2cb8d9eeb9f",
+      "title": "여러 나라에서 사고",
+      "date": "2026-08-04",
+      "snippet": "(평양 8월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e0a1e36d62b23a4fd1a4686feb2d4c98",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 150
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae6146990bd13d2cb8d9eeb9f"
+    },
     {
       "id": "news:kcna:17a0cebeb29c42d332b0a69a",
       "title": "미국 아이다호주에서 총격사건",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 150
+        "international": 151
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 151
+        "international": 152
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "important": 27,
-        "international": 152
+        "international": 153
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 153
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A86b9707582ae6ee59104a904"
-    },
-    {
-      "id": "news:kcna:24c3445d3b3bfe704a303f5e",
-      "title": "슬로벤스꼬에서 두나이강의 물량 급격히 감소",
-      "date": "2026-08-03",
-      "snippet": "(평양 8월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3efca910be243a49a13da3411587aa0f",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 154
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A24c3445d3b3bfe704a303f5e"
+      "detailUrl": "/news/document?id=news%3Akcna%3A86b9707582ae6ee59104a904"
     }
   ]
 }

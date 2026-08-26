@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 355,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:cc5889c432c032f2da3274dd",
+      "title": "주권국가들에 대한 미국의 제재소동",
+      "date": "2026-01-01",
+      "snippet": "(평양 1월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9ef11c14647a3b127d839d05d5611330",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1770
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Acc5889c432c032f2da3274dd"
+    },
     {
       "id": "news:kcna:c7fbd5e675cad3c91d9f964a",
       "title": "미국인들 나라의 경제형편에 비관",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1770,
+        "international": 1771,
         "social": 400
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1771
+        "international": 1772
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1772
+        "international": 1773
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1773
+        "international": 1774
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,30 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A4d6c9a61b632e79cd0fcf5c4"
-    },
-    {
-      "id": "news:kcna:08d71450a3649dd1d8c47864",
-      "title": "경애하는 김정은동지께 새해에 즈음하여 여러 나라 국가수반들과 정당지도자들,각계인사들이 년하장을 보내여왔다",
-      "date": "2026-01-01",
-      "snippet": "(평양 1월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ad6557e7ec1ba9c3a43cb94c554f58d8",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 327,
-        "international": 1774,
-        "foreign": 422
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A08d71450a3649dd1d8c47864"
     }
   ]
 }

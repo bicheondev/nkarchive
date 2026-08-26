@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "international",
   "page": 106,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:785329d1f564f07c79ac3c4a",
+      "title": "벌가리아수상 우크라이나에 무기를 제공하지 않을 립장 표명",
+      "date": "2026-06-12",
+      "snippet": "(평양 6월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3a3c0ee6fe0b192be2d5dd11f5081c35",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "international": 525,
+        "domestic": 820
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A785329d1f564f07c79ac3c4a"
+    },
     {
       "id": "news:kcna:889845a9cc18de76fc3656e6",
       "title": "레바논에 대한 이스라엘군의 공습만행",
@@ -22,7 +44,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 525
+        "international": 526
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +65,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 526,
-        "foreign": 135
+        "international": 527,
+        "foreign": 136
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +86,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 527
+        "international": 528
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 528
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8d5ff342cb2823000c3fd931"
-    },
-    {
-      "id": "news:kcna:ca360775d1d2b5aa1f34cef4",
-      "title": "윁남과 캄보쟈사이의 협조",
-      "date": "2026-06-11",
-      "snippet": "(평양 6월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7047947cf02b72ff5c78078181729a3b",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 529
       },
       "featuredSections": [],
@@ -111,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aca360775d1d2b5aa1f34cef4"
+      "detailUrl": "/news/document?id=news%3Akcna%3A8d5ff342cb2823000c3fd931"
     }
   ]
 }

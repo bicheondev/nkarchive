@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 271,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:bdd2cc8fd49437a936ed102e",
+      "title": "중국 일본에 제재를 실시하기로 결정",
+      "date": "2026-02-26",
+      "snippet": "(베이징 2월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/161ae87a5d60053c9a5f638a9f53381e",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1350
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abdd2cc8fd49437a936ed102e"
+    },
     {
       "id": "news:kcna:0afd9c90cb56885bc606d281",
       "title": "벨라루씨 서방의 전략적안정파괴행위를 비난",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1350
+        "international": 1351
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1351
+        "international": 1352
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1352
+        "international": 1353
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,8 +105,8 @@
       ],
       "categoryOrders": {
         "important": 260,
-        "international": 1353,
-        "foreign": 350
+        "international": 1354,
+        "foreign": 351
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,28 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf3667ca4fa4a93811ac81045c31ff548e456",
       "cachedThumbnailUrl": "/data/news/assets/kcna/dbc2604dc762eb3efa37b8a2dc3039fb16d757f762247f485263060c741a7f50.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Aafa487cbaf912e5c91600351"
-    },
-    {
-      "id": "news:kcna:91e24230138a7a82606c42b8",
-      "title": "경애하는 김정은원수님께 재중조선인총련합회가 축하문을 올리였다",
-      "date": "2026-02-26",
-      "snippet": "(평양 2월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b9e29f16aaa78face7b42e7406b52bbf",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international"
-      ],
-      "categoryOrders": {
-        "important": 262,
-        "international": 1354
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A91e24230138a7a82606c42b8"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "international",
   "page": 165,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:d57439fe1862089907144eb7",
+      "title": "여러 나라에서 경축모임 진행",
+      "date": "2026-05-03",
+      "snippet": "(평양 5월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/df5fe92bfa5cf4619a1415a30a234a1a",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 820,
+        "foreign": 188
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad57439fe1862089907144eb7"
+    },
     {
       "id": "news:kcna:cd91b5e017c368c03890788f",
       "title": "미국에서 휘발유가격 폭등",
@@ -22,7 +44,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 820
+        "international": 821
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 821
+        "international": 822
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 822
+        "international": 823
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 823
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A31b7268497b35253cc6f58d0"
-    },
-    {
-      "id": "news:kcna:94368212bc584a76f59b93d0",
-      "title": "로씨야 서방의 비렬한 처사를 단죄",
-      "date": "2026-05-02",
-      "snippet": "(평양 5월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f497831479e0afc2f8d8c05d418cc82b",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 824
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A94368212bc584a76f59b93d0"
+      "detailUrl": "/news/document?id=news%3Akcna%3A31b7268497b35253cc6f58d0"
     }
   ]
 }

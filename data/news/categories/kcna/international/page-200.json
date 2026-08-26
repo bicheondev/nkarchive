@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 200,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:db35eb60b14a496439c02581",
+      "title": "뻬루에서 범죄와의 투쟁을 위한 비상사태 선포",
+      "date": "2026-04-11",
+      "snippet": "(평양 4월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b33f6b21b6052b9f7300c8d731590901",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 995
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Adb35eb60b14a496439c02581"
+    },
     {
       "id": "news:kcna:ea0e7a3aa2547277ffc73ba4",
       "title": "에티오피아에서 전기자동차충전소건설 적극 추진",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 995
+        "international": 996
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 996
+        "international": 997
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 997
+        "international": 998
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 998
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1cd22e0635b3fca8a16e9bc8"
-    },
-    {
-      "id": "news:kcna:a0aa172c641b566eddb552f8",
-      "title": "윁남에서 공업생산 장성",
-      "date": "2026-04-10",
-      "snippet": "(평양 4월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/34209d7033ce8a8367552e2b9192dcbe",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 999
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa0aa172c641b566eddb552f8"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1cd22e0635b3fca8a16e9bc8"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "international",
   "page": 404,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:03c96066fe06922d9af4d297",
+      "title": "무장분쟁으로 인한 세계적인 인명피해",
+      "date": "2025-11-29",
+      "snippet": "(평양 11월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b164a66dde78d67b1feb7aac5141a8da",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 2015,
+        "social": 469
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A03c96066fe06922d9af4d297"
+    },
     {
       "id": "news:kcna:718e8648a93d088e39603efc",
       "title": "로씨야 운반로케트 발사",
@@ -22,7 +44,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2015
+        "international": 2016
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2016
+        "international": 2017
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2017
+        "international": 2018
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2018
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac982c92d76ba4cbce2e89a38"
-    },
-    {
-      "id": "news:kcna:bf3af9738d3b8aa4bda1093f",
-      "title": "로씨야련방평의회 의장 서방의 대결정책을 단죄",
-      "date": "2025-11-28",
-      "snippet": "(모스크바 11월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/780dd3ea26ae6732a5c307795cb7b724",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 2019
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abf3af9738d3b8aa4bda1093f"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac982c92d76ba4cbce2e89a38"
     }
   ]
 }

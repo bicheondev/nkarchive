@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 21,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:7901879bad27b168d54e1b91",
+      "title": "파키스탄에서 반테로작전",
+      "date": "2026-08-11",
+      "snippet": "(평양 8월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0b01a1398d9c862c2beff57a7ea58e70",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 100
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7901879bad27b168d54e1b91"
+    },
     {
       "id": "news:kcna:d4c9b05fbb24834f00864694",
       "title": "중국의 신화통신 일본의 핵무기보유야망을 단죄",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 100
+        "international": 101
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 101
+        "international": 102
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 102
+        "international": 103
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 103
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac2cb19708c816116aa4589bb"
-    },
-    {
-      "id": "news:kcna:d20735645998963b868e90b5",
-      "title": "르완다에서 위법행위와의 투쟁 강화",
-      "date": "2026-08-11",
-      "snippet": "(평양 8월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ed50e057cacb1b3919aec35c56328875",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 104
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad20735645998963b868e90b5"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac2cb19708c816116aa4589bb"
     }
   ]
 }

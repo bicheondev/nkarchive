@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 138,
   "pageSize": 5,
-  "totalItems": 771,
-  "totalPages": 155,
+  "totalItems": 770,
+  "totalPages": 154,
   "articles": [
+    {
+      "id": "news:kcna:f7c55ea9977fa3e40be8ba7a",
+      "title": "평양국제빙상휘거축전에 참가할 여러 나라 선수들 도착",
+      "date": "2025-10-05",
+      "snippet": "(평양 10월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/fa1c41d8acfa1865952fae22b946dbae",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 685,
+        "domestic": 3716
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb363ecdac0dfe9f3a5dd7ccdece865a2c",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/0adf5a38db3a5a54a7e6857c8266d448b3893b67a26a7c6c2cbacb7e39a6045f.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af7c55ea9977fa3e40be8ba7a"
+    },
     {
       "id": "news:kcna:5a66b8719baeefb99bf26fc5",
       "title": "조선민주주의인민공화국대표단 유엔총회 제80차회의에 참가하고 귀국",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 685,
-        "domestic": 3718
+        "foreign": 686,
+        "domestic": 3721
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,8 +69,8 @@
       ],
       "categoryOrders": {
         "important": 457,
-        "foreign": 686,
-        "domestic": 3726
+        "foreign": 687,
+        "domestic": 3729
       },
       "featuredSections": [],
       "hasImage": false,
@@ -71,8 +93,8 @@
       ],
       "categoryOrders": {
         "important": 459,
-        "foreign": 687,
-        "domestic": 3740
+        "foreign": 688,
+        "domestic": 3743
       },
       "featuredSections": [],
       "hasImage": true,
@@ -93,8 +115,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2437,
-        "foreign": 688
+        "international": 2438,
+        "foreign": 689
       },
       "featuredSections": [],
       "hasImage": false,
@@ -102,30 +124,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A1322d03055f1ec40aa0360e3"
-    },
-    {
-      "id": "news:kcna:c593740a3024d696f1175a91",
-      "title": "라오스인민혁명당 중앙위원회 총비서,라오스인민민주주의공화국 주석 통룬 씨쑤릿동지가 우리 나라를 방문한다",
-      "date": "2025-10-02",
-      "snippet": "(평양 10월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3bf34d2c6706398abbf12e4b38d6a6e9",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 461,
-        "foreign": 689,
-        "domestic": 3751
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac593740a3024d696f1175a91"
     }
   ]
 }

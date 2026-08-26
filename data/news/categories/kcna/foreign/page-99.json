@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 99,
   "pageSize": 5,
-  "totalItems": 771,
-  "totalPages": 155,
+  "totalItems": 770,
+  "totalPages": 154,
   "articles": [
+    {
+      "id": "news:kcna:17623c03da37ca969bfb1910",
+      "title": "로씨야 쎄고드냐통신사대표단 도착",
+      "date": "2025-11-11",
+      "snippet": "(평양 11월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ef8a99ef684d2279332031ad74efcfb9",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 490,
+        "domestic": 3153
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eaccbe85b7d1d313d3703645c36358cf81c",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/e257d1fd1cc798a5150e68c6d49fa882d1061b5381c0393bc1d236ebfa0aeaf6.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A17623c03da37ca969bfb1910"
+    },
     {
       "id": "news:kcna:52d3349bfc860eaa667d8d17",
       "title": "우리 나라 외무상 윁남사회주의공화국 외무상에게 축전",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 490,
-        "domestic": 3151
+        "foreign": 491,
+        "domestic": 3154
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,8 +69,8 @@
       ],
       "categoryOrders": {
         "important": 376,
-        "foreign": 491,
-        "domestic": 3160
+        "foreign": 492,
+        "domestic": 3163
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +91,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 492,
-        "domestic": 3173
+        "foreign": 493,
+        "domestic": 3176
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,8 +113,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 493,
-        "domestic": 3175
+        "foreign": 494,
+        "domestic": 3178
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,28 +122,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A5db0f63602daf53646357ab2"
-    },
-    {
-      "id": "news:kcna:68497383d540b1e51cfb9a6a",
-      "title": "제1차 국제군사체육리사회 군대남자력기경기대회에 참가하였던 우리 선수들 귀국",
-      "date": "2025-11-09",
-      "snippet": "(평양 11월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e459c88ccd85d66303f9b9000a311e48",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 494,
-        "domestic": 3176
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A68497383d540b1e51cfb9a6a"
     }
   ]
 }

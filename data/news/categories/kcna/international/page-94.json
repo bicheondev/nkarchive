@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 94,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:01995fb8d4b8ef9c73cb60db",
+      "title": "중국에서 위성 발사",
+      "date": "2026-06-20",
+      "snippet": "(베이징 6월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8b3df06d4a19440d14b5cb80b91d148c",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 465
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A01995fb8d4b8ef9c73cb60db"
+    },
     {
       "id": "news:kcna:fc6ffd6ba5ddf7af99e90152",
       "title": "몽골에서 호수지역의 환경정리사업을 계획",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 465
+        "international": 466
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 466
+        "international": 467
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 467
+        "international": 468
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 468
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aeb57e8952e29c012af942f4a"
-    },
-    {
-      "id": "news:kcna:3b82720579c003c0347ad348",
-      "title": "예멘에서 무장분쟁으로 기아위기 악화",
-      "date": "2026-06-19",
-      "snippet": "(평양 6월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/58e11a8d4b6609bf4bbe1699a322c72f",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 469
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3b82720579c003c0347ad348"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aeb57e8952e29c012af942f4a"
     }
   ]
 }

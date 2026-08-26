@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T00:00:00.000Z",
-  "version": "2400643da413fa0b",
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "version": "5b4278c7f52e26c5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 52,
   "pageSize": 5,
-  "totalItems": 2771,
-  "totalPages": 555,
+  "totalItems": 2764,
+  "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:2df4d017b5cbeb9115acbdfe",
+      "title": "아프리카나라들사이의 협조",
+      "date": "2026-07-20",
+      "snippet": "(평양 7월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/adb4350df3316085ca627cd708b87438",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 255
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2df4d017b5cbeb9115acbdfe"
+    },
     {
       "id": "news:kcna:075908557fc6697ba1217c70",
       "title": "일본에서 당국의 핵무장화책동을 반대하는 기운 고조",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 255
+        "international": 256
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 256
+        "international": 257
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 257
+        "international": 258
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 258
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A604a16c5c3fab205d0d889dc"
-    },
-    {
-      "id": "news:kcna:289c3a63eb9d24224f097ec2",
-      "title": "로씨야대통령공보관 미국의 무근거한 주장을 배격",
-      "date": "2026-07-19",
-      "snippet": "(모스크바 7월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/92740d20dd4559f4b64df855e1dad6c6",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 259
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A289c3a63eb9d24224f097ec2"
+      "detailUrl": "/news/document?id=news%3Akcna%3A604a16c5c3fab205d0d889dc"
     }
   ]
 }
