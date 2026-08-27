@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "social",
   "page": 79,
   "pageSize": 5,
-  "totalItems": 684,
+  "totalItems": 682,
   "totalPages": 137,
   "articles": [
+    {
+      "id": "news:kcna:b0f941ea2b60d516cc1600ec",
+      "title": "평양시에서 방송선전차출동식 진행",
+      "date": "2026-01-07",
+      "snippet": "(평양 1월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0e9e91769a3c64dc616a574877b0a29e",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2601,
+        "social": 390
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab0f941ea2b60d516cc1600ec"
+    },
     {
       "id": "news:kcna:396b2f585c7b14a029532683",
       "title": "황해남도 재령군의 백살장수자가 은정어린 생일상을 받아안았다",
@@ -23,8 +45,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2596,
-        "social": 390
+        "domestic": 2602,
+        "social": 391
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +68,7 @@
       ],
       "categoryOrders": {
         "international": 1755,
-        "social": 391
+        "social": 392
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,8 +89,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2601,
-        "social": 392
+        "domestic": 2607,
+        "social": 393
       },
       "featuredSections": [],
       "hasImage": false,
@@ -89,8 +111,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2602,
-        "social": 393
+        "domestic": 2608,
+        "social": 394
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,28 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ae3f07eb1fa77f811bf892a56"
-    },
-    {
-      "id": "news:kcna:c6c77f7466e6a65bd79ac3de",
-      "title": "함경남도 단천시 달전농장과 요덕군 구읍농장,림평농장에서 새집들이 진행",
-      "date": "2026-01-06",
-      "snippet": "(평양 1월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/57b1be19888c95b8558e1affc45e4a17",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2604,
-        "social": 394
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451d9957c31315cec48dea783e96441b981",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/4c0ca14b35e1754b4672bf242f3a218e51e6f12a9cdb462ac7d9f1df00eb424e.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac6c77f7466e6a65bd79ac3de"
     }
   ]
 }

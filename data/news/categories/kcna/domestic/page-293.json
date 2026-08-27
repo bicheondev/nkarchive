@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,22 +8,42 @@
   "section": "domestic",
   "page": 293,
   "pageSize": 5,
-  "totalItems": 4155,
-  "totalPages": 831,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
     {
-      "id": "news:kcna:21d79c70b25c56a06ca9cd5a",
-      "title": "평안북도에서 철도지원사업 군중적으로 전개",
+      "id": "news:kcna:fc4ff5dd20e607e177763053",
+      "title": "량강도에서 보천내곡발전소건설 추진",
       "date": "2026-04-19",
       "snippet": "(평양 4월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/64538ebddc34327c055d149a5f5272fd",
+      "url": "http://www.kcna.kp/kp/article/detail/a71234bc4e87123fa62a24d70d310fda",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1460
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afc4ff5dd20e607e177763053"
+    },
+    {
+      "id": "news:kcna:12a509b39bff353094298408",
+      "title": "올해에 들어와 수많은 고급중학교 졸업반학생들 인민군대입대 청원,최전연국경초소들로 련이어 탄원",
+      "date": "2026-04-19",
+      "snippet": "(평양 4월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3dba91a66a7919a77c7c619f0a28bd26",
       "mediaType": "article",
       "categories": [
         "domestic",
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1460,
+        "domestic": 1461,
         "social": 142
       },
       "featuredSections": [],
@@ -31,34 +51,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A21d79c70b25c56a06ca9cd5a"
+      "detailUrl": "/news/document?id=news%3Akcna%3A12a509b39bff353094298408"
     },
     {
-      "id": "news:kcna:6c4af15d84f51779d4aa07df",
-      "title": "어린이들과 학생들을 위한 전문적인 학습장생산기지",
-      "date": "2026-04-18",
-      "snippet": "(평양 4월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/198791d29c0f321698ab2358ffdc8e05",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1461
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b662f89072f9715c6a4cac8f083bb724699",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/e28976d141d22e7fa68268df536add424bc279f687f7ea11e7df28302ce99aa6.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6c4af15d84f51779d4aa07df"
-    },
-    {
-      "id": "news:kcna:64ac2fd866ddc1769b353fa2",
-      "title": "경애하는 김정은동지의 령도따라 신심드높이 나아가는 우리의 진군을 막을 힘 세상에 없다고 《로동신문》 강조",
-      "date": "2026-04-18",
-      "snippet": "(평양 4월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/cd05eb4b903555e5eca62cc7909f6d6a",
+      "id": "news:kcna:d19450e59c9b5ac9a44cd87c",
+      "title": "농업위원회 농기계연구소에서 능률높은 농기계개발에 힘을 집중",
+      "date": "2026-04-19",
+      "snippet": "(평양 4월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/787e425972f30b776667cde8b903047c",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -71,14 +71,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A64ac2fd866ddc1769b353fa2"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad19450e59c9b5ac9a44cd87c"
     },
     {
-      "id": "news:kcna:e3b4570091fadb5a046bc88c",
-      "title": "2026년 4월 18일 신문개관",
-      "date": "2026-04-18",
-      "snippet": "(평양 4월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/50f35f82905ca99c1511de7c88d33212",
+      "id": "news:kcna:424a316adc0d4ce269bc9f9a",
+      "title": "무산군,명간군에 파견된 인민군관병들 건설성과 확대",
+      "date": "2026-04-19",
+      "snippet": "(평양 4월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0471224ba4cae40b5506bc15d9b92c5c",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -91,29 +91,27 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae3b4570091fadb5a046bc88c"
+      "detailUrl": "/news/document?id=news%3Akcna%3A424a316adc0d4ce269bc9f9a"
     },
     {
-      "id": "news:kcna:0f228d7cf3b4626b510fc2bd",
-      "title": "평안남도 문덕군의 백살장수자가 은정어린 생일상을 받아안았다",
-      "date": "2026-04-18",
-      "snippet": "(평양 4월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1cd182c37359d5b3bf1d7f2b8d8d72a6",
+      "id": "news:kcna:606952b48ae8cffe5ccc47bf",
+      "title": "각지 농촌들 밀,보리농사에서 가물피해를 최소화하기 위한 대책 강구",
+      "date": "2026-04-19",
+      "snippet": "(평양 4월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ffacdb16483cdf12e17a0f92557e52da",
       "mediaType": "article",
       "categories": [
-        "domestic",
-        "social"
+        "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1464,
-        "social": 143
+        "domestic": 1464
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0f228d7cf3b4626b510fc2bd"
+      "detailUrl": "/news/document?id=news%3Akcna%3A606952b48ae8cffe5ccc47bf"
     }
   ]
 }

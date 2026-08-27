@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,28 @@
   "totalItems": 521,
   "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:a91163dc7ded66aaa550ec13",
+      "title": "《아시아심장부의 단검》발언은 미국의 패권추구와 랭전식사고방식의 집약적발현이다",
+      "date": "2026-06-03",
+      "snippet": "(평양 6월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8350553a2c214b9a41bbba376c863005",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international"
+      ],
+      "categoryOrders": {
+        "important": 95,
+        "international": 608
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa91163dc7ded66aaa550ec13"
+    },
     {
       "id": "news:kcna:29ed8dae48522e9c25cf6f8c",
       "title": "조선민주주의인민공화국 국가정보국대표단 로씨야에서 진행된 제1차 국제안전연단에 참가",
@@ -24,7 +46,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 95,
+        "important": 96,
         "international": 628,
         "foreign": 149
       },
@@ -48,9 +70,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 96,
+        "important": 97,
         "foreign": 150,
-        "domestic": 967
+        "domestic": 973
       },
       "featuredSections": [],
       "hasImage": true,
@@ -73,10 +95,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 97,
+        "important": 98,
         "document": 15,
         "foreign": 155,
-        "domestic": 1005
+        "domestic": 1011
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,9 +120,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 98,
+        "important": 99,
         "foreign": 157,
-        "domestic": 1007
+        "domestic": 1013
       },
       "featuredSections": [],
       "hasImage": true,
@@ -108,30 +130,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064171f4fdf733dee73a9035f57477a369a",
       "cachedThumbnailUrl": "/data/news/assets/kcna/0f0f2d5127f6f92f81e740ce7b556997ba04edd1d0c6c9a3799580925b0f9e2a.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Acfa4f1254fc589bf30082b1e"
-    },
-    {
-      "id": "news:kcna:de0df078cd860b3c6559bb26",
-      "title": "조선민주주의인민공화국 외무상이 싱가포르공화국 외무상과 회담",
-      "date": "2026-05-27",
-      "snippet": "(평양 5월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ff542a5439665bd13c545d2837d6f3b4",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 99,
-        "foreign": 158,
-        "domestic": 1021
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064f86f61cfce6b40d91f1f5d0a01ec6ac7",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/0423c1c1a5bd6f548609f0dc0e8043e91846927bd419f4fd3e820e72ce51b420.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ade0df078cd860b3c6559bb26"
     }
   ]
 }

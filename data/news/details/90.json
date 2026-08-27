@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "shard": "90",
   "articles": {
     "news:kcna:c17e581f38c87e7945eb7cde": {
@@ -17,7 +17,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 7
+        "domestic": 13
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -87,7 +87,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 400
+        "domestic": 406
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -131,7 +131,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 963
+        "domestic": 969
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -153,7 +153,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1306
+        "domestic": 1312
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -220,8 +220,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 163,
-        "domestic": 1544
+        "important": 164,
+        "domestic": 1550
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b665f660b237984c96a8c8a93005a44e92d",
@@ -264,9 +264,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 165,
+        "important": 166,
         "foreign": 256,
-        "domestic": 1554
+        "domestic": 1560
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b667f34adb6dbd9d6693fdbd445de61628a",
@@ -316,7 +316,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1692
+        "domestic": 1698
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -340,9 +340,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 237,
+        "important": 238,
         "document": 34,
-        "domestic": 1932
+        "domestic": 1938
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -364,7 +364,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2015
+        "domestic": 2021
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -386,7 +386,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2091
+        "domestic": 2097
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -408,7 +408,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2188
+        "domestic": 2194
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -430,7 +430,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2244
+        "domestic": 2250
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -519,8 +519,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2780,
-        "social": 427
+        "domestic": 2786,
+        "social": 428
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -542,7 +542,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2785
+        "domestic": 2791
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -565,8 +565,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2874,
-        "social": 450
+        "domestic": 2880,
+        "social": 451
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f5655301cfbd6746960e68b59431e0796f",
@@ -706,8 +706,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3138,
-        "social": 508
+        "domestic": 3144,
+        "social": 509
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -775,7 +775,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3520
+        "domestic": 3526
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c125bbbf072de850c3f22d8ec12a41650d0",
@@ -874,7 +874,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 945
+        "photo": 946
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb6577c707b33899473b6079171d16b5f4",
@@ -960,7 +960,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3767
+        "domestic": 3773
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb24cd17025d51802635c15d4c19d6dc14",
@@ -1087,8 +1087,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 4055,
-        "social": 670
+        "domestic": 4061,
+        "social": 671
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1096,36 +1096,70 @@
       "images": [],
       "videos": []
     },
-    "news:rodong-sinmun:0e1abded8a6139a963e45f0a": {
-      "id": "news:rodong-sinmun:0e1abded8a6139a963e45f0a",
-      "title": "당의 육아정책관철을 위한 투쟁열의 고조\n각지 젖생산단위들에서 풀먹는집짐승기르기의 과학화수준 제고,\n올해에 들어와 현재까지 전국적인 젖생산량 지난해 같은 기간에 비해 1.3배로 장성",
-      "date": "2026-08-27",
-      "snippet": "당의 육아정책관철을 위한 투쟁열의 고조",
-      "body": "당의 육아정책관철을 위한 투쟁열의 고조\n\n각지 젖생산단위들에서 풀먹는집짐승기르기의 과학화수준 제고,\n\n올해에 들어와 현재까지 전국적인 젖생산량 지난해 같은 기간에 비해 1.3배로 장성\n\n당의 육아정책을 실천적성과로 받들어갈 열의 안고 각지 젖생산단위 일군들과 근로자들이 풀먹는집짐승기르기의 과학화수준을 제고하는데 박차를 가하고있다.\n\n종합된 자료에 의하면 올해에 들어와 현재까지 전국적인 젖생산량은 지난해 같은 기간에 비해 1.3배로 장성하였다.\n\n경애하는 김정은동지께서는 다음과 같이 말씀하시였다.\n\n《우리 당과 국가정책의 제1순위는 언제나 후대들을 위한 시책이며 이것은 조선로동당의 절대불변의 원칙, 영원한 국책으로 될것입니다.》\n\n농업위원회산하 젖생산단위 일군들과 근로자들이 우리 어린이들에게 보다 개선된 양육조건을 보장해주려는 당의 구상과 의도를 관철하기 위한 투쟁에서 맡고있는 임무의 중요성을 깊이 자각하고 배가의 분발력을 발휘하고있다.\n\n강동군 송금축산농장에서 선진적인 축산기술들을 받아들이며 젖생산량을 늘이고있다.\n\n농장에서는 우량품종의 동결정액에 의한 인공수정방법과 과학적인 수의방역기술들을 활용하면서 우량품종의 어미집짐승마리수를 부단히 확대하고있다.인공포유에 의한 새끼사양관리기술, 확대젖짜기기술도 적극적으로 도입한 결과 젖생산기일을 보다 늘일수 있게 되였다.또한 억균력이 높고 비타민과 면역물질, 여러가지 소화효소생성능력이 높은 익생균도 널리 리용함으로써 사료의 리용가치를 훨씬 제고하고있다.\n\n황해북도농촌경리위원회 은정축산농장에서는 봄철에 영양가높은 먹이풀로 90여정보의 자연풀판을 조성하기 위한 사업을 과학적으로 진행한 성과에 토대하여 우량품종의 어미염소를 더 많이 확보하였다.한편 사양공들의 기술기능수준을 높이는것을 생산장성의 관건적고리로 틀어쥐고나가는 과정에 젖생산을 지난해보다 높은 수준에서 진행하고있다.\n\n함경남도농촌경리위원회 흥상젖소목장에서도 생산성이 높은 먹이작물을 심고 비배관리의 과학화수준을 높이는것과 함께 영양물질이 풍부하고 젖소의 젖분비를 촉진시키는 기능성영양강화제도입사업을 근기있게 내밀어 지난해 같은 기간에 비해 많은 젖을 더 생산하였다.\n\n황해북도농촌경리위원회 황주젖소목장, 함흥시청년염소목장에서는 집짐승사양관리와 새끼생산조직을 과학적으로 치밀하게 하여 어미젖소와 염소의 마리수를 현저히 늘이였으며 평안남도농촌경리위원회 후탄젖소목장에서는 앞선 사료가공기술을 확립하고 젖소사양관리에 최신과학기술들을 도입하면서 젖생산능력을 지속적으로 높이였다.\n\n함경북도농촌경리위원회 농포젖소목장에서는 개체별먹이공급량을 과학적으로 정하고 완전가혼합먹이를 충분히 보장하는데 깊은 관심을 돌리면서 사양공들이 젖소사양관리에서 기술적요구를 철저히 지키도록 요구성을 높이고있다.결과 젖소들의 영양상태를 개선하여 젖생산량을 지난해 같은 기간에 비해 120%로 늘이였다.\n\n신의주시청년염소목장, 곽산군염소목장에서는 지난해에 비하여 젖짜는 염소마리수를 110%로 늘인 성과를 공고히 하면서 장마철과 같이 젖생산량이 줄어드는 시기에도 편파성이 없이 젖생산을 진행할수 있는 효과적인 사양관리기술을 받아들이고있다.자기 지역에서 자라는 약용식물들로 구충약, 강심제 등을 제조하여 수의방역사업에 리용하고있다.결과 이 단위들에서 염소 마리당 젖생산량은 지난해 같은 기간에 비하여 1.3배로 증가하였다.\n\n이밖에 각지 시, 군인민위원회산하 염소목장들에서도 풀먹는집짐승기르기의 과학화를 단순한 실무적문제가 아니라 우리당 육아정책의 정당성과 생활력을 현실로 립증하기 위한 중요한 정치적사업으로 간주하고 대중의 열의와 창조적적극성을 최대로 발양시키고있다.풀먹는집짐승의 마리수와 젖생산량을 지속적으로 늘이는데서 제기되는 문제를 자기 지역과 단위의 구체적실정에 맞게 해결할수 있는 과학적인 방도들을 탐구하고 실천에 구현하기 위한 노력들이 적극화되는 가운데 김책시염소목장, 락원군염소목장을 비롯한 많은 단위에서 좋은 결실들이 이룩되고있다.\n\n지금도 각지 젖생산단위 일군들과 근로자들은 당의 육아정책관철을 위한 투쟁에서 진일보를 이룩할 일념 안고 젖생산량을 보다 늘일수 있는 선진기술과 좋은 경험들을 도입, 일반화하는 사업을 활발히 전개하고있으며 그로 하여 과학축산의 분위기는 더욱 고조되고있다.\n\n글 본사기자 안철권\n\n사진 본사기자 김진명\n\n-함경북도농촌경리위원회 농포젖소목장에서-",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOC0yNy0wNjlANEAxQEAwQDFA==",
+    "news:rodong-sinmun:06f9cc9dd7d4dcc36f15e2eb": {
+      "id": "news:rodong-sinmun:06f9cc9dd7d4dcc36f15e2eb",
+      "title": "동해명승 명사십리에 기쁨의 파도 끝없이 출렁인다",
+      "date": "2026-07-12",
+      "snippet": "동해명승 명사십리에 기쁨의 파도 끝없이 출렁인다",
+      "body": "동해명승 명사십리에 기쁨의 파도 끝없이 출렁인다\n\n경애하는 김정은동지께서는 다음과 같이 말씀하시였다.\n\n《조선로동당의 진모습은 당이 꾸려놓은 조국의 모습에 있고 언제나 행복에 겨워있는 인민의 모습에 있습니다.》\n\n위대한 변혁의 새시대와 더불어 훌륭하게 꾸려진 문화정서생활기지마다에서 인민들의 행복의 웃음소리 끝없이 넘쳐나는 속에 요즘 동해의 원산갈마해안관광지구로는 수많은 사람들이 끊임없이 찾아와 즐거운 한때를 보내고있다.\n\n얼마전 우리는 당의 은정속에 현대적으로 일떠선 세계적인 해안관광도시에서 새 문명을 마음껏 향유해가는 인민들의 행복한 모습을 지면에 담고싶어 관광렬차에 올랐다.\n\n봉사조건이 원만히 갖추어진 렬차는 관광객들로 만원이였다.\n\n여러 공장, 기업소의 로력혁신자들, 가족들, 학생소년들...\n\n《지난해 제일 인상적인것은 고속뽀트를 타는것이였습니다.》\n\n《기재들을 다 타보지 못한것이 얼마나 아쉽던지.》\n\n누구나, 어느 좌석에서나 원산갈마해안관광에 대한 이야기로 꽃을 피우고있었다.\n\n그들의 모습을 보니 우리의 마음도 절로 흥그러워졌다.\n\n관광객들의 마음은 벌써 저 멀리 동해의 명승 명사십리에 가있었던것이다.\n\n그럴수록 우리 식의 해안관광도시, 인민의 문화휴양지를 일떠세워주시고도 이곳을 리용하는 근로자들의 편의를 최상의 수준에서 보장해주기 위해 찾고 또 찾으시며 크나큰 로고를 바쳐가고계시는 경애하는 총비서동지의 헌신의 로고가 마쳐와 가슴뜨거워짐을 금할수 없었다.\n\n한시바삐 훌륭하게 꾸려진 관광도시에서 동해바다에 몸을 잠그고싶은 관광객들의 마음을 담아싣고 관광렬차는 기세좋게 달리였다.\n\n어느덧 관광렬차가 갈마지구를 가까이하는데 《관광지구가 보인다!》라는 그 누군가의 흥분된 목소리가 들려왔다.\n\n과연 해안지대의 풍치와 조화를 이루며 각양각태의 현대미를 발산하는 관광지구의 자태가 우렷이 안겨들었다.그야말로 한폭의 그림같았다.\n\n관광지구정문에 이르니 뻐스와 승용차를 리용하여 찾아온 관광객들까지 합쳐져 그야말로 인산인해였다.그들속에 파묻혀 관광지구에 들어선 우리는 지난해 이미 낯을 익혔던 이곳 일군들을 또다시 만날수 있었다.\n\n부국장 김길성동무는 우리에게 올해 해수욕계절이 시작되여 벌써 수만명이 이곳을 찾았다고, 지난해부터 현재까지 수십만명의 각계층 근로자들이 찾아와 즐거운 한때를 보내였다고 이야기하였다.\n\n아닌게아니라 그 어디에나 사람바다였다.\n\n관광용궤도전차와 축전지차에 올라 해안관광도시의 경치를 부감하며 연해연방 사진을 찍는 사람들, 려장을 풀기 바쁘게 해안가로 달려가는 사람들, 훌륭하게 꾸려진 오락장들에서 각종 오락으로 즐거운 한때를 보내는 청소년학생들과 어린이들...\n\n희열과 랑만, 행복에 넘친 그들의 모습을 기쁨속에 바라보는 우리에게 리성혁부원은 관광객들이 기호에 맞게 선택할수 있는 호텔과 려관들, 모든 조건을 원만히 구비한 해수욕봉사시설들과 다양한 체육, 오락시설들, 상업 및 급양봉사시설들에서 사람들은 계절에 구애됨이 없이 동해명승의 진미를 맛보고있다고 긍지에 넘쳐 이야기하였다.\n\n그러면서 당의 은정속에 갈마을밀봉호텔, 갈마친선호텔, 갈마백화점, 명사십리백화점의 봉사수준이 훨씬 높아지고 해양체육오락기재들과 급양봉사망들이 대폭 늘어난데 이어 갈마청류려관과 갈마대흥려관, 갈마청흥려관의 만장이 새로 특색있게 꾸려졌다고 이야기하였다.\n\n계속하여 그는 아마도 관광객들속에서 제일 인기있는것은 해수욕관광, 해상체육형관광, 해상경치부감관광일것이라며 우리를 해안가로 이끌었다.\n\n은빛모래불이 끝간데없이 펼쳐지고 푸른 파도 출렁이는 수만명수용능력의 해수욕장에서는 수많은 근로자들이 해수욕을 하며 즐겁게 휴식하고있었다.한쪽에서는 청소년학생들이 수영훈련을 통해 몸과 마음을 튼튼히 단련해가고있었다.그런가하면 다른쪽에서는 많은 사람들이 유람선, 고속뽀트, 수상자전거, 전동파도타기판, 1인용발뽀트, 수상띄움식유희기재를 리용해가며 즐거운 시간을 보내고있었다.\n\n우리와 만난 신의주화장품공장의 한 종업원은 지난해 신문과 TV로 원산갈마해안관광지구에서 즐거운 나날을 보내는 사람들을 보고 부러웠댔는데 이렇게 정작 와보니 정말 희한하다고, 관광기일이 어떻게 흘러가는지 모르겠다며 정말 떠나고싶지 않다고 자기의 심정을 터놓았다.\n\n우리가 다음으로 발걸음을 옮긴 곳은 관광객들이 즐겨찾는다는 명사십리야외물놀이장이였다.\n\n맑은 물 흘러넘치는 10여개의 수조들과 썰매물미끄럼대, 사발형급속물미끄럼대, 물스키를 비롯하여 각종 기재들이 즐비하게 늘어선 물놀이장에는 그야말로 웃음바다가 펼쳐졌다.그들과 즐거움을 함께 나누고싶은 욕망을 누를길 없어 우리도 기재들에 몸을 실었다.\n\n즐거움과 유쾌감, 아슬아슬한 모험도 체감할수 있는 기재들에서는 웃음소리가 연방 터져나왔다.\n\n우리에게 봉사부원 송금철동무는 야외물놀이장에도 친어버이사랑이 어리여있다고 하면서 지난해 6월 이곳을 돌아보시던 경애하는 총비서동지께서는 물놀이장운영에서 제기될수 있는 사소한 문제들에 대하여서도 세심히 가르쳐주시였다고, 어버이의 그 손길은 관광지구의 곳곳마다에 어려있다고 격정에 겨워 이야기하였다.\n\n개성시 개풍구역에서 왔다는 한 주민은 어제는 새로 일떠선 종합봉사소에서, 오늘은 이처럼 희한하게 꾸려진 원산갈마해안관광지구에서 휴식을 하고있다고, 정말 당의 은정속에 새 문명을 마음껏 누려간다고 웃으며 말하였다.\n\n우리는 갈마아리랑운동관에도 들려보았다.\n\n전자체육실, 아동오락실, 실내체육실, 당구장으로 되여있는 운동관에서는 많은 사람들이 총쏘기기재들과 가상현실체험유희기재를 리용한 오락, 어린이보링, 활쏘기, 경마오락 등을 즐기고있었다.\n\n이뿐이 아니였다.갈마목란광명오락관, 명사십리실내물놀이장, 명사십리건강운동관 등에서도 인민의 웃음소리가 끝없이 넘쳐났다.\n\n해안관광지구의 불야경은 또 얼마나 황홀한 신비경을 펼쳐놓는것인가.\n\n빨간색, 파란색, 노란색 등 갖가지 색들이 조화를 이루며 대낮같이 밝힌 관광도시의 유보도를 거닐며 많은 관광객들이 밤이 지새는줄 모르고있었다.\n\n복받은 인민의 행복상을 담아싣고 동해의 파도는 끝없이 출렁이였다.\n\n글 본사기자 주령봉\n\n사진 본사기자 신철이",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNy0xMi0wMjhANUAxQEAwQDdA==",
       "mediaType": "article",
       "sourceId": "rodong-sinmun",
       "sourceName": "로동신문",
       "categories": [
-        "domestic"
+        "memory"
       ],
       "categoryOrders": {
-        "domestic": 0
+        "memory": 6
       },
-      "featuredSections": [
-        "domestic"
-      ],
+      "featuredSections": [],
       "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/b6506eca5c1de5303b3d27d7c054cd314087d00829a3b6f5d901db954c69eaa9.jpg",
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/e4b06fd2e511eaa2010aa75df24b250c7cf966d135712d5a3db9b1d1d6776074.jpg",
       "images": [
         {
-          "id": "news:rodong-sinmun:0e1abded8a6139a963e45f0a:image:b6506eca5c1de5303b3d27d7c054cd314087d00829a3b6f5d901db954c69eaa9",
+          "id": "news:rodong-sinmun:06f9cc9dd7d4dcc36f15e2eb:image:e4b06fd2e511eaa2010aa75df24b250c7cf966d135712d5a3db9b1d1d6776074",
           "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/b6506eca5c1de5303b3d27d7c054cd314087d00829a3b6f5d901db954c69eaa9.jpg",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/e4b06fd2e511eaa2010aa75df24b250c7cf966d135712d5a3db9b1d1d6776074.jpg",
           "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/b6506eca5c1de5303b3d27d7c054cd314087d00829a3b6f5d901db954c69eaa9.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOC0yNy0wNjlANEAxQEAwQDFA==",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/e4b06fd2e511eaa2010aa75df24b250c7cf966d135712d5a3db9b1d1d6776074.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNy0xMi0wMjhANUAxQEAwQDdA==",
           "displayOrder": 0
+        },
+        {
+          "id": "news:rodong-sinmun:06f9cc9dd7d4dcc36f15e2eb:image:832dfa7f2f907acc1974e79949759efd63d0a0567746a65725f8952d3099a31e",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/832dfa7f2f907acc1974e79949759efd63d0a0567746a65725f8952d3099a31e.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/832dfa7f2f907acc1974e79949759efd63d0a0567746a65725f8952d3099a31e.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNy0xMi0wMjhANUAxQEAwQDdA==",
+          "displayOrder": 1
+        },
+        {
+          "id": "news:rodong-sinmun:06f9cc9dd7d4dcc36f15e2eb:image:ab6623cb3e1c55f643e5e97aeb9c498910a71df3931d2b84b8ea21e5eb880b35",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/ab6623cb3e1c55f643e5e97aeb9c498910a71df3931d2b84b8ea21e5eb880b35.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/ab6623cb3e1c55f643e5e97aeb9c498910a71df3931d2b84b8ea21e5eb880b35.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNy0xMi0wMjhANUAxQEAwQDdA==",
+          "displayOrder": 2
+        },
+        {
+          "id": "news:rodong-sinmun:06f9cc9dd7d4dcc36f15e2eb:image:5a21244d23a429381c6db66013796cdce2faf0f0719c6076550f2db8f5e9768c",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/5a21244d23a429381c6db66013796cdce2faf0f0719c6076550f2db8f5e9768c.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/5a21244d23a429381c6db66013796cdce2faf0f0719c6076550f2db8f5e9768c.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNy0xMi0wMjhANUAxQEAwQDdA==",
+          "displayOrder": 3
+        },
+        {
+          "id": "news:rodong-sinmun:06f9cc9dd7d4dcc36f15e2eb:image:10e40ee3758a6b331b1d2a1b66f35e9a682b71d04f6b4c4cd19dcec745e3eb69",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/10e40ee3758a6b331b1d2a1b66f35e9a682b71d04f6b4c4cd19dcec745e3eb69.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/10e40ee3758a6b331b1d2a1b66f35e9a682b71d04f6b4c4cd19dcec745e3eb69.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNy0xMi0wMjhANUAxQEAwQDdA==",
+          "displayOrder": 4
         }
       ],
       "videos": []

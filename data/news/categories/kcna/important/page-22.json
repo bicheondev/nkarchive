@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,28 @@
   "totalItems": 521,
   "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:545ff296f839b88d2c5cf038",
+      "title": "단천발전소 1단계 준공식 진행",
+      "date": "2026-05-20",
+      "snippet": "(평양 5월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/12a0ef97cab214f463581d288a0b95ce",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 105,
+        "domestic": 1091
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A545ff296f839b88d2c5cf038"
+    },
     {
       "id": "news:kcna:7aa231d3cf38871013b8abd6",
       "title": "박태성 내각총리 여러 부문 사업 현지료해",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 105,
-        "domestic": 1120
+        "important": 106,
+        "domestic": 1126
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,9 +68,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 106,
+        "important": 107,
         "foreign": 169,
-        "domestic": 1121
+        "domestic": 1127
       },
       "featuredSections": [],
       "hasImage": false,
@@ -71,10 +93,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 107,
+        "important": 108,
         "document": 17,
         "foreign": 170,
-        "domestic": 1127
+        "domestic": 1133
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,9 +118,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 108,
+        "important": 109,
         "foreign": 173,
-        "domestic": 1143
+        "domestic": 1149
       },
       "featuredSections": [],
       "hasImage": true,
@@ -106,30 +128,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064e7f7df18416bd73722e4f0b2852e8d83",
       "cachedThumbnailUrl": "/data/news/assets/kcna/fa3da5d0f7f9926dde935e3c976dd676d19cb792395425b023656796917c69b0.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A784ac2e836cacc82f35850cb"
-    },
-    {
-      "id": "news:kcna:3e8355a0e986a52fa0d92815",
-      "title": "조선민주주의인민공화국 외무상이 윁남사회주의공화국 외무상과 회담",
-      "date": "2026-05-14",
-      "snippet": "(평양 5월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9714f410708cadb62ce8de8247bc34f6",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 109,
-        "foreign": 174,
-        "domestic": 1144
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064a815425c85ca4e87a467bad3b7062c68",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/eddb1b87f5edd2ce5bcbf95a7cc0c36d56c751a57eefff23d35b8dc7957c0062.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3e8355a0e986a52fa0d92815"
     }
   ]
 }

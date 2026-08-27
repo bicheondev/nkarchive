@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "social",
   "page": 50,
   "pageSize": 5,
-  "totalItems": 684,
+  "totalItems": 682,
   "totalPages": 137,
   "articles": [
+    {
+      "id": "news:kcna:f8232c1c15256644eb9000e1",
+      "title": "일본에서 헌법개악책동을 반대하여 집회",
+      "date": "2026-03-02",
+      "snippet": "(평양 3월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7768373393797437e8fe73cb37c259e0",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 1329,
+        "social": 245
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af8232c1c15256644eb9000e1"
+    },
     {
       "id": "news:kcna:0c91815804a6f8a4947cd7d3",
       "title": "일본에서 출생자수 10년째 련속 감소",
@@ -24,7 +46,7 @@
       ],
       "categoryOrders": {
         "international": 1333,
-        "social": 245
+        "social": 246
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +68,7 @@
       ],
       "categoryOrders": {
         "international": 1335,
-        "social": 246
+        "social": 247
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,8 +89,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2031,
-        "social": 247
+        "domestic": 2037,
+        "social": 248
       },
       "featuredSections": [],
       "hasImage": false,
@@ -89,29 +111,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2035,
-        "social": 248
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aeae1b7d5c7f22681f099adbb"
-    },
-    {
-      "id": "news:kcna:179897185b281a336e74138d",
-      "title": "세계 피난민들의 비참한 처지",
-      "date": "2026-02-28",
-      "snippet": "(평양 2월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/81621860de53e2586133060798fd68c8",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "social"
-      ],
-      "categoryOrders": {
-        "international": 1342,
+        "domestic": 2041,
         "social": 249
       },
       "featuredSections": [],
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A179897185b281a336e74138d"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aeae1b7d5c7f22681f099adbb"
     }
   ]
 }

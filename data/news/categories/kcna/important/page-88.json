@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,30 @@
   "totalItems": 521,
   "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:7063ce4f64c74e904f0974ec",
+      "title": "우리 나라를 국가방문하는 윁남공산당 중앙위원회 총비서 또 럼동지 평양 도착",
+      "date": "2025-10-10",
+      "snippet": "(평양 10월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f1388b3c8f9fbf088780a238536f3dbb",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 435,
+        "foreign": 625,
+        "domestic": 3626
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12eab89d9063295e5114f6648f9b842bfa",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/955bf482021ed8ce64ff6b024e0dda108cec0f8d7a82df8ccd88cc6ac285da1b.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7063ce4f64c74e904f0974ec"
+    },
     {
       "id": "news:kcna:7b6fb544a388b2141cc11445",
       "title": "중화인민공화국 당 및 정부대표단 평양에 도착",
@@ -24,9 +48,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 435,
+        "important": 436,
         "foreign": 626,
-        "domestic": 3621
+        "domestic": 3627
       },
       "featuredSections": [],
       "hasImage": true,
@@ -48,7 +72,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 436,
+        "important": 437,
         "international": 2396,
         "foreign": 635
       },
@@ -72,9 +96,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 437,
+        "important": 438,
         "foreign": 636,
-        "domestic": 3637
+        "domestic": 3643
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,7 +120,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 438,
+        "important": 439,
         "international": 2401,
         "foreign": 640
       },
@@ -106,30 +130,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A74f7dfe00cea7af392925969"
-    },
-    {
-      "id": "news:kcna:2e71989790a4892367999760",
-      "title": "경애하는 김정은동지께 전로씨야정당 《통일로씨야》위원장이 축전을 보내여왔다",
-      "date": "2025-10-09",
-      "snippet": "(평양 10월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4e7d3dd75297c26e0ce486cb6bd7dda4",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 439,
-        "international": 2402,
-        "foreign": 641
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2e71989790a4892367999760"
     }
   ]
 }

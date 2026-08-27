@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "shard": "30",
   "articles": {
     "news:kcna:ad6c0b572f9aed37283b52a9": {
@@ -83,8 +83,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 32,
-        "domestic": 346
+        "important": 33,
+        "domestic": 352
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d04331c189617714322eae48b979704d4",
@@ -161,7 +161,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 79
+        "photo": 80
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d95bd2065265bed15277b51916657fde1",
@@ -322,7 +322,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 764
+        "domestic": 770
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -426,8 +426,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 89,
-        "domestic": 869
+        "important": 90,
+        "domestic": 875
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e35a18eca237149442ff376914c121463f",
@@ -490,7 +490,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1234
+        "domestic": 1240
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -512,7 +512,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1349
+        "domestic": 1355
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -534,7 +534,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1438
+        "domestic": 1444
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -596,8 +596,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1634,
-        "social": 166
+        "domestic": 1640,
+        "social": 167
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -619,7 +619,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1738
+        "domestic": 1744
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -642,7 +642,7 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 206,
+        "important": 207,
         "international": 1167
       },
       "featuredSections": [],
@@ -665,7 +665,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1873
+        "domestic": 1879
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -688,8 +688,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2161,
-        "social": 279
+        "domestic": 2167,
+        "social": 280
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -733,7 +733,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2384
+        "domestic": 2390
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -755,7 +755,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2458
+        "domestic": 2464
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -801,7 +801,7 @@
       ],
       "categoryOrders": {
         "international": 1916,
-        "social": 434
+        "social": 435
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -824,8 +824,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3048,
-        "social": 484
+        "domestic": 3054,
+        "social": 485
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -849,7 +849,7 @@
       ],
       "categoryOrders": {
         "foreign": 632,
-        "domestic": 3627
+        "domestic": 3633
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12a51d05aed2d495953423a43f05063c47",
@@ -941,7 +941,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3838
+        "domestic": 3844
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -985,7 +985,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 990
+        "photo": 991
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/3d3755d837f6dc968fa55dbecad26d226bd2e8b79720fae27890e40d6a0703ed",
@@ -1336,7 +1336,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4056
+        "domestic": 4062
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1344,36 +1344,67 @@
       "images": [],
       "videos": []
     },
-    "news:rodong-sinmun:a6ad9c367284167c05f44dee": {
-      "id": "news:rodong-sinmun:a6ad9c367284167c05f44dee",
-      "title": "당이 펼친 설계도따라 조국은 계속 변모된다\n수도의 눈부신 변화를 줄기차게 이어간다\n정치, 경제, 문화적기능을 완벽하게 갖춘 행정구역의 표본으로 더욱 웅장하게 일신되고있는 화성지구 5단계 건설장에서",
-      "date": "2026-07-22",
-      "snippet": "당이 펼친 설계도따라 조국은 계속 변모된다",
-      "body": "당이 펼친 설계도따라 조국은 계속 변모된다\n\n전국이 변하고 인민들의 생활환경이 빠르게 달라지고있는 우리 조국의 모습은 참으로 눈부시다.새시대 건설의 대번영기와 더불어 당중앙위원회 제8기기간에 전국도처에 우뚝우뚝 일떠선 문명부흥의 실체들은 전례와 한계를 깨는 기적적사변으로 력사의 갈피에 긍지높이 아로새겨졌다.\n\n수도의 풍치수려한 보통강반의 경루동과 송화거리, 화성거리, 전위거리, 새별거리와 현대적인 농촌문화도시, 산악협곡도시에서 인민의 기쁨이 넘쳐나고 착공 당해에 준공을 선포하며 련이어 태여난 《지방발전 20×10 정책》의 산아들이 생산정상화의 동음을 기운차게 울리며 지역인민들의 복리증진에 이바지하고있다.\n\n이 나라 인민을 뜨겁게 품어안고 하늘처럼 떠받드는 우리 당은 새로운 5개년계획기간에 전국인민의 복리증진과 지방의 획기적인 개변을 위한 사업들을 더욱 통이 크게 설계하고 전진의 새 표대를 내세웠다.\n\n우리의 건설령역은 더욱 거폭적으로 확대되고있다.\n\n당이 펼친 설계도따라 화성지구건설이 새로운 규모에서 새로운 양상을 띠고 그 면모를 벌써 드러내고있으며 새시대 지방발전정책실행을 위한 건설전역들에서는 현대적인 지방공업공장들과 함께 병원, 종합봉사소들이 약동하는 내 조국의 숨결을 안고 솟구치고있다.지난해보다 근 1.4배나 되는 농촌살림집건설도 힘있게 진척되고 문화적인 탄광마을, 탄광도시건설을 위한 준비사업이 속속 이루어지고있다.\n\n이는 인민의 복리증진을 위함에 천만품을 아끼지 않는 조선로동당만이 펼칠수 있는 가슴벅찬 현실이다.\n\n당의 령도밑에 끝없이 변모되는 조국의 눈부신 현실을 체감하며 우리 인민은 보다 휘황하고 아름다울 래일을 확신에 넘쳐 내다보고있다.\n\n수도의 눈부신 변화를 줄기차게 이어간다\n\n정치, 경제, 문화적기능을 완벽하게 갖춘 행정구역의 표본으로\n\n더욱 웅장하게 일신되고있는 화성지구 5단계 건설장에서\n\n새시대 평양번영기의 줄기찬 고조, 우리식 문명발전의 신심충천한 앙양을 시위하며 화성지구 5단계 건설이 힘있게 추진되고있다.\n\n경애하는 김정은동지께서는 다음과 같이 말씀하시였다.\n\n《서로 따라앞서고 따라배우는 집단적인 경쟁열풍을 세차게 일으키고 애국의 열정을 더욱 분출시킴으로써 위대한 세대의 불굴의 강인성과 진함없는 창조정신이 깃든, 인민의 웃음소리 넘쳐나는 사회주의번화가를 바로 이 화성지구에 보란듯이 일떠세워야 하겠습니다.》\n\n종합된 자료에 의하면 우리 당의 웅대한 수도건설구상을 높이 받들고 화성지구에 사회주의문명의 새로운 번화가를 훌륭히 일떠세우기 위해 산악같이 떨쳐나선 군민건설자들이 수십동의 살림집골조공사를 결속하고 내외부미장작업성과를 확대하면서 공공건물 및 시설물건설 등을 립체적으로 힘있게 다그치고있다.\n\n화성지구 5단계 건설은 1만 2천여세대의 살림집과 상업 및 봉사시설들을 비롯한 공공건물들이 리상적인 조화를 이룬 화성지구 4단계 1만세대 살림집건설때보다 공사량이 더욱 방대하다.\n\n올해 건설계획을 수행하게 되면 화성지구는 도시행정구역으로서의 정치, 경제, 문화적기능을 구현한 지역으로 보다 훌륭하게 변모되게 된다.\n\n우리 당의 웅대한 수도건설구상을 기적적인 건설신화로 받들어갈 의지를 안고 군민건설자들이 산악같이 떨쳐나섰다.\n\n조선인민군 장강철소속부대와 현철호소속부대의 군인건설자들이 골조공사를 다그쳐 끝낸 기세로 공정간련계를 강화하면서 외부미장과 내부공사에 박차를 가하고있다.지휘관들은 현장조건에 맞게 작업조직을 기동성있게 하고 건설물의 질보장과 관련한 기술지도를 심화시키면서 군인건설자들을 위훈창조에로 힘있게 불러일으키고있다.\n\n화성지구를 정치, 경제, 문화적기능을 완벽하게 갖춘 행정구역의 표본으로 전변시키는데서 자신들이 맡은 대상건설이 가지는 중요성을 깊이 자각한 조선인민군 리웅찬소속부대, 사회안전성려단의 지휘관들과 군인건설자들은 앞선 단위들의 기술과 경험을 적극 받아들이고 서로 돕고 이끄는 기풍을 발휘하면서 새 기준, 새 기록창조의 불길을 세차게 지펴올리고있다.\n\n백두산영웅청년돌격대의 지휘관, 돌격대원들도 전위거리를 일떠세우고 나라의 서부국경지역에 사회주의 우리 국가의 긍지인 대농장도시를 건설한 그 열정으로 살림집건설에서 조선청년의 본때를 힘있게 떨치고있다.\n\n개성시려단의 지휘관들과 돌격대원들이 맡은 살림집건설을 힘있게 내밀고있다.합리적인 작업방법을 받아들여 시간당 혼합물생산량을 늘이고 철근과 휘틀조립을 선행시켜 지난 6월말까지 살림집골조공사를 결속한 이들은 기세를 늦추지 않고 공사성과를 확대해나가고있다.\n\n청춘의 자서전에 값높은 위훈을 새겨갈 일념 안고 속도전청년돌격대려단, 평양시려단을 비롯한 여러 려단의 돌격대원들도 완강한 투지와 분발력으로 살림집건설에서 위훈을 창조해가고있다.\n\n성, 중앙기관 제1, 2, 3려단과 평양건설위원회려단을 비롯한 여러 단위에서도 시공력량을 합리적으로 편성배치하고 공정간맞물림을 치밀하게 하면서 맡은 대상건설에서 련일 혁신을 일으키고있다.\n\n평양시살림집건설지휘부에서는 골조공사가 결속된 단위들이 늘어날수록 질제고에 대한 요구성을 보다 높이면서 모든 건축물을 완전무결하게 일떠세우기 위한 조직정치사업을 박력있게 해나가고있다.\n\n화성지구를 우리 당의 인민대중제일주의사상과 정치가 완벽하게 구현된 우리식 발전과 문명의 본보기적실체로 더 훌륭하게 전변시키려는 군민건설자들의 드높은 열의에 의해 현장의 모습은 하루가 다르게 변모되고있다.\n\n글 및 사진 현지보도조",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNy0yMi0wMTRANEAyQEAwQDMwQA==",
+    "news:rodong-sinmun:6e0fec3fa9d2fb5c605c77c3": {
+      "id": "news:rodong-sinmun:6e0fec3fa9d2fb5c605c77c3",
+      "title": "누구나 한식솔, 어디 가나 친형제\n우리 중대장",
+      "date": "2026-08-28",
+      "snippet": "누구나 한식솔, 어디 가나 친형제",
+      "body": "누구나 한식솔, 어디 가나 친형제\n\n우리 중대장\n\n삼지연시도로보수관리대 로동자 채선광동무는 중대장 장성철동무를 친부모처럼 따르고있다.\n\n그의 가정은 7명의 자식을 가진 다자녀세대이다.이런 그의 집을 자주 찾아가 애로되는 문제를 알아보고 풀어주는것은 장성철동무의 어길수 없는 일과로 되고있다.\n\n생활에서 불편한 점은 없는가, 앓는 사람은 없는가를 세심히 알아보며 다심한 정을 기울이는 중대장의 모습을 볼 때면 채선광동무는 가슴이 젖어들군 한다.\n\n장성철동무는 늘 식솔많은 이 가정의 생활을 구석구석 헤아려주며 달마다 어김없이 생활에 필요한 소비품들도 안겨주고 하루일을 끝내고는 중대원들과 함께 터밭을 가꾸어주기도 한다.해산을 앞둔 채선광동무의 안해를 위해 먼길을 달려가 꿀을 비롯하여 몸보신에 좋은 약재들을 구해오고 군대에 나가는 자식에게 성의껏 마련한 기념품도 안겨준것을 비롯하여 그가 기울이고있는 진정은 많은 사람들을 감동시키고있다.\n\n어려운 일에서는 항상 앞채를 메고 사업을 하나 조직해도 종업원들의 편의부터 먼저 생각하는 그 뜨거운 마음을 소중히 여기며 중대원들은 장성철동무를 《우리 중대장》이라고 정답게 부르며 존경하고있다.\n\n한통의 편지가 전하는 사연\n\n얼마전 우리는 황해제철련합기업소에서 일하고있는 리대흥동무가 보내온 한통의 편지를 받게 되였다.거기에는 이런 이야기가 담겨져있었다.\n\n리대흥동무가 어느한 료양소에서 치료를 받고있던 몇달전 한 손님이 면회를 왔다.만나보니 초면이였다.\n\n영문을 알수 없어하는 그에게 손님은 아들이 공부하는 사리원지질대학에서 일한다고 자기소개를 했다.\n\n후에 안 일이였지만 그의 아들은 아버지가 이미전부터 앓고있던 병이 도져 료양소로 후송되였다는 소식을 전해듣고 며칠동안이나 걱정에 잠겨있었다고 한다.그런 속마음을 알게 된 대학일군인 권승찬동무는 그의 아들을 불러 아버지의 병때문에 너무 마음쓰지 말고 학과학습에만 전심하라고 따뜻이 이야기하고나서 병치료는 어떻게 하고있는가에 대해 세심히 물어보았다는것이였다.\n\n그날 미안함을 금치 못하는 리대흥동무에게 몸보신에 좋은 영양식품과 귀한 보약재들을 안겨주고 떠나갔던 그 일군은 며칠후에는 자기 안해를 보내여 병문안도 하고 아들의 소식도 전해주도록 하였다.\n\n리대흥동무는 료양소에서 돌아온 후 아들로부터 그 일군이 자기 자식만이 아니라 대학의 교직원, 학생들의 생활을 친혈육의 정으로 돌봐주고있는 사실에 대해서도 알게 되였다고 하며 편지의 마감에 이렇게 썼다.\n\n《서로 돕고 이끄는 고상한 미풍이 국풍으로 된 고마운 내 조국을 더욱 부강하게 하기 위해 힘과 지혜와 열정을 다 바쳐나가겠습니다.》\n\n변함없이 이어지는 정\n\n얼마전 평천구역 평천2동에 살고있는 김련희로인의 가정을 찾아온 사람들이 있었다.그들은 조현아동무를 비롯한 잠업비단공업국 중앙잠업검역소 종업원들이였다.\n\n명절을 함께 보내기 위해 찾아온 그들을 바라보며 김련희로인의 눈굽은 젖어들었다.\n\n전쟁로병이였던 남편이 비록 세상을 떠났어도 변함없이 이어지는 그 진정이 가슴을 후덥게 했기때문이다.특히 조현아동무는 붉은넥타이를 맨 학생시절부터 수십년간 이 가정을 찾아오고있었다.\n\n김련희로인이 이제는 남편도 세상을 떠났고 직장일도 바쁘겠는데 이렇게 자주 찾아오지 않아도 된다고 하자 조현아동무는 말했다.\n\n오랜 세월 이어져온 그 정을 어떻게 쉽게 끊을수 있겠는가고, 로병동지만이 아니라 교육자로, 기술자로 일하면서 조국을 위해 지혜와 정열을 다 바친 할머니도 귀중한 혁명선배라고.\n\n이날 로인은 그들과 한데 어울려 노래도 부르고 지나간 한생을 추억하면서 명절을 즐겁게 보냈다.\n\n본사기자 백광명\n\n농장일을 자기 단위일처럼 여기고 진심을 다해 도와주고있다.\n\n-상덕광산에서-\n\n본사기자 최충성 찍음",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOC0yOC0wMzZAMkAyQEAwQDI0QA==",
       "mediaType": "article",
       "sourceId": "rodong-sinmun",
       "sourceName": "로동신문",
       "categories": [
-        "domestic"
+        "important"
       ],
       "categoryOrders": {
-        "domestic": 29
+        "important": 23
       },
       "featuredSections": [],
       "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/b36fdc1fe7a2f2815e88ab5aaed08cc3e3e1500e949b5560404aa047324e44f7.jpg",
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/4ef125fb58ec04690f6937630e0d0e6236b547d3eb594e6505937c3025004f22.jpg",
       "images": [
         {
-          "id": "news:rodong-sinmun:a6ad9c367284167c05f44dee:image:b36fdc1fe7a2f2815e88ab5aaed08cc3e3e1500e949b5560404aa047324e44f7",
+          "id": "news:rodong-sinmun:6e0fec3fa9d2fb5c605c77c3:image:4ef125fb58ec04690f6937630e0d0e6236b547d3eb594e6505937c3025004f22",
           "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/b36fdc1fe7a2f2815e88ab5aaed08cc3e3e1500e949b5560404aa047324e44f7.jpg",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/4ef125fb58ec04690f6937630e0d0e6236b547d3eb594e6505937c3025004f22.jpg",
           "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/b36fdc1fe7a2f2815e88ab5aaed08cc3e3e1500e949b5560404aa047324e44f7.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNy0yMi0wMTRANEAyQEAwQDMwQA==",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/4ef125fb58ec04690f6937630e0d0e6236b547d3eb594e6505937c3025004f22.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOC0yOC0wMzZAMkAyQEAwQDI0QA==",
           "displayOrder": 0
+        },
+        {
+          "id": "news:rodong-sinmun:6e0fec3fa9d2fb5c605c77c3:image:ae31b4c6f378476e2372cb048fa55c9743c7d04a0f3583e6bd0e73f5d1bf270b",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/ae31b4c6f378476e2372cb048fa55c9743c7d04a0f3583e6bd0e73f5d1bf270b.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/ae31b4c6f378476e2372cb048fa55c9743c7d04a0f3583e6bd0e73f5d1bf270b.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOC0yOC0wMzZAMkAyQEAwQDI0QA==",
+          "displayOrder": 1
         }
       ],
+      "videos": []
+    },
+    "news:rodong-sinmun:03a277f64f8036dcec765cab": {
+      "id": "news:rodong-sinmun:03a277f64f8036dcec765cab",
+      "title": "한 어린이의 밝은 웃음을 위해",
+      "date": "2026-03-02",
+      "snippet": "한 어린이의 밝은 웃음을 위해",
+      "body": "한 어린이의 밝은 웃음을 위해\n\n얼마전 우리는 김정숙평양방직공장병원의 의료일군들이 난치의 병으로 제대로 걷지 못하던 한 어린이를 7개월동안 치료하여 대지를 마음껏 밟을수 있게 한 사실을 알게 되였다.\n\n경애하는 김정은동지께서는 다음과 같이 말씀하시였다.\n\n《보건부문에서 모든 의사, 간호원들이 인간생명의 수호자로서의 자질과 공산주의적인 풍모를 지니도록 하여야 합니다.》\n\n지난해 6월 김정숙평양방직공장병원으로 방적종합직장 수리직장에서 일하는 배순미동무가 어린 딸을 업고 찾아왔다.\n\n환자의 이름은 김예송, 나이는 3살,\n\n뜻하지 않은 일로 난치의 병에 걸린 예송이는 제대로 걸을수도, 앉을수도 없는 상태였다.자기의 병상태가 어떠한지도 모르고 무엇이 좋은지 발쭉거리는 처녀애의 모습을 바라보는 병원의사 최학민동무의 마음은 몹시 무거웠다.\n\n일터에 있는 공장병원 의사선생님들을 믿고 왔다는 배순미동무의 이야기는 그로 하여금 자신이 지닌 책임의 무게에 대하여 다시금 새겨안게 했다.이들의 기대에 꼭 보답해야 한다는 생각으로 마음을 다잡은 최학민동무는 이렇게 말했다.\n\n《예송이를 저에게 맡겨주십시오.》\n\n원장 김리덕동무를 비롯한 의료일군들은 그의 결심을 지지해주었고 병원 당조직에서도 치료사업을 힘껏 떠밀어주었다.\n\n치료는 순탄치 않았다.처음에는 몇가지 고려치료방법이 효과를 내는것같더니 점차 반응이 나타나지 않았다.그러자 일부 사람들은 공장병원에서 과연 성공하겠는가 하는 우려와 함께 어린 예송이가 어려운 치료를 이겨낼수 있겠는가고 걱정을 앞세우게 되였다.이제라도 환자를 상급병원으로 보내는것이 어떤가 하는 의견도 제기되였다.\n\n하지만 이곳 의료일군들은 그렇게 할수 없었다.\n\n공장종업원들과 그 가족들의 건강을 돌보는것은 공장병원 의료일군들의 응당한 본분이 아닌가.\n\n의료일군들은 다시금 마음을 가다듬고 환자치료에 달라붙었다.하루사업을 끝낸 후면 이들은 예송이의 병상태에 맞는 치료방법을 찾아내기 위하여 토론에 토론을 거듭하였다.필요한 의학서적들을 하나하나 탐독하면서 연구를 진행하였다.그 과정에 여러가지 치료방법들이 어린 환자의 치료에 도입되였다.\n\n최학민동무는 자신이 먼저 환자가 되였다.자기의 다리에 수많은 침대를 꽂아보며 자극세기를 확정한 다음에야 예송이에게 침을 꽂군 하였다.이런 지극한 정성이 있어 치료를 시작한지 여섯달만에 환자의 좌측발목의 신경이 살아나는 미세한 반응이 나타났다.그로부터 한달후 예송이가 대지를 활보할수 있게 되였을 때 그의 어머니는 병원의료일군들의 손을 꼭 잡고 뜨거운 눈물을 쏟았다.\n\n우리와 만난 최학민동무는 이렇게 말하였다.\n\n《우리 의사들이 그 어디에서 일하든 인민들의 생명과 건강을 책임졌다는 자각만 투철하면 지극한 정성도, 높은 실력도 생겨나게 된다고 생각합니다.》\n\n크지 않은 산업병원에서 거둔 치료성과가 우리의 심금을 울린 리유가 바로 여기에 있다.\n\n김별해",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMy0wMi0wMzFANUAyQEAwQDI1QA==",
+      "mediaType": "article",
+      "sourceId": "rodong-sinmun",
+      "sourceName": "로동신문",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 24
+      },
+      "featuredSections": [],
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "images": [],
       "videos": []
     }
   }

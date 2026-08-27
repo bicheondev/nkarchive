@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,35 +8,35 @@
   "section": "anecdote",
   "page": 49,
   "pageSize": 5,
-  "totalItems": 242,
+  "totalItems": 243,
   "totalPages": 49,
   "articles": [
     {
-      "id": "news:rodong-sinmun:6c88e0ebc7d662214375e3da",
-      "title": "위대하신 우리 어버이 일편단심 따르고 받들리",
-      "date": "2026-01-01",
-      "snippet": "위대하신 우리 어버이 일편단심 따르고 받들리",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wMS0wMzBAM0AxN0BAMEAyNDFA==",
+      "id": "news:rodong-sinmun:d4392ff205a0a794786ab95d",
+      "title": "《아버지원수님, 정말 고맙습니다!》\n뜻깊은 새해를 맞으며 온 나라의 어린이들과 소학교학생들이 사랑의 선물을 받아안았다",
+      "date": "2026-01-02",
+      "snippet": "《아버지원수님, 정말 고맙습니다!》",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wMi0wMThAM0AxNkBAMEAyNDBA==",
       "mediaType": "article",
       "categories": [
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 75
+        "anecdote": 107
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A6c88e0ebc7d662214375e3da"
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/54e4cee72760ca1551f41a11416fcfb5c76faa970ac2d0282a791f292e6fbc13.jpg",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ad4392ff205a0a794786ab95d"
     },
     {
-      "id": "news:rodong-sinmun:3045b619ae541f1ded7193f9",
-      "title": "문명개화의 새 모습을 자랑하는 산골농장들\n덕천시 구장농장, 무안농장과 신양군 삼파농장에서 새집들이 진행",
+      "id": "news:rodong-sinmun:2ca60765f538da2e993ae78a",
+      "title": "위대하신 우리 어버이 일편단심 따르고 받들리",
       "date": "2026-01-01",
-      "snippet": "문명개화의 새 모습을 자랑하는 산골농장들",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wMS0wMjdAM0AxN0BAMEAyNDJA==",
+      "snippet": "위대하신 우리 어버이 일편단심 따르고 받들리",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wMS0wMzBAM0AxN0BAMEAyNDJA==",
       "mediaType": "article",
       "categories": [
         "anecdote"
@@ -45,11 +45,31 @@
         "anecdote": 76
       },
       "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A2ca60765f538da2e993ae78a"
+    },
+    {
+      "id": "news:rodong-sinmun:d1f3549888256ec9f0be6cc3",
+      "title": "문명개화의 새 모습을 자랑하는 산골농장들\n덕천시 구장농장, 무안농장과 신양군 삼파농장에서 새집들이 진행",
+      "date": "2026-01-01",
+      "snippet": "문명개화의 새 모습을 자랑하는 산골농장들",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wMS0wMjdAM0AxN0BAMEAyNDNA==",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 77
+      },
+      "featuredSections": [],
       "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/86c02d41280d4e053cbf3632d82626acc3ccba8c94fb4c4d08285a742cd51344.jpg",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A3045b619ae541f1ded7193f9"
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ad1f3549888256ec9f0be6cc3"
     }
   ]
 }

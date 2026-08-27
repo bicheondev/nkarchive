@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,30 @@
   "totalItems": 521,
   "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:3d469c08fba02dc3d241d945",
+      "title": "라오스인민민주주의공화국 외무상일행 평양 출발",
+      "date": "2025-11-16",
+      "snippet": "(평양 11월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/40bd367871811de11de3c954e94a700c",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 370,
+        "foreign": 482,
+        "domestic": 3121
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac2f1965e1481f32ac91f2ebfb480e4e63",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/4dc158dfc20d3a4b337e91f44d5067a9986474a8aad3fc46fcd2b85b4f2f66e7.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3d469c08fba02dc3d241d945"
+    },
     {
       "id": "news:kcna:99b945239d571682bd1b2cac",
       "title": "조선민주주의인민공화국 최선희 외무상 담화 발표",
@@ -24,9 +48,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 370,
+        "important": 371,
         "international": 2127,
-        "domestic": 3132
+        "domestic": 3138
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,9 +72,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 371,
+        "important": 372,
         "foreign": 484,
-        "domestic": 3133
+        "domestic": 3139
       },
       "featuredSections": [],
       "hasImage": true,
@@ -72,9 +96,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 372,
+        "important": 373,
         "foreign": 485,
-        "domestic": 3134
+        "domestic": 3140
       },
       "featuredSections": [],
       "hasImage": true,
@@ -96,7 +120,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 373,
+        "important": 374,
         "international": 2135,
         "foreign": 487
       },
@@ -106,30 +130,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aeaa8122d561ae5c0ef313445"
-    },
-    {
-      "id": "news:kcna:4db57335a2136975f77edbfa",
-      "title": "라오스인민민주주의공화국 외무상의 우리 나라 방문을 환영하는 연회 진행",
-      "date": "2025-11-13",
-      "snippet": "(평양 11월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/eed13de920fcee1fd524cc5e0bbcfb40",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 374,
-        "foreign": 488,
-        "domestic": 3146
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac37e80df66f764b1da3a79aef98525554",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/632b0bc1b8b58e18608a2123503dc752b407c802aa4b3fab4a34529e67a3b396.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4db57335a2136975f77edbfa"
     }
   ]
 }

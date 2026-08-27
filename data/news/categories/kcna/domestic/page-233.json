@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,15 @@
   "section": "domestic",
   "page": 233,
   "pageSize": 5,
-  "totalItems": 4155,
-  "totalPages": 831,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
     {
-      "id": "news:kcna:9a288d43c936902cb570cdfa",
-      "title": "제23차 5.21건축축전 개막",
+      "id": "news:kcna:6714b86f4d3b04533fd32eb1",
+      "title": "2026년 5월 13일 신문개관",
       "date": "2026-05-13",
       "snippet": "(평양 5월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/37b898859884872b49dd3ec511b1b55c",
+      "url": "http://www.kcna.kp/kp/article/detail/c9bd7db4725223ebe3fba90f75d2cca7",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -29,34 +29,38 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9a288d43c936902cb570cdfa"
+      "detailUrl": "/news/document?id=news%3Akcna%3A6714b86f4d3b04533fd32eb1"
     },
     {
-      "id": "news:kcna:581448ded2e4a0f7c90bdc1e",
-      "title": "황해북도의 농촌들에서 가물극복대책에 힘을 넣으며 당면한 영농공정 추진",
+      "id": "news:kcna:5bd5e55bd40c314d6e93b854",
+      "title": "윁남공산당 중앙위원회 총비서이며 윁남사회주의공화국 주석인 또 럼동지의 특사 평양 도착",
       "date": "2026-05-13",
       "snippet": "(평양 5월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c38d0a712794b93ab704f64a17e48608",
+      "url": "http://www.kcna.kp/kp/article/detail/75a79d989445ff686d4763f4185337cd",
       "mediaType": "article",
       "categories": [
+        "important",
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 112,
+        "foreign": 175,
         "domestic": 1161
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A581448ded2e4a0f7c90bdc1e"
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064a56eb7fd6cc551cc1cefe21b6e11b276",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/bfd2c6c24ac1dd02e9deba9d9ceef119ed924b6b259c3f08d8b7eb16939d31ea.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5bd5e55bd40c314d6e93b854"
     },
     {
-      "id": "news:kcna:3c88aed03ee6c9a1b16060b2",
-      "title": "함경북도에서 지방공업제품전시회 진행",
+      "id": "news:kcna:3bca528e75bb8d5626aba44a",
+      "title": "조선직업총동맹 제9차대회 참가자들을 위한 강습 진행",
       "date": "2026-05-13",
       "snippet": "(평양 5월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/96fd8851a4594a760cbe5c62765c2636",
+      "url": "http://www.kcna.kp/kp/article/detail/b8953d9e0913640e925ce9cc000ddafd",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -65,43 +69,47 @@
         "domestic": 1162
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3c88aed03ee6c9a1b16060b2"
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e0000649a37ac09f77cff96d81a33f6a797134f",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/72e86df220fccbfe226c1b65e4d25024e7232ee93a02b80b817401e1a149346c.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3bca528e75bb8d5626aba44a"
     },
     {
-      "id": "news:kcna:68d563102c3cdf418c26263e",
-      "title": "각지에서 민족유산보호관리사업 활발",
+      "id": "news:kcna:bb232e269b7e524a9b63e224",
+      "title": "조선직업총동맹 제9차대회 진행",
       "date": "2026-05-13",
       "snippet": "(평양 5월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ad3ce8d9fecc1c4ca5b05bebb05fc429",
+      "url": "http://www.kcna.kp/kp/article/detail/945008fec7a5ffb982d98fc61e1c4ae2",
       "mediaType": "article",
       "categories": [
+        "important",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 113,
         "domestic": 1163
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A68d563102c3cdf418c26263e"
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064e88354fa20d1724b37ccef2c2d61de95",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/3ee37b0be00790b4a52b925fabbde711346e8df7fc446e64725ba08385ff5d91.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abb232e269b7e524a9b63e224"
     },
     {
-      "id": "news:kcna:889d577b93ec5736297b9b0a",
-      "title": "우리 나라의 풍부한 산천수치료자원",
-      "date": "2026-05-12",
-      "snippet": "(평양 5월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/89d6563a1a3937313a0b8ea12ba7cd17",
+      "id": "news:kcna:53c19e796ce1619a618123c0",
+      "title": "조선로동당 중앙위원회가 조선직업총동맹 제9차대회 참가자들과 전국의 로동계급과 직맹원들에게 축하문을 보내였다",
+      "date": "2026-05-13",
+      "snippet": "(평양 5월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/97dca743b21e7cd5ef3ec55b36fba24c",
       "mediaType": "article",
       "categories": [
+        "important",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 114,
         "domestic": 1164
       },
       "featuredSections": [],
@@ -109,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A889d577b93ec5736297b9b0a"
+      "detailUrl": "/news/document?id=news%3Akcna%3A53c19e796ce1619a618123c0"
     }
   ]
 }

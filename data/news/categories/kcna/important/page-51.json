@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,30 @@
   "totalItems": 521,
   "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:98264e9b5e231673ff240251",
+      "title": "경애하는 김정은동지께 외국의 정당들이 꽃바구니를 보내여왔다",
+      "date": "2026-03-03",
+      "snippet": "(평양 3월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0f0245e35eea5d0c91ddbd09465c4cd8",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 250,
+        "international": 1323,
+        "foreign": 346
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e601970a990c659f1c4e799cac68b4f2a80",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/0a088014e99925fa96a355b0a391d93eee4ef9c76bb8b6410cef55c7f98a8d62.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A98264e9b5e231673ff240251"
+    },
     {
       "id": "news:kcna:73cd30efa947979a95395710",
       "title": "경애하는 김정은동지께 뜻깊은 2월의 명절에 즈음하여 여러 나라에서 축전과 축하편지를 보내여왔다",
@@ -24,7 +48,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 250,
+        "important": 251,
         "international": 1324,
         "foreign": 347
       },
@@ -47,8 +71,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 251,
-        "domestic": 2019
+        "important": 252,
+        "domestic": 2025
       },
       "featuredSections": [],
       "hasImage": true,
@@ -70,9 +94,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 252,
+        "important": 253,
         "document": 38,
-        "domestic": 2027
+        "domestic": 2033
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,7 +118,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 253,
+        "important": 254,
         "international": 1340,
         "foreign": 348
       },
@@ -104,28 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A6800ca50ddbfb7a7593ffa35"
-    },
-    {
-      "id": "news:kcna:757a95e7581bf7fd81de77f7",
-      "title": "전국의 시,군책임일군들 삼광축산농장을 참관",
-      "date": "2026-03-01",
-      "snippet": "(평양 3월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0b0c526fadc0ce3b2c7b7ff4f7ca6c0a",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 254,
-        "domestic": 2037
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e607f8d2473eda905abb6fd3e7792e5b688",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/3a880e6ee9cc9afb3fb2d7426ecd149b0d0c508727ba348c0b85f9b56768742d.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A757a95e7581bf7fd81de77f7"
     }
   ]
 }

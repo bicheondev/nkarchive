@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,28 @@
   "totalItems": 521,
   "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:962905b99e0bddd1d82f80ca",
+      "title": "신의주온실종합농장에서 첫물남새 수확",
+      "date": "2026-02-09",
+      "snippet": "(평양 2월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d31907f0e2b8bd45c4535d892dbc8ba7",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 300,
+        "domestic": 2251
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366fc7c9fdd4402ecd08cc40f1ffe52c592",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/24882473a4345e171d9bfcabda06c22c5882bd167ec31c2db48b77644a0b90ea.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A962905b99e0bddd1d82f80ca"
+    },
     {
       "id": "news:kcna:d8ed161c12b0c90801b107d2",
       "title": "건군절에 즈음하여 인민군지휘성원들 금수산태양궁전을 찾아 숭고한 경의 표시",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 300,
-        "domestic": 2250
+        "important": 301,
+        "domestic": 2256
       },
       "featuredSections": [],
       "hasImage": true,
@@ -45,8 +67,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 301,
-        "domestic": 2258
+        "important": 302,
+        "domestic": 2264
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,7 +90,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 302,
+        "important": 303,
         "international": 1530,
         "foreign": 402
       },
@@ -91,8 +113,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 303,
-        "domestic": 2277
+        "important": 304,
+        "domestic": 2283
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,30 +122,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aa5e5ef9126693394f5170bfb"
-    },
-    {
-      "id": "news:kcna:53a5169e066d1ab675971c7f",
-      "title": "경애하는 김정은동지께 우리 나라 주재 무관단이 꽃바구니와 축하편지를 드리였다",
-      "date": "2026-02-03",
-      "snippet": "(평양 2월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2c6a566564578d81e557c27e923d9540",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 304,
-        "foreign": 404,
-        "domestic": 2314
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf3667b51c6123ccf13dc23405aee6f19cba6",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/82927b749b4bdfbc8e9f4b2e1f2b0c48439b3bb5143d2e797f7208ad0bfebfa5.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A53a5169e066d1ab675971c7f"
     }
   ]
 }

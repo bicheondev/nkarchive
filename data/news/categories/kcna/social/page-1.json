@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "social",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 684,
+  "totalItems": 682,
   "totalPages": 137,
   "articles": [
+    {
+      "id": "news:kcna:0b520fbd8edba07cb35a7190",
+      "title": "평안북도에서 대학생들에 대한 교양사업 진행",
+      "date": "2026-08-28",
+      "snippet": "(평양 8월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8881a854719346a19fe1beb88b11ce31",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 5,
+        "social": 0
+      },
+      "featuredSections": [
+        "social"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0b520fbd8edba07cb35a7190"
+    },
     {
       "id": "news:kcna:6b9d66d9c50f72d83fda947b",
       "title": "황해북도의 녀성들 사회주의건설의 전구들로 진출",
@@ -23,8 +47,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 11,
-        "social": 0
+        "domestic": 17,
+        "social": 1
       },
       "featuredSections": [
         "social"
@@ -47,8 +71,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 17,
-        "social": 1
+        "domestic": 23,
+        "social": 2
       },
       "featuredSections": [
         "social"
@@ -71,8 +95,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 23,
-        "social": 2
+        "domestic": 29,
+        "social": 3
       },
       "featuredSections": [
         "social"
@@ -95,30 +119,6 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 37,
-        "social": 3
-      },
-      "featuredSections": [
-        "social"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2e95323aad63ecec326b5590"
-    },
-    {
-      "id": "news:kcna:121631f8724adb26e6c90184",
-      "title": "함경남도의 녀성들 창조와 혁신의 전구들로 진출",
-      "date": "2026-08-24",
-      "snippet": "(평양 8월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6f3c72f4b2b9886d7d441e27e86c2c97",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
         "domestic": 43,
         "social": 4
       },
@@ -129,7 +129,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A121631f8724adb26e6c90184"
+      "detailUrl": "/news/document?id=news%3Akcna%3A2e95323aad63ecec326b5590"
     }
   ]
 }

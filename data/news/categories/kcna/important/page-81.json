@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,28 @@
   "totalItems": 521,
   "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:e0ebd1558e506d666047b1c0",
+      "title": "경애하는 김정은동지께 제18차 평양국제영화축전 참가자들이 편지를 올리였다",
+      "date": "2025-10-28",
+      "snippet": "(평양 10월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b0b6f786c6d7b18ea882dbf9c1113e1c",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 400,
+        "domestic": 3365
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae0ebd1558e506d666047b1c0"
+    },
     {
       "id": "news:kcna:5fbd691ed10d22c096123143",
       "title": "조선민주주의인민공화국 외무상과 로씨야련방 외무상사이의 회담에 관한 공보문 발표",
@@ -25,7 +47,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 400,
+        "important": 401,
         "international": 2250,
         "document": 55,
         "foreign": 526
@@ -50,7 +72,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 401,
+        "important": 402,
         "international": 2251,
         "foreign": 527
       },
@@ -73,8 +95,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 402,
-        "domestic": 3360
+        "important": 403,
+        "domestic": 3366
       },
       "featuredSections": [],
       "hasImage": true,
@@ -96,9 +118,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 403,
+        "important": 404,
         "foreign": 530,
-        "domestic": 3370
+        "domestic": 3376
       },
       "featuredSections": [],
       "hasImage": true,
@@ -106,30 +128,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d939330a3c312adbd317a4c440cd20c0f51371e",
       "cachedThumbnailUrl": "/data/news/assets/kcna/755052056b955ca8850461a520fbb08e1713998c8c72e1b3099c22a8ccc4e771.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A104c510f17ed109309e2f0c7"
-    },
-    {
-      "id": "news:kcna:a73eb61edb4b97df2e9e17f2",
-      "title": "조선민주주의인민공화국 외무상 최선희동지가 로씨야련방과 벨라루씨공화국을 방문한다",
-      "date": "2025-10-26",
-      "snippet": "(평양 10월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/34e1a6918ef6b1571ec6bbe46d1c8a48",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 404,
-        "foreign": 533,
-        "domestic": 3378
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa73eb61edb4b97df2e9e17f2"
     }
   ]
 }

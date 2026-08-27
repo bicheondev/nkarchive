@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,28 @@
   "totalItems": 521,
   "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:fca12b40f610213732046b6a",
+      "title": "남포조선소의 로동계급이 받아안은 크나큰 은정",
+      "date": "2026-06-26",
+      "snippet": "(평양 6월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bb4036f156670ce7d2093cbd1b9ad259",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 75,
+        "domestic": 702
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afca12b40f610213732046b6a"
+    },
     {
       "id": "news:kcna:0ecf7d736a74522ae83d3e4f",
       "title": "조선로동당 중앙위원회 제9기 제2차전원회의 공보",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 75,
-        "domestic": 726
+        "important": 76,
+        "domestic": 732
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,9 +68,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 76,
+        "important": 77,
         "document": 10,
-        "domestic": 768
+        "domestic": 774
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +91,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 77,
-        "domestic": 794
+        "important": 78,
+        "domestic": 800
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,9 +114,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 78,
+        "important": 79,
         "foreign": 127,
-        "domestic": 795
+        "domestic": 801
       },
       "featuredSections": [],
       "hasImage": false,
@@ -102,30 +124,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ada2c339b55f294ea39393cd0"
-    },
-    {
-      "id": "news:kcna:6e728db76be87a142aa2dd9a",
-      "title": "조용원동지가 윁남사회주의공화국 공안상을 만났다",
-      "date": "2026-06-16",
-      "snippet": "(평양 6월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d480a32c33986ccaf8de9ea7b90bb07c",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 79,
-        "foreign": 128,
-        "domestic": 796
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e3a41e9bb77cdafc2fca6ab0bec8681d3e",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/46b531957bec42d5a6ac72e464260a8d726ac58a689d0ea0c68405babbcbde49.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6e728db76be87a142aa2dd9a"
     }
   ]
 }

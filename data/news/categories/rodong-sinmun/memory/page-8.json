@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T00:00:00.000Z",
-  "version": "fe3727ce289b49af",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "version": "2059d3c65de5653b",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,15 +8,15 @@
   "section": "memory",
   "page": 8,
   "pageSize": 5,
-  "totalItems": 36,
+  "totalItems": 37,
   "totalPages": 8,
   "articles": [
     {
-      "id": "news:rodong-sinmun:70674d6ff7d185d4dda84b17",
-      "title": "사회주의 우리 집에 꽃펴난 아름다운 이야기",
-      "date": "2026-01-03",
-      "snippet": "사회주의 우리 집에 꽃펴난 아름다운 이야기",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wMy0wMDlANUAzQEAwQDM2QA==",
+      "id": "news:rodong-sinmun:cc330c39469dac8ecbb5d9b3",
+      "title": "고상한 인간관계가 꽃피운 화폭",
+      "date": "2026-01-06",
+      "snippet": "고상한 인간관계가 꽃피운 화폭",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wNi0wMzBANUAzQEAwQDM2QA==",
       "mediaType": "article",
       "categories": [
         "memory"
@@ -28,8 +28,28 @@
       "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "",
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/7c8448f8243cad01b3f12861e0de4ed74026ca9359da939c94b5bdd91349ae53.jpg",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Acc330c39469dac8ecbb5d9b3"
+    },
+    {
+      "id": "news:rodong-sinmun:27e3754c2764b27d99268cec",
+      "title": "사회주의 우리 집에 꽃펴난 아름다운 이야기\n한식솔이 되여",
+      "date": "2026-01-03",
+      "snippet": "사회주의 우리 집에 꽃펴난 아름다운 이야기",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wMy0wMDlANUAzQEAwQDM3QA==",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 36
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "",
       "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/a9969c52940ccef985255226b994d929284612922735ec3a9d1a3adb605d2131.jpg",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A70674d6ff7d185d4dda84b17"
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A27e3754c2764b27d99268cec"
     }
   ]
 }
