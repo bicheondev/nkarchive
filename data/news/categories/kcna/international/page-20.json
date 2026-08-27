@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "d811e40257b41a43",
+  "generatedAt": "2026-08-27T00:00:00.000Z",
+  "version": "fe3727ce289b49af",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,39 @@
   "section": "international",
   "page": 20,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
     {
-      "id": "news:kcna:ae582216ac7dbefa3119b95b",
-      "title": "경애하는 김정은동지께 나이제리아련방공화국 대통령이 꽃바구니를 보내여왔다",
-      "date": "2026-08-13",
-      "snippet": "(평양 8월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5c394d5ef868807860d30830b54b0e14",
+      "id": "kcna-cf5c8f7988a16297",
+      "title": "경애하는 김정은동지께 외국의 인사들이 꽃바구니를 보내여왔다",
+      "date": "2026-08-14",
+      "snippet": "(평양 8월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/611841db69db9c2ca768a6db3a754a54",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 13,
+        "international": 95,
+        "foreign": 28
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29e945a66f0f9520bb97ad4df9a0440d7b",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/0d77100e1d1f5cdb1c3573faf06d3ad576be94168938d3d1cdcd62558982044d.jpg",
+      "detailUrl": "/news/document?id=kcna-cf5c8f7988a16297"
+    },
+    {
+      "id": "kcna-7891b3f1478f5756",
+      "title": "미국의 새로운 핵전략은 전지구적인 안전환경을 핵전쟁폭발의 림계점으로 몰아가는 중대위협이다",
+      "date": "2026-08-14",
+      "snippet": "(평양 8월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a2795aefd7c2d968fe979d2f643e02e1",
       "mediaType": "article",
       "categories": [
         "important",
@@ -25,46 +49,22 @@
       ],
       "categoryOrders": {
         "important": 16,
-        "international": 95,
-        "foreign": 30
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2984b6c174df1f7beaf862e1d4e1434188",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/eae41ba364d7269f5ed9fa9d4f5eed0e4bc55715ec2f7758444e0c8c267cff8b.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aae582216ac7dbefa3119b95b"
-    },
-    {
-      "id": "news:kcna:0681211d935ea830f05ad49b",
-      "title": "경애하는 김정은동지께 팔레스티나국가 대통령이 꽃바구니를 보내여왔다",
-      "date": "2026-08-13",
-      "snippet": "(평양 8월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2a88a2554a28164da001a57b94832d4c",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 17,
         "international": 96,
         "foreign": 31
       },
       "featuredSections": [],
-      "hasImage": true,
+      "hasImage": false,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29f094e4325e79469d68d5259d03f775d7",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/fcada280271644842d75011cef6f4c657d9cb4f17fd46aec83889b179713ea74.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0681211d935ea830f05ad49b"
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=kcna-7891b3f1478f5756"
     },
     {
-      "id": "news:kcna:1cd26a2c87affcf9f0dc2148",
-      "title": "짐바브웨대통령 나라의 번영을 위해 노력할것을 호소",
-      "date": "2026-08-12",
-      "snippet": "(평양 8월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/887242b9880d7ad73a211fe732e9438d",
+      "id": "news:kcna:9457f66d5470e5dedbf93968",
+      "title": "태풍17호 발생",
+      "date": "2026-08-13",
+      "snippet": "(평양 8월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/917c4397debb475f78d7a6e29a212179",
       "mediaType": "article",
       "categories": [
         "international"
@@ -77,14 +77,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1cd26a2c87affcf9f0dc2148"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9457f66d5470e5dedbf93968"
     },
     {
-      "id": "news:kcna:59e0006fd165bbff20bfb088",
-      "title": "캄보쟈에서 수출액 증대",
-      "date": "2026-08-12",
-      "snippet": "(평양 8월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1cb0fabd11bedeacd6b1afed0b237010",
+      "id": "news:kcna:1ab091b13ab23467716ee8f3",
+      "title": "인도네시아에서 자연생태계를 복구하기 위해 노력",
+      "date": "2026-08-13",
+      "snippet": "(평양 8월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f0da7bce84530f3e8784fb4d74327f4c",
       "mediaType": "article",
       "categories": [
         "international"
@@ -97,14 +97,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A59e0006fd165bbff20bfb088"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1ab091b13ab23467716ee8f3"
     },
     {
-      "id": "news:kcna:ccda186b7f2effa42df8a505",
-      "title": "력사와 추억,인민의 배반자들은 그 누구의 존중도 받지 못한다--로씨야외무성 대변인 일본당국자들을 비난",
-      "date": "2026-08-12",
-      "snippet": "(모스크바 8월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f513ccd446302c9765de8ccb3ae4e3e1",
+      "id": "news:kcna:25672e26e850c0630ae3e741",
+      "title": "아프가니스탄과 먄마에서 마약압수",
+      "date": "2026-08-13",
+      "snippet": "(평양 8월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/53f91b98281f6cdc1646db9e1cb9da85",
       "mediaType": "article",
       "categories": [
         "international"
@@ -117,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Accda186b7f2effa42df8a505"
+      "detailUrl": "/news/document?id=news%3Akcna%3A25672e26e850c0630ae3e741"
     }
   ]
 }

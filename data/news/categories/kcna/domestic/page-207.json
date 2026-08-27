@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "d811e40257b41a43",
+  "generatedAt": "2026-08-27T00:00:00.000Z",
+  "version": "fe3727ce289b49af",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,15 @@
   "section": "domestic",
   "page": 207,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4155,
   "totalPages": 831,
   "articles": [
     {
-      "id": "news:kcna:4c97ac06ec4bc8d80b4cbdda",
-      "title": "각지에서 수천정보의 원료림 새로 조성",
-      "date": "2026-05-24",
-      "snippet": "(평양 5월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/019c6bcec4ce8f17444797a3064f3725",
+      "id": "news:kcna:a96f0d02b0aa6365f8252bc2",
+      "title": "평양시안의 농촌들에서 모내기성과 확대",
+      "date": "2026-05-26",
+      "snippet": "(평양 5월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b96a2ccaa7d88269099653b553cbf0f5",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -29,14 +29,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4c97ac06ec4bc8d80b4cbdda"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa96f0d02b0aa6365f8252bc2"
     },
     {
-      "id": "news:kcna:a56f6aa3015472eb4ea7a386",
-      "title": "중앙급병원의 의료일군들 평남탄전에서 현장치료대활동 전개",
-      "date": "2026-05-24",
-      "snippet": "(평양 5월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e1313298c709c01867f18fb262be0e6e",
+      "id": "news:kcna:5776f42746babaaec8705d65",
+      "title": "2026년 5월 26일 《로동신문》개관",
+      "date": "2026-05-26",
+      "snippet": "(평양 5월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ea744fc3415935fa4c5613d42af2860a",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -49,54 +49,60 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa56f6aa3015472eb4ea7a386"
+      "detailUrl": "/news/document?id=news%3Akcna%3A5776f42746babaaec8705d65"
     },
     {
-      "id": "news:kcna:c29702e25f9d2d50f4ac79ea",
-      "title": "개성시의 농촌들에서 벼모내기성과 확대",
-      "date": "2026-05-24",
-      "snippet": "(평양 5월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/004ddfd71f580bae9d1fbf06103d8696",
+      "id": "news:kcna:b552418c4629c5ed8c89a634",
+      "title": "해외군사작전 전투위훈기념관 개관후 한달동안 43만 5,000여명의 각계층 근로자들과 인민군군인들,청소년학생들이 경의표시",
+      "date": "2026-05-26",
+      "snippet": "(평양 5월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8aa0b866296031b26ca9384b6e23e2c7",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "important",
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 1032
+        "important": 101,
+        "domestic": 1032,
+        "social": 104
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e0000649079c755ee7c8c02d1e802d412f3e39e",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/bcaeb3e39b530357bc7212e0d8aa22c9d51a164743045e7b3733e5d29bc9877e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab552418c4629c5ed8c89a634"
+    },
+    {
+      "id": "news:kcna:a743b32a9c814abbbb83fe30",
+      "title": "경애하는 아버지 김정은원수님께 삼가 드리는 각 도소년단원들의 충성의 편지이어달리기대렬들이 평양을 향하여 계속 달리고있다",
+      "date": "2026-05-26",
+      "snippet": "(평양 5월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bd6747a899dba80d2d7e46e2bf675969",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 1033,
+        "social": 105
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac29702e25f9d2d50f4ac79ea"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa743b32a9c814abbbb83fe30"
     },
     {
-      "id": "news:kcna:70adeb5b0edceb40a323231d",
-      "title": "평양시안의 고려약공장들에서 효능높은 고려약들을 개발생산",
-      "date": "2026-05-24",
-      "snippet": "(평양 5월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0472f8821d6236e159da6b9ee01feaf6",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1033
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A70adeb5b0edceb40a323231d"
-    },
-    {
-      "id": "news:kcna:68d61d55a58a1c28c2ba5510",
-      "title": "청진뜨락또르부속품공장에서 생산정상화와 물질기술적토대구축 립체적으로 추진",
-      "date": "2026-05-24",
-      "snippet": "(평양 5월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3753d1c9026daf88dfaedc31cec840bf",
+      "id": "news:kcna:6c022b80a7527efbd53d001a",
+      "title": "묘향산의 등산길에 새겨진 인민사랑의 자욱",
+      "date": "2026-05-25",
+      "snippet": "(평양 5월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/62ac98f4cb0b6ba06366595ea6f880d6",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -109,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A68d61d55a58a1c28c2ba5510"
+      "detailUrl": "/news/document?id=news%3Akcna%3A6c022b80a7527efbd53d001a"
     }
   ]
 }

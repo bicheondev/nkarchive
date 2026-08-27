@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "d811e40257b41a43",
+  "generatedAt": "2026-08-27T00:00:00.000Z",
+  "version": "fe3727ce289b49af",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "document",
   "page": 9,
   "pageSize": 5,
-  "totalItems": 59,
+  "totalItems": 60,
   "totalPages": 12,
   "articles": [
+    {
+      "id": "news:kcna:b5334ffbc05de0c50ca51cf2",
+      "title": "경애하는 김정은동지께서 이 나라를 이끌어주시기를 우리 인민모두가 일심으로 념원하고있다고 강조",
+      "date": "2026-02-23",
+      "snippet": "(평양 2월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/fba18714277fe618641ae17d72016dcd",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 278,
+        "document": 40,
+        "domestic": 2099
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366391049519d74619e06e3c6ce5cd922f4",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/6844d228094ddf66e36e89e87755a3f65cc167d01696a5ffae760c9e18977907.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab5334ffbc05de0c50ca51cf2"
+    },
     {
       "id": "news:kcna:3d7bb88694a564817d44519e",
       "title": "조선로동당 제9차대회에서 조선로동당규약 개정",
@@ -24,9 +48,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 278,
-        "document": 40,
-        "domestic": 2086
+        "important": 279,
+        "document": 41,
+        "domestic": 2100
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,9 +72,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 279,
-        "document": 41,
-        "domestic": 2087
+        "important": 280,
+        "document": 42,
+        "domestic": 2101
       },
       "featuredSections": [],
       "hasImage": false,
@@ -71,8 +95,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 42,
-        "domestic": 2099
+        "document": 43,
+        "domestic": 2113
       },
       "featuredSections": [],
       "hasImage": false,
@@ -95,10 +119,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 283,
-        "document": 43,
-        "foreign": 375,
-        "domestic": 2119
+        "important": 284,
+        "document": 44,
+        "foreign": 379,
+        "domestic": 2133
       },
       "featuredSections": [],
       "hasImage": false,
@@ -106,32 +130,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A009d1ea3dda57e2f5c1080fa"
-    },
-    {
-      "id": "news:kcna:a43ed9f1c8410605a4ddbf6f",
-      "title": "김여정 조선로동당 중앙위원회 부부장 담화 발표",
-      "date": "2026-02-13",
-      "snippet": "(평양 2월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/80bdae2a554dc16fc51270f644943ef2",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 294,
-        "document": 44,
-        "foreign": 390,
-        "domestic": 2194
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa43ed9f1c8410605a4ddbf6f"
     }
   ]
 }

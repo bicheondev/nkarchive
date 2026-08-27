@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "d811e40257b41a43",
+  "generatedAt": "2026-08-27T00:00:00.000Z",
+  "version": "fe3727ce289b49af",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "important",
   "page": 52,
   "pageSize": 5,
-  "totalItems": 520,
-  "totalPages": 104,
+  "totalItems": 521,
+  "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:0b2dbc665df052175beaa500",
+      "title": "당 제9차대회 결정관철을 위한 평양시군민련환대회 및 군중시위 진행",
+      "date": "2026-02-28",
+      "snippet": "(평양 2월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b332d74a27fda341d1866535a61dfb8d",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "important": 255,
+        "domestic": 2040,
+        "social": 250
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/67d9946ed8d7f8ce0dc8324543af2bb033786e2f17444e197d19dadbb951ffa6",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/72931731703c4036aaefe51888662a7cfa7dfbf9fc4129af4e763baaabed4541.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0b2dbc665df052175beaa500"
+    },
     {
       "id": "news:kcna:c84756c5934f19d080ff7a1c",
       "title": "조선로동당 제9차대회 참가자들을 위한 강습 진행",
@@ -23,8 +47,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 255,
-        "domestic": 2036
+        "important": 256,
+        "domestic": 2050
       },
       "featuredSections": [],
       "hasImage": true,
@@ -45,8 +69,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 256,
-        "domestic": 2040
+        "important": 257,
+        "domestic": 2054
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,8 +91,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 257,
-        "domestic": 2041
+        "important": 258,
+        "domestic": 2055
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,9 +114,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 258,
-        "international": 1349,
-        "foreign": 347
+        "important": 259,
+        "international": 1359,
+        "foreign": 351
       },
       "featuredSections": [],
       "hasImage": true,
@@ -100,30 +124,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/67d9946ed8d7f8ce0dc8324543af2bb0796efeecd3eb514586412ebe14d6886f",
       "cachedThumbnailUrl": "/data/news/assets/kcna/2606fe2af582f0196d8f7f5ec05aedfa7424310e1cb966ad972ba6fb33be131c.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A92a9c7d4c526049c76d43955"
-    },
-    {
-      "id": "news:kcna:9a7f6433731a6740b80d1946",
-      "title": "경애하는 김정은동지께 꾸바공산당 중앙위원회 제1비서가 축전을 보내여왔다",
-      "date": "2026-02-27",
-      "snippet": "(평양 2월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1069e7e570787210b0f3c5da10a4049e",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 259,
-        "international": 1351,
-        "foreign": 350
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9a7f6433731a6740b80d1946"
     }
   ]
 }

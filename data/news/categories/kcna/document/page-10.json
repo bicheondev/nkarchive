@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "d811e40257b41a43",
+  "generatedAt": "2026-08-27T00:00:00.000Z",
+  "version": "fe3727ce289b49af",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,35 @@
   "section": "document",
   "page": 10,
   "pageSize": 5,
-  "totalItems": 59,
+  "totalItems": 60,
   "totalPages": 12,
   "articles": [
+    {
+      "id": "news:kcna:a43ed9f1c8410605a4ddbf6f",
+      "title": "김여정 조선로동당 중앙위원회 부부장 담화 발표",
+      "date": "2026-02-13",
+      "snippet": "(평양 2월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/80bdae2a554dc16fc51270f644943ef2",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 295,
+        "document": 45,
+        "foreign": 394,
+        "domestic": 2208
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa43ed9f1c8410605a4ddbf6f"
+    },
     {
       "id": "news:kcna:8d58e8baa6921c246f8704b4",
       "title": "김정일훈장을 사회주의조국의 부강발전에 공헌한 일군들에게 수여",
@@ -23,8 +49,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 45,
-        "domestic": 2203
+        "document": 46,
+        "domestic": 2217
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +71,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 46,
-        "domestic": 2503
+        "document": 47,
+        "domestic": 2517
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,8 +93,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 47,
-        "domestic": 2505
+        "document": 48,
+        "domestic": 2519
       },
       "featuredSections": [],
       "hasImage": false,
@@ -89,8 +115,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 48,
-        "domestic": 2517
+        "document": 49,
+        "domestic": 2531
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,32 +124,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ad8ecbbf64f1778e2c6f62418"
-    },
-    {
-      "id": "news:kcna:62f248d2e41252c3dbda5854",
-      "title": "김여정 조선로동당 중앙위원회 부부장 담화발표",
-      "date": "2026-01-13",
-      "snippet": "(평양 1월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0590b6dde94f52b8ba49512685d5cf24",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "document",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 315,
-        "international": 1697,
-        "document": 49,
-        "domestic": 2519
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A62f248d2e41252c3dbda5854"
     }
   ]
 }

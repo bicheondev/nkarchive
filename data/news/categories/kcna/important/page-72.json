@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "d811e40257b41a43",
+  "generatedAt": "2026-08-27T00:00:00.000Z",
+  "version": "fe3727ce289b49af",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "important",
   "page": 72,
   "pageSize": 5,
-  "totalItems": 520,
-  "totalPages": 104,
+  "totalItems": 521,
+  "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:34104168d0a68fa94bd9f695",
+      "title": "랑림군에서 지방공업공장 준공식 진행",
+      "date": "2025-12-16",
+      "snippet": "(평양 12월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9b22f25ce9d4d0ae8af64b1f8befc3b2",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 355,
+        "domestic": 2809
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ffd22ef53aa15b6aba6ac599f1615fd4e1",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/e055478527705072d1da241ef5a24489ae41c0ef1e83acfc96b108724f4a34f1.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A34104168d0a68fa94bd9f695"
+    },
     {
       "id": "news:kcna:a4732de4ad4b91484e7cd3bc",
       "title": "당과 정부의 지도간부들 로씨야련방대사관을 방문하여 조의 표시",
@@ -24,9 +46,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 355,
-        "foreign": 461,
-        "domestic": 2834
+        "important": 356,
+        "foreign": 465,
+        "domestic": 2848
       },
       "featuredSections": [],
       "hasImage": true,
@@ -48,9 +70,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 356,
-        "foreign": 462,
-        "domestic": 2835
+        "important": 357,
+        "foreign": 466,
+        "domestic": 2849
       },
       "featuredSections": [],
       "hasImage": true,
@@ -72,9 +94,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 357,
-        "foreign": 463,
-        "domestic": 2836
+        "important": 358,
+        "foreign": 467,
+        "domestic": 2850
       },
       "featuredSections": [],
       "hasImage": false,
@@ -95,8 +117,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 358,
-        "international": 1939
+        "important": 359,
+        "international": 1949
       },
       "featuredSections": [],
       "hasImage": false,
@@ -104,30 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A3ec127bc98cef2345cec696f"
-    },
-    {
-      "id": "news:kcna:c1200f5481fbd03a022d99b5",
-      "title": "조선민주주의인민공화국 외무상 최선희동지가 로씨야련방 외무상에게 조전을 보내였다",
-      "date": "2025-12-09",
-      "snippet": "(평양 12월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f90452a213beb3a4902fff4c2cb43657",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 359,
-        "foreign": 464,
-        "domestic": 2857
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac1200f5481fbd03a022d99b5"
     }
   ]
 }

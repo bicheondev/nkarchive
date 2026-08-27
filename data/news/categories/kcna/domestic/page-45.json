@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "d811e40257b41a43",
+  "generatedAt": "2026-08-27T00:00:00.000Z",
+  "version": "fe3727ce289b49af",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,15 @@
   "section": "domestic",
   "page": 45,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4155,
   "totalPages": 831,
   "articles": [
     {
-      "id": "news:kcna:9faf4f03a2603fb3a10d6a88",
-      "title": "서해포구의 보물고-금산포젓갈가공공장",
-      "date": "2026-08-07",
-      "snippet": "(평양 8월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8d8a52ace0635b16eb1f2cda2f405b87",
+      "id": "news:kcna:680dbcedf9da6be897b0d63e",
+      "title": "2026년 8월 8일 신문개관",
+      "date": "2026-08-08",
+      "snippet": "(평양 8월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d5ee5314da4eb4d4a4c5465477f9372b",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -29,54 +29,62 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9faf4f03a2603fb3a10d6a88"
+      "detailUrl": "/news/document?id=news%3Akcna%3A680dbcedf9da6be897b0d63e"
     },
     {
-      "id": "news:kcna:b024e154f474fe37d8912121",
-      "title": "3대혁명전시관 창립 80돐을 기념",
-      "date": "2026-08-06",
-      "snippet": "(평양 8월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e067954f580db8009e01858dae8a87b3",
+      "id": "kcna-e45e2417bd0946dc",
+      "title": "국립교향악단의 공로있는 창작가,예술인들에게 김일성상,조선민주주의인민공화국 훈장을 수여",
+      "date": "2026-08-08",
+      "snippet": "(평양 8월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e8630a5118232c742e613834f9597b6f",
       "mediaType": "article",
       "categories": [
+        "important",
+        "document",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 23,
+        "document": 5,
         "domestic": 221
       },
-      "featuredSections": [],
+      "featuredSections": [
+        "document"
+      ],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab024e154f474fe37d8912121"
+      "detailUrl": "/news/document?id=kcna-e45e2417bd0946dc"
     },
     {
-      "id": "news:kcna:e869b026c4f96ebf339eb3d1",
-      "title": "함경남도에서 학생청년기동선동대,대학생취주악대활동 진행",
-      "date": "2026-08-06",
-      "snippet": "(평양 8월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e35a485b44653f9720a1e6f78d7349c5",
+      "id": "news:kcna:ab476e00f7ef4e48a3f8c722",
+      "title": "박태성 내각총리 여러 부문 사업 현지료해",
+      "date": "2026-08-08",
+      "snippet": "(평양 8월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b5c2ef1e18a9684f8ec84db27cb8af80",
       "mediaType": "article",
       "categories": [
+        "important",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 24,
         "domestic": 222
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae869b026c4f96ebf339eb3d1"
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f292373a0e42c14bb9f8e533b25a09bcbfb",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/e30e295d50c9d736d2bde1ea1329091a8ce766182d7856663c25fd028ac06fb7.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aab476e00f7ef4e48a3f8c722"
     },
     {
-      "id": "news:kcna:c898ec8fc12fcf6d2bf831b0",
-      "title": "각지 태권도교수훈련 및 후비육성단위들에서 전도유망한 선수들을 키워내기 위한 사업 전개",
-      "date": "2026-08-06",
-      "snippet": "(평양 8월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/41ade8a7bbd5163a3fc7bcf862b267dd",
+      "id": "news:kcna:f4bb0aa3b2231b29bfe13e82",
+      "title": "영생불멸의 혁명송가 《김일성장군의 노래》가 울려퍼진 때로부터 지난 80년간 수많은 수령송가들 창작",
+      "date": "2026-08-08",
+      "snippet": "(평양 8월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e250fa88e3975fac3447ee2f66e7d324",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -89,14 +97,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac898ec8fc12fcf6d2bf831b0"
+      "detailUrl": "/news/document?id=news%3Akcna%3Af4bb0aa3b2231b29bfe13e82"
     },
     {
-      "id": "news:kcna:be00002b937d5f5127bc7740",
-      "title": "강동종합온실농장에서 남새생산의 지속적장성을 위한 물질기술적토대 강화",
-      "date": "2026-08-06",
-      "snippet": "(평양 8월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/386268fa8064e0d021f3cada58f1572c",
+      "id": "news:kcna:aff165d4d469bfd67a652cd9",
+      "title": "수산부문에서 성능높은 배들을 건조",
+      "date": "2026-08-08",
+      "snippet": "(평양 8월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/01457160945d8af4660d57f62999e77f",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -109,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abe00002b937d5f5127bc7740"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaff165d4d469bfd67a652cd9"
     }
   ]
 }

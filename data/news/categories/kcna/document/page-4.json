@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "d811e40257b41a43",
+  "generatedAt": "2026-08-27T00:00:00.000Z",
+  "version": "fe3727ce289b49af",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,35 @@
   "section": "document",
   "page": 4,
   "pageSize": 5,
-  "totalItems": 59,
+  "totalItems": 60,
   "totalPages": 12,
   "articles": [
+    {
+      "id": "news:kcna:fa17eb54bec9abb94af6e90f",
+      "title": "조선민주주의인민공화국 외무성 대변인대답",
+      "date": "2026-05-28",
+      "snippet": "(평양 5월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f988c712e6a20ad22daa64e8df3fec01",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 97,
+        "document": 15,
+        "foreign": 155,
+        "domestic": 1005
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afa17eb54bec9abb94af6e90f"
+    },
     {
       "id": "news:kcna:d808728850182592b9cb5b29",
       "title": "조선로동당 중앙위원회 정치국 당중앙위원회 제9기 제2차전원회의를 소집할것을 결정",
@@ -24,9 +50,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 101,
-        "document": 15,
-        "domestic": 1027
+        "important": 102,
+        "document": 16,
+        "domestic": 1041
       },
       "featuredSections": [],
       "hasImage": false,
@@ -49,10 +75,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 106,
-        "document": 16,
-        "foreign": 166,
-        "domestic": 1113
+        "important": 107,
+        "document": 17,
+        "foreign": 170,
+        "domestic": 1127
       },
       "featuredSections": [],
       "hasImage": false,
@@ -75,10 +101,10 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 119,
-        "international": 800,
-        "document": 17,
-        "foreign": 180
+        "important": 120,
+        "international": 810,
+        "document": 18,
+        "foreign": 184
       },
       "featuredSections": [],
       "hasImage": false,
@@ -99,8 +125,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 18,
-        "domestic": 1274
+        "document": 19,
+        "domestic": 1288
       },
       "featuredSections": [],
       "hasImage": false,
@@ -108,32 +134,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A13f6e4e4b182d5e590a51f25"
-    },
-    {
-      "id": "news:kcna:6dc8e4c2ff6c13f675e60637",
-      "title": "조선민주주의인민공화국 외무성 일본연구소 정책실장 담화발표",
-      "date": "2026-04-15",
-      "snippet": "(평양 4월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/028bb07339dad7bdf8be473f3f597634",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 154,
-        "document": 19,
-        "foreign": 237,
-        "domestic": 1483
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6dc8e4c2ff6c13f675e60637"
     }
   ]
 }

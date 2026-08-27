@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T00:00:00.000Z",
-  "version": "d811e40257b41a43",
+  "generatedAt": "2026-08-27T00:00:00.000Z",
+  "version": "fe3727ce289b49af",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,28 +8,52 @@
   "section": "international",
   "page": 555,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
     {
-      "id": "news:kcna:0a57a5956b360f48807368b8",
-      "title": "조선중앙통신사 론평--《비핵화망상증》에 걸린 위선자의 정체가 드러났다",
-      "date": "2025-08-27",
-      "snippet": "(평양 8월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/97f964b9602e5d14e9fc503d7e68f18f",
+      "id": "news:kcna:abac2ddf48743104c9986556",
+      "title": "이스라엘에서 반전시위",
+      "date": "2025-08-28",
+      "snippet": "(평양 8월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bbdce54c20969f477b8a9f79d21e23fb",
       "mediaType": "article",
       "categories": [
-        "international"
+        "international",
+        "social"
       ],
       "categoryOrders": {
-        "international": 2770
+        "international": 2770,
+        "social": 681
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0a57a5956b360f48807368b8"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aabac2ddf48743104c9986556"
+    },
+    {
+      "id": "news:kcna:00e5bfc1128c863cfc0969c5",
+      "title": "조국해방 80돐에 즈음하여 로씨야에서 경축행사들 진행",
+      "date": "2025-08-28",
+      "snippet": "(평양 8월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e5928e16c5e4a40908422582371b8c5f",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 2771,
+        "foreign": 773
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A00e5bfc1128c863cfc0969c5"
     }
   ]
 }
