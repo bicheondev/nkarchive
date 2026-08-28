@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T00:00:00.000Z",
-  "version": "0ba8409845f99458",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "version": "4ff17ddf145818e7",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -12,6 +12,28 @@
   "totalPages": 21,
   "articles": [
     {
+      "id": "news:kcna:f145d29a023c9491077b8fb5",
+      "title": "훌륭한 인생길을 끝까지 걸어가도록",
+      "date": "2026-08-28",
+      "snippet": "2021년 청년절을 맞으며 성대한 경축행사를 조직해주신 경애하는 아버지 김정은원수님께서는 사회주의건설의 어렵고 힘든 부문에 탄원진출하여 인생의 새 출발을 한 여러 청년을 만나주시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/767c853dc2829365691a086e9e10caac",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 0
+      },
+      "featuredSections": [
+        "anecdote"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af145d29a023c9491077b8fb5"
+    },
+    {
       "id": "news:kcna:9418a43a726f38aaf6c54735",
       "title": "기꺼이 걸으신 험한 산길",
       "date": "2026-08-24",
@@ -22,7 +44,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 0
+        "anecdote": 1
       },
       "featuredSections": [
         "anecdote"
@@ -44,7 +66,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 1
+        "anecdote": 2
       },
       "featuredSections": [
         "anecdote"
@@ -66,7 +88,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 2
+        "anecdote": 3
       },
       "featuredSections": [
         "anecdote"
@@ -88,28 +110,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 3
-      },
-      "featuredSections": [
-        "anecdote"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-d2785bfcea3d467c"
-    },
-    {
-      "id": "kcna-383d245a76d108d3",
-      "title": "삭도까지 타보신 사연",
-      "date": "2026-08-12",
-      "snippet": "2019년 12월 어느날 양덕온천문화휴양지를 찾으신 경애하는 김정은동지께서는 스키종합봉사건물에도 들리시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/4a8076646ed37c484c2c7d39b4ff4c45",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 4
       },
       "featuredSections": [
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-383d245a76d108d3"
+      "detailUrl": "/news/document?id=kcna-d2785bfcea3d467c"
     }
   ]
 }

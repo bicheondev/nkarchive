@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T00:00:00.000Z",
-  "version": "0ba8409845f99458",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "version": "4ff17ddf145818e7",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,57 +8,61 @@
   "section": "domestic",
   "page": 12,
   "pageSize": 5,
-  "totalItems": 4146,
-  "totalPages": 830,
+  "totalItems": 4151,
+  "totalPages": 831,
   "articles": [
     {
-      "id": "news:kcna:33379da7dbd3e1ffd910a563",
-      "title": "제15차 전국교원대회가 진행된다",
-      "date": "2026-08-23",
-      "snippet": "(평양 8월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0011dd2005efabbd7b0edeaf02e70c06",
+      "id": "news:kcna:0b187596d3afdbd16fbbb9be",
+      "title": "박태성 내각총리 삼지연산악관광지구건설과 함흥시의 공장,기업소들을 현지료해",
+      "date": "2026-08-25",
+      "snippet": "(평양 8월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8a6287b8ea93fdb5544d8eb211ad4d8c",
       "mediaType": "article",
       "categories": [
+        "important",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 4,
         "domestic": 55
       },
-      "featuredSections": [],
-      "hasImage": false,
+      "featuredSections": [
+        "important"
+      ],
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A33379da7dbd3e1ffd910a563"
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29474dacbb67165c2b32503220d7044553",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/aa8afcf501ab2ec24d87add271afd77e695140d70f60fe9f1c7a3511818c7334.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0b187596d3afdbd16fbbb9be"
     },
     {
-      "id": "news:kcna:6c605eddc6d353c72c57d758",
-      "title": "전국학생소년취주악대경연 진행",
-      "date": "2026-08-23",
-      "snippet": "(평양 8월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fe510542145a0357169bfee0b71302aa",
+      "id": "news:kcna:733a025752c09fce8e9881bd",
+      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 로씨야련방공산당 중앙위원회와 공산당련맹-쏘련공산당 중앙리사회에서 꽃바구니를 보내여왔다",
+      "date": "2026-08-25",
+      "snippet": "(평양 8월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/56cee8ebc4bca492fdb87a6e0b2eba33",
       "mediaType": "article",
       "categories": [
-        "domestic",
-        "social"
+        "foreign",
+        "domestic"
       ],
       "categoryOrders": {
-        "domestic": 56,
-        "social": 8
+        "foreign": 8,
+        "domestic": 56
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6c605eddc6d353c72c57d758"
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2943d4b999298106bf32e1b4d28f2d5029",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/4cc6defe1b7c475101258c97f142c032ec9553bc87a77e14e58428feb3faac4c.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A733a025752c09fce8e9881bd"
     },
     {
-      "id": "news:kcna:9d790bd5b68fc34795eb82dd",
-      "title": "《로동신문》 사상의 힘,대중의 정신력으로 만사를 해결해나가는 원칙을 일관하게 견지할데 대해 강조",
-      "date": "2026-08-23",
-      "snippet": "(평양 8월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2652bdfe3165383ff47efa90e212eb99",
+      "id": "news:kcna:2909c815e1f96758918fb70a",
+      "title": "부문과 단위,지역의 발전을 떠메고나갈 인재대렬 장성",
+      "date": "2026-08-25",
+      "snippet": "(평양 8월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/aa99f66cab35eff97e383969ad5f989a",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -71,14 +75,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9d790bd5b68fc34795eb82dd"
+      "detailUrl": "/news/document?id=news%3Akcna%3A2909c815e1f96758918fb70a"
     },
     {
-      "id": "news:kcna:0a51a2bc272c523dd8ff8009",
-      "title": "나라의 농기계공업발전을 견인하는 금성뜨락또르공장",
-      "date": "2026-08-23",
-      "snippet": "(평양 8월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ae10b2ffbe9f530f666c8e54141d0200",
+      "id": "news:kcna:7bd6c8160240b066ac035481",
+      "title": "평양시려객운수종합기업소에서 새 축전지뻐스로선구축사업 추진",
+      "date": "2026-08-25",
+      "snippet": "(평양 8월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1ff448e53eb62ead37b6d7975f3f0736",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -87,18 +91,18 @@
         "domestic": 58
       },
       "featuredSections": [],
-      "hasImage": true,
+      "hasImage": false,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2951290381bb31998d4b662513558991c2",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/da3e37f44b0b7b2b8d455692962a056952ef9603a6e3321bce3abef59e0915d6.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0a51a2bc272c523dd8ff8009"
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7bd6c8160240b066ac035481"
     },
     {
-      "id": "news:kcna:9e1fd6373f500fd6b99dcf44",
-      "title": "우리 나라의 비물질문화유산들--바둑",
-      "date": "2026-08-23",
-      "snippet": "(평양 8월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7c85f3d743337f0e360b1dd6fb1b1ca8",
+      "id": "news:kcna:0f4c2004e2702a00ee15abc1",
+      "title": "삼지연시에서 원림조성사업 활발",
+      "date": "2026-08-24",
+      "snippet": "(평양 8월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0d4fbf13f589f254d38cc8347f2545c7",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -111,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9e1fd6373f500fd6b99dcf44"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0f4c2004e2702a00ee15abc1"
     }
   ]
 }

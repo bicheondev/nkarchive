@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T00:00:00.000Z",
-  "version": "0ba8409845f99458",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "version": "4ff17ddf145818e7",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,37 @@
   "section": "domestic",
   "page": 343,
   "pageSize": 5,
-  "totalItems": 4146,
-  "totalPages": 830,
+  "totalItems": 4151,
+  "totalPages": 831,
   "articles": [
     {
-      "id": "news:kcna:eaea13e5e38edd2a713da776",
-      "title": "국가과학원 식물학연구소에서 기름원료식물의 재배기술 확립",
-      "date": "2026-03-30",
-      "snippet": "(평양 3월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/786fe5fb5e90ae7954827f361214e18b",
+      "id": "news:kcna:b366347416c3dbfcf608fa1e",
+      "title": "량강도안의 고급중학교 졸업반학생들 최전연국경초소들로 탄원",
+      "date": "2026-04-01",
+      "snippet": "(평양 4월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/edf2cd0150de33f090860d720b287502",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 1710,
+        "social": 184
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab366347416c3dbfcf608fa1e"
+    },
+    {
+      "id": "news:kcna:d69bae99fb9f57c47e715dee",
+      "title": "황해북도에서 새 제품개발사업 추진",
+      "date": "2026-04-01",
+      "snippet": "(평양 4월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b50b3eebc9fb4e6e1d77a5934af9f873",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -29,19 +51,21 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aeaea13e5e38edd2a713da776"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad69bae99fb9f57c47e715dee"
     },
     {
-      "id": "news:kcna:411e490e72348141dc72a791",
-      "title": "김책공업종합대학에서 다용도유기성페수정화제 개발도입",
-      "date": "2026-03-30",
-      "snippet": "(평양 3월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fae313fe180d6cdcb1a4b32ead2111b2",
+      "id": "news:kcna:1496ec5254ded0f82645e5c2",
+      "title": "로씨야 따쓰통신사대표단 귀국",
+      "date": "2026-04-01",
+      "snippet": "(평양 4월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4f6fe56672fdc726abbbe495180c52f9",
       "mediaType": "article",
       "categories": [
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "foreign": 291,
         "domestic": 1712
       },
       "featuredSections": [],
@@ -49,38 +73,34 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A411e490e72348141dc72a791"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1496ec5254ded0f82645e5c2"
     },
     {
-      "id": "news:kcna:2ab818d9c1889b123cd844a9",
-      "title": "새 보금자리로 들어서는 주인들로 새별거리가 련일 흥성이고있다",
-      "date": "2026-03-30",
-      "snippet": "(평양 3월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e9258e8edb732c1f16a92992647872ec",
+      "id": "news:kcna:edda86bf6b1dd13f87225acb",
+      "title": "2025년 강동종합온실농장과 중평온실농장,련포온실농장사이 사회주의경쟁총화회의 진행",
+      "date": "2026-04-01",
+      "snippet": "(평양 4월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8ff3cde997bba57cddacb420e903321e",
       "mediaType": "article",
       "categories": [
-        "important",
-        "domestic",
-        "social"
+        "domestic"
       ],
       "categoryOrders": {
-        "important": 189,
-        "domestic": 1713,
-        "social": 185
+        "domestic": 1713
       },
       "featuredSections": [],
-      "hasImage": true,
+      "hasImage": false,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60304d3d6403bdd406d0eae93aa84ab95a",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/22cc724cbd08151367850dacea43bc6b0f9b0e03de90c36ef4f893d3010cf20e.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2ab818d9c1889b123cd844a9"
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aedda86bf6b1dd13f87225acb"
     },
     {
-      "id": "news:kcna:092a82fcc5796358d1016916",
-      "title": "2026년 3월 30일 《로동신문》개관",
-      "date": "2026-03-30",
-      "snippet": "(평양 3월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/369efad5faf57ac47e8765b99b300755",
+      "id": "news:kcna:0ca5a8515f44ed745d859ac4",
+      "title": "도시경영성에서 인민들에게 보다 문명한 생활조건과 환경을 마련해주기 위한 사업 추진",
+      "date": "2026-04-01",
+      "snippet": "(평양 4월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bc65207e9b7911a3f1c5720df7e96c25",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -93,27 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A092a82fcc5796358d1016916"
-    },
-    {
-      "id": "news:kcna:bc9a415c6580ebc14abf4e39",
-      "title": "소금공업부문에서 1.4분기 인민경제계획 완수",
-      "date": "2026-03-30",
-      "snippet": "(평양 3월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1eba775d5e3be6d70b0051e728ed5613",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1715
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abc9a415c6580ebc14abf4e39"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0ca5a8515f44ed745d859ac4"
     }
   ]
 }

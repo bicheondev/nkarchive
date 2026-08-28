@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T00:00:00.000Z",
-  "version": "0ba8409845f99458",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "version": "4ff17ddf145818e7",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,79 @@
   "section": "domestic",
   "page": 316,
   "pageSize": 5,
-  "totalItems": 4146,
-  "totalPages": 830,
+  "totalItems": 4151,
+  "totalPages": 831,
   "articles": [
     {
-      "id": "news:kcna:57260dc92600d01fc904138c",
-      "title": "조선민주주의인민공화국 외무상 최선희동지가 중화인민공화국 외교부장 왕의동지와 회담",
-      "date": "2026-04-10",
-      "snippet": "(평양 4월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1d7cb2eb1e3f1126913c82e6807ddb25",
+      "id": "news:kcna:05d6bc33bdfceb44eb3042e2",
+      "title": "밀,보리농사에서 은을 내고있는 관개체계",
+      "date": "2026-04-11",
+      "snippet": "(평양 4월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ac990a526200156077c53c676b75f842",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1575
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A05d6bc33bdfceb44eb3042e2"
+    },
+    {
+      "id": "news:kcna:dceeb61670e1b36ccba97663",
+      "title": "2026년 4월 11일 신문개관",
+      "date": "2026-04-11",
+      "snippet": "(평양 4월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b22d3b5f224e4eeddc609b65e84b8756",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1576
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Adceeb61670e1b36ccba97663"
+    },
+    {
+      "id": "news:kcna:819a5a28e552bfcde57862de",
+      "title": "중화인민공화국 외교부장 평양 출발",
+      "date": "2026-04-11",
+      "snippet": "(평양 4월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1392fc743839b80705894f3e19c5d994",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 167,
+        "foreign": 258,
+        "domestic": 1577
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b6613c072a0f4814891cf81c11343bc9b58",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/5b32c09e2c93208eeb2321ff6f637ea0de5ae9db8a18c40b474e8046ecd279a8.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A819a5a28e552bfcde57862de"
+    },
+    {
+      "id": "news:kcna:7e8ba0301624a6905763d27b",
+      "title": "중화인민공화국 외교부장일행 중국인민지원군렬사릉원에 꽃바구니 진정",
+      "date": "2026-04-11",
+      "snippet": "(평양 4월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1b65f961897970c4500ed5a6be74a049",
       "mediaType": "article",
       "categories": [
         "important",
@@ -25,101 +89,35 @@
       ],
       "categoryOrders": {
         "important": 168,
-        "foreign": 258,
-        "domestic": 1575
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b6684939f935d9b68393a00a6c59e1f87a1",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/07da9ae956cca85259e342dabfe340edc81477fc168c469bde5edf4e735d1b69.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A57260dc92600d01fc904138c"
-    },
-    {
-      "id": "news:kcna:751d5b91e93f1b059773117b",
-      "title": "중화인민공화국 외교부장 평양에 도착",
-      "date": "2026-04-10",
-      "snippet": "(평양 4월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2cfd71d6c31fc2dd15a9d7ade75a09ac",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 169,
         "foreign": 259,
-        "domestic": 1576
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66824adfac7361e755605d86dd3a700e75",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/304b94b7ca18b2a2c495f73df6b104ece6974488b1ff7aeff3e95ace357399e8.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A751d5b91e93f1b059773117b"
-    },
-    {
-      "id": "news:kcna:ee55f3c09bb8a70ba000147e",
-      "title": "조선민주주의인민공화국 로력영웅칭호와 김일성훈장을 일군들에게 수여",
-      "date": "2026-04-10",
-      "snippet": "(평양 4월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b0ef196f44d54d57bd34070bf92abb2c",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1577
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aee55f3c09bb8a70ba000147e"
-    },
-    {
-      "id": "news:kcna:fa24d0c52fd0ffffe8d06d34",
-      "title": "위대한 수령 김일성동지의 탄생 114돐경축 중앙미술전람회 개막",
-      "date": "2026-04-10",
-      "snippet": "(평양 4월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d136c0beba5b85d45970a46433389f66",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1578
       },
       "featuredSections": [],
       "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b6612db7eff96d86b6120c52b9e6138335f",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/5944ae465286f3ffeaf6a9c31df7a10b38203d27dc5ad4e5617ebef28a336a65.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afa24d0c52fd0ffffe8d06d34"
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b667f34adb6dbd9d6693fdbd445de61628a",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/a94ad85cf79880f8333e5f42161abe19a8d590761740e3a6d25977de7d6c42d1.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7e8ba0301624a6905763d27b"
     },
     {
-      "id": "news:kcna:978c462551e57b73c0949b43",
-      "title": "전국기자동맹일군들의 백두산지구 혁명전적지답사행군대 출발모임 진행",
-      "date": "2026-04-10",
-      "snippet": "(평양 4월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fe594b84f82b67968e08ac0d06930eac",
+      "id": "news:kcna:417dca939a1c224c9b8008f8",
+      "title": "평양국제관광기념품 및 건강제품전시회 개막",
+      "date": "2026-04-11",
+      "snippet": "(평양 4월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/24a55dac745b56f516650b4d9063c7ac",
       "mediaType": "article",
       "categories": [
-        "domestic",
-        "social"
+        "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1579,
-        "social": 159
+        "domestic": 1579
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A978c462551e57b73c0949b43"
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b668ba59df4de3c716a441ef9f8433c0f96",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/16a6c352db9e70beeb33b380c65824dcd7b36b9ceb1828507ad66a908760ab83.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A417dca939a1c224c9b8008f8"
     }
   ]
 }

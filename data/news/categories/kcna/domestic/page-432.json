@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T00:00:00.000Z",
-  "version": "0ba8409845f99458",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "version": "4ff17ddf145818e7",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,15 @@
   "section": "domestic",
   "page": 432,
   "pageSize": 5,
-  "totalItems": 4146,
-  "totalPages": 830,
+  "totalItems": 4151,
+  "totalPages": 831,
   "articles": [
     {
-      "id": "news:kcna:1ba6b2c91dd2a1c82be2f88a",
-      "title": "각지의 농업근로자들 원격교육을 통해 과학기술지식 습득",
-      "date": "2026-02-17",
-      "snippet": "(평양 2월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2ae1cd1907f5301ec59d252acb7b09b9",
+      "id": "news:kcna:1c84f47b533c85550c64b340",
+      "title": "제3차 2.16경축 인민예술축전 페막",
+      "date": "2026-02-19",
+      "snippet": "(평양 2월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/62887354d52905bd30fa5896a1970b5a",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -25,23 +25,29 @@
         "domestic": 2156
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1ba6b2c91dd2a1c82be2f88a"
+      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366be9d8e8de49d95baeea3ca1ef8854ca2",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/182785dfe6ddea7713c3c4f8f01a887db978aa94e81b0ddfef92484256f13d09.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1c84f47b533c85550c64b340"
     },
     {
-      "id": "news:kcna:cd2fe1bf035751601e3c8a57",
-      "title": "2026년 2월 17일 신문개관",
-      "date": "2026-02-17",
-      "snippet": "(평양 2월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0f1bd5b61aa02cbaebec4b0b4198ebd0",
+      "id": "news:kcna:009d1ea3dda57e2f5c1080fa",
+      "title": "김여정 조선로동당 중앙위원회 부부장 담화 발표",
+      "date": "2026-02-19",
+      "snippet": "(평양 2월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b4c8cb9651fe87be0938ba6b465ba422",
       "mediaType": "article",
       "categories": [
+        "important",
+        "document",
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 287,
+        "document": 44,
+        "foreign": 382,
         "domestic": 2157
       },
       "featuredSections": [],
@@ -49,69 +55,71 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acd2fe1bf035751601e3c8a57"
+      "detailUrl": "/news/document?id=news%3Akcna%3A009d1ea3dda57e2f5c1080fa"
     },
     {
-      "id": "news:kcna:2d05bf0fc3ca4df8a6465ba1",
-      "title": "조선로동당 제9차대회 대표자들 혁명의 수도 평양에 도착",
-      "date": "2026-02-17",
-      "snippet": "(평양 2월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ebb0948955d5836b90dd67f3f6d765ad",
+      "id": "news:kcna:94ad941fd7bd6d8a37a89203",
+      "title": "올해에 들어와 각지의 수백명 청년들 어렵고 힘든 부문들로 탄원",
+      "date": "2026-02-19",
+      "snippet": "(평양 2월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3f8a9cae7a88a9f1ae98616930ded16c",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 2158
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf36627db0836a9c8bb36d9be0365cbb7b922",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/163c1df2030b68149ad23d2bece4069594befddebfbf26c4f3af04789009ec65.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2d05bf0fc3ca4df8a6465ba1"
-    },
-    {
-      "id": "news:kcna:2f8e35c4486c7ce0cdb1cb83",
-      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 니까라과공화국 특명전권대사 꽃바구니 진정",
-      "date": "2026-02-17",
-      "snippet": "(평양 2월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fe94eda05e4c301bb265b561bf048881",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 380,
-        "domestic": 2159
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366cda301795d2eb1539c6fe0f396457600",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/e1c4c569d337b8348c857877928649caa542ecc9ffe3723845c2d56459f7e881.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2f8e35c4486c7ce0cdb1cb83"
-    },
-    {
-      "id": "news:kcna:fe66b1b5f747b62b5ef22ecf",
-      "title": "수력발전부문에서 전력생산성과 확대",
-      "date": "2026-02-17",
-      "snippet": "(평양 2월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3e4ac465d4cbcfe9afa74343b8c28f6d",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2160
+        "domestic": 2158,
+        "social": 276
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afe66b1b5f747b62b5ef22ecf"
+      "detailUrl": "/news/document?id=news%3Akcna%3A94ad941fd7bd6d8a37a89203"
+    },
+    {
+      "id": "news:kcna:75c99a5e4d7efc786de0a2aa",
+      "title": "2.16경축 산업미술전시회 각 도(직할시)들에서 진행",
+      "date": "2026-02-19",
+      "snippet": "(평양 2월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/01177c1f3185f39f9f70bd6f56b7b16b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2159
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A75c99a5e4d7efc786de0a2aa"
+    },
+    {
+      "id": "news:kcna:e473204ab5f1daaa005222b5",
+      "title": "증산열기를 고조시키는 사상전의 북소리",
+      "date": "2026-02-19",
+      "snippet": "(평양 2월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/15627e5fc613dfee83608cb96ead2632",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2160,
+        "social": 277
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae473204ab5f1daaa005222b5"
     }
   ]
 }

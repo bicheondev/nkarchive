@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T00:00:00.000Z",
-  "version": "0ba8409845f99458",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "version": "4ff17ddf145818e7",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,24 +8,42 @@
   "section": "domestic",
   "page": 341,
   "pageSize": 5,
-  "totalItems": 4146,
-  "totalPages": 830,
+  "totalItems": 4151,
+  "totalPages": 831,
   "articles": [
     {
-      "id": "news:kcna:e865690581137f0069ea4650",
-      "title": "경애하는 김정은동지께서 벨라루씨공화국 대통령에게 답전을 보내시였다",
-      "date": "2026-03-31",
-      "snippet": "(평양 3월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/13645b8db7e44a81c63e4d1d8e1691d5",
+      "id": "news:kcna:875cfeba62f9c0a827c0c4c3",
+      "title": "평안북도 정주시의 백살장수자가 은정어린 생일상을 받아안았다",
+      "date": "2026-04-02",
+      "snippet": "(평양 4월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/94eb029df48873f68cdf4334792ecf03",
       "mediaType": "article",
       "categories": [
-        "important",
-        "foreign",
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 1700,
+        "social": 182
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A875cfeba62f9c0a827c0c4c3"
+    },
+    {
+      "id": "news:kcna:88dcd8626b77a59e139ca649",
+      "title": "함경북도양묘장에서 수백만그루의 나무모 확보",
+      "date": "2026-04-02",
+      "snippet": "(평양 4월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0376010ce942c3f927b737c600772785",
+      "mediaType": "article",
+      "categories": [
         "domestic"
       ],
       "categoryOrders": {
-        "important": 186,
-        "foreign": 289,
         "domestic": 1701
       },
       "featuredSections": [],
@@ -33,97 +51,67 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae865690581137f0069ea4650"
+      "detailUrl": "/news/document?id=news%3Akcna%3A88dcd8626b77a59e139ca649"
     },
     {
-      "id": "news:kcna:aa03ad5a7ef22716a081410e",
-      "title": "조선민주주의인민공화국 외무상 최선희동지가 로씨야 따쓰통신사대표단을 만났다",
-      "date": "2026-03-31",
-      "snippet": "(평양 3월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d30e66014ae6345fdeb20edcd150aeba",
+      "id": "news:kcna:0c88a03bffef55d4094e0034",
+      "title": "석탄공업부문의 여러 단위에서 1.4분기 인민경제계획 완수",
+      "date": "2026-04-02",
+      "snippet": "(평양 4월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c9027d4854a44616dd980a3cc1270113",
       "mediaType": "article",
       "categories": [
-        "important",
-        "foreign",
         "domestic"
       ],
       "categoryOrders": {
-        "important": 187,
-        "foreign": 290,
         "domestic": 1702
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60c17ab1808c1631a2d9f108fd6a33a11f",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/f805f5487dc4b3e2cc651f6d38910646b0b1b2d8e8cfb6e4776a8148720b8b6d.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aaa03ad5a7ef22716a081410e"
-    },
-    {
-      "id": "news:kcna:6a170873ce12806801faef67",
-      "title": "조용원동지가 로씨야 따쓰통신사대표단을 만났다",
-      "date": "2026-03-31",
-      "snippet": "(평양 3월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8feb5b67e9d40021eb718f73779d75a1",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 188,
-        "foreign": 291,
-        "domestic": 1703
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e602cc10535815c84a0f1dd525d399d901d",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/a3b5d5ce1f6aa963d8d0424ab16f860757346867a8394d3ac697b3f5e83bdbcd.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6a170873ce12806801faef67"
-    },
-    {
-      "id": "news:kcna:8be47972afbbbcbb2ae517aa",
-      "title": "로씨야 따쓰통신사대표단 만경대 방문,여러곳 참관",
-      "date": "2026-03-31",
-      "snippet": "(평양 3월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5fe4ee0e84365a63312918ed3ad8e6e8",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 292,
-        "domestic": 1704
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e602c229eca410a7831085472835f773aea",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/b1f3fafd6c65f536fd50df4b9718d88c72fa23ce3561ca4ad59ec9819dc376fb.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8be47972afbbbcbb2ae517aa"
-    },
-    {
-      "id": "news:kcna:2504c4b666b4d4f2314475c1",
-      "title": "모란봉제1중학교에서 지난 70여년간 수많은 새 교수방법 창조도입,교육의 현대화,정보화 추진",
-      "date": "2026-03-31",
-      "snippet": "(평양 3월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a47cf2a25b4d50b4d668020f067866ad",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1705
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2504c4b666b4d4f2314475c1"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0c88a03bffef55d4094e0034"
+    },
+    {
+      "id": "news:kcna:6e4e154f7351069d32d25eb9",
+      "title": "고려의학종합병원 체질연구소에서 고려의학체질분류체계 개발",
+      "date": "2026-04-01",
+      "snippet": "(평양 4월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/53df0cd7c5cf704055d21b4f02cd3240",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1703
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6e4e154f7351069d32d25eb9"
+    },
+    {
+      "id": "news:kcna:20321068f42161ebb27ac78d",
+      "title": "우리 나라의 4월 절기와 민속",
+      "date": "2026-04-01",
+      "snippet": "(평양 4월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ec80fe5a952fe717ff4d45c72cfdab70",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1704
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A20321068f42161ebb27ac78d"
     }
   ]
 }

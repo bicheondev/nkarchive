@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T00:00:00.000Z",
-  "version": "0ba8409845f99458",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "version": "4ff17ddf145818e7",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,15 +8,15 @@
   "section": "important",
   "page": 8,
   "pageSize": 5,
-  "totalItems": 37,
+  "totalItems": 39,
   "totalPages": 8,
   "articles": [
     {
-      "id": "news:rodong-sinmun:edbc0c78ffc68b58bb787463",
-      "title": "가물로 저수량 감소",
-      "date": "2026-08-28",
-      "snippet": "가물로 저수량 감소",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOC0yOC0wNDhAMkAzQEAwQDM2QA==",
+      "id": "news:rodong-sinmun:31416fab6c7d0130dc493f8d",
+      "title": "이스라엘의 살륙만행으로 생존위기에 처한 가자지대 주민들",
+      "date": "2026-08-29",
+      "snippet": "이스라엘의 살륙만행으로 생존위기에 처한 가자지대 주민들",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOC0yOS0wODRAMkAzQEAwQDM2QA==",
       "mediaType": "article",
       "categories": [
         "important"
@@ -25,18 +25,18 @@
         "important": 35
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aedbc0c78ffc68b58bb787463"
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/bb33906eecb10ecd4313962a30fc852eb5cf0a5d07e2576128d56eac5789480f.jpg",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A31416fab6c7d0130dc493f8d"
     },
     {
-      "id": "news:rodong-sinmun:48bf7b272626c1d31dde7c01",
-      "title": "각종 전염병전파상황",
-      "date": "2026-08-28",
-      "snippet": "각종 전염병전파상황",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOC0yOC0wNDlAMkAzQEAwQDM3QA==",
+      "id": "news:rodong-sinmun:bf4449a88d969212dbd4f040",
+      "title": "홍역 전파",
+      "date": "2026-08-29",
+      "snippet": "홍역 전파",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOC0yOS0wODVAMkAzQEAwQDM3QA==",
       "mediaType": "article",
       "categories": [
         "important"
@@ -49,7 +49,47 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A48bf7b272626c1d31dde7c01"
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Abf4449a88d969212dbd4f040"
+    },
+    {
+      "id": "news:rodong-sinmun:ddc67b41c479e0d90e6441ae",
+      "title": "지진과 고온현상",
+      "date": "2026-08-29",
+      "snippet": "지진과 고온현상",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOC0yOS0wODZAMkAzQEAwQDM4QA==",
+      "mediaType": "article",
+      "categories": [
+        "important"
+      ],
+      "categoryOrders": {
+        "important": 37
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Addc67b41c479e0d90e6441ae"
+    },
+    {
+      "id": "news:rodong-sinmun:ba1fcfb5b7cb2b99fba9cbc2",
+      "title": "라오스의 특색있는 건축유적들 [6면]",
+      "date": "2026-08-29",
+      "snippet": "세계상식",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOC0yOS0wODdAMkAzQEAwQDM5QA==",
+      "mediaType": "article",
+      "categories": [
+        "important"
+      ],
+      "categoryOrders": {
+        "important": 38
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aba1fcfb5b7cb2b99fba9cbc2"
     }
   ]
 }

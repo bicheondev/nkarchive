@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T00:00:00.000Z",
-  "version": "0ba8409845f99458",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "version": "4ff17ddf145818e7",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,22 +8,20 @@
   "section": "domestic",
   "page": 168,
   "pageSize": 5,
-  "totalItems": 4146,
-  "totalPages": 830,
+  "totalItems": 4151,
+  "totalPages": 831,
   "articles": [
     {
-      "id": "news:kcna:b693224815ca64c4dd71f093",
-      "title": "우리 나라 외무상 필리핀공화국 외무상에게 축전",
-      "date": "2026-06-13",
-      "snippet": "(평양 6월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/892867806643780e1e67142235341dbe",
+      "id": "news:kcna:85d81f9fe971ba5c928c1946",
+      "title": "전쟁승리의 새 국면이 펼쳐진 유평혁명사적지",
+      "date": "2026-06-15",
+      "snippet": "(평양 6월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8a1d40c67439122c831f5448b662bed3",
       "mediaType": "article",
       "categories": [
-        "foreign",
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 136,
         "domestic": 835
       },
       "featuredSections": [],
@@ -31,14 +29,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab693224815ca64c4dd71f093"
+      "detailUrl": "/news/document?id=news%3Akcna%3A85d81f9fe971ba5c928c1946"
     },
     {
-      "id": "news:kcna:474042ba002b57db94ce3d6e",
-      "title": "함경남도 함흥시의 백살장수자가 은정어린 생일상을 받아안았다",
-      "date": "2026-06-13",
-      "snippet": "(평양 6월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/061c961bab3eef185bd4b50acac1589b",
+      "id": "news:kcna:3c07fd1115b472dd3ee34558",
+      "title": "전국청소년학생들의 백두산지구 혁명전적지답사행군대가 백두산에 올랐다",
+      "date": "2026-06-15",
+      "snippet": "(평양 6월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/16bc7985c751acbaf1ebb87e86285746",
       "mediaType": "article",
       "categories": [
         "domestic",
@@ -46,41 +44,43 @@
       ],
       "categoryOrders": {
         "domestic": 836,
-        "social": 86
+        "social": 89
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A474042ba002b57db94ce3d6e"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3c07fd1115b472dd3ee34558"
     },
     {
-      "id": "news:kcna:9214494e5a34aa4138336f38",
-      "title": "전국철도운수부문 과학기술발표회 진행",
-      "date": "2026-06-13",
-      "snippet": "(평양 6월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/259e004fca05724c1312c93f10bae229",
+      "id": "news:kcna:86524ada06d2d3402c2107e5",
+      "title": "박태성 내각총리 인민경제 여러 부문 사업 현지료해",
+      "date": "2026-06-15",
+      "snippet": "(평양 6월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9ebd7bbb0dd90ab714f9e389bd4f278b",
       "mediaType": "article",
       "categories": [
+        "important",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 84,
         "domestic": 837
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9214494e5a34aa4138336f38"
+      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e3066d35da9909dc75b05fd5c036c822b8",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/20456e78ae67ca6c17be2fcd9c460232f2fb2ce3779e37fd53c6d3e4364ee301.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A86524ada06d2d3402c2107e5"
     },
     {
-      "id": "news:kcna:037455804fd72a6219aab54a",
-      "title": "전국청소년학생들의 백두산지구 혁명전적지답사행군 출발모임 진행",
-      "date": "2026-06-13",
-      "snippet": "(평양 6월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7f88d1b45f506774734f485695131fa0",
+      "id": "news:kcna:d07bf7c8a1835b83201f863b",
+      "title": "평양곡산공장 지난 10년간 생산공정의 현대화와 설비,자재의 국산화실현에서 성과 이룩",
+      "date": "2026-06-14",
+      "snippet": "(평양 6월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/23eeca72ef2aa44d29231666ed174363",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -93,14 +93,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A037455804fd72a6219aab54a"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad07bf7c8a1835b83201f863b"
     },
     {
-      "id": "news:kcna:b9d61e76c2e0b70dd719cb90",
-      "title": "문평제련소에서 페설물을 재리용하는 순환생산체계 확립",
-      "date": "2026-06-13",
-      "snippet": "(평양 6월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/97bbd0821c2a4ee81143df41c80fcf3d",
+      "id": "news:kcna:1f857f16a80fd62a890397c9",
+      "title": "강원도에 파견된 3대혁명소조원들 기술혁신의 전위에서 단위발전을 견인",
+      "date": "2026-06-14",
+      "snippet": "(평양 6월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/38cf308574b1e4391c795b4f644eca1a",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab9d61e76c2e0b70dd719cb90"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1f857f16a80fd62a890397c9"
     }
   ]
 }

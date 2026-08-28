@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T00:00:00.000Z",
-  "version": "0ba8409845f99458",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "version": "4ff17ddf145818e7",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,20 +8,26 @@
   "section": "domestic",
   "page": 73,
   "pageSize": 5,
-  "totalItems": 4146,
-  "totalPages": 830,
+  "totalItems": 4151,
+  "totalPages": 831,
   "articles": [
     {
-      "id": "news:kcna:5d3361a6b130a56f0ca3f6ea",
-      "title": "조국해방전쟁승리 73돐에 즈음하여 학생소년들 전쟁로병과 상봉",
-      "date": "2026-07-25",
-      "snippet": "(평양 7월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b34bab71ea99f3d6cefdf4b5286d446c",
+      "id": "kcna-7cc961f41493b1b7",
+      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
+      "date": "2026-07-27",
+      "snippet": "(평양 7월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/772301c84a602f248d3895617c573b2e",
       "mediaType": "article",
       "categories": [
+        "important",
+        "document",
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 32,
+        "document": 7,
+        "foreign": 47,
         "domestic": 360
       },
       "featuredSections": [],
@@ -29,14 +35,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5d3361a6b130a56f0ca3f6ea"
+      "detailUrl": "/news/document?id=kcna-7cc961f41493b1b7"
     },
     {
-      "id": "news:kcna:58e9704e7c6344ade973e919",
-      "title": "각급 직맹조직들에서 전승세대의 영웅정신을 계승해나가기 위한 교양사업 적극화",
-      "date": "2026-07-25",
-      "snippet": "(평양 7월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/cb06aa3c7bbe434eda8e0daaa1749ea3",
+      "id": "news:kcna:cc2e90c06b5ced3c5fd0745b",
+      "title": "전승의 7.27을 안아온 군사적기적들--《강대성》의 신화를 깨고 이룩한 자랑찬 전과",
+      "date": "2026-07-27",
+      "snippet": "(평양 7월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5e59f25e413ab3cb276cd97e802e06f8",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -49,34 +55,36 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A58e9704e7c6344ade973e919"
+      "detailUrl": "/news/document?id=news%3Akcna%3Acc2e90c06b5ced3c5fd0745b"
     },
     {
-      "id": "news:kcna:90fb22e0ef2dd799b18a7002",
-      "title": "평안남도의 탄광청년돌격대들에서 대중운동열기 고조",
-      "date": "2026-07-25",
-      "snippet": "(평양 7월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/074c7aba3227f32ad5a90a22dcd1b8d9",
+      "id": "news:kcna:58d97f6ee7d461d2ef47db8a",
+      "title": "값높은 삶을 누리는 전쟁로병들",
+      "date": "2026-07-27",
+      "snippet": "(평양 7월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7a4fbf1328f146eda89aa04352334d4f",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 362
+        "domestic": 362,
+        "social": 49
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A90fb22e0ef2dd799b18a7002"
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77def88be543d90700a506fa884078c42db",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/8eeb7f4f18e112058bbe494c50e6cc1af86c9e8ec441376f8546ff25f51e8623.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A58d97f6ee7d461d2ef47db8a"
     },
     {
-      "id": "news:kcna:3857cba4beafa22adf23a341",
-      "title": "전국건설부문 과학기술발표회 진행",
-      "date": "2026-07-25",
-      "snippet": "(평양 7월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/27f80917e61a6a4372480cabbda10691",
+      "id": "news:kcna:459c6e86dfd3d626d08ef7b4",
+      "title": "상원세멘트련합기업소에 3대혁명붉은기 수여",
+      "date": "2026-07-27",
+      "snippet": "(평양 7월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d6f3f5095fcb4b2b68504cf5cb87baa8",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -89,14 +97,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3857cba4beafa22adf23a341"
+      "detailUrl": "/news/document?id=news%3Akcna%3A459c6e86dfd3d626d08ef7b4"
     },
     {
-      "id": "news:kcna:f33f51dd21d40d04eb17de52",
-      "title": "조국해방전쟁승리 73돐경축 청년중앙예술선전대공연 진행",
-      "date": "2026-07-25",
-      "snippet": "(평양 7월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f6f18f1414d36ebde346abd413bf2b6f",
+      "id": "news:kcna:86dfd75e88a5fd116a73e633",
+      "title": "전승절에 즈음하여 전쟁로병들과 청소년학생들과의 상봉모임 진행",
+      "date": "2026-07-26",
+      "snippet": "(평양 7월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/69f815ac4a0ea23c4fff21117c6fa3de",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -109,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af33f51dd21d40d04eb17de52"
+      "detailUrl": "/news/document?id=news%3Akcna%3A86dfd75e88a5fd116a73e633"
     }
   ]
 }

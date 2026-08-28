@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T00:00:00.000Z",
-  "version": "0ba8409845f99458",
+  "generatedAt": "2026-08-29T00:00:00.000Z",
+  "version": "4ff17ddf145818e7",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,55 +8,59 @@
   "section": "domestic",
   "page": 578,
   "pageSize": 5,
-  "totalItems": 4146,
-  "totalPages": 830,
+  "totalItems": 4151,
+  "totalPages": 831,
   "articles": [
     {
-      "id": "news:kcna:c120e1c13ca1ba9753691579",
-      "title": "철도운수부문에서 증송성과 확대",
-      "date": "2025-12-09",
-      "snippet": "(평양 12월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/cd60e5cf03f6eb703bea40a0c32b8cef",
+      "id": "news:kcna:52d7c383a747ab98521afc40",
+      "title": "평양시 순안구역 성일농장,강동군 봉화농장에 현대적인 문화주택들이 일떠섰다",
+      "date": "2025-12-10",
+      "snippet": "(평양 12월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c2de8399329ea335ec7c722268a3107f",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 2886
+        "domestic": 2886,
+        "social": 452
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f5e486ddd2eba37d08edb60875422ad651",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/50cb1fba5f61dee57b2b6d28fee4a11ae49e920069a1ffef4189299b05428407.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A52d7c383a747ab98521afc40"
+    },
+    {
+      "id": "news:kcna:e090f51439bf66b78a1aca87",
+      "title": "강원도의 대학졸업생들 당이 부르는 곳으로 탄원",
+      "date": "2025-12-10",
+      "snippet": "(평양 12월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6b504ffca7476c6622c96b4033603e9f",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2887,
+        "social": 453
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac120e1c13ca1ba9753691579"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae090f51439bf66b78a1aca87"
     },
     {
-      "id": "news:kcna:4783e387ce2125b86dceec1b",
-      "title": "개성시의 세계문화유산들(4) 개성남대문",
-      "date": "2025-12-08",
-      "snippet": "(평양 12월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d43deb9cd18fc24ea23eaa6610117e29",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2887
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f5f31e4ed8d8a24735f094a68a1be7f8d7",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/0a234bbdba1028f75bd5c05edaa2c832777a3da6c78fa5e2a313f1223a9be59f.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4783e387ce2125b86dceec1b"
-    },
-    {
-      "id": "news:kcna:1cd6dc71894b54b084f4a83c",
-      "title": "령도자의 정깊은 사랑속에 성대히 진행된 대회",
-      "date": "2025-12-08",
-      "snippet": "(평양 12월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/eef5ad3e9e0916e0cda065685b9afcb5",
+      "id": "news:kcna:6f30efa5692c58c7abffe75e",
+      "title": "《각 도건재전시회-2025》 개막",
+      "date": "2025-12-10",
+      "snippet": "(평양 12월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1aa6ea143d549798988bd24b25cedf41",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -69,14 +73,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1cd6dc71894b54b084f4a83c"
+      "detailUrl": "/news/document?id=news%3Akcna%3A6f30efa5692c58c7abffe75e"
     },
     {
-      "id": "news:kcna:a956943d4fed02f696dc1f45",
-      "title": "2025년 12월 8일 《로동신문》개관",
-      "date": "2025-12-08",
-      "snippet": "(평양 12월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/86819df0e22a717a564b40090cb0f0ee",
+      "id": "news:kcna:da5029765776152e20f4ee16",
+      "title": "장진감자가루생산공장 준공",
+      "date": "2025-12-10",
+      "snippet": "(평양 12월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a9382911a82d9419de4d11ace01d0a35",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -89,27 +93,29 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa956943d4fed02f696dc1f45"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ada5029765776152e20f4ee16"
     },
     {
-      "id": "news:kcna:c3f9947ee515665b7857f57b",
-      "title": "조선의학협회 중앙위원회에서 치료예방사업의 과학화수준을 제고하기 위한 교류사업 심화",
-      "date": "2025-12-08",
-      "snippet": "(평양 12월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/24db699233af2c6cc788e5bfc4174d42",
+      "id": "news:kcna:b7f6b7c4bc88022015af4f99",
+      "title": "각지 세멘트생산단위들에서 증산목표점령에 총매진",
+      "date": "2025-12-10",
+      "snippet": "(평양 12월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c1324cf2d29b2f990203860bde128383",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 2890
+        "domestic": 2890,
+        "social": 454
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac3f9947ee515665b7857f57b"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab7f6b7c4bc88022015af4f99"
     }
   ]
 }
