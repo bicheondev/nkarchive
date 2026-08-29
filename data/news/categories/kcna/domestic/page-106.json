@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 106,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:78bfafe0453ff3c468cba004",
+      "title": "2026년 7월 14일 《로동신문》개관",
+      "date": "2026-07-14",
+      "snippet": "(평양 7월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/09ec4a9aa27b047fdfd2c714f39e3665",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 525
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A78bfafe0453ff3c468cba004"
+    },
     {
       "id": "news:kcna:9397884419af3b71a37f2877",
       "title": "중화인민공화국 당 및 정부대표단이 우리 나라를 공식친선방문한다",
@@ -26,7 +46,7 @@
       "categoryOrders": {
         "important": 57,
         "foreign": 84,
-        "domestic": 525
+        "domestic": 526
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 526
+        "domestic": 527
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 527
+        "domestic": 528
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 528
+        "domestic": 529
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,28 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Adecc439076a0d57647b29e64"
-    },
-    {
-      "id": "news:kcna:4663cbdca77a1351a8aed16f",
-      "title": "벨라루씨공산당대표단 도착",
-      "date": "2026-07-14",
-      "snippet": "(평양 7월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/87e7dbcab3af69be0c199962ec9f1e57",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 85,
-        "domestic": 529
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dd2541106d84c9166917cae5ee1db24d2",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/a1e1a0d5989dd05b219e492f89fb773e1be3de568b4876a10546abf8498ecc07.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4663cbdca77a1351a8aed16f"
     }
   ]
 }

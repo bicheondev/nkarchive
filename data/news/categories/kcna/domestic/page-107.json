@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 107,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:4663cbdca77a1351a8aed16f",
+      "title": "벨라루씨공산당대표단 도착",
+      "date": "2026-07-14",
+      "snippet": "(평양 7월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/87e7dbcab3af69be0c199962ec9f1e57",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 85,
+        "domestic": 530
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dd2541106d84c9166917cae5ee1db24d2",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/a1e1a0d5989dd05b219e492f89fb773e1be3de568b4876a10546abf8498ecc07.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4663cbdca77a1351a8aed16f"
+    },
     {
       "id": "news:kcna:13360022e8ca625602ef6558",
       "title": "함경북도에서 3대혁명을 동력으로 새로운 전망목표수행에 매진",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 530
+        "domestic": 531
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 531
+        "domestic": 532
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 532
+        "domestic": 533
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 533
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5f49a3722f402d97d1b79e66"
-    },
-    {
-      "id": "news:kcna:89b3d0671973758772fec912",
-      "title": "평안북도에서 큰물과 태풍피해를 최소화하기 위한 사업 전개",
-      "date": "2026-07-13",
-      "snippet": "(평양 7월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/575f7e7ff35495a5e68fdeeec835bf04",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 534
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A89b3d0671973758772fec912"
+      "detailUrl": "/news/document?id=news%3Akcna%3A5f49a3722f402d97d1b79e66"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 326,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:61793cb0640eb585d863f84a",
+      "title": "음악예술의 새 경지-우리식 전자악기배합관현악",
+      "date": "2026-04-08",
+      "snippet": "(평양 4월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7f1e66b1d19f8e07d06e1b1f44b56895",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1625
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66a66314e964e4d6f8b45626e00a7ad678",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/02671bb9dad787ea4e76c01070ab22abd147f18d23e80ec39aabb31ce59e2c12.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A61793cb0640eb585d863f84a"
+    },
     {
       "id": "news:kcna:7543b53f62724df9f9d52762",
       "title": "수십건의 과학기술성과,첨단기술제품들이 나왔다",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1625
+        "domestic": 1626
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1626
+        "domestic": 1627
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       "categoryOrders": {
         "important": 176,
         "foreign": 270,
-        "domestic": 1627
+        "domestic": 1628
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1628
+        "domestic": 1629
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,28 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A2daa7781694068dd129109db"
-    },
-    {
-      "id": "news:kcna:38d937f9c8e2377b4fcd782a",
-      "title": "남포시에서 3대혁명붉은기쟁취를 위한 대중운동 전개",
-      "date": "2026-04-08",
-      "snippet": "(평양 4월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1ede5d7564144671812e4881d8c6e0f0",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 1629,
-        "social": 167
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A38d937f9c8e2377b4fcd782a"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,35 @@
   "section": "domestic",
   "page": 207,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:fa17eb54bec9abb94af6e90f",
+      "title": "조선민주주의인민공화국 외무성 대변인대답",
+      "date": "2026-05-28",
+      "snippet": "(평양 5월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f988c712e6a20ad22daa64e8df3fec01",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 100,
+        "document": 15,
+        "foreign": 158,
+        "domestic": 1030
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afa17eb54bec9abb94af6e90f"
+    },
     {
       "id": "news:kcna:6d9d6d5d42e25e40ff852126",
       "title": "싱가포르공화국 외무상 평양 출발",
@@ -24,7 +50,7 @@
       ],
       "categoryOrders": {
         "foreign": 159,
-        "domestic": 1030
+        "domestic": 1031
       },
       "featuredSections": [],
       "hasImage": true,
@@ -48,7 +74,7 @@
       "categoryOrders": {
         "important": 101,
         "foreign": 160,
-        "domestic": 1031
+        "domestic": 1032
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,7 +94,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1032
+        "domestic": 1033
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,7 +114,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1033
+        "domestic": 1034
       },
       "featuredSections": [],
       "hasImage": true,
@@ -96,26 +122,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e0000645e21dc5ebd6de688d150c5ef24829677",
       "cachedThumbnailUrl": "/data/news/assets/kcna/7fec453eec5a77a5c09251fed8098fcdb42861785b11035f256bbb863ca01555.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A632b9ee7f846cc97bcada6c7"
-    },
-    {
-      "id": "news:kcna:da2ec7bf19a85c9a4e6374e2",
-      "title": "우리 나라의 비물질문화유산들(16)--전통적인 비단생산기술",
-      "date": "2026-05-28",
-      "snippet": "(평양 5월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/83f8f29e22eb2ad5edb49c48ebc8e9fe",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1034
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e00006453c0cbd954b9796d3b03cd4a01e32671",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/c93645ee657800b50cc736a7a22f5316f4153dbacf1888f3ca29918c33e16f13.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ada2ec7bf19a85c9a4e6374e2"
     }
   ]
 }

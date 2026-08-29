@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 127,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:1a6c3e7a5013520d8f454919",
+      "title": "우리 나라 외무상 벨라루씨공화국 외무상에게 축전",
+      "date": "2026-07-05",
+      "snippet": "(평양 7월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6ef59a3e38d46a912f88d3a08412d372",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 114,
+        "domestic": 630
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1a6c3e7a5013520d8f454919"
+    },
     {
       "id": "news:kcna:37240985135395d0b9963e15",
       "title": "재일조선고급학교 학생조국방문단 도착",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 630
+        "domestic": 631
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 631
+        "domestic": 632
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 632
+        "domestic": 633
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 633
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad0ffa9120884330bd2af8c3d"
-    },
-    {
-      "id": "news:kcna:6cce40f9a04cf3439f180c91",
-      "title": "재일조선고급학교 학생조국방문단이 떠나갔다",
-      "date": "2026-07-05",
-      "snippet": "(평양 7월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6586cc392adf41e0ac522ea7a19792ce",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 634
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6cce40f9a04cf3439f180c91"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad0ffa9120884330bd2af8c3d"
     }
   ]
 }

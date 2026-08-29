@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 203,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:883d0b90cabc4a01b9c3e527",
+      "title": "벨라루씨와 로씨야에 가는 우리 나라 정부경제대표단 출발",
+      "date": "2026-05-30",
+      "snippet": "(평양 5월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/dbe59aa842e98cb10fae5cc8bf3c96b5",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 155,
+        "domestic": 1010
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064f9fba795f60835134913652238bc06c6",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/d4137c47de45c5d7b65407ad7b4a987e739a6dcf6289100a7f796e0fac021607.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A883d0b90cabc4a01b9c3e527"
+    },
     {
       "id": "news:kcna:72dce7618161d8f6b7bcec07",
       "title": "연풍호기슭에 일떠선 과학자궁전",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1010
+        "domestic": 1011
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1011
+        "domestic": 1012
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1012
+        "domestic": 1013
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1013
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A205ea9cd42ec1c93e4313dc4"
-    },
-    {
-      "id": "news:kcna:0e1293ce53c01c342a355bda",
-      "title": "2026년 5월 29일 신문개관",
-      "date": "2026-05-29",
-      "snippet": "(평양 5월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/30ecfa1aac61215019c8428994a4926f",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1014
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0e1293ce53c01c342a355bda"
+      "detailUrl": "/news/document?id=news%3Akcna%3A205ea9cd42ec1c93e4313dc4"
     }
   ]
 }

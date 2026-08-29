@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 673,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:67c0b7aa73c192625f36596a",
+      "title": "중국인민해방군대표단 귀국",
+      "date": "2025-10-29",
+      "snippet": "(평양 10월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1555c2277fe5def62553c6719fe60601",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 523,
+        "domestic": 3361
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A67c0b7aa73c192625f36596a"
+    },
     {
       "id": "news:kcna:050bb713964efe096ebec9de",
       "title": "새로운 재해경보통보체계 연구개발",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3361
+        "domestic": 3362
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +66,7 @@
       ],
       "categoryOrders": {
         "foreign": 524,
-        "domestic": 3362
+        "domestic": 3363
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +88,7 @@
       ],
       "categoryOrders": {
         "foreign": 526,
-        "domestic": 3363
+        "domestic": 3364
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,28 +108,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3364
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1a6f460043dd11a02fca22d2"
-    },
-    {
-      "id": "news:kcna:e3e351bf3cc614240c899027",
-      "title": "우리 나라 외무상 베네수엘라볼리바르공화국 인민정권 외무상에게 축전",
-      "date": "2025-10-29",
-      "snippet": "(평양 10월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/760adbd9e55763e516e59213395d60a8",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 527,
         "domestic": 3365
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae3e351bf3cc614240c899027"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1a6f460043dd11a02fca22d2"
     }
   ]
 }

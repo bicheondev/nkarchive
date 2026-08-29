@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 237,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:5bd5e55bd40c314d6e93b854",
+      "title": "윁남공산당 중앙위원회 총비서이며 윁남사회주의공화국 주석인 또 럼동지의 특사 평양 도착",
+      "date": "2026-05-13",
+      "snippet": "(평양 5월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/75a79d989445ff686d4763f4185337cd",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 114,
+        "foreign": 178,
+        "domestic": 1180
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064a56eb7fd6cc551cc1cefe21b6e11b276",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/bfd2c6c24ac1dd02e9deba9d9ceef119ed924b6b259c3f08d8b7eb16939d31ea.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5bd5e55bd40c314d6e93b854"
+    },
     {
       "id": "news:kcna:3bca528e75bb8d5626aba44a",
       "title": "조선직업총동맹 제9차대회 참가자들을 위한 강습 진행",
@@ -22,7 +46,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1180
+        "domestic": 1181
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +68,7 @@
       ],
       "categoryOrders": {
         "important": 115,
-        "domestic": 1181
+        "domestic": 1182
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +90,7 @@
       ],
       "categoryOrders": {
         "important": 116,
-        "domestic": 1182
+        "domestic": 1183
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +110,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1183
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae81218ad70090a8f9cea1065"
-    },
-    {
-      "id": "news:kcna:9a288d43c936902cb570cdfa",
-      "title": "제23차 5.21건축축전 개막",
-      "date": "2026-05-13",
-      "snippet": "(평양 5월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/37b898859884872b49dd3ec511b1b55c",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1184
       },
       "featuredSections": [],
@@ -113,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9a288d43c936902cb570cdfa"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae81218ad70090a8f9cea1065"
     }
   ]
 }

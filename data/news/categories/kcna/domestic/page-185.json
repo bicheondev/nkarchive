@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 185,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:4316fdea2789068bc8580c7d",
+      "title": "2026년 6월 6일 신문개관",
+      "date": "2026-06-06",
+      "snippet": "(평양 6월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2bff5ccbb27d255cdcc82edeb95c7078",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 920
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4316fdea2789068bc8580c7d"
+    },
     {
       "id": "news:kcna:b4e5309b89a54054590ba5d9",
       "title": "조선소년단창립 80돐기념 학생소년들의 종합공연 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 920
+        "domestic": 921
       },
       "featuredSections": [],
       "hasImage": true,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 921,
+        "domestic": 922,
         "social": 96
       },
       "featuredSections": [],
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 922,
+        "domestic": 923,
         "social": 97
       },
       "featuredSections": [],
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 923
+        "domestic": 924
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,28 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A1352ad32e0687def3d1ad9f8"
-    },
-    {
-      "id": "news:kcna:931282a1943d516cad65bb22",
-      "title": "자애로운 어버이의 품속에 안겨사는 복받은 소년단원들",
-      "date": "2026-06-06",
-      "snippet": "(평양 6월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d70a016886774250b8cc8f717561a6de",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 924,
-        "social": 98
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e38add82a4effaa61cbb6ad2d6a97e04f0",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/3a5dd6c29850d3b87c6b6eeaa022da37124991a319db915794982bdc6176ad3f.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A931282a1943d516cad65bb22"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 244,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:335b3e69beeb41b053d2c2b8",
+      "title": "국가관광총국에서 국내관광을 활성화하기 위한 사업 적극화",
+      "date": "2026-05-10",
+      "snippet": "(평양 5월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c9ccebb3f9351098c4cd8afd67eb85f5",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1215
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A335b3e69beeb41b053d2c2b8"
+    },
     {
       "id": "news:kcna:2ac2005b88064d83f69183bd",
       "title": "군인건설자들 대안구역의 지방발전정책대상건설 추진",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1215
+        "domestic": 1216
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "foreign": 183,
-        "domestic": 1216
+        "domestic": 1217
       },
       "featuredSections": [],
       "hasImage": true,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1217
+        "domestic": 1218
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1218
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A22efd295f12dac0e1b90395d"
-    },
-    {
-      "id": "news:kcna:fca1c425c6724ca98b806bc7",
-      "title": "2026년 5월 9일 신문개관",
-      "date": "2026-05-09",
-      "snippet": "(평양 5월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/22d0d0dd1555164f88b406e9f00b8883",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1219
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afca1c425c6724ca98b806bc7"
+      "detailUrl": "/news/document?id=news%3Akcna%3A22efd295f12dac0e1b90395d"
     }
   ]
 }

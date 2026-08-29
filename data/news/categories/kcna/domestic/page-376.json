@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 376,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:c8b52c5a8397834dae55e7f9",
+      "title": "함경북도안의 고급중학교 졸업반학생들 최전연국경초소들로 탄원",
+      "date": "2026-03-18",
+      "snippet": "(평양 3월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/09f380145a8a14090617ae6a1f4f10c2",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 1876,
+        "social": 211
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac8b52c5a8397834dae55e7f9"
+    },
     {
       "id": "news:kcna:59b483f587c0b7a94d7f6569",
       "title": "우리 인민이 봄철음식감으로 즐겨리용한 냉이",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1876
+        "domestic": 1877
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1877
+        "domestic": 1878
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1878
+        "domestic": 1879
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,28 +106,6 @@
       ],
       "categoryOrders": {
         "important": 226,
-        "domestic": 1879
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4425531150a8dcd581b7e054"
-    },
-    {
-      "id": "news:kcna:aef79c6f9011ca2daf0ff714",
-      "title": "조선민주주의인민공화국 최고인민회의를 소집할데 대하여 결정",
-      "date": "2026-03-17",
-      "snippet": "(평양 3월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6f17654b52162c22eed2b65a3ea9635f",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 227,
         "domestic": 1880
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aaef79c6f9011ca2daf0ff714"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4425531150a8dcd581b7e054"
     }
   ]
 }

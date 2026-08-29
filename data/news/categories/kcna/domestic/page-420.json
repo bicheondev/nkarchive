@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 420,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:d41e1242d737c17e5675100a",
+      "title": "개성시안의 3대혁명소조원들과 청년학생들 박연혁명전적지를 답사",
+      "date": "2026-02-26",
+      "snippet": "(평양 2월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/520adef58aeafdf23f77f49c2b0c6b34",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2096,
+        "social": 265
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad41e1242d737c17e5675100a"
+    },
     {
       "id": "news:kcna:29663747b89f185013b92d2e",
       "title": "압록강종합식료공장에서 맥주생산공정 새로 확립",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2096
+        "domestic": 2097
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +66,7 @@
       ],
       "categoryOrders": {
         "important": 267,
-        "domestic": 2097
+        "domestic": 2098
       },
       "featuredSections": [],
       "hasImage": true,
@@ -64,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2098
+        "domestic": 2099
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2099
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7425120e5666f0fde9635cfb"
-    },
-    {
-      "id": "news:kcna:5c20366ddf4f0a1bf78d4acc",
-      "title": "2026년 2월 25일 신문개관",
-      "date": "2026-02-25",
-      "snippet": "(평양 2월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/16d03e6b969abe4117a64a34b05fd2c8",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2100
       },
       "featuredSections": [],
@@ -111,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5c20366ddf4f0a1bf78d4acc"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7425120e5666f0fde9635cfb"
     }
   ]
 }

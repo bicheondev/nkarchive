@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 11,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:c0ab4febad212c950f9f5cfc",
+      "title": "다심한 학부형의 심정으로 풀어주신 문제",
+      "date": "2026-05-31",
+      "snippet": "1969년 6월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/1cc388cb8b7cc9e3aae38ef88b8b5b7e",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 50
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac0ab4febad212c950f9f5cfc"
+    },
     {
       "id": "news:kcna:48c6c9d2928594451b9855e6",
       "title": "태상벌이 전하는 이야기",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 50
+        "memory": 51
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 51
+        "memory": 52
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 52
+        "memory": 53
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 53
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A95784952f6f233489838ea25"
-    },
-    {
-      "id": "news:kcna:7ff0d0ad6225cb56c20575ac",
-      "title": "밝아진 분수공원의 불빛",
-      "date": "2026-05-28",
-      "snippet": "위대한 령도자 김정일동지께서는 1978년 5월 어느날 저녁 만수대예술극장 분수공원을 지나시다가 문득 승용차를 세우도록 하시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/408583a6ce6c17495a314d70a05490c6",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 54
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7ff0d0ad6225cb56c20575ac"
+      "detailUrl": "/news/document?id=news%3Akcna%3A95784952f6f233489838ea25"
     }
   ]
 }

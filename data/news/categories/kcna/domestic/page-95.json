@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 95,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:afbcccb1ffe31cf0b12b9bbe",
+      "title": "중화인민공화국 당 및 정부대표단 귀국",
+      "date": "2026-07-18",
+      "snippet": "(평양 7월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2fe4616089caddc0cae6f0fc6a8fd3d5",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 47,
+        "foreign": 69,
+        "domestic": 470
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d1c79df1b307686a05934192706c08dfc",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/09b009e50bbd359c1284b5de2d375ffe753dd2f5b5a70b18a008223841319c80.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aafbcccb1ffe31cf0b12b9bbe"
+    },
     {
       "id": "news:kcna:a6de890ce4c6aeb0c7f98fcf",
       "title": "중화인민공화국 당 및 정부대표단 원산갈마해안관광지구 참관",
@@ -26,7 +50,7 @@
       "categoryOrders": {
         "important": 48,
         "foreign": 70,
-        "domestic": 470
+        "domestic": 471
       },
       "featuredSections": [],
       "hasImage": true,
@@ -48,7 +72,7 @@
       ],
       "categoryOrders": {
         "foreign": 71,
-        "domestic": 471
+        "domestic": 472
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,7 +92,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 472
+        "domestic": 473
       },
       "featuredSections": [],
       "hasImage": false,
@@ -89,7 +113,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 473,
+        "domestic": 474,
         "social": 60
       },
       "featuredSections": [],
@@ -98,26 +122,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aef598f8e72db11abff48eac7"
-    },
-    {
-      "id": "news:kcna:838c9bb86077c034f1e27e82",
-      "title": "황해북도에서 복합알비료생산기지건설 진척",
-      "date": "2026-07-17",
-      "snippet": "(평양 7월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f18818d5c404328cb2108273790ad96d",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 474
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A838c9bb86077c034f1e27e82"
     }
   ]
 }

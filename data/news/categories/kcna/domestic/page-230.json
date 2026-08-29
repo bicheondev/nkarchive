@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 230,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:7aa231d3cf38871013b8abd6",
+      "title": "박태성 내각총리 여러 부문 사업 현지료해",
+      "date": "2026-05-16",
+      "snippet": "(평양 5월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/efa7740e1de705fc244cb33245b9b6cf",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 108,
+        "domestic": 1145
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7aa231d3cf38871013b8abd6"
+    },
     {
       "id": "news:kcna:17a98ca5c2cac476ac09b0c3",
       "title": "조용원동지가 윁남공산당 중앙위원회 총비서,윁남사회주의공화국 주석특사를 만났다",
@@ -26,7 +48,7 @@
       "categoryOrders": {
         "important": 109,
         "foreign": 172,
-        "domestic": 1145
+        "domestic": 1146
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +68,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1146
+        "domestic": 1147
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +88,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1147
+        "domestic": 1148
       },
       "featuredSections": [],
       "hasImage": false,
@@ -87,7 +109,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1148,
+        "domestic": 1149,
         "social": 116
       },
       "featuredSections": [],
@@ -96,26 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Afb53723acf637941041e3668"
-    },
-    {
-      "id": "news:kcna:6b0b952f4790ce7977c54ea0",
-      "title": "황해북도에서 기름작물재배면적 확대",
-      "date": "2026-05-15",
-      "snippet": "(평양 5월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0415f7fcb95ab1d98827fd52da5e8990",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1149
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6b0b952f4790ce7977c54ea0"
     }
   ]
 }

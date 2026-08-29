@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 470,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:c30095285e60677bdfcc8387",
+      "title": "2026년 2월 2일 신문개관",
+      "date": "2026-02-02",
+      "snippet": "(평양 2월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/30007c0ce61ac1007a728e1063b4eed6",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2346
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac30095285e60677bdfcc8387"
+    },
     {
       "id": "news:kcna:ed414301a469d058fff31ec1",
       "title": "제3차 2.16경축 인민예술축전 선전화들이 나왔다",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2346
+        "domestic": 2347
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2347
+        "domestic": 2348
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2348
+        "domestic": 2349
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,28 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2349
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A07700329247a0b856fe8f5ca"
-    },
-    {
-      "id": "news:kcna:48c41f38d0dc74a99f484827",
-      "title": "우리 나라 외무상 적도기네공화국 외무,국제협조 및 해외동포국무상에게 축전",
-      "date": "2026-02-02",
-      "snippet": "(평양 2월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1efdc25e352f5908e27959cb9a84af50",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 409,
         "domestic": 2350
       },
       "featuredSections": [],
@@ -111,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A48c41f38d0dc74a99f484827"
+      "detailUrl": "/news/document?id=news%3Akcna%3A07700329247a0b856fe8f5ca"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 676,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:50d3fb8b1bab66e46b083403",
+      "title": "대규모온실농장들에서 남새생산량,품종수 증대",
+      "date": "2025-10-28",
+      "snippet": "(평양 10월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/527fd1709a6aeb3246caa0a80a7e3824",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3376
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A50d3fb8b1bab66e46b083403"
+    },
     {
       "id": "news:kcna:dceab96efc1a16bdb6834765",
       "title": "2025년 10월 28일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3376
+        "domestic": 3377
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3377
+        "domestic": 3378
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3378
+        "domestic": 3379
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,7 +102,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3379
+        "domestic": 3380
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,28 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aa75f319a6df428d3a0f2a47e"
-    },
-    {
-      "id": "news:kcna:14d67ec2ebeaa1e47d5e0fcb",
-      "title": "로씨야에 가는 김책공업종합대학대표단 출발",
-      "date": "2025-10-28",
-      "snippet": "(평양 10월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7a7e915767fb8ff862651fa990545f07",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 528,
-        "domestic": 3380
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d939330bb1295acec11f7869926d0f17f7fefe8",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/d9ef542f89d469cb6ab5d22bd30103b76d34529988ec98bd40f92ddf4692af66.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A14d67ec2ebeaa1e47d5e0fcb"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 566,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:618a837fcb62796045af352a",
+      "title": "장자강발전소 개건보수 결속",
+      "date": "2025-12-16",
+      "snippet": "(평양 12월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/fb6e9063efe1d59ab427b8c9b1c89b52",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2826
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A618a837fcb62796045af352a"
+    },
     {
       "id": "news:kcna:2502dea31cec600606f1e161",
       "title": "청년학생들의 덕성이야기모임 진행",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2826,
+        "domestic": 2827,
         "social": 437
       },
       "featuredSections": [],
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "important": 355,
-        "domestic": 2827
+        "domestic": 2828
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2828
+        "domestic": 2829
       },
       "featuredSections": [],
       "hasImage": false,
@@ -87,7 +107,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2829,
+        "domestic": 2830,
         "social": 438
       },
       "featuredSections": [],
@@ -96,28 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ae898d8476d0f901ba42ee6de"
-    },
-    {
-      "id": "news:kcna:4af226497f51797387a00938",
-      "title": "부령군인민들 지방공업공장준공의 경사로운 시각을 맞이",
-      "date": "2025-12-16",
-      "snippet": "(평양 12월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5fc6331ae08dcfe5d2731e866c077f40",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 356,
-        "domestic": 2830
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ffba56b1e8920a7f2af5803f99f000bac0",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/74ec5fde5bdcb384c4a018398ff877cdcd8d24c8dd5e7f689ac137c6b1e368b6.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4af226497f51797387a00938"
     }
   ]
 }

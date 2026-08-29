@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "international",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 2767,
+  "totalItems": 2768,
   "totalPages": 554,
   "articles": [
+    {
+      "id": "news:kcna:91918bdeba9c60507c997da5",
+      "title": "습근평주석 티베트자치구에서 발생한 산사태피해와 관련하여 중요지시 하달",
+      "date": "2026-08-28",
+      "snippet": "(베이징 8월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9507d80205d01309d70ca705685feef1",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 0
+      },
+      "featuredSections": [
+        "international"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A91918bdeba9c60507c997da5"
+    },
     {
       "id": "news:kcna:5d4590d257049c9d2adf0f27",
       "title": "태풍22호 발생",
@@ -22,7 +44,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 0
+        "international": 1
       },
       "featuredSections": [
         "international"
@@ -44,11 +66,9 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1
+        "international": 2
       },
-      "featuredSections": [
-        "international"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -66,7 +86,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2
+        "international": 3
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 3
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1792b4bfba6a4ff6f0f5ec4a"
-    },
-    {
-      "id": "news:kcna:305090185717560c85a44f98",
-      "title": "윁남에서 태풍피해",
-      "date": "2026-08-28",
-      "snippet": "(평양 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3f7fb50fea88a5bc6b6b917c9849fa7d",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 4
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A305090185717560c85a44f98"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1792b4bfba6a4ff6f0f5ec4a"
     }
   ]
 }

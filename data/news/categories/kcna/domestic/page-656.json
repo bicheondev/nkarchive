@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 656,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:7d809e7745a4d5322b8a93fc",
+      "title": "제3차 아시아청소년경기대회에 참가하였던 우리 선수들 귀국",
+      "date": "2025-11-05",
+      "snippet": "(평양 11월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a669c016e7c7c2458032a0301b3d5378",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 510,
+        "domestic": 3276
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7d809e7745a4d5322b8a93fc"
+    },
     {
       "id": "news:kcna:cf53754a5c6d7975b0478212",
       "title": "《전국보건부문 과학기술성과전시회-2025》 개막",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3276
+        "domestic": 3277
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3277
+        "domestic": 3278
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3278
+        "domestic": 3279
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +105,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3279,
+        "domestic": 3280,
         "social": 541
       },
       "featuredSections": [],
@@ -92,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac5d19e10951b012fba5dea82079e6a132",
       "cachedThumbnailUrl": "/data/news/assets/kcna/91e8fddf691b40a16a1fdbb60d06c9a3963f6d6dc8b0e87bc3c63b23b98b5523.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A3da04c0a89e7d51f13184240"
-    },
-    {
-      "id": "news:kcna:030d4daefd6ddcdff01c42a5",
-      "title": "2025년 11월 4일 신문개관",
-      "date": "2025-11-04",
-      "snippet": "(평양 11월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/76145e2139f5e00c2445082749f4682b",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3280
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A030d4daefd6ddcdff01c42a5"
     }
   ]
 }

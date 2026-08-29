@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 432,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:6eb9b1be669f26e3ba298d99",
+      "title": "재중조선인총련합회축하단 도착",
+      "date": "2026-02-19",
+      "snippet": "(평양 2월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/092ac81ba9fa493329a99e727677ccf8",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2156
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366b90c93d02f93a7e4ca9118cf4bdcc575",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/4cb9f016ccbeea2ad885c5951abd2fad7ca987dfc322c4dce7b31f672db1cb45.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6eb9b1be669f26e3ba298d99"
+    },
     {
       "id": "news:kcna:1c84f47b533c85550c64b340",
       "title": "제3차 2.16경축 인민예술축전 페막",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2156
+        "domestic": 2157
       },
       "featuredSections": [],
       "hasImage": true,
@@ -48,7 +68,7 @@
         "important": 287,
         "document": 44,
         "foreign": 382,
-        "domestic": 2157
+        "domestic": 2158
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,7 +89,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2158,
+        "domestic": 2159,
         "social": 276
       },
       "featuredSections": [],
@@ -90,7 +110,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2159
+        "domestic": 2160
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,28 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A75c99a5e4d7efc786de0a2aa"
-    },
-    {
-      "id": "news:kcna:e473204ab5f1daaa005222b5",
-      "title": "증산열기를 고조시키는 사상전의 북소리",
-      "date": "2026-02-19",
-      "snippet": "(평양 2월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/15627e5fc613dfee83608cb96ead2632",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2160,
-        "social": 277
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae473204ab5f1daaa005222b5"
     }
   ]
 }

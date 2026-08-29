@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 15,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:9e7fe1d72d5499b209f0e43f",
+      "title": "황해북도에서 농촌기술혁명의 주인들을 육성하기 위한 사업 적극화",
+      "date": "2026-08-23",
+      "snippet": "(평양 8월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d9d556155d076e71fdc5d6bb0ec641e0",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 70
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9e7fe1d72d5499b209f0e43f"
+    },
     {
       "id": "news:kcna:1f81e732bced28d06de090cb",
       "title": "평안남도에서 농촌청년작업반,청년분조들을 도와주기 위한 사업 진행",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 70,
+        "domestic": 71,
         "social": 11
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 71
+        "domestic": 72
       },
       "featuredSections": [],
       "hasImage": true,
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 72,
+        "domestic": 73,
         "social": 12
       },
       "featuredSections": [],
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 73
+        "domestic": 74
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,28 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A33379da7dbd3e1ffd910a563"
-    },
-    {
-      "id": "news:kcna:6c605eddc6d353c72c57d758",
-      "title": "전국학생소년취주악대경연 진행",
-      "date": "2026-08-23",
-      "snippet": "(평양 8월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fe510542145a0357169bfee0b71302aa",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 74,
-        "social": 13
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6c605eddc6d353c72c57d758"
     }
   ]
 }

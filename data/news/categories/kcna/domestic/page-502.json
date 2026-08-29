@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 502,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:4af0dfa4b0a107e20268685c",
+      "title": "황해북도에서 1 000여대의 농기계를 수리정비",
+      "date": "2026-01-18",
+      "snippet": "(평양 1월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8c333166e178413e868040828cea97a7",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2506
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4af0dfa4b0a107e20268685c"
+    },
     {
       "id": "news:kcna:f9e7d05c4dc7d3d73d084d7c",
       "title": "유명한 평양온반,한겨울에 그저그만",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2506,
+        "domestic": 2507,
         "social": 362
       },
       "featuredSections": [],
@@ -48,7 +68,7 @@
       "categoryOrders": {
         "important": 315,
         "foreign": 416,
-        "domestic": 2507
+        "domestic": 2508
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,7 +89,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2508,
+        "domestic": 2509,
         "social": 363
       },
       "featuredSections": [],
@@ -90,7 +110,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2509
+        "domestic": 2510
       },
       "featuredSections": [],
       "hasImage": true,
@@ -98,28 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451cb9f9c229bf66d2c32f1e7033d9658bc",
       "cachedThumbnailUrl": "/data/news/assets/kcna/27cb843b46c3f268a944e255365553d574b9d7bf3b7e64a02cebcb9c78cd405e.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ae8a2d555ae13ea7e9fb99f14"
-    },
-    {
-      "id": "news:kcna:f689dc65139b665c61a43302",
-      "title": "각지에서 사회주의애국청년동맹창립 80돐을 뜻깊게 경축",
-      "date": "2026-01-18",
-      "snippet": "(평양 1월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/21fb641aa1b2af574463fffb5d647f88",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2510,
-        "social": 364
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451438fa7ad45e0ecc0a81861eda2e1c9e0",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/7d52352a10943ef52ac7a60b5a394215b41d6c8c2beb1623c4557dbb54a12eca.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af689dc65139b665c61a43302"
     }
   ]
 }

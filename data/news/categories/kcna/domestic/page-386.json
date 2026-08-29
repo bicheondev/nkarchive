@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 386,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:79d6c461944e99880e9cb54d",
+      "title": "2026년 3월 13일 신문개관",
+      "date": "2026-03-13",
+      "snippet": "(평양 3월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2ca424df8b9f5f93d07b9a97a2902144",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1926
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A79d6c461944e99880e9cb54d"
+    },
     {
       "id": "news:kcna:fd65cfb3cd933273680ea18c",
       "title": "조선민주주의인민공화국 최고인민회의 제15기 대의원선거를 위한 중앙선거위원회 보도 발표",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "important": 237,
-        "domestic": 1926
+        "domestic": 1927
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,7 +65,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1927,
+        "domestic": 1928,
         "social": 224
       },
       "featuredSections": [],
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1928
+        "domestic": 1929
       },
       "featuredSections": [],
       "hasImage": true,
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1929
+        "domestic": 1930
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,26 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A4ec283c09f366e23f9dce8b4"
-    },
-    {
-      "id": "news:kcna:7b8ca8656ff7083d06259667",
-      "title": "첫 우표발행 80돐기념 우표전람회 개막",
-      "date": "2026-03-13",
-      "snippet": "(평양 3월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d881bc932443a76a5a6b395dd9e34994",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1930
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60e66e1a7b20a1df91bd7d6a5010158a49",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/139961b0772643100b3625ce7dc3da1f7d54745f03f410ce0c57f30456ba0e13.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7b8ca8656ff7083d06259667"
     }
   ]
 }

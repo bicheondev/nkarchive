@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 511,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:de5121a498c0b8987cbad634",
+      "title": "강원도에서 집중경제선동 전개",
+      "date": "2026-01-14",
+      "snippet": "(평양 1월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/be4a71fd6d910d1f2ff64d7c68d7d9e4",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2551,
+        "social": 375
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ade5121a498c0b8987cbad634"
+    },
     {
       "id": "news:kcna:a35c382a7d565e471a328cd1",
       "title": "보건성에서 의료일군양성사업을 개선하기 위한 노력 증대",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2551
+        "domestic": 2552
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2552
+        "domestic": 2553
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2553
+        "domestic": 2554
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +105,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2554,
+        "domestic": 2555,
         "social": 376
       },
       "featuredSections": [],
@@ -92,28 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451ca44f3a796e81772d7c04e4ec1995236",
       "cachedThumbnailUrl": "/data/news/assets/kcna/53ba57ca286bbbf41028df304e72f2ee95327488e64d67145c7e334c33841c9b.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ae678b69057b788a7cf92898a"
-    },
-    {
-      "id": "news:kcna:d8ecbbf64f1778e2c6f62418",
-      "title": "모범적인 단위들에 사회주의애국림칭호 수여",
-      "date": "2026-01-14",
-      "snippet": "(평양 1월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/51bf5d588243404c6a51805279b2d9bb",
-      "mediaType": "article",
-      "categories": [
-        "document",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "document": 49,
-        "domestic": 2555
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad8ecbbf64f1778e2c6f62418"
     }
   ]
 }

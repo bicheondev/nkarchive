@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 509,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:9cdbc8c41d9c35613574aea4",
+      "title": "함흥시의 대중교통운수수단들 새롭게 일신",
+      "date": "2026-01-15",
+      "snippet": "(평양 1월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e9bb2c4af5e0a01ac7b9f9d9fc8e1058",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2541
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9cdbc8c41d9c35613574aea4"
+    },
     {
       "id": "news:kcna:2ae7f5eb5ad8960fe7ba47db",
       "title": "모범적인 단위들에 26호모범기대영예상 수여",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "document": 47,
-        "domestic": 2541
+        "domestic": 2542
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2542
+        "domestic": 2543
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
       ],
       "categoryOrders": {
         "document": 48,
-        "domestic": 2543
+        "domestic": 2544
       },
       "featuredSections": [],
       "hasImage": false,
@@ -87,7 +107,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2544,
+        "domestic": 2545,
         "social": 374
       },
       "featuredSections": [],
@@ -96,26 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451478b7a82d68c01b2886cda6ee79b6300",
       "cachedThumbnailUrl": "/data/news/assets/kcna/402951ec88d5529d8edcd3c780c13e996e7c44d92d3113be5f797183cc13302c.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Aee5eb32d8ec12abe026ca997"
-    },
-    {
-      "id": "news:kcna:73139ff449b74b93f532f7d2",
-      "title": "평안북도 애도간석지 1구역건설 완공,준공식 진행",
-      "date": "2026-01-15",
-      "snippet": "(평양 1월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8c71c57e1dc9da87e0801912fc2e1eb8",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2545
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A73139ff449b74b93f532f7d2"
     }
   ]
 }

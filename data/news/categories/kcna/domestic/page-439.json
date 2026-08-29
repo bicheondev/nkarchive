@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 439,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:9cfe3de966cc12b06100d8b1",
+      "title": "인민의 행복에서 기쁨을 찾으신 위대한 어버이",
+      "date": "2026-02-16",
+      "snippet": "(평양 2월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/31d7085182aa1f207f203946f8cef6ee",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2191
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9cfe3de966cc12b06100d8b1"
+    },
     {
       "id": "news:kcna:841320acbd9da03a7c1525ee",
       "title": "우리 나라의 광천자원-온천",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2191
+        "domestic": 2192
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2192
+        "domestic": 2193
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2193
+        "domestic": 2194
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
       ],
       "categoryOrders": {
         "foreign": 385,
-        "domestic": 2194
+        "domestic": 2195
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf3663c15c86ed16a90f175a615f9ccf1d04d",
       "cachedThumbnailUrl": "/data/news/assets/kcna/28fb56695e7e76162cab5cc748d917523ff1952c775ab33526cb96265766d7b9.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Af3193d3167344db1ca136ae6"
-    },
-    {
-      "id": "news:kcna:ef96fe44da3ac680f158850d",
-      "title": "박태성동지 쓰르비아공화국 수상에게 축전",
-      "date": "2026-02-16",
-      "snippet": "(평양 2월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/61cd88937e9ef79105e946fb46f64034",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 386,
-        "domestic": 2195
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aef96fe44da3ac680f158850d"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 212,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:a96f0d02b0aa6365f8252bc2",
+      "title": "평양시안의 농촌들에서 모내기성과 확대",
+      "date": "2026-05-26",
+      "snippet": "(평양 5월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b96a2ccaa7d88269099653b553cbf0f5",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1055
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa96f0d02b0aa6365f8252bc2"
+    },
     {
       "id": "news:kcna:5776f42746babaaec8705d65",
       "title": "2026년 5월 26일 《로동신문》개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1055
+        "domestic": 1056
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,7 +65,7 @@
       ],
       "categoryOrders": {
         "important": 104,
-        "domestic": 1056,
+        "domestic": 1057,
         "social": 110
       },
       "featuredSections": [],
@@ -67,7 +87,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1057,
+        "domestic": 1058,
         "social": 111
       },
       "featuredSections": [],
@@ -88,7 +108,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1058
+        "domestic": 1059
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,26 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A6c022b80a7527efbd53d001a"
-    },
-    {
-      "id": "news:kcna:925348c0ad6b6faa8c4b0b29",
-      "title": "우리 나라의 비물질문화유산들(15)--고려인삼재배와 리용풍습",
-      "date": "2026-05-25",
-      "snippet": "(평양 5월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c781d9146309d4d42758ea3bbdc93370",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1059
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e00006458809c6ec76af48391a7ae9f860bbdbe",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/17cb2d6dc8781f2e251be45024f86f9626809a7f75624b6dbc5953ec3c48f6b8.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A925348c0ad6b6faa8c4b0b29"
     }
   ]
 }

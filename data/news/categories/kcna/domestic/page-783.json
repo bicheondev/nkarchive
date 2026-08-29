@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 783,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:8033319227ac7893264ba02c",
+      "title": "량강도안의 농장들에서 감자수확 시작",
+      "date": "2025-09-21",
+      "snippet": "(평양 9월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/fdf7497d240b0ab9e3f324ba81c5166b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3911
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8033319227ac7893264ba02c"
+    },
     {
       "id": "news:kcna:fc4438c1bc583be7688fef37",
       "title": "농업생산에 대한 과학적인 지도 및 관리체계 전국적으로 확립,최신정보기술 도입",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3911
+        "domestic": 3912
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "important": 478,
-        "domestic": 3912
+        "domestic": 3913
       },
       "featuredSections": [],
       "hasImage": true,
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3913,
+        "domestic": 3914,
         "social": 638
       },
       "featuredSections": [],
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3914
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A295978acfee1985982d1a268"
-    },
-    {
-      "id": "news:kcna:ad42d4e7ce40fc1ddd46da8d",
-      "title": "전국생물공학부문 과학기술발표회 및 전시회 진행",
-      "date": "2025-09-21",
-      "snippet": "(평양 9월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1ff0866749f7ae0b9a91f1e8d6a538cf",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3915
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aad42d4e7ce40fc1ddd46da8d"
+      "detailUrl": "/news/document?id=news%3Akcna%3A295978acfee1985982d1a268"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,39 @@
   "section": "domestic",
   "page": 7,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:6aa3ff6b7410c650239f1b74",
+      "title": "조선민주주의인민공화국 외무성 대변인대답",
+      "date": "2026-08-27",
+      "snippet": "(평양 8월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/39b4817b129827ff50733a7f0efbd510",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 3,
+        "document": 0,
+        "foreign": 4,
+        "domestic": 30
+      },
+      "featuredSections": [
+        "important",
+        "document",
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6aa3ff6b7410c650239f1b74"
+    },
     {
       "id": "news:kcna:6ce4b982a8ae692ce71f20fc",
       "title": "《로동신문》 변혁의 새 전기를 펼쳐나가는 우리 당의 혁명적인 실행의지에 대해 강조",
@@ -22,7 +52,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 30
+        "domestic": 31
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +72,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 31
+        "domestic": 32
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +94,7 @@
       ],
       "categoryOrders": {
         "foreign": 6,
-        "domestic": 32
+        "domestic": 33
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +114,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 33
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acc219aae8af8bb23b61bbe12"
-    },
-    {
-      "id": "news:kcna:887d81826a6303e15f295af1",
-      "title": "청년들을 영웅청년신화의 창조자들로 키워주는 은혜로운 품",
-      "date": "2026-08-27",
-      "snippet": "(평양 8월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/72281550a6ee7003fe34d9b16387a36a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 34
       },
       "featuredSections": [],
@@ -111,7 +121,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A887d81826a6303e15f295af1"
+      "detailUrl": "/news/document?id=news%3Akcna%3Acc219aae8af8bb23b61bbe12"
     }
   ]
 }

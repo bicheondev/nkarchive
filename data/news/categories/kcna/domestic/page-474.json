@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 474,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:fd13b221b40e7621c9ece524",
+      "title": "2026년 1월 31일 신문개관",
+      "date": "2026-01-31",
+      "snippet": "(평양 1월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1c267b9e860d5bd5c1906ebea9d00c2a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2366
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afd13b221b40e7621c9ece524"
+    },
     {
       "id": "news:kcna:c257356322c73695b09836bc",
       "title": "황해북도 승호군 만달남새농장과 평산군 와현농장에 새집들이 일떠섰다",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2366,
+        "domestic": 2367,
         "social": 318
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2367
+        "domestic": 2368
       },
       "featuredSections": [],
       "hasImage": true,
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2368,
+        "domestic": 2369,
         "social": 319
       },
       "featuredSections": [],
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2369
+        "domestic": 2370
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451cbea498b4154811e1ab91b701238629b",
       "cachedThumbnailUrl": "/data/news/assets/kcna/a82a9abe1dbf5b96851d6d8066984e050213848f8cba351454a3d683b2ed89ff.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A15fa076a20be16be60245015"
-    },
-    {
-      "id": "news:kcna:9add7d188813aef4acb0b5a7",
-      "title": "평양시 화성지구에 새로 거리,동들을 내오기로 결정",
-      "date": "2026-01-31",
-      "snippet": "(평양 1월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b1c2d1a5947308f284a1a3e8cec9905f",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2370
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9add7d188813aef4acb0b5a7"
     }
   ]
 }

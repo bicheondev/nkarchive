@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 6,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:b976a7b25cfbce96a08dfcfe",
+      "title": "행군의 중요성을 깨우쳐주시며",
+      "date": "2026-07-17",
+      "snippet": "1947년 8월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/22e50e5b07addc913eb6ecbd88071b19",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 25
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab976a7b25cfbce96a08dfcfe"
+    },
     {
       "id": "news:kcna:9df0da9da2a802896d227755",
       "title": "영웅적위훈의 원동력",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 25
+        "memory": 26
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 26
+        "memory": 27
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 27
+        "memory": 28
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 28
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A540a420e7ddd62eef32d0a48"
-    },
-    {
-      "id": "news:kcna:19847de1dda620e8dadfb87f",
-      "title": "하늘처럼 여기고 하느님처럼 섬기는 인민",
-      "date": "2026-07-08",
-      "snippet": "항일혁명전쟁시기인 1936년 초겨울 어느날 천도교의 도정이 위대한 수령 김일성동지를 뵈오려 백두산밀영에 들어왔을 때의 일이다.",
-      "url": "http://www.kcna.kp/kp/article/detail/63da9a85f042cd2004dff925acff4569",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 29
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A19847de1dda620e8dadfb87f"
+      "detailUrl": "/news/document?id=news%3Akcna%3A540a420e7ddd62eef32d0a48"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 252,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:a0ef2958cda313aeee00bf34",
+      "title": "장림광산에서 광물생산량 증대",
+      "date": "2026-05-07",
+      "snippet": "(평양 5월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/644f45f5c25bc03f8caf9c380481a547",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1255
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa0ef2958cda313aeee00bf34"
+    },
     {
       "id": "news:kcna:4f696823a16a4fc6c733c34b",
       "title": "덕천탄광 창립 80돐을 기념",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1255
+        "domestic": 1256
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1256
+        "domestic": 1257
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "foreign": 189,
-        "domestic": 1257
+        "domestic": 1258
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1258
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A874b664275e99d08aecff264"
-    },
-    {
-      "id": "news:kcna:9056a5251840ef89823c8b7e",
-      "title": "2026년 5월 6일 신문개관",
-      "date": "2026-05-06",
-      "snippet": "(평양 5월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6c278d338bc5a6a6169198951dbf092d",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1259
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9056a5251840ef89823c8b7e"
+      "detailUrl": "/news/document?id=news%3Akcna%3A874b664275e99d08aecff264"
     }
   ]
 }

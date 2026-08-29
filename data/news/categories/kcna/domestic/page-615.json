@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 615,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:b2c2a589dbe6ef02a7d6caae",
+      "title": "2025년 11월 22일 신문개관",
+      "date": "2025-11-22",
+      "snippet": "(평양 11월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4b19f219aa92f57d5806c8c716c07a83",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3071
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab2c2a589dbe6ef02a7d6caae"
+    },
     {
       "id": "news:kcna:9c71222c404dd14a88762954",
       "title": "《전국농업부문 기술경험발표 및 과학연구성과전시회》 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3071
+        "domestic": 3072
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3072,
+        "domestic": 3073,
         "social": 490
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3073
+        "domestic": 3074
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,7 +105,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3074,
+        "domestic": 3075,
         "social": 491
       },
       "featuredSections": [],
@@ -94,28 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A90163019810305518673cc35"
-    },
-    {
-      "id": "news:kcna:85ad567ec682dd76c8942da8",
-      "title": "로씨야에 가는 농업협조실무대표단 출발",
-      "date": "2025-11-22",
-      "snippet": "(평양 11월 22일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/41a15af1a7c93bfa524db5f850cd62f4",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 484,
-        "domestic": 3075
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A85ad567ec682dd76c8942da8"
     }
   ]
 }

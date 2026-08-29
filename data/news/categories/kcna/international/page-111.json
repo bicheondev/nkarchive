@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 111,
   "pageSize": 5,
-  "totalItems": 2767,
+  "totalItems": 2768,
   "totalPages": 554,
   "articles": [
+    {
+      "id": "news:kcna:330609a393988a04cb6a2ae7",
+      "title": "미국에서 물가 폭등",
+      "date": "2026-06-12",
+      "snippet": "(평양 6월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7ff18e5d1d9e97c899630986b18fe026",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 550
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A330609a393988a04cb6a2ae7"
+    },
     {
       "id": "news:kcna:930352710231ed60a3c25513",
       "title": "뛰르끼예에서 반테로작전",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 550
+        "international": 551
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 551
+        "international": 552
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 552
+        "international": 553
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,8 +103,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "international": 553,
-        "domestic": 864
+        "international": 554,
+        "domestic": 865
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,26 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A785329d1f564f07c79ac3c4a"
-    },
-    {
-      "id": "news:kcna:889845a9cc18de76fc3656e6",
-      "title": "레바논에 대한 이스라엘군의 공습만행",
-      "date": "2026-06-12",
-      "snippet": "(평양 6월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b9f2935d8b11f6261b6d99c812e28241",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 554
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A889845a9cc18de76fc3656e6"
     }
   ]
 }

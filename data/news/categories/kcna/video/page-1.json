@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "video",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 270,
-  "totalPages": 54,
+  "totalItems": 271,
+  "totalPages": 55,
   "articles": [
+    {
+      "id": "news:kcna:d108efabacdd38385617c436",
+      "title": "제품의 질제고에 큰 힘을 넣어",
+      "date": "2026-08-29",
+      "snippet": "제품의 질제고에 큰 힘을 넣어",
+      "url": "http://www.kcna.kp/kp/video/detail/71c73f4b8d1d6f0148e5551500ff58b1",
+      "mediaType": "article",
+      "categories": [
+        "video"
+      ],
+      "categoryOrders": {
+        "video": 0
+      },
+      "featuredSections": [
+        "video"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/77c6915b273327b457f70ea4b8c40f4c95606a6f965c28578d1855d5bcd071ba.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad108efabacdd38385617c436"
+    },
     {
       "id": "news:kcna:6af03770fc6319a2b38ce205",
       "title": "규격화사업을 개선하여 생산성과 확대",
@@ -22,7 +44,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 0
+        "video": 1
       },
       "featuredSections": [
         "video"
@@ -44,7 +66,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 1
+        "video": 2
       },
       "featuredSections": [
         "video"
@@ -66,7 +88,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 2
+        "video": 3
       },
       "featuredSections": [
         "video"
@@ -88,7 +110,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 3
+        "video": 4
       },
       "featuredSections": [
         "video"
@@ -98,28 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "/data/news/assets/kcna/13c2835e514cce17b047ac6e054a76083bac06a93709de1a4caa6924bfdab638.jpg",
       "detailUrl": "/news/document?id=kcna-70f93ca105ce402b"
-    },
-    {
-      "id": "kcna-a2f1f93cfde9278a",
-      "title": "축산에 힘을 넣어 성과 이룩",
-      "date": "2026-08-20",
-      "snippet": "축산에 힘을 넣어 성과 이룩",
-      "url": "http://www.kcna.kp/kp/video/detail/890f0d12835c72b5feb3b526c75f5ccb",
-      "mediaType": "article",
-      "categories": [
-        "video"
-      ],
-      "categoryOrders": {
-        "video": 4
-      },
-      "featuredSections": [
-        "video"
-      ],
-      "hasImage": true,
-      "hasVideo": true,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/e1f95e11c9dce833d025c3ab2846a4d39b598cbf0b00f2cce22d14d29ea88e13.jpg",
-      "detailUrl": "/news/document?id=kcna-a2f1f93cfde9278a"
     }
   ]
 }

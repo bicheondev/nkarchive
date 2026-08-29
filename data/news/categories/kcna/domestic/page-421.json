@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 421,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:5c20366ddf4f0a1bf78d4acc",
+      "title": "2026년 2월 25일 신문개관",
+      "date": "2026-02-25",
+      "snippet": "(평양 2월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/16d03e6b969abe4117a64a34b05fd2c8",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2101
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5c20366ddf4f0a1bf78d4acc"
+    },
     {
       "id": "news:kcna:9dd8e840c2af06b699251f8a",
       "title": "조선로동당 제9차대회 부문별 연구 및 협의회 진행",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "important": 269,
-        "domestic": 2101
+        "domestic": 2102
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2102
+        "domestic": 2103
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2103
+        "domestic": 2104
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2104
+        "domestic": 2105
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A8004479556f99d6605fbaa00"
-    },
-    {
-      "id": "news:kcna:66b8f965dfd11a6549ad49f6",
-      "title": "평안북도의 1 000여명 녀맹원들 사회주의건설의 주요전구들로 진출",
-      "date": "2026-02-25",
-      "snippet": "(평양 2월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f4a889d7f80f5fe2a1162263b15b8a1d",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2105,
-        "social": 267
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A66b8f965dfd11a6549ad49f6"
     }
   ]
 }

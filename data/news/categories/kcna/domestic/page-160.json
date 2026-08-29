@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 160,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:3c82b664992df347e1b0d016",
+      "title": "각지 농촌들에서 논밭김매기 추진",
+      "date": "2026-06-18",
+      "snippet": "(평양 6월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3be485281a654c18329859a80dfd0e86",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 795
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3c82b664992df347e1b0d016"
+    },
     {
       "id": "news:kcna:887f69c79b2cc6c6bfeac34b",
       "title": "전국재해관리부문 과학기술발표회 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 795
+        "domestic": 796
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 796
+        "domestic": 797
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 797
+        "domestic": 798
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,28 +104,6 @@
       ],
       "categoryOrders": {
         "foreign": 125,
-        "domestic": 798
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3b43d8e239af9c1e76a29a9b"
-    },
-    {
-      "id": "news:kcna:0e7dc6f6adf64f45065783db",
-      "title": "우리 나라 외무상 브루네이 다루쌀람 외무상에게 축전",
-      "date": "2026-06-18",
-      "snippet": "(평양 6월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9b93d39f0cf94d6914f1d1fc2826099d",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 126,
         "domestic": 799
       },
       "featuredSections": [],
@@ -113,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0e7dc6f6adf64f45065783db"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3b43d8e239af9c1e76a29a9b"
     }
   ]
 }

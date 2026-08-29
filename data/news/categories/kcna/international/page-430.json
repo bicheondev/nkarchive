@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 430,
   "pageSize": 5,
-  "totalItems": 2767,
+  "totalItems": 2768,
   "totalPages": 554,
   "articles": [
+    {
+      "id": "news:kcna:61c48d905f75d30cb0d35dce",
+      "title": "영국에서 칼부림범죄 성행",
+      "date": "2025-11-13",
+      "snippet": "(평양 11월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/38f3dead4a91b4b92bec587a312e5bd9",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2145
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A61c48d905f75d30cb0d35dce"
+    },
     {
       "id": "news:kcna:8c1acf55317f883dd450fced",
       "title": "여러 나라가 이스라엘전범자들을 체포할것이라고 발표",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2145
+        "international": 2146
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,7 +65,7 @@
       ],
       "categoryOrders": {
         "important": 376,
-        "international": 2146,
+        "international": 2147,
         "foreign": 490
       },
       "featuredSections": [],
@@ -67,7 +87,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2147,
+        "international": 2148,
         "foreign": 495
       },
       "featuredSections": [],
@@ -88,26 +108,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2148
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac0c533e1f44b0e35ffc7e6bb"
-    },
-    {
-      "id": "news:kcna:e021a4bacadf26a661f1b2da",
-      "title": "로씨야 유럽이 우크라이나분쟁을 부추기고있다고 비난",
-      "date": "2025-11-12",
-      "snippet": "(모스크바 11월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5f8da9b77c7f4bcfdc4477ee87861b5e",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 2149
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae021a4bacadf26a661f1b2da"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac0c533e1f44b0e35ffc7e6bb"
     }
   ]
 }

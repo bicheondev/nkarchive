@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 375,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:44c6e52c79d63b80fef51865",
+      "title": "새집들이로 흥성이는 화성지구의 새 거리",
+      "date": "2026-03-18",
+      "snippet": "(평양 3월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c1c54b6163e301012701c20de0bdbd4f",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "important": 225,
+        "domestic": 1871,
+        "social": 210
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60508ee54da8e4d3bb9278645735e8df54",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/c45304148ca021ce87dc6342dcf038b0f023e30ef3ffd044df53332b42a96cb9.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A44c6e52c79d63b80fef51865"
+    },
     {
       "id": "news:kcna:248f6a5f1dd6adf8a6cec5e3",
       "title": "화성지구 5단계 건설을 위한 건설장비전시회 및 륜전기재출동식 진행",
@@ -22,7 +46,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1871
+        "domestic": 1872
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1872
+        "domestic": 1873
       },
       "featuredSections": [],
       "hasImage": true,
@@ -64,7 +88,7 @@
       ],
       "categoryOrders": {
         "foreign": 331,
-        "domestic": 1873
+        "domestic": 1874
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +108,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1874
+        "domestic": 1875
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A70c37065d7be6f743f914109"
-    },
-    {
-      "id": "news:kcna:c8b52c5a8397834dae55e7f9",
-      "title": "함경북도안의 고급중학교 졸업반학생들 최전연국경초소들로 탄원",
-      "date": "2026-03-18",
-      "snippet": "(평양 3월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/09f380145a8a14090617ae6a1f4f10c2",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 1875,
-        "social": 211
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac8b52c5a8397834dae55e7f9"
     }
   ]
 }

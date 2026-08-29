@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 221,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:08b0b79f7fe0c73b21bad9e7",
+      "title": "성,중앙기관들과 각지에서 석탄전선을 지원",
+      "date": "2026-05-21",
+      "snippet": "(평양 5월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8dd9b17f3de421af9428d0c383c7a95e",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 1100,
+        "social": 114
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A08b0b79f7fe0c73b21bad9e7"
+    },
     {
       "id": "news:kcna:28cb118e8243e78d5e399bec",
       "title": "무산광산련합기업소에서 120만산대발파 또다시 성공적으로 단행",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1100
+        "domestic": 1101
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1101
+        "domestic": 1102
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1102
+        "domestic": 1103
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,28 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1103
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A48d3be69ee9636d829386fc6"
-    },
-    {
-      "id": "news:kcna:56a47c16ec6e6e0f819bc90e",
-      "title": "로씨야를 방문하는 황해남도대표단 출발",
-      "date": "2026-05-21",
-      "snippet": "(평양 5월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/778cb61c8d2b25ff9ed11e2d67a315cd",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 167,
         "domestic": 1104
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A56a47c16ec6e6e0f819bc90e"
+      "detailUrl": "/news/document?id=news%3Akcna%3A48d3be69ee9636d829386fc6"
     }
   ]
 }

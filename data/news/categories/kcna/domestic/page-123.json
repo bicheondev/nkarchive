@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 123,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:822c89d452f378360196e1ba",
+      "title": "인민적수령의 이민위천의 세계를 전하는 수첩",
+      "date": "2026-07-07",
+      "snippet": "(평양 7월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d12f94d7c772e32fb2a50d2859d8782e",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 610
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A822c89d452f378360196e1ba"
+    },
     {
       "id": "news:kcna:423e4ae9343a5a28358a7e77",
       "title": "평양시 형제산구역의 백살장수자가 은정어린 생일상을 받아안았다",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 610,
+        "domestic": 611,
         "social": 71
       },
       "featuredSections": [],
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "important": 72,
-        "domestic": 611
+        "domestic": 612
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 612
+        "domestic": 613
       },
       "featuredSections": [],
       "hasImage": true,
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 613
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aba2e8ceffd1e87f7e33742b1"
-    },
-    {
-      "id": "news:kcna:f98cea27a39b40200108e0eb",
-      "title": "채취공업부문에서 생산장성을 위한 토대 강화",
-      "date": "2026-07-06",
-      "snippet": "(평양 7월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1bcd9f0a0b641097eb3e46972f5f6157",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 614
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af98cea27a39b40200108e0eb"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aba2e8ceffd1e87f7e33742b1"
     }
   ]
 }

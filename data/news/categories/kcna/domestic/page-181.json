@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 181,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:601199d77ca86b3e0caf60cf",
+      "title": "《로동신문》 중국인민의 친선의 사절을 열렬히 환영한다고 강조",
+      "date": "2026-06-08",
+      "snippet": "(평양 6월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9b38b61846dff2cee208078a3eec02cf",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 900
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A601199d77ca86b3e0caf60cf"
+    },
     {
       "id": "news:kcna:11588349980ed3bfb3b352d9",
       "title": "2026년 6월 8일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 900
+        "domestic": 901
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 901,
+        "domestic": 902,
         "social": 93
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 902
+        "domestic": 903
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 903
+        "domestic": 904
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,26 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A5c0936f95e30c260abedf5e8"
-    },
-    {
-      "id": "news:kcna:dd14381aae7d05dc63ce5e87",
-      "title": "반미대전승리의 시원이 열린 전승의 성지",
-      "date": "2026-06-08",
-      "snippet": "(평양 6월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/16e7d959765cbefbcd916666902368e9",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 904
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e30f7cd0ada0daea4c23c4c7833baec6c6",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/032724c8f6c7866d726dfa1be95b169316617f0d7190c197626756bd1617d9b4.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Add14381aae7d05dc63ce5e87"
     }
   ]
 }

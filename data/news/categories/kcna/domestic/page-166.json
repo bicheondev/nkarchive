@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 166,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:06ffea0a20148d7016a8a1cd",
+      "title": "재중동포들에게 박사학위 수여",
+      "date": "2026-06-16",
+      "snippet": "(평양 6월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/667a49377507f4a223ba4b95def7dc56",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 825
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e36d82d2fa9df2f8608af887cea8c66ac1",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/c7a3e8c4e2547163270d0f78587afd0926eb642b4a3963c832d97800b188ad69.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A06ffea0a20148d7016a8a1cd"
+    },
     {
       "id": "news:kcna:7ad9195bb3c067c9a25f875e",
       "title": "각지에서 밭벼재배를 위한 사업 추진",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 825
+        "domestic": 826
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 826
+        "domestic": 827
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 827,
+        "domestic": 828,
         "social": 88
       },
       "featuredSections": [],
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 828
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4a248a0dfbc8a166fe805113"
-    },
-    {
-      "id": "news:kcna:5239b0f14d8aed2c9f4f66ca",
-      "title": "문천발브공장 생산에서 련일 혁신",
-      "date": "2026-06-15",
-      "snippet": "(평양 6월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/09a1b0397bd481a9aa72b945065942ea",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 829
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5239b0f14d8aed2c9f4f66ca"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4a248a0dfbc8a166fe805113"
     }
   ]
 }

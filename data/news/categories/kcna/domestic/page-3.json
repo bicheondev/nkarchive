@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 3,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:5e43a2cd73bdd1feffe34ee8",
+      "title": "올해 당결정관철의 전구들로 진출한 청년들 기적과 혁신을 창조",
+      "date": "2026-08-28",
+      "snippet": "(평양 8월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/427243157706a37f4cdb3c57cdc1c1a1",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 10,
+        "social": 1
+      },
+      "featuredSections": [
+        "social"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5e43a2cd73bdd1feffe34ee8"
+    },
     {
       "id": "news:kcna:da01b51dabccfebf8b685b85",
       "title": "전국청년과학기술성과전시회 개막",
@@ -22,7 +46,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 10
+        "domestic": 11
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +67,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 11,
+        "domestic": 12,
         "social": 2
       },
       "featuredSections": [
@@ -66,7 +90,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 12
+        "domestic": 13
       },
       "featuredSections": [],
       "hasImage": false,
@@ -87,7 +111,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 13,
+        "domestic": 14,
         "social": 3
       },
       "featuredSections": [
@@ -98,26 +122,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Abb6e0aea8bf5372e60f7292d"
-    },
-    {
-      "id": "news:kcna:d56066c2aec77f24b0f798cd",
-      "title": "《김정일전집》 제71권 출판",
-      "date": "2026-08-28",
-      "snippet": "(평양 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e7500b17e7fae1131974a83ff5ea80c9",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 14
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29aaa73fc364854937db97eee4ad5395ab",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/22179882aaff64a3b90334214dfa43f357b75b74c36730e9bd398186d39258af.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad56066c2aec77f24b0f798cd"
     }
   ]
 }

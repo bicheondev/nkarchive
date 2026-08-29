@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 21,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:74c69f34d107d4f9eb129f38",
+      "title": "평범한 공민이라고 하시며",
+      "date": "2026-03-13",
+      "snippet": "1962년 10월 최고인민회의 제3기 대의원선거가 진행되던 날에 있은 일이다.",
+      "url": "http://www.kcna.kp/kp/article/detail/78d501347188f0db852b112f5f8088fb",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 100
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A74c69f34d107d4f9eb129f38"
+    },
     {
       "id": "news:kcna:2389155ed0c7c5980c6d8e24",
       "title": "한밤중에 울린 전화종소리",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 100
+        "memory": 101
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 101
+        "memory": 102
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 102
+        "memory": 103
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 103
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A29ad7491b4b9f975493b498f"
-    },
-    {
-      "id": "news:kcna:9a63384eda0dbf54d862127e",
-      "title": "땅은 밭갈이하는 농민들의것이라고 하시며",
-      "date": "2026-03-05",
-      "snippet": "위대한 수령 김일성동지께서 1946년 3월 어느날 평안남도 대동군 시족면 내리(당시)를 찾으시였을 때의 일이다.",
-      "url": "http://www.kcna.kp/kp/article/detail/d30abac64d43540321e272e1aedbcc49",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 104
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9a63384eda0dbf54d862127e"
+      "detailUrl": "/news/document?id=news%3Akcna%3A29ad7491b4b9f975493b498f"
     }
   ]
 }

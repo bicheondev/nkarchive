@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 585,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:9925e9cf4bf957a0bb8248e8",
+      "title": "새로 개건된 함흥대극장 개관",
+      "date": "2025-12-07",
+      "snippet": "(평양 12월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/437ea0ecbba6a2a646ff142bc9a128cd",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2921
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9925e9cf4bf957a0bb8248e8"
+    },
     {
       "id": "news:kcna:9d81e5da30450c867f862c85",
       "title": "함경남도 락원군 흥상농장,금야군 읍농장에서 살림집입사모임 진행",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2921,
+        "domestic": 2922,
         "social": 459
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2922
+        "domestic": 2923
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2923
+        "domestic": 2924
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
       ],
       "categoryOrders": {
         "important": 365,
-        "domestic": 2924
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afef829c3f32f88a9731a62e8"
-    },
-    {
-      "id": "news:kcna:2252cb28d07c7188ad17ccbe",
-      "title": "안주오리공장에 검은고니생산기지 새로 건설",
-      "date": "2025-12-06",
-      "snippet": "(평양 12월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ee689b100f8dff95299dffee6529a48a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2925
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2252cb28d07c7188ad17ccbe"
+      "detailUrl": "/news/document?id=news%3Akcna%3Afef829c3f32f88a9731a62e8"
     }
   ]
 }

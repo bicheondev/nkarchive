@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 198,
   "pageSize": 5,
-  "totalItems": 2767,
+  "totalItems": 2768,
   "totalPages": 554,
   "articles": [
+    {
+      "id": "news:kcna:aa3f0e49c522b7cebc06f1b6",
+      "title": "로씨야에서 온실남새생산",
+      "date": "2026-04-15",
+      "snippet": "(모스크바 4월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f4345247d0e727bdc453c45f436c505e",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 985
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaa3f0e49c522b7cebc06f1b6"
+    },
     {
       "id": "news:kcna:e9ad36f3de5f305e5afb2f50",
       "title": "스리랑카에서 식품안전사업 강화",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 985
+        "international": 986
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,7 +65,7 @@
       ],
       "categoryOrders": {
         "important": 155,
-        "international": 986,
+        "international": 987,
         "foreign": 242
       },
       "featuredSections": [],
@@ -68,7 +88,7 @@
       ],
       "categoryOrders": {
         "important": 156,
-        "international": 987
+        "international": 988
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,7 +110,7 @@
       ],
       "categoryOrders": {
         "important": 157,
-        "international": 988
+        "international": 989
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,28 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A9b19b43331507eae0adf8b89"
-    },
-    {
-      "id": "news:kcna:4f92826975babe4205bd3b83",
-      "title": "박태성동지에게 꾸바공화국 내각수상이 축전",
-      "date": "2026-04-15",
-      "snippet": "(평양 4월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a68a84f094a039a49c033dbac880e96d",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 989,
-        "foreign": 245
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4f92826975babe4205bd3b83"
     }
   ]
 }

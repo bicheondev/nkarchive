@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 773,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:97e5ae6cc9be910a4ba53afe",
+      "title": "우시3호발전소 준공",
+      "date": "2025-09-27",
+      "snippet": "(평양 9월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7c3862448e6a04555040f9b5127d4fa7",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3861
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A97e5ae6cc9be910a4ba53afe"
+    },
     {
       "id": "news:kcna:ba97d687fa9ffb0cefbef569",
       "title": "함경북도항공구락부 준공",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3861
+        "domestic": 3862
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3862
+        "domestic": 3863
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3863
+        "domestic": 3864
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3864
+        "domestic": 3865
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,28 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A409e0886a88d9c75c351caa3"
-    },
-    {
-      "id": "news:kcna:816ff13639275002afb0543b",
-      "title": "조선민주주의인민공화국대표단 유엔총회 제80차회의에 참가하기 위하여 출발",
-      "date": "2025-09-26",
-      "snippet": "(평양 9월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d24079d72d28cc4cd1725787d44d0224",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 711,
-        "domestic": 3865
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/3d3755d837f6dc968fa55dbecad26d2216402d56a6e0530c042616ade261fe69",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/ecc890d8ab2a95becf5f6f321087a17a978290c8a788bb43f3bb16da355ea194.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A816ff13639275002afb0543b"
     }
   ]
 }

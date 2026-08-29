@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 641,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:9ae39defa0bb17d48cd99364",
+      "title": "농업과학원 과수학연구소 경성과수연구분소와 벼연구소 어랑벼연구분소 준공",
+      "date": "2025-11-11",
+      "snippet": "(평양 11월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/90d6a9e30edd315b7e460cf9bdb579ee",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3201
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9ae39defa0bb17d48cd99364"
+    },
     {
       "id": "news:kcna:330924dacbae2dce58701137",
       "title": "보건성에서 의료일군양성사업 적극화",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3201
+        "domestic": 3202
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3202,
+        "domestic": 3203,
         "social": 521
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3203
+        "domestic": 3204
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3204
+        "domestic": 3205
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,26 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A98956c9880604ac57243eccb"
-    },
-    {
-      "id": "news:kcna:38a920f85911e0e0adb05b33",
-      "title": "나라의 수림화,원림화에 이바지하는 나무모생산기지",
-      "date": "2025-11-10",
-      "snippet": "(평양 11월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6803e517fd6151609fa259cd4afa6374",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3205
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac9233459b7735133c07655ba53d17f944",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/6b271ed5d31ec7d537b25d83a817c1474016db3ffe092de1a274d20536d6902e.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A38a920f85911e0e0adb05b33"
     }
   ]
 }

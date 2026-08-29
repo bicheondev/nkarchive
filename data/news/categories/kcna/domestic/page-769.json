@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 769,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:3fd65db002c8742f1a85a474",
+      "title": "각지 농촌들에서 벼가을 추진",
+      "date": "2025-09-29",
+      "snippet": "(평양 9월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b65a50ff0e66e699658fac36bf3d4f0c",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3841
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3fd65db002c8742f1a85a474"
+    },
     {
       "id": "news:kcna:fe3f34f4c18760183cb22557",
       "title": "강남군 장교농장에서 새집들이 진행",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3841,
+        "domestic": 3842,
         "social": 624
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3842
+        "domestic": 3843
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3843
+        "domestic": 3844
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3844
+        "domestic": 3845
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,30 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A24376077775fef4aa5fbdcc1"
-    },
-    {
-      "id": "news:kcna:dcced8931ee03d68f0f3829e",
-      "title": "조선민주주의인민공화국 외무상 최선희동지 중화인민공화국을 방문하기 위하여 평양 출발",
-      "date": "2025-09-28",
-      "snippet": "(평양 9월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/661da41215ad4e0e17e27ca5db6b690f",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 472,
-        "foreign": 707,
-        "domestic": 3845
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/3d3755d837f6dc968fa55dbecad26d2252276537b2679b9ad18ed0354805b39e",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/30b6b13531d2933c08092c37992b3ed12340beaddf4152d2783563297cc9ab19.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adcced8931ee03d68f0f3829e"
     }
   ]
 }

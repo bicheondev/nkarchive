@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 223,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:545ff296f839b88d2c5cf038",
+      "title": "단천발전소 1단계 준공식 진행",
+      "date": "2026-05-20",
+      "snippet": "(평양 5월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/12a0ef97cab214f463581d288a0b95ce",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 107,
+        "domestic": 1110
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A545ff296f839b88d2c5cf038"
+    },
     {
       "id": "news:kcna:09605b4fd63f924d7b8ad0c1",
       "title": "원산시에 아동공원이 새로 일떠섰다",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1110
+        "domestic": 1111
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1111
+        "domestic": 1112
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1112
+        "domestic": 1113
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1113
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A77272423f08f960085a6c3e5"
-    },
-    {
-      "id": "news:kcna:aa1be0941944bf8c5bb69b00",
-      "title": "금속공업부문의 로동계급 철강재생산에서 혁신",
-      "date": "2026-05-20",
-      "snippet": "(평양 5월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/059a189265d6d7478975cb62d808c25e",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1114
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aaa1be0941944bf8c5bb69b00"
+      "detailUrl": "/news/document?id=news%3Akcna%3A77272423f08f960085a6c3e5"
     }
   ]
 }

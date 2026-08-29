@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 202,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:5a5662ed11790e7142317458",
+      "title": "평양시에서 선전선동활동 전개",
+      "date": "2026-05-30",
+      "snippet": "(평양 5월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d2fd2000c5f55cf8302591efd5f7b188",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1005
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5a5662ed11790e7142317458"
+    },
     {
       "id": "news:kcna:ba48efe18366eb46a3b59829",
       "title": "창전거리에 새겨진 위민헌신의 자욱",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1005
+        "domestic": 1006
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1006
+        "domestic": 1007
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1007
+        "domestic": 1008
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
       ],
       "categoryOrders": {
         "foreign": 154,
-        "domestic": 1008
+        "domestic": 1009
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Abbf894b5cc66405767acc2eb"
-    },
-    {
-      "id": "news:kcna:883d0b90cabc4a01b9c3e527",
-      "title": "벨라루씨와 로씨야에 가는 우리 나라 정부경제대표단 출발",
-      "date": "2026-05-30",
-      "snippet": "(평양 5월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/dbe59aa842e98cb10fae5cc8bf3c96b5",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 155,
-        "domestic": 1009
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064f9fba795f60835134913652238bc06c6",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/d4137c47de45c5d7b65407ad7b4a987e739a6dcf6289100a7f796e0fac021607.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A883d0b90cabc4a01b9c3e527"
     }
   ]
 }

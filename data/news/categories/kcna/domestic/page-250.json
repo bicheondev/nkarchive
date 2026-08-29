@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 250,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:29a7942ab75ea1bee6577cdf",
+      "title": "2026년 5월 7일 신문개관",
+      "date": "2026-05-07",
+      "snippet": "(평양 5월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/455d0380c14d158472f9129f9f0b5601",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1245
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A29a7942ab75ea1bee6577cdf"
+    },
     {
       "id": "news:kcna:3921a72c4fa349bae62922db",
       "title": "《로동신문》 3대혁명은 전면적발전의 강위력한 동력이라고 강조",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1245
+        "domestic": 1246
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "important": 122,
-        "domestic": 1246
+        "domestic": 1247
       },
       "featuredSections": [],
       "hasImage": true,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1247
+        "domestic": 1248
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,28 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1248
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7a1cbbc4ed9ee81654aadcf0"
-    },
-    {
-      "id": "news:kcna:5c7e6dcc255070fb465765be",
-      "title": "로씨야련방 기상수문 및 환경감시국대표단 도착",
-      "date": "2026-05-07",
-      "snippet": "(평양 5월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9d637864ce8add650785f3dfd8339cd1",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 188,
         "domestic": 1249
       },
       "featuredSections": [],
@@ -113,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5c7e6dcc255070fb465765be"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7a1cbbc4ed9ee81654aadcf0"
     }
   ]
 }

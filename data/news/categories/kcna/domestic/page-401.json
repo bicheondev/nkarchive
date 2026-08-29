@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 401,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:81f7021720b78308f553e02a",
+      "title": "공산주의어머니영예상수상자들과 녀맹일군들,녀맹원들의 상봉모임 진행",
+      "date": "2026-03-07",
+      "snippet": "(평양 3월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6aac4ab59b1656a0022f30de371242ca",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2001
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60cd567a9e3dfcc1c0613ecc6f37ef7b19",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/918b49485a00d7e823944956665d731aa0e24983b3770646d0e8eb5dabb042a2.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A81f7021720b78308f553e02a"
+    },
     {
       "id": "news:kcna:3d79bf2f44bcdc01e0fe9cd4",
       "title": "개성시에서 전력계통의 정비보강사업 적극화",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2001
+        "domestic": 2002
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2002,
+        "domestic": 2003,
         "social": 241
       },
       "featuredSections": [],
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2003,
+        "domestic": 2004,
         "social": 242
       },
       "featuredSections": [],
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2004
+        "domestic": 2005
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,26 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Afa137ba6394cc3618c93b0e2"
-    },
-    {
-      "id": "news:kcna:cb8a9197ead09760f5ceff28",
-      "title": "우리 인민의 슬기와 우수성을 보여주는 도서 《무예도보통지》",
-      "date": "2026-03-06",
-      "snippet": "(평양 3월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f4adee536be6355a788dccdb98aff6a1",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2005
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60579184feb79741497370d4b549ea324d",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/c78eb77b152a88700e1d9dc9cf7a9976583da83d4cbe236ca4f8dfc57a89e504.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acb8a9197ead09760f5ceff28"
     }
   ]
 }

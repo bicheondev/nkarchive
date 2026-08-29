@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 17,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:152a4da3536d510861e78e00",
+      "title": "광산의 휘황한 앞날을 밝혀주시며",
+      "date": "2026-04-13",
+      "snippet": "위대한 수령 김일성동지께서는 1961년 4월 어느날 룡양광산을 찾으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/432af674e6a058ba46e08dfefba605c8",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 80
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A152a4da3536d510861e78e00"
+    },
     {
       "id": "news:kcna:83c4be0278c0dda820de5e02",
       "title": "강사들의 건강을 먼저 생각하시며",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 80
+        "memory": 81
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 81
+        "memory": 82
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 82
+        "memory": 83
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 83
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5f76403102671cb2dcf8672d"
-    },
-    {
-      "id": "news:kcna:56f71313f77d35ca9f52625a",
-      "title": "평범한 리발사가 받아안은 값높은 평가",
-      "date": "2026-04-05",
-      "snippet": "위대한 령도자 김정일동지께서 1966년 7월 어느날 평안남도 증산군을 현지지도하실 때의 일이다.",
-      "url": "http://www.kcna.kp/kp/article/detail/da49d8ead4b7af64f448ddc91f8df8ba",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 84
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A56f71313f77d35ca9f52625a"
+      "detailUrl": "/news/document?id=news%3Akcna%3A5f76403102671cb2dcf8672d"
     }
   ]
 }

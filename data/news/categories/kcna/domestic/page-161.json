@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 161,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:0e7dc6f6adf64f45065783db",
+      "title": "우리 나라 외무상 브루네이 다루쌀람 외무상에게 축전",
+      "date": "2026-06-18",
+      "snippet": "(평양 6월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9b93d39f0cf94d6914f1d1fc2826099d",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 126,
+        "domestic": 800
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0e7dc6f6adf64f45065783db"
+    },
     {
       "id": "news:kcna:a01e5d7cd701dc4448ae9173",
       "title": "우리 나라 주재 중화인민공화국대사관 연회 마련",
@@ -24,7 +46,7 @@
       ],
       "categoryOrders": {
         "foreign": 127,
-        "domestic": 800
+        "domestic": 801
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +68,7 @@
       ],
       "categoryOrders": {
         "foreign": 128,
-        "domestic": 801
+        "domestic": 802
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,7 +89,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 802,
+        "domestic": 803,
         "social": 86
       },
       "featuredSections": [],
@@ -88,7 +110,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 803
+        "domestic": 804
       },
       "featuredSections": [],
       "hasImage": true,
@@ -96,26 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e3618a5563efc2af0d9d7c3a4c5feba240",
       "cachedThumbnailUrl": "/data/news/assets/kcna/020f72ffc3551bedbcd5d277501e43c7a1f1432d955d4e4a7efc1313642af6ce.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A28cd4124c14f57e0ee7e0751"
-    },
-    {
-      "id": "news:kcna:8a8806405f7bd712e3a25831",
-      "title": "121호림업련합기업소에서 물길에 의한 통나무운반성과 확대",
-      "date": "2026-06-17",
-      "snippet": "(평양 6월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b74c991e9a048f1fd822864df2d05fbc",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 804
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8a8806405f7bd712e3a25831"
     }
   ]
 }

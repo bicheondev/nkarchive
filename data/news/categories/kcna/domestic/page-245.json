@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 245,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:fca1c425c6724ca98b806bc7",
+      "title": "2026년 5월 9일 신문개관",
+      "date": "2026-05-09",
+      "snippet": "(평양 5월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/22d0d0dd1555164f88b406e9f00b8883",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1220
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afca1c425c6724ca98b806bc7"
+    },
     {
       "id": "news:kcna:996edaa6a3c3325fbfe04685",
       "title": "경애하는 김정은동지께서 로씨야련방 대통령에게 축전을 보내시였다",
@@ -26,7 +46,7 @@
       "categoryOrders": {
         "important": 121,
         "foreign": 184,
-        "domestic": 1220
+        "domestic": 1221
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1221
+        "domestic": 1222
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,7 +88,7 @@
       ],
       "categoryOrders": {
         "foreign": 185,
-        "domestic": 1222
+        "domestic": 1223
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,26 +108,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1223
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3f46a33db8793489cd15d1db"
-    },
-    {
-      "id": "news:kcna:46bf68cd305b05a4cf3fbe4c",
-      "title": "장풍군고려약공장 개건",
-      "date": "2026-05-09",
-      "snippet": "(평양 5월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1e3bbf75d2598664b05a607470e58781",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1224
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A46bf68cd305b05a4cf3fbe4c"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3f46a33db8793489cd15d1db"
     }
   ]
 }

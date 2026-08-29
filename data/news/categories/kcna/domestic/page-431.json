@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 431,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:b4b988e118726875754382ef",
+      "title": "원산학생교복공장,원산학생신발공장에서 새 학년도 교복,신발생산에 주력",
+      "date": "2026-02-20",
+      "snippet": "(평양 2월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/50a8654cd54345caf5c56c422299a0e4",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2151
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab4b988e118726875754382ef"
+    },
     {
       "id": "news:kcna:6e9fe88cacfb8d8200175e46",
       "title": "각지 수산단위들에서 생산성과 확대",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2151
+        "domestic": 2152
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2152,
+        "domestic": 2153,
         "social": 275
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2153
+        "domestic": 2154
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2154
+        "domestic": 2155
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,26 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aef9777bc1c8249c4b5883047"
-    },
-    {
-      "id": "news:kcna:6eb9b1be669f26e3ba298d99",
-      "title": "재중조선인총련합회축하단 도착",
-      "date": "2026-02-19",
-      "snippet": "(평양 2월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/092ac81ba9fa493329a99e727677ccf8",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2155
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366b90c93d02f93a7e4ca9118cf4bdcc575",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/4cb9f016ccbeea2ad885c5951abd2fad7ca987dfc322c4dce7b31f672db1cb45.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6eb9b1be669f26e3ba298d99"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 4,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:d56066c2aec77f24b0f798cd",
+      "title": "《김정일전집》 제71권 출판",
+      "date": "2026-08-28",
+      "snippet": "(평양 8월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e7500b17e7fae1131974a83ff5ea80c9",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 15
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29aaa73fc364854937db97eee4ad5395ab",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/22179882aaff64a3b90334214dfa43f357b75b74c36730e9bd398186d39258af.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad56066c2aec77f24b0f798cd"
+    },
     {
       "id": "news:kcna:41290af3899e3d2c1d6e4e78",
       "title": "전국녀맹예술선동대경연 진행",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 15,
+        "domestic": 16,
         "social": 4
       },
       "featuredSections": [
@@ -46,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 16
+        "domestic": 17
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 17
+        "domestic": 18
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,7 +108,7 @@
       ],
       "categoryOrders": {
         "important": 2,
-        "domestic": 18
+        "domestic": 19
       },
       "featuredSections": [
         "important"
@@ -98,26 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2938b6922864494765d50f83866397aaed",
       "cachedThumbnailUrl": "/data/news/assets/kcna/fdab1571d4d076cf869ec0ca2b63182ab8d444c2f232e92074ddf8fed8852948.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ac58ea8ea0cd811f69a56394e"
-    },
-    {
-      "id": "news:kcna:ce98a7d4ff88a8f001848e9b",
-      "title": "우리 청년들의 명절-청년절",
-      "date": "2026-08-28",
-      "snippet": "(평양 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c69351052ae67a51020e43108414d419",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 19
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ace98a7d4ff88a8f001848e9b"
     }
   ]
 }

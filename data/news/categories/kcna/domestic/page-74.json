@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 74,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:86dfd75e88a5fd116a73e633",
+      "title": "전승절에 즈음하여 전쟁로병들과 청소년학생들과의 상봉모임 진행",
+      "date": "2026-07-26",
+      "snippet": "(평양 7월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/69f815ac4a0ea23c4fff21117c6fa3de",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 365
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A86dfd75e88a5fd116a73e633"
+    },
     {
       "id": "news:kcna:3757ca15bbe09bfcff2cd548",
       "title": "평양시안의 학교들에서 수영교육 활발",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 365
+        "domestic": 366
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "foreign": 49,
-        "domestic": 366
+        "domestic": 367
       },
       "featuredSections": [],
       "hasImage": true,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 367
+        "domestic": 368
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,28 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 368
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab080123cf4da60c56c3cb67b"
-    },
-    {
-      "id": "news:kcna:aa9f32487a89fcba579d535c",
-      "title": "경애하는 김정은동지께서 전승절에 즈음하여 전국의 전쟁로병들에게 선물을 보내시였다",
-      "date": "2026-07-26",
-      "snippet": "(평양 7월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/23b2d6725d6a3e8e2e689626ea4caf25",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 34,
         "domestic": 369
       },
       "featuredSections": [],
@@ -113,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aaa9f32487a89fcba579d535c"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab080123cf4da60c56c3cb67b"
     }
   ]
 }

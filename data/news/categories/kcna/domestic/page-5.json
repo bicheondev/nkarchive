@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 5,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:ce98a7d4ff88a8f001848e9b",
+      "title": "우리 청년들의 명절-청년절",
+      "date": "2026-08-28",
+      "snippet": "(평양 8월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c69351052ae67a51020e43108414d419",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 20
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ace98a7d4ff88a8f001848e9b"
+    },
     {
       "id": "news:kcna:d0854b93a123d99685cf293b",
       "title": "혁명의 년대마다에 시대를 격동시킨 청춘송가들",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 20
+        "domestic": 21
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 21
+        "domestic": 22
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 22
+        "domestic": 23
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 23,
+        "domestic": 24,
         "social": 5
       },
       "featuredSections": [],
@@ -92,26 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A0b520fbd8edba07cb35a7190"
-    },
-    {
-      "id": "news:kcna:b1315bc697cc9461c6bc2072",
-      "title": "강원도안의 농촌들에서 농작물비배관리의 과학화수준 제고",
-      "date": "2026-08-27",
-      "snippet": "(평양 8월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f2b6fd68b80937483df63890a90825ba",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 24
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab1315bc697cc9461c6bc2072"
     }
   ]
 }

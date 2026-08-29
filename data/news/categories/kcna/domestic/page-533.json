@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 533,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:4d0e8854b34e928877759cc8",
+      "title": "각지에서 새해 2026년을 뜻깊게 맞이",
+      "date": "2026-01-02",
+      "snippet": "(평양 1월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/90ed505b9bec103ef7c63b37581d599f",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2661,
+        "social": 407
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451d22ef53aa15b6aba6ac599f1615fd4e1",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/c6b59622120489d6458d474f06dd357f549a20c3a7398fbd4cf62debe40d7596.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4d0e8854b34e928877759cc8"
+    },
     {
       "id": "news:kcna:4277631fb9b6937a1cc29c4a",
       "title": "인민경제 여러 단위에서 증산투쟁 고조",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2661
+        "domestic": 2662
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2662
+        "domestic": 2663
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +86,7 @@
       ],
       "categoryOrders": {
         "important": 330,
-        "domestic": 2663
+        "domestic": 2664
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,7 +107,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2664,
+        "domestic": 2665,
         "social": 409
       },
       "featuredSections": [],
@@ -94,26 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e45169327544c51a8fa48ef4d2da6374870e",
       "cachedThumbnailUrl": "/data/news/assets/kcna/8c956eed5fe7f1dcbf8212a41c0231873ca89998dd388eb4e8df5578ce2f4f8b.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A5c4bfc63af86a2cb8130d10b"
-    },
-    {
-      "id": "news:kcna:5502332c40a45e4909dc4eab",
-      "title": "개성시농촌경리위원회 덕암농장에 공공건물,생산건물들이 일떠섰다",
-      "date": "2026-01-01",
-      "snippet": "(평양 1월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9d3a32fe124c83d7719516306aa3ea54",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2665
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5502332c40a45e4909dc4eab"
     }
   ]
 }

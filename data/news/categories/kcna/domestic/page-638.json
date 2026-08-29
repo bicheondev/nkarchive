@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 638,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:a8985679c59f4ce21d1987aa",
+      "title": "라오스인민민주주의공화국 외무상일행 평양 도착",
+      "date": "2025-11-12",
+      "snippet": "(평양 11월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2257997cc862454b300173150dffc032",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 379,
+        "foreign": 496,
+        "domestic": 3186
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eacbfb4cc632c4682d81f9ba34038d0ed9d",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/40cdaec9429c196f16325dad37367ed65e79dd28ec40afbff067e45d1839003e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa8985679c59f4ce21d1987aa"
+    },
     {
       "id": "news:kcna:3769ad1c05893731777cab30",
       "title": "북창화력발전련합기업소에서 현행생산과 정비보강사업 추진",
@@ -22,7 +46,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3186
+        "domestic": 3187
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3187
+        "domestic": 3188
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +87,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3188,
+        "domestic": 3189,
         "social": 517
       },
       "featuredSections": [],
@@ -84,26 +108,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3189
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A02ec871bb756d7fca59ac34b"
-    },
-    {
-      "id": "news:kcna:43f78f70cf83ccabebe089d2",
-      "title": "제12차 평양악기전시회 페막",
-      "date": "2025-11-12",
-      "snippet": "(평양 11월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0748e7a152af508514e3c2517a2e6a4c",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3190
       },
       "featuredSections": [],
@@ -111,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A43f78f70cf83ccabebe089d2"
+      "detailUrl": "/news/document?id=news%3Akcna%3A02ec871bb756d7fca59ac34b"
     }
   ]
 }

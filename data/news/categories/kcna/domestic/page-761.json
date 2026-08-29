@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 761,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:fc61cf161126fd4dcbab6678",
+      "title": "우리 나라 외무상 중화인민공화국 외교부장에게 축전",
+      "date": "2025-10-02",
+      "snippet": "(평양 10월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4dc8b0e9dff5db003fb748386169b5cc",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 699,
+        "domestic": 3801
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afc61cf161126fd4dcbab6678"
+    },
     {
       "id": "news:kcna:c69e6576858dc9241674649b",
       "title": "우리 나라 외무상 타이왕국 외무상에게 축전",
@@ -24,7 +46,7 @@
       ],
       "categoryOrders": {
         "foreign": 700,
-        "domestic": 3801
+        "domestic": 3802
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,7 +67,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3802,
+        "domestic": 3803,
         "social": 613
       },
       "featuredSections": [],
@@ -67,7 +89,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3803,
+        "domestic": 3804,
         "social": 614
       },
       "featuredSections": [],
@@ -88,26 +110,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3804
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3874c4b162da8955fd649f4e"
-    },
-    {
-      "id": "news:kcna:021314215b76d2eb381263df",
-      "title": "문학예술부문에서 명작창작열기 고조",
-      "date": "2025-10-02",
-      "snippet": "(평양 10월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1b23a41f15eac10b171aae1bb92d674f",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3805
       },
       "featuredSections": [],
@@ -115,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A021314215b76d2eb381263df"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3874c4b162da8955fd649f4e"
     }
   ]
 }

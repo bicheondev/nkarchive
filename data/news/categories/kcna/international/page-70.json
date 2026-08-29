@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 70,
   "pageSize": 5,
-  "totalItems": 2767,
+  "totalItems": 2768,
   "totalPages": 554,
   "articles": [
+    {
+      "id": "news:kcna:94c53ee7c5e57b0b0ae53b15",
+      "title": "에짚트에서 원자력발전소건설 추진",
+      "date": "2026-07-11",
+      "snippet": "(평양 7월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b6f8c606c1c808ac4f6034126ad813c5",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 345
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A94c53ee7c5e57b0b0ae53b15"
+    },
     {
       "id": "news:kcna:da22a3fcc3e49a72c903c4b0",
       "title": "여러 나라에서 추모행사 진행",
@@ -23,7 +43,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 345,
+        "international": 346,
         "foreign": 93
       },
       "featuredSections": [],
@@ -47,7 +67,7 @@
       ],
       "categoryOrders": {
         "important": 63,
-        "international": 346,
+        "international": 347,
         "foreign": 96
       },
       "featuredSections": [],
@@ -71,7 +91,7 @@
       ],
       "categoryOrders": {
         "important": 64,
-        "international": 347,
+        "international": 348,
         "foreign": 97
       },
       "featuredSections": [],
@@ -95,7 +115,7 @@
       ],
       "categoryOrders": {
         "important": 65,
-        "international": 348,
+        "international": 349,
         "foreign": 98
       },
       "featuredSections": [],
@@ -104,30 +124,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d02e0fb9e911631a887b8b7252809082d",
       "cachedThumbnailUrl": "/data/news/assets/kcna/d551d08f119a2388959677da01d4f090107f2cd05efe57389a5b0784d3d3f0c7.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Af3294eaf7479b96a11d8611d"
-    },
-    {
-      "id": "news:kcna:8930f93385f75fa55bb3d806",
-      "title": "조중우호,협조 및 호상원조에 관한 조약체결 65돐 기념연회 베이징에서 진행",
-      "date": "2026-07-11",
-      "snippet": "(평양 7월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/47414f724b9b51bc5f03d9db0218724b",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 66,
-        "international": 349,
-        "foreign": 99
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dc03572dda1519443577a5ca20cd58c05",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/fef1eb506f240fbaa7a1f25124eaeba28fc15bca60975de9e11b7b478b7b7d2f.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8930f93385f75fa55bb3d806"
     }
   ]
 }

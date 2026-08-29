@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:ec8b19dac8b2967c618b2e29",
+      "title": "인도네시아대사관 독립절에 즈음하여 연회 마련",
+      "date": "2026-08-29",
+      "snippet": "(평양 8월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f2a9812952c7a532824bee98fe981577",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 0,
+        "domestic": 5
+      },
+      "featuredSections": [
+        "foreign"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29aa2fea2280ff704788fc3f87f0f68b62",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/665b9d9617a92b9f0284eebdeed231c6e26f27df9755ed92258695bdecf87f54.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aec8b19dac8b2967c618b2e29"
+    },
     {
       "id": "news:kcna:3cf99086fb550851961e4358",
       "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지에게 위문전문을 보내시였다",
@@ -26,7 +50,7 @@
       "categoryOrders": {
         "important": 0,
         "foreign": 1,
-        "domestic": 5
+        "domestic": 6
       },
       "featuredSections": [
         "important",
@@ -53,7 +77,7 @@
       "categoryOrders": {
         "important": 1,
         "foreign": 2,
-        "domestic": 6
+        "domestic": 7
       },
       "featuredSections": [
         "important",
@@ -76,7 +100,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 7
+        "domestic": 8
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,7 +120,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 8
+        "domestic": 9
       },
       "featuredSections": [],
       "hasImage": false,
@@ -104,30 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ae92269910175d80532343e80"
-    },
-    {
-      "id": "news:kcna:5e43a2cd73bdd1feffe34ee8",
-      "title": "올해 당결정관철의 전구들로 진출한 청년들 기적과 혁신을 창조",
-      "date": "2026-08-28",
-      "snippet": "(평양 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/427243157706a37f4cdb3c57cdc1c1a1",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 9,
-        "social": 1
-      },
-      "featuredSections": [
-        "social"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5e43a2cd73bdd1feffe34ee8"
     }
   ]
 }

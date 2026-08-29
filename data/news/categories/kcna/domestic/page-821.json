@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 821,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:3cc59c129b3368f1fcc994d7",
+      "title": "황해남도의 여러 농장마을에 탁아소,유치원 새로 건설",
+      "date": "2025-09-04",
+      "snippet": "(평양 9월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8b8f37c1966c6ba839cf73f48a0bca89",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 4101,
+        "social": 680
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3cc59c129b3368f1fcc994d7"
+    },
     {
       "id": "news:kcna:2adae3f8f96d7992b08f42bc",
       "title": "강원도에서 농작물들의 생육후반기비배관리에 힘 집중",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4101
+        "domestic": 4102
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4102
+        "domestic": 4103
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4103
+        "domestic": 4104
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4104
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A159036f9d50347200e743356"
-    },
-    {
-      "id": "news:kcna:7f8f18b964326c4495ac33c2",
-      "title": "황해남도에서 과학기술성과 련이어 도입",
-      "date": "2025-09-03",
-      "snippet": "(평양 9월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/426e51c97a9a8289b4dfcef8ceccbab1",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 4105
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7f8f18b964326c4495ac33c2"
+      "detailUrl": "/news/document?id=news%3Akcna%3A159036f9d50347200e743356"
     }
   ]
 }

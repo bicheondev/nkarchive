@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 197,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:1a2e3798d14bae1be5865336",
+      "title": "2026년 6월 1일 신문개관",
+      "date": "2026-06-01",
+      "snippet": "(평양 6월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8e30de3e7f31a12fda9040bdb9981c74",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 980
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1a2e3798d14bae1be5865336"
+    },
     {
       "id": "news:kcna:198cacd0704129e64a2f7c75",
       "title": "경애하는 아버지 김정은원수님께 삼가 드리는 각 도소년단원들의 충성의 편지이어달리기대렬들이 평양을 가까이 하고있다",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 980
+        "domestic": 981
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 981
+        "domestic": 982
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 982
+        "domestic": 983
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 983,
+        "domestic": 984,
         "social": 104
       },
       "featuredSections": [],
@@ -92,26 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e3c1e47d51beb09306370f82e6488b0fc7",
       "cachedThumbnailUrl": "/data/news/assets/kcna/61542a1685c184fcacb3269e4185b793b24e00b979f9f1ced14f4a3ba673ace1.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A0adb7fd38def47668ec25d04"
-    },
-    {
-      "id": "news:kcna:2b0577153e0f1dce8e938960",
-      "title": "경애하는 김정은동지께서 평양체육기자재공장을 현지지도하신 10돐 기념보고회 진행",
-      "date": "2026-06-01",
-      "snippet": "(평양 6월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2e1501c2dc424712a61f485257870399",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 984
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2b0577153e0f1dce8e938960"
     }
   ]
 }

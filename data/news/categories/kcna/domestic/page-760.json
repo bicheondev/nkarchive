@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 760,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:9b3ed82c2a5403a99c4001c2",
+      "title": "각지에서 과외교양기지들을 새로 건설 및 개건",
+      "date": "2025-10-02",
+      "snippet": "(평양 10월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b09c0058652f62c28ab3ff7e0e731cc6",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3796
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9b3ed82c2a5403a99c4001c2"
+    },
     {
       "id": "news:kcna:e2999a0ba3f52d3b3cb85301",
       "title": "김일성종합대학에서 우리 식의 첨단분석설비 새로 연구도입",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3796
+        "domestic": 3797
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3797
+        "domestic": 3798
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       "categoryOrders": {
         "important": 465,
         "foreign": 697,
-        "domestic": 3798
+        "domestic": 3799
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,28 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3799
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae8cc4660ec2ba30dec70d1c0"
-    },
-    {
-      "id": "news:kcna:fc61cf161126fd4dcbab6678",
-      "title": "우리 나라 외무상 중화인민공화국 외교부장에게 축전",
-      "date": "2025-10-02",
-      "snippet": "(평양 10월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4dc8b0e9dff5db003fb748386169b5cc",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 699,
         "domestic": 3800
       },
       "featuredSections": [],
@@ -115,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afc61cf161126fd4dcbab6678"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae8cc4660ec2ba30dec70d1c0"
     }
   ]
 }

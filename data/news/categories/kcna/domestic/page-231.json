@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 231,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:6b0b952f4790ce7977c54ea0",
+      "title": "황해북도에서 기름작물재배면적 확대",
+      "date": "2026-05-15",
+      "snippet": "(평양 5월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0415f7fcb95ab1d98827fd52da5e8990",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1150
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6b0b952f4790ce7977c54ea0"
+    },
     {
       "id": "news:kcna:9d783c8216105675210a30e8",
       "title": "나날이 발전하는 주체건축",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1150
+        "domestic": 1151
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,7 +68,7 @@
         "important": 110,
         "document": 17,
         "foreign": 173,
-        "domestic": 1151
+        "domestic": 1152
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +88,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1152
+        "domestic": 1153
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,7 +108,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1153
+        "domestic": 1154
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,28 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A1b564f1406cf6f88e0b7b432"
-    },
-    {
-      "id": "news:kcna:dd3a6e7b4bda208f6802ff3c",
-      "title": "윁남공산당 중앙위원회 총비서,윁남사회주의공화국 주석특사일행 여러곳 참관",
-      "date": "2026-05-15",
-      "snippet": "(평양 5월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/83fe484073494c18bc8f289b090afbc0",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 174,
-        "domestic": 1154
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064bf0d405811c3632c4f3156a877eccd79",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/ff579f52247372a1648b9f6b05d74e742be0352c9477d73d6dcb5d2d47696d3b.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Add3a6e7b4bda208f6802ff3c"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 12,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:6c566fd2f30658437841a64f",
+      "title": "자강도에서 유기질비료생산에 력량 집중",
+      "date": "2026-08-25",
+      "snippet": "(평양 8월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/40f0bc0e183f98361708115b95382b3b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 55
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6c566fd2f30658437841a64f"
+    },
     {
       "id": "news:kcna:0b187596d3afdbd16fbbb9be",
       "title": "박태성 내각총리 삼지연산악관광지구건설과 함흥시의 공장,기업소들을 현지료해",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "important": 4,
-        "domestic": 55
+        "domestic": 56
       },
       "featuredSections": [
         "important"
@@ -48,7 +68,7 @@
       ],
       "categoryOrders": {
         "foreign": 8,
-        "domestic": 56
+        "domestic": 57
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,7 +88,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 57
+        "domestic": 58
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,26 +108,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 58
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7bd6c8160240b066ac035481"
-    },
-    {
-      "id": "news:kcna:0f4c2004e2702a00ee15abc1",
-      "title": "삼지연시에서 원림조성사업 활발",
-      "date": "2026-08-24",
-      "snippet": "(평양 8월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0d4fbf13f589f254d38cc8347f2545c7",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 59
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0f4c2004e2702a00ee15abc1"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7bd6c8160240b066ac035481"
     }
   ]
 }

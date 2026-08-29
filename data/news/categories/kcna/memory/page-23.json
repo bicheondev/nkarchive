@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 23,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:efd0fcd93c45574cf5cf6334",
+      "title": "몸소 잡아주신 농업대학터전",
+      "date": "2026-02-27",
+      "snippet": "1947년 7월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/5288cf4a48bdc18d4d1cd94dfcc0ac86",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 110
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aefd0fcd93c45574cf5cf6334"
+    },
     {
       "id": "news:kcna:1ea62b01d5193651f18211c8",
       "title": "점심식사마저 건늬시며 바쳐가신 헌신의 로고",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 110
+        "memory": 111
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 111
+        "memory": 112
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 112
+        "memory": 113
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 113
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab44abb506f06d9052ffabafd"
-    },
-    {
-      "id": "news:kcna:943bed9e3260826a01aa7dc6",
-      "title": "온 나라에 퍼져간 감나무",
-      "date": "2026-02-18",
-      "snippet": "1991년 11월 어느날이였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/25cde8357e9d6a55a1104b9917808b65",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 114
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A943bed9e3260826a01aa7dc6"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab44abb506f06d9052ffabafd"
     }
   ]
 }

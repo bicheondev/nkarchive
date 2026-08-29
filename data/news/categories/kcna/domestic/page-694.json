@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 694,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:b0f47f7e8b75d2e491def838",
+      "title": "남포시에 보링관이 새로 일떠섰다",
+      "date": "2025-10-21",
+      "snippet": "(평양 10월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8e58cafacd6e48651d75279166c03da5",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3466
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab0f47f7e8b75d2e491def838"
+    },
     {
       "id": "news:kcna:ede47d830a4618cdd4463a56",
       "title": "2025년 10월 21일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3466
+        "domestic": 3467
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "important": 416,
-        "domestic": 3467
+        "domestic": 3468
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
       ],
       "categoryOrders": {
         "foreign": 552,
-        "domestic": 3468
+        "domestic": 3469
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3469
+        "domestic": 3470
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,28 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A567d7e9430953bfd06499200"
-    },
-    {
-      "id": "news:kcna:0b50544b246c3cf235407a2f",
-      "title": "자강도 고풍군 월명농장에서 새집들이 진행",
-      "date": "2025-10-21",
-      "snippet": "(평양 10월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5e6613dbdbf793c4f9c1b2822c60091e",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 3470,
-        "social": 573
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12d6e08dab0fee892fab6db5fcd3d9b611",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/7bc38d477b27386062ac48dcdbae36eb5797828af0eed78c7eba37a96d434098.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0b50544b246c3cf235407a2f"
     }
   ]
 }

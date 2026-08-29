@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 488,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:db43306fa42f710f479df285",
+      "title": "강원도 세포군과 김화군의 여러 농장에 현대적인 문화주택들이 일떠섰다",
+      "date": "2026-01-25",
+      "snippet": "(평양 1월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c67df0abe621eb013228c21a80e458b8",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2436
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e4517c27ed3fc3b588d67ec072bb9b55238e",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/52720881377e2510bda9f3c72556867c37e2b548e93d70731415a8204434978a.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Adb43306fa42f710f479df285"
+    },
     {
       "id": "news:kcna:cf723f6c8d0bda92722cb377",
       "title": "평안남도와 황해남도,남포시의 녀맹원들 사회주의건설의 주요전구들로 진출",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2436,
+        "domestic": 2437,
         "social": 338
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2437
+        "domestic": 2438
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2438
+        "domestic": 2439
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2439
+        "domestic": 2440
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,26 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A5ca72666e310267762054ce2"
-    },
-    {
-      "id": "news:kcna:f877cafb2d14c066389bcd33",
-      "title": "현대적이며 종합적인 의약품생산기지-평양제약공장",
-      "date": "2026-01-24",
-      "snippet": "(평양 1월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8c82972910e7a8b9565bab6f88ee6238",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2440
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e45122545754a10c5c53d64c372d3173ec2a",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/6f220b65203e9feb8d625b5476d338b97dedd4578ad4660853a99dd9f1adc829.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af877cafb2d14c066389bcd33"
     }
   ]
 }

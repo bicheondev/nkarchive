@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:b8907f9c9a12813bb075c0eb",
+      "title": "용해공들이 받아안은 단물",
+      "date": "2026-08-22",
+      "snippet": "위대한 수령 김일성동지께서는 1968년 8월 어느날 강선제강소(당시)의 책임일군을 전화로 찾으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/6257be82f50fa5a694be852c41879428",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 5
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab8907f9c9a12813bb075c0eb"
+    },
     {
       "id": "kcna-df6526e18cb6c28b",
       "title": "지켜주신 사랑의 약속",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 5
+        "memory": 6
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 6
+        "memory": 7
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 7
+        "memory": 8
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 8
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-7981dcc310b16133"
-    },
-    {
-      "id": "kcna-37a61d901d08d6dc",
-      "title": "통쾌한 개통식",
-      "date": "2026-08-14",
-      "snippet": "1939년 봄 조선인민혁명군 주력부대가 무산지구로 진출하고있었다.",
-      "url": "http://www.kcna.kp/kp/article/detail/36c3fa10d5b8e42648012710f1190bbf",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 9
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-37a61d901d08d6dc"
+      "detailUrl": "/news/document?id=kcna-7981dcc310b16133"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 263,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:6ac68c73ab3ff44540405259",
+      "title": "신문들 전세계근로자들의 국제적명절인 5.1절을 맞으며 사설 발표",
+      "date": "2026-05-01",
+      "snippet": "(평양 5월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/62dea764a5d334c39c0e3609d6a4067b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1310
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6ac68c73ab3ff44540405259"
+    },
     {
       "id": "news:kcna:58fa2e713745ae319e131a68",
       "title": "2026년 5월 1일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1310
+        "domestic": 1311
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "important": 128,
-        "domestic": 1311
+        "domestic": 1312
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
       ],
       "categoryOrders": {
         "document": 19,
-        "domestic": 1312
+        "domestic": 1313
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1313
+        "domestic": 1314
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,28 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/48ee1e57cc5c856b2790b5700793328b3e2f5dff3155e6acfa5e4ca5abaa2e27",
       "cachedThumbnailUrl": "/data/news/assets/kcna/b362b3644f9c534c54b18e2d36385c1278ebb176011d29afa8f3dcfaad7306e8.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ae10514e28232ec43bd7be7b8"
-    },
-    {
-      "id": "news:kcna:10c95a893fe9d24e2a4c21bb",
-      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 중국예술단이 꽃바구니를 보내여왔다",
-      "date": "2026-05-01",
-      "snippet": "(평양 5월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/306b22226dc87c9e4ca54fd7a95ce56f",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 197,
-        "domestic": 1314
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/48ee1e57cc5c856b2790b5700793328b4094578d272f7e9f26ac50d5483dad5f",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/ca6ee9674d2637bb97fa040aebc1b4f4040d431891c08d136257d0c82d9af790.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A10c95a893fe9d24e2a4c21bb"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 206,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:59a5f561fb309a7675c24b14",
+      "title": "우리 나라 외무상 아제르바이쟌공화국 외무상에게 축전",
+      "date": "2026-05-29",
+      "snippet": "(평양 5월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4a38303c97e9014d3de07dcd5f13142f",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 157,
+        "domestic": 1025
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A59a5f561fb309a7675c24b14"
+    },
     {
       "id": "news:kcna:92ce8618c94e5bb34a32ed0f",
       "title": "2026년 5월 28일 신문개관",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1025
+        "domestic": 1026
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1026
+        "domestic": 1027
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1027
+        "domestic": 1028
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +105,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1028,
+        "domestic": 1029,
         "social": 108
       },
       "featuredSections": [],
@@ -92,32 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A9ec59f444f8f3b6e4c6dc4f3"
-    },
-    {
-      "id": "news:kcna:fa17eb54bec9abb94af6e90f",
-      "title": "조선민주주의인민공화국 외무성 대변인대답",
-      "date": "2026-05-28",
-      "snippet": "(평양 5월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f988c712e6a20ad22daa64e8df3fec01",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 100,
-        "document": 15,
-        "foreign": 158,
-        "domestic": 1029
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afa17eb54bec9abb94af6e90f"
     }
   ]
 }

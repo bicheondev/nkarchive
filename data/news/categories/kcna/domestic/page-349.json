@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 349,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:c8c41914899fb7159fa414d7",
+      "title": "강원도에서 회양2호군민발전소와 이천2호군민발전소건설 추진",
+      "date": "2026-03-29",
+      "snippet": "(평양 3월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5660b35aceeeaf179cb8d961a5d942d2",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1741
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac8c41914899fb7159fa414d7"
+    },
     {
       "id": "news:kcna:12b0660edf63c0fde389aced",
       "title": "황해남도 해주시의 백살장수자가 은정어린 생일상을 받아안았다",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1741,
+        "domestic": 1742,
         "social": 193
       },
       "featuredSections": [],
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "foreign": 300,
-        "domestic": 1742
+        "domestic": 1743
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,7 +88,7 @@
       ],
       "categoryOrders": {
         "foreign": 301,
-        "domestic": 1743
+        "domestic": 1744
       },
       "featuredSections": [],
       "hasImage": true,
@@ -88,26 +108,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1744
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A40b707d803647fb0e1115571"
-    },
-    {
-      "id": "news:kcna:fd4487ee76f78cbb2d2ec1fe",
-      "title": "평양시안의 공장들에서 봄철위생월간사업 전개",
-      "date": "2026-03-29",
-      "snippet": "(평양 3월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/55e8002775b6e091cb38a83d8297de49",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1745
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afd4487ee76f78cbb2d2ec1fe"
+      "detailUrl": "/news/document?id=news%3Akcna%3A40b707d803647fb0e1115571"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 670,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:36cddbe7998f4039c39003e6",
+      "title": "2025년 10월 30일 신문개관",
+      "date": "2025-10-30",
+      "snippet": "(평양 10월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/356706b7682f5ee77dd40206297a206b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3346
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A36cddbe7998f4039c39003e6"
+    },
     {
       "id": "news:kcna:1fedce5c9279dd2d9e18662c",
       "title": "평양시의 여러 단위에서 태양빛에네르기를 효과적으로 개발리용",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3346
+        "domestic": 3347
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "foreign": 522,
-        "domestic": 3347
+        "domestic": 3348
       },
       "featuredSections": [],
       "hasImage": true,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3348
+        "domestic": 3349
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,7 +105,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3349,
+        "domestic": 3350,
         "social": 553
       },
       "featuredSections": [],
@@ -94,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d9393308aeb7a6992d27ad721930e80dc68dbc1",
       "cachedThumbnailUrl": "/data/news/assets/kcna/fb199ed603b1e2c7f2be1cb03e9ffa0efeddb4b388039c7c19d3de01603f12fd.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A755b9ef365a59c639def8c0a"
-    },
-    {
-      "id": "news:kcna:cd30260f884b399342df6985",
-      "title": "경애하는 김정은동지께서 평양메기공장을 현지지도하신 10돐 기념보고회 진행",
-      "date": "2025-10-30",
-      "snippet": "(평양 10월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a95447da89edad55a51d129d6055d6ed",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3350
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acd30260f884b399342df6985"
     }
   ]
 }

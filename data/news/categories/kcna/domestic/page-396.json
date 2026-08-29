@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 396,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:8c7c52602a8600cccacfcba8",
+      "title": "2026년 3월 9일 신문개관",
+      "date": "2026-03-09",
+      "snippet": "(평양 3월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/89be044d3fd9c6550cd20edb12a523c5",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1976
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8c7c52602a8600cccacfcba8"
+    },
     {
       "id": "news:kcna:42fb93a0b5d9ee9e5743b35f",
       "title": "경애하는 김정은원수님께 재중조선인총련합회 축하단성원들이 감사편지를 올리였다",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "important": 243,
-        "domestic": 1976
+        "domestic": 1977
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "important": 244,
-        "domestic": 1977
+        "domestic": 1978
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,7 +87,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1978,
+        "domestic": 1979,
         "social": 234
       },
       "featuredSections": [],
@@ -88,7 +108,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1979
+        "domestic": 1980
       },
       "featuredSections": [],
       "hasImage": true,
@@ -96,28 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e6011181afeace5fe337aedf8d76c6d9d0e",
       "cachedThumbnailUrl": "/data/news/assets/kcna/f7ac5c4c07ba0d56ff7b132bdcb746283d1038dca96fb72428ce586f37d794c3.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A340a7c49522c5f542c5db6af"
-    },
-    {
-      "id": "news:kcna:6fd10eb26c0d42b7abb7f41a",
-      "title": "각지에서 3.8국제부녀절을 뜻깊게 맞이",
-      "date": "2026-03-09",
-      "snippet": "(평양 3월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/50433eaf8a56763a6ec07c7ab1fa19ff",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 1980,
-        "social": 235
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6fd10eb26c0d42b7abb7f41a"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 241,
   "pageSize": 5,
-  "totalItems": 2767,
+  "totalItems": 2768,
   "totalPages": 554,
   "articles": [
+    {
+      "id": "news:kcna:5afffff4ebbef4fe1b6e82ca",
+      "title": "케니아에서 철도건설 착공",
+      "date": "2026-03-22",
+      "snippet": "(평양 3월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9c3f2fb226473343b17df7128eaa2097",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1200
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5afffff4ebbef4fe1b6e82ca"
+    },
     {
       "id": "news:kcna:705991584f5e51b1e9afe2a5",
       "title": "중국외교부 대변인 대만문제와 관련한 일본의 그릇된 태도를 규탄",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1200
+        "international": 1201
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1201,
+        "international": 1202,
         "foreign": 329
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1202
+        "international": 1203
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1203
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A204d3d9b7a1554668528587f"
-    },
-    {
-      "id": "news:kcna:cea553cc7c5d8975d2e5f2ea",
-      "title": "로씨야의 해군무력강화노력",
-      "date": "2026-03-21",
-      "snippet": "(모스크바 3월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1d39753a6f0978f46fd2aa6d00a7f6f5",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1204
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acea553cc7c5d8975d2e5f2ea"
+      "detailUrl": "/news/document?id=news%3Akcna%3A204d3d9b7a1554668528587f"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 617,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:cdcf0ae2abf3c68bda5d90b6",
+      "title": "여러 나라사이의 협조",
+      "date": "2025-11-21",
+      "snippet": "(평양 11월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/501b149200651b238ba0888c24c26df5",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "international": 2091,
+        "domestic": 3081
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Acdcf0ae2abf3c68bda5d90b6"
+    },
     {
       "id": "news:kcna:f58fb2256ca114c72ced3515",
       "title": "오랜 력사를 가진 우리 인민의 김치담그기풍습",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3081
+        "domestic": 3082
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3082
+        "domestic": 3083
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3083
+        "domestic": 3084
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +106,7 @@
       ],
       "categoryOrders": {
         "important": 370,
-        "domestic": 3084
+        "domestic": 3085
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac42429b747878857c43d7bbdab86f13f9",
       "cachedThumbnailUrl": "/data/news/assets/kcna/3a05b7f2ccab955935b3cdc3d630114732824b95a137af8200519ce0a5e12ab8.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A37491db041aef729bdeed5e7"
-    },
-    {
-      "id": "news:kcna:874da818f03d6b3eca86aef9",
-      "title": "함경남도의 대규모수력발전소들에서 증산투쟁 전개",
-      "date": "2025-11-21",
-      "snippet": "(평양 11월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3fb7d82f875172f3d0e4a8bfaece190e",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3085
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A874da818f03d6b3eca86aef9"
     }
   ]
 }

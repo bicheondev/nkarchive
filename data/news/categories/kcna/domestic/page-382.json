@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 382,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:5e6f66669e815c06b0399361",
+      "title": "식수절을 맞으며 각지에서 나무심기 진행",
+      "date": "2026-03-15",
+      "snippet": "(평양 3월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/23f119bf2f866a93507f449587678d86",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1906
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60e50af0458670d4f6a398001508d84e75",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/bcfa4bf2a06989c5a92f94d1d4f4fa87a708fec72bfbe91254defee22018ff28.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5e6f66669e815c06b0399361"
+    },
     {
       "id": "news:kcna:8e7aca521eff52ef0a5a6ba4",
       "title": "근로단체조직들에서 식수절을 맞으며 나무심기 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1906
+        "domestic": 1907
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1907
+        "domestic": 1908
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1908,
+        "domestic": 1909,
         "social": 218
       },
       "featuredSections": [],
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1909
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa327720a290e162a048cd21a"
-    },
-    {
-      "id": "news:kcna:afa46328ce887f7e0206461d",
-      "title": "신문들 식수절을 맞으며 사설 발표",
-      "date": "2026-03-14",
-      "snippet": "(평양 3월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e05c553a8a430f122e078de8c9a5e92a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1910
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aafa46328ce887f7e0206461d"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa327720a290e162a048cd21a"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 726,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:64034af741f638113e17b6f4",
+      "title": "인도네시아공화국 외무상일행 평양 도착",
+      "date": "2025-10-11",
+      "snippet": "(평양 10월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a292d47c7114221fc4834adc3a987e6c",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 616,
+        "domestic": 3626
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c122474044f0f82585034cc25e47e312989",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/a81b8ae36e81569cddd70fbce7b1e324f80abb560f23f5c540cef35f5b1f3c1b.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A64034af741f638113e17b6f4"
+    },
     {
       "id": "news:kcna:65e3c3d1ab2613b7d1eb3053",
       "title": "해운부문 농촌살림집건설에 필요한 물동수송에서 혁신",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3626
+        "domestic": 3627
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +65,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3627,
+        "domestic": 3628,
         "social": 596
       },
       "featuredSections": [],
@@ -64,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3628
+        "domestic": 3629
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3629
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af26f8d7a46b15a8df4f57f77"
-    },
-    {
-      "id": "news:kcna:9bccf78a6ba333b7b8924d57",
-      "title": "2025년 10월 10일 신문개관",
-      "date": "2025-10-10",
-      "snippet": "(평양 10월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5560d50e11a5c084c954fe9164e9d248",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3630
       },
       "featuredSections": [],
@@ -111,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9bccf78a6ba333b7b8924d57"
+      "detailUrl": "/news/document?id=news%3Akcna%3Af26f8d7a46b15a8df4f57f77"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 120,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:e05d9f660c3856cbc2048c0a",
+      "title": "2026년 7월 8일 신문개관",
+      "date": "2026-07-08",
+      "snippet": "(평양 7월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b2e486e207cac57fac17af1bf41489de",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 595
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae05d9f660c3856cbc2048c0a"
+    },
     {
       "id": "news:kcna:60edf0db9fda8166558f63d0",
       "title": "평양건설장비공장에서 새 제품들을 창안제작",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 595
+        "domestic": 596
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 596
+        "domestic": 597
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 597
+        "domestic": 598
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,7 +104,7 @@
       ],
       "categoryOrders": {
         "foreign": 110,
-        "domestic": 598
+        "domestic": 599
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,26 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77df6efe2345694729f4487f443dde78015",
       "cachedThumbnailUrl": "/data/news/assets/kcna/9e6879d5df46c620d76406992f38b5370c68aaf7227ab83cbfca98f3aa07ffea.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Af3c28e499f5ce1a659c6316a"
-    },
-    {
-      "id": "news:kcna:6dcb5af37d603a094deb2b61",
-      "title": "《김일성전집》 증보판 제39권 출판",
-      "date": "2026-07-08",
-      "snippet": "(평양 7월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/716822bf647bdb21d0030a26e0674747",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 599
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d3ed28ef37c9009e1e6add376cdf36958",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/08e5f0a0c2addb2f5fd59936acf9c72d3609b63b142a3e9234d483ffc58e573d.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6dcb5af37d603a094deb2b61"
     }
   ]
 }

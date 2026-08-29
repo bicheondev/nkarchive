@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 168,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:c42a2b32a5c14eaf4e85efe6",
+      "title": "평양곡산공장에 새겨진 인민사랑의 자욱",
+      "date": "2026-06-15",
+      "snippet": "(평양 6월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b7d954c214a8103bc6912962dac80dd1",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 835
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e36cda9843b5f9165331a90e0e42b590d4",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/3f5be563154617b548962f43073148232abbe9c7c445c8409ea8132c1a562368.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac42a2b32a5c14eaf4e85efe6"
+    },
     {
       "id": "news:kcna:85d81f9fe971ba5c928c1946",
       "title": "전쟁승리의 새 국면이 펼쳐진 유평혁명사적지",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 835
+        "domestic": 836
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 836,
+        "domestic": 837,
         "social": 89
       },
       "featuredSections": [],
@@ -66,7 +86,7 @@
       ],
       "categoryOrders": {
         "important": 84,
-        "domestic": 837
+        "domestic": 838
       },
       "featuredSections": [],
       "hasImage": true,
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 838
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad07bf7c8a1835b83201f863b"
-    },
-    {
-      "id": "news:kcna:1f857f16a80fd62a890397c9",
-      "title": "강원도에 파견된 3대혁명소조원들 기술혁신의 전위에서 단위발전을 견인",
-      "date": "2026-06-14",
-      "snippet": "(평양 6월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/38cf308574b1e4391c795b4f644eca1a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 839
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1f857f16a80fd62a890397c9"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad07bf7c8a1835b83201f863b"
     }
   ]
 }

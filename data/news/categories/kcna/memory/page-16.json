@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 16,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:aba9ef4f5e6b12edbb20bd27",
+      "title": "수첩에 적으신 상품이름",
+      "date": "2026-04-21",
+      "snippet": "위대한 수령 김일성동지께서는 1959년 11월 어느날 현지지도의 길에서 한 농촌마을의 상점을 찾으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/2967fc4e1a720b5bf5b9c2e6cc6d0f95",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 75
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaba9ef4f5e6b12edbb20bd27"
+    },
     {
       "id": "news:kcna:bef5c69adc3b2fe6559e2eb4",
       "title": "몸소 가르쳐주신 가둠식물대기방법",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 75
+        "memory": 76
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 76
+        "memory": 77
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 77
+        "memory": 78
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 78
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afe08de150c836a4ad3f730dd"
-    },
-    {
-      "id": "news:kcna:152a4da3536d510861e78e00",
-      "title": "광산의 휘황한 앞날을 밝혀주시며",
-      "date": "2026-04-13",
-      "snippet": "위대한 수령 김일성동지께서는 1961년 4월 어느날 룡양광산을 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/432af674e6a058ba46e08dfefba605c8",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 79
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A152a4da3536d510861e78e00"
+      "detailUrl": "/news/document?id=news%3Akcna%3Afe08de150c836a4ad3f730dd"
     }
   ]
 }

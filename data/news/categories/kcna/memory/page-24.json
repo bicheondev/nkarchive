@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 24,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:943bed9e3260826a01aa7dc6",
+      "title": "온 나라에 퍼져간 감나무",
+      "date": "2026-02-18",
+      "snippet": "1991년 11월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/25cde8357e9d6a55a1104b9917808b65",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 115
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A943bed9e3260826a01aa7dc6"
+    },
     {
       "id": "news:kcna:e600ca0595f9bd694cc67309",
       "title": "탄생일에 진행된 일군들의 협의회",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 115
+        "memory": 116
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 116
+        "memory": 117
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 117
+        "memory": 118
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 118
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9bc99a0a5b086e7323514cc3"
-    },
-    {
-      "id": "news:kcna:c7ed6ebd290cc62708055525",
-      "title": "철거세대주민들에게 안겨진 증서",
-      "date": "2026-02-11",
-      "snippet": "위대한 령도자 김정일동지께서는 1983년 7월 어느날 평양시에 새로 건설하는 북새거리(당시)의 형성안을 보아주시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/5a4a356c8f2f483b4ec5d171263b5917",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 119
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac7ed6ebd290cc62708055525"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9bc99a0a5b086e7323514cc3"
     }
   ]
 }

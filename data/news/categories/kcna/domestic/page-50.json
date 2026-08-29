@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 50,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:680dbcedf9da6be897b0d63e",
+      "title": "2026년 8월 8일 신문개관",
+      "date": "2026-08-08",
+      "snippet": "(평양 8월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d5ee5314da4eb4d4a4c5465477f9372b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 245
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A680dbcedf9da6be897b0d63e"
+    },
     {
       "id": "kcna-e45e2417bd0946dc",
       "title": "국립교향악단의 공로있는 창작가,예술인들에게 김일성상,조선민주주의인민공화국 훈장을 수여",
@@ -26,7 +46,7 @@
       "categoryOrders": {
         "important": 26,
         "document": 5,
-        "domestic": 245
+        "domestic": 246
       },
       "featuredSections": [
         "document"
@@ -50,7 +70,7 @@
       ],
       "categoryOrders": {
         "important": 27,
-        "domestic": 246
+        "domestic": 247
       },
       "featuredSections": [],
       "hasImage": true,
@@ -70,7 +90,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 247
+        "domestic": 248
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,26 +110,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 248
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aaff165d4d469bfd67a652cd9"
-    },
-    {
-      "id": "news:kcna:4cf1c0a979b5ef519a6de217",
-      "title": "국립교향악단의 유명한 관현악 《청산벌에 풍년이 왔네》",
-      "date": "2026-08-08",
-      "snippet": "(평양 8월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/09b70862a53ad826de46de8f86e6dbcf",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 249
       },
       "featuredSections": [],
@@ -117,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4cf1c0a979b5ef519a6de217"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaff165d4d469bfd67a652cd9"
     }
   ]
 }

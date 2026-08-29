@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 22,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:9a63384eda0dbf54d862127e",
+      "title": "땅은 밭갈이하는 농민들의것이라고 하시며",
+      "date": "2026-03-05",
+      "snippet": "위대한 수령 김일성동지께서 1946년 3월 어느날 평안남도 대동군 시족면 내리(당시)를 찾으시였을 때의 일이다.",
+      "url": "http://www.kcna.kp/kp/article/detail/d30abac64d43540321e272e1aedbcc49",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 105
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9a63384eda0dbf54d862127e"
+    },
     {
       "id": "news:kcna:7edde51fc3596972f5acbb82",
       "title": "몸소 조직해주신 영화상영",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 105
+        "memory": 106
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 106
+        "memory": 107
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 107
+        "memory": 108
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 108
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0eab55d548ab40d973f53355"
-    },
-    {
-      "id": "news:kcna:efd0fcd93c45574cf5cf6334",
-      "title": "몸소 잡아주신 농업대학터전",
-      "date": "2026-02-27",
-      "snippet": "1947년 7월 어느날이였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/5288cf4a48bdc18d4d1cd94dfcc0ac86",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 109
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aefd0fcd93c45574cf5cf6334"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0eab55d548ab40d973f53355"
     }
   ]
 }

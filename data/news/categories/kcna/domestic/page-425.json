@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 425,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:e5b04a86588cc13c7f66685b",
+      "title": "나라의 첫 군사정치간부양성기지에 깃든 불멸의 업적",
+      "date": "2026-02-23",
+      "snippet": "(평양 2월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/08f1e29f83d7f5fd4a28382af0d7b842",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2121
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae5b04a86588cc13c7f66685b"
+    },
     {
       "id": "news:kcna:d29224989b944c14327118e6",
       "title": "우리 혁명사에 분수령으로 빛나는 당대회들--조선로동당 제4차대회",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2121
+        "domestic": 2122
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2122
+        "domestic": 2123
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       "categoryOrders": {
         "important": 281,
         "document": 40,
-        "domestic": 2123
+        "domestic": 2124
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,30 +110,6 @@
       "categoryOrders": {
         "important": 282,
         "document": 41,
-        "domestic": 2124
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3d7bb88694a564817d44519e"
-    },
-    {
-      "id": "news:kcna:7af4493b936f22c241e4333a",
-      "title": "조선로동당 제9차대회 공보",
-      "date": "2026-02-23",
-      "snippet": "(평양 2월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9e57109f05f2e9f2a4d44b6ecae47d4b",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 283,
-        "document": 42,
         "domestic": 2125
       },
       "featuredSections": [],
@@ -121,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7af4493b936f22c241e4333a"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3d7bb88694a564817d44519e"
     }
   ]
 }

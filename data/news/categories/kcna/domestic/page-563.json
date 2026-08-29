@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 563,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:83fba3f07142dbd5ecfdb00f",
+      "title": "2025년 12월 17일 신문개관",
+      "date": "2025-12-17",
+      "snippet": "(평양 12월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ae71f3c6e6fdcd5249989441d9c7f6bf",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2811
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A83fba3f07142dbd5ecfdb00f"
+    },
     {
       "id": "news:kcna:b46203f1511fd8f3124e9d5e",
       "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 재중동포단체,동포들이 꽃바구니를 보내여왔다",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2811
+        "domestic": 2812
       },
       "featuredSections": [],
       "hasImage": true,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2812,
+        "domestic": 2813,
         "social": 434
       },
       "featuredSections": [],
@@ -66,7 +86,7 @@
       ],
       "categoryOrders": {
         "foreign": 463,
-        "domestic": 2813
+        "domestic": 2814
       },
       "featuredSections": [],
       "hasImage": true,
@@ -88,7 +108,7 @@
       ],
       "categoryOrders": {
         "important": 354,
-        "domestic": 2814
+        "domestic": 2815
       },
       "featuredSections": [],
       "hasImage": true,
@@ -96,28 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807fff51ba9dd12427aba9028cc9cddcee9f5",
       "cachedThumbnailUrl": "/data/news/assets/kcna/ccf0c570e820ab85b39e425ea441ac618aa247114aaf6f6a86e494db56415782.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A1395c299f83ceb08094b2635"
-    },
-    {
-      "id": "news:kcna:9d89c004ee3c1eb28d8f795f",
-      "title": "농근맹일군들과 농업근로자들의 덕성발표모임 진행",
-      "date": "2025-12-17",
-      "snippet": "(평양 12월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ea0fb78e1f421ca2fffd4c8da56825e4",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2815,
-        "social": 435
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9d89c004ee3c1eb28d8f795f"
     }
   ]
 }

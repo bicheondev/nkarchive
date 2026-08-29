@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 277,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:aae72208b4d15485e0efaf7d",
+      "title": "대성산혁명렬사릉에 꽃송이 진정",
+      "date": "2026-04-26",
+      "snippet": "(평양 4월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c20b828ac914a3f08ff81c78e9f73594",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 1380,
+        "social": 142
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66735420fbe9ffc8e69bc6803809b0138d",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/459a95646cc559576b02f0fc52e9f3f6304fbaa995273704052b414c9ecf4779.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaae72208b4d15485e0efaf7d"
+    },
     {
       "id": "news:kcna:8151fdfbe9f2f03e8bf9a629",
       "title": "국방성협주단 음악무용종합공연 진행",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1380
+        "domestic": 1381
       },
       "featuredSections": [],
       "hasImage": true,
@@ -43,7 +65,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1381,
+        "domestic": 1382,
         "social": 143
       },
       "featuredSections": [],
@@ -64,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1382
+        "domestic": 1383
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1383
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7860bbb9dbbca3d3fd256a58"
-    },
-    {
-      "id": "news:kcna:696aca9aae28d37707cde1fc",
-      "title": "순천세멘트련합기업소에서 일평균 103%의 생산실적 기록",
-      "date": "2026-04-26",
-      "snippet": "(평양 4월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b68e3a626a7943bb796f1925cef62b6a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1384
       },
       "featuredSections": [],
@@ -111,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A696aca9aae28d37707cde1fc"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7860bbb9dbbca3d3fd256a58"
     }
   ]
 }

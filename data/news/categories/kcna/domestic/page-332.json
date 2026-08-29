@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 332,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:ee874da5ff39b9ae2f618899",
+      "title": "함경남도에서 건재생산기지들 신설 및 개건",
+      "date": "2026-04-05",
+      "snippet": "(평양 4월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/96c42c72d1d6167c155c9a9cb452abb9",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1655
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aee874da5ff39b9ae2f618899"
+    },
     {
       "id": "news:kcna:542f82a2cd07aa68e19383b8",
       "title": "각지 세멘트생산단위에서 증산성과 확대",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1655
+        "domestic": 1656
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1656
+        "domestic": 1657
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1657
+        "domestic": 1658
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1658,
+        "domestic": 1659,
         "social": 172
       },
       "featuredSections": [],
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ac20f0a74c0ba29be7563b7a5"
-    },
-    {
-      "id": "news:kcna:794047227783b59b210319da",
-      "title": "박태성 내각총리 여러 부문 사업 현지료해",
-      "date": "2026-04-05",
-      "snippet": "(평양 4월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f50dc38c1b1e9d3e5eeb1353182be605",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 181,
-        "domestic": 1659
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66b830fa43a2c82ff695c9f99e24804205",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/48793ce581174b03b7fe98dda6f58f8a9b1bf45cf300fcf35610488c889d06dc.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A794047227783b59b210319da"
     }
   ]
 }

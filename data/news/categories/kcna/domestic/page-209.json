@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 209,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:51abffdedc84f7d2f35e788f",
+      "title": "남포시에서 샘물공급소개건 및 증설공사 결속",
+      "date": "2026-05-27",
+      "snippet": "(평양 5월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8af2b9e7d6719bad117b222f28bc21d8",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1040
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A51abffdedc84f7d2f35e788f"
+    },
     {
       "id": "news:kcna:cd4740b0d57ecfba89919aa5",
       "title": "함흥탐사기술연구소에서 휴대용시추기 개발",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1040
+        "domestic": 1041
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1041,
+        "domestic": 1042,
         "social": 109
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1042
+        "domestic": 1043
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1043
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A08b4f510186939837b0ad6a3"
-    },
-    {
-      "id": "news:kcna:f108ae7eaf7df91f12215c55",
-      "title": "2026년 5월 27일 신문개관",
-      "date": "2026-05-27",
-      "snippet": "(평양 5월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d2f2723dabb3df13ea2dbc7a19f73109",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1044
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af108ae7eaf7df91f12215c55"
+      "detailUrl": "/news/document?id=news%3Akcna%3A08b4f510186939837b0ad6a3"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 272,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:4a46df0bf77572168a82ca85",
+      "title": "2026년 4월 27일 신문개관",
+      "date": "2026-04-27",
+      "snippet": "(평양 4월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4ae60390378eed7f40b981a4cf086c59",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1355
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4a46df0bf77572168a82ca85"
+    },
     {
       "id": "news:kcna:8441840e7936243f73492e0d",
       "title": "2025년 국가최우수과학자,기술자들--함흥수리동력대학 수리공학부 학부장 신경일",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1355
+        "domestic": 1356
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1356
+        "domestic": 1357
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       "categoryOrders": {
         "important": 132,
         "foreign": 205,
-        "domestic": 1357
+        "domestic": 1358
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,7 +110,7 @@
       "categoryOrders": {
         "important": 133,
         "foreign": 206,
-        "domestic": 1358
+        "domestic": 1359
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,30 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ac3c2d78abdab0e60b2cafe4c"
-    },
-    {
-      "id": "news:kcna:25437cb2a83eb7f93c576eaf",
-      "title": "조선인민군 해외작전부대 지휘관,전투원들에게 로씨야련방 국가표창 수여",
-      "date": "2026-04-27",
-      "snippet": "(평양 4월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3aa3fdc8c61b985a5aa8b0f7a80de629",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 134,
-        "foreign": 207,
-        "domestic": 1359
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66c7d4033029873ad17d181c5e3b7be090",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/5dc5a33b590a0e459037f194d4850695ad7ac6f97c3e7ba4f8f0edcd2471ea45.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A25437cb2a83eb7f93c576eaf"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 51,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:4cf1c0a979b5ef519a6de217",
+      "title": "국립교향악단의 유명한 관현악 《청산벌에 풍년이 왔네》",
+      "date": "2026-08-08",
+      "snippet": "(평양 8월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/09b70862a53ad826de46de8f86e6dbcf",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 250
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4cf1c0a979b5ef519a6de217"
+    },
     {
       "id": "news:kcna:18c7de4ede6be04aa16371c1",
       "title": "각지 농촌들에서 고온에 의한 농작물피해를 최소화하기 위한 사업 적극화",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 250
+        "domestic": 251
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 251
+        "domestic": 252
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 252,
+        "domestic": 253,
         "social": 37
       },
       "featuredSections": [],
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 253
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aefcaea93677b7ac50b8e7e3c"
-    },
-    {
-      "id": "news:kcna:994c6c9fffe96c390966222e",
-      "title": "2026년 8월 7일 신문개관",
-      "date": "2026-08-07",
-      "snippet": "(평양 8월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d38999bf8cb15bbf65fb5259e3f47c09",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 254
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A994c6c9fffe96c390966222e"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aefcaea93677b7ac50b8e7e3c"
     }
   ]
 }

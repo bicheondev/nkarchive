@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 616,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:85ad567ec682dd76c8942da8",
+      "title": "로씨야에 가는 농업협조실무대표단 출발",
+      "date": "2025-11-22",
+      "snippet": "(평양 11월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/41a15af1a7c93bfa524db5f850cd62f4",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 484,
+        "domestic": 3076
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A85ad567ec682dd76c8942da8"
+    },
     {
       "id": "news:kcna:50b39984bbe84cc30a9734cc",
       "title": "제7차 전국교육과학토론회 진행",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3076
+        "domestic": 3077
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +65,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3077,
+        "domestic": 3078,
         "social": 492
       },
       "featuredSections": [],
@@ -65,7 +87,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3078,
+        "domestic": 3079,
         "social": 493
       },
       "featuredSections": [],
@@ -87,7 +109,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3079,
+        "domestic": 3080,
         "social": 494
       },
       "featuredSections": [],
@@ -96,28 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aefc2b3e09884679ed6e556b0"
-    },
-    {
-      "id": "news:kcna:cdcf0ae2abf3c68bda5d90b6",
-      "title": "여러 나라사이의 협조",
-      "date": "2025-11-21",
-      "snippet": "(평양 11월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/501b149200651b238ba0888c24c26df5",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "international": 2090,
-        "domestic": 3080
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acdcf0ae2abf3c68bda5d90b6"
     }
   ]
 }

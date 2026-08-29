@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 247,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:a7b2387078ed5862cf938d1c",
+      "title": "봄철골프애호가경기 진행",
+      "date": "2026-05-09",
+      "snippet": "(평양 5월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/78b02b9aa6f68c4cb6c3fed530e0af86",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1230
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e00006499425547a54492518b3c2b3964901eb6",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/a1bcc50ca4b5819376f618814feeadfd7c956b6f5a1e280c16c637225331f274.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa7b2387078ed5862cf938d1c"
+    },
     {
       "id": "news:kcna:c7fdd8057ff3e090fddfaa6b",
       "title": "순천화력발전소에서 전력생산성과 확대",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1230
+        "domestic": 1231
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1231
+        "domestic": 1232
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1232
+        "domestic": 1233
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1233
+        "domestic": 1234
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,28 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A2250b22cb80efb048bfaab05"
-    },
-    {
-      "id": "news:kcna:700e432027437bb6903f6321",
-      "title": "평양시에서 수십명의 청년들이 당결정관철의 전구들로 탄원",
-      "date": "2026-05-08",
-      "snippet": "(평양 5월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2db6d42d7185633b4d31925008fbfb35",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 1234,
-        "social": 127
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A700e432027437bb6903f6321"
     }
   ]
 }

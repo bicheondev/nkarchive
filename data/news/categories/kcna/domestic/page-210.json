@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 210,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:f108ae7eaf7df91f12215c55",
+      "title": "2026년 5월 27일 신문개관",
+      "date": "2026-05-27",
+      "snippet": "(평양 5월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d2f2723dabb3df13ea2dbc7a19f73109",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1045
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af108ae7eaf7df91f12215c55"
+    },
     {
       "id": "news:kcna:de0df078cd860b3c6559bb26",
       "title": "조선민주주의인민공화국 외무상이 싱가포르공화국 외무상과 회담",
@@ -26,7 +46,7 @@
       "categoryOrders": {
         "important": 102,
         "foreign": 161,
-        "domestic": 1045
+        "domestic": 1046
       },
       "featuredSections": [],
       "hasImage": true,
@@ -48,7 +68,7 @@
       ],
       "categoryOrders": {
         "foreign": 162,
-        "domestic": 1046
+        "domestic": 1047
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,7 +88,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1047
+        "domestic": 1048
       },
       "featuredSections": [],
       "hasImage": true,
@@ -88,26 +108,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1048
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aaf59ad0af2dc4e2654813eea"
-    },
-    {
-      "id": "news:kcna:08a7b5a9253cfbf3a3bcdde2",
-      "title": "평양목재공장 창립 70돐을 기념",
-      "date": "2026-05-27",
-      "snippet": "(평양 5월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e1bfa58bb047d06f6c7e53e267c3d789",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1049
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A08a7b5a9253cfbf3a3bcdde2"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaf59ad0af2dc4e2654813eea"
     }
   ]
 }

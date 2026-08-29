@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 253,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:9056a5251840ef89823c8b7e",
+      "title": "2026년 5월 6일 신문개관",
+      "date": "2026-05-06",
+      "snippet": "(평양 5월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6c278d338bc5a6a6169198951dbf092d",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1260
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9056a5251840ef89823c8b7e"
+    },
     {
       "id": "news:kcna:71dbc71cd13c009c5f37370b",
       "title": "재일본조선청년동맹축하단 만경대 방문,여러곳 참관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1260
+        "domestic": 1261
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1261
+        "domestic": 1262
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1262
+        "domestic": 1263
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1263
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2ffcc08169fc24692cc64fd1"
-    },
-    {
-      "id": "news:kcna:fa66f88ec844b15eeae06bda",
-      "title": "《농촌건설평양시마감건재전시회-2026》 진행",
-      "date": "2026-05-06",
-      "snippet": "(평양 5월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9b5667107146b2cc61c1be5577c71a00",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1264
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afa66f88ec844b15eeae06bda"
+      "detailUrl": "/news/document?id=news%3Akcna%3A2ffcc08169fc24692cc64fd1"
     }
   ]
 }

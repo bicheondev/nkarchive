@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 205,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:30df4a7eb5b4b94cd1e600c8",
+      "title": "상원세멘트련합기업소에서 5월 인민경제계획 완수",
+      "date": "2026-05-29",
+      "snippet": "(평양 5월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/05cce74196c50f2c28df373495f8aaec",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1020
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A30df4a7eb5b4b94cd1e600c8"
+    },
     {
       "id": "news:kcna:ec20d30307e73eaa3799eada",
       "title": "2월17일과학자,기술자돌격대활동 활발",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1020
+        "domestic": 1021
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1021
+        "domestic": 1022
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1022
+        "domestic": 1023
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
       ],
       "categoryOrders": {
         "foreign": 156,
-        "domestic": 1023
+        "domestic": 1024
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064a70fbbc4e8070fa6b2949c5359194e11",
       "cachedThumbnailUrl": "/data/news/assets/kcna/cd14c5550a4c7a4d59b4ff10cac3a946e700068187c36826c54d365dea79fc3b.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A873efd576934f278190da723"
-    },
-    {
-      "id": "news:kcna:59a5f561fb309a7675c24b14",
-      "title": "우리 나라 외무상 아제르바이쟌공화국 외무상에게 축전",
-      "date": "2026-05-29",
-      "snippet": "(평양 5월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4a38303c97e9014d3de07dcd5f13142f",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 157,
-        "domestic": 1024
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A59a5f561fb309a7675c24b14"
     }
   ]
 }

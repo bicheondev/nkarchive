@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 262,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:203dbbb9788673caab8f1c94",
+      "title": "해주탄산칼시움생산소 새로 건설",
+      "date": "2026-05-02",
+      "snippet": "(평양 5월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/303a0a58371ee30ac3a3ce57b2021e91",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1305
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A203dbbb9788673caab8f1c94"
+    },
     {
       "id": "news:kcna:fbfc9a64b4d0377fafada06b",
       "title": "황해북도의 농촌들에서 불리한 기상기후조건을 극복하며 영농공정수행에 주력",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1305
+        "domestic": 1306
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1306
+        "domestic": 1307
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1307
+        "domestic": 1308
       },
       "featuredSections": [],
       "hasImage": true,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1308,
+        "domestic": 1309,
         "social": 138
       },
       "featuredSections": [],
@@ -92,26 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Acf14d06316a4faf8e9c9aa07"
-    },
-    {
-      "id": "news:kcna:6ac68c73ab3ff44540405259",
-      "title": "신문들 전세계근로자들의 국제적명절인 5.1절을 맞으며 사설 발표",
-      "date": "2026-05-01",
-      "snippet": "(평양 5월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/62dea764a5d334c39c0e3609d6a4067b",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1309
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6ac68c73ab3ff44540405259"
     }
   ]
 }

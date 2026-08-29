@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 275,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:e7b41b5e2934a41925970422",
+      "title": "동평양화력발전소에서 전력생산성과 확대",
+      "date": "2026-04-27",
+      "snippet": "(평양 4월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cd3a30ba6631695e0c03df60636ec778",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1370
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae7b41b5e2934a41925970422"
+    },
     {
       "id": "news:kcna:136fbf7216d6397ede191c71",
       "title": "온 나라에 차넘치는 태권도열풍",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1370
+        "domestic": 1371
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1371
+        "domestic": 1372
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1372
+        "domestic": 1373
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,28 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1373
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A870c79188522d44ecd44a7cf"
-    },
-    {
-      "id": "news:kcna:e868577b88e3f3b357b27b55",
-      "title": "조선로동당 중앙위원회가 벨라야 루씨당 제4차대회에 축전을 보내였다",
-      "date": "2026-04-26",
-      "snippet": "(평양 4월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c1d3d731a508be99c527b9e7aa6850cd",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 212,
         "domestic": 1374
       },
       "featuredSections": [],
@@ -111,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae868577b88e3f3b357b27b55"
+      "detailUrl": "/news/document?id=news%3Akcna%3A870c79188522d44ecd44a7cf"
     }
   ]
 }

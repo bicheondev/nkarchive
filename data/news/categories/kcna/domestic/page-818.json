@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 818,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:92a3f8faeb7e49650d006399",
+      "title": "농장원대학생들이 늘어난다",
+      "date": "2025-09-05",
+      "snippet": "(평양 9월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5fa57bef8d717e9082df526550158204",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 4086
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A92a3f8faeb7e49650d006399"
+    },
     {
       "id": "news:kcna:927d1e964563f02cd77017a2",
       "title": "2025년 9월 5일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4086
+        "domestic": 4087
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +66,7 @@
       "categoryOrders": {
         "important": 515,
         "foreign": 764,
-        "domestic": 4087
+        "domestic": 4088
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4088
+        "domestic": 4089
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4089
+        "domestic": 4090
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,28 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A915c864435d48b998bccaa8b"
-    },
-    {
-      "id": "news:kcna:5c13a4ea7661301733a6de39",
-      "title": "자강도 성간군 신청리에서 새집들이 진행",
-      "date": "2025-09-05",
-      "snippet": "(평양 9월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/28eb88e761c7b0e8170560f55fa97d56",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 4090,
-        "social": 677
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/3d3755d837f6dc968fa55dbecad26d22475cbf81cff205d91da033225df0090d",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/bbd5ae4fd4f652e84dea1a8d65b9a224eaf37a5ed76e2f2d2bf0f201e7258ad9.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5c13a4ea7661301733a6de39"
     }
   ]
 }

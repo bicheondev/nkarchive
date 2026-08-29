@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 381,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:ed5237ba94e6e4a1628bd1fd",
+      "title": "황해남도에서 산불감시에 정보기술수단들을 도입",
+      "date": "2026-03-15",
+      "snippet": "(평양 3월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cc1b35d5bdbd04600c21bbff17c1dc4b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1901
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aed5237ba94e6e4a1628bd1fd"
+    },
     {
       "id": "news:kcna:b32b0a041ea9d4039865770a",
       "title": "2025년 조선민주주의인민공화국 10대최우수선수(7) --장산체육단 레스링선수 원명경",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1901
+        "domestic": 1902
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1902
+        "domestic": 1903
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       "categoryOrders": {
         "important": 232,
         "foreign": 333,
-        "domestic": 1903
+        "domestic": 1904
       },
       "featuredSections": [],
       "hasImage": false,
@@ -87,7 +107,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1904,
+        "domestic": 1905,
         "social": 217
       },
       "featuredSections": [],
@@ -96,26 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A83b8cd97a3de270d76577d2d"
-    },
-    {
-      "id": "news:kcna:5e6f66669e815c06b0399361",
-      "title": "식수절을 맞으며 각지에서 나무심기 진행",
-      "date": "2026-03-15",
-      "snippet": "(평양 3월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/23f119bf2f866a93507f449587678d86",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1905
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60e50af0458670d4f6a398001508d84e75",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/bcfa4bf2a06989c5a92f94d1d4f4fa87a708fec72bfbe91254defee22018ff28.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5e6f66669e815c06b0399361"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 199,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:90024d86aa0a65152cdb5863",
+      "title": "평안남도에서 농촌살림집건설 추진",
+      "date": "2026-05-31",
+      "snippet": "(평양 5월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c5cd9d26a99c7c56ee87b072dc084b67",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 990
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A90024d86aa0a65152cdb5863"
+    },
     {
       "id": "news:kcna:ab1f3e6ce61849f4acef929d",
       "title": "혜산철도분국 화물수송에서 혁신",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 990
+        "domestic": 991
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +66,7 @@
       "categoryOrders": {
         "important": 99,
         "foreign": 153,
-        "domestic": 991
+        "domestic": 992
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 992
+        "domestic": 993
       },
       "featuredSections": [],
       "hasImage": true,
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 993
+        "domestic": 994
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,28 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e0000648d671348b1405160d4a42cd1a9a83f33",
       "cachedThumbnailUrl": "/data/news/assets/kcna/7d1f4592f059ab0b8a17fd4ba9c6a99eb0e30e25ad47387f3069272cd475f238.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A49034e27a87c6788527405c5"
-    },
-    {
-      "id": "news:kcna:118c3f9f6e8b826a4f942021",
-      "title": "부강조국건설사에 아로새겨진 대중운동들",
-      "date": "2026-05-31",
-      "snippet": "(평양 5월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8c705f997249c1874bc7e860de964ae9",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 994,
-        "social": 105
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A118c3f9f6e8b826a4f942021"
     }
   ]
 }

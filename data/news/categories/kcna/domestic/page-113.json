@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 113,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:edcda6deb3cabb8725864bba",
+      "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지에게 축전을 보내시였다",
+      "date": "2026-07-11",
+      "snippet": "(평양 7월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/33440a53c448bd023e6c91b2fb19b5b9",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 62,
+        "foreign": 95,
+        "domestic": 560
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aedcda6deb3cabb8725864bba"
+    },
     {
       "id": "news:kcna:0203938491e5bc7a8eb3a94f",
       "title": "조선민주주의인민공화국 당 및 정부대표단 중화인민공화국을 공식방문하기 위하여 평양 출발",
@@ -26,7 +50,7 @@
       "categoryOrders": {
         "important": 68,
         "foreign": 101,
-        "domestic": 560
+        "domestic": 561
       },
       "featuredSections": [],
       "hasImage": true,
@@ -47,7 +71,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 561,
+        "domestic": 562,
         "social": 66
       },
       "featuredSections": [],
@@ -68,7 +92,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 562
+        "domestic": 563
       },
       "featuredSections": [],
       "hasImage": false,
@@ -89,7 +113,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 563,
+        "domestic": 564,
         "social": 67
       },
       "featuredSections": [],
@@ -98,26 +122,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A93504d1749d0a6d4dc78920b"
-    },
-    {
-      "id": "news:kcna:fca4d1069e72247ff58ac2b0",
-      "title": "강원도에서 농촌살림집건설 전개",
-      "date": "2026-07-10",
-      "snippet": "(평양 7월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e79dfa64e6df5f8d9fc0f24fb1b7810e",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 564
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afca4d1069e72247ff58ac2b0"
     }
   ]
 }

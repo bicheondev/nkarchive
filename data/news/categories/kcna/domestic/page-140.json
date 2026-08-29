@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 140,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:a66b65715bef2c5c37dd3ab1",
+      "title": "경공업발전에서 큰 몫을 하고있는 신의주방직공장",
+      "date": "2026-06-29",
+      "snippet": "(평양 6월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8c7ec41339506cff164df0b361c726d5",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 695
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e3dc5cd4b98ab7713048098b7502efd1d6",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/6741acb3b1568b85de96c64e9acd7073fc73dd19046f15b1d5dbd3d25f958a72.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa66b65715bef2c5c37dd3ab1"
+    },
     {
       "id": "news:kcna:4565896b9ec72e5c997663bb",
       "title": "각지 교원양성부문 대학들에서 교원후비육성을 위한 사업 추진",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 695
+        "domestic": 696
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 696
+        "domestic": 697
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 697,
+        "domestic": 698,
         "social": 78
       },
       "featuredSections": [],
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 698
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4389eacdffd6f02939d7fd9a"
-    },
-    {
-      "id": "news:kcna:f2ca1c41d6bef969f2743581",
-      "title": "청천강화력발전소에서 과학기술력 증대,물질기술적토대 강화",
-      "date": "2026-06-28",
-      "snippet": "(평양 6월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fbef08a1932a24672fd224290e08e3d3",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 699
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af2ca1c41d6bef969f2743581"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4389eacdffd6f02939d7fd9a"
     }
   ]
 }

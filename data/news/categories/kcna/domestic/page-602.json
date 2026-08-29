@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 602,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:24d494e5b5245c0fee2d5b0a",
+      "title": "평양해운사업소 평천려객역사 준공",
+      "date": "2025-11-29",
+      "snippet": "(평양 11월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3006ee33467e50b385d00c6351f5e0c5",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3006
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A24d494e5b5245c0fee2d5b0a"
+    },
     {
       "id": "news:kcna:16194210c615141cb8020946",
       "title": "평양시 력포구역 력포남새농장,사동구역 오류남새농장에 새 농촌문화주택들이 일떠섰다",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3006,
+        "domestic": 3007,
         "social": 478
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3007
+        "domestic": 3008
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3008
+        "domestic": 3009
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3009
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac1a77ba39d5a78ec01cc2ed1"
-    },
-    {
-      "id": "news:kcna:34f2ddd229c8dbff0a33cbf9",
-      "title": "《선진과학기술 및 제품전시회-2025》 페막",
-      "date": "2025-11-29",
-      "snippet": "(평양 11월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d03d658e238e15ac9102314975becc5e",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3010
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A34f2ddd229c8dbff0a33cbf9"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac1a77ba39d5a78ec01cc2ed1"
     }
   ]
 }

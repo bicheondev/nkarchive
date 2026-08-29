@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 424,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:08b3d3d1a61eb125887123c5",
+      "title": "각지 농촌들에서 봄밀,보리씨뿌리기 시작",
+      "date": "2026-02-24",
+      "snippet": "(평양 2월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/392cc68e007f50c7cf815b20849815a7",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2116
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A08b3d3d1a61eb125887123c5"
+    },
     {
       "id": "news:kcna:02ad5abe4136536b7b940ac8",
       "title": "평양시 모란봉구역의 백살장수자가 은정어린 생일상을 받아안았다",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2116,
+        "domestic": 2117,
         "social": 268
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2117
+        "domestic": 2118
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       ],
       "categoryOrders": {
         "foreign": 372,
-        "domestic": 2118
+        "domestic": 2119
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,7 +108,7 @@
       ],
       "categoryOrders": {
         "foreign": 373,
-        "domestic": 2119
+        "domestic": 2120
       },
       "featuredSections": [],
       "hasImage": true,
@@ -96,26 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366ec2240756656e83e159aae0b4e1ffd6f",
       "cachedThumbnailUrl": "/data/news/assets/kcna/70e103ad07890e24d30162d6e4ca411807e6d49eb1b3dc269452fdb8ce24c554.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A0102a4b8e0d91570d151155b"
-    },
-    {
-      "id": "news:kcna:e5b04a86588cc13c7f66685b",
-      "title": "나라의 첫 군사정치간부양성기지에 깃든 불멸의 업적",
-      "date": "2026-02-23",
-      "snippet": "(평양 2월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/08f1e29f83d7f5fd4a28382af0d7b842",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2120
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae5b04a86588cc13c7f66685b"
     }
   ]
 }

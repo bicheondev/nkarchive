@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 645,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:ab0797139474c2ff26bab686",
+      "title": "우리 나라 외무상에게 싱가포르공화국 외무상이 축전",
+      "date": "2025-11-09",
+      "snippet": "(평양 11월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c0134255cf633ff7ea333ee81bc9b3bb",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 500,
+        "domestic": 3221
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aab0797139474c2ff26bab686"
+    },
     {
       "id": "news:kcna:256e58ef1a4cec6527131e2f",
       "title": "나라의 철도현대화를 힘있게 견인하는 굴지의 차량생산기지",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3221
+        "domestic": 3222
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +66,7 @@
       ],
       "categoryOrders": {
         "foreign": 501,
-        "domestic": 3222
+        "domestic": 3223
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +88,7 @@
       ],
       "categoryOrders": {
         "foreign": 502,
-        "domestic": 3223
+        "domestic": 3224
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +108,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3224
+        "domestic": 3225
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,26 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eace8e5c01e8dc7ca203d7a3c920538b457",
       "cachedThumbnailUrl": "/data/news/assets/kcna/a3c3942d61fb3b1fe3b4e848270bcdaf434c8d5d4057d943cce5d9a3072d6483.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A0782515a92672bba614f042b"
-    },
-    {
-      "id": "news:kcna:7e50744f79db5544e29b445c",
-      "title": "국가비물질문화유산-팽이치기",
-      "date": "2025-11-08",
-      "snippet": "(평양 11월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/46d3380b7a07c404fb32a4e495810361",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3225
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7e50744f79db5544e29b445c"
     }
   ]
 }

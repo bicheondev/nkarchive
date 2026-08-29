@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 653,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:26f198818f8e3b7f7e343aea",
+      "title": "박태성동지가 고 김영남동지와의 영결식에서 애도사를 하였다",
+      "date": "2025-11-06",
+      "snippet": "(평양 11월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0c3e5ee54b1f229269b93528b1278f3e",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 385,
+        "domestic": 3261
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac1d16205fdc0d03091b5f462368d7d9e7",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/99f173cb03dc1f7f85e2f1429b2e7515d2b55c4fccf6ae4d5ec3575c488235e1.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A26f198818f8e3b7f7e343aea"
+    },
     {
       "id": "news:kcna:d5c405d036fee8d49ae3240e",
       "title": "단천지구광업총국의 광산,기업소들에서 증산기세 고조",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3261
+        "domestic": 3262
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +68,7 @@
       "categoryOrders": {
         "important": 386,
         "foreign": 509,
-        "domestic": 3262
+        "domestic": 3263
       },
       "featuredSections": [],
       "hasImage": true,
@@ -67,7 +89,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3263,
+        "domestic": 3264,
         "social": 537
       },
       "featuredSections": [],
@@ -89,7 +111,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3264,
+        "domestic": 3265,
         "social": 538
       },
       "featuredSections": [],
@@ -98,30 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A27a20c1c91521cb41c22bb28"
-    },
-    {
-      "id": "news:kcna:847c430ec2ec6c59d077c656",
-      "title": "조선민주주의인민공화국 외무성 김은철 미국담당 부상 담화 발표",
-      "date": "2025-11-06",
-      "snippet": "(평양 11월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0b74012ba1c3c338db2b0f54c3b3b53a",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 387,
-        "international": 2191,
-        "domestic": 3265
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A847c430ec2ec6c59d077c656"
     }
   ]
 }

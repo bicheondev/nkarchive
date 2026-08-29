@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 430,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:dadb088c8a0ff5e663e355be",
+      "title": "우리 혁명사에 분수령으로 빛나는 당대회들",
+      "date": "2026-02-20",
+      "snippet": "(평양 2월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ef4a3a37084b9f6387c885d0f3c98f97",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2146
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Adadb088c8a0ff5e663e355be"
+    },
     {
       "id": "news:kcna:6e0f357828d56098b6135116",
       "title": "2026년 2월 20일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2146
+        "domestic": 2147
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "international": 1443,
-        "domestic": 2147
+        "international": 1444,
+        "domestic": 2148
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2148,
+        "domestic": 2149,
         "social": 274
       },
       "featuredSections": [],
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2149
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3d96c6b6d2a9f5919598eace"
-    },
-    {
-      "id": "news:kcna:b4b988e118726875754382ef",
-      "title": "원산학생교복공장,원산학생신발공장에서 새 학년도 교복,신발생산에 주력",
-      "date": "2026-02-20",
-      "snippet": "(평양 2월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/50a8654cd54345caf5c56c422299a0e4",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2150
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab4b988e118726875754382ef"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3d96c6b6d2a9f5919598eace"
     }
   ]
 }

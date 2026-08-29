@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 667,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:9ef77601988789dbe7c13b83",
+      "title": "평안북도에서 도기상수문분국을 개건현대화",
+      "date": "2025-10-31",
+      "snippet": "(평양 10월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e878fe027e6a3ae05997aecb4c2f5b08",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3331
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9ef77601988789dbe7c13b83"
+    },
     {
       "id": "news:kcna:7a5676585b7962b48b5c4ab3",
       "title": "2025년 10월 31일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3331
+        "domestic": 3332
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3332
+        "domestic": 3333
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3333
+        "domestic": 3334
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3334,
+        "domestic": 3335,
         "social": 551
       },
       "featuredSections": [],
@@ -92,28 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d939330824adfac7361e755605d86dd3a700e75",
       "cachedThumbnailUrl": "/data/news/assets/kcna/55b2b0fde658b1b1c107c9ad2cbeeed96abb74dc95954f762b3cb83262a2780e.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Aaa572277e81ab4681d673bbd"
-    },
-    {
-      "id": "news:kcna:af7417370a6ee700daee23b0",
-      "title": "평양시에서 학교지원사업 추진",
-      "date": "2025-10-31",
-      "snippet": "(평양 10월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/57f60b5310be38e32f9f72c2558dc319",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 3335,
-        "social": 552
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aaf7417370a6ee700daee23b0"
     }
   ]
 }

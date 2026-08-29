@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 521,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:7a2c1197580830247a947bcb",
+      "title": "함경남도 신포시 신풍농장,영중농장과 홍원군 남회농장에서 새집들이 진행",
+      "date": "2026-01-09",
+      "snippet": "(평양 1월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bd9a14f8cb0c50abdf1ebaec1406fe57",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2601,
+        "social": 390
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451e90743b144ab2975f2d553ad83680178",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/bc43f3a3e6de7f0a0201cd823ecc0261b4044e26a5f5d4140b0433a970ed8997.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7a2c1197580830247a947bcb"
+    },
     {
       "id": "news:kcna:e2540545fa3fc74d2a5d86c9",
       "title": "각지 세멘트생산단위에서 생산성과 확대",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2601
+        "domestic": 2602
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +65,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2602,
+        "domestic": 2603,
         "social": 391
       },
       "featuredSections": [],
@@ -64,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2603
+        "domestic": 2604
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2604
+        "domestic": 2605
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451ca11c5ef7b15c7d16b67d8d49fb2e169",
       "cachedThumbnailUrl": "/data/news/assets/kcna/236fced1c263d9c87286b405683372d59eb448a98c55f4d1aac510f6945fd5b3.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Afac46bfbffa053c254f7719b"
-    },
-    {
-      "id": "news:kcna:9a93ef68f67b2c3df8e74b16",
-      "title": "2026년 1월 8일 신문개관",
-      "date": "2026-01-08",
-      "snippet": "(평양 1월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/17cb82d80bd29000ace5b44ea26c06fd",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2605
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9a93ef68f67b2c3df8e74b16"
     }
   ]
 }

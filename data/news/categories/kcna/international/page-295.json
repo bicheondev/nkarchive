@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 295,
   "pageSize": 5,
-  "totalItems": 2767,
+  "totalItems": 2768,
   "totalPages": 554,
   "articles": [
+    {
+      "id": "news:kcna:8d12a1c69ccd30e609670515",
+      "title": "미국에서 총기류범죄",
+      "date": "2026-02-16",
+      "snippet": "(평양 2월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/90982d376011d0d303359f0477084416",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1470
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8d12a1c69ccd30e609670515"
+    },
     {
       "id": "news:kcna:485f68ce26d9785e549f8526",
       "title": "그리스에서 농민들의 항의집회",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1470,
+        "international": 1471,
         "social": 289
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1471
+        "international": 1472
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       ],
       "categoryOrders": {
         "important": 293,
-        "international": 1472
+        "international": 1473
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,7 +108,7 @@
       ],
       "categoryOrders": {
         "important": 294,
-        "international": 1473
+        "international": 1474
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,28 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ab418a1ef68139e4c8b8c13e0"
-    },
-    {
-      "id": "news:kcna:89434eb8ebc8e547dd507575",
-      "title": "도이췰란드에서 항공운수부문 근로자들 파업",
-      "date": "2026-02-15",
-      "snippet": "(평양 2월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f448bf2c35e90db329331783550cf1cb",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "social"
-      ],
-      "categoryOrders": {
-        "international": 1474,
-        "social": 291
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A89434eb8ebc8e547dd507575"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 393,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:1d2c9378670a414af8cc3abe",
+      "title": "《김일성전집》 증보판 제37권 출판",
+      "date": "2026-03-11",
+      "snippet": "(평양 3월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/da84bf8b67d60b7b5cb51a88f4c6cf38",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1961
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e603619ee0b7b2b2732cee4b9955bdd04e8",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/2cbe200fc61a5a04ba439266d4977491a0ad3de5b6b47915f38633560c46a03b.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1d2c9378670a414af8cc3abe"
+    },
     {
       "id": "news:kcna:87ed3d2a983f8989d4c4e165",
       "title": "전쟁로병과 청진시안의 고급중학교 졸업반학생들의 상봉모임 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1961
+        "domestic": 1962
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1962
+        "domestic": 1963
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1963
+        "domestic": 1964
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,32 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1964
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A423c14cfeeac556f40cbf7fe"
-    },
-    {
-      "id": "news:kcna:ad113005ab53f38c499ea712",
-      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
-      "date": "2026-03-10",
-      "snippet": "(평양 3월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5b3388d334749550e5a0f849b905ae7c",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 241,
-        "document": 35,
-        "foreign": 341,
         "domestic": 1965
       },
       "featuredSections": [],
@@ -115,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aad113005ab53f38c499ea712"
+      "detailUrl": "/news/document?id=news%3Akcna%3A423c14cfeeac556f40cbf7fe"
     }
   ]
 }

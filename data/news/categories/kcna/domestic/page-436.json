@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 436,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:cd2fe1bf035751601e3c8a57",
+      "title": "2026년 2월 17일 신문개관",
+      "date": "2026-02-17",
+      "snippet": "(평양 2월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0f1bd5b61aa02cbaebec4b0b4198ebd0",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2176
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Acd2fe1bf035751601e3c8a57"
+    },
     {
       "id": "news:kcna:2d05bf0fc3ca4df8a6465ba1",
       "title": "조선로동당 제9차대회 대표자들 혁명의 수도 평양에 도착",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2176
+        "domestic": 2177
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "foreign": 383,
-        "domestic": 2177
+        "domestic": 2178
       },
       "featuredSections": [],
       "hasImage": true,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2178
+        "domestic": 2179
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2179
+        "domestic": 2180
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366b1c3e38e5a49d33f0d716a96600a6484",
       "cachedThumbnailUrl": "/data/news/assets/kcna/3b53b207bad6d16a54922aebd9d0f479c528a149a744a692a024a880beedaf8b.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A1d0335e2769f6be07fa8eadb"
-    },
-    {
-      "id": "news:kcna:eac266d9c8e3210deb6192ed",
-      "title": "위대한 령도자 김정일동지 탄생 84돐에 즈음하여 당과 정부의 간부들 금수산태양궁전을 찾아 숭고한 경의 표시",
-      "date": "2026-02-17",
-      "snippet": "(평양 2월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/10312794da1125e2804a841b92ff6d38",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 291,
-        "domestic": 2180
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366037f07a06d12ecdc8140a0add5a6d3e8",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/a68a4ff5627d98e6faac45dca89a29db8a0777c95e378034e38fbb4618fd24f9.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aeac266d9c8e3210deb6192ed"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 628,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:fcfaaf8ce310d8fe2c3e2c47",
+      "title": "평안남도에서 교육실험기구 및 교편물창안품전시회 진행",
+      "date": "2025-11-16",
+      "snippet": "(평양 11월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e4dcac19aaf158f0c435fab13bd20ed3",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3136
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afcfaaf8ce310d8fe2c3e2c47"
+    },
     {
       "id": "news:kcna:8ff56392f793e35fea3d6947",
       "title": "온 나라 어머니들의 자애로운 어버이",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3136
+        "domestic": 3137
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3137,
+        "domestic": 3138,
         "social": 505
       },
       "featuredSections": [],
@@ -66,7 +86,7 @@
       ],
       "categoryOrders": {
         "important": 371,
-        "domestic": 3138
+        "domestic": 3139
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,7 +110,7 @@
       "categoryOrders": {
         "important": 372,
         "foreign": 485,
-        "domestic": 3139
+        "domestic": 3140
       },
       "featuredSections": [],
       "hasImage": true,
@@ -98,28 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac2f1965e1481f32ac91f2ebfb480e4e63",
       "cachedThumbnailUrl": "/data/news/assets/kcna/4dc158dfc20d3a4b337e91f44d5067a9986474a8aad3fc46fcd2b85b4f2f66e7.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A3d469c08fba02dc3d241d945"
-    },
-    {
-      "id": "news:kcna:2e2824fe107a32771eb267cd",
-      "title": "남포시 대안구역 성암농장에서 살림집입사모임 진행",
-      "date": "2025-11-16",
-      "snippet": "(평양 11월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3a513ab7a97f293a634a4f8b9fa3450d",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 3140,
-        "social": 506
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eacaf67d3de4509a1aa0d3b0ff038683d54",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/2138bb8c3a71dc002ebcd23c8d845c93ea086eb7d62226c8a234618f3cb68143.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2e2824fe107a32771eb267cd"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 101,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:ff9effe8e9972e7a9b334c0d",
+      "title": "중화인민공화국 당 및 정부대표단 우의탑에 꽃바구니 진정",
+      "date": "2026-07-16",
+      "snippet": "(평양 7월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7be87821f4a4e93d8df243f36d42c012",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 54,
+        "foreign": 81,
+        "domestic": 500
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d784ea0d3a69fefd8991d7c95fd57263d",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/fc64708168838085d81ce6a41d5d68777dd46bb753ff804548d8adc31bc3c74f.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aff9effe8e9972e7a9b334c0d"
+    },
     {
       "id": "news:kcna:d23f8c6e869f6ff7717ea7fb",
       "title": "조선사회주의녀성동맹 제8차대회 참가자들과 녀맹원들의 맹세모임,대합창공연 진행",
@@ -22,7 +46,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 500
+        "domestic": 501
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 501
+        "domestic": 502
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 502
+        "domestic": 503
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 503
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abdf2bb3d9cceed62c70115f7"
-    },
-    {
-      "id": "news:kcna:f190972f4c59b81beffc5d55",
-      "title": "량강도 혜산시,강원도 원산시의 면모를 일신",
-      "date": "2026-07-16",
-      "snippet": "(평양 7월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9e78ac2063fb7115d6cd2d48854d366c",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 504
       },
       "featuredSections": [],
@@ -109,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af190972f4c59b81beffc5d55"
+      "detailUrl": "/news/document?id=news%3Akcna%3Abdf2bb3d9cceed62c70115f7"
     }
   ]
 }

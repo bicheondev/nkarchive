@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 35,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:8792d407e3d0f14cd7be1ecb",
+      "title": "2026년 8월 15일 신문개관",
+      "date": "2026-08-15",
+      "snippet": "(평양 8월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4b05c04985c8c8a84e349d32d953eda1",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 170
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8792d407e3d0f14cd7be1ecb"
+    },
     {
       "id": "news:kcna:419342672f3d30bd33e530b2",
       "title": "조국해방 81돐에 즈음하여 위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 경의를 드리는 의식 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 170
+        "domestic": 171
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,7 +66,7 @@
       "categoryOrders": {
         "important": 13,
         "foreign": 26,
-        "domestic": 171
+        "domestic": 172
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 172
+        "domestic": 173
       },
       "featuredSections": [],
       "hasImage": true,
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 173
+        "domestic": 174
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,28 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f292df96e7517f2dd277fad627d013663ab",
       "cachedThumbnailUrl": "/data/news/assets/kcna/6d77c30fc3158cd30896d083197d44793004e19523cb82221bac004ed80ad575.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Aaeadb1bfa03933bde1e60413"
-    },
-    {
-      "id": "news:kcna:86e375d0c4c18cce1273c6a6",
-      "title": "로씨야대사관 성원들 해방탑과 쏘련군렬사들의 묘에 화환 진정",
-      "date": "2026-08-15",
-      "snippet": "(평양 8월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/bbe8c86dee142efa780d36159e3c63d0",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 29,
-        "domestic": 174
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29d9ff4a414b2787190736573654ae7366",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/d850b8b9251f51f01dbb5e509490b2d16e6bb7583e9d6f9ee28fd4ca80b46f77.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A86e375d0c4c18cce1273c6a6"
     }
   ]
 }

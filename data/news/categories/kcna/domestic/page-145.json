@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 145,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:c06d5a31df7c3094050d3381",
+      "title": "《올림픽의 날》에 즈음한 반도핑강습 진행",
+      "date": "2026-06-26",
+      "snippet": "(평양 6월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/25f98ddc2343df50d0454cfcd6946bc2",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 720
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e3e8bad71ba89fcf012227c629f6397486",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/e155d215b81681b91383ea30b2373be1a816a19ae5fe4a469e342f21f9714fe9.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac06d5a31df7c3094050d3381"
+    },
     {
       "id": "news:kcna:fca12b40f610213732046b6a",
       "title": "남포조선소의 로동계급이 받아안은 크나큰 은정",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "important": 77,
-        "domestic": 720
+        "domestic": 721
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 721
+        "domestic": 722
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 722,
+        "domestic": 723,
         "social": 84
       },
       "featuredSections": [],
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 723
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af09a8cae647196b50df5a54a"
-    },
-    {
-      "id": "news:kcna:1ad68d0a54e83f9d3fc790fa",
-      "title": "중평온실농장의 남새생산 지난해 같은 시기보다 증대",
-      "date": "2026-06-25",
-      "snippet": "(평양 6월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/20bd1f2d5ca89d7ff95d288dbf72f036",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 724
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1ad68d0a54e83f9d3fc790fa"
+      "detailUrl": "/news/document?id=news%3Akcna%3Af09a8cae647196b50df5a54a"
     }
   ]
 }

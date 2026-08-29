@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 545,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:1c1a9c851188f12900ad0d27",
+      "title": "2025년 12월 27일 신문개관",
+      "date": "2025-12-27",
+      "snippet": "(평양 12월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3cb08b27836ac31099f4080f86eea2aa",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2721
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1c1a9c851188f12900ad0d27"
+    },
     {
       "id": "news:kcna:87557de17788a99ce145c3e3",
       "title": "신문들 조선민주주의인민공화국 헌법절을 맞으며 론설과 사설 발표",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2721
+        "domestic": 2722
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2722
+        "domestic": 2723
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2723
+        "domestic": 2724
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2724,
+        "domestic": 2725,
         "social": 419
       },
       "featuredSections": [],
@@ -92,26 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ff50513aa1589eb3c578c625437b580314",
       "cachedThumbnailUrl": "/data/news/assets/kcna/ffd043d7ee3f75f7761e0d782794cd2bbd5e4b635f9ce825eed8b684d924e195.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A93370d09f86e3c317f794aba"
-    },
-    {
-      "id": "news:kcna:eb02b91fc1cc160335eb99f0",
-      "title": "조선민주주의인민공화국 헌법제정 53돐에 즈음한 기념강연회 진행",
-      "date": "2025-12-27",
-      "snippet": "(평양 12월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6c1bb09d6048ae9b2c0baf20e9899495",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2725
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aeb02b91fc1cc160335eb99f0"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 560,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:189cb7907d2a872ab32aa2cb",
+      "title": "선전화들 새로 창작",
+      "date": "2025-12-19",
+      "snippet": "(평양 12월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/410534908a49d30ebe8703b36baf8c18",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2796
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ff3a4b3ac63a942385afa01c28a477ec98",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/761aa876fba8ce43404a7e50a63aa9cc978b12e26afaf9d8319d46f68eae32d2.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A189cb7907d2a872ab32aa2cb"
+    },
     {
       "id": "news:kcna:9fcb092cea16a296bbea37c3",
       "title": "국가과학원 수리공학연구소에서 수력발전용충동타빈제작과 운영을 위한 모형시험기술공정 새로 구축",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2796
+        "domestic": 2797
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2797
+        "domestic": 2798
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2798
+        "domestic": 2799
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2799
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aaf3e849437d0ef8338b17b47"
-    },
-    {
-      "id": "news:kcna:ef88d76c38f895b23c61c1f0",
-      "title": "석탄공업부문에서 한달 남짓한 기간에 수만t의 석탄을 증산",
-      "date": "2025-12-18",
-      "snippet": "(평양 12월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6347c7dcbbe9281efc01ad3fb3678842",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2800
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aef88d76c38f895b23c61c1f0"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaf3e849437d0ef8338b17b47"
     }
   ]
 }

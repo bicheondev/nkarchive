@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 603,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:34f2ddd229c8dbff0a33cbf9",
+      "title": "《선진과학기술 및 제품전시회-2025》 페막",
+      "date": "2025-11-29",
+      "snippet": "(평양 11월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d03d658e238e15ac9102314975becc5e",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3011
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A34f2ddd229c8dbff0a33cbf9"
+    },
     {
       "id": "news:kcna:af16f022dd2a76d212bb6fba",
       "title": "함경남도항공구락부 준공",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3011
+        "domestic": 3012
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3012
+        "domestic": 3013
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3013
+        "domestic": 3014
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3014
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac847f6143a073fc08aed1cdc"
-    },
-    {
-      "id": "news:kcna:80e968a7f493330131ebee49",
-      "title": "2025년 11월 28일 신문개관",
-      "date": "2025-11-28",
-      "snippet": "(평양 11월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fa582451adcece6be5ddd9a9f543f4eb",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3015
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A80e968a7f493330131ebee49"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac847f6143a073fc08aed1cdc"
     }
   ]
 }

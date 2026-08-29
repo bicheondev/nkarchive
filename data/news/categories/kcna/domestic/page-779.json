@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 779,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:e8e29ccd3a20c95da9be803d",
+      "title": "2025년 9월 24일 신문개관",
+      "date": "2025-09-24",
+      "snippet": "(평양 9월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/68765c579cbf10d90e26de6cf79a5878",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3891
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae8e29ccd3a20c95da9be803d"
+    },
     {
       "id": "news:kcna:076f6dc354625e6ad634b742",
       "title": "북창지구청년탄광련합기업소에서 증산투쟁에 매진",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3891
+        "domestic": 3892
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3892,
+        "domestic": 3893,
         "social": 631
       },
       "featuredSections": [],
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3893,
+        "domestic": 3894,
         "social": 632
       },
       "featuredSections": [],
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3894
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A600bee4ac35a77c9362e71e4"
-    },
-    {
-      "id": "news:kcna:8ed68803fe6a679851451ab5",
-      "title": "2025년 9월 23일 《로동신문》 개관",
-      "date": "2025-09-23",
-      "snippet": "(평양 9월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d4f70d5c0b506896483fcae71a216d9a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3895
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8ed68803fe6a679851451ab5"
+      "detailUrl": "/news/document?id=news%3Akcna%3A600bee4ac35a77c9362e71e4"
     }
   ]
 }

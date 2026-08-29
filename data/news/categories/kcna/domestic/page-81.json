@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 81,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:16fcacfc3490fe3fd88e4c86",
+      "title": "2026년 7월 24일 신문개관",
+      "date": "2026-07-24",
+      "snippet": "(평양 7월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5893afd2786e84a2ebf174f6ebe28b35",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 400
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A16fcacfc3490fe3fd88e4c86"
+    },
     {
       "id": "news:kcna:0e3a3aadf3a98315a395bc76",
       "title": "자연과학지식보급의 전당,문화정서생활기지로서의 생활력 과시",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 400
+        "domestic": 401
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 401
+        "domestic": 402
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 402
+        "domestic": 403
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
       ],
       "categoryOrders": {
         "foreign": 54,
-        "domestic": 403
+        "domestic": 404
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dfc4caf728107a3110a78c73317f60149",
       "cachedThumbnailUrl": "/data/news/assets/kcna/01b6b2dbc074a61d2ef223afb1a1b1241af8788d0a5e99782ad04e07cb4500f7.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Acfff019c2fb97b0e4e36dde3"
-    },
-    {
-      "id": "news:kcna:f3b9a51eeb080b966c1696cc",
-      "title": "《전국단고기료리경연-2026》 진행",
-      "date": "2026-07-24",
-      "snippet": "(평양 7월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/af3e43336ad1ce6afb44b8fb53c86a81",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 404,
-        "social": 52
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af3b9a51eeb080b966c1696cc"
     }
   ]
 }

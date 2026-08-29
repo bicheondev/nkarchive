@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 31,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:fac824a40056d78a88d13140",
+      "title": "조국해방 81돐경축 녀맹일군들과 녀맹원들의 무도회 진행",
+      "date": "2026-08-16",
+      "snippet": "(평양 8월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b77ac42c39676b291842e569ca2907f0",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 150
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29dc3d211ff8a9c8cde7ce5eb71c97891d",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/efc36d1728516edbc19f65b48ea442696bcfa1c19d55d589aa099ca6f93e1cd2.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afac824a40056d78a88d13140"
+    },
     {
       "id": "news:kcna:ed3c977cfc00fc6c5eb8fa2f",
       "title": "조국해방 81돐경축 청년학생들의 야회 및 축포발사 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 150
+        "domestic": 151
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 151
+        "domestic": 152
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
       "categoryOrders": {
         "important": 10,
         "foreign": 20,
-        "domestic": 152
+        "domestic": 153
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,7 +108,7 @@
       ],
       "categoryOrders": {
         "foreign": 23,
-        "domestic": 153
+        "domestic": 154
       },
       "featuredSections": [],
       "hasImage": true,
@@ -96,28 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2922b15a6e11f27bbfaa204c0a89bc967b",
       "cachedThumbnailUrl": "/data/news/assets/kcna/0d7dbc2eb9307669321c645165e10cb4f5397c55daea4812ecc6dd6208602492.jpg",
       "detailUrl": "/news/document?id=kcna-0953b12641d14171"
-    },
-    {
-      "id": "kcna-40e9a20b6712b792",
-      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 일군들과 근로자들,인민군장병들,청소년학생들 꽃바구니 진정",
-      "date": "2026-08-16",
-      "snippet": "(평양 8월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/dd01ef8cfab478ff5d677747873369e2",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 154,
-        "social": 27
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2927383f252dc33e17b4872d97e2ddc802",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/89d95f6798f07b1591a2d1f360bc0128755df122a9c1c7d72d88c04f77dfb6e0.jpg",
-      "detailUrl": "/news/document?id=kcna-40e9a20b6712b792"
     }
   ]
 }

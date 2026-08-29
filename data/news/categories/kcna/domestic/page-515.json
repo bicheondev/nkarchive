@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 515,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:c86dabc3ad3e0948b628dab4",
+      "title": "황해남도 송화군 약산농장,청단군 신생농장에 새 마을들이 일떠섰다",
+      "date": "2026-01-12",
+      "snippet": "(평양 1월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e62f28db56ad60ead979a2b0cc12704e",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2571,
+        "social": 382
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e4516ce40fe2c93000ea85c806e727013a72",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/caeaafdfed58b4a15f3161e411bbb7a3ce36263866ba61c19390951ddbc5b550.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac86dabc3ad3e0948b628dab4"
+    },
     {
       "id": "news:kcna:52f98be48d444c21f862a5db",
       "title": "각지에서 새해 첫 체육의 날을 맞으며 대중체육활동 진행",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2571
+        "domestic": 2572
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2572
+        "domestic": 2573
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2573
+        "domestic": 2574
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2574
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afd078e3dce836555ba1fd938"
-    },
-    {
-      "id": "news:kcna:7911a56c97703f3cd5495881",
-      "title": "서부지구의 여러 탄광에서 벨트콘베아공사 결속",
-      "date": "2026-01-11",
-      "snippet": "(평양 1월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a7dba3875ef4ec248030249a3b9cb076",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2575
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7911a56c97703f3cd5495881"
+      "detailUrl": "/news/document?id=news%3Akcna%3Afd078e3dce836555ba1fd938"
     }
   ]
 }

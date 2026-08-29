@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 122,
   "pageSize": 5,
-  "totalItems": 4151,
+  "totalItems": 4152,
   "totalPages": 831,
   "articles": [
+    {
+      "id": "news:kcna:8817fc40f107cf9e3d158679",
+      "title": "황해남도에서 인민소비품전시회 진행",
+      "date": "2026-07-07",
+      "snippet": "(평양 7월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/82de4af4b3bb75df6cedfdc47436edfe",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 605
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8817fc40f107cf9e3d158679"
+    },
     {
       "id": "news:kcna:779a74881fdaa3775fdf6309",
       "title": "직관선전물들 전국각지에 집중게시",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 605
+        "domestic": 606
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 606
+        "domestic": 607
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "foreign": 111,
-        "domestic": 607
+        "domestic": 608
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 608
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A20bbcbc936b09671fd20bdec"
-    },
-    {
-      "id": "news:kcna:822c89d452f378360196e1ba",
-      "title": "인민적수령의 이민위천의 세계를 전하는 수첩",
-      "date": "2026-07-07",
-      "snippet": "(평양 7월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d12f94d7c772e32fb2a50d2859d8782e",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 609
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A822c89d452f378360196e1ba"
+      "detailUrl": "/news/document?id=news%3Akcna%3A20bbcbc936b09671fd20bdec"
     }
   ]
 }

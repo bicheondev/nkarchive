@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "4ff17ddf145818e7",
+  "version": "658af98d6daac9dc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 8,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:b8002eaa0ff596daa20a0ba8",
+      "title": "전화의 나날에 일떠선 기계제작공업기지",
+      "date": "2026-06-28",
+      "snippet": "조국해방전쟁이 한창이던 1951년 3월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/0e3516f0b2299c1322697910f0b1726c",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 35
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab8002eaa0ff596daa20a0ba8"
+    },
     {
       "id": "news:kcna:0a9b49b9c431673a3f288f24",
       "title": "전화의 불길속에서 마련된 과수농장 터전",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 35
+        "memory": 36
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 36
+        "memory": 37
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 37
+        "memory": 38
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 38
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A57bb5b45bfa83750fa824d2c"
-    },
-    {
-      "id": "news:kcna:2e54437fd792c12184a42766",
-      "title": "생일날에 보내주신 기념사진",
-      "date": "2026-06-18",
-      "snippet": "1958년 5월 어느날이였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/78b62fdeec8d409184fde0cc7dc7d307",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 39
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2e54437fd792c12184a42766"
+      "detailUrl": "/news/document?id=news%3Akcna%3A57bb5b45bfa83750fa824d2c"
     }
   ]
 }
