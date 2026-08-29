@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "658af98d6daac9dc",
+  "version": "9df423cee90d9dad",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 19,
   "pageSize": 5,
-  "totalItems": 775,
-  "totalPages": 155,
+  "totalItems": 776,
+  "totalPages": 156,
   "articles": [
+    {
+      "id": "news:kcna:faf26259a6a8a143fa686f64",
+      "title": "조선민주주의인민공화국 내각총리 박태성동지가 중화인민공화국 국무원 총리 리강동지와 회담",
+      "date": "2026-07-12",
+      "snippet": "(평양 7월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4e4a2e1898a6af3315a236b8bae501f6",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 59,
+        "international": 344,
+        "foreign": 90
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77df2736f423d75cad213949310ee4b3e30",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/6a9ac34dfe20c59e47b873e1d301722387048025e52e7deadbe8419ed8588a06.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afaf26259a6a8a143fa686f64"
+    },
     {
       "id": "news:kcna:7d5efd8bf1ee5bc6c629c601",
       "title": "조선민주주의인민공화국 당 및 정부대표단을 환영하는 의식 진행",
@@ -25,8 +49,8 @@
       ],
       "categoryOrders": {
         "important": 60,
-        "international": 337,
-        "foreign": 90
+        "international": 345,
+        "foreign": 91
       },
       "featuredSections": [],
       "hasImage": true,
@@ -47,8 +71,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 91,
-        "domestic": 549
+        "foreign": 92,
+        "domestic": 557
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +93,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 338,
-        "foreign": 92
+        "international": 346,
+        "foreign": 93
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,8 +115,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 346,
-        "foreign": 93
+        "international": 354,
+        "foreign": 94
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,32 +124,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ada22a3fcc3e49a72c903c4b0"
-    },
-    {
-      "id": "kcna-406e9ede28934529",
-      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
-      "date": "2026-07-11",
-      "snippet": "(평양 7월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b237f2f764a0108d59c95d22491393f2",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 61,
-        "document": 9,
-        "foreign": 94,
-        "domestic": 559
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-406e9ede28934529"
     }
   ]
 }

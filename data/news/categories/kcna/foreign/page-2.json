@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "658af98d6daac9dc",
+  "version": "9df423cee90d9dad",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,39 @@
   "section": "foreign",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 775,
-  "totalPages": 155,
+  "totalItems": 776,
+  "totalPages": 156,
   "articles": [
+    {
+      "id": "news:kcna:6aa3ff6b7410c650239f1b74",
+      "title": "조선민주주의인민공화국 외무성 대변인대답",
+      "date": "2026-08-27",
+      "snippet": "(평양 8월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/39b4817b129827ff50733a7f0efbd510",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 3,
+        "document": 0,
+        "foreign": 5,
+        "domestic": 38
+      },
+      "featuredSections": [
+        "important",
+        "document",
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6aa3ff6b7410c650239f1b74"
+    },
     {
       "id": "news:kcna:e03388eec9d0d80c25c693b2",
       "title": "우리 나라 외무상에게 세이쉘공화국 외무 및 해외동포상이 축전",
@@ -23,12 +53,10 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 21,
-        "foreign": 5
+        "international": 29,
+        "foreign": 6
       },
-      "featuredSections": [
-        "foreign"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -47,8 +75,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 6,
-        "domestic": 33
+        "foreign": 7,
+        "domestic": 41
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +97,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 29,
-        "foreign": 7
+        "international": 37,
+        "foreign": 8
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,8 +119,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 8,
-        "domestic": 57
+        "foreign": 9,
+        "domestic": 65
       },
       "featuredSections": [],
       "hasImage": true,
@@ -100,28 +128,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2943d4b999298106bf32e1b4d28f2d5029",
       "cachedThumbnailUrl": "/data/news/assets/kcna/4cc6defe1b7c475101258c97f142c032ec9553bc87a77e14e58428feb3faac4c.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A733a025752c09fce8e9881bd"
-    },
-    {
-      "id": "news:kcna:6fce3edcb81071ad63b85a40",
-      "title": "니까라과공화국 특명전권대사 만경대 방문,꽃바구니 진정",
-      "date": "2026-08-22",
-      "snippet": "(평양 8월 22일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/672ba62c0fcf626bddd6568e8ad175c5",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 9,
-        "domestic": 85
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29c36965b4e67759c7d1c327fca09d720e",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/276310a7463a39136c700ea1a719e501f62eaf5395aba8b4340cfe89dd7130bb.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6fce3edcb81071ad63b85a40"
     }
   ]
 }

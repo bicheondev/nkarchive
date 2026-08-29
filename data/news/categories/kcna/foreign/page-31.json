@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "658af98d6daac9dc",
+  "version": "9df423cee90d9dad",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 31,
   "pageSize": 5,
-  "totalItems": 775,
-  "totalPages": 155,
+  "totalItems": 776,
+  "totalPages": 156,
   "articles": [
+    {
+      "id": "news:kcna:71049ea5652f8fa211313f78",
+      "title": "중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지가 우리 나라를 방문한다",
+      "date": "2026-06-05",
+      "snippet": "(평양 6월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/372ebc2a5c8c1bacbc56bde61223732c",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 95,
+        "foreign": 150,
+        "domestic": 940
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A71049ea5652f8fa211313f78"
+    },
     {
       "id": "news:kcna:307909ddd5ea1c50a06bbf9b",
       "title": "6.1국제아동절 76돐기념 친선련환모임 진행",
@@ -23,8 +47,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 150,
-        "domestic": 970
+        "foreign": 151,
+        "domestic": 978
       },
       "featuredSections": [],
       "hasImage": true,
@@ -45,8 +69,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 628,
-        "foreign": 151
+        "international": 636,
+        "foreign": 152
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +93,8 @@
       ],
       "categoryOrders": {
         "important": 98,
-        "international": 640,
-        "foreign": 152
+        "international": 648,
+        "foreign": 153
       },
       "featuredSections": [],
       "hasImage": false,
@@ -93,8 +117,8 @@
       ],
       "categoryOrders": {
         "important": 99,
-        "foreign": 153,
-        "domestic": 992
+        "foreign": 154,
+        "domestic": 1000
       },
       "featuredSections": [],
       "hasImage": true,
@@ -102,28 +126,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e00006482b0f14ff4ca8d458c039b2dbdb59e1d",
       "cachedThumbnailUrl": "/data/news/assets/kcna/8ba50ce066f60d3b35b413019a411b5e712bbc22aa20afa03d92324ae2485b39.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A28613c1a663cca6a6cc0a9b7"
-    },
-    {
-      "id": "news:kcna:bbf894b5cc66405767acc2eb",
-      "title": "로씨야를 방문하였던 황해남도대표단 귀국",
-      "date": "2026-05-30",
-      "snippet": "(평양 5월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4420b95c75a41b6ecd9f2ace7f50a062",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 154,
-        "domestic": 1009
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abbf894b5cc66405767acc2eb"
     }
   ]
 }

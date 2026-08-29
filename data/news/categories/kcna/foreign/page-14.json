@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "658af98d6daac9dc",
+  "version": "9df423cee90d9dad",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 14,
   "pageSize": 5,
-  "totalItems": 775,
-  "totalPages": 155,
+  "totalItems": 776,
+  "totalPages": 156,
   "articles": [
+    {
+      "id": "news:kcna:fa48824057de40c7e3e5b315",
+      "title": "로씨야에서 추모행사들 진행",
+      "date": "2026-07-19",
+      "snippet": "(평양 7월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/51a4c0f8d0d1e90330411597e0213fbc",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 299,
+        "foreign": 65
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afa48824057de40c7e3e5b315"
+    },
     {
       "id": "news:kcna:6d383b56c283965b46a334ca",
       "title": "조선민주주의인민공화국 외무상 최선희동지 로씨야련방을 방문하기 위하여 평양 출발",
@@ -25,8 +47,8 @@
       ],
       "categoryOrders": {
         "important": 45,
-        "foreign": 65,
-        "domestic": 455
+        "foreign": 66,
+        "domestic": 463
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,8 +69,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 66,
-        "domestic": 456
+        "foreign": 67,
+        "domestic": 464
       },
       "featuredSections": [],
       "hasImage": true,
@@ -69,8 +91,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 67,
-        "domestic": 459
+        "foreign": 68,
+        "domestic": 467
       },
       "featuredSections": [],
       "hasImage": false,
@@ -95,8 +117,8 @@
       "categoryOrders": {
         "important": 46,
         "document": 8,
-        "foreign": 68,
-        "domestic": 468
+        "foreign": 69,
+        "domestic": 476
       },
       "featuredSections": [],
       "hasImage": false,
@@ -104,30 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-43f65c4f37a4e35b"
-    },
-    {
-      "id": "news:kcna:afbcccb1ffe31cf0b12b9bbe",
-      "title": "중화인민공화국 당 및 정부대표단 귀국",
-      "date": "2026-07-18",
-      "snippet": "(평양 7월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2fe4616089caddc0cae6f0fc6a8fd3d5",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 47,
-        "foreign": 69,
-        "domestic": 470
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d1c79df1b307686a05934192706c08dfc",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/09b009e50bbd359c1284b5de2d375ffe753dd2f5b5a70b18a008223841319c80.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aafbcccb1ffe31cf0b12b9bbe"
     }
   ]
 }

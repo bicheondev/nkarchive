@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "658af98d6daac9dc",
+  "version": "9df423cee90d9dad",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 139,
   "pageSize": 5,
-  "totalItems": 775,
-  "totalPages": 155,
+  "totalItems": 776,
+  "totalPages": 156,
   "articles": [
+    {
+      "id": "news:kcna:78279b7af933041a858a34f4",
+      "title": "경애하는 김정은동지께 팔레스티나국가 대통령이 꽃바구니를 보내여왔다",
+      "date": "2025-10-06",
+      "snippet": "(평양 10월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/20a9c4fbff3191ff8754c1a31135b108",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 457,
+        "international": 2452,
+        "foreign": 690
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb06001eb3115f585826500dfa4c4458d1",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/8eadbf2cfdb694c59d0731a59a30ebf63db2bee5df12c597a37076983e5b1b2b.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A78279b7af933041a858a34f4"
+    },
     {
       "id": "news:kcna:e8a247b2b45cc41fcf9cd8b5",
       "title": "경애하는 김정은동지께 라오스인민혁명당 중앙위원회 총비서,라오스인민민주주의공화국 주석이 꽃바구니를 보내여왔다",
@@ -25,8 +49,8 @@
       ],
       "categoryOrders": {
         "important": 458,
-        "international": 2445,
-        "foreign": 690
+        "international": 2453,
+        "foreign": 691
       },
       "featuredSections": [],
       "hasImage": true,
@@ -47,8 +71,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2455,
-        "foreign": 691
+        "international": 2463,
+        "foreign": 692
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +93,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 692,
-        "domestic": 3761
+        "foreign": 693,
+        "domestic": 3769
       },
       "featuredSections": [],
       "hasImage": true,
@@ -91,30 +115,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 693,
-        "domestic": 3766
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5a66b8719baeefb99bf26fc5"
-    },
-    {
-      "id": "news:kcna:bd6626b062c72ef9eed9485a",
-      "title": "경애하는 김정은동지께서 윁남공산당 중앙위원회 총비서와 윁남사회주의공화국 주석에게 답전을 보내시였다",
-      "date": "2025-10-04",
-      "snippet": "(평양 10월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/457692dae1fa4c53dab71b9a2f880c0f",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 461,
         "foreign": 694,
         "domestic": 3774
       },
@@ -123,7 +123,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abd6626b062c72ef9eed9485a"
+      "detailUrl": "/news/document?id=news%3Akcna%3A5a66b8719baeefb99bf26fc5"
     }
   ]
 }

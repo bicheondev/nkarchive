@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "658af98d6daac9dc",
+  "version": "9df423cee90d9dad",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 32,
   "pageSize": 5,
-  "totalItems": 775,
-  "totalPages": 155,
+  "totalItems": 776,
+  "totalPages": 156,
   "articles": [
+    {
+      "id": "news:kcna:bbf894b5cc66405767acc2eb",
+      "title": "로씨야를 방문하였던 황해남도대표단 귀국",
+      "date": "2026-05-30",
+      "snippet": "(평양 5월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4420b95c75a41b6ecd9f2ace7f50a062",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 155,
+        "domestic": 1017
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abbf894b5cc66405767acc2eb"
+    },
     {
       "id": "news:kcna:883d0b90cabc4a01b9c3e527",
       "title": "벨라루씨와 로씨야에 가는 우리 나라 정부경제대표단 출발",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 155,
-        "domestic": 1010
+        "foreign": 156,
+        "domestic": 1018
       },
       "featuredSections": [],
       "hasImage": true,
@@ -45,8 +67,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 156,
-        "domestic": 1024
+        "foreign": 157,
+        "domestic": 1032
       },
       "featuredSections": [],
       "hasImage": true,
@@ -67,8 +89,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 157,
-        "domestic": 1025
+        "foreign": 158,
+        "domestic": 1033
       },
       "featuredSections": [],
       "hasImage": false,
@@ -93,8 +115,8 @@
       "categoryOrders": {
         "important": 100,
         "document": 15,
-        "foreign": 158,
-        "domestic": 1030
+        "foreign": 159,
+        "domestic": 1038
       },
       "featuredSections": [],
       "hasImage": false,
@@ -102,28 +124,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Afa17eb54bec9abb94af6e90f"
-    },
-    {
-      "id": "news:kcna:6d9d6d5d42e25e40ff852126",
-      "title": "싱가포르공화국 외무상 평양 출발",
-      "date": "2026-05-28",
-      "snippet": "(평양 5월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/72cb2af4a72caac6fd15f5d94018e18b",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 159,
-        "domestic": 1031
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e0000644771bdb815c85bdf27a4549b0776d1b7",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/f02ac391e941f3432276af049567c97f6575943a47a1d25d49c6717c288d5f6e.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6d9d6d5d42e25e40ff852126"
     }
   ]
 }

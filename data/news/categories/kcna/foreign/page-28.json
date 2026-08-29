@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "658af98d6daac9dc",
+  "version": "9df423cee90d9dad",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 28,
   "pageSize": 5,
-  "totalItems": 775,
-  "totalPages": 155,
+  "totalItems": 776,
+  "totalPages": 156,
   "articles": [
+    {
+      "id": "news:kcna:6460056fadba1df1b1babdf6",
+      "title": "조선민주주의인민공화국 사회안전상과 윁남사회주의공화국 공안상사이의 회담 진행",
+      "date": "2026-06-15",
+      "snippet": "(평양 6월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d67b19a530d385b37dea3568c639647f",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 135,
+        "domestic": 842
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e33f6c9c39c582cbc4ab7086239c162ebe",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/2622f447e4bb10be112980ef26a8929754c513b448c4c005dbe865a254ca166b.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6460056fadba1df1b1babdf6"
+    },
     {
       "id": "kcna-a9e0e3034d3f7bcf",
       "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
@@ -27,8 +49,8 @@
       "categoryOrders": {
         "important": 85,
         "document": 11,
-        "foreign": 135,
-        "domestic": 844
+        "foreign": 136,
+        "domestic": 852
       },
       "featuredSections": [],
       "hasImage": false,
@@ -49,8 +71,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 136,
-        "domestic": 845
+        "foreign": 137,
+        "domestic": 853
       },
       "featuredSections": [],
       "hasImage": true,
@@ -75,8 +97,8 @@
       "categoryOrders": {
         "important": 86,
         "document": 12,
-        "foreign": 137,
-        "domestic": 848
+        "foreign": 138,
+        "domestic": 856
       },
       "featuredSections": [],
       "hasImage": false,
@@ -101,8 +123,8 @@
       "categoryOrders": {
         "important": 87,
         "document": 13,
-        "foreign": 138,
-        "domestic": 853
+        "foreign": 139,
+        "domestic": 861
       },
       "featuredSections": [],
       "hasImage": false,
@@ -110,28 +132,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-748797daffae8eb9"
-    },
-    {
-      "id": "news:kcna:b693224815ca64c4dd71f093",
-      "title": "우리 나라 외무상 필리핀공화국 외무상에게 축전",
-      "date": "2026-06-13",
-      "snippet": "(평양 6월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/892867806643780e1e67142235341dbe",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 139,
-        "domestic": 854
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab693224815ca64c4dd71f093"
     }
   ]
 }

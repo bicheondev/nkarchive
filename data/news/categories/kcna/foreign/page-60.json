@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "658af98d6daac9dc",
+  "version": "9df423cee90d9dad",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 60,
   "pageSize": 5,
-  "totalItems": 775,
-  "totalPages": 155,
+  "totalItems": 776,
+  "totalPages": 156,
   "articles": [
+    {
+      "id": "news:kcna:6a170873ce12806801faef67",
+      "title": "조용원동지가 로씨야 따쓰통신사대표단을 만났다",
+      "date": "2026-03-31",
+      "snippet": "(평양 3월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8feb5b67e9d40021eb718f73779d75a1",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 190,
+        "foreign": 295,
+        "domestic": 1730
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e602cc10535815c84a0f1dd525d399d901d",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/a3b5d5ce1f6aa963d8d0424ab16f860757346867a8394d3ac697b3f5e83bdbcd.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6a170873ce12806801faef67"
+    },
     {
       "id": "news:kcna:8be47972afbbbcbb2ae517aa",
       "title": "로씨야 따쓰통신사대표단 만경대 방문,여러곳 참관",
@@ -23,8 +47,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 295,
-        "domestic": 1723
+        "foreign": 296,
+        "domestic": 1731
       },
       "featuredSections": [],
       "hasImage": true,
@@ -45,8 +69,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1124,
-        "foreign": 296
+        "international": 1132,
+        "foreign": 297
       },
       "featuredSections": [],
       "hasImage": true,
@@ -67,8 +91,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 297,
-        "domestic": 1736
+        "foreign": 298,
+        "domestic": 1744
       },
       "featuredSections": [],
       "hasImage": false,
@@ -89,8 +113,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1133,
-        "foreign": 298
+        "international": 1141,
+        "foreign": 299
       },
       "featuredSections": [],
       "hasImage": true,
@@ -98,30 +122,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60ba9091f065c2c046357aa06c7f5950d0",
       "cachedThumbnailUrl": "/data/news/assets/kcna/a6e045e65ab5e105607706044a6b555912e27c453186e0cfd333362433af151c.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ae067a45be95ce25344e71531"
-    },
-    {
-      "id": "news:kcna:d97eed0ea694f37503fadc42",
-      "title": "경애하는 김정은동지께 까자흐스딴공화국 대통령이 축전을 보내여왔다",
-      "date": "2026-03-29",
-      "snippet": "(평양 3월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9fe11a97eb1c4a7bcfdba2a73d6f69d5",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 192,
-        "international": 1134,
-        "foreign": 299
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad97eed0ea694f37503fadc42"
     }
   ]
 }

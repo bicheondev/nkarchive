@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "658af98d6daac9dc",
+  "version": "9df423cee90d9dad",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 40,
   "pageSize": 5,
-  "totalItems": 775,
-  "totalPages": 155,
+  "totalItems": 776,
+  "totalPages": 156,
   "articles": [
+    {
+      "id": "news:kcna:f21f1f82121950e7aad04bf7",
+      "title": "조선민주주의인민공화국 외무성 대변인대답",
+      "date": "2026-05-03",
+      "snippet": "(평양 5월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f3f24b7b0e4684dc79ac4ef6b3b17491",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 126,
+        "foreign": 195,
+        "domestic": 1299
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af21f1f82121950e7aad04bf7"
+    },
     {
       "id": "news:kcna:d57439fe1862089907144eb7",
       "title": "여러 나라에서 경축모임 진행",
@@ -23,8 +47,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 849,
-        "foreign": 195
+        "international": 857,
+        "foreign": 196
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,8 +71,8 @@
       ],
       "categoryOrders": {
         "important": 127,
-        "international": 868,
-        "foreign": 196
+        "international": 876,
+        "foreign": 197
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +93,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 197,
-        "domestic": 1315
+        "foreign": 198,
+        "domestic": 1323
       },
       "featuredSections": [],
       "hasImage": true,
@@ -91,8 +115,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 198,
-        "domestic": 1316
+        "foreign": 199,
+        "domestic": 1324
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,28 +124,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A67bd7a5520316e7fa66411b4"
-    },
-    {
-      "id": "news:kcna:49826cf8566b098cfbcf2a4f",
-      "title": "우리 나라 특명전권대사 에티오피아대통령을 작별방문",
-      "date": "2026-05-01",
-      "snippet": "(평양 5월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/80e81945692752eae2d85b33c2f06c61",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 869,
-        "foreign": 199
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A49826cf8566b098cfbcf2a4f"
     }
   ]
 }

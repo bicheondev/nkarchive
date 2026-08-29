@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "658af98d6daac9dc",
+  "version": "9df423cee90d9dad",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 30,
   "pageSize": 5,
-  "totalItems": 775,
-  "totalPages": 155,
+  "totalItems": 776,
+  "totalPages": 156,
   "articles": [
+    {
+      "id": "news:kcna:dd51183158666f0531d28f15",
+      "title": "경애하는 김정은동지께서 로씨야련방 국경절에 즈음하여 울라지미르 울라지미로비치 뿌찐대통령동지에게 축전을 보내시였다",
+      "date": "2026-06-11",
+      "snippet": "(평양 6월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/edd005f0423e6aa5601da9805e234547",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 90,
+        "foreign": 145,
+        "domestic": 881
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Add51183158666f0531d28f15"
+    },
     {
       "id": "news:kcna:097c86150e6010c404400ee2",
       "title": "경애하는 김정은동지께 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지가 감사전문을 보내여왔다",
@@ -25,8 +49,8 @@
       ],
       "categoryOrders": {
         "important": 91,
-        "international": 572,
-        "foreign": 145
+        "international": 580,
+        "foreign": 146
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,8 +71,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 581,
-        "foreign": 146
+        "international": 589,
+        "foreign": 147
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +93,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 147,
-        "domestic": 895
+        "foreign": 148,
+        "domestic": 903
       },
       "featuredSections": [],
       "hasImage": false,
@@ -93,8 +117,8 @@
       ],
       "categoryOrders": {
         "important": 94,
-        "foreign": 148,
-        "domestic": 915
+        "foreign": 149,
+        "domestic": 923
       },
       "featuredSections": [],
       "hasImage": false,
@@ -102,30 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ab5f64d20696743005f70fc7e"
-    },
-    {
-      "id": "news:kcna:71049ea5652f8fa211313f78",
-      "title": "중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지가 우리 나라를 방문한다",
-      "date": "2026-06-05",
-      "snippet": "(평양 6월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/372ebc2a5c8c1bacbc56bde61223732c",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 95,
-        "foreign": 149,
-        "domestic": 932
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A71049ea5652f8fa211313f78"
     }
   ]
 }
