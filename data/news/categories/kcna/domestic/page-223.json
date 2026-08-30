@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "9df423cee90d9dad",
+  "generatedAt": "2026-08-30T00:00:00.000Z",
+  "version": "91dd5cf3af870e6f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,35 +8,37 @@
   "section": "domestic",
   "page": 223,
   "pageSize": 5,
-  "totalItems": 4149,
-  "totalPages": 830,
+  "totalItems": 4158,
+  "totalPages": 832,
   "articles": [
     {
-      "id": "news:kcna:7af4c26c0e1e20df30560791",
-      "title": "2026년 5월 21일 《로동신문》개관",
-      "date": "2026-05-21",
-      "snippet": "(평양 5월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/105cd93d431f1ca462b324c4ca73fb92",
+      "id": "news:kcna:2547192ec2f4697456e0bb53",
+      "title": "평안남도의 청년들 사회주의건설의 주요전구들로 탄원",
+      "date": "2026-05-22",
+      "snippet": "(평양 5월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0668e4aceb124c06defb18ad67af0628",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 1110
+        "domestic": 1110,
+        "social": 115
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7af4c26c0e1e20df30560791"
+      "detailUrl": "/news/document?id=news%3Akcna%3A2547192ec2f4697456e0bb53"
     },
     {
-      "id": "news:kcna:873bff730e60a0c7115e129c",
-      "title": "각지 농촌들에서 벼모내기 추진",
-      "date": "2026-05-21",
-      "snippet": "(평양 5월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1a081bfc5680afb29b0458f50d5a5f35",
+      "id": "news:kcna:e550b0eac89e2484d663f145",
+      "title": "국립연극단 창립 80돐을 기념",
+      "date": "2026-05-22",
+      "snippet": "(평양 5월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bd0eb8c959273a19bdf478050207d00b",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -49,14 +51,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A873bff730e60a0c7115e129c"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae550b0eac89e2484d663f145"
     },
     {
-      "id": "news:kcna:48d3be69ee9636d829386fc6",
-      "title": "경애하는 아버지 김정은원수님께 조선소년단창립 80돐을 맞으며 삼가 드리는 각 도소년단원들의 충성의 편지이어달리기 출발모임 진행",
+      "id": "news:kcna:dce88094ac116224aa888b53",
+      "title": "대자연개조사업의 첫 승리를 안아오신 불멸의 업적",
       "date": "2026-05-21",
       "snippet": "(평양 5월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b907584c2881af1326a935b4d487a51f",
+      "url": "http://www.kcna.kp/kp/article/detail/654e72deeca13f038fd3e3eb0b1a63dd",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -65,25 +67,23 @@
         "domestic": 1112
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A48d3be69ee9636d829386fc6"
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064516f1a080b2c0689cdc75e783dc2538a",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/8fb3ef15cee8a5d2e94551168928ebd574e81403ffa283a1d5c0f0c1188a72b3.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Adce88094ac116224aa888b53"
     },
     {
-      "id": "news:kcna:56a47c16ec6e6e0f819bc90e",
-      "title": "로씨야를 방문하는 황해남도대표단 출발",
+      "id": "news:kcna:11b021630751e3ba564e7049",
+      "title": "황해남도에서 그물우리양어 활발",
       "date": "2026-05-21",
       "snippet": "(평양 5월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/778cb61c8d2b25ff9ed11e2d67a315cd",
+      "url": "http://www.kcna.kp/kp/article/detail/415e365626e6679aeeb02ec76977450d",
       "mediaType": "article",
       "categories": [
-        "foreign",
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 168,
         "domestic": 1113
       },
       "featuredSections": [],
@@ -91,21 +91,19 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A56a47c16ec6e6e0f819bc90e"
+      "detailUrl": "/news/document?id=news%3Akcna%3A11b021630751e3ba564e7049"
     },
     {
-      "id": "news:kcna:d0ecb227603151ca9b4e8331",
-      "title": "로씨야련방 아무르주를 방문하였던 평안남도친선대표단 귀국",
+      "id": "news:kcna:9525ea67c44fe2b5497cf620",
+      "title": "우리 나라의 비물질문화유산들(14)--조선옷차림풍습",
       "date": "2026-05-21",
       "snippet": "(평양 5월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/90ac7dea955095918b38f88edc31ed42",
+      "url": "http://www.kcna.kp/kp/article/detail/e2533962551fb3756c1c6d89da1e0917",
       "mediaType": "article",
       "categories": [
-        "foreign",
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 169,
         "domestic": 1114
       },
       "featuredSections": [],
@@ -113,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad0ecb227603151ca9b4e8331"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9525ea67c44fe2b5497cf620"
     }
   ]
 }

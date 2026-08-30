@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "9df423cee90d9dad",
+  "generatedAt": "2026-08-30T00:00:00.000Z",
+  "version": "91dd5cf3af870e6f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,79 +8,83 @@
   "section": "domestic",
   "page": 632,
   "pageSize": 5,
-  "totalItems": 4149,
-  "totalPages": 830,
+  "totalItems": 4158,
+  "totalPages": 832,
   "articles": [
     {
-      "id": "news:kcna:d46686c617c852fb7b2411de",
-      "title": "로씨야 쎄고드냐통신사대표단 귀국",
-      "date": "2025-11-15",
-      "snippet": "(평양 11월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4ddf7451cb5ab42c5d609b83e045489f",
+      "id": "news:kcna:9534a60382a8d55c9d921bc0",
+      "title": "박태성 내각총리 인민경제 여러 부문 사업 현지료해",
+      "date": "2025-11-16",
+      "snippet": "(평양 11월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6fad49a685c933a2c9f5b8a66fd3900f",
       "mediaType": "article",
       "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 371,
+        "domestic": 3156
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac14477b43e25cc0d1252d2f0a51c54249",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/fd146971371957254a0a0a5ad731bc447b124c92153c5d81298129916407a9b6.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9534a60382a8d55c9d921bc0"
+    },
+    {
+      "id": "news:kcna:3d469c08fba02dc3d241d945",
+      "title": "라오스인민민주주의공화국 외무상일행 평양 출발",
+      "date": "2025-11-16",
+      "snippet": "(평양 11월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/40bd367871811de11de3c954e94a700c",
+      "mediaType": "article",
+      "categories": [
+        "important",
         "foreign",
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 487,
-        "domestic": 3156
+        "important": 372,
+        "foreign": 486,
+        "domestic": 3157
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad46686c617c852fb7b2411de"
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac2f1965e1481f32ac91f2ebfb480e4e63",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/4dc158dfc20d3a4b337e91f44d5067a9986474a8aad3fc46fcd2b85b4f2f66e7.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3d469c08fba02dc3d241d945"
     },
     {
-      "id": "news:kcna:91babcf3acdf8e7bd3886a39",
-      "title": "량강도농촌경리위원회 포성농장,삼수군 중룡농장에서 새집들이 진행",
-      "date": "2025-11-15",
-      "snippet": "(평양 11월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/46d88181ce84e9cd08123815a8328530",
+      "id": "news:kcna:2e2824fe107a32771eb267cd",
+      "title": "남포시 대안구역 성암농장에서 살림집입사모임 진행",
+      "date": "2025-11-16",
+      "snippet": "(평양 11월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3a513ab7a97f293a634a4f8b9fa3450d",
       "mediaType": "article",
       "categories": [
         "domestic",
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3157,
-        "social": 513
+        "domestic": 3158,
+        "social": 509
       },
       "featuredSections": [],
       "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac83741159381cc8f56c9a7c04f4c13b09",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/9491ec8cc44bfbbcd00a3893cc14787b6120e611505ddcf31f92f05e555812a2.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A91babcf3acdf8e7bd3886a39"
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eacaf67d3de4509a1aa0d3b0ff038683d54",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/2138bb8c3a71dc002ebcd23c8d845c93ea086eb7d62226c8a234618f3cb68143.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2e2824fe107a32771eb267cd"
     },
     {
-      "id": "news:kcna:3fa22f35f7b847e24a3d6078",
-      "title": "함경북도에 파견된 3대혁명소조원들 과학기술로 단위발전을 견인",
-      "date": "2025-11-15",
-      "snippet": "(평양 11월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4f813da7b58ea4682cff09dcc7d69737",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3158
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3fa22f35f7b847e24a3d6078"
-    },
-    {
-      "id": "news:kcna:737b8a1629cc4ac4d2ea5f86",
-      "title": "《관광기념품전시회-2025》 개막",
-      "date": "2025-11-15",
-      "snippet": "(평양 11월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8b157a0b710c26c540eed41613e97346",
+      "id": "news:kcna:34530fe285f3ae54e7a04927",
+      "title": "평양화력발전소에서 올해 계획된 보이라대보수 결속,지난해 같은 시기보다 발전효률 장성",
+      "date": "2025-11-16",
+      "snippet": "(평양 11월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d3a6ead15fa7c8d547dda7a8dcb16886",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -89,31 +93,33 @@
         "domestic": 3159
       },
       "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eacb2fb1d8fdf29600757f4d6c5647e15df",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/c89bc3fa93dd033995a7e7fbd74775d163a3475a2e4f953e80f1889c03d25bdb.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A737b8a1629cc4ac4d2ea5f86"
-    },
-    {
-      "id": "news:kcna:ffece67f63655b8798472434",
-      "title": "도자공예유산-알룩반죽자기",
-      "date": "2025-11-14",
-      "snippet": "(평양 11월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9f1ed83a3885a0cfff63e0fc2c389bd8",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3160
-      },
-      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Affece67f63655b8798472434"
+      "detailUrl": "/news/document?id=news%3Akcna%3A34530fe285f3ae54e7a04927"
+    },
+    {
+      "id": "news:kcna:17e32822275cc9917b1e8087",
+      "title": "시대의 축복과 경의의 단상에서 빛나는 어머니들의 긍지",
+      "date": "2025-11-16",
+      "snippet": "(평양 11월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/dcdb63da740e9b300fc607357ba4ffb8",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 3160,
+        "social": 510
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eacef287108563992300341a30a777679f9",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/a873e0e571afcd01d110be5b395e3d0ce8b772d3ac8543054effdb1ec8b8601b.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A17e32822275cc9917b1e8087"
     }
   ]
 }

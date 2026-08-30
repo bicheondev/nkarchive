@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "9df423cee90d9dad",
+  "generatedAt": "2026-08-30T00:00:00.000Z",
+  "version": "91dd5cf3af870e6f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,35 +8,37 @@
   "section": "domestic",
   "page": 620,
   "pageSize": 5,
-  "totalItems": 4149,
-  "totalPages": 830,
+  "totalItems": 4158,
+  "totalPages": 832,
   "articles": [
     {
-      "id": "news:kcna:7f7001ecb8e9156a70df75b4",
-      "title": "《관광기념품전시회-2025》 페막",
-      "date": "2025-11-21",
-      "snippet": "(평양 11월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/28927486a415467cfcd88da7b91fdc1c",
+      "id": "news:kcna:d429379b572b10ab2e01a899",
+      "title": "라선시에서 올해 계획한 농촌살림집건설 결속,선봉구역 두만강동에서 새집들이 진행",
+      "date": "2025-11-22",
+      "snippet": "(평양 11월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8cb5c074649635688da7e1681808d262",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 3096
+        "domestic": 3096,
+        "social": 496
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7f7001ecb8e9156a70df75b4"
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eaca39b68df7bae64b92e1b3795c70102e7",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/3171d4b4d6e5f17629638e836054a1ec6c3eced49931d4216cdf417ece4d23a9.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad429379b572b10ab2e01a899"
     },
     {
-      "id": "news:kcna:fef558c71777cdad8754b85f",
-      "title": "개성시와 라선시의 청년들 당결정관철의 전구들로 탄원",
-      "date": "2025-11-21",
-      "snippet": "(평양 11월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/409bcfb8e14ea7ae403135c9468b7edc",
+      "id": "news:kcna:efc2b3e09884679ed6e556b0",
+      "title": "수도 녀맹원들의 축하무대 《애국과 평양녀성들》 진행",
+      "date": "2025-11-22",
+      "snippet": "(평양 11월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4624d4d07a5259efae83d21b8a89124f",
       "mediaType": "article",
       "categories": [
         "domestic",
@@ -44,65 +46,63 @@
       ],
       "categoryOrders": {
         "domestic": 3097,
-        "social": 498
+        "social": 497
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afef558c71777cdad8754b85f"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aefc2b3e09884679ed6e556b0"
     },
     {
-      "id": "news:kcna:d9116e0497d68dc8dc3d2e08",
-      "title": "함경북도 온성군 풍서리에 새 마을이 일떠섰다",
+      "id": "news:kcna:cdcf0ae2abf3c68bda5d90b6",
+      "title": "여러 나라사이의 협조",
       "date": "2025-11-21",
       "snippet": "(평양 11월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/32831712a67250fb5a31ec531a896e1a",
+      "url": "http://www.kcna.kp/kp/article/detail/501b149200651b238ba0888c24c26df5",
       "mediaType": "article",
       "categories": [
-        "domestic",
-        "social"
+        "international",
+        "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3098,
-        "social": 499
+        "international": 2099,
+        "domestic": 3098
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Acdcf0ae2abf3c68bda5d90b6"
+    },
+    {
+      "id": "news:kcna:f58fb2256ca114c72ced3515",
+      "title": "오랜 력사를 가진 우리 인민의 김치담그기풍습",
+      "date": "2025-11-21",
+      "snippet": "(평양 11월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8ef3c126f050a8288717f8e44d4e77ea",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3099
       },
       "featuredSections": [],
       "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eacf024d1036931d3c8e67d080ca2863a4a",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/c5cd49f0f35198d0b08217879720f1ac8844be474bf0c04ba9e661c8459dd372.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad9116e0497d68dc8dc3d2e08"
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eacd6b644f64bfa6d094dea8f3496b04ecd",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/51770b561c77e48aa23cd219bb4084344d16a90751d6522c571804172971e0f0.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af58fb2256ca114c72ced3515"
     },
     {
-      "id": "news:kcna:60a702d513eddd81f39f9e41",
-      "title": "어린이건강의 날에 즈음한 행사 진행",
+      "id": "news:kcna:05a7bb8a685116fa154dd02b",
+      "title": "밀가루부질강화제와 천연방부제생산공정 새로 확립,시제품 생산",
       "date": "2025-11-21",
       "snippet": "(평양 11월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/772bdf8d59231a39ab21218e1b72a962",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 3099,
-        "social": 500
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac63f5b1ac04ed03c73db84603089fcd57",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/c9dce47a323ca0371bf33062a2e277f3cf7f88267de22b79a7b1135f8a606dad.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A60a702d513eddd81f39f9e41"
-    },
-    {
-      "id": "news:kcna:c2e6850219dcaabfe5eb2741",
-      "title": "대동강과수종합농장에서 올해 과일생산계획 넘쳐 수행",
-      "date": "2025-11-20",
-      "snippet": "(평양 11월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/db0dd928d2caef2804313abdf266cf93",
+      "url": "http://www.kcna.kp/kp/article/detail/23f922d07de68d8b6627e49bdae8a568",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac2e6850219dcaabfe5eb2741"
+      "detailUrl": "/news/document?id=news%3Akcna%3A05a7bb8a685116fa154dd02b"
     }
   ]
 }

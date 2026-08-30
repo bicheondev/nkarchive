@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "9df423cee90d9dad",
+  "generatedAt": "2026-08-30T00:00:00.000Z",
+  "version": "91dd5cf3af870e6f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "anecdote",
   "page": 18,
   "pageSize": 5,
-  "totalItems": 101,
+  "totalItems": 102,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:7847b69aac86848d468c4c03",
+      "title": "학교복도에 놓여진 긴 의자",
+      "date": "2025-11-03",
+      "snippet": "2012년 5월 어느날 경애하는 김정은동지께서는 새로 건설된 창전소학교를 찾으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/f7307a0137fbf3d9b805e9b7e776c6bc",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 85
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7847b69aac86848d468c4c03"
+    },
     {
       "id": "news:kcna:c56a0cb06940956d6d515d16",
       "title": "동물사에 어린 다심한 손길",
@@ -22,7 +42,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 85
+        "anecdote": 86
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 86
+        "anecdote": 87
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 87
+        "anecdote": 88
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 88
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa4906c3913b139a5f89852e6"
-    },
-    {
-      "id": "news:kcna:c350ce190fb72acc07c652ac",
-      "title": "다심한 사랑의 손길",
-      "date": "2025-10-17",
-      "snippet": "경애하는 김정은동지께서는 2015년 8월 어느날 완공된 평양양로원을 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/1f19222507209a64574f39d657c915a1",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 89
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac350ce190fb72acc07c652ac"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa4906c3913b139a5f89852e6"
     }
   ]
 }

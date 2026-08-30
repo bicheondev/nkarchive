@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-29T00:00:00.000Z",
-  "version": "9df423cee90d9dad",
+  "generatedAt": "2026-08-30T00:00:00.000Z",
+  "version": "91dd5cf3af870e6f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "anecdote",
   "page": 7,
   "pageSize": 5,
-  "totalItems": 101,
+  "totalItems": 102,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:15ac8bfdf526a1512868e329",
+      "title": "기다려주신 아이들",
+      "date": "2026-06-02",
+      "snippet": "경애하는 아버지 김정은원수님께서는 2019년 5월 어느날 배움의 천리길학생소년궁전을 찾으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/df7e1f832ef15ab3656e017304d9edcf",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 30
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A15ac8bfdf526a1512868e329"
+    },
     {
       "id": "news:kcna:866abbf9024b1eecf00e058e",
       "title": "원아들을 위한 특별연회",
@@ -22,7 +42,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 30
+        "anecdote": 31
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 31
+        "anecdote": 32
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 32
+        "anecdote": 33
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 33
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afd529f64be6b78f7eb8621a3"
-    },
-    {
-      "id": "news:kcna:716c85bb807d60777dc50eee",
-      "title": "몸소 달아주신 이름",
-      "date": "2026-05-20",
-      "snippet": "경애하는 김정은동지께서는 2012년 4월 어느날 릉라인민유원지건설장을 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/43336d75bc085d7a86147fe2db79ec8c",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 34
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A716c85bb807d60777dc50eee"
+      "detailUrl": "/news/document?id=news%3Akcna%3Afd529f64be6b78f7eb8621a3"
     }
   ]
 }
