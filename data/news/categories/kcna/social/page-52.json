@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-31T00:00:00.000Z",
-  "version": "a6d3eaf2f38ffbbc",
+  "version": "f2f1393da038e512",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "social",
   "page": 52,
   "pageSize": 5,
-  "totalItems": 685,
-  "totalPages": 137,
+  "totalItems": 686,
+  "totalPages": 138,
   "articles": [
+    {
+      "id": "news:kcna:0c91815804a6f8a4947cd7d3",
+      "title": "일본에서 출생자수 10년째 련속 감소",
+      "date": "2026-03-01",
+      "snippet": "(평양 3월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/33b06b18cee2f7293b8f43e8f246e17b",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 1368,
+        "social": 255
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0c91815804a6f8a4947cd7d3"
+    },
     {
       "id": "news:kcna:8a73eeb364b123e960afcc24",
       "title": "수단에서 무장분쟁으로 민간인피해",
@@ -23,8 +45,8 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1363,
-        "social": 255
+        "international": 1370,
+        "social": 256
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +67,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2077,
-        "social": 256
+        "domestic": 2081,
+        "social": 257
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,8 +89,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2081,
-        "social": 257
+        "domestic": 2085,
+        "social": 258
       },
       "featuredSections": [],
       "hasImage": false,
@@ -89,8 +111,8 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1370,
-        "social": 258
+        "international": 1377,
+        "social": 259
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,30 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A179897185b281a336e74138d"
-    },
-    {
-      "id": "news:kcna:0b2dbc665df052175beaa500",
-      "title": "당 제9차대회 결정관철을 위한 평양시군민련환대회 및 군중시위 진행",
-      "date": "2026-02-28",
-      "snippet": "(평양 2월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b332d74a27fda341d1866535a61dfb8d",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "important": 259,
-        "domestic": 2086,
-        "social": 259
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/67d9946ed8d7f8ce0dc8324543af2bb033786e2f17444e197d19dadbb951ffa6",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/72931731703c4036aaefe51888662a7cfa7dfbf9fc4129af4e763baaabed4541.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0b2dbc665df052175beaa500"
     }
   ]
 }
