@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T00:00:00.000Z",
-  "version": "bc61bfc0b20036f6",
+  "generatedAt": "2026-08-31T00:00:00.000Z",
+  "version": "a6d3eaf2f38ffbbc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,35 +8,37 @@
   "section": "domestic",
   "page": 449,
   "pageSize": 5,
-  "totalItems": 4148,
-  "totalPages": 830,
+  "totalItems": 4152,
+  "totalPages": 831,
   "articles": [
     {
-      "id": "news:kcna:7bfb9ea6a5cebb3329df01ef",
-      "title": "중앙미술창작사에서 새 작품창작사업 활발",
-      "date": "2026-02-13",
-      "snippet": "(평양 2월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d533dc70e9dd80662fa9067a644448ed",
+      "id": "news:kcna:7f3d31fa46b1452a791fd6b7",
+      "title": "자강도안의 고급중학교 졸업반학생들 최전연국경초소들로 탄원",
+      "date": "2026-02-14",
+      "snippet": "(평양 2월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0c1a60001aa7de9658f8112dc5df87d7",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 2241
+        "domestic": 2241,
+        "social": 296
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7bfb9ea6a5cebb3329df01ef"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7f3d31fa46b1452a791fd6b7"
     },
     {
-      "id": "news:kcna:e65125c4c55ddaeaa29d1b3a",
-      "title": "2026년 2월 13일 신문개관",
-      "date": "2026-02-13",
-      "snippet": "(평양 2월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9d945c66cc5c5cb90065c839a83d670a",
+      "id": "news:kcna:58e6a4a5695125555bb392fe",
+      "title": "위대한 령도자 김정일동지 탄생 84돐을 맞으며 웅변모임 진행",
+      "date": "2026-02-14",
+      "snippet": "(평양 2월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5c1e4f8e0b3e41751833bd06849a5116",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -49,38 +51,34 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae65125c4c55ddaeaa29d1b3a"
+      "detailUrl": "/news/document?id=news%3Akcna%3A58e6a4a5695125555bb392fe"
     },
     {
-      "id": "news:kcna:cfd002da40fa14389fb9b8b9",
-      "title": "중국특명전권대사 2026년 설명절연회 마련",
-      "date": "2026-02-13",
-      "snippet": "(평양 2월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3fbe6fc723eee5fa11cc9bc6974ea0ca",
+      "id": "news:kcna:a967b1d378331061c64dcf78",
+      "title": "제3차 2.16경축 인민예술축전 개막",
+      "date": "2026-02-14",
+      "snippet": "(평양 2월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ae0fc8d7578d0de070f301199a8f76fb",
       "mediaType": "article",
       "categories": [
-        "foreign",
-        "domestic",
-        "social"
+        "domestic"
       ],
       "categoryOrders": {
-        "foreign": 394,
-        "domestic": 2243,
-        "social": 299
+        "domestic": 2243
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acfd002da40fa14389fb9b8b9"
+      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366bfa5a438b955daf403affa31526bfb67",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/b73b64528dc90bc1f12ad11abf677581147c0377d75dc909426f0599dcde10a6.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa967b1d378331061c64dcf78"
     },
     {
-      "id": "news:kcna:fadc89e73a480842f65fc510",
-      "title": "김정일청년영예상,김정일소년영예상 수여모임 진행",
-      "date": "2026-02-13",
-      "snippet": "(평양 2월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a445b355d74cd893cedf28074b270d21",
+      "id": "news:kcna:186a963f92c2ddd682d7ffe1",
+      "title": "사회주의애국청년선구자들과 청년학생들의 상봉모임 진행",
+      "date": "2026-02-14",
+      "snippet": "(평양 2월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cf639b4a447339232b707aa5721f5342",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -93,29 +91,27 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afadc89e73a480842f65fc510"
+      "detailUrl": "/news/document?id=news%3Akcna%3A186a963f92c2ddd682d7ffe1"
     },
     {
-      "id": "news:kcna:b3df52aedcc9f77f18f792cb",
-      "title": "남포시 온천군 안석농장에 청년작업반 새로 조직,100여명의 청년들 탄원진출",
+      "id": "news:kcna:7bfb9ea6a5cebb3329df01ef",
+      "title": "중앙미술창작사에서 새 작품창작사업 활발",
       "date": "2026-02-13",
       "snippet": "(평양 2월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/408c9ea0dd22d46c2a7213c8a79c4e92",
+      "url": "http://www.kcna.kp/kp/article/detail/d533dc70e9dd80662fa9067a644448ed",
       "mediaType": "article",
       "categories": [
-        "domestic",
-        "social"
+        "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2245,
-        "social": 300
+        "domestic": 2245
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab3df52aedcc9f77f18f792cb"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7bfb9ea6a5cebb3329df01ef"
     }
   ]
 }

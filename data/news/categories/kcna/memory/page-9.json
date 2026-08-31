@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T00:00:00.000Z",
-  "version": "bc61bfc0b20036f6",
+  "generatedAt": "2026-08-31T00:00:00.000Z",
+  "version": "a6d3eaf2f38ffbbc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 9,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:57bb5b45bfa83750fa824d2c",
+      "title": "약수터가 전하는 사연",
+      "date": "2026-06-22",
+      "snippet": "위대한 수령 김일성동지께서는 1946년 8월 어느날 당시의 강서군 청산리소재지에서 10리가량 떨어진 한 약수터를 찾으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/d4b7356d5ee881d85b030843997247ae",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 40
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A57bb5b45bfa83750fa824d2c"
+    },
     {
       "id": "news:kcna:2e54437fd792c12184a42766",
       "title": "생일날에 보내주신 기념사진",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 40
+        "memory": 41
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 41
+        "memory": 42
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 42
+        "memory": 43
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 43
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A87c420db3f0487883e390c3f"
-    },
-    {
-      "id": "news:kcna:b7c76040a047317d95e67e3e",
-      "title": "《사랑의 다리》가 전하는 이야기",
-      "date": "2026-06-11",
-      "snippet": "1973년 12월 어느날이였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/13bff6c11b3d7577f011fb36aa8edbc2",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 44
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab7c76040a047317d95e67e3e"
+      "detailUrl": "/news/document?id=news%3Akcna%3A87c420db3f0487883e390c3f"
     }
   ]
 }

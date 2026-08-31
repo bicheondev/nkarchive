@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T00:00:00.000Z",
-  "version": "bc61bfc0b20036f6",
+  "generatedAt": "2026-08-31T00:00:00.000Z",
+  "version": "a6d3eaf2f38ffbbc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 25,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:9bc99a0a5b086e7323514cc3",
+      "title": "한 용해공을 위해 보내주신 비행기",
+      "date": "2026-02-13",
+      "snippet": "1957년 12월 어느날 평양으로는 1대의 비행기가 날고있었다.",
+      "url": "http://www.kcna.kp/kp/article/detail/5f2bde2fda1caecd7b8284641641b332",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 120
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9bc99a0a5b086e7323514cc3"
+    },
     {
       "id": "news:kcna:c7ed6ebd290cc62708055525",
       "title": "철거세대주민들에게 안겨진 증서",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 120
+        "memory": 121
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 121
+        "memory": 122
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 122
+        "memory": 123
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 123
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A11383be06583c2f17c1c036f"
-    },
-    {
-      "id": "news:kcna:8c3bfc5698d74bf739a43900",
-      "title": "붉은 연필선",
-      "date": "2026-02-05",
-      "snippet": "1963년 2월 어느날 한 마을을 찾으신 위대한 수령 김일성동지께서 양관리공들을 만나주셨을 때였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/0f45acb3073d1bbad08042c53cb36f53",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 124
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8c3bfc5698d74bf739a43900"
+      "detailUrl": "/news/document?id=news%3Akcna%3A11383be06583c2f17c1c036f"
     }
   ]
 }

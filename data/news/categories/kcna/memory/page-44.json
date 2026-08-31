@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T00:00:00.000Z",
-  "version": "bc61bfc0b20036f6",
+  "generatedAt": "2026-08-31T00:00:00.000Z",
+  "version": "a6d3eaf2f38ffbbc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 44,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:3edd7ed055fd996ae06bffff",
+      "title": "국기에 새겨주신 오각별",
+      "date": "2025-09-09",
+      "snippet": "1948년 2월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/f34dd015cd0d2e18bdd51b190d306ef5",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 215
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3edd7ed055fd996ae06bffff"
+    },
     {
       "id": "news:kcna:815f1703d6f6e6d969c4a713",
       "title": "국장에 비낀 휘황한 전망",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 215
+        "memory": 216
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 216
+        "memory": 217
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 217
+        "memory": 218
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 218
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A47ff25261b3ee47fe1aea8cb"
-    },
-    {
-      "id": "news:kcna:f4bfc2595d65b8d9d5bc8f07",
-      "title": "우리 수령님의 중대한 일",
-      "date": "2025-09-04",
-      "snippet": "위대한 수령 김일성동지께서는 1958년 8월 어느날 해주-하성사이 넓은 철도개통식에 참가하시여 청년건설자들을 축하해주시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/aa08e89ec740c82e9e81f577aee902d8",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 219
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af4bfc2595d65b8d9d5bc8f07"
+      "detailUrl": "/news/document?id=news%3Akcna%3A47ff25261b3ee47fe1aea8cb"
     }
   ]
 }

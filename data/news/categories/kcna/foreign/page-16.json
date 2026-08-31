@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T00:00:00.000Z",
-  "version": "bc61bfc0b20036f6",
+  "generatedAt": "2026-08-31T00:00:00.000Z",
+  "version": "a6d3eaf2f38ffbbc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 16,
   "pageSize": 5,
-  "totalItems": 775,
-  "totalPages": 155,
+  "totalItems": 776,
+  "totalPages": 156,
   "articles": [
+    {
+      "id": "news:kcna:960a9b4ea11998e13063dfad",
+      "title": "중화인민공화국 당 및 정부대표단 금수산태양궁전을 찾아 경의 표시",
+      "date": "2026-07-17",
+      "snippet": "(평양 7월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/078f23496c1cd21317b04e4798bfea78",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 50,
+        "foreign": 75,
+        "domestic": 504
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d75a1ed6d169a1507bc86ca7519e8928b",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/c63116829a87e83e1eae349e872dbca592ff317d6e3342d4ea75725588415d06.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A960a9b4ea11998e13063dfad"
+    },
     {
       "id": "news:kcna:24f4add3252ba0354003c101",
       "title": "중화인민공화국 당 및 정부대표단 조선로동당 중앙간부학교 참관",
@@ -24,9 +48,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 50,
-        "foreign": 75,
-        "domestic": 501
+        "important": 51,
+        "foreign": 76,
+        "domestic": 505
       },
       "featuredSections": [],
       "hasImage": true,
@@ -48,9 +72,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 51,
-        "foreign": 76,
-        "domestic": 502
+        "important": 52,
+        "foreign": 77,
+        "domestic": 506
       },
       "featuredSections": [],
       "hasImage": true,
@@ -71,8 +95,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 77,
-        "domestic": 503
+        "foreign": 78,
+        "domestic": 507
       },
       "featuredSections": [],
       "hasImage": false,
@@ -93,8 +117,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 78,
-        "domestic": 504
+        "foreign": 79,
+        "domestic": 508
       },
       "featuredSections": [],
       "hasImage": true,
@@ -102,28 +126,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d4e4d920f088bd9f8d75ccfe8bd9bce88",
       "cachedThumbnailUrl": "/data/news/assets/kcna/312a490c367b7dbbc2b04f66dcd9ca8e85835dac6cc6694f0a1d3be51720c651.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Af909a1ca2fddaf5796c2b499"
-    },
-    {
-      "id": "news:kcna:d0a24e26039830c9854da2b7",
-      "title": "여러 나라의 각계인사들 우리 나라 대표부들을 방문",
-      "date": "2026-07-16",
-      "snippet": "(평양 7월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e034da01c7666edce44e4db369629c25",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 327,
-        "foreign": 79
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad0a24e26039830c9854da2b7"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T00:00:00.000Z",
-  "version": "bc61bfc0b20036f6",
+  "generatedAt": "2026-08-31T00:00:00.000Z",
+  "version": "a6d3eaf2f38ffbbc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 775,
-  "totalPages": 155,
+  "totalItems": 776,
+  "totalPages": 156,
   "articles": [
+    {
+      "id": "news:kcna:ad6c0b572f9aed37283b52a9",
+      "title": "조국해방 81돐에 즈음하여 로씨야정당,단체들 경축모임 진행",
+      "date": "2026-08-27",
+      "snippet": "(평양 8월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/710dc256fb896fdeddfe90acc0cd7ab8",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 36,
+        "foreign": 5
+      },
+      "featuredSections": [
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aad6c0b572f9aed37283b52a9"
+    },
     {
       "id": "news:kcna:6aa3ff6b7410c650239f1b74",
       "title": "조선민주주의인민공화국 외무성 대변인대답",
@@ -25,15 +49,14 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 3,
-        "document": 0,
-        "foreign": 5,
-        "domestic": 47
+        "important": 4,
+        "document": 1,
+        "foreign": 6,
+        "domestic": 51
       },
       "featuredSections": [
         "important",
-        "document",
-        "foreign"
+        "document"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -54,7 +77,7 @@
       ],
       "categoryOrders": {
         "international": 37,
-        "foreign": 6
+        "foreign": 7
       },
       "featuredSections": [],
       "hasImage": false,
@@ -75,8 +98,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 7,
-        "domestic": 50
+        "foreign": 8,
+        "domestic": 54
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,7 +121,7 @@
       ],
       "categoryOrders": {
         "international": 45,
-        "foreign": 8
+        "foreign": 9
       },
       "featuredSections": [],
       "hasImage": false,
@@ -106,28 +129,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ac6df7835d85b04355183fdd7"
-    },
-    {
-      "id": "news:kcna:733a025752c09fce8e9881bd",
-      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 로씨야련방공산당 중앙위원회와 공산당련맹-쏘련공산당 중앙리사회에서 꽃바구니를 보내여왔다",
-      "date": "2026-08-25",
-      "snippet": "(평양 8월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/56cee8ebc4bca492fdb87a6e0b2eba33",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 9,
-        "domestic": 74
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2943d4b999298106bf32e1b4d28f2d5029",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/4cc6defe1b7c475101258c97f142c032ec9553bc87a77e14e58428feb3faac4c.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A733a025752c09fce8e9881bd"
     }
   ]
 }

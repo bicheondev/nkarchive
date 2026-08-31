@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T00:00:00.000Z",
-  "version": "bc61bfc0b20036f6",
+  "generatedAt": "2026-08-31T00:00:00.000Z",
+  "version": "a6d3eaf2f38ffbbc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 17,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:fe08de150c836a4ad3f730dd",
+      "title": "사랑의 특별렬차",
+      "date": "2026-04-14",
+      "snippet": "1993년 12월초 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/2083c6c57d309d737e777f2b7e17dda0",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 80
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afe08de150c836a4ad3f730dd"
+    },
     {
       "id": "news:kcna:152a4da3536d510861e78e00",
       "title": "광산의 휘황한 앞날을 밝혀주시며",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 80
+        "memory": 81
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 81
+        "memory": 82
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 82
+        "memory": 83
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 83
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad4b15a53f00611dbb4993a24"
-    },
-    {
-      "id": "news:kcna:5f76403102671cb2dcf8672d",
-      "title": "릉라도에 새기신 애국헌신의 로고",
-      "date": "2026-04-07",
-      "snippet": "1965년 4월 어느날이였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/fa2767d298113fef7fef1b50ae3f684b",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 84
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5f76403102671cb2dcf8672d"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad4b15a53f00611dbb4993a24"
     }
   ]
 }

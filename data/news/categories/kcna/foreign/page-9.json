@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T00:00:00.000Z",
-  "version": "bc61bfc0b20036f6",
+  "generatedAt": "2026-08-31T00:00:00.000Z",
+  "version": "a6d3eaf2f38ffbbc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 9,
   "pageSize": 5,
-  "totalItems": 775,
-  "totalPages": 155,
+  "totalItems": 776,
+  "totalPages": 156,
   "articles": [
+    {
+      "id": "news:kcna:0681211d935ea830f05ad49b",
+      "title": "경애하는 김정은동지께 팔레스티나국가 대통령이 꽃바구니를 보내여왔다",
+      "date": "2026-08-13",
+      "snippet": "(평양 8월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2a88a2554a28164da001a57b94832d4c",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 22,
+        "international": 134,
+        "foreign": 40
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29f094e4325e79469d68d5259d03f775d7",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/fcada280271644842d75011cef6f4c657d9cb4f17fd46aec83889b179713ea74.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0681211d935ea830f05ad49b"
+    },
     {
       "id": "news:kcna:6acfbce9975d5daba33dfee7",
       "title": "정권기관,성,친선단체 일군들 라오스인민민주주의공화국대사관을 조의방문",
@@ -23,8 +47,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 40,
-        "domestic": 227
+        "foreign": 41,
+        "domestic": 231
       },
       "featuredSections": [],
       "hasImage": true,
@@ -45,8 +69,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 41,
-        "domestic": 228
+        "foreign": 42,
+        "domestic": 232
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +92,7 @@
       ],
       "categoryOrders": {
         "international": 184,
-        "foreign": 42
+        "foreign": 43
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,10 +115,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 28,
-        "document": 6,
-        "foreign": 43,
-        "domestic": 291
+        "important": 29,
+        "document": 7,
+        "foreign": 44,
+        "domestic": 295
       },
       "featuredSections": [],
       "hasImage": false,
@@ -102,30 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-cad58de86ad14a59"
-    },
-    {
-      "id": "news:kcna:49516c81876794d59169bc5b",
-      "title": "조선민주주의인민공화국 외무성 대변인 미국이 주장하는 《싸이버위협설》을 무근거한 중상모략으로 일축",
-      "date": "2026-08-04",
-      "snippet": "(평양 8월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/88e2c2a3487746298b9cab4b388da292",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 30,
-        "foreign": 44,
-        "domestic": 304
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A49516c81876794d59169bc5b"
     }
   ]
 }

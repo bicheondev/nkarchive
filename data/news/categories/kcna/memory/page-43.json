@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T00:00:00.000Z",
-  "version": "bc61bfc0b20036f6",
+  "generatedAt": "2026-08-31T00:00:00.000Z",
+  "version": "a6d3eaf2f38ffbbc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 43,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:207777e1f3692b0f0ef4b1ac",
+      "title": "참으로 좋은 자리",
+      "date": "2025-09-15",
+      "snippet": "1979년 4월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/1697ded3b1e3da8cb7599fbed2eb65a0",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 210
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A207777e1f3692b0f0ef4b1ac"
+    },
     {
       "id": "news:kcna:81f5e4c8cb5b62b9cc82fb52",
       "title": "고산지대남새농사의 새 전망을 열어주시며",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 210
+        "memory": 211
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 211
+        "memory": 212
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 212
+        "memory": 213
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 213
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1fcf6ecd3d2819d245f82839"
-    },
-    {
-      "id": "news:kcna:3edd7ed055fd996ae06bffff",
-      "title": "국기에 새겨주신 오각별",
-      "date": "2025-09-09",
-      "snippet": "1948년 2월 어느날이였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/f34dd015cd0d2e18bdd51b190d306ef5",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 214
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3edd7ed055fd996ae06bffff"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1fcf6ecd3d2819d245f82839"
     }
   ]
 }

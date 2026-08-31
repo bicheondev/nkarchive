@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T00:00:00.000Z",
-  "version": "bc61bfc0b20036f6",
+  "generatedAt": "2026-08-31T00:00:00.000Z",
+  "version": "a6d3eaf2f38ffbbc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 21,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:46ed287df2bc4dffc8e42b7b",
+      "title": "녀성농민이 흘린 눈물",
+      "date": "2026-03-16",
+      "snippet": "1953년 1월 어느날 평양에서 위대한 수령 김일성동지를 모시고 전국농민열성자대회가 열리였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/a0f5d231494ce5429093bd2a91aa1b68",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 100
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A46ed287df2bc4dffc8e42b7b"
+    },
     {
       "id": "news:kcna:74c69f34d107d4f9eb129f38",
       "title": "평범한 공민이라고 하시며",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 100
+        "memory": 101
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 101
+        "memory": 102
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 102
+        "memory": 103
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 103
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5398510365ef46fce4dead18"
-    },
-    {
-      "id": "news:kcna:29ad7491b4b9f975493b498f",
-      "title": "꼭 들어맞은 예언",
-      "date": "2026-03-07",
-      "snippet": "위대한 수령 김일성동지께서는 1968년 8월 어느날 중화군의 한 농장을 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/fec37de60845a715cdb22f547fff5896",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 104
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A29ad7491b4b9f975493b498f"
+      "detailUrl": "/news/document?id=news%3Akcna%3A5398510365ef46fce4dead18"
     }
   ]
 }

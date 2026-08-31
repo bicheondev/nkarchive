@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T00:00:00.000Z",
-  "version": "bc61bfc0b20036f6",
+  "generatedAt": "2026-08-31T00:00:00.000Z",
+  "version": "a6d3eaf2f38ffbbc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "document",
   "page": 11,
   "pageSize": 5,
-  "totalItems": 60,
-  "totalPages": 12,
+  "totalItems": 61,
+  "totalPages": 13,
   "articles": [
+    {
+      "id": "news:kcna:d8ecbbf64f1778e2c6f62418",
+      "title": "모범적인 단위들에 사회주의애국림칭호 수여",
+      "date": "2026-01-14",
+      "snippet": "(평양 1월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/51bf5d588243404c6a51805279b2d9bb",
+      "mediaType": "article",
+      "categories": [
+        "document",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "document": 50,
+        "domestic": 2577
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad8ecbbf64f1778e2c6f62418"
+    },
     {
       "id": "news:kcna:62f248d2e41252c3dbda5854",
       "title": "김여정 조선로동당 중앙위원회 부부장 담화발표",
@@ -25,10 +47,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 319,
+        "important": 320,
         "international": 1735,
-        "document": 50,
-        "domestic": 2575
+        "document": 51,
+        "domestic": 2579
       },
       "featuredSections": [],
       "hasImage": false,
@@ -50,7 +72,7 @@
       ],
       "categoryOrders": {
         "international": 1749,
-        "document": 51
+        "document": 52
       },
       "featuredSections": [],
       "hasImage": false,
@@ -73,10 +95,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 351,
-        "document": 52,
-        "foreign": 450,
-        "domestic": 2762
+        "important": 352,
+        "document": 53,
+        "foreign": 451,
+        "domestic": 2766
       },
       "featuredSections": [],
       "hasImage": false,
@@ -97,8 +119,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 53,
-        "domestic": 3321
+        "document": 54,
+        "domestic": 3325
       },
       "featuredSections": [],
       "hasImage": false,
@@ -106,32 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aa12a56576236a25d1c6b5146"
-    },
-    {
-      "id": "news:kcna:fdc26df737dbb4efad1d335f",
-      "title": "조선민주주의인민공화국 외무상과 벨라루씨공화국 외무상사이의 회담에 관한 공보문 발표",
-      "date": "2025-10-31",
-      "snippet": "(평양 10월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/032e666bd14d95f3a5af6851f6ed8d37",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "document",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 399,
-        "international": 2250,
-        "document": 54,
-        "foreign": 521
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afdc26df737dbb4efad1d335f"
     }
   ]
 }

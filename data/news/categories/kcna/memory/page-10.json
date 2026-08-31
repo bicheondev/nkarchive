@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T00:00:00.000Z",
-  "version": "bc61bfc0b20036f6",
+  "generatedAt": "2026-08-31T00:00:00.000Z",
+  "version": "a6d3eaf2f38ffbbc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 10,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:b7c76040a047317d95e67e3e",
+      "title": "《사랑의 다리》가 전하는 이야기",
+      "date": "2026-06-11",
+      "snippet": "1973년 12월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/13bff6c11b3d7577f011fb36aa8edbc2",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 45
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab7c76040a047317d95e67e3e"
+    },
     {
       "id": "news:kcna:66fa9d62dbadc2cc7a6b0fe9",
       "title": "가물피해극복방도도 찾아주시며",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 45
+        "memory": 46
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 46
+        "memory": 47
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 47
+        "memory": 48
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 48
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae28a8e6f880456eefdb704b1"
-    },
-    {
-      "id": "news:kcna:6fd15fa9fe38e28acf398ad5",
-      "title": "보천보에서 울리신 총성",
-      "date": "2026-06-04",
-      "snippet": "항일혁명전쟁시기인 1937년 6월 4일 밤 위대한 수령 김일성동지께서는 한방의 신호총소리를 울리시였다. 신호총소리에 따라 력사적인 전투가 단행되였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/f492436cd61196b657fea73420232f4e",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 49
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6fd15fa9fe38e28acf398ad5"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae28a8e6f880456eefdb704b1"
     }
   ]
 }

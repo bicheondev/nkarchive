@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T00:00:00.000Z",
-  "version": "bc61bfc0b20036f6",
+  "generatedAt": "2026-08-31T00:00:00.000Z",
+  "version": "a6d3eaf2f38ffbbc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:c45db61f86f08be079490028",
+      "title": "현지지도의 길을 이어가시며",
+      "date": "2026-08-23",
+      "snippet": "1998년 11월 어느날 현지지도의 길을 이어가시던 위대한 령도자 김정일동지께서는 함경북도 경성군을 찾으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/1b4ad1a909df876fd6d07ecd01a01821",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 5
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac45db61f86f08be079490028"
+    },
     {
       "id": "news:kcna:b8907f9c9a12813bb075c0eb",
       "title": "용해공들이 받아안은 단물",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 5
+        "memory": 6
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 6
+        "memory": 7
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 7
+        "memory": 8
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 8
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-1829fd05d2e3de5f"
-    },
-    {
-      "id": "kcna-7981dcc310b16133",
-      "title": "위급한 정황속에서",
-      "date": "2026-08-15",
-      "snippet": "1939년 2월 어느날 장백현 가재수부근에 진출한 조선인민혁명군 부대는 이곳에 숙영지를 정하고 대중정치사업을 벌리고있었다.",
-      "url": "http://www.kcna.kp/kp/article/detail/01ffa47498abcc51500650befe925513",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 9
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-7981dcc310b16133"
+      "detailUrl": "/news/document?id=kcna-1829fd05d2e3de5f"
     }
   ]
 }

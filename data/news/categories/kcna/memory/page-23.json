@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T00:00:00.000Z",
-  "version": "bc61bfc0b20036f6",
+  "generatedAt": "2026-08-31T00:00:00.000Z",
+  "version": "a6d3eaf2f38ffbbc",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 23,
   "pageSize": 5,
-  "totalItems": 222,
+  "totalItems": 223,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:0eab55d548ab40d973f53355",
+      "title": "값높은 영예",
+      "date": "2026-02-28",
+      "snippet": "2009년 5월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/833be9f6d37c10ad99867f7e88cd8c0a",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 110
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0eab55d548ab40d973f53355"
+    },
     {
       "id": "news:kcna:efd0fcd93c45574cf5cf6334",
       "title": "몸소 잡아주신 농업대학터전",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 110
+        "memory": 111
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 111
+        "memory": 112
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 112
+        "memory": 113
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 113
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae38f28a2d807aaf864344199"
-    },
-    {
-      "id": "news:kcna:b44abb506f06d9052ffabafd",
-      "title": "사색과 실천의 첫자리",
-      "date": "2026-02-19",
-      "snippet": "위대한 령도자 김정일동지께서 1988년 7월 어느날 제13차 세계청년학생축전기간 평양시내에 설치할 직관장식도안들을 보아주실 때였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/1f2c6bb7eb91d4b5cc2018b6bea01d1d",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 114
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab44abb506f06d9052ffabafd"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae38f28a2d807aaf864344199"
     }
   ]
 }
