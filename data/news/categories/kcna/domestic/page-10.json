@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T00:00:00.000Z",
-  "version": "f2f1393da038e512",
+  "generatedAt": "2026-09-01T00:00:00.000Z",
+  "version": "6098c580cb6bded2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,35 +8,37 @@
   "section": "domestic",
   "page": 10,
   "pageSize": 5,
-  "totalItems": 4147,
-  "totalPages": 830,
+  "totalItems": 4151,
+  "totalPages": 831,
   "articles": [
     {
-      "id": "news:kcna:ce98a7d4ff88a8f001848e9b",
-      "title": "우리 청년들의 명절-청년절",
+      "id": "news:kcna:41290af3899e3d2c1d6e4e78",
+      "title": "전국녀맹예술선동대경연 진행",
       "date": "2026-08-28",
       "snippet": "(평양 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c69351052ae67a51020e43108414d419",
+      "url": "http://www.kcna.kp/kp/article/detail/3ad1e0e21b987bf441793c177cac2fd1",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 45
+        "domestic": 45,
+        "social": 8
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ace98a7d4ff88a8f001848e9b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A41290af3899e3d2c1d6e4e78"
     },
     {
-      "id": "news:kcna:d0854b93a123d99685cf293b",
-      "title": "혁명의 년대마다에 시대를 격동시킨 청춘송가들",
+      "id": "news:kcna:bc6417ec8b1d9d4d4b5ce9b9",
+      "title": "2026년 8월 28일 신문개관",
       "date": "2026-08-28",
       "snippet": "(평양 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/85fc73e58326b2cc7fecc0fb00ffd600",
+      "url": "http://www.kcna.kp/kp/article/detail/a98ede656039607a0b876d4bc976be43",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -49,14 +51,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad0854b93a123d99685cf293b"
+      "detailUrl": "/news/document?id=news%3Akcna%3Abc6417ec8b1d9d4d4b5ce9b9"
     },
     {
-      "id": "news:kcna:b0918e4eb7952975a0b103ee",
-      "title": "황해남도에서 해주학생소년궁전건설 추진",
+      "id": "news:kcna:0f1de059f5a6bbca50e5150a",
+      "title": "《로동신문》 무비의 혁명성과 애국충의심을 지닌 청년대군은 우리 당과 국가의 자랑이고 힘이라고 강조",
       "date": "2026-08-28",
       "snippet": "(평양 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f47d7b41f16aa4ce2a684bf893df66ab",
+      "url": "http://www.kcna.kp/kp/article/detail/2d906d5610502392ec472df2cdf8e0ed",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -69,49 +71,51 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab0918e4eb7952975a0b103ee"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0f1de059f5a6bbca50e5150a"
     },
     {
-      "id": "news:kcna:08aa042c9a0f4c787fd11c7f",
-      "title": "각지 농촌들에서 가을밀,보리씨뿌리기준비 추진",
+      "id": "news:kcna:c58ea8ea0cd811f69a56394e",
+      "title": "천지개벽한 동해명승의 풍미를 더해주는 또 하나의 재부--원산갈마해안관광지구에 건설된 명사십리역 준공식 진행",
       "date": "2026-08-28",
       "snippet": "(평양 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d84bd3f1424f46215a064b8bc96abfc7",
+      "url": "http://www.kcna.kp/kp/article/detail/663d3eeecc6a533e1f32c64ae6b99fa6",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 3,
+        "domestic": 48
+      },
+      "featuredSections": [
+        "important"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2938b6922864494765d50f83866397aaed",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/fdab1571d4d076cf869ec0ca2b63182ab8d444c2f232e92074ddf8fed8852948.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac58ea8ea0cd811f69a56394e"
+    },
+    {
+      "id": "news:kcna:ce98a7d4ff88a8f001848e9b",
+      "title": "우리 청년들의 명절-청년절",
+      "date": "2026-08-28",
+      "snippet": "(평양 8월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c69351052ae67a51020e43108414d419",
       "mediaType": "article",
       "categories": [
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 48
+        "domestic": 49
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A08aa042c9a0f4c787fd11c7f"
-    },
-    {
-      "id": "news:kcna:0b520fbd8edba07cb35a7190",
-      "title": "평안북도에서 대학생들에 대한 교양사업 진행",
-      "date": "2026-08-28",
-      "snippet": "(평양 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8881a854719346a19fe1beb88b11ce31",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 49,
-        "social": 9
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0b520fbd8edba07cb35a7190"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ace98a7d4ff88a8f001848e9b"
     }
   ]
 }

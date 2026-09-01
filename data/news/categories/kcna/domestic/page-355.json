@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T00:00:00.000Z",
-  "version": "f2f1393da038e512",
+  "generatedAt": "2026-09-01T00:00:00.000Z",
+  "version": "6098c580cb6bded2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,75 +8,81 @@
   "section": "domestic",
   "page": 355,
   "pageSize": 5,
-  "totalItems": 4147,
-  "totalPages": 830,
+  "totalItems": 4151,
+  "totalPages": 831,
   "articles": [
     {
-      "id": "news:kcna:fd4487ee76f78cbb2d2ec1fe",
-      "title": "평양시안의 공장들에서 봄철위생월간사업 전개",
+      "id": "news:kcna:12b0660edf63c0fde389aced",
+      "title": "황해남도 해주시의 백살장수자가 은정어린 생일상을 받아안았다",
       "date": "2026-03-29",
       "snippet": "(평양 3월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/55e8002775b6e091cb38a83d8297de49",
+      "url": "http://www.kcna.kp/kp/article/detail/54412b1656e8ff2cd09d34196db4eda3",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 1771
+        "domestic": 1771,
+        "social": 197
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afd4487ee76f78cbb2d2ec1fe"
+      "detailUrl": "/news/document?id=news%3Akcna%3A12b0660edf63c0fde389aced"
     },
     {
-      "id": "news:kcna:360aae788f0c083e3cb0594a",
-      "title": "자강도에서 봄누에치기준비사업 진척",
+      "id": "news:kcna:1a696b6c4d8c6bd7c36d1fd7",
+      "title": "로씨야 따쓰통신사대표단 도착",
       "date": "2026-03-29",
       "snippet": "(평양 3월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4d2885668588be17dc9304bb86334450",
+      "url": "http://www.kcna.kp/kp/article/detail/14048b25543804d9913118544174c212",
       "mediaType": "article",
       "categories": [
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "foreign": 302,
         "domestic": 1772
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A360aae788f0c083e3cb0594a"
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e6089163806c65685eaeedc99aaa9516d96",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/7c318c61fd2ad530be17e32c1cee66b74050b9693f7eaee7e4f6e866b6243668.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1a696b6c4d8c6bd7c36d1fd7"
     },
     {
-      "id": "news:kcna:f4457c035931413a6f326a08",
-      "title": "독특한 세공예술 라전공예",
-      "date": "2026-03-28",
-      "snippet": "(평양 3월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5d03b3d020d54636e9ac57b62087ff9f",
+      "id": "news:kcna:01dd1a99a26ccef756e5099c",
+      "title": "조선중앙통신사와 따쓰통신사사이의 협조에 관한 합의서 조인",
+      "date": "2026-03-29",
+      "snippet": "(평양 3월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1c873fba388b7a17fc408ea12079dcd3",
       "mediaType": "article",
       "categories": [
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "foreign": 303,
         "domestic": 1773
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af4457c035931413a6f326a08"
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60f57ccf8080fdc3c86e14aa0f252426cf",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/1b1b85812e6d926b6bbdc9ca56dee867bb467afa9e44c94e721ac5e576274f8e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A01dd1a99a26ccef756e5099c"
     },
     {
-      "id": "news:kcna:1cc2e644c69243db70f2bd79",
-      "title": "신의주시에서 온실남새공급사업 추진",
-      "date": "2026-03-28",
-      "snippet": "(평양 3월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/889378de55553aceddab3ed8d0cea120",
+      "id": "news:kcna:40b707d803647fb0e1115571",
+      "title": "화학공업부문에서 물질기술적토대강화와 생산력증대를 위한 사업 적극화",
+      "date": "2026-03-29",
+      "snippet": "(평양 3월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4ca57102302fe11dee7d556195ce00d5",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -89,14 +95,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1cc2e644c69243db70f2bd79"
+      "detailUrl": "/news/document?id=news%3Akcna%3A40b707d803647fb0e1115571"
     },
     {
-      "id": "news:kcna:66f839565a2ee495607e9755",
-      "title": "2026년 3월 28일 신문개관",
-      "date": "2026-03-28",
-      "snippet": "(평양 3월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/01bd3591cb9f7221a21f56b7912adcad",
+      "id": "news:kcna:fd4487ee76f78cbb2d2ec1fe",
+      "title": "평양시안의 공장들에서 봄철위생월간사업 전개",
+      "date": "2026-03-29",
+      "snippet": "(평양 3월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/55e8002775b6e091cb38a83d8297de49",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -109,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A66f839565a2ee495607e9755"
+      "detailUrl": "/news/document?id=news%3Akcna%3Afd4487ee76f78cbb2d2ec1fe"
     }
   ]
 }
