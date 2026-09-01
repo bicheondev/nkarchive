@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "6098c580cb6bded2",
+  "version": "c8c23ef4431339b3",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "anecdote",
   "page": 20,
   "pageSize": 5,
-  "totalItems": 101,
+  "totalItems": 102,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:a14d348e303aacbd14e05f15",
+      "title": "몸소 가르쳐주신 잔디재배방법",
+      "date": "2025-09-28",
+      "snippet": "2012년 9월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/64acc63460cc88b64033d36d5698a223",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 95
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa14d348e303aacbd14e05f15"
+    },
     {
       "id": "news:kcna:c38fd49d0e6e7094e2655a41",
       "title": "인민들이 리용하게 될 제품의 질도 가늠해보시며",
@@ -22,7 +42,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 95
+        "anecdote": 96
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 96
+        "anecdote": 97
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 97
+        "anecdote": 98
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 98
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae07de9b9571daad3661edb63"
-    },
-    {
-      "id": "news:kcna:1e6680dc5d212e6b5a8762d6",
-      "title": "청년들의 위훈을 길이 빛내주시려고",
-      "date": "2025-09-13",
-      "snippet": "2015년 9월 어느날이였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/5debc69ae792fd26ee96ed91193fd7ef",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 99
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1e6680dc5d212e6b5a8762d6"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae07de9b9571daad3661edb63"
     }
   ]
 }

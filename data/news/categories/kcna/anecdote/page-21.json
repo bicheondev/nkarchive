@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "6098c580cb6bded2",
+  "version": "c8c23ef4431339b3",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "anecdote",
   "page": 21,
   "pageSize": 5,
-  "totalItems": 101,
+  "totalItems": 102,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:1e6680dc5d212e6b5a8762d6",
+      "title": "청년들의 위훈을 길이 빛내주시려고",
+      "date": "2025-09-13",
+      "snippet": "2015년 9월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/5debc69ae792fd26ee96ed91193fd7ef",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 100
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1e6680dc5d212e6b5a8762d6"
+    },
     {
       "id": "news:kcna:b001b20cf28c5c7153393786",
       "title": "로동자들이 학습을 많이 하도록 하여야 한다",
@@ -22,7 +42,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 100
+        "anecdote": 101
       },
       "featuredSections": [],
       "hasImage": false,

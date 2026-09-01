@@ -1,25 +1,47 @@
 {
   "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "6098c580cb6bded2",
+  "version": "c8c23ef4431339b3",
   "sources": {
     "kcna": {
       "id": "kcna",
       "name": "조선중앙통신",
-      "totalItems": 8776,
+      "totalItems": 8765,
       "categoryCounts": {
-        "leadership": 236,
+        "leadership": 232,
         "important": 522,
-        "international": 2769,
+        "international": 2766,
         "photo": 1034,
-        "anecdote": 101,
+        "anecdote": 102,
         "document": 61,
-        "foreign": 775,
-        "video": 270,
-        "memory": 222,
-        "domestic": 4151,
+        "foreign": 774,
+        "video": 269,
+        "memory": 221,
+        "domestic": 4148,
         "social": 686
       },
       "articles": [
+        {
+          "id": "news:kcna:1728cdee941fe619085fa3ab",
+          "title": "아프가니스탄에서 마약압수",
+          "date": "2026-09-01",
+          "snippet": "(평양 9월 1일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/13a4ab7bd0bc821b2e559746c61178dc",
+          "mediaType": "article",
+          "categories": [
+            "international"
+          ],
+          "categoryOrders": {
+            "international": 0
+          },
+          "featuredSections": [
+            "international"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A1728cdee941fe619085fa3ab"
+        },
         {
           "id": "news:kcna:31600d0b7db8ef92a095824a",
           "title": "대중적기술혁신운동을 힘있게 벌려",
@@ -43,11 +65,80 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A31600d0b7db8ef92a095824a"
         },
         {
-          "id": "news:kcna:a8dd3d15ef26ee0023c5c97e",
-          "title": "화성지구의 이채로운 경관-못가공원",
+          "id": "news:kcna:47e8f12db664c3747fb59aa1",
+          "title": "강원도의 청년들 사회주의건설의 어렵고 힘든 부문으로 탄원",
           "date": "2026-09-01",
           "snippet": "(평양 9월 1일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/1f2a3d751347dd0da3f2cc19f71308c3",
+          "url": "http://www.kcna.kp/kp/article/detail/ffc98dc7ff5a9020c49d1a47ae8be8ac",
+          "mediaType": "article",
+          "categories": [
+            "domestic",
+            "social"
+          ],
+          "categoryOrders": {
+            "domestic": 2,
+            "social": 0
+          },
+          "featuredSections": [
+            "domestic",
+            "social"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A47e8f12db664c3747fb59aa1"
+        },
+        {
+          "id": "news:kcna:5e9fcffa7f55c0a1f5a4230e",
+          "title": "화성지구의 이채로운 경관-못가공원",
+          "date": "2026-09-01",
+          "snippet": "화성지구의 이채로운 경관-못가공원",
+          "url": "http://www.kcna.kp/kp/gallery/detail/d95dd40137ee46837b6954e44522fafc",
+          "mediaType": "article",
+          "categories": [
+            "photo"
+          ],
+          "categoryOrders": {
+            "photo": 0
+          },
+          "featuredSections": [
+            "photo"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba78e91015829576d610d22c1eaafe48c2",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/6dff05d3ce28e2bf04422b4a5ad900ac9a01ba3f5f8b998ff8fd37e9b62141b9.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A5e9fcffa7f55c0a1f5a4230e"
+        },
+        {
+          "id": "news:kcna:617c4c21b1de4aa6c63a3349",
+          "title": "실리있는 발전소라고 하시며",
+          "date": "2026-09-01",
+          "snippet": "경애하는 김정은동지께서는 2019년 5월 어느날 금야강2호발전소를 찾으시였다. 발전소에 도착하신 경애하는 총비서동지께서는 일군들에게 언제로 가보자고 하시였다.",
+          "url": "http://www.kcna.kp/kp/article/detail/8fbc37e9083817d5b1f97159ff602843",
+          "mediaType": "article",
+          "categories": [
+            "anecdote"
+          ],
+          "categoryOrders": {
+            "anecdote": 0
+          },
+          "featuredSections": [
+            "anecdote"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A617c4c21b1de4aa6c63a3349"
+        },
+        {
+          "id": "news:kcna:c0e595cbf6dbe67e7a4a1cb3",
+          "title": "공장대학창립 기념보고회 여러 단위에서 진행",
+          "date": "2026-09-01",
+          "snippet": "(평양 9월 1일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/0f8191d4bfaad21d99e67a2c02d6681d",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -62,14 +153,36 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Aa8dd3d15ef26ee0023c5c97e"
+          "detailUrl": "/news/document?id=news%3Akcna%3Ac0e595cbf6dbe67e7a4a1cb3"
         },
         {
-          "id": "news:kcna:43da9e058f14dbb2ab1ff10c",
-          "title": "전국의 170여개 시,군농업기술학원들에서 수만명의 농업근로자들이 공부",
+          "id": "news:kcna:216847a6a86524433a915b78",
+          "title": "우즈베끼스딴과 아프가니스탄사이의 협조",
           "date": "2026-09-01",
           "snippet": "(평양 9월 1일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/1df229ed0bd53e757588d153afde8ab6",
+          "url": "http://www.kcna.kp/kp/article/detail/d7d58975cbc97a26512b3721f312c6de",
+          "mediaType": "article",
+          "categories": [
+            "international"
+          ],
+          "categoryOrders": {
+            "international": 1
+          },
+          "featuredSections": [
+            "international"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A216847a6a86524433a915b78"
+        },
+        {
+          "id": "news:kcna:be58ed5a41d9372a8b137fba",
+          "title": "상원세멘트련합기업소에서 8월 인민경제계획 완수",
+          "date": "2026-09-01",
+          "snippet": "(평양 9월 1일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/ef14bc1e60164eac5cf5f1c90e3243dd",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -84,36 +197,14 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A43da9e058f14dbb2ab1ff10c"
+          "detailUrl": "/news/document?id=news%3Akcna%3Abe58ed5a41d9372a8b137fba"
         },
         {
-          "id": "news:kcna:3b6a4cbaedf0da3f316301c7",
-          "title": "남포시에서 가을걷이와 탈곡을 적기에 끝내기 위한 준비사업 본격화",
+          "id": "news:kcna:d7dbd2f09c9e152e97763876",
+          "title": "2026년 9월 1일 신문개관",
           "date": "2026-09-01",
           "snippet": "(평양 9월 1일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/119733d4c42bab92d22a81ecb9114ec1",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 2
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A3b6a4cbaedf0da3f316301c7"
-        },
-        {
-          "id": "news:kcna:8c90c2b094264e5f28cce27f",
-          "title": "제15차 전국교원대회 참가자들 평양 도착",
-          "date": "2026-09-01",
-          "snippet": "(평양 9월 1일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/c24993c58bb4503c7904d6026fe2de8e",
+          "url": "http://www.kcna.kp/kp/article/detail/d10ed810678f2a6dd099b66a05a4f325",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -128,53 +219,29 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A8c90c2b094264e5f28cce27f"
+          "detailUrl": "/news/document?id=news%3Akcna%3Ad7dbd2f09c9e152e97763876"
         },
         {
-          "id": "news:kcna:1d9cb93206d85669d063253c",
-          "title": "개성시에서 청년돌격대원들을 당결정관철을 위한 실천투쟁에로 고무",
-          "date": "2026-08-31",
-          "snippet": "(평양 8월 31일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/71c254d51802b33b311416e38449dc5c",
+          "id": "news:kcna:a8dd3d15ef26ee0023c5c97e",
+          "title": "화성지구의 이채로운 경관-못가공원",
+          "date": "2026-09-01",
+          "snippet": "(평양 9월 1일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/1f2a3d751347dd0da3f2cc19f71308c3",
           "mediaType": "article",
           "categories": [
-            "domestic",
-            "social"
+            "domestic"
           ],
           "categoryOrders": {
-            "domestic": 6,
-            "social": 0
+            "domestic": 4
           },
           "featuredSections": [
-            "social"
+            "domestic"
           ],
-          "hasImage": false,
+          "hasImage": true,
           "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A1d9cb93206d85669d063253c"
-        },
-        {
-          "id": "news:kcna:75025e152eb567b88aae08c3",
-          "title": "이스라엘군 요르단강서안지역에서 불법무도한 살륙만행 감행",
-          "date": "2026-08-31",
-          "snippet": "(평양 8월 31일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/e99ed098208f29bd2c5ebbfecf2dce40",
-          "mediaType": "article",
-          "categories": [
-            "international"
-          ],
-          "categoryOrders": {
-            "international": 0
-          },
-          "featuredSections": [
-            "international"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A75025e152eb567b88aae08c3"
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba78e91015829576d610d22c1eaafe48c2",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/6dff05d3ce28e2bf04422b4a5ad900ac9a01ba3f5f8b998ff8fd37e9b62141b9.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3Aa8dd3d15ef26ee0023c5c97e"
         },
         {
           "id": "news:kcna:8db86f7748a18d40c731dcad",
@@ -215,7 +282,7 @@
             "important": 0,
             "document": 0,
             "foreign": 0,
-            "domestic": 8
+            "domestic": 12
           },
           "featuredSections": [
             "important",
@@ -229,48 +296,28 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A9717aaa28b7bc5bfccb29f9c"
         },
         {
-          "id": "news:kcna:ba14ffcf266c45d0763566ea",
-          "title": "우즈베끼스딴에서 새로운 경제발전계획 발표",
+          "id": "news:kcna:1d9cb93206d85669d063253c",
+          "title": "개성시에서 청년돌격대원들을 당결정관철을 위한 실천투쟁에로 고무",
           "date": "2026-08-31",
           "snippet": "(평양 8월 31일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/ff8dcbbb0b765e9e4f1801003aa72dc0",
+          "url": "http://www.kcna.kp/kp/article/detail/71c254d51802b33b311416e38449dc5c",
           "mediaType": "article",
           "categories": [
-            "international"
+            "domestic",
+            "social"
           ],
           "categoryOrders": {
-            "international": 1
+            "domestic": 10,
+            "social": 1
           },
           "featuredSections": [
-            "international"
+            "social"
           ],
           "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Aba14ffcf266c45d0763566ea"
-        },
-        {
-          "id": "news:kcna:7f16a3dd72515a5bb948130c",
-          "title": "교육실험기구 및 교편물,교육지원프로그람전시회,교육지원전시회 페막",
-          "date": "2026-08-31",
-          "snippet": "(평양 8월 31일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/7f5181286ca30f36794671ec98e08bd2",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 4
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A7f16a3dd72515a5bb948130c"
+          "detailUrl": "/news/document?id=news%3Akcna%3A1d9cb93206d85669d063253c"
         },
         {
           "id": "news:kcna:356d0c1a6c812efe30e551ad",
@@ -305,7 +352,7 @@
             "anecdote"
           ],
           "categoryOrders": {
-            "anecdote": 0
+            "anecdote": 1
           },
           "featuredSections": [
             "anecdote"
@@ -315,50 +362,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A60bfc9b61b03097685684fd7"
-        },
-        {
-          "id": "news:kcna:b81d966333b87b8a9f7cece8",
-          "title": "동해기슭의 아름다운 경관-락원포",
-          "date": "2026-08-30",
-          "snippet": "동해기슭의 아름다운 경관-락원포",
-          "url": "http://www.kcna.kp/kp/gallery/detail/7d58dcfa43f392ed90a7f18d92a8ff53",
-          "mediaType": "article",
-          "categories": [
-            "photo"
-          ],
-          "categoryOrders": {
-            "photo": 0
-          },
-          "featuredSections": [
-            "photo"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29ed0e77da01567d833325fb1a63405f72",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/198b1626e5bdc47f91c6e253d22c768f0046192af21d02a4666739a822b51946.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3Ab81d966333b87b8a9f7cece8"
-        },
-        {
-          "id": "news:kcna:4a3836405cc160d4632ed337",
-          "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상을 찾아 총련교육일군대표단 경모의 정 표시",
-          "date": "2026-08-30",
-          "snippet": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상을 찾아 총련교육일군대표단 경모의 정 표시",
-          "url": "http://www.kcna.kp/kp/gallery/detail/7174f13e883a0091f7d805844be54281",
-          "mediaType": "article",
-          "categories": [
-            "photo"
-          ],
-          "categoryOrders": {
-            "photo": 1
-          },
-          "featuredSections": [
-            "photo"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29873c864f039e772f3b4ec10b5cbdb41e",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/be446c6593ce23242a6040a7ec092c58542efa36c0a076bb93c48c966e52081b.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A4a3836405cc160d4632ed337"
         },
         {
           "id": "news:kcna:a331f5b8bce9d10286a05d82",
@@ -383,11 +386,33 @@
           "detailUrl": "/news/document?id=news%3Akcna%3Aa331f5b8bce9d10286a05d82"
         },
         {
-          "id": "news:kcna:48039315fad7f0137312cebd",
-          "title": "총련교육일군대표단 도착",
+          "id": "news:kcna:b81d966333b87b8a9f7cece8",
+          "title": "동해기슭의 아름다운 경관-락원포",
           "date": "2026-08-30",
-          "snippet": "총련교육일군대표단 도착",
-          "url": "http://www.kcna.kp/kp/gallery/detail/6c1a6ef7eee37df1ff3ada9b382aa900",
+          "snippet": "동해기슭의 아름다운 경관-락원포",
+          "url": "http://www.kcna.kp/kp/gallery/detail/7d58dcfa43f392ed90a7f18d92a8ff53",
+          "mediaType": "article",
+          "categories": [
+            "photo"
+          ],
+          "categoryOrders": {
+            "photo": 1
+          },
+          "featuredSections": [
+            "photo"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29ed0e77da01567d833325fb1a63405f72",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/198b1626e5bdc47f91c6e253d22c768f0046192af21d02a4666739a822b51946.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3Ab81d966333b87b8a9f7cece8"
+        },
+        {
+          "id": "news:kcna:4a3836405cc160d4632ed337",
+          "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상을 찾아 총련교육일군대표단 경모의 정 표시",
+          "date": "2026-08-30",
+          "snippet": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상을 찾아 총련교육일군대표단 경모의 정 표시",
+          "url": "http://www.kcna.kp/kp/gallery/detail/7174f13e883a0091f7d805844be54281",
           "mediaType": "article",
           "categories": [
             "photo"
@@ -400,33 +425,31 @@
           ],
           "hasImage": true,
           "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29de61021e0b6a2977896f9350ad1577d4",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/0d82586b7ae2a202699c4715f736755634b0b8982d2155807456aec6374c1294.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A48039315fad7f0137312cebd"
+          "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29873c864f039e772f3b4ec10b5cbdb41e",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/be446c6593ce23242a6040a7ec092c58542efa36c0a076bb93c48c966e52081b.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A4a3836405cc160d4632ed337"
         },
         {
-          "id": "news:kcna:7eb4a8c9db8d6f61a1ecaaa3",
-          "title": "청년절기념 청년학생들의 무도회 진행",
-          "date": "2026-08-29",
-          "snippet": "(평양 8월 29일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/92401447d4a65432254835a1b05620ff",
+          "id": "news:kcna:48039315fad7f0137312cebd",
+          "title": "총련교육일군대표단 도착",
+          "date": "2026-08-30",
+          "snippet": "총련교육일군대표단 도착",
+          "url": "http://www.kcna.kp/kp/gallery/detail/6c1a6ef7eee37df1ff3ada9b382aa900",
           "mediaType": "article",
           "categories": [
-            "domestic",
-            "social"
+            "photo"
           ],
           "categoryOrders": {
-            "domestic": 22,
-            "social": 1
+            "photo": 3
           },
           "featuredSections": [
-            "social"
+            "photo"
           ],
           "hasImage": true,
           "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29a13f378b52420d2f1b47cb83855d976f",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/6a9df6cbd726c7b67db42774540cc2f47b49e5537c427512d7081fd40ac7a195.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A7eb4a8c9db8d6f61a1ecaaa3"
+          "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29de61021e0b6a2977896f9350ad1577d4",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/0d82586b7ae2a202699c4715f736755634b0b8982d2155807456aec6374c1294.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A48039315fad7f0137312cebd"
         },
         {
           "id": "news:kcna:c293c4ea102ba395361e77a7",
@@ -484,7 +507,7 @@
             "foreign"
           ],
           "categoryOrders": {
-            "international": 22,
+            "international": 28,
             "foreign": 1
           },
           "featuredSections": [
@@ -497,18 +520,18 @@
           "detailUrl": "/news/document?id=news%3Akcna%3Afc8a2a2b05a28962bdd220da"
         },
         {
-          "id": "news:kcna:4e774fec393173e62a7ec73a",
-          "title": "각지에서 청년절을 뜻깊게 기념",
+          "id": "news:kcna:7eb4a8c9db8d6f61a1ecaaa3",
+          "title": "청년절기념 청년학생들의 무도회 진행",
           "date": "2026-08-29",
           "snippet": "(평양 8월 29일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/35dc9712f4a14b7f8b062bbbd1b10d98",
+          "url": "http://www.kcna.kp/kp/article/detail/92401447d4a65432254835a1b05620ff",
           "mediaType": "article",
           "categories": [
             "domestic",
             "social"
           ],
           "categoryOrders": {
-            "domestic": 23,
+            "domestic": 26,
             "social": 2
           },
           "featuredSections": [
@@ -516,9 +539,9 @@
           ],
           "hasImage": true,
           "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29a570d07df5120405a13da2a653e2a42d",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/090258238fe3460de1dbcb306de734adb791ffe82a03c238e1a696981e673c6e.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A4e774fec393173e62a7ec73a"
+          "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29a13f378b52420d2f1b47cb83855d976f",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/6a9df6cbd726c7b67db42774540cc2f47b49e5537c427512d7081fd40ac7a195.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A7eb4a8c9db8d6f61a1ecaaa3"
         },
         {
           "id": "news:kcna:ec8b19dac8b2967c618b2e29",
@@ -533,7 +556,7 @@
           ],
           "categoryOrders": {
             "foreign": 2,
-            "domestic": 34
+            "domestic": 38
           },
           "featuredSections": [
             "foreign"
@@ -543,6 +566,30 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29aa2fea2280ff704788fc3f87f0f68b62",
           "cachedThumbnailUrl": "/data/news/assets/kcna/665b9d9617a92b9f0284eebdeed231c6e26f27df9755ed92258695bdecf87f54.jpg",
           "detailUrl": "/news/document?id=news%3Akcna%3Aec8b19dac8b2967c618b2e29"
+        },
+        {
+          "id": "news:kcna:4e774fec393173e62a7ec73a",
+          "title": "각지에서 청년절을 뜻깊게 기념",
+          "date": "2026-08-29",
+          "snippet": "(평양 8월 29일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/35dc9712f4a14b7f8b062bbbd1b10d98",
+          "mediaType": "article",
+          "categories": [
+            "domestic",
+            "social"
+          ],
+          "categoryOrders": {
+            "domestic": 27,
+            "social": 3
+          },
+          "featuredSections": [
+            "social"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29a570d07df5120405a13da2a653e2a42d",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/090258238fe3460de1dbcb306de734adb791ffe82a03c238e1a696981e673c6e.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A4e774fec393173e62a7ec73a"
         },
         {
           "id": "news:kcna:9921337231f802608ba993fc",
@@ -556,8 +603,8 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 27,
-            "social": 3
+            "domestic": 31,
+            "social": 4
           },
           "featuredSections": [
             "social"
@@ -579,7 +626,7 @@
             "photo"
           ],
           "categoryOrders": {
-            "photo": 3
+            "photo": 4
           },
           "featuredSections": [
             "photo"
@@ -589,52 +636,6 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29a570d07df5120405a13da2a653e2a42d",
           "cachedThumbnailUrl": "/data/news/assets/kcna/090258238fe3460de1dbcb306de734adb791ffe82a03c238e1a696981e673c6e.jpg",
           "detailUrl": "/news/document?id=news%3Akcna%3Af1452b7349d6255a1a901648"
-        },
-        {
-          "id": "news:kcna:dfa158057d77d2e5f7ef8688",
-          "title": "청년절기념 청년학생들의 무도회 진행",
-          "date": "2026-08-29",
-          "snippet": "청년절기념 청년학생들의 무도회 진행",
-          "url": "http://www.kcna.kp/kp/gallery/detail/055627160d97b212aa30a292608a25a4",
-          "mediaType": "article",
-          "categories": [
-            "photo"
-          ],
-          "categoryOrders": {
-            "photo": 4
-          },
-          "featuredSections": [
-            "photo"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29a13f378b52420d2f1b47cb83855d976f",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/6a9df6cbd726c7b67db42774540cc2f47b49e5537c427512d7081fd40ac7a195.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3Adfa158057d77d2e5f7ef8688"
-        },
-        {
-          "id": "news:kcna:f8bae31af14e43652f8bf1ca",
-          "title": "당과 정부의 간부들 각지 청년들과 함께 청년절을 기념",
-          "date": "2026-08-29",
-          "snippet": "(평양 8월 29일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/d867ae1d5a411adcff8d26ee4dae8804",
-          "mediaType": "article",
-          "categories": [
-            "domestic",
-            "social"
-          ],
-          "categoryOrders": {
-            "domestic": 30,
-            "social": 4
-          },
-          "featuredSections": [
-            "social"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2985c7301235d63977f45c0f311eb04c69",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/9363c411a43cf0db24a03a3922c12988315fa63317331f82f2e8fe739e1c618f.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3Af8bae31af14e43652f8bf1ca"
         },
         {
           "id": "news:kcna:3cf99086fb550851961e4358",
@@ -651,7 +652,7 @@
           "categoryOrders": {
             "important": 1,
             "foreign": 3,
-            "domestic": 35
+            "domestic": 39
           },
           "featuredSections": [
             "important",
@@ -662,28 +663,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A3cf99086fb550851961e4358"
-        },
-        {
-          "id": "news:kcna:f145d29a023c9491077b8fb5",
-          "title": "훌륭한 인생길을 끝까지 걸어가도록",
-          "date": "2026-08-28",
-          "snippet": "2021년 청년절을 맞으며 성대한 경축행사를 조직해주신 경애하는 아버지 김정은원수님께서는 사회주의건설의 어렵고 힘든 부문에 탄원진출하여 인생의 새 출발을 한 여러 청년을 만나주시였다.",
-          "url": "http://www.kcna.kp/kp/article/detail/767c853dc2829365691a086e9e10caac",
-          "mediaType": "article",
-          "categories": [
-            "anecdote"
-          ],
-          "categoryOrders": {
-            "anecdote": 1
-          },
-          "featuredSections": [
-            "anecdote"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Af145d29a023c9491077b8fb5"
         },
         {
           "id": "news:kcna:6af03770fc6319a2b38ce205",
@@ -708,6 +687,28 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A6af03770fc6319a2b38ce205"
         },
         {
+          "id": "news:kcna:f145d29a023c9491077b8fb5",
+          "title": "훌륭한 인생길을 끝까지 걸어가도록",
+          "date": "2026-08-28",
+          "snippet": "2021년 청년절을 맞으며 성대한 경축행사를 조직해주신 경애하는 아버지 김정은원수님께서는 사회주의건설의 어렵고 힘든 부문에 탄원진출하여 인생의 새 출발을 한 여러 청년을 만나주시였다.",
+          "url": "http://www.kcna.kp/kp/article/detail/767c853dc2829365691a086e9e10caac",
+          "mediaType": "article",
+          "categories": [
+            "anecdote"
+          ],
+          "categoryOrders": {
+            "anecdote": 2
+          },
+          "featuredSections": [
+            "anecdote"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Af145d29a023c9491077b8fb5"
+        },
+        {
           "id": "news:kcna:fe5721126ff1e0bdbe84a60f",
           "title": "경애하는 김정은동지께서 네팔대통령에게 위문전문을 보내시였다",
           "date": "2026-08-28",
@@ -722,7 +723,7 @@
           "categoryOrders": {
             "important": 2,
             "foreign": 4,
-            "domestic": 36
+            "domestic": 40
           },
           "featuredSections": [
             "important",
@@ -747,7 +748,7 @@
           ],
           "categoryOrders": {
             "important": 3,
-            "domestic": 48
+            "domestic": 52
           },
           "featuredSections": [
             "important"
@@ -775,7 +776,7 @@
             "important": 4,
             "document": 1,
             "foreign": 6,
-            "domestic": 59
+            "domestic": 63
           },
           "featuredSections": [
             "important",
@@ -843,7 +844,7 @@
             "foreign"
           ],
           "categoryOrders": {
-            "international": 43,
+            "international": 49,
             "foreign": 5
           },
           "featuredSections": [
@@ -956,7 +957,7 @@
           ],
           "categoryOrders": {
             "important": 5,
-            "domestic": 85
+            "domestic": 89
           },
           "featuredSections": [
             "important"
@@ -978,7 +979,7 @@
             "anecdote"
           ],
           "categoryOrders": {
-            "anecdote": 2
+            "anecdote": 3
           },
           "featuredSections": [
             "anecdote"
@@ -1000,7 +1001,7 @@
             "anecdote"
           ],
           "categoryOrders": {
-            "anecdote": 3
+            "anecdote": 4
           },
           "featuredSections": [
             "anecdote"
@@ -1026,7 +1027,7 @@
           "categoryOrders": {
             "important": 7,
             "document": 2,
-            "domestic": 133
+            "domestic": 137
           },
           "featuredSections": [
             "document"
@@ -1052,7 +1053,7 @@
           "categoryOrders": {
             "important": 8,
             "document": 3,
-            "domestic": 144
+            "domestic": 148
           },
           "featuredSections": [
             "document"
@@ -1062,28 +1063,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=kcna-8bca70b499b526e4"
-        },
-        {
-          "id": "kcna-d0572926485b5f56",
-          "title": "실지 쓸모있는 산으로",
-          "date": "2026-08-18",
-          "snippet": "경애하는 김정은동지께서는 2019년 6월 어느날 당중앙위원회 책임일군들과 담화를 나누시다가 산림을 유용하게 조성하여 리용하는 문제를 화제에 올리시였다.",
-          "url": "http://www.kcna.kp/kp/article/detail/3c6961de3c3c339a01f5d994573de1cb",
-          "mediaType": "article",
-          "categories": [
-            "anecdote"
-          ],
-          "categoryOrders": {
-            "anecdote": 4
-          },
-          "featuredSections": [
-            "anecdote"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=kcna-d0572926485b5f56"
         },
         {
           "id": "kcna-7d168175803e5a17",
@@ -1165,7 +1144,7 @@
           ],
           "categoryOrders": {
             "important": 23,
-            "international": 148,
+            "international": 154,
             "document": 5
           },
           "featuredSections": [
@@ -1192,7 +1171,7 @@
           "categoryOrders": {
             "important": 27,
             "document": 6,
-            "domestic": 275
+            "domestic": 279
           },
           "featuredSections": [
             "document"

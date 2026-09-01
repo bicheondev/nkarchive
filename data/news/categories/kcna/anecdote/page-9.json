@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "6098c580cb6bded2",
+  "version": "c8c23ef4431339b3",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "anecdote",
   "page": 9,
   "pageSize": 5,
-  "totalItems": 101,
+  "totalItems": 102,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:a15b5ffd570a756718f01eae",
+      "title": "아동양말에 새겨진 세 친구",
+      "date": "2026-05-11",
+      "snippet": "경애하는 김정은동지께서 2014년 8월 어느날 평양양말공장을 찾으시였을 때였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/2e04dc0bd8b6aed3f2c7ef7e749d2f09",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 40
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa15b5ffd570a756718f01eae"
+    },
     {
       "id": "news:kcna:ce6e71344a0a92d0599849f4",
       "title": "우리의것을 귀중히 여기도록",
@@ -22,7 +42,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 40
+        "anecdote": 41
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 41
+        "anecdote": 42
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 42
+        "anecdote": 43
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 43
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A04abc52a2d4317801e3494ba"
-    },
-    {
-      "id": "news:kcna:d0f267a3c807fa95ffbd886d",
-      "title": "사소한 결점도 있어서는 안된다고 하시며",
-      "date": "2026-04-24",
-      "snippet": "경애하는 김정은동지께서 2025년 9월 18일 신의주온실종합농장건설 및 지역개발사업을 현지에서 지도하시던 때의 일이다.",
-      "url": "http://www.kcna.kp/kp/article/detail/7e63dc7e259d272e86927dd514d7e5c5",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 44
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad0f267a3c807fa95ffbd886d"
+      "detailUrl": "/news/document?id=news%3Akcna%3A04abc52a2d4317801e3494ba"
     }
   ]
 }

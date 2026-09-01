@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "6098c580cb6bded2",
+  "version": "c8c23ef4431339b3",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,95 @@
   "section": "domestic",
   "page": 750,
   "pageSize": 5,
-  "totalItems": 4151,
-  "totalPages": 831,
+  "totalItems": 4148,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:2c5a13fbbaf465dbbdbf29b9",
+      "title": "각지 농촌들에서 기본면적의 강냉이가을 결속",
+      "date": "2025-10-08",
+      "snippet": "(평양 10월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b23dbc2cc518b874deb5c70a52b959ab",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3746
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2c5a13fbbaf465dbbdbf29b9"
+    },
+    {
+      "id": "news:kcna:9d1d326479fdb020642633f7",
+      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 외국의 정당,인사,해외연고자가족,재중동포들이 꽃바구니를 보내여왔다",
+      "date": "2025-10-08",
+      "snippet": "(평양 10월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/74c879eec55d703dc0a09494e39064bd",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 674,
+        "domestic": 3747
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bbeca2da143c5cf24cbfbd3ee9a64e000e",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/2af5b646c35c50590a23741e12d1f66497fd9d48b1a131b26c1d2a8141e2cf97.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9d1d326479fdb020642633f7"
+    },
+    {
+      "id": "news:kcna:afe6b4d70488eb5becadebb6",
+      "title": "평안남도 평원군 삼봉리와 운봉리에서 새집들이 진행",
+      "date": "2025-10-08",
+      "snippet": "(평양 10월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f0cb9a087973dedd6b4cada30bc07b38",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 3748,
+        "social": 606
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12a74a684a562be30ed159575a981c470b",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/23c2e0c5054610196c1a22643d3eec21cad0c6ad9262f705c1a22af8fb754f8c.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aafe6b4d70488eb5becadebb6"
+    },
+    {
+      "id": "news:kcna:2ad66b35370ba976f1b87660",
+      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 니까라과공화국 공동대통령들이 꽃바구니를 보내여왔다",
+      "date": "2025-10-08",
+      "snippet": "(평양 10월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e5d9c59679e6fb758260babf1180b9c7",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 675,
+        "domestic": 3749
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bba32ba9445341bee603374f6e0be0a489",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/63f96c5eadd6ab8a5432f4d682e0a62c11403dc94d16f30a10c2a370c59d63e7.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2ad66b35370ba976f1b87660"
+    },
     {
       "id": "news:kcna:44bb7638eb73e5c009deb0ed",
       "title": "세계민주청년련맹 위원장 도착",
@@ -24,7 +110,7 @@
       ],
       "categoryOrders": {
         "foreign": 676,
-        "domestic": 3746
+        "domestic": 3750
       },
       "featuredSections": [],
       "hasImage": true,
@@ -32,92 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c1227e62b6476c2894a91a45da62296d066",
       "cachedThumbnailUrl": "/data/news/assets/kcna/92969bfc2116414431a6b737b8e8d00469a66d1509926082ffac95cd2958dbae.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A44bb7638eb73e5c009deb0ed"
-    },
-    {
-      "id": "news:kcna:e7c426c640f84c7d3f8d9f67",
-      "title": "조선로동당창건 80돐경축 국가도서전람회 개막",
-      "date": "2025-10-08",
-      "snippet": "(평양 10월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/23a2b358932ba26c9677f8e760cf4540",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3747
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c123c8455051ae2eaeca36340434a25b438",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/d124dd8b0a74cd92320fbaab98eb6d08ea49d277c057c07fdb53f164fb406af3.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae7c426c640f84c7d3f8d9f67"
-    },
-    {
-      "id": "news:kcna:b3172315188d348906ec1274",
-      "title": "조선로동당창건 80돐경축 사진전람회 각 도,시,군들에서 련일 진행",
-      "date": "2025-10-08",
-      "snippet": "(평양 10월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a44c934ac821513f96e3294c04466e4f",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3748
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab3172315188d348906ec1274"
-    },
-    {
-      "id": "news:kcna:4bf862c7e13b209564c0678e",
-      "title": "조선로동당창건 80돐경축 재일본조선인축하단 도착",
-      "date": "2025-10-08",
-      "snippet": "(평양 10월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6c23a8a422575c715651fde32166c0f8",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 677,
-        "domestic": 3749
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c126f93c2b182b65a98517157edc9474122",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/bd751e9d31a674b3181a94653dd6f8a0d4d51408ed36f7faeab926d92856bef1.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4bf862c7e13b209564c0678e"
-    },
-    {
-      "id": "news:kcna:8c209faae5433703ee4db893",
-      "title": "라오스인민혁명당 중앙위원회 총비서,라오스인민민주주의공화국 주석 통룬 씨쑤릿동지 평양 도착",
-      "date": "2025-10-08",
-      "snippet": "(평양 10월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/80ab27380b8164559a53b3883737f41c",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 450,
-        "foreign": 678,
-        "domestic": 3750
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb82b7199674eed4c5da79620e5648ba2c",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/da205f8617f42522ee23cadb46a783f56ecc2ab2719865871ee29f5fcd359204.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8c209faae5433703ee4db893"
     }
   ]
 }

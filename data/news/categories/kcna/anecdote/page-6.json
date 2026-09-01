@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "6098c580cb6bded2",
+  "version": "c8c23ef4431339b3",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "anecdote",
   "page": 6,
   "pageSize": 5,
-  "totalItems": 101,
+  "totalItems": 102,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:f679f714ebe25553113eb951",
+      "title": "몸소 밝혀주신 명안",
+      "date": "2026-06-15",
+      "snippet": "경애하는 김정은동지께서는 2018년 5월 어느날 완공된 고암-답촌철길을 돌아보시려 현지에 나오시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/b58628cf95681e16d5780d7198494478",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 25
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af679f714ebe25553113eb951"
+    },
     {
       "id": "news:kcna:23708df1c13c05f00ca85667",
       "title": "깊이 관심하신 약국문제",
@@ -22,7 +42,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 25
+        "anecdote": 26
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 26
+        "anecdote": 27
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 27
+        "anecdote": 28
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 28
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab1e19d3e7c6b61f519b5af1e"
-    },
-    {
-      "id": "news:kcna:62b1688df39eb35305240226",
-      "title": "새로 내오도록 하신 겨울철야영체계",
-      "date": "2026-06-03",
-      "snippet": "경애하는 아버지 김정은원수님께서는 2013년 5월 어느날 송도원국제소년단야영소를 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/82195a871e01fb8c5bbb33c753f41ab7",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 29
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A62b1688df39eb35305240226"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab1e19d3e7c6b61f519b5af1e"
     }
   ]
 }

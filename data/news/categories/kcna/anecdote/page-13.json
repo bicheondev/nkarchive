@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "6098c580cb6bded2",
+  "version": "c8c23ef4431339b3",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "anecdote",
   "page": 13,
   "pageSize": 5,
-  "totalItems": 101,
+  "totalItems": 102,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:5b9f959e5d89adfc468967c9",
+      "title": "몸소 가늠해보신 물온도",
+      "date": "2026-03-12",
+      "snippet": "경애하는 김정은동지께서 2025년 12월 19일 준공을 맞이한 신포시식료공장을 돌아보시던 때에 있은 일이다.",
+      "url": "http://www.kcna.kp/kp/article/detail/fdb069557a67fc12ccc903d8fd86b61d",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 60
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5b9f959e5d89adfc468967c9"
+    },
     {
       "id": "news:kcna:c8c58d438573cd9a1d84f31b",
       "title": "우리의 설비와 자재로 우리의것을",
@@ -22,7 +42,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 60
+        "anecdote": 61
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 61
+        "anecdote": 62
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 62
+        "anecdote": 63
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 63
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A29d317a1e7b7cd2a9ee66998"
-    },
-    {
-      "id": "news:kcna:16510d6f28d90f21641ef4ce",
-      "title": "전문맥주집으로서의 멋이 직관적으로 나타나도록",
-      "date": "2026-02-09",
-      "snippet": "경애하는 김정은동지께서 2024년 4월 어느날 개업을 앞둔 화성대동강맥주집을 찾으시였을 때이다.",
-      "url": "http://www.kcna.kp/kp/article/detail/d727332f16137051386d98d8fbfac271",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 64
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A16510d6f28d90f21641ef4ce"
+      "detailUrl": "/news/document?id=news%3Akcna%3A29d317a1e7b7cd2a9ee66998"
     }
   ]
 }

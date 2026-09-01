@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "6098c580cb6bded2",
+  "version": "c8c23ef4431339b3",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,20 +8,24 @@
   "section": "domestic",
   "page": 65,
   "pageSize": 5,
-  "totalItems": 4151,
-  "totalPages": 831,
+  "totalItems": 4148,
+  "totalPages": 830,
   "articles": [
     {
-      "id": "news:kcna:0b269901fa360aaa57a684f3",
-      "title": "홰불컵축구경기 시작",
-      "date": "2026-08-03",
-      "snippet": "(평양 8월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/79bdeea82ca403c7baf43d99555d49cd",
+      "id": "news:kcna:49516c81876794d59169bc5b",
+      "title": "조선민주주의인민공화국 외무성 대변인 미국이 주장하는 《싸이버위협설》을 무근거한 중상모략으로 일축",
+      "date": "2026-08-04",
+      "snippet": "(평양 8월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/88e2c2a3487746298b9cab4b388da292",
       "mediaType": "article",
       "categories": [
+        "important",
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 31,
+        "foreign": 45,
         "domestic": 320
       },
       "featuredSections": [],
@@ -29,14 +33,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0b269901fa360aaa57a684f3"
+      "detailUrl": "/news/document?id=news%3Akcna%3A49516c81876794d59169bc5b"
     },
     {
-      "id": "news:kcna:07cf9408a31e10645c0fdbd3",
-      "title": "남포학생소년궁전 새로 건설,준공식 진행",
-      "date": "2026-08-03",
-      "snippet": "(평양 8월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b3acae986a364786d6d2f3d0a52e5d43",
+      "id": "news:kcna:0a55eedcb19f76653b8587ba",
+      "title": "우리 나라의 비물질문화유산들--조선식지붕양식",
+      "date": "2026-08-04",
+      "snippet": "(평양 8월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/00711d10608b94f9cd1046eb3831489a",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -45,38 +49,40 @@
         "domestic": 321
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A07cf9408a31e10645c0fdbd3"
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29f84b97d3f6cfa34ad45ab375d9e78eec",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/b5906916a9798fb3fdf60b13a8956876638cf79486ce0a9278704bd4b1705f20.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0a55eedcb19f76653b8587ba"
     },
     {
-      "id": "news:kcna:c3630ab3a47ec08e9d2bed0a",
-      "title": "2026년 8월 3일 《로동신문》개관",
+      "id": "news:kcna:ac6d8a4c50015e6863a3a053",
+      "title": "인민의 문명 나날이 꽃피는 지방의 대중문화생활거점들",
       "date": "2026-08-03",
       "snippet": "(평양 8월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/05ff5e81dc640c2a65647979a884c626",
+      "url": "http://www.kcna.kp/kp/article/detail/a26b6665a151d18a74d886b8031e257a",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 322
+        "domestic": 322,
+        "social": 45
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac3630ab3a47ec08e9d2bed0a"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aac6d8a4c50015e6863a3a053"
     },
     {
-      "id": "news:kcna:20740edabb234dca858aafa4",
-      "title": "황해북도의 농촌들에서 자연재해를 극복하기 위한 농업기술적대책 강구",
+      "id": "news:kcna:8cedc7f7dceed44f7773d765",
+      "title": "《보통교육부문 교수방법토론회 및 교양경험발표회-2026》 진행",
       "date": "2026-08-03",
       "snippet": "(평양 8월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a15c3bd78dbea7c6811fd90f2aee1585",
+      "url": "http://www.kcna.kp/kp/article/detail/d62f965b181d5b95c38b90999f89c4f9",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -89,14 +95,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A20740edabb234dca858aafa4"
+      "detailUrl": "/news/document?id=news%3Akcna%3A8cedc7f7dceed44f7773d765"
     },
     {
-      "id": "news:kcna:a5fee4038dc1c3082d220f2f",
-      "title": "인민경제 여러 부문,단위에서 7월 인민경제계획 완수",
+      "id": "news:kcna:0b269901fa360aaa57a684f3",
+      "title": "홰불컵축구경기 시작",
       "date": "2026-08-03",
       "snippet": "(평양 8월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/62c56c341353f41052a72693c713aaeb",
+      "url": "http://www.kcna.kp/kp/article/detail/79bdeea82ca403c7baf43d99555d49cd",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -109,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa5fee4038dc1c3082d220f2f"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0b269901fa360aaa57a684f3"
     }
   ]
 }

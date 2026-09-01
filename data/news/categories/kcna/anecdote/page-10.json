@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "6098c580cb6bded2",
+  "version": "c8c23ef4431339b3",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "anecdote",
   "page": 10,
   "pageSize": 5,
-  "totalItems": 101,
+  "totalItems": 102,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:d0f267a3c807fa95ffbd886d",
+      "title": "사소한 결점도 있어서는 안된다고 하시며",
+      "date": "2026-04-24",
+      "snippet": "경애하는 김정은동지께서 2025년 9월 18일 신의주온실종합농장건설 및 지역개발사업을 현지에서 지도하시던 때의 일이다.",
+      "url": "http://www.kcna.kp/kp/article/detail/7e63dc7e259d272e86927dd514d7e5c5",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 45
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad0f267a3c807fa95ffbd886d"
+    },
     {
       "id": "news:kcna:fc9a2d17ce81dfec3c4aaaac",
       "title": "몸소 보아주신 장맛",
@@ -22,7 +42,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 45
+        "anecdote": 46
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 46
+        "anecdote": 47
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 47
+        "anecdote": 48
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 48
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab7a681dc9338c73b75d76917"
-    },
-    {
-      "id": "news:kcna:302fe9e89d62bf7801f77eb9",
-      "title": "몸소 과자맛도 보아주시며",
-      "date": "2026-04-09",
-      "snippet": "경애하는 김정은동지께서는 2025년 1월 어느날 재령군 지방공업공장들을 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/db571c55947ac2a9b4ed0c70829ac2c5",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 49
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A302fe9e89d62bf7801f77eb9"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab7a681dc9338c73b75d76917"
     }
   ]
 }
