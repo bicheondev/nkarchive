@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "c8c23ef4431339b3",
+  "generatedAt": "2026-09-02T00:00:00.000Z",
+  "version": "aa29ffcecb24b81c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "important",
   "page": 6,
   "pageSize": 5,
-  "totalItems": 522,
+  "totalItems": 523,
   "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:1d2635a148725e4043e8f2c2",
+      "title": "일본고위정객들의 핵보유주장과 때를 같이한 《원자력활용》정책은 무엇을 시사해주는가",
+      "date": "2026-08-12",
+      "snippet": "(평양 8월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/daabbe7fa72bccb30c691581eb9558a0",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international"
+      ],
+      "categoryOrders": {
+        "important": 25,
+        "international": 155
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1d2635a148725e4043e8f2c2"
+    },
     {
       "id": "news:kcna:b6166c0b76b250c81d028f3a",
       "title": "일본의 《방위백서》는 전쟁기계가동의 합법화를 노린 재침백서이다",
@@ -23,7 +45,7 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 25,
+        "important": 26,
         "international": 164
       },
       "featuredSections": [],
@@ -45,8 +67,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 26,
-        "domestic": 269
+        "important": 27,
+        "domestic": 275
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,9 +90,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 27,
+        "important": 28,
         "document": 6,
-        "domestic": 279
+        "domestic": 285
       },
       "featuredSections": [
         "document"
@@ -93,8 +115,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 28,
-        "domestic": 280
+        "important": 29,
+        "domestic": 286
       },
       "featuredSections": [],
       "hasImage": true,
@@ -102,32 +124,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f292373a0e42c14bb9f8e533b25a09bcbfb",
       "cachedThumbnailUrl": "/data/news/assets/kcna/e30e295d50c9d736d2bde1ea1329091a8ce766182d7856663c25fd028ac06fb7.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Aab476e00f7ef4e48a3f8c722"
-    },
-    {
-      "id": "kcna-cad58de86ad14a59",
-      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
-      "date": "2026-08-05",
-      "snippet": "(평양 8월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/11d0fe97ec038b7c039e4943877e38f7",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 29,
-        "document": 7,
-        "foreign": 44,
-        "domestic": 307
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-cad58de86ad14a59"
     }
   ]
 }

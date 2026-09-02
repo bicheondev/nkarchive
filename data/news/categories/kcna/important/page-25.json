@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "c8c23ef4431339b3",
+  "generatedAt": "2026-09-02T00:00:00.000Z",
+  "version": "aa29ffcecb24b81c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "important",
   "page": 25,
   "pageSize": 5,
-  "totalItems": 522,
+  "totalItems": 523,
   "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:5f30e8e6ef96a9dbdec312ed",
+      "title": "경애하는 김정은원수님께 재중조선인청년협회축하단 성원들이 편지를 올리였다",
+      "date": "2026-05-11",
+      "snippet": "(평양 5월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e08a80a740e63c56389ad17e17b8faa7",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 120,
+        "domestic": 1242
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5f30e8e6ef96a9dbdec312ed"
+    },
     {
       "id": "news:kcna:f33dfbc3658714a2df9afaeb",
       "title": "조선인민군 륙해공군혼성종대 모스크바승리열병식에 참가",
@@ -24,9 +46,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 120,
+        "important": 121,
         "international": 822,
-        "foreign": 183
+        "foreign": 184
       },
       "featuredSections": [],
       "hasImage": true,
@@ -47,7 +69,7 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 121,
+        "important": 122,
         "international": 824
       },
       "featuredSections": [],
@@ -70,9 +92,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 122,
-        "foreign": 186,
-        "domestic": 1254
+        "important": 123,
+        "foreign": 187,
+        "domestic": 1260
       },
       "featuredSections": [],
       "hasImage": false,
@@ -93,8 +115,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 123,
-        "domestic": 1280
+        "important": 124,
+        "domestic": 1286
       },
       "featuredSections": [],
       "hasImage": true,
@@ -102,32 +124,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064195039d795f26cd9b3e667092b5a2d94",
       "cachedThumbnailUrl": "/data/news/assets/kcna/2ebcf17e6c2c04b760f1187ce0fa1b4c17972e20c77f23d3cc206e729057b241.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A417f00833c59428e39e8f150"
-    },
-    {
-      "id": "news:kcna:6ccce15c3e217e61d8f0b379",
-      "title": "김성 유엔주재 조선민주주의인민공화국 상임대표 담화 발표",
-      "date": "2026-05-07",
-      "snippet": "(평양 5월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/953ee4919cb8f19e040ba2b88e8bf277",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "document",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 124,
-        "international": 851,
-        "document": 19,
-        "foreign": 189
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6ccce15c3e217e61d8f0b379"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "c8c23ef4431339b3",
+  "generatedAt": "2026-09-02T00:00:00.000Z",
+  "version": "aa29ffcecb24b81c",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,15 +8,15 @@
   "section": "anecdote",
   "page": 50,
   "pageSize": 5,
-  "totalItems": 247,
+  "totalItems": 249,
   "totalPages": 50,
   "articles": [
     {
-      "id": "news:rodong-sinmun:b8275af785758a2155e43b97",
-      "title": "위대하신 우리 어버이 일편단심 따르고 받들리",
-      "date": "2026-01-01",
-      "snippet": "위대하신 우리 어버이 일편단심 따르고 받들리",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wMS0wMzBAM0AxN0BAMEAyNDZA==",
+      "id": "news:rodong-sinmun:4be04a64d7529cae28935184",
+      "title": "《아버지원수님, 정말 고맙습니다!》\n뜻깊은 새해를 맞으며 온 나라의 어린이들과 소학교학생들이 사랑의 선물을 받아안았다",
+      "date": "2026-01-02",
+      "snippet": "《아버지원수님, 정말 고맙습니다!》",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wMi0wMThAM0AxN0BAMEAyNDZA==",
       "mediaType": "article",
       "categories": [
         "anecdote"
@@ -25,18 +25,18 @@
         "anecdote": 80
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ab8275af785758a2155e43b97"
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/54e4cee72760ca1551f41a11416fcfb5c76faa970ac2d0282a791f292e6fbc13.jpg",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A4be04a64d7529cae28935184"
     },
     {
-      "id": "news:rodong-sinmun:13fc0096e4870858572e3923",
-      "title": "문명개화의 새 모습을 자랑하는 산골농장들\n덕천시 구장농장, 무안농장과 신양군 삼파농장에서 새집들이 진행",
-      "date": "2026-01-01",
-      "snippet": "문명개화의 새 모습을 자랑하는 산골농장들",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wMS0wMjdAM0AxN0BAMEAyNDdA==",
+      "id": "news:rodong-sinmun:e4aab406a0526514dffa3847",
+      "title": "공업도시 함흥시의 자랑을 더해주는 새집들이경사\n함흥시 초운농장, 회상구역 쌍봉농장에서 살림집입사모임 진행",
+      "date": "2026-01-02",
+      "snippet": "공업도시 함흥시의 자랑을 더해주는 새집들이경사",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wMi0wMjNAM0AxN0BAMEAyNDdA==",
       "mediaType": "article",
       "categories": [
         "anecdote"
@@ -48,8 +48,48 @@
       "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "",
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/7ef527aa144e8da89764302fe0b411bb0de76a5c5763a10c4b0b43396ac0e1ef.jpg",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ae4aab406a0526514dffa3847"
+    },
+    {
+      "id": "news:rodong-sinmun:d0cbb58e048ab08dd2508deb",
+      "title": "위대하신 우리 어버이 일편단심 따르고 받들리",
+      "date": "2026-01-01",
+      "snippet": "위대하신 우리 어버이 일편단심 따르고 받들리",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wMS0wMzBAM0AxN0BAMEAyNDhA==",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 82
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ad0cbb58e048ab08dd2508deb"
+    },
+    {
+      "id": "news:rodong-sinmun:44ac38f5789a0f6886ee56f3",
+      "title": "문명개화의 새 모습을 자랑하는 산골농장들\n덕천시 구장농장, 무안농장과 신양군 삼파농장에서 새집들이 진행",
+      "date": "2026-01-01",
+      "snippet": "문명개화의 새 모습을 자랑하는 산골농장들",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wMS0wMjdAM0AxN0BAMEAyNDlA==",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 83
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "",
       "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/86c02d41280d4e053cbf3632d82626acc3ccba8c94fb4c4d08285a742cd51344.jpg",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A13fc0096e4870858572e3923"
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A44ac38f5789a0f6886ee56f3"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "c8c23ef4431339b3",
+  "generatedAt": "2026-09-02T00:00:00.000Z",
+  "version": "aa29ffcecb24b81c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 6,
   "pageSize": 5,
-  "totalItems": 221,
+  "totalItems": 222,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:59c0a9255fe7ff14269a3306",
+      "title": "탄부들을 위해 날은 비행기",
+      "date": "2026-07-23",
+      "snippet": "1975년 8월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/6472eec2c1e1f975209a93d2c9a2e2d6",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 25
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A59c0a9255fe7ff14269a3306"
+    },
     {
       "id": "news:kcna:d98524016ca3019e07c7cfed",
       "title": "토끼기르기를 결심하신 사연",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 25
+        "memory": 26
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 26
+        "memory": 27
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 27
+        "memory": 28
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 28
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A839f6dd210beabee912551ca"
-    },
-    {
-      "id": "news:kcna:0ce5fa3b5463cc3a0603fd26",
-      "title": "한 인민군전사의 가족을 위해 펼치신 구출작전",
-      "date": "2026-07-12",
-      "snippet": "조국해방전쟁이 한창이던 1951년 11월초 어느날이였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/c38aff75eb328b129f1dfb95dcc8ef69",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 29
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0ce5fa3b5463cc3a0603fd26"
+      "detailUrl": "/news/document?id=news%3Akcna%3A839f6dd210beabee912551ca"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "c8c23ef4431339b3",
+  "generatedAt": "2026-09-02T00:00:00.000Z",
+  "version": "aa29ffcecb24b81c",
   "shard": "74",
   "articles": {
     "news:kcna:9717aaa28b7bc5bfccb29f9c": {
@@ -20,10 +20,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 0,
+        "important": 1,
         "document": 0,
-        "foreign": 0,
-        "domestic": 12
+        "foreign": 1,
+        "domestic": 18
       },
       "featuredSections": [
         "important",
@@ -49,7 +49,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 365
+        "domestic": 371
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dc8fb70b03e5f3388cbb9ead39d0d29f8",
@@ -364,7 +364,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 109
+        "photo": 110
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d413fb9e2064fbded001f5703b40490bf",
@@ -477,7 +477,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 715
+        "domestic": 721
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -500,8 +500,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 756,
-        "social": 89
+        "domestic": 762,
+        "social": 91
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -752,7 +752,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1593
+        "domestic": 1599
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -775,8 +775,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1622,
-        "social": 167
+        "domestic": 1628,
+        "social": 169
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -798,7 +798,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 90
+        "memory": 91
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -842,7 +842,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1781
+        "domestic": 1787
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -969,8 +969,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 223,
-        "domestic": 1857
+        "important": 224,
+        "domestic": 1863
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1014,7 +1014,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2256
+        "domestic": 2262
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1081,8 +1081,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3112,
-        "social": 498
+        "domestic": 3118,
+        "social": 500
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eaca39b68df7bae64b92e1b3795c70102e7",
@@ -1159,7 +1159,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 702
+        "photo": 703
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac63f5b1ac04ed03c73db84603089fcd57",
@@ -1461,7 +1461,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3329
+        "domestic": 3335
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1484,8 +1484,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 401,
-        "domestic": 3393
+        "important": 402,
+        "domestic": 3399
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d939330e5b8851b570226cde65304af2a56e227",
@@ -1548,7 +1548,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 224
+        "video": 225
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1587,7 +1587,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3885
+        "domestic": 3891
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1611,7 +1611,7 @@
       ],
       "categoryOrders": {
         "international": 2546,
-        "foreign": 711
+        "foreign": 712
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1657,9 +1657,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 490,
+        "important": 491,
         "international": 2691,
-        "foreign": 736
+        "foreign": 737
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1681,7 +1681,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 1020
+        "photo": 1021
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/3d3755d837f6dc968fa55dbecad26d22ecaee7425c218fac3127254ef9244e42",
@@ -1870,58 +1870,26 @@
       ],
       "videos": []
     },
-    "news:rodong-sinmun:6eed565b2cbcdaf8d2cbc19e": {
-      "id": "news:rodong-sinmun:6eed565b2cbcdaf8d2cbc19e",
-      "title": "전면적국가부흥의 새시대는 이렇게 개척되였다\n새로운 보건혁명\n깊이 마음쓰신 지방병원들의 운영문제",
-      "date": "2026-06-20",
-      "snippet": "전면적국가부흥의 새시대는 이렇게 개척되였다",
-      "body": "전면적국가부흥의 새시대는 이렇게 개척되였다\n\n새로운 보건혁명\n\n깊이 마음쓰신 지방병원들의 운영문제\n\n경애하는 총비서동지께서는 시, 군병원들을 건설하는 문제만이 아니라 병원들의 운영문제에 대하여서도 깊이 마음쓰시였다.\n\n2025년 6월 2일 강동군병원건설장을 찾으신 경애하는 총비서동지께서는 일군들에게 앞으로 시, 군병원들을 건설한 다음 운영을 잘하여야 한다고 간곡히 이르시였다.\n\n병원이 완공되면 즉시 운영이 되여 인민들의 건강증진에 이바지하게 하시려 마음쓰신 경애하는 총비서동지께서는 병원운영에서 중요한것은 의료일군들을 잘 준비시키는것이라고 깨우쳐주시였다.\n\n경애하는 총비서동지께서는 말로나 교육을 주어서는 의료일군들의 전문가적자질을 높일수 없다고 하시면서 시, 군병원들에 필요한 의료일군들을 양성할수 있는 방도에 대하여 구체적으로 밝혀주시였다.\n\n시, 군병원들을 운영하는데서 중요한것은 의약품을 정상적으로 보장하는것이라고 강조하신 경애하는 그이께서는 시, 군병원들에 필요한 의약품을 정상적으로 보장해주자면 제약공업을 발전시켜야 한다는데 대해서도 가르쳐주시였다.\n\n비단 이날만이 아니였다.\n\n2025년 11월 19일 준공을 선포한 강동군병원을 돌아보실 때에도 경애하는 총비서동지께서는 병원운영에서 나서는 중요한 문제들을 하나하나 구체적으로 밝혀주시였다.\n\n경애하는 총비서동지의 세심한 가르치심과 정력적인 지도에 의해 지방병원건설과 운영준비사업은 힘있게 병행되여 성과적으로 진척될수 있었다.\n\n본사기자",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNi0yMC0wMjNAM0A2QEAwQDc4QA==",
+    "news:rodong-sinmun:4d0dec8470283ab43824df00": {
+      "id": "news:rodong-sinmun:4d0dec8470283ab43824df00",
+      "title": "당생활은 당성, 혁명성, 인민성을 높여나가는 단련과정으로 되여야 한다",
+      "date": "2026-09-02",
+      "snippet": "당생활은 당성, 혁명성, 인민성을 높여나가는 단련과정으로 되여야 한다",
+      "body": "당생활은 당성, 혁명성, 인민성을 높여나가는 단련과정으로 되여야 한다\n\n사회주의건설의 모든 방면에서 거창한 변혁과 경이적인 혁신이 이룩되고있는 현시기 일군들이 잠시도 늦추지 말고 부단히 고양해야 할것이 있다.\n\n당성, 혁명성, 인민성이다.이 3대필수적기질은 자각적이며 성실한 당생활을 통하여 갖추어지게 된다.\n\n당성, 혁명성, 인민성을 높여나가기 위한 조직사상적단련의 강화, 여기에 일군들이 당의 핵심골간, 혁명의 정수분자로서의 본분과 중임을 다할수 있는 근본비결이 있다.\n\n경애하는 김정은동지께서는 다음과 같이 말씀하시였다.\n\n《당생활은 일군들이 당성, 혁명성, 인민성을 체득하고 공고히 하는 혁명적교양의 학교이며 혁명적단련의 용광로입니다.》\n\n당대회가 제시한 방대한 전망목표수행에서 관건적인 올해의 투쟁을 성공적인 결실들로 이어놓자면 당결정관철의 조타를 틀어잡은 일군들이 비상한 책임감과 고도의 신중성을 가지고 총진군대오의 견인기적역할을 다해나가야 한다.이는 당과 혁명에 대한 높은 충실성과 인민에 대한 헌신적복무정신을 본능적기질로, 삶의 본령으로 간직할것을 전제로 한다.\n\n일군들이 높은 당성, 투철한 혁명성을 지니고 인민의 참된 충복답게 헌신적으로 투쟁해나갈 때 부닥치는 난관과 애로를 과감히 타개해나가며 전면적국가부흥을 위한 오늘의 하루하루를 기적적성과와 위훈으로 빛내여나갈수 있다.\n\n당성, 혁명성, 인민성은 당생활을 통하여 배양되고 공고화된다.\n\n당생활의 모든 공정과 계기들은 당원들 특히 일군들에게 있어서 당성단련, 혁명적수양의 필수적인 공정이다.\n\n당회의와 당학습, 강연회 등을 통하여 일군들은 수령의 사상과 의도를 깊이 새기고 우리 당의 영광스러운 력사와 전통을 신념으로 체득하게 되며 비판과 사상투쟁의 불도가니속에서 자신을 사상적으로 단련하고 당적수양을 부단히 쌓게 된다.\n\n그러나 현실을 투시해보면 아직도 사업이 바쁘다는 구실을 내대며 당회의와 당학습에 성실히 참가하지 않거나 자기의 결함을 당조직앞에 스스로 터놓고 고쳐나가는 기풍이 부족한 일군들이 없지 않다.이런 일군들은 대체로 당정책의 진수도 모르고 사업을 즉흥적으로, 맹목적으로 전개하고 조금만 비판을 받아도 소심성에 빠져 주저앉아 오히려 지역과 단위발전에 저해를 주게 된다.\n\n당생활을 게을리하면서 혁명적수양과 단련을 소홀히 하면 당적원칙, 계급적원칙에서 탈선하게 되고 시련과 난관앞에서 동요하게 되며 나중에는 저도 모르게 변질되여 혁명의 배신자, 반역자로 굴러떨어지게 된다.\n\n이것은 혁명의 전력사적과정이 보여준 철리이다.\n\n때문에 높은 당조직관념을 지니고 평당원의 자세에서 당생활에 성실히 참가하여야 자신을 혁명적으로 수양하고 단련하여 수령에 대한 끝없는 충실성과 혁명임무에 대한 높은 책임성, 당결정에 대한 무조건적인 관철정신과 인민에 대한 헌신적복무정신을 체질화해나갈수 있다.\n\n당생활이 일군들의 혁명가적풍모를 키워나가는 정치적보약중의 보약으로 되는 근거가 바로 여기에 있다.\n\n당조직들은 일군들과 당원들의 사업과 생활을 옳바로 이끌어야 할 무거운 사명감을 항상 명심하고 오늘의 현실적요구에 맞게 당생활을 당성, 혁명성, 인민성을 높여나가는 조직사상적단련과정으로 확고히 전환시켜야 한다.\n\n그러자면 무엇보다 당생활의 정치사상적수준을 높이는것이 중요하다.\n\n당생활의 정치사상적수준을 높이는것은 당대렬안에서 부단히 신진대사가 일어나는 조건에서 보다 중요한 문제로 나서고있다.\n\n당생활의 정치사상적수준을 높여야 귀중한 정치적생명을 안겨준 당에 대한 충실성을 가슴깊이 간직하고 자각적이며 의식적인 정치활동가답게 당의 믿음에 높은 사업성과로 보답하기 위해 헌신적으로 투쟁해나갈수 있다.\n\n당조직들은 일군들과 당원들속에서 당조직관념을 바로가지도록 하는데 선차적인 힘을 넣어 언제나 성실한 자세와 립장에서 당조직을 대하고 당조직에 철저히 의거하여 사업하고 생활하도록 교양과 통제를 강화하여야 한다.\n\n세도와 관료주의, 부정축재행위, 습벽화된 해이성과 비활동적이고 비적극적인 태도를 비롯하여 당성, 혁명성이 부족하고 인민성이 결여된 현상들을 사상적으로 예리하게 분석하고 비판의 도수를 높여 철저히 극복해나가도록 하여야 한다.\n\n특히 기층당조직들의 역할을 높여 당생활지도에서 도식과 형식주의를 철저히 극복하고 대상별준비정도와 특성에 맞게 당생활을 실속있게 조직진행하여 당원들의 정치사상적수준을 끊임없이 높여나가야 한다.\n\n다음으로 중요한것은 당생활의 모든 공정과 계기를 당성, 혁명성, 인민성을 높이는데 지향시키는것이다.\n\n당회의와 당학습을 한번 조직하고 집행하여도 당의 권위보장을 사고와 활동의 출발점으로, 근본원칙으로 삼고 모든 사업을 일심단결을 강화하는 견지에서 보고 대하며 당의 로선과 정책, 당결정을 완벽하게 관철하는데 전심전력하도록 하여야 한다.\n\n당성, 혁명성, 인민성을 소유하기 위한 사업은 온갖 비당적이고 비혁명적이며 인민성이 결여된 현상과의 투쟁을 동반한다.\n\n당조직들은 일군들과 당원들이 자기 당생활을 총화하고 당적분공을 수행하는 과정도 형식주의, 요령주의, 보신주의를 비롯하여 온갖 무책임하고 주인답지 못한 일본새를 극복하는 과정, 당에서 맡겨준 혁명임무에 대한 높은 책임의식과 무한한 헌신성을 지니고 인민의 충복으로서의 본분에 충실하는 과정으로 되도록 주도하여야 한다.\n\n모든 당조직들은 당생활조직과 지도를 일군들의 당성, 혁명성, 인민성을 높이는데 철저히 지향복종시켜나감으로써 올해의 보람찬 투쟁에서 혁명의 지휘성원으로서의 책임과 역할을 다해나가도록 하여야 한다.\n\n본사기자",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wMi0wMjRAMkAxQEAwQDE0QA==",
       "mediaType": "article",
       "sourceId": "rodong-sinmun",
       "sourceName": "로동신문",
       "categories": [
-        "anecdote"
+        "important"
       ],
       "categoryOrders": {
-        "anecdote": 84
+        "important": 13
       },
       "featuredSections": [],
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "images": [],
-      "videos": []
-    },
-    "news:rodong-sinmun:c9d9847b50d1b459c628d3c7": {
-      "id": "news:rodong-sinmun:c9d9847b50d1b459c628d3c7",
-      "title": "당대회결정관철을 위한 투쟁에 더욱 박차를 가한다\n새로운 혁신창조의 불길이 타오른다\n천리마제강련합기업소에서 철강재생산계획을 매일 드팀없이 수행",
-      "date": "2026-05-25",
-      "snippet": "당대회결정관철을 위한 투쟁에 더욱 박차를 가한다",
-      "body": "당대회결정관철을 위한 투쟁에 더욱 박차를 가한다\n\n새로운 혁신창조의 불길이 타오른다\n\n천리마제강련합기업소에서 철강재생산계획을 매일 드팀없이 수행\n\n경애하는 김정은동지께서는 다음과 같이 말씀하시였다.\n\n《금속공업부문에서는 우리 식의 제철, 제강법을 더욱 완성하고 철강재생산을 늘여 인민경제 여러 부문에서 요구하는 철강재를 제때에 보장하여야 합니다.》\n\n당 제9차대회 결정관철을 위한 투쟁에 한사람같이 떨쳐나선 천리마제강련합기업소 일군들과 로동계급이 철강재생산목표를 드팀없이 수행하며 련일 혁신을 일으키고있다.\n\n사상의 힘, 대중의 정신력발동이 만사의 해결책이라는것을 지난 시기 투쟁을 통하여 더욱 깊이 새긴 련합기업소의 일군들은 천리마대고조시기 강철로 당을 받들어온 전세대 로동계급의 투쟁정신, 투쟁기풍이 일터마다에 차넘치게 하기 위한 화선식정치사업을 공세적으로 벌리고있다.그리고 한개 단위씩 맡고 내려가 로동자들과 함께 일도 하면서 현장에서 제기되는 문제들을 적시적으로 풀어나가고있다.\n\n당조직의 지도밑에 련합기업소 참모부에서는 설비의 정상운영과 보수, 관리체계를 정연하게 세운데 맞게 원료, 자재보장을 확고히 선행시키면서 생산조직과 지휘를 빈틈없이 하고있다.\n\n강철직장의 일군들과 로동자들은 초고전력전기로의 기술적특성에 맞는 작업방법을 받아들여 제강시간을 단축하고 생산성을 끌어올리는 등 가치있는 기술혁신안들을 적극 탐구도입하면서 새로운 혁신창조의 불길을 지펴올리고있다.\n\n압연직장, 쇠바줄직장의 일군들과 로동자들은 서로 돕고 이끄는 집단주의기풍을 높이 발휘하고 설비관리, 기술관리개선에 힘을 넣으면서 중요건설장들과 탄광들에 보내줄 환강, 소철레루, 쇠바줄 등의 생산에 박차를 가하고있다.\n\n가스발생로직장, 내화물직장을 비롯한 여러 단위에서도 따라앞서기, 따라배우기, 경험교환운동을 활발히 벌리며 원료, 연료보장대책을 철저히 세워 철강재생산의 동음이 힘차게 울리게 하고있다.\n\n과학기술력제고에 철강재증산의 확고한 담보가 있음을 명심한 련합기업소의 기술집단은 철강재생산을 늘이는데서 의의있는 과학기술적문제들을 풀기 위한 기술전, 탐구전을 과감히 전개하고있다.\n\n그런 속에 련합기업소에서는 활성생석회생산공정수립사업과 쇠바줄생산공정을 보다 혁신적으로 기술갱신하기 위한 사업 등 생산토대를 더욱 강화하는데서도 진전을 이룩하고있다.\n\n지금 련합기업소의 일군들과 로동계급은 당이 제시한 철강재생산목표를 기어이 점령할 일념밑에 증산의 예비와 가능성을 적극 탐구동원하면서 철강재생산과 새로운 공정확립을 위한 사업에 애국의 열정을 아낌없이 바쳐가고있다.\n\n글 및 사진 현지보도조",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNS0yNS0wMTlANEA2QEAwQDgxQA==",
-      "mediaType": "article",
-      "sourceId": "rodong-sinmun",
-      "sourceName": "로동신문",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 83
-      },
-      "featuredSections": [],
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/eb403a758315565e2ece996168f951a62d520523bc88fdc9376fb91146d4e66b.jpg",
-      "images": [
-        {
-          "id": "news:rodong-sinmun:c9d9847b50d1b459c628d3c7:image:eb403a758315565e2ece996168f951a62d520523bc88fdc9376fb91146d4e66b",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/eb403a758315565e2ece996168f951a62d520523bc88fdc9376fb91146d4e66b.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/eb403a758315565e2ece996168f951a62d520523bc88fdc9376fb91146d4e66b.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNS0yNS0wMTlANEA2QEAwQDgxQA==",
-          "displayOrder": 0
-        }
-      ],
       "videos": []
     },
     "news:rodong-sinmun:faa4d492de89ca7c6e8a4c3c": {

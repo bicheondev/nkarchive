@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "c8c23ef4431339b3",
+  "generatedAt": "2026-09-02T00:00:00.000Z",
+  "version": "aa29ffcecb24b81c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "memory",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 221,
+  "totalItems": 222,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:b8f69f36f37c1d588cbbac1b",
+      "title": "《양우장농》",
+      "date": "2026-09-02",
+      "snippet": "위대한 수령 김일성동지께서는 1948년 1월 어느날 대소한의 추위도 마다하지 않으시고 자강도의 한 농촌마을을 찾으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/c8323553e4c8c77ffa3eb57388f1f4b5",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 0
+      },
+      "featuredSections": [
+        "memory"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab8f69f36f37c1d588cbbac1b"
+    },
     {
       "id": "news:kcna:8db86f7748a18d40c731dcad",
       "title": "논물까지 맛보시며",
@@ -22,7 +44,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 0
+        "memory": 1
       },
       "featuredSections": [
         "memory"
@@ -44,7 +66,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 1
+        "memory": 2
       },
       "featuredSections": [
         "memory"
@@ -66,7 +88,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 2
+        "memory": 3
       },
       "featuredSections": [
         "memory"
@@ -88,28 +110,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 3
-      },
-      "featuredSections": [
-        "memory"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ada529f9da9767bd1b5268965"
-    },
-    {
-      "id": "news:kcna:519facd3ac7fde7b0b528b7c",
-      "title": "고향과 조국에 대한 사랑을 심어주시며",
-      "date": "2026-08-25",
-      "snippet": "위대한 수령 김일성동지께서는 조국해방전쟁이 한창이던 1950년 8월 어느날 서흥군에서 철길복구장으로 나가는 처녀들을 만나게 되시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/edbccb7d627e84d23cfa19885c540b19",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 4
       },
       "featuredSections": [
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A519facd3ac7fde7b0b528b7c"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ada529f9da9767bd1b5268965"
     }
   ]
 }

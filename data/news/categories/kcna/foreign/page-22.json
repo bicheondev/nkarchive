@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "c8c23ef4431339b3",
+  "generatedAt": "2026-09-02T00:00:00.000Z",
+  "version": "aa29ffcecb24b81c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 22,
   "pageSize": 5,
-  "totalItems": 774,
+  "totalItems": 775,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:0dce04b2e312c2981fb48964",
+      "title": "조선민주주의인민공화국 당 및 정부대표단 베이징 도착",
+      "date": "2026-07-11",
+      "snippet": "(평양 7월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/51961c9d302fe733b981015edb1b0c66",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 71,
+        "international": 381,
+        "foreign": 105
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d758082204aac20e17ca10b982d94983c",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/e251d776f2fb548e5534d2a4618dcedb04cf49bcb538fb6dfd657d61f0016fe4.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0dce04b2e312c2981fb48964"
+    },
     {
       "id": "news:kcna:b85235f75b77f8f94129b222",
       "title": "위대한 수령 김일성동지의 서거 32돐에 즈음한 항일혁명투쟁연고자가족들의 좌담회 진행",
@@ -24,7 +48,7 @@
       ],
       "categoryOrders": {
         "international": 390,
-        "foreign": 105
+        "foreign": 106
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +70,7 @@
       ],
       "categoryOrders": {
         "international": 391,
-        "foreign": 106
+        "foreign": 107
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,9 +92,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 71,
-        "foreign": 107,
-        "domestic": 605
+        "important": 72,
+        "foreign": 108,
+        "domestic": 611
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,7 +116,7 @@
       ],
       "categoryOrders": {
         "international": 399,
-        "foreign": 108
+        "foreign": 109
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,28 +124,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A2c909064b077349156930420"
-    },
-    {
-      "id": "news:kcna:32f9c9e0bceefef07a2d1fe1",
-      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 나이제리아련방공화국 대통령이 꽃바구니를 보내여왔다",
-      "date": "2026-07-09",
-      "snippet": "(평양 7월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7c4adc8efc9b1f7bdf45a05a37f4c687",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 109,
-        "domestic": 610
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d13b18b244db140a57c0c8021b9642798",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/ab4573a747447106d9fe0fbfa5755fae1d208c89bf44ef2e917ccbb9712f929c.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A32f9c9e0bceefef07a2d1fe1"
     }
   ]
 }

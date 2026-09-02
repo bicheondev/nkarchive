@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "c8c23ef4431339b3",
+  "generatedAt": "2026-09-02T00:00:00.000Z",
+  "version": "aa29ffcecb24b81c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 10,
   "pageSize": 5,
-  "totalItems": 221,
+  "totalItems": 222,
   "totalPages": 45,
   "articles": [
+    {
+      "id": "news:kcna:87c420db3f0487883e390c3f",
+      "title": "《연풍호》에 깃든 사연",
+      "date": "2026-06-13",
+      "snippet": "위대한 수령 김일성동지께서는 1956년 5월 어느날 완공된 평남관개시설들을 돌아보시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/e972e71832cdf7fd634dfb0a3df6266d",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 45
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A87c420db3f0487883e390c3f"
+    },
     {
       "id": "news:kcna:b7c76040a047317d95e67e3e",
       "title": "《사랑의 다리》가 전하는 이야기",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 45
+        "memory": 46
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 46
+        "memory": 47
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 47
+        "memory": 48
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 48
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5306ca1fcbd3edcf06b4d699"
-    },
-    {
-      "id": "news:kcna:e28a8e6f880456eefdb704b1",
-      "title": "구시산의 돌벼락",
-      "date": "2026-06-05",
-      "snippet": "항일혁명전쟁시기인 1937년 6월 5일 구시산전투때의 일이다.",
-      "url": "http://www.kcna.kp/kp/article/detail/6f8818a0e5e8a01907c8c208a5a3f351",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 49
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae28a8e6f880456eefdb704b1"
+      "detailUrl": "/news/document?id=news%3Akcna%3A5306ca1fcbd3edcf06b4d699"
     }
   ]
 }

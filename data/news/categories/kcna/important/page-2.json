@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "c8c23ef4431339b3",
+  "generatedAt": "2026-09-02T00:00:00.000Z",
+  "version": "aa29ffcecb24b81c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,38 @@
   "section": "important",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 522,
+  "totalItems": 523,
   "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:6aa3ff6b7410c650239f1b74",
+      "title": "조선민주주의인민공화국 외무성 대변인대답",
+      "date": "2026-08-27",
+      "snippet": "(평양 8월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/39b4817b129827ff50733a7f0efbd510",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 5,
+        "document": 1,
+        "foreign": 7,
+        "domestic": 69
+      },
+      "featuredSections": [
+        "important",
+        "document"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6aa3ff6b7410c650239f1b74"
+    },
     {
       "id": "news:kcna:0b187596d3afdbd16fbbb9be",
       "title": "박태성 내각총리 삼지연산악관광지구건설과 함흥시의 공장,기업소들을 현지료해",
@@ -23,12 +52,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 5,
-        "domestic": 89
+        "important": 6,
+        "domestic": 95
       },
-      "featuredSections": [
-        "important"
-      ],
+      "featuredSections": [],
       "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29474dacbb67165c2b32503220d7044553",
@@ -47,8 +74,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 6,
-        "domestic": 129
+        "important": 7,
+        "domestic": 135
       },
       "featuredSections": [],
       "hasImage": true,
@@ -70,9 +97,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 7,
+        "important": 8,
         "document": 2,
-        "domestic": 137
+        "domestic": 143
       },
       "featuredSections": [
         "document"
@@ -96,9 +123,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 8,
+        "important": 9,
         "document": 3,
-        "domestic": 148
+        "domestic": 154
       },
       "featuredSections": [
         "document"
@@ -108,30 +135,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-8bca70b499b526e4"
-    },
-    {
-      "id": "kcna-2b185c907681761e",
-      "title": "조선중앙통신사 론평--적대세력의 군사적위협을 무력화하기 위한 우리의 자위적권리행사는 더욱 명백한 행동으로 표현될것이다",
-      "date": "2026-08-19",
-      "snippet": "(평양 8월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/15f79e4a495c8d8bc65be14f92ad8699",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 9,
-        "foreign": 15,
-        "domestic": 156
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-2b185c907681761e"
     }
   ]
 }

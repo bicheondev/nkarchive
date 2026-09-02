@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "c8c23ef4431339b3",
+  "generatedAt": "2026-09-02T00:00:00.000Z",
+  "version": "aa29ffcecb24b81c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 61,
   "pageSize": 5,
-  "totalItems": 774,
+  "totalItems": 775,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:ced0632f4771992a0340b9f2",
+      "title": "로씨야 따쓰통신사대표단 금수산태양궁전을 찾아 경의 표시",
+      "date": "2026-03-30",
+      "snippet": "(평양 3월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/128c1a867a6cf3c50b4e12df21478596",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 300,
+        "domestic": 1775
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aced0632f4771992a0340b9f2"
+    },
     {
       "id": "news:kcna:e067a45be95ce25344e71531",
       "title": "제34차 4월의 봄 친선예술축전참가를 지향해온 중국의 예술인들",
@@ -24,7 +46,7 @@
       ],
       "categoryOrders": {
         "international": 1162,
-        "foreign": 300
+        "foreign": 301
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,9 +68,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 193,
+        "important": 194,
         "international": 1163,
-        "foreign": 301
+        "foreign": 302
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +91,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 302,
-        "domestic": 1776
+        "foreign": 303,
+        "domestic": 1782
       },
       "featuredSections": [],
       "hasImage": true,
@@ -91,8 +113,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 303,
-        "domestic": 1777
+        "foreign": 304,
+        "domestic": 1783
       },
       "featuredSections": [],
       "hasImage": true,
@@ -100,28 +122,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60f57ccf8080fdc3c86e14aa0f252426cf",
       "cachedThumbnailUrl": "/data/news/assets/kcna/1b1b85812e6d926b6bbdc9ca56dee867bb467afa9e44c94e721ac5e576274f8e.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A01dd1a99a26ccef756e5099c"
-    },
-    {
-      "id": "news:kcna:22bb785ff2999d13a0d78a90",
-      "title": "제34차 4월의 봄 친선예술축전준비에 바쳐가는 로씨야예술인들의 진정과 노력",
-      "date": "2026-03-28",
-      "snippet": "(평양 3월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ab11c28756fca0f1f566dfd92440dfa0",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 1172,
-        "foreign": 304
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e6081cb18cf721bb9a98f6615bf2d434db6",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/6b181c846fccd1808086d77d172a40ad0f34056ce42fe0a323d831e8b3f3216b.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A22bb785ff2999d13a0d78a90"
     }
   ]
 }

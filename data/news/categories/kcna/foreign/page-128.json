@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "c8c23ef4431339b3",
+  "generatedAt": "2026-09-02T00:00:00.000Z",
+  "version": "aa29ffcecb24b81c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 128,
   "pageSize": 5,
-  "totalItems": 774,
+  "totalItems": 775,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:ccb00503eeb487581ee17dc4",
+      "title": "국제김일성상리사회,국제김정일상리사회 리사일행 도착",
+      "date": "2025-10-10",
+      "snippet": "(평양 10월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a830f16a8350cbb13e5597c88b62310b",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 635,
+        "domestic": 3688
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12efe9eaf7f36101a1feaa0b9f50fc766a",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/3ee8ef292141a5bee113e68426cb209e22b682df8efecdaabb08c61debb9ba59.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Accb00503eeb487581ee17dc4"
+    },
     {
       "id": "news:kcna:df9c34eb0ca9918c74c7400a",
       "title": "로씨야자유민주당대표단 도착",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 635,
-        "domestic": 3683
+        "foreign": 636,
+        "domestic": 3689
       },
       "featuredSections": [],
       "hasImage": true,
@@ -45,8 +67,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 636,
-        "domestic": 3684
+        "foreign": 637,
+        "domestic": 3690
       },
       "featuredSections": [],
       "hasImage": true,
@@ -67,8 +89,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 637,
-        "domestic": 3685
+        "foreign": 638,
+        "domestic": 3691
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,7 +112,7 @@
       ],
       "categoryOrders": {
         "international": 2436,
-        "foreign": 638
+        "foreign": 639
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,28 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ae92440c77d9c0989ffc695e7"
-    },
-    {
-      "id": "news:kcna:237fc385d68fcb6e108d4998",
-      "title": "여러 나라 당대표단,대표들 만경대 방문,여러곳 참관",
-      "date": "2025-10-10",
-      "snippet": "(평양 10월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3beea1c66c39a1709c4b30703d75e06c",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 639,
-        "domestic": 3691
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c1262212913486f166045ae0aa28c0119aa",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/c7af989d8ddca6f684beafba1dcbabf6b6fad9ab87db657d156595243e4055e9.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A237fc385d68fcb6e108d4998"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "c8c23ef4431339b3",
+  "generatedAt": "2026-09-02T00:00:00.000Z",
+  "version": "aa29ffcecb24b81c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,37 @@
   "section": "foreign",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 774,
+  "totalItems": 775,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:174196c6326efe74e1e1a7da",
+      "title": "경애하는 김정은동지께서 윁남공산당 중앙위원회 총비서,윁남사회주의공화국 주석에게 축전을 보내시였다",
+      "date": "2026-09-02",
+      "snippet": "(평양 9월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/85cc4984e0354320e591bcf7bdabe198",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 0,
+        "foreign": 0,
+        "domestic": 2
+      },
+      "featuredSections": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A174196c6326efe74e1e1a7da"
+    },
     {
       "id": "news:kcna:9717aaa28b7bc5bfccb29f9c",
       "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
@@ -25,10 +53,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 0,
+        "important": 1,
         "document": 0,
-        "foreign": 0,
-        "domestic": 12
+        "foreign": 1,
+        "domestic": 18
       },
       "featuredSections": [
         "important",
@@ -54,7 +82,7 @@
       ],
       "categoryOrders": {
         "international": 28,
-        "foreign": 1
+        "foreign": 2
       },
       "featuredSections": [
         "foreign"
@@ -77,8 +105,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 2,
-        "domestic": 38
+        "foreign": 3,
+        "domestic": 44
       },
       "featuredSections": [
         "foreign"
@@ -102,9 +130,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 1,
-        "foreign": 3,
-        "domestic": 39
+        "important": 2,
+        "foreign": 4,
+        "domestic": 45
       },
       "featuredSections": [
         "important",
@@ -115,33 +143,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A3cf99086fb550851961e4358"
-    },
-    {
-      "id": "news:kcna:fe5721126ff1e0bdbe84a60f",
-      "title": "경애하는 김정은동지께서 네팔대통령에게 위문전문을 보내시였다",
-      "date": "2026-08-28",
-      "snippet": "(평양 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0ccf2a23569f14808d2b3d79efbcdd23",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 2,
-        "foreign": 4,
-        "domestic": 40
-      },
-      "featuredSections": [
-        "important",
-        "foreign"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afe5721126ff1e0bdbe84a60f"
     }
   ]
 }

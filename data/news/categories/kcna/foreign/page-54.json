@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "c8c23ef4431339b3",
+  "generatedAt": "2026-09-02T00:00:00.000Z",
+  "version": "aa29ffcecb24b81c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 54,
   "pageSize": 5,
-  "totalItems": 774,
+  "totalItems": 775,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:751d5b91e93f1b059773117b",
+      "title": "중화인민공화국 외교부장 평양에 도착",
+      "date": "2026-04-10",
+      "snippet": "(평양 4월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2cfd71d6c31fc2dd15a9d7ade75a09ac",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 173,
+        "foreign": 265,
+        "domestic": 1634
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66824adfac7361e755605d86dd3a700e75",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/304b94b7ca18b2a2c495f73df6b104ece6974488b1ff7aeff3e95ace357399e8.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A751d5b91e93f1b059773117b"
+    },
     {
       "id": "news:kcna:bbf57d32a07be9ca2f8787ed",
       "title": "캄보쟈국왕과 대왕후가 우리 나라 대사관에 대형꽃바구니들을 보내여왔다",
@@ -24,7 +48,7 @@
       ],
       "categoryOrders": {
         "international": 1066,
-        "foreign": 265
+        "foreign": 266
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,9 +70,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 174,
-        "foreign": 266,
-        "domestic": 1648
+        "important": 175,
+        "foreign": 267,
+        "domestic": 1654
       },
       "featuredSections": [],
       "hasImage": false,
@@ -70,9 +94,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 175,
+        "important": 176,
         "international": 1073,
-        "foreign": 267
+        "foreign": 268
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,28 +118,6 @@
       ],
       "categoryOrders": {
         "international": 1074,
-        "foreign": 268
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab4d3e30510334096ae3b243c"
-    },
-    {
-      "id": "news:kcna:465ff18dac68beba127aa4d2",
-      "title": "우리 나라 외무상에게 라오스인민민주주의공화국 정부 부수상 겸 외무상이 축전",
-      "date": "2026-04-09",
-      "snippet": "(평양 4월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/abdf7e9e68fc7aa8863f29801a372ff4",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 1075,
         "foreign": 269
       },
       "featuredSections": [],
@@ -123,7 +125,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A465ff18dac68beba127aa4d2"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab4d3e30510334096ae3b243c"
     }
   ]
 }

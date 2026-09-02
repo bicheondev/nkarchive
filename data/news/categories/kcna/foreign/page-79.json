@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T00:00:00.000Z",
-  "version": "c8c23ef4431339b3",
+  "generatedAt": "2026-09-02T00:00:00.000Z",
+  "version": "aa29ffcecb24b81c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 79,
   "pageSize": 5,
-  "totalItems": 774,
+  "totalItems": 775,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:c811a9de8495fb74a8c713df",
+      "title": "우리 나라 외무상 쓰르비아공화국 외무상에게 축전",
+      "date": "2026-02-16",
+      "snippet": "(평양 2월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ab6128c134ffa025a860c4140233066a",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 390,
+        "domestic": 2236
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac811a9de8495fb74a8c713df"
+    },
     {
       "id": "news:kcna:40036e0edc71360ffedc8da4",
       "title": "2026년 설명절에 즈음하여 중국대사관 성원들을 위한 친선모임 진행",
@@ -24,9 +46,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 296,
-        "foreign": 390,
-        "domestic": 2238
+        "important": 297,
+        "foreign": 391,
+        "domestic": 2244
       },
       "featuredSections": [],
       "hasImage": true,
@@ -48,7 +70,7 @@
       ],
       "categoryOrders": {
         "international": 1510,
-        "foreign": 391
+        "foreign": 392
       },
       "featuredSections": [],
       "hasImage": false,
@@ -70,9 +92,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 297,
+        "important": 298,
         "international": 1516,
-        "foreign": 392
+        "foreign": 393
       },
       "featuredSections": [],
       "hasImage": true,
@@ -93,8 +115,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 393,
-        "domestic": 2252
+        "foreign": 394,
+        "domestic": 2258
       },
       "featuredSections": [],
       "hasImage": true,
@@ -102,28 +124,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf36663f5b1ac04ed03c73db84603089fcd57",
       "cachedThumbnailUrl": "/data/news/assets/kcna/e98a4ee503d2d0c70e0fe3119cbb1163c27471e0ce74fafb659cc0588577171d.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ab0d1451303634045d9e1c418"
-    },
-    {
-      "id": "news:kcna:fb0c47c999a6881c7308e4f3",
-      "title": "위대한 령도자 김정일동지의 탄생 84돐에 즈음하여 여러 나라에서 업적토론회 진행",
-      "date": "2026-02-14",
-      "snippet": "(평양 2월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8d84b1c3933786e7386a18e2594422f2",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 1517,
-        "foreign": 394
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afb0c47c999a6881c7308e4f3"
     }
   ]
 }
