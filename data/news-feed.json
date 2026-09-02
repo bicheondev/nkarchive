@@ -1,22 +1,22 @@
 {
   "generatedAt": "2026-09-02T00:00:00.000Z",
-  "version": "aa29ffcecb24b81c",
+  "version": "cf4408ed40f26601",
   "sources": {
     "kcna": {
       "id": "kcna",
       "name": "조선중앙통신",
-      "totalItems": 8774,
+      "totalItems": 8768,
       "categoryCounts": {
         "leadership": 232,
-        "important": 523,
-        "international": 2766,
-        "photo": 1035,
-        "anecdote": 102,
+        "important": 521,
+        "international": 2767,
+        "photo": 1034,
+        "anecdote": 101,
         "document": 61,
-        "foreign": 775,
-        "video": 270,
+        "foreign": 771,
+        "video": 269,
         "memory": 222,
-        "domestic": 4154,
+        "domestic": 4150,
         "social": 688
       },
       "articles": [
@@ -79,12 +79,11 @@
           "categoryOrders": {
             "important": 0,
             "foreign": 0,
-            "domestic": 2
+            "domestic": 7
           },
           "featuredSections": [
             "important",
-            "foreign",
-            "domestic"
+            "foreign"
           ],
           "hasImage": false,
           "hasVideo": false,
@@ -93,11 +92,33 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A174196c6326efe74e1e1a7da"
         },
         {
-          "id": "news:kcna:89441df15abd8a489288d09b",
-          "title": "2026년 9월 2일 신문개관",
+          "id": "news:kcna:1bf0689d4d51d8104c2991f0",
+          "title": "태풍24호 발생",
           "date": "2026-09-02",
           "snippet": "(평양 9월 2일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/9e89b20cc5986c9f62b3cf2b53c21c24",
+          "url": "http://www.kcna.kp/kp/article/detail/d99766e82878fd0c3458a2b4f49a2358",
+          "mediaType": "article",
+          "categories": [
+            "international"
+          ],
+          "categoryOrders": {
+            "international": 0
+          },
+          "featuredSections": [
+            "international"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A1bf0689d4d51d8104c2991f0"
+        },
+        {
+          "id": "news:kcna:324296d7a126a0f6833a3993",
+          "title": "교육혁명의 불길속에 나라의 전반적교육토대 강화",
+          "date": "2026-09-02",
+          "snippet": "(평양 9월 2일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/ac40075e799870d4a985f34810ecc645",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -112,7 +133,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A89441df15abd8a489288d09b"
+          "detailUrl": "/news/document?id=news%3Akcna%3A324296d7a126a0f6833a3993"
         },
         {
           "id": "news:kcna:9e270dc13b47f12c3c7e118a",
@@ -126,11 +147,10 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 1,
+            "domestic": 6,
             "social": 0
           },
           "featuredSections": [
-            "domestic",
             "social"
           ],
           "hasImage": false,
@@ -162,6 +182,28 @@
           "detailUrl": "/news/document?id=news%3Akcna%3Ab8f69f36f37c1d588cbbac1b"
         },
         {
+          "id": "news:kcna:5a88726432ee6e90ff915e54",
+          "title": "도이췰란드에서 열파로 인한 사망자수 약 1만 5 800명",
+          "date": "2026-09-02",
+          "snippet": "(평양 9월 2일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/06c80232e83b480e836132082db31033",
+          "mediaType": "article",
+          "categories": [
+            "international"
+          ],
+          "categoryOrders": {
+            "international": 1
+          },
+          "featuredSections": [
+            "international"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A5a88726432ee6e90ff915e54"
+        },
+        {
           "id": "news:kcna:a1342f9a4892536961c53bfe",
           "title": "각급 녀맹조직들에서 석탄공업부문 로동계급을 지원",
           "date": "2026-09-02",
@@ -173,7 +215,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 5,
+            "domestic": 10,
             "social": 1
           },
           "featuredSections": [
@@ -186,11 +228,55 @@
           "detailUrl": "/news/document?id=news%3Akcna%3Aa1342f9a4892536961c53bfe"
         },
         {
-          "id": "news:kcna:00a21ce7c3abba6a59fdaa28",
-          "title": "우리 나라의 9월 절기와 민속",
+          "id": "news:kcna:e7e9253c3a74288eeef3e784",
+          "title": "수산부문의 여러 단위 수산자원을 증식시키기 위한 사업에서 성과 달성",
           "date": "2026-09-02",
           "snippet": "(평양 9월 2일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/65c26a7f684e573704c65455675e9bfd",
+          "url": "http://www.kcna.kp/kp/article/detail/fe2eafc513dee0ec9c3d438fe26e3ad9",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 1
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Ae7e9253c3a74288eeef3e784"
+        },
+        {
+          "id": "news:kcna:03b161ed5af5bda4e850f520",
+          "title": "비알곡먹이에 의한 축산물생산기술전습회 진행",
+          "date": "2026-09-02",
+          "snippet": "(평양 9월 2일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/4152d5a5c0557c2a2ee69a0b8aed3d3e",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 2
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A03b161ed5af5bda4e850f520"
+        },
+        {
+          "id": "news:kcna:4786e33f763097433d0200d4",
+          "title": "강원도에서 농촌살림집건설 진척",
+          "date": "2026-09-02",
+          "snippet": "(평양 9월 2일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/f6be4b557eb379d940e1170a3f53cff8",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -201,18 +287,18 @@
           "featuredSections": [
             "domestic"
           ],
-          "hasImage": true,
+          "hasImage": false,
           "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba64c5f04b0a1873405e93970d0c3ceca2",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/0ebf64e16896ed33588d872661547965d81ecaeb95c22fbee7938d1403dea08b.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A00a21ce7c3abba6a59fdaa28"
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A4786e33f763097433d0200d4"
         },
         {
-          "id": "news:kcna:084a3099b641551521934a10",
-          "title": "은정과학지구에 다기능화된 체육문화시설이 새로 꾸려졌다",
+          "id": "news:kcna:83969e6273790c237b59d802",
+          "title": "전국청년과학기술성과전시회 페막",
           "date": "2026-09-02",
           "snippet": "(평양 9월 2일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/dbf820c4fb6d9d07695290e96a5fcafc",
+          "url": "http://www.kcna.kp/kp/article/detail/116a655a97468128055095b4f8e6cdc8",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -227,29 +313,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A084a3099b641551521934a10"
-        },
-        {
-          "id": "news:kcna:1728cdee941fe619085fa3ab",
-          "title": "아프가니스탄에서 마약압수",
-          "date": "2026-09-01",
-          "snippet": "(평양 9월 1일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/13a4ab7bd0bc821b2e559746c61178dc",
-          "mediaType": "article",
-          "categories": [
-            "international"
-          ],
-          "categoryOrders": {
-            "international": 0
-          },
-          "featuredSections": [
-            "international"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A1728cdee941fe619085fa3ab"
+          "detailUrl": "/news/document?id=news%3Akcna%3A83969e6273790c237b59d802"
         },
         {
           "id": "news:kcna:617c4c21b1de4aa6c63a3349",
@@ -272,28 +336,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A617c4c21b1de4aa6c63a3349"
-        },
-        {
-          "id": "news:kcna:216847a6a86524433a915b78",
-          "title": "우즈베끼스딴과 아프가니스탄사이의 협조",
-          "date": "2026-09-01",
-          "snippet": "(평양 9월 1일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/d7d58975cbc97a26512b3721f312c6de",
-          "mediaType": "article",
-          "categories": [
-            "international"
-          ],
-          "categoryOrders": {
-            "international": 1
-          },
-          "featuredSections": [
-            "international"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A216847a6a86524433a915b78"
         },
         {
           "id": "news:kcna:31600d0b7db8ef92a095824a",
@@ -351,7 +393,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 8,
+            "domestic": 13,
             "social": 2
           },
           "featuredSections": [
@@ -380,7 +422,7 @@
             "important": 1,
             "document": 0,
             "foreign": 1,
-            "domestic": 18
+            "domestic": 23
           },
           "featuredSections": [
             "important",
@@ -427,7 +469,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 16,
+            "domestic": 21,
             "social": 3
           },
           "featuredSections": [
@@ -627,7 +669,7 @@
             "foreign"
           ],
           "categoryOrders": {
-            "international": 28,
+            "international": 36,
             "foreign": 2
           },
           "featuredSections": [
@@ -652,7 +694,7 @@
           ],
           "categoryOrders": {
             "foreign": 3,
-            "domestic": 44
+            "domestic": 49
           },
           "featuredSections": [
             "foreign"
@@ -675,7 +717,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 32,
+            "domestic": 37,
             "social": 4
           },
           "featuredSections": [
@@ -702,7 +744,7 @@
           "categoryOrders": {
             "important": 2,
             "foreign": 4,
-            "domestic": 45
+            "domestic": 50
           },
           "featuredSections": [
             "important",
@@ -773,7 +815,7 @@
           "categoryOrders": {
             "important": 3,
             "foreign": 5,
-            "domestic": 46
+            "domestic": 51
           },
           "featuredSections": [
             "important",
@@ -798,7 +840,7 @@
           ],
           "categoryOrders": {
             "important": 4,
-            "domestic": 58
+            "domestic": 63
           },
           "featuredSections": [
             "important"
@@ -826,7 +868,7 @@
             "important": 5,
             "document": 1,
             "foreign": 7,
-            "domestic": 69
+            "domestic": 74
           },
           "featuredSections": [
             "important",
@@ -985,7 +1027,7 @@
           "categoryOrders": {
             "important": 8,
             "document": 2,
-            "domestic": 143
+            "domestic": 148
           },
           "featuredSections": [
             "document"
@@ -1011,7 +1053,7 @@
           "categoryOrders": {
             "important": 9,
             "document": 3,
-            "domestic": 154
+            "domestic": 159
           },
           "featuredSections": [
             "document"
@@ -1102,7 +1144,7 @@
           ],
           "categoryOrders": {
             "important": 24,
-            "international": 154,
+            "international": 162,
             "document": 5
           },
           "featuredSections": [
@@ -1129,7 +1171,7 @@
           "categoryOrders": {
             "important": 28,
             "document": 6,
-            "domestic": 285
+            "domestic": 290
           },
           "featuredSections": [
             "document"
