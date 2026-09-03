@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-03T00:00:00.000Z",
-  "version": "aaf40b7dbcecb694",
+  "version": "f2f425de37b7a99f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,30 @@
   "totalItems": 521,
   "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:de0df078cd860b3c6559bb26",
+      "title": "조선민주주의인민공화국 외무상이 싱가포르공화국 외무상과 회담",
+      "date": "2026-05-27",
+      "snippet": "(평양 5월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ff542a5439665bd13c545d2837d6f3b4",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 105,
+        "foreign": 166,
+        "domestic": 1099
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064f86f61cfce6b40d91f1f5d0a01ec6ac7",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/0423c1c1a5bd6f548609f0dc0e8043e91846927bd419f4fd3e820e72ce51b420.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ade0df078cd860b3c6559bb26"
+    },
     {
       "id": "news:kcna:2d19a7de229320ce23eebb34",
       "title": "경애하는 김정은원수님께 재일본조선인총련합회 제26차 전체대회 참가자들이 편지를 드리였다",
@@ -23,8 +47,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 105,
-        "international": 706
+        "important": 106,
+        "international": 714
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,9 +70,9 @@
         "social"
       ],
       "categoryOrders": {
-        "important": 106,
-        "domestic": 1101,
-        "social": 117
+        "important": 107,
+        "domestic": 1110,
+        "social": 118
       },
       "featuredSections": [],
       "hasImage": true,
@@ -70,9 +94,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 107,
+        "important": 108,
         "document": 17,
-        "domestic": 1110
+        "domestic": 1119
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,9 +118,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 108,
-        "foreign": 168,
-        "domestic": 1111
+        "important": 109,
+        "foreign": 170,
+        "domestic": 1120
       },
       "featuredSections": [],
       "hasImage": false,
@@ -104,28 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ab11df0a6dc06d578ef7600db"
-    },
-    {
-      "id": "news:kcna:545ff296f839b88d2c5cf038",
-      "title": "단천발전소 1단계 준공식 진행",
-      "date": "2026-05-20",
-      "snippet": "(평양 5월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/12a0ef97cab214f463581d288a0b95ce",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 109,
-        "domestic": 1154
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A545ff296f839b88d2c5cf038"
     }
   ]
 }

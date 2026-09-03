@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-03T00:00:00.000Z",
-  "version": "aaf40b7dbcecb694",
+  "version": "f2f425de37b7a99f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,55 @@
   "section": "foreign",
   "page": 20,
   "pageSize": 5,
-  "totalItems": 771,
+  "totalItems": 772,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:7d5efd8bf1ee5bc6c629c601",
+      "title": "조선민주주의인민공화국 당 및 정부대표단을 환영하는 의식 진행",
+      "date": "2026-07-12",
+      "snippet": "(평양 7월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9b49b269ee8861334cae91228537f923",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 63,
+        "international": 382,
+        "foreign": 95
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dfaed46510cddb6678726c998a9bb5936",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/b9f44ae68d601b8767d43da39e64a75ce387b532c5e4e373fb782b1e7564291a.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7d5efd8bf1ee5bc6c629c601"
+    },
+    {
+      "id": "news:kcna:ec31e0e14c043cad760b94b6",
+      "title": "우리 나라 외무상 중화인민공화국 외교부장에게 축전",
+      "date": "2026-07-12",
+      "snippet": "(평양 7월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3c49d6d78a421481880fe543da9b944d",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 96,
+        "domestic": 602
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aec31e0e14c043cad760b94b6"
+    },
     {
       "id": "news:kcna:4974197e62121cd162a06476",
       "title": "우리 나라 외무상에게 중화인민공화국 외교부장이 축전",
@@ -23,8 +69,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 375,
-        "foreign": 95
+        "international": 383,
+        "foreign": 97
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +91,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 383,
-        "foreign": 96
+        "international": 391,
+        "foreign": 98
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,10 +115,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 63,
+        "important": 64,
         "document": 10,
-        "foreign": 97,
-        "domestic": 603
+        "foreign": 99,
+        "domestic": 612
       },
       "featuredSections": [],
       "hasImage": false,
@@ -80,54 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-406e9ede28934529"
-    },
-    {
-      "id": "news:kcna:edcda6deb3cabb8725864bba",
-      "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지에게 축전을 보내시였다",
-      "date": "2026-07-11",
-      "snippet": "(평양 7월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/33440a53c448bd023e6c91b2fb19b5b9",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 64,
-        "foreign": 98,
-        "domestic": 604
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aedcda6deb3cabb8725864bba"
-    },
-    {
-      "id": "news:kcna:d41f2c7ebc03a7d8bfff3a39",
-      "title": "경애하는 김정은동지께 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지가 축전을 보내여왔다",
-      "date": "2026-07-11",
-      "snippet": "(평양 7월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2f0b119efee795bf633861fbf212fdda",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 65,
-        "international": 384,
-        "foreign": 99
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad41f2c7ebc03a7d8bfff3a39"
     }
   ]
 }

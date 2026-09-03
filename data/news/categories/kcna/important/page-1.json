@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-03T00:00:00.000Z",
-  "version": "aaf40b7dbcecb694",
+  "version": "f2f425de37b7a99f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,33 @@
   "totalItems": 521,
   "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:e388afa89b41207ada333e98",
+      "title": "경애하는 김정은동지께 에짚트아랍공화국 대통령이 축전을 보내여왔다",
+      "date": "2026-09-03",
+      "snippet": "(평양 9월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3e427c41268b45813b395ee14e21bf2e",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 0,
+        "international": 7,
+        "foreign": 1
+      },
+      "featuredSections": [
+        "important",
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae388afa89b41207ada333e98"
+    },
     {
       "id": "news:kcna:174196c6326efe74e1e1a7da",
       "title": "경애하는 김정은동지께서 윁남공산당 중앙위원회 총비서,윁남사회주의공화국 주석에게 축전을 보내시였다",
@@ -24,9 +51,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 0,
-        "foreign": 0,
-        "domestic": 7
+        "important": 1,
+        "foreign": 2,
+        "domestic": 16
       },
       "featuredSections": [
         "important",
@@ -52,10 +79,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 1,
+        "important": 2,
         "document": 0,
-        "foreign": 1,
-        "domestic": 23
+        "foreign": 3,
+        "domestic": 32
       },
       "featuredSections": [
         "important",
@@ -81,13 +108,12 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 2,
-        "foreign": 4,
-        "domestic": 50
+        "important": 3,
+        "foreign": 6,
+        "domestic": 59
       },
       "featuredSections": [
-        "important",
-        "foreign"
+        "important"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -108,43 +134,18 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 3,
-        "foreign": 5,
-        "domestic": 51
+        "important": 4,
+        "foreign": 7,
+        "domestic": 60
       },
       "featuredSections": [
-        "important",
-        "foreign"
+        "important"
       ],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Afe5721126ff1e0bdbe84a60f"
-    },
-    {
-      "id": "news:kcna:c58ea8ea0cd811f69a56394e",
-      "title": "천지개벽한 동해명승의 풍미를 더해주는 또 하나의 재부--원산갈마해안관광지구에 건설된 명사십리역 준공식 진행",
-      "date": "2026-08-28",
-      "snippet": "(평양 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/663d3eeecc6a533e1f32c64ae6b99fa6",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 4,
-        "domestic": 63
-      },
-      "featuredSections": [
-        "important"
-      ],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2938b6922864494765d50f83866397aaed",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/fdab1571d4d076cf869ec0ca2b63182ab8d444c2f232e92074ddf8fed8852948.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac58ea8ea0cd811f69a56394e"
     }
   ]
 }

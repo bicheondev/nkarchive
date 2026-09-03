@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-03T00:00:00.000Z",
-  "version": "aaf40b7dbcecb694",
+  "version": "f2f425de37b7a99f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "anecdote",
   "page": 10,
   "pageSize": 5,
-  "totalItems": 101,
+  "totalItems": 102,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:04abc52a2d4317801e3494ba",
+      "title": "고무단정에서 내리신 결심",
+      "date": "2026-04-28",
+      "snippet": "평안북도의 일부 지역이 큰물피해를 입은 2024년 7월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/18c0b8bd9dcc387ff0d221f9a0425613",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 45
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A04abc52a2d4317801e3494ba"
+    },
     {
       "id": "news:kcna:d0f267a3c807fa95ffbd886d",
       "title": "사소한 결점도 있어서는 안된다고 하시며",
@@ -22,7 +42,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 45
+        "anecdote": 46
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 46
+        "anecdote": 47
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 47
+        "anecdote": 48
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 48
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af39fa4a2df6ecb5a4f83a676"
-    },
-    {
-      "id": "news:kcna:b7a681dc9338c73b75d76917",
-      "title": "일군들이 받은 원예강의",
-      "date": "2026-04-12",
-      "snippet": "2021년 3월 어느날이였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/bb1e9c19e10a73a95c4f4e31b540363b",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 49
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab7a681dc9338c73b75d76917"
+      "detailUrl": "/news/document?id=news%3Akcna%3Af39fa4a2df6ecb5a4f83a676"
     }
   ]
 }

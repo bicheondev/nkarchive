@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-03T00:00:00.000Z",
-  "version": "aaf40b7dbcecb694",
+  "version": "f2f425de37b7a99f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "anecdote",
   "page": 7,
   "pageSize": 5,
-  "totalItems": 101,
+  "totalItems": 102,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:b1e19d3e7c6b61f519b5af1e",
+      "title": "미루어진 공연시간",
+      "date": "2026-06-06",
+      "snippet": "2012년 6월 6일 조선소년단창립절에 있은 일이다.",
+      "url": "http://www.kcna.kp/kp/article/detail/d98d48f7625e66a58d0c963764465b5f",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 30
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab1e19d3e7c6b61f519b5af1e"
+    },
     {
       "id": "news:kcna:62b1688df39eb35305240226",
       "title": "새로 내오도록 하신 겨울철야영체계",
@@ -22,7 +42,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 30
+        "anecdote": 31
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 31
+        "anecdote": 32
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 32
+        "anecdote": 33
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 33
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A11996defd8966c71197c047a"
-    },
-    {
-      "id": "news:kcna:b780d15b3120c732a39c55da",
-      "title": "릉라물놀이장에 펼쳐진 몽금포모래불",
-      "date": "2026-05-26",
-      "snippet": "2012년 5월 어느날 릉라물놀이장건설장을 찾으신 경애하는 김정은동지께서는 설계초안을 보아주시며 건설과 관련한 세심한 지도를 주시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/ba4d4115589aad73e2840f7bec3ad221",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 34
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab780d15b3120c732a39c55da"
+      "detailUrl": "/news/document?id=news%3Akcna%3A11996defd8966c71197c047a"
     }
   ]
 }

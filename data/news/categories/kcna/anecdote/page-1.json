@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-03T00:00:00.000Z",
-  "version": "aaf40b7dbcecb694",
+  "version": "f2f425de37b7a99f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "anecdote",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 101,
+  "totalItems": 102,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:3cea9d97132b981585392762",
+      "title": "교육자들에게 하신 뜻깊은 인사",
+      "date": "2026-09-03",
+      "snippet": "2018년 9월 28일 경애하는 김정은동지께서는 창립 70돐을 맞는 김책공업종합대학을 찾으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/f37f203ea8df7fe14e8af9ef3bcd83b0",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 0
+      },
+      "featuredSections": [
+        "anecdote"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3cea9d97132b981585392762"
+    },
     {
       "id": "news:kcna:617c4c21b1de4aa6c63a3349",
       "title": "실리있는 발전소라고 하시며",
@@ -22,7 +44,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 0
+        "anecdote": 1
       },
       "featuredSections": [
         "anecdote"
@@ -44,7 +66,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 1
+        "anecdote": 2
       },
       "featuredSections": [
         "anecdote"
@@ -66,7 +88,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 2
+        "anecdote": 3
       },
       "featuredSections": [
         "anecdote"
@@ -88,28 +110,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 3
-      },
-      "featuredSections": [
-        "anecdote"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9418a43a726f38aaf6c54735"
-    },
-    {
-      "id": "kcna-9c65bae973a6c913",
-      "title": "전국이 다같이 공산주의에로 가야 한다",
-      "date": "2026-08-21",
-      "snippet": "경애하는 김정은동지께서는 2019년 10월 어느날 건설공사가 마감단계에서 다그쳐지고있던 중평온실농장건설장을 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/3367c13504da126279e4fd74c1c122de",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 4
       },
       "featuredSections": [
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-9c65bae973a6c913"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9418a43a726f38aaf6c54735"
     }
   ]
 }

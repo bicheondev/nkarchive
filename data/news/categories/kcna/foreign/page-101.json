@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-03T00:00:00.000Z",
-  "version": "aaf40b7dbcecb694",
+  "version": "f2f425de37b7a99f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,55 @@
   "section": "foreign",
   "page": 101,
   "pageSize": 5,
-  "totalItems": 771,
+  "totalItems": 772,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:7e3d7fcbb16af0e15b8a6d11",
+      "title": "유럽지역 주체사상토론회 핀란드에서 진행",
+      "date": "2025-11-13",
+      "snippet": "(평양 11월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a387d9b65e73a4ad4d839f1f51435ba5",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 2193,
+        "foreign": 500
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7e3d7fcbb16af0e15b8a6d11"
+    },
+    {
+      "id": "news:kcna:a8985679c59f4ce21d1987aa",
+      "title": "라오스인민민주주의공화국 외무상일행 평양 도착",
+      "date": "2025-11-12",
+      "snippet": "(평양 11월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2257997cc862454b300173150dffc032",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 382,
+        "foreign": 501,
+        "domestic": 3239
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eacbfb4cc632c4682d81f9ba34038d0ed9d",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/40cdaec9429c196f16325dad37367ed65e79dd28ec40afbff067e45d1839003e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa8985679c59f4ce21d1987aa"
+    },
     {
       "id": "news:kcna:17623c03da37ca969bfb1910",
       "title": "로씨야 쎄고드냐통신사대표단 도착",
@@ -23,8 +69,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 500,
-        "domestic": 3242
+        "foreign": 502,
+        "domestic": 3251
       },
       "featuredSections": [],
       "hasImage": true,
@@ -45,8 +91,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 501,
-        "domestic": 3243
+        "foreign": 503,
+        "domestic": 3252
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,9 +114,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 382,
-        "foreign": 502,
-        "domestic": 3252
+        "important": 383,
+        "foreign": 504,
+        "domestic": 3261
       },
       "featuredSections": [],
       "hasImage": false,
@@ -78,50 +124,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A340264710963b75e639b78cb"
-    },
-    {
-      "id": "news:kcna:ab0797139474c2ff26bab686",
-      "title": "우리 나라 외무상에게 싱가포르공화국 외무상이 축전",
-      "date": "2025-11-09",
-      "snippet": "(평양 11월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c0134255cf633ff7ea333ee81bc9b3bb",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 503,
-        "domestic": 3265
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aab0797139474c2ff26bab686"
-    },
-    {
-      "id": "news:kcna:5db0f63602daf53646357ab2",
-      "title": "우리 나라 외무상 싱가포르공화국 외무상에게 축전",
-      "date": "2025-11-09",
-      "snippet": "(평양 11월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/72d23e5e7dc4bf6fd1e8f58ca25193e8",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 504,
-        "domestic": 3267
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5db0f63602daf53646357ab2"
     }
   ]
 }

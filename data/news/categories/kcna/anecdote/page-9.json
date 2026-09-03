@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-03T00:00:00.000Z",
-  "version": "aaf40b7dbcecb694",
+  "version": "f2f425de37b7a99f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "anecdote",
   "page": 9,
   "pageSize": 5,
-  "totalItems": 101,
+  "totalItems": 102,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:51416bc6230dff94857162fd",
+      "title": "사랑안고 찾으신 피해복구현장",
+      "date": "2026-05-13",
+      "snippet": "경애하는 김정은동지께서는 2020년 10월 어느날 강원도 김화군피해복구현장을 찾으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/dae149c5cc00df440a6a0e1c83b399cc",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 40
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A51416bc6230dff94857162fd"
+    },
     {
       "id": "news:kcna:a15b5ffd570a756718f01eae",
       "title": "아동양말에 새겨진 세 친구",
@@ -22,7 +42,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 40
+        "anecdote": 41
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 41
+        "anecdote": 42
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 42
+        "anecdote": 43
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 43
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab70801ab0a7c5284a0aeed2a"
-    },
-    {
-      "id": "news:kcna:04abc52a2d4317801e3494ba",
-      "title": "고무단정에서 내리신 결심",
-      "date": "2026-04-28",
-      "snippet": "평안북도의 일부 지역이 큰물피해를 입은 2024년 7월 어느날이였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/18c0b8bd9dcc387ff0d221f9a0425613",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 44
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A04abc52a2d4317801e3494ba"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab70801ab0a7c5284a0aeed2a"
     }
   ]
 }
