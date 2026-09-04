@@ -1,31 +1,75 @@
 {
   "generatedAt": "2026-09-04T00:00:00.000Z",
-  "version": "66e16a1b6eb2c841",
+  "version": "cc7bb414a6de4d87",
   "sources": {
     "kcna": {
       "id": "kcna",
       "name": "조선중앙통신",
-      "totalItems": 8778,
+      "totalItems": 8761,
       "categoryCounts": {
-        "leadership": 232,
-        "important": 521,
-        "international": 2767,
-        "photo": 1038,
+        "leadership": 229,
+        "important": 515,
+        "international": 2763,
+        "photo": 1032,
         "anecdote": 102,
         "document": 61,
-        "foreign": 772,
+        "foreign": 766,
         "video": 269,
         "memory": 221,
-        "domestic": 4156,
-        "social": 688
+        "domestic": 4152,
+        "social": 685
       },
       "articles": [
         {
-          "id": "news:kcna:3ed6f4818b41236d9af11e96",
-          "title": "제15차 전국교원대회 페막",
+          "id": "news:kcna:57694672ec9903b6b0c27887",
+          "title": "수단에서 인도주의물자를 실은 차량들에 대한 공격사건 발생",
           "date": "2026-09-04",
           "snippet": "(평양 9월 4일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/8da618f6c5c0c75a60cdf80ee0aaaa47",
+          "url": "http://www.kcna.kp/kp/article/detail/7afb47e00c5e8de3bdb7e35121ee07ef",
+          "mediaType": "article",
+          "categories": [
+            "international"
+          ],
+          "categoryOrders": {
+            "international": 0
+          },
+          "featuredSections": [
+            "international"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A57694672ec9903b6b0c27887"
+        },
+        {
+          "id": "news:kcna:71a806285681ea22a8f2807a",
+          "title": "동주리의 사연깊은 기념사진",
+          "date": "2026-09-04",
+          "snippet": "1957년 10월 어느날이였다.",
+          "url": "http://www.kcna.kp/kp/article/detail/db61492cab6bc73c438f09582e8977d2",
+          "mediaType": "article",
+          "categories": [
+            "memory"
+          ],
+          "categoryOrders": {
+            "memory": 0
+          },
+          "featuredSections": [
+            "memory"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A71a806285681ea22a8f2807a"
+        },
+        {
+          "id": "news:kcna:b3935a065a0b802d886fd12c",
+          "title": "전국록색건축부문,광업부문 과학기술발표회 및 연구토론회 진행",
+          "date": "2026-09-04",
+          "snippet": "(평양 9월 4일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/2119f3cc5c58a16a249d03c9c5754539",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -36,18 +80,18 @@
           "featuredSections": [
             "domestic"
           ],
-          "hasImage": true,
+          "hasImage": false,
           "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba308e5c096c68dd01cf613da76751d436",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/e30db0491a07771751d9ff501ef0029ab1dc2ab99ded48e1b9caa30fb72bd063.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A3ed6f4818b41236d9af11e96"
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Ab3935a065a0b802d886fd12c"
         },
         {
-          "id": "news:kcna:543ee028825c5caff993b2fd",
-          "title": "제15차 전국교원대회 페막",
+          "id": "news:kcna:df4b6edc8cb782e1ce30771f",
+          "title": "조선민주주의인민공화국창건 78돐경축 제7차 전국조각,공예축전 개막",
           "date": "2026-09-04",
-          "snippet": "제15차 전국교원대회 페막",
-          "url": "http://www.kcna.kp/kp/gallery/detail/bcd85872f853961d0fd02d6bd8fdde29",
+          "snippet": "조선민주주의인민공화국창건 78돐경축 제7차 전국조각,공예축전 개막",
+          "url": "http://www.kcna.kp/kp/gallery/detail/8ec1da7049f0f0a9d58eef79f5703865",
           "mediaType": "article",
           "categories": [
             "photo"
@@ -60,16 +104,38 @@
           ],
           "hasImage": true,
           "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba308e5c096c68dd01cf613da76751d436",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/e30db0491a07771751d9ff501ef0029ab1dc2ab99ded48e1b9caa30fb72bd063.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A543ee028825c5caff993b2fd"
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba5c43951caed9bf7f4e459342023ec015",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/b3a644928e6b8a312f057d448c29174f2c47690501bf60aa56d4dc578379399c.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3Adf4b6edc8cb782e1ce30771f"
         },
         {
-          "id": "news:kcna:188c9f081d8f2471f7895c22",
-          "title": "제15차 전국교원대회 참가자들을 위한 강습 진행",
+          "id": "news:kcna:160329f7c251b0e1a0f8c07d",
+          "title": "요르단강서안지역에서 계속되는 이스라엘의 살륙만행",
           "date": "2026-09-04",
           "snippet": "(평양 9월 4일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/2959cdc00ade437f1bafc3d258ca354e",
+          "url": "http://www.kcna.kp/kp/article/detail/2ed2d12b1578c9ddea6712d9b990263c",
+          "mediaType": "article",
+          "categories": [
+            "international"
+          ],
+          "categoryOrders": {
+            "international": 1
+          },
+          "featuredSections": [
+            "international"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A160329f7c251b0e1a0f8c07d"
+        },
+        {
+          "id": "news:kcna:5171d6b21172d1c23ef16c09",
+          "title": "량강도의 농촌들에서 감자수확에 련이어 진입,력량과 수단 집중",
+          "date": "2026-09-04",
+          "snippet": "(평양 9월 4일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/4d7d50a2613b867e178d4ad40bafcf66",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -80,18 +146,18 @@
           "featuredSections": [
             "domestic"
           ],
-          "hasImage": true,
+          "hasImage": false,
           "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45baea080ff250a67c17b3bb2c6ccf20085f",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/d307f825645953c895436468348a6daca4116ceebfe3dc161d3b12c773002b99.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A188c9f081d8f2471f7895c22"
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A5171d6b21172d1c23ef16c09"
         },
         {
-          "id": "news:kcna:f5b54eeda9d9955eb1fa2d21",
-          "title": "제15차 전국교원대회 참가자들을 위한 강습 진행",
+          "id": "news:kcna:543ee028825c5caff993b2fd",
+          "title": "제15차 전국교원대회 페막",
           "date": "2026-09-04",
-          "snippet": "제15차 전국교원대회 참가자들을 위한 강습 진행",
-          "url": "http://www.kcna.kp/kp/gallery/detail/5a3bb195bf9173f9d9cd8bd93aa14102",
+          "snippet": "제15차 전국교원대회 페막",
+          "url": "http://www.kcna.kp/kp/gallery/detail/bcd85872f853961d0fd02d6bd8fdde29",
           "mediaType": "article",
           "categories": [
             "photo"
@@ -104,16 +170,16 @@
           ],
           "hasImage": true,
           "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45baea080ff250a67c17b3bb2c6ccf20085f",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/d307f825645953c895436468348a6daca4116ceebfe3dc161d3b12c773002b99.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3Af5b54eeda9d9955eb1fa2d21"
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba308e5c096c68dd01cf613da76751d436",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/e30db0491a07771751d9ff501ef0029ab1dc2ab99ded48e1b9caa30fb72bd063.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A543ee028825c5caff993b2fd"
         },
         {
-          "id": "news:kcna:429b37c80ca493792fc2d1aa",
-          "title": "주체교육발전의 새로운 전성기를 펼쳐주신 불멸의 업적",
+          "id": "news:kcna:1716d3cde62335c9d7bdad5b",
+          "title": "평양제1사범대학에서 논판양어를 장려할데 대한 당정책관철에 기여",
           "date": "2026-09-04",
           "snippet": "(평양 9월 4일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/3b7b8cbb732b92f81fcc2e3f42501352",
+          "url": "http://www.kcna.kp/kp/article/detail/9b0bd3d8928e52fed7aeee19cada2864",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -128,14 +194,36 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A429b37c80ca493792fc2d1aa"
+          "detailUrl": "/news/document?id=news%3Akcna%3A1716d3cde62335c9d7bdad5b"
         },
         {
-          "id": "news:kcna:a06f55aa9290bd3b102ca082",
-          "title": "모범적인 단위들에 모범준법단위칭호 수여",
+          "id": "news:kcna:f5b54eeda9d9955eb1fa2d21",
+          "title": "제15차 전국교원대회 참가자들을 위한 강습 진행",
+          "date": "2026-09-04",
+          "snippet": "제15차 전국교원대회 참가자들을 위한 강습 진행",
+          "url": "http://www.kcna.kp/kp/gallery/detail/5a3bb195bf9173f9d9cd8bd93aa14102",
+          "mediaType": "article",
+          "categories": [
+            "photo"
+          ],
+          "categoryOrders": {
+            "photo": 2
+          },
+          "featuredSections": [
+            "photo"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45baea080ff250a67c17b3bb2c6ccf20085f",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/d307f825645953c895436468348a6daca4116ceebfe3dc161d3b12c773002b99.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3Af5b54eeda9d9955eb1fa2d21"
+        },
+        {
+          "id": "news:kcna:2c2843a94e59e13310a0d9e6",
+          "title": "전국공개조선장기경기대회 진행",
           "date": "2026-09-04",
           "snippet": "(평양 9월 4일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/28c815ea2044dd18dd7f0d6f6b38cfd9",
+          "url": "http://www.kcna.kp/kp/article/detail/ca0f7d1557cbf3c5e704e2db6096cf4a",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -150,14 +238,14 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Aa06f55aa9290bd3b102ca082"
+          "detailUrl": "/news/document?id=news%3Akcna%3A2c2843a94e59e13310a0d9e6"
         },
         {
-          "id": "news:kcna:bed4f19842f427deccc0155f",
-          "title": "10여건의 첨단기술제품 새로 등록",
+          "id": "news:kcna:69f281b2fae35c2dd7abb5eb",
+          "title": "《성,중앙기관일군롱구경기대회-2026》 결승경기 진행",
           "date": "2026-09-04",
           "snippet": "(평양 9월 4일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/698c7594cd9711eba0f221ffeb0865a1",
+          "url": "http://www.kcna.kp/kp/article/detail/b72491374be86a8a5d1fd0d349d233bb",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -172,7 +260,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Abed4f19842f427deccc0155f"
+          "detailUrl": "/news/document?id=news%3Akcna%3A69f281b2fae35c2dd7abb5eb"
         },
         {
           "id": "news:kcna:2d5d69ef7845147035f50ee4",
@@ -187,7 +275,7 @@
           ],
           "categoryOrders": {
             "foreign": 0,
-            "domestic": 11
+            "domestic": 19
           },
           "featuredSections": [
             "foreign"
@@ -210,7 +298,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 7,
+            "domestic": 15,
             "social": 0
           },
           "featuredSections": [
@@ -243,28 +331,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A3cea9d97132b981585392762"
-        },
-        {
-          "id": "news:kcna:60df9f51a9f3942d662390b9",
-          "title": "로씨야대외정보국 서방의 비렬한 음모책동을 폭로",
-          "date": "2026-09-03",
-          "snippet": "(모스크바 9월 2일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/f2556f4638ca59d03d92ba699411c9c4",
-          "mediaType": "article",
-          "categories": [
-            "international"
-          ],
-          "categoryOrders": {
-            "international": 0
-          },
-          "featuredSections": [
-            "international"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A60df9f51a9f3942d662390b9"
         },
         {
           "id": "news:kcna:6c087309cfb4a5c9e0a02650",
@@ -324,7 +390,7 @@
           ],
           "categoryOrders": {
             "important": 0,
-            "international": 7,
+            "international": 14,
             "foreign": 1
           },
           "featuredSections": [
@@ -360,28 +426,6 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A08425095fa621736efeab37c"
         },
         {
-          "id": "news:kcna:9f5d09957b4bf9777c8cdd14",
-          "title": "상해협조기구성원국 수뇌자회의 진행",
-          "date": "2026-09-03",
-          "snippet": "(평양 9월 3일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/4f95244753dd444db80261cffd353c1f",
-          "mediaType": "article",
-          "categories": [
-            "international"
-          ],
-          "categoryOrders": {
-            "international": 1
-          },
-          "featuredSections": [
-            "international"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A9f5d09957b4bf9777c8cdd14"
-        },
-        {
           "id": "news:kcna:0a199044579880d03640a1f9",
           "title": "교육자들에게 베풀어주신 절세위인의 사랑과 믿음",
           "date": "2026-09-03",
@@ -392,7 +436,7 @@
             "photo"
           ],
           "categoryOrders": {
-            "photo": 2
+            "photo": 3
           },
           "featuredSections": [
             "photo"
@@ -414,7 +458,7 @@
             "photo"
           ],
           "categoryOrders": {
-            "photo": 3
+            "photo": 4
           },
           "featuredSections": [
             "photo"
@@ -424,28 +468,6 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba833f24edc565c230e9de171cce78da93",
           "cachedThumbnailUrl": "/data/news/assets/kcna/896fb9459a1bbd8f4f46d4cec84c588f83a4ffda8c98547b20466e50bdc6b169.jpg",
           "detailUrl": "/news/document?id=news%3Akcna%3A73ecd52539145c93642fd33d"
-        },
-        {
-          "id": "news:kcna:b8f69f36f37c1d588cbbac1b",
-          "title": "《양우장농》",
-          "date": "2026-09-02",
-          "snippet": "위대한 수령 김일성동지께서는 1948년 1월 어느날 대소한의 추위도 마다하지 않으시고 자강도의 한 농촌마을을 찾으시였다.",
-          "url": "http://www.kcna.kp/kp/article/detail/c8323553e4c8c77ffa3eb57388f1f4b5",
-          "mediaType": "article",
-          "categories": [
-            "memory"
-          ],
-          "categoryOrders": {
-            "memory": 0
-          },
-          "featuredSections": [
-            "memory"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Ab8f69f36f37c1d588cbbac1b"
         },
         {
           "id": "news:kcna:14d5ca9a3c32ca30f44bdb08",
@@ -484,7 +506,7 @@
           "categoryOrders": {
             "important": 1,
             "foreign": 2,
-            "domestic": 22
+            "domestic": 30
           },
           "featuredSections": [
             "important",
@@ -508,7 +530,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 21,
+            "domestic": 29,
             "social": 1
           },
           "featuredSections": [
@@ -519,6 +541,28 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A9e270dc13b47f12c3c7e118a"
+        },
+        {
+          "id": "news:kcna:b8f69f36f37c1d588cbbac1b",
+          "title": "《양우장농》",
+          "date": "2026-09-02",
+          "snippet": "위대한 수령 김일성동지께서는 1948년 1월 어느날 대소한의 추위도 마다하지 않으시고 자강도의 한 농촌마을을 찾으시였다.",
+          "url": "http://www.kcna.kp/kp/article/detail/c8323553e4c8c77ffa3eb57388f1f4b5",
+          "mediaType": "article",
+          "categories": [
+            "memory"
+          ],
+          "categoryOrders": {
+            "memory": 1
+          },
+          "featuredSections": [
+            "memory"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Ab8f69f36f37c1d588cbbac1b"
         },
         {
           "id": "news:kcna:a1342f9a4892536961c53bfe",
@@ -532,7 +576,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 25,
+            "domestic": 33,
             "social": 2
           },
           "featuredSections": [
@@ -543,28 +587,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3Aa1342f9a4892536961c53bfe"
-        },
-        {
-          "id": "news:kcna:0cecae74a70ea266daf026df",
-          "title": "우리 나라의 9월 절기와 민속",
-          "date": "2026-09-02",
-          "snippet": "우리 나라의 9월 절기와 민속",
-          "url": "http://www.kcna.kp/kp/gallery/detail/22888bc156d85385306d4fefeb80bbf0",
-          "mediaType": "article",
-          "categories": [
-            "photo"
-          ],
-          "categoryOrders": {
-            "photo": 4
-          },
-          "featuredSections": [
-            "photo"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba64c5f04b0a1873405e93970d0c3ceca2",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/0ebf64e16896ed33588d872661547965d81ecaeb95c22fbee7938d1403dea08b.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A0cecae74a70ea266daf026df"
         },
         {
           "id": "news:kcna:617c4c21b1de4aa6c63a3349",
@@ -622,7 +644,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 28,
+            "domestic": 36,
             "social": 3
           },
           "featuredSections": [
@@ -651,7 +673,7 @@
             "important": 2,
             "document": 0,
             "foreign": 3,
-            "domestic": 38
+            "domestic": 46
           },
           "featuredSections": [
             "important",
@@ -675,7 +697,7 @@
             "memory"
           ],
           "categoryOrders": {
-            "memory": 1
+            "memory": 2
           },
           "featuredSections": [
             "memory"
@@ -698,7 +720,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 36,
+            "domestic": 44,
             "social": 4
           },
           "featuredSections": [
@@ -787,7 +809,7 @@
             "memory"
           ],
           "categoryOrders": {
-            "memory": 2
+            "memory": 3
           },
           "featuredSections": [
             "memory"
@@ -832,7 +854,7 @@
             "foreign"
           ],
           "categoryOrders": {
-            "international": 44,
+            "international": 51,
             "foreign": 4
           },
           "featuredSections": [
@@ -857,7 +879,7 @@
           ],
           "categoryOrders": {
             "foreign": 5,
-            "domestic": 64
+            "domestic": 72
           },
           "featuredSections": [
             "foreign"
@@ -883,7 +905,7 @@
           "categoryOrders": {
             "important": 3,
             "foreign": 6,
-            "domestic": 65
+            "domestic": 73
           },
           "featuredSections": [
             "important"
@@ -953,7 +975,7 @@
           "categoryOrders": {
             "important": 4,
             "foreign": 7,
-            "domestic": 66
+            "domestic": 74
           },
           "featuredSections": [
             "important"
@@ -977,7 +999,7 @@
           ],
           "categoryOrders": {
             "important": 5,
-            "domestic": 78
+            "domestic": 86
           },
           "featuredSections": [
             "important"
@@ -1005,7 +1027,7 @@
             "important": 6,
             "document": 1,
             "foreign": 9,
-            "domestic": 89
+            "domestic": 97
           },
           "featuredSections": [
             "document"
@@ -1027,7 +1049,7 @@
             "memory"
           ],
           "categoryOrders": {
-            "memory": 3
+            "memory": 4
           },
           "featuredSections": [
             "memory"
@@ -1059,28 +1081,6 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f291a83bad3b495dca006fab379cae87287",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3Aaa932e2fc3a90072da5a3488"
-        },
-        {
-          "id": "news:kcna:da529f9da9767bd1b5268965",
-          "title": "늦추어진 공연시간",
-          "date": "2026-08-26",
-          "snippet": "1998년 6월 어느날이였다.",
-          "url": "http://www.kcna.kp/kp/article/detail/c86b68e63c9f853d9f65c4a72a7e192d",
-          "mediaType": "article",
-          "categories": [
-            "memory"
-          ],
-          "categoryOrders": {
-            "memory": 4
-          },
-          "featuredSections": [
-            "memory"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Ada529f9da9767bd1b5268965"
         },
         {
           "id": "news:kcna:9418a43a726f38aaf6c54735",
@@ -1119,7 +1119,7 @@
           "categoryOrders": {
             "important": 9,
             "document": 2,
-            "domestic": 163
+            "domestic": 171
           },
           "featuredSections": [
             "document"
@@ -1145,7 +1145,7 @@
           "categoryOrders": {
             "important": 10,
             "document": 3,
-            "domestic": 174
+            "domestic": 182
           },
           "featuredSections": [
             "document"
@@ -1192,7 +1192,7 @@
           ],
           "categoryOrders": {
             "important": 25,
-            "international": 170,
+            "international": 177,
             "document": 5
           },
           "featuredSections": [
@@ -1219,7 +1219,7 @@
           "categoryOrders": {
             "important": 29,
             "document": 6,
-            "domestic": 305
+            "domestic": 313
           },
           "featuredSections": [
             "document"
