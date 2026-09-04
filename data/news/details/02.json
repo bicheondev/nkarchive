@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T00:00:00.000Z",
-  "version": "f2f425de37b7a99f",
+  "generatedAt": "2026-09-04T00:00:00.000Z",
+  "version": "66e16a1b6eb2c841",
   "shard": "02",
   "articles": {
     "news:kcna:aebe48c351aabd18862cd93b": {
@@ -17,7 +17,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 6
+        "domestic": 12
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45baa7c99ff0afe8a4cb4337d3c16d37a2d8",
@@ -162,7 +162,7 @@
       "categoryOrders": {
         "important": 29,
         "document": 6,
-        "domestic": 299
+        "domestic": 305
       },
       "featuredSections": [
         "document"
@@ -186,7 +186,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 330
+        "domestic": 336
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -208,7 +208,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 455
+        "domestic": 461
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -230,7 +230,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 120
+        "photo": 122
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77df762f986eb04775099d74a49548d7a72",
@@ -343,7 +343,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 691
+        "domestic": 697
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -389,7 +389,7 @@
       ],
       "categoryOrders": {
         "foreign": 159,
-        "domestic": 1062
+        "domestic": 1068
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -411,7 +411,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1266
+        "domestic": 1272
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -433,7 +433,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 395
+        "photo": 397
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e6020b31a50c0e0909d737d693ca2202b09",
@@ -551,7 +551,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2369
+        "domestic": 2375
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -575,7 +575,7 @@
       ],
       "categoryOrders": {
         "foreign": 415,
-        "domestic": 2416
+        "domestic": 2422
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/7bb69c9adb35245346525b5a2b4119847637d5ae2a5d5d7ecc4f1fd38715665b",
@@ -675,7 +675,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2722,
+        "domestic": 2728,
         "social": 419
       },
       "featuredSections": [],
@@ -789,7 +789,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2760
+        "domestic": 2766
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -811,7 +811,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2763
+        "domestic": 2769
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -900,7 +900,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 642
+        "photo": 644
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ffd22ef53aa15b6aba6ac599f1615fd4e1",
@@ -1022,7 +1022,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 653
+        "photo": 655
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f5d27e4e850562ce53b4fa1d0d3cb3a0b2",
@@ -1072,7 +1072,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2931
+        "domestic": 2937
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1138,7 +1138,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 839
+        "photo": 841
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12e5d56a39d0722cf263325ca54d63b2c6",
@@ -1215,7 +1215,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3660
+        "domestic": 3666
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1494,6 +1494,38 @@
           "cachedThumbnailUrl": "",
           "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMy0yMy0wNDFAMUA2QEAwQDgyQA==",
           "displayOrder": 1
+        }
+      ],
+      "videos": []
+    },
+    "news:rodong-sinmun:8a3d956bf548dd3d932aba24": {
+      "id": "news:rodong-sinmun:8a3d956bf548dd3d932aba24",
+      "title": "우리 당을 굳건히 떠받드는 미더운 애국탄부들이 영광의 당대회를 증산의 성과로 마중가고있다\n람전의 탄부들이 계속 선두에서 내달린다\n자강도공급탄광의 탄부들 올해에 들어와 2천t의 애국탄을 마련",
+      "date": "2026-02-13",
+      "snippet": "우리 당을 굳건히 떠받드는 미더운 애국탄부들이 영광의 당대회를 증산의 성과로 마중가고있다",
+      "body": "우리 당을 굳건히 떠받드는 미더운 애국탄부들이 영광의 당대회를 증산의 성과로 마중가고있다\n\n람전의 탄부들이 계속 선두에서 내달린다\n\n자강도공급탄광의 탄부들 올해에 들어와 2천t의 애국탄을 마련\n\n경애하는 김정은동지께서는 다음과 같이 말씀하시였다.\n\n《지금 전체 당원들과 근로자들은 당에 대한 절대적인 신뢰심과 불타는 애국의 열의를 안고 혁명승리에 대한 확고한 신심에 넘쳐 사회주의강국건설을 위한 투쟁에 적극 떨쳐나서고있습니다.》\n\n온 나라 인민이 당 제9차대회를 향한 총진군에 더욱 박차를 가하고있는 속에 사회주의애국탄증산운동으로 그 이름 널리 알려진 자강도공급탄광에서 혁신의 소식이 전해졌다.\n\n이곳 일군들과 종업원들이 지난 12일까지 2천t의 애국탄을 마련하는 자랑찬 성과를 이룩하였다.\n\n지난해말 한자리에 모여앉은 탄광의 일군들은 영광의 당대회를 보다 큰 석탄증산성과로 맞이하기 위한 방도를 진지하게 토의하였다.\n\n여기서는 높아진 계획을 드팀없이 수행하면서 당면하여 뜻깊은 2월의 명절까지 2천t의 애국탄을 마련하자는 제안이 모두의 열렬한 지지속에 통과되였고 지상단위의 핵심적인 청년들로 돌격대를 새로 조직하여 작업개소를 늘이는 문제를 비롯하여 내세운 목표를 점령하기 위한 구체적인 조직사업이 이루어졌다.\n\n갱, 채탄, 굴진단위들에서 격식없이 진행된 협의회들에서는 애국의 바통을 변함없이 이어 석탄생산에서 새로운 혁신을 창조할 결의를 다지는 탄부들의 열띤 목소리가 울려나오고 창조적지혜가 합쳐지는 속에 증산의 방도들이 탐구되였다.\n\n신년경축행사에서 하신 경애하는 총비서동지의 연설은 사회주의애국탄증산운동에 또다시 분기해나선 탄광일군들과 종업원들의 투쟁열, 애국열을 비상히 고조시키였다.\n\n대중의 앙양된 열의에 맞게 탄광당조직에서는 선전선동사업을 다양한 형식과 방법으로 참신하게 벌려나갔다.석탄생산과 탄부들의 생활에 깊은 관심을 돌리며 탄광마을들을 개변시키기 위한 웅대한 구상도 펼쳐준 당의 은정과 믿음에 누구나 석탄증산으로 보답하자는 내용으로 일관된 정치사업들은 종업원들만이 아닌 탄광마을주민들과 녀맹원들의 가슴가슴이 하나의 지향, 하나의 열망으로 높뛰게 하였다.\n\n어제날 채탄공, 굴진공, 일군이였던 수십명의 명예당원들이 달려나와 2개의 작업개소를 맡겨줄것을 당조직에 제기하고 새세대들에게 전세대들의 투쟁정신을 물려줄 비상한 의지로 막장에서 놀라운 실적을 기록해나갔다. 녀맹원들도 석탄증산을 위한 일을 스스로 찾아하며 애국의 땀을 아낌없이 바쳐갔다.\n\n이들의 헌신적인 투쟁에 고무된 탄부들이 중대별, 소대별, 교대별로 증산경쟁을 더욱 맹렬히 벌리는 속에 종합중대를 비롯한 여러 단위에서 높아진 일생산계획을 110%이상 수행하는 위훈이 창조되였다.\n\n애국으로 더 굳게 단결하여 당 제9차대회가 가리킬 새로운 전망을 향하여 더 기세차게, 용감하게 앞으로 나아갈 의지를 가다듬으며 누구나 석탄증산을 위해 완강한 투쟁을 벌려나가는 속에 탄광의 생산실적은 계속 뛰여오르고있다.\n\n글 본사기자 정경철\n\n사진 본사기자 오진일",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0xMy0wMTRANEAxMEBAMEAxMzZA==",
+      "mediaType": "article",
+      "sourceId": "rodong-sinmun",
+      "sourceName": "로동신문",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 157
+      },
+      "featuredSections": [],
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/9acc1c2e4ea08bad78177c0a8322f0b824e030a65bce3b5bd6b71f1506b6fbf4.jpg",
+      "images": [
+        {
+          "id": "news:rodong-sinmun:8a3d956bf548dd3d932aba24:image:9acc1c2e4ea08bad78177c0a8322f0b824e030a65bce3b5bd6b71f1506b6fbf4",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/9acc1c2e4ea08bad78177c0a8322f0b824e030a65bce3b5bd6b71f1506b6fbf4.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/9acc1c2e4ea08bad78177c0a8322f0b824e030a65bce3b5bd6b71f1506b6fbf4.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0xMy0wMTRANEAxMEBAMEAxMzZA==",
+          "displayOrder": 0
         }
       ],
       "videos": []
