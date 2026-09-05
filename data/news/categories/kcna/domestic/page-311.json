@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 311,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:84b33f4e3fac01622767bb90",
+      "title": "함경남도에서 농업부문의 발전에 힘 집중",
+      "date": "2026-04-20",
+      "snippet": "(평양 4월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7cf90d4b13b2129aa2f09f9f8223ca48",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1550
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A84b33f4e3fac01622767bb90"
+    },
     {
       "id": "news:kcna:bd2c364d089bf6bed3148304",
       "title": "함경북도에서 100여개의 벼모재배온실 새로 건설",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1550
+        "domestic": 1551
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1551
+        "domestic": 1552
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1552
+        "domestic": 1553
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1553,
+        "domestic": 1554,
         "social": 155
       },
       "featuredSections": [],
@@ -92,26 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A12a509b39bff353094298408"
-    },
-    {
-      "id": "news:kcna:d19450e59c9b5ac9a44cd87c",
-      "title": "농업위원회 농기계연구소에서 능률높은 농기계개발에 힘을 집중",
-      "date": "2026-04-19",
-      "snippet": "(평양 4월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/787e425972f30b776667cde8b903047c",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1554
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad19450e59c9b5ac9a44cd87c"
     }
   ]
 }

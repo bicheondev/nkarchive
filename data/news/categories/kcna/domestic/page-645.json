@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 645,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:d335a9e386644be60bf9417d",
+      "title": "2025년 11월 15일 신문개관",
+      "date": "2025-11-15",
+      "snippet": "(평양 11월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bad1bd6b83f5677d0c9d3d1b830445e6",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3221
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad335a9e386644be60bf9417d"
+    },
     {
       "id": "news:kcna:d46686c617c852fb7b2411de",
       "title": "로씨야 쎄고드냐통신사대표단 귀국",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "foreign": 493,
-        "domestic": 3221
+        "domestic": 3222
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,7 +65,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3222,
+        "domestic": 3223,
         "social": 518
       },
       "featuredSections": [],
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3223
+        "domestic": 3224
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3224
+        "domestic": 3225
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eacb2fb1d8fdf29600757f4d6c5647e15df",
       "cachedThumbnailUrl": "/data/news/assets/kcna/c89bc3fa93dd033995a7e7fbd74775d163a3475a2e4f953e80f1889c03d25bdb.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A737b8a1629cc4ac4d2ea5f86"
-    },
-    {
-      "id": "news:kcna:ffece67f63655b8798472434",
-      "title": "도자공예유산-알룩반죽자기",
-      "date": "2025-11-14",
-      "snippet": "(평양 11월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9f1ed83a3885a0cfff63e0fc2c389bd8",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3225
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Affece67f63655b8798472434"
     }
   ]
 }

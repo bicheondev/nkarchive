@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 263,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:2aa8cf6eac2767388d70ae61",
+      "title": "제39차 전국과학기술축전 페막",
+      "date": "2026-05-08",
+      "snippet": "(평양 5월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c37bbe13072f1b48d1081c46579ba1fa",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1310
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2aa8cf6eac2767388d70ae61"
+    },
     {
       "id": "news:kcna:5d45bc9b79329d58b2068f6d",
       "title": "백두산들쭉리용풍습이 국가비물질문화유산으로 새로 등록",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1310
+        "domestic": 1311
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1311
+        "domestic": 1312
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1312
+        "domestic": 1313
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1313
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A70c8fd900ce791067f820fc9"
-    },
-    {
-      "id": "news:kcna:55c01ea11646dd4f89bbda74",
-      "title": "철도운수부문의 20여개 기관차작업반,백수십명의 수송전사들 상반년계획 완수",
-      "date": "2026-05-08",
-      "snippet": "(평양 5월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/78cbd23fa0ed75c5c14ed173a090fa8b",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1314
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A55c01ea11646dd4f89bbda74"
+      "detailUrl": "/news/document?id=news%3Akcna%3A70c8fd900ce791067f820fc9"
     }
   ]
 }

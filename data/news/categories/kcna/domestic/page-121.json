@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 121,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:9397884419af3b71a37f2877",
+      "title": "중화인민공화국 당 및 정부대표단이 우리 나라를 공식친선방문한다",
+      "date": "2026-07-14",
+      "snippet": "(평양 7월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/76e471556c65618ca63a95cc5211194c",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 61,
+        "foreign": 91,
+        "domestic": 600
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9397884419af3b71a37f2877"
+    },
     {
       "id": "news:kcna:5a37a7788c557622277c51a0",
       "title": "모범적인 단위들과 기대에 26호모범기대영예상 수여",
@@ -22,7 +46,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 600
+        "domestic": 601
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 601
+        "domestic": 602
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 602
+        "domestic": 603
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +108,7 @@
       ],
       "categoryOrders": {
         "foreign": 92,
-        "domestic": 603
+        "domestic": 604
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,26 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dd2541106d84c9166917cae5ee1db24d2",
       "cachedThumbnailUrl": "/data/news/assets/kcna/a1e1a0d5989dd05b219e492f89fb773e1be3de568b4876a10546abf8498ecc07.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A4663cbdca77a1351a8aed16f"
-    },
-    {
-      "id": "news:kcna:13360022e8ca625602ef6558",
-      "title": "함경북도에서 3대혁명을 동력으로 새로운 전망목표수행에 매진",
-      "date": "2026-07-13",
-      "snippet": "(평양 7월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/10838065177df8aa11b7efb2e54d7be3",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 604
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A13360022e8ca625602ef6558"
     }
   ]
 }

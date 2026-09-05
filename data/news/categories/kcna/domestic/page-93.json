@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 93,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:56fa9e982040cd3856c47447",
+      "title": "전승절에 즈음하여 국가지도간부들 전쟁로병들의 가정을 방문",
+      "date": "2026-07-25",
+      "snippet": "(평양 7월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7ea38ec25a39b9c6c1754e5b4533e1cd",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 42,
+        "domestic": 460
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dcebfe1dd1e63b60da947fc2d9d1aa224",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/735ed9ababecc472280d5a4b928f757c9ff5f3cb9f1da7f9a6e630cadea5a5ae.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A56fa9e982040cd3856c47447"
+    },
     {
       "id": "news:kcna:7e1ec19ad7b8a2fe2887f34b",
       "title": "전승세대의 불멸할 공훈을 전하는 새시대의 명곡들",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 460
+        "domestic": 461
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 461
+        "domestic": 462
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 462
+        "domestic": 463
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 463
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A449fe927563631d10d742b13"
-    },
-    {
-      "id": "news:kcna:76b9930f846c56aba1c39a5d",
-      "title": "싸우는 군대와 인민을 전쟁승리에로 고무격려한 포화속의 문예인들",
-      "date": "2026-07-24",
-      "snippet": "(평양 7월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/58e054f835963735817d58f95a77859b",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 464
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A76b9930f846c56aba1c39a5d"
+      "detailUrl": "/news/document?id=news%3Akcna%3A449fe927563631d10d742b13"
     }
   ]
 }

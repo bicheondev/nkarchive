@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 435,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:29663747b89f185013b92d2e",
+      "title": "압록강종합식료공장에서 맥주생산공정 새로 확립",
+      "date": "2026-02-26",
+      "snippet": "(평양 2월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5b4b85b4dc9a0b8d7652db5ddcca41ef",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2171
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A29663747b89f185013b92d2e"
+    },
     {
       "id": "news:kcna:8ad809a1b3d8655ebabfa24a",
       "title": "조선로동당 제9차대회 기념행사에 참가하는 특별손님들에게 초대장 전달",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "important": 271,
-        "domestic": 2171
+        "domestic": 2172
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2172
+        "domestic": 2173
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2173
+        "domestic": 2174
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,28 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2174
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5c20366ddf4f0a1bf78d4acc"
-    },
-    {
-      "id": "news:kcna:9dd8e840c2af06b699251f8a",
-      "title": "조선로동당 제9차대회 부문별 연구 및 협의회 진행",
-      "date": "2026-02-25",
-      "snippet": "(평양 2월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fbba04f5500dc942a7d80d36c4c95506",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 273,
         "domestic": 2175
       },
       "featuredSections": [],
@@ -113,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9dd8e840c2af06b699251f8a"
+      "detailUrl": "/news/document?id=news%3Akcna%3A5c20366ddf4f0a1bf78d4acc"
     }
   ]
 }

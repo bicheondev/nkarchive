@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 595,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:bf1fa840d7c34eda22266ff7",
+      "title": "혜산세멘트공장에서 년간계획을 완수한 기세로 계속 전진",
+      "date": "2025-12-09",
+      "snippet": "(평양 12월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9f697377a775b678aee3ef99ef239d7d",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2971
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abf1fa840d7c34eda22266ff7"
+    },
     {
       "id": "news:kcna:f2b98d1598f873cfffaf93af",
       "title": "화력탄생산단위들에서 사회주의경쟁 활발",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2971,
+        "domestic": 2972,
         "social": 463
       },
       "featuredSections": [],
@@ -45,7 +65,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2972,
+        "domestic": 2973,
         "social": 464
       },
       "featuredSections": [],
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2973
+        "domestic": 2974
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,28 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2974
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Addfb555d9339c7eeda50bc4b"
-    },
-    {
-      "id": "news:kcna:13120f98b7870721072b6fb1",
-      "title": "로씨야를 방문하는 재해방지성대표단 출발",
-      "date": "2025-12-09",
-      "snippet": "(평양 12월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4ca1007fef454717b291531aee8a2f5f",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 479,
         "domestic": 2975
       },
       "featuredSections": [],
@@ -115,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A13120f98b7870721072b6fb1"
+      "detailUrl": "/news/document?id=news%3Akcna%3Addfb555d9339c7eeda50bc4b"
     }
   ]
 }

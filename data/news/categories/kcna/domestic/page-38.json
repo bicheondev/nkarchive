@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 38,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:cb4f5f9c1b4159e9693dc029",
+      "title": "2026년 8월 20일 신문개관",
+      "date": "2026-08-20",
+      "snippet": "(평양 8월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/62fef0ff217c749717d9a6f6328361e5",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 185
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Acb4f5f9c1b4159e9693dc029"
+    },
     {
       "id": "news:kcna:6b6b6fc0a074a94a652e9775",
       "title": "개성지방의 전통적인 돌칸싸우나료법",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 185
+        "domestic": 186
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 186
+        "domestic": 187
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 187
+        "domestic": 188
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +106,7 @@
       "categoryOrders": {
         "important": 11,
         "document": 3,
-        "domestic": 188
+        "domestic": 189
       },
       "featuredSections": [
         "document"
@@ -96,26 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-8bca70b499b526e4"
-    },
-    {
-      "id": "news:kcna:7358319a03cfbc9e591f90cc",
-      "title": "혁명사적지건설국창립 50돐 기념보고회 진행",
-      "date": "2026-08-19",
-      "snippet": "(평양 8월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/cccd620c507023961a836d71606fb81f",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 189
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7358319a03cfbc9e591f90cc"
     }
   ]
 }

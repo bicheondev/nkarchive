@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 438,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:3eb6c3e18d17250c6670e353",
+      "title": "청천강화력발전소 전력생산에 매진",
+      "date": "2026-02-24",
+      "snippet": "(평양 2월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/88ff1cc09f545f508b477dcff67b2edd",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2186
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3eb6c3e18d17250c6670e353"
+    },
     {
       "id": "news:kcna:e198a902fa0ad4b7347f8a6c",
       "title": "여러 전문체육단위에서 교수훈련의 과학화수준제고에 주력",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2186
+        "domestic": 2187
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "foreign": 372,
-        "domestic": 2187
+        "domestic": 2188
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2188
+        "domestic": 2189
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2189
+        "domestic": 2190
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A08b3d3d1a61eb125887123c5"
-    },
-    {
-      "id": "news:kcna:02ad5abe4136536b7b940ac8",
-      "title": "평양시 모란봉구역의 백살장수자가 은정어린 생일상을 받아안았다",
-      "date": "2026-02-24",
-      "snippet": "(평양 2월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2930652d9b588b8f79066d4bb2ccc967",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2190,
-        "social": 276
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A02ad5abe4136536b7b940ac8"
     }
   ]
 }

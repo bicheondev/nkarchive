@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 310,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:ff5a3af36f2a937555ae4fec",
+      "title": "2026년 4월 20일 《로동신문》개관",
+      "date": "2026-04-20",
+      "snippet": "(평양 4월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/852e70e5b12d9ea5ab484289aab7478c",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1545
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aff5a3af36f2a937555ae4fec"
+    },
     {
       "id": "news:kcna:8314e93e4068a05ea771a224",
       "title": "로씨야무소속직업동맹련맹대표단 만경대 방문,여러곳 참관",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "foreign": 242,
-        "domestic": 1545
+        "domestic": 1546
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "foreign": 243,
-        "domestic": 1546
+        "domestic": 1547
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1547
+        "domestic": 1548
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1548
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A796dffea8b593fd6049da3aa"
-    },
-    {
-      "id": "news:kcna:84b33f4e3fac01622767bb90",
-      "title": "함경남도에서 농업부문의 발전에 힘 집중",
-      "date": "2026-04-20",
-      "snippet": "(평양 4월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7cf90d4b13b2129aa2f09f9f8223ca48",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1549
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A84b33f4e3fac01622767bb90"
+      "detailUrl": "/news/document?id=news%3Akcna%3A796dffea8b593fd6049da3aa"
     }
   ]
 }

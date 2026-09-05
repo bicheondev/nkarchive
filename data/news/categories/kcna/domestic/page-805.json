@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 805,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:5ca1c2179d72c084eabc6134",
+      "title": "각지 공장들에서 위생월간사업 전개",
+      "date": "2025-09-18",
+      "snippet": "(평양 9월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d127ae32822605ef9e5cd4e80347227d",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 4021
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5ca1c2179d72c084eabc6134"
+    },
     {
       "id": "news:kcna:0df922501fbbe5ff5617718e",
       "title": "함경북도 길주군 길송리에 펼쳐진 새집들이경사",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 4021,
+        "domestic": 4022,
         "social": 654
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4022
+        "domestic": 4023
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4023
+        "domestic": 4024
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4024
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af2b5c0fa9ce5d1528f7db7c6"
-    },
-    {
-      "id": "news:kcna:d0d6b3d33c1626dff9df8a83",
-      "title": "평안남도에서 수천대의 탈곡기수리정비 결속",
-      "date": "2025-09-17",
-      "snippet": "(평양 9월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/39f45ad240f1a1b11ef5588681523caf",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 4025
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad0d6b3d33c1626dff9df8a83"
+      "detailUrl": "/news/document?id=news%3Akcna%3Af2b5c0fa9ce5d1528f7db7c6"
     }
   ]
 }

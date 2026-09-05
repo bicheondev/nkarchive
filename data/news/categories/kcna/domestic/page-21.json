@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 21,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:b73db295fea1cee422e65249",
+      "title": "대고조전구들에 나래치는 애국청년들의 전진기상",
+      "date": "2026-08-27",
+      "snippet": "(평양 8월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ae0f244a25065bd62a3c2b687bce58d9",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 100
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab73db295fea1cee422e65249"
+    },
     {
       "id": "news:kcna:c97b585a7bebde23f269daa7",
       "title": "평양시안의 보통교육단위들에서 새 학기 교수준비사업 추진",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 100
+        "domestic": 101
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 101
+        "domestic": 102
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 102
+        "domestic": 103
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,7 +108,7 @@
         "important": 7,
         "document": 1,
         "foreign": 11,
-        "domestic": 103
+        "domestic": 104
       },
       "featuredSections": [
         "document"
@@ -98,26 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A6aa3ff6b7410c650239f1b74"
-    },
-    {
-      "id": "news:kcna:6ce4b982a8ae692ce71f20fc",
-      "title": "《로동신문》 변혁의 새 전기를 펼쳐나가는 우리 당의 혁명적인 실행의지에 대해 강조",
-      "date": "2026-08-27",
-      "snippet": "(평양 8월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ccca401e2c235b3e1b44ea4a1b9dd4f2",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 104
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6ce4b982a8ae692ce71f20fc"
     }
   ]
 }

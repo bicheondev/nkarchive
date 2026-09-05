@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 625,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:031b239ada466042c7c5e598",
+      "title": "인민들과 청소년들의 문화정서생활에 이바지하는 만화영화창작기지",
+      "date": "2025-11-25",
+      "snippet": "(평양 11월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7e9d4b845b17307332d7f1492b5c5e2e",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3121
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac2f89072f9715c6a4cac8f083bb724699",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/01d23b06485e57917477759e859ab4604b7aa27165769d0ab3282a351fd73fb6.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A031b239ada466042c7c5e598"
+    },
     {
       "id": "news:kcna:c3f06e4bc83b4b01c62e6a18",
       "title": "2025년 11월 25일 《로동신문》개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3121
+        "domestic": 3122
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3122
+        "domestic": 3123
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3123,
+        "domestic": 3124,
         "social": 492
       },
       "featuredSections": [],
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3124
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A54ce0becec457fab36aee481"
-    },
-    {
-      "id": "news:kcna:6cce55419a6fb88a56a606dd",
-      "title": "개성시에서 농기구공장 개건",
-      "date": "2025-11-25",
-      "snippet": "(평양 11월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/54d801ec3ecf08b1f14eeaf9506b8b69",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3125
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6cce55419a6fb88a56a606dd"
+      "detailUrl": "/news/document?id=news%3Akcna%3A54ce0becec457fab36aee481"
     }
   ]
 }

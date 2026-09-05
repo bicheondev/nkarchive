@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 110,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:a6de890ce4c6aeb0c7f98fcf",
+      "title": "중화인민공화국 당 및 정부대표단 원산갈마해안관광지구 참관",
+      "date": "2026-07-18",
+      "snippet": "(평양 7월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3b453d92dfd5af877b73b5da8c14de74",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 52,
+        "foreign": 77,
+        "domestic": 545
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77ddd9854933a16fb3ac58e877c1e609a46",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/cd226a20faac6461899f82a49532880e72533cdedc2b5e096ed5e38b2a40c5de.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa6de890ce4c6aeb0c7f98fcf"
+    },
     {
       "id": "news:kcna:848c067f56946b65d9e23fba",
       "title": "싼디노인민혁명승리 47돐에 즈음한 경축행사 진행",
@@ -24,7 +48,7 @@
       ],
       "categoryOrders": {
         "foreign": 78,
-        "domestic": 545
+        "domestic": 546
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +68,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 546
+        "domestic": 547
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,7 +89,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 547,
+        "domestic": 548,
         "social": 68
       },
       "featuredSections": [],
@@ -86,26 +110,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 548
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A838c9bb86077c034f1e27e82"
-    },
-    {
-      "id": "news:kcna:59dca3c2efce58bddb6beb8e",
-      "title": "조선태권도위원회에서 새 교과서들 집필",
-      "date": "2026-07-17",
-      "snippet": "(평양 7월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8c27d8a752fe8d4c30e2cf4503fcadf5",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 549
       },
       "featuredSections": [],
@@ -113,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A59dca3c2efce58bddb6beb8e"
+      "detailUrl": "/news/document?id=news%3Akcna%3A838c9bb86077c034f1e27e82"
     }
   ]
 }

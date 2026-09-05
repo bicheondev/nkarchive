@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 48,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:4b2f6181a60e94c70efb8076",
+      "title": "우리 나라의 명승 송단",
+      "date": "2026-08-16",
+      "snippet": "(평양 8월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/04900d46ab7bdd63301276623cdc1326",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 235
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4b2f6181a60e94c70efb8076"
+    },
     {
       "id": "kcna-ddb139b3fc289d12",
       "title": "《백두의 혁명정신을 계승해나가기 위한 청년학생들의 웅변모임-2026》 진행",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 235,
+        "domestic": 236,
         "social": 36
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 236
+        "domestic": 237
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 237
+        "domestic": 238
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 238
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ade4d431b05e3e244eb17bba8"
-    },
-    {
-      "id": "news:kcna:3029191b5a2a17a9875ff4e1",
-      "title": "우리 선수들 제11차 아시아태권도선수권대회에서 3개의 종합우승컵과 75개의 금메달 쟁취",
-      "date": "2026-08-15",
-      "snippet": "(평양 8월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/dc22116927708a23185465d67a7eb300",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 239
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3029191b5a2a17a9875ff4e1"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ade4d431b05e3e244eb17bba8"
     }
   ]
 }

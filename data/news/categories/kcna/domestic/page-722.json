@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 722,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:7ffbf213d9232259ce19299a",
+      "title": "평안남도 안주시 송학농장에 현대적인 문화주택들이 일떠섰다",
+      "date": "2025-10-16",
+      "snippet": "(평양 10월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/34317eb5ffbbbb88a5f2918185d93ea7",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 3606,
+        "social": 591
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c1242bc4028b30156a6eded6c497fb1d37c",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/80909a1a6498326a89e881e4214dac9edbee6458b8057704811a6e765d617cc1.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7ffbf213d9232259ce19299a"
+    },
     {
       "id": "news:kcna:f1d31de96c4f5982ee29605c",
       "title": "림업부문에서 전망생산을 위한 물질기술적토대구축에 주력",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3606
+        "domestic": 3607
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +66,7 @@
       ],
       "categoryOrders": {
         "foreign": 571,
-        "domestic": 3607
+        "domestic": 3608
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3608
+        "domestic": 3609
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +108,7 @@
       ],
       "categoryOrders": {
         "foreign": 572,
-        "domestic": 3609
+        "domestic": 3610
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,28 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c1222545754a10c5c53d64c372d3173ec2a",
       "cachedThumbnailUrl": "/data/news/assets/kcna/9b595bbf7e0f8882fb3f0dc7d5fe9b11df2311b9b368efe6652b870d07acffa0.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A7afe8ad52d380bbd7b6bee07"
-    },
-    {
-      "id": "news:kcna:2cdf843968a630291070b911",
-      "title": "로씨야공업무역성림업대표단 도착",
-      "date": "2025-10-16",
-      "snippet": "(평양 10월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f1d0951ac6522317f3168b58d5280c81",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 573,
-        "domestic": 3610
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12c9dbeef1486499ab80d72324e2f74df7",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/8fdb873106ad53d26485eb425b246412bc3546008a2b4ff982e3116839dba88d.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2cdf843968a630291070b911"
     }
   ]
 }

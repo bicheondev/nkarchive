@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 373,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:4eb26c3c8e12d9d9e49132af",
+      "title": "특색있는 봉사기능을 갖춘 밀영호텔",
+      "date": "2026-03-25",
+      "snippet": "(평양 3월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c3db6101e11a2c8e953208f88fb2cdb8",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1861
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4eb26c3c8e12d9d9e49132af"
+    },
     {
       "id": "news:kcna:b1d5d07b1dcf77e4815a8215",
       "title": "평안남도의 고려약공장들에서 생산성과 확대",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1861
+        "domestic": 1862
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1862
+        "domestic": 1863
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       "categoryOrders": {
         "important": 207,
         "foreign": 324,
-        "domestic": 1863
+        "domestic": 1864
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,7 +108,7 @@
       ],
       "categoryOrders": {
         "important": 211,
-        "domestic": 1864
+        "domestic": 1865
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,28 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A0a8822ca452c8be2d70d16ac"
-    },
-    {
-      "id": "news:kcna:7a5e2fc388abccfb27e2d6ec",
-      "title": "평양시 강동군의 백살장수자가 은정어린 생일상을 받아안았다",
-      "date": "2026-03-25",
-      "snippet": "(평양 3월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/43f4a4a513b3b221079ea6a438e3ebd3",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 1865,
-        "social": 207
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7a5e2fc388abccfb27e2d6ec"
     }
   ]
 }

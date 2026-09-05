@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 425,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:54bb83b08dfaa7cf20260a38",
+      "title": "2026년 3월 2일 신문개관",
+      "date": "2026-03-02",
+      "snippet": "(평양 3월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bdb02069bcfa6c5667197b0cdfb9bf81",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2121
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A54bb83b08dfaa7cf20260a38"
+    },
     {
       "id": "news:kcna:dae0725655927c85e5c7527e",
       "title": "재중조선인총련합회축하단 만경대 방문,여러곳 참관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2121
+        "domestic": 2122
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2122
+        "domestic": 2123
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2123
+        "domestic": 2124
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,30 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2124
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A701e6717919cb4590092b8cb"
-    },
-    {
-      "id": "news:kcna:8db22e5c1c1da107395ec12b",
-      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
-      "date": "2026-03-01",
-      "snippet": "(평양 3월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/53575847da5236a74844e7217bc85cbc",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 259,
-        "document": 39,
         "domestic": 2125
       },
       "featuredSections": [],
@@ -113,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8db22e5c1c1da107395ec12b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A701e6717919cb4590092b8cb"
     }
   ]
 }

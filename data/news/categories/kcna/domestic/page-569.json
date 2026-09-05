@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 569,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:7e6be7c5a722df5b4aaba8e7",
+      "title": "2025년 12월 22일 신문개관",
+      "date": "2025-12-22",
+      "snippet": "(평양 12월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/69b4ff1d6367dc64dd7363c802ed182b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2841
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7e6be7c5a722df5b4aaba8e7"
+    },
     {
       "id": "news:kcna:2d0c171dbeda61e25757dd5c",
       "title": "각지 제1중학교들에서 수재교육의 특성에 맞는 교육방법들 적용",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2841
+        "domestic": 2842
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2842,
+        "domestic": 2843,
         "social": 435
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2843
+        "domestic": 2844
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2844
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2cfb4bf43682926f3b0cc479"
-    },
-    {
-      "id": "news:kcna:bdafd775c10767066d9b9349",
-      "title": "토지정리돌격대에서 올해 수천정보의 토지를 정리",
-      "date": "2025-12-21",
-      "snippet": "(평양 12월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5b8cc81818ebe49368214dbfd8159f67",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2845
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abdafd775c10767066d9b9349"
+      "detailUrl": "/news/document?id=news%3Akcna%3A2cfb4bf43682926f3b0cc479"
     }
   ]
 }

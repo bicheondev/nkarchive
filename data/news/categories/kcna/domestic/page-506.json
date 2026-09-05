@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 506,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:a9cfda60e77515d28727b20a",
+      "title": "절세위인의 손길아래 펼쳐진 지방진흥의 새시대",
+      "date": "2026-01-23",
+      "snippet": "(평양 1월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9ab237d2e381fcb8d3886e74f419aa44",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2526
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451e2cf1289080c8dc71c0d5a9feed81453",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/7430b8abe71a6b42735bee633b4f59b6699a835399f2d8474983a4a0a00d7527.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa9cfda60e77515d28727b20a"
+    },
     {
       "id": "news:kcna:40c443959c74c58c558c7ffc",
       "title": "독특한 형태미로 우아한 조선치마저고리",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2526
+        "domestic": 2527
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2527
+        "domestic": 2528
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2528
+        "domestic": 2529
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2529,
+        "domestic": 2530,
         "social": 351
       },
       "featuredSections": [],
@@ -92,28 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451567f133ca84fccec1e30b03645435f65",
       "cachedThumbnailUrl": "/data/news/assets/kcna/ddbc411b90a8cb877f638af2a5164ef53afd2f5a282405597398aea630b1dd96.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A70d6b925e5a8c9acd9451944"
-    },
-    {
-      "id": "news:kcna:797e3e9ecc0ca2b224c990c4",
-      "title": "락원군,신포시바다가양식사업소들사이의 사회주의경쟁선포모임 진행",
-      "date": "2026-01-23",
-      "snippet": "(평양 1월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1eb48c8d88efa4fd6d4e17b6d09dc38c",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2530,
-        "social": 352
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A797e3e9ecc0ca2b224c990c4"
     }
   ]
 }

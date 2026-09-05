@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 453,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:c2f33b54193f6e3b1bacf06c",
+      "title": "새로 일떠선 종합봉사소들 주민들로 련일 흥성",
+      "date": "2026-02-17",
+      "snippet": "(평양 2월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c49b4bff3909ee6ee34d12780e0cd400",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2261,
+        "social": 294
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf3667525f237c49597be64956dda66371488",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/5edbf76c1fe3c8058122ce1926e9e789ae30c89b146fae9231cd585ce7f69124.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac2f33b54193f6e3b1bacf06c"
+    },
     {
       "id": "news:kcna:e7e7cff7c22b778e1177f4ce",
       "title": "후대들의 밝은 웃음으로 더욱 환희로운 2월명절",
@@ -23,7 +45,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2261,
+        "domestic": 2262,
         "social": 295
       },
       "featuredSections": [],
@@ -46,7 +68,7 @@
       ],
       "categoryOrders": {
         "important": 296,
-        "domestic": 2262
+        "domestic": 2263
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +88,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2263
+        "domestic": 2264
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +108,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2264
+        "domestic": 2265
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,26 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A9cfe3de966cc12b06100d8b1"
-    },
-    {
-      "id": "news:kcna:841320acbd9da03a7c1525ee",
-      "title": "우리 나라의 광천자원-온천",
-      "date": "2026-02-16",
-      "snippet": "(평양 2월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f171d6ed918cd795012de296722d78b4",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2265
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf36681755a823447d23227c6d8987d47d14b",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/31bb559d43fe0fe84fa770bd6ba5edee3f4c5b48792ad49c0f614235f580c988.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A841320acbd9da03a7c1525ee"
     }
   ]
 }

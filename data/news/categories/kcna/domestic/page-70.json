@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 70,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:1b845328e8f8653104fafead",
+      "title": "《로동신문》 경쟁으로 전진하고 경쟁으로 비약하자고 강조",
+      "date": "2026-08-05",
+      "snippet": "(평양 8월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4ebbfc36bc146af98d4482b4350ed7e5",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 345
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1b845328e8f8653104fafead"
+    },
     {
       "id": "news:kcna:a99ea1fd029c7ae257ae83ba",
       "title": "《전국8월3일인민소비품전시회-2026》 개막",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 345
+        "domestic": 346
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 346
+        "domestic": 347
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +88,7 @@
         "important": 32,
         "document": 7,
         "foreign": 49,
-        "domestic": 347
+        "domestic": 348
       },
       "featuredSections": [],
       "hasImage": false,
@@ -89,7 +109,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 348,
+        "domestic": 349,
         "social": 46
       },
       "featuredSections": [],
@@ -98,26 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A354c1dfeb7d403f58fd8f446"
-    },
-    {
-      "id": "news:kcna:e7977d49c635aad4553dbed7",
-      "title": "각급 농근맹조직들에서 사상사업 공세적으로 전개",
-      "date": "2026-08-05",
-      "snippet": "(평양 8월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a0b99466b7c5d044366d345cfb89997a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 349
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae7977d49c635aad4553dbed7"
     }
   ]
 }

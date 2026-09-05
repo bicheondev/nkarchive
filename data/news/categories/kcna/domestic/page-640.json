@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 640,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:f7168d88afc142809c940cf1",
+      "title": "온실남새부문 과학기술토론회-2025 진행",
+      "date": "2025-11-18",
+      "snippet": "(평양 11월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cccb347876045eaffcddd26ab60534a0",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3196
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af7168d88afc142809c940cf1"
+    },
     {
       "id": "news:kcna:41f5022278f489577ff04ba3",
       "title": "황해남도의 밀가공공장들에서 기술혁신으로 생산력 제고",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3196
+        "domestic": 3197
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "international": 2170,
-        "domestic": 3197
+        "domestic": 3198
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3198
+        "domestic": 3199
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3199
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8924825403e5af99a993154d"
-    },
-    {
-      "id": "news:kcna:81daf36e9b66d83c99bdd4f5",
-      "title": "2025년 11월 17일 신문개관",
-      "date": "2025-11-17",
-      "snippet": "(평양 11월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/49ddedcb37603aa9d7c3167d84b94220",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3200
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A81daf36e9b66d83c99bdd4f5"
+      "detailUrl": "/news/document?id=news%3Akcna%3A8924825403e5af99a993154d"
     }
   ]
 }

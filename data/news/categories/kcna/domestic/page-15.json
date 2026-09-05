@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 15,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:d7ba82344c45a4061e61def7",
+      "title": "홰불컵축구경기 결속",
+      "date": "2026-08-29",
+      "snippet": "(평양 8월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/06f4b39beb297ca1023bfd4755fbba53",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 70
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad7ba82344c45a4061e61def7"
+    },
     {
       "id": "news:kcna:b10a820dea14323b9646dc7c",
       "title": "함경북도안의 금속공업부문 공장,기업소들에서 설비관리,기술관리수준을 제고하기 위한 대책 강구",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 70
+        "domestic": 71
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 71,
+        "domestic": 72,
         "social": 7
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 72
+        "domestic": 73
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 73
+        "domestic": 74
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A329a06830fa82678146b8363"
-    },
-    {
-      "id": "news:kcna:f8bae31af14e43652f8bf1ca",
-      "title": "당과 정부의 간부들 각지 청년들과 함께 청년절을 기념",
-      "date": "2026-08-29",
-      "snippet": "(평양 8월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d867ae1d5a411adcff8d26ee4dae8804",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 74,
-        "social": 8
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2985c7301235d63977f45c0f311eb04c69",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/9363c411a43cf0db24a03a3922c12988315fa63317331f82f2e8fe739e1c618f.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af8bae31af14e43652f8bf1ca"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 261,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:2e19adb2a6754b378313effb",
+      "title": "조선사회주의녀성동맹 제8차대회를 소집함에 대하여",
+      "date": "2026-05-09",
+      "snippet": "(평양 5월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6ef5e593bc2d2bcb3f3368c439d22975",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1300
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2e19adb2a6754b378313effb"
+    },
     {
       "id": "news:kcna:9e0fd949687e5108f476ea63",
       "title": "조선직업총동맹 제9차대회 참가자들 평양 도착",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1300
+        "domestic": 1301
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1301
+        "domestic": 1302
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1302
+        "domestic": 1303
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1303
+        "domestic": 1304
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,26 +110,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e00006499425547a54492518b3c2b3964901eb6",
       "cachedThumbnailUrl": "/data/news/assets/kcna/a1bcc50ca4b5819376f618814feeadfd7c956b6f5a1e280c16c637225331f274.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Aa7b2387078ed5862cf938d1c"
-    },
-    {
-      "id": "news:kcna:c7fdd8057ff3e090fddfaa6b",
-      "title": "순천화력발전소에서 전력생산성과 확대",
-      "date": "2026-05-09",
-      "snippet": "(평양 5월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/accc6dd4648075cbc5baf2d4eda9b267",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1304
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac7fdd8057ff3e090fddfaa6b"
     }
   ]
 }

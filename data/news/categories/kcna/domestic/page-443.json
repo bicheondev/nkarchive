@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 443,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:a6d8fd6b738db66e29657760",
+      "title": "농사차비로 들끓는 황남의 전야",
+      "date": "2026-02-22",
+      "snippet": "(평양 2월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d1bc10698915c24e75e46193127af9dc",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2211
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa6d8fd6b738db66e29657760"
+    },
     {
       "id": "news:kcna:029cbe56e2bf651d4312180e",
       "title": "모범적인 단위들에 모범준법단위칭호 수여",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "document": 44,
-        "domestic": 2211
+        "domestic": 2212
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2212
+        "domestic": 2213
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2213
+        "domestic": 2214
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2214
+        "domestic": 2215
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A107a95823581aaf231b11bd4"
-    },
-    {
-      "id": "news:kcna:ecf45ee178f2f65ff5d0a1bc",
-      "title": "평양시의 여러 단위에서 전기절약사업 활발",
-      "date": "2026-02-21",
-      "snippet": "(평양 2월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ed063be2b87d2b93edaf07b43e98bed4",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2215,
-        "social": 279
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aecf45ee178f2f65ff5d0a1bc"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 269,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:1f0be6e700ec49392ad3075d",
+      "title": "《소년신문》창간 80돐 기념보고회 진행",
+      "date": "2026-05-06",
+      "snippet": "(평양 5월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/957edbbfcd2a24f72961580bd9780284",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1340
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1f0be6e700ec49392ad3075d"
+    },
     {
       "id": "news:kcna:00aee4d3fa9c4ea81b19e2cc",
       "title": "강원도에서 농촌학교들을 도와주는 사업 추진",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1340,
+        "domestic": 1341,
         "social": 139
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1341
+        "domestic": 1342
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1342
+        "domestic": 1343
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,28 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1343
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5d8c7f66becd433ec3b7f1dc"
-    },
-    {
-      "id": "news:kcna:5f51af4f1ffc966dddb9f339",
-      "title": "우리 나라 외무상 뽈스까공화국 외무상에게 축전",
-      "date": "2026-05-05",
-      "snippet": "(평양 5월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6146d723f5ea5ed6aecc1fa9ade648e4",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 198,
         "domestic": 1344
       },
       "featuredSections": [],
@@ -113,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5f51af4f1ffc966dddb9f339"
+      "detailUrl": "/news/document?id=news%3Akcna%3A5d8c7f66becd433ec3b7f1dc"
     }
   ]
 }

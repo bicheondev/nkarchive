@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 125,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:7c8385842cb79e7b6dbe20ed",
+      "title": "남포시 온천군과 룡강군의 지방공업공장들에서 생산성과 확대",
+      "date": "2026-07-12",
+      "snippet": "(평양 7월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/623c73a4ba24b78ba26290d511ad5637",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 620
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7c8385842cb79e7b6dbe20ed"
+    },
     {
       "id": "news:kcna:96b36311678b3c90a2314fc5",
       "title": "총련조선대학교 졸업학년학생조국방문단이 떠나갔다",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 620
+        "domestic": 621
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 621
+        "domestic": 622
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "foreign": 98,
-        "domestic": 622
+        "domestic": 623
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 623
+        "domestic": 624
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,26 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dc08e6334c5631d50a8f0c6a3a8c726f4",
       "cachedThumbnailUrl": "/data/news/assets/kcna/91b9f982b9b55182cfe85e774e5610750f9b732c3e6828c97befb59b4eb601c5.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A38d81da6716698e010481e54"
-    },
-    {
-      "id": "news:kcna:256f7c199bbc2c3d26f7fc38",
-      "title": "조선사회주의녀성동맹 제8차대회 참가자들 평양에 도착",
-      "date": "2026-07-12",
-      "snippet": "(평양 7월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c819bbc072b215572a98b3757c8f7dea",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 624
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dba4b0cb1a1cebea2ad5cea971db41a54",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/85c1ea1ededa9db9cb15816922f401b733845e308171fcc7b63efea4a44a5b2e.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A256f7c199bbc2c3d26f7fc38"
     }
   ]
 }

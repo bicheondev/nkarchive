@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 685,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:1fedce5c9279dd2d9e18662c",
+      "title": "평양시의 여러 단위에서 태양빛에네르기를 효과적으로 개발리용",
+      "date": "2025-10-30",
+      "snippet": "(평양 10월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/728bea8f8de1517f24bfe276dc154563",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3421
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1fedce5c9279dd2d9e18662c"
+    },
     {
       "id": "news:kcna:7b3c7a45d0e03e289fc19da5",
       "title": "로씨야경제대표단 평양 도착",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "foreign": 529,
-        "domestic": 3421
+        "domestic": 3422
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3422
+        "domestic": 3423
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3423,
+        "domestic": 3424,
         "social": 561
       },
       "featuredSections": [],
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3424
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acd30260f884b399342df6985"
-    },
-    {
-      "id": "news:kcna:341635f7c4bb5e3ead0c743e",
-      "title": "함경남도에서 지방공업공장 원료기지들의 토대강화에 주력",
-      "date": "2025-10-30",
-      "snippet": "(평양 10월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/10df73588f932cf289292a40d97b39e3",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3425
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A341635f7c4bb5e3ead0c743e"
+      "detailUrl": "/news/document?id=news%3Akcna%3Acd30260f884b399342df6985"
     }
   ]
 }

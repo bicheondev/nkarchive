@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 370,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:ad2788e79ddbed5a82b8ef17",
+      "title": "교육연구원에서 교육과학을 발전시키기 위한 목표수립에 착수",
+      "date": "2026-03-26",
+      "snippet": "(평양 3월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/326c01d29372166177ec9112474df578",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1846
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aad2788e79ddbed5a82b8ef17"
+    },
     {
       "id": "news:kcna:1732cbd8f0b7a9046c7855e2",
       "title": "희한한 지하명승-룡문대굴",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1846,
+        "domestic": 1847,
         "social": 203
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1847
+        "domestic": 1848
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +88,7 @@
       "categoryOrders": {
         "important": 202,
         "foreign": 317,
-        "domestic": 1848
+        "domestic": 1849
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,7 +112,7 @@
       "categoryOrders": {
         "important": 203,
         "foreign": 318,
-        "domestic": 1849
+        "domestic": 1850
       },
       "featuredSections": [],
       "hasImage": true,
@@ -100,26 +120,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60b90c93d02f93a7e4ca9118cf4bdcc575",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Accb02b653847407713c5bd41"
-    },
-    {
-      "id": "news:kcna:93c1a445ec759803bc3a404c",
-      "title": "출판지도국 창립 80돐을 기념",
-      "date": "2026-03-26",
-      "snippet": "(평양 3월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/71744a44908d70812aec92dea1c34d90",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1850
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A93c1a445ec759803bc3a404c"
     }
   ]
 }

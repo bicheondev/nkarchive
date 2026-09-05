@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 419,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:bcc34833e2333b3f376ecb1c",
+      "title": "해방된 조국땅에 울려퍼진 민주개혁의 첫 포성",
+      "date": "2026-03-05",
+      "snippet": "(평양 3월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d3a7063c1aab4f2b108b977df9b1bd34",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2091
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e6064fa770954f196b3ece1eca7aedcbefa",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/a1ec4247bf2618f80d78cb31ec0224d6b5c7579f026ffc1ad05a7f73b8fe1194.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abcc34833e2333b3f376ecb1c"
+    },
     {
       "id": "news:kcna:a6bc9760ba9e7878083ebaa1",
       "title": "2026년 3월 5일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2091
+        "domestic": 2092
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2092
+        "domestic": 2093
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2093
+        "domestic": 2094
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2094
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac2fe7156c421c6925edc5243"
-    },
-    {
-      "id": "news:kcna:72cddc45396a55b0f19cba09",
-      "title": "사회주의대지의 천지개벽의 력사와 더불어 길이 전해갈 만고의 애국업적",
-      "date": "2026-03-05",
-      "snippet": "(평양 3월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/00fd2072d9ae3fe50fe121bef8fd3c05",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2095
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A72cddc45396a55b0f19cba09"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac2fe7156c421c6925edc5243"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 101,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:105700236fa58b1daaeec3b4",
+      "title": "전승의 7.27을 안아온 군사적기적들--새로운 독창적인 군사전법-갱도전",
+      "date": "2026-07-22",
+      "snippet": "(평양 7월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/49d3629ddca2e123fafcd092cd6878cd",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 500
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A105700236fa58b1daaeec3b4"
+    },
     {
       "id": "news:kcna:59137a3bf00fb533790ba2be",
       "title": "조국해방전쟁참전렬사묘에 렬사들의 유해 새로 안치",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 500
+        "domestic": 501
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "important": 45,
-        "domestic": 501
+        "domestic": 502
       },
       "featuredSections": [],
       "hasImage": true,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 502
+        "domestic": 503
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 503
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ade9862db7728999e264667a4"
-    },
-    {
-      "id": "news:kcna:2b658fe97d93fe8e566b9baf",
-      "title": "함경북도에서 인민소비품전시회 진행",
-      "date": "2026-07-21",
-      "snippet": "(평양 7월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ce09130bfcb1772819210b4eb4a4cc35",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 504
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2b658fe97d93fe8e566b9baf"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ade9862db7728999e264667a4"
     }
   ]
 }

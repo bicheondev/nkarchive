@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 338,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:39277efe399fb13411e5ba4e",
+      "title": "우리 나라의 비물질문화유산들(11) -- 수인목판화기법",
+      "date": "2026-04-09",
+      "snippet": "(평양 4월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/966f14c095a7b0efff21845ca27685b1",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1685
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A39277efe399fb13411e5ba4e"
+    },
     {
       "id": "news:kcna:3dfca4c4375fe1d6d14ebdc5",
       "title": "각지에서 논판양어를 위한 준비사업 활발",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1685
+        "domestic": 1686
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1686
+        "domestic": 1687
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "important": 176,
-        "domestic": 1687
+        "domestic": 1688
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,7 +108,7 @@
       "categoryOrders": {
         "important": 177,
         "foreign": 271,
-        "domestic": 1688
+        "domestic": 1689
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,26 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aa81628063170fb0c309c9f32"
-    },
-    {
-      "id": "news:kcna:42112c9dee57088af341fb92",
-      "title": "4.15경축 국가산업미술전시회 개막",
-      "date": "2026-04-09",
-      "snippet": "(평양 4월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5ba3648c258cd23da0b452bb1ab672f5",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1689
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b667f8bdd4bc040f81e3f1a01b22ad58dad",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/eb4db8aded091af61e5e606d90114dcd0b117f0f257757d27bacae0b44327a9f.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A42112c9dee57088af341fb92"
     }
   ]
 }

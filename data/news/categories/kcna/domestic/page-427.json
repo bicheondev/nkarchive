@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 427,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:dfc14843f3512b1a5cbd10eb",
+      "title": "상원세멘트련합기업소에서 2월 인민경제계획 완수",
+      "date": "2026-03-01",
+      "snippet": "(평양 3월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/791651efdaabefc1301c398eafd54b7a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2131
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Adfc14843f3512b1a5cbd10eb"
+    },
     {
       "id": "news:kcna:bcf98c28ca4ba958bf28db76",
       "title": "각지 예술교육기관들에서 새 교수방법들 탐구도입",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2131
+        "domestic": 2132
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2132
+        "domestic": 2133
       },
       "featuredSections": [],
       "hasImage": true,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2133,
+        "domestic": 2134,
         "social": 262
       },
       "featuredSections": [],
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2134
+        "domestic": 2135
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ac564b6dd2a3ef2625ceb327d"
-    },
-    {
-      "id": "news:kcna:757a95e7581bf7fd81de77f7",
-      "title": "전국의 시,군책임일군들 삼광축산농장을 참관",
-      "date": "2026-03-01",
-      "snippet": "(평양 3월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0b0c526fadc0ce3b2c7b7ff4f7ca6c0a",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 261,
-        "domestic": 2135
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e607f8d2473eda905abb6fd3e7792e5b688",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/3a880e6ee9cc9afb3fb2d7426ecd149b0d0c508727ba348c0b85f9b56768742d.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A757a95e7581bf7fd81de77f7"
     }
   ]
 }

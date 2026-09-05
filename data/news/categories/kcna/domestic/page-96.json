@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 96,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:0e3a3aadf3a98315a395bc76",
+      "title": "자연과학지식보급의 전당,문화정서생활기지로서의 생활력 과시",
+      "date": "2026-07-24",
+      "snippet": "(평양 7월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/62274e280a005d89d361436be6d2cd0b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 475
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dfdcea5e9b6bb11211aeeee5e0706730d",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/fd509d3d5aa522d11b7b798a667ec89dbbb0f4d37bfc60e4ef726b6860dca796.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0e3a3aadf3a98315a395bc76"
+    },
     {
       "id": "news:kcna:2f6cf288d1bd0d6c28b4687c",
       "title": "전승의 7.27을 안아온 군사적기적들--전쟁의 종국적승리를 앞당기게 한 강력한 3차례의 타격전",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 475
+        "domestic": 476
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 476
+        "domestic": 477
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "foreign": 61,
-        "domestic": 477
+        "domestic": 478
       },
       "featuredSections": [],
       "hasImage": true,
@@ -85,7 +105,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 478,
+        "domestic": 479,
         "social": 60
       },
       "featuredSections": [],
@@ -94,26 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Af3b9a51eeb080b966c1696cc"
-    },
-    {
-      "id": "news:kcna:6f93ac79250610edbcc76787",
-      "title": "평양시안의 대학청년동맹조직들에서 학생들을 조국수호정신,주적관으로 무장시키기 위한 교양사업에 주력",
-      "date": "2026-07-23",
-      "snippet": "(평양 7월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/98a5d47fc5494d6429e2f73f100db841",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 479
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6f93ac79250610edbcc76787"
     }
   ]
 }

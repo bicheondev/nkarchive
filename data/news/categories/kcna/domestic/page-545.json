@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 545,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:f34348370635499c8fc5816d",
+      "title": "평안남도의 여러 농장에 솟아오른 우리식 농촌발전의 자랑찬 실체들",
+      "date": "2026-01-04",
+      "snippet": "(평양 1월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/736c6c3323bb8b538f41049365fee83b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2721
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e45135a054376f1a70577aebb282515e3774",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/7d876c3bb8e03ef92e613829f2040fe122915c0b74a42de98b6fafccf747d3b7.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af34348370635499c8fc5816d"
+    },
     {
       "id": "news:kcna:6b3fb284ee9b3b847a29cee1",
       "title": "지방의 변혁상을 반영한 미술작품들 창작",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2721
+        "domestic": 2722
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2722
+        "domestic": 2723
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2723,
+        "domestic": 2724,
         "social": 412
       },
       "featuredSections": [],
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2724
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9855bf5ce1a261c884687055"
-    },
-    {
-      "id": "news:kcna:fcce9b49a3cca60999494af0",
-      "title": "여러 단위에서 새해 첫날계획 완수",
-      "date": "2026-01-03",
-      "snippet": "(평양 1월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/bfbc8d4d7a88ae52a26c901fd85ec51e",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2725
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afcce9b49a3cca60999494af0"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9855bf5ce1a261c884687055"
     }
   ]
 }

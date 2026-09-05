@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 513,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:8f35d7438649dd8a7f5d8f15",
+      "title": "평양시안의 교원재교육강습소들에서 교원들의 자질향상을 위한 사업 심화",
+      "date": "2026-01-20",
+      "snippet": "(평양 1월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3b43429fd1a78e23c0a1048b3bb6e55d",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2561
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8f35d7438649dd8a7f5d8f15"
+    },
     {
       "id": "news:kcna:d200dcd39b768f386f4eb90c",
       "title": "옹진서해바다양어사업소 조기종어장 준공",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2561
+        "domestic": 2562
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2562,
+        "domestic": 2563,
         "social": 364
       },
       "featuredSections": [],
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2563,
+        "domestic": 2564,
         "social": 365
       },
       "featuredSections": [],
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2564
+        "domestic": 2565
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,26 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A8a622bfa05abd0e4461a21d5"
-    },
-    {
-      "id": "news:kcna:55483bab46f80a799c0fd043",
-      "title": "산림연구원 준공",
-      "date": "2026-01-20",
-      "snippet": "(평양 1월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e181d4a07244960c9cac195f081d856d",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2565
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e4519eb5a7fbd8296d5591df349ea9cfc362",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/436316f037f73dd470cd886e5442be6c8f0790121b83e05ce572c826dca7f9ce.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A55483bab46f80a799c0fd043"
     }
   ]
 }

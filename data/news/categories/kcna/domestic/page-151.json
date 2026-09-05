@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 151,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:bc0deb20f8653729ec6e5e9b",
+      "title": "재일조선고급학교 학생조국방문단 도착",
+      "date": "2026-07-01",
+      "snippet": "(평양 7월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/919813f3dc745d39d602b484547323b7",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 750
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d58242deb3baa56c22c5c4b57356e9be4",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/b96ae7bf2f2732fcd59ab8ff87632a210b11cc7f5f58d1342e1af2df54bcc72b.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abc0deb20f8653729ec6e5e9b"
+    },
     {
       "id": "news:kcna:75c76308c80e7bf9aa5a8885",
       "title": "우리 나라의 7월 절기와 민속",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 750
+        "domestic": 751
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 751
+        "domestic": 752
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 752
+        "domestic": 753
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 753
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aff55591e7fe9de547ec918c9"
-    },
-    {
-      "id": "news:kcna:d796ee49b1e0fc8e93be9f00",
-      "title": "김책제철련합기업소에서 6월 선철생산계획을 완수한 기세로 련일 혁신",
-      "date": "2026-06-30",
-      "snippet": "(평양 6월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f49d7544283da7038b5cf71fb0477dd9",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 754
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad796ee49b1e0fc8e93be9f00"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aff55591e7fe9de547ec918c9"
     }
   ]
 }

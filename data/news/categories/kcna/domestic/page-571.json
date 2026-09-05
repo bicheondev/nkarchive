@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 571,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:6dc578153a72a8f1f44756b1",
+      "title": "지방공업공장들의 준공경사가 배천군에도 찾아왔다",
+      "date": "2025-12-21",
+      "snippet": "(평양 12월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/16dc20d037c8cd3a90f6008906d20109",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2851
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ff2e1d05e08703b86b39adb2296db99fb4",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/8b925acfde17a4f9c381e7dc265e1640ee5f57c39a019dacb9f1a9d66c56e245.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6dc578153a72a8f1f44756b1"
+    },
     {
       "id": "news:kcna:e1351796b9bba6e4bcccf975",
       "title": "황해북도 송림시의 백살장수자가 은정어린 생일상을 받아안았다",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2851,
+        "domestic": 2852,
         "social": 438
       },
       "featuredSections": [],
@@ -48,7 +68,7 @@
       "categoryOrders": {
         "important": 357,
         "foreign": 463,
-        "domestic": 2852
+        "domestic": 2853
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +88,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2853
+        "domestic": 2854
       },
       "featuredSections": [],
       "hasImage": true,
@@ -88,26 +108,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2854
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A03982efd280140121239b8f4"
-    },
-    {
-      "id": "news:kcna:06f8fdd6e3159b2e91c4fd9e",
-      "title": "2025년 12월 20일 신문개관",
-      "date": "2025-12-20",
-      "snippet": "(평양 12월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fc86e1a4ebda67a84d50ca9d21b3dc9a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2855
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A06f8fdd6e3159b2e91c4fd9e"
+      "detailUrl": "/news/document?id=news%3Akcna%3A03982efd280140121239b8f4"
     }
   ]
 }

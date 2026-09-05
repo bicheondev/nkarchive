@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 219,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:8dce136652ea47c3c1abf097",
+      "title": "황해북도에서 당작물,기름작물재배면적 증가",
+      "date": "2026-05-29",
+      "snippet": "(평양 5월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/fe00c7825c392e89827135554cfd24c7",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1090
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8dce136652ea47c3c1abf097"
+    },
     {
       "id": "news:kcna:704337e699924ee46e4c275f",
       "title": "각급 농근맹조직들에서 선전선동활동 전개",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1090
+        "domestic": 1091
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1091,
+        "domestic": 1092,
         "social": 115
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1092
+        "domestic": 1093
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1093
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A30df4a7eb5b4b94cd1e600c8"
-    },
-    {
-      "id": "news:kcna:ec20d30307e73eaa3799eada",
-      "title": "2월17일과학자,기술자돌격대활동 활발",
-      "date": "2026-05-29",
-      "snippet": "(평양 5월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/54f7f00cd4cbd18b621d654fb0d1c8c7",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1094
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aec20d30307e73eaa3799eada"
+      "detailUrl": "/news/document?id=news%3Akcna%3A30df4a7eb5b4b94cd1e600c8"
     }
   ]
 }

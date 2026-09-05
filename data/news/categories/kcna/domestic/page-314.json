@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 314,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:861dabd9db252563d02d5ab1",
+      "title": "황해남도의 농촌들에서 밀,보리비배관리에 력량 집중",
+      "date": "2026-04-18",
+      "snippet": "(평양 4월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/13647d489f4bf544b721b655542f3f44",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1565
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A861dabd9db252563d02d5ab1"
+    },
     {
       "id": "news:kcna:f27ee54b607922f89ae741dd",
       "title": "제25차 전국청소년들의 충성의 축전 페막",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1565
+        "domestic": 1566
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1566
+        "domestic": 1567
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1567
+        "domestic": 1568
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1568
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A324a43a9db3d6868dc3873f2"
-    },
-    {
-      "id": "news:kcna:7ba6c80a6e3b2245cca675e9",
-      "title": "2026년 4월 17일 신문개관",
-      "date": "2026-04-17",
-      "snippet": "(평양 4월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/963038824609a9af9448d2571554793b",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1569
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7ba6c80a6e3b2245cca675e9"
+      "detailUrl": "/news/document?id=news%3Akcna%3A324a43a9db3d6868dc3873f2"
     }
   ]
 }

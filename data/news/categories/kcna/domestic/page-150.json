@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 150,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:abdac80af3505b47b0359dee",
+      "title": "2026년 7월 1일 신문개관",
+      "date": "2026-07-01",
+      "snippet": "(평양 7월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/335690608dab82f2e1b542ea0606bead",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 745
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aabdac80af3505b47b0359dee"
+    },
     {
       "id": "news:kcna:993ce8c8681f957dfb5c8ad7",
       "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지에게 축전을 보내시였다",
@@ -26,7 +46,7 @@
       "categoryOrders": {
         "important": 78,
         "foreign": 123,
-        "domestic": 745
+        "domestic": 746
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,7 +68,7 @@
       ],
       "categoryOrders": {
         "foreign": 124,
-        "domestic": 746
+        "domestic": 747
       },
       "featuredSections": [],
       "hasImage": false,
@@ -72,7 +92,7 @@
       "categoryOrders": {
         "important": 79,
         "foreign": 125,
-        "domestic": 747
+        "domestic": 748
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,7 +112,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 748
+        "domestic": 749
       },
       "featuredSections": [],
       "hasImage": true,
@@ -100,26 +120,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d2e170ea4c464e832d7a1c2788a583942",
       "cachedThumbnailUrl": "/data/news/assets/kcna/a4fc24d29ca5aacf2f7e18ee581e23993bcffcf57f1b3c4c3633cbaa5454091b.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A7fcddad54db1221a9c4eafea"
-    },
-    {
-      "id": "news:kcna:bc0deb20f8653729ec6e5e9b",
-      "title": "재일조선고급학교 학생조국방문단 도착",
-      "date": "2026-07-01",
-      "snippet": "(평양 7월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/919813f3dc745d39d602b484547323b7",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 749
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d58242deb3baa56c22c5c4b57356e9be4",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/b96ae7bf2f2732fcd59ab8ff87632a210b11cc7f5f58d1342e1af2df54bcc72b.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abc0deb20f8653729ec6e5e9b"
     }
   ]
 }

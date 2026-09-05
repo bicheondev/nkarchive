@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 442,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:a7dcc7e0885f69f8ec217722",
+      "title": "지난 4년간 전국적으로 11만 3 000여세대의 농촌문화주택들을 새로 건설",
+      "date": "2026-02-22",
+      "snippet": "(평양 2월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f5160dd7f425f3e9edf17ac11f59549b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2206
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa7dcc7e0885f69f8ec217722"
+    },
     {
       "id": "news:kcna:a5bb4872f4ef1318b7cf2801",
       "title": "우리 나라의 광천자원-약수",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2206
+        "domestic": 2207
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2207
+        "domestic": 2208
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2208
+        "domestic": 2209
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2209
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6d9ca58773a2d710ffce6c73"
-    },
-    {
-      "id": "news:kcna:a6d8fd6b738db66e29657760",
-      "title": "농사차비로 들끓는 황남의 전야",
-      "date": "2026-02-22",
-      "snippet": "(평양 2월 22일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d1bc10698915c24e75e46193127af9dc",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2210
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa6d8fd6b738db66e29657760"
+      "detailUrl": "/news/document?id=news%3Akcna%3A6d9ca58773a2d710ffce6c73"
     }
   ]
 }

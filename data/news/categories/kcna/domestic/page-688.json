@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 688,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:050bb713964efe096ebec9de",
+      "title": "새로운 재해경보통보체계 연구개발",
+      "date": "2025-10-29",
+      "snippet": "(평양 10월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/05002e686bf821ec4df3566fa683c4a5",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3436
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A050bb713964efe096ebec9de"
+    },
     {
       "id": "news:kcna:b9173d419e8541ee7636e8dd",
       "title": "우리 나라 외무상 체스꼬공화국 외무상에게 축전",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "foreign": 531,
-        "domestic": 3436
+        "domestic": 3437
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "foreign": 533,
-        "domestic": 3437
+        "domestic": 3438
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3438
+        "domestic": 3439
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,26 +108,6 @@
       ],
       "categoryOrders": {
         "foreign": 534,
-        "domestic": 3439
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae3e351bf3cc614240c899027"
-    },
-    {
-      "id": "news:kcna:8a54f43e5d9e7101b6919351",
-      "title": "사리원승마구락부 새로 건설,준공식 진행",
-      "date": "2025-10-29",
-      "snippet": "(평양 10월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8c8b7cbf31e45c293cdd253723fc59e5",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3440
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8a54f43e5d9e7101b6919351"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae3e351bf3cc614240c899027"
     }
   ]
 }

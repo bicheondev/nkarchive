@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 154,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:5c24de8730b6d660b6d18ac1",
+      "title": "2026년 6월 29일 《로동신문》개관",
+      "date": "2026-06-29",
+      "snippet": "(평양 6월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8d462aef21e10227219e95ddb1ab9c3c",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 765
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5c24de8730b6d660b6d18ac1"
+    },
     {
       "id": "news:kcna:78fe968ef9587a70a9cf4275",
       "title": "함경북도안의 직맹조직들에서 경제선전활동 전개",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 765
+        "domestic": 766
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 766
+        "domestic": 767
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 767
+        "domestic": 768
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 768
+        "domestic": 769
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,26 +110,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e3dc5cd4b98ab7713048098b7502efd1d6",
       "cachedThumbnailUrl": "/data/news/assets/kcna/6741acb3b1568b85de96c64e9acd7073fc73dd19046f15b1d5dbd3d25f958a72.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Aa66b65715bef2c5c37dd3ab1"
-    },
-    {
-      "id": "news:kcna:4565896b9ec72e5c997663bb",
-      "title": "각지 교원양성부문 대학들에서 교원후비육성을 위한 사업 추진",
-      "date": "2026-06-28",
-      "snippet": "(평양 6월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ff162b202ac5f76e7fe0f93bee273e5a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 769
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4565896b9ec72e5c997663bb"
     }
   ]
 }

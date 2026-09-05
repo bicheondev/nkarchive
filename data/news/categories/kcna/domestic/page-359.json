@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 359,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:cf6b84bb5cee96679650a3ea",
+      "title": "구성시의 지방공업공장들에서 새 제품개발성과 확대",
+      "date": "2026-03-31",
+      "snippet": "(평양 3월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/dd20b8fb4b26c76e90113b419042dd35",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1791
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Acf6b84bb5cee96679650a3ea"
+    },
     {
       "id": "news:kcna:7102128f5478084db19769b0",
       "title": "함경북도에서 밀,보리재배면적 확대",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1791
+        "domestic": 1792
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1792
+        "domestic": 1793
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       "categoryOrders": {
         "important": 192,
         "foreign": 299,
-        "domestic": 1793
+        "domestic": 1794
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,7 +110,7 @@
       "categoryOrders": {
         "important": 193,
         "foreign": 300,
-        "domestic": 1794
+        "domestic": 1795
       },
       "featuredSections": [],
       "hasImage": true,
@@ -98,30 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60c17ab1808c1631a2d9f108fd6a33a11f",
       "cachedThumbnailUrl": "/data/news/assets/kcna/f805f5487dc4b3e2cc651f6d38910646b0b1b2d8e8cfb6e4776a8148720b8b6d.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Aaa03ad5a7ef22716a081410e"
-    },
-    {
-      "id": "news:kcna:6a170873ce12806801faef67",
-      "title": "조용원동지가 로씨야 따쓰통신사대표단을 만났다",
-      "date": "2026-03-31",
-      "snippet": "(평양 3월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8feb5b67e9d40021eb718f73779d75a1",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 194,
-        "foreign": 301,
-        "domestic": 1795
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e602cc10535815c84a0f1dd525d399d901d",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/a3b5d5ce1f6aa963d8d0424ab16f860757346867a8394d3ac697b3f5e83bdbcd.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6a170873ce12806801faef67"
     }
   ]
 }

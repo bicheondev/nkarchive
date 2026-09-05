@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 661,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:6801c6368cc810ca79100f23",
+      "title": "각지에 교육지원프로그람중심이 일떠섰다",
+      "date": "2025-11-08",
+      "snippet": "(평양 11월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/10cdbbd4d23746aaa0b17b46421db98b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3301
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6801c6368cc810ca79100f23"
+    },
     {
       "id": "news:kcna:37a06fbd469b4cb50761f999",
       "title": "도,시,군들은 지방중흥,농촌진흥에서 주인으로서의 책임을 다해나가자",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3301
+        "domestic": 3302
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3302
+        "domestic": 3303
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       "categoryOrders": {
         "important": 385,
         "foreign": 510,
-        "domestic": 3303
+        "domestic": 3304
       },
       "featuredSections": [],
       "hasImage": true,
@@ -87,7 +107,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3304,
+        "domestic": 3305,
         "social": 533
       },
       "featuredSections": [],
@@ -96,30 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eacaeb126c88a55880442517b54fda0f079",
       "cachedThumbnailUrl": "/data/news/assets/kcna/81ca3bedfc75eb7ebb2082e53e52f53cbefbe9ba230fd162838f582f5c3f2c38.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A3501e150e5ea4d3a741680a7"
-    },
-    {
-      "id": "news:kcna:e2a76254edb60326a66a79f8",
-      "title": "조선민주주의인민공화국 노광철 국방상 담화 발표",
-      "date": "2025-11-08",
-      "snippet": "(평양 11월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/28064c7a0683c8579d244b955effb1b5",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 386,
-        "foreign": 511,
-        "domestic": 3305
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae2a76254edb60326a66a79f8"
     }
   ]
 }

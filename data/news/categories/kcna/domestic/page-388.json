@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 388,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:e5805ebddfeaacedfffe6f7d",
+      "title": "2026년 3월 19일 신문개관",
+      "date": "2026-03-19",
+      "snippet": "(평양 3월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b01a0d8e2c83aa499cc0581bfe0369e0",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1936
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae5805ebddfeaacedfffe6f7d"
+    },
     {
       "id": "news:kcna:0cb699554693ead276d84e22",
       "title": "조선로동당 제9차대회 기념우표 발행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1936
+        "domestic": 1937
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1937
+        "domestic": 1938
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1938,
+        "domestic": 1939,
         "social": 217
       },
       "featuredSections": [],
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1939
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A205befafb1b7a710a50edbf1"
-    },
-    {
-      "id": "news:kcna:c47411b46581594ee09ea19f",
-      "title": "조선로동당의 불변의 리념(2)--우리 혁명의 천하지대본-일심단결",
-      "date": "2026-03-18",
-      "snippet": "(평양 3월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ae6163fe11a991ba6b17c460adae9cb7",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1940
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac47411b46581594ee09ea19f"
+      "detailUrl": "/news/document?id=news%3Akcna%3A205befafb1b7a710a50edbf1"
     }
   ]
 }

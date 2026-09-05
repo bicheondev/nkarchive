@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 191,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:5b22b75859ecb9ddd4c2eb5d",
+      "title": "2026년 6월 11일 《로동신문》개관",
+      "date": "2026-06-11",
+      "snippet": "(평양 6월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/fc034b7c73ca545756bd8e3932a994db",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 950
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5b22b75859ecb9ddd4c2eb5d"
+    },
     {
       "id": "news:kcna:10d863c272a084d36363f36e",
       "title": "중앙사진전람회 《경공업발전의 휘황한 전망을 펼쳐주시여》 개막",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 950
+        "domestic": 951
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 951
+        "domestic": 952
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 952
+        "domestic": 953
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 953
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A04d7148aae8d6fb37b976d6e"
-    },
-    {
-      "id": "news:kcna:a8664360c99deebd6cd4e3a4",
-      "title": "각지의 3대혁명소조원들 많은 과학기술적문제들 해결",
-      "date": "2026-06-11",
-      "snippet": "(평양 6월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/11df57989dd0fb0d588aa5c1d39d1bb9",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 954
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa8664360c99deebd6cd4e3a4"
+      "detailUrl": "/news/document?id=news%3Akcna%3A04d7148aae8d6fb37b976d6e"
     }
   ]
 }

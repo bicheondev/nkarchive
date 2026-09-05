@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 75,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:6864bc26aa6080dc1e37f85c",
+      "title": "각지에서 중소형발전소건설 추진",
+      "date": "2026-08-03",
+      "snippet": "(평양 8월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f0554a0070790dbfbc01f1b310013f55",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 370
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6864bc26aa6080dc1e37f85c"
+    },
     {
       "id": "news:kcna:512b2d3e0be7831217f826c2",
       "title": "우리 나라의 8월 절기와 민속",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 370
+        "domestic": 371
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 371
+        "domestic": 372
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 372
+        "domestic": 373
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 373
+        "domestic": 374
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,26 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A2dc484caba48e9674b3546f9"
-    },
-    {
-      "id": "news:kcna:e149c95f970d99f20fcc895d",
-      "title": "시대의 건축물들을 일떠세우는데 기여하고있는 굴지의 건재생산기지",
-      "date": "2026-08-02",
-      "snippet": "(평양 8월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3b1b6a5e20c16ed02851c94a28c9454d",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 374
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f296cf10ee6c2120a2085dffe9502462905",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/f32a18c91e617ea911d586d89fc56d1f0656cd20c9d61b338fb7db88d281c947.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae149c95f970d99f20fcc895d"
     }
   ]
 }

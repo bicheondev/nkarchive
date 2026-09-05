@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 588,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:7bcd4002ac42496ad4c74b1b",
+      "title": "2025년 12월 12일 신문개관",
+      "date": "2025-12-12",
+      "snippet": "(평양 12월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/08c6eb358f6bd7b5f93b3598e25e21cf",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2936
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7bcd4002ac42496ad4c74b1b"
+    },
     {
       "id": "news:kcna:edcf45d1aef7db03dc3f3743",
       "title": "자강도에서 강계보도블로크공장 새로 건설",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2936
+        "domestic": 2937
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2937,
+        "domestic": 2938,
         "social": 456
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2938
+        "domestic": 2939
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2939
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A77fee823d7b19a07fe7a4350"
-    },
-    {
-      "id": "news:kcna:a942a71676e07f3824779ce0",
-      "title": "평양시안의 고려약공장들에서 생산성과 확대",
-      "date": "2025-12-12",
-      "snippet": "(평양 12월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/536a4c4e67213a2f6bdf656226908757",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2940
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa942a71676e07f3824779ce0"
+      "detailUrl": "/news/document?id=news%3Akcna%3A77fee823d7b19a07fe7a4350"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 214,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:ab1f3e6ce61849f4acef929d",
+      "title": "혜산철도분국 화물수송에서 혁신",
+      "date": "2026-05-31",
+      "snippet": "(평양 5월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/80cb8e8a27c5264107935b10c0fabdde",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1065
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aab1f3e6ce61849f4acef929d"
+    },
     {
       "id": "news:kcna:28613c1a663cca6a6cc0a9b7",
       "title": "로씨야련방대사관에서 기념판제막식 진행",
@@ -26,7 +46,7 @@
       "categoryOrders": {
         "important": 103,
         "foreign": 160,
-        "domestic": 1065
+        "domestic": 1066
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1066
+        "domestic": 1067
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1067
+        "domestic": 1068
       },
       "featuredSections": [],
       "hasImage": true,
@@ -87,7 +107,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1068,
+        "domestic": 1069,
         "social": 113
       },
       "featuredSections": [],
@@ -96,26 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A118c3f9f6e8b826a4f942021"
-    },
-    {
-      "id": "news:kcna:dc642f7cd88c034ce4190e70",
-      "title": "평양시안의 출판물보급소들 도서해설선전 및 경제선동 전개",
-      "date": "2026-05-31",
-      "snippet": "(평양 5월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b3c24a6bef02544129503e7e5103f5ee",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1069
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adc642f7cd88c034ce4190e70"
     }
   ]
 }

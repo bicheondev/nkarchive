@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 236,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:28cb118e8243e78d5e399bec",
+      "title": "무산광산련합기업소에서 120만산대발파 또다시 성공적으로 단행",
+      "date": "2026-05-21",
+      "snippet": "(평양 5월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/10f54b0019c9af8731380cc7837248a9",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1175
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A28cb118e8243e78d5e399bec"
+    },
     {
       "id": "news:kcna:7af4c26c0e1e20df30560791",
       "title": "2026년 5월 21일 《로동신문》개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1175
+        "domestic": 1176
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1176
+        "domestic": 1177
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1177
+        "domestic": 1178
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,28 +104,6 @@
       ],
       "categoryOrders": {
         "foreign": 174,
-        "domestic": 1178
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A56a47c16ec6e6e0f819bc90e"
-    },
-    {
-      "id": "news:kcna:d0ecb227603151ca9b4e8331",
-      "title": "로씨야련방 아무르주를 방문하였던 평안남도친선대표단 귀국",
-      "date": "2026-05-21",
-      "snippet": "(평양 5월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/90ac7dea955095918b38f88edc31ed42",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 175,
         "domestic": 1179
       },
       "featuredSections": [],
@@ -113,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad0ecb227603151ca9b4e8331"
+      "detailUrl": "/news/document?id=news%3Akcna%3A56a47c16ec6e6e0f819bc90e"
     }
   ]
 }

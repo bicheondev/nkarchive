@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 786,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:75cb3bce53d8addfb90165cd",
+      "title": "각지 보통교육단위들에서 애국주의교양의 실효성 제고",
+      "date": "2025-09-28",
+      "snippet": "(평양 9월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3edde9bc280b779499cd0a48c74ab702",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3926
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A75cb3bce53d8addfb90165cd"
+    },
     {
       "id": "news:kcna:76b2dfb68dbe8d87250af499",
       "title": "남포시기초식품공장에서 생산장성과 새 제품개발에 주력",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3926
+        "domestic": 3927
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3927,
+        "domestic": 3928,
         "social": 633
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3928
+        "domestic": 3929
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3929
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A31c222c8b1331e4083a1a513"
-    },
-    {
-      "id": "news:kcna:10b4a6bd87dc40be4de62d4e",
-      "title": "중앙물리탐사단에서 새형의 물리탐사기구 개발",
-      "date": "2025-09-27",
-      "snippet": "(평양 9월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/99708a8db48829f81128539be945c561",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3930
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A10b4a6bd87dc40be4de62d4e"
+      "detailUrl": "/news/document?id=news%3Akcna%3A31c222c8b1331e4083a1a513"
     }
   ]
 }

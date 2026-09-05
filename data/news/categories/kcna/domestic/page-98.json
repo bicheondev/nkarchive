@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 98,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:64313879eb75e20b152c1a1c",
+      "title": "전국화학재료부문,단천발전소건설부문 과학기술발표회 진행",
+      "date": "2026-07-23",
+      "snippet": "(평양 7월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a153ca60b09240ef32113d64b4fc2307",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 485
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A64313879eb75e20b152c1a1c"
+    },
     {
       "id": "news:kcna:3b0be66d395bb737adf24a23",
       "title": "2026년 7월 23일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 485
+        "domestic": 486
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "important": 44,
-        "domestic": 486
+        "domestic": 487
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       ],
       "categoryOrders": {
         "foreign": 62,
-        "domestic": 487
+        "domestic": 488
       },
       "featuredSections": [],
       "hasImage": true,
@@ -88,26 +108,6 @@
       ],
       "categoryOrders": {
         "foreign": 63,
-        "domestic": 488
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A88c8ed87b02b97f9a4fe28d8"
-    },
-    {
-      "id": "news:kcna:e0c6aed98e4680f344c5c16e",
-      "title": "개성지방의 효능높은 삼댐모래찜",
-      "date": "2026-07-23",
-      "snippet": "(평양 7월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/51aac6e1ffbf18ccbdfb558215463040",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 489
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae0c6aed98e4680f344c5c16e"
+      "detailUrl": "/news/document?id=news%3Akcna%3A88c8ed87b02b97f9a4fe28d8"
     }
   ]
 }

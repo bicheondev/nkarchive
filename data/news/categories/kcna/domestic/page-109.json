@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 109,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:3b8c51089fbb9e0bc4346f99",
+      "title": "개성시의 지방공업공장들에서 새 제품개발과 생산장성을 위한 경쟁열기 고조",
+      "date": "2026-07-18",
+      "snippet": "(평양 7월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/481fc3a030090fa99e7558276f9af98a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 540
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3b8c51089fbb9e0bc4346f99"
+    },
     {
       "id": "news:kcna:9dfac2f2adcaef369e2e6601",
       "title": "원산갈마해안관광지구에서 전시회 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 540
+        "domestic": 541
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,7 +68,7 @@
         "important": 50,
         "document": 9,
         "foreign": 75,
-        "domestic": 541
+        "domestic": 542
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +88,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 542
+        "domestic": 543
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,7 +112,7 @@
       "categoryOrders": {
         "important": 51,
         "foreign": 76,
-        "domestic": 543
+        "domestic": 544
       },
       "featuredSections": [],
       "hasImage": true,
@@ -100,30 +120,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d1c79df1b307686a05934192706c08dfc",
       "cachedThumbnailUrl": "/data/news/assets/kcna/09b009e50bbd359c1284b5de2d375ffe753dd2f5b5a70b18a008223841319c80.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Aafbcccb1ffe31cf0b12b9bbe"
-    },
-    {
-      "id": "news:kcna:a6de890ce4c6aeb0c7f98fcf",
-      "title": "중화인민공화국 당 및 정부대표단 원산갈마해안관광지구 참관",
-      "date": "2026-07-18",
-      "snippet": "(평양 7월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3b453d92dfd5af877b73b5da8c14de74",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 52,
-        "foreign": 77,
-        "domestic": 544
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77ddd9854933a16fb3ac58e877c1e609a46",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/cd226a20faac6461899f82a49532880e72533cdedc2b5e096ed5e38b2a40c5de.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa6de890ce4c6aeb0c7f98fcf"
     }
   ]
 }

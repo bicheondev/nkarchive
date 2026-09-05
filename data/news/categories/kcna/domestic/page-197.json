@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 197,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:9655faea3693908dfaabf3be",
+      "title": "산 물고기료리로 소문난 수도의 급양봉사기지",
+      "date": "2026-06-08",
+      "snippet": "(평양 6월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8f6136d7b306b2e887814fb5cffdf76a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 980
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e32d25b8415f0e26c005b7462a50f102c0",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/06482e8bea246fc2528fcca2011ea0694582d2ed0070409cbcaa9271df76bc78.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9655faea3693908dfaabf3be"
+    },
     {
       "id": "news:kcna:a1066fdc15caa6bc8f4f5430",
       "title": "강원도안의 직맹조직들에서 지역발전에 이바지하는 대중운동 전개",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 980
+        "domestic": 981
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 981
+        "domestic": 982
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 982
+        "domestic": 983
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +106,7 @@
       "categoryOrders": {
         "important": 97,
         "document": 15,
-        "domestic": 983
+        "domestic": 984
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,28 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A1a47b96e0ed12bb5ca6f6000"
-    },
-    {
-      "id": "news:kcna:8fc261458ba9f1215ba37103",
-      "title": "당과 정부의 간부들 각지 학생소년들과 함께 6.6절을 기념",
-      "date": "2026-06-07",
-      "snippet": "(평양 6월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fb6bda0d3ca6208ccefbf1362bb64a1e",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 984,
-        "social": 102
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e3a774fb7841a6e9e3891261787f841a90",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/cf4a4d812055396491b72097b1c99dce4a99a692597f457d8dba09d23c659a56.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8fc261458ba9f1215ba37103"
     }
   ]
 }

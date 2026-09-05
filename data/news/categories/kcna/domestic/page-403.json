@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 403,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:f2aa29d0e5e1174e2e1174b4",
+      "title": "각지에서 새 학년도준비사업 활발히 진행",
+      "date": "2026-03-12",
+      "snippet": "(평양 3월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6587f36cfdfdae78934dcb96b39f1f3b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2011
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af2aa29d0e5e1174e2e1174b4"
+    },
     {
       "id": "news:kcna:4333d2e57cc70590465ddc32",
       "title": "2026년 3월 12일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2011
+        "domestic": 2012
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2012
+        "domestic": 2013
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2013
+        "domestic": 2014
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2014,
+        "domestic": 2015,
         "social": 235
       },
       "featuredSections": [],
@@ -92,26 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A41f3889680f127cf5a9c9c92"
-    },
-    {
-      "id": "news:kcna:531dac3425fb409912a63dca",
-      "title": "상원세멘트련합기업소에서 지난 5년간 증산실적 기록",
-      "date": "2026-03-12",
-      "snippet": "(평양 3월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b9806607a448a46e7032000a87fffc81",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2015
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A531dac3425fb409912a63dca"
     }
   ]
 }

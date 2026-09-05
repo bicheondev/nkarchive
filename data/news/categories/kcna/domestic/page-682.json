@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 682,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:7a5676585b7962b48b5c4ab3",
+      "title": "2025년 10월 31일 신문개관",
+      "date": "2025-10-31",
+      "snippet": "(평양 10월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cd329c03ecc3c4f77135836b57e8b61c",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3406
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7a5676585b7962b48b5c4ab3"
+    },
     {
       "id": "news:kcna:9a5c507adcb16c7fb3d67e20",
       "title": "제남탄광에서 화력탄증산성과 확대",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3406
+        "domestic": 3407
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3407
+        "domestic": 3408
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3408,
+        "domestic": 3409,
         "social": 559
       },
       "featuredSections": [],
@@ -85,7 +105,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3409,
+        "domestic": 3410,
         "social": 560
       },
       "featuredSections": [],
@@ -94,26 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aaf7417370a6ee700daee23b0"
-    },
-    {
-      "id": "news:kcna:f5f74999eeb11dd89bcf3e4d",
-      "title": "《전국정보화성과전람회-2025》 페막",
-      "date": "2025-10-31",
-      "snippet": "(평양 10월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6db03fc75e13bdf7089db1c2accce87a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3410
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af5f74999eeb11dd89bcf3e4d"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 349,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:f7425f4fa9bf5229827f98be",
+      "title": "제29차 전국료리축전 진행",
+      "date": "2026-04-04",
+      "snippet": "(평양 4월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/957d11891e66576f80e1bb5d24fa7383",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 1740,
+        "social": 181
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af7425f4fa9bf5229827f98be"
+    },
     {
       "id": "news:kcna:8888ea878727adad22b36bbd",
       "title": "각지 농촌들에서 가물에 대처하기 위한 물원천확보와 관개시설정비보수 추진",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1740
+        "domestic": 1741
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +65,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1741,
+        "domestic": 1742,
         "social": 182
       },
       "featuredSections": [],
@@ -64,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1742
+        "domestic": 1743
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1743
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7f775ee556915de22c6933d3"
-    },
-    {
-      "id": "news:kcna:c580cbc72685b2d694f0172f",
-      "title": "평양시청년학생들의 연단 진행",
-      "date": "2026-04-04",
-      "snippet": "(평양 4월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8bf817618e49dc1f8cbdaa9bc00fad96",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1744
       },
       "featuredSections": [],
@@ -111,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac580cbc72685b2d694f0172f"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7f775ee556915de22c6933d3"
     }
   ]
 }

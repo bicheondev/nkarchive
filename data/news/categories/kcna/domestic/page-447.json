@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 447,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:1c84f47b533c85550c64b340",
+      "title": "제3차 2.16경축 인민예술축전 페막",
+      "date": "2026-02-19",
+      "snippet": "(평양 2월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/62887354d52905bd30fa5896a1970b5a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2231
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366be9d8e8de49d95baeea3ca1ef8854ca2",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/182785dfe6ddea7713c3c4f8f01a887db978aa94e81b0ddfef92484256f13d09.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1c84f47b533c85550c64b340"
+    },
     {
       "id": "news:kcna:009d1ea3dda57e2f5c1080fa",
       "title": "김여정 조선로동당 중앙위원회 부부장 담화 발표",
@@ -28,7 +48,7 @@
         "important": 291,
         "document": 45,
         "foreign": 389,
-        "domestic": 2231
+        "domestic": 2232
       },
       "featuredSections": [],
       "hasImage": false,
@@ -49,7 +69,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2232,
+        "domestic": 2233,
         "social": 284
       },
       "featuredSections": [],
@@ -70,7 +90,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2233
+        "domestic": 2234
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,7 +111,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2234,
+        "domestic": 2235,
         "social": 285
       },
       "featuredSections": [],
@@ -100,26 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ae473204ab5f1daaa005222b5"
-    },
-    {
-      "id": "news:kcna:05f7bbd46c8a8b885ea8ec33",
-      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상을 찾아 재중조선인총련합회축하단 경모의 정 표시",
-      "date": "2026-02-19",
-      "snippet": "(평양 2월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ca783717284166cecef39630ee90ff96",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2235
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf36654ea820218e922c7659be7e2d3bd7789",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/b688d09eda771e8fa2c05094089d34da7054c6da82fae23ddfbe8eab1ecffd6a.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A05f7bbd46c8a8b885ea8ec33"
     }
   ]
 }

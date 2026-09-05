@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 315,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:7ba6c80a6e3b2245cca675e9",
+      "title": "2026년 4월 17일 신문개관",
+      "date": "2026-04-17",
+      "snippet": "(평양 4월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/963038824609a9af9448d2571554793b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1570
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7ba6c80a6e3b2245cca675e9"
+    },
     {
       "id": "news:kcna:bc5ae8a67c0bca1862da2fcb",
       "title": "새로 일떠선 염주군과 대관군의 지방공업공장들에서 새 제품개발과 질제고에 주력하며 생산 확대",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1570
+        "domestic": 1571
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1571
+        "domestic": 1572
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1572
+        "domestic": 1573
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1573
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abc33e243c3645d971e51354d"
-    },
-    {
-      "id": "news:kcna:7030099191483bc69a05c5d8",
-      "title": "륜전기계공업부문에서 새 제품개발을 위한 실력경쟁 전개",
-      "date": "2026-04-17",
-      "snippet": "(평양 4월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b746c33ec3b71a86b743f5537210589b",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1574
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7030099191483bc69a05c5d8"
+      "detailUrl": "/news/document?id=news%3Akcna%3Abc33e243c3645d971e51354d"
     }
   ]
 }

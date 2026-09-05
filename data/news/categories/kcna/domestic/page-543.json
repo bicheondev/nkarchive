@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 543,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:79ae47052e9c24a1aa6ba4e9",
+      "title": "구장세멘트공장에서 10만산대발파 진행",
+      "date": "2026-01-05",
+      "snippet": "(평양 1월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c75f841e91749f0763821be0b3c11a15",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2711
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A79ae47052e9c24a1aa6ba4e9"
+    },
     {
       "id": "news:kcna:44cd49ba554b2b8e940b860a",
       "title": "김정숙평양방직공장에서 증산열기 고조",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2711
+        "domestic": 2712
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2712,
+        "domestic": 2713,
         "social": 410
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2713
+        "domestic": 2714
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,26 +108,6 @@
       "categoryOrders": {
         "important": 332,
         "foreign": 434,
-        "domestic": 2714
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A286adbe0e587aba6760d9fdd"
-    },
-    {
-      "id": "news:kcna:f0bdc80eb66f71283d656fb2",
-      "title": "개성시의 세계문화유산들(10) 개성첨성대",
-      "date": "2026-01-04",
-      "snippet": "(평양 1월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/99196c64e16238222553a1f3e7cb3440",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2715
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af0bdc80eb66f71283d656fb2"
+      "detailUrl": "/news/document?id=news%3Akcna%3A286adbe0e587aba6760d9fdd"
     }
   ]
 }

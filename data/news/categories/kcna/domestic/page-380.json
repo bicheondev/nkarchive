@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 380,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:6e5aea9d465df7d6d5cda100",
+      "title": "조선민주주의인민공화국 최고인민회의 제15기 제1차회의에서 내각 성원 임명",
+      "date": "2026-03-23",
+      "snippet": "(평양 3월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0e44737bac4e0174d276f06eb6b1ee2b",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 224,
+        "document": 32,
+        "domestic": 1896
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6e5aea9d465df7d6d5cda100"
+    },
     {
       "id": "news:kcna:c6c357af735395bb74ff2ea5",
       "title": "조선민주주의인민공화국 최고인민회의 제15기 제1차회의에서 최고인민회의 부문위원회 선거",
@@ -26,7 +50,7 @@
       "categoryOrders": {
         "important": 225,
         "document": 33,
-        "domestic": 1896
+        "domestic": 1897
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,7 +72,7 @@
       ],
       "categoryOrders": {
         "important": 226,
-        "domestic": 1897
+        "domestic": 1898
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,7 +93,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1898,
+        "domestic": 1899,
         "social": 211
       },
       "featuredSections": [],
@@ -90,7 +114,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1899
+        "domestic": 1900
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,28 +122,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A2e05e72023c9e38629cc6987"
-    },
-    {
-      "id": "news:kcna:28fda7f75ef278bdeb18aa38",
-      "title": "남포혁명학원 학생들 당결정관철의 전구들에서 경제선동활동 진행",
-      "date": "2026-03-23",
-      "snippet": "(평양 3월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5e06ea8419d774683bf0ae55c533762a",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 1900,
-        "social": 212
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A28fda7f75ef278bdeb18aa38"
     }
   ]
 }

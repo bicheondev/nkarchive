@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 671,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:cf53754a5c6d7975b0478212",
+      "title": "《전국보건부문 과학기술성과전시회-2025》 개막",
+      "date": "2025-11-05",
+      "snippet": "(평양 11월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/720caddf5154e00bd193bbaa9901bb5f",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3351
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Acf53754a5c6d7975b0478212"
+    },
     {
       "id": "news:kcna:bc104091adf18c861401c7fa",
       "title": "이채를 띠는 모란봉의 가을풍경",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3351
+        "domestic": 3352
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3352
+        "domestic": 3353
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3353,
+        "domestic": 3354,
         "social": 549
       },
       "featuredSections": [],
@@ -84,28 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3354
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A030d4daefd6ddcdff01c42a5"
-    },
-    {
-      "id": "news:kcna:f540c7c666e98e9b7c8518e7",
-      "title": "김영남동지 서거",
-      "date": "2025-11-04",
-      "snippet": "(평양 11월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/16a05defa3763c21ebc77028ea938ff7",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 392,
         "domestic": 3355
       },
       "featuredSections": [],
@@ -113,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af540c7c666e98e9b7c8518e7"
+      "detailUrl": "/news/document?id=news%3Akcna%3A030d4daefd6ddcdff01c42a5"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 717,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:85a7e001b3a900332d52200e",
+      "title": "전국버섯재배기술경험발표회 진행",
+      "date": "2025-10-18",
+      "snippet": "(평양 10월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/55f02fcf5ea4457e08ae8ef745807143",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3581
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A85a7e001b3a900332d52200e"
+    },
     {
       "id": "news:kcna:490e6c40f8365447940d242c",
       "title": "황해북도농촌경리위원회 은정축산농장에서 살림집입사모임 진행",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3581,
+        "domestic": 3582,
         "social": 587
       },
       "featuredSections": [],
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "foreign": 566,
-        "domestic": 3582
+        "domestic": 3583
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3583
+        "domestic": 3584
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3584
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A516b677f0ba4e4f02c75bba5"
-    },
-    {
-      "id": "news:kcna:b3aced04ce4b51a9c7eb33ac",
-      "title": "2025년 10월 17일 신문개관",
-      "date": "2025-10-17",
-      "snippet": "(평양 10월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b259664519acda24544a2da82dee8949",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3585
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab3aced04ce4b51a9c7eb33ac"
+      "detailUrl": "/news/document?id=news%3Akcna%3A516b677f0ba4e4f02c75bba5"
     }
   ]
 }

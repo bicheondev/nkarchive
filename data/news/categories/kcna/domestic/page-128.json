@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 128,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:0203938491e5bc7a8eb3a94f",
+      "title": "조선민주주의인민공화국 당 및 정부대표단 중화인민공화국을 공식방문하기 위하여 평양 출발",
+      "date": "2026-07-11",
+      "snippet": "(평양 7월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/137d3696cc3dbdde7850a74c789485f8",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 72,
+        "foreign": 108,
+        "domestic": 635
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77df5a49859254d14979b6c5a5a716d6197",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/4b209df4c574b9b3dad01f30de7adbbfa45f8c6f1599a71b4d8204d1f0c8090b.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0203938491e5bc7a8eb3a94f"
+    },
     {
       "id": "news:kcna:46d1505a3df53a2304132712",
       "title": "인민을 위한 선진적인 휴양 및 료양시설-온포근로자휴양소",
@@ -23,7 +47,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 635,
+        "domestic": 636,
         "social": 74
       },
       "featuredSections": [],
@@ -44,7 +68,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 636
+        "domestic": 637
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,7 +89,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 637,
+        "domestic": 638,
         "social": 75
       },
       "featuredSections": [],
@@ -86,26 +110,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 638
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afca4d1069e72247ff58ac2b0"
-    },
-    {
-      "id": "news:kcna:f03054a108debf778fb2f299",
-      "title": "철도운수부문에서 재해성이상기후에 대처하기 위한 사업 전개",
-      "date": "2026-07-10",
-      "snippet": "(평양 7월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f3d1ac073a4033ca2ea526c43ef63975",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 639
       },
       "featuredSections": [],
@@ -113,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af03054a108debf778fb2f299"
+      "detailUrl": "/news/document?id=news%3Akcna%3Afca4d1069e72247ff58ac2b0"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 166,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:0ecf7d736a74522ae83d3e4f",
+      "title": "조선로동당 중앙위원회 제9기 제2차전원회의 공보",
+      "date": "2026-06-23",
+      "snippet": "(평양 6월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8c503a23e6a3d9c75dec6d112cd6beb1",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 82,
+        "domestic": 825
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e37be597b5284948a958ea2a1de7278da6",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/ae38e8a9dc03f615528d770a6e77408bbe9b33eac777f458c49cef8629939921.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0ecf7d736a74522ae83d3e4f"
+    },
     {
       "id": "news:kcna:7d0409233ae03a8049c8020f",
       "title": "비단산지로 소문난 녕변",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 825
+        "domestic": 826
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 826
+        "domestic": 827
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 827
+        "domestic": 828
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 828
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa6093adaad760995fcf931c0"
-    },
-    {
-      "id": "news:kcna:7417967f955295c37970c8d3",
-      "title": "신의주온실종합농장에서 유채가을 시작",
-      "date": "2026-06-22",
-      "snippet": "(평양 6월 22일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a38326f4276da23d01061e67085c6d85",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 829
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7417967f955295c37970c8d3"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa6093adaad760995fcf931c0"
     }
   ]
 }

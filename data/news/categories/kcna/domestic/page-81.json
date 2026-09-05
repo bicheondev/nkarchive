@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 81,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:a234bfc7f3bc3ee22f7ed145",
+      "title": "성,중앙기관 직맹조직들의 선전선동수단전시회 진행",
+      "date": "2026-07-30",
+      "snippet": "(평양 7월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0cf3e2eba0f6c6a83accbde3d52b404c",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 400
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa234bfc7f3bc3ee22f7ed145"
+    },
     {
       "id": "news:kcna:f88c4a8e5d9db5a336e1a1ca",
       "title": "2026년 여름철 국토환경보호부문 미학토론회 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 400
+        "domestic": 401
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 401
+        "domestic": 402
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 402
+        "domestic": 403
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 403
+        "domestic": 404
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,26 +110,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d192faf4c33c09e03e59be58446182a03",
       "cachedThumbnailUrl": "/data/news/assets/kcna/2380bedf8bc171f440fa0ff151fb43402f9d1f1fece246c5e52106b7cf62316a.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A6813a205be425c90424d59e4"
-    },
-    {
-      "id": "news:kcna:6f71e02a92fab04e0995e449",
-      "title": "락원포가 현대적인 산업지구로 전변된다",
-      "date": "2026-07-30",
-      "snippet": "(평양 7월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e2c911f4ad199eaca1e72653155582cd",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 404
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6f71e02a92fab04e0995e449"
     }
   ]
 }

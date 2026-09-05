@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 643,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:8ff56392f793e35fea3d6947",
+      "title": "온 나라 어머니들의 자애로운 어버이",
+      "date": "2025-11-16",
+      "snippet": "(평양 11월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e879b66d06d9ed8a6ae7e62ebbfab642",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3211
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8ff56392f793e35fea3d6947"
+    },
     {
       "id": "news:kcna:7ccd87c3fb0995d94d9e3af2",
       "title": "올해에 각지의 수많은 청년들 사회주의건설의 전구들로 탄원",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3211,
+        "domestic": 3212,
         "social": 513
       },
       "featuredSections": [],
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "important": 375,
-        "domestic": 3212
+        "domestic": 3213
       },
       "featuredSections": [],
       "hasImage": true,
@@ -70,7 +90,7 @@
       "categoryOrders": {
         "important": 376,
         "foreign": 492,
-        "domestic": 3213
+        "domestic": 3214
       },
       "featuredSections": [],
       "hasImage": true,
@@ -91,7 +111,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3214,
+        "domestic": 3215,
         "social": 514
       },
       "featuredSections": [],
@@ -100,26 +120,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eacaf67d3de4509a1aa0d3b0ff038683d54",
       "cachedThumbnailUrl": "/data/news/assets/kcna/2138bb8c3a71dc002ebcd23c8d845c93ea086eb7d62226c8a234618f3cb68143.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A2e2824fe107a32771eb267cd"
-    },
-    {
-      "id": "news:kcna:34530fe285f3ae54e7a04927",
-      "title": "평양화력발전소에서 올해 계획된 보이라대보수 결속,지난해 같은 시기보다 발전효률 장성",
-      "date": "2025-11-16",
-      "snippet": "(평양 11월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d3a6ead15fa7c8d547dda7a8dcb16886",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3215
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A34530fe285f3ae54e7a04927"
     }
   ]
 }

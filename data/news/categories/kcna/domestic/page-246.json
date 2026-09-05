@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 246,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:9d783c8216105675210a30e8",
+      "title": "나날이 발전하는 주체건축",
+      "date": "2026-05-15",
+      "snippet": "(평양 5월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3d984e5cd68cb4623c117aedaf4707ac",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1225
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9d783c8216105675210a30e8"
+    },
     {
       "id": "news:kcna:f837b81d5d7d07d7536c678e",
       "title": "조선민주주의인민공화국 외무성 대변인대답",
@@ -28,7 +48,7 @@
         "important": 114,
         "document": 18,
         "foreign": 180,
-        "domestic": 1225
+        "domestic": 1226
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,7 +68,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1226
+        "domestic": 1227
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +88,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1227
+        "domestic": 1228
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,7 +110,7 @@
       ],
       "categoryOrders": {
         "foreign": 181,
-        "domestic": 1228
+        "domestic": 1229
       },
       "featuredSections": [],
       "hasImage": true,
@@ -98,28 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064bf0d405811c3632c4f3156a877eccd79",
       "cachedThumbnailUrl": "/data/news/assets/kcna/ff579f52247372a1648b9f6b05d74e742be0352c9477d73d6dcb5d2d47696d3b.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Add3a6e7b4bda208f6802ff3c"
-    },
-    {
-      "id": "news:kcna:f0fc8d02ae33310f4b6e3650",
-      "title": "조선로동당 제9차대회와 윁남공산당 제14차대회를 축하하는 행사 진행",
-      "date": "2026-05-15",
-      "snippet": "(평양 5월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ae886e61d9414267a0a4a92e7795161a",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 182,
-        "domestic": 1229
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e00006436bd0f23c8944766459a985596cd8659",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/14ebb400f3f6109280fa69b49822aed9b4925157e038a1c943fb571b9959ce14.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af0fc8d02ae33310f4b6e3650"
     }
   ]
 }

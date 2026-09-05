@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 63,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:f18f06455e590368178d5ab9",
+      "title": "국립교향악단창립 80돐 기념음악회 진행",
+      "date": "2026-08-09",
+      "snippet": "(평양 8월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5f223bb5fb855368fd24d5b3bc26710f",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 29,
+        "domestic": 310
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f290593b3d0ffdc94df872f7bfe395108b0",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/e189a7959287417da750e2858bcc0a863fa51d4c44f1b67c476a94d583ed9524.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af18f06455e590368178d5ab9"
+    },
     {
       "id": "news:kcna:3d50e74d9f912b26a42e0b25",
       "title": "라선시안의 직맹조직들에서 대중운동 활발",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 310
+        "domestic": 311
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 311
+        "domestic": 312
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 312
+        "domestic": 313
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 313
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A13e0ad05cd2013a23a5bf852"
-    },
-    {
-      "id": "news:kcna:b657c218806b2c051f72c144",
-      "title": "기계공업부문에서 제품의 질제고와 설비들의 성능개선에 주력",
-      "date": "2026-08-08",
-      "snippet": "(평양 8월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b5ddc8a3d0c9312f1ada560b25947525",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 314
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab657c218806b2c051f72c144"
+      "detailUrl": "/news/document?id=news%3Akcna%3A13e0ad05cd2013a23a5bf852"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 665,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:51e9759122f94cd9a942bd28",
+      "title": "함경북도 연사군 연수리의 농업근로자들 새집들이경사 맞이",
+      "date": "2025-11-07",
+      "snippet": "(평양 11월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1e8fd64346499e48ce677aa0c5ba9f12",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 3321,
+        "social": 540
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac8a5396c99a650c32cc225236c0d6eaef",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/f209431c2c5718947fab2041d2371298478bb48cbd9aaa69c76699ce8586a75f.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A51e9759122f94cd9a942bd28"
+    },
     {
       "id": "news:kcna:189bdda1c432599998a11b18",
       "title": "2025년 10대최우수정보기술기업이 선정되였다",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3321
+        "domestic": 3322
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +68,7 @@
       "categoryOrders": {
         "important": 387,
         "foreign": 513,
-        "domestic": 3322
+        "domestic": 3323
       },
       "featuredSections": [],
       "hasImage": true,
@@ -70,7 +92,7 @@
       "categoryOrders": {
         "important": 388,
         "foreign": 514,
-        "domestic": 3323
+        "domestic": 3324
       },
       "featuredSections": [],
       "hasImage": true,
@@ -91,7 +113,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3324,
+        "domestic": 3325,
         "social": 541
       },
       "featuredSections": [],
@@ -100,26 +122,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A35cfddeb8271f1901d854276"
-    },
-    {
-      "id": "news:kcna:11f0bf725781bf62c1160449",
-      "title": "중앙식물원의 단풍계절",
-      "date": "2025-11-06",
-      "snippet": "(평양 11월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/96a2f650e6a5286a05d0473a6b06c85b",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3325
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac07f52fd2a93e42529e6c7659e8988679",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/3c53a735806f739da7fde7608ee301f11dd36936607db40f9e125a0c1d44a8a7.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A11f0bf725781bf62c1160449"
     }
   ]
 }

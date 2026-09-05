@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 573,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:d4d0b012f238c67c69a993e7",
+      "title": "구미포수산사업소에 해삼배양장이 새로 일떠섰다",
+      "date": "2025-12-19",
+      "snippet": "(평양 12월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8d409431c9d3dca651c3b998e84a3623",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2861
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad4d0b012f238c67c69a993e7"
+    },
     {
       "id": "news:kcna:f2a868bb85bf1d0e02f30b62",
       "title": "개성시의 세계문화유산들(7) 숭양서원",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2861
+        "domestic": 2862
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2862
+        "domestic": 2863
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2863
+        "domestic": 2864
       },
       "featuredSections": [],
       "hasImage": true,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2864,
+        "domestic": 2865,
         "social": 440
       },
       "featuredSections": [],
@@ -92,28 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ff0a0dcce36e31e3def356eea428d0ad95",
       "cachedThumbnailUrl": "/data/news/assets/kcna/3be54c512f1d9294fc2d97da0aceb9dadea763edbd84814b4c50748b30afe856.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Acb1cdff055b9d6c057591d60"
-    },
-    {
-      "id": "news:kcna:ba5aea0d864b2b454911a6be",
-      "title": "박태성동지 까타르국가 내각 수상 겸 외무상에게 축전",
-      "date": "2025-12-19",
-      "snippet": "(평양 12월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f5b904349023527cf01e54a3d5570094",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 465,
-        "domestic": 2865
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aba5aea0d864b2b454911a6be"
     }
   ]
 }

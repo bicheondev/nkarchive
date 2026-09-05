@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 687,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:2bd420aa4d07e6c57dbe07a3",
+      "title": "자강도에서 검은고니사와 타조사 건설",
+      "date": "2025-10-29",
+      "snippet": "(평양 10월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/385b710c46832e93fe2fc57df8fbbbca",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3431
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2bd420aa4d07e6c57dbe07a3"
+    },
     {
       "id": "news:kcna:5179216c7f1bc57f322ef9b9",
       "title": "사회주의기치를 더 높이 추켜들고 우리 국가의 전면적륭성기를 줄기차게 열어나가자",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3431
+        "domestic": 3432
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3432
+        "domestic": 3433
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "important": 404,
-        "domestic": 3433
+        "domestic": 3434
       },
       "featuredSections": [],
       "hasImage": true,
@@ -86,26 +106,6 @@
       ],
       "categoryOrders": {
         "foreign": 530,
-        "domestic": 3434
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A67c0b7aa73c192625f36596a"
-    },
-    {
-      "id": "news:kcna:050bb713964efe096ebec9de",
-      "title": "새로운 재해경보통보체계 연구개발",
-      "date": "2025-10-29",
-      "snippet": "(평양 10월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/05002e686bf821ec4df3566fa683c4a5",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3435
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A050bb713964efe096ebec9de"
+      "detailUrl": "/news/document?id=news%3Akcna%3A67c0b7aa73c192625f36596a"
     }
   ]
 }

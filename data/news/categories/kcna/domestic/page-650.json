@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 650,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:5b034317cee4cb5cbf4c4c00",
+      "title": "조선민주주의인민공화국 외무상과 라오스인민민주주의공화국 외무상사이의 회담 진행",
+      "date": "2025-11-13",
+      "snippet": "(평양 11월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/85e2b3138a44c4c0ef54efe62eae4318",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 382,
+        "foreign": 499,
+        "domestic": 3246
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac6f18310a525a82c51e237fee3372e1d2",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/4dd03d1c454aee24fe890189c9607c004a678729aff60c001760529c79966b21.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5b034317cee4cb5cbf4c4c00"
+    },
     {
       "id": "news:kcna:31a94ec24200971dc139ea08",
       "title": "박태성동지 캄보쟈왕국 수상에게 축전",
@@ -24,7 +48,7 @@
       ],
       "categoryOrders": {
         "foreign": 500,
-        "domestic": 3246
+        "domestic": 3247
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +70,7 @@
       ],
       "categoryOrders": {
         "foreign": 501,
-        "domestic": 3247
+        "domestic": 3248
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +90,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3248
+        "domestic": 3249
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +110,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3249
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A991bc08c3d0ea2d223b65bfa"
-    },
-    {
-      "id": "news:kcna:df23b717625d9d7f6764864b",
-      "title": "어머니날에 즈음한 모범적인 녀성농업근로자들과 농근맹원들의 실화무대 진행",
-      "date": "2025-11-13",
-      "snippet": "(평양 11월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/68c3f6837c3e5d3d62e0b3d0607d6915",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3250
       },
       "featuredSections": [],
@@ -113,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adf23b717625d9d7f6764864b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A991bc08c3d0ea2d223b65bfa"
     }
   ]
 }

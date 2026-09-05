@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 483,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:d57e3a32262d06cb87a37b42",
+      "title": "여러 단위에서 의의가 큰 과학연구성과 이룩",
+      "date": "2026-02-03",
+      "snippet": "(평양 2월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/779631d7d18ab7886aff123d9c436e59",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2411
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad57e3a32262d06cb87a37b42"
+    },
     {
       "id": "news:kcna:3cef824fba1125fb8f10cbed",
       "title": "2026년 2월 3일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2411
+        "domestic": 2412
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +66,7 @@
       "categoryOrders": {
         "important": 311,
         "foreign": 414,
-        "domestic": 2412
+        "domestic": 2413
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2413
+        "domestic": 2414
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2414
+        "domestic": 2415
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,28 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366bd9e5939f96368dc59ed94d9bfbbadd3",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A011ae3fd18a82b4eb0c012d4"
-    },
-    {
-      "id": "news:kcna:d50866eca4e97aeb9cb3c9ed",
-      "title": "황해남도 은률군 가양농장과 황해북도 금천군 계정농장,토산군 읍농장에서 살림집입사모임 진행",
-      "date": "2026-02-03",
-      "snippet": "(평양 2월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a44f2d9df54f2dd3661e6cf5fdad7414",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2415,
-        "social": 319
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf36612db7eff96d86b6120c52b9e6138335f",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/f8324a8c12d17780fdb33694a22c5b1bb0c39e9123db54f8f6f8d00339c1fab3.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad50866eca4e97aeb9cb3c9ed"
     }
   ]
 }

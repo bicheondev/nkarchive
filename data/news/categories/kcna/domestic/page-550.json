@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 550,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:08024570777c65606d482c85",
+      "title": "교육자의 삶을 끝없이 빛내여주는 크나큰 사랑",
+      "date": "2026-01-01",
+      "snippet": "(평양 1월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cd71c397aec008f1f5836e4a370a3a57",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 336,
+        "domestic": 2746
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A08024570777c65606d482c85"
+    },
     {
       "id": "news:kcna:4fcd6483a796892da990ccdb",
       "title": "강동군과 구성시에 새로 일떠선 병원들이 개원하였다",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2746
+        "domestic": 2747
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,7 +68,7 @@
       "categoryOrders": {
         "important": 339,
         "foreign": 439,
-        "domestic": 2747
+        "domestic": 2748
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +90,7 @@
       ],
       "categoryOrders": {
         "important": 340,
-        "domestic": 2748
+        "domestic": 2749
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,7 +112,7 @@
       ],
       "categoryOrders": {
         "foreign": 440,
-        "domestic": 2749
+        "domestic": 2750
       },
       "featuredSections": [],
       "hasImage": true,
@@ -98,26 +120,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451796efeecd3eb514586412ebe14d6886f",
       "cachedThumbnailUrl": "/data/news/assets/kcna/dab549ec41217ec3e551decfda29007b206f2dd13b2f10939f7ae227d6da7b0c.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A98f2c7e0e9aa1d18d6258370"
-    },
-    {
-      "id": "news:kcna:896d145dcc58b38f5ed63ad6",
-      "title": "강원도 원산시에 모범교육시칭호 수여",
-      "date": "2026-01-01",
-      "snippet": "(평양 1월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/187e157a7c3159606310248a406a8039",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2750
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A896d145dcc58b38f5ed63ad6"
     }
   ]
 }

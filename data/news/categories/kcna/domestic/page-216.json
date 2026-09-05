@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 216,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:a4179c62fa7151088c08cb44",
+      "title": "세상에 부럼없이 자라고있는 어린이들",
+      "date": "2026-05-30",
+      "snippet": "(평양 5월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b63a6339758316fd0d2c4409e36c291c",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 1075,
+        "social": 114
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064bb1eb390e081b38009b77eed743e5a2e",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/4354a456ca9a5988bfda58f47c1455ca7f3e992c098d9b69fd68dfdc7c0433d5.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa4179c62fa7151088c08cb44"
+    },
     {
       "id": "news:kcna:424a5d100e26f6c8ff62c4e9",
       "title": "자강도의 지방공업공장들에서 새 제품들을 개발",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1075
+        "domestic": 1076
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1076
+        "domestic": 1077
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1077
+        "domestic": 1078
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1078
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5a5662ed11790e7142317458"
-    },
-    {
-      "id": "news:kcna:ba48efe18366eb46a3b59829",
-      "title": "창전거리에 새겨진 위민헌신의 자욱",
-      "date": "2026-05-30",
-      "snippet": "(평양 5월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/628b111452e832c685528aaa4ae1241f",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1079
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aba48efe18366eb46a3b59829"
+      "detailUrl": "/news/document?id=news%3Akcna%3A5a5662ed11790e7142317458"
     }
   ]
 }

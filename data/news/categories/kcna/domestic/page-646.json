@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 646,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:ffece67f63655b8798472434",
+      "title": "도자공예유산-알룩반죽자기",
+      "date": "2025-11-14",
+      "snippet": "(평양 11월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9f1ed83a3885a0cfff63e0fc2c389bd8",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3226
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Affece67f63655b8798472434"
+    },
     {
       "id": "news:kcna:36df95f7e932f8cf789d38a4",
       "title": "각지 버섯공장들에서 과학기술의 힘으로 버섯생산 증대",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3226
+        "domestic": 3227
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3227
+        "domestic": 3228
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3228,
+        "domestic": 3229,
         "social": 519
       },
       "featuredSections": [],
@@ -85,7 +105,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3229,
+        "domestic": 3230,
         "social": 520
       },
       "featuredSections": [],
@@ -94,30 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A89b25a02686ae1a30f1770cd"
-    },
-    {
-      "id": "news:kcna:99b945239d571682bd1b2cac",
-      "title": "조선민주주의인민공화국 최선희 외무상 담화 발표",
-      "date": "2025-11-14",
-      "snippet": "(평양 11월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f208f844cfc920841e4d27500f560079",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 377,
-        "international": 2191,
-        "domestic": 3230
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A99b945239d571682bd1b2cac"
     }
   ]
 }

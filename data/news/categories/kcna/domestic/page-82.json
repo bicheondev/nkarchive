@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 82,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:6f71e02a92fab04e0995e449",
+      "title": "락원포가 현대적인 산업지구로 전변된다",
+      "date": "2026-07-30",
+      "snippet": "(평양 7월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e2c911f4ad199eaca1e72653155582cd",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 405
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6f71e02a92fab04e0995e449"
+    },
     {
       "id": "news:kcna:f10aa4344f08f867318fd5e0",
       "title": "전승세대의 넋을 이어나가기 위한 청년전위들의 결의모임과 계승의 행진 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 405
+        "domestic": 406
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 406
+        "domestic": 407
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 407
+        "domestic": 408
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
       ],
       "categoryOrders": {
         "foreign": 52,
-        "domestic": 408
+        "domestic": 409
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dda3621545bff023718c3638c16b47598",
       "cachedThumbnailUrl": "/data/news/assets/kcna/5bc98ba5883b46b8f5a0a8ad968703d86eda92ed8cf8b39f151c7150778e5f25.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ac8f2eab14c9e07fc9ffb486c"
-    },
-    {
-      "id": "news:kcna:db277cefdaf4bb1664a08b22",
-      "title": "중국인민해방군창건 99돐에 즈음하여 중화인민공화국대사관 기념연회 마련",
-      "date": "2026-07-29",
-      "snippet": "(평양 7월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/85f17501a753c9a341f5a8913bd1cb68",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 53,
-        "domestic": 409
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adb277cefdaf4bb1664a08b22"
     }
   ]
 }

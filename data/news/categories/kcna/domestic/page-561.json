@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 561,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:9d85c85f9daf5abbf4671494",
+      "title": "기계공업부문에서 과학기술력을 증대시켜 물질기술적토대 강화",
+      "date": "2025-12-27",
+      "snippet": "(평양 12월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0ff4bf5d160b372b0d26ab10c931cf2e",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2801
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9d85c85f9daf5abbf4671494"
+    },
     {
       "id": "news:kcna:d1ae4de2d1a41d70b20d4cd4",
       "title": "개풍구역인민들 지방공업공장들과 종합봉사소 준공을 맞이",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2801
+        "domestic": 2802
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,7 +66,7 @@
       "categoryOrders": {
         "important": 349,
         "foreign": 450,
-        "domestic": 2802
+        "domestic": 2803
       },
       "featuredSections": [],
       "hasImage": false,
@@ -70,7 +90,7 @@
       "categoryOrders": {
         "important": 353,
         "foreign": 454,
-        "domestic": 2803
+        "domestic": 2804
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,26 +110,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2804
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A54d6103b75ef4d241e87dcb6"
-    },
-    {
-      "id": "news:kcna:12132af62e51a611faa58b6c",
-      "title": "기상수문국 서해해양연구소에서 가치있는 해양과학연구성과 이룩",
-      "date": "2025-12-26",
-      "snippet": "(평양 12월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5a8f37fd6ca9039c3ef98f59f4d78fbb",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2805
       },
       "featuredSections": [],
@@ -117,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A12132af62e51a611faa58b6c"
+      "detailUrl": "/news/document?id=news%3Akcna%3A54d6103b75ef4d241e87dcb6"
     }
   ]
 }

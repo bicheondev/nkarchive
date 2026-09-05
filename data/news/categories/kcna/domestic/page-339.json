@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 339,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:42112c9dee57088af341fb92",
+      "title": "4.15경축 국가산업미술전시회 개막",
+      "date": "2026-04-09",
+      "snippet": "(평양 4월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5ba3648c258cd23da0b452bb1ab672f5",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1690
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b667f8bdd4bc040f81e3f1a01b22ad58dad",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/eb4db8aded091af61e5e606d90114dcd0b117f0f257757d27bacae0b44327a9f.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A42112c9dee57088af341fb92"
+    },
     {
       "id": "news:kcna:87ec907c53e055d136a3fc40",
       "title": "남포시 온천군 원읍로동자구지역에서 청동기시대와 신석기시대의 소금생산유적 새로 발굴",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1690
+        "domestic": 1691
       },
       "featuredSections": [],
       "hasImage": true,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1691,
+        "domestic": 1692,
         "social": 173
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1692
+        "domestic": 1693
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1693
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9552b3c2aecc7817db944d4e"
-    },
-    {
-      "id": "news:kcna:aef2954456762de32d7f2cf5",
-      "title": "《전국의학과학토론회-2026》 진행",
-      "date": "2026-04-09",
-      "snippet": "(평양 4월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1a6effa8b4a139605650eaef3eb73aca",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1694
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aaef2954456762de32d7f2cf5"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9552b3c2aecc7817db944d4e"
     }
   ]
 }

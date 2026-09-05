@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 531,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:f555e79101aad2a94a32a68c",
+      "title": "황해남도간석지건설종합기업소에서 10만산대발파 진행",
+      "date": "2026-01-11",
+      "snippet": "(평양 1월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2b7bbe2624d5914656f11498add4468d",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2651
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af555e79101aad2a94a32a68c"
+    },
     {
       "id": "news:kcna:f1a7db0b9416360d0094bdfc",
       "title": "김여정 조선로동당 중앙위원회 부부장 담화 발표",
@@ -26,7 +46,7 @@
       "categoryOrders": {
         "important": 325,
         "foreign": 426,
-        "domestic": 2651
+        "domestic": 2652
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2652
+        "domestic": 2653
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,7 +87,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2653,
+        "domestic": 2654,
         "social": 391
       },
       "featuredSections": [],
@@ -88,26 +108,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2654
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A50af0a5d5c0a8308e3d9c091"
-    },
-    {
-      "id": "news:kcna:2a8dd3fdee12915b275b9138",
-      "title": "각지 공장,기업소들에서 증산투쟁열의 고조",
-      "date": "2026-01-11",
-      "snippet": "(평양 1월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/42f5ac6cc70d93f2ac9a3849ed841fdb",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2655
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2a8dd3fdee12915b275b9138"
+      "detailUrl": "/news/document?id=news%3Akcna%3A50af0a5d5c0a8308e3d9c091"
     }
   ]
 }

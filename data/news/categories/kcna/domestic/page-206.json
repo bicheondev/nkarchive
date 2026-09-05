@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 206,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:9425a56aba63e3edbc919041",
+      "title": "남포시에서 금성간석지제방보강공사 추진",
+      "date": "2026-06-04",
+      "snippet": "(평양 6월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e2ec4779fbd8bf09ebbb16ae459b80a3",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1025
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9425a56aba63e3edbc919041"
+    },
     {
       "id": "news:kcna:eb990a4a0137f57e28db980e",
       "title": "황해남도에서 해주타일공장건설 추진",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1025
+        "domestic": 1026
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1026
+        "domestic": 1027
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1027
+        "domestic": 1028
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1028
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0c72a0caf2cc55c002deed12"
-    },
-    {
-      "id": "news:kcna:4770f170ecaefe9ea1e86d07",
-      "title": "평양시소년미풍열성자회의와 학생소년들의 자랑무대 진행",
-      "date": "2026-06-03",
-      "snippet": "(평양 6월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/cd99cd2f7c0a1f450d25e86b4d2ec018",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1029
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4770f170ecaefe9ea1e86d07"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0c72a0caf2cc55c002deed12"
     }
   ]
 }

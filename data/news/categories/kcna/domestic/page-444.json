@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 444,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:ecf45ee178f2f65ff5d0a1bc",
+      "title": "평양시의 여러 단위에서 전기절약사업 활발",
+      "date": "2026-02-21",
+      "snippet": "(평양 2월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ed063be2b87d2b93edaf07b43e98bed4",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2216,
+        "social": 279
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aecf45ee178f2f65ff5d0a1bc"
+    },
     {
       "id": "news:kcna:4e69ab232c2e603559d0a5d2",
       "title": "개성시의 고급중학교 졸업반학생들속에서 인민군대탄원열기 고조",
@@ -23,7 +45,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2216,
+        "domestic": 2217,
         "social": 280
       },
       "featuredSections": [],
@@ -45,7 +67,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2217,
+        "domestic": 2218,
         "social": 281
       },
       "featuredSections": [],
@@ -66,7 +88,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2218
+        "domestic": 2219
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +108,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2219
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adadb088c8a0ff5e663e355be"
-    },
-    {
-      "id": "news:kcna:6e0f357828d56098b6135116",
-      "title": "2026년 2월 20일 신문개관",
-      "date": "2026-02-20",
-      "snippet": "(평양 2월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/af6ec298ae05f32aca1324f68cbde17d",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2220
       },
       "featuredSections": [],
@@ -113,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6e0f357828d56098b6135116"
+      "detailUrl": "/news/document?id=news%3Akcna%3Adadb088c8a0ff5e663e355be"
     }
   ]
 }

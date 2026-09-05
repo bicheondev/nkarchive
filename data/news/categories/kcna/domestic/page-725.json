@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 725,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:c99260abb6ba803087710158",
+      "title": "《로동신문》 당창건 80돐을 성대히 경축한 기세드높이 영광의 당대회를 향한 보무를 더욱 힘차게 내짚을데 대해 강조",
+      "date": "2025-10-15",
+      "snippet": "(평양 10월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/92b8a6125c17c52066b63a647a4f7526",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3621
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac99260abb6ba803087710158"
+    },
     {
       "id": "news:kcna:f71928e9135e3ef65f7070f1",
       "title": "국제민주단체대표들이 떠나갔다",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "foreign": 576,
-        "domestic": 3621
+        "domestic": 3622
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "foreign": 577,
-        "domestic": 3622
+        "domestic": 3623
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,7 +87,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3623,
+        "domestic": 3624,
         "social": 592
       },
       "featuredSections": [],
@@ -90,28 +110,6 @@
       ],
       "categoryOrders": {
         "foreign": 578,
-        "domestic": 3624
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A191ff3fa157a9b34b58a7e53"
-    },
-    {
-      "id": "news:kcna:ab8e776b08b1972da0808a7a",
-      "title": "해외연고자가족들이 떠나갔다",
-      "date": "2025-10-15",
-      "snippet": "(평양 10월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/67c8bbd728a0af74204133a0dbedd720",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 579,
         "domestic": 3625
       },
       "featuredSections": [],
@@ -119,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aab8e776b08b1972da0808a7a"
+      "detailUrl": "/news/document?id=news%3Akcna%3A191ff3fa157a9b34b58a7e53"
     }
   ]
 }

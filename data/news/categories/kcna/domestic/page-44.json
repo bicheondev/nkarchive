@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 44,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:de47d0aa435370258f4957c7",
+      "title": "각지 농촌들에서 가을무우씨뿌리기 추진",
+      "date": "2026-08-17",
+      "snippet": "(평양 8월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/519e3cff03d3062e3cc553494ddd7090",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 215
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ade47d0aa435370258f4957c7"
+    },
     {
       "id": "kcna-0a0473cdf81e1366",
       "title": "평남탄전에서 집중강연선전대활동 활발히 전개",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 215,
+        "domestic": 216,
         "social": 33
       },
       "featuredSections": [],
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "foreign": 25,
-        "domestic": 216
+        "domestic": 217
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 217
+        "domestic": 218
       },
       "featuredSections": [],
       "hasImage": false,
@@ -87,7 +107,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 218,
+        "domestic": 219,
         "social": 34
       },
       "featuredSections": [],
@@ -96,26 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-dd18a88b001970ff"
-    },
-    {
-      "id": "news:kcna:61bf469b4eb9881cc963df39",
-      "title": "흐뭇한 과일작황을 펼친 대동강과수종합농장",
-      "date": "2026-08-17",
-      "snippet": "(평양 8월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/68c142a28cfa319b9e1b5eeaed491f37",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 219
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A61bf469b4eb9881cc963df39"
     }
   ]
 }

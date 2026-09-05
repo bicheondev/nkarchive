@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 12,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:c265de1d9706bf5776a25e28",
+      "title": "국가과학원 생물공학분원에서 새로운 수질정화기술 개발",
+      "date": "2026-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/eb37d35a01b8ce27532de9b1bd5a9d74",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 55
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac265de1d9706bf5776a25e28"
+    },
     {
       "id": "news:kcna:44e9b84a6a769d5089b1448b",
       "title": "시,군들에서 수유나무림들에 대한 비배관리에 힘을 집중",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 55
+        "domestic": 56
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 56
+        "domestic": 57
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 57
+        "domestic": 58
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 58
+        "domestic": 59
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,26 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A5c3b05f9d021c028d91c3ab9"
-    },
-    {
-      "id": "news:kcna:f51b71da5f0e845d5f2c5ee4",
-      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상을 찾아 총련교육일군대표단 경모의 정 표시",
-      "date": "2026-08-30",
-      "snippet": "(평양 8월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/59dd3c58b24091829523756e2503fc49",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 59
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29873c864f039e772f3b4ec10b5cbdb41e",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/be446c6593ce23242a6040a7ec092c58542efa36c0a076bb93c48c966e52081b.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af51b71da5f0e845d5f2c5ee4"
     }
   ]
 }

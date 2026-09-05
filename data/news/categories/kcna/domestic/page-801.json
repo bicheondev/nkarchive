@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 801,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:4719c96008d98bf90b9d87f4",
+      "title": "평양시안의 일군들과 근로자들 수도의 면모를 일신",
+      "date": "2025-09-20",
+      "snippet": "(평양 9월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3cf8c80c441661b4a77dfc761f7eda3b",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 4001,
+        "social": 650
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4719c96008d98bf90b9d87f4"
+    },
     {
       "id": "news:kcna:b7897373e560b1b73ef99f1d",
       "title": "화성지구 4단계 1만세대 살림집내외부마감공사 본격적으로 추진",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4001
+        "domestic": 4002
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4002
+        "domestic": 4003
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4003
+        "domestic": 4004
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4004
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A91eb32d66be5aefa0898708e"
-    },
-    {
-      "id": "news:kcna:247be9a12677f1655336c63d",
-      "title": "우리 나라의 첫 전문체육단체-압록강체육단",
-      "date": "2025-09-19",
-      "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c7bc48516e1f4261d603df5aec77cc76",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 4005
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A247be9a12677f1655336c63d"
+      "detailUrl": "/news/document?id=news%3Akcna%3A91eb32d66be5aefa0898708e"
     }
   ]
 }

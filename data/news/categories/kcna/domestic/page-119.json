@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 119,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:d015d6159342abe32217bdd3",
+      "title": "총련의 대표단,방문단 도착",
+      "date": "2026-07-15",
+      "snippet": "(평양 7월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1c3fb695aa0aee495ba69d1618f1541c",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 590
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d3307f8922b42f5ab98fdc0549ccce715",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/123eaa6ea2493313cbf78af35c64d559820a0c58cb67c4af2c4289cc38868909.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad015d6159342abe32217bdd3"
+    },
     {
       "id": "news:kcna:ee704adcb6a5c5c8a79f6c61",
       "title": "재일조선고급학교 학생조국방문단이 떠나갔다",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 590
+        "domestic": 591
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 591
+        "domestic": 592
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 592
+        "domestic": 593
       },
       "featuredSections": [],
       "hasImage": true,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 593,
+        "domestic": 594,
         "social": 72
       },
       "featuredSections": [],
@@ -92,26 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A50a164a74f9e48971e11a502"
-    },
-    {
-      "id": "news:kcna:8e94331fc6ec073298771c7f",
-      "title": "라선시에서 선봉구역경기장 개건,준공식 진행",
-      "date": "2026-07-14",
-      "snippet": "(평양 7월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e4c6601f72c3afa7abf973efadb096d1",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 594
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8e94331fc6ec073298771c7f"
     }
   ]
 }

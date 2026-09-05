@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 182,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:f37413e18ee95e396d19d4ab",
+      "title": "2026년 6월 15일 《로동신문》개관",
+      "date": "2026-06-15",
+      "snippet": "(평양 6월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/40187e949839af5e2ce1af5c7963dba1",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 905
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af37413e18ee95e396d19d4ab"
+    },
     {
       "id": "news:kcna:cf652f662aca5d5c275e1fab",
       "title": "경애하는 김정은동지께서 평양곡산공장을 현지지도하신 10돐 기념보고회 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 905
+        "domestic": 906
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "important": 87,
-        "domestic": 906
+        "domestic": 907
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       ],
       "categoryOrders": {
         "foreign": 141,
-        "domestic": 907
+        "domestic": 908
       },
       "featuredSections": [],
       "hasImage": true,
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 908
+        "domestic": 909
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e36cda9843b5f9165331a90e0e42b590d4",
       "cachedThumbnailUrl": "/data/news/assets/kcna/3f5be563154617b548962f43073148232abbe9c7c445c8409ea8132c1a562368.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ac42a2b32a5c14eaf4e85efe6"
-    },
-    {
-      "id": "news:kcna:85d81f9fe971ba5c928c1946",
-      "title": "전쟁승리의 새 국면이 펼쳐진 유평혁명사적지",
-      "date": "2026-06-15",
-      "snippet": "(평양 6월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8a1d40c67439122c831f5448b662bed3",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 909
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A85d81f9fe971ba5c928c1946"
     }
   ]
 }

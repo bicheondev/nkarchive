@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 307,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:6a76c531eb821968db7150ed",
+      "title": "2026년 4월 21일 신문개관",
+      "date": "2026-04-21",
+      "snippet": "(평양 4월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/24da3a836e79388bf2e27846a7868ebb",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1530
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6a76c531eb821968db7150ed"
+    },
     {
       "id": "news:kcna:62d4c7e10fd39b1fea452e7d",
       "title": "로씨야련방 내무성대표단 도착",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "foreign": 238,
-        "domestic": 1530
+        "domestic": 1531
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "foreign": 239,
-        "domestic": 1531
+        "domestic": 1532
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,7 +88,7 @@
       ],
       "categoryOrders": {
         "foreign": 240,
-        "domestic": 1532
+        "domestic": 1533
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,7 +108,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1533
+        "domestic": 1534
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,28 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A99b303730a8f4b69681fa9c7"
-    },
-    {
-      "id": "news:kcna:c58ecc6aa20f166c056b1881",
-      "title": "녀맹중앙위원회 일군들 대성산혁명전적지 답사",
-      "date": "2026-04-21",
-      "snippet": "(평양 4월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2aaabf32449870f9727e6ef94048c423",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 1534,
-        "social": 153
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac58ecc6aa20f166c056b1881"
     }
   ]
 }

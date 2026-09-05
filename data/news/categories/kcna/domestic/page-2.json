@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:71fe401402a35211c19fcb31",
+      "title": "황해북도의 농촌들에서 농기계수리정비 결속",
+      "date": "2026-09-05",
+      "snippet": "(평양 9월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6360f99f0be3a74b55a0479aed1265fa",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 5
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A71fe401402a35211c19fcb31"
+    },
     {
       "id": "news:kcna:818909fda5f312e06f01defc",
       "title": "애국정신을 배가해주며 울려퍼지는 새시대의 조국찬가들",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 5
+        "domestic": 6
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 6
+        "domestic": 7
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 7
+        "domestic": 8
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 8
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1716d3cde62335c9d7bdad5b"
-    },
-    {
-      "id": "news:kcna:2c2843a94e59e13310a0d9e6",
-      "title": "전국공개조선장기경기대회 진행",
-      "date": "2026-09-04",
-      "snippet": "(평양 9월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ca0f7d1557cbf3c5e704e2db6096cf4a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 9
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2c2843a94e59e13310a0d9e6"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1716d3cde62335c9d7bdad5b"
     }
   ]
 }

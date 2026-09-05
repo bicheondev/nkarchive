@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 226,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:e1d22e6cc734dfd4f33a714f",
+      "title": "경공업부문의 공장들에서 새 제품개발사업 활발",
+      "date": "2026-05-26",
+      "snippet": "(평양 5월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/40abecfafebb3f9e96bb925afeeb7364",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1125
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae1d22e6cc734dfd4f33a714f"
+    },
     {
       "id": "news:kcna:26d99a40b0926186184d0b3a",
       "title": "황해북도에서 지역의 경제발전을 위한 과학연구활동 전개",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1125
+        "domestic": 1126
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1126
+        "domestic": 1127
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1127
+        "domestic": 1128
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1128
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa96f0d02b0aa6365f8252bc2"
-    },
-    {
-      "id": "news:kcna:5776f42746babaaec8705d65",
-      "title": "2026년 5월 26일 《로동신문》개관",
-      "date": "2026-05-26",
-      "snippet": "(평양 5월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ea744fc3415935fa4c5613d42af2860a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1129
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5776f42746babaaec8705d65"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa96f0d02b0aa6365f8252bc2"
     }
   ]
 }

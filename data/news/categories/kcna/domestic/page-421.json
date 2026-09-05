@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 421,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:d8a13c3612edf5c0cac7679f",
+      "title": "농민들의 의사와 요구를 반영하여 작성하신 토지개혁법령",
+      "date": "2026-03-04",
+      "snippet": "(평양 3월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/396f2785887dcf6fb0dc4e336d899adc",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2101
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad8a13c3612edf5c0cac7679f"
+    },
     {
       "id": "news:kcna:1255a30f535c48681eddf87e",
       "title": "2026년 3월 4일 《로동신문》개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2101
+        "domestic": 2102
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +66,7 @@
       "categoryOrders": {
         "important": 254,
         "document": 37,
-        "domestic": 2102
+        "domestic": 2103
       },
       "featuredSections": [],
       "hasImage": false,
@@ -70,7 +90,7 @@
       "categoryOrders": {
         "important": 255,
         "document": 38,
-        "domestic": 2103
+        "domestic": 2104
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,7 +110,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2104
+        "domestic": 2105
       },
       "featuredSections": [],
       "hasImage": true,
@@ -98,26 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e6023a9fee728f68dd78bca553bf400774a",
       "cachedThumbnailUrl": "/data/news/assets/kcna/b7632327beb61ca2c50c59bec696bd4bcffebc99a840106966f6cf2e615884f7.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A73b8dde664f360f1eadb8611"
-    },
-    {
-      "id": "news:kcna:32bad55e7980f2a13d9b366d",
-      "title": "자강도안의 기초식품생산단위들에서 제품의 질제고에 주력",
-      "date": "2026-03-04",
-      "snippet": "(평양 3월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c11115ae49d35917c33ca6b7a6d3ef2d",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2105
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A32bad55e7980f2a13d9b366d"
     }
   ]
 }

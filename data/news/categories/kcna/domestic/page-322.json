@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 322,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:4b246b9628c9681f1df48b3a",
+      "title": "농업근로자들과 농근맹원들의 경축모임 진행",
+      "date": "2026-04-15",
+      "snippet": "(평양 4월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7ccfb455492d80a1137f8ff40becfdec",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1605
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4b246b9628c9681f1df48b3a"
+    },
     {
       "id": "news:kcna:69d752ecc8067f41165e0fb0",
       "title": "조선소년단 전국련합단체대회 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1605
+        "domestic": 1606
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1606
+        "domestic": 1607
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "important": 163,
-        "domestic": 1607
+        "domestic": 1608
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1608
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A09c92cc6a56186ff2bc7fd13"
-    },
-    {
-      "id": "news:kcna:ccc63454758c50f3e97ea6b8",
-      "title": "2026년 4월 14일 신문개관",
-      "date": "2026-04-14",
-      "snippet": "(평양 4월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/92cc760c62e17584f22fd516730d6353",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1609
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Accc63454758c50f3e97ea6b8"
+      "detailUrl": "/news/document?id=news%3Akcna%3A09c92cc6a56186ff2bc7fd13"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 525,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:69371afb372e3a54e0d7b080",
+      "title": "인민의 목소리에서 굳히신 주체적민방위무력창건구상",
+      "date": "2026-01-14",
+      "snippet": "(평양 1월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6a13cb09a57bbf71da8eaa68129f6d83",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2621
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A69371afb372e3a54e0d7b080"
+    },
     {
       "id": "news:kcna:82836f8d17369d05e73964ab",
       "title": "공화국의 주체적민방위무력-로농적위군",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2621
+        "domestic": 2622
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2622
+        "domestic": 2623
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "important": 322,
-        "domestic": 2623
+        "domestic": 2624
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,7 +105,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2624,
+        "domestic": 2625,
         "social": 383
       },
       "featuredSections": [],
@@ -94,26 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ade5121a498c0b8987cbad634"
-    },
-    {
-      "id": "news:kcna:a35c382a7d565e471a328cd1",
-      "title": "보건성에서 의료일군양성사업을 개선하기 위한 노력 증대",
-      "date": "2026-01-14",
-      "snippet": "(평양 1월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f62a28b8a1a67f0ba1b0db8591ac3b1a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2625
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa35c382a7d565e471a328cd1"
     }
   ]
 }

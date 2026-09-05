@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 547,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:34140548e554cb9b1f201645",
+      "title": "우리 나라 외무상 꾸바공화국 외무상에게 축전",
+      "date": "2026-01-02",
+      "snippet": "(평양 1월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/74db999997b3fa27cd23aba933ac90f4",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 435,
+        "domestic": 2731
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A34140548e554cb9b1f201645"
+    },
     {
       "id": "news:kcna:5bf97882c42842f1b2caa63d",
       "title": "학생소년들의 2026년 설맞이공연 진행",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2731
+        "domestic": 2732
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +66,7 @@
       ],
       "categoryOrders": {
         "foreign": 436,
-        "domestic": 2732
+        "domestic": 2733
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,7 +87,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2733,
+        "domestic": 2734,
         "social": 414
       },
       "featuredSections": [],
@@ -87,7 +109,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2734,
+        "domestic": 2735,
         "social": 415
       },
       "featuredSections": [],
@@ -96,26 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451d22ef53aa15b6aba6ac599f1615fd4e1",
       "cachedThumbnailUrl": "/data/news/assets/kcna/c6b59622120489d6458d474f06dd357f549a20c3a7398fbd4cf62debe40d7596.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A4d0e8854b34e928877759cc8"
-    },
-    {
-      "id": "news:kcna:4277631fb9b6937a1cc29c4a",
-      "title": "인민경제 여러 단위에서 증산투쟁 고조",
-      "date": "2026-01-02",
-      "snippet": "(평양 1월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/05649caa6c0fc1e07f80645d9232b3dd",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2735
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4277631fb9b6937a1cc29c4a"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 641,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:81daf36e9b66d83c99bdd4f5",
+      "title": "2025년 11월 17일 신문개관",
+      "date": "2025-11-17",
+      "snippet": "(평양 11월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/49ddedcb37603aa9d7c3167d84b94220",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3201
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A81daf36e9b66d83c99bdd4f5"
+    },
     {
       "id": "news:kcna:821507a55f38644e99a55089",
       "title": "국제축구련맹 2025년 17살미만 녀자월드컵경기대회에서 우승한 우리 녀자축구선수들 귀국",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3201
+        "domestic": 3202
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3202
+        "domestic": 3203
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3203,
+        "domestic": 3204,
         "social": 509
       },
       "featuredSections": [],
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3204
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A28deb2cb3772e1a0dbcde8dc"
-    },
-    {
-      "id": "news:kcna:39f1cb18dbaeedba4b711b7f",
-      "title": "순천세멘트련합기업소에서 올해 수만t의 세멘트 증산",
-      "date": "2025-11-17",
-      "snippet": "(평양 11월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b49e0af1793a583ed5945492bcfc97f9",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3205
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A39f1cb18dbaeedba4b711b7f"
+      "detailUrl": "/news/document?id=news%3Akcna%3A28deb2cb3772e1a0dbcde8dc"
     }
   ]
 }

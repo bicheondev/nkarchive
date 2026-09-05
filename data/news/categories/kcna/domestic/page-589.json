@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 589,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:a942a71676e07f3824779ce0",
+      "title": "평양시안의 고려약공장들에서 생산성과 확대",
+      "date": "2025-12-12",
+      "snippet": "(평양 12월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/536a4c4e67213a2f6bdf656226908757",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2941
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa942a71676e07f3824779ce0"
+    },
     {
       "id": "news:kcna:e7ee739bb90c54328e7090c5",
       "title": "황해남도 신원군 월당농장과 평안북도 염주군 내중농장에서 새집들이 진행",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2941,
+        "domestic": 2942,
         "social": 457
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2942
+        "domestic": 2943
       },
       "featuredSections": [],
       "hasImage": true,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2943
+        "domestic": 2944
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2944
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A587aa62fe4b41c65085e3ce9"
-    },
-    {
-      "id": "news:kcna:b6ccb9923f73911bd7aacafb",
-      "title": "2025년 12월 11일 신문개관",
-      "date": "2025-12-11",
-      "snippet": "(평양 12월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/25e591fbc9c6ceaa9d16694124df8ad7",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2945
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab6ccb9923f73911bd7aacafb"
+      "detailUrl": "/news/document?id=news%3Akcna%3A587aa62fe4b41c65085e3ce9"
     }
   ]
 }

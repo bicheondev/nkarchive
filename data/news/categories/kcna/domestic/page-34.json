@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 34,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:7463de3237475d12cf90822d",
+      "title": "우리 인민의 우수한 건축술을 보여주는 명승고적-통군정",
+      "date": "2026-08-22",
+      "snippet": "(평양 8월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/80129f9248b98e15baf650b03dd17258",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 165
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7463de3237475d12cf90822d"
+    },
     {
       "id": "news:kcna:c8465e4c050616e2beed5751",
       "title": "밀가공품의 질제고를 위한 품평회,기술교류 활발",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 165
+        "domestic": 166
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 166,
+        "domestic": 167,
         "social": 26
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 167
+        "domestic": 168
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 168
+        "domestic": 169
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-9367d8e6c5196cf6"
-    },
-    {
-      "id": "kcna-c457059f87799fc0",
-      "title": "전국당간부양성부문교원강습회 진행",
-      "date": "2026-08-21",
-      "snippet": "(평양 8월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c08d7dd1612ef24bb3fd7a8cc8e096f8",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 9,
-        "domestic": 169
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29982de2482c1e06f4ea65516948ae1bf1",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/62f7716734825a4405d320e07d985a05d73d00e5fcb09afc24fd3521a5763f67.jpg",
-      "detailUrl": "/news/document?id=kcna-c457059f87799fc0"
     }
   ]
 }

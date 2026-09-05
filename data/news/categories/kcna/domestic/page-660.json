@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 660,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:256e58ef1a4cec6527131e2f",
+      "title": "나라의 철도현대화를 힘있게 견인하는 굴지의 차량생산기지",
+      "date": "2025-11-09",
+      "snippet": "(평양 11월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/401b4e6e8d99bed8414a739960f50736",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3296
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A256e58ef1a4cec6527131e2f"
+    },
     {
       "id": "news:kcna:5db0f63602daf53646357ab2",
       "title": "우리 나라 외무상 싱가포르공화국 외무상에게 축전",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "foreign": 508,
-        "domestic": 3296
+        "domestic": 3297
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "foreign": 509,
-        "domestic": 3297
+        "domestic": 3298
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3298
+        "domestic": 3299
       },
       "featuredSections": [],
       "hasImage": true,
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3299
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7e50744f79db5544e29b445c"
-    },
-    {
-      "id": "news:kcna:6801c6368cc810ca79100f23",
-      "title": "각지에 교육지원프로그람중심이 일떠섰다",
-      "date": "2025-11-08",
-      "snippet": "(평양 11월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/10cdbbd4d23746aaa0b17b46421db98b",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3300
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6801c6368cc810ca79100f23"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7e50744f79db5544e29b445c"
     }
   ]
 }

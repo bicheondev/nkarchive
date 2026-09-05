@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 153,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:2d3e85df750db554cb5f27cf",
+      "title": "평안남도에서 120여명의 녀맹원들 경제건설의 주요전구로 진출",
+      "date": "2026-06-30",
+      "snippet": "(평양 6월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/749e1d68b68f20a31f798b9732da4615",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 760,
+        "social": 85
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2d3e85df750db554cb5f27cf"
+    },
     {
       "id": "news:kcna:bdb22696e1b5d2f28af71cac",
       "title": "전승의 7.27을 안아온 군사적기적들--락엽신세가 된 《하늘의 요새》",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 760
+        "domestic": 761
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 761
+        "domestic": 762
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 762
+        "domestic": 763
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 763
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4f1990e16fba9495021ea564"
-    },
-    {
-      "id": "news:kcna:5c24de8730b6d660b6d18ac1",
-      "title": "2026년 6월 29일 《로동신문》개관",
-      "date": "2026-06-29",
-      "snippet": "(평양 6월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8d462aef21e10227219e95ddb1ab9c3c",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 764
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5c24de8730b6d660b6d18ac1"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4f1990e16fba9495021ea564"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 783,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:0686f6e234578e6a19e5a65a",
+      "title": "평성시에서 교원재교육강습소 새로 건설",
+      "date": "2025-09-29",
+      "snippet": "(평양 9월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/df8480f123c591218e27df6c34c778b1",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3911
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0686f6e234578e6a19e5a65a"
+    },
     {
       "id": "news:kcna:7ab45d8200f45a9166ebbf30",
       "title": "인민에 대한 사랑을 전하는 룡악산샘물공장",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3911
+        "domestic": 3912
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3912
+        "domestic": 3913
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3913,
+        "domestic": 3914,
         "social": 631
       },
       "featuredSections": [],
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3914
+        "domestic": 3915
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A3fd65db002c8742f1a85a474"
-    },
-    {
-      "id": "news:kcna:fe3f34f4c18760183cb22557",
-      "title": "강남군 장교농장에서 새집들이 진행",
-      "date": "2025-09-29",
-      "snippet": "(평양 9월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ba5787a2e96c111461582003061439ff",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 3915,
-        "social": 632
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afe3f34f4c18760183cb22557"
     }
   ]
 }

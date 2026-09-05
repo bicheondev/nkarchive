@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 611,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:f2701dbfe09b6dc2a8bf297d",
+      "title": "박태성 내각총리 인민경제 여러 부문 사업 현지료해",
+      "date": "2025-12-02",
+      "snippet": "(평양 12월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/249464ec388bf68fa13a652f3ead139a",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 373,
+        "domestic": 3051
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f524cd17025d51802635c15d4c19d6dc14",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/a0eae42b25873c187fe4ab6b87645ea9b85b0e52cffe7f7092427ba1ad4e45f4.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af2701dbfe09b6dc2a8bf297d"
+    },
     {
       "id": "news:kcna:d3627e39545b4df703cd9b6c",
       "title": "조선로동당 중앙위원회가 전로씨야정당 《통일로씨야》 총리사회에 축전을 보내였다",
@@ -24,7 +46,7 @@
       ],
       "categoryOrders": {
         "foreign": 487,
-        "domestic": 3051
+        "domestic": 3052
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,7 +67,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3052,
+        "domestic": 3053,
         "social": 478
       },
       "featuredSections": [],
@@ -67,7 +89,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3053,
+        "domestic": 3054,
         "social": 479
       },
       "featuredSections": [],
@@ -88,28 +110,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3054
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2340faf423f86c5490eea316"
-    },
-    {
-      "id": "news:kcna:295d53723433da2357fde225",
-      "title": "라오스대사관 연회 마련",
-      "date": "2025-12-02",
-      "snippet": "(평양 12월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6047940aa9692c0707161783881cee95",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 488,
         "domestic": 3055
       },
       "featuredSections": [],
@@ -117,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A295d53723433da2357fde225"
+      "detailUrl": "/news/document?id=news%3Akcna%3A2340faf423f86c5490eea316"
     }
   ]
 }

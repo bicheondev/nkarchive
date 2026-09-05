@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 566,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:326a07e95025cb538d883444",
+      "title": "황해남도에서 태양빛발전소건설 추진",
+      "date": "2025-12-24",
+      "snippet": "(평양 12월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/14e6c8e46d88360dbc7df4a152aab790",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2826
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A326a07e95025cb538d883444"
+    },
     {
       "id": "news:kcna:22deabaeed7dd17c10dbfd00",
       "title": "2025년 12월 24일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2826
+        "domestic": 2827
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2827,
+        "domestic": 2828,
         "social": 431
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2828
+        "domestic": 2829
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2829
+        "domestic": 2830
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ffa9f3022732f91ee5fc071ae4323892c1",
       "cachedThumbnailUrl": "/data/news/assets/kcna/43a826cfc9ac6433d6d628d002d37b2f7d5fb6b8dfa5277cc66b385082343e01.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ac900725ab43a772447a8f8bd"
-    },
-    {
-      "id": "news:kcna:bb570bfcf8c23360663bc607",
-      "title": "각지 녀맹원들 석탄전선을 지원",
-      "date": "2025-12-24",
-      "snippet": "(평양 12월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0b1eb7aeb38473096363c2d36f7858bd",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2830,
-        "social": 432
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abb570bfcf8c23360663bc607"
     }
   ]
 }

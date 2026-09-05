@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 610,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:0bb50fdceab779e091587e0e",
+      "title": "남포시에서 논판양어를 위한 종어기지들을 건설",
+      "date": "2025-12-02",
+      "snippet": "(평양 12월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2d178cfd0eef5aa324dcc538524f8ca7",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3046
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0bb50fdceab779e091587e0e"
+    },
     {
       "id": "news:kcna:c26a941a1d3dc99514d41f9d",
       "title": "개성시의 세계문화유산들(3) 개성성",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3046
+        "domestic": 3047
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3047
+        "domestic": 3048
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       "categoryOrders": {
         "important": 371,
         "foreign": 485,
-        "domestic": 3048
+        "domestic": 3049
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,7 +110,7 @@
       "categoryOrders": {
         "important": 372,
         "foreign": 486,
-        "domestic": 3049
+        "domestic": 3050
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,28 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ad95a3070b16de8da400aa8b5"
-    },
-    {
-      "id": "news:kcna:f2701dbfe09b6dc2a8bf297d",
-      "title": "박태성 내각총리 인민경제 여러 부문 사업 현지료해",
-      "date": "2025-12-02",
-      "snippet": "(평양 12월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/249464ec388bf68fa13a652f3ead139a",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 373,
-        "domestic": 3050
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f524cd17025d51802635c15d4c19d6dc14",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/a0eae42b25873c187fe4ab6b87645ea9b85b0e52cffe7f7092427ba1ad4e45f4.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af2701dbfe09b6dc2a8bf297d"
     }
   ]
 }

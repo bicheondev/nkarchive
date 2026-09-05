@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 7,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:324296d7a126a0f6833a3993",
+      "title": "교육혁명의 불길속에 나라의 전반적교육토대 강화",
+      "date": "2026-09-02",
+      "snippet": "(평양 9월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ac40075e799870d4a985f34810ecc645",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 30
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A324296d7a126a0f6833a3993"
+    },
     {
       "id": "news:kcna:e7e9253c3a74288eeef3e784",
       "title": "수산부문의 여러 단위 수산자원을 증식시키기 위한 사업에서 성과 달성",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 30
+        "domestic": 31
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 31
+        "domestic": 32
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 32
+        "domestic": 33
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 33
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A83969e6273790c237b59d802"
-    },
-    {
-      "id": "news:kcna:89441df15abd8a489288d09b",
-      "title": "2026년 9월 2일 신문개관",
-      "date": "2026-09-02",
-      "snippet": "(평양 9월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9e89b20cc5986c9f62b3cf2b53c21c24",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 34
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A89441df15abd8a489288d09b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A83969e6273790c237b59d802"
     }
   ]
 }

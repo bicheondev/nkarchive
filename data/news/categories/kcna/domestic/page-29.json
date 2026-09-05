@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 29,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:82051241eb482acf0feac7c2",
+      "title": "평안북도에서 도건재종합공장을 새로 개건,생산능력 확장",
+      "date": "2026-08-24",
+      "snippet": "(평양 8월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/129615a751dfb0dabd8ce9b0cd133a00",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 140
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A82051241eb482acf0feac7c2"
+    },
     {
       "id": "news:kcna:442ce0f6edfa41318fb67428",
       "title": "새 지방공업공장들의 제품가지수 장성,주민들의 생활향상에 기여",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 140
+        "domestic": 141
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 141,
+        "domestic": 142,
         "social": 18
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 142
+        "domestic": 143
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 143
+        "domestic": 144
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A9e7fe1d72d5499b209f0e43f"
-    },
-    {
-      "id": "news:kcna:1f81e732bced28d06de090cb",
-      "title": "평안남도에서 농촌청년작업반,청년분조들을 도와주기 위한 사업 진행",
-      "date": "2026-08-23",
-      "snippet": "(평양 8월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e99049f80cfe93842104437bfecc009c",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 144,
-        "social": 19
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1f81e732bced28d06de090cb"
     }
   ]
 }

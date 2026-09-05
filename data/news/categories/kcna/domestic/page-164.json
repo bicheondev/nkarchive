@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 164,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:f15cf3e9de667e92f45097e9",
+      "title": "계급교양주제 미술전시회 개막",
+      "date": "2026-06-24",
+      "snippet": "(평양 6월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/af0535fdb8a785421ce256f89e46d371",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 815
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e372aa154046808f52b982b49755ca03e9",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/5715958f972e0941e299a075c1e7c7448a89b094b087af15713fded09085efd5.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af15cf3e9de667e92f45097e9"
+    },
     {
       "id": "news:kcna:22d6dd5f0995cbfffeb6e2b2",
       "title": "로동계급과 직맹원들의 복수결의모임 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 815
+        "domestic": 816
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 816
+        "domestic": 817
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 817
+        "domestic": 818
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 818
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab54389376e16047cbe3356a0"
-    },
-    {
-      "id": "news:kcna:bc4a946a15901cbecea17fa7",
-      "title": "주체조선의 존엄과 위상을 떨쳐가는 체육인들",
-      "date": "2026-06-23",
-      "snippet": "(평양 6월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/51a2436fd52078a5b151ed02a797f24c",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 819
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abc4a946a15901cbecea17fa7"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab54389376e16047cbe3356a0"
     }
   ]
 }

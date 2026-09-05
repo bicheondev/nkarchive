@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 621,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:368711cabde28ba286ee4ff6",
+      "title": "밀가공품의 질을 개선할수 있는 첨가제생산공정 확립",
+      "date": "2025-11-27",
+      "snippet": "(평양 11월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/22e413168a8d60ed4ccf356d43cc2d59",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3101
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A368711cabde28ba286ee4ff6"
+    },
     {
       "id": "news:kcna:01e322af6dde7770cb1942e4",
       "title": "개성시의 세계문화유산들(1) 왕건왕릉",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3101
+        "domestic": 3102
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3102
+        "domestic": 3103
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "foreign": 490,
-        "domestic": 3103
+        "domestic": 3104
       },
       "featuredSections": [],
       "hasImage": true,
@@ -85,7 +105,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3104,
+        "domestic": 3105,
         "social": 488
       },
       "featuredSections": [],
@@ -94,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac4db353cac0ade07f239a26e398e20983",
       "cachedThumbnailUrl": "/data/news/assets/kcna/c25435529a576f333d1ea8f487bc94512513b058715889a2355e19c12f5475a6.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A6fb23e591e222c63055a72ef"
-    },
-    {
-      "id": "news:kcna:ebfc4109700c08d61be3aafb",
-      "title": "각지 공장,기업소들에서 설비관리를 개선하여 단위발전과 생산장성 이룩",
-      "date": "2025-11-27",
-      "snippet": "(평양 11월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/157cafa531cd87928769311079404375",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3105
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aebfc4109700c08d61be3aafb"
     }
   ]
 }

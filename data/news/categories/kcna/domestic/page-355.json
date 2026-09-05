@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 355,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:9550bf0c40c3dc3c95cb1da6",
+      "title": "전국의 대학,학교들에서 2026년 새 학년도 시작,개학모임 진행",
+      "date": "2026-04-02",
+      "snippet": "(평양 4월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/377447c700808ebab6fd3481736ddd97",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1770
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/e257504411348c523ea5c40091bc767893272d01b21b045a263fd01be123bddd",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/cf017dbec187310075ab8b6583b1b321387bc812919674211fccee4d7403d723.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9550bf0c40c3dc3c95cb1da6"
+    },
     {
       "id": "news:kcna:213bdf16fa59d90d9bef0b31",
       "title": "2025년 인민경제계획을 모범적으로 수행한 천성청년탄광에 공동순회우승기와 표창장 수여",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1770
+        "domestic": 1771
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1771
+        "domestic": 1772
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1772
+        "domestic": 1773
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1773,
+        "domestic": 1774,
         "social": 189
       },
       "featuredSections": [],
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A48f61b123723303d4f44d9c9"
-    },
-    {
-      "id": "news:kcna:875cfeba62f9c0a827c0c4c3",
-      "title": "평안북도 정주시의 백살장수자가 은정어린 생일상을 받아안았다",
-      "date": "2026-04-02",
-      "snippet": "(평양 4월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/94eb029df48873f68cdf4334792ecf03",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 1774,
-        "social": 190
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A875cfeba62f9c0a827c0c4c3"
     }
   ]
 }

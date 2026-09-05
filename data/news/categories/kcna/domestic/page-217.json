@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 217,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:ba48efe18366eb46a3b59829",
+      "title": "창전거리에 새겨진 위민헌신의 자욱",
+      "date": "2026-05-30",
+      "snippet": "(평양 5월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/628b111452e832c685528aaa4ae1241f",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1080
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aba48efe18366eb46a3b59829"
+    },
     {
       "id": "news:kcna:3843dcba7d322e9009d3f942",
       "title": "량강도의 지방공업공장들에서 제품의 가지수 확대",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1080
+        "domestic": 1081
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1081
+        "domestic": 1082
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "foreign": 161,
-        "domestic": 1082
+        "domestic": 1083
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +106,7 @@
       ],
       "categoryOrders": {
         "foreign": 162,
-        "domestic": 1083
+        "domestic": 1084
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064f9fba795f60835134913652238bc06c6",
       "cachedThumbnailUrl": "/data/news/assets/kcna/d4137c47de45c5d7b65407ad7b4a987e739a6dcf6289100a7f796e0fac021607.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A883d0b90cabc4a01b9c3e527"
-    },
-    {
-      "id": "news:kcna:72dce7618161d8f6b7bcec07",
-      "title": "연풍호기슭에 일떠선 과학자궁전",
-      "date": "2026-05-29",
-      "snippet": "(평양 5월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8b1368a932a81883fd0dc62db1f78fe2",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1084
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A72dce7618161d8f6b7bcec07"
     }
   ]
 }

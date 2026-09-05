@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 445,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:6e0f357828d56098b6135116",
+      "title": "2026년 2월 20일 신문개관",
+      "date": "2026-02-20",
+      "snippet": "(평양 2월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/af6ec298ae05f32aca1324f68cbde17d",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2221
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6e0f357828d56098b6135116"
+    },
     {
       "id": "news:kcna:5719777e0114e71b139fc35c",
       "title": "조선로동당 제9차대회에 축기를 보내여왔다",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "international": 1496,
-        "domestic": 2221
+        "domestic": 2222
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,7 +65,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2222,
+        "domestic": 2223,
         "social": 282
       },
       "featuredSections": [],
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2223
+        "domestic": 2224
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2224
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab4b988e118726875754382ef"
-    },
-    {
-      "id": "news:kcna:6e9fe88cacfb8d8200175e46",
-      "title": "각지 수산단위들에서 생산성과 확대",
-      "date": "2026-02-20",
-      "snippet": "(평양 2월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2969077e6cbb49db12633608a1499713",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2225
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6e9fe88cacfb8d8200175e46"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab4b988e118726875754382ef"
     }
   ]
 }

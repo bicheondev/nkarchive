@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 784,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:fe3f34f4c18760183cb22557",
+      "title": "강남군 장교농장에서 새집들이 진행",
+      "date": "2025-09-29",
+      "snippet": "(평양 9월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ba5787a2e96c111461582003061439ff",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 3916,
+        "social": 632
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afe3f34f4c18760183cb22557"
+    },
     {
       "id": "news:kcna:62b8ea41ecd520841b3b0d61",
       "title": "평안북도간석지건설종합기업소에서 애도간석지 1구역공사 진척",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3916
+        "domestic": 3917
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3917
+        "domestic": 3918
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3918
+        "domestic": 3919
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +108,7 @@
       "categoryOrders": {
         "important": 476,
         "foreign": 714,
-        "domestic": 3919
+        "domestic": 3920
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,26 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/3d3755d837f6dc968fa55dbecad26d2252276537b2679b9ad18ed0354805b39e",
       "cachedThumbnailUrl": "/data/news/assets/kcna/30b6b13531d2933c08092c37992b3ed12340beaddf4152d2783563297cc9ab19.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Adcced8931ee03d68f0f3829e"
-    },
-    {
-      "id": "news:kcna:3525449ec600216530c17daf",
-      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상을 찾아 총련조선대학교 졸업학년학생조국방문단 경모의 정 표시",
-      "date": "2025-09-28",
-      "snippet": "(평양 9월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7c6c16f63f22754d162fb798fb349eff",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3920
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/3d3755d837f6dc968fa55dbecad26d22d3986024df47443ef0e15cfa5e1f2f40",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/541eb9b1322a43fbce3fdc34fa5d935ecf3851569fb2f40848d8bc5a20380c1b.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3525449ec600216530c17daf"
     }
   ]
 }

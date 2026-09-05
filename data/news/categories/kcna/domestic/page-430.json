@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 430,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:5ec1542cec2a0a4fc76d618f",
+      "title": "조선로동당 제9차대회 참가자들 정치문화사업 진행",
+      "date": "2026-02-28",
+      "snippet": "(평양 2월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/63a49b6e1ea7c084a5d85bb0cdb36912",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2146
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/67d9946ed8d7f8ce0dc8324543af2bb0fbfeedd980b62ff9e9d7af1579fe662a",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/93085d6a564e07549b6b648eaa604c9d3aa3b68f8e40f503b54d69a921241544.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5ec1542cec2a0a4fc76d618f"
+    },
     {
       "id": "news:kcna:583aab30ebac48d6dd3cd0a0",
       "title": "조선로동당 제9차대회 기념행사에 초대된 특별손님들을 위한 연회 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2146
+        "domestic": 2147
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2147
+        "domestic": 2148
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "important": 263,
-        "domestic": 2148
+        "domestic": 2149
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2149
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac9e65c3d770173392ab1b443"
-    },
-    {
-      "id": "news:kcna:2c7f51976dc603047ee230ed",
-      "title": "우리 혁명사에 분수령으로 빛나는 당대회들--조선로동당 제8차대회",
-      "date": "2026-02-27",
-      "snippet": "(평양 2월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b5f5ace7913d2a08b4320adc0f6daea3",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2150
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2c7f51976dc603047ee230ed"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac9e65c3d770173392ab1b443"
     }
   ]
 }

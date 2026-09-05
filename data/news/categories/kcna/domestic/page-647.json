@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 647,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:99b945239d571682bd1b2cac",
+      "title": "조선민주주의인민공화국 최선희 외무상 담화 발표",
+      "date": "2025-11-14",
+      "snippet": "(평양 11월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f208f844cfc920841e4d27500f560079",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 377,
+        "international": 2191,
+        "domestic": 3231
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A99b945239d571682bd1b2cac"
+    },
     {
       "id": "news:kcna:ca6882e1ac3b8a38a0431c6b",
       "title": "라오스인민민주주의공화국 외무상 금수산태양궁전을 찾아 경의 표시",
@@ -26,7 +50,7 @@
       "categoryOrders": {
         "important": 378,
         "foreign": 494,
-        "domestic": 3231
+        "domestic": 3232
       },
       "featuredSections": [],
       "hasImage": true,
@@ -50,7 +74,7 @@
       "categoryOrders": {
         "important": 379,
         "foreign": 495,
-        "domestic": 3232
+        "domestic": 3233
       },
       "featuredSections": [],
       "hasImage": true,
@@ -72,7 +96,7 @@
       ],
       "categoryOrders": {
         "foreign": 496,
-        "domestic": 3233
+        "domestic": 3234
       },
       "featuredSections": [],
       "hasImage": true,
@@ -93,7 +117,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3234,
+        "domestic": 3235,
         "social": 521
       },
       "featuredSections": [],
@@ -102,26 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A1d2a1a7a7d08e13cb814ea9a"
-    },
-    {
-      "id": "news:kcna:417f2eeeb8e402fac37520cd",
-      "title": "각지에서 새로 일떠서는 지방공업공장들의 운영준비사업 추진",
-      "date": "2025-11-14",
-      "snippet": "(평양 11월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/63d11111b61c4f997c197fdba93952e6",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3235
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A417f2eeeb8e402fac37520cd"
     }
   ]
 }

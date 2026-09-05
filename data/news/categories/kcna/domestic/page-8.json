@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 8,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:89441df15abd8a489288d09b",
+      "title": "2026년 9월 2일 신문개관",
+      "date": "2026-09-02",
+      "snippet": "(평양 9월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9e89b20cc5986c9f62b3cf2b53c21c24",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 35
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A89441df15abd8a489288d09b"
+    },
     {
       "id": "news:kcna:9e270dc13b47f12c3c7e118a",
       "title": "함경북도 김책시의 백살장수자가 은정어린 생일상을 받아안았다",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 35,
+        "domestic": 36,
         "social": 1
       },
       "featuredSections": [
@@ -50,7 +70,7 @@
       "categoryOrders": {
         "important": 2,
         "foreign": 4,
-        "domestic": 36
+        "domestic": 37
       },
       "featuredSections": [
         "important",
@@ -73,7 +93,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 37
+        "domestic": 38
       },
       "featuredSections": [],
       "hasImage": true,
@@ -93,7 +113,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 38
+        "domestic": 39
       },
       "featuredSections": [],
       "hasImage": false,
@@ -101,30 +121,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A084a3099b641551521934a10"
-    },
-    {
-      "id": "news:kcna:a1342f9a4892536961c53bfe",
-      "title": "각급 녀맹조직들에서 석탄공업부문 로동계급을 지원",
-      "date": "2026-09-02",
-      "snippet": "(평양 9월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/12b7e33eaab593fddcbf3a7b7a0f3f77",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 39,
-        "social": 2
-      },
-      "featuredSections": [
-        "social"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa1342f9a4892536961c53bfe"
     }
   ]
 }

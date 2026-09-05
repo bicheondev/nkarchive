@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 135,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:60edf0db9fda8166558f63d0",
+      "title": "평양건설장비공장에서 새 제품들을 창안제작",
+      "date": "2026-07-08",
+      "snippet": "(평양 7월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/00ff714e65cd642296174da67a2d058d",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 670
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A60edf0db9fda8166558f63d0"
+    },
     {
       "id": "news:kcna:3e5777c7d60d0d8cce1e8f1b",
       "title": "절세위인의 한평생에 관통되여있는 정치신조",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 670
+        "domestic": 671
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 671
+        "domestic": 672
       },
       "featuredSections": [],
       "hasImage": true,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "foreign": 117,
-        "domestic": 672
+        "domestic": 673
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 673
+        "domestic": 674
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d3ed28ef37c9009e1e6add376cdf36958",
       "cachedThumbnailUrl": "/data/news/assets/kcna/08e5f0a0c2addb2f5fd59936acf9c72d3609b63b142a3e9234d483ffc58e573d.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A6dcb5af37d603a094deb2b61"
-    },
-    {
-      "id": "news:kcna:2c15c99e18de8842958a4700",
-      "title": "남포시의 청년들 사회주의건설의 주요전구들로 탄원",
-      "date": "2026-07-07",
-      "snippet": "(평양 7월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/98f2c7baf654b431d7cf2fef34419217",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 674,
-        "social": 78
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2c15c99e18de8842958a4700"
     }
   ]
 }

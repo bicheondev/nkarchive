@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 634,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:c2e6850219dcaabfe5eb2741",
+      "title": "대동강과수종합농장에서 올해 과일생산계획 넘쳐 수행",
+      "date": "2025-11-20",
+      "snippet": "(평양 11월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/db0dd928d2caef2804313abdf266cf93",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3166
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac2e6850219dcaabfe5eb2741"
+    },
     {
       "id": "news:kcna:195df9f8ad852802925d0f29",
       "title": "각지에서 가을철나무심기 활발",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3166
+        "domestic": 3167
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3167
+        "domestic": 3168
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3168
+        "domestic": 3169
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3169
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac469d328eb69781e0645193b"
-    },
-    {
-      "id": "news:kcna:545ac302f2f0ebe95187a964",
-      "title": "황해북도에서 지방발전정책실행을 위한 경제림면적 확장",
-      "date": "2025-11-20",
-      "snippet": "(평양 11월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5f3b979d0d1fff9056569b5771b90b68",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3170
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A545ac302f2f0ebe95187a964"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac469d328eb69781e0645193b"
     }
   ]
 }

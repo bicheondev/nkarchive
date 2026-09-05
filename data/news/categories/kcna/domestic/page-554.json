@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 554,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:e5e6bc33662969e72a967a7b",
+      "title": "혁명무력강화의 최전성기를 펼쳐가시는 천출명장",
+      "date": "2025-12-30",
+      "snippet": "(평양 12월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/98d15e36308a28bf618b202d01a6474c",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2766
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae5e6bc33662969e72a967a7b"
+    },
     {
       "id": "news:kcna:4cc23e4bbe010bf8058c6148",
       "title": "2025년 12월 30일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2766
+        "domestic": 2767
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +66,7 @@
       "categoryOrders": {
         "important": 348,
         "foreign": 448,
-        "domestic": 2767
+        "domestic": 2768
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,7 +88,7 @@
       ],
       "categoryOrders": {
         "foreign": 449,
-        "domestic": 2768
+        "domestic": 2769
       },
       "featuredSections": [],
       "hasImage": true,
@@ -88,26 +108,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2769
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad2fab8679e7d2e7dcf71ab3d"
-    },
-    {
-      "id": "news:kcna:62e2ae2ee2d3f6e8d9425066",
-      "title": "로동계급과 직맹원들의 경축모임 진행",
-      "date": "2025-12-30",
-      "snippet": "(평양 12월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/bdad9a08e946cc924d7766399e76d959",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2770
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A62e2ae2ee2d3f6e8d9425066"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad2fab8679e7d2e7dcf71ab3d"
     }
   ]
 }

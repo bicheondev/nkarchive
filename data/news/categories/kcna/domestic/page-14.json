@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 14,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:a76f097a82bd3e10ac0ed8f3",
+      "title": "각지 농촌들에서 가을걷이와 낟알털기준비사업 추진",
+      "date": "2026-08-30",
+      "snippet": "(평양 8월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5caf8f8574817b249d09ad4581735929",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 65
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa76f097a82bd3e10ac0ed8f3"
+    },
     {
       "id": "news:kcna:d5c495fb89a02eb44b021e08",
       "title": "전국청년학생들의 남자배구결승경기 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 65
+        "domestic": 66
       },
       "featuredSections": [],
       "hasImage": true,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 66,
+        "domestic": 67,
         "social": 5
       },
       "featuredSections": [],
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 67,
+        "domestic": 68,
         "social": 6
       },
       "featuredSections": [],
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 68
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A421c268bd24928020ec92aa3"
-    },
-    {
-      "id": "news:kcna:d7ba82344c45a4061e61def7",
-      "title": "홰불컵축구경기 결속",
-      "date": "2026-08-29",
-      "snippet": "(평양 8월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/06f4b39beb297ca1023bfd4755fbba53",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 69
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad7ba82344c45a4061e61def7"
+      "detailUrl": "/news/document?id=news%3Akcna%3A421c268bd24928020ec92aa3"
     }
   ]
 }

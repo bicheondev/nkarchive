@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 331,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:05d6bc33bdfceb44eb3042e2",
+      "title": "밀,보리농사에서 은을 내고있는 관개체계",
+      "date": "2026-04-11",
+      "snippet": "(평양 4월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ac990a526200156077c53c676b75f842",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1650
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A05d6bc33bdfceb44eb3042e2"
+    },
     {
       "id": "news:kcna:dceeb61670e1b36ccba97663",
       "title": "2026년 4월 11일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1650
+        "domestic": 1651
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +66,7 @@
       "categoryOrders": {
         "important": 171,
         "foreign": 265,
-        "domestic": 1651
+        "domestic": 1652
       },
       "featuredSections": [],
       "hasImage": true,
@@ -70,7 +90,7 @@
       "categoryOrders": {
         "important": 172,
         "foreign": 266,
-        "domestic": 1652
+        "domestic": 1653
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,7 +110,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1653
+        "domestic": 1654
       },
       "featuredSections": [],
       "hasImage": true,
@@ -98,26 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b668ba59df4de3c716a441ef9f8433c0f96",
       "cachedThumbnailUrl": "/data/news/assets/kcna/16a6c352db9e70beeb33b380c65824dcd7b36b9ceb1828507ad66a908760ab83.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A417dca939a1c224c9b8008f8"
-    },
-    {
-      "id": "news:kcna:105212fd9f8e35ada8cc07a4",
-      "title": "모범적인 단위들에 3대혁명붉은기 수여",
-      "date": "2026-04-11",
-      "snippet": "(평양 4월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f1df1ea83d9ec3fa420b9aae0e83e207",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1654
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A105212fd9f8e35ada8cc07a4"
     }
   ]
 }

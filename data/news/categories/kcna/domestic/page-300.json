@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 300,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:3cc5cd9bfd66d310b623bc8e",
+      "title": "화학공업부문에서 제품생산장성을 위한 과학기술적대책 강구",
+      "date": "2026-04-23",
+      "snippet": "(평양 4월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/30517c55dd2d9f027b386fe411e1bd16",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1495
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3cc5cd9bfd66d310b623bc8e"
+    },
     {
       "id": "news:kcna:c1a6586ee304f9f934684912",
       "title": "아름다운 모란봉의 봄풍경",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1495
+        "domestic": 1496
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1496
+        "domestic": 1497
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       "categoryOrders": {
         "important": 147,
         "foreign": 229,
-        "domestic": 1497
+        "domestic": 1498
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,7 +110,7 @@
       "categoryOrders": {
         "important": 148,
         "foreign": 230,
-        "domestic": 1498
+        "domestic": 1499
       },
       "featuredSections": [],
       "hasImage": true,
@@ -98,30 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66b60955e4d19b56a1640d85d034f786ba",
       "cachedThumbnailUrl": "/data/news/assets/kcna/ee85e828a7fcd9d7a8a4a72ce60e0541a661835d5cef0d000549ca90a9641602.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Af304610544d40d35aaac26ae"
-    },
-    {
-      "id": "news:kcna:be6c078e1ba6722f139b3791",
-      "title": "조로국경자동차다리련결작업 진행",
-      "date": "2026-04-23",
-      "snippet": "(평양 4월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/849708c5dd4bbcd9cc8551c1369fcbc3",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 149,
-        "foreign": 231,
-        "domestic": 1499
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b666351dea0e1a05cbb0dfc6f29ac387b11",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/91f90ce14c79ced6f7d20fa7394df973cf656ec09b557fb4993b2aa7db3e5db3.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abe6c078e1ba6722f139b3791"
     }
   ]
 }

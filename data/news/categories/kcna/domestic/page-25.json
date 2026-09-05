@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 25,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:b892ecbad36e3e08be27f60e",
+      "title": "이동치료교육대활동 강화",
+      "date": "2026-08-26",
+      "snippet": "(평양 8월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/50988ab1b2620897316a2fb1587cb4cc",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 120
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab892ecbad36e3e08be27f60e"
+    },
     {
       "id": "news:kcna:7cc0b32c5ff5f88e87ad8912",
       "title": "개성시안의 농촌들에서 풀베기성과 확대",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 120
+        "domestic": 121
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 121,
+        "domestic": 122,
         "social": 16
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 122
+        "domestic": 123
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 123
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0c858a343a518d0bf7f6a641"
-    },
-    {
-      "id": "news:kcna:13f29cda60a7341d51db18d8",
-      "title": "교육실험기구 및 교편물,교육지원프로그람전시회,교육지원전시회 개막",
-      "date": "2026-08-25",
-      "snippet": "(평양 8월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2c267d7ab62ae38b7bc3bfb7568457b2",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 124
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A13f29cda60a7341d51db18d8"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0c858a343a518d0bf7f6a641"
     }
   ]
 }

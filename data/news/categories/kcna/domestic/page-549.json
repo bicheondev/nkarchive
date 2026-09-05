@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 549,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:525957f079824e0c7414d5da",
+      "title": "철령타일공장과 원산건재공장 준공",
+      "date": "2026-01-01",
+      "snippet": "(평양 1월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/41ab2ed97e63c746a9347a6fdfa7cf39",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2741
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A525957f079824e0c7414d5da"
+    },
     {
       "id": "news:kcna:d788736ec1a30083f51c41d4",
       "title": "평양시중심부의 야외빙상장 운영 시작",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2741,
+        "domestic": 2742,
         "social": 418
       },
       "featuredSections": [],
@@ -45,7 +65,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2742,
+        "domestic": 2743,
         "social": 419
       },
       "featuredSections": [],
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2743
+        "domestic": 2744
       },
       "featuredSections": [],
       "hasImage": false,
@@ -87,7 +107,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2744,
+        "domestic": 2745,
         "social": 420
       },
       "featuredSections": [],
@@ -96,28 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451d7a0c4f584aa255c0081b98af5a1de6c",
       "cachedThumbnailUrl": "/data/news/assets/kcna/879694c728cffedf8281ac209c088311abe8d90ea68f26dbacf2666a23374358.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A7c023cdea16467162bea04ef"
-    },
-    {
-      "id": "news:kcna:08024570777c65606d482c85",
-      "title": "교육자의 삶을 끝없이 빛내여주는 크나큰 사랑",
-      "date": "2026-01-01",
-      "snippet": "(평양 1월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/cd71c397aec008f1f5836e4a370a3a57",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 336,
-        "domestic": 2745
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A08024570777c65606d482c85"
     }
   ]
 }

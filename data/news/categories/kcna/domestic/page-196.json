@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 196,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:11588349980ed3bfb3b352d9",
+      "title": "2026년 6월 8일 신문개관",
+      "date": "2026-06-08",
+      "snippet": "(평양 6월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/903e31226129986cf0e019a26e22ce9a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 975
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A11588349980ed3bfb3b352d9"
+    },
     {
       "id": "news:kcna:6e0918dd38b9052d11a9c70a",
       "title": "조선소년단창립 80돐 기념행사참가자들의 생일축하모임 진행",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 975,
+        "domestic": 976,
         "social": 101
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 976
+        "domestic": 977
       },
       "featuredSections": [],
       "hasImage": true,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 977
+        "domestic": 978
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 978
+        "domestic": 979
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,26 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e30f7cd0ada0daea4c23c4c7833baec6c6",
       "cachedThumbnailUrl": "/data/news/assets/kcna/032724c8f6c7866d726dfa1be95b169316617f0d7190c197626756bd1617d9b4.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Add14381aae7d05dc63ce5e87"
-    },
-    {
-      "id": "news:kcna:9655faea3693908dfaabf3be",
-      "title": "산 물고기료리로 소문난 수도의 급양봉사기지",
-      "date": "2026-06-08",
-      "snippet": "(평양 6월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8f6136d7b306b2e887814fb5cffdf76a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 979
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e32d25b8415f0e26c005b7462a50f102c0",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/06482e8bea246fc2528fcca2011ea0694582d2ed0070409cbcaa9271df76bc78.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9655faea3693908dfaabf3be"
     }
   ]
 }

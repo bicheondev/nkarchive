@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 106,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:16ec924583d7e0abc41ec3b9",
+      "title": "올해에 들어와 90여명의 모범로동자영예상수상자 배출",
+      "date": "2026-07-19",
+      "snippet": "(평양 7월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/70c1c5142758951a4edfd357696d2cb3",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 525,
+        "social": 64
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A16ec924583d7e0abc41ec3b9"
+    },
     {
       "id": "news:kcna:c6fb44ab64619f7273021d2c",
       "title": "황해북도의 농촌들에서 장마철습해와 고온피해를 최소화하기 위한 대책 강구",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 525
+        "domestic": 526
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 526
+        "domestic": 527
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 527
+        "domestic": 528
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +108,7 @@
       "categoryOrders": {
         "important": 49,
         "foreign": 72,
-        "domestic": 528
+        "domestic": 529
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,28 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A6d383b56c283965b46a334ca"
-    },
-    {
-      "id": "news:kcna:5522be22925e91b822657037",
-      "title": "벨라루씨공산당대표단 만경대 방문,여러곳 참관",
-      "date": "2026-07-19",
-      "snippet": "(평양 7월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e3627705b5d140582287618f1fce2c07",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 73,
-        "domestic": 529
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dfd4607f1d5f241604609a9c02f652521",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/359e0068df22447ad9cb8d51aa302b966ad2d25491a326863cb6943464cf77a3.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5522be22925e91b822657037"
     }
   ]
 }

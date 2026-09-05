@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 10,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:a8dd3d15ef26ee0023c5c97e",
+      "title": "화성지구의 이채로운 경관-못가공원",
+      "date": "2026-09-01",
+      "snippet": "(평양 9월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1f2a3d751347dd0da3f2cc19f71308c3",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 45
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba78e91015829576d610d22c1eaafe48c2",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/6dff05d3ce28e2bf04422b4a5ad900ac9a01ba3f5f8b998ff8fd37e9b62141b9.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa8dd3d15ef26ee0023c5c97e"
+    },
     {
       "id": "news:kcna:43da9e058f14dbb2ab1ff10c",
       "title": "전국의 170여개 시,군농업기술학원들에서 수만명의 농업근로자들이 공부",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 45
+        "domestic": 46
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 46
+        "domestic": 47
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 47
+        "domestic": 48
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 48
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7f16a3dd72515a5bb948130c"
-    },
-    {
-      "id": "news:kcna:0b1c496a8e6017fa423471f0",
-      "title": "평양화력발전소에서 지난해보다 전력생산 1.1배이상 증가,매월 많은 석탄 절약",
-      "date": "2026-08-31",
-      "snippet": "(평양 8월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4a10433f4ae692563deaf10fe542982c",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 49
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0b1c496a8e6017fa423471f0"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7f16a3dd72515a5bb948130c"
     }
   ]
 }

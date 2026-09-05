@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 451,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:2d05bf0fc3ca4df8a6465ba1",
+      "title": "조선로동당 제9차대회 대표자들 혁명의 수도 평양에 도착",
+      "date": "2026-02-17",
+      "snippet": "(평양 2월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ebb0948955d5836b90dd67f3f6d765ad",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2251
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf36627db0836a9c8bb36d9be0365cbb7b922",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/163c1df2030b68149ad23d2bece4069594befddebfbf26c4f3af04789009ec65.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2d05bf0fc3ca4df8a6465ba1"
+    },
     {
       "id": "news:kcna:2f8e35c4486c7ce0cdb1cb83",
       "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 니까라과공화국 특명전권대사 꽃바구니 진정",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "foreign": 390,
-        "domestic": 2251
+        "domestic": 2252
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2252
+        "domestic": 2253
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2253
+        "domestic": 2254
       },
       "featuredSections": [],
       "hasImage": true,
@@ -86,7 +106,7 @@
       ],
       "categoryOrders": {
         "important": 295,
-        "domestic": 2254
+        "domestic": 2255
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,28 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366037f07a06d12ecdc8140a0add5a6d3e8",
       "cachedThumbnailUrl": "/data/news/assets/kcna/a68a4ff5627d98e6faac45dca89a29db8a0777c95e378034e38fbb4618fd24f9.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Aeac266d9c8e3210deb6192ed"
-    },
-    {
-      "id": "news:kcna:73bcb38e82be2d8af31903cf",
-      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 일군들과 근로자들,인민군장병들,청소년학생들 꽃바구니 진정",
-      "date": "2026-02-17",
-      "snippet": "(평양 2월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2b71774ba2b09ae68eac9691dcac52aa",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2255,
-        "social": 290
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366a9f3022732f91ee5fc071ae4323892c1",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/e870cd1676c038daee515f8f0b0c26081575dca82160ca8ee29a2be45013a04d.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A73bcb38e82be2d8af31903cf"
     }
   ]
 }

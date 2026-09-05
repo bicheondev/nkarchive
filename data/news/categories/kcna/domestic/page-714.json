@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 714,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:701cc8d0830487335e2ec0e0",
+      "title": "제23차 태권도세계선수권대회에서 우승한 우리 체육인들 귀국",
+      "date": "2025-10-19",
+      "snippet": "(평양 10월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8025bce28e0c9c3f476f1f2113d10536",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3566
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c1297ff0b5eaefdea5489d0969ec207bf4c",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/3b4df496f615e6b09d6993ae7f1374a93d8be51e7000117dc7e1b5bf06e12ae9.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A701cc8d0830487335e2ec0e0"
+    },
     {
       "id": "news:kcna:bf5dfb90e91246f81912e74f",
       "title": "량강도 백암군 증산리,양곡리에서 새집들이 진행",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3566,
+        "domestic": 3567,
         "social": 585
       },
       "featuredSections": [],
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "foreign": 562,
-        "domestic": 3567
+        "domestic": 3568
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,7 +87,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3568,
+        "domestic": 3569,
         "social": 586
       },
       "featuredSections": [],
@@ -88,26 +108,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3569
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aad33f2f600c45d9214e36a2d"
-    },
-    {
-      "id": "news:kcna:caf0be7285457ac8b742311f",
-      "title": "방직공업부문에서 설비들의 성능제고로 제품의 질 개선",
-      "date": "2025-10-19",
-      "snippet": "(평양 10월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6a05ef7d7102fa8b91d8e60eaebf99ab",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3570
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acaf0be7285457ac8b742311f"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aad33f2f600c45d9214e36a2d"
     }
   ]
 }

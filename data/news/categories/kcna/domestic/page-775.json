@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 775,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:e2999a0ba3f52d3b3cb85301",
+      "title": "김일성종합대학에서 우리 식의 첨단분석설비 새로 연구도입",
+      "date": "2025-10-02",
+      "snippet": "(평양 10월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/954948b0484b59f54c34a43471cdc894",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3871
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae2999a0ba3f52d3b3cb85301"
+    },
     {
       "id": "news:kcna:14dd44b2915b6ea16c7660aa",
       "title": "2025년 10월 2일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3871
+        "domestic": 3872
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +66,7 @@
       "categoryOrders": {
         "important": 469,
         "foreign": 704,
-        "domestic": 3872
+        "domestic": 3873
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3873
+        "domestic": 3874
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,28 +108,6 @@
       ],
       "categoryOrders": {
         "foreign": 706,
-        "domestic": 3874
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afc61cf161126fd4dcbab6678"
-    },
-    {
-      "id": "news:kcna:c69e6576858dc9241674649b",
-      "title": "우리 나라 외무상 타이왕국 외무상에게 축전",
-      "date": "2025-10-02",
-      "snippet": "(평양 10월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/cb9beaeb7a6c8c0bfb9f7181c63357fe",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 707,
         "domestic": 3875
       },
       "featuredSections": [],
@@ -117,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac69e6576858dc9241674649b"
+      "detailUrl": "/news/document?id=news%3Akcna%3Afc61cf161126fd4dcbab6678"
     }
   ]
 }

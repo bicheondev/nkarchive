@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 489,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:c257356322c73695b09836bc",
+      "title": "황해북도 승호군 만달남새농장과 평산군 와현농장에 새집들이 일떠섰다",
+      "date": "2026-01-31",
+      "snippet": "(평양 1월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/38336880bc09a417759746bc9bb38cab",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2441,
+        "social": 326
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451619a57796e220f84db1e6f2db8a570dc",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/ad9c88e49e580d40e376cb4cb2ee04314403199043768ef8264745e950707f30.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac257356322c73695b09836bc"
+    },
     {
       "id": "news:kcna:198aedd59f09bc054ddd45d2",
       "title": "새로 개건된 계응상사리원농업대학 준공식 진행",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2441
+        "domestic": 2442
       },
       "featuredSections": [],
       "hasImage": true,
@@ -43,7 +65,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2442,
+        "domestic": 2443,
         "social": 327
       },
       "featuredSections": [],
@@ -64,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2443
+        "domestic": 2444
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2444
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9add7d188813aef4acb0b5a7"
-    },
-    {
-      "id": "news:kcna:56a07488371083b9c111c654",
-      "title": "제3차 2.16경축 인민예술축전이 진행된다",
-      "date": "2026-01-31",
-      "snippet": "(평양 1월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2e49baa533ff1aa92c5c3879895ebc55",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2445
       },
       "featuredSections": [],
@@ -111,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A56a07488371083b9c111c654"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9add7d188813aef4acb0b5a7"
     }
   ]
 }

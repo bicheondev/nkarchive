@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 774,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:b3b2f87f89bfe45892085ab1",
+      "title": "조선로동당창건 80돐경축 국가미술전람회 개막",
+      "date": "2025-10-03",
+      "snippet": "(평양 10월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a6d50c98f2cdead568d4801e4d21140a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3866
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb24cd17025d51802635c15d4c19d6dc14",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/9b5f67c82a406ab90fe3da57def4c1ad44a17e988f370c66bd3537c9865e9c12.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab3b2f87f89bfe45892085ab1"
+    },
     {
       "id": "news:kcna:6a90787ba4425a357d5650a3",
       "title": "황해북도 승호군 광정농장과 만달남새농장에 펼쳐진 새집들이경사",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3866,
+        "domestic": 3867,
         "social": 619
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3867
+        "domestic": 3868
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       ],
       "categoryOrders": {
         "important": 468,
-        "domestic": 3868
+        "domestic": 3869
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3869
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9b3ed82c2a5403a99c4001c2"
-    },
-    {
-      "id": "news:kcna:e2999a0ba3f52d3b3cb85301",
-      "title": "김일성종합대학에서 우리 식의 첨단분석설비 새로 연구도입",
-      "date": "2025-10-02",
-      "snippet": "(평양 10월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/954948b0484b59f54c34a43471cdc894",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3870
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae2999a0ba3f52d3b3cb85301"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9b3ed82c2a5403a99c4001c2"
     }
   ]
 }

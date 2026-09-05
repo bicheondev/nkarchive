@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 779,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:1aaa0ff53f52ba7adf31af75",
+      "title": "《국제로인의 날》 기념모임 진행",
+      "date": "2025-10-01",
+      "snippet": "(평양 10월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/24b343665cfda9694f67241341d18f0b",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 3891,
+        "social": 624
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bbf2a700932adcb5d4ca637041d6ade978",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/f86e6766b9a314ffc95ec1fde5531a7e72c4170e3d31a79f242df89e8f0f9447.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1aaa0ff53f52ba7adf31af75"
+    },
     {
       "id": "news:kcna:9454361ec13dd4f22faa085a",
       "title": "황해북도 사리원시에 모범체육시칭호 수여",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3891
+        "domestic": 3892
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +66,7 @@
       ],
       "categoryOrders": {
         "foreign": 710,
-        "domestic": 3892
+        "domestic": 3893
       },
       "featuredSections": [],
       "hasImage": true,
@@ -64,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3893
+        "domestic": 3894
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,28 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3894
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A45a451170f0621d039bc8b86"
-    },
-    {
-      "id": "news:kcna:2ede7cd332534d209d974ba1",
-      "title": "조선대외문화교류협회와 조중친선협회가 중화인민공화국창건 76돐에 즈음하여 연회 마련",
-      "date": "2025-10-01",
-      "snippet": "(평양 10월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c2a3db91ef98b512ce1b0d5d855d460c",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 711,
         "domestic": 3895
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2ede7cd332534d209d974ba1"
+      "detailUrl": "/news/document?id=news%3Akcna%3A45a451170f0621d039bc8b86"
     }
   ]
 }

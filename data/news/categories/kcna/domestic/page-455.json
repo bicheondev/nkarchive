@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 455,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:c811a9de8495fb74a8c713df",
+      "title": "우리 나라 외무상 쓰르비아공화국 외무상에게 축전",
+      "date": "2026-02-16",
+      "snippet": "(평양 2월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ab6128c134ffa025a860c4140233066a",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 394,
+        "domestic": 2271
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac811a9de8495fb74a8c713df"
+    },
     {
       "id": "news:kcna:c1d521b07150e36a3ac2a073",
       "title": "제14차 전국료리기술경연 진행",
@@ -23,7 +45,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2271,
+        "domestic": 2272,
         "social": 298
       },
       "featuredSections": [],
@@ -44,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2272
+        "domestic": 2273
       },
       "featuredSections": [],
       "hasImage": true,
@@ -64,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2273
+        "domestic": 2274
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2274
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa0e74812e58c1f964f559168"
-    },
-    {
-      "id": "news:kcna:3330191c62bbd88e3113bf07",
-      "title": "자강도에서 농촌살림집건설을 위한 물질기술적토대강화에 주력",
-      "date": "2026-02-16",
-      "snippet": "(평양 2월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/64488c17f47931b9df1d7b947e16e0d7",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2275
       },
       "featuredSections": [],
@@ -111,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3330191c62bbd88e3113bf07"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa0e74812e58c1f964f559168"
     }
   ]
 }

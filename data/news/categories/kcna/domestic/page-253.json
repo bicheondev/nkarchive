@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 253,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:581448ded2e4a0f7c90bdc1e",
+      "title": "황해북도의 농촌들에서 가물극복대책에 힘을 넣으며 당면한 영농공정 추진",
+      "date": "2026-05-13",
+      "snippet": "(평양 5월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c38d0a712794b93ab704f64a17e48608",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1260
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A581448ded2e4a0f7c90bdc1e"
+    },
     {
       "id": "news:kcna:3c88aed03ee6c9a1b16060b2",
       "title": "함경북도에서 지방공업제품전시회 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1260
+        "domestic": 1261
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1261
+        "domestic": 1262
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1262
+        "domestic": 1263
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
       ],
       "categoryOrders": {
         "foreign": 186,
-        "domestic": 1263
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6f9ece2725d1862eb96ecb24"
-    },
-    {
-      "id": "news:kcna:1a486880fd58c6b17ebe74a5",
-      "title": "2026년 5월 12일 신문개관",
-      "date": "2026-05-12",
-      "snippet": "(평양 5월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/516402d22cba6507e497b9b0f7e7821c",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1264
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1a486880fd58c6b17ebe74a5"
+      "detailUrl": "/news/document?id=news%3Akcna%3A6f9ece2725d1862eb96ecb24"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 656,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:330924dacbae2dce58701137",
+      "title": "보건성에서 의료일군양성사업 적극화",
+      "date": "2025-11-11",
+      "snippet": "(평양 11월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/71ad950927de913c562bf134c0beab62",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3276
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A330924dacbae2dce58701137"
+    },
     {
       "id": "news:kcna:8946f05891ad164d0593b28f",
       "title": "황해남도 배천군 역구도농장에서 새집들이와 결산분배 진행",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3276,
+        "domestic": 3277,
         "social": 529
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3277
+        "domestic": 3278
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3278
+        "domestic": 3279
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3279
+        "domestic": 3280
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,26 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac9233459b7735133c07655ba53d17f944",
       "cachedThumbnailUrl": "/data/news/assets/kcna/6b271ed5d31ec7d537b25d83a817c1474016db3ffe092de1a274d20536d6902e.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A38a920f85911e0e0adb05b33"
-    },
-    {
-      "id": "news:kcna:13df09ddb7e938aca03498c8",
-      "title": "2025년 11월 10일 《로동신문》개관",
-      "date": "2025-11-10",
-      "snippet": "(평양 11월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c8bc0cb7631c5fa9a0481bf1b4c39a5c",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3280
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A13df09ddb7e938aca03498c8"
     }
   ]
 }

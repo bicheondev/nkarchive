@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 46,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:ed3c977cfc00fc6c5eb8fa2f",
+      "title": "조국해방 81돐경축 청년학생들의 야회 및 축포발사 진행",
+      "date": "2026-08-16",
+      "snippet": "(평양 8월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ae70452570abf62778366fb07169e40a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 225
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29cd7039a62b82c5475e74e1e67f0c8141",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/68148e78bb334080b6cea14a212fcb0977fcc817704772eea7e2248c357261c3.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aed3c977cfc00fc6c5eb8fa2f"
+    },
     {
       "id": "news:kcna:1b8090c08e2b4bdaf8e0c9e4",
       "title": "조국해방 81돐을 각지에서 뜻깊게 경축",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 225
+        "domestic": 226
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,7 +66,7 @@
       "categoryOrders": {
         "important": 14,
         "foreign": 27,
-        "domestic": 226
+        "domestic": 227
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +88,7 @@
       ],
       "categoryOrders": {
         "foreign": 30,
-        "domestic": 227
+        "domestic": 228
       },
       "featuredSections": [],
       "hasImage": true,
@@ -89,7 +109,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 228,
+        "domestic": 229,
         "social": 35
       },
       "featuredSections": [],
@@ -98,28 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2927383f252dc33e17b4872d97e2ddc802",
       "cachedThumbnailUrl": "/data/news/assets/kcna/89d95f6798f07b1591a2d1f360bc0128755df122a9c1c7d72d88c04f77dfb6e0.jpg",
       "detailUrl": "/news/document?id=kcna-40e9a20b6712b792"
-    },
-    {
-      "id": "kcna-a7a9502b0a5ae337",
-      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 로씨야교육실습용돛배 《빨라다》호 성원들 꽃바구니 진정",
-      "date": "2026-08-16",
-      "snippet": "(평양 8월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/156286c529efd02641359bca25c0f667",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 31,
-        "domestic": 229
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29ca9f3eedf1468f132ca8a81483ee7955",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/fd045afebcbc6d3dedc418707a08cd589ed09f2d5cfbe2c7c74bef973e6a3f1d.jpg",
-      "detailUrl": "/news/document?id=kcna-a7a9502b0a5ae337"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 285,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:b8b41019fca2d00d1c20beae",
+      "title": "로씨야련방 공식대표단 귀국",
+      "date": "2026-04-28",
+      "snippet": "(평양 4월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c4484f4df9afdee4442be0b9ca05a3eb",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 135,
+        "foreign": 210,
+        "domestic": 1420
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66619a57796e220f84db1e6f2db8a570dc",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/b199a9c99d23f040c5656af79c9042bae9ff3fdb05d7051fb30fee0129feb7a0.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab8b41019fca2d00d1c20beae"
+    },
     {
       "id": "news:kcna:28aaf4c1a06c181452191bd8",
       "title": "제61차 전국학생소년예술축전 개막",
@@ -22,7 +46,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1420
+        "domestic": 1421
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1421
+        "domestic": 1422
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1422
+        "domestic": 1423
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1423
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5b02f991bd80446de390c8d7"
-    },
-    {
-      "id": "news:kcna:63034b7f6fb428a30af08371",
-      "title": "개성시에서 민족유산보호관리사업 군중적으로 전개",
-      "date": "2026-04-28",
-      "snippet": "(평양 4월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ae5a3fc20a5f737ab94e3cf5e5fd10e6",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1424
       },
       "featuredSections": [],
@@ -109,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A63034b7f6fb428a30af08371"
+      "detailUrl": "/news/document?id=news%3Akcna%3A5b02f991bd80446de390c8d7"
     }
   ]
 }

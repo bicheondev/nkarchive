@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 817,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:a0f728f26e8b3ab0eecce5b4",
+      "title": "2025년 9월 12일 신문개관",
+      "date": "2025-09-12",
+      "snippet": "(평양 9월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3deb2f57424d9fdc81db4bdb222ade21",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 4081
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa0f728f26e8b3ab0eecce5b4"
+    },
     {
       "id": "news:kcna:9d28b8049cc9632a694cb970",
       "title": "박태성 내각총리 여러 부문 사업 현지에서 료해",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "important": 488,
-        "domestic": 4081
+        "domestic": 4082
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4082
+        "domestic": 4083
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4083
+        "domestic": 4084
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4084
+        "domestic": 4085
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ad4fe0ccf9470c040c6c0d0fe"
-    },
-    {
-      "id": "news:kcna:e4d7ecce6b033cb5dc55ccbd",
-      "title": "강원도에서 집중강연선전대활동 전개",
-      "date": "2025-09-12",
-      "snippet": "(평양 9월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9f79dc63ef00a87b7c250e197ceea024",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 4085,
-        "social": 665
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae4d7ecce6b033cb5dc55ccbd"
     }
   ]
 }

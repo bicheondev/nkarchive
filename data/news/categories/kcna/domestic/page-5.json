@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 5,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:0ad158fad3e82ab42bda938b",
+      "title": "황해남도에서 수천kW의 태양빛발전능력 새로 조성",
+      "date": "2026-09-04",
+      "snippet": "(평양 9월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/58930315abc45339127dfa8cf68ec190",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 20
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0ad158fad3e82ab42bda938b"
+    },
     {
       "id": "news:kcna:286d93958632e2fb8ca72556",
       "title": "평양시에서 도시경영,생태환경보호사업성과 확대",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 20
+        "domestic": 21
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 21,
+        "domestic": 22,
         "social": 0
       },
       "featuredSections": [
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 22
+        "domestic": 23
       },
       "featuredSections": [],
       "hasImage": true,
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 23
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab16c678d14a72b80308e154b"
-    },
-    {
-      "id": "news:kcna:1be409907a0073454686c4ab",
-      "title": "2026년 9월 3일 신문개관",
-      "date": "2026-09-03",
-      "snippet": "(평양 9월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5bff0f6a7b357d5c084a409555ce477f",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 24
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1be409907a0073454686c4ab"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab16c678d14a72b80308e154b"
     }
   ]
 }

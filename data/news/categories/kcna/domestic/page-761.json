@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 761,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:edc59a8b9e257d5d15f8fb01",
+      "title": "2025년 10월 7일 신문개관",
+      "date": "2025-10-07",
+      "snippet": "(평양 10월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/21c2e54fabe4890319382b35363c6885",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3801
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aedc59a8b9e257d5d15f8fb01"
+    },
     {
       "id": "news:kcna:8793c2023eacc6b676e15d6d",
       "title": "중화인민공화국 당 및 정부대표단이 우리 나라를 공식친선방문한다",
@@ -26,7 +46,7 @@
       "categoryOrders": {
         "important": 455,
         "foreign": 684,
-        "domestic": 3801
+        "domestic": 3802
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,7 +68,7 @@
       ],
       "categoryOrders": {
         "foreign": 686,
-        "domestic": 3802
+        "domestic": 3803
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,7 +88,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3803
+        "domestic": 3804
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,7 +110,7 @@
       ],
       "categoryOrders": {
         "foreign": 687,
-        "domestic": 3804
+        "domestic": 3805
       },
       "featuredSections": [],
       "hasImage": true,
@@ -98,28 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb7ffd69ea261b211832624068a885afd7",
       "cachedThumbnailUrl": "/data/news/assets/kcna/3a8e727cf112bb80e364077e81051d99c981e573c0628b67d5d2607ad57e3cd6.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A6217f38e36e03252783ce8ed"
-    },
-    {
-      "id": "news:kcna:224c7053c68f5bfa7b2f19f2",
-      "title": "주체사상국제토론회에 참가할 여러 나라와 지역의 주체사상연구조직대표단들 도착",
-      "date": "2025-10-07",
-      "snippet": "(평양 10월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/29ac0f115616e0dfc0484241fe06db82",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 688,
-        "domestic": 3805
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bbcbb0b5f2010c2c44d5896b26baec7636",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/13bbdc7102961e96be6f0a1c472174501989b33bd5ff26e54f7a8f6c5cc331b3.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A224c7053c68f5bfa7b2f19f2"
     }
   ]
 }

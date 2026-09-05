@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,35 @@
   "section": "domestic",
   "page": 378,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:ef43f5907a29e3c603f9fa65",
+      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
+      "date": "2026-03-23",
+      "snippet": "(평양 3월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5c4f244174745f16cc69800fdc065659",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 219,
+        "document": 27,
+        "foreign": 334,
+        "domestic": 1886
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aef43f5907a29e3c603f9fa65"
+    },
     {
       "id": "news:kcna:e3216c9dfe7e4bfee2b1c54a",
       "title": "기상관측과 예보의 과학성,신속성보장을 위한 연구사업 심화",
@@ -22,7 +48,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1886
+        "domestic": 1887
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +68,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1887
+        "domestic": 1888
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +89,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1888,
+        "domestic": 1889,
         "social": 210
       },
       "featuredSections": [],
@@ -84,26 +110,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1889
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6a102e046a11ad14c8989a15"
-    },
-    {
-      "id": "news:kcna:529fde1d0dc2a31026d98c3b",
-      "title": "우리 국가 수도의 위대한 번영사와 더불어 높이 울려퍼지는 평양찬가들",
-      "date": "2026-03-23",
-      "snippet": "(평양 3월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/23c6ca31bd9b010362acd935e7f8eda2",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1890
       },
       "featuredSections": [],
@@ -111,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A529fde1d0dc2a31026d98c3b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A6a102e046a11ad14c8989a15"
     }
   ]
 }

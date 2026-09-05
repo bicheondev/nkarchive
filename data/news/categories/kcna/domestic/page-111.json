@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 111,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:59dca3c2efce58bddb6beb8e",
+      "title": "조선태권도위원회에서 새 교과서들 집필",
+      "date": "2026-07-17",
+      "snippet": "(평양 7월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8c27d8a752fe8d4c30e2cf4503fcadf5",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 550
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A59dca3c2efce58bddb6beb8e"
+    },
     {
       "id": "news:kcna:703f543cfb6438b6ba87423c",
       "title": "풍곡청년탄광에서 석탄생산성과 확대",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 550
+        "domestic": 551
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 551
+        "domestic": 552
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 552
+        "domestic": 553
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 553,
+        "domestic": 554,
         "social": 69
       },
       "featuredSections": [],
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ade484eac04cd08013a444b69"
-    },
-    {
-      "id": "news:kcna:e636d8ca04841557d789570a",
-      "title": "전쟁로병들과 자강도청년학생들과의 상봉모임 진행",
-      "date": "2026-07-17",
-      "snippet": "(평양 7월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0cd9025f133dd9ca855ef9f20dd5782c",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 554,
-        "social": 70
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae636d8ca04841557d789570a"
     }
   ]
 }

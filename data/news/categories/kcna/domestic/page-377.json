@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 377,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:6cda033d974ef437d12bd66b",
+      "title": "조선민주주의인민공화국 2025년 국가예산집행의 결산과 2026년 국가예산에 대하여",
+      "date": "2026-03-24",
+      "snippet": "(평양 3월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/137dda80d2b10e20fb55d8f67a230f79",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 218,
+        "domestic": 1881
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6cda033d974ef437d12bd66b"
+    },
     {
       "id": "news:kcna:711ced39212508aa737d4e97",
       "title": "우리 나라 외무상 나미비아공화국 국제관계 및 무역상에게 축전",
@@ -24,7 +46,7 @@
       ],
       "categoryOrders": {
         "foreign": 333,
-        "domestic": 1881
+        "domestic": 1882
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1882
+        "domestic": 1883
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1883
+        "domestic": 1884
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,7 +107,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1884,
+        "domestic": 1885,
         "social": 209
       },
       "featuredSections": [],
@@ -94,32 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A77339f2f6af10a6be5bcc0e8"
-    },
-    {
-      "id": "news:kcna:ef43f5907a29e3c603f9fa65",
-      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
-      "date": "2026-03-23",
-      "snippet": "(평양 3월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5c4f244174745f16cc69800fdc065659",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 219,
-        "document": 27,
-        "foreign": 334,
-        "domestic": 1885
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aef43f5907a29e3c603f9fa65"
     }
   ]
 }

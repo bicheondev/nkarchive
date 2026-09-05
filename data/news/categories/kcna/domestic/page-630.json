@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 630,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:9c71222c404dd14a88762954",
+      "title": "《전국농업부문 기술경험발표 및 과학연구성과전시회》 진행",
+      "date": "2025-11-22",
+      "snippet": "(평양 11월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e064318e7bfa02c0da5b7595a254ea53",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3146
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9c71222c404dd14a88762954"
+    },
     {
       "id": "news:kcna:4cc62695948590dadf2c2bfb",
       "title": "개성시계급교양관을 일군들과 근로자들,청소년학생들이 련일 참관",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3146,
+        "domestic": 3147,
         "social": 498
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3147
+        "domestic": 3148
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3148,
+        "domestic": 3149,
         "social": 499
       },
       "featuredSections": [],
@@ -88,26 +108,6 @@
       ],
       "categoryOrders": {
         "foreign": 491,
-        "domestic": 3149
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A85ad567ec682dd76c8942da8"
-    },
-    {
-      "id": "news:kcna:50b39984bbe84cc30a9734cc",
-      "title": "제7차 전국교육과학토론회 진행",
-      "date": "2025-11-22",
-      "snippet": "(평양 11월 22일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/24c0445e59defe185f552f226c2d4a54",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3150
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A50b39984bbe84cc30a9734cc"
+      "detailUrl": "/news/document?id=news%3Akcna%3A85ad567ec682dd76c8942da8"
     }
   ]
 }

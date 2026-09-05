@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 546,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:fcce9b49a3cca60999494af0",
+      "title": "여러 단위에서 새해 첫날계획 완수",
+      "date": "2026-01-03",
+      "snippet": "(평양 1월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bfbc8d4d7a88ae52a26c901fd85ec51e",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2726
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afcce9b49a3cca60999494af0"
+    },
     {
       "id": "news:kcna:f742ca13968edb35b3891d34",
       "title": "혁명학원 원아들 주요전구들에서 경제선동 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2726
+        "domestic": 2727
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2727
+        "domestic": 2728
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2728
+        "domestic": 2729
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2729,
+        "domestic": 2730,
         "social": 413
       },
       "featuredSections": [],
@@ -92,28 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451a170a1efa09a9b2654a9116f557906e2",
       "cachedThumbnailUrl": "/data/news/assets/kcna/b7576df748af0a23bba858d177e49fa1df898d35517e7e84bc0817c7af551ef8.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A5cc97c4b8c897d5fb8e773e9"
-    },
-    {
-      "id": "news:kcna:34140548e554cb9b1f201645",
-      "title": "우리 나라 외무상 꾸바공화국 외무상에게 축전",
-      "date": "2026-01-02",
-      "snippet": "(평양 1월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/74db999997b3fa27cd23aba933ac90f4",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 435,
-        "domestic": 2730
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A34140548e554cb9b1f201645"
     }
   ]
 }

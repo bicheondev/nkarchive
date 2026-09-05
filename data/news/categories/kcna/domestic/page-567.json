@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 567,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:bb570bfcf8c23360663bc607",
+      "title": "각지 녀맹원들 석탄전선을 지원",
+      "date": "2025-12-24",
+      "snippet": "(평양 12월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0b1eb7aeb38473096363c2d36f7858bd",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2831,
+        "social": 432
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abb570bfcf8c23360663bc607"
+    },
     {
       "id": "news:kcna:85f8b0a95a9c3dff299bb326",
       "title": "황해북도에서 시,군소재지들의 면모를 일신",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2831
+        "domestic": 2832
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2832
+        "domestic": 2833
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2833
+        "domestic": 2834
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +105,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2834,
+        "domestic": 2835,
         "social": 433
       },
       "featuredSections": [],
@@ -92,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ffd74799a86c1535384d474204801a068e",
       "cachedThumbnailUrl": "/data/news/assets/kcna/bd635ac4d6e985381bf25c4739fed01cbfbd2a16ff4d04f5df05dc2f5a77cc23.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Afbaa39e6cf72e844e9f5dd2d"
-    },
-    {
-      "id": "news:kcna:fa27b4b68031ef309094611d",
-      "title": "순천세멘트련합기업소에서 년간 인민경제계획 완수",
-      "date": "2025-12-23",
-      "snippet": "(평양 12월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/88c34bdacfcab47d8ad4a88917072391",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2835
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afa27b4b68031ef309094611d"
     }
   ]
 }

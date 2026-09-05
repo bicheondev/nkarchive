@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 51,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:d7df548a6edf6106e2e03055",
+      "title": "우리 인민의 운명전환의 시발점,위대한 승리의 날-8월 15일",
+      "date": "2026-08-15",
+      "snippet": "(평양 8월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4491f309cf711e265cc6edef2bf11bfc",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 250
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad7df548a6edf6106e2e03055"
+    },
     {
       "id": "news:kcna:b1830f873484dea81e729883",
       "title": "식민지민족해방투쟁의 새시대를 개척하신 전설적영웅",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "foreign": 37,
-        "domestic": 250
+        "domestic": 251
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 251
+        "domestic": 252
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 252,
+        "domestic": 253,
         "social": 38
       },
       "featuredSections": [],
@@ -87,7 +107,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 253,
+        "domestic": 254,
         "social": 39
       },
       "featuredSections": [],
@@ -96,28 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-94a76a24dc8ff33b"
-    },
-    {
-      "id": "kcna-987c27807a3f5f10",
-      "title": "조국해방 81돐경축 웅변모임 근로단체들에서 진행",
-      "date": "2026-08-14",
-      "snippet": "(평양 8월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/148ee3cce9f0b6eb32c90f2d4c09846d",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 254,
-        "social": 40
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-987c27807a3f5f10"
     }
   ]
 }

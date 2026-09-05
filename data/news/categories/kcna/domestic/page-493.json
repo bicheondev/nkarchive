@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 493,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:4b58d849adc8e1d0dfef0f39",
+      "title": "2026년 1월 29일 신문개관",
+      "date": "2026-01-29",
+      "snippet": "(평양 1월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/49e15c0b02715b8736934da9c65d61e6",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2461
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4b58d849adc8e1d0dfef0f39"
+    },
     {
       "id": "news:kcna:4b8a4ec2f4ae1a8ec3bc479f",
       "title": "금속공업부문에서 올해의 증산투쟁을 물질기술적으로 담보하기 위한 사업 진척",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2461
+        "domestic": 2462
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2462
+        "domestic": 2463
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "foreign": 418,
-        "domestic": 2463
+        "domestic": 2464
       },
       "featuredSections": [],
       "hasImage": true,
@@ -85,7 +105,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2464,
+        "domestic": 2465,
         "social": 332
       },
       "featuredSections": [],
@@ -94,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451706a816fe3a8eedaa6f0ac0a4c2d80e4",
       "cachedThumbnailUrl": "/data/news/assets/kcna/0887b148b36b49b923bc70f8dfb227f58d11719bbf8a75d5ffa2fc001062b93b.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ac5459378f602e702d5c4a1b6"
-    },
-    {
-      "id": "news:kcna:e400ee2f2d03cb9188a45d9a",
-      "title": "조선작가동맹 중앙위원회 작가들 새 가사들 창작",
-      "date": "2026-01-29",
-      "snippet": "(평양 1월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/97cd4e284e5f39cc561fce73d1d64dcb",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2465
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae400ee2f2d03cb9188a45d9a"
     }
   ]
 }

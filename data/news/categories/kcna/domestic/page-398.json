@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 398,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:eba1dc565c3558a426790462",
+      "title": "2026년 3월 14일 신문개관",
+      "date": "2026-03-14",
+      "snippet": "(평양 3월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/82632b2f921b98d2732fd37b01e9b96a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1986
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aeba1dc565c3558a426790462"
+    },
     {
       "id": "news:kcna:87fac225f06754129e120542",
       "title": "경애하는 김정은동지께서 꾸바공산당 중앙위원회 제1비서에게 답전을 보내시였다",
@@ -26,7 +46,7 @@
       "categoryOrders": {
         "important": 237,
         "foreign": 342,
-        "domestic": 1986
+        "domestic": 1987
       },
       "featuredSections": [],
       "hasImage": false,
@@ -50,7 +70,7 @@
       "categoryOrders": {
         "important": 238,
         "foreign": 343,
-        "domestic": 1987
+        "domestic": 1988
       },
       "featuredSections": [],
       "hasImage": false,
@@ -73,7 +93,7 @@
       ],
       "categoryOrders": {
         "important": 239,
-        "domestic": 1988,
+        "domestic": 1989,
         "social": 227
       },
       "featuredSections": [],
@@ -94,26 +114,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1989
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac725af885350a9385e7f0cae"
-    },
-    {
-      "id": "news:kcna:10a7ad10f051bddc2d5c8edb",
-      "title": "조선로동당 제9차대회 결정관철을 위한 농업근로자들과 농근맹원들의 궐기대회 진행",
-      "date": "2026-03-14",
-      "snippet": "(평양 3월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/263cf8d5036d0ac7db86f76b82b052a0",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1990
       },
       "featuredSections": [],
@@ -121,7 +121,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A10a7ad10f051bddc2d5c8edb"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac725af885350a9385e7f0cae"
     }
   ]
 }

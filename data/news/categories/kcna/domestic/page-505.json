@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 505,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:11fbcbdc012dd45daeeacfe5",
+      "title": "백두산일대에서 새로운 유적들 발굴",
+      "date": "2026-01-24",
+      "snippet": "(평양 1월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/50106325b049a95a89445e3ab3486c69",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2521
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A11fbcbdc012dd45daeeacfe5"
+    },
     {
       "id": "news:kcna:f6206d8c5ec7959fba0114a2",
       "title": "각지 농근맹조직들에서 지력개선을 위한 사업 추진",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2521
+        "domestic": 2522
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2522
+        "domestic": 2523
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2523
+        "domestic": 2524
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2524
+        "domestic": 2525
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,26 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ab8c555fe8fb6cf319823ed08"
-    },
-    {
-      "id": "news:kcna:a9cfda60e77515d28727b20a",
-      "title": "절세위인의 손길아래 펼쳐진 지방진흥의 새시대",
-      "date": "2026-01-23",
-      "snippet": "(평양 1월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9ab237d2e381fcb8d3886e74f419aa44",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2525
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451e2cf1289080c8dc71c0d5a9feed81453",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/7430b8abe71a6b42735bee633b4f59b6699a835399f2d8474983a4a0a00d7527.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa9cfda60e77515d28727b20a"
     }
   ]
 }

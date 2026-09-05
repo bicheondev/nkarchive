@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 418,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:400dc9a0cf2bcba05b3dd90a",
+      "title": "《인민경제 부문별 과학기술성과전시회-2025》 페막",
+      "date": "2026-03-06",
+      "snippet": "(평양 3월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9b073b86652ceac1995e1f5c409a2916",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2086
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A400dc9a0cf2bcba05b3dd90a"
+    },
     {
       "id": "news:kcna:27ca66211ade4b94d7a582df",
       "title": "농기계전시회 《농기계발전-2025》 페막",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2086
+        "domestic": 2087
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2087,
+        "domestic": 2088,
         "social": 252
       },
       "featuredSections": [],
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2088,
+        "domestic": 2089,
         "social": 253
       },
       "featuredSections": [],
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2089
+        "domestic": 2090
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e603f10700a150980995ad2da3c25ca8810",
       "cachedThumbnailUrl": "/data/news/assets/kcna/79bdaa5018254db25f80d0e4c9fa71240d12f28c173602a384f3b3d9ac56db4d.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A9d1ed705ee2a30adfbe5a980"
-    },
-    {
-      "id": "news:kcna:bcc34833e2333b3f376ecb1c",
-      "title": "해방된 조국땅에 울려퍼진 민주개혁의 첫 포성",
-      "date": "2026-03-05",
-      "snippet": "(평양 3월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d3a7063c1aab4f2b108b977df9b1bd34",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2090
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e6064fa770954f196b3ece1eca7aedcbefa",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/a1ec4247bf2618f80d78cb31ec0224d6b5c7579f026ffc1ad05a7f73b8fe1194.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abcc34833e2333b3f376ecb1c"
     }
   ]
 }

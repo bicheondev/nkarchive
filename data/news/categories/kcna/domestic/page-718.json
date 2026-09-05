@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 718,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:b3aced04ce4b51a9c7eb33ac",
+      "title": "2025년 10월 17일 신문개관",
+      "date": "2025-10-17",
+      "snippet": "(평양 10월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b259664519acda24544a2da82dee8949",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3586
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab3aced04ce4b51a9c7eb33ac"
+    },
     {
       "id": "news:kcna:f80f307df41b5aa8d37eac90",
       "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기 습근평동지에게 답전을 보내시였다",
@@ -26,7 +46,7 @@
       "categoryOrders": {
         "important": 425,
         "foreign": 567,
-        "domestic": 3586
+        "domestic": 3587
       },
       "featuredSections": [],
       "hasImage": false,
@@ -50,7 +70,7 @@
       "categoryOrders": {
         "important": 426,
         "foreign": 568,
-        "domestic": 3587
+        "domestic": 3588
       },
       "featuredSections": [],
       "hasImage": true,
@@ -70,7 +90,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3588
+        "domestic": 3589
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,26 +110,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3589
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A32825554b601dcf8ad690ab1"
-    },
-    {
-      "id": "news:kcna:1f135349d755249b60f6e8ca",
-      "title": "조선로동당창건 80돐경축 재일본조선인총련합회 충성의 편지이어달리기대표단이 떠나갔다",
-      "date": "2025-10-17",
-      "snippet": "(평양 10월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/adccbc0bfc3eff89c762292052a038c0",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3590
       },
       "featuredSections": [],
@@ -117,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1f135349d755249b60f6e8ca"
+      "detailUrl": "/news/document?id=news%3Akcna%3A32825554b601dcf8ad690ab1"
     }
   ]
 }

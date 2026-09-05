@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 497,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:f79952b146de131be09f6334",
+      "title": "국가과학기술위원회에서 과학기술발전을 위한 사업 추진",
+      "date": "2026-01-27",
+      "snippet": "(평양 1월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8b88202ce68f918ac71b06a58c21078e",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2481
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af79952b146de131be09f6334"
+    },
     {
       "id": "news:kcna:f059077d4922803a7053385b",
       "title": "황해남도에서 논판양어기술전습회 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2481
+        "domestic": 2482
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2482
+        "domestic": 2483
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2483
+        "domestic": 2484
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
       ],
       "categoryOrders": {
         "foreign": 419,
-        "domestic": 2484
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A98d8fd0c69d99a46f8945d6e"
-    },
-    {
-      "id": "news:kcna:010620620c83886dd67bf965",
-      "title": "사리원가죽이김공장 준공",
-      "date": "2026-01-27",
-      "snippet": "(평양 1월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1cee88b07148717312e462a6c70bb3b4",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2485
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A010620620c83886dd67bf965"
+      "detailUrl": "/news/document?id=news%3Akcna%3A98d8fd0c69d99a46f8945d6e"
     }
   ]
 }

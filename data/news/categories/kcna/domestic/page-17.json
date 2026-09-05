@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,35 @@
   "section": "domestic",
   "page": 17,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:3cf99086fb550851961e4358",
+      "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지에게 위문전문을 보내시였다",
+      "date": "2026-08-28",
+      "snippet": "(평양 8월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/08737c17fc33411c102dd47ba6f392d5",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 4,
+        "foreign": 8,
+        "domestic": 80
+      },
+      "featuredSections": [
+        "important"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3cf99086fb550851961e4358"
+    },
     {
       "id": "news:kcna:fe5721126ff1e0bdbe84a60f",
       "title": "경애하는 김정은동지께서 네팔대통령에게 위문전문을 보내시였다",
@@ -26,7 +52,7 @@
       "categoryOrders": {
         "important": 5,
         "foreign": 9,
-        "domestic": 80
+        "domestic": 81
       },
       "featuredSections": [
         "important"
@@ -48,7 +74,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 81
+        "domestic": 82
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +94,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 82
+        "domestic": 83
       },
       "featuredSections": [],
       "hasImage": false,
@@ -89,7 +115,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 83,
+        "domestic": 84,
         "social": 9
       },
       "featuredSections": [],
@@ -98,26 +124,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A5e43a2cd73bdd1feffe34ee8"
-    },
-    {
-      "id": "news:kcna:da01b51dabccfebf8b685b85",
-      "title": "전국청년과학기술성과전시회 개막",
-      "date": "2026-08-28",
-      "snippet": "(평양 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8a9341dc38962902c5e9dd3da2e11ca1",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 84
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ada01b51dabccfebf8b685b85"
     }
   ]
 }

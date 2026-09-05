@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 601,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:ec2a7881c2548efadd1118df",
+      "title": "채취공업부문에서 년말결속투쟁에 총력 집중",
+      "date": "2025-12-06",
+      "snippet": "(평양 12월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4697d6fb6362b31f7e6cf8e5f3575174",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3001
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aec2a7881c2548efadd1118df"
+    },
     {
       "id": "news:kcna:c1206698a4819a56e172d16e",
       "title": "각지 대학들에서 과학연구사업 활발",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3001
+        "domestic": 3002
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3002
+        "domestic": 3003
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3003
+        "domestic": 3004
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
       ],
       "categoryOrders": {
         "foreign": 480,
-        "domestic": 3004
+        "domestic": 3005
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Abba8e7baf6aeb919cfa96056"
-    },
-    {
-      "id": "news:kcna:782be9bd670faa6aa9e8d144",
-      "title": "강원도 안변군 오계리와 원산시 상자리,중용리에서 새집들이 진행",
-      "date": "2025-12-06",
-      "snippet": "(평양 12월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/95c3718421bd42d7af632c4a6c187a30",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 3005,
-        "social": 469
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f5c23b8e9e0781a87f6d82718a0bdb4696",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/89ecf05afaa2c46378be6fc11de235638d23f4c3f5926fe436b3d64996a12625.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A782be9bd670faa6aa9e8d144"
     }
   ]
 }

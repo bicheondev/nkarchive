@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 728,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:d178ed992323d3fd3c357cd1",
+      "title": "김정숙평양방직공장의 수백명 청년들 2년분,년간 인민경제계획 완수",
+      "date": "2025-10-14",
+      "snippet": "(평양 10월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/fbc554fa65f87d1df30469de58b060bb",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3636
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad178ed992323d3fd3c357cd1"
+    },
     {
       "id": "news:kcna:ae7108c6c22ccc63d0c2781c",
       "title": "평안남도 문덕군 립석농장의 근로자들 새 살림집에 입사",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3636,
+        "domestic": 3637,
         "social": 594
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3637
+        "domestic": 3638
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3638
+        "domestic": 3639
       },
       "featuredSections": [],
       "hasImage": false,
@@ -87,7 +107,7 @@
       ],
       "categoryOrders": {
         "foreign": 582,
-        "domestic": 3639,
+        "domestic": 3640,
         "social": 595
       },
       "featuredSections": [],
@@ -96,28 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c125cc77da9d65ea4a2ea01815244eb768e",
       "cachedThumbnailUrl": "/data/news/assets/kcna/e67b59eb3cea59ee822bf33b23e97fadd632c6618dbae5ae6b2c2ea7e14618d7.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A215619e6a227a5f0b98c9844"
-    },
-    {
-      "id": "news:kcna:869a52096ad71a79b391a94a",
-      "title": "로씨야에 가는 전력공업성대표단 출발",
-      "date": "2025-10-14",
-      "snippet": "(평양 10월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d01c1521d33a0c83994a5dc8dae22db8",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 583,
-        "domestic": 3640
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12d68a0d7983833a584b72b5664afd7822",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/106a3dfed6a6880b86995ca6c8bfcf1f9418b6507824e14883ac51139d137263.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A869a52096ad71a79b391a94a"
     }
   ]
 }

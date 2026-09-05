@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 309,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:91dc7ee52f3c18aea056d512",
+      "title": "《전국식료품전시회-2026》 페막",
+      "date": "2026-04-21",
+      "snippet": "(평양 4월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1bf4dff2f403510c3dfb568c25540ff4",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1540
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A91dc7ee52f3c18aea056d512"
+    },
     {
       "id": "news:kcna:3a31ef531afba0c1bc02249c",
       "title": "김책제철련합기업소 창립 80돐을 맞이",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1540
+        "domestic": 1541
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "foreign": 241,
-        "domestic": 1541
+        "domestic": 1542
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1542
+        "domestic": 1543
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1543
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4ecc1dd7d08cb5fa0fb21dbb"
-    },
-    {
-      "id": "news:kcna:ff5a3af36f2a937555ae4fec",
-      "title": "2026년 4월 20일 《로동신문》개관",
-      "date": "2026-04-20",
-      "snippet": "(평양 4월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/852e70e5b12d9ea5ab484289aab7478c",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1544
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aff5a3af36f2a937555ae4fec"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4ecc1dd7d08cb5fa0fb21dbb"
     }
   ]
 }

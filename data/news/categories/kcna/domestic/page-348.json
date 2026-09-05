@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 348,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:b75039d18debb14d71be0ec9",
+      "title": "수도 평양에 펼쳐진 꽃풍경",
+      "date": "2026-04-04",
+      "snippet": "(평양 4월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6cf824094515c9107129b3a8890275b6",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1735
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b663ed72348831014a7db46405c9144a729",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/e70074b8c829639cc9426b3849a640f240f86777d2b23a33531c5cac49fcb045.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab75039d18debb14d71be0ec9"
+    },
     {
       "id": "news:kcna:4d88782b97bc09c929d803c7",
       "title": "조선인민군 제124련대들 기초콩크리트치기 결속,골조공사에 진입",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1735
+        "domestic": 1736
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1736
+        "domestic": 1737
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1737
+        "domestic": 1738
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1738
+        "domestic": 1739
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,28 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A13de0e3ac80a9b839a5cc0f6"
-    },
-    {
-      "id": "news:kcna:f7425f4fa9bf5229827f98be",
-      "title": "제29차 전국료리축전 진행",
-      "date": "2026-04-04",
-      "snippet": "(평양 4월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/957d11891e66576f80e1bb5d24fa7383",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 1739,
-        "social": 181
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af7425f4fa9bf5229827f98be"
     }
   ]
 }

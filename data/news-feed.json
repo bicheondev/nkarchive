@@ -1,25 +1,47 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "sources": {
     "kcna": {
       "id": "kcna",
       "name": "조선중앙통신",
-      "totalItems": 8770,
+      "totalItems": 8748,
       "categoryCounts": {
         "leadership": 230,
-        "important": 516,
-        "international": 2763,
-        "photo": 1034,
+        "important": 515,
+        "international": 2757,
+        "photo": 1031,
         "anecdote": 102,
         "document": 61,
-        "foreign": 768,
-        "video": 269,
+        "foreign": 765,
+        "video": 268,
         "memory": 221,
-        "domestic": 4158,
-        "social": 685
+        "domestic": 4146,
+        "social": 682
       },
       "articles": [
+        {
+          "id": "news:kcna:066052956f24de6b03581334",
+          "title": "수도시민들의 문화생활을 첫자리에 놓으시고",
+          "date": "2026-09-05",
+          "snippet": "위대한 수령 김일성동지께서는 1981년 5월 어느날 평양시의 일군들로부터 보통강유원지의 한쪽끝에 병원을 세웠으면 좋겠다는 보고를 받으시였다.",
+          "url": "http://www.kcna.kp/kp/article/detail/b85137a5e7161da26988ce43928cd5a7",
+          "mediaType": "article",
+          "categories": [
+            "memory"
+          ],
+          "categoryOrders": {
+            "memory": 0
+          },
+          "featuredSections": [
+            "memory"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A066052956f24de6b03581334"
+        },
         {
           "id": "news:kcna:45119f2adc9b0994e425d05d",
           "title": "경애하는 김정은동지께서 제15차 전국교원대회 참가자들과 기념사진을 찍으시였다",
@@ -79,7 +101,7 @@
           "categoryOrders": {
             "important": 0,
             "foreign": 1,
-            "domestic": 3
+            "domestic": 4
           },
           "featuredSections": [
             "important",
@@ -105,7 +127,7 @@
           ],
           "categoryOrders": {
             "foreign": 0,
-            "domestic": 0
+            "domestic": 1
           },
           "featuredSections": [
             "foreign",
@@ -116,6 +138,28 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba1310aabe9f04801f78b9407fbcd63908",
           "cachedThumbnailUrl": "/data/news/assets/kcna/32cb9dd6d1030af5b88ce202ebec2dca3d9bb2f807256eb5caf228c47e4acd5f.jpg",
           "detailUrl": "/news/document?id=news%3Akcna%3A97d14ee943116818ddd20312"
+        },
+        {
+          "id": "news:kcna:c3366d921d20d5f3e5798ce9",
+          "title": "2026년 9월 5일 신문개관",
+          "date": "2026-09-05",
+          "snippet": "(평양 9월 5일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/5262fc3abb0a5ab9d911a4e94a1f3ec8",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 0
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Ac3366d921d20d5f3e5798ce9"
         },
         {
           "id": "news:kcna:4cbfd0e7f3a911b4fb61605c",
@@ -150,7 +194,7 @@
             "domestic"
           ],
           "categoryOrders": {
-            "domestic": 1
+            "domestic": 2
           },
           "featuredSections": [
             "domestic"
@@ -172,7 +216,7 @@
             "domestic"
           ],
           "categoryOrders": {
-            "domestic": 2
+            "domestic": 3
           },
           "featuredSections": [
             "domestic"
@@ -182,28 +226,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A0a12c2c9bf2c22be05006204"
-        },
-        {
-          "id": "news:kcna:71fe401402a35211c19fcb31",
-          "title": "황해북도의 농촌들에서 농기계수리정비 결속",
-          "date": "2026-09-05",
-          "snippet": "(평양 9월 5일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/6360f99f0be3a74b55a0479aed1265fa",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 4
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A71fe401402a35211c19fcb31"
         },
         {
           "id": "news:kcna:57694672ec9903b6b0c27887",
@@ -228,28 +250,6 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A57694672ec9903b6b0c27887"
         },
         {
-          "id": "news:kcna:71a806285681ea22a8f2807a",
-          "title": "동주리의 사연깊은 기념사진",
-          "date": "2026-09-04",
-          "snippet": "1957년 10월 어느날이였다.",
-          "url": "http://www.kcna.kp/kp/article/detail/db61492cab6bc73c438f09582e8977d2",
-          "mediaType": "article",
-          "categories": [
-            "memory"
-          ],
-          "categoryOrders": {
-            "memory": 0
-          },
-          "featuredSections": [
-            "memory"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A71a806285681ea22a8f2807a"
-        },
-        {
           "id": "news:kcna:160329f7c251b0e1a0f8c07d",
           "title": "요르단강서안지역에서 계속되는 이스라엘의 살륙만행",
           "date": "2026-09-04",
@@ -270,6 +270,28 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A160329f7c251b0e1a0f8c07d"
+        },
+        {
+          "id": "news:kcna:71a806285681ea22a8f2807a",
+          "title": "동주리의 사연깊은 기념사진",
+          "date": "2026-09-04",
+          "snippet": "1957년 10월 어느날이였다.",
+          "url": "http://www.kcna.kp/kp/article/detail/db61492cab6bc73c438f09582e8977d2",
+          "mediaType": "article",
+          "categories": [
+            "memory"
+          ],
+          "categoryOrders": {
+            "memory": 1
+          },
+          "featuredSections": [
+            "memory"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A71a806285681ea22a8f2807a"
         },
         {
           "id": "news:kcna:df4b6edc8cb782e1ce30771f",
@@ -349,7 +371,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 21,
+            "domestic": 22,
             "social": 0
           },
           "featuredSections": [
@@ -489,7 +511,7 @@
           ],
           "categoryOrders": {
             "foreign": 2,
-            "domestic": 25
+            "domestic": 26
           },
           "featuredSections": [
             "foreign"
@@ -534,7 +556,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 35,
+            "domestic": 36,
             "social": 1
           },
           "featuredSections": [
@@ -545,28 +567,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A9e270dc13b47f12c3c7e118a"
-        },
-        {
-          "id": "news:kcna:b8f69f36f37c1d588cbbac1b",
-          "title": "《양우장농》",
-          "date": "2026-09-02",
-          "snippet": "위대한 수령 김일성동지께서는 1948년 1월 어느날 대소한의 추위도 마다하지 않으시고 자강도의 한 농촌마을을 찾으시였다.",
-          "url": "http://www.kcna.kp/kp/article/detail/c8323553e4c8c77ffa3eb57388f1f4b5",
-          "mediaType": "article",
-          "categories": [
-            "memory"
-          ],
-          "categoryOrders": {
-            "memory": 1
-          },
-          "featuredSections": [
-            "memory"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Ab8f69f36f37c1d588cbbac1b"
         },
         {
           "id": "news:kcna:174196c6326efe74e1e1a7da",
@@ -583,7 +583,7 @@
           "categoryOrders": {
             "important": 2,
             "foreign": 4,
-            "domestic": 36
+            "domestic": 37
           },
           "featuredSections": [
             "important",
@@ -607,7 +607,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 39,
+            "domestic": 40,
             "social": 2
           },
           "featuredSections": [
@@ -618,6 +618,28 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3Aa1342f9a4892536961c53bfe"
+        },
+        {
+          "id": "news:kcna:b8f69f36f37c1d588cbbac1b",
+          "title": "《양우장농》",
+          "date": "2026-09-02",
+          "snippet": "위대한 수령 김일성동지께서는 1948년 1월 어느날 대소한의 추위도 마다하지 않으시고 자강도의 한 농촌마을을 찾으시였다.",
+          "url": "http://www.kcna.kp/kp/article/detail/c8323553e4c8c77ffa3eb57388f1f4b5",
+          "mediaType": "article",
+          "categories": [
+            "memory"
+          ],
+          "categoryOrders": {
+            "memory": 2
+          },
+          "featuredSections": [
+            "memory"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Ab8f69f36f37c1d588cbbac1b"
         },
         {
           "id": "news:kcna:617c4c21b1de4aa6c63a3349",
@@ -675,7 +697,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 42,
+            "domestic": 43,
             "social": 3
           },
           "featuredSections": [
@@ -704,7 +726,7 @@
             "important": 3,
             "document": 0,
             "foreign": 5,
-            "domestic": 52
+            "domestic": 53
           },
           "featuredSections": [
             "important",
@@ -728,7 +750,7 @@
             "memory"
           ],
           "categoryOrders": {
-            "memory": 2
+            "memory": 3
           },
           "featuredSections": [
             "memory"
@@ -751,7 +773,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 50,
+            "domestic": 51,
             "social": 4
           },
           "featuredSections": [
@@ -830,28 +852,6 @@
           "detailUrl": "/news/document?id=news%3Akcna%3Aa331f5b8bce9d10286a05d82"
         },
         {
-          "id": "news:kcna:c293c4ea102ba395361e77a7",
-          "title": "모란봉의 경치에 손상을 주면 안된다고 하시며",
-          "date": "2026-08-29",
-          "snippet": "위대한 수령 김일성동지께서는 1977년 8월 16일 모란봉경기장(당시)을 찾으시였다.",
-          "url": "http://www.kcna.kp/kp/article/detail/0a95695619da24ddf5af4bab4802972f",
-          "mediaType": "article",
-          "categories": [
-            "memory"
-          ],
-          "categoryOrders": {
-            "memory": 3
-          },
-          "featuredSections": [
-            "memory"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Ac293c4ea102ba395361e77a7"
-        },
-        {
           "id": "news:kcna:d108efabacdd38385617c436",
           "title": "제품의 질제고에 큰 힘을 넣어",
           "date": "2026-08-29",
@@ -872,6 +872,28 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "/data/news/assets/kcna/77c6915b273327b457f70ea4b8c40f4c95606a6f965c28578d1855d5bcd071ba.jpg",
           "detailUrl": "/news/document?id=news%3Akcna%3Ad108efabacdd38385617c436"
+        },
+        {
+          "id": "news:kcna:c293c4ea102ba395361e77a7",
+          "title": "모란봉의 경치에 손상을 주면 안된다고 하시며",
+          "date": "2026-08-29",
+          "snippet": "위대한 수령 김일성동지께서는 1977년 8월 16일 모란봉경기장(당시)을 찾으시였다.",
+          "url": "http://www.kcna.kp/kp/article/detail/0a95695619da24ddf5af4bab4802972f",
+          "mediaType": "article",
+          "categories": [
+            "memory"
+          ],
+          "categoryOrders": {
+            "memory": 4
+          },
+          "featuredSections": [
+            "memory"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Ac293c4ea102ba395361e77a7"
         },
         {
           "id": "news:kcna:f145d29a023c9491077b8fb5",
@@ -910,7 +932,7 @@
           "categoryOrders": {
             "important": 4,
             "foreign": 8,
-            "domestic": 79
+            "domestic": 80
           },
           "featuredSections": [
             "important"
@@ -958,7 +980,7 @@
           "categoryOrders": {
             "important": 5,
             "foreign": 9,
-            "domestic": 80
+            "domestic": 81
           },
           "featuredSections": [
             "important"
@@ -986,7 +1008,7 @@
             "important": 7,
             "document": 1,
             "foreign": 11,
-            "domestic": 103
+            "domestic": 104
           },
           "featuredSections": [
             "document"
@@ -996,28 +1018,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A6aa3ff6b7410c650239f1b74"
-        },
-        {
-          "id": "news:kcna:5b45fa9a59f9115d799dde57",
-          "title": "로동계급속에서 굳히신 결심",
-          "date": "2026-08-27",
-          "snippet": "3년간에 걸친 조국해방전쟁이 우리의 승리로 끝난지 한주일밖에 안되던 1953년 8월 3일 위대한 수령 김일성동지께서 강선제강소(당시)에 오시였을 때의 일이다.",
-          "url": "http://www.kcna.kp/kp/article/detail/eb3bad1c4aa67188dc16b9e8157639cf",
-          "mediaType": "article",
-          "categories": [
-            "memory"
-          ],
-          "categoryOrders": {
-            "memory": 4
-          },
-          "featuredSections": [
-            "memory"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A5b45fa9a59f9115d799dde57"
         },
         {
           "id": "news:kcna:aa932e2fc3a90072da5a3488",
@@ -1078,7 +1078,7 @@
           "categoryOrders": {
             "important": 10,
             "document": 2,
-            "domestic": 177
+            "domestic": 178
           },
           "featuredSections": [
             "document"
@@ -1104,7 +1104,7 @@
           "categoryOrders": {
             "important": 11,
             "document": 3,
-            "domestic": 188
+            "domestic": 189
           },
           "featuredSections": [
             "document"
@@ -1156,7 +1156,7 @@
           "categoryOrders": {
             "important": 30,
             "document": 6,
-            "domestic": 319
+            "domestic": 320
           },
           "featuredSections": [
             "document"

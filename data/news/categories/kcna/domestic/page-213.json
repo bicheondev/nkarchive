@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 213,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:31a844a781d0548558eef71f",
+      "title": "평안북도의 농장들에서 벼모내기 추진",
+      "date": "2026-05-31",
+      "snippet": "(평양 5월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/38da63db1f0c11e945bc3cd0af6d7263",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1060
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A31a844a781d0548558eef71f"
+    },
     {
       "id": "news:kcna:78b1e7e19d30ad17edd054d3",
       "title": "토성제약공장 수자중시,과학기술중시로 생산과 경영활동을 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1060
+        "domestic": 1061
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1061
+        "domestic": 1062
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1062
+        "domestic": 1063
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1063
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A90024d86aa0a65152cdb5863"
-    },
-    {
-      "id": "news:kcna:ab1f3e6ce61849f4acef929d",
-      "title": "혜산철도분국 화물수송에서 혁신",
-      "date": "2026-05-31",
-      "snippet": "(평양 5월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/80cb8e8a27c5264107935b10c0fabdde",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1064
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aab1f3e6ce61849f4acef929d"
+      "detailUrl": "/news/document?id=news%3Akcna%3A90024d86aa0a65152cdb5863"
     }
   ]
 }

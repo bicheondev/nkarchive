@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 351,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:01dbf1396a6de2d2358535e2",
+      "title": "황주군식료공장에서 수십가지의 새 제품 생산",
+      "date": "2026-04-03",
+      "snippet": "(평양 4월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2634539b2ae32203ecd6e99f4980ce30",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1750
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A01dbf1396a6de2d2358535e2"
+    },
     {
       "id": "news:kcna:27030e1260b998c9b6a58284",
       "title": "경애하는 김정은동지께서 윁남사회주의공화국 주석에게 답전을 보내시였다",
@@ -26,7 +46,7 @@
       "categoryOrders": {
         "important": 188,
         "foreign": 293,
-        "domestic": 1750
+        "domestic": 1751
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,7 +67,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1751,
+        "domestic": 1752,
         "social": 185
       },
       "featuredSections": [],
@@ -70,7 +90,7 @@
       ],
       "categoryOrders": {
         "foreign": 294,
-        "domestic": 1752
+        "domestic": 1753
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,26 +110,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1753
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A66c77176ed3a10721f7f2f29"
-    },
-    {
-      "id": "news:kcna:849ccf35f195156351215b72",
-      "title": "채취공업부문의 여러 단위에서 1.4분기 인민경제계획 완수",
-      "date": "2026-04-03",
-      "snippet": "(평양 4월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/39bd976a18f008e592c00ab2cb20cf71",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1754
       },
       "featuredSections": [],
@@ -117,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A849ccf35f195156351215b72"
+      "detailUrl": "/news/document?id=news%3Akcna%3A66c77176ed3a10721f7f2f29"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 87,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:4e507e5805384ba60c83cc17",
+      "title": "혜산세멘트공장의 생산 1.2배 장성",
+      "date": "2026-07-27",
+      "snippet": "(평양 7월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/382feeadd9905c7eb0b98df407b602cf",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 430
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4e507e5805384ba60c83cc17"
+    },
     {
       "id": "news:kcna:089c519c1555eaf6c01ddcef",
       "title": "천성청년탄광 8갱 서은철채탄중대 년간 석탄생산계획 완수",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 430
+        "domestic": 431
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 431
+        "domestic": 432
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 432
+        "domestic": 433
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 433
+        "domestic": 434
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,32 +110,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d12bf8820271f78746495f922b3fa9af3",
       "cachedThumbnailUrl": "/data/news/assets/kcna/1966a515149f008cdb75fb301e3f1dbfb73dedd784f4c52c4a6afaa125bf86fd.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A833cdfa99d89d81f88eccd24"
-    },
-    {
-      "id": "kcna-7cc961f41493b1b7",
-      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
-      "date": "2026-07-27",
-      "snippet": "(평양 7월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/772301c84a602f248d3895617c573b2e",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 36,
-        "document": 8,
-        "foreign": 54,
-        "domestic": 434
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-7cc961f41493b1b7"
     }
   ]
 }

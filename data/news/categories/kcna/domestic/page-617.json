@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 617,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:16194210c615141cb8020946",
+      "title": "평양시 력포구역 력포남새농장,사동구역 오류남새농장에 새 농촌문화주택들이 일떠섰다",
+      "date": "2025-11-29",
+      "snippet": "(평양 11월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e2c9d55f5f4fa5cc1380ed0a602049a1",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 3081,
+        "social": 486
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac369fb404ffb1badf658c1a7df7e61b69",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/0c61bf47d24315ed6f7d8b3a559cceba3c91e80db4d43b6a1adbd27bf2d3f643.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A16194210c615141cb8020946"
+    },
     {
       "id": "news:kcna:76ca746104591ae276079c77",
       "title": "개건현대화된 순천건재공장 준공",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3081
+        "domestic": 3082
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3082
+        "domestic": 3083
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3083
+        "domestic": 3084
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3084
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A34f2ddd229c8dbff0a33cbf9"
-    },
-    {
-      "id": "news:kcna:af16f022dd2a76d212bb6fba",
-      "title": "함경남도항공구락부 준공",
-      "date": "2025-11-29",
-      "snippet": "(평양 11월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9932c258792efef7eecfbcaaa5420578",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3085
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aaf16f022dd2a76d212bb6fba"
+      "detailUrl": "/news/document?id=news%3Akcna%3A34f2ddd229c8dbff0a33cbf9"
     }
   ]
 }

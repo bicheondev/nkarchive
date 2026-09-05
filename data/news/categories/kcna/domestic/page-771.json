@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 771,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:28f5a74af1758a656096916a",
+      "title": "함경남도 장진군 황초농장과 도내농장에 선경마을들이 솟아났다",
+      "date": "2025-10-04",
+      "snippet": "(평양 10월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/637f41536b643c033acce471ea7ad084",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 3851,
+        "social": 618
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bbb35d7997a40e2eed421090d54ea1eae4",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/cec37b470a2d34d125d634ca7efd1fcba915e09fde4e3dab4b0d964e30c3d36a.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A28f5a74af1758a656096916a"
+    },
     {
       "id": "news:kcna:913c1e9357694c1eeeb81110",
       "title": "조선로동당창건 80돐경축 우표전람회 개막",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3851
+        "domestic": 3852
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +66,7 @@
       ],
       "categoryOrders": {
         "important": 466,
-        "domestic": 3852
+        "domestic": 3853
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3853
+        "domestic": 3854
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3854
+        "domestic": 3855
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb613da01bdc7be2f77393e75b872fb8e3",
       "cachedThumbnailUrl": "/data/news/assets/kcna/72521458d7e4762ee5c2027550a2e7c5e0a9072e52936960fdae71e2dc96b5e6.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A49e6411ea17de836e5b4ad1b"
-    },
-    {
-      "id": "news:kcna:df52d1af3e06159e401f7aa4",
-      "title": "조선로동당창건 80돐기념 중앙연구토론회 진행",
-      "date": "2025-10-04",
-      "snippet": "(평양 10월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/73a4d5476d2ba92e67663e0ca701c480",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3855
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb6577c707b33899473b6079171d16b5f4",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/8f130490f9675ab1d1f00937341145b25e5e4632e8084a1b0bbe780e58ff0f47.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adf52d1af3e06159e401f7aa4"
     }
   ]
 }

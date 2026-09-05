@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 674,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:768c3959dafd344cf492f0f3",
+      "title": "평양종합병원 개원",
+      "date": "2025-11-04",
+      "snippet": "(평양 11월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/10b1d05128a3aadd1960beac0f70f02d",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 397,
+        "domestic": 3366
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac2091e26ec9014807de8a9c5b5fb7c862",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/77c73fac23db014505899730e629ce5ec3f570d218dd3680127b9ac41d95eb2b.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A768c3959dafd344cf492f0f3"
+    },
     {
       "id": "news:kcna:13369da5973aba67401ea78c",
       "title": "각지 공장,기업소들에서 기능공양성사업 추진",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3366
+        "domestic": 3367
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +65,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3367,
+        "domestic": 3368,
         "social": 550
       },
       "featuredSections": [],
@@ -64,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3368
+        "domestic": 3369
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3369
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A265c6c107a4f2fac64b87ed5"
-    },
-    {
-      "id": "news:kcna:742e898a5895c76f7e93060a",
-      "title": "《로동신문》 사상의 위력으로 혁명의 전진을 가속해나갈데 대해 강조",
-      "date": "2025-11-03",
-      "snippet": "(평양 11월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7917fa9447f600cd1262cfc327d3fd45",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3370
       },
       "featuredSections": [],
@@ -111,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A742e898a5895c76f7e93060a"
+      "detailUrl": "/news/document?id=news%3Akcna%3A265c6c107a4f2fac64b87ed5"
     }
   ]
 }

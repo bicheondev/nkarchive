@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 143,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:c5d872feae8d21b4b7745448",
+      "title": "전국적인 밀,보리가을 기본적으로 결속,낟알털기에 총력을 집중",
+      "date": "2026-07-04",
+      "snippet": "(평양 7월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f09f52ff60bc2d6f4c44e199f329c492",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 710
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac5d872feae8d21b4b7745448"
+    },
     {
       "id": "news:kcna:93247d7450002cb0399c8881",
       "title": "전국기상수문 및 해양부문 과학기술성과전시회 개막",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 710
+        "domestic": 711
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 711
+        "domestic": 712
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "foreign": 122,
-        "domestic": 712
+        "domestic": 713
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 713
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af3183cbc09798411bd01960d"
-    },
-    {
-      "id": "news:kcna:c5a8ee21a7a43d397d304f45",
-      "title": "각지 농촌들에서 유기농법도입열기 고조",
-      "date": "2026-07-04",
-      "snippet": "(평양 7월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/91657b5a7766341ca53c1801aaa50d42",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 714
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac5a8ee21a7a43d397d304f45"
+      "detailUrl": "/news/document?id=news%3Akcna%3Af3183cbc09798411bd01960d"
     }
   ]
 }

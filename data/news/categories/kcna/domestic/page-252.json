@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 252,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:3bca528e75bb8d5626aba44a",
+      "title": "조선직업총동맹 제9차대회 참가자들을 위한 강습 진행",
+      "date": "2026-05-13",
+      "snippet": "(평양 5월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b8953d9e0913640e925ce9cc000ddafd",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1255
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e0000649a37ac09f77cff96d81a33f6a797134f",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/72e86df220fccbfe226c1b65e4d25024e7232ee93a02b80b817401e1a149346c.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3bca528e75bb8d5626aba44a"
+    },
     {
       "id": "news:kcna:bb232e269b7e524a9b63e224",
       "title": "조선직업총동맹 제9차대회 진행",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "important": 119,
-        "domestic": 1255
+        "domestic": 1256
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "important": 120,
-        "domestic": 1256
+        "domestic": 1257
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1257
+        "domestic": 1258
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1258
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9a288d43c936902cb570cdfa"
-    },
-    {
-      "id": "news:kcna:581448ded2e4a0f7c90bdc1e",
-      "title": "황해북도의 농촌들에서 가물극복대책에 힘을 넣으며 당면한 영농공정 추진",
-      "date": "2026-05-13",
-      "snippet": "(평양 5월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c38d0a712794b93ab704f64a17e48608",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1259
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A581448ded2e4a0f7c90bdc1e"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9a288d43c936902cb570cdfa"
     }
   ]
 }

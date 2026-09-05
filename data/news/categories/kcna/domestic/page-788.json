@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 788,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:ba97d687fa9ffb0cefbef569",
+      "title": "함경북도항공구락부 준공",
+      "date": "2025-09-27",
+      "snippet": "(평양 9월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/308213887ad8d29bcdbeebba00a5ee38",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3936
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aba97d687fa9ffb0cefbef569"
+    },
     {
       "id": "news:kcna:34772dcfc457b27dbdb2eda5",
       "title": "해주뜨락또르부속품공장에서 과학기술력증대로 제품생산 활성화",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3936
+        "domestic": 3937
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3937
+        "domestic": 3938
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3938
+        "domestic": 3939
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
       ],
       "categoryOrders": {
         "foreign": 718,
-        "domestic": 3939
+        "domestic": 3940
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/3d3755d837f6dc968fa55dbecad26d2216402d56a6e0530c042616ade261fe69",
       "cachedThumbnailUrl": "/data/news/assets/kcna/ecc890d8ab2a95becf5f6f321087a17a978290c8a788bb43f3bb16da355ea194.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A816ff13639275002afb0543b"
-    },
-    {
-      "id": "news:kcna:6c488b2b20f8311b0db13d0e",
-      "title": "최룡해동지에게 팔레스티나국가 특명전권대사가 신임장을 봉정",
-      "date": "2025-09-26",
-      "snippet": "(평양 9월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ad84ad50a2ffca3520a0530d96fe2805",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 719,
-        "domestic": 3940
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/3d3755d837f6dc968fa55dbecad26d22e2725799d353416ac0a4dcb4d299c914",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/5f9000d6d1a08f9ee360d0cdbc0b97da0cf4a53c8b2b424e04c2e38c4d883bcd.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6c488b2b20f8311b0db13d0e"
     }
   ]
 }

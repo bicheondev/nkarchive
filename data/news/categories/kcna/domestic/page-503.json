@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 503,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:cf723f6c8d0bda92722cb377",
+      "title": "평안남도와 황해남도,남포시의 녀맹원들 사회주의건설의 주요전구들로 진출",
+      "date": "2026-01-25",
+      "snippet": "(평양 1월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ae57c9c3edd676ac05b0701cf9238407",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2511,
+        "social": 346
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Acf723f6c8d0bda92722cb377"
+    },
     {
       "id": "news:kcna:4415f89b11d2a944687fbf4d",
       "title": "석탄공업부문에서 생산성과 확대",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2511
+        "domestic": 2512
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2512
+        "domestic": 2513
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2513
+        "domestic": 2514
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2514
+        "domestic": 2515
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,26 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e45122545754a10c5c53d64c372d3173ec2a",
       "cachedThumbnailUrl": "/data/news/assets/kcna/6f220b65203e9feb8d625b5476d338b97dedd4578ad4660853a99dd9f1adc829.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Af877cafb2d14c066389bcd33"
-    },
-    {
-      "id": "news:kcna:f62eee4193c593543392169a",
-      "title": "2026년 1월 24일 신문개관",
-      "date": "2026-01-24",
-      "snippet": "(평양 1월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b69e6e6400b4628e6427995f113d9f72",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2515
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af62eee4193c593543392169a"
     }
   ]
 }

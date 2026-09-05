@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 533,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:b5098584ab3f253f56fcc1be",
+      "title": "조선인민군 총참모부 대변인 성명 발표",
+      "date": "2026-01-10",
+      "snippet": "(평양 1월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c4a8fa467e8618f5d6385963981dc980",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 327,
+        "foreign": 428,
+        "domestic": 2661
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451f50fdbc826de6be23ff17a3c4103b1bc",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/8feb84fd2cb599aef716c081ff14cf9be5a950a048f7034a902028e52d49d10e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab5098584ab3f253f56fcc1be"
+    },
     {
       "id": "news:kcna:65ec3136348cfc621f295985",
       "title": "량강도림업관리국에서 통나무생산성과 확대",
@@ -22,7 +46,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2661
+        "domestic": 2662
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +67,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2662,
+        "domestic": 2663,
         "social": 394
       },
       "featuredSections": [],
@@ -64,7 +88,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2663
+        "domestic": 2664
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,7 +108,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2664
+        "domestic": 2665
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ac2efd53236dfb5778fb6de76"
-    },
-    {
-      "id": "news:kcna:9eef383c0804c872f7ccebfa",
-      "title": "평안남도 평원군 삼봉리,안주시 연풍리에서 새집들이 진행",
-      "date": "2026-01-10",
-      "snippet": "(평양 1월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/271aad9ead189d7324be16432c4d598f",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2665,
-        "social": 395
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451f14f2bbd9d400190b40aa164e854705c",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/03edce28c2ec0a99007166c64fbf60f125713e36f04ba6f1ac9536b04bea6f79.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9eef383c0804c872f7ccebfa"
     }
   ]
 }

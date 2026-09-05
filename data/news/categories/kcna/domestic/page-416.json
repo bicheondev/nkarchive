@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 416,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:3d79bf2f44bcdc01e0fe9cd4",
+      "title": "개성시에서 전력계통의 정비보강사업 적극화",
+      "date": "2026-03-07",
+      "snippet": "(평양 3월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c636ae19416fcd651cfb01b6d3f4308f",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2076
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3d79bf2f44bcdc01e0fe9cd4"
+    },
     {
       "id": "news:kcna:12649f8d08a049b43457c4bd",
       "title": "녀맹일군들과 녀맹원들의 체육 및 유희오락경기 진행",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2076,
+        "domestic": 2077,
         "social": 249
       },
       "featuredSections": [],
@@ -45,7 +65,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2077,
+        "domestic": 2078,
         "social": 250
       },
       "featuredSections": [],
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2078
+        "domestic": 2079
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2079
+        "domestic": 2080
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60579184feb79741497370d4b549ea324d",
       "cachedThumbnailUrl": "/data/news/assets/kcna/c78eb77b152a88700e1d9dc9cf7a9976583da83d4cbe236ca4f8dfc57a89e504.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Acb8a9197ead09760f5ceff28"
-    },
-    {
-      "id": "news:kcna:7fe4a7f1a84d89e1ffd47ab4",
-      "title": "전국적으로 많은 직업기술학교들 개건,기능공들 양성",
-      "date": "2026-03-06",
-      "snippet": "(평양 3월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d8717416fdee29c9d6faa4ffa005f6ed",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2080
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7fe4a7f1a84d89e1ffd47ab4"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 482,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:96d2dd32990a0c8c15bd0b27",
+      "title": "함경남도 북청군에 모범준법군칭호 수여",
+      "date": "2026-02-04",
+      "snippet": "(평양 2월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f4e4cbcc5bfd2c4fe35a000134b2b201",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2406
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A96d2dd32990a0c8c15bd0b27"
+    },
     {
       "id": "news:kcna:e044f3437f97ef5f168f3a30",
       "title": "강원도의 수력발전소들에서 전력생산성과 확대",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2406
+        "domestic": 2407
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2407
+        "domestic": 2408
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2408
+        "domestic": 2409
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2409
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abefb65d261e199e345d72759"
-    },
-    {
-      "id": "news:kcna:d57e3a32262d06cb87a37b42",
-      "title": "여러 단위에서 의의가 큰 과학연구성과 이룩",
-      "date": "2026-02-03",
-      "snippet": "(평양 2월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/779631d7d18ab7886aff123d9c436e59",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2410
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad57e3a32262d06cb87a37b42"
+      "detailUrl": "/news/document?id=news%3Akcna%3Abefb65d261e199e345d72759"
     }
   ]
 }

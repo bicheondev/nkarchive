@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 469,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:d9041e3ca7cdb185257b2fd2",
+      "title": "우리 나라의 비물질문화유산들(4)--썰매타기",
+      "date": "2026-02-09",
+      "snippet": "(평양 2월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0f925906852b0a5e8801e7308163a96e",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2341
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad9041e3ca7cdb185257b2fd2"
+    },
     {
       "id": "news:kcna:f281a65b9ab88c6585f37523",
       "title": "환경과학기술연구원에서 전국적인 토양환경감시체계 구축",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2341
+        "domestic": 2342
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2342
+        "domestic": 2343
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "important": 306,
-        "domestic": 2343
+        "domestic": 2344
       },
       "featuredSections": [],
       "hasImage": true,
@@ -85,7 +105,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2344,
+        "domestic": 2345,
         "social": 312
       },
       "featuredSections": [],
@@ -94,26 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A49851aced1ce0a87686977be"
-    },
-    {
-      "id": "news:kcna:e883acdb14e3acd15db05491",
-      "title": "조선인민군창건 78돐에 즈음하여 인민대표단들 인민군부대들을 방문",
-      "date": "2026-02-09",
-      "snippet": "(평양 2월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/af7c6def756e92b0c9d8d4818bef370b",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2345
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae883acdb14e3acd15db05491"
     }
   ]
 }

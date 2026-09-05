@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 224,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:cd4740b0d57ecfba89919aa5",
+      "title": "함흥탐사기술연구소에서 휴대용시추기 개발",
+      "date": "2026-05-27",
+      "snippet": "(평양 5월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2d5d04183f3430f7bbd5a579c0892c86",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1115
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Acd4740b0d57ecfba89919aa5"
+    },
     {
       "id": "news:kcna:c2efebf50073ffce078fb13a",
       "title": "올해에 들어와 연 3만 9 000여개 단위의 205만 3 000여명이 각지 계급교양거점들을 참관",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1115,
+        "domestic": 1116,
         "social": 117
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1116
+        "domestic": 1117
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1117
+        "domestic": 1118
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1118
+        "domestic": 1119
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,30 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Af108ae7eaf7df91f12215c55"
-    },
-    {
-      "id": "news:kcna:de0df078cd860b3c6559bb26",
-      "title": "조선민주주의인민공화국 외무상이 싱가포르공화국 외무상과 회담",
-      "date": "2026-05-27",
-      "snippet": "(평양 5월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ff542a5439665bd13c545d2837d6f3b4",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 106,
-        "foreign": 168,
-        "domestic": 1119
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064f86f61cfce6b40d91f1f5d0a01ec6ac7",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/0423c1c1a5bd6f548609f0dc0e8043e91846927bd419f4fd3e820e72ce51b420.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ade0df078cd860b3c6559bb26"
     }
   ]
 }

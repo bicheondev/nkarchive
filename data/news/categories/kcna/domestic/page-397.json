@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 397,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:8e7aca521eff52ef0a5a6ba4",
+      "title": "근로단체조직들에서 식수절을 맞으며 나무심기 진행",
+      "date": "2026-03-15",
+      "snippet": "(평양 3월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/574b72330546ea521213896d2397dc44",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1981
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e6013e492042dc098777005454448dcfa18",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/95ad53681764286a3a4a71520ace4c4a99e41bbcf5ce3a12a1fcb930ded4198d.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8e7aca521eff52ef0a5a6ba4"
+    },
     {
       "id": "news:kcna:4515474665940377147cc109",
       "title": "재해성이상기후에 주동적으로 대처하기 위한 사업 적극화",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1981
+        "domestic": 1982
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1982,
+        "domestic": 1983,
         "social": 226
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1983
+        "domestic": 1984
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1984
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aafa46328ce887f7e0206461d"
-    },
-    {
-      "id": "news:kcna:eba1dc565c3558a426790462",
-      "title": "2026년 3월 14일 신문개관",
-      "date": "2026-03-14",
-      "snippet": "(평양 3월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/82632b2f921b98d2732fd37b01e9b96a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1985
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aeba1dc565c3558a426790462"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aafa46328ce887f7e0206461d"
     }
   ]
 }

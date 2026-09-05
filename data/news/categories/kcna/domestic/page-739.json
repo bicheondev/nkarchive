@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 739,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:8de5f7da11c6be96db168413",
+      "title": "조선로동당창건 80돐을 온 나라가 뜻깊게 경축",
+      "date": "2025-10-11",
+      "snippet": "(평양 10월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/338855c47d99c03070ae6ae687ded987",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 3691,
+        "social": 600
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12bb3e15722997433a32a09f513c71e65d",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/2b68d185669f58a10b8966aaa5574c0626a674016783ede8880a0bbfd293eefd.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8de5f7da11c6be96db168413"
+    },
     {
       "id": "news:kcna:7dec7d9a6d9ab71d75eb486e",
       "title": "자강도 동신군 금갑농장에서 새집들이 진행",
@@ -23,7 +45,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3691,
+        "domestic": 3692,
         "social": 601
       },
       "featuredSections": [],
@@ -46,7 +68,7 @@
       ],
       "categoryOrders": {
         "foreign": 617,
-        "domestic": 3692
+        "domestic": 3693
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,7 +90,7 @@
       ],
       "categoryOrders": {
         "foreign": 618,
-        "domestic": 3693
+        "domestic": 3694
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,7 +112,7 @@
       ],
       "categoryOrders": {
         "foreign": 619,
-        "domestic": 3694
+        "domestic": 3695
       },
       "featuredSections": [],
       "hasImage": true,
@@ -98,28 +120,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12cc892b3c881b77bd72845df13a3fdfa9",
       "cachedThumbnailUrl": "/data/news/assets/kcna/ac7325c228219c8b7e7456379e4119a4c66c902e5eb93ddaf340f76d63375f47.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Af61f86b56502618ca2b3d7b2"
-    },
-    {
-      "id": "news:kcna:7225f38078fd268bc5c8fe1e",
-      "title": "전로씨야정당 《통일로씨야》 위원장 드미뜨리 메드베제브동지 여러곳 참관",
-      "date": "2025-10-11",
-      "snippet": "(평양 10월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6f1708567e75bc2fe816290ed089932f",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 620,
-        "domestic": 3695
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12c675bc644a69d4cd2f6d03cf98b35f54",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/c74cc01a5f7af30c38e9e99a1c187452f43527944cd21c74a0e566d9bf4cad1d.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7225f38078fd268bc5c8fe1e"
     }
   ]
 }

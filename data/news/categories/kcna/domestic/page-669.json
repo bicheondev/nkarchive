@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 669,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:3d4b0eddb8e570ed37700e5b",
+      "title": "천연기념물-원산향나무",
+      "date": "2025-11-05",
+      "snippet": "(평양 11월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/966b277c49db4dff2af386aea8063fbe",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3341
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3d4b0eddb8e570ed37700e5b"
+    },
     {
       "id": "news:kcna:64cff4b01214f35001e61f89",
       "title": "황해북도에서 학생교복,신발,가방생산 결속",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3341
+        "domestic": 3342
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3342
+        "domestic": 3343
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3343
+        "domestic": 3344
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3344
+        "domestic": 3345
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,28 +110,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac9332f597f51ea10a58df9ee724289103",
       "cachedThumbnailUrl": "/data/news/assets/kcna/56cf54c132e876477d6eec5d3fb47ec007082d1020682707fc7c405b4b64e4c9.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A8d5d300db1ade6b3a6f9d163"
-    },
-    {
-      "id": "news:kcna:b05a50d7ee2a4956bcc5df20",
-      "title": "사진전람회 《위대한 김정은시대에 솟아난 동해기슭의 황홀한 별천지 원산갈마해안관광지구》 개막",
-      "date": "2025-11-05",
-      "snippet": "(평양 11월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/336b2625b14f8f3d174621044ca33465",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 3345,
-        "social": 547
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac7d427735ce1f909e3b4bacd5d5efd9a1",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/fcbcbb2289ce5c93501964defd22408b89aab6cc5023a1f641c5415414f5e501.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab05a50d7ee2a4956bcc5df20"
     }
   ]
 }

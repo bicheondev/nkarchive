@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 278,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:58fa2e713745ae319e131a68",
+      "title": "2026년 5월 1일 신문개관",
+      "date": "2026-05-01",
+      "snippet": "(평양 5월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/38e139203f9e9ab3c1cac2f9441c605d",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1385
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A58fa2e713745ae319e131a68"
+    },
     {
       "id": "news:kcna:b38a58346a384fa6cab41666",
       "title": "사회주의애국청년동맹 제11차대회 진행",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "important": 132,
-        "domestic": 1385
+        "domestic": 1386
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "document": 20,
-        "domestic": 1386
+        "domestic": 1387
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1387
+        "domestic": 1388
       },
       "featuredSections": [],
       "hasImage": true,
@@ -88,7 +108,7 @@
       ],
       "categoryOrders": {
         "foreign": 204,
-        "domestic": 1388
+        "domestic": 1389
       },
       "featuredSections": [],
       "hasImage": true,
@@ -96,28 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/48ee1e57cc5c856b2790b5700793328b4094578d272f7e9f26ac50d5483dad5f",
       "cachedThumbnailUrl": "/data/news/assets/kcna/ca6ee9674d2637bb97fa040aebc1b4f4040d431891c08d136257d0c82d9af790.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A10c95a893fe9d24e2a4c21bb"
-    },
-    {
-      "id": "news:kcna:67bd7a5520316e7fa66411b4",
-      "title": "제34차 4월의 봄 친선예술축전 페막",
-      "date": "2026-05-01",
-      "snippet": "(평양 5월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2a29130bb5925dccbff94941ff46b534",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 205,
-        "domestic": 1389
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A67bd7a5520316e7fa66411b4"
     }
   ]
 }

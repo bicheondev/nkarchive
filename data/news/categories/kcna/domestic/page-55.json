@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 55,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:ea3cabe4af05bfa3d44c4b76",
+      "title": "자강도,남포시에서 교육부문의 물질기술적토대강화에 힘을 집중",
+      "date": "2026-08-13",
+      "snippet": "(평양 8월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c82ffcce5eebe56117eaf77f9d85dc52",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 270
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aea3cabe4af05bfa3d44c4b76"
+    },
     {
       "id": "news:kcna:cff8a0005aa66849a91a3876",
       "title": "자강도에서 농촌살림집건설 진척",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 270
+        "domestic": 271
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 271
+        "domestic": 272
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 272
+        "domestic": 273
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 273
+        "domestic": 274
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,26 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A66354df34c4182e596f85ff0"
-    },
-    {
-      "id": "news:kcna:d21bf2a6486575a55e8eaffd",
-      "title": "각지에서 자연에네르기발전능력을 높이기 위한 사업 적극화",
-      "date": "2026-08-13",
-      "snippet": "(평양 8월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/abca4b0afb86dc69a9bd83f75ea5d7c6",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 274
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29664c5c31bf5a82c2067dd3fc9a77971a",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/5b18d8f9412878a390810ed2ac00698e5ad926631732fdb8479fa308f9bed98b.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad21bf2a6486575a55e8eaffd"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 572,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:06f8fdd6e3159b2e91c4fd9e",
+      "title": "2025년 12월 20일 신문개관",
+      "date": "2025-12-20",
+      "snippet": "(평양 12월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/fc86e1a4ebda67a84d50ca9d21b3dc9a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2856
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A06f8fdd6e3159b2e91c4fd9e"
+    },
     {
       "id": "news:kcna:42932046d552ea75b0d6beae",
       "title": "각지 마감건재생산단위에서 제품의 질과 생산성 제고",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2856
+        "domestic": 2857
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2857
+        "domestic": 2858
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2858
+        "domestic": 2859
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2859,
+        "domestic": 2860,
         "social": 439
       },
       "featuredSections": [],
@@ -92,26 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807fff8fbd9ed1aa5feb8d60aefbc0478df3d",
       "cachedThumbnailUrl": "/data/news/assets/kcna/8507f74ab2dc7b6e1c791ba6768f5cb52f90218cc9dabec45acf052e366c3894.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Aba0d67d102d4a1340c57a0f6"
-    },
-    {
-      "id": "news:kcna:d4d0b012f238c67c69a993e7",
-      "title": "구미포수산사업소에 해삼배양장이 새로 일떠섰다",
-      "date": "2025-12-19",
-      "snippet": "(평양 12월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8d409431c9d3dca651c3b998e84a3623",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2860
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad4d0b012f238c67c69a993e7"
     }
   ]
 }

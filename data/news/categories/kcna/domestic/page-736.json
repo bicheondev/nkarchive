@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 736,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:3fb7051a67c2aee10794bbbc",
+      "title": "김일성김정일기금총회대표단 주체사상탑 참관",
+      "date": "2025-10-12",
+      "snippet": "(평양 10월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/de8dc4fa7679f19d4651088225b4237d",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 608,
+        "domestic": 3676
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12b2e716e56b29f3d261fb334af5930525",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/00618eac7b27116e4023d9f4ac490ff59791c6cf184dc785c0f504f394bd4503.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3fb7051a67c2aee10794bbbc"
+    },
     {
       "id": "news:kcna:380665673ba1717f0ae72a6e",
       "title": "2025년 국제력기련맹 세계선수권대회에 참가하였던 우리 선수들 귀국",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3676
+        "domestic": 3677
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +66,7 @@
       ],
       "categoryOrders": {
         "foreign": 609,
-        "domestic": 3677
+        "domestic": 3678
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +88,7 @@
       ],
       "categoryOrders": {
         "foreign": 611,
-        "domestic": 3678
+        "domestic": 3679
       },
       "featuredSections": [],
       "hasImage": true,
@@ -87,7 +109,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3679,
+        "domestic": 3680,
         "social": 598
       },
       "featuredSections": [],
@@ -96,26 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12cda301795d2eb1539c6fe0f396457600",
       "cachedThumbnailUrl": "/data/news/assets/kcna/8bee64f81d025555b2b5754f9a429f38d1c2f5d1a9ac49da4070a35574c6f957.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A8de48bd7bb20321cf52453e9"
-    },
-    {
-      "id": "news:kcna:19fa75cd7d46e99fb612ae0d",
-      "title": "황해북도의 산들에 많은 꿩과 노루들이 보금자리를 폈다",
-      "date": "2025-10-12",
-      "snippet": "(평양 10월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9b5274676d2d7ac32e1d0af3b4d64927",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3680
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A19fa75cd7d46e99fb612ae0d"
     }
   ]
 }

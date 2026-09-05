@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 691,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:dceab96efc1a16bdb6834765",
+      "title": "2025년 10월 28일 신문개관",
+      "date": "2025-10-28",
+      "snippet": "(평양 10월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/45cb2dd8e263596f03689b95f22ce78a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3451
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Adceab96efc1a16bdb6834765"
+    },
     {
       "id": "news:kcna:d1e504326896210a6ff2cc3f",
       "title": "제18차 평양국제영화축전 페막",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3451
+        "domestic": 3452
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3452
+        "domestic": 3453
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3453
+        "domestic": 3454
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
       ],
       "categoryOrders": {
         "foreign": 535,
-        "domestic": 3454
+        "domestic": 3455
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d939330bb1295acec11f7869926d0f17f7fefe8",
       "cachedThumbnailUrl": "/data/news/assets/kcna/d9ef542f89d469cb6ab5d22bd30103b76d34529988ec98bd40f92ddf4692af66.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A14d67ec2ebeaa1e47d5e0fcb"
-    },
-    {
-      "id": "news:kcna:f2f2df80e88690d777d7a717",
-      "title": "조선로동당 총비서이시며 조선민주주의인민공화국 국무위원장이신 존경하는 김정은각하께 삼가 드립니다",
-      "date": "2025-10-28",
-      "snippet": "존경하는 김정은각하,",
-      "url": "http://www.kcna.kp/kp/article/detail/a0a731fc4991fc6ff1245572abe30771",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 405,
-        "domestic": 3455
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af2f2df80e88690d777d7a717"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 768,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:c0fe9441dbd90416d25ab821",
+      "title": "장산광산에서 과학기술과 생산을 밀착시켜 년간계획 앞당겨 완수",
+      "date": "2025-10-05",
+      "snippet": "(평양 10월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/92e126fdc5175c2e3203ed0d934a0713",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3836
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac0fe9441dbd90416d25ab821"
+    },
     {
       "id": "news:kcna:ed01fde6a3d880f421b124a2",
       "title": "황해북도에서 가을밀씨뿌리기 추진",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3836
+        "domestic": 3837
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3837
+        "domestic": 3838
       },
       "featuredSections": [],
       "hasImage": true,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3838,
+        "domestic": 3839,
         "social": 617
       },
       "featuredSections": [],
@@ -86,7 +106,7 @@
       ],
       "categoryOrders": {
         "foreign": 700,
-        "domestic": 3839
+        "domestic": 3840
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,26 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A5a66b8719baeefb99bf26fc5"
-    },
-    {
-      "id": "news:kcna:5edbe2df03077623f40a6c27",
-      "title": "재일조선사회과학자대표단 도착",
-      "date": "2025-10-05",
-      "snippet": "(평양 10월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5d23ab3c6796a91c699be8488aa99048",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3840
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bbd0b43913f634954d770dfa80e599b69e",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/85eab5406fd5fc6dd1d1e96963092d0f828fb5c97753e4540542bf24d2355b99.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5edbe2df03077623f40a6c27"
     }
   ]
 }

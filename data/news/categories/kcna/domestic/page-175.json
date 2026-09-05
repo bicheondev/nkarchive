@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 175,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:887f69c79b2cc6c6bfeac34b",
+      "title": "전국재해관리부문 과학기술발표회 진행",
+      "date": "2026-06-18",
+      "snippet": "(평양 6월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cf7f13aaf7e818220755c5eee9be7772",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 870
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A887f69c79b2cc6c6bfeac34b"
+    },
     {
       "id": "news:kcna:c851ea6bc6350a016a972335",
       "title": "염주군수산물가공공장에서 조업초기에 비해 생산성 3배로 장성",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 870
+        "domestic": 871
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 871
+        "domestic": 872
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "foreign": 132,
-        "domestic": 872
+        "domestic": 873
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,28 +106,6 @@
       ],
       "categoryOrders": {
         "foreign": 133,
-        "domestic": 873
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0e7dc6f6adf64f45065783db"
-    },
-    {
-      "id": "news:kcna:a01e5d7cd701dc4448ae9173",
-      "title": "우리 나라 주재 중화인민공화국대사관 연회 마련",
-      "date": "2026-06-18",
-      "snippet": "(평양 6월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ca78fa503b4259cc726cdfbc5d638ac4",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 134,
         "domestic": 874
       },
       "featuredSections": [],
@@ -115,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa01e5d7cd701dc4448ae9173"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0e7dc6f6adf64f45065783db"
     }
   ]
 }

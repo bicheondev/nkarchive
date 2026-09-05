@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 120,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:8e94331fc6ec073298771c7f",
+      "title": "라선시에서 선봉구역경기장 개건,준공식 진행",
+      "date": "2026-07-14",
+      "snippet": "(평양 7월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e4c6601f72c3afa7abf973efadb096d1",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 595
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8e94331fc6ec073298771c7f"
+    },
     {
       "id": "news:kcna:2e70892d444a80d345dc33c2",
       "title": "철도운수부문의 청년들 주요초소들로 탄원",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 595,
+        "domestic": 596,
         "social": 73
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 596
+        "domestic": 597
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 597
+        "domestic": 598
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,30 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 598
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A78bfafe0453ff3c468cba004"
-    },
-    {
-      "id": "news:kcna:9397884419af3b71a37f2877",
-      "title": "중화인민공화국 당 및 정부대표단이 우리 나라를 공식친선방문한다",
-      "date": "2026-07-14",
-      "snippet": "(평양 7월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/76e471556c65618ca63a95cc5211194c",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 61,
-        "foreign": 91,
         "domestic": 599
       },
       "featuredSections": [],
@@ -115,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9397884419af3b71a37f2877"
+      "detailUrl": "/news/document?id=news%3Akcna%3A78bfafe0453ff3c468cba004"
     }
   ]
 }

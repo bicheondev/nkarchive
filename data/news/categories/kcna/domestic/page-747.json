@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 747,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:da4004bd1a95c44de3a19fa9",
+      "title": "모범적인 단위들에 모범준법단위칭호 수여",
+      "date": "2025-10-10",
+      "snippet": "(평양 10월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/86f3fbfcbf476027bc9a4edae4acbb08",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3731
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ada4004bd1a95c44de3a19fa9"
+    },
     {
       "id": "news:kcna:237fc385d68fcb6e108d4998",
       "title": "여러 나라 당대표단,대표들 만경대 방문,여러곳 참관",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "foreign": 644,
-        "domestic": 3731
+        "domestic": 3732
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3732
+        "domestic": 3733
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3733
+        "domestic": 3734
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,30 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3734
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A08062f964e9eef86e17fa15c"
-    },
-    {
-      "id": "news:kcna:c421889ff3a120d6b4779a00",
-      "title": "조선로동당과 전로씨야정당 《통일로씨야》의 공동성명",
-      "date": "2025-10-09",
-      "snippet": "(평양 10월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/dc3be4e34646a3c200c141d9c5340fb4",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 444,
-        "foreign": 646,
         "domestic": 3735
       },
       "featuredSections": [],
@@ -115,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac421889ff3a120d6b4779a00"
+      "detailUrl": "/news/document?id=news%3Akcna%3A08062f964e9eef86e17fa15c"
     }
   ]
 }

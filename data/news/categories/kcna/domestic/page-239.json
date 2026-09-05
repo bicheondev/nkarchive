@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 239,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:1cc37f93701f6b163fff6d2f",
+      "title": "2026년 아시아축구련맹 17살미만 녀자아시아컵경기대회에서 우승한 우리 선수들 귀국",
+      "date": "2026-05-20",
+      "snippet": "(평양 5월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2cef3a9cbb480541caf75bfa572b7f35",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1190
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e0000642c3f159aaa4b22ec17689d45da077dec",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/3eb3167dc713432c00dce33098913d893973d936a34e2ccab7fc015aa0aced61.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1cc37f93701f6b163fff6d2f"
+    },
     {
       "id": "news:kcna:02e33bd2374532c90987cc46",
       "title": "평양시안의 청년동맹조직들에서 사상사업 공세적으로 전개",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1190
+        "domestic": 1191
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1191
+        "domestic": 1192
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1192
+        "domestic": 1193
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1193
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8acd6b4d636fe665f91e3637"
-    },
-    {
-      "id": "news:kcna:14b35e15e4e93fc8987ed206",
-      "title": "2026년 5월 19일 신문개관",
-      "date": "2026-05-19",
-      "snippet": "(평양 5월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2f458d8a0c5dafda8b7f585265c7ec6e",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1194
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A14b35e15e4e93fc8987ed206"
+      "detailUrl": "/news/document?id=news%3Akcna%3A8acd6b4d636fe665f91e3637"
     }
   ]
 }

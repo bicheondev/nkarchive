@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 515,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:4fe1df8189ebb2a50c8c55a9",
+      "title": "2026년 1월 19일 《로동신문》개관",
+      "date": "2026-01-19",
+      "snippet": "(평양 1월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6997179cdaed206f01177a113eb953aa",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2571
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4fe1df8189ebb2a50c8c55a9"
+    },
     {
       "id": "news:kcna:7d0e16b02b2dbd571a798905",
       "title": "채취공업부문에서 증산열기 고조",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2571
+        "domestic": 2572
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2572,
+        "domestic": 2573,
         "social": 368
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2573
+        "domestic": 2574
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2574
+        "domestic": 2575
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A450b4702381232e5e544d393"
-    },
-    {
-      "id": "news:kcna:fe068f63e537f540e4fb9310",
-      "title": "남포시안의 고급중학교 학생들 국사봉혁명전적지 답사",
-      "date": "2026-01-19",
-      "snippet": "(평양 1월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/64bdc19d0bae9feff4118c8a6fa8aa8f",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2575,
-        "social": 369
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afe068f63e537f540e4fb9310"
     }
   ]
 }

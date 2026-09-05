@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 534,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:9eef383c0804c872f7ccebfa",
+      "title": "평안남도 평원군 삼봉리,안주시 연풍리에서 새집들이 진행",
+      "date": "2026-01-10",
+      "snippet": "(평양 1월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/271aad9ead189d7324be16432c4d598f",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2666,
+        "social": 395
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451f14f2bbd9d400190b40aa164e854705c",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/03edce28c2ec0a99007166c64fbf60f125713e36f04ba6f1ac9536b04bea6f79.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9eef383c0804c872f7ccebfa"
+    },
     {
       "id": "news:kcna:f954e75dcacf8b2a6393e0bd",
       "title": "성,중앙기관 일군들 새해 첫 금요로동 진행",
@@ -23,7 +45,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2666,
+        "domestic": 2667,
         "social": 396
       },
       "featuredSections": [],
@@ -44,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2667
+        "domestic": 2668
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2668
+        "domestic": 2669
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,30 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2669
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A285ae68e57b942dd201eed50"
-    },
-    {
-      "id": "news:kcna:af093394f3770be9dbc38205",
-      "title": "경애하는 김정은동지께서 로씨야련방 대통령에게 회답서한을 보내시였다",
-      "date": "2026-01-09",
-      "snippet": "(평양 1월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/dd2197c53cded5ed6bb9a7299e185180",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 328,
-        "foreign": 429,
         "domestic": 2670
       },
       "featuredSections": [],
@@ -115,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aaf093394f3770be9dbc38205"
+      "detailUrl": "/news/document?id=news%3Akcna%3A285ae68e57b942dd201eed50"
     }
   ]
 }

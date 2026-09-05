@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 350,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:c580cbc72685b2d694f0172f",
+      "title": "평양시청년학생들의 연단 진행",
+      "date": "2026-04-04",
+      "snippet": "(평양 4월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8bf817618e49dc1f8cbdaa9bc00fad96",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1745
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac580cbc72685b2d694f0172f"
+    },
     {
       "id": "news:kcna:48dff09840e4ced3db328195",
       "title": "평안남도,황해남도,량강도의 대학졸업생들 당결정관철의 전구들로 탄원",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1745,
+        "domestic": 1746,
         "social": 183
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1746
+        "domestic": 1747
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1747
+        "domestic": 1748
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1748
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8e4bc16d958868d5769491d1"
-    },
-    {
-      "id": "news:kcna:01dbf1396a6de2d2358535e2",
-      "title": "황주군식료공장에서 수십가지의 새 제품 생산",
-      "date": "2026-04-03",
-      "snippet": "(평양 4월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2634539b2ae32203ecd6e99f4980ce30",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1749
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A01dbf1396a6de2d2358535e2"
+      "detailUrl": "/news/document?id=news%3Akcna%3A8e4bc16d958868d5769491d1"
     }
   ]
 }

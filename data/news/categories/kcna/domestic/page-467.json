@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 467,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:c685f5d263bb5d77250789d2",
+      "title": "2.16경축 영화상영주간 개막",
+      "date": "2026-02-11",
+      "snippet": "(평양 2월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/af8cca47021b8db60758e25ff1280f58",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2331
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac685f5d263bb5d77250789d2"
+    },
     {
       "id": "news:kcna:ffd3d7694b05c6bc4228a4b0",
       "title": "각지에서 논판양어를 확대도입하기 위한 대책 강구",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2331
+        "domestic": 2332
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "foreign": 410,
-        "domestic": 2332
+        "domestic": 2333
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2333
+        "domestic": 2334
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2334
+        "domestic": 2335
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A948434fe722638d501b523be"
-    },
-    {
-      "id": "news:kcna:9bc21da6bf773f6359923db1",
-      "title": "전국청년학생들의 백두산지구 혁명전적지답사행군 출발모임 진행",
-      "date": "2026-02-10",
-      "snippet": "(평양 2월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/23bb1b1f1187d88ca624fe1739273000",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2335,
-        "social": 310
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9bc21da6bf773f6359923db1"
     }
   ]
 }

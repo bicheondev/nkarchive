@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 383,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:0f86065d596aafaef203db1b",
+      "title": "전국의 소학교,초급중학교 신입생들을 위한 교복,신발,가방생산 결속",
+      "date": "2026-03-22",
+      "snippet": "(평양 3월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e1cf544da9ce2904160b205e8952afe8",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1911
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0f86065d596aafaef203db1b"
+    },
     {
       "id": "news:kcna:103ad59d0d42be29c88be5da",
       "title": "강원도안의 농촌들에서 봄철영농준비사업 추진",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1911
+        "domestic": 1912
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1912
+        "domestic": 1913
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1913
+        "domestic": 1914
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1914
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2d9ba49857e58df315320dd8"
-    },
-    {
-      "id": "news:kcna:2dfa912959fff19223b1691f",
-      "title": "2026년 3월 21일 신문개관",
-      "date": "2026-03-21",
-      "snippet": "(평양 3월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/571ca5f1e877fd04382116bd88b4c678",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1915
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2dfa912959fff19223b1691f"
+      "detailUrl": "/news/document?id=news%3Akcna%3A2d9ba49857e58df315320dd8"
     }
   ]
 }

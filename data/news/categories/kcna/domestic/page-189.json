@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 189,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:84027097636911a747bf648e",
+      "title": "2026년 6월 12일 신문개관",
+      "date": "2026-06-12",
+      "snippet": "(평양 6월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/918a03fa21ed36d5e1226b593764187b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 940
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A84027097636911a747bf648e"
+    },
     {
       "id": "news:kcna:b532ba331b409e504b940c34",
       "title": "경애하는 김정은동지께서 로씨야련방 대통령에게 축전을 보내시였다",
@@ -26,7 +46,7 @@
       "categoryOrders": {
         "important": 92,
         "foreign": 147,
-        "domestic": 940
+        "domestic": 941
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,7 +68,7 @@
       ],
       "categoryOrders": {
         "important": 93,
-        "domestic": 941
+        "domestic": 942
       },
       "featuredSections": [],
       "hasImage": true,
@@ -70,7 +90,7 @@
       ],
       "categoryOrders": {
         "foreign": 148,
-        "domestic": 942
+        "domestic": 943
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,7 +112,7 @@
       ],
       "categoryOrders": {
         "foreign": 149,
-        "domestic": 943
+        "domestic": 944
       },
       "featuredSections": [],
       "hasImage": true,
@@ -100,26 +120,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e3fb75f3a286b5e14f0a6f74f3edea1aad",
       "cachedThumbnailUrl": "/data/news/assets/kcna/fd5f29e91b5d9da7e0bbd87974e48fcacefdd310731361743ea59aeeefe601bb.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A77db622c7576838ce52e4fdb"
-    },
-    {
-      "id": "news:kcna:404d15c43f69c5af6a3e3236",
-      "title": "량강도에서 삼수호에 건설장비 및 자재수송용짐배 진수",
-      "date": "2026-06-12",
-      "snippet": "(평양 6월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2e9a450571c606b82d50c58ce674f19f",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 944
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A404d15c43f69c5af6a3e3236"
     }
   ]
 }

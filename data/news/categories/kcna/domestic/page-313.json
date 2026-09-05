@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 313,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:6c4af15d84f51779d4aa07df",
+      "title": "어린이들과 학생들을 위한 전문적인 학습장생산기지",
+      "date": "2026-04-18",
+      "snippet": "(평양 4월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/198791d29c0f321698ab2358ffdc8e05",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1560
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b662f89072f9715c6a4cac8f083bb724699",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/e28976d141d22e7fa68268df536add424bc279f687f7ea11e7df28302ce99aa6.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6c4af15d84f51779d4aa07df"
+    },
     {
       "id": "news:kcna:64ac2fd866ddc1769b353fa2",
       "title": "경애하는 김정은동지의 령도따라 신심드높이 나아가는 우리의 진군을 막을 힘 세상에 없다고 《로동신문》 강조",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1560
+        "domestic": 1561
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1561
+        "domestic": 1562
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1562,
+        "domestic": 1563,
         "social": 157
       },
       "featuredSections": [],
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1563
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4a79474ca615e27bfabbf49b"
-    },
-    {
-      "id": "news:kcna:861dabd9db252563d02d5ab1",
-      "title": "황해남도의 농촌들에서 밀,보리비배관리에 력량 집중",
-      "date": "2026-04-18",
-      "snippet": "(평양 4월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/13647d489f4bf544b721b655542f3f44",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1564
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A861dabd9db252563d02d5ab1"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4a79474ca615e27bfabbf49b"
     }
   ]
 }

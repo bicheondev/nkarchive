@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 529,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:c86835d0a7d31d7d11587e4d",
+      "title": "원산어구종합공장 준공",
+      "date": "2026-01-13",
+      "snippet": "(평양 1월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/076ac79e612fe685149da2d0d056e60b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2641
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac86835d0a7d31d7d11587e4d"
+    },
     {
       "id": "news:kcna:8c6963cbde559ad830202599",
       "title": "국가과학원 흑색금속연구소에서 황해제철련합기업소의 합금철로를 에네르기절약형으로 개조",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2641
+        "domestic": 2642
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2642
+        "domestic": 2643
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2643
+        "domestic": 2644
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2644,
+        "domestic": 2645,
         "social": 390
       },
       "featuredSections": [],
@@ -92,26 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e4516ce40fe2c93000ea85c806e727013a72",
       "cachedThumbnailUrl": "/data/news/assets/kcna/caeaafdfed58b4a15f3161e411bbb7a3ce36263866ba61c19390951ddbc5b550.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ac86dabc3ad3e0948b628dab4"
-    },
-    {
-      "id": "news:kcna:52f98be48d444c21f862a5db",
-      "title": "각지에서 새해 첫 체육의 날을 맞으며 대중체육활동 진행",
-      "date": "2026-01-12",
-      "snippet": "(평양 1월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/87fbd7d68945955aeb3992e529403c0f",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2645
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451a51d05aed2d495953423a43f05063c47",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/70fecbc1fd147518b446b0c25da14632b788f8fb8791d394c18bdb54c8800af9.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A52f98be48d444c21f862a5db"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 323,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:ccc63454758c50f3e97ea6b8",
+      "title": "2026년 4월 14일 신문개관",
+      "date": "2026-04-14",
+      "snippet": "(평양 4월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/92cc760c62e17584f22fd516730d6353",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1610
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Accc63454758c50f3e97ea6b8"
+    },
     {
       "id": "news:kcna:ebd3dd9ae74c309d260b47fb",
       "title": "경애하는 김정은동지께 우리 나라 주재 외교단과 무관단이 꽃바구니와 축하편지를 드리였다",
@@ -26,7 +46,7 @@
       "categoryOrders": {
         "important": 167,
         "foreign": 258,
-        "domestic": 1610
+        "domestic": 1611
       },
       "featuredSections": [],
       "hasImage": true,
@@ -48,7 +68,7 @@
       ],
       "categoryOrders": {
         "foreign": 260,
-        "domestic": 1611
+        "domestic": 1612
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,7 +88,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1612
+        "domestic": 1613
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,26 +110,6 @@
       ],
       "categoryOrders": {
         "important": 169,
-        "domestic": 1613
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab15d63ccfa3ca8e21084e998"
-    },
-    {
-      "id": "news:kcna:a9f067f4526c76eb775fa911",
-      "title": "국제경기들에서 우수한 성적을 쟁취한 선수,감독들과 관계성원들에 대한 국가표창수여모임 진행",
-      "date": "2026-04-14",
-      "snippet": "(평양 4월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/bd9b1c1752ec2023aa8af11deb5de6b8",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1614
       },
       "featuredSections": [],
@@ -117,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa9f067f4526c76eb775fa911"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab15d63ccfa3ca8e21084e998"
     }
   ]
 }

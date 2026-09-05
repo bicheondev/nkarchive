@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 199,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:85115aaed1618aa3c87dbfa7",
+      "title": "함경북도송배전부에서 전력관리의 과학화수준 제고",
+      "date": "2026-06-06",
+      "snippet": "(평양 6월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ae8b3e6e83c09ab26b5e8a3d5881550d",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 990
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A85115aaed1618aa3c87dbfa7"
+    },
     {
       "id": "news:kcna:35ed35645a3b28e4d91cc9da",
       "title": "남포시에서 원료기지들의 물질기술적토대 강화",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 990
+        "domestic": 991
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 991
+        "domestic": 992
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 992
+        "domestic": 993
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 993
+        "domestic": 994
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,26 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A4316fdea2789068bc8580c7d"
-    },
-    {
-      "id": "news:kcna:b4e5309b89a54054590ba5d9",
-      "title": "조선소년단창립 80돐기념 학생소년들의 종합공연 진행",
-      "date": "2026-06-06",
-      "snippet": "(평양 6월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3b8e04f7ead62c9d51bbcbe15c1e9212",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 994
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e356b12494dee08c7c2c42823b6918eb76",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/c0c9fbb26ccc9d60ad8fbc5a2d7d3e7e117329f0e483fb259c5a488326a853c3.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab4e5309b89a54054590ba5d9"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 570,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:bdafd775c10767066d9b9349",
+      "title": "토지정리돌격대에서 올해 수천정보의 토지를 정리",
+      "date": "2025-12-21",
+      "snippet": "(평양 12월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5b8cc81818ebe49368214dbfd8159f67",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2846
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abdafd775c10767066d9b9349"
+    },
     {
       "id": "news:kcna:b41504c624c9d4ab289d9910",
       "title": "황해북도에서 우수한 교수자원을 농촌학교들에 보급",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2846
+        "domestic": 2847
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2847
+        "domestic": 2848
       },
       "featuredSections": [],
       "hasImage": true,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2848,
+        "domestic": 2849,
         "social": 437
       },
       "featuredSections": [],
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2849
+        "domestic": 2850
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,26 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ffabb96702bf5ca4420778e7718e9f436d",
       "cachedThumbnailUrl": "/data/news/assets/kcna/44ceedeee54ef5a87e70f72debde3a5da736bff5dec324bf45f0702b28c7839f.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A1ab5ab478638c02a8241f47b"
-    },
-    {
-      "id": "news:kcna:6dc578153a72a8f1f44756b1",
-      "title": "지방공업공장들의 준공경사가 배천군에도 찾아왔다",
-      "date": "2025-12-21",
-      "snippet": "(평양 12월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/16dc20d037c8cd3a90f6008906d20109",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2850
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ff2e1d05e08703b86b39adb2296db99fb4",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/8b925acfde17a4f9c381e7dc265e1640ee5f57c39a019dacb9f1a9d66c56e245.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6dc578153a72a8f1f44756b1"
     }
   ]
 }

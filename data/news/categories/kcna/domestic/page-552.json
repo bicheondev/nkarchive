@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 552,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:015b359d346426061863606d",
+      "title": "2025년 12월 31일 신문개관",
+      "date": "2025-12-31",
+      "snippet": "(평양 12월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/72e3320213dcf97b2fa8e8d4d660e8bd",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2756
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A015b359d346426061863606d"
+    },
     {
       "id": "news:kcna:eff2905e8f15482694684fe7",
       "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 해외동포조직들이 꽃바구니를 보내여왔다",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2756
+        "domestic": 2757
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "foreign": 445,
-        "domestic": 2757
+        "domestic": 2758
       },
       "featuredSections": [],
       "hasImage": true,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2758
+        "domestic": 2759
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2759
+        "domestic": 2760
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ffd11eedf67272359e8b2b123467e5dafc",
       "cachedThumbnailUrl": "/data/news/assets/kcna/b3476883bb0216ead621d61233e669c2c0105251179df8fe234876ebfddcda28.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A470df80d94bb3ee55326455f"
-    },
-    {
-      "id": "news:kcna:98c424644bb2235b2ebabd27",
-      "title": "황해남도 안악군 월지농장,삼천군 추릉농장의 근로자들 현대적인 문화주택에 입사",
-      "date": "2025-12-31",
-      "snippet": "(평양 12월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/dea79058a8e312d7484bab79fe56b11b",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2760,
-        "social": 421
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4bf3695abf11386d20f4982493febaeadeb94febde7574884d983b712a5541aa",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/c036b1f702fa8f70e7493e41425ec7278b1be01dba75079dbab1625966b233be.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A98c424644bb2235b2ebabd27"
     }
   ]
 }

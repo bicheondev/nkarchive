@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 560,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:87557de17788a99ce145c3e3",
+      "title": "신문들 조선민주주의인민공화국 헌법절을 맞으며 론설과 사설 발표",
+      "date": "2025-12-27",
+      "snippet": "(평양 12월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/258739ceea064144ad27d6d152ae61ae",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2796
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A87557de17788a99ce145c3e3"
+    },
     {
       "id": "news:kcna:a14526629e94a3f746cc2f32",
       "title": "염주군에서 지방공업공장들의 준공을 성대히 경축",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2796
+        "domestic": 2797
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2797
+        "domestic": 2798
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2798,
+        "domestic": 2799,
         "social": 427
       },
       "featuredSections": [],
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2799
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aeb02b91fc1cc160335eb99f0"
-    },
-    {
-      "id": "news:kcna:9d85c85f9daf5abbf4671494",
-      "title": "기계공업부문에서 과학기술력을 증대시켜 물질기술적토대 강화",
-      "date": "2025-12-27",
-      "snippet": "(평양 12월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0ff4bf5d160b372b0d26ab10c931cf2e",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2800
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9d85c85f9daf5abbf4671494"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aeb02b91fc1cc160335eb99f0"
     }
   ]
 }

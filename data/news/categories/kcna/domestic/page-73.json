@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 73,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:403ac19c9354f4330e0f66d5",
+      "title": "박태성 내각총리 김종태전기기관차련합기업소와 보산제철소를 현지료해",
+      "date": "2026-08-04",
+      "snippet": "(평양 8월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1297a2bc1a1867cf87b4b4d1da00e654",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 33,
+        "domestic": 360
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29506087ec7b6ba0f3a21ba62d1893a273",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/956ee4a73daa01deae44d755238c96326e283fd47ff1ebc489431050c7e54c27.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A403ac19c9354f4330e0f66d5"
+    },
     {
       "id": "news:kcna:49516c81876794d59169bc5b",
       "title": "조선민주주의인민공화국 외무성 대변인 미국이 주장하는 《싸이버위협설》을 무근거한 중상모략으로 일축",
@@ -26,7 +48,7 @@
       "categoryOrders": {
         "important": 34,
         "foreign": 50,
-        "domestic": 360
+        "domestic": 361
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +68,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 361
+        "domestic": 362
       },
       "featuredSections": [],
       "hasImage": true,
@@ -67,7 +89,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 362,
+        "domestic": 363,
         "social": 48
       },
       "featuredSections": [],
@@ -88,26 +110,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 363
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8cedc7f7dceed44f7773d765"
-    },
-    {
-      "id": "news:kcna:0b269901fa360aaa57a684f3",
-      "title": "홰불컵축구경기 시작",
-      "date": "2026-08-03",
-      "snippet": "(평양 8월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/79bdeea82ca403c7baf43d99555d49cd",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 364
       },
       "featuredSections": [],
@@ -115,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0b269901fa360aaa57a684f3"
+      "detailUrl": "/news/document?id=news%3Akcna%3A8cedc7f7dceed44f7773d765"
     }
   ]
 }

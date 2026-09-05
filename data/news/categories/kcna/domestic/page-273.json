@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 273,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:4d40518e1ee8d8d9e616decc",
+      "title": "회창군산림경영소에서 나무모생산의 과학화,집약화수준 제고",
+      "date": "2026-05-04",
+      "snippet": "(평양 5월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/61c3680e3cde9cc4fb5d5eb5ba461db8",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1360
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4d40518e1ee8d8d9e616decc"
+    },
     {
       "id": "news:kcna:244500ce23a0cd0f736e417c",
       "title": "모내기와 밭작물비배관리기술전습회 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1360
+        "domestic": 1361
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1361,
+        "domestic": 1362,
         "social": 142
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1362
+        "domestic": 1363
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1363
+        "domestic": 1364
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,30 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064d7a83410e91e286a754121175177aea7",
       "cachedThumbnailUrl": "/data/news/assets/kcna/f840ffb4ebe8723060c5595b73d9b57543216cb7477dae5a34ce493530f317b0.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A1dc5b0e29c32708eefc76117"
-    },
-    {
-      "id": "news:kcna:f21f1f82121950e7aad04bf7",
-      "title": "조선민주주의인민공화국 외무성 대변인대답",
-      "date": "2026-05-03",
-      "snippet": "(평양 5월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f3f24b7b0e4684dc79ac4ef6b3b17491",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 130,
-        "foreign": 201,
-        "domestic": 1364
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af21f1f82121950e7aad04bf7"
     }
   ]
 }

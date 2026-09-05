@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 126,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:256f7c199bbc2c3d26f7fc38",
+      "title": "조선사회주의녀성동맹 제8차대회 참가자들 평양에 도착",
+      "date": "2026-07-12",
+      "snippet": "(평양 7월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c819bbc072b215572a98b3757c8f7dea",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 625
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dba4b0cb1a1cebea2ad5cea971db41a54",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/85c1ea1ededa9db9cb15816922f401b733845e308171fcc7b63efea4a44a5b2e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A256f7c199bbc2c3d26f7fc38"
+    },
     {
       "id": "news:kcna:5975db10c7e3e5fc641ef67c",
       "title": "전승의 7.27을 안아온 군사적기적들--월미도용사들의 위훈",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 625
+        "domestic": 626
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 626
+        "domestic": 627
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 627
+        "domestic": 628
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 628
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A51dd61fbf461709b6767ffca"
-    },
-    {
-      "id": "news:kcna:5f94d95c30f7575100ac5158",
-      "title": "함경남도에서 자연재해대응능력을 강화하기 위한 대책 강구",
-      "date": "2026-07-11",
-      "snippet": "(평양 7월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/15ac5df862aa3d795edf5ef82aa00dc4",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 629
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5f94d95c30f7575100ac5158"
+      "detailUrl": "/news/document?id=news%3Akcna%3A51dd61fbf461709b6767ffca"
     }
   ]
 }

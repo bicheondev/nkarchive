@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 118,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:298ff7d1491462864831c36d",
+      "title": "2026년 7월 15일 신문개관",
+      "date": "2026-07-15",
+      "snippet": "(평양 7월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c47c3f5e9c7b30909e2dc5f69f7f5080",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 585
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A298ff7d1491462864831c36d"
+    },
     {
       "id": "news:kcna:9ddfede9a45ebe9b54fa2da1",
       "title": "조선사회주의녀성동맹 제8차대회 진행",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "important": 59,
-        "domestic": 585
+        "domestic": 586
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "important": 60,
-        "domestic": 586
+        "domestic": 587
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 587
+        "domestic": 588
       },
       "featuredSections": [],
       "hasImage": true,
@@ -88,7 +108,7 @@
       ],
       "categoryOrders": {
         "foreign": 90,
-        "domestic": 588
+        "domestic": 589
       },
       "featuredSections": [],
       "hasImage": true,
@@ -96,26 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d9c11e7d8f19b53b661ed227990f9629c",
       "cachedThumbnailUrl": "/data/news/assets/kcna/90bfa898e2e204bea0628a16c18fb8bd9aa9905f3fec8072be6139e8da59f1cd.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A0b937229a19ffd4b56dfb8d1"
-    },
-    {
-      "id": "news:kcna:d015d6159342abe32217bdd3",
-      "title": "총련의 대표단,방문단 도착",
-      "date": "2026-07-15",
-      "snippet": "(평양 7월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1c3fb695aa0aee495ba69d1618f1541c",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 589
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d3307f8922b42f5ab98fdc0549ccce715",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/123eaa6ea2493313cbf78af35c64d559820a0c58cb67c4af2c4289cc38868909.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad015d6159342abe32217bdd3"
     }
   ]
 }

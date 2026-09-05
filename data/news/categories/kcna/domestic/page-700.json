@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 700,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:15606c0465abbed2eebb14db",
+      "title": "제19차 전국기계설계축전 개막",
+      "date": "2025-10-25",
+      "snippet": "(평양 10월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b4761d4bfc4c24a8b3b9ec8e5deeadcd",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3496
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A15606c0465abbed2eebb14db"
+    },
     {
       "id": "news:kcna:b8423917d5147dfc84e3c385",
       "title": "전국건설부문,음향부문 과학기술발표회 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3496
+        "domestic": 3497
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "foreign": 550,
-        "domestic": 3497
+        "domestic": 3498
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3498
+        "domestic": 3499
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3499
+        "domestic": 3500
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A4d04eaee08a7ece6f95ec2a4"
-    },
-    {
-      "id": "news:kcna:59a65abdb42f762d8c77c2ca",
-      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상을 찾아 로씨야청년친선참관단 성원들 경모의 정 표시",
-      "date": "2025-10-24",
-      "snippet": "(평양 10월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/dcda3b049443f7a33ea8ca844d63365d",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 551,
-        "domestic": 3500
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c126ddf65ec2a286deb68a2aca66b38531d",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/a1074d79bf3e05e9a7614243a44cc915ab02255462b0347bf88fa21c07232c02.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A59a65abdb42f762d8c77c2ca"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 362,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:2ab818d9c1889b123cd844a9",
+      "title": "새 보금자리로 들어서는 주인들로 새별거리가 련일 흥성이고있다",
+      "date": "2026-03-30",
+      "snippet": "(평양 3월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e9258e8edb732c1f16a92992647872ec",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "important": 195,
+        "domestic": 1806,
+        "social": 198
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60304d3d6403bdd406d0eae93aa84ab95a",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/22cc724cbd08151367850dacea43bc6b0f9b0e03de90c36ef4f893d3010cf20e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2ab818d9c1889b123cd844a9"
+    },
     {
       "id": "news:kcna:092a82fcc5796358d1016916",
       "title": "2026년 3월 30일 《로동신문》개관",
@@ -22,7 +46,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1806
+        "domestic": 1807
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1807
+        "domestic": 1808
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1808
+        "domestic": 1809
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +108,6 @@
       ],
       "categoryOrders": {
         "foreign": 304,
-        "domestic": 1809
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aced0632f4771992a0340b9f2"
-    },
-    {
-      "id": "news:kcna:7ccfdaaac593336c82adc435",
-      "title": "무산광산련합기업소에서 120만산대발파 성과적으로 단행",
-      "date": "2026-03-30",
-      "snippet": "(평양 3월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6ed8440c5d4b6ebfc14e65ed06dc44ba",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1810
       },
       "featuredSections": [],
@@ -111,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7ccfdaaac593336c82adc435"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aced0632f4771992a0340b9f2"
     }
   ]
 }

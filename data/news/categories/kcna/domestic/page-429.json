@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 429,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:937dbc99266f04488f156151",
+      "title": "제39차 김일성종합대학 과학기술축전 진행",
+      "date": "2026-02-28",
+      "snippet": "(평양 2월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bea5e9c09cb3d00e9a063d7ae0779204",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2141
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A937dbc99266f04488f156151"
+    },
     {
       "id": "news:kcna:8c78b5a75df0e9f54949b239",
       "title": "락원군바다가양식사업소에서 준공후 수백t의 만밥조개와 미역 수확",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2141
+        "domestic": 2142
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2142
+        "domestic": 2143
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2143
+        "domestic": 2144
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2144,
+        "domestic": 2145,
         "social": 265
       },
       "featuredSections": [],
@@ -92,26 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/67d9946ed8d7f8ce0dc8324543af2bb0febdd994fd40661026fed3f158302514",
       "cachedThumbnailUrl": "/data/news/assets/kcna/eade957f8a24fdef408609f43482ee61fa80b2fd517f00c557f370345fa29ba3.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ac433c1df18a264d884593bf9"
-    },
-    {
-      "id": "news:kcna:5ec1542cec2a0a4fc76d618f",
-      "title": "조선로동당 제9차대회 참가자들 정치문화사업 진행",
-      "date": "2026-02-28",
-      "snippet": "(평양 2월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/63a49b6e1ea7c084a5d85bb0cdb36912",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2145
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/67d9946ed8d7f8ce0dc8324543af2bb0fbfeedd980b62ff9e9d7af1579fe662a",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/93085d6a564e07549b6b648eaa604c9d3aa3b68f8e40f503b54d69a921241544.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5ec1542cec2a0a4fc76d618f"
     }
   ]
 }

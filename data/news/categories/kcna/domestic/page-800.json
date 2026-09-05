@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 800,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:a91e432b5eb5bd59583562c1",
+      "title": "2025년 9월 20일 신문개관",
+      "date": "2025-09-20",
+      "snippet": "(평양 9월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/96a7995781993fad5b629602869d7268",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3996
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa91e432b5eb5bd59583562c1"
+    },
     {
       "id": "news:kcna:52e37944d7ea1d8972e1c0f4",
       "title": "황해남도에서 해주-재령도로개건공사 결속,개통식 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3996
+        "domestic": 3997
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3997,
+        "domestic": 3998,
         "social": 648
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3998
+        "domestic": 3999
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,7 +105,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3999,
+        "domestic": 4000,
         "social": 649
       },
       "featuredSections": [],
@@ -94,28 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ad237700b32f8d2e34b034ee1"
-    },
-    {
-      "id": "news:kcna:4719c96008d98bf90b9d87f4",
-      "title": "평양시안의 일군들과 근로자들 수도의 면모를 일신",
-      "date": "2025-09-20",
-      "snippet": "(평양 9월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3cf8c80c441661b4a77dfc761f7eda3b",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 4000,
-        "social": 650
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4719c96008d98bf90b9d87f4"
     }
   ]
 }

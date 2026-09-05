@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 471,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:93ccefa8f7ec054e1670721b",
+      "title": "조선인민군창건 78돐경축 청년학생들의 무도회 진행",
+      "date": "2026-02-09",
+      "snippet": "(평양 2월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/28d8e31fb082b4cf6fe9a7a964bc7668",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2351,
+        "social": 314
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366f50fdbc826de6be23ff17a3c4103b1bc",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/f8baa8bb2356c86fc3c851df4399cfab0174e323d5d6def601146f26e976397a.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A93ccefa8f7ec054e1670721b"
+    },
     {
       "id": "news:kcna:58c00a3a0f85626093384b0c",
       "title": "흥남비료련합기업소에서 기술혁신사업 활발",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2351
+        "domestic": 2352
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2352
+        "domestic": 2353
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2353
+        "domestic": 2354
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2354
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac60ee2be644f22acfd84eee0"
-    },
-    {
-      "id": "news:kcna:bfb4b5f28b890b95bef6ed62",
-      "title": "최정예혁명강군으로 위용떨치는 조선인민군",
-      "date": "2026-02-08",
-      "snippet": "(평양 2월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/92bfe58f874c6cb1e9e010f77310027f",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2355
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abfb4b5f28b890b95bef6ed62"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac60ee2be644f22acfd84eee0"
     }
   ]
 }

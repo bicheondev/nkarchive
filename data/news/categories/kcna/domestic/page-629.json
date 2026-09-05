@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 629,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:81a321c7af9287adc9d5f1ce",
+      "title": "평양시 형제산구역 형산남새농장에 지난해에 이어 또다시 현대적인 문화주택들이 일떠섰다",
+      "date": "2025-11-23",
+      "snippet": "(평양 11월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c92501f670eea18cd1807c3d34e680c3",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 3141,
+        "social": 497
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eace5263ccc6bc6b003af225bc32d4c7987",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/19c6032fafcc27389404e5543115590847c0052e5c19c4fa4eefb1555d0ea21e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A81a321c7af9287adc9d5f1ce"
+    },
     {
       "id": "news:kcna:2b425164fba1c9f6d064a537",
       "title": "황해남도에서 교육조건과 환경개선을 위한 사업 적극화",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3141
+        "domestic": 3142
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3142
+        "domestic": 3143
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3143
+        "domestic": 3144
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3144
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab2c2a589dbe6ef02a7d6caae"
-    },
-    {
-      "id": "news:kcna:9c71222c404dd14a88762954",
-      "title": "《전국농업부문 기술경험발표 및 과학연구성과전시회》 진행",
-      "date": "2025-11-22",
-      "snippet": "(평양 11월 22일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e064318e7bfa02c0da5b7595a254ea53",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3145
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9c71222c404dd14a88762954"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab2c2a589dbe6ef02a7d6caae"
     }
   ]
 }

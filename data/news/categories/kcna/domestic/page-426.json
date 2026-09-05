@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 426,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:8db22e5c1c1da107395ec12b",
+      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
+      "date": "2026-03-01",
+      "snippet": "(평양 3월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/53575847da5236a74844e7217bc85cbc",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 259,
+        "document": 39,
+        "domestic": 2126
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8db22e5c1c1da107395ec12b"
+    },
     {
       "id": "news:kcna:6bbb54143d75946c1816bf68",
       "title": "우리 나라의 3월 절기와 민속",
@@ -22,7 +46,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2126
+        "domestic": 2127
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2127
+        "domestic": 2128
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2128
+        "domestic": 2129
       },
       "featuredSections": [],
       "hasImage": true,
@@ -83,7 +107,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2129,
+        "domestic": 2130,
         "social": 261
       },
       "featuredSections": [],
@@ -92,26 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A33fa490f615bc0c6c54fdaec"
-    },
-    {
-      "id": "news:kcna:dfc14843f3512b1a5cbd10eb",
-      "title": "상원세멘트련합기업소에서 2월 인민경제계획 완수",
-      "date": "2026-03-01",
-      "snippet": "(평양 3월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/791651efdaabefc1301c398eafd54b7a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2130
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adfc14843f3512b1a5cbd10eb"
     }
   ]
 }

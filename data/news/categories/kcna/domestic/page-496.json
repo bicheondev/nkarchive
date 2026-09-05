@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 496,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:5e71f8c8d00aa1b983c90655",
+      "title": "경암목재가공공장 준공",
+      "date": "2026-01-28",
+      "snippet": "(평양 1월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1046f2432573ba9b5eac321341ae8c1e",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2476
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5e71f8c8d00aa1b983c90655"
+    },
     {
       "id": "news:kcna:bfa7f7030b17031c656d24aa",
       "title": "《김정일전집》 제69권 출판",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2476
+        "domestic": 2477
       },
       "featuredSections": [],
       "hasImage": true,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2477,
+        "domestic": 2478,
         "social": 337
       },
       "featuredSections": [],
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2478,
+        "domestic": 2479,
         "social": 338
       },
       "featuredSections": [],
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2479
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A772e31057e53434309f50b2a"
-    },
-    {
-      "id": "news:kcna:f79952b146de131be09f6334",
-      "title": "국가과학기술위원회에서 과학기술발전을 위한 사업 추진",
-      "date": "2026-01-27",
-      "snippet": "(평양 1월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8b88202ce68f918ac71b06a58c21078e",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2480
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af79952b146de131be09f6334"
+      "detailUrl": "/news/document?id=news%3Akcna%3A772e31057e53434309f50b2a"
     }
   ]
 }

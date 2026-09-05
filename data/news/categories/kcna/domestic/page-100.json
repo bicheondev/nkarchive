@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 100,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:58a4921c1212c5199ecc9f3e",
+      "title": "화성지구 5단계 건설 본격적으로 추진",
+      "date": "2026-07-22",
+      "snippet": "(평양 7월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/185663a791f98e2f786b8672060d2a62",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 495
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A58a4921c1212c5199ecc9f3e"
+    },
     {
       "id": "news:kcna:786d07db8546a72662f70c72",
       "title": "평안북도간석지건설종합기업소에서 일해간석지 1차물막이공사를 기한전에 결속할수 있는 담보 마련",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 495
+        "domestic": 496
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 496
+        "domestic": 497
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "foreign": 64,
-        "domestic": 497
+        "domestic": 498
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 498
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aac47aff9da9c137fe5f3a7ab"
-    },
-    {
-      "id": "news:kcna:105700236fa58b1daaeec3b4",
-      "title": "전승의 7.27을 안아온 군사적기적들--새로운 독창적인 군사전법-갱도전",
-      "date": "2026-07-22",
-      "snippet": "(평양 7월 22일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/49d3629ddca2e123fafcd092cd6878cd",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 499
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A105700236fa58b1daaeec3b4"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aac47aff9da9c137fe5f3a7ab"
     }
   ]
 }

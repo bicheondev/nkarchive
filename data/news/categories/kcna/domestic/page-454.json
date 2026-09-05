@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 454,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:841320acbd9da03a7c1525ee",
+      "title": "우리 나라의 광천자원-온천",
+      "date": "2026-02-16",
+      "snippet": "(평양 2월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f171d6ed918cd795012de296722d78b4",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2266
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf36681755a823447d23227c6d8987d47d14b",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/31bb559d43fe0fe84fa770bd6ba5edee3f4c5b48792ad49c0f614235f580c988.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A841320acbd9da03a7c1525ee"
+    },
     {
       "id": "news:kcna:0bfefc20c6dbbda43377d464",
       "title": "위대한 령도자 김정일동지의 탄생 84돐을 맞으며 신문들 사설 발표",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2266
+        "domestic": 2267
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2267
+        "domestic": 2268
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "foreign": 392,
-        "domestic": 2268
+        "domestic": 2269
       },
       "featuredSections": [],
       "hasImage": true,
@@ -86,28 +106,6 @@
       ],
       "categoryOrders": {
         "foreign": 393,
-        "domestic": 2269
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aef96fe44da3ac680f158850d"
-    },
-    {
-      "id": "news:kcna:c811a9de8495fb74a8c713df",
-      "title": "우리 나라 외무상 쓰르비아공화국 외무상에게 축전",
-      "date": "2026-02-16",
-      "snippet": "(평양 2월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ab6128c134ffa025a860c4140233066a",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 394,
         "domestic": 2270
       },
       "featuredSections": [],
@@ -115,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac811a9de8495fb74a8c713df"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aef96fe44da3ac680f158850d"
     }
   ]
 }

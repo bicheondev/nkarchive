@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 139,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:97b54ddeb5d389cbf7aa85ef",
+      "title": "평안북도의 청년들 사회주의건설의 전구들로 탄원",
+      "date": "2026-07-06",
+      "snippet": "(평양 7월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/02dc4aa294655d6493583f230971e93d",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 690,
+        "social": 80
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A97b54ddeb5d389cbf7aa85ef"
+    },
     {
       "id": "news:kcna:0c6db4d260f3d68925668eda",
       "title": "검덕지구 살림집건설장에서 살림집골조공사 결속,지붕공사,내외부미장 추진",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 690
+        "domestic": 691
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 691
+        "domestic": 692
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 692
+        "domestic": 693
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 693
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9f59c387b95cbfc6220c7df7"
-    },
-    {
-      "id": "news:kcna:d362d9888b3a9e2ea317ad3c",
-      "title": "각 도들에서 4.15기술혁신돌격대 도기술혁신경기 전개",
-      "date": "2026-07-06",
-      "snippet": "(평양 7월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f090ea10dd8a4fc91ba07a7635a21d2f",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 694
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad362d9888b3a9e2ea317ad3c"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9f59c387b95cbfc6220c7df7"
     }
   ]
 }

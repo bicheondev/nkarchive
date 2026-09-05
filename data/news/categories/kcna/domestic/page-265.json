@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 265,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:3921a72c4fa349bae62922db",
+      "title": "《로동신문》 3대혁명은 전면적발전의 강위력한 동력이라고 강조",
+      "date": "2026-05-07",
+      "snippet": "(평양 5월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/62486297e7e2e05db48c284f5c9479f6",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1320
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3921a72c4fa349bae62922db"
+    },
     {
       "id": "news:kcna:417f00833c59428e39e8f150",
       "title": "해외군사작전 전투위훈기념관 개관후 열흘동안에만도 23만 2,000여명의 각계층 근로자들과 인민군군인들,청소년학생들이 참관",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "important": 126,
-        "domestic": 1320
+        "domestic": 1321
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1321
+        "domestic": 1322
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1322
+        "domestic": 1323
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +106,7 @@
       ],
       "categoryOrders": {
         "foreign": 195,
-        "domestic": 1323
+        "domestic": 1324
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,28 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A5c7e6dcc255070fb465765be"
-    },
-    {
-      "id": "news:kcna:65ce7ff55e37b86a88fcbc34",
-      "title": "사랑과 정으로 미덕의 화원을 가꿔가는 애국녀성들",
-      "date": "2026-05-07",
-      "snippet": "(평양 5월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/33bea93fad7848ed0e5e868a25fbae45",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 1324,
-        "social": 136
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A65ce7ff55e37b86a88fcbc34"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 208,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:0d5867b16fb10dd780c8dfdd",
+      "title": "평안북도에서 논판양어를 위한 새끼물고기생산성과 확대",
+      "date": "2026-06-03",
+      "snippet": "(평양 6월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d322a398c4b0bbe85425b16a1e25e39e",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1035
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0d5867b16fb10dd780c8dfdd"
+    },
     {
       "id": "news:kcna:cb1a5e492b307612bd21678d",
       "title": "함경북도의 바다가양식장들에서 흐뭇한 다시마작황 마련,매일 수백t씩 수확",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1035
+        "domestic": 1036
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1036
+        "domestic": 1037
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1037
+        "domestic": 1038
       },
       "featuredSections": [],
       "hasImage": true,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1038,
+        "domestic": 1039,
         "social": 109
       },
       "featuredSections": [],
@@ -92,26 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e3ba4abe251c8d7e340170307810e4e0aa",
       "cachedThumbnailUrl": "/data/news/assets/kcna/c4f9ea2720fcb1a84d13854987d894e04fc0da24c6105a91f4a2e96ee7bee949.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A98b4646e1cc4b5b29eb5b0db"
-    },
-    {
-      "id": "news:kcna:ef4cb3c0c408d664b8e6240d",
-      "title": "2026년 6월 2일 신문개관",
-      "date": "2026-06-02",
-      "snippet": "(평양 6월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/11a0d07e80133b0555c0bbb0f99892f0",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1039
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aef4cb3c0c408d664b8e6240d"
     }
   ]
 }

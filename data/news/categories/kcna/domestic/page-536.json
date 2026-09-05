@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 536,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:e2540545fa3fc74d2a5d86c9",
+      "title": "각지 세멘트생산단위에서 생산성과 확대",
+      "date": "2026-01-09",
+      "snippet": "(평양 1월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9ac620848e41bc2f01afe0016200fb9f",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2676
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae2540545fa3fc74d2a5d86c9"
+    },
     {
       "id": "news:kcna:7fe218ce4599b72ea63320f1",
       "title": "평양시안의 학교소년단조직들에서 경제선동활동 활발",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2676,
+        "domestic": 2677,
         "social": 399
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2677
+        "domestic": 2678
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2678
+        "domestic": 2679
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2679
+        "domestic": 2680
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A9a93ef68f67b2c3df8e74b16"
-    },
-    {
-      "id": "news:kcna:a70837e61e40eed62656bdea",
-      "title": "평양시 만경대구역 칠골남새농장,함경남도농촌경리위원회 독산농장에서 새집들이와 공공건물,생산건물 준공식 진행",
-      "date": "2026-01-08",
-      "snippet": "(평양 1월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f2dd4c509ffbf871563ad18b355f3027",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2680,
-        "social": 400
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e45132debc28d14a9afcc9ed478bc5b3bacb",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/006c3884478a2d2959d9dc0e9fa85e7c3c3b8a60fde7245c19daf9d50e85d0b5.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa70837e61e40eed62656bdea"
     }
   ]
 }

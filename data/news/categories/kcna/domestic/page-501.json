@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 501,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:4b6ab72ae45a0a46f7109d4a",
+      "title": "칠골혁명학원 학생들 주요전구들에서 경제선동 진행",
+      "date": "2026-01-26",
+      "snippet": "(평양 1월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cd93721b1e835156e2492ec66709fa5a",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2501,
+        "social": 343
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4b6ab72ae45a0a46f7109d4a"
+    },
     {
       "id": "news:kcna:6dd628c728be52d1025ea18f",
       "title": "평안북도의 청년들 당정책관철의 전구들로 탄원",
@@ -23,7 +45,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2501,
+        "domestic": 2502,
         "social": 344
       },
       "featuredSections": [],
@@ -48,7 +70,7 @@
       "categoryOrders": {
         "important": 314,
         "foreign": 420,
-        "domestic": 2502
+        "domestic": 2503
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +90,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2503
+        "domestic": 2504
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,26 +110,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2504
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5fa9dabf39d27b3edaa32d6e"
-    },
-    {
-      "id": "news:kcna:a5e5b4b30568ee7440df8f3a",
-      "title": "토양피복용 생물분해성종이생산공정확립을 위한 사업 심화",
-      "date": "2026-01-25",
-      "snippet": "(평양 1월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f13b5759a37fdcc987b26ceea64408c4",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2505
       },
       "featuredSections": [],
@@ -115,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa5e5b4b30568ee7440df8f3a"
+      "detailUrl": "/news/document?id=news%3Akcna%3A5fa9dabf39d27b3edaa32d6e"
     }
   ]
 }

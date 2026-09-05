@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 262,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:c7fdd8057ff3e090fddfaa6b",
+      "title": "순천화력발전소에서 전력생산성과 확대",
+      "date": "2026-05-09",
+      "snippet": "(평양 5월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/accc6dd4648075cbc5baf2d4eda9b267",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1305
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac7fdd8057ff3e090fddfaa6b"
+    },
     {
       "id": "news:kcna:2db0b84f7cbd78f11391fad5",
       "title": "수백명의 근로자들에게 모범로동자영예상,모범농업근로자영예상 수여",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1305
+        "domestic": 1306
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1306
+        "domestic": 1307
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1307
+        "domestic": 1308
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1308,
+        "domestic": 1309,
         "social": 135
       },
       "featuredSections": [],
@@ -92,26 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A700e432027437bb6903f6321"
-    },
-    {
-      "id": "news:kcna:2aa8cf6eac2767388d70ae61",
-      "title": "제39차 전국과학기술축전 페막",
-      "date": "2026-05-08",
-      "snippet": "(평양 5월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c37bbe13072f1b48d1081c46579ba1fa",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1309
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2aa8cf6eac2767388d70ae61"
     }
   ]
 }

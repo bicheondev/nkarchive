@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 251,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:51b422831832e6e03757d9df",
+      "title": "혜산젖소목장에서 젖제품생산 증가",
+      "date": "2026-05-14",
+      "snippet": "(평양 5월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/37ee7ac112b198973426d035de66cc81",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1250
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A51b422831832e6e03757d9df"
+    },
     {
       "id": "news:kcna:ad2c9c0312ff17f99cc41432",
       "title": "각지에서 관개용수보장을 위한 대책 강구",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1250
+        "domestic": 1251
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1251
+        "domestic": 1252
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1252
+        "domestic": 1253
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +106,7 @@
       "categoryOrders": {
         "important": 118,
         "foreign": 185,
-        "domestic": 1253
+        "domestic": 1254
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064a56eb7fd6cc551cc1cefe21b6e11b276",
       "cachedThumbnailUrl": "/data/news/assets/kcna/bfd2c6c24ac1dd02e9deba9d9ceef119ed924b6b259c3f08d8b7eb16939d31ea.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A5bd5e55bd40c314d6e93b854"
-    },
-    {
-      "id": "news:kcna:3bca528e75bb8d5626aba44a",
-      "title": "조선직업총동맹 제9차대회 참가자들을 위한 강습 진행",
-      "date": "2026-05-13",
-      "snippet": "(평양 5월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b8953d9e0913640e925ce9cc000ddafd",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1254
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e0000649a37ac09f77cff96d81a33f6a797134f",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/72e86df220fccbfe226c1b65e4d25024e7232ee93a02b80b817401e1a149346c.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3bca528e75bb8d5626aba44a"
     }
   ]
 }

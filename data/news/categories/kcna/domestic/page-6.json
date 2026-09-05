@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 6,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:1be409907a0073454686c4ab",
+      "title": "2026년 9월 3일 신문개관",
+      "date": "2026-09-03",
+      "snippet": "(평양 9월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5bff0f6a7b357d5c084a409555ce477f",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 25
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1be409907a0073454686c4ab"
+    },
     {
       "id": "news:kcna:2d5d69ef7845147035f50ee4",
       "title": "로씨야에 갔던 조선기자동맹대표단 귀국",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "foreign": 2,
-        "domestic": 25
+        "domestic": 26
       },
       "featuredSections": [
         "foreign"
@@ -46,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 26
+        "domestic": 27
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 27
+        "domestic": 28
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 28
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab56113a33f2442c11750709b"
-    },
-    {
-      "id": "news:kcna:324296d7a126a0f6833a3993",
-      "title": "교육혁명의 불길속에 나라의 전반적교육토대 강화",
-      "date": "2026-09-02",
-      "snippet": "(평양 9월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ac40075e799870d4a985f34810ecc645",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 29
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A324296d7a126a0f6833a3993"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab56113a33f2442c11750709b"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 127,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:5f94d95c30f7575100ac5158",
+      "title": "함경남도에서 자연재해대응능력을 강화하기 위한 대책 강구",
+      "date": "2026-07-11",
+      "snippet": "(평양 7월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/15ac5df862aa3d795edf5ef82aa00dc4",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 630
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5f94d95c30f7575100ac5158"
+    },
     {
       "id": "news:kcna:e68233584caab03f1cfbadbb",
       "title": "경애하는 김정은동지께서 평성합성가죽공장을 현지지도하신 10돐 기념보고회 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 630
+        "domestic": 631
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 631
+        "domestic": 632
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +88,7 @@
         "important": 65,
         "document": 10,
         "foreign": 101,
-        "domestic": 632
+        "domestic": 633
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,7 +112,7 @@
       "categoryOrders": {
         "important": 66,
         "foreign": 102,
-        "domestic": 633
+        "domestic": 634
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,30 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aedcda6deb3cabb8725864bba"
-    },
-    {
-      "id": "news:kcna:0203938491e5bc7a8eb3a94f",
-      "title": "조선민주주의인민공화국 당 및 정부대표단 중화인민공화국을 공식방문하기 위하여 평양 출발",
-      "date": "2026-07-11",
-      "snippet": "(평양 7월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/137d3696cc3dbdde7850a74c789485f8",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 72,
-        "foreign": 108,
-        "domestic": 634
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77df5a49859254d14979b6c5a5a716d6197",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/4b209df4c574b9b3dad01f30de7adbbfa45f8c6f1599a71b4d8204d1f0c8090b.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0203938491e5bc7a8eb3a94f"
     }
   ]
 }

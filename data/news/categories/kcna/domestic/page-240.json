@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 240,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:14b35e15e4e93fc8987ed206",
+      "title": "2026년 5월 19일 신문개관",
+      "date": "2026-05-19",
+      "snippet": "(평양 5월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2f458d8a0c5dafda8b7f585265c7ec6e",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1195
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A14b35e15e4e93fc8987ed206"
+    },
     {
       "id": "news:kcna:6bc9a1061a6182f879ab38c0",
       "title": "박태성동지 벌가리아공화국 수상에게 축전",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "foreign": 177,
-        "domestic": 1195
+        "domestic": 1196
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1196
+        "domestic": 1197
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1197
+        "domestic": 1198
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1198
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae93d75c11341a5b01591a3e8"
-    },
-    {
-      "id": "news:kcna:b9e365901984a49e0ecf09ca",
-      "title": "약용가치가 높은 백두산들쭉,그 가공품 널리 리용",
-      "date": "2026-05-18",
-      "snippet": "(평양 5월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/275056a083903420b3cf7cb957e169e0",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1199
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab9e365901984a49e0ecf09ca"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae93d75c11341a5b01591a3e8"
     }
   ]
 }

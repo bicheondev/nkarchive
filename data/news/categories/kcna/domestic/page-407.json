@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 407,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:1a41172eaec32c8a1023f6a8",
+      "title": "조선민주주의인민공화국 외무성 대변인대답",
+      "date": "2026-03-11",
+      "snippet": "(평양 3월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d99b73d394c3d3563f86abb278db96be",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 244,
+        "document": 35,
+        "domestic": 2031
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1a41172eaec32c8a1023f6a8"
+    },
     {
       "id": "news:kcna:7232eef3d4e56d8726369bd1",
       "title": "내각과 경제지도기관들에서 사회주의전면적발전의 새로운 고조국면을 열어나가기 위한 경제조직사업 적극화",
@@ -22,7 +46,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2031
+        "domestic": 2032
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2032
+        "domestic": 2033
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +87,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2033,
+        "domestic": 2034,
         "social": 239
       },
       "featuredSections": [],
@@ -84,7 +108,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2034
+        "domestic": 2035
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,26 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e603619ee0b7b2b2732cee4b9955bdd04e8",
       "cachedThumbnailUrl": "/data/news/assets/kcna/2cbe200fc61a5a04ba439266d4977491a0ad3de5b6b47915f38633560c46a03b.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A1d2c9378670a414af8cc3abe"
-    },
-    {
-      "id": "news:kcna:87ed3d2a983f8989d4c4e165",
-      "title": "전쟁로병과 청진시안의 고급중학교 졸업반학생들의 상봉모임 진행",
-      "date": "2026-03-11",
-      "snippet": "(평양 3월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/956ee1c74a99fddd4d6c0bb2e35c01ad",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2035
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A87ed3d2a983f8989d4c4e165"
     }
   ]
 }

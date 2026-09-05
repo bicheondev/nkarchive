@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 218,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:72dce7618161d8f6b7bcec07",
+      "title": "연풍호기슭에 일떠선 과학자궁전",
+      "date": "2026-05-29",
+      "snippet": "(평양 5월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8b1368a932a81883fd0dc62db1f78fe2",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1085
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A72dce7618161d8f6b7bcec07"
+    },
     {
       "id": "news:kcna:41dd6232235f2594322b8ee1",
       "title": "평양시안의 여러 단위에서 전력리용률 제고",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1085
+        "domestic": 1086
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1086
+        "domestic": 1087
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1087
+        "domestic": 1088
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1088
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0e1293ce53c01c342a355bda"
-    },
-    {
-      "id": "news:kcna:8dce136652ea47c3c1abf097",
-      "title": "황해북도에서 당작물,기름작물재배면적 증가",
-      "date": "2026-05-29",
-      "snippet": "(평양 5월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fe00c7825c392e89827135554cfd24c7",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1089
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8dce136652ea47c3c1abf097"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0e1293ce53c01c342a355bda"
     }
   ]
 }

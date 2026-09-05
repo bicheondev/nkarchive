@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 360,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:6a170873ce12806801faef67",
+      "title": "조용원동지가 로씨야 따쓰통신사대표단을 만났다",
+      "date": "2026-03-31",
+      "snippet": "(평양 3월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8feb5b67e9d40021eb718f73779d75a1",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 194,
+        "foreign": 301,
+        "domestic": 1796
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e602cc10535815c84a0f1dd525d399d901d",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/a3b5d5ce1f6aa963d8d0424ab16f860757346867a8394d3ac697b3f5e83bdbcd.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6a170873ce12806801faef67"
+    },
     {
       "id": "news:kcna:8be47972afbbbcbb2ae517aa",
       "title": "로씨야 따쓰통신사대표단 만경대 방문,여러곳 참관",
@@ -24,7 +48,7 @@
       ],
       "categoryOrders": {
         "foreign": 302,
-        "domestic": 1796
+        "domestic": 1797
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +68,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1797
+        "domestic": 1798
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,7 +89,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1798,
+        "domestic": 1799,
         "social": 193
       },
       "featuredSections": [],
@@ -87,7 +111,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1799,
+        "domestic": 1800,
         "social": 194
       },
       "featuredSections": [],
@@ -96,26 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A291ea55aca66a90b46bc9762"
-    },
-    {
-      "id": "news:kcna:722683c1862321915f08ab25",
-      "title": "황해남도에서 가물피해를 최소화하는데 총력 집중",
-      "date": "2026-03-31",
-      "snippet": "(평양 3월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ec0d27f8117b274c17228ee3bcb07a90",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1800
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A722683c1862321915f08ab25"
     }
   ]
 }

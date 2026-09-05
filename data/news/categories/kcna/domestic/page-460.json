@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 460,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:a967b1d378331061c64dcf78",
+      "title": "제3차 2.16경축 인민예술축전 개막",
+      "date": "2026-02-14",
+      "snippet": "(평양 2월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ae0fc8d7578d0de070f301199a8f76fb",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2296
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366bfa5a438b955daf403affa31526bfb67",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/b73b64528dc90bc1f12ad11abf677581147c0377d75dc909426f0599dcde10a6.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa967b1d378331061c64dcf78"
+    },
     {
       "id": "news:kcna:186a963f92c2ddd682d7ffe1",
       "title": "사회주의애국청년선구자들과 청년학생들의 상봉모임 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2296
+        "domestic": 2297
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2297
+        "domestic": 2298
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2298
+        "domestic": 2299
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,7 +105,7 @@
       ],
       "categoryOrders": {
         "foreign": 400,
-        "domestic": 2299,
+        "domestic": 2300,
         "social": 304
       },
       "featuredSections": [],
@@ -94,26 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Acfd002da40fa14389fb9b8b9"
-    },
-    {
-      "id": "news:kcna:fadc89e73a480842f65fc510",
-      "title": "김정일청년영예상,김정일소년영예상 수여모임 진행",
-      "date": "2026-02-13",
-      "snippet": "(평양 2월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a445b355d74cd893cedf28074b270d21",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2300
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afadc89e73a480842f65fc510"
     }
   ]
 }

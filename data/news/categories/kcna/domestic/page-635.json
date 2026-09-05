@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 635,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:545ac302f2f0ebe95187a964",
+      "title": "황해북도에서 지방발전정책실행을 위한 경제림면적 확장",
+      "date": "2025-11-20",
+      "snippet": "(평양 11월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5f3b979d0d1fff9056569b5771b90b68",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3171
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A545ac302f2f0ebe95187a964"
+    },
     {
       "id": "news:kcna:f91310bf8d29be85391e9637",
       "title": "남포시 천리마구역 고창농장에 새 살림집들이 또다시 일떠섰다",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3171,
+        "domestic": 3172,
         "social": 506
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3172
+        "domestic": 3173
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3173
+        "domestic": 3174
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3174
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A700a52fd6c1ce577518af75e"
-    },
-    {
-      "id": "news:kcna:2c51eb181b20781e9da18aa0",
-      "title": "일제의 만고죄악을 고발하는 불법비법의 협잡문서",
-      "date": "2025-11-19",
-      "snippet": "(평양 11월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/61129c6a7b08833101579c76f55bf730",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3175
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2c51eb181b20781e9da18aa0"
+      "detailUrl": "/news/document?id=news%3Akcna%3A700a52fd6c1ce577518af75e"
     }
   ]
 }

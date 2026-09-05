@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 11,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:0b1c496a8e6017fa423471f0",
+      "title": "평양화력발전소에서 지난해보다 전력생산 1.1배이상 증가,매월 많은 석탄 절약",
+      "date": "2026-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4a10433f4ae692563deaf10fe542982c",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 50
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0b1c496a8e6017fa423471f0"
+    },
     {
       "id": "news:kcna:1d9cb93206d85669d063253c",
       "title": "개성시에서 청년돌격대원들을 당결정관철을 위한 실천투쟁에로 고무",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 50,
+        "domestic": 51,
         "social": 4
       },
       "featuredSections": [
@@ -46,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 51
+        "domestic": 52
       },
       "featuredSections": [],
       "hasImage": false,
@@ -72,7 +92,7 @@
         "important": 3,
         "document": 0,
         "foreign": 5,
-        "domestic": 52
+        "domestic": 53
       },
       "featuredSections": [
         "important",
@@ -96,26 +116,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 53
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac329857a85e2206a327c0c32"
-    },
-    {
-      "id": "news:kcna:c265de1d9706bf5776a25e28",
-      "title": "국가과학원 생물공학분원에서 새로운 수질정화기술 개발",
-      "date": "2026-08-31",
-      "snippet": "(평양 8월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/eb37d35a01b8ce27532de9b1bd5a9d74",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 54
       },
       "featuredSections": [],
@@ -123,7 +123,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac265de1d9706bf5776a25e28"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac329857a85e2206a327c0c32"
     }
   ]
 }

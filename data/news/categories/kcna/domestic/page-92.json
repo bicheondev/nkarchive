@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 92,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:90fb22e0ef2dd799b18a7002",
+      "title": "평안남도의 탄광청년돌격대들에서 대중운동열기 고조",
+      "date": "2026-07-25",
+      "snippet": "(평양 7월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/074c7aba3227f32ad5a90a22dcd1b8d9",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 455
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A90fb22e0ef2dd799b18a7002"
+    },
     {
       "id": "news:kcna:3857cba4beafa22adf23a341",
       "title": "전국건설부문 과학기술발표회 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 455
+        "domestic": 456
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 456
+        "domestic": 457
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 457
+        "domestic": 458
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
       ],
       "categoryOrders": {
         "important": 41,
-        "domestic": 458
+        "domestic": 459
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d88218891c5e01d7b901c8967007c36ed",
       "cachedThumbnailUrl": "/data/news/assets/kcna/3a933b82542b722c249365893fa849ccdfcdb3ae91fa24c9309a1a0f3c0a4b85.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A922de2f59458512d2d09789a"
-    },
-    {
-      "id": "news:kcna:56fa9e982040cd3856c47447",
-      "title": "전승절에 즈음하여 국가지도간부들 전쟁로병들의 가정을 방문",
-      "date": "2026-07-25",
-      "snippet": "(평양 7월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7ea38ec25a39b9c6c1754e5b4533e1cd",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 42,
-        "domestic": 459
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dcebfe1dd1e63b60da947fc2d9d1aa224",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/735ed9ababecc472280d5a4b928f757c9ff5f3cb9f1da7f9a6e630cadea5a5ae.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A56fa9e982040cd3856c47447"
     }
   ]
 }

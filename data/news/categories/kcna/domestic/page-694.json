@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 694,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:bd353b36729ef0c3e3819398",
+      "title": "황해금강 장수산",
+      "date": "2025-10-27",
+      "snippet": "(평양 10월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cd97c9ba181329b9a11522a7ee29125a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3466
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d939330766e9a22d3c02a428a23ade4b248b2da",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/84ae55fb65958c7fca4d6c8996986a54f551d670122d18c1b6e377519f143a15.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abd353b36729ef0c3e3819398"
+    },
     {
       "id": "news:kcna:568f5db5f206a2e2edfcbdbc",
       "title": "천연기념물-가산령잣나무",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3466
+        "domestic": 3467
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3467
+        "domestic": 3468
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       "categoryOrders": {
         "important": 410,
         "foreign": 540,
-        "domestic": 3468
+        "domestic": 3469
       },
       "featuredSections": [],
       "hasImage": true,
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3469
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4328c9efd48ed7b4f56d412e"
-    },
-    {
-      "id": "news:kcna:8d19d346b70d17ecf962e0fe",
-      "title": "경애하는 김정은동지께서 과학자숙소를 현지지도하신 10돐 기념보고회 진행",
-      "date": "2025-10-27",
-      "snippet": "(평양 10월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6ca52f0110943988240d74269b89ffcf",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3470
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8d19d346b70d17ecf962e0fe"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4328c9efd48ed7b4f56d412e"
     }
   ]
 }

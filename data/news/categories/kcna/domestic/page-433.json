@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 433,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:bf2fec57aa10809b2020f4d0",
+      "title": "강원도에서 새 지방공업공장들의 생산 활성화,상품봉사성 제고",
+      "date": "2026-02-27",
+      "snippet": "(평양 2월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/af9b46bdc2db3d35d0db0bb7050dc8a2",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2161
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abf2fec57aa10809b2020f4d0"
+    },
     {
       "id": "news:kcna:72d8afd8e7d5e1a2a02df517",
       "title": "2026년 2월 26일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2161
+        "domestic": 2162
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2162
+        "domestic": 2163
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +83,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2163,
+        "domestic": 2164,
         "social": 269
       },
       "featuredSections": [],
@@ -88,7 +108,7 @@
       "categoryOrders": {
         "important": 269,
         "foreign": 366,
-        "domestic": 2164
+        "domestic": 2165
       },
       "featuredSections": [],
       "hasImage": true,
@@ -96,28 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366a32ba9445341bee603374f6e0be0a489",
       "cachedThumbnailUrl": "/data/news/assets/kcna/dae69a1de7adc0e3553b537c0494715c29a432ff63119a03e7a962bf5d4a10b5.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A78a285c1d3dcb5af7dd1ec25"
-    },
-    {
-      "id": "news:kcna:4629833436812ffdb181cd23",
-      "title": "온포근로자휴양소 개업,입소식 진행",
-      "date": "2026-02-26",
-      "snippet": "(평양 2월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4651e2634afead84682aa4da65031b99",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2165,
-        "social": 270
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4629833436812ffdb181cd23"
     }
   ]
 }

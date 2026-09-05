@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 4,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:3ed6f4818b41236d9af11e96",
+      "title": "제15차 전국교원대회 페막",
+      "date": "2026-09-04",
+      "snippet": "(평양 9월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8da618f6c5c0c75a60cdf80ee0aaaa47",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 15
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba308e5c096c68dd01cf613da76751d436",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/e30db0491a07771751d9ff501ef0029ab1dc2ab99ded48e1b9caa30fb72bd063.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3ed6f4818b41236d9af11e96"
+    },
     {
       "id": "news:kcna:188c9f081d8f2471f7895c22",
       "title": "제15차 전국교원대회 참가자들을 위한 강습 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 15
+        "domestic": 16
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 16
+        "domestic": 17
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 17
+        "domestic": 18
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 18
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abed4f19842f427deccc0155f"
-    },
-    {
-      "id": "news:kcna:0ad158fad3e82ab42bda938b",
-      "title": "황해남도에서 수천kW의 태양빛발전능력 새로 조성",
-      "date": "2026-09-04",
-      "snippet": "(평양 9월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/58930315abc45339127dfa8cf68ec190",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 19
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0ad158fad3e82ab42bda938b"
+      "detailUrl": "/news/document?id=news%3Akcna%3Abed4f19842f427deccc0155f"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 819,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:39669c197833d0aea8c5e4b9",
+      "title": "일본의 해외침략은 곧 자멸의 길이다",
+      "date": "2025-09-11",
+      "snippet": "(평양 9월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/73a059f4c44c58bec18aa18e4ab294ac",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 4091
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A39669c197833d0aea8c5e4b9"
+    },
     {
       "id": "news:kcna:cf63174f3151e17b27adbb39",
       "title": "2025년 9월 11일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4091
+        "domestic": 4092
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4092
+        "domestic": 4093
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4093
+        "domestic": 4094
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4094
+        "domestic": 4095
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,28 +110,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/3d3755d837f6dc968fa55dbecad26d226bd2e8b79720fae27890e40d6a0703ed",
       "cachedThumbnailUrl": "/data/news/assets/kcna/789a5ed38902bf5d714395798582aad494a06aeaae55bf250586a1bc5f038967.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ae2c6c23949a6f6b1f52fd4e1"
-    },
-    {
-      "id": "news:kcna:4511460f9952c33856ab9aeb",
-      "title": "자강도 전천군 운송농장에서 새집들이 진행",
-      "date": "2025-09-11",
-      "snippet": "(평양 9월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fdaf4985ed30501684cdf220f62dea28",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 4095,
-        "social": 666
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/3d3755d837f6dc968fa55dbecad26d22c6ee2839ff31b82713d84642e4be6bfa",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/75cea20d9ca460a17559d0a3a297fdb44039df962203f846b08a86a7c02b4d0d.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4511460f9952c33856ab9aeb"
     }
   ]
 }

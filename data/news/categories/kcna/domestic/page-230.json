@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 230,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:c29702e25f9d2d50f4ac79ea",
+      "title": "개성시의 농촌들에서 벼모내기성과 확대",
+      "date": "2026-05-24",
+      "snippet": "(평양 5월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/004ddfd71f580bae9d1fbf06103d8696",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1145
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac29702e25f9d2d50f4ac79ea"
+    },
     {
       "id": "news:kcna:70adeb5b0edceb40a323231d",
       "title": "평양시안의 고려약공장들에서 효능높은 고려약들을 개발생산",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1145
+        "domestic": 1146
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1146
+        "domestic": 1147
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1147
+        "domestic": 1148
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1148
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7869cd08af6ce90053ac2469"
-    },
-    {
-      "id": "news:kcna:afc1c3aeebb9525280ff33eb",
-      "title": "신의주온실종합농장에서 매일 수백t의 남새를 수확,시민들에게 련일 공급",
-      "date": "2026-05-23",
-      "snippet": "(평양 5월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/31834310f6e098f5d5f6d2515a4d5555",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1149
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aafc1c3aeebb9525280ff33eb"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7869cd08af6ce90053ac2469"
     }
   ]
 }

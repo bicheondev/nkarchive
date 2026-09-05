@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 730,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:3db2ee5ff74b3b483c15b93b",
+      "title": "량강도에서 혜산혁명전적지답사숙영소 개건",
+      "date": "2025-10-13",
+      "snippet": "(평양 10월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f56d486d1f6cbf8b2ed076397cfa0e7a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3646
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3db2ee5ff74b3b483c15b93b"
+    },
     {
       "id": "news:kcna:d33d52bcc2804f3e2b5965f7",
       "title": "2025년 10월 13일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3646
+        "domestic": 3647
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +66,7 @@
       "categoryOrders": {
         "important": 429,
         "foreign": 587,
-        "domestic": 3647
+        "domestic": 3648
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +88,7 @@
       ],
       "categoryOrders": {
         "foreign": 588,
-        "domestic": 3648
+        "domestic": 3649
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,7 +110,7 @@
       ],
       "categoryOrders": {
         "foreign": 589,
-        "domestic": 3649
+        "domestic": 3650
       },
       "featuredSections": [],
       "hasImage": true,
@@ -98,28 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c127a2c6071bee426edf3cd59fa19e9b7bc",
       "cachedThumbnailUrl": "/data/news/assets/kcna/98d107b13a9fa3e529ce09f40760977746cedd97097e5fe6747b2335b59127d1.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ad558257fa6893952247fd60f"
-    },
-    {
-      "id": "news:kcna:05fad8842db7522a6a2cb6dd",
-      "title": "김일성김정일기금총회-2025 참가자들의 친선련환모임 진행",
-      "date": "2025-10-13",
-      "snippet": "(평양 10월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fb53d007ebd25724dbcf4ed93be63b6a",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 590,
-        "domestic": 3650
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c1276b0a6a69c199dba2360e02929d44556",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/1011a748e5345221dfdee91c803da656e4edc2fd2b5a96c0f64d5d2aadafc52d.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A05fad8842db7522a6a2cb6dd"
     }
   ]
 }

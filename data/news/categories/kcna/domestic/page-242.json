@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 242,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:12cbb4e30de5e98ad35ce5ed",
+      "title": "중앙의 예술단체,예술선전대들에서 포전경제선동 전개",
+      "date": "2026-05-18",
+      "snippet": "(평양 5월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/016c5ac388be7906557d4d4649373358",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1205
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A12cbb4e30de5e98ad35ce5ed"
+    },
     {
       "id": "news:kcna:1658868e39f450910954bb82",
       "title": "량곡관리부문에서 밀가공능력 확대,제품의 가지수 증가",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1205
+        "domestic": 1206
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1206
+        "domestic": 1207
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
       ],
       "categoryOrders": {
         "foreign": 178,
-        "domestic": 1207
+        "domestic": 1208
       },
       "featuredSections": [],
       "hasImage": true,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1208
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9c8f5ea5473fb9c40597b108"
-    },
-    {
-      "id": "news:kcna:37dd407e4e26a2203499da39",
-      "title": "각지 농촌들에서 밀,보리의 생육후반기비배관리 과학기술적으로 진행",
-      "date": "2026-05-17",
-      "snippet": "(평양 5월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/12c56d3120a5e9b26ebd6f13eb1341fc",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1209
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A37dd407e4e26a2203499da39"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9c8f5ea5473fb9c40597b108"
     }
   ]
 }

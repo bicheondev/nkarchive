@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 504,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:f62eee4193c593543392169a",
+      "title": "2026년 1월 24일 신문개관",
+      "date": "2026-01-24",
+      "snippet": "(평양 1월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b69e6e6400b4628e6427995f113d9f72",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2516
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af62eee4193c593543392169a"
+    },
     {
       "id": "news:kcna:06323e807e1c9b292ad74643",
       "title": "농기계연구소 준공식 진행",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2516,
+        "domestic": 2517,
         "social": 348
       },
       "featuredSections": [],
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "important": 317,
-        "domestic": 2517
+        "domestic": 2518
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,7 +87,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2518,
+        "domestic": 2519,
         "social": 349
       },
       "featuredSections": [],
@@ -89,7 +109,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2519,
+        "domestic": 2520,
         "social": 350
       },
       "featuredSections": [],
@@ -98,26 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A5284f18fe7360b42b79798b5"
-    },
-    {
-      "id": "news:kcna:11fbcbdc012dd45daeeacfe5",
-      "title": "백두산일대에서 새로운 유적들 발굴",
-      "date": "2026-01-24",
-      "snippet": "(평양 1월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/50106325b049a95a89445e3ab3486c69",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2520
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A11fbcbdc012dd45daeeacfe5"
     }
   ]
 }

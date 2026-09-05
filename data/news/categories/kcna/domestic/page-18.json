@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 18,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:da01b51dabccfebf8b685b85",
+      "title": "전국청년과학기술성과전시회 개막",
+      "date": "2026-08-28",
+      "snippet": "(평양 8월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8a9341dc38962902c5e9dd3da2e11ca1",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 85
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ada01b51dabccfebf8b685b85"
+    },
     {
       "id": "news:kcna:4c782172b0470e61643c5f98",
       "title": "함경남도의 청년들 사회주의건설의 전구들로 탄원",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 85,
+        "domestic": 86,
         "social": 10
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 86
+        "domestic": 87
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 87,
+        "domestic": 88,
         "social": 11
       },
       "featuredSections": [],
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 88
+        "domestic": 89
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,28 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29aaa73fc364854937db97eee4ad5395ab",
       "cachedThumbnailUrl": "/data/news/assets/kcna/22179882aaff64a3b90334214dfa43f357b75b74c36730e9bd398186d39258af.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ad56066c2aec77f24b0f798cd"
-    },
-    {
-      "id": "news:kcna:41290af3899e3d2c1d6e4e78",
-      "title": "전국녀맹예술선동대경연 진행",
-      "date": "2026-08-28",
-      "snippet": "(평양 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3ad1e0e21b987bf441793c177cac2fd1",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 89,
-        "social": 12
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A41290af3899e3d2c1d6e4e78"
     }
   ]
 }

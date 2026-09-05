@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 36,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "kcna-1ed370420661f896",
+      "title": "2026년 8월 21일 신문개관",
+      "date": "2026-08-21",
+      "snippet": "(평양 8월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/379a69012ca5054bf012624ff62d2d24",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 175
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=kcna-1ed370420661f896"
+    },
     {
       "id": "kcna-49230d5de918f8de",
       "title": "시,군청년동맹위원장강습 진행",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 175
+        "domestic": 176
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 176
+        "domestic": 177
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
       "categoryOrders": {
         "important": 10,
         "document": 2,
-        "domestic": 177
+        "domestic": 178
       },
       "featuredSections": [
         "document"
@@ -90,7 +110,7 @@
       ],
       "categoryOrders": {
         "foreign": 19,
-        "domestic": 178
+        "domestic": 179
       },
       "featuredSections": [],
       "hasImage": true,
@@ -98,26 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29253cc3a5759eb06d5ea239327cc4bc4b",
       "cachedThumbnailUrl": "/data/news/assets/kcna/f8d76c3c72d347ed3631a783801c48ec508339e49098b1586fecdac3da107e3a.jpg",
       "detailUrl": "/news/document?id=kcna-438023acd6f23bdf"
-    },
-    {
-      "id": "kcna-f3f578297979f893",
-      "title": "216사단에서 삼지연산악관광지구건설 추진",
-      "date": "2026-08-20",
-      "snippet": "(평양 8월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/59c2a4a8423a6c177922ee4635cc6962",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 179
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-f3f578297979f893"
     }
   ]
 }

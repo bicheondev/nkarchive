@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:c3366d921d20d5f3e5798ce9",
+      "title": "2026년 9월 5일 신문개관",
+      "date": "2026-09-05",
+      "snippet": "(평양 9월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5262fc3abb0a5ab9d911a4e94a1f3ec8",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 0
+      },
+      "featuredSections": [
+        "domestic"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac3366d921d20d5f3e5798ce9"
+    },
     {
       "id": "news:kcna:97d14ee943116818ddd20312",
       "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 우리 나라 주재 국제기구대표부들 꽃바구니 진정",
@@ -24,7 +46,7 @@
       ],
       "categoryOrders": {
         "foreign": 0,
-        "domestic": 0
+        "domestic": 1
       },
       "featuredSections": [
         "foreign",
@@ -47,7 +69,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1
+        "domestic": 2
       },
       "featuredSections": [
         "domestic"
@@ -69,7 +91,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2
+        "domestic": 3
       },
       "featuredSections": [
         "domestic"
@@ -95,7 +117,7 @@
       "categoryOrders": {
         "important": 0,
         "foreign": 1,
-        "domestic": 3
+        "domestic": 4
       },
       "featuredSections": [
         "important",
@@ -107,28 +129,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45badbbe46d5a769d0dff139bc241dbbb2a7",
       "cachedThumbnailUrl": "/data/news/assets/kcna/32cc58fefbb404964a4476985d3af658ecabb9c39cf236482cbb223e9492b66c.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A8b351573b1c467b403e544ee"
-    },
-    {
-      "id": "news:kcna:71fe401402a35211c19fcb31",
-      "title": "황해북도의 농촌들에서 농기계수리정비 결속",
-      "date": "2026-09-05",
-      "snippet": "(평양 9월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6360f99f0be3a74b55a0479aed1265fa",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 4
-      },
-      "featuredSections": [
-        "domestic"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A71fe401402a35211c19fcb31"
     }
   ]
 }

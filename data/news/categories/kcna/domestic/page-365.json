@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 365,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:360aae788f0c083e3cb0594a",
+      "title": "자강도에서 봄누에치기준비사업 진척",
+      "date": "2026-03-29",
+      "snippet": "(평양 3월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4d2885668588be17dc9304bb86334450",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1821
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A360aae788f0c083e3cb0594a"
+    },
     {
       "id": "news:kcna:f4457c035931413a6f326a08",
       "title": "독특한 세공예술 라전공예",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1821
+        "domestic": 1822
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1822
+        "domestic": 1823
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1823
+        "domestic": 1824
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
       "categoryOrders": {
         "important": 197,
         "foreign": 310,
-        "domestic": 1824
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3fc3fe34120f32fd566c955c"
-    },
-    {
-      "id": "news:kcna:680f2c01d415eaf1ccf7c153",
-      "title": "남흥청년화학련합기업소에서 매일 비료생산계획 넘쳐 수행",
-      "date": "2026-03-28",
-      "snippet": "(평양 3월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7acb85ebd97dc6abea1797a6a3461ad4",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1825
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A680f2c01d415eaf1ccf7c153"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3fc3fe34120f32fd566c955c"
     }
   ]
 }

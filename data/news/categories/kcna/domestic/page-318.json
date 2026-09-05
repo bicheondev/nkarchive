@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 318,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:96a5a185c36f0eff551a191f",
+      "title": "만수대예술단 음악무용종합공연 진행",
+      "date": "2026-04-16",
+      "snippet": "(평양 4월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9c6115258bc28747fd2fba93af1226af",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1585
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66c372da2016f85faade1906b23f4861f6",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/f4ec9ca7a859ff9322371827b5bd310baea86c1f060f9b1f3598769c57cb2fc4.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A96a5a185c36f0eff551a191f"
+    },
     {
       "id": "news:kcna:58ed15539160d2fe2312e754",
       "title": "평양시청년학생들의 야회 및 축포발사 진행",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1585,
+        "domestic": 1586,
         "social": 163
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1586
+        "domestic": 1587
       },
       "featuredSections": [],
       "hasImage": true,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1587
+        "domestic": 1588
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1588
+        "domestic": 1589
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A770000e47913790e69135a5e"
-    },
-    {
-      "id": "news:kcna:0891493b4614ddbcb9677a22",
-      "title": "송도원국제소년단야영소에서 야영 시작",
-      "date": "2026-04-16",
-      "snippet": "(평양 4월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/65e7c5c2855fe3b95859406f4cdf4d80",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 1589,
-        "social": 164
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0891493b4614ddbcb9677a22"
     }
   ]
 }

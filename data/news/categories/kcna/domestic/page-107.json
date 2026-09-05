@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 107,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:5522be22925e91b822657037",
+      "title": "벨라루씨공산당대표단 만경대 방문,여러곳 참관",
+      "date": "2026-07-19",
+      "snippet": "(평양 7월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e3627705b5d140582287618f1fce2c07",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 73,
+        "domestic": 530
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dfd4607f1d5f241604609a9c02f652521",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/359e0068df22447ad9cb8d51aa302b966ad2d25491a326863cb6943464cf77a3.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5522be22925e91b822657037"
+    },
     {
       "id": "news:kcna:53fe27c3943be9ef1d7362e7",
       "title": "각지의 근로자들 농촌을 지원",
@@ -23,7 +45,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 530,
+        "domestic": 531,
         "social": 65
       },
       "featuredSections": [],
@@ -45,7 +67,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 531,
+        "domestic": 532,
         "social": 66
       },
       "featuredSections": [],
@@ -68,7 +90,7 @@
       ],
       "categoryOrders": {
         "foreign": 74,
-        "domestic": 532
+        "domestic": 533
       },
       "featuredSections": [],
       "hasImage": false,
@@ -89,7 +111,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 533,
+        "domestic": 534,
         "social": 67
       },
       "featuredSections": [],
@@ -98,26 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A69b39332f42b1e52d19f4136"
-    },
-    {
-      "id": "news:kcna:a7d7d1084fcc10a323fbe6c8",
-      "title": "재일조선고급학교 학생조국방문단이 떠나갔다",
-      "date": "2026-07-19",
-      "snippet": "(평양 7월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/72aee69cfb129a1512ce57f85f9b8cde",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 534
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa7d7d1084fcc10a323fbe6c8"
     }
   ]
 }

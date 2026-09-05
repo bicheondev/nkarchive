@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 346,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:547b05c930ba9d4bf997685b",
+      "title": "각지 농촌들에서 밀,보리비배관리에 총력 집중",
+      "date": "2026-04-06",
+      "snippet": "(평양 4월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b7eee2296b9b5f01f58e7f0603f6768c",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1725
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A547b05c930ba9d4bf997685b"
+    },
     {
       "id": "news:kcna:d007038732a836ee83c47e3b",
       "title": "황해북도에서 력량과 수단을 집중하여 가물피해막이대책 강구",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1725
+        "domestic": 1726
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1726,
+        "domestic": 1727,
         "social": 178
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1727
+        "domestic": 1728
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1728
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aee874da5ff39b9ae2f618899"
-    },
-    {
-      "id": "news:kcna:542f82a2cd07aa68e19383b8",
-      "title": "각지 세멘트생산단위에서 증산성과 확대",
-      "date": "2026-04-05",
-      "snippet": "(평양 4월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c9f0ca84f7e1e7ebedd366b8925cc974",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1729
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A542f82a2cd07aa68e19383b8"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aee874da5ff39b9ae2f618899"
     }
   ]
 }

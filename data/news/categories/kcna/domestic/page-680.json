@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 680,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:9d32c4c3d6614c46797e026d",
+      "title": "조선민주주의인민공화국 외무상 최선희동지 로씨야련방과 벨라루씨공화국을 방문하고 귀국",
+      "date": "2025-11-01",
+      "snippet": "(평양 11월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cc652f3daa1e7dbe9b89a228124be164",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 524,
+        "domestic": 3396
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac1f99b046b15cf0ffa08b1c3c82d771c7",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/e2e7df7ec41751d8f59a2bdde16089a006eea0e47cd9c28f839fa880d31f05a9.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9d32c4c3d6614c46797e026d"
+    },
     {
       "id": "news:kcna:c0ba0367f5e5428adcdc6ea7",
       "title": "조로정부간 무역경제 및 과학기술협조위원회 공동위원장들사이의 회담 진행",
@@ -26,7 +48,7 @@
       "categoryOrders": {
         "important": 402,
         "foreign": 525,
-        "domestic": 3396
+        "domestic": 3397
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,7 +68,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3397
+        "domestic": 3398
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +88,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3398
+        "domestic": 3399
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +108,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3399
+        "domestic": 3400
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,28 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ac523d13405dd2d3321a9a97d"
-    },
-    {
-      "id": "news:kcna:6db467f549e148cbfab8a358",
-      "title": "조선의 국견 풍산개품평회-2025 진행",
-      "date": "2025-11-01",
-      "snippet": "(평양 11월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6961020202ff551dbaf2719bd7d88279",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 3400,
-        "social": 555
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6db467f549e148cbfab8a358"
     }
   ]
 }

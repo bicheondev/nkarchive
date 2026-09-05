@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 668,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:d5c405d036fee8d49ae3240e",
+      "title": "단천지구광업총국의 광산,기업소들에서 증산기세 고조",
+      "date": "2025-11-06",
+      "snippet": "(평양 11월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0318d80ab7aec34436583de7c24eb9ae",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3336
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad5c405d036fee8d49ae3240e"
+    },
     {
       "id": "news:kcna:2bcd13b0d62fb1395a8c4f50",
       "title": "로씨야련방무력 군사정치총국대표단 도착",
@@ -26,7 +46,7 @@
       "categoryOrders": {
         "important": 390,
         "foreign": 516,
-        "domestic": 3336
+        "domestic": 3337
       },
       "featuredSections": [],
       "hasImage": true,
@@ -47,7 +67,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3337,
+        "domestic": 3338,
         "social": 545
       },
       "featuredSections": [],
@@ -69,7 +89,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3338,
+        "domestic": 3339,
         "social": 546
       },
       "featuredSections": [],
@@ -94,26 +114,6 @@
       "categoryOrders": {
         "important": 391,
         "international": 2244,
-        "domestic": 3339
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A847c430ec2ec6c59d077c656"
-    },
-    {
-      "id": "news:kcna:3d4b0eddb8e570ed37700e5b",
-      "title": "천연기념물-원산향나무",
-      "date": "2025-11-05",
-      "snippet": "(평양 11월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/966b277c49db4dff2af386aea8063fbe",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3340
       },
       "featuredSections": [],
@@ -121,7 +121,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3d4b0eddb8e570ed37700e5b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A847c430ec2ec6c59d077c656"
     }
   ]
 }

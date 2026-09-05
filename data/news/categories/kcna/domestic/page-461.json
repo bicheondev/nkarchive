@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 461,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:fadc89e73a480842f65fc510",
+      "title": "김정일청년영예상,김정일소년영예상 수여모임 진행",
+      "date": "2026-02-13",
+      "snippet": "(평양 2월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a445b355d74cd893cedf28074b270d21",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2301
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afadc89e73a480842f65fc510"
+    },
     {
       "id": "news:kcna:b3df52aedcc9f77f18f792cb",
       "title": "남포시 온천군 안석농장에 청년작업반 새로 조직,100여명의 청년들 탄원진출",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2301,
+        "domestic": 2302,
         "social": 305
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2302
+        "domestic": 2303
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
       ],
       "categoryOrders": {
         "foreign": 402,
-        "domestic": 2303
+        "domestic": 2304
       },
       "featuredSections": [],
       "hasImage": true,
@@ -86,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2304
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac918f7686219fb8a0592a78d"
-    },
-    {
-      "id": "news:kcna:6add5312528ac17ce9d9dfb2",
-      "title": "교육성에서 공장대학 교원들의 자질향상을 위한 사업 전개",
-      "date": "2026-02-13",
-      "snippet": "(평양 2월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/14cad15492d17a11b50ee4348c06a55a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2305
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6add5312528ac17ce9d9dfb2"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac918f7686219fb8a0592a78d"
     }
   ]
 }

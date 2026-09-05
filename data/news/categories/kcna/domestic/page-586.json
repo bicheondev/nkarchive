@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 586,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:3e42a65ddba5168a908dc237",
+      "title": "여러 도와 시에서 대상공사과제 련이어 결속",
+      "date": "2025-12-13",
+      "snippet": "(평양 12월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8776655df03fc79c2572d140ed84e2cd",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2926
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3e42a65ddba5168a908dc237"
+    },
     {
       "id": "news:kcna:d1e9a6d02ea90ecfbb121f60",
       "title": "2025년 12월 13일 신문개관",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2926
+        "domestic": 2927
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
       ],
       "categoryOrders": {
         "foreign": 473,
-        "domestic": 2927
+        "domestic": 2928
       },
       "featuredSections": [],
       "hasImage": true,
@@ -65,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2928,
+        "domestic": 2929,
         "social": 454
       },
       "featuredSections": [],
@@ -87,7 +107,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2929,
+        "domestic": 2930,
         "social": 455
       },
       "featuredSections": [],
@@ -96,26 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A0a223a7078fb2fffbdfdd22a"
-    },
-    {
-      "id": "news:kcna:6ab41549c7cba8de82c609e3",
-      "title": "선봉화력발전소에서 전력생산계통의 기술개건과 현대화공사 결속",
-      "date": "2025-12-13",
-      "snippet": "(평양 12월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/28729cf70ce9c2af076dd3b0d26d669c",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2930
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6ab41549c7cba8de82c609e3"
     }
   ]
 }

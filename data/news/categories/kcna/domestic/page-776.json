@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 776,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:c69e6576858dc9241674649b",
+      "title": "우리 나라 외무상 타이왕국 외무상에게 축전",
+      "date": "2025-10-02",
+      "snippet": "(평양 10월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cb9beaeb7a6c8c0bfb9f7181c63357fe",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 707,
+        "domestic": 3876
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac69e6576858dc9241674649b"
+    },
     {
       "id": "news:kcna:832c6c71ae1377e09855e58b",
       "title": "각지 년로자들 국제로인의 날을 즐겁게 맞이",
@@ -23,7 +45,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3876,
+        "domestic": 3877,
         "social": 621
       },
       "featuredSections": [],
@@ -45,7 +67,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3877,
+        "domestic": 3878,
         "social": 622
       },
       "featuredSections": [],
@@ -66,7 +88,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3878
+        "domestic": 3879
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +108,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3879
+        "domestic": 3880
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,28 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A021314215b76d2eb381263df"
-    },
-    {
-      "id": "news:kcna:2a7eb094a45139ca60dfd390",
-      "title": "평안북도농촌경리위원회 대흥농장에서 살림집입사모임 진행",
-      "date": "2025-10-02",
-      "snippet": "(평양 10월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f2decf32950e26a567f6bd541db7dc1c",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 3880,
-        "social": 623
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2a7eb094a45139ca60dfd390"
     }
   ]
 }

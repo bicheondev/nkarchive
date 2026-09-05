@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 816,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:679f3202164e82e9e89523b3",
+      "title": "논판양어에 대한 기술강의 진행",
+      "date": "2025-09-13",
+      "snippet": "(평양 9월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ac3680e5d3395fe3b47bb0ea9e38dd6c",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 4076
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A679f3202164e82e9e89523b3"
+    },
     {
       "id": "news:kcna:bcbc09633abd177d5a1d0627",
       "title": "강원도 원산시에 현대적인 고층살림집들 새로 건설",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 4076,
+        "domestic": 4077,
         "social": 663
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4077
+        "domestic": 4078
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4078
+        "domestic": 4079
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4079
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae038e568723823d504753b5d"
-    },
-    {
-      "id": "news:kcna:a0f728f26e8b3ab0eecce5b4",
-      "title": "2025년 9월 12일 신문개관",
-      "date": "2025-09-12",
-      "snippet": "(평양 9월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3deb2f57424d9fdc81db4bdb222ade21",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 4080
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa0f728f26e8b3ab0eecce5b4"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae038e568723823d504753b5d"
     }
   ]
 }

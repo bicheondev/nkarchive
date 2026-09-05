@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 256,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:05d1b0a8aa000b1d5a99bf3f",
+      "title": "2026년 5월 11일 《로동신문》개관",
+      "date": "2026-05-11",
+      "snippet": "(평양 5월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/33443e5e79b098ff0ce2dc536af3d7b5",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1275
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A05d1b0a8aa000b1d5a99bf3f"
+    },
     {
       "id": "news:kcna:d297002d6b529fb45b3dc228",
       "title": "경애하는 김정은원수님께 재일본조선청년동맹축하단 성원들이 편지를 드리였다",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "important": 121,
-        "domestic": 1275
+        "domestic": 1276
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "important": 122,
-        "domestic": 1276
+        "domestic": 1277
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1277
+        "domestic": 1278
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1278
+        "domestic": 1279
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e00006499a259e7b04dc0a7d4a8538e0566630b",
       "cachedThumbnailUrl": "/data/news/assets/kcna/ed7fba146d2a35ca21d7b7be8b87147e8b8153d7fc22e2106b46b5d8e9a4adf3.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A0a074477be04f9928f03b399"
-    },
-    {
-      "id": "news:kcna:f3bde89c3293aff241cd512b",
-      "title": "평안남도 평원군 원화농장에서 벼모내기 시작",
-      "date": "2026-05-11",
-      "snippet": "(평양 5월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/aaba57b6c03c78b3d8f0d0caf84224e6",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1279
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af3bde89c3293aff241cd512b"
     }
   ]
 }

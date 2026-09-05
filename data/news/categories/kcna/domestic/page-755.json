@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 755,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:ae9ea0eb4f1be8358681b321",
+      "title": "2025년 10월 8일 신문개관",
+      "date": "2025-10-08",
+      "snippet": "(평양 10월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/26fc4ba00c9ced7f64c8cc6bca4f4a5b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3771
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aae9ea0eb4f1be8358681b321"
+    },
     {
       "id": "news:kcna:c385c81586c775ea0701834f",
       "title": "적도기네민주당대표단 도착",
@@ -24,7 +44,7 @@
       ],
       "categoryOrders": {
         "foreign": 663,
-        "domestic": 3771
+        "domestic": 3772
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,7 +66,7 @@
       ],
       "categoryOrders": {
         "foreign": 664,
-        "domestic": 3772
+        "domestic": 3773
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,7 +88,7 @@
       ],
       "categoryOrders": {
         "foreign": 665,
-        "domestic": 3773
+        "domestic": 3774
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,7 +110,7 @@
       ],
       "categoryOrders": {
         "foreign": 666,
-        "domestic": 3774
+        "domestic": 3775
       },
       "featuredSections": [],
       "hasImage": true,
@@ -98,28 +118,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12100a684c9930c526bf9bb2c832ce01df",
       "cachedThumbnailUrl": "/data/news/assets/kcna/a3acdcc8dc7ee3a48611322bcc216fef5c00e398988381fb37f46bd9323f5c29.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Aa1af3e7ea0791aaf31697199"
-    },
-    {
-      "id": "news:kcna:57a50ca1c5d71913003d7d9b",
-      "title": "메히꼬로동당대표단 도착",
-      "date": "2025-10-08",
-      "snippet": "(평양 10월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/11c492ee2d16b5c6e36ef3f4a2713fbc",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 667,
-        "domestic": 3775
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c126623b27489ce22bcaf96cd82b91a98b1",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/44f445abcb460d30a48e5a96c00c1975be3c2cf7f6c44ab2ce339f21e4e15a99.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A57a50ca1c5d71913003d7d9b"
     }
   ]
 }

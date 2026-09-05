@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 510,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:fd723b3df71071cdef8f46a4",
+      "title": "평안남도 대동군과 맹산군,증산군,양덕군의 농촌들에 현대적인 문화주택들이 일떠섰다",
+      "date": "2026-01-22",
+      "snippet": "(평양 1월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4e4e99c2eb66efd1a3e7e6c40ab18389",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2546
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451e5d56a39d0722cf263325ca54d63b2c6",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/556ca439f1a328beae48584e25520e65f394030890529ac448dfbc1379710637.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afd723b3df71071cdef8f46a4"
+    },
     {
       "id": "news:kcna:2dd3fddf7c82d4e5faae12d9",
       "title": "황해남도의 청년들 석탄전선으로 탄원",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2546,
+        "domestic": 2547,
         "social": 359
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2547
+        "domestic": 2548
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2548
+        "domestic": 2549
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2549
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1320aab63c366fa0b93b88e1"
-    },
-    {
-      "id": "news:kcna:bc04ac06b3742b75c4bc38db",
-      "title": "남흥청년화학련합기업소 촉매생산기지 준공",
-      "date": "2026-01-21",
-      "snippet": "(평양 1월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/29aa7d76a1a311669c0e390c320bed53",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2550
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abc04ac06b3742b75c4bc38db"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1320aab63c366fa0b93b88e1"
     }
   ]
 }

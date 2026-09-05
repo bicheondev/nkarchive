@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 720,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:f3ff8c4e8c19b7af632c7eca",
+      "title": "로씨야공업무역성림업대표단 주체사상탑 참관",
+      "date": "2025-10-17",
+      "snippet": "(평양 10월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/203887dc205d111a04e531a4ed2df904",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 570,
+        "domestic": 3596
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12c7d4033029873ad17d181c5e3b7be090",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/45a960b8cefd3c35145179a8194847ab1c6fa6630e46b589fa703331e5097839.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af3ff8c4e8c19b7af632c7eca"
+    },
     {
       "id": "news:kcna:7fb0e5acd0e406fad77fc7d9",
       "title": "함경북도 경성군 염분농장의 농업근로자들모두가 현대적인 문화주택에 입사",
@@ -23,7 +45,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3596,
+        "domestic": 3597,
         "social": 588
       },
       "featuredSections": [],
@@ -44,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3597
+        "domestic": 3598
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3598
+        "domestic": 3599
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3599
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A08fcc949f073959a3371b0ff"
-    },
-    {
-      "id": "news:kcna:4a6139d47781602b7554bcbf",
-      "title": "평안북도에서 도질병예방통제소 새로 건설",
-      "date": "2025-10-16",
-      "snippet": "(평양 10월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a76da87a91eb419554efcf6c9f89d68b",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3600
       },
       "featuredSections": [],
@@ -111,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4a6139d47781602b7554bcbf"
+      "detailUrl": "/news/document?id=news%3Akcna%3A08fcc949f073959a3371b0ff"
     }
   ]
 }

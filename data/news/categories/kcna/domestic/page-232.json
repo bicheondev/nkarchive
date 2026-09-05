@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 232,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:7a6b18a5ac36464116388237",
+      "title": "각지 농촌들에서 강냉이밭김매기 추진",
+      "date": "2026-05-23",
+      "snippet": "(평양 5월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a14e6c27fd00d021096112a784be113b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1155
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7a6b18a5ac36464116388237"
+    },
     {
       "id": "news:kcna:04171f70dd7cdad73a3c0500",
       "title": "《로동신문》 전체 인민이 애국으로 단결된 나라가 강국이라고 강조",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1155
+        "domestic": 1156
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1156
+        "domestic": 1157
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1157
+        "domestic": 1158
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1158
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A83769b475a9a8ca9eaa16036"
-    },
-    {
-      "id": "news:kcna:18f733b31dbf22959a4c753b",
-      "title": "각지에서 국토관리사업에 힘을 넣어 성과 이룩",
-      "date": "2026-05-22",
-      "snippet": "(평양 5월 22일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8cca26bf9543a2fd42617291393ff425",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1159
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A18f733b31dbf22959a4c753b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A83769b475a9a8ca9eaa16036"
     }
   ]
 }

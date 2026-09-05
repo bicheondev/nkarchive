@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 511,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:bc04ac06b3742b75c4bc38db",
+      "title": "남흥청년화학련합기업소 촉매생산기지 준공",
+      "date": "2026-01-21",
+      "snippet": "(평양 1월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/29aa7d76a1a311669c0e390c320bed53",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2551
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abc04ac06b3742b75c4bc38db"
+    },
     {
       "id": "news:kcna:92745d8fd123ad091eb692d4",
       "title": "기계공업부문에서 생산토대강화에 힘을 집중",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2551
+        "domestic": 2552
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2552,
+        "domestic": 2553,
         "social": 362
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2553
+        "domestic": 2554
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,7 +105,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2554,
+        "domestic": 2555,
         "social": 363
       },
       "featuredSections": [],
@@ -94,26 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451a6e8c6cfbdc27da6919478901ba84ac2",
       "cachedThumbnailUrl": "/data/news/assets/kcna/dd6b999c7fa8227b97b9af46701031e68918d29503807fc28c8b1f017e8b1187.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A436103a3b49acf9538df3f68"
-    },
-    {
-      "id": "news:kcna:7d491c3c37dbad10c9540b17",
-      "title": "량곡관리성에서 밀가공능력을 높이기 위한 사업 심화",
-      "date": "2026-01-20",
-      "snippet": "(평양 1월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a7825045fe65a55f519f55cc1bb14ae7",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2555
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7d491c3c37dbad10c9540b17"
     }
   ]
 }

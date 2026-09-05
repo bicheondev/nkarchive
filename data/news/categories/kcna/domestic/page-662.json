@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "domestic",
   "page": 662,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:e2a76254edb60326a66a79f8",
+      "title": "조선민주주의인민공화국 노광철 국방상 담화 발표",
+      "date": "2025-11-08",
+      "snippet": "(평양 11월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/28064c7a0683c8579d244b955effb1b5",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 386,
+        "foreign": 511,
+        "domestic": 3306
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae2a76254edb60326a66a79f8"
+    },
     {
       "id": "news:kcna:8e73aac0eb6087cf71a3057c",
       "title": "화성지구 4단계 1만세대 살림집건설 마감단계에서 추진",
@@ -22,7 +46,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3306
+        "domestic": 3307
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +67,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3307,
+        "domestic": 3308,
         "social": 534
       },
       "featuredSections": [],
@@ -65,7 +89,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3308,
+        "domestic": 3309,
         "social": 535
       },
       "featuredSections": [],
@@ -87,7 +111,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3309,
+        "domestic": 3310,
         "social": 536
       },
       "featuredSections": [],
@@ -96,28 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A57994aebeffe0a34bf3a06fb"
-    },
-    {
-      "id": "news:kcna:97c3bcb184b961023a731fcb",
-      "title": "새로 일떠선 지방공업공장들의 4.15기술혁신돌격대 전국기술혁신경기 진행",
-      "date": "2025-11-08",
-      "snippet": "(평양 11월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/398783fb1e084bcfa9edb71d8c142db1",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 3310,
-        "social": 537
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A97c3bcb184b961023a731fcb"
     }
   ]
 }

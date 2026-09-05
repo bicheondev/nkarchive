@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 446,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:6e9fe88cacfb8d8200175e46",
+      "title": "각지 수산단위들에서 생산성과 확대",
+      "date": "2026-02-20",
+      "snippet": "(평양 2월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2969077e6cbb49db12633608a1499713",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2226
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6e9fe88cacfb8d8200175e46"
+    },
     {
       "id": "news:kcna:403a022c5ff323e88913d48b",
       "title": "희천시의 녀맹원들 사회주의건설의 전구들로 진출",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2226,
+        "domestic": 2227,
         "social": 283
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2227
+        "domestic": 2228
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2228
+        "domestic": 2229
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2229
+        "domestic": 2230
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,26 +112,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366b90c93d02f93a7e4ca9118cf4bdcc575",
       "cachedThumbnailUrl": "/data/news/assets/kcna/4cb9f016ccbeea2ad885c5951abd2fad7ca987dfc322c4dce7b31f672db1cb45.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A6eb9b1be669f26e3ba298d99"
-    },
-    {
-      "id": "news:kcna:1c84f47b533c85550c64b340",
-      "title": "제3차 2.16경축 인민예술축전 페막",
-      "date": "2026-02-19",
-      "snippet": "(평양 2월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/62887354d52905bd30fa5896a1970b5a",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2230
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366be9d8e8de49d95baeea3ca1ef8854ca2",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/182785dfe6ddea7713c3c4f8f01a887db978aa94e81b0ddfef92484256f13d09.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1c84f47b533c85550c64b340"
     }
   ]
 }

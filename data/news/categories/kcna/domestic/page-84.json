@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 84,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:6c6246ec56db670d637e305f",
+      "title": "조국해방전쟁승리 73돐 경축연회 진행",
+      "date": "2026-07-28",
+      "snippet": "(평양 7월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1b30e18d3119f3addc2961c0da843c4c",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 415,
+        "social": 54
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d942bc911134c21046b6459077c697a36",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/305be7e8f4f5bc30caffb993f7c175424d3133702dcb0c9839b9d8377797990f.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6c6246ec56db670d637e305f"
+    },
     {
       "id": "news:kcna:c3b21dcc6b030a4f10490b46",
       "title": "조국해방전쟁승리 73돐경축 평양시청년학생들의 무도회 진행",
@@ -22,7 +44,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 415
+        "domestic": 416
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +65,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 416,
+        "domestic": 417,
         "social": 55
       },
       "featuredSections": [],
@@ -64,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 417
+        "domestic": 418
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 418
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A65b5800084cd9ace847b5104"
-    },
-    {
-      "id": "news:kcna:19352f64fa0a02749d0e64ea",
-      "title": "황해북도에서 수영관건설 추진",
-      "date": "2026-07-28",
-      "snippet": "(평양 7월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5596fbf13ec88054e680a6ddd63ef573",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 419
       },
       "featuredSections": [],
@@ -111,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A19352f64fa0a02749d0e64ea"
+      "detailUrl": "/news/document?id=news%3Akcna%3A65b5800084cd9ace847b5104"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 683,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:f5f74999eeb11dd89bcf3e4d",
+      "title": "《전국정보화성과전람회-2025》 페막",
+      "date": "2025-10-31",
+      "snippet": "(평양 10월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6db03fc75e13bdf7089db1c2accce87a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3411
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af5f74999eeb11dd89bcf3e4d"
+    },
     {
       "id": "news:kcna:5aab335476d6dec28aec9e38",
       "title": "상원세멘트련합기업소에서 10월 인민경제계획 완수",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3411
+        "domestic": 3412
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3412
+        "domestic": 3413
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3413
+        "domestic": 3414
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3414
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A054cc7a385416cb7151590ea"
-    },
-    {
-      "id": "news:kcna:2fa9777d52d297e79742ff4e",
-      "title": "국가과학원에서 우리 식의 공업정보체계핵심기술 갱신",
-      "date": "2025-10-30",
-      "snippet": "(평양 10월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b3a86f5655657cfb56c8cf67b43bc700",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3415
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2fa9777d52d297e79742ff4e"
+      "detailUrl": "/news/document?id=news%3Akcna%3A054cc7a385416cb7151590ea"
     }
   ]
 }

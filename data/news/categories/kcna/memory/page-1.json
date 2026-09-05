@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -12,6 +12,28 @@
   "totalPages": 45,
   "articles": [
     {
+      "id": "news:kcna:066052956f24de6b03581334",
+      "title": "수도시민들의 문화생활을 첫자리에 놓으시고",
+      "date": "2026-09-05",
+      "snippet": "위대한 수령 김일성동지께서는 1981년 5월 어느날 평양시의 일군들로부터 보통강유원지의 한쪽끝에 병원을 세웠으면 좋겠다는 보고를 받으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/b85137a5e7161da26988ce43928cd5a7",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 0
+      },
+      "featuredSections": [
+        "memory"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A066052956f24de6b03581334"
+    },
+    {
       "id": "news:kcna:71a806285681ea22a8f2807a",
       "title": "동주리의 사연깊은 기념사진",
       "date": "2026-09-04",
@@ -22,7 +44,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 0
+        "memory": 1
       },
       "featuredSections": [
         "memory"
@@ -44,7 +66,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 1
+        "memory": 2
       },
       "featuredSections": [
         "memory"
@@ -66,7 +88,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 2
+        "memory": 3
       },
       "featuredSections": [
         "memory"
@@ -88,28 +110,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 3
-      },
-      "featuredSections": [
-        "memory"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac293c4ea102ba395361e77a7"
-    },
-    {
-      "id": "news:kcna:5b45fa9a59f9115d799dde57",
-      "title": "로동계급속에서 굳히신 결심",
-      "date": "2026-08-27",
-      "snippet": "3년간에 걸친 조국해방전쟁이 우리의 승리로 끝난지 한주일밖에 안되던 1953년 8월 3일 위대한 수령 김일성동지께서 강선제강소(당시)에 오시였을 때의 일이다.",
-      "url": "http://www.kcna.kp/kp/article/detail/eb3bad1c4aa67188dc16b9e8157639cf",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 4
       },
       "featuredSections": [
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5b45fa9a59f9115d799dde57"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac293c4ea102ba395361e77a7"
     }
   ]
 }

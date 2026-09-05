@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 33,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:de4e51b3ba55528bec4bd99b",
+      "title": "제10차 국제무도경기대회 봉화채화행사 진행",
+      "date": "2026-08-22",
+      "snippet": "(평양 8월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a069b744241299ee2a90fe99ef190bf1",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 160
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29c3827800bf42ec42e0faa73c3be50f85",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/2b6ede5bab0ea026d1752fe3bc8a7b2336987870c085dfb3ea51755b9ea4c7bf.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ade4e51b3ba55528bec4bd99b"
+    },
     {
       "id": "news:kcna:bb8a0a5e27e275d1f8624e10",
       "title": "원산갈마해안관광지구가 각지의 근로자들,청소년학생들로 련일 흥성",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 160,
+        "domestic": 161,
         "social": 24
       },
       "featuredSections": [],
@@ -45,7 +65,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 161,
+        "domestic": 162,
         "social": 25
       },
       "featuredSections": [],
@@ -66,7 +86,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 162
+        "domestic": 163
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,26 +108,6 @@
       ],
       "categoryOrders": {
         "foreign": 17,
-        "domestic": 163
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0e75afd4688f1787099b052c"
-    },
-    {
-      "id": "news:kcna:7463de3237475d12cf90822d",
-      "title": "우리 인민의 우수한 건축술을 보여주는 명승고적-통군정",
-      "date": "2026-08-22",
-      "snippet": "(평양 8월 22일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/80129f9248b98e15baf650b03dd17258",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 164
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7463de3237475d12cf90822d"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0e75afd4688f1787099b052c"
     }
   ]
 }

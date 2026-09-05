@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 185,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:962e5b0f7eaa2def7b0b9874",
+      "title": "황해북도에서 인민소비품전시회 진행",
+      "date": "2026-06-14",
+      "snippet": "(평양 6월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7e0f230853f1bdea3b94dc0497e204cd",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 920
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A962e5b0f7eaa2def7b0b9874"
+    },
     {
       "id": "news:kcna:c43b04b24ddd5ab62c4df73d",
       "title": "재일조선학생소년대표단이 떠나갔다",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 920
+        "domestic": 921
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,7 +68,7 @@
         "important": 90,
         "document": 13,
         "foreign": 144,
-        "domestic": 921
+        "domestic": 922
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,7 +89,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 922,
+        "domestic": 923,
         "social": 98
       },
       "featuredSections": [],
@@ -90,26 +110,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 923
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afacceb2d56f177d87bb16a88"
-    },
-    {
-      "id": "news:kcna:b6f8b067196227f893b79c51",
-      "title": "석탄공업부문에서 재해성이상기후에 대처하기 위한 사업 추진",
-      "date": "2026-06-13",
-      "snippet": "(평양 6월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7301463d7f029c68d71f53c24ec5d585",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 924
       },
       "featuredSections": [],
@@ -117,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab6f8b067196227f893b79c51"
+      "detailUrl": "/news/document?id=news%3Akcna%3Afacceb2d56f177d87bb16a88"
     }
   ]
 }

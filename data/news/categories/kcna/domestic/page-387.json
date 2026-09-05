@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 387,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:e94fef9cfaa63ca6d05065f5",
+      "title": "황해북도에서 원료기지들의 영농준비사업 추진",
+      "date": "2026-03-20",
+      "snippet": "(평양 3월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b44c35e5779d058f832e72b5a622c738",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1931
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae94fef9cfaa63ca6d05065f5"
+    },
     {
       "id": "news:kcna:d4d13f9adc5350ec207b78fc",
       "title": "청천강화력발전소에서 수백만kWh의 전력 증산",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1931
+        "domestic": 1932
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1932
+        "domestic": 1933
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1933
+        "domestic": 1934
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1934
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A76b0bbb360328f1e12598612"
-    },
-    {
-      "id": "news:kcna:e5805ebddfeaacedfffe6f7d",
-      "title": "2026년 3월 19일 신문개관",
-      "date": "2026-03-19",
-      "snippet": "(평양 3월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b01a0d8e2c83aa499cc0581bfe0369e0",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1935
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae5805ebddfeaacedfffe6f7d"
+      "detailUrl": "/news/document?id=news%3Akcna%3A76b0bbb360328f1e12598612"
     }
   ]
 }

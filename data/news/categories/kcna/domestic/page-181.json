@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 181,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:7ad9195bb3c067c9a25f875e",
+      "title": "각지에서 밭벼재배를 위한 사업 추진",
+      "date": "2026-06-16",
+      "snippet": "(평양 6월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6bd573e0d487873867314c38c4e2dd0c",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 900
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7ad9195bb3c067c9a25f875e"
+    },
     {
       "id": "news:kcna:5889dab66cec59b312025cd7",
       "title": "함경북도에서 천수백정보의 기름나무림 조성",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 900
+        "domestic": 901
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +63,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 901,
+        "domestic": 902,
         "social": 96
       },
       "featuredSections": [],
@@ -64,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 902
+        "domestic": 903
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 903
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5239b0f14d8aed2c9f4f66ca"
-    },
-    {
-      "id": "news:kcna:f37413e18ee95e396d19d4ab",
-      "title": "2026년 6월 15일 《로동신문》개관",
-      "date": "2026-06-15",
-      "snippet": "(평양 6월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/40187e949839af5e2ce1af5c7963dba1",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 904
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af37413e18ee95e396d19d4ab"
+      "detailUrl": "/news/document?id=news%3Akcna%3A5239b0f14d8aed2c9f4f66ca"
     }
   ]
 }

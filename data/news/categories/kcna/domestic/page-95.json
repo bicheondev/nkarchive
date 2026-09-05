@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "domestic",
   "page": 95,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:f3371728cd744c230be0d589",
+      "title": "인민의 기쁨 넘쳐나는 동해명승 명사십리",
+      "date": "2026-07-24",
+      "snippet": "(평양 7월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/49b2719cb2378edf4782b1d6e577d5b8",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 470,
+        "social": 58
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af3371728cd744c230be0d589"
+    },
     {
       "id": "news:kcna:c979e2befdcf8825d747b730",
       "title": "남포시의 녀맹원들 당결정관철의 주요전구들로 진출",
@@ -23,7 +45,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 470,
+        "domestic": 471,
         "social": 59
       },
       "featuredSections": [],
@@ -48,7 +70,7 @@
       "categoryOrders": {
         "important": 43,
         "foreign": 59,
-        "domestic": 471
+        "domestic": 472
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +90,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 472
+        "domestic": 473
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,7 +110,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 473
+        "domestic": 474
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,26 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A16fcacfc3490fe3fd88e4c86"
-    },
-    {
-      "id": "news:kcna:0e3a3aadf3a98315a395bc76",
-      "title": "자연과학지식보급의 전당,문화정서생활기지로서의 생활력 과시",
-      "date": "2026-07-24",
-      "snippet": "(평양 7월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/62274e280a005d89d361436be6d2cd0b",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 474
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dfdcea5e9b6bb11211aeeee5e0706730d",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/fd509d3d5aa522d11b7b798a667ec89dbbb0f4d37bfc60e4ef726b6860dca796.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0e3a3aadf3a98315a395bc76"
     }
   ]
 }

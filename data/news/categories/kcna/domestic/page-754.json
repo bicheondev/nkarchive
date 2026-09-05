@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "852f9be6176c9209",
+  "version": "65614bfc4d3c5a42",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "domestic",
   "page": 754,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4146,
+  "totalPages": 830,
   "articles": [
+    {
+      "id": "news:kcna:887cc7f321260ea14168a9d3",
+      "title": "직총중앙로동자예술선전대공연 진행",
+      "date": "2025-10-09",
+      "snippet": "(평양 10월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/20ab267df4b47a8a82dec6362ada7dc4",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3766
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c127b51c6123ccf13dc23405aee6f19cba6",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/62085b2988e09c78b5735730535e5822239526b999f08493defe41edfcb0899f.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A887cc7f321260ea14168a9d3"
+    },
     {
       "id": "news:kcna:a8e74d0f2496538fc5eed834",
       "title": "승리와 영광의 상징-우리 당기와 당마크",
@@ -22,7 +42,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3766
+        "domestic": 3767
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3767
+        "domestic": 3768
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3768
+        "domestic": 3769
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3769
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4a9727b2ee91362ef260e172"
-    },
-    {
-      "id": "news:kcna:ae9ea0eb4f1be8358681b321",
-      "title": "2025년 10월 8일 신문개관",
-      "date": "2025-10-08",
-      "snippet": "(평양 10월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/26fc4ba00c9ced7f64c8cc6bca4f4a5b",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3770
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aae9ea0eb4f1be8358681b321"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4a9727b2ee91362ef260e172"
     }
   ]
 }
