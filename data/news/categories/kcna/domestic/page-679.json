@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-04T00:00:00.000Z",
-  "version": "cc7bb414a6de4d87",
+  "generatedAt": "2026-09-05T00:00:00.000Z",
+  "version": "852f9be6176c9209",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,40 +8,46 @@
   "section": "domestic",
   "page": 679,
   "pageSize": 5,
-  "totalItems": 4152,
-  "totalPages": 831,
+  "totalItems": 4158,
+  "totalPages": 832,
   "articles": [
     {
-      "id": "news:kcna:14b8b811e480bedd2f46e278",
-      "title": "《로동신문》창간 80돐 기념보고회 진행",
+      "id": "news:kcna:0e4a0a9d9172e81acc4bf175",
+      "title": "박명호 조선민주주의인민공화국 외무성 부상 담화 발표",
       "date": "2025-11-01",
       "snippet": "(평양 11월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f7073c0591f00d33028db0a3253e7ba8",
+      "url": "http://www.kcna.kp/kp/article/detail/6f32bae787a270ad97c95ff2d2d27794",
       "mediaType": "article",
       "categories": [
+        "important",
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 399,
+        "foreign": 521,
         "domestic": 3391
       },
       "featuredSections": [],
-      "hasImage": true,
+      "hasImage": false,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac433145c5008cb9722bf7f83ec562c3c4",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/eb2f9d1a7914ccf347b50b26d685cf6eead021ae30831ad178c9a34d8709ba0e.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A14b8b811e480bedd2f46e278"
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0e4a0a9d9172e81acc4bf175"
     },
     {
-      "id": "news:kcna:5b9b24158780d79590d9495b",
-      "title": "전당강화의 성스러운 투쟁려정에 불멸할 력사의 리정표들",
+      "id": "news:kcna:4b6070979f439d79ae95a756",
+      "title": "조선로동당 중앙위원회 정치국 당중앙위원회 제8기 제13차전원회의를 소집할것을 결정",
       "date": "2025-11-01",
       "snippet": "(평양 11월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/18c9e4c1d4ea8b902b8a20de3c957aa7",
+      "url": "http://www.kcna.kp/kp/article/detail/fc7ffbfac7f23da367aa3863d3a8b604",
       "mediaType": "article",
       "categories": [
+        "important",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 400,
         "domestic": 3392
       },
       "featuredSections": [],
@@ -49,71 +55,75 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5b9b24158780d79590d9495b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4b6070979f439d79ae95a756"
     },
     {
-      "id": "news:kcna:c523d13405dd2d3321a9a97d",
-      "title": "단천발전소 2단계 공사를 위한 준비사업 추진",
+      "id": "news:kcna:397bf7b27bf7e8bf1f427b2c",
+      "title": "로씨야경제대표단 귀국",
       "date": "2025-11-01",
       "snippet": "(평양 11월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/de5c90f4dbd0d6e6b25a2047bee423ce",
+      "url": "http://www.kcna.kp/kp/article/detail/56cb144c5e5e7f958be74e3b0490b94e",
       "mediaType": "article",
       "categories": [
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "foreign": 522,
         "domestic": 3393
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac523d13405dd2d3321a9a97d"
-    },
-    {
-      "id": "news:kcna:6db467f549e148cbfab8a358",
-      "title": "조선의 국견 풍산개품평회-2025 진행",
-      "date": "2025-11-01",
-      "snippet": "(평양 11월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6961020202ff551dbaf2719bd7d88279",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 3394,
-        "social": 555
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6db467f549e148cbfab8a358"
-    },
-    {
-      "id": "news:kcna:4e6b62ed7747be57d8549603",
-      "title": "함경북도 무산군 독소농장에서 새집들이 진행",
-      "date": "2025-11-01",
-      "snippet": "(평양 11월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8a2617a76bb23ea63b61ee259a073009",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 3395,
-        "social": 556
       },
       "featuredSections": [],
       "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac97ce26d31b8a4553b7853dc8ee7b4370",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/58146ff5e7561cf3a3a9c702eef3bf05cba6853a775ac06ba691179dc1f0420f.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4e6b62ed7747be57d8549603"
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac97630ebd7eaddf3618775cb0c61796f8",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/ea81ab96c25b5d621b3bf8b6fc6e07baac7abe9cf639689029ba263a43b4fbf8.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A397bf7b27bf7e8bf1f427b2c"
+    },
+    {
+      "id": "news:kcna:3d21491e7b3445a7b771357d",
+      "title": "조선로동당 중앙위원회 비서 김덕훈동지가 로씨야경제대표단 주요성원들을 만났다",
+      "date": "2025-11-01",
+      "snippet": "(평양 11월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/aa9d27fe1c2c920d58f8fcb5c28c0c04",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 401,
+        "foreign": 523,
+        "domestic": 3394
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eacd3d5cbdd56acf21564ba2b981574ad0a",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/37d733ccd56cdcb23182fc65821355c6bd8193dad80998f18cc3f171442b3de2.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3d21491e7b3445a7b771357d"
+    },
+    {
+      "id": "news:kcna:9d32c4c3d6614c46797e026d",
+      "title": "조선민주주의인민공화국 외무상 최선희동지 로씨야련방과 벨라루씨공화국을 방문하고 귀국",
+      "date": "2025-11-01",
+      "snippet": "(평양 11월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cc652f3daa1e7dbe9b89a228124be164",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 524,
+        "domestic": 3395
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac1f99b046b15cf0ffa08b1c3c82d771c7",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/e2e7df7ec41751d8f59a2bdde16089a006eea0e47cd9c28f839fa880d31f05a9.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9d32c4c3d6614c46797e026d"
     }
   ]
 }

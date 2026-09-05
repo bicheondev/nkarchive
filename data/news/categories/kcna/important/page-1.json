@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-04T00:00:00.000Z",
-  "version": "cc7bb414a6de4d87",
+  "generatedAt": "2026-09-05T00:00:00.000Z",
+  "version": "852f9be6176c9209",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,37 @@
   "section": "important",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 515,
-  "totalPages": 103,
+  "totalItems": 516,
+  "totalPages": 104,
   "articles": [
+    {
+      "id": "news:kcna:8b351573b1c467b403e544ee",
+      "title": "경애하는 김정은동지께 우리 나라 주재 외교단이 꽃바구니와 축하편지를 드리였다",
+      "date": "2026-09-05",
+      "snippet": "(평양 9월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/efcf831f738c4cf1c44c7f0f60578d72",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 0,
+        "foreign": 1,
+        "domestic": 3
+      },
+      "featuredSections": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45badbbe46d5a769d0dff139bc241dbbb2a7",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/32cc58fefbb404964a4476985d3af658ecabb9c39cf236482cbb223e9492b66c.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8b351573b1c467b403e544ee"
+    },
     {
       "id": "news:kcna:e388afa89b41207ada333e98",
       "title": "경애하는 김정은동지께 에짚트아랍공화국 대통령이 축전을 보내여왔다",
@@ -24,9 +52,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 0,
+        "important": 1,
         "international": 14,
-        "foreign": 1
+        "foreign": 3
       },
       "featuredSections": [
         "important",
@@ -51,9 +79,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 1,
-        "foreign": 2,
-        "domestic": 30
+        "important": 2,
+        "foreign": 4,
+        "domestic": 36
       },
       "featuredSections": [
         "important",
@@ -79,10 +107,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 2,
+        "important": 3,
         "document": 0,
-        "foreign": 3,
-        "domestic": 46
+        "foreign": 5,
+        "domestic": 52
       },
       "featuredSections": [
         "important",
@@ -108,9 +136,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 3,
-        "foreign": 6,
-        "domestic": 73
+        "important": 4,
+        "foreign": 8,
+        "domestic": 79
       },
       "featuredSections": [
         "important"
@@ -120,32 +148,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A3cf99086fb550851961e4358"
-    },
-    {
-      "id": "news:kcna:fe5721126ff1e0bdbe84a60f",
-      "title": "경애하는 김정은동지께서 네팔대통령에게 위문전문을 보내시였다",
-      "date": "2026-08-28",
-      "snippet": "(평양 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0ccf2a23569f14808d2b3d79efbcdd23",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 4,
-        "foreign": 7,
-        "domestic": 74
-      },
-      "featuredSections": [
-        "important"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afe5721126ff1e0bdbe84a60f"
     }
   ]
 }

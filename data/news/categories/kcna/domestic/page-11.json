@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-04T00:00:00.000Z",
-  "version": "cc7bb414a6de4d87",
+  "generatedAt": "2026-09-05T00:00:00.000Z",
+  "version": "852f9be6176c9209",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,35 +8,39 @@
   "section": "domestic",
   "page": 11,
   "pageSize": 5,
-  "totalItems": 4152,
-  "totalPages": 831,
+  "totalItems": 4158,
+  "totalPages": 832,
   "articles": [
     {
-      "id": "news:kcna:37cfa83af6cbb56d755934ce",
-      "title": "함경북도에서 농기계생산 결속,시,군들에 집중수송",
-      "date": "2026-08-30",
-      "snippet": "(평양 8월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/571c809474ecb967a42ecf44570d61ed",
+      "id": "news:kcna:1d9cb93206d85669d063253c",
+      "title": "개성시에서 청년돌격대원들을 당결정관철을 위한 실천투쟁에로 고무",
+      "date": "2026-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/71c254d51802b33b311416e38449dc5c",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 50
+        "domestic": 50,
+        "social": 4
       },
-      "featuredSections": [],
+      "featuredSections": [
+        "social"
+      ],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A37cfa83af6cbb56d755934ce"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1d9cb93206d85669d063253c"
     },
     {
-      "id": "news:kcna:9a9841590f97572019dce419",
-      "title": "강계강철공장에서 철강재생산 1.2배 장성",
-      "date": "2026-08-30",
-      "snippet": "(평양 8월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3650c56beabfc8ca22bb8b54c2ace6d3",
+      "id": "news:kcna:4945873e98cdebdbb9b68833",
+      "title": "명천지구탄광련합기업소에서 석탄증산에 매진",
+      "date": "2026-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1bc8cff2e1f3b363c84ee25d15efa334",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -49,34 +53,44 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9a9841590f97572019dce419"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4945873e98cdebdbb9b68833"
     },
     {
-      "id": "news:kcna:5c3b05f9d021c028d91c3ab9",
-      "title": "청진경기장 새로 개건",
-      "date": "2026-08-30",
-      "snippet": "(평양 8월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/cab4c5d59db0de9270f41dafc2a0cfe6",
+      "id": "news:kcna:9717aaa28b7bc5bfccb29f9c",
+      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
+      "date": "2026-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d71edc38f50c81691e4f69e6507f146b",
       "mediaType": "article",
       "categories": [
+        "important",
+        "document",
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 3,
+        "document": 0,
+        "foreign": 5,
         "domestic": 52
       },
-      "featuredSections": [],
+      "featuredSections": [
+        "important",
+        "document",
+        "foreign"
+      ],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5c3b05f9d021c028d91c3ab9"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9717aaa28b7bc5bfccb29f9c"
     },
     {
-      "id": "news:kcna:f51b71da5f0e845d5f2c5ee4",
-      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상을 찾아 총련교육일군대표단 경모의 정 표시",
-      "date": "2026-08-30",
-      "snippet": "(평양 8월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/59dd3c58b24091829523756e2503fc49",
+      "id": "news:kcna:c329857a85e2206a327c0c32",
+      "title": "2026년 8월 31일 《로동신문》개관",
+      "date": "2026-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7b4786932eae42f74930e7b7527f3fb6",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -85,18 +99,18 @@
         "domestic": 53
       },
       "featuredSections": [],
-      "hasImage": true,
+      "hasImage": false,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29873c864f039e772f3b4ec10b5cbdb41e",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/be446c6593ce23242a6040a7ec092c58542efa36c0a076bb93c48c966e52081b.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af51b71da5f0e845d5f2c5ee4"
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac329857a85e2206a327c0c32"
     },
     {
-      "id": "news:kcna:5826ee4f833ac5c2a0407db0",
-      "title": "총련교육일군대표단 도착",
-      "date": "2026-08-30",
-      "snippet": "(평양 8월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fc4c49d552656fc6257995f9577e6cd2",
+      "id": "news:kcna:c265de1d9706bf5776a25e28",
+      "title": "국가과학원 생물공학분원에서 새로운 수질정화기술 개발",
+      "date": "2026-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/eb37d35a01b8ce27532de9b1bd5a9d74",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -105,11 +119,11 @@
         "domestic": 54
       },
       "featuredSections": [],
-      "hasImage": true,
+      "hasImage": false,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29de61021e0b6a2977896f9350ad1577d4",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/0d82586b7ae2a202699c4715f736755634b0b8982d2155807456aec6374c1294.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5826ee4f833ac5c2a0407db0"
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac265de1d9706bf5776a25e28"
     }
   ]
 }

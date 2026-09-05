@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-04T00:00:00.000Z",
-  "version": "cc7bb414a6de4d87",
+  "generatedAt": "2026-09-05T00:00:00.000Z",
+  "version": "852f9be6176c9209",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,77 +8,81 @@
   "section": "domestic",
   "page": 582,
   "pageSize": 5,
-  "totalItems": 4152,
-  "totalPages": 831,
+  "totalItems": 4158,
+  "totalPages": 832,
   "articles": [
     {
-      "id": "news:kcna:b3055f750d65faa066cbb606",
-      "title": "2025년 12월 15일 《로동신문》개관",
-      "date": "2025-12-15",
-      "snippet": "(평양 12월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5244a4c8d39d26704f1115affdd84e90",
+      "id": "news:kcna:fb29d9ba826a07672c87188f",
+      "title": "신양군에서 지방공업공장들의 준공을 환희속에 경축",
+      "date": "2025-12-16",
+      "snippet": "(평양 12월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d7dec988b8fbcf3428b6b9ef175d0502",
       "mediaType": "article",
       "categories": [
+        "important",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 361,
         "domestic": 2906
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab3055f750d65faa066cbb606"
-    },
-    {
-      "id": "news:kcna:9869d147b7a1920f0d0e2e45",
-      "title": "함경남도 함흥시 마전농장,내호농장과 부전군 백상농장에서 새집들이 진행",
-      "date": "2025-12-15",
-      "snippet": "(평양 12월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f0951726dfad270416180fc871e131b0",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 2907,
-        "social": 449
       },
       "featuredSections": [],
       "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ff5043d7661017008601c225eeda4193b3",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/2d4d5f1a1df5a089b21a105c2f598f0237f378a4ad0d59e7b17dadc6ea098bbd.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9869d147b7a1920f0d0e2e45"
+      "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ffbb9b2816fe5a07dd68c8372dc4dc144b",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/2a2e21d3c9d1933ac12a8088cc94f6e66ac1139ebd249f989d744897f142ef7b.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afb29d9ba826a07672c87188f"
     },
     {
-      "id": "news:kcna:415eabae904c1ad85d9bfa9b",
-      "title": "인민사랑의 숭고한 한평생을 전하며 끝없이 울려퍼지는 전인민적송가들",
-      "date": "2025-12-15",
-      "snippet": "(평양 12월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/396178c1fa73f57f2f48bdba723378c1",
+      "id": "news:kcna:34104168d0a68fa94bd9f695",
+      "title": "랑림군에서 지방공업공장 준공식 진행",
+      "date": "2025-12-16",
+      "snippet": "(평양 12월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9b22f25ce9d4d0ae8af64b1f8befc3b2",
       "mediaType": "article",
       "categories": [
+        "important",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 362,
+        "domestic": 2907
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ffd22ef53aa15b6aba6ac599f1615fd4e1",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/e055478527705072d1da241ef5a24489ae41c0ef1e83acfc96b108724f4a34f1.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A34104168d0a68fa94bd9f695"
+    },
+    {
+      "id": "news:kcna:b2e813cb5d749fa52aa579a4",
+      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 외국의 인사,해외연고자가족들이 꽃바구니를 보내여왔다",
+      "date": "2025-12-16",
+      "snippet": "(평양 12월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/76c8d354fcee68aac8cf28b8ae62eae0",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 471,
         "domestic": 2908
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A415eabae904c1ad85d9bfa9b"
+      "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ffe011a93566e29127b6426f2f8bac1dfa",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/df49558bda6913191d6cc17ddee1aae5816340cc99d07beaa688ff5cf43abdc8.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab2e813cb5d749fa52aa579a4"
     },
     {
-      "id": "news:kcna:59b2aa2a1f55930dd304b4cb",
-      "title": "각지에서 올해 160여종에 수십억그루의 나무모생산",
+      "id": "news:kcna:3e19b2d0226cc42a5600ed90",
+      "title": "인민행렬차와 더불어 빛나는 고귀한 한생",
       "date": "2025-12-15",
       "snippet": "(평양 12월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a18507e5515e300eeb911aaa0796de3d",
+      "url": "http://www.kcna.kp/kp/article/detail/da789b97d02748a5717351cdd38033a0",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -91,14 +95,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A59b2aa2a1f55930dd304b4cb"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3e19b2d0226cc42a5600ed90"
     },
     {
-      "id": "news:kcna:3afba44af46c98968db1617e",
-      "title": "평안남도에서 시,군고려약공장들을 개건",
+      "id": "news:kcna:e07dda703a5838959a50119a",
+      "title": "국토환경보호부문에서 이룩한 올해의 성과",
       "date": "2025-12-15",
       "snippet": "(평양 12월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ce377ea09ea8baad6330d3912c63f2af",
+      "url": "http://www.kcna.kp/kp/article/detail/4378c61c841f72137a43c9e27a790a8e",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -111,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3afba44af46c98968db1617e"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae07dda703a5838959a50119a"
     }
   ]
 }

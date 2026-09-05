@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-04T00:00:00.000Z",
-  "version": "cc7bb414a6de4d87",
+  "generatedAt": "2026-09-05T00:00:00.000Z",
+  "version": "852f9be6176c9209",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "important",
   "page": 36,
   "pageSize": 5,
-  "totalItems": 515,
-  "totalPages": 103,
+  "totalItems": 516,
+  "totalPages": 104,
   "articles": [
+    {
+      "id": "news:kcna:751d5b91e93f1b059773117b",
+      "title": "중화인민공화국 외교부장 평양에 도착",
+      "date": "2026-04-10",
+      "snippet": "(평양 4월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2cfd71d6c31fc2dd15a9d7ade75a09ac",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 175,
+        "foreign": 269,
+        "domestic": 1668
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66824adfac7361e755605d86dd3a700e75",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/304b94b7ca18b2a2c495f73df6b104ece6974488b1ff7aeff3e95ace357399e8.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A751d5b91e93f1b059773117b"
+    },
     {
       "id": "news:kcna:1f32ffab980e783f3d71def9",
       "title": "국방과학연구기관들 중요무기체계들에 대한 시험 진행",
@@ -23,8 +47,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 175,
-        "domestic": 1681
+        "important": 176,
+        "domestic": 1687
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,9 +70,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 176,
-        "foreign": 269,
-        "domestic": 1682
+        "important": 177,
+        "foreign": 271,
+        "domestic": 1688
       },
       "featuredSections": [],
       "hasImage": false,
@@ -70,9 +94,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 177,
+        "important": 178,
         "international": 1096,
-        "foreign": 270
+        "foreign": 272
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,9 +118,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 178,
-        "foreign": 274,
-        "domestic": 1690
+        "important": 179,
+        "foreign": 276,
+        "domestic": 1696
       },
       "featuredSections": [],
       "hasImage": false,
@@ -104,30 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A6dee92ccfa6a21a5583fe6b8"
-    },
-    {
-      "id": "news:kcna:2292eb18476099d52c83f95b",
-      "title": "경애하는 김정은동지께서 윁남공산당 중앙위원회 총비서,윁남사회주의공화국 주석에게 축전을 보내시였다",
-      "date": "2026-04-08",
-      "snippet": "(평양 4월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/14f988f6e071f3a11c9d3214ba752aac",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 179,
-        "foreign": 275,
-        "domestic": 1695
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2292eb18476099d52c83f95b"
     }
   ]
 }

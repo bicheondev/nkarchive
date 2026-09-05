@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-04T00:00:00.000Z",
-  "version": "cc7bb414a6de4d87",
+  "generatedAt": "2026-09-05T00:00:00.000Z",
+  "version": "852f9be6176c9209",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "important",
   "page": 52,
   "pageSize": 5,
-  "totalItems": 515,
-  "totalPages": 103,
+  "totalItems": 516,
+  "totalPages": 104,
   "articles": [
+    {
+      "id": "news:kcna:2b9143263e5a2b205a78cd6c",
+      "title": "조선민주주의인민공화국 최고인민회의 상임위원회 결정",
+      "date": "2026-03-04",
+      "snippet": "(평양 3월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5f716275878c0188285f882e2d721149",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 255,
+        "document": 38,
+        "domestic": 2103
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2b9143263e5a2b205a78cd6c"
+    },
     {
       "id": "news:kcna:98264e9b5e231673ff240251",
       "title": "경애하는 김정은동지께 외국의 정당들이 꽃바구니를 보내여왔다",
@@ -24,9 +48,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 255,
+        "important": 256,
         "international": 1387,
-        "foreign": 354
+        "foreign": 356
       },
       "featuredSections": [],
       "hasImage": true,
@@ -48,9 +72,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 256,
+        "important": 257,
         "international": 1388,
-        "foreign": 355
+        "foreign": 357
       },
       "featuredSections": [],
       "hasImage": false,
@@ -71,8 +95,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 257,
-        "domestic": 2111
+        "important": 258,
+        "domestic": 2117
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,9 +118,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 258,
+        "important": 259,
         "document": 39,
-        "domestic": 2119
+        "domestic": 2125
       },
       "featuredSections": [],
       "hasImage": false,
@@ -104,30 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A8db22e5c1c1da107395ec12b"
-    },
-    {
-      "id": "news:kcna:6800ca50ddbfb7a7593ffa35",
-      "title": "경애하는 김정은동지께 니까라과공화국 공동대통령들이 축전을 보내여왔다",
-      "date": "2026-03-01",
-      "snippet": "(평양 3월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/cca438b2672c44200e2834f6f4d15308",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 259,
-        "international": 1404,
-        "foreign": 356
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6800ca50ddbfb7a7593ffa35"
     }
   ]
 }
