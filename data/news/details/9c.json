@@ -1,8 +1,78 @@
 {
   "generatedAt": "2026-09-06T00:00:00.000Z",
-  "version": "f58ab7ce4024663f",
+  "version": "b6d4df060c9d5cad",
   "shard": "9c",
   "articles": {
+    "news:kcna:d9536147c61423acde2ff129": {
+      "id": "news:kcna:d9536147c61423acde2ff129",
+      "title": "김일성종합대학에서 과학기술성과를 이룩하기 위한 사업 추진",
+      "date": "2026-09-06",
+      "snippet": "김일성종합대학에서 과학기술성과를 이룩하기 위한 사업 추진",
+      "body": "김일성종합대학에서 과학기술성과를 이룩하기 위한 사업 추진",
+      "url": "http://www.kcna.kp/kp/gallery/detail/2d78f42c776a99604b69129e9491abbf",
+      "mediaType": "article",
+      "sourceId": "kcna",
+      "sourceName": "조선중앙통신",
+      "categories": [
+        "photo"
+      ],
+      "categoryOrders": {
+        "photo": 1
+      },
+      "featuredSections": [
+        "photo"
+      ],
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45baf0bf773087e074b68b756696e991ff4c",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/2ead05789ae07b8a8310688c8539888b35e533d18c790b7ce30f153db769aa5a.jpg",
+      "images": [
+        {
+          "id": "news:kcna:d9536147c61423acde2ff129:image:2ead05789ae07b8a8310688c8539888b35e533d18c790b7ce30f153db769aa5a",
+          "url": "",
+          "cachedUrl": "/data/news/assets/kcna/2ead05789ae07b8a8310688c8539888b35e533d18c790b7ce30f153db769aa5a.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/2ead05789ae07b8a8310688c8539888b35e533d18c790b7ce30f153db769aa5a.jpg",
+          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/2d78f42c776a99604b69129e9491abbf",
+          "displayOrder": 0
+        },
+        {
+          "id": "news:kcna:d9536147c61423acde2ff129:image:cb69b9e55b4d6fb2d7dd798372735acafdb1ea608db798dc4dcf3eb303a686da",
+          "url": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45baf0bf773087e074b68b756696e991ff4c",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45baf0bf773087e074b68b756696e991ff4c",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/2d78f42c776a99604b69129e9491abbf",
+          "displayOrder": 1
+        },
+        {
+          "id": "news:kcna:d9536147c61423acde2ff129:image:31f99366681116d83d2b29e85e172221be3afd2a65f74dc3dd67097dc4770b74",
+          "url": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45baa69dff594ac1961b61df88696d42bc0e",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45baa69dff594ac1961b61df88696d42bc0e",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/2d78f42c776a99604b69129e9491abbf",
+          "displayOrder": 2
+        },
+        {
+          "id": "news:kcna:d9536147c61423acde2ff129:image:dfffdefc1c4e1ef1fed511eb077625c220adf605a849161e8985dfb73a61639a",
+          "url": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba0e16bde0353f4d6d14cb3c059e5ea990",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba0e16bde0353f4d6d14cb3c059e5ea990",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/2d78f42c776a99604b69129e9491abbf",
+          "displayOrder": 3
+        },
+        {
+          "id": "news:kcna:d9536147c61423acde2ff129:image:85bb39bb681f8152301916ce0310b2a3724d7340c7d2ce74176cd5cf4bc6a415",
+          "url": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45baf8d8951651d5cf0650059f48f2f87c0c",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45baf8d8951651d5cf0650059f48f2f87c0c",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/2d78f42c776a99604b69129e9491abbf",
+          "displayOrder": 4
+        }
+      ],
+      "videos": []
+    },
     "news:kcna:06824af5b3d07f9ac4a5d9b7": {
       "id": "news:kcna:06824af5b3d07f9ac4a5d9b7",
       "title": "농작물비배관리를 과학기술적으로 진행",
@@ -56,7 +126,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 365
+        "domestic": 370
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -78,7 +148,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 260
+        "international": 266
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -102,7 +172,7 @@
       ],
       "categoryOrders": {
         "foreign": 90,
-        "domestic": 596
+        "domestic": 601
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d9c11e7d8f19b53b661ed227990f9629c",
@@ -188,7 +258,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 401
+        "international": 407
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -210,7 +280,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 908
+        "domestic": 913
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -453,7 +523,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 792
+        "international": 798
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -475,7 +545,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 891
+        "international": 897
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -497,7 +567,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 948
+        "international": 954
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -519,7 +589,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1496
+        "domestic": 1501
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -541,7 +611,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 305
+        "photo": 307
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b6617263b0ebc43482db7f240d252758ed5",
@@ -595,7 +665,7 @@
       "categoryOrders": {
         "important": 153,
         "foreign": 236,
-        "domestic": 1526
+        "domestic": 1531
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b660e80ee3202225010ab930fd09f8a6ef9",
@@ -636,7 +706,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1088
+        "international": 1094
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -658,7 +728,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1101
+        "international": 1107
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -680,7 +750,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 373
+        "photo": 375
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e602cc10535815c84a0f1dd525d399d901d",
@@ -721,7 +791,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1942
+        "domestic": 1947
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -743,7 +813,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1330
+        "international": 1336
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -765,7 +835,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1630
+        "international": 1636
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -788,8 +858,8 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1742,
-        "social": 367
+        "international": 1748,
+        "social": 368
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -811,7 +881,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 589
+        "photo": 591
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e45135a054376f1a70577aebb282515e3774",
@@ -933,7 +1003,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1945
+        "international": 1951
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -955,7 +1025,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 674
+        "photo": 676
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f5dc5e1edcdf22823335ccca9672b86fcf",
@@ -1050,7 +1120,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3082
+        "domestic": 3087
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1072,7 +1142,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3114
+        "domestic": 3119
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1095,8 +1165,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3124,
-        "social": 491
+        "domestic": 3129,
+        "social": 492
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac63898cbbe35b6b657cd8b209a80b9021",
@@ -1200,7 +1270,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2269
+        "international": 2275
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1222,7 +1292,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2302
+        "international": 2308
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1244,7 +1314,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 891
+        "photo": 893
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12efe9eaf7f36101a1feaa0b9f50fc766a",
@@ -1285,7 +1355,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2523
+        "international": 2529
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1307,7 +1377,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2561
+        "international": 2567
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1329,7 +1399,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2611
+        "international": 2617
       },
       "featuredSections": [],
       "thumbnailUrl": "",

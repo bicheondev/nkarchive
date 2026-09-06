@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-06T00:00:00.000Z",
-  "version": "f58ab7ce4024663f",
+  "version": "b6d4df060c9d5cad",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,34 @@
   "section": "social",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 683,
+  "totalItems": 681,
   "totalPages": 137,
   "articles": [
+    {
+      "id": "news:kcna:f53a2563c2d8d22cd59689a0",
+      "title": "각급 청년동맹조직들에서 애국주의교양 진행",
+      "date": "2026-09-06",
+      "snippet": "(평양 9월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c4c5e7ede0918e719a019b62ccca77c2",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 1,
+        "social": 0
+      },
+      "featuredSections": [
+        "domestic",
+        "social"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af53a2563c2d8d22cd59689a0"
+    },
     {
       "id": "news:kcna:9a4e6b96a6987542c52c28f3",
       "title": "황해남도의 500여명의 녀성들 사회주의건설의 초소들로 진출",
@@ -23,11 +48,10 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1,
-        "social": 0
+        "domestic": 6,
+        "social": 1
       },
       "featuredSections": [
-        "domestic",
         "social"
       ],
       "hasImage": false,
@@ -48,8 +72,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 29,
-        "social": 1
+        "domestic": 34,
+        "social": 2
       },
       "featuredSections": [
         "social"
@@ -72,8 +96,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 43,
-        "social": 2
+        "domestic": 48,
+        "social": 3
       },
       "featuredSections": [
         "social"
@@ -96,31 +120,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 47,
-        "social": 3
-      },
-      "featuredSections": [
-        "social"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa1342f9a4892536961c53bfe"
-    },
-    {
-      "id": "news:kcna:47e8f12db664c3747fb59aa1",
-      "title": "강원도의 청년들 사회주의건설의 어렵고 힘든 부문으로 탄원",
-      "date": "2026-09-01",
-      "snippet": "(평양 9월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ffc98dc7ff5a9020c49d1a47ae8be8ac",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 50,
+        "domestic": 52,
         "social": 4
       },
       "featuredSections": [
@@ -130,7 +130,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A47e8f12db664c3747fb59aa1"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa1342f9a4892536961c53bfe"
     }
   ]
 }

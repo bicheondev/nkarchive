@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-06T00:00:00.000Z",
-  "version": "f58ab7ce4024663f",
+  "version": "b6d4df060c9d5cad",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "anecdote",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 102,
+  "totalItems": 103,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:5634d85ea92d0a8e632ccb5e",
+      "title": "행복한 고민",
+      "date": "2026-09-06",
+      "snippet": "2026년 5월 어느날 경애하는 김정은동지께서 신의주온실종합농장을 찾으시였을 때였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/face7287ed1bec8a15b4ebe245850a6a",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 0
+      },
+      "featuredSections": [
+        "anecdote"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5634d85ea92d0a8e632ccb5e"
+    },
     {
       "id": "news:kcna:3cea9d97132b981585392762",
       "title": "교육자들에게 하신 뜻깊은 인사",
@@ -22,7 +44,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 0
+        "anecdote": 1
       },
       "featuredSections": [
         "anecdote"
@@ -44,7 +66,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 1
+        "anecdote": 2
       },
       "featuredSections": [
         "anecdote"
@@ -66,7 +88,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 2
+        "anecdote": 3
       },
       "featuredSections": [
         "anecdote"
@@ -88,28 +110,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 3
-      },
-      "featuredSections": [
-        "anecdote"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af145d29a023c9491077b8fb5"
-    },
-    {
-      "id": "news:kcna:9418a43a726f38aaf6c54735",
-      "title": "기꺼이 걸으신 험한 산길",
-      "date": "2026-08-24",
-      "snippet": "경애하는 김정은동지께서는 2018년 8월 어느날 인민을 위한 훌륭한 온천문화휴양지를 건설하실 웅지를 안으시고 양덕군을 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/4ceb6c0dc374441a11b34fa4be0fc461",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 4
       },
       "featuredSections": [
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9418a43a726f38aaf6c54735"
+      "detailUrl": "/news/document?id=news%3Akcna%3Af145d29a023c9491077b8fb5"
     }
   ]
 }

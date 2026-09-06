@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-06T00:00:00.000Z",
-  "version": "f58ab7ce4024663f",
+  "version": "b6d4df060c9d5cad",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,35 +8,37 @@
   "section": "domestic",
   "page": 17,
   "pageSize": 5,
-  "totalItems": 4153,
-  "totalPages": 831,
+  "totalItems": 4148,
+  "totalPages": 830,
   "articles": [
     {
-      "id": "news:kcna:79eeb6aa2f94c6815ac2ad2a",
-      "title": "제7차 대학생기억경연 진행",
+      "id": "news:kcna:4e774fec393173e62a7ec73a",
+      "title": "각지에서 청년절을 뜻깊게 기념",
       "date": "2026-08-29",
       "snippet": "(평양 8월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c895c4e055b062319baece4e95e2cfb6",
+      "url": "http://www.kcna.kp/kp/article/detail/35dc9712f4a14b7f8b062bbbd1b10d98",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 80
+        "domestic": 80,
+        "social": 8
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A79eeb6aa2f94c6815ac2ad2a"
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29a570d07df5120405a13da2a653e2a42d",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/090258238fe3460de1dbcb306de734adb791ffe82a03c238e1a696981e673c6e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4e774fec393173e62a7ec73a"
     },
     {
-      "id": "news:kcna:329a06830fa82678146b8363",
-      "title": "2026년 8월 29일 신문개관",
+      "id": "news:kcna:421c268bd24928020ec92aa3",
+      "title": "황해남도의 농촌들에서 논판양어의 과학화,집약화실현을 위한 사업 전개",
       "date": "2026-08-29",
       "snippet": "(평양 8월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b72fd1b4f72443b762d7e87b91d89d1f",
+      "url": "http://www.kcna.kp/kp/article/detail/259d2bda494b4091a9539d98db7fefe1",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -49,36 +51,34 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A329a06830fa82678146b8363"
+      "detailUrl": "/news/document?id=news%3Akcna%3A421c268bd24928020ec92aa3"
     },
     {
-      "id": "news:kcna:f8bae31af14e43652f8bf1ca",
-      "title": "당과 정부의 간부들 각지 청년들과 함께 청년절을 기념",
+      "id": "news:kcna:d7ba82344c45a4061e61def7",
+      "title": "홰불컵축구경기 결속",
       "date": "2026-08-29",
       "snippet": "(평양 8월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d867ae1d5a411adcff8d26ee4dae8804",
+      "url": "http://www.kcna.kp/kp/article/detail/06f4b39beb297ca1023bfd4755fbba53",
       "mediaType": "article",
       "categories": [
-        "domestic",
-        "social"
+        "domestic"
       ],
       "categoryOrders": {
-        "domestic": 82,
-        "social": 9
+        "domestic": 82
       },
       "featuredSections": [],
-      "hasImage": true,
+      "hasImage": false,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2985c7301235d63977f45c0f311eb04c69",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/9363c411a43cf0db24a03a3922c12988315fa63317331f82f2e8fe739e1c618f.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af8bae31af14e43652f8bf1ca"
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad7ba82344c45a4061e61def7"
     },
     {
-      "id": "news:kcna:b7ac6a56a125314262c57fb1",
-      "title": "방직공업부문에서 2년분,년간계획완수자들 계속 배출",
+      "id": "news:kcna:b10a820dea14323b9646dc7c",
+      "title": "함경북도안의 금속공업부문 공장,기업소들에서 설비관리,기술관리수준을 제고하기 위한 대책 강구",
       "date": "2026-08-29",
       "snippet": "(평양 8월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e81f1aa0434968ef166a600e3ce13e93",
+      "url": "http://www.kcna.kp/kp/article/detail/91cf8ff2d322ac497f1e066f4cc531af",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -91,27 +91,29 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab7ac6a56a125314262c57fb1"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab10a820dea14323b9646dc7c"
     },
     {
-      "id": "news:kcna:0454dba0eae00ce27a7323dc",
-      "title": "각지에서 관개부문의 토대강화를 위한 사업 전개",
+      "id": "news:kcna:9921337231f802608ba993fc",
+      "title": "각지에서 석탄전선을 지원",
       "date": "2026-08-29",
       "snippet": "(평양 8월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/48773f6e229e88214360c638a2415d60",
+      "url": "http://www.kcna.kp/kp/article/detail/2df4aab532f6ee323b90d26715e9007a",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 84
+        "domestic": 84,
+        "social": 9
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0454dba0eae00ce27a7323dc"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9921337231f802608ba993fc"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-06T00:00:00.000Z",
-  "version": "f58ab7ce4024663f",
+  "version": "b6d4df060c9d5cad",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,15 @@
   "section": "domestic",
   "page": 8,
   "pageSize": 5,
-  "totalItems": 4153,
-  "totalPages": 831,
+  "totalItems": 4148,
+  "totalPages": 830,
   "articles": [
     {
-      "id": "news:kcna:0215f35bd44fdab92c8009e7",
-      "title": "의학교육기관 교육자들을 위한 시범강의 진행",
+      "id": "news:kcna:664c18a716decf114688cc08",
+      "title": "2026년 가을철보링애호가경기 진행",
       "date": "2026-09-03",
       "snippet": "(평양 9월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/859e581961d8a79e223365dbbe59bcb0",
+      "url": "http://www.kcna.kp/kp/article/detail/c6318319115d8039a60d9d7425d7a2f8",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -25,18 +25,18 @@
         "domestic": 35
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0215f35bd44fdab92c8009e7"
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba833f24edc565c230e9de171cce78da93",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/896fb9459a1bbd8f4f46d4cec84c588f83a4ffda8c98547b20466e50bdc6b169.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A664c18a716decf114688cc08"
     },
     {
-      "id": "news:kcna:b56113a33f2442c11750709b",
-      "title": "인민경제 여러 부문,단위에서 8월 인민경제계획 완수",
+      "id": "news:kcna:b16c678d14a72b80308e154b",
+      "title": "황해북도에서 지방공업공장 원료기지들의 정보당수확고제고에 주력",
       "date": "2026-09-03",
       "snippet": "(평양 9월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/85366bc3d839b9dd8c57fd34a1b8975d",
+      "url": "http://www.kcna.kp/kp/article/detail/1f242fef45958d052d43d411adb67e20",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -49,14 +49,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab56113a33f2442c11750709b"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab16c678d14a72b80308e154b"
     },
     {
-      "id": "news:kcna:324296d7a126a0f6833a3993",
-      "title": "교육혁명의 불길속에 나라의 전반적교육토대 강화",
-      "date": "2026-09-02",
-      "snippet": "(평양 9월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ac40075e799870d4a985f34810ecc645",
+      "id": "news:kcna:1be409907a0073454686c4ab",
+      "title": "2026년 9월 3일 신문개관",
+      "date": "2026-09-03",
+      "snippet": "(평양 9월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5bff0f6a7b357d5c084a409555ce477f",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -69,34 +69,38 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A324296d7a126a0f6833a3993"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1be409907a0073454686c4ab"
     },
     {
-      "id": "news:kcna:e7e9253c3a74288eeef3e784",
-      "title": "수산부문의 여러 단위 수산자원을 증식시키기 위한 사업에서 성과 달성",
-      "date": "2026-09-02",
-      "snippet": "(평양 9월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fe2eafc513dee0ec9c3d438fe26e3ad9",
+      "id": "news:kcna:2d5d69ef7845147035f50ee4",
+      "title": "로씨야에 갔던 조선기자동맹대표단 귀국",
+      "date": "2026-09-03",
+      "snippet": "(평양 9월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a223348891316cecc5137e2f1c659d30",
       "mediaType": "article",
       "categories": [
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "foreign": 2,
         "domestic": 38
       },
-      "featuredSections": [],
+      "featuredSections": [
+        "foreign"
+      ],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae7e9253c3a74288eeef3e784"
+      "detailUrl": "/news/document?id=news%3Akcna%3A2d5d69ef7845147035f50ee4"
     },
     {
-      "id": "news:kcna:03b161ed5af5bda4e850f520",
-      "title": "비알곡먹이에 의한 축산물생산기술전습회 진행",
-      "date": "2026-09-02",
-      "snippet": "(평양 9월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4152d5a5c0557c2a2ee69a0b8aed3d3e",
+      "id": "news:kcna:aebe48c351aabd18862cd93b",
+      "title": "교육자들에게 베풀어주신 절세위인의 사랑과 믿음",
+      "date": "2026-09-03",
+      "snippet": "(평양 9월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3947c37042ef6d1ac8da52f783fc9a64",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -105,11 +109,11 @@
         "domestic": 39
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A03b161ed5af5bda4e850f520"
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45baa7c99ff0afe8a4cb4337d3c16d37a2d8",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/eccab51ed8101968cdaa4f9982b4ecd4e60cf69e909e29bd21f24a1ceb9b277e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaebe48c351aabd18862cd93b"
     }
   ]
 }
