@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "65614bfc4d3c5a42",
+  "generatedAt": "2026-09-06T00:00:00.000Z",
+  "version": "f58ab7ce4024663f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,15 @@
   "section": "domestic",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 4146,
-  "totalPages": 830,
+  "totalItems": 4153,
+  "totalPages": 831,
   "articles": [
     {
-      "id": "news:kcna:71fe401402a35211c19fcb31",
-      "title": "황해북도의 농촌들에서 농기계수리정비 결속",
+      "id": "news:kcna:65f7ae8c3150b151b68ee769",
+      "title": "조선로동당 중앙위원회 비서 김승두동지가 총련교육일군대표단을 만났다",
       "date": "2026-09-05",
       "snippet": "(평양 9월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6360f99f0be3a74b55a0479aed1265fa",
+      "url": "http://www.kcna.kp/kp/article/detail/da9913f29dae3ea4a25d61c74c63791a",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -25,18 +25,18 @@
         "domestic": 5
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A71fe401402a35211c19fcb31"
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba0b97f698bc0477fe6298e139403b2953",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/9ce8f0704bc69b0026f46277aa6bc5901975b929da94b0119326a2db628ee611.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A65f7ae8c3150b151b68ee769"
     },
     {
-      "id": "news:kcna:818909fda5f312e06f01defc",
-      "title": "애국정신을 배가해주며 울려퍼지는 새시대의 조국찬가들",
+      "id": "news:kcna:e3a801955e3be77bdec67548",
+      "title": "각지의 시,군종합봉사소건설 추진",
       "date": "2026-09-05",
       "snippet": "(평양 9월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c2f243fade721bcacd3b341d423d52fe",
+      "url": "http://www.kcna.kp/kp/article/detail/f717dd9e386f873d31d7158005bd6a65",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -49,14 +49,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A818909fda5f312e06f01defc"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae3a801955e3be77bdec67548"
     },
     {
-      "id": "news:kcna:b3935a065a0b802d886fd12c",
-      "title": "전국록색건축부문,광업부문 과학기술발표회 및 연구토론회 진행",
-      "date": "2026-09-04",
-      "snippet": "(평양 9월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2119f3cc5c58a16a249d03c9c5754539",
+      "id": "news:kcna:c3366d921d20d5f3e5798ce9",
+      "title": "2026년 9월 5일 신문개관",
+      "date": "2026-09-05",
+      "snippet": "(평양 9월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5262fc3abb0a5ab9d911a4e94a1f3ec8",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -69,34 +69,38 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab3935a065a0b802d886fd12c"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac3366d921d20d5f3e5798ce9"
     },
     {
-      "id": "news:kcna:5171d6b21172d1c23ef16c09",
-      "title": "량강도의 농촌들에서 감자수확에 련이어 진입,력량과 수단 집중",
-      "date": "2026-09-04",
-      "snippet": "(평양 9월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4d7d50a2613b867e178d4ad40bafcf66",
+      "id": "news:kcna:97d14ee943116818ddd20312",
+      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 우리 나라 주재 국제기구대표부들 꽃바구니 진정",
+      "date": "2026-09-05",
+      "snippet": "(평양 9월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e7807dce417b0dd66b0faf05c02c2091",
       "mediaType": "article",
       "categories": [
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "foreign": 0,
         "domestic": 8
       },
-      "featuredSections": [],
-      "hasImage": false,
+      "featuredSections": [
+        "foreign"
+      ],
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5171d6b21172d1c23ef16c09"
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba1310aabe9f04801f78b9407fbcd63908",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/32cb9dd6d1030af5b88ce202ebec2dca3d9bb2f807256eb5caf228c47e4acd5f.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A97d14ee943116818ddd20312"
     },
     {
-      "id": "news:kcna:1716d3cde62335c9d7bdad5b",
-      "title": "평양제1사범대학에서 논판양어를 장려할데 대한 당정책관철에 기여",
-      "date": "2026-09-04",
-      "snippet": "(평양 9월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9b0bd3d8928e52fed7aeee19cada2864",
+      "id": "news:kcna:fa711622c42534f5411c76a8",
+      "title": "획기적인 발전을 이룩하고있는 주체교육",
+      "date": "2026-09-05",
+      "snippet": "(평양 9월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/859489bd88bc49fd7f4247c0cf22dc6d",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -105,11 +109,11 @@
         "domestic": 9
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1716d3cde62335c9d7bdad5b"
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba82d512bb459c8a8f313f4d50f453ffce",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/62ef34b27b03ea1258f025ba3996727484541a5ba4f0b63a808371bc60fcc87b.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afa711622c42534f5411c76a8"
     }
   ]
 }

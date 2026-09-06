@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-05T00:00:00.000Z",
-  "version": "65614bfc4d3c5a42",
+  "generatedAt": "2026-09-06T00:00:00.000Z",
+  "version": "f58ab7ce4024663f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,35 +8,37 @@
   "section": "domestic",
   "page": 429,
   "pageSize": 5,
-  "totalItems": 4146,
-  "totalPages": 830,
+  "totalItems": 4153,
+  "totalPages": 831,
   "articles": [
     {
-      "id": "news:kcna:937dbc99266f04488f156151",
-      "title": "제39차 김일성종합대학 과학기술축전 진행",
-      "date": "2026-02-28",
-      "snippet": "(평양 2월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/bea5e9c09cb3d00e9a063d7ae0779204",
+      "id": "news:kcna:eae1b7d5c7f22681f099adbb",
+      "title": "강원도의 고급중학교 졸업반학생들 조국보위초소들로 탄원",
+      "date": "2026-03-01",
+      "snippet": "(평양 3월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/429220667a82af0a878cb5f9166a5b94",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 2141
+        "domestic": 2141,
+        "social": 263
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A937dbc99266f04488f156151"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aeae1b7d5c7f22681f099adbb"
     },
     {
-      "id": "news:kcna:8c78b5a75df0e9f54949b239",
-      "title": "락원군바다가양식사업소에서 준공후 수백t의 만밥조개와 미역 수확",
-      "date": "2026-02-28",
-      "snippet": "(평양 2월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7e6076b89824b5d79e11e638f9e0b054",
+      "id": "news:kcna:c564b6dd2a3ef2625ceb327d",
+      "title": "각급 직맹조직들에서 대중운동으로 생산장성의 담보 마련",
+      "date": "2026-03-01",
+      "snippet": "(평양 3월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/35c576d1239a56899e6cb8ae2848f1cc",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -49,34 +51,36 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8c78b5a75df0e9f54949b239"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac564b6dd2a3ef2625ceb327d"
     },
     {
-      "id": "news:kcna:0bc22abd06362c79f33896d6",
-      "title": "교육연구원에서 교육의 현대화,정보화실현에 이바지하는 과학연구 심화",
-      "date": "2026-02-28",
-      "snippet": "(평양 2월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/de62908e7e402745b3f22ec0375d7df1",
+      "id": "news:kcna:757a95e7581bf7fd81de77f7",
+      "title": "전국의 시,군책임일군들 삼광축산농장을 참관",
+      "date": "2026-03-01",
+      "snippet": "(평양 3월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0b0c526fadc0ce3b2c7b7ff4f7ca6c0a",
       "mediaType": "article",
       "categories": [
+        "important",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 261,
         "domestic": 2143
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0bc22abd06362c79f33896d6"
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e607f8d2473eda905abb6fd3e7792e5b688",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/3a880e6ee9cc9afb3fb2d7426ecd149b0d0c508727ba348c0b85f9b56768742d.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A757a95e7581bf7fd81de77f7"
     },
     {
-      "id": "news:kcna:8cf45e704b13ac15a7aa90f3",
-      "title": "2026년 전국겨울철체육경기대회 페막",
+      "id": "news:kcna:6f2fc28a2ee3d724735ee6fa",
+      "title": "올해 첫 모범기술혁신단위들 배출",
       "date": "2026-02-28",
       "snippet": "(평양 2월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/58841b50e7b213176c0628031dff35f4",
+      "url": "http://www.kcna.kp/kp/article/detail/042c9054490e2d0845905ec00c1e9214",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -89,29 +93,27 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8cf45e704b13ac15a7aa90f3"
+      "detailUrl": "/news/document?id=news%3Akcna%3A6f2fc28a2ee3d724735ee6fa"
     },
     {
-      "id": "news:kcna:c433c1df18a264d884593bf9",
-      "title": "조선로동당 제9차대회기념 청년학생들의 야회 진행",
+      "id": "news:kcna:f9c682121b60654d9e482810",
+      "title": "2026년 2월 28일 신문개관",
       "date": "2026-02-28",
       "snippet": "(평양 2월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/663d502b391d4d8888ab0e06abbb6a2a",
+      "url": "http://www.kcna.kp/kp/article/detail/ecba808ed41d6e6aa20bcf15a612f98f",
       "mediaType": "article",
       "categories": [
-        "domestic",
-        "social"
+        "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2145,
-        "social": 265
+        "domestic": 2145
       },
       "featuredSections": [],
-      "hasImage": true,
+      "hasImage": false,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/67d9946ed8d7f8ce0dc8324543af2bb0febdd994fd40661026fed3f158302514",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/eade957f8a24fdef408609f43482ee61fa80b2fd517f00c557f370345fa29ba3.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac433c1df18a264d884593bf9"
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af9c682121b60654d9e482810"
     }
   ]
 }
