@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-07T00:00:00.000Z",
-  "version": "5924338a339a488c",
+  "version": "3320aceb9ff95f6f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "important",
   "page": 50,
   "pageSize": 5,
-  "totalItems": 515,
-  "totalPages": 103,
+  "totalItems": 516,
+  "totalPages": 104,
   "articles": [
+    {
+      "id": "news:kcna:1a41172eaec32c8a1023f6a8",
+      "title": "조선민주주의인민공화국 외무성 대변인대답",
+      "date": "2026-03-11",
+      "snippet": "(평양 3월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d99b73d394c3d3563f86abb278db96be",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 245,
+        "document": 36,
+        "domestic": 2052
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1a41172eaec32c8a1023f6a8"
+    },
     {
       "id": "news:kcna:ad113005ab53f38c499ea712",
       "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
@@ -25,10 +49,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 245,
-        "document": 36,
-        "foreign": 349,
-        "domestic": 2056
+        "important": 246,
+        "document": 37,
+        "foreign": 350,
+        "domestic": 2061
       },
       "featuredSections": [],
       "hasImage": false,
@@ -50,9 +74,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 246,
-        "foreign": 350,
-        "domestic": 2057
+        "important": 247,
+        "foreign": 351,
+        "domestic": 2062
       },
       "featuredSections": [],
       "hasImage": false,
@@ -73,8 +97,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 247,
-        "domestic": 2067
+        "important": 248,
+        "domestic": 2072
       },
       "featuredSections": [],
       "hasImage": false,
@@ -95,8 +119,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 248,
-        "domestic": 2068
+        "important": 249,
+        "domestic": 2073
       },
       "featuredSections": [],
       "hasImage": false,
@@ -104,30 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A632256e7eb3eab0ebb8e2074"
-    },
-    {
-      "id": "news:kcna:2d9ae94bc94b095ee37a2ae2",
-      "title": "경애하는 김정은동지께 벨라루씨공화국 대통령이 축전을 보내여왔다",
-      "date": "2026-03-07",
-      "snippet": "(평양 3월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/652c3f19ae6e19abce2b6bc162575ecc",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 249,
-        "international": 1372,
-        "foreign": 351
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2d9ae94bc94b095ee37a2ae2"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-07T00:00:00.000Z",
-  "version": "5924338a339a488c",
+  "version": "3320aceb9ff95f6f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,37 @@
   "totalItems": 764,
   "totalPages": 153,
   "articles": [
+    {
+      "id": "news:kcna:6e368eeae06e58ebe4175ace",
+      "title": "조선민주주의인민공화국 김성기 국방상 담화 발표",
+      "date": "2026-09-07",
+      "snippet": "(평양 9월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5f2dc85d82f69094ca7047d748489161",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 0,
+        "document": 0,
+        "foreign": 0,
+        "domestic": 0
+      },
+      "featuredSections": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6e368eeae06e58ebe4175ace"
+    },
     {
       "id": "news:kcna:bf7364fc221b2c2cfaf09405",
       "title": "캄보쟈국왕과 대왕후가 우리 나라 대사관에 대형꽃바구니들을 보내여왔다",
@@ -23,11 +54,10 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 0,
-        "foreign": 0
+        "international": 8,
+        "foreign": 1
       },
       "featuredSections": [
-        "international",
         "foreign"
       ],
       "hasImage": false,
@@ -48,8 +78,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 1,
-        "domestic": 17
+        "foreign": 2,
+        "domestic": 22
       },
       "featuredSections": [
         "foreign"
@@ -73,9 +103,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 0,
-        "foreign": 2,
-        "domestic": 20
+        "important": 1,
+        "foreign": 3,
+        "domestic": 25
       },
       "featuredSections": [
         "important",
@@ -99,8 +129,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 3,
-        "domestic": 42
+        "foreign": 4,
+        "domestic": 47
       },
       "featuredSections": [
         "foreign"
@@ -110,33 +140,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A2d5d69ef7845147035f50ee4"
-    },
-    {
-      "id": "news:kcna:e388afa89b41207ada333e98",
-      "title": "경애하는 김정은동지께 에짚트아랍공화국 대통령이 축전을 보내여왔다",
-      "date": "2026-09-03",
-      "snippet": "(평양 9월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3e427c41268b45813b395ee14e21bf2e",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 1,
-        "international": 28,
-        "foreign": 4
-      },
-      "featuredSections": [
-        "important",
-        "foreign"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae388afa89b41207ada333e98"
     }
   ]
 }

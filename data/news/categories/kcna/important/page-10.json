@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-07T00:00:00.000Z",
-  "version": "5924338a339a488c",
+  "version": "3320aceb9ff95f6f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "important",
   "page": 10,
   "pageSize": 5,
-  "totalItems": 515,
-  "totalPages": 103,
+  "totalItems": 516,
+  "totalPages": 104,
   "articles": [
+    {
+      "id": "news:kcna:ca1273e706abb5d29fc08acb",
+      "title": "경애하는 김정은동지께서 고 김정임동지의 령전에 화환을 보내시였다",
+      "date": "2026-07-23",
+      "snippet": "(평양 7월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e750427986bce1d67cec76ee6e55f481",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 45,
+        "domestic": 508
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aca1273e706abb5d29fc08acb"
+    },
     {
       "id": "news:kcna:8a875706141b237556c58fa2",
       "title": "만수대창작사의 창작단위들과 일군들,창작가들에게 당 및 국가표창 수여",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 45,
-        "domestic": 518
+        "important": 46,
+        "domestic": 523
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,9 +68,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 46,
-        "international": 343,
-        "foreign": 66
+        "important": 47,
+        "international": 351,
+        "foreign": 67
       },
       "featuredSections": [],
       "hasImage": true,
@@ -70,9 +92,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 47,
-        "international": 344,
-        "foreign": 67
+        "important": 48,
+        "international": 352,
+        "foreign": 68
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,9 +116,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 48,
-        "foreign": 70,
-        "domestic": 530
+        "important": 49,
+        "foreign": 71,
+        "domestic": 535
       },
       "featuredSections": [],
       "hasImage": true,
@@ -104,30 +126,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d4eed11b2b42675978ceabb48318b76f1",
       "cachedThumbnailUrl": "/data/news/assets/kcna/f6adaac758f2d520b44bb3f0e3b1cc59a8c6a9b4b04a00fc01d3ca6e1ebc94a3.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A72dbe9fa60e877910cb9eb39"
-    },
-    {
-      "id": "news:kcna:6d383b56c283965b46a334ca",
-      "title": "조선민주주의인민공화국 외무상 최선희동지 로씨야련방을 방문하기 위하여 평양 출발",
-      "date": "2026-07-19",
-      "snippet": "(평양 7월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/99d235cb100ee217cd6678bb8fc80e4d",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 49,
-        "foreign": 73,
-        "domestic": 545
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6d383b56c283965b46a334ca"
     }
   ]
 }

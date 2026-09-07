@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-07T00:00:00.000Z",
-  "version": "5924338a339a488c",
+  "version": "3320aceb9ff95f6f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,40 @@
   "section": "document",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 61,
+  "totalItems": 62,
   "totalPages": 13,
   "articles": [
+    {
+      "id": "news:kcna:6e368eeae06e58ebe4175ace",
+      "title": "조선민주주의인민공화국 김성기 국방상 담화 발표",
+      "date": "2026-09-07",
+      "snippet": "(평양 9월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5f2dc85d82f69094ca7047d748489161",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 0,
+        "document": 0,
+        "foreign": 0,
+        "domestic": 0
+      },
+      "featuredSections": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6e368eeae06e58ebe4175ace"
+    },
     {
       "id": "news:kcna:9717aaa28b7bc5bfccb29f9c",
       "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
@@ -25,10 +56,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 3,
-        "document": 0,
-        "foreign": 6,
-        "domestic": 69
+        "important": 4,
+        "document": 1,
+        "foreign": 7,
+        "domestic": 74
       },
       "featuredSections": [
         "important",
@@ -54,10 +85,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 7,
-        "document": 1,
-        "foreign": 12,
-        "domestic": 120
+        "important": 8,
+        "document": 2,
+        "foreign": 13,
+        "domestic": 125
       },
       "featuredSections": [
         "document"
@@ -81,9 +112,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 10,
-        "document": 2,
-        "domestic": 194
+        "important": 11,
+        "document": 3,
+        "domestic": 199
       },
       "featuredSections": [
         "document"
@@ -107,9 +138,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 11,
-        "document": 3,
-        "domestic": 205
+        "important": 12,
+        "document": 4,
+        "domestic": 210
       },
       "featuredSections": [
         "document"
@@ -119,32 +150,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-8bca70b499b526e4"
-    },
-    {
-      "id": "kcna-fb857dc5f25284ae",
-      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
-      "date": "2026-08-14",
-      "snippet": "(평양 8월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/32147322f6e646b505576c1128a81082",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 22,
-        "document": 4,
-        "foreign": 41,
-        "domestic": 275
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-fb857dc5f25284ae"
     }
   ]
 }

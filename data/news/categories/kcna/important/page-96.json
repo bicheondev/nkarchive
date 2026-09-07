@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-07T00:00:00.000Z",
-  "version": "5924338a339a488c",
+  "version": "3320aceb9ff95f6f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "important",
   "page": 96,
   "pageSize": 5,
-  "totalItems": 515,
-  "totalPages": 103,
+  "totalItems": 516,
+  "totalPages": 104,
   "articles": [
+    {
+      "id": "news:kcna:b1a974a34b63fa67af1bde79",
+      "title": "박태성 내각총리 여러 부문 사업 현지에서 료해",
+      "date": "2025-09-30",
+      "snippet": "(평양 9월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/32b3907412138d493476366f19f3328d",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 475,
+        "domestic": 3926
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/3d3755d837f6dc968fa55dbecad26d22037f07a06d12ecdc8140a0add5a6d3e8",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/0d49fe234ee87cdb24c68ef4855837da1c02ecd672b11ee96875bac1c050c61f.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab1a974a34b63fa67af1bde79"
+    },
     {
       "id": "news:kcna:04b5c0254d489c1ed48af8d6",
       "title": "조선민주주의인민공화국 외무상 최선희동지가 중화인민공화국 외교부장 왕의동지와 회담",
@@ -24,9 +46,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 475,
-        "international": 2567,
-        "foreign": 714
+        "important": 476,
+        "international": 2575,
+        "foreign": 715
       },
       "featuredSections": [],
       "hasImage": true,
@@ -48,9 +70,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 476,
-        "foreign": 715,
-        "domestic": 3936
+        "important": 477,
+        "foreign": 716,
+        "domestic": 3941
       },
       "featuredSections": [],
       "hasImage": true,
@@ -72,9 +94,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 477,
-        "document": 57,
-        "domestic": 3939
+        "important": 478,
+        "document": 58,
+        "domestic": 3944
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,9 +118,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 478,
-        "international": 2582,
-        "foreign": 716
+        "important": 479,
+        "international": 2590,
+        "foreign": 717
       },
       "featuredSections": [],
       "hasImage": false,
@@ -106,30 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A45757d393b074ed25cdec90a"
-    },
-    {
-      "id": "news:kcna:a9c348b459f9b826dfdb047a",
-      "title": "조선민주주의인민공화국 외무상 최선희동지가 중화인민공화국을 방문한다",
-      "date": "2025-09-25",
-      "snippet": "(평양 9월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d7eb9eb0e52b04dbcc940a7e8f61b225",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 479,
-        "foreign": 722,
-        "domestic": 3965
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa9c348b459f9b826dfdb047a"
     }
   ]
 }

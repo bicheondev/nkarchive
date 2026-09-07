@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-07T00:00:00.000Z",
-  "version": "5924338a339a488c",
+  "version": "3320aceb9ff95f6f",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,35 @@
   "section": "document",
   "page": 5,
   "pageSize": 5,
-  "totalItems": 61,
+  "totalItems": 62,
   "totalPages": 13,
   "articles": [
+    {
+      "id": "news:kcna:6ccce15c3e217e61d8f0b379",
+      "title": "김성 유엔주재 조선민주주의인민공화국 상임대표 담화 발표",
+      "date": "2026-05-07",
+      "snippet": "(평양 5월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/953ee4919cb8f19e040ba2b88e8bf277",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "document",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 128,
+        "international": 896,
+        "document": 20,
+        "foreign": 196
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6ccce15c3e217e61d8f0b379"
+    },
     {
       "id": "news:kcna:13f6e4e4b182d5e590a51f25",
       "title": "조선로동당 중앙위원회가 사회주의애국청년동맹 제11차대회 참가자들과 전국의 청년들에게 축하문을 보내였다",
@@ -23,8 +49,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 20,
-        "domestic": 1403
+        "document": 21,
+        "domestic": 1408
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,10 +73,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 162,
-        "document": 21,
-        "foreign": 252,
-        "domestic": 1612
+        "important": 163,
+        "document": 22,
+        "foreign": 253,
+        "domestic": 1617
       },
       "featuredSections": [],
       "hasImage": false,
@@ -71,8 +97,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 22,
-        "domestic": 1644
+        "document": 23,
+        "domestic": 1649
       },
       "featuredSections": [],
       "hasImage": false,
@@ -93,8 +119,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 23,
-        "domestic": 1655
+        "document": 24,
+        "domestic": 1660
       },
       "featuredSections": [],
       "hasImage": false,
@@ -102,32 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A96435aa60382222061e48e60"
-    },
-    {
-      "id": "news:kcna:a759661d7ca28d3c3e5ed3d7",
-      "title": "조선민주주의인민공화국 외무성 장금철제1부상 겸 10국 국장 담화 발표",
-      "date": "2026-04-07",
-      "snippet": "(평양 4월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/be6e16722d983e4080c225e3c835931b",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 181,
-        "document": 24,
-        "foreign": 280,
-        "domestic": 1725
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa759661d7ca28d3c3e5ed3d7"
     }
   ]
 }
