@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-08T00:00:00.000Z",
-  "version": "4d567319c5f0b1a8",
+  "version": "ca38dde43eb01ddb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "important",
   "page": 56,
   "pageSize": 5,
-  "totalItems": 521,
-  "totalPages": 105,
+  "totalItems": 504,
+  "totalPages": 101,
   "articles": [
+    {
+      "id": "news:kcna:afa487cbaf912e5c91600351",
+      "title": "경애하는 김정은동지께 외국의 인사,김일성김정일기금리사회 성원들이 꽃바구니를 보내여왔다",
+      "date": "2026-02-26",
+      "snippet": "(평양 2월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c1043d09565e692ea3ed523134e6d73c",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 275,
+        "international": 1467,
+        "foreign": 373
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf3667ca4fa4a93811ac81045c31ff548e456",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/dbc2604dc762eb3efa37b8a2dc3039fb16d757f762247f485263060c741a7f50.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aafa487cbaf912e5c91600351"
+    },
     {
       "id": "news:kcna:78a285c1d3dcb5af7dd1ec25",
       "title": "경애하는 김정은동지께 우리 나라 주재 외교단이 꽃바구니와 축하편지를 드리였다",
@@ -24,9 +48,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 275,
+        "important": 276,
         "foreign": 374,
-        "domestic": 2194
+        "domestic": 2201
       },
       "featuredSections": [],
       "hasImage": true,
@@ -47,8 +71,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 276,
-        "international": 1460
+        "important": 277,
+        "international": 1468
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +93,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 277,
-        "domestic": 2201
+        "important": 278,
+        "domestic": 2208
       },
       "featuredSections": [],
       "hasImage": true,
@@ -91,8 +115,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 278,
-        "international": 1468
+        "important": 279,
+        "international": 1476
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,28 +124,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A7d29cf142c3a554427d5bc60"
-    },
-    {
-      "id": "news:kcna:9dd8e840c2af06b699251f8a",
-      "title": "조선로동당 제9차대회 부문별 연구 및 협의회 진행",
-      "date": "2026-02-25",
-      "snippet": "(평양 2월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fbba04f5500dc942a7d80d36c4c95506",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 279,
-        "domestic": 2205
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9dd8e840c2af06b699251f8a"
     }
   ]
 }

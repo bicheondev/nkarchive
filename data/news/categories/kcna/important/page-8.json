@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-08T00:00:00.000Z",
-  "version": "4d567319c5f0b1a8",
+  "version": "ca38dde43eb01ddb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "important",
   "page": 8,
   "pageSize": 5,
-  "totalItems": 521,
-  "totalPages": 105,
+  "totalItems": 504,
+  "totalPages": 101,
   "articles": [
+    {
+      "id": "news:kcna:b6166c0b76b250c81d028f3a",
+      "title": "일본의 《방위백서》는 전쟁기계가동의 합법화를 노린 재침백서이다",
+      "date": "2026-08-11",
+      "snippet": "(평양 8월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d242566fdde21fbd57ee9c6a064fd74b",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international"
+      ],
+      "categoryOrders": {
+        "important": 35,
+        "international": 219
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab6166c0b76b250c81d028f3a"
+    },
     {
       "id": "news:kcna:f18f06455e590368178d5ab9",
       "title": "국립교향악단창립 80돐 기념음악회 진행",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 35,
-        "domestic": 339
+        "important": 36,
+        "domestic": 346
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,9 +68,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 36,
+        "important": 37,
         "document": 7,
-        "domestic": 349
+        "domestic": 356
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +91,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 37,
-        "domestic": 350
+        "important": 38,
+        "domestic": 357
       },
       "featuredSections": [],
       "hasImage": true,
@@ -93,10 +115,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 38,
+        "important": 39,
         "document": 8,
         "foreign": 57,
-        "domestic": 377
+        "domestic": 384
       },
       "featuredSections": [],
       "hasImage": false,
@@ -104,28 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-cad58de86ad14a59"
-    },
-    {
-      "id": "news:kcna:403ac19c9354f4330e0f66d5",
-      "title": "박태성 내각총리 김종태전기기관차련합기업소와 보산제철소를 현지료해",
-      "date": "2026-08-04",
-      "snippet": "(평양 8월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1297a2bc1a1867cf87b4b4d1da00e654",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 39,
-        "domestic": 389
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29506087ec7b6ba0f3a21ba62d1893a273",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/956ee4a73daa01deae44d755238c96326e283fd47ff1ebc489431050c7e54c27.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A403ac19c9354f4330e0f66d5"
     }
   ]
 }

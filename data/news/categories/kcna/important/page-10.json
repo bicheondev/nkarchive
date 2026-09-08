@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-08T00:00:00.000Z",
-  "version": "4d567319c5f0b1a8",
+  "version": "ca38dde43eb01ddb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "important",
   "page": 10,
   "pageSize": 5,
-  "totalItems": 521,
-  "totalPages": 105,
+  "totalItems": 504,
+  "totalPages": 101,
   "articles": [
+    {
+      "id": "news:kcna:aa9f32487a89fcba579d535c",
+      "title": "경애하는 김정은동지께서 전승절에 즈음하여 전국의 전쟁로병들에게 선물을 보내시였다",
+      "date": "2026-07-26",
+      "snippet": "(평양 7월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/23b2d6725d6a3e8e2e689626ea4caf25",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 45,
+        "domestic": 480
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaa9f32487a89fcba579d535c"
+    },
     {
       "id": "news:kcna:e2227f4793d1470684b5e4d0",
       "title": "조국해방전쟁승리 73돐 경축행사에 초대된 전쟁로병들과 전시공로자들 평양 도착",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 45,
-        "domestic": 474
+        "important": 46,
+        "domestic": 481
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,8 +68,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 46,
-        "international": 319,
+        "important": 47,
+        "international": 327,
         "foreign": 66
       },
       "featuredSections": [],
@@ -69,8 +91,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 47,
-        "domestic": 488
+        "important": 48,
+        "domestic": 495
       },
       "featuredSections": [],
       "hasImage": true,
@@ -91,8 +113,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 48,
-        "domestic": 489
+        "important": 49,
+        "domestic": 496
       },
       "featuredSections": [],
       "hasImage": true,
@@ -100,30 +122,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dcebfe1dd1e63b60da947fc2d9d1aa224",
       "cachedThumbnailUrl": "/data/news/assets/kcna/735ed9ababecc472280d5a4b928f757c9ff5f3cb9f1da7f9a6e630cadea5a5ae.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A56fa9e982040cd3856c47447"
-    },
-    {
-      "id": "news:kcna:f3a07cfb847a8b0142da9e09",
-      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
-      "date": "2026-07-24",
-      "snippet": "(평양 7월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5c820da507c2d3b540b36fb79a4a2fd8",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 49,
-        "foreign": 67,
-        "domestic": 501
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af3a07cfb847a8b0142da9e09"
     }
   ]
 }

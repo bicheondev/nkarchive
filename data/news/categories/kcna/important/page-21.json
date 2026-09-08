@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-08T00:00:00.000Z",
-  "version": "4d567319c5f0b1a8",
+  "version": "ca38dde43eb01ddb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "important",
   "page": 21,
   "pageSize": 5,
-  "totalItems": 521,
-  "totalPages": 105,
+  "totalItems": 504,
+  "totalPages": 101,
   "articles": [
+    {
+      "id": "news:kcna:dc74478343c5766c1ad25c1e",
+      "title": "조선민주주의인민공화국 최고인민회의 상임위원회 제15기 제1차전원회의 진행",
+      "date": "2026-06-12",
+      "snippet": "(평양 6월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cd5e22f27f48756f16cbf7ff8087a09b",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 100,
+        "domestic": 978
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e37bd4b24943d2697b84c9d3346125422a",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/0174de9ce66a55fc5e1531d5b357032646c0f29822b05078eccecf4f7f76a1fd.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Adc74478343c5766c1ad25c1e"
+    },
     {
       "id": "news:kcna:dd51183158666f0531d28f15",
       "title": "경애하는 김정은동지께서 로씨야련방 국경절에 즈음하여 울라지미르 울라지미로비치 뿌찐대통령동지에게 축전을 보내시였다",
@@ -24,9 +46,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 100,
+        "important": 101,
         "foreign": 159,
-        "domestic": 976
+        "domestic": 983
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,8 +70,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 101,
-        "international": 648,
+        "important": 102,
+        "international": 656,
         "foreign": 160
       },
       "featuredSections": [],
@@ -71,8 +93,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 102,
-        "domestic": 997
+        "important": 103,
+        "domestic": 1004
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,9 +116,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 103,
+        "important": 104,
         "document": 16,
-        "domestic": 1013
+        "domestic": 1020
       },
       "featuredSections": [],
       "hasImage": false,
@@ -104,30 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A1a47b96e0ed12bb5ca6f6000"
-    },
-    {
-      "id": "news:kcna:b5f64d20696743005f70fc7e",
-      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
-      "date": "2026-06-07",
-      "snippet": "(평양 6월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b850ce31fab2b1cb4abef6988e5e0b10",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 104,
-        "foreign": 163,
-        "domestic": 1018
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab5f64d20696743005f70fc7e"
     }
   ]
 }

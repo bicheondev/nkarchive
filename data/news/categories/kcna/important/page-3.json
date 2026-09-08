@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-08T00:00:00.000Z",
-  "version": "4d567319c5f0b1a8",
+  "version": "ca38dde43eb01ddb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,37 @@
   "section": "important",
   "page": 3,
   "pageSize": 5,
-  "totalItems": 521,
-  "totalPages": 105,
+  "totalItems": 504,
+  "totalPages": 101,
   "articles": [
+    {
+      "id": "news:kcna:9717aaa28b7bc5bfccb29f9c",
+      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
+      "date": "2026-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d71edc38f50c81691e4f69e6507f146b",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 10,
+        "document": 1,
+        "foreign": 13,
+        "domestic": 89
+      },
+      "featuredSections": [
+        "document"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9717aaa28b7bc5bfccb29f9c"
+    },
     {
       "id": "news:kcna:3cf99086fb550851961e4358",
       "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지에게 위문전문을 보내시였다",
@@ -24,9 +52,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 10,
+        "important": 11,
         "foreign": 16,
-        "domestic": 109
+        "domestic": 116
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,9 +76,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 11,
+        "important": 12,
         "foreign": 17,
-        "domestic": 110
+        "domestic": 117
       },
       "featuredSections": [],
       "hasImage": false,
@@ -71,8 +99,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 12,
-        "domestic": 122
+        "important": 13,
+        "domestic": 129
       },
       "featuredSections": [],
       "hasImage": true,
@@ -95,10 +123,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 13,
+        "important": 14,
         "document": 2,
         "foreign": 19,
-        "domestic": 133
+        "domestic": 140
       },
       "featuredSections": [
         "document"
@@ -108,28 +136,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A6aa3ff6b7410c650239f1b74"
-    },
-    {
-      "id": "news:kcna:0b187596d3afdbd16fbbb9be",
-      "title": "박태성 내각총리 삼지연산악관광지구건설과 함흥시의 공장,기업소들을 현지료해",
-      "date": "2026-08-25",
-      "snippet": "(평양 8월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8a6287b8ea93fdb5544d8eb211ad4d8c",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 14,
-        "domestic": 159
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29474dacbb67165c2b32503220d7044553",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/aa8afcf501ab2ec24d87add271afd77e695140d70f60fe9f1c7a3511818c7334.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0b187596d3afdbd16fbbb9be"
     }
   ]
 }
