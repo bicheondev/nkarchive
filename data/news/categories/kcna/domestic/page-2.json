@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T00:00:00.000Z",
-  "version": "3320aceb9ff95f6f",
+  "generatedAt": "2026-09-08T00:00:00.000Z",
+  "version": "4d567319c5f0b1a8",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,35 +8,39 @@
   "section": "domestic",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 4148,
-  "totalPages": 830,
+  "totalItems": 4156,
+  "totalPages": 832,
   "articles": [
     {
-      "id": "news:kcna:e1fbbda43c4a09036f0e4783",
-      "title": "2026년 9월 7일 신문개관",
-      "date": "2026-09-07",
-      "snippet": "(평양 9월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b4586ae0e83099314bae430c711d2c52",
+      "id": "news:kcna:463d18b392cd169c8e25ef17",
+      "title": "인민경제 여러 부문에서 사회주의애국운동,혁명적인 대중운동 전개,새 기준,새 기록 련이어 창조",
+      "date": "2026-09-08",
+      "snippet": "(평양 9월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3f6ed7e4174878e634c396870a0987ca",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 5
+        "domestic": 5,
+        "social": 0
       },
-      "featuredSections": [],
+      "featuredSections": [
+        "social"
+      ],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae1fbbda43c4a09036f0e4783"
+      "detailUrl": "/news/document?id=news%3Akcna%3A463d18b392cd169c8e25ef17"
     },
     {
-      "id": "news:kcna:b7c145c5df1dc6eabf64d88f",
-      "title": "사회주의국가건설의 새 기원을 열어놓으신 불멸의 업적",
-      "date": "2026-09-07",
-      "snippet": "(평양 9월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a8c01e0076ff0c6fb438479a99bb4987",
+      "id": "news:kcna:9b74ad7d818909df30a373fb",
+      "title": "개성시에서 오리공장건설 추진",
+      "date": "2026-09-08",
+      "snippet": "(평양 9월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0ff8398c501c71fd18c6ffbc1f1b7c92",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -49,14 +53,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab7c145c5df1dc6eabf64d88f"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9b74ad7d818909df30a373fb"
     },
     {
-      "id": "news:kcna:439de7d00a44b261df1a24d8",
-      "title": "위대한 우리 국가의 전면적륭성기를 떠올린 절세위인의 만고불후할 업적",
-      "date": "2026-09-07",
-      "snippet": "(평양 9월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/03c497c477590faff74bbe657e6c8cf1",
+      "id": "news:kcna:8f538c69f684cd2bd05a65fb",
+      "title": "참다운 인민의 나라를 세워주신 절세의 애국자",
+      "date": "2026-09-08",
+      "snippet": "(평양 9월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/20ff411a26da1257e9a78f33edc8cd23",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -65,38 +69,47 @@
         "domestic": 7
       },
       "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba009bb8c1fa55a11d0bbd735a01ecb592",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8f538c69f684cd2bd05a65fb"
+    },
+    {
+      "id": "news:kcna:6e368eeae06e58ebe4175ace",
+      "title": "조선민주주의인민공화국 김성기 국방상 담화 발표",
+      "date": "2026-09-07",
+      "snippet": "(평양 9월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5f2dc85d82f69094ca7047d748489161",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 5,
+        "document": 0,
+        "foreign": 6,
+        "domestic": 8
+      },
+      "featuredSections": [
+        "important",
+        "document"
+      ],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A439de7d00a44b261df1a24d8"
+      "detailUrl": "/news/document?id=news%3Akcna%3A6e368eeae06e58ebe4175ace"
     },
     {
-      "id": "news:kcna:3fcca8ba7033c3efd5f1d08e",
-      "title": "인기있는 만화영화창작집단",
+      "id": "news:kcna:541dd6963d0a2674f752242b",
+      "title": "우리 장애자체육인들 지난 10여년간 11개의 금메달을 포함한 20여개의 메달 쟁취",
       "date": "2026-09-07",
       "snippet": "(평양 9월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9d4a675ee8623fbfaba0f9c6ae31901d",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 8
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba0d9403cf21ab79074abf50359fe29775",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/53d15e07757ad73b2549b0925219aa688a6be7f6074d68a0cd073881d6a2283f.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3fcca8ba7033c3efd5f1d08e"
-    },
-    {
-      "id": "news:kcna:f32b8e61fc991c853f056959",
-      "title": "새로 일떠선 지방공업공장들과 학생교복,신발,가방생산단위들 제품의 질제고와 품종확대에서 진전,생산성 증대",
-      "date": "2026-09-06",
-      "snippet": "(평양 9월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/922f82f9c3b135446342c8e2d2990588",
+      "url": "http://www.kcna.kp/kp/article/detail/0782cd4ffc84b3a150838d41fc965a68",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -109,7 +122,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af32b8e61fc991c853f056959"
+      "detailUrl": "/news/document?id=news%3Akcna%3A541dd6963d0a2674f752242b"
     }
   ]
 }

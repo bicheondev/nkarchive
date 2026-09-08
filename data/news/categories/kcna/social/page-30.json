@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T00:00:00.000Z",
-  "version": "3320aceb9ff95f6f",
+  "generatedAt": "2026-09-08T00:00:00.000Z",
+  "version": "4d567319c5f0b1a8",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "social",
   "page": 30,
   "pageSize": 5,
-  "totalItems": 680,
-  "totalPages": 136,
+  "totalItems": 681,
+  "totalPages": 137,
   "articles": [
+    {
+      "id": "news:kcna:79733291e56211b42444d5be",
+      "title": "미국전역에서 근로자들의 시위와 집회",
+      "date": "2026-05-04",
+      "snippet": "(평양 5월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f18cd1fd97356eb688d257bd965e9451",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 917,
+        "social": 145
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A79733291e56211b42444d5be"
+    },
     {
       "id": "news:kcna:1fd56352944f9bad00d800a1",
       "title": "경성소년단야영소에서 첫기 야영 시작",
@@ -23,8 +45,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1383,
-        "social": 145
+        "domestic": 1391,
+        "social": 146
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +67,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1394,
-        "social": 146
+        "domestic": 1402,
+        "social": 147
       },
       "featuredSections": [],
       "hasImage": true,
@@ -67,8 +89,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1395,
-        "social": 147
+        "domestic": 1403,
+        "social": 148
       },
       "featuredSections": [],
       "hasImage": true,
@@ -89,8 +111,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1398,
-        "social": 148
+        "domestic": 1406,
+        "social": 149
       },
       "featuredSections": [],
       "hasImage": true,
@@ -98,28 +120,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064dfca3ed84a71867533bd44c910adf839",
       "cachedThumbnailUrl": "/data/news/assets/kcna/7dc371c0ce7f9ef94a40d1ccf1051c1b01d0083bcc6c3584757150c6a9f6dd3b.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A03aa55438918e59f208c0f73"
-    },
-    {
-      "id": "news:kcna:cf14d06316a4faf8e9c9aa07",
-      "title": "평범한 근로자들이 누리는 값높은 삶",
-      "date": "2026-05-01",
-      "snippet": "(평양 5월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a3a4151e51659965164bf54afa3b829a",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 1404,
-        "social": 149
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acf14d06316a4faf8e9c9aa07"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T00:00:00.000Z",
-  "version": "3320aceb9ff95f6f",
+  "generatedAt": "2026-09-08T00:00:00.000Z",
+  "version": "4d567319c5f0b1a8",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,49 @@
   "section": "international",
   "page": 213,
   "pageSize": 5,
-  "totalItems": 2763,
+  "totalItems": 2765,
   "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:803b0d79919ae7ed54bbfefb",
+      "title": "윁남의 공업지구건설계획",
+      "date": "2026-04-15",
+      "snippet": "(평양 4월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c47c6e4dda5d264c05082511b4e88b16",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1060
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A803b0d79919ae7ed54bbfefb"
+    },
+    {
+      "id": "news:kcna:aa3f0e49c522b7cebc06f1b6",
+      "title": "로씨야에서 온실남새생산",
+      "date": "2026-04-15",
+      "snippet": "(모스크바 4월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f4345247d0e727bdc453c45f436c505e",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1061
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaa3f0e49c522b7cebc06f1b6"
+    },
     {
       "id": "news:kcna:e9ad36f3de5f305e5afb2f50",
       "title": "스리랑카에서 식품안전사업 강화",
@@ -22,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1060
+        "international": 1062
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,9 +84,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 160,
-        "international": 1061,
-        "foreign": 251
+        "important": 165,
+        "international": 1063,
+        "foreign": 257
       },
       "featuredSections": [],
       "hasImage": true,
@@ -67,8 +107,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 161,
-        "international": 1062
+        "important": 166,
+        "international": 1064
       },
       "featuredSections": [],
       "hasImage": false,
@@ -76,50 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A2ff50965ba11fa840ecee3d3"
-    },
-    {
-      "id": "news:kcna:9b19b43331507eae0adf8b89",
-      "title": "경애하는 김정은원수님께 재중조선인총련합회가 축하편지를 드리였다",
-      "date": "2026-04-15",
-      "snippet": "(평양 4월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a81b16c780fe4abcc10b31ecfc0b6d00",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international"
-      ],
-      "categoryOrders": {
-        "important": 162,
-        "international": 1063
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9b19b43331507eae0adf8b89"
-    },
-    {
-      "id": "news:kcna:4f92826975babe4205bd3b83",
-      "title": "박태성동지에게 꾸바공화국 내각수상이 축전",
-      "date": "2026-04-15",
-      "snippet": "(평양 4월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a68a84f094a039a49c033dbac880e96d",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 1064,
-        "foreign": 254
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4f92826975babe4205bd3b83"
     }
   ]
 }

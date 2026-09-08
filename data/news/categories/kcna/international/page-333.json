@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T00:00:00.000Z",
-  "version": "3320aceb9ff95f6f",
+  "generatedAt": "2026-09-08T00:00:00.000Z",
+  "version": "4d567319c5f0b1a8",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,51 @@
   "section": "international",
   "page": 333,
   "pageSize": 5,
-  "totalItems": 2763,
+  "totalItems": 2765,
   "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:f15c8396e82accd9366a3f83",
+      "title": "파키스탄에서 테로소탕작전",
+      "date": "2026-02-02",
+      "snippet": "(평양 2월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/50547ae47471552513c3131a055dd567",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1660
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af15c8396e82accd9366a3f83"
+    },
+    {
+      "id": "news:kcna:1729b3fe97f3c9e7c21ffec6",
+      "title": "도이췰란드에서 실업자 증가",
+      "date": "2026-02-02",
+      "snippet": "(평양 2월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e8d678f2d950cbd376f9f0707036f5f9",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 1661,
+        "social": 325
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1729b3fe97f3c9e7c21ffec6"
+    },
     {
       "id": "news:kcna:0cd79fc5a48e8b5cf8145761",
       "title": "우리 나라 외무상에게 적도기네공화국 외무,국제협조 및 해외동포국무상이 축전",
@@ -23,8 +65,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1660,
-        "foreign": 417
+        "international": 1662,
+        "foreign": 423
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +86,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1661
+        "international": 1663
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,46 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1662
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A811f2642e607e9825d099fdc"
-    },
-    {
-      "id": "news:kcna:7640e26e25065bb292ec0654",
-      "title": "기후변화가 말라리아전파의 기본원인이라는 연구결과 발표",
-      "date": "2026-02-01",
-      "snippet": "(평양 2월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9579c5bfd7540374d99d63684b0cde8c",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 1663
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7640e26e25065bb292ec0654"
-    },
-    {
-      "id": "news:kcna:6ef4a2f4a2302ac0c8c26a70",
-      "title": "이란외무상 유럽동맹의 부당한 처사를 규탄",
-      "date": "2026-02-01",
-      "snippet": "(테헤란 1월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2f576f94bb30867cb2ed116b0527a4a0",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1664
       },
       "featuredSections": [],
@@ -111,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6ef4a2f4a2302ac0c8c26a70"
+      "detailUrl": "/news/document?id=news%3Akcna%3A811f2642e607e9825d099fdc"
     }
   ]
 }

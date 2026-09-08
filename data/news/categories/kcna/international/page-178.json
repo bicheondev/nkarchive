@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T00:00:00.000Z",
-  "version": "3320aceb9ff95f6f",
+  "generatedAt": "2026-09-08T00:00:00.000Z",
+  "version": "4d567319c5f0b1a8",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,51 @@
   "section": "international",
   "page": 178,
   "pageSize": 5,
-  "totalItems": 2763,
+  "totalItems": 2765,
   "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:6442e6421683181eb0f7653b",
+      "title": "윁남에서 무역액 증가",
+      "date": "2026-05-08",
+      "snippet": "(평양 5월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bcb58e833cd8a9e98ed306525d680ffd",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 885
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6442e6421683181eb0f7653b"
+    },
+    {
+      "id": "news:kcna:c6d954c59ee3489549496bfb",
+      "title": "로씨야에서 경축행사들 진행",
+      "date": "2026-05-08",
+      "snippet": "(평양 5월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9f3ae68c570bf06a0e59a3257696578e",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 886,
+        "foreign": 201
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac6d954c59ee3489549496bfb"
+    },
     {
       "id": "news:kcna:a2b0991d6f1339d74242e320",
       "title": "중국 홍콩에서 카나다와 프랑스산가금제품의 수입 금지",
@@ -22,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 885
+        "international": 887
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 886
+        "international": 888
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,46 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 887
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A91b75194a24b0db90bf17229"
-    },
-    {
-      "id": "news:kcna:d735f9e7347223004da6f1f2",
-      "title": "팔레스티나 이스라엘의 정착촌도로건설계획을 규탄",
-      "date": "2026-05-07",
-      "snippet": "(평양 5월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/eb77613833ef132564be177617cfeecb",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 888
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad735f9e7347223004da6f1f2"
-    },
-    {
-      "id": "news:kcna:f802368c26223d9f33a64b78",
-      "title": "세계보건기구 한타비루스의 사람간전파가능성을 조사",
-      "date": "2026-05-07",
-      "snippet": "(평양 5월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/88064c31d1daa85b59de8f821aecca4c",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 889
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af802368c26223d9f33a64b78"
+      "detailUrl": "/news/document?id=news%3Akcna%3A91b75194a24b0db90bf17229"
     }
   ]
 }

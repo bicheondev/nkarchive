@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T00:00:00.000Z",
-  "version": "3320aceb9ff95f6f",
+  "generatedAt": "2026-09-08T00:00:00.000Z",
+  "version": "4d567319c5f0b1a8",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,49 @@
   "section": "international",
   "page": 49,
   "pageSize": 5,
-  "totalItems": 2763,
+  "totalItems": 2765,
   "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:735613fa473848b67053b12a",
+      "title": "유엔관리 기후위기에 대해 경고",
+      "date": "2026-08-06",
+      "snippet": "(평양 8월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2f01ca9bd71d712938d2ec5bbc06d2c0",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 240
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A735613fa473848b67053b12a"
+    },
+    {
+      "id": "news:kcna:da9ffc5378742da151cea1ba",
+      "title": "반테로국제연구토론회 중국에서 진행",
+      "date": "2026-08-06",
+      "snippet": "(베이징 8월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6312f0cf767ce4cd37bb2e456bad3d9c",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 241
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ada9ffc5378742da151cea1ba"
+    },
     {
       "id": "news:kcna:c8e5d4e7e292ca88c24433f8",
       "title": "중국에서 위성 발사",
@@ -22,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 240
+        "international": 242
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 241
+        "international": 243
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,8 +103,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 242,
-        "foreign": 50
+        "international": 244,
+        "foreign": 56
       },
       "featuredSections": [],
       "hasImage": false,
@@ -72,46 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A5bf89b32ad3ebbb19359d3f2"
-    },
-    {
-      "id": "news:kcna:b37907a033713c1930e88296",
-      "title": "일본 구마모또현에서 고온현상",
-      "date": "2026-08-05",
-      "snippet": "(평양 8월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/869bffc331f25fb43bfeba27259827ce",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 243
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab37907a033713c1930e88296"
-    },
-    {
-      "id": "news:kcna:9e5db1d6ba6dfc4b7bc5318b",
-      "title": "윁남에서 대외무역액 증가",
-      "date": "2026-08-05",
-      "snippet": "(평양 8월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e530d2362cf764801159de32926c8b50",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 244
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9e5db1d6ba6dfc4b7bc5318b"
     }
   ]
 }

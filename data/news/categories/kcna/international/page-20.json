@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T00:00:00.000Z",
-  "version": "3320aceb9ff95f6f",
+  "generatedAt": "2026-09-08T00:00:00.000Z",
+  "version": "4d567319c5f0b1a8",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,51 @@
   "section": "international",
   "page": 20,
   "pageSize": 5,
-  "totalItems": 2763,
+  "totalItems": 2765,
   "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:1386162d566d1c03239ce7f1",
+      "title": "카나다정부 미국에 대한 보복관세조치 발표",
+      "date": "2026-08-27",
+      "snippet": "(평양 8월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e15408dfd364abba85a77114ea61138b",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 95
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1386162d566d1c03239ce7f1"
+    },
+    {
+      "id": "news:kcna:ad6c0b572f9aed37283b52a9",
+      "title": "조국해방 81돐에 즈음하여 로씨야정당,단체들 경축모임 진행",
+      "date": "2026-08-27",
+      "snippet": "(평양 8월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/710dc256fb896fdeddfe90acc0cd7ab8",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 96,
+        "foreign": 18
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aad6c0b572f9aed37283b52a9"
+    },
     {
       "id": "news:kcna:e03388eec9d0d80c25c693b2",
       "title": "우리 나라 외무상에게 세이쉘공화국 외무 및 해외동포상이 축전",
@@ -23,8 +65,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 95,
-        "foreign": 14
+        "international": 97,
+        "foreign": 20
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +86,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 96
+        "international": 98
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,46 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 97
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4b98ef948028f626e5778653"
-    },
-    {
-      "id": "news:kcna:a139155baa735999150f2cbb",
-      "title": "로씨야에서 운반로케트 발사",
-      "date": "2026-08-26",
-      "snippet": "(모스크바 8월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/85091151520b09fdf3e2d0270ef417dc",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 98
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa139155baa735999150f2cbb"
-    },
-    {
-      "id": "news:kcna:37f9413096e02f6e64b0bad3",
-      "title": "꼴롬비아에서 엘니뇨에 의한 고온으로 들불피해",
-      "date": "2026-08-26",
-      "snippet": "(평양 8월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/345d1067378c169dc16727242bfda89d",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 99
       },
       "featuredSections": [],
@@ -111,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A37f9413096e02f6e64b0bad3"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4b98ef948028f626e5778653"
     }
   ]
 }

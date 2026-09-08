@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T00:00:00.000Z",
-  "version": "3320aceb9ff95f6f",
+  "generatedAt": "2026-09-08T00:00:00.000Z",
+  "version": "4d567319c5f0b1a8",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,15 @@
   "section": "foreign",
   "page": 21,
   "pageSize": 5,
-  "totalItems": 764,
-  "totalPages": 153,
+  "totalItems": 770,
+  "totalPages": 154,
   "articles": [
     {
-      "id": "news:kcna:ec31e0e14c043cad760b94b6",
-      "title": "우리 나라 외무상 중화인민공화국 외교부장에게 축전",
-      "date": "2026-07-12",
-      "snippet": "(평양 7월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3c49d6d78a421481880fe543da9b944d",
+      "id": "news:kcna:4663cbdca77a1351a8aed16f",
+      "title": "벨라루씨공산당대표단 도착",
+      "date": "2026-07-14",
+      "snippet": "(평양 7월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/87e7dbcab3af69be0c199962ec9f1e57",
       "mediaType": "article",
       "categories": [
         "foreign",
@@ -24,108 +24,106 @@
       ],
       "categoryOrders": {
         "foreign": 100,
-        "domestic": 644
+        "domestic": 633
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dd2541106d84c9166917cae5ee1db24d2",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/a1e1a0d5989dd05b219e492f89fb773e1be3de568b4876a10546abf8498ecc07.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4663cbdca77a1351a8aed16f"
+    },
+    {
+      "id": "news:kcna:12d77d14fdd73289df5f5077",
+      "title": "박태성동지가 중화인민공화국 국무원 총리에게 감사전문",
+      "date": "2026-07-13",
+      "snippet": "(평양 7월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/41b927e8613caaeb755827e3781a6cbd",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 101,
+        "domestic": 641
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aec31e0e14c043cad760b94b6"
+      "detailUrl": "/news/document?id=news%3Akcna%3A12d77d14fdd73289df5f5077"
     },
     {
-      "id": "news:kcna:4974197e62121cd162a06476",
-      "title": "우리 나라 외무상에게 중화인민공화국 외교부장이 축전",
+      "id": "news:kcna:39ead580bf9bcf46017340a9",
+      "title": "조선민주주의인민공화국 당 및 정부대표단 중화인민공화국 공식방문을 마치고 귀국",
+      "date": "2026-07-13",
+      "snippet": "(평양 7월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1f3f3192de3528ef59f273778f7d4177",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 68,
+        "foreign": 102,
+        "domestic": 642
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d5bb65acfdb324d4f68d6c52ee7c244ae",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/d74627fb57c74c671076629e3676db69e025ffd2659eaa02db673572c5234372.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A39ead580bf9bcf46017340a9"
+    },
+    {
+      "id": "news:kcna:f3d981d07716a40f0ebd6959",
+      "title": "조선민주주의인민공화국 당 및 정부대표단 베이징시와 천진시의 여러곳 참관",
+      "date": "2026-07-13",
+      "snippet": "(평양 7월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/37c772acf13af09c34e36e3413dca5ad",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 404,
+        "foreign": 103
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d4c232d109ad43c912d3caf3a396be31b",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/a391076473287ebbdee41d1be45f6b68ba2176b572212fa050d480ebbe0fbf38.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af3d981d07716a40f0ebd6959"
+    },
+    {
+      "id": "news:kcna:faf26259a6a8a143fa686f64",
+      "title": "조선민주주의인민공화국 내각총리 박태성동지가 중화인민공화국 국무원 총리 리강동지와 회담",
       "date": "2026-07-12",
       "snippet": "(평양 7월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/75112ba05c3c15ac78cfc7eda78605f0",
+      "url": "http://www.kcna.kp/kp/article/detail/4e4a2e1898a6af3315a236b8bae501f6",
       "mediaType": "article",
       "categories": [
+        "important",
         "international",
         "foreign"
       ],
       "categoryOrders": {
+        "important": 69,
         "international": 412,
-        "foreign": 101
+        "foreign": 104
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4974197e62121cd162a06476"
-    },
-    {
-      "id": "news:kcna:da22a3fcc3e49a72c903c4b0",
-      "title": "여러 나라에서 추모행사 진행",
-      "date": "2026-07-11",
-      "snippet": "(평양 7월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e47547d1d954127735d119478dbd6b7a",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 420,
-        "foreign": 102
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ada22a3fcc3e49a72c903c4b0"
-    },
-    {
-      "id": "kcna-406e9ede28934529",
-      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
-      "date": "2026-07-11",
-      "snippet": "(평양 7월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b237f2f764a0108d59c95d22491393f2",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 66,
-        "document": 11,
-        "foreign": 103,
-        "domestic": 654
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-406e9ede28934529"
-    },
-    {
-      "id": "news:kcna:edcda6deb3cabb8725864bba",
-      "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지에게 축전을 보내시였다",
-      "date": "2026-07-11",
-      "snippet": "(평양 7월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/33440a53c448bd023e6c91b2fb19b5b9",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 67,
-        "foreign": 104,
-        "domestic": 655
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aedcda6deb3cabb8725864bba"
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77df2736f423d75cad213949310ee4b3e30",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/6a9ac34dfe20c59e47b873e1d301722387048025e52e7deadbe8419ed8588a06.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afaf26259a6a8a143fa686f64"
     }
   ]
 }
