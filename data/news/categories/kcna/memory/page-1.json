@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-09T00:00:00.000Z",
-  "version": "3420e28c4f299d55",
+  "version": "89b49b6666e3a1f8",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -12,6 +12,28 @@
   "totalPages": 44,
   "articles": [
     {
+      "id": "news:kcna:e082e73c6bcc855560121e85",
+      "title": "몸소 밝혀주신 건국로선",
+      "date": "2026-09-09",
+      "snippet": "위대한 수령 김일성동지께서는 1945년 9월 어느날 원산시당을 찾으시여 이곳 일군들과 새 조국건설과 관련한 이야기를 나누시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/07bc5d21892013ef5345d7519d4f43d6",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 0
+      },
+      "featuredSections": [
+        "memory"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae082e73c6bcc855560121e85"
+    },
+    {
       "id": "news:kcna:013542fdcbcf5fea0c2fab93",
       "title": "국호제정도 우리 식으로",
       "date": "2026-09-08",
@@ -22,7 +44,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 0
+        "memory": 1
       },
       "featuredSections": [
         "memory"
@@ -44,7 +66,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 1
+        "memory": 2
       },
       "featuredSections": [
         "memory"
@@ -66,7 +88,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 2
+        "memory": 3
       },
       "featuredSections": [
         "memory"
@@ -88,28 +110,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 3
-      },
-      "featuredSections": [
-        "memory"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A71a806285681ea22a8f2807a"
-    },
-    {
-      "id": "news:kcna:b8f69f36f37c1d588cbbac1b",
-      "title": "《양우장농》",
-      "date": "2026-09-02",
-      "snippet": "위대한 수령 김일성동지께서는 1948년 1월 어느날 대소한의 추위도 마다하지 않으시고 자강도의 한 농촌마을을 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/c8323553e4c8c77ffa3eb57388f1f4b5",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 4
       },
       "featuredSections": [
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab8f69f36f37c1d588cbbac1b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A71a806285681ea22a8f2807a"
     }
   ]
 }
