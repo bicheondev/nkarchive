@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-08T00:00:00.000Z",
-  "version": "ca38dde43eb01ddb",
+  "generatedAt": "2026-09-09T00:00:00.000Z",
+  "version": "3420e28c4f299d55",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,81 +8,89 @@
   "section": "foreign",
   "page": 7,
   "pageSize": 5,
-  "totalItems": 751,
-  "totalPages": 151,
+  "totalItems": 769,
+  "totalPages": 154,
   "articles": [
     {
-      "id": "kcna-99350937ad18afb0",
-      "title": "우리 나라 외무상 인도네시아공화국 외무상에게 축전",
-      "date": "2026-08-18",
-      "snippet": "(평양 8월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/929b50c6bfc5c96eec9a3acf59cf7307",
+      "id": "news:kcna:174196c6326efe74e1e1a7da",
+      "title": "경애하는 김정은동지께서 윁남공산당 중앙위원회 총비서,윁남사회주의공화국 주석에게 축전을 보내시였다",
+      "date": "2026-09-02",
+      "snippet": "(평양 9월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/85cc4984e0354320e591bcf7bdabe198",
       "mediaType": "article",
       "categories": [
+        "important",
         "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 27,
         "foreign": 30,
-        "domestic": 244
+        "domestic": 81
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-99350937ad18afb0"
+      "detailUrl": "/news/document?id=news%3Akcna%3A174196c6326efe74e1e1a7da"
     },
     {
-      "id": "kcna-e702b4680ab50aa0",
-      "title": "로씨야교육실습용돛배 《빨라다》호 원산항을 출발",
-      "date": "2026-08-18",
-      "snippet": "(평양 8월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/be3ab7b7593368cef9d1707177cb996b",
+      "id": "news:kcna:9717aaa28b7bc5bfccb29f9c",
+      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
+      "date": "2026-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d71edc38f50c81691e4f69e6507f146b",
       "mediaType": "article",
       "categories": [
+        "important",
+        "document",
         "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 28,
+        "document": 1,
         "foreign": 31,
-        "domestic": 245
+        "domestic": 97
+      },
+      "featuredSections": [
+        "document"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9717aaa28b7bc5bfccb29f9c"
+    },
+    {
+      "id": "news:kcna:fc8a2a2b05a28962bdd220da",
+      "title": "조국해방 81돐에 즈음하여 여러 나라에서 토론회 진행",
+      "date": "2026-08-29",
+      "snippet": "(평양 8월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ab1541670cd40e7f5be70fa4cbbf35d2",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 100,
+        "foreign": 32
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-e702b4680ab50aa0"
+      "detailUrl": "/news/document?id=news%3Akcna%3Afc8a2a2b05a28962bdd220da"
     },
     {
-      "id": "kcna-a033d10cf215b5e4",
-      "title": "로씨야교육실습용돛배 《빨라다》호 성원들 원산시안의 여러곳 참관",
-      "date": "2026-08-18",
-      "snippet": "(평양 8월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f02b575ed5c786eae189368c9950d4d2",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 32,
-        "domestic": 246
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f299b77ce1d497e5bd5010c0c811361d395",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/6ce7e12a11977db27988886b9dc0e777567123fcaf2fd7da64abcaf04e42242c.jpg",
-      "detailUrl": "/news/document?id=kcna-a033d10cf215b5e4"
-    },
-    {
-      "id": "kcna-d422a66e80df953b",
-      "title": "로씨야교육실습용돛배 《빨라다》호 성원들 쏘련군기념비에 화환 진정",
-      "date": "2026-08-17",
-      "snippet": "(평양 8월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f3feb1917e6885284a5b85a9a79e1e67",
+      "id": "news:kcna:ec8b19dac8b2967c618b2e29",
+      "title": "인도네시아대사관 독립절에 즈음하여 연회 마련",
+      "date": "2026-08-29",
+      "snippet": "(평양 8월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f2a9812952c7a532824bee98fe981577",
       "mediaType": "article",
       "categories": [
         "foreign",
@@ -90,36 +98,38 @@
       ],
       "categoryOrders": {
         "foreign": 33,
-        "domestic": 253
+        "domestic": 123
       },
       "featuredSections": [],
       "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f296b713cd6f692691dfc0b24642383cf2f",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/9afe901a52f0f012d9a114f828bf1fbd72ad83bf65659491631268b1ad5fe265.jpg",
-      "detailUrl": "/news/document?id=kcna-d422a66e80df953b"
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29aa2fea2280ff704788fc3f87f0f68b62",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/665b9d9617a92b9f0284eebdeed231c6e26f27df9755ed92258695bdecf87f54.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aec8b19dac8b2967c618b2e29"
     },
     {
-      "id": "kcna-eea8ef38bab8c1bb",
-      "title": "조국해방 81돐에 즈음하여 로씨야주재 우리 나라 대사관 연회 마련",
-      "date": "2026-08-17",
-      "snippet": "(평양 8월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fb900674fd2259ad06e92f6346945541",
+      "id": "news:kcna:3cf99086fb550851961e4358",
+      "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지에게 위문전문을 보내시였다",
+      "date": "2026-08-28",
+      "snippet": "(평양 8월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/08737c17fc33411c102dd47ba6f392d5",
       "mediaType": "article",
       "categories": [
-        "international",
-        "foreign"
+        "important",
+        "foreign",
+        "domestic"
       ],
       "categoryOrders": {
-        "international": 170,
-        "foreign": 34
+        "important": 29,
+        "foreign": 34,
+        "domestic": 124
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-eea8ef38bab8c1bb"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3cf99086fb550851961e4358"
     }
   ]
 }
