@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T00:00:00.000Z",
-  "version": "89b49b6666e3a1f8",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "version": "c21dcd368add9ca2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 17,
   "pageSize": 5,
-  "totalItems": 764,
+  "totalItems": 765,
   "totalPages": 153,
   "articles": [
+    {
+      "id": "news:kcna:db277cefdaf4bb1664a08b22",
+      "title": "중국인민해방군창건 99돐에 즈음하여 중화인민공화국대사관 기념연회 마련",
+      "date": "2026-07-29",
+      "snippet": "(평양 7월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/85f17501a753c9a341f5a8913bd1cb68",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 80,
+        "domestic": 471
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Adb277cefdaf4bb1664a08b22"
+    },
     {
       "id": "kcna-7cc961f41493b1b7",
       "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
@@ -25,10 +47,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 61,
+        "important": 63,
         "document": 9,
-        "foreign": 80,
-        "domestic": 488
+        "foreign": 81,
+        "domestic": 496
       },
       "featuredSections": [],
       "hasImage": false,
@@ -50,9 +72,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 62,
-        "international": 345,
-        "foreign": 81
+        "important": 64,
+        "international": 346,
+        "foreign": 82
       },
       "featuredSections": [],
       "hasImage": false,
@@ -73,8 +95,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 82,
-        "domestic": 494
+        "foreign": 83,
+        "domestic": 502
       },
       "featuredSections": [],
       "hasImage": true,
@@ -95,8 +117,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 83,
-        "domestic": 499
+        "foreign": 84,
+        "domestic": 507
       },
       "featuredSections": [],
       "hasImage": true,
@@ -104,30 +126,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d8c5a8b6084a7f142f65d4fcb0402456d",
       "cachedThumbnailUrl": "/data/news/assets/kcna/4c7c7683da3f751afd46f5bc014c0eeda559ba3dc5f439f00401c1e2408da73a.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A6ba699007cff596bc673bc5d"
-    },
-    {
-      "id": "news:kcna:b60406fe2bd62b34db24e0ae",
-      "title": "경애하는 김정은동지께 김일성김정일기금리사회 리사,회원들이 꽃바구니를 보내여왔다",
-      "date": "2026-07-26",
-      "snippet": "(평양 7월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7c92da40c091c4b87b995fd5ec43e7dc",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 65,
-        "international": 352,
-        "foreign": 84
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d34a13cc5397ed9ce3cfb794c0d1299f4",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/ba7befc9f3164d31bb40fca3a399381360b5096d370c3287aa2e941ff30000b3.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab60406fe2bd62b34db24e0ae"
     }
   ]
 }

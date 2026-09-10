@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T00:00:00.000Z",
-  "version": "89b49b6666e3a1f8",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "version": "c21dcd368add9ca2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,34 @@
   "section": "foreign",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 764,
+  "totalItems": 765,
   "totalPages": 153,
   "articles": [
+    {
+      "id": "news:kcna:ba7cabfb65aeb5ad421b3b6a",
+      "title": "국제청년축전에 참가하는 조선청년대표단 출발",
+      "date": "2026-09-10",
+      "snippet": "(평양 9월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6615060af1290adc02a760f73452e65e",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 0,
+        "domestic": 3
+      },
+      "featuredSections": [
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba4e49713081e6fd56f14b28606bf450ac",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/f3027f01e28ea983ad1e9ef40ec91c5ff29c6ba387b60b555018600dfece1b60.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aba7cabfb65aeb5ad421b3b6a"
+    },
     {
       "id": "news:kcna:5bc8d540628d5f27ff8d1293",
       "title": "경애하는 김정은동지께 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지가 축전을 보내여왔다",
@@ -24,9 +49,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 0,
-        "international": 8,
-        "foreign": 0
+        "important": 2,
+        "international": 9,
+        "foreign": 1
       },
       "featuredSections": [
         "important",
@@ -51,9 +76,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 1,
-        "international": 9,
-        "foreign": 1
+        "important": 3,
+        "international": 10,
+        "foreign": 2
       },
       "featuredSections": [
         "important",
@@ -78,9 +103,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 2,
-        "international": 10,
-        "foreign": 2
+        "important": 4,
+        "international": 11,
+        "foreign": 3
       },
       "featuredSections": [
         "important",
@@ -105,34 +130,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 3,
-        "international": 11,
-        "foreign": 3
-      },
-      "featuredSections": [
-        "important",
-        "foreign"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A779ecf345dc435edf3b39283"
-    },
-    {
-      "id": "news:kcna:c75a72df9fe74b6673c4d26b",
-      "title": "경애하는 김정은동지께 라오스인민혁명당 중앙위원회 총비서,라오스인민민주주의공화국 주석이 축전을 보내여왔다",
-      "date": "2026-09-09",
-      "snippet": "(평양 9월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9298c036350737d74656a9d0d69b828d",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 4,
+        "important": 5,
         "international": 12,
         "foreign": 4
       },
@@ -144,7 +142,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac75a72df9fe74b6673c4d26b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A779ecf345dc435edf3b39283"
     }
   ]
 }

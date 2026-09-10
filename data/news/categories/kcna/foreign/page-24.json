@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T00:00:00.000Z",
-  "version": "89b49b6666e3a1f8",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "version": "c21dcd368add9ca2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 24,
   "pageSize": 5,
-  "totalItems": 764,
+  "totalItems": 765,
   "totalPages": 153,
   "articles": [
+    {
+      "id": "news:kcna:ff9effe8e9972e7a9b334c0d",
+      "title": "중화인민공화국 당 및 정부대표단 우의탑에 꽃바구니 진정",
+      "date": "2026-07-16",
+      "snippet": "(평양 7월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7be87821f4a4e93d8df243f36d42c012",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 85,
+        "foreign": 115,
+        "domestic": 635
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d784ea0d3a69fefd8991d7c95fd57263d",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/fc64708168838085d81ce6a41d5d68777dd46bb753ff804548d8adc31bc3c74f.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aff9effe8e9972e7a9b334c0d"
+    },
     {
       "id": "news:kcna:7caf099ead171e0d709b8f1b",
       "title": "여러 나라에서 추모모임 진행",
@@ -23,8 +47,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 426,
-        "foreign": 115
+        "international": 427,
+        "foreign": 116
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +69,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 116,
-        "domestic": 642
+        "foreign": 117,
+        "domestic": 650
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,9 +92,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 86,
-        "foreign": 117,
-        "domestic": 653
+        "important": 88,
+        "foreign": 118,
+        "domestic": 661
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,8 +115,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 118,
-        "domestic": 657
+        "foreign": 119,
+        "domestic": 665
       },
       "featuredSections": [],
       "hasImage": true,
@@ -100,28 +124,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dd2541106d84c9166917cae5ee1db24d2",
       "cachedThumbnailUrl": "/data/news/assets/kcna/a1e1a0d5989dd05b219e492f89fb773e1be3de568b4876a10546abf8498ecc07.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A4663cbdca77a1351a8aed16f"
-    },
-    {
-      "id": "news:kcna:12d77d14fdd73289df5f5077",
-      "title": "박태성동지가 중화인민공화국 국무원 총리에게 감사전문",
-      "date": "2026-07-13",
-      "snippet": "(평양 7월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/41b927e8613caaeb755827e3781a6cbd",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 119,
-        "domestic": 665
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A12d77d14fdd73289df5f5077"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T00:00:00.000Z",
-  "version": "89b49b6666e3a1f8",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "version": "c21dcd368add9ca2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,34 @@
   "section": "international",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 2759,
+  "totalItems": 2760,
   "totalPages": 552,
   "articles": [
+    {
+      "id": "news:kcna:ece71782bf76aadcb461fb78",
+      "title": "경애하는 김정은동지께 공화국창건 78돐에 즈음하여 총련조직과 단체들에서 축전을 드리였다",
+      "date": "2026-09-10",
+      "snippet": "(평양 9월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0dba2c7ac2b9ff6deda59efa20f46769",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international"
+      ],
+      "categoryOrders": {
+        "important": 0,
+        "international": 0
+      },
+      "featuredSections": [
+        "important",
+        "international"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aece71782bf76aadcb461fb78"
+    },
     {
       "id": "news:kcna:c99969a0ed96ce3d6f930820",
       "title": "오스트랄리아에서 강력범죄 성행",
@@ -22,7 +47,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 0
+        "international": 1
       },
       "featuredSections": [
         "international"
@@ -44,11 +69,9 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1
+        "international": 2
       },
-      "featuredSections": [
-        "international"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -66,7 +89,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2
+        "international": 3
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +109,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 3
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A56c442ee763b415df88b9dae"
-    },
-    {
-      "id": "news:kcna:a541252f4c5a0c77f8219424",
-      "title": "에짚트에서 고대무덤 발굴",
-      "date": "2026-09-09",
-      "snippet": "(평양 9월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6565daec3c812d6d72515053bc70f386",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 4
       },
       "featuredSections": [],
@@ -113,7 +116,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa541252f4c5a0c77f8219424"
+      "detailUrl": "/news/document?id=news%3Akcna%3A56c442ee763b415df88b9dae"
     }
   ]
 }

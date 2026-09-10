@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T00:00:00.000Z",
-  "version": "89b49b6666e3a1f8",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "version": "c21dcd368add9ca2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 21,
   "pageSize": 5,
-  "totalItems": 2759,
+  "totalItems": 2760,
   "totalPages": 552,
   "articles": [
+    {
+      "id": "news:kcna:6e60741049fd8d22606eb687",
+      "title": "남부수단에서 종족간 무장분쟁으로 인명피해",
+      "date": "2026-08-30",
+      "snippet": "(평양 8월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b353b6ed600e3acb6294515b13cafebc",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 100
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6e60741049fd8d22606eb687"
+    },
     {
       "id": "news:kcna:ec4f9c946247428d3583ad22",
       "title": "중국국방부 일본의 신군국주의망동을 저지시켜야 한다고 강조",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 100
+        "international": 101
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 101
+        "international": 102
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 102
+        "international": 103
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 103
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8e6ebc0b4f8cdf7df3d51a71"
-    },
-    {
-      "id": "news:kcna:b87073c8feb503939889dbab",
-      "title": "카나다에서 미국상품배척기운 고조",
-      "date": "2026-08-29",
-      "snippet": "(평양 8월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ac09b056d66138792386547f25372334",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 104
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab87073c8feb503939889dbab"
+      "detailUrl": "/news/document?id=news%3Akcna%3A8e6ebc0b4f8cdf7df3d51a71"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T00:00:00.000Z",
-  "version": "89b49b6666e3a1f8",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "version": "c21dcd368add9ca2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 203,
   "pageSize": 5,
-  "totalItems": 2759,
+  "totalItems": 2760,
   "totalPages": 552,
   "articles": [
+    {
+      "id": "news:kcna:5fb139829595908237b1f4d9",
+      "title": "중국에서 위성 발사",
+      "date": "2026-04-27",
+      "snippet": "(베이징 4월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/33cfa6bae9c190a50f1e5cad2000f642",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1010
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5fb139829595908237b1f4d9"
+    },
     {
       "id": "news:kcna:055b514e5a28f22344479e9d",
       "title": "세계기상기구 올해 중반기부터 엘니뇨현상이 발생할것으로 예측",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1010
+        "international": 1011
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1011
+        "international": 1012
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,8 +83,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1012,
-        "foreign": 243
+        "international": 1013,
+        "foreign": 244
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1013
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A30ced35bcd22bcbee6662e81"
-    },
-    {
-      "id": "news:kcna:ca8bf9644b3b9c3550ba5f6d",
-      "title": "메히꼬대통령 외세의 내정간섭을 배격",
-      "date": "2026-04-26",
-      "snippet": "(평양 4월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b691eebb9a50d732843b99d1c52a81f4",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1014
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aca8bf9644b3b9c3550ba5f6d"
+      "detailUrl": "/news/document?id=news%3Akcna%3A30ced35bcd22bcbee6662e81"
     }
   ]
 }

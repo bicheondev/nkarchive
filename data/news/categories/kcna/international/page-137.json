@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T00:00:00.000Z",
-  "version": "89b49b6666e3a1f8",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "version": "c21dcd368add9ca2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 137,
   "pageSize": 5,
-  "totalItems": 2759,
+  "totalItems": 2760,
   "totalPages": 552,
   "articles": [
+    {
+      "id": "news:kcna:e0a598e68019f55814e53cab",
+      "title": "마로끄에서 경제장성",
+      "date": "2026-06-10",
+      "snippet": "(평양 6월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e17bb90a34be561a0e56b5d5f82ebb7d",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 680
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae0a598e68019f55814e53cab"
+    },
     {
       "id": "news:kcna:05f106fe00a3e1c4bcc78d68",
       "title": "재일본조선민주녀성동맹 제32차대회 진행",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 680
+        "international": 681
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,9 +64,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 120,
-        "international": 681,
-        "foreign": 178
+        "important": 122,
+        "international": 682,
+        "foreign": 179
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 682
+        "international": 683
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 683
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Add3f5eee18b27d7fe44c9640"
-    },
-    {
-      "id": "news:kcna:686398471ef946aed9c8ff88",
-      "title": "파키스탄에서 반테로작전",
-      "date": "2026-06-09",
-      "snippet": "(평양 6월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/83633003fdc5757fe6859176f018567c",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 684
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A686398471ef946aed9c8ff88"
+      "detailUrl": "/news/document?id=news%3Akcna%3Add3f5eee18b27d7fe44c9640"
     }
   ]
 }

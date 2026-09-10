@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T00:00:00.000Z",
-  "version": "89b49b6666e3a1f8",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "version": "c21dcd368add9ca2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 92,
   "pageSize": 5,
-  "totalItems": 764,
+  "totalItems": 765,
   "totalPages": 153,
   "articles": [
+    {
+      "id": "news:kcna:b5098584ab3f253f56fcc1be",
+      "title": "조선인민군 총참모부 대변인 성명 발표",
+      "date": "2026-01-10",
+      "snippet": "(평양 1월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c4a8fa467e8618f5d6385963981dc980",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 354,
+        "foreign": 455,
+        "domestic": 2722
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451f50fdbc826de6be23ff17a3c4103b1bc",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/8feb84fd2cb599aef716c081ff14cf9be5a950a048f7034a902028e52d49d10e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab5098584ab3f253f56fcc1be"
+    },
     {
       "id": "news:kcna:af093394f3770be9dbc38205",
       "title": "경애하는 김정은동지께서 로씨야련방 대통령에게 회답서한을 보내시였다",
@@ -24,9 +48,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 353,
-        "foreign": 455,
-        "domestic": 2724
+        "important": 355,
+        "foreign": 456,
+        "domestic": 2732
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,9 +72,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 354,
-        "international": 1862,
-        "foreign": 456
+        "important": 356,
+        "international": 1863,
+        "foreign": 457
       },
       "featuredSections": [],
       "hasImage": false,
@@ -72,9 +96,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 355,
-        "foreign": 457,
-        "domestic": 2725
+        "important": 357,
+        "foreign": 458,
+        "domestic": 2733
       },
       "featuredSections": [],
       "hasImage": false,
@@ -95,8 +119,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 458,
-        "domestic": 2742
+        "foreign": 459,
+        "domestic": 2750
       },
       "featuredSections": [],
       "hasImage": false,
@@ -104,30 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aa8fa4720816da99dc1ea7aff"
-    },
-    {
-      "id": "news:kcna:96d944e67cd8249fbf8cdd6d",
-      "title": "경애하는 김정은동지께 싱가포르공화국 대통령이 축전을 보내여왔다",
-      "date": "2026-01-07",
-      "snippet": "(평양 1월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/34d05e59b673fd864f33698518b773e6",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 356,
-        "international": 1875,
-        "foreign": 459
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A96d944e67cd8249fbf8cdd6d"
     }
   ]
 }

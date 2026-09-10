@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T00:00:00.000Z",
-  "version": "89b49b6666e3a1f8",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "version": "c21dcd368add9ca2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 124,
   "pageSize": 5,
-  "totalItems": 2759,
+  "totalItems": 2760,
   "totalPages": 552,
   "articles": [
+    {
+      "id": "news:kcna:5e479cc09dfe534357b9ee43",
+      "title": "윁남에서 항공운수발전",
+      "date": "2026-06-18",
+      "snippet": "(평양 6월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/61b22bbe57a311ded3603f64e5f6e2e8",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 615
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5e479cc09dfe534357b9ee43"
+    },
     {
       "id": "news:kcna:7ef08c7d161d5d591d01c353",
       "title": "몽골에서 의료품에 대한 품질감독사업 강화",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 615
+        "international": 616
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 616
+        "international": 617
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,8 +83,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 617,
-        "foreign": 157
+        "international": 618,
+        "foreign": 158
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 618
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A844e1785046928c6e989d630"
-    },
-    {
-      "id": "news:kcna:c12866ec013082083ee28e3d",
-      "title": "탄자니아의 산림자원보호노력",
-      "date": "2026-06-17",
-      "snippet": "(평양 6월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d483d31275bed53214b3c334989f8b18",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 619
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac12866ec013082083ee28e3d"
+      "detailUrl": "/news/document?id=news%3Akcna%3A844e1785046928c6e989d630"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T00:00:00.000Z",
-  "version": "89b49b6666e3a1f8",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "version": "c21dcd368add9ca2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 71,
   "pageSize": 5,
-  "totalItems": 2759,
+  "totalItems": 2760,
   "totalPages": 552,
   "articles": [
+    {
+      "id": "news:kcna:2b8204fad728a77680b61ff1",
+      "title": "라오스에서 관광업 장려",
+      "date": "2026-07-26",
+      "snippet": "(평양 7월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/771d699627fe8a41dbdf9511ecaee920",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 350
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2b8204fad728a77680b61ff1"
+    },
     {
       "id": "news:kcna:bc071163ace7eda94d2f69ac",
       "title": "리비아에서 극심한 고온현상 관측",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 350
+        "international": 351
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 351
+        "international": 352
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,9 +84,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 65,
-        "international": 352,
-        "foreign": 84
+        "important": 67,
+        "international": 353,
+        "foreign": 85
       },
       "featuredSections": [],
       "hasImage": true,
@@ -86,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 353
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5555838807314a02e2d25ad3"
-    },
-    {
-      "id": "news:kcna:e593209fa3e79217273c3f4c",
-      "title": "영국에서 물가상승",
-      "date": "2026-07-25",
-      "snippet": "(평양 7월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/88bf3c847869bd4c0dd1587fa680cc14",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 354
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae593209fa3e79217273c3f4c"
+      "detailUrl": "/news/document?id=news%3Akcna%3A5555838807314a02e2d25ad3"
     }
   ]
 }

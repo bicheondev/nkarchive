@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T00:00:00.000Z",
-  "version": "89b49b6666e3a1f8",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "version": "c21dcd368add9ca2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 120,
   "pageSize": 5,
-  "totalItems": 2759,
+  "totalItems": 2760,
   "totalPages": 552,
   "articles": [
+    {
+      "id": "news:kcna:cc90ae8b429a5e35a86aa98f",
+      "title": "탄자니아에서 코끼리마리수 증가",
+      "date": "2026-06-21",
+      "snippet": "(평양 6월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/090711ee364f7c2836c793cebdf1518c",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 595
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Acc90ae8b429a5e35a86aa98f"
+    },
     {
       "id": "news:kcna:b2045e705af806424fc95c7f",
       "title": "미국의 계속되는 민간선박공격행위",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 595
+        "international": 596
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 596
+        "international": 597
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 597
+        "international": 598
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,8 +103,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 598,
-        "foreign": 155
+        "international": 599,
+        "foreign": 156
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,26 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A03bcd26b0e12920ed6ad1c8c"
-    },
-    {
-      "id": "news:kcna:f32646d08d80218527bdbdb3",
-      "title": "아프리카나라들사이의 협조",
-      "date": "2026-06-20",
-      "snippet": "(평양 6월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/46f3a59cc1358f5120e81bbe7b33a1c3",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 599
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af32646d08d80218527bdbdb3"
     }
   ]
 }

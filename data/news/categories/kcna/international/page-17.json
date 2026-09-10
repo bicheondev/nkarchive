@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T00:00:00.000Z",
-  "version": "89b49b6666e3a1f8",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "version": "c21dcd368add9ca2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 17,
   "pageSize": 5,
-  "totalItems": 2759,
+  "totalItems": 2760,
   "totalPages": 552,
   "articles": [
+    {
+      "id": "news:kcna:a6e1155ca1499b8a708fb86d",
+      "title": "네팔에서 인명피해 계속 확대",
+      "date": "2026-09-02",
+      "snippet": "(평양 9월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/120207a4246f5afca6f19b69431d4805",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 80
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa6e1155ca1499b8a708fb86d"
+    },
     {
       "id": "news:kcna:1728cdee941fe619085fa3ab",
       "title": "아프가니스탄에서 마약압수",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 80
+        "international": 81
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 81
+        "international": 82
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 82
+        "international": 83
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 83
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adec93bbf8845b3e4d99cc7a8"
-    },
-    {
-      "id": "news:kcna:7d5048576aefafda9dd68060",
-      "title": "로씨야국가회의 대의원 핵무기사용문제에 대해 언급",
-      "date": "2026-09-01",
-      "snippet": "(모스크바 8월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/944a805b962b57a9d71521eb2f4a08a9",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 84
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7d5048576aefafda9dd68060"
+      "detailUrl": "/news/document?id=news%3Akcna%3Adec93bbf8845b3e4d99cc7a8"
     }
   ]
 }

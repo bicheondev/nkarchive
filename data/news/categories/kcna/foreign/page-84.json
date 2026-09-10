@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T00:00:00.000Z",
-  "version": "89b49b6666e3a1f8",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "version": "c21dcd368add9ca2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 84,
   "pageSize": 5,
-  "totalItems": 764,
+  "totalItems": 765,
   "totalPages": 153,
   "articles": [
+    {
+      "id": "news:kcna:3af3b1093776714df2ce2a45",
+      "title": "조선로동당 제9차대회에 중국공산당 중앙위원회가 축전을 보내여왔다",
+      "date": "2026-02-20",
+      "snippet": "(평양 2월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/85521e832c42600e9ece19ba1a27b58e",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 1555,
+        "foreign": 415
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3af3b1093776714df2ce2a45"
+    },
     {
       "id": "news:kcna:009d1ea3dda57e2f5c1080fa",
       "title": "김여정 조선로동당 중앙위원회 부부장 담화 발표",
@@ -25,10 +47,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 316,
+        "important": 318,
         "document": 46,
-        "foreign": 415,
-        "domestic": 2285
+        "foreign": 416,
+        "domestic": 2293
       },
       "featuredSections": [],
       "hasImage": false,
@@ -49,8 +71,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 416,
-        "domestic": 2305
+        "foreign": 417,
+        "domestic": 2313
       },
       "featuredSections": [],
       "hasImage": true,
@@ -71,8 +93,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1577,
-        "foreign": 417
+        "international": 1578,
+        "foreign": 418
       },
       "featuredSections": [],
       "hasImage": false,
@@ -93,8 +115,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 418,
-        "domestic": 2322
+        "foreign": 419,
+        "domestic": 2330
       },
       "featuredSections": [],
       "hasImage": true,
@@ -102,28 +124,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf3663c15c86ed16a90f175a615f9ccf1d04d",
       "cachedThumbnailUrl": "/data/news/assets/kcna/28fb56695e7e76162cab5cc748d917523ff1952c775ab33526cb96265766d7b9.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Af3193d3167344db1ca136ae6"
-    },
-    {
-      "id": "news:kcna:ef96fe44da3ac680f158850d",
-      "title": "박태성동지 쓰르비아공화국 수상에게 축전",
-      "date": "2026-02-16",
-      "snippet": "(평양 2월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/61cd88937e9ef79105e946fb46f64034",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 419,
-        "domestic": 2323
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aef96fe44da3ac680f158850d"
     }
   ]
 }

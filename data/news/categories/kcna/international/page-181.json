@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T00:00:00.000Z",
-  "version": "89b49b6666e3a1f8",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "version": "c21dcd368add9ca2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 181,
   "pageSize": 5,
-  "totalItems": 2759,
+  "totalItems": 2760,
   "totalPages": 552,
   "articles": [
+    {
+      "id": "news:kcna:7f4975a9e229ddb9a4056c74",
+      "title": "중국외교부 일본의 《신군국주의》망동을 저지시킬것을 주장",
+      "date": "2026-05-10",
+      "snippet": "(베이징 5월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f30f0be8ce3843ed449d60e9e64cdb37",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 900
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7f4975a9e229ddb9a4056c74"
+    },
     {
       "id": "news:kcna:cf7d5cea63a3568dd3a0ab98",
       "title": "미국에서 들불피해지역주민들의 처지 악화",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 900,
+        "international": 901,
         "social": 144
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 901
+        "international": 902
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,9 +86,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 148,
-        "international": 902,
-        "foreign": 214
+        "important": 150,
+        "international": 903,
+        "foreign": 215
       },
       "featuredSections": [],
       "hasImage": true,
@@ -89,8 +109,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 903,
-        "foreign": 215
+        "international": 904,
+        "foreign": 216
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,28 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A443342314ff1ba63db282cc7"
-    },
-    {
-      "id": "news:kcna:f6364ed9b4fe67467ce4d530",
-      "title": "로씨야에서 위대한 조국전쟁승리 81돐경축 열병식 진행",
-      "date": "2026-05-09",
-      "snippet": "(모스크바 5월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9afff2656fb26de2041c33658f37a5fe",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international"
-      ],
-      "categoryOrders": {
-        "important": 149,
-        "international": 904
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af6364ed9b4fe67467ce4d530"
     }
   ]
 }

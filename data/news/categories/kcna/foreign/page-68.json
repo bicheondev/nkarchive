@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T00:00:00.000Z",
-  "version": "89b49b6666e3a1f8",
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "version": "c21dcd368add9ca2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 68,
   "pageSize": 5,
-  "totalItems": 764,
+  "totalItems": 765,
   "totalPages": 153,
   "articles": [
+    {
+      "id": "news:kcna:01dd1a99a26ccef756e5099c",
+      "title": "조선중앙통신사와 따쓰통신사사이의 협조에 관한 합의서 조인",
+      "date": "2026-03-29",
+      "snippet": "(평양 3월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1c873fba388b7a17fc408ea12079dcd3",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 335,
+        "domestic": 1879
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60f57ccf8080fdc3c86e14aa0f252426cf",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/1b1b85812e6d926b6bbdc9ca56dee867bb467afa9e44c94e721ac5e576274f8e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A01dd1a99a26ccef756e5099c"
+    },
     {
       "id": "news:kcna:22bb785ff2999d13a0d78a90",
       "title": "제34차 4월의 봄 친선예술축전준비에 바쳐가는 로씨야예술인들의 진정과 노력",
@@ -23,8 +45,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1252,
-        "foreign": 335
+        "international": 1253,
+        "foreign": 336
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,9 +68,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 222,
-        "foreign": 336,
-        "domestic": 1878
+        "important": 224,
+        "foreign": 337,
+        "domestic": 1886
       },
       "featuredSections": [],
       "hasImage": false,
@@ -70,9 +92,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 223,
-        "international": 1253,
-        "foreign": 337
+        "important": 225,
+        "international": 1254,
+        "foreign": 338
       },
       "featuredSections": [],
       "hasImage": false,
@@ -93,28 +115,6 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1254,
-        "foreign": 338
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4c6e3af124e8810f00abae1b"
-    },
-    {
-      "id": "news:kcna:f309b0de6306b2effda6cc0b",
-      "title": "여러 나라 정당,단체 축하성명 발표",
-      "date": "2026-03-28",
-      "snippet": "(평양 3월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f23e8cbf9b967210b0d349b7147c88be",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
         "international": 1255,
         "foreign": 339
       },
@@ -123,7 +123,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af309b0de6306b2effda6cc0b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4c6e3af124e8810f00abae1b"
     }
   ]
 }
