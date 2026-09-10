@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-10T00:00:00.000Z",
-  "version": "c21dcd368add9ca2",
+  "version": "1677fd74ce53f45b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 48,
   "pageSize": 5,
-  "totalItems": 765,
+  "totalItems": 764,
   "totalPages": 153,
   "articles": [
+    {
+      "id": "news:kcna:7ab59a42b905d80550c01ac0",
+      "title": "로씨야주재 우리 나라 대사관에서 사진전시회 및 기념토론회 진행",
+      "date": "2026-04-30",
+      "snippet": "(평양 4월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d637c721f93db0b0ec70e3cfb7c52212",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 997,
+        "foreign": 235
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7ab59a42b905d80550c01ac0"
+    },
     {
       "id": "news:kcna:81b416b137a9ae9b5e7855c8",
       "title": "여러 나라와 지역기구 인사들 우리 나라 대표부들을 축하방문",
@@ -23,8 +45,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 995,
-        "foreign": 235
+        "international": 1005,
+        "foreign": 236
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +67,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 236,
-        "domestic": 1477
+        "foreign": 237,
+        "domestic": 1482
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +91,8 @@
       ],
       "categoryOrders": {
         "important": 162,
-        "foreign": 237,
-        "domestic": 1481
+        "foreign": 238,
+        "domestic": 1486
       },
       "featuredSections": [],
       "hasImage": true,
@@ -91,8 +113,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1005,
-        "foreign": 238
+        "international": 1015,
+        "foreign": 239
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,30 +122,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A1cae0761619934d901a7bc92"
-    },
-    {
-      "id": "news:kcna:ce3bd4191275489fedaa1b61",
-      "title": "로씨야련방 국방상 평양 출발",
-      "date": "2026-04-27",
-      "snippet": "(평양 4월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e32cf6510299d9bba05c0313e5a1f977",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 163,
-        "foreign": 239,
-        "domestic": 1493
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b6630b84b76668d5a0bfb619704ce72c041",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/64bcde0803c1b2899e239927e8e73dc74bc9dfad811fbf90850b61fb1f7d4715.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ace3bd4191275489fedaa1b61"
     }
   ]
 }

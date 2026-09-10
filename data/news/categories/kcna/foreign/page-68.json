@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-10T00:00:00.000Z",
-  "version": "c21dcd368add9ca2",
+  "version": "1677fd74ce53f45b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 68,
   "pageSize": 5,
-  "totalItems": 765,
+  "totalItems": 764,
   "totalPages": 153,
   "articles": [
+    {
+      "id": "news:kcna:1a696b6c4d8c6bd7c36d1fd7",
+      "title": "로씨야 따쓰통신사대표단 도착",
+      "date": "2026-03-29",
+      "snippet": "(평양 3월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/14048b25543804d9913118544174c212",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 335,
+        "domestic": 1883
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e6089163806c65685eaeedc99aaa9516d96",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/7c318c61fd2ad530be17e32c1cee66b74050b9693f7eaee7e4f6e866b6243668.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1a696b6c4d8c6bd7c36d1fd7"
+    },
     {
       "id": "news:kcna:01dd1a99a26ccef756e5099c",
       "title": "조선중앙통신사와 따쓰통신사사이의 협조에 관한 합의서 조인",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 335,
-        "domestic": 1879
+        "foreign": 336,
+        "domestic": 1884
       },
       "featuredSections": [],
       "hasImage": true,
@@ -45,8 +67,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1253,
-        "foreign": 336
+        "international": 1263,
+        "foreign": 337
       },
       "featuredSections": [],
       "hasImage": true,
@@ -69,8 +91,8 @@
       ],
       "categoryOrders": {
         "important": 224,
-        "foreign": 337,
-        "domestic": 1886
+        "foreign": 338,
+        "domestic": 1891
       },
       "featuredSections": [],
       "hasImage": false,
@@ -93,29 +115,7 @@
       ],
       "categoryOrders": {
         "important": 225,
-        "international": 1254,
-        "foreign": 338
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A29fc7ac8d4853f08b86966b6"
-    },
-    {
-      "id": "news:kcna:4c6e3af124e8810f00abae1b",
-      "title": "세계 여러 나라에서 제34차 4월의 봄 친선예술축전준비사업 활발히 진행",
-      "date": "2026-03-28",
-      "snippet": "(평양 3월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e292476b0b56a8807a5a000a4f8677ac",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 1255,
+        "international": 1264,
         "foreign": 339
       },
       "featuredSections": [],
@@ -123,7 +123,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4c6e3af124e8810f00abae1b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A29fc7ac8d4853f08b86966b6"
     }
   ]
 }

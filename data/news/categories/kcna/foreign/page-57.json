@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-10T00:00:00.000Z",
-  "version": "c21dcd368add9ca2",
+  "version": "1677fd74ce53f45b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 57,
   "pageSize": 5,
-  "totalItems": 765,
+  "totalItems": 764,
   "totalPages": 153,
   "articles": [
+    {
+      "id": "news:kcna:4f92826975babe4205bd3b83",
+      "title": "박태성동지에게 꾸바공화국 내각수상이 축전",
+      "date": "2026-04-15",
+      "snippet": "(평양 4월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a68a84f094a039a49c033dbac880e96d",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 1110,
+        "foreign": 280
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4f92826975babe4205bd3b83"
+    },
     {
       "id": "news:kcna:36e5f9e6c1266da3d2f618f5",
       "title": "우리 나라 외무상에게 꾸바공화국 외무상이 축전",
@@ -23,8 +45,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1101,
-        "foreign": 280
+        "international": 1111,
+        "foreign": 281
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +67,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 281,
-        "domestic": 1658
+        "foreign": 282,
+        "domestic": 1663
       },
       "featuredSections": [],
       "hasImage": true,
@@ -69,8 +91,8 @@
       ],
       "categoryOrders": {
         "important": 191,
-        "international": 1109,
-        "foreign": 282
+        "international": 1119,
+        "foreign": 283
       },
       "featuredSections": [],
       "hasImage": false,
@@ -93,8 +115,8 @@
       ],
       "categoryOrders": {
         "important": 192,
-        "international": 1110,
-        "foreign": 283
+        "international": 1120,
+        "foreign": 284
       },
       "featuredSections": [],
       "hasImage": true,
@@ -102,30 +124,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b669b3735ac5933cb31dca2d97c1d8857d7",
       "cachedThumbnailUrl": "/data/news/assets/kcna/b34c4d35f9d9c9dce1365d52c213342bab664df0910db4cd3a9a0e8b7a1d7021.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A23ef7806f5a9671859039ee4"
-    },
-    {
-      "id": "news:kcna:3fe78d74083f8820bbaf9781",
-      "title": "경애하는 김정은동지께 팔레스티나국가 대통령이 꽃바구니를 보내여왔다",
-      "date": "2026-04-14",
-      "snippet": "(평양 4월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5cec8ab8982f79d59d1400034fd06a90",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 193,
-        "international": 1111,
-        "foreign": 284
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b664b000cd1fe54f43a4f636dee40fe25e3",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/84c309b3fd2c96325d4249d63d5c37216e1b3d4a7910851548045e40046ebc9a.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3fe78d74083f8820bbaf9781"
     }
   ]
 }
