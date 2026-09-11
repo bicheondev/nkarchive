@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-11T00:00:00.000Z",
-  "version": "b13dfd5f2b44c646",
+  "version": "0a6ae094d0148404",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,35 +8,42 @@
   "section": "international",
   "page": 3,
   "pageSize": 5,
-  "totalItems": 2762,
+  "totalItems": 2764,
   "totalPages": 553,
   "articles": [
     {
-      "id": "news:kcna:966747d35470a681f9f44eb9",
-      "title": "몽골에서 관광업 장려",
-      "date": "2026-09-10",
-      "snippet": "(평양 9월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ed271a9e75c8e139afc9fe2f84e81489",
+      "id": "news:kcna:6e0c330776c8f84a4b254bbb",
+      "title": "경애하는 김정은동지께 아제르바이쟌공화국 대통령이 축전을 보내여왔다",
+      "date": "2026-09-11",
+      "snippet": "(평양 9월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/91aa517b672f05071545655d4e0d6330",
       "mediaType": "article",
       "categories": [
-        "international"
+        "important",
+        "international",
+        "foreign"
       ],
       "categoryOrders": {
-        "international": 10
+        "important": 2,
+        "international": 10,
+        "foreign": 2
       },
-      "featuredSections": [],
+      "featuredSections": [
+        "important",
+        "foreign"
+      ],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A966747d35470a681f9f44eb9"
+      "detailUrl": "/news/document?id=news%3Akcna%3A6e0c330776c8f84a4b254bbb"
     },
     {
-      "id": "news:kcna:5cd663ebcdfaca144ff2a136",
-      "title": "여러 나라사이의 협조",
+      "id": "news:kcna:c1c248689ed56f9d2a491d08",
+      "title": "일본의 부당한 요구에 면박",
       "date": "2026-09-10",
       "snippet": "(평양 9월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/efb25f138c3215fff5b5113ee839dc00",
+      "url": "http://www.kcna.kp/kp/article/detail/cb46c6229640b88a15fb901d60b85185",
       "mediaType": "article",
       "categories": [
         "international"
@@ -49,62 +56,54 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5cd663ebcdfaca144ff2a136"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac1c248689ed56f9d2a491d08"
     },
     {
-      "id": "news:kcna:1b468101f3d6c2c53186f398",
-      "title": "공화국창건 78돐에 즈음하여 여러 나라에서 토론회 진행",
+      "id": "news:kcna:7a5d64192e190987e1f43ceb",
+      "title": "로씨야외무상 서방의 위험한 처지를 비평",
       "date": "2026-09-10",
-      "snippet": "(평양 9월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ad05cd9e72871d71988856de56de1bfe",
+      "snippet": "(모스크바 9월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2bfce621b9d0c4261e5097ed1249c12b",
       "mediaType": "article",
       "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 12,
-        "foreign": 3
-      },
-      "featuredSections": [
-        "foreign"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1b468101f3d6c2c53186f398"
-    },
-    {
-      "id": "news:kcna:ece71782bf76aadcb461fb78",
-      "title": "경애하는 김정은동지께 공화국창건 78돐에 즈음하여 총련조직과 단체들에서 축전을 드리였다",
-      "date": "2026-09-10",
-      "snippet": "(평양 9월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0dba2c7ac2b9ff6deda59efa20f46769",
-      "mediaType": "article",
-      "categories": [
-        "important",
         "international"
       ],
       "categoryOrders": {
-        "important": 3,
-        "international": 13
+        "international": 12
       },
-      "featuredSections": [
-        "important"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aece71782bf76aadcb461fb78"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7a5d64192e190987e1f43ceb"
     },
     {
-      "id": "news:kcna:c99969a0ed96ce3d6f930820",
-      "title": "오스트랄리아에서 강력범죄 성행",
-      "date": "2026-09-09",
-      "snippet": "(평양 9월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3167fa0e1bce9e6de21b87d7f91abf0e",
+      "id": "news:kcna:c1e7a6419c03c6b5f6dd46f1",
+      "title": "로씨야 도이췰란드총령사관을 페쇄하기로 결정",
+      "date": "2026-09-10",
+      "snippet": "(모스크바 9월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bb61d2d4d80b6f39f785462d1caa4c03",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 13
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac1e7a6419c03c6b5f6dd46f1"
+    },
+    {
+      "id": "news:kcna:2cde45090368755c8feae772",
+      "title": "카나다수상 미국과의 무역분쟁에서 물러서지 않을 립장 강조",
+      "date": "2026-09-10",
+      "snippet": "(평양 9월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/842edf63cc4980bdb6408f3b58b1fd28",
       "mediaType": "article",
       "categories": [
         "international"
@@ -117,7 +116,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac99969a0ed96ce3d6f930820"
+      "detailUrl": "/news/document?id=news%3Akcna%3A2cde45090368755c8feae772"
     }
   ]
 }
