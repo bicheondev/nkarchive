@@ -1,48 +1,173 @@
 {
-  "generatedAt": "2026-09-10T00:00:00.000Z",
-  "version": "1677fd74ce53f45b",
+  "generatedAt": "2026-09-11T00:00:00.000Z",
+  "version": "b13dfd5f2b44c646",
   "sources": {
     "kcna": {
       "id": "kcna",
       "name": "조선중앙통신",
-      "totalItems": 8768,
+      "totalItems": 8774,
       "categoryCounts": {
         "leadership": 229,
-        "important": 516,
-        "international": 2759,
+        "important": 519,
+        "international": 2762,
         "photo": 1042,
         "anecdote": 104,
         "document": 62,
-        "foreign": 764,
+        "foreign": 767,
         "video": 267,
         "memory": 219,
-        "domestic": 4155,
+        "domestic": 4158,
         "social": 680
       },
       "articles": [
         {
-          "id": "news:kcna:1b468101f3d6c2c53186f398",
-          "title": "공화국창건 78돐에 즈음하여 여러 나라에서 토론회 진행",
-          "date": "2026-09-10",
-          "snippet": "(평양 9월 10일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/ad05cd9e72871d71988856de56de1bfe",
+          "id": "news:kcna:44cd9cc0bb36531613793345",
+          "title": "경애하는 김정은동지께 이란이슬람공화국 대통령이 축전을 보내여왔다",
+          "date": "2026-09-11",
+          "snippet": "(평양 9월 11일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/47687b6bef815d93e3c97c0afec91f6c",
           "mediaType": "article",
           "categories": [
+            "important",
             "international",
             "foreign"
           ],
           "categoryOrders": {
-            "international": 9,
+            "important": 0,
+            "international": 0,
             "foreign": 0
           },
           "featuredSections": [
+            "important",
+            "international",
             "foreign"
           ],
           "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A1b468101f3d6c2c53186f398"
+          "detailUrl": "/news/document?id=news%3Akcna%3A44cd9cc0bb36531613793345"
+        },
+        {
+          "id": "news:kcna:a8cc4c043055622959170991",
+          "title": "각지에서 도소재지들의 면모를 일신시키기 위한 사업 활발",
+          "date": "2026-09-11",
+          "snippet": "(평양 9월 11일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/334eddd9902ddebe203866a3675ba702",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 0
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Aa8cc4c043055622959170991"
+        },
+        {
+          "id": "news:kcna:a7e1a6ab7bd8adf90a437995",
+          "title": "경애하는 김정은동지께 팔레스티나국가 대통령이 축전을 보내여왔다",
+          "date": "2026-09-11",
+          "snippet": "(평양 9월 11일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/f2ce9c2d7ddb0337c38bd86602992e1a",
+          "mediaType": "article",
+          "categories": [
+            "important",
+            "international",
+            "foreign"
+          ],
+          "categoryOrders": {
+            "important": 1,
+            "international": 1,
+            "foreign": 1
+          },
+          "featuredSections": [
+            "important",
+            "international",
+            "foreign"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Aa7e1a6ab7bd8adf90a437995"
+        },
+        {
+          "id": "news:kcna:bd45ff58c3748aa2a116fba6",
+          "title": "락원기계종합기업소에서 새형의 기계설비들 개발완성",
+          "date": "2026-09-11",
+          "snippet": "(평양 9월 11일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/8e6b1a2a6738dbbc31c642add4dfdd51",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 1
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Abd45ff58c3748aa2a116fba6"
+        },
+        {
+          "id": "news:kcna:5d6219a171479f02a38e163c",
+          "title": "개성시에서 례성강청년5호발전소 발전기증설공사 결속",
+          "date": "2026-09-11",
+          "snippet": "(평양 9월 11일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/c324d6ed31d7e01f62d5a038289ade7b",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 2
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A5d6219a171479f02a38e163c"
+        },
+        {
+          "id": "news:kcna:6e0c330776c8f84a4b254bbb",
+          "title": "경애하는 김정은동지께 아제르바이쟌공화국 대통령이 축전을 보내여왔다",
+          "date": "2026-09-11",
+          "snippet": "(평양 9월 11일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/91aa517b672f05071545655d4e0d6330",
+          "mediaType": "article",
+          "categories": [
+            "important",
+            "international",
+            "foreign"
+          ],
+          "categoryOrders": {
+            "important": 2,
+            "international": 2,
+            "foreign": 2
+          },
+          "featuredSections": [
+            "important",
+            "foreign"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A6e0c330776c8f84a4b254bbb"
         },
         {
           "id": "news:kcna:4e564c56f51db7898c846077",
@@ -133,28 +258,6 @@
           "detailUrl": "/news/document?id=news%3Akcna%3Aa0948e75e3f4560f86e46aba"
         },
         {
-          "id": "news:kcna:c1c248689ed56f9d2a491d08",
-          "title": "일본의 부당한 요구에 면박",
-          "date": "2026-09-10",
-          "snippet": "(평양 9월 10일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/cb46c6229640b88a15fb901d60b85185",
-          "mediaType": "article",
-          "categories": [
-            "international"
-          ],
-          "categoryOrders": {
-            "international": 0
-          },
-          "featuredSections": [
-            "international"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Ac1c248689ed56f9d2a491d08"
-        },
-        {
           "id": "news:kcna:d242db614c78c2316ec91714",
           "title": "조선민주주의인민공화국창건 78돐경축 녀맹일군들과 녀맹원들의 무도회 진행",
           "date": "2026-09-10",
@@ -166,7 +269,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 0,
+            "domestic": 3,
             "social": 0
           },
           "featuredSections": [
@@ -180,54 +283,6 @@
           "detailUrl": "/news/document?id=news%3Akcna%3Ad242db614c78c2316ec91714"
         },
         {
-          "id": "news:kcna:ece71782bf76aadcb461fb78",
-          "title": "경애하는 김정은동지께 공화국창건 78돐에 즈음하여 총련조직과 단체들에서 축전을 드리였다",
-          "date": "2026-09-10",
-          "snippet": "(평양 9월 10일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/0dba2c7ac2b9ff6deda59efa20f46769",
-          "mediaType": "article",
-          "categories": [
-            "important",
-            "international"
-          ],
-          "categoryOrders": {
-            "important": 0,
-            "international": 10
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Aece71782bf76aadcb461fb78"
-        },
-        {
-          "id": "news:kcna:0eee50de7d1882baad681611",
-          "title": "조선민주주의인민공화국창건 78돐 경축공연 진행",
-          "date": "2026-09-10",
-          "snippet": "(평양 9월 10일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/d3ee6175eb5c67880aca117d5e039e76",
-          "mediaType": "article",
-          "categories": [
-            "important",
-            "domestic"
-          ],
-          "categoryOrders": {
-            "important": 1,
-            "domestic": 6
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba7cbf8eb210b10bd76217ed80604d8d6e",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/dcd0cd5712e3d2820c4da8f7b6d6a08a68fb8ecde734a9c945fa6717677eb419.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A0eee50de7d1882baad681611"
-        },
-        {
           "id": "news:kcna:2bd9c140e4d0675ee91ad0c3",
           "title": "조선민주주의인민공화국창건 78돐을 온 나라가 경축",
           "date": "2026-09-10",
@@ -239,11 +294,10 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 2,
+            "domestic": 5,
             "social": 1
           },
           "featuredSections": [
-            "domestic",
             "social"
           ],
           "hasImage": true,
@@ -275,52 +329,6 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A7313832bd49ae2f2f6e314c3"
         },
         {
-          "id": "news:kcna:7a5d64192e190987e1f43ceb",
-          "title": "로씨야외무상 서방의 위험한 처지를 비평",
-          "date": "2026-09-10",
-          "snippet": "(모스크바 9월 9일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/2bfce621b9d0c4261e5097ed1249c12b",
-          "mediaType": "article",
-          "categories": [
-            "international"
-          ],
-          "categoryOrders": {
-            "international": 1
-          },
-          "featuredSections": [
-            "international"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A7a5d64192e190987e1f43ceb"
-        },
-        {
-          "id": "news:kcna:ba7cabfb65aeb5ad421b3b6a",
-          "title": "국제청년축전에 참가하는 조선청년대표단 출발",
-          "date": "2026-09-10",
-          "snippet": "(평양 9월 10일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/6615060af1290adc02a760f73452e65e",
-          "mediaType": "article",
-          "categories": [
-            "foreign",
-            "domestic"
-          ],
-          "categoryOrders": {
-            "foreign": 1,
-            "domestic": 8
-          },
-          "featuredSections": [
-            "foreign"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba4e49713081e6fd56f14b28606bf450ac",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/f3027f01e28ea983ad1e9ef40ec91c5ff29c6ba387b60b555018600dfece1b60.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3Aba7cabfb65aeb5ad421b3b6a"
-        },
-        {
           "id": "news:kcna:e0d35da91af96a13028548ab",
           "title": "신의주불고기전문식당 새로 건설,준공식 진행",
           "date": "2026-09-10",
@@ -341,28 +349,6 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bac864c4f549f0db51f37dde4de52f1f0a",
           "cachedThumbnailUrl": "/data/news/assets/kcna/308eb873d5790eaad1240d3dc698fcf951a788af0a7ba612bbe9b4e84bee7aa1.jpg",
           "detailUrl": "/news/document?id=news%3Akcna%3Ae0d35da91af96a13028548ab"
-        },
-        {
-          "id": "news:kcna:ead972c2a389d89492ff224a",
-          "title": "2026년 장애자 및 애호가탁구경기 진행",
-          "date": "2026-09-10",
-          "snippet": "(평양 9월 10일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/bf9a2374ef4a55de093ca471791231aa",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 1
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bae1a228d46d0f832fadd42f4e63aa08ec",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/518b742d6f147166072d1a781e6ad4c1391f8aa514d9961980d7ac28fc9ed498.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3Aead972c2a389d89492ff224a"
         },
         {
           "id": "news:kcna:379a8b335fe13839a18dacc5",
@@ -398,11 +384,10 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 3,
+            "domestic": 6,
             "social": 2
           },
           "featuredSections": [
-            "domestic",
             "social"
           ],
           "hasImage": true,
@@ -410,6 +395,30 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bac864c4f549f0db51f37dde4de52f1f0a",
           "cachedThumbnailUrl": "/data/news/assets/kcna/308eb873d5790eaad1240d3dc698fcf951a788af0a7ba612bbe9b4e84bee7aa1.jpg",
           "detailUrl": "/news/document?id=news%3Akcna%3Af8410f9fc3ce27305e534c43"
+        },
+        {
+          "id": "news:kcna:1b468101f3d6c2c53186f398",
+          "title": "공화국창건 78돐에 즈음하여 여러 나라에서 토론회 진행",
+          "date": "2026-09-10",
+          "snippet": "(평양 9월 10일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/ad05cd9e72871d71988856de56de1bfe",
+          "mediaType": "article",
+          "categories": [
+            "international",
+            "foreign"
+          ],
+          "categoryOrders": {
+            "international": 12,
+            "foreign": 3
+          },
+          "featuredSections": [
+            "foreign"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A1b468101f3d6c2c53186f398"
         },
         {
           "id": "news:kcna:1f87a89e60673747dabec9a3",
@@ -434,6 +443,54 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A1f87a89e60673747dabec9a3"
         },
         {
+          "id": "news:kcna:ece71782bf76aadcb461fb78",
+          "title": "경애하는 김정은동지께 공화국창건 78돐에 즈음하여 총련조직과 단체들에서 축전을 드리였다",
+          "date": "2026-09-10",
+          "snippet": "(평양 9월 10일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/0dba2c7ac2b9ff6deda59efa20f46769",
+          "mediaType": "article",
+          "categories": [
+            "important",
+            "international"
+          ],
+          "categoryOrders": {
+            "important": 3,
+            "international": 13
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Aece71782bf76aadcb461fb78"
+        },
+        {
+          "id": "news:kcna:0eee50de7d1882baad681611",
+          "title": "조선민주주의인민공화국창건 78돐 경축공연 진행",
+          "date": "2026-09-10",
+          "snippet": "(평양 9월 10일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/d3ee6175eb5c67880aca117d5e039e76",
+          "mediaType": "article",
+          "categories": [
+            "important",
+            "domestic"
+          ],
+          "categoryOrders": {
+            "important": 4,
+            "domestic": 9
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba7cbf8eb210b10bd76217ed80604d8d6e",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/dcd0cd5712e3d2820c4da8f7b6d6a08a68fb8ecde734a9c945fa6717677eb419.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A0eee50de7d1882baad681611"
+        },
+        {
           "id": "news:kcna:7c870a8992de0d657ccff2a3",
           "title": "조선민주주의인민공화국창건 78돐경축 녀맹일군들과 녀맹원들의 무도회 진행",
           "date": "2026-09-10",
@@ -456,11 +513,35 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A7c870a8992de0d657ccff2a3"
         },
         {
-          "id": "news:kcna:ccca4b46f76a3b96d9edfaf9",
-          "title": "2026년 9월 10일 신문개관",
+          "id": "news:kcna:ba7cabfb65aeb5ad421b3b6a",
+          "title": "국제청년축전에 참가하는 조선청년대표단 출발",
           "date": "2026-09-10",
           "snippet": "(평양 9월 10일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/e1322c0d3e509a6c56ac396ccc1b0046",
+          "url": "http://www.kcna.kp/kp/article/detail/6615060af1290adc02a760f73452e65e",
+          "mediaType": "article",
+          "categories": [
+            "foreign",
+            "domestic"
+          ],
+          "categoryOrders": {
+            "foreign": 4,
+            "domestic": 11
+          },
+          "featuredSections": [
+            "foreign"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba4e49713081e6fd56f14b28606bf450ac",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/f3027f01e28ea983ad1e9ef40ec91c5ff29c6ba387b60b555018600dfece1b60.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3Aba7cabfb65aeb5ad421b3b6a"
+        },
+        {
+          "id": "news:kcna:ead972c2a389d89492ff224a",
+          "title": "2026년 장애자 및 애호가탁구경기 진행",
+          "date": "2026-09-10",
+          "snippet": "(평양 9월 10일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/bf9a2374ef4a55de093ca471791231aa",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -471,11 +552,11 @@
           "featuredSections": [
             "domestic"
           ],
-          "hasImage": false,
+          "hasImage": true,
           "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Accca4b46f76a3b96d9edfaf9"
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bae1a228d46d0f832fadd42f4e63aa08ec",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/518b742d6f147166072d1a781e6ad4c1391f8aa514d9961980d7ac28fc9ed498.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3Aead972c2a389d89492ff224a"
         },
         {
           "id": "news:kcna:e082e73c6bcc855560121e85",
@@ -500,33 +581,6 @@
           "detailUrl": "/news/document?id=news%3Akcna%3Ae082e73c6bcc855560121e85"
         },
         {
-          "id": "news:kcna:5bc8d540628d5f27ff8d1293",
-          "title": "경애하는 김정은동지께 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지가 축전을 보내여왔다",
-          "date": "2026-09-09",
-          "snippet": "(평양 9월 9일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/cc7a39e9382b060d9d8d81551038817e",
-          "mediaType": "article",
-          "categories": [
-            "important",
-            "international",
-            "foreign"
-          ],
-          "categoryOrders": {
-            "important": 2,
-            "international": 19,
-            "foreign": 2
-          },
-          "featuredSections": [
-            "important",
-            "foreign"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A5bc8d540628d5f27ff8d1293"
-        },
-        {
           "id": "news:kcna:8394a280d255412a12f2ce1c",
           "title": "조선민주주의인민공화국창건 78돐에 즈음한 시가행진 및 경축야회 진행",
           "date": "2026-09-09",
@@ -538,7 +592,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 13,
+            "domestic": 16,
             "social": 3
           },
           "featuredSections": [
@@ -549,33 +603,6 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45babed2013ac36c7601de0501186c36862a",
           "cachedThumbnailUrl": "/data/news/assets/kcna/a3ad69cce70ef5345e97b070be1e2d640cbfb2d7d6cbbf28ecb731e5b93a4299.jpg",
           "detailUrl": "/news/document?id=news%3Akcna%3A8394a280d255412a12f2ce1c"
-        },
-        {
-          "id": "news:kcna:ce4cfdd5375261872046a7b9",
-          "title": "경애하는 김정은동지께 로씨야련방 대통령이 축전을 보내여왔다",
-          "date": "2026-09-09",
-          "snippet": "(평양 9월 9일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/30d095ecb32a94caabd9a429a5d7101b",
-          "mediaType": "article",
-          "categories": [
-            "important",
-            "international",
-            "foreign"
-          ],
-          "categoryOrders": {
-            "important": 3,
-            "international": 20,
-            "foreign": 3
-          },
-          "featuredSections": [
-            "important",
-            "foreign"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Ace4cfdd5375261872046a7b9"
         },
         {
           "id": "news:kcna:08efd9aa656517952a7f5926",
@@ -589,7 +616,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 17,
+            "domestic": 20,
             "social": 4
           },
           "featuredSections": [
@@ -602,38 +629,11 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A08efd9aa656517952a7f5926"
         },
         {
-          "id": "news:kcna:683d9c2ab0ab1ac950043f58",
-          "title": "경애하는 김정은동지께 벨라루씨공화국 대통령이 축전을 보내여왔다",
+          "id": "news:kcna:5bc8d540628d5f27ff8d1293",
+          "title": "경애하는 김정은동지께 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지가 축전을 보내여왔다",
           "date": "2026-09-09",
           "snippet": "(평양 9월 9일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/4593b419e2023927ca600e6942e4108d",
-          "mediaType": "article",
-          "categories": [
-            "important",
-            "international",
-            "foreign"
-          ],
-          "categoryOrders": {
-            "important": 4,
-            "international": 21,
-            "foreign": 4
-          },
-          "featuredSections": [
-            "important",
-            "foreign"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A683d9c2ab0ab1ac950043f58"
-        },
-        {
-          "id": "news:kcna:779ecf345dc435edf3b39283",
-          "title": "경애하는 김정은동지께 전로씨야정당 《통일로씨야》 위원장이 축전을 보내여왔다",
-          "date": "2026-09-09",
-          "snippet": "(평양 9월 9일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/de0e450f61afb9aae65d68e0308368c4",
+          "url": "http://www.kcna.kp/kp/article/detail/cc7a39e9382b060d9d8d81551038817e",
           "mediaType": "article",
           "categories": [
             "important",
@@ -653,7 +653,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A779ecf345dc435edf3b39283"
+          "detailUrl": "/news/document?id=news%3Akcna%3A5bc8d540628d5f27ff8d1293"
         },
         {
           "id": "news:kcna:013542fdcbcf5fea0c2fab93",
@@ -713,10 +713,10 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 26,
+            "important": 29,
             "document": 0,
-            "foreign": 26,
-            "domestic": 45
+            "foreign": 29,
+            "domestic": 48
           },
           "featuredSections": [
             "document"
@@ -1027,10 +1027,10 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 30,
+            "important": 33,
             "document": 1,
-            "foreign": 33,
-            "domestic": 119
+            "foreign": 36,
+            "domestic": 122
           },
           "featuredSections": [
             "document"
@@ -1077,10 +1077,10 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 34,
+            "important": 37,
             "document": 2,
-            "foreign": 39,
-            "domestic": 170
+            "foreign": 42,
+            "domestic": 173
           },
           "featuredSections": [
             "document"
@@ -1104,9 +1104,9 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 37,
+            "important": 40,
             "document": 3,
-            "domestic": 244
+            "domestic": 247
           },
           "featuredSections": [
             "document"
@@ -1130,9 +1130,9 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 38,
+            "important": 41,
             "document": 4,
-            "domestic": 255
+            "domestic": 258
           },
           "featuredSections": [
             "document"
@@ -1156,8 +1156,8 @@
             "document"
           ],
           "categoryOrders": {
-            "important": 53,
-            "international": 245,
+            "important": 56,
+            "international": 248,
             "document": 6
           },
           "featuredSections": [
@@ -1174,24 +1174,46 @@
     "rodong-sinmun": {
       "id": "rodong-sinmun",
       "name": "로동신문",
-      "totalItems": 711,
+      "totalItems": 725,
       "categoryCounts": {
         "leadership": 154,
-        "important": 33,
+        "important": 43,
         "photo": 49,
-        "anecdote": 251,
+        "anecdote": 253,
         "video": 7,
         "memory": 38,
-        "domestic": 175,
+        "domestic": 177,
         "social": 4
       },
       "articles": [
         {
-          "id": "news:rodong-sinmun:356fb48398dfad0224fcbfd4",
-          "title": "경애하는 김정은동지께\n조선민주주의인민공화국창건 78돐에 즈음하여\n여러 나라 국가수반들이 축전을 보내여왔다",
-          "date": "2026-09-10",
-          "snippet": "경애하는 김정은동지께",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xMC0wMTNAMkAxQEAwQDFA==",
+          "id": "news:rodong-sinmun:1cb766d0c09a774d97070e22",
+          "title": "인민을 매혹시키는 위인의 세계\n거듭하시는 간곡한 당부\n학생교복에 깃든 위대한 어버이의 끝없는 심혈과 사랑을 전하며",
+          "date": "2026-09-11",
+          "snippet": "인민을 매혹시키는 위인의 세계",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xMS0wNTdAM0AxQEAwQDFA==",
+          "mediaType": "article",
+          "categories": [
+            "anecdote"
+          ],
+          "categoryOrders": {
+            "anecdote": 0
+          },
+          "featuredSections": [
+            "anecdote"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A1cb766d0c09a774d97070e22"
+        },
+        {
+          "id": "news:rodong-sinmun:3af1417af39582e266db4222",
+          "title": "사상전의 포성을 더 높이, 더 우렁차게 울리자\n당중앙의 불변의 요구\n백사천사를 사상사업으로부터 출발하라 [1면]",
+          "date": "2026-09-11",
+          "snippet": "사상전의 포성을 더 높이, 더 우렁차게 울리자",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xMS0wMTNAMkAxQEAwQDFA==",
           "mediaType": "article",
           "categories": [
             "important"
@@ -1206,7 +1228,183 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A356fb48398dfad0224fcbfd4"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A3af1417af39582e266db4222"
+        },
+        {
+          "id": "news:rodong-sinmun:eb6b4bbaef0e60b183452731",
+          "title": "사상전의 포성을 더 높이, 더 우렁차게 울리자\n올해 목표점령에로 향한 당원들의 진군기세가 날로 앙양된다",
+          "date": "2026-09-11",
+          "snippet": "사상전의 포성을 더 높이, 더 우렁차게 울리자",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xMS0wMTdANEAxQEAwQDFA==",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 0
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/3a2039b3e3026526d746595728d9a293d5ce9e96ba4efdfa2f8362824c0b65bd.jpg",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aeb6b4bbaef0e60b183452731"
+        },
+        {
+          "id": "news:rodong-sinmun:1c13abbf618a0242ad87a4e5",
+          "title": "나라의 과학기술발전을 위한 길에서\n전자도서관의 이름도 달아주시며",
+          "date": "2026-09-11",
+          "snippet": "나라의 과학기술발전을 위한 길에서",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xMS0wNjJAM0AxQEAwQDJA==",
+          "mediaType": "article",
+          "categories": [
+            "anecdote"
+          ],
+          "categoryOrders": {
+            "anecdote": 1
+          },
+          "featuredSections": [
+            "anecdote"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A1c13abbf618a0242ad87a4e5"
+        },
+        {
+          "id": "news:rodong-sinmun:81bcf2d24edb3db707954eaf",
+          "title": "사상전의 포성을 더 높이, 더 우렁차게 울리자\n일군들의 책임의식과 분발력을 배가해준다\n성, 중앙기관 당조직들에서 [1면]",
+          "date": "2026-09-11",
+          "snippet": "사상전의 포성을 더 높이, 더 우렁차게 울리자",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xMS0wMTRAMkAxQEAwQDJA==",
+          "mediaType": "article",
+          "categories": [
+            "important"
+          ],
+          "categoryOrders": {
+            "important": 1
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A81bcf2d24edb3db707954eaf"
+        },
+        {
+          "id": "news:rodong-sinmun:99a882c7ae51e4c64b8ca501",
+          "title": "논판양어정책의 정당성을 첫해부터 힘있게 과시\n전국의 많은 농촌들이 메기수확으로 흥성이고있다",
+          "date": "2026-09-11",
+          "snippet": "논판양어정책의 정당성을 첫해부터 힘있게 과시",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xMS0wNDBANEAxQEAwQDJA==",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 1
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/974d1d36aef4cc41ccc6c006b338213e177185fcb11de259d5deaccdbbd9d84f.jpg",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A99a882c7ae51e4c64b8ca501"
+        },
+        {
+          "id": "news:rodong-sinmun:d00e8919443ca51636eec73f",
+          "title": "사상전의 포성을 더 높이, 더 우렁차게 울리자\n지방변혁을 위한 투쟁에로 힘있게 불러일으켜\n자강도당위원회에서 [1면]",
+          "date": "2026-09-11",
+          "snippet": "사상전의 포성을 더 높이, 더 우렁차게 울리자",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xMS0wMTVAMkAxQEAwQDNA==",
+          "mediaType": "article",
+          "categories": [
+            "important"
+          ],
+          "categoryOrders": {
+            "important": 2
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ad00e8919443ca51636eec73f"
+        },
+        {
+          "id": "news:rodong-sinmun:6af4ae36cb8ab59020fb38fb",
+          "title": "사상전의 포성을 더 높이, 더 우렁차게 울리자\n증산열의를 고조시키는 첨입식정치사업\n상원세멘트련합기업소 당위원회에서 [1면]",
+          "date": "2026-09-11",
+          "snippet": "사상전의 포성을 더 높이, 더 우렁차게 울리자",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xMS0wMTZAMkAxQEAwQDRA==",
+          "mediaType": "article",
+          "categories": [
+            "important"
+          ],
+          "categoryOrders": {
+            "important": 3
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A6af4ae36cb8ab59020fb38fb"
+        },
+        {
+          "id": "news:rodong-sinmun:b0998557bd98d97eb6aad8d9",
+          "title": "사상전의 포성을 더 높이, 더 우렁차게 울리자\n올해 목표점령에로 향한 당원들의 진군기세가 날로 앙양된다 [1면]",
+          "date": "2026-09-11",
+          "snippet": "사상전의 포성을 더 높이, 더 우렁차게 울리자",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xMS0wMTdAMkAxQEAwQDVA==",
+          "mediaType": "article",
+          "categories": [
+            "important"
+          ],
+          "categoryOrders": {
+            "important": 4
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/3a2039b3e3026526d746595728d9a293d5ce9e96ba4efdfa2f8362824c0b65bd.jpg",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ab0998557bd98d97eb6aad8d9"
+        },
+        {
+          "id": "news:rodong-sinmun:e25bc59c3b7de1ec35785a8d",
+          "title": "인민을 매혹시키는 위인의 세계\n거듭하시는 간곡한 당부\n학생교복에 깃든 위대한 어버이의 끝없는 심혈과 사랑을 전하며 [2면]",
+          "date": "2026-09-11",
+          "snippet": "인민을 매혹시키는 위인의 세계",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xMS0wNTdAMkAxQEAwQDZA==",
+          "mediaType": "article",
+          "categories": [
+            "important"
+          ],
+          "categoryOrders": {
+            "important": 5
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ae25bc59c3b7de1ec35785a8d"
         },
         {
           "id": "news:rodong-sinmun:f6f57f2992df6b4c82997194",
@@ -1231,28 +1429,6 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Af6f57f2992df6b4c82997194"
         },
         {
-          "id": "news:rodong-sinmun:21091399d5ec75d157e32974",
-          "title": "경애하는 김정은동지께\n공화국창건 78돐에 즈음하여 총련조직과 단체들에서 축전을 드리였다",
-          "date": "2026-09-10",
-          "snippet": "경애하는 김정은동지께",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xMC0wMTRAMkAxQEAwQDJA==",
-          "mediaType": "article",
-          "categories": [
-            "important"
-          ],
-          "categoryOrders": {
-            "important": 1
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A21091399d5ec75d157e32974"
-        },
-        {
           "id": "news:rodong-sinmun:67a849999f1a2e991b1a203c",
           "title": "경애하는 김정은동지께서\n국경절경축행사에 초대된 로력혁신자, 공로자들을 만나시고 축하격려하시였다",
           "date": "2026-09-10",
@@ -1275,105 +1451,17 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A67a849999f1a2e991b1a203c"
         },
         {
-          "id": "news:rodong-sinmun:fac5e936ad95354c90e594aa",
-          "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에\n니까라과공화국 공동대통령들이 꽃바구니를 보내여왔다",
-          "date": "2026-09-10",
-          "snippet": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xMC0wMTVAMkAxQEAwQDNA==",
-          "mediaType": "article",
-          "categories": [
-            "important"
-          ],
-          "categoryOrders": {
-            "important": 2
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Afac5e936ad95354c90e594aa"
-        },
-        {
-          "id": "news:rodong-sinmun:22216407c739432cf8d3ae32",
-          "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에\n일군들과 근로자들, 인민군장병들과 청소년학생들 꽃바구니 진정",
-          "date": "2026-09-10",
-          "snippet": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xMC0wMTZAMkAxQEAwQDRA==",
-          "mediaType": "article",
-          "categories": [
-            "important"
-          ],
-          "categoryOrders": {
-            "important": 3
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/dd4c3b07f4b52308dbfc3afb7c3be26626fff83bee5889ee006129b6254d7961.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A22216407c739432cf8d3ae32"
-        },
-        {
-          "id": "news:rodong-sinmun:6601b3c93bfa60cb71eee306",
-          "title": "조선민주주의인민공화국창건 78돐 경축공연 진행",
-          "date": "2026-09-10",
-          "snippet": "조선민주주의인민공화국창건 78돐 경축공연 진행",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xMC0wMTdAMkAxQEAwQDVA==",
-          "mediaType": "article",
-          "categories": [
-            "important"
-          ],
-          "categoryOrders": {
-            "important": 4
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/959d191d025c74344339fed764ae61092514d6f49abaf32ec1031b4d29d64003.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A6601b3c93bfa60cb71eee306"
-        },
-        {
-          "id": "news:rodong-sinmun:ed204dd3a0fb5d066762070d",
-          "title": "조선민주주의인민공화국창건 78돐 경축행사에 초대된\n로력혁신자, 공로자들을 위한 연회 진행",
-          "date": "2026-09-10",
-          "snippet": "조선민주주의인민공화국창건 78돐 경축행사에 초대된",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xMC0wMThAMkAxQEAwQDZA==",
-          "mediaType": "article",
-          "categories": [
-            "important"
-          ],
-          "categoryOrders": {
-            "important": 5
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/36a385baf20168b0aa48db2f1e51914f3e3d1a19b34a6de3e4c359d9446ece19.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aed204dd3a0fb5d066762070d"
-        },
-        {
-          "id": "news:rodong-sinmun:81227f46fdd092203ce77429",
+          "id": "news:rodong-sinmun:34a8b0d6f7e49675dc30f556",
           "title": "건설의 대번영기를 펼치시는 나날에\n선경의 새 마을에서 하신 당부",
           "date": "2026-09-07",
           "snippet": "건설의 대번영기를 펼치시는 나날에",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wNy0wMjZAM0AxQEAwQDFA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wNy0wMjZAM0AxQEAwQDNA==",
           "mediaType": "article",
           "categories": [
             "anecdote"
           ],
           "categoryOrders": {
-            "anecdote": 0
+            "anecdote": 2
           },
           "featuredSections": [
             "anecdote"
@@ -1382,20 +1470,20 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A81227f46fdd092203ce77429"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A34a8b0d6f7e49675dc30f556"
         },
         {
-          "id": "news:rodong-sinmun:b3d058d69d2b34d1d03fb32f",
+          "id": "news:rodong-sinmun:75dd5f2d212f117a2f62ca45",
           "title": "당결정관철의 전구들에서 현지보도조가 보내온 소식\n100만산대발파 성과적으로 단행\n무산광산련합기업소에서",
           "date": "2026-09-07",
           "snippet": "당결정관철의 전구들에서 현지보도조가 보내온 소식",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wNy0wMTBANEAxQEAwQDFA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wNy0wMTBANEAxQEAwQDNA==",
           "mediaType": "article",
           "categories": [
             "domestic"
           ],
           "categoryOrders": {
-            "domestic": 0
+            "domestic": 2
           },
           "featuredSections": [
             "domestic"
@@ -1404,7 +1492,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/9b43a5c036bb1e45d44416eecb017f4f13e21bd5aac9fd452a813c9547faf4f0.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ab3d058d69d2b34d1d03fb32f"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A75dd5f2d212f117a2f62ca45"
         },
         {
           "id": "news:rodong-sinmun:9fae4a3f4ffd36f22cc12078",
@@ -1451,17 +1539,17 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A5353748409ee19bee3319a0b"
         },
         {
-          "id": "news:rodong-sinmun:569d1eb4fa8328874ed18555",
+          "id": "news:rodong-sinmun:8a44944fd0f30ccca52cfae9",
           "title": "인민을 매혹시키는 위인의 세계\n인민들모두가 반기는 사업",
           "date": "2026-09-06",
           "snippet": "인민을 매혹시키는 위인의 세계",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wNi0wMTdAM0AxQEAwQDJA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wNi0wMTdAM0AxQEAwQDRA==",
           "mediaType": "article",
           "categories": [
             "anecdote"
           ],
           "categoryOrders": {
-            "anecdote": 1
+            "anecdote": 3
           },
           "featuredSections": [
             "anecdote"
@@ -1470,20 +1558,20 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A569d1eb4fa8328874ed18555"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A8a44944fd0f30ccca52cfae9"
         },
         {
-          "id": "news:rodong-sinmun:b76bcfdf048f6320fc2d5239",
+          "id": "news:rodong-sinmun:ccb6de80c3fa6bc91da2681f",
           "title": "모두다 충천한 투쟁기세와 고도의 분발력으로 올해 과업을 완벽하게 수행하자!\n자력갱생, 견인불발의 의지로 증산투쟁에 매진\n석탄공업부문에서",
           "date": "2026-09-06",
           "snippet": "모두다 충천한 투쟁기세와 고도의 분발력으로 올해 과업을 완벽하게 수행하자!",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wNi0wMTVANEAxQEAwQDJA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wNi0wMTVANEAxQEAwQDRA==",
           "mediaType": "article",
           "categories": [
             "domestic"
           ],
           "categoryOrders": {
-            "domestic": 1
+            "domestic": 3
           },
           "featuredSections": [
             "domestic"
@@ -1492,20 +1580,20 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ab76bcfdf048f6320fc2d5239"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Accb6de80c3fa6bc91da2681f"
         },
         {
-          "id": "news:rodong-sinmun:bd357867dd78f51b1954a251",
+          "id": "news:rodong-sinmun:34075a93837ea2d71a81c0e1",
           "title": "올해 목표의 무조건적인 점령을 위하여 앞으로!\n사상의 포문을 열고 대중을 힘있게 발동\n순천세멘트련합기업소 당위원회에서",
           "date": "2026-09-05",
           "snippet": "올해 목표의 무조건적인 점령을 위하여 앞으로!",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wNS0wNTVANEAxQEAwQDNA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wNS0wNTVANEAxQEAwQDVA==",
           "mediaType": "article",
           "categories": [
             "domestic"
           ],
           "categoryOrders": {
-            "domestic": 2
+            "domestic": 4
           },
           "featuredSections": [
             "domestic"
@@ -1514,7 +1602,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/2cecad8e2a7ee1ead4d4a98fa6c2e8299483204b4fd24c5c46852ad1dae68213.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Abd357867dd78f51b1954a251"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A34075a93837ea2d71a81c0e1"
         },
         {
           "id": "news:rodong-sinmun:418b008529186d1de5d1cc48",
@@ -1539,28 +1627,6 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A418b008529186d1de5d1cc48"
         },
         {
-          "id": "news:rodong-sinmun:f6bba9d8964a8e7ee1904b26",
-          "title": "첨병대오의 위력 떨치며 과감한 공격전을 들이댄다\n올해 지방발전정책대상건설에 참가한 인민군부대들에서",
-          "date": "2026-09-04",
-          "snippet": "첨병대오의 위력 떨치며 과감한 공격전을 들이댄다",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wNC0wMTJANEAxQEAwQDRA==",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 3
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/ef90d64c223ee4203aad3665781a280a99d54aa90538ed13c44fe918dfe99563.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Af6bba9d8964a8e7ee1904b26"
-        },
-        {
           "id": "news:rodong-sinmun:297c6cf853797c0fd9b07970",
           "title": "계속 꽃펴나는 정성의 이야기\n각지 독자들이 보내온 편지를 보고",
           "date": "2026-09-03",
@@ -1581,28 +1647,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A297c6cf853797c0fd9b07970"
-        },
-        {
-          "id": "news:rodong-sinmun:214dd0f6754e6d8777ad351c",
-          "title": "당이 결심하면 우리는 한다!\n당중앙위원회 제9기 제4차 정치국 확대회의정신을 받들고 각급 당조직들과 일군들이 분발력을 배가하며 떨쳐나섰다\n올해 경제과업수행에서 지휘성원으로서의 책임과 본분을 다하도록\n성, 중앙기관 당조직들에서",
-          "date": "2026-09-03",
-          "snippet": "당이 결심하면 우리는 한다!",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wMy0wMTVANEAxQEAwQDVA==",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 4
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/01cb04e9236c6b06f773055e5b99c9251ccac8487019f5e5782568d307ce537b.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A214dd0f6754e6d8777ad351c"
         },
         {
           "id": "news:rodong-sinmun:9b3d2407e5b384902971c68e",
@@ -1627,55 +1671,11 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A9b3d2407e5b384902971c68e"
         },
         {
-          "id": "news:rodong-sinmun:ace218aacf94abc9836e9e32",
+          "id": "news:rodong-sinmun:2de3e4cfb0799a9ff455ac33",
           "title": "절세위인의 숭고한 애국의 세계",
           "date": "2026-09-02",
           "snippet": "절세위인의 숭고한 애국의 세계",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wMi0wMTRAM0AxQEAwQDNA==",
-          "mediaType": "article",
-          "categories": [
-            "anecdote"
-          ],
-          "categoryOrders": {
-            "anecdote": 2
-          },
-          "featuredSections": [
-            "anecdote"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aace218aacf94abc9836e9e32"
-        },
-        {
-          "id": "news:rodong-sinmun:4ea5b0f05df30d4797c87a8e",
-          "title": "나라의 교육발전을 위한 길에서\n기계설비전시장을 찾으신 날에",
-          "date": "2026-09-02",
-          "snippet": "나라의 교육발전을 위한 길에서",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wMi0wMTVAM0AxQEAwQDRA==",
-          "mediaType": "article",
-          "categories": [
-            "anecdote"
-          ],
-          "categoryOrders": {
-            "anecdote": 3
-          },
-          "featuredSections": [
-            "anecdote"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A4ea5b0f05df30d4797c87a8e"
-        },
-        {
-          "id": "news:rodong-sinmun:d8358201b3fa87f5c6de1fcd",
-          "title": "자력갱생의 혁명정신을 깊이 심어주시며\n뜨거운 격려, 크나큰 믿음",
-          "date": "2026-09-01",
-          "snippet": "자력갱생의 혁명정신을 깊이 심어주시며",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wMS0wMTRAM0AxQEAwQDVA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0wMi0wMTRAM0AxQEAwQDVA==",
           "mediaType": "article",
           "categories": [
             "anecdote"
@@ -1690,7 +1690,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ad8358201b3fa87f5c6de1fcd"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A2de3e4cfb0799a9ff455ac33"
         },
         {
           "id": "news:rodong-sinmun:da2adcc1b7434b4fac35cdb9",
