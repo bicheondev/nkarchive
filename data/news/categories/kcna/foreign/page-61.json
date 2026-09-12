@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-12T00:00:00.000Z",
-  "version": "8a32fb5632a655ed",
+  "version": "3bb48064719c2a7b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,28 @@
   "totalItems": 773,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:5ef7355edee8eae2e62cd004",
+      "title": "박태성동지 타이왕국 수상에게 축전",
+      "date": "2026-04-12",
+      "snippet": "(평양 4월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/fca7261882eb28a45776330bf8c0f626",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 300,
+        "domestic": 1730
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5ef7355edee8eae2e62cd004"
+    },
     {
       "id": "news:kcna:a5a785293d15e8ceafab1c9b",
       "title": "우리 나라 특명전권대사 벨라루씨공화국 대통령에게 신임장을 봉정",
@@ -23,8 +45,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1155,
-        "foreign": 300
+        "international": 1166,
+        "foreign": 301
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +67,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1156,
-        "foreign": 301
+        "international": 1167,
+        "foreign": 302
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +91,8 @@
       ],
       "categoryOrders": {
         "important": 207,
-        "foreign": 302,
-        "domestic": 1733
+        "foreign": 303,
+        "domestic": 1738
       },
       "featuredSections": [],
       "hasImage": true,
@@ -93,8 +115,8 @@
       ],
       "categoryOrders": {
         "important": 208,
-        "foreign": 303,
-        "domestic": 1734
+        "foreign": 304,
+        "domestic": 1739
       },
       "featuredSections": [],
       "hasImage": true,
@@ -102,30 +124,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b667f34adb6dbd9d6693fdbd445de61628a",
       "cachedThumbnailUrl": "/data/news/assets/kcna/a94ad85cf79880f8333e5f42161abe19a8d590761740e3a6d25977de7d6c42d1.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A7e8ba0301624a6905763d27b"
-    },
-    {
-      "id": "news:kcna:5a40a22926deff85700843f3",
-      "title": "조선민주주의인민공화국 정부가 중화인민공화국 외교부장을 환영하여 연회 마련",
-      "date": "2026-04-10",
-      "snippet": "(평양 4월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8c804dedc27d35ebcb246b311dd19708",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 209,
-        "foreign": 304,
-        "domestic": 1748
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5a40a22926deff85700843f3"
     }
   ]
 }

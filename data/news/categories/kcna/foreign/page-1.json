@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-12T00:00:00.000Z",
-  "version": "8a32fb5632a655ed",
+  "version": "3bb48064719c2a7b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,30 @@
   "totalItems": 773,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:64f9f0853becb89c600193b9",
+      "title": "중국주재 우리 나라 대사관 경축연회 마련",
+      "date": "2026-09-12",
+      "snippet": "(평양 9월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7b67b2c4b85f90a673059d15e1cc9b30",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 9,
+        "foreign": 0
+      },
+      "featuredSections": [
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A64f9f0853becb89c600193b9"
+    },
     {
       "id": "news:kcna:ee472a29111eb362f0451937",
       "title": "경애하는 김정은동지께 유엔사무총장이 축전을 보내여왔다",
@@ -25,12 +49,11 @@
       ],
       "categoryOrders": {
         "important": 0,
-        "international": 0,
-        "foreign": 0
+        "international": 11,
+        "foreign": 1
       },
       "featuredSections": [
         "important",
-        "international",
         "foreign"
       ],
       "hasImage": false,
@@ -53,12 +76,11 @@
       ],
       "categoryOrders": {
         "important": 1,
-        "international": 1,
-        "foreign": 1
+        "international": 12,
+        "foreign": 2
       },
       "featuredSections": [
         "important",
-        "international",
         "foreign"
       ],
       "hasImage": false,
@@ -81,8 +103,8 @@
       ],
       "categoryOrders": {
         "important": 2,
-        "international": 2,
-        "foreign": 2
+        "international": 13,
+        "foreign": 3
       },
       "featuredSections": [
         "important",
@@ -108,34 +130,7 @@
       ],
       "categoryOrders": {
         "important": 3,
-        "international": 3,
-        "foreign": 3
-      },
-      "featuredSections": [
-        "important",
-        "foreign"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acf660dae2f4f140a2eeb0aa1"
-    },
-    {
-      "id": "news:kcna:cb5b6d7a30ab7e355593a96e",
-      "title": "경애하는 김정은동지께 타이왕국 국왕이 축전을 보내여왔다",
-      "date": "2026-09-12",
-      "snippet": "(평양 9월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8880c45504ed1a642dad807b3766aa2f",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 4,
-        "international": 4,
+        "international": 14,
         "foreign": 4
       },
       "featuredSections": [
@@ -146,7 +141,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acb5b6d7a30ab7e355593a96e"
+      "detailUrl": "/news/document?id=news%3Akcna%3Acf660dae2f4f140a2eeb0aa1"
     }
   ]
 }

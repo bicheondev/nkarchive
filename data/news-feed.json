@@ -1,25 +1,47 @@
 {
   "generatedAt": "2026-09-12T00:00:00.000Z",
-  "version": "8a32fb5632a655ed",
+  "version": "3bb48064719c2a7b",
   "sources": {
     "kcna": {
       "id": "kcna",
       "name": "조선중앙통신",
-      "totalItems": 8784,
+      "totalItems": 8773,
       "categoryCounts": {
-        "leadership": 229,
-        "important": 524,
+        "leadership": 226,
+        "important": 523,
         "international": 2770,
-        "photo": 1041,
-        "anecdote": 104,
+        "photo": 1039,
+        "anecdote": 103,
         "document": 62,
         "foreign": 773,
-        "video": 269,
+        "video": 268,
         "memory": 218,
-        "domestic": 4160,
-        "social": 679
+        "domestic": 4156,
+        "social": 678
       },
       "articles": [
+        {
+          "id": "news:kcna:19291b767d73e285d90de690",
+          "title": "자강도에서 수력발전소건설 착공식 진행",
+          "date": "2026-09-12",
+          "snippet": "(평양 9월 12일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/c53826bd45573c999082c802e3413439",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 0
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A19291b767d73e285d90de690"
+        },
         {
           "id": "news:kcna:30fcc3ba6d97c0ef1aa06265",
           "title": "천내리세멘트공장에서 생산성과 확대",
@@ -43,6 +65,52 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A30fcc3ba6d97c0ef1aa06265"
         },
         {
+          "id": "news:kcna:64f9f0853becb89c600193b9",
+          "title": "중국주재 우리 나라 대사관 경축연회 마련",
+          "date": "2026-09-12",
+          "snippet": "(평양 9월 12일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/7b67b2c4b85f90a673059d15e1cc9b30",
+          "mediaType": "article",
+          "categories": [
+            "international",
+            "foreign"
+          ],
+          "categoryOrders": {
+            "international": 9,
+            "foreign": 0
+          },
+          "featuredSections": [
+            "foreign"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A64f9f0853becb89c600193b9"
+        },
+        {
+          "id": "news:kcna:a9af61f7221a6a732d3f70bd",
+          "title": "중국에서 위성 발사",
+          "date": "2026-09-12",
+          "snippet": "(베이징 9월 11일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/76b9a3b6ea633ca9260de130c4291608",
+          "mediaType": "article",
+          "categories": [
+            "international"
+          ],
+          "categoryOrders": {
+            "international": 0
+          },
+          "featuredSections": [
+            "international"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Aa9af61f7221a6a732d3f70bd"
+        },
+        {
           "id": "news:kcna:b9af0cbc366e8a7bdf334f61",
           "title": "조선농업근로자동맹 제10차대회를 소집함에 대하여",
           "date": "2026-09-12",
@@ -54,11 +122,10 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 4,
+            "domestic": 9,
             "social": 0
           },
           "featuredSections": [
-            "domestic",
             "social"
           ],
           "hasImage": false,
@@ -66,28 +133,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3Ab9af0cbc366e8a7bdf334f61"
-        },
-        {
-          "id": "news:kcna:e07a02abed1bc44bdc5609a7",
-          "title": "평안남도에서 평성시의 운흥지구에 문화정서생활거점들 새로 건설",
-          "date": "2026-09-12",
-          "snippet": "(평양 9월 12일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/c6e731332f6792efe7d891649a573ab7",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 0
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Ae07a02abed1bc44bdc5609a7"
         },
         {
           "id": "news:kcna:ee472a29111eb362f0451937",
@@ -103,12 +148,11 @@
           ],
           "categoryOrders": {
             "important": 0,
-            "international": 0,
-            "foreign": 0
+            "international": 11,
+            "foreign": 1
           },
           "featuredSections": [
             "important",
-            "international",
             "foreign"
           ],
           "hasImage": false,
@@ -131,12 +175,11 @@
           ],
           "categoryOrders": {
             "important": 1,
-            "international": 1,
-            "foreign": 1
+            "international": 12,
+            "foreign": 2
           },
           "featuredSections": [
             "important",
-            "international",
             "foreign"
           ],
           "hasImage": false,
@@ -146,11 +189,33 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A3838c3f9b90fb6d9c65f6479"
         },
         {
-          "id": "news:kcna:3ce8e95580cc19f079f5c072",
-          "title": "라흥콩크리트침목공장 침목생산에서 혁신",
+          "id": "news:kcna:63d17e8540e341c7fb01a19b",
+          "title": "미국의 계속되는 민간선박공격행위",
           "date": "2026-09-12",
           "snippet": "(평양 9월 12일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/35c44cc03b28abb8059ec8c7658e9b5b",
+          "url": "http://www.kcna.kp/kp/article/detail/d4ff5d3a6ec23f18e251e6328aa02b5c",
+          "mediaType": "article",
+          "categories": [
+            "international"
+          ],
+          "categoryOrders": {
+            "international": 1
+          },
+          "featuredSections": [
+            "international"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A63d17e8540e341c7fb01a19b"
+        },
+        {
+          "id": "news:kcna:938682080ead109d746a0371",
+          "title": "강계설비조립사업소에서 대상설비제작 결속",
+          "date": "2026-09-12",
+          "snippet": "(평양 9월 12일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/9715dbda83eb061248a465646005fe38",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -165,14 +230,14 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A3ce8e95580cc19f079f5c072"
+          "detailUrl": "/news/document?id=news%3Akcna%3A938682080ead109d746a0371"
         },
         {
-          "id": "news:kcna:a81abba6ba5c185e3943f488",
-          "title": "각지 학생신발생산단위들에서 초급중학교학생신발생산 추진",
+          "id": "news:kcna:71c59d9012ae06aad0747139",
+          "title": "황해북도 은파군,황주군의 식료공장들에서 새 제품개발과 생산장성을 위한 경쟁열기 고조",
           "date": "2026-09-12",
           "snippet": "(평양 9월 12일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/b10995dbc013471eb1a5251cab5bb7ca",
+          "url": "http://www.kcna.kp/kp/article/detail/6ab312e9ccc03900dc2507aeabd1883a",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -187,7 +252,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Aa81abba6ba5c185e3943f488"
+          "detailUrl": "/news/document?id=news%3Akcna%3A71c59d9012ae06aad0747139"
         },
         {
           "id": "news:kcna:d80cbff7d60172fbc6270be3",
@@ -203,8 +268,8 @@
           ],
           "categoryOrders": {
             "important": 2,
-            "international": 2,
-            "foreign": 2
+            "international": 13,
+            "foreign": 3
           },
           "featuredSections": [
             "important",
@@ -215,28 +280,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3Ad80cbff7d60172fbc6270be3"
-        },
-        {
-          "id": "news:kcna:20947da36df3edafbaad4246",
-          "title": "우리 나라의 비물질문화유산들--씨름",
-          "date": "2026-09-12",
-          "snippet": "(평양 9월 12일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/f075e1c77494f4a9f7c14fe6b810bda7",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 3
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A20947da36df3edafbaad4246"
         },
         {
           "id": "news:kcna:cf660dae2f4f140a2eeb0aa1",
@@ -252,8 +295,8 @@
           ],
           "categoryOrders": {
             "important": 3,
-            "international": 3,
-            "foreign": 3
+            "international": 14,
+            "foreign": 4
           },
           "featuredSections": [
             "important",
@@ -264,6 +307,50 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3Acf660dae2f4f140a2eeb0aa1"
+        },
+        {
+          "id": "news:kcna:fb69da79da1850cd1fff0f2e",
+          "title": "덕천지구탄광련합기업소에서 월봉탄광 3단계 벨트콘베아공사 추진",
+          "date": "2026-09-12",
+          "snippet": "(평양 9월 12일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/74af22faebf913def7eb6ef61ed72783",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 3
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Afb69da79da1850cd1fff0f2e"
+        },
+        {
+          "id": "news:kcna:c25edd9131ad3567c9815e5c",
+          "title": "2026년 9월 12일 신문개관",
+          "date": "2026-09-12",
+          "snippet": "(평양 9월 12일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/3d00444da9b7490542e69e76035e1687",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 4
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Ac25edd9131ad3567c9815e5c"
         },
         {
           "id": "news:kcna:cb5b6d7a30ab7e355593a96e",
@@ -279,8 +366,8 @@
           ],
           "categoryOrders": {
             "important": 4,
-            "international": 4,
-            "foreign": 4
+            "international": 15,
+            "foreign": 5
           },
           "featuredSections": [
             "important",
@@ -306,12 +393,11 @@
           ],
           "categoryOrders": {
             "important": 5,
-            "international": 5,
-            "foreign": 5
+            "international": 16,
+            "foreign": 6
           },
           "featuredSections": [
-            "important",
-            "foreign"
+            "important"
           ],
           "hasImage": false,
           "hasVideo": false,
@@ -441,7 +527,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 15,
+            "domestic": 20,
             "social": 1
           },
           "featuredSections": [
@@ -487,7 +573,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 17,
+            "domestic": 22,
             "social": 2
           },
           "featuredSections": [
@@ -577,7 +663,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 18,
+            "domestic": 23,
             "social": 3
           },
           "featuredSections": [
@@ -645,7 +731,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 28,
+            "domestic": 33,
             "social": 4
           },
           "featuredSections": [
@@ -717,8 +803,8 @@
           "categoryOrders": {
             "important": 35,
             "document": 0,
-            "foreign": 35,
-            "domestic": 60
+            "foreign": 36,
+            "domestic": 65
           },
           "featuredSections": [
             "document"
@@ -987,8 +1073,8 @@
           "categoryOrders": {
             "important": 39,
             "document": 1,
-            "foreign": 42,
-            "domestic": 134
+            "foreign": 43,
+            "domestic": 139
           },
           "featuredSections": [
             "document"
@@ -1037,8 +1123,8 @@
           "categoryOrders": {
             "important": 43,
             "document": 2,
-            "foreign": 48,
-            "domestic": 185
+            "foreign": 49,
+            "domestic": 190
           },
           "featuredSections": [
             "document"
@@ -1064,7 +1150,7 @@
           "categoryOrders": {
             "important": 46,
             "document": 3,
-            "domestic": 259
+            "domestic": 264
           },
           "featuredSections": [
             "document"
@@ -1090,7 +1176,7 @@
           "categoryOrders": {
             "important": 47,
             "document": 4,
-            "domestic": 270
+            "domestic": 275
           },
           "featuredSections": [
             "document"
@@ -1115,7 +1201,7 @@
           ],
           "categoryOrders": {
             "important": 62,
-            "international": 262,
+            "international": 273,
             "document": 6
           },
           "featuredSections": [

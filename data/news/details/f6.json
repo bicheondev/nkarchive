@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-12T00:00:00.000Z",
-  "version": "8a32fb5632a655ed",
+  "version": "3bb48064719c2a7b",
   "shard": "f6",
   "articles": {
     "news:kcna:cb5b6d7a30ab7e355593a96e": {
@@ -20,8 +20,8 @@
       ],
       "categoryOrders": {
         "important": 4,
-        "international": 4,
-        "foreign": 4
+        "international": 15,
+        "foreign": 5
       },
       "featuredSections": [
         "important",
@@ -46,7 +46,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 83
+        "domestic": 88
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba82d512bb459c8a8f313f4d50f453ffce",
@@ -177,7 +177,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 138
+        "domestic": 143
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -200,8 +200,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 74,
-        "domestic": 332
+        "foreign": 75,
+        "domestic": 337
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -224,7 +224,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 335,
+        "domestic": 340,
         "social": 54
       },
       "featuredSections": [],
@@ -360,7 +360,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 530
+        "domestic": 535
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -423,7 +423,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 523
+        "international": 534
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -445,7 +445,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 568
+        "international": 579
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -467,7 +467,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1082
+        "domestic": 1087
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -489,7 +489,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 745
+        "international": 756
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -511,7 +511,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1159
+        "domestic": 1164
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -534,7 +534,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1173,
+        "domestic": 1178,
         "social": 130
       },
       "featuredSections": [],
@@ -558,7 +558,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1304,
+        "domestic": 1309,
         "social": 139
       },
       "featuredSections": [],
@@ -603,7 +603,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1064
+        "international": 1075
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -625,7 +625,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1075
+        "international": 1086
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -820,8 +820,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1327,
-        "foreign": 369
+        "international": 1338,
+        "foreign": 370
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -843,7 +843,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1357
+        "international": 1368
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -865,7 +865,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1358
+        "international": 1369
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1108,7 +1108,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2606
+        "domestic": 2611
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1334,7 +1334,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2754,
+        "domestic": 2759,
         "social": 412
       },
       "featuredSections": [],
@@ -1357,7 +1357,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1974
+        "international": 1985
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1379,7 +1379,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2950
+        "domestic": 2955
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ff364db82d86d23ef031f72c105fb8a55f",
@@ -1502,7 +1502,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3066,
+        "domestic": 3071,
         "social": 481
       },
       "featuredSections": [],
@@ -1562,7 +1562,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3309
+        "domestic": 3314
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1585,8 +1585,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 545,
-        "domestic": 3378
+        "foreign": 546,
+        "domestic": 3383
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1739,7 +1739,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4085
+        "domestic": 4090
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/3d3755d837f6dc968fa55dbecad26d229fb66cb9bc9218325c789dc3b5d64c6c",
@@ -1780,7 +1780,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2747
+        "international": 2758
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1802,7 +1802,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4150
+        "domestic": 4155
       },
       "featuredSections": [],
       "thumbnailUrl": "",

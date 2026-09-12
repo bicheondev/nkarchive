@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-12T00:00:00.000Z",
-  "version": "8a32fb5632a655ed",
+  "version": "3bb48064719c2a7b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,28 @@
   "totalItems": 773,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:0e75afd4688f1787099b052c",
+      "title": "로씨야에 가는 조선기자동맹대표단 출발",
+      "date": "2026-08-22",
+      "snippet": "(평양 8월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9a6e3b4df8611286be40e18a1d80b8ef",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 55,
+        "domestic": 250
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0e75afd4688f1787099b052c"
+    },
     {
       "id": "kcna-bfab8cc5dbe2a465",
       "title": "조국해방 81돐 경축행사 여러 나라에서 진행",
@@ -23,8 +45,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 204,
-        "foreign": 55
+        "international": 215,
+        "foreign": 56
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +67,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 56,
-        "domestic": 260
+        "foreign": 57,
+        "domestic": 265
       },
       "featuredSections": [],
       "hasImage": true,
@@ -69,8 +91,8 @@
       ],
       "categoryOrders": {
         "important": 48,
-        "foreign": 57,
-        "domestic": 278
+        "foreign": 58,
+        "domestic": 283
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,8 +113,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 216,
-        "foreign": 58
+        "international": 227,
+        "foreign": 59
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,28 +122,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-fabf2b2fc659d928"
-    },
-    {
-      "id": "kcna-99350937ad18afb0",
-      "title": "우리 나라 외무상 인도네시아공화국 외무상에게 축전",
-      "date": "2026-08-18",
-      "snippet": "(평양 8월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/929b50c6bfc5c96eec9a3acf59cf7307",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 59,
-        "domestic": 289
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-99350937ad18afb0"
     }
   ]
 }
