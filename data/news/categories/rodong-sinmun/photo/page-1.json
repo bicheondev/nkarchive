@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-11T00:00:00.000Z",
-  "version": "0a6ae094d0148404",
+  "generatedAt": "2026-09-12T00:00:00.000Z",
+  "version": "8a32fb5632a655ed",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,9 +8,31 @@
   "section": "photo",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 49,
+  "totalItems": 50,
   "totalPages": 10,
   "articles": [
+    {
+      "id": "news:rodong-sinmun:6d7e120be59bada7544ddd18",
+      "title": "조선민주주의인민공화국창건 78돐경축 제7차 전국조각, 공예축전 진행소식",
+      "date": "2026-09-12",
+      "snippet": "조선민주주의인민공화국창건 78돐경축 제7차 전국조각, 공예축전 진행소식",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOS8xMi8yMS8yMDI2LTA5LTEyLTAxMS8yMDI2LTA5LTEyLTAwMS5qcGc==",
+      "mediaType": "article",
+      "categories": [
+        "photo"
+      ],
+      "categoryOrders": {
+        "photo": 0
+      },
+      "featuredSections": [
+        "photo"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOS8xMi8yMS8yMDI2LTA5LTEyLTAxMS8yMDI2LTA5LTEyLTAwMS5qcGc==",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A6d7e120be59bada7544ddd18"
+    },
     {
       "id": "news:rodong-sinmun:c3232f0279476aa0b620d72f",
       "title": "명사십리에 넘쳐나는 인민의 기쁨",
@@ -22,7 +44,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 0
+        "photo": 1
       },
       "featuredSections": [
         "photo"
@@ -44,7 +66,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 1
+        "photo": 2
       },
       "featuredSections": [
         "photo"
@@ -66,7 +88,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 2
+        "photo": 3
       },
       "featuredSections": [
         "photo"
@@ -88,7 +110,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 3
+        "photo": 4
       },
       "featuredSections": [
         "photo"
@@ -98,28 +120,6 @@
       "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNy8yNy8yMS8yMDI2LTA3LTI3LTAxMS8yMDI2LTA3LTI3LTAwMS5qcGc==",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A6f106b2f09218ab4afd37de6"
-    },
-    {
-      "id": "news:rodong-sinmun:4a56339fc3871491f59c4587",
-      "title": "전승세대의 넋은 굳건히 이어진다",
-      "date": "2026-07-25",
-      "snippet": "전승세대의 넋은 굳건히 이어진다",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNy8yNS8yMS8yMDI2LTA3LTI1LTAxMy8yMDI2LTA3LTI1LTAwMS5qcGc==",
-      "mediaType": "article",
-      "categories": [
-        "photo"
-      ],
-      "categoryOrders": {
-        "photo": 4
-      },
-      "featuredSections": [
-        "photo"
-      ],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNy8yNS8yMS8yMDI2LTA3LTI1LTAxMy8yMDI2LTA3LTI1LTAwMS5qcGc==",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A4a56339fc3871491f59c4587"
     }
   ]
 }
