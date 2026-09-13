@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T00:00:00.000Z",
-  "version": "3bb48064719c2a7b",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "version": "97e914685d0137ea",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 42,
   "pageSize": 5,
-  "totalItems": 773,
+  "totalItems": 774,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:6d9d6d5d42e25e40ff852126",
+      "title": "싱가포르공화국 외무상 평양 출발",
+      "date": "2026-05-28",
+      "snippet": "(평양 5월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/72cb2af4a72caac6fd15f5d94018e18b",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 205,
+        "domestic": 1194
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e0000644771bdb815c85bdf27a4549b0776d1b7",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/f02ac391e941f3432276af049567c97f6575943a47a1d25d49c6717c288d5f6e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6d9d6d5d42e25e40ff852126"
+    },
     {
       "id": "news:kcna:cfa4f1254fc589bf30082b1e",
       "title": "조용원동지가 싱가포르공화국 외무상을 만났다",
@@ -24,9 +46,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 141,
-        "foreign": 205,
-        "domestic": 1192
+        "important": 142,
+        "foreign": 206,
+        "domestic": 1195
       },
       "featuredSections": [],
       "hasImage": true,
@@ -48,9 +70,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 142,
-        "foreign": 206,
-        "domestic": 1206
+        "important": 143,
+        "foreign": 207,
+        "domestic": 1209
       },
       "featuredSections": [],
       "hasImage": true,
@@ -71,8 +93,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 207,
-        "domestic": 1207
+        "foreign": 208,
+        "domestic": 1210
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,7 +116,7 @@
       ],
       "categoryOrders": {
         "international": 810,
-        "foreign": 208
+        "foreign": 209
       },
       "featuredSections": [],
       "hasImage": true,
@@ -102,28 +124,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e0000647371a124ea7fedfab68e11f618025b7c",
       "cachedThumbnailUrl": "/data/news/assets/kcna/1bbfb769f0af2997bf77e005aead56c726f418b1a33cb5d5c0497369b8002d95.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Abf048816c8cef6f44dc8c107"
-    },
-    {
-      "id": "news:kcna:5496c8ac7e47c46118328574",
-      "title": "우리 나라 특명전권대사 스웨리예왕국 국왕에게 신임장 봉정",
-      "date": "2026-05-26",
-      "snippet": "(평양 5월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/dfd3a2b855140ee336ddf225d588f71d",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 819,
-        "foreign": 209
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5496c8ac7e47c46118328574"
     }
   ]
 }

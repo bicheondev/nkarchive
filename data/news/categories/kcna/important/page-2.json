@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T00:00:00.000Z",
-  "version": "3bb48064719c2a7b",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "version": "97e914685d0137ea",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,35 @@
   "section": "important",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 523,
+  "totalItems": 524,
   "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:cb5b6d7a30ab7e355593a96e",
+      "title": "경애하는 김정은동지께 타이왕국 국왕이 축전을 보내여왔다",
+      "date": "2026-09-12",
+      "snippet": "(평양 9월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8880c45504ed1a642dad807b3766aa2f",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 5,
+        "international": 15,
+        "foreign": 6
+      },
+      "featuredSections": [
+        "important"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Acb5b6d7a30ab7e355593a96e"
+    },
     {
       "id": "news:kcna:80e965ead2c7ac486bc29ca2",
       "title": "경애하는 김정은동지께 인도네시아공화국 대통령이 축전을 보내여왔다",
@@ -24,13 +50,11 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 5,
+        "important": 6,
         "international": 16,
-        "foreign": 6
+        "foreign": 7
       },
-      "featuredSections": [
-        "important"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -50,9 +74,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 6,
+        "important": 7,
         "international": 25,
-        "foreign": 7
+        "foreign": 8
       },
       "featuredSections": [],
       "hasImage": false,
@@ -74,9 +98,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 7,
+        "important": 8,
         "international": 26,
-        "foreign": 8
+        "foreign": 9
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,9 +122,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 8,
+        "important": 9,
         "international": 27,
-        "foreign": 9
+        "foreign": 10
       },
       "featuredSections": [],
       "hasImage": false,
@@ -108,28 +132,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A6e0c330776c8f84a4b254bbb"
-    },
-    {
-      "id": "news:kcna:ece71782bf76aadcb461fb78",
-      "title": "경애하는 김정은동지께 공화국창건 78돐에 즈음하여 총련조직과 단체들에서 축전을 드리였다",
-      "date": "2026-09-10",
-      "snippet": "(평양 9월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0dba2c7ac2b9ff6deda59efa20f46769",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international"
-      ],
-      "categoryOrders": {
-        "important": 9,
-        "international": 38
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aece71782bf76aadcb461fb78"
     }
   ]
 }

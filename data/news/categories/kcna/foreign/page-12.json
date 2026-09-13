@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T00:00:00.000Z",
-  "version": "3bb48064719c2a7b",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "version": "97e914685d0137ea",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 12,
   "pageSize": 5,
-  "totalItems": 773,
+  "totalItems": 774,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:6fce3edcb81071ad63b85a40",
+      "title": "니까라과공화국 특명전권대사 만경대 방문,꽃바구니 진정",
+      "date": "2026-08-22",
+      "snippet": "(평양 8월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/672ba62c0fcf626bddd6568e8ad175c5",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 55,
+        "domestic": 248
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29c36965b4e67759c7d1c327fca09d720e",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/276310a7463a39136c700ea1a719e501f62eaf5395aba8b4340cfe89dd7130bb.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6fce3edcb81071ad63b85a40"
+    },
     {
       "id": "news:kcna:0e75afd4688f1787099b052c",
       "title": "로씨야에 가는 조선기자동맹대표단 출발",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 55,
-        "domestic": 250
+        "foreign": 56,
+        "domestic": 253
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +68,7 @@
       ],
       "categoryOrders": {
         "international": 215,
-        "foreign": 56
+        "foreign": 57
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,8 +89,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 57,
-        "domestic": 265
+        "foreign": 58,
+        "domestic": 268
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,9 +112,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 48,
-        "foreign": 58,
-        "domestic": 283
+        "important": 49,
+        "foreign": 59,
+        "domestic": 286
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,28 +122,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-2b185c907681761e"
-    },
-    {
-      "id": "kcna-fabf2b2fc659d928",
-      "title": "우리 나라 외무상에게 로씨야련방 외무상이 축전",
-      "date": "2026-08-18",
-      "snippet": "(평양 8월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fe67928d79ce88673965e173aeca1655",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 227,
-        "foreign": 59
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-fabf2b2fc659d928"
     }
   ]
 }

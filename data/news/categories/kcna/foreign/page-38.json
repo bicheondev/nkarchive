@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T00:00:00.000Z",
-  "version": "3bb48064719c2a7b",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "version": "97e914685d0137ea",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 38,
   "pageSize": 5,
-  "totalItems": 773,
+  "totalItems": 774,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:b693224815ca64c4dd71f093",
+      "title": "우리 나라 외무상 필리핀공화국 외무상에게 축전",
+      "date": "2026-06-13",
+      "snippet": "(평양 6월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/892867806643780e1e67142235341dbe",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 185,
+        "domestic": 1017
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab693224815ca64c4dd71f093"
+    },
     {
       "id": "news:kcna:b532ba331b409e504b940c34",
       "title": "경애하는 김정은동지께서 로씨야련방 대통령에게 축전을 보내시였다",
@@ -24,9 +46,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 128,
-        "foreign": 185,
-        "domestic": 1027
+        "important": 129,
+        "foreign": 186,
+        "domestic": 1030
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,8 +69,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 186,
-        "domestic": 1029
+        "foreign": 187,
+        "domestic": 1032
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +91,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 187,
-        "domestic": 1030
+        "foreign": 188,
+        "domestic": 1033
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,7 +114,7 @@
       ],
       "categoryOrders": {
         "international": 704,
-        "foreign": 188
+        "foreign": 189
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,30 +122,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ae6e56baa014d3e4ed4354f61"
-    },
-    {
-      "id": "news:kcna:dd51183158666f0531d28f15",
-      "title": "경애하는 김정은동지께서 로씨야련방 국경절에 즈음하여 울라지미르 울라지미로비치 뿌찐대통령동지에게 축전을 보내시였다",
-      "date": "2026-06-11",
-      "snippet": "(평양 6월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/edd005f0423e6aa5601da9805e234547",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 130,
-        "foreign": 189,
-        "domestic": 1033
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Add51183158666f0531d28f15"
     }
   ]
 }

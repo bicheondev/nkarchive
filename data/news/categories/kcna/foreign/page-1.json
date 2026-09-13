@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T00:00:00.000Z",
-  "version": "3bb48064719c2a7b",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "version": "97e914685d0137ea",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,37 @@
   "section": "foreign",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 773,
+  "totalItems": 774,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:b2bc247dc802000deaca24e9",
+      "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석에게 답전을 보내시였다",
+      "date": "2026-09-13",
+      "snippet": "(평양 9월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a82da787ac9f1a190746814a4f143285",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 0,
+        "foreign": 0,
+        "domestic": 0
+      },
+      "featuredSections": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab2bc247dc802000deaca24e9"
+    },
     {
       "id": "news:kcna:64f9f0853becb89c600193b9",
       "title": "중국주재 우리 나라 대사관 경축연회 마련",
@@ -24,7 +52,7 @@
       ],
       "categoryOrders": {
         "international": 9,
-        "foreign": 0
+        "foreign": 1
       },
       "featuredSections": [
         "foreign"
@@ -48,9 +76,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 0,
+        "important": 1,
         "international": 11,
-        "foreign": 1
+        "foreign": 2
       },
       "featuredSections": [
         "important",
@@ -75,9 +103,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 1,
+        "important": 2,
         "international": 12,
-        "foreign": 2
+        "foreign": 3
       },
       "featuredSections": [
         "important",
@@ -102,35 +130,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 2,
-        "international": 13,
-        "foreign": 3
-      },
-      "featuredSections": [
-        "important",
-        "foreign"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad80cbff7d60172fbc6270be3"
-    },
-    {
-      "id": "news:kcna:cf660dae2f4f140a2eeb0aa1",
-      "title": "경애하는 김정은동지께 대브리텐 및 북아일랜드련합왕국 국왕이 축전을 보내여왔다",
-      "date": "2026-09-12",
-      "snippet": "(평양 9월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/10fd3f35f75b3ce721447a24738778bd",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
         "important": 3,
-        "international": 14,
+        "international": 13,
         "foreign": 4
       },
       "featuredSections": [
@@ -141,7 +142,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acf660dae2f4f140a2eeb0aa1"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad80cbff7d60172fbc6270be3"
     }
   ]
 }

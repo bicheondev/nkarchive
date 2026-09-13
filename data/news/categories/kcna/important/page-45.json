@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T00:00:00.000Z",
-  "version": "3bb48064719c2a7b",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "version": "97e914685d0137ea",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "important",
   "page": 45,
   "pageSize": 5,
-  "totalItems": 523,
+  "totalItems": 524,
   "totalPages": 105,
   "articles": [
+    {
+      "id": "news:kcna:c62bc41e2ed91bc3c2ed7138",
+      "title": "제3차 시,군당책임비서강습회 진행",
+      "date": "2026-04-07",
+      "snippet": "(평양 4월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/eba65239cd9da169ee0a1b92a8a8c358",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 220,
+        "domestic": 1802
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b6639384b9a211645b1ab7a72194462165a",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/61e0e36e03928762fed19e33067af787715f3b34d153253bb1691fd0f39ed083.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac62bc41e2ed91bc3c2ed7138"
+    },
     {
       "id": "news:kcna:4ac8e7e057920317d599f3a9",
       "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
@@ -25,10 +47,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 220,
+        "important": 221,
         "document": 26,
-        "foreign": 322,
-        "domestic": 1805
+        "foreign": 323,
+        "domestic": 1808
       },
       "featuredSections": [],
       "hasImage": false,
@@ -49,8 +71,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 221,
-        "domestic": 1820
+        "important": 222,
+        "domestic": 1823
       },
       "featuredSections": [],
       "hasImage": true,
@@ -72,9 +94,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 222,
+        "important": 223,
         "international": 1231,
-        "foreign": 325
+        "foreign": 326
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,9 +118,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 223,
+        "important": 224,
         "international": 1232,
-        "foreign": 326
+        "foreign": 327
       },
       "featuredSections": [],
       "hasImage": false,
@@ -106,30 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aa4db39ec031e87f77d39dcf1"
-    },
-    {
-      "id": "news:kcna:27030e1260b998c9b6a58284",
-      "title": "경애하는 김정은동지께서 윁남사회주의공화국 주석에게 답전을 보내시였다",
-      "date": "2026-04-03",
-      "snippet": "(평양 4월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ad3397cc324eb3b092404da63560b5dd",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 224,
-        "foreign": 331,
-        "domestic": 1837
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A27030e1260b998c9b6a58284"
     }
   ]
 }

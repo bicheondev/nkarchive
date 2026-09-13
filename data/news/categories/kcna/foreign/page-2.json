@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T00:00:00.000Z",
-  "version": "3bb48064719c2a7b",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "version": "97e914685d0137ea",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,36 @@
   "section": "foreign",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 773,
+  "totalItems": 774,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:cf660dae2f4f140a2eeb0aa1",
+      "title": "경애하는 김정은동지께 대브리텐 및 북아일랜드련합왕국 국왕이 축전을 보내여왔다",
+      "date": "2026-09-12",
+      "snippet": "(평양 9월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/10fd3f35f75b3ce721447a24738778bd",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 4,
+        "international": 14,
+        "foreign": 5
+      },
+      "featuredSections": [
+        "important",
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Acf660dae2f4f140a2eeb0aa1"
+    },
     {
       "id": "news:kcna:cb5b6d7a30ab7e355593a96e",
       "title": "경애하는 김정은동지께 타이왕국 국왕이 축전을 보내여왔다",
@@ -24,13 +51,12 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 4,
+        "important": 5,
         "international": 15,
-        "foreign": 5
+        "foreign": 6
       },
       "featuredSections": [
-        "important",
-        "foreign"
+        "important"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -51,13 +77,11 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 5,
+        "important": 6,
         "international": 16,
-        "foreign": 6
+        "foreign": 7
       },
-      "featuredSections": [
-        "important"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -77,9 +101,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 6,
+        "important": 7,
         "international": 25,
-        "foreign": 7
+        "foreign": 8
       },
       "featuredSections": [],
       "hasImage": false,
@@ -101,32 +125,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 7,
-        "international": 26,
-        "foreign": 8
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa7e1a6ab7bd8adf90a437995"
-    },
-    {
-      "id": "news:kcna:6e0c330776c8f84a4b254bbb",
-      "title": "경애하는 김정은동지께 아제르바이쟌공화국 대통령이 축전을 보내여왔다",
-      "date": "2026-09-11",
-      "snippet": "(평양 9월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/91aa517b672f05071545655d4e0d6330",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
         "important": 8,
-        "international": 27,
+        "international": 26,
         "foreign": 9
       },
       "featuredSections": [],
@@ -134,7 +134,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6e0c330776c8f84a4b254bbb"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa7e1a6ab7bd8adf90a437995"
     }
   ]
 }

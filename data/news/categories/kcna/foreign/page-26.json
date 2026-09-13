@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T00:00:00.000Z",
-  "version": "3bb48064719c2a7b",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "version": "97e914685d0137ea",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 26,
   "pageSize": 5,
-  "totalItems": 773,
+  "totalItems": 774,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:aeb2d9c5dfe1dede273969d9",
+      "title": "중화인민공화국 당 및 정부대표단 평양 도착",
+      "date": "2026-07-16",
+      "snippet": "(평양 7월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/381ca117ba068cdef4f996fb1429abfc",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 93,
+        "foreign": 125,
+        "domestic": 661
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77daca0a9d01dc009b662a592a9bd8e913c",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/f7b53082171f006dbf540d963c1208bc80432083428718799dd224d007e72c26.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaeb2d9c5dfe1dede273969d9"
+    },
     {
       "id": "news:kcna:5753f0a9cdad4596c5714a30",
       "title": "조선로동당 중앙위원회 비서 조용원동지가 중국인민정치협상회의 전국위원회 주석 왕호녕동지와 회담",
@@ -24,9 +48,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 93,
-        "foreign": 125,
-        "domestic": 659
+        "important": 94,
+        "foreign": 126,
+        "domestic": 662
       },
       "featuredSections": [],
       "hasImage": true,
@@ -48,9 +72,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 94,
-        "foreign": 126,
-        "domestic": 660
+        "important": 95,
+        "foreign": 127,
+        "domestic": 663
       },
       "featuredSections": [],
       "hasImage": true,
@@ -72,7 +96,7 @@
       ],
       "categoryOrders": {
         "international": 465,
-        "foreign": 127
+        "foreign": 128
       },
       "featuredSections": [],
       "hasImage": false,
@@ -93,8 +117,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 128,
-        "domestic": 675
+        "foreign": 129,
+        "domestic": 678
       },
       "featuredSections": [],
       "hasImage": true,
@@ -102,30 +126,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d9c11e7d8f19b53b661ed227990f9629c",
       "cachedThumbnailUrl": "/data/news/assets/kcna/90bfa898e2e204bea0628a16c18fb8bd9aa9905f3fec8072be6139e8da59f1cd.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A0b937229a19ffd4b56dfb8d1"
-    },
-    {
-      "id": "news:kcna:9397884419af3b71a37f2877",
-      "title": "중화인민공화국 당 및 정부대표단이 우리 나라를 공식친선방문한다",
-      "date": "2026-07-14",
-      "snippet": "(평양 7월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/76e471556c65618ca63a95cc5211194c",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 97,
-        "foreign": 129,
-        "domestic": 686
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9397884419af3b71a37f2877"
     }
   ]
 }
