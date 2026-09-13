@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-13T00:00:00.000Z",
-  "version": "97e914685d0137ea",
+  "version": "396131b096124f67",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 29,
   "pageSize": 5,
-  "totalItems": 774,
+  "totalItems": 771,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:da22a3fcc3e49a72c903c4b0",
+      "title": "여러 나라에서 추모행사 진행",
+      "date": "2026-07-11",
+      "snippet": "(평양 7월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e47547d1d954127735d119478dbd6b7a",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 503,
+        "foreign": 140
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ada22a3fcc3e49a72c903c4b0"
+    },
     {
       "id": "kcna-406e9ede28934529",
       "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
@@ -27,8 +49,8 @@
       "categoryOrders": {
         "important": 102,
         "document": 11,
-        "foreign": 140,
-        "domestic": 722
+        "foreign": 141,
+        "domestic": 728
       },
       "featuredSections": [],
       "hasImage": false,
@@ -51,8 +73,8 @@
       ],
       "categoryOrders": {
         "important": 103,
-        "foreign": 141,
-        "domestic": 723
+        "foreign": 142,
+        "domestic": 729
       },
       "featuredSections": [],
       "hasImage": false,
@@ -75,8 +97,8 @@
       ],
       "categoryOrders": {
         "important": 104,
-        "international": 495,
-        "foreign": 142
+        "international": 504,
+        "foreign": 143
       },
       "featuredSections": [],
       "hasImage": false,
@@ -99,8 +121,8 @@
       ],
       "categoryOrders": {
         "important": 105,
-        "international": 496,
-        "foreign": 143
+        "international": 505,
+        "foreign": 144
       },
       "featuredSections": [],
       "hasImage": true,
@@ -108,30 +130,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d9f4113189f9101519cb3b75b01180d93",
       "cachedThumbnailUrl": "/data/news/assets/kcna/42c13eecfe5ded5e87b011d44fa1e5f6d9051aea59c1b22d55355bb1d1b375d1.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ab961cee60021dc682ab72e4a"
-    },
-    {
-      "id": "news:kcna:f3294eaf7479b96a11d8611d",
-      "title": "조선민주주의인민공화국 내각총리 중화인민공화국 전국인민대표대회 상무위원회 위원장과 상봉",
-      "date": "2026-07-11",
-      "snippet": "(평양 7월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7fcefe6ff80d6f81aee0ade695199b6d",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 106,
-        "international": 497,
-        "foreign": 144
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d02e0fb9e911631a887b8b7252809082d",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/d551d08f119a2388959677da01d4f090107f2cd05efe57389a5b0784d3d3f0c7.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af3294eaf7479b96a11d8611d"
     }
   ]
 }

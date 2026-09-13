@@ -1,25 +1,94 @@
 {
   "generatedAt": "2026-09-13T00:00:00.000Z",
-  "version": "97e914685d0137ea",
+  "version": "396131b096124f67",
   "sources": {
     "kcna": {
       "id": "kcna",
       "name": "조선중앙통신",
-      "totalItems": 8776,
+      "totalItems": 8766,
       "categoryCounts": {
         "leadership": 226,
-        "important": 524,
-        "international": 2770,
-        "photo": 1039,
+        "important": 521,
+        "international": 2771,
+        "photo": 1037,
         "anecdote": 103,
-        "document": 62,
-        "foreign": 774,
-        "video": 268,
+        "document": 60,
+        "foreign": 771,
+        "video": 267,
         "memory": 218,
-        "domestic": 4159,
-        "social": 678
+        "domestic": 4151,
+        "social": 676
       },
       "articles": [
+        {
+          "id": "news:kcna:1ee277b1253c4e7a72e9680b",
+          "title": "협의회가 열리게 된 사연",
+          "date": "2026-09-13",
+          "snippet": "위대한 수령 김일성동지께서는 1991년 12월 어느날 수산부문 책임일군협의회를 조직하시였다.",
+          "url": "http://www.kcna.kp/kp/article/detail/30a4056728da9749cf8e153885267610",
+          "mediaType": "article",
+          "categories": [
+            "memory"
+          ],
+          "categoryOrders": {
+            "memory": 0
+          },
+          "featuredSections": [
+            "memory"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A1ee277b1253c4e7a72e9680b"
+        },
+        {
+          "id": "news:kcna:637b71b15e0dc32e936760f9",
+          "title": "평안남도의 백살장수자들이 은정어린 생일상을 받아안았다",
+          "date": "2026-09-13",
+          "snippet": "(평양 9월 13일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/4bcfb765edf5dfec262f0e78baf59dee",
+          "mediaType": "article",
+          "categories": [
+            "domestic",
+            "social"
+          ],
+          "categoryOrders": {
+            "domestic": 0,
+            "social": 0
+          },
+          "featuredSections": [
+            "domestic",
+            "social"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A637b71b15e0dc32e936760f9"
+        },
+        {
+          "id": "news:kcna:747e5ef1443f051f92659e12",
+          "title": "잠비아에서 가물로 식량부족난이 악화될 전망",
+          "date": "2026-09-13",
+          "snippet": "(평양 9월 13일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/e88941843761c5b6fb734612d3238efa",
+          "mediaType": "article",
+          "categories": [
+            "international"
+          ],
+          "categoryOrders": {
+            "international": 0
+          },
+          "featuredSections": [
+            "international"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A747e5ef1443f051f92659e12"
+        },
         {
           "id": "news:kcna:b2bc247dc802000deaca24e9",
           "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석에게 답전을 보내시였다",
@@ -34,13 +103,12 @@
           ],
           "categoryOrders": {
             "important": 0,
-            "foreign": 0,
-            "domestic": 0
+            "foreign": 1,
+            "domestic": 6
           },
           "featuredSections": [
             "important",
-            "foreign",
-            "domestic"
+            "foreign"
           ],
           "hasImage": false,
           "hasVideo": false,
@@ -49,11 +117,35 @@
           "detailUrl": "/news/document?id=news%3Akcna%3Ab2bc247dc802000deaca24e9"
         },
         {
-          "id": "news:kcna:cdcf26bc650beb5636ed0562",
-          "title": "총련교육일군대표단이 떠나갔다",
+          "id": "news:kcna:eedcc0ac8c6fff33df4b2793",
+          "title": "로씨야주재 우리 나라 대사관 연회 마련",
           "date": "2026-09-13",
           "snippet": "(평양 9월 13일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/78358f67e92a6238a697dc4739bd7491",
+          "url": "http://www.kcna.kp/kp/article/detail/8ddd0c94be29ec8e33e81a01e8dfb9ed",
+          "mediaType": "article",
+          "categories": [
+            "international",
+            "foreign"
+          ],
+          "categoryOrders": {
+            "international": 8,
+            "foreign": 0
+          },
+          "featuredSections": [
+            "foreign"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Aeedcc0ac8c6fff33df4b2793"
+        },
+        {
+          "id": "news:kcna:a5d3874d2c9c7c226fcd5d14",
+          "title": "량강도에서 국토환경보호사업 전개",
+          "date": "2026-09-13",
+          "snippet": "(평양 9월 13일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/fc17d4cf5b8b383f9b194572e2ada3b5",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -68,14 +160,36 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Acdcf26bc650beb5636ed0562"
+          "detailUrl": "/news/document?id=news%3Akcna%3Aa5d3874d2c9c7c226fcd5d14"
         },
         {
-          "id": "news:kcna:4efa1767f83e13b28f9e6d3a",
-          "title": "보건부문에서 오존을 리용한 새 치료방법 확립",
+          "id": "news:kcna:ce56e5284cc7724ce728ce0c",
+          "title": "미국에서 디젤유가격 계속 상승",
           "date": "2026-09-13",
           "snippet": "(평양 9월 13일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/387e8ce151775559e5701079924d98f6",
+          "url": "http://www.kcna.kp/kp/article/detail/25bfd45c40c8a0644b6dbf7182085f4a",
+          "mediaType": "article",
+          "categories": [
+            "international"
+          ],
+          "categoryOrders": {
+            "international": 1
+          },
+          "featuredSections": [
+            "international"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Ace56e5284cc7724ce728ce0c"
+        },
+        {
+          "id": "news:kcna:2e8d1ae7b7a178957c5a9da3",
+          "title": "평양시에서 농촌살림집건설 마감단계",
+          "date": "2026-09-13",
+          "snippet": "(평양 9월 13일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/6c7214d52218d8571ef4ffaa6f97f5c3",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -90,7 +204,51 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A4efa1767f83e13b28f9e6d3a"
+          "detailUrl": "/news/document?id=news%3Akcna%3A2e8d1ae7b7a178957c5a9da3"
+        },
+        {
+          "id": "news:kcna:81fbc9aacad4d855b73b6813",
+          "title": "황해남도의 농촌들에서 벼가을 시작",
+          "date": "2026-09-13",
+          "snippet": "(평양 9월 13일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/2aee082de0048d676d72f24ec8dc792c",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 3
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A81fbc9aacad4d855b73b6813"
+        },
+        {
+          "id": "news:kcna:0bf55d5f25a017ab3d5402a1",
+          "title": "각지 농촌들에서 강냉이가을걷이 성과 확대",
+          "date": "2026-09-13",
+          "snippet": "(평양 9월 13일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/c9c298577b8e525416402683b8524a10",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 4
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A0bf55d5f25a017ab3d5402a1"
         },
         {
           "id": "news:kcna:30fcc3ba6d97c0ef1aa06265",
@@ -115,28 +273,6 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A30fcc3ba6d97c0ef1aa06265"
         },
         {
-          "id": "news:kcna:a9af61f7221a6a732d3f70bd",
-          "title": "중국에서 위성 발사",
-          "date": "2026-09-12",
-          "snippet": "(베이징 9월 11일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/76b9a3b6ea633ca9260de130c4291608",
-          "mediaType": "article",
-          "categories": [
-            "international"
-          ],
-          "categoryOrders": {
-            "international": 0
-          },
-          "featuredSections": [
-            "international"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Aa9af61f7221a6a732d3f70bd"
-        },
-        {
           "id": "news:kcna:b9af0cbc366e8a7bdf334f61",
           "title": "조선농업근로자동맹 제10차대회를 소집함에 대하여",
           "date": "2026-09-12",
@@ -148,8 +284,8 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 12,
-            "social": 0
+            "domestic": 18,
+            "social": 1
           },
           "featuredSections": [
             "social"
@@ -159,52 +295,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3Ab9af0cbc366e8a7bdf334f61"
-        },
-        {
-          "id": "news:kcna:63d17e8540e341c7fb01a19b",
-          "title": "미국의 계속되는 민간선박공격행위",
-          "date": "2026-09-12",
-          "snippet": "(평양 9월 12일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/d4ff5d3a6ec23f18e251e6328aa02b5c",
-          "mediaType": "article",
-          "categories": [
-            "international"
-          ],
-          "categoryOrders": {
-            "international": 1
-          },
-          "featuredSections": [
-            "international"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A63d17e8540e341c7fb01a19b"
-        },
-        {
-          "id": "news:kcna:64f9f0853becb89c600193b9",
-          "title": "중국주재 우리 나라 대사관 경축연회 마련",
-          "date": "2026-09-12",
-          "snippet": "(평양 9월 12일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/7b67b2c4b85f90a673059d15e1cc9b30",
-          "mediaType": "article",
-          "categories": [
-            "international",
-            "foreign"
-          ],
-          "categoryOrders": {
-            "international": 9,
-            "foreign": 1
-          },
-          "featuredSections": [
-            "foreign"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A64f9f0853becb89c600193b9"
         },
         {
           "id": "news:kcna:ee472a29111eb362f0451937",
@@ -220,8 +310,8 @@
           ],
           "categoryOrders": {
             "important": 1,
-            "international": 11,
-            "foreign": 2
+            "international": 20,
+            "foreign": 3
           },
           "featuredSections": [
             "important",
@@ -247,8 +337,8 @@
           ],
           "categoryOrders": {
             "important": 2,
-            "international": 12,
-            "foreign": 3
+            "international": 21,
+            "foreign": 4
           },
           "featuredSections": [
             "important",
@@ -261,26 +351,28 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A3838c3f9b90fb6d9c65f6479"
         },
         {
-          "id": "news:kcna:19291b767d73e285d90de690",
-          "title": "자강도에서 수력발전소건설 착공식 진행",
+          "id": "news:kcna:64f9f0853becb89c600193b9",
+          "title": "중국주재 우리 나라 대사관 경축연회 마련",
           "date": "2026-09-12",
           "snippet": "(평양 9월 12일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/c53826bd45573c999082c802e3413439",
+          "url": "http://www.kcna.kp/kp/article/detail/7b67b2c4b85f90a673059d15e1cc9b30",
           "mediaType": "article",
           "categories": [
-            "domestic"
+            "international",
+            "foreign"
           ],
           "categoryOrders": {
-            "domestic": 3
+            "international": 18,
+            "foreign": 2
           },
           "featuredSections": [
-            "domestic"
+            "foreign"
           ],
           "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A19291b767d73e285d90de690"
+          "detailUrl": "/news/document?id=news%3Akcna%3A64f9f0853becb89c600193b9"
         },
         {
           "id": "news:kcna:d80cbff7d60172fbc6270be3",
@@ -296,8 +388,8 @@
           ],
           "categoryOrders": {
             "important": 3,
-            "international": 13,
-            "foreign": 4
+            "international": 22,
+            "foreign": 5
           },
           "featuredSections": [
             "important",
@@ -308,28 +400,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3Ad80cbff7d60172fbc6270be3"
-        },
-        {
-          "id": "news:kcna:938682080ead109d746a0371",
-          "title": "강계설비조립사업소에서 대상설비제작 결속",
-          "date": "2026-09-12",
-          "snippet": "(평양 9월 12일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/9715dbda83eb061248a465646005fe38",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 4
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A938682080ead109d746a0371"
         },
         {
           "id": "news:kcna:cf660dae2f4f140a2eeb0aa1",
@@ -345,12 +415,11 @@
           ],
           "categoryOrders": {
             "important": 4,
-            "international": 14,
-            "foreign": 5
+            "international": 23,
+            "foreign": 6
           },
           "featuredSections": [
-            "important",
-            "foreign"
+            "important"
           ],
           "hasImage": false,
           "hasVideo": false,
@@ -372,8 +441,8 @@
           ],
           "categoryOrders": {
             "important": 5,
-            "international": 15,
-            "foreign": 6
+            "international": 24,
+            "foreign": 7
           },
           "featuredSections": [
             "important"
@@ -495,30 +564,6 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A7313832bd49ae2f2f6e314c3"
         },
         {
-          "id": "news:kcna:d242db614c78c2316ec91714",
-          "title": "조선민주주의인민공화국창건 78돐경축 녀맹일군들과 녀맹원들의 무도회 진행",
-          "date": "2026-09-10",
-          "snippet": "(평양 9월 10일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/59e5121c156ee6967c2ff57baadb8d52",
-          "mediaType": "article",
-          "categories": [
-            "domestic",
-            "social"
-          ],
-          "categoryOrders": {
-            "domestic": 23,
-            "social": 1
-          },
-          "featuredSections": [
-            "social"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba22aeff024e9fd2d0d96db708b7aab1e8",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/88694e93fadf7e23958dc9c2f12c110cf54d5fc28eb518e81523a0498d861551.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3Ad242db614c78c2316ec91714"
-        },
-        {
           "id": "news:kcna:e0d35da91af96a13028548ab",
           "title": "신의주불고기전문식당 새로 건설,준공식 진행",
           "date": "2026-09-10",
@@ -539,30 +584,6 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bac864c4f549f0db51f37dde4de52f1f0a",
           "cachedThumbnailUrl": "/data/news/assets/kcna/308eb873d5790eaad1240d3dc698fcf951a788af0a7ba612bbe9b4e84bee7aa1.jpg",
           "detailUrl": "/news/document?id=news%3Akcna%3Ae0d35da91af96a13028548ab"
-        },
-        {
-          "id": "news:kcna:2bd9c140e4d0675ee91ad0c3",
-          "title": "조선민주주의인민공화국창건 78돐을 온 나라가 경축",
-          "date": "2026-09-10",
-          "snippet": "(평양 9월 10일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/6de3888336eaa8e2d2f38a6e8968416b",
-          "mediaType": "article",
-          "categories": [
-            "domestic",
-            "social"
-          ],
-          "categoryOrders": {
-            "domestic": 25,
-            "social": 2
-          },
-          "featuredSections": [
-            "social"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bad1f725817efd9905a1cf893954c80909",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/abfcd6d0b878b7cc82bd72d0b04a13bb2385c581da2027c5835e5e029f6b4680.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A2bd9c140e4d0675ee91ad0c3"
         },
         {
           "id": "news:kcna:379a8b335fe13839a18dacc5",
@@ -609,6 +630,30 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A652be57754c7d52e852e0e86"
         },
         {
+          "id": "news:kcna:d242db614c78c2316ec91714",
+          "title": "조선민주주의인민공화국창건 78돐경축 녀맹일군들과 녀맹원들의 무도회 진행",
+          "date": "2026-09-10",
+          "snippet": "(평양 9월 10일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/59e5121c156ee6967c2ff57baadb8d52",
+          "mediaType": "article",
+          "categories": [
+            "domestic",
+            "social"
+          ],
+          "categoryOrders": {
+            "domestic": 29,
+            "social": 2
+          },
+          "featuredSections": [
+            "social"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba22aeff024e9fd2d0d96db708b7aab1e8",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/88694e93fadf7e23958dc9c2f12c110cf54d5fc28eb518e81523a0498d861551.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3Ad242db614c78c2316ec91714"
+        },
+        {
           "id": "news:kcna:1f87a89e60673747dabec9a3",
           "title": "2026년 장애자 및 애호가탁구경기 진행",
           "date": "2026-09-10",
@@ -631,18 +676,18 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A1f87a89e60673747dabec9a3"
         },
         {
-          "id": "news:kcna:f8410f9fc3ce27305e534c43",
-          "title": "신의주불고기전문식당 새로 건설,준공식 진행",
+          "id": "news:kcna:2bd9c140e4d0675ee91ad0c3",
+          "title": "조선민주주의인민공화국창건 78돐을 온 나라가 경축",
           "date": "2026-09-10",
           "snippet": "(평양 9월 10일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/a84c3fbed6c6a2f6a57a1b388bb16734",
+          "url": "http://www.kcna.kp/kp/article/detail/6de3888336eaa8e2d2f38a6e8968416b",
           "mediaType": "article",
           "categories": [
             "domestic",
             "social"
           ],
           "categoryOrders": {
-            "domestic": 26,
+            "domestic": 31,
             "social": 3
           },
           "featuredSections": [
@@ -650,9 +695,9 @@
           ],
           "hasImage": true,
           "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bac864c4f549f0db51f37dde4de52f1f0a",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/308eb873d5790eaad1240d3dc698fcf951a788af0a7ba612bbe9b4e84bee7aa1.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3Af8410f9fc3ce27305e534c43"
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bad1f725817efd9905a1cf893954c80909",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/abfcd6d0b878b7cc82bd72d0b04a13bb2385c581da2027c5835e5e029f6b4680.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A2bd9c140e4d0675ee91ad0c3"
         },
         {
           "id": "news:kcna:7c870a8992de0d657ccff2a3",
@@ -677,6 +722,30 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A7c870a8992de0d657ccff2a3"
         },
         {
+          "id": "news:kcna:f8410f9fc3ce27305e534c43",
+          "title": "신의주불고기전문식당 새로 건설,준공식 진행",
+          "date": "2026-09-10",
+          "snippet": "(평양 9월 10일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/a84c3fbed6c6a2f6a57a1b388bb16734",
+          "mediaType": "article",
+          "categories": [
+            "domestic",
+            "social"
+          ],
+          "categoryOrders": {
+            "domestic": 32,
+            "social": 4
+          },
+          "featuredSections": [
+            "social"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bac864c4f549f0db51f37dde4de52f1f0a",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/308eb873d5790eaad1240d3dc698fcf951a788af0a7ba612bbe9b4e84bee7aa1.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3Af8410f9fc3ce27305e534c43"
+        },
+        {
           "id": "news:kcna:e082e73c6bcc855560121e85",
           "title": "몸소 밝혀주신 건국로선",
           "date": "2026-09-09",
@@ -687,7 +756,7 @@
             "memory"
           ],
           "categoryOrders": {
-            "memory": 0
+            "memory": 1
           },
           "featuredSections": [
             "memory"
@@ -697,30 +766,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3Ae082e73c6bcc855560121e85"
-        },
-        {
-          "id": "news:kcna:8394a280d255412a12f2ce1c",
-          "title": "조선민주주의인민공화국창건 78돐에 즈음한 시가행진 및 경축야회 진행",
-          "date": "2026-09-09",
-          "snippet": "(평양 9월 9일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/9da54b94e5142e4ccbd5c5ca538029e0",
-          "mediaType": "article",
-          "categories": [
-            "domestic",
-            "social"
-          ],
-          "categoryOrders": {
-            "domestic": 36,
-            "social": 4
-          },
-          "featuredSections": [
-            "social"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/a3ad69cce70ef5345e97b070be1e2d640cbfb2d7d6cbbf28ecb731e5b93a4299.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A8394a280d255412a12f2ce1c"
         },
         {
           "id": "news:kcna:013542fdcbcf5fea0c2fab93",
@@ -733,7 +778,7 @@
             "memory"
           ],
           "categoryOrders": {
-            "memory": 1
+            "memory": 2
           },
           "featuredSections": [
             "memory"
@@ -782,8 +827,8 @@
           "categoryOrders": {
             "important": 36,
             "document": 0,
-            "foreign": 37,
-            "domestic": 68
+            "foreign": 38,
+            "domestic": 74
           },
           "featuredSections": [
             "document"
@@ -793,28 +838,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A6e368eeae06e58ebe4175ace"
-        },
-        {
-          "id": "news:kcna:02299367788dfb31f4c4fa30",
-          "title": "몸소 그려주신 국장도안",
-          "date": "2026-09-07",
-          "snippet": "위대한 수령 김일성동지께서는 1947년 11월 어느날 창작가들과 일군들을 부르시여 국장을 만들데 대한 과업을 주시였다.",
-          "url": "http://www.kcna.kp/kp/article/detail/1c6ad24c20aaa37b3b8569cfa3c827c3",
-          "mediaType": "article",
-          "categories": [
-            "memory"
-          ],
-          "categoryOrders": {
-            "memory": 2
-          },
-          "featuredSections": [
-            "memory"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A02299367788dfb31f4c4fa30"
         },
         {
           "id": "news:kcna:35803d767acb64105b8124e7",
@@ -859,6 +882,28 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba9f1e713197300ab57f3cb74201629f8a",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A01dccef3e72a9cdc2ac54bc4"
+        },
+        {
+          "id": "news:kcna:02299367788dfb31f4c4fa30",
+          "title": "몸소 그려주신 국장도안",
+          "date": "2026-09-07",
+          "snippet": "위대한 수령 김일성동지께서는 1947년 11월 어느날 창작가들과 일군들을 부르시여 국장을 만들데 대한 과업을 주시였다.",
+          "url": "http://www.kcna.kp/kp/article/detail/1c6ad24c20aaa37b3b8569cfa3c827c3",
+          "mediaType": "article",
+          "categories": [
+            "memory"
+          ],
+          "categoryOrders": {
+            "memory": 3
+          },
+          "featuredSections": [
+            "memory"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A02299367788dfb31f4c4fa30"
         },
         {
           "id": "news:kcna:5634d85ea92d0a8e632ccb5e",
@@ -915,7 +960,7 @@
             "memory"
           ],
           "categoryOrders": {
-            "memory": 3
+            "memory": 4
           },
           "featuredSections": [
             "memory"
@@ -947,28 +992,6 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba159f99e844df196816b5b1f72d9e95d5",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A45119f2adc9b0994e425d05d"
-        },
-        {
-          "id": "news:kcna:71a806285681ea22a8f2807a",
-          "title": "동주리의 사연깊은 기념사진",
-          "date": "2026-09-04",
-          "snippet": "1957년 10월 어느날이였다.",
-          "url": "http://www.kcna.kp/kp/article/detail/db61492cab6bc73c438f09582e8977d2",
-          "mediaType": "article",
-          "categories": [
-            "memory"
-          ],
-          "categoryOrders": {
-            "memory": 4
-          },
-          "featuredSections": [
-            "memory"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A71a806285681ea22a8f2807a"
         },
         {
           "id": "news:kcna:3cea9d97132b981585392762",
@@ -1052,8 +1075,8 @@
           "categoryOrders": {
             "important": 40,
             "document": 1,
-            "foreign": 44,
-            "domestic": 142
+            "foreign": 45,
+            "domestic": 148
           },
           "featuredSections": [
             "document"
@@ -1102,8 +1125,8 @@
           "categoryOrders": {
             "important": 44,
             "document": 2,
-            "foreign": 50,
-            "domestic": 193
+            "foreign": 51,
+            "domestic": 199
           },
           "featuredSections": [
             "document"
@@ -1129,7 +1152,7 @@
           "categoryOrders": {
             "important": 47,
             "document": 3,
-            "domestic": 267
+            "domestic": 273
           },
           "featuredSections": [
             "document"
@@ -1155,7 +1178,7 @@
           "categoryOrders": {
             "important": 48,
             "document": 4,
-            "domestic": 278
+            "domestic": 284
           },
           "featuredSections": [
             "document"
@@ -1180,7 +1203,7 @@
           ],
           "categoryOrders": {
             "important": 63,
-            "international": 273,
+            "international": 282,
             "document": 6
           },
           "featuredSections": [

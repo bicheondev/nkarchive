@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-13T00:00:00.000Z",
-  "version": "97e914685d0137ea",
+  "version": "396131b096124f67",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 71,
   "pageSize": 5,
-  "totalItems": 774,
+  "totalItems": 771,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:3fc3fe34120f32fd566c955c",
+      "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석에게 답전을 보내시였다",
+      "date": "2026-03-28",
+      "snippet": "(평양 3월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6fa1f4fe1c884e05efcbaf26ce9f128e",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 234,
+        "foreign": 350,
+        "domestic": 1920
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3fc3fe34120f32fd566c955c"
+    },
     {
       "id": "news:kcna:29fc7ac8d4853f08b86966b6",
       "title": "경애하는 김정은동지께 팔레스티나국가 대통령이 축전을 보내여왔다",
@@ -25,8 +49,8 @@
       ],
       "categoryOrders": {
         "important": 235,
-        "international": 1292,
-        "foreign": 350
+        "international": 1301,
+        "foreign": 351
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,8 +71,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1293,
-        "foreign": 351
+        "international": 1302,
+        "foreign": 352
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +93,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1294,
-        "foreign": 352
+        "international": 1303,
+        "foreign": 353
       },
       "featuredSections": [],
       "hasImage": false,
@@ -93,8 +117,8 @@
       ],
       "categoryOrders": {
         "important": 236,
-        "international": 1303,
-        "foreign": 353
+        "international": 1312,
+        "foreign": 354
       },
       "featuredSections": [],
       "hasImage": true,
@@ -102,30 +126,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e605bbbf072de850c3f22d8ec12a41650d0",
       "cachedThumbnailUrl": "/data/news/assets/kcna/d46e573ac54658bf590ed319aaa901b06e7bcf6a493288c3bc9ae26bfd88244a.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Adc88e29b0bc5159174cafc71"
-    },
-    {
-      "id": "news:kcna:b31c8bb01e33bf0ac0e9c0a6",
-      "title": "경애하는 김정은동지께 중화인민공화국 주석이 축전을 보내여왔다",
-      "date": "2026-03-27",
-      "snippet": "(평양 3월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a52727e16e72b9ba2ddefb939a414070",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 237,
-        "international": 1304,
-        "foreign": 354
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab31c8bb01e33bf0ac0e9c0a6"
     }
   ]
 }

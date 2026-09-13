@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-13T00:00:00.000Z",
-  "version": "97e914685d0137ea",
+  "version": "396131b096124f67",
   "shard": "2a",
   "articles": {
     "news:kcna:b2bc247dc802000deaca24e9": {
@@ -20,13 +20,12 @@
       ],
       "categoryOrders": {
         "important": 0,
-        "foreign": 0,
-        "domestic": 0
+        "foreign": 1,
+        "domestic": 6
       },
       "featuredSections": [
         "important",
-        "foreign",
-        "domestic"
+        "foreign"
       ],
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
@@ -47,7 +46,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 21
+        "international": 30
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -70,8 +69,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 82,
-        "foreign": 38
+        "international": 91,
+        "foreign": 39
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -93,7 +92,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 123
+        "domestic": 129
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -115,7 +114,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 242
+        "domestic": 248
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -196,7 +195,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 363
+        "domestic": 369
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -218,7 +217,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 493
+        "domestic": 499
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d192faf4c33c09e03e59be58446182a03",
@@ -341,8 +340,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 91,
-        "domestic": 498
+        "foreign": 92,
+        "domestic": 504
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dda3621545bff023718c3638c16b47598",
@@ -838,7 +837,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1009
+        "domestic": 1015
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -860,7 +859,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1044
+        "domestic": 1050
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -882,7 +881,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 72
+        "memory": 73
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -904,7 +903,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1420
+        "domestic": 1426
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1021,7 +1020,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1514
+        "domestic": 1520
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1043,7 +1042,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1340
+        "international": 1349
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1065,7 +1064,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 105
+        "memory": 106
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1087,7 +1086,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1478
+        "international": 1487
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1110,8 +1109,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2234,
-        "social": 280
+        "domestic": 2240,
+        "social": 281
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/67d9946ed8d7f8ce0dc8324543af2bb0febdd994fd40661026fed3f158302514",
@@ -1180,8 +1179,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2253,
-        "social": 284
+        "domestic": 2259,
+        "social": 285
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1207,7 +1206,7 @@
       "categoryOrders": {
         "important": 322,
         "document": 42,
-        "domestic": 2287
+        "domestic": 2293
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366391049519d74619e06e3c6ce5cd922f4",
@@ -1343,7 +1342,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1657
+        "international": 1666
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1366,8 +1365,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2520,
-        "social": 339
+        "domestic": 2526,
+        "social": 340
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1389,7 +1388,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2551
+        "domestic": 2557
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1411,7 +1410,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2806
+        "domestic": 2812
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1433,7 +1432,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1974
+        "international": 1983
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1532,7 +1531,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2074
+        "international": 2083
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1554,7 +1553,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2099
+        "international": 2108
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1576,7 +1575,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2214
+        "international": 2223
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1598,7 +1597,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3310
+        "domestic": 3316
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1660,8 +1659,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3410,
-        "social": 555
+        "domestic": 3416,
+        "social": 556
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac8a5396c99a650c32cc225236c0d6eaef",
@@ -1738,7 +1737,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2337
+        "international": 2346
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1760,7 +1759,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3591
+        "domestic": 3597
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1909,7 +1908,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3914
+        "domestic": 3920
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1931,29 +1930,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2644
-      },
-      "featuredSections": [],
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "images": [],
-      "videos": []
-    },
-    "news:kcna:8549ab81bb95abad6f4a740c": {
-      "id": "news:kcna:8549ab81bb95abad6f4a740c",
-      "title": "남포시의 근로단체조직들에서 사상교양의 실효 제고",
-      "date": "2025-09-14",
-      "snippet": "(평양 9월 14일발 조선중앙통신)",
-      "body": "(평양 9월 14일발 조선중앙통신)\n\n남포시에서 사상교양사업을 실천과 결부하여 진행하고있다.\n\n시청년동맹위원회에서 모든 청년들을 김정일애국주의를 소중히 간직하고 실천활동에 구현해나가는 사회주의애국청년으로 준비시키기 위한 교양사업에 품을 넣고있다.\n\n9월을 애국주의교양월간으로 정해준 당의 뜻을 받들고 청년동맹조직들에서는 모든 동맹원들의 애국의 열망이 실천투쟁으로 이어지도록 하고있다.\n\n학교소년단조직들에서는 학교생활과정의 모든 공간을 교양장소로 전환시키고 학생들속에 조국에 대한 자긍심,견결한 조국수호정신을 심어주고있다.\n\n시직맹위원회에서는 각급 직맹조직들에서 애국주의주제의 시랑송발표모임과 노래보급 및 해설모임을 실정에 맞게 조직하도록 함으로써 충실성과 애국의 바통을 꿋꿋이 이어갈 근로자들의 의지를 더욱 굳혀주고있다.\n\n녀맹돌격대활동과 좋은일하기운동을 전개하고있는 녀맹원들의 성과에는 대중의 정신력과 애국심을 분발시키는 정치사상사업을 벌리고있는 시녀맹위원회 일군들의 헌신이 깃들어있다.\n\n시농근맹위원회에서도 인민들의 식량문제,먹는 문제해결을 위해 그토록 마음써오신 절세위인들의 업적을 전하는 위대성해설선전을 진행하여 당이 제시한 올해 알곡생산목표수행에로 농업근로자들을 분발시키고있다.(끝)",
-      "url": "http://www.kcna.kp/kp/article/detail/c2362542e4c73c72476e6b22786b0e2e",
-      "mediaType": "article",
-      "sourceId": "kcna",
-      "sourceName": "조선중앙통신",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 4156
+        "international": 2653
       },
       "featuredSections": [],
       "thumbnailUrl": "",
