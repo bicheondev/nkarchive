@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "a1411631faac50da",
+  "version": "223c4b10503d481c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,31 @@
   "totalItems": 773,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:8441ec38a2e471e541ada548",
+      "title": "조선민주주의인민공화국창건 78돐에 즈음하여 중국인민대외우호협회와 중조우호협회 연회 마련",
+      "date": "2026-09-15",
+      "snippet": "(평양 9월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/102edd53cc38577e980392f1b675bbbd",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 0,
+        "foreign": 0
+      },
+      "featuredSections": [
+        "international",
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8441ec38a2e471e541ada548"
+    },
     {
       "id": "news:kcna:4719d7f11f22c199072c95d2",
       "title": "경애하는 김정은동지께서 로씨야련방 대통령에게 답전을 보내시였다",
@@ -25,8 +50,8 @@
       ],
       "categoryOrders": {
         "important": 0,
-        "foreign": 0,
-        "domestic": 0
+        "foreign": 1,
+        "domestic": 4
       },
       "featuredSections": [
         "important",
@@ -51,12 +76,11 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 1,
-        "domestic": 3
+        "foreign": 2,
+        "domestic": 7
       },
       "featuredSections": [
-        "foreign",
-        "domestic"
+        "foreign"
       ],
       "hasImage": true,
       "hasVideo": false,
@@ -76,12 +100,11 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 2,
-        "domestic": 4
+        "foreign": 3,
+        "domestic": 8
       },
       "featuredSections": [
-        "foreign",
-        "domestic"
+        "foreign"
       ],
       "hasImage": true,
       "hasVideo": false,
@@ -101,8 +124,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 14,
-        "foreign": 3
+        "international": 23,
+        "foreign": 4
       },
       "featuredSections": [
         "foreign"
@@ -112,33 +135,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aeedcc0ac8c6fff33df4b2793"
-    },
-    {
-      "id": "news:kcna:b2bc247dc802000deaca24e9",
-      "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석에게 답전을 보내시였다",
-      "date": "2026-09-13",
-      "snippet": "(평양 9월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a82da787ac9f1a190746814a4f143285",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 5,
-        "foreign": 4,
-        "domestic": 26
-      },
-      "featuredSections": [
-        "important",
-        "foreign"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab2bc247dc802000deaca24e9"
     }
   ]
 }
