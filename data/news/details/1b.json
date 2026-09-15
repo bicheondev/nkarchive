@@ -1,8 +1,51 @@
 {
-  "generatedAt": "2026-09-14T00:00:00.000Z",
-  "version": "cb75501b7264d925",
+  "generatedAt": "2026-09-15T00:00:00.000Z",
+  "version": "a1411631faac50da",
   "shard": "1b",
   "articles": {
+    "news:kcna:11c4939cf18200163cd0dfa0": {
+      "id": "news:kcna:11c4939cf18200163cd0dfa0",
+      "title": "중국청년간부대표단 도착",
+      "date": "2026-09-15",
+      "snippet": "중국청년간부대표단 도착",
+      "body": "중국청년간부대표단 도착",
+      "url": "http://www.kcna.kp/kp/gallery/detail/5a6c9fa0d27357be960dac0f805f754f",
+      "mediaType": "article",
+      "sourceId": "kcna",
+      "sourceName": "조선중앙통신",
+      "categories": [
+        "photo"
+      ],
+      "categoryOrders": {
+        "photo": 2
+      },
+      "featuredSections": [
+        "photo"
+      ],
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba001befe9aa06c4fc81dfde03e5cbdc63",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/ef052130d496ddc946fee95a99caee66caf37785b54b2a02420d99ae0190a071.jpg",
+      "images": [
+        {
+          "id": "news:kcna:11c4939cf18200163cd0dfa0:image:ef052130d496ddc946fee95a99caee66caf37785b54b2a02420d99ae0190a071",
+          "url": "",
+          "cachedUrl": "/data/news/assets/kcna/ef052130d496ddc946fee95a99caee66caf37785b54b2a02420d99ae0190a071.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/ef052130d496ddc946fee95a99caee66caf37785b54b2a02420d99ae0190a071.jpg",
+          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/5a6c9fa0d27357be960dac0f805f754f",
+          "displayOrder": 0
+        },
+        {
+          "id": "news:kcna:11c4939cf18200163cd0dfa0:image:58a540fb570a55d62c3cf9738d272d48cc784728891caa99d9aac3b6a20c610e",
+          "url": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba001befe9aa06c4fc81dfde03e5cbdc63",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba001befe9aa06c4fc81dfde03e5cbdc63",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/5a6c9fa0d27357be960dac0f805f754f",
+          "displayOrder": 1
+        }
+      ],
+      "videos": []
+    },
     "news:kcna:ccca4b46f76a3b96d9edfaf9": {
       "id": "news:kcna:ccca4b46f76a3b96d9edfaf9",
       "title": "2026년 9월 10일 신문개관",
@@ -17,7 +60,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 46
+        "domestic": 53
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -41,9 +84,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 27,
+        "important": 30,
         "international": 75,
-        "foreign": 27
+        "foreign": 30
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -65,7 +108,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 94
+        "domestic": 101
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -109,7 +152,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 216
+        "domestic": 223
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -175,7 +218,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 142
+        "photo": 145
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d9c11e7d8f19b53b661ed227990f9629c",
@@ -261,7 +304,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 940
+        "domestic": 947
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -283,7 +326,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1011
+        "domestic": 1018
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -371,7 +414,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1509
+        "domestic": 1516
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -393,7 +436,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1636
+        "domestic": 1643
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -415,7 +458,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1668
+        "domestic": 1675
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b662f89072f9715c6a4cac8f083bb724699",
@@ -528,7 +571,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 409
+        "photo": 412
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60304d3d6403bdd406d0eae93aa84ab95a",
@@ -597,7 +640,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2185,
+        "domestic": 2192,
         "social": 266
       },
       "featuredSections": [],
@@ -648,7 +691,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2181
+        "domestic": 2188
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e603e6dfc5bfc257cb003061dec114815d4",
@@ -720,7 +763,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2356
+        "domestic": 2363
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366c639e0b81a18ff2d5a97164a2ca7e229",
@@ -788,7 +831,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2449
+        "domestic": 2456
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -832,7 +875,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2575
+        "domestic": 2582
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -876,7 +919,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 670
+        "photo": 673
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ffb0eb6c2d237ef0050ac2837c704648ed",
@@ -963,7 +1006,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3038,
+        "domestic": 3045,
         "social": 472
       },
       "featuredSections": [],
@@ -986,7 +1029,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3129
+        "domestic": 3136
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f5dc5e1edcdf22823335ccca9672b86fcf",
@@ -1081,7 +1124,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 202
+        "video": 203
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1164,7 +1207,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3408
+        "domestic": 3415
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1186,7 +1229,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3600
+        "domestic": 3607
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1209,8 +1252,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 603,
-        "domestic": 3684
+        "foreign": 606,
+        "domestic": 3691
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c1246ebe44a7a9af9c039c71f257a982e1f",
@@ -1289,9 +1332,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 468,
-        "foreign": 627,
-        "domestic": 3756
+        "important": 471,
+        "foreign": 630,
+        "domestic": 3763
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1313,7 +1356,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 239
+        "video": 240
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1352,7 +1395,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3946
+        "domestic": 3953
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb910186ba27dd776b56485a2916119961",
@@ -1415,7 +1458,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3979
+        "domestic": 3986
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1437,7 +1480,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4098
+        "domestic": 4105
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1459,7 +1502,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 1039
+        "photo": 1042
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/3d3755d837f6dc968fa55dbecad26d2208aa6c89490eb65475d30849f41e0b5b",
@@ -1568,38 +1611,6 @@
           "cachedThumbnailUrl": "",
           "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOC0zMC0wMTJAMUAxQEAwQDlA==",
           "displayOrder": 2
-        }
-      ],
-      "videos": []
-    },
-    "news:rodong-sinmun:1d9ed78786f1a758065e25af": {
-      "id": "news:rodong-sinmun:1d9ed78786f1a758065e25af",
-      "title": "당이 결심하면 우리는 한다!\n천성에서 새로운 혁신창조의 불길이 타올랐다\n당의 크나큰 사랑과 믿음에 고무된 천성청년탄광 서은철채탄중대가 상반년기간 근 1만t의 석탄을 증산, 6월계획은 261%로 수행",
-      "date": "2026-07-06",
-      "snippet": "당이 결심하면 우리는 한다!",
-      "body": "당이 결심하면 우리는 한다!\n\n천성에서 새로운 혁신창조의 불길이 타올랐다\n\n당의 크나큰 사랑과 믿음에 고무된 천성청년탄광 서은철채탄중대가\n\n상반년기간 근 1만t의 석탄을 증산, 6월계획은 261%로 수행\n\n경애하는 김정은동지께서는 다음과 같이 말씀하시였다.\n\n《당의 부름이라면 한마음한뜻으로 떨쳐일어나 산도 옮기고 바다도 메우는 기적을 끊임없이 창조해나가는것은 우리 인민의 투쟁전통이며 기질입니다.》\n\n지금 온 나라 탄전이 당중앙위원회 제9기 제2차전원회의 결정에 접하고 크나큰 격정과 환희로 불도가니마냥 끓어번지고있는 속에 석탄공업부문의 전형단위인 천성청년탄광에서 새로운 혁신창조의 불길이 타올랐다.\n\n당의 하늘같은 사랑과 믿음에 자랑찬 로력적성과로 보답할 충성의 맹세 안고 힘차게 투쟁해온 이곳 서은철채탄중대의 탄부들이 지난 상반년기간 월평균 171%이상의 계획수행률을 보장하면서 9 969t의 석탄을 증산하는 혁혁한 성과를 이룩하였다.특히 이들은 지난 6월계획을 261%로 수행함으로써 한개 채탄중대의 월생산량으로서는 가장 높은 실적을 기록하였다.\n\n이것은 자립경제발전의 척후전선을 지켜선 석탄공업부문 로동계급에게 거듭 돌려주는 당의 크나큰 은정에 높은 증산성과로 보답하려는 천성탄부들의 열화같은 충성과 애국의 마음이 떠올린 빛나는 결실이며 당 제9차대회가 제시한 새 전망목표점령을 위한 투쟁에 총분기해나선 온 나라 인민들에게 무한한 힘과 고무를 안겨주는 자랑찬 성과이다.\n\n지난 3월 15일 천성청년탄광을 찾으시여 최고인민회의 대의원선거에 참가하시고 이곳 로동계급을 뜨겁게 고무격려하신 경애하는 총비서동지의 대해같은 사랑과 믿음은 탄전의 수천척지하막장들에서 기적과 혁신을 낳게 한 원동력이였다.\n\n못잊을 그날 경애하는 총비서동지를 모시고 뜻깊은 기념사진을 찍는 최상의 영광을 지닌 8갱 채탄3중대 중대장 서은철동무와 탄부들은 그이께서 탄광을 다녀가신 후 상반년계획을 4월 15일까지, 년간계획을 8월 15일까지 끝낼것을 결의해나섰다.\n\n상반년계획수행날자까지는 한달이 남아있었다.보다 배가된 분발력, 보다 공세적인 실천행동이 필요한 그때 중대의 당원들이 앞장에 섰다.\n\n이들은 당앞에 다진 맹세를 지키는 길에서 당원의 영예를 빛내일 충성의 일념 안고 한사람이 두몫, 세몫의 일감을 떠맡아 헌신적으로 분투하였다.당원들은 기능이 낮은 탄부들을 맡아 힘껏 도와주고 앞선 채탄방법을 적극 받아들여 매일 계획을 180%이상 수행하였다.\n\n어렵고 힘든 모퉁이마다에 남먼저 어깨를 들이밀며 분투하는 당원들의 투쟁기풍, 투쟁본때를 본받아 중대의 직맹원들과 청년동맹원들도 한사람같이 분발해나섰다.중대에서 한교대더하기, 한탄차더하기, 다음교대도와주기 등 대중운동이 활발히 전개되는 속에 석탄생산실적은 하루가 다르게 쑥쑥 올라갔다.\n\n하여 중대는 당앞에 결의한 날자보다 8일 앞당겨 지난 4월 7일까지 상반년계획을 완수하는 혁신을 창조하였다.\n\n성과에서 더 큰 성과에로, 변혁에서 더 큰 변혁에로 나아갈데 대한 당의 뜻을 받들고 서은철채탄중대원들은 계속혁신, 계속전진의 기상을 높이 떨치며 공격속도를 배가하였다.\n\n이들은 과학기술에 철저히 의거할 때만이 보다 큰 생산성과를 거둘수 있다는것을 명심하고 증산투쟁으로 드바쁜 속에서도 기술학습을 매일 정상화하고 주 1차 과학기술보급실운영을 실속있게 진행함으로써 자신들의 기술기능수준을 부단히 높여나갔다.\n\n그런 속에 중대장과 소대장들의 막장관리능력이 일층 제고되고 동발나무, 화공품을 비롯한 중요자재소비량이 훨씬 줄어들어 석탄생산원가를 낮추기 위한 사업에서도 눈에 띄는 진전이 이룩되였다.\n\n중대의 탄부들은 상반년계획완수에 이어 년간계획수행을 위한 투쟁에 진입하면서부터 월 석탄생산량을 5 000t 지어 6 000t이상 끌어올리기 위한데로 마음과 뜻을 합치였다.중대의 가족들도 탄부들에게 거듭 돌려주시는 경애하는 총비서동지의 뜨거운 은정에 보답할 일념 안고 그들의 투쟁을 물심량면으로 도와나섰다.\n\n이렇듯 중대의 탄부들과 안해들모두가 한마음한뜻이 되여 오로지 석탄증산을 위해 분투한 결과 지난 4월에 5 084t의 석탄이 생산되는 성과가 이룩되였다.\n\n전진속도를 배가하며 5월계획도 초과완수한 기세로 6 000t 석탄생산목표를 향하여 기세좋게 전진하고있던 지난 6월 23일 서은철채탄중대원들은 당중앙위원회 제9기 제2차전원회의소식에 접하게 되였다.\n\n석탄공업을 추켜세우며 전국의 탄광마을을 현대적으로 개변시킬데 대한 당중앙전원회의 결정은 이들의 가슴가슴을 크나큰 감격과 격정으로 설레이게 하였다.\n\n이날 서은철동무와 중대의 탄부들은 앞으로 남은 한주일동안 월 석탄생산량을 더 늘여 6 060t의 새 기록을 세우는것과 함께 년간계획을 7월 27일까지 끝낼것을 결의하였다.\n\n충성과 보답의 맹세로 불타는 탄부들의 열정은 놀라운 현실을 낳았다.\n\n지난 6월 30일 온 천성탄전이 서은철채탄중대가 이룩한 기적적성과를 열렬히 축하하였다.\n\n이곳 탄부들은 새로운 혁신창조로 당앞에 다진 결의를 빛나게 실천함으로써 한계를 모르는 조선로동계급의 불굴의 기상, 창조의 본때를 남김없이 떨치였으며 기적을 낳는 힘의 원천이 과연 어디에 있는가를 과감하고 줄기찬 투쟁으로 똑똑히 보여주었다.\n\n서은철채탄중대에서 지펴진 증산투쟁의 불꽃은 지금 탄광적인 애국운동의 불길로 타번지고있다.\n\n굴진단위들사이, 채탄중대들사이, 갱들사이 새 기준, 새 기록창조를 위한 경쟁바람이 세차게 일고있는 속에 8갱 채탄2중대가 월 5 000t생산단위의 영예를 지니였으며 7갱 김혁청년돌격대가 올해 굴진계획을 넉달이상 앞당겨 완수할것을, 2갱의 탄부들이 년말까지 수만t의 석탄을 더 캐낼것을 결의해나섰다.\n\n탄광당조직에서는 서은철채탄중대에서 창조된 경험과 투쟁기풍을 모든 채탄중대들이 따라배우도록 하기 위한 사업을 방법론있게 전개하는것과 함께 굴진, 운반단위들에서도 새로운 혁신, 대담한 창조, 부단한 전진의 기상이 세차게 나래치게 하고있다.\n\n천성의 로동계급속에서 힘있게 전개되고있는 애국운동, 증산운동은 당중앙위원회 제9기 제2차전원회의 결정에 접하고 보답의 일념에 넘쳐있는 각지 탄부들의 투쟁열기를 더욱 고조시키는 의의있는 계기로 되고있다.\n\n사회주의전면적발전을 위한 투쟁의 전구마다에서 모든 일군들과 당원들과 근로자들이 천성청년탄광 서은철채탄중대의 탄부들처럼 당의 믿음과 사랑을 운명의 명줄로 간직하고 지금의 하루하루를 열흘, 백날맞잡이로 과감히 분투할 때 당 제9차대회가 제시한 새 전망목표는 빛나게 실현될것이다.\n\n글 본사기자 서남일\n\n사진 본사기자 오진일",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNy0wNi0wMTZANEA0QEAwQDU1QA==",
-      "mediaType": "article",
-      "sourceId": "rodong-sinmun",
-      "sourceName": "로동신문",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 54
-      },
-      "featuredSections": [],
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/ca8c374eb8b0642c76cf487b1072aa9aa502eae3a179c7aacfe4a75669d42d7a.jpg",
-      "images": [
-        {
-          "id": "news:rodong-sinmun:1d9ed78786f1a758065e25af:image:ca8c374eb8b0642c76cf487b1072aa9aa502eae3a179c7aacfe4a75669d42d7a",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/ca8c374eb8b0642c76cf487b1072aa9aa502eae3a179c7aacfe4a75669d42d7a.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/ca8c374eb8b0642c76cf487b1072aa9aa502eae3a179c7aacfe4a75669d42d7a.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNy0wNi0wMTZANEA0QEAwQDU1QA==",
-          "displayOrder": 0
         }
       ],
       "videos": []
@@ -1735,72 +1746,13 @@
       ],
       "videos": []
     },
-    "news:rodong-sinmun:2fd61078ce077a7a7b6f0ed8": {
-      "id": "news:rodong-sinmun:2fd61078ce077a7a7b6f0ed8",
-      "title": "조선중앙통신사 보도\n상원의 봉화따라 새로운 5개년계획수행의 전구들에서 창조되는 기적과 혁신\n조선로동당 제9차대회이후 지난 100일간 전반적공업생산 105%로 장성",
-      "date": "2026-06-16",
-      "snippet": "조선중앙통신사 보도",
-      "body": "조선중앙통신사 보도\n\n상원의 봉화따라 새로운 5개년계획수행의 전구들에서 창조되는 기적과 혁신\n\n조선로동당 제9차대회이후 지난 100일간 전반적공업생산 105%로 장성\n\n력사적인 조선로동당 제9차대회와 당중앙위원회 제9기 제1차전원회의 결정을 받들고 온 나라 전체 로동계급과 인민은 사회주의전면적발전기를 개척한 그 정신, 그 기백으로 새로운 5개년계획수행에 총매진하고있다.\n\n경애하는 김정은동지께서는 당대회이후 제일먼저 상원세멘트련합기업소를 찾으시여 당과 조국을 받드는 길에서 발휘된 이곳 로동계급의 무한한 충성심과 한계를 부정하는 과감한 혁신, 일관한 과학기술중시를 우리 시대 증산과 발전의 공식으로 정립해주시고 상원의 봉화가 새 전망목표수행의 전구마다에서 거세찬 불길로 타오르도록 현명하게 이끄시였다.\n\n당중앙의 령도따라 총분기해나선 인민경제 모든 부문, 모든 단위에서 기존의 관념을 타파하는 비약적인 전진목표들이 세워지고 대중적기술혁신운동이 힘있게 전개되는 속에 당대회이후 지난 100일간 전반적공업생산이 105%로 장성하였다.\n\n경제건설의 전 전선에서 이룩되고있는 이 자랑찬 성과는 충성과 애국의 힘, 과학기술에 의거한 자력갱생의 힘으로 새로운 변혁의 시대를 활기차게 열어나가는 영웅적로동계급의 견인불발의 기질과 완강한 실천력의 뚜렷한 증시로서 당 제9기기간을 줄기찬 전성과 도약으로 빛내이기 위한 우리 인민의 장엄한 투쟁에 활력을 더해주고있다.\n\n경애하는 김정은동지께서는 다음과 같이 말씀하시였다.\n\n《모두다 당 제9차대회가 제시한 투쟁강령을 높이 받들고 조국번영의 년대기에 또 한페지를 아로새길 거창한 새 변혁의 시대를 힘차게 개척하기 위하여 일심분투해나갑시다.》\n\n경애하는 김정은동지께서는 당 제9차대회에서 사회주의전면적발전기를 확신성있게 고조시켜나갈수 있는 전진방향과 투쟁방침들을 천명하시고 혁명의 년대기마다 자력갱생의 혁명정신을 발휘하며 자랑찬 로력적성과로 당중앙을 결사옹위한 우리 로동계급을 굳게 믿으시고 온 나라를 또다시 혁명적대진군에로 불러일으키시였다.\n\n지난 3월 1일 상원세멘트련합기업소를 축하방문하신 경애하는 총비서동지께서는 가능성이 없다고 단정했던 마지막한계점에서도 비상한 정신력과 과학기술의 힘으로 증산의 새로운 출구를 열어놓은 이곳 로동계급의 투쟁기풍을 값높이 평가하시였다.\n\n혁명의 3대자원중에서도 사상적자원을 절대중시하는 당의 의도에 맞게 대중의 무궁무진한 정신력을 최대로 발동하면서 선진과학기술에 의거한 자력갱생의 위력으로 줄기찬 앙양을 일으켜나가야 한다고 하신 총비서동지의 그날의 가르치심은 새로운 려정의 출발선에 나선 전체 인민을 끊임없는 비약과 위훈창조에로 추동한 전진동력이였다.\n\n당의 구상과 결심을 불변의 진리로 받아들이고 새로운 전망목표점령을 위한 총진군에 떨쳐나선 인민의 투쟁기세는 시작부터 기세찼다.\n\n증산의 예비는 생산자대중의 심장속에 있다는 당의 뜻을 받들고 인민경제 모든 부문, 모든 단위에서 당결정관철을 위한 단계별계획을 과학적으로, 세부적으로 세운데 기초하여 그 철저한 실행에로 로동계급의 혁명적열의를 더욱 증폭시키는 사상공세를 첨입식으로, 진공적으로 벌리였다.\n\n당중앙의 구상을 곧 공칭능력으로, 지상의 명령으로 간직한 전국의 공장, 기업소 일군들과 근로자들이 정신력과 과학기술력을 총발동하여 어제날의 새 기록을 오늘의 새 기준으로 부단히 갱신하며 더 높은 목표를 향해 힘차게 전진하였다.\n\n말이나 결의가 아니라 철두철미 높은 생산실적으로 당정책을 받들어온 상원세멘트련합기업소 로동계급이 또다시 기적적증산의 봉화를 추켜들고 전인민적진군의 전위에 섰다.\n\n우리의 심장이 뛰는한 소성로의 동음은 순간도 멈출수 없다는 관점밑에 이들은 여러개의 지지로라교체를 종전보다 훨씬 앞당겨 끝내고 능률적인 방법으로 수십일은 걸려야 한다던 로안벽축조를 단 며칠만에 해제낌으로써 1호계렬 설비집중대보수공사를 한주일동안에 질적으로 결속하였다.\n\n공칭능력과 한계를 부정하는 과감한 혁신으로 지난 3월 일평균 107%의 생산실적을 내고 4월에도, 5월에도 높이 세운 세멘트생산계획을 드팀없이 수행한 상원로동계급의 헌신적투쟁은 사회주의건설장마다에 거세찬 활력을 북돋아주었다.\n\n새 5개년고지점령의 선두에서 강력한 견인기적활약을 할것을 기대한다고 하신 경애하는 총비서동지의 크나큰 믿음을 받아안은 순천지구청년탄광련합기업소 천성청년탄광의 탄부들이 자력갱생과 과학기술을 번영의 보검으로 틀어쥐고 석탄공업부문의 선구자, 전형단위의 영예를 힘있게 떨치였다.\n\n이곳 기술자, 로동자들은 탄상조건에 알맞는 단벽식채굴방법을 도입하여 채취률을 제고하고 전차의 보수주기를 늘이면서도 많은 자재와 로력을 절약할수 있는 제동장치를 개발제작하는 등 10여건의 기술혁신성과를 받아들임으로써 지난해 같은 시기에 비해 106%의 생산실적을 기록하였다.\n\n상원과 천성에서 타오르는 기적과 혁신의 불길은 그대로 온 나라에 새 기준, 새 기록창조의 활화로 거세차게 번져졌다.\n\n북창지구청년탄광련합기업소 풍곡청년탄광 지하전초병들이 공화국창건기념일까지 년간계획을 끝낼것을 궐기하고 은파광산 광명갱의 광부들이 또다시 1만t의 광물을 더 생산할것을 결의해나선것을 비롯하여 인민경제 모든 부문, 단위가 새로운 혁신창조운동에 떨쳐나섰다.\n\n천성의 탄부들에게 안겨준 당중앙의 믿음을 석탄생산자들의 최상의 영광으로 간직한 2.8직동청년탄광의 탄부들도 한교대더하기, 다음교대도와주기, 한탄차더하기를 비롯한 여러가지 대중운동을 벌려 5월에만도 계획보다 천수백t의 석탄을 더 캐냈다.\n\n당대회결정관철의 첫해인 올해에 4년분 인민경제계획수행을 목표로 내걸고 지난 6월 5일까지 2년분 굴진계획을 완수한 구장지구탄광련합기업소 룡등탄광 김광철청년돌격대원들의 불같은 열의는 사상의 힘이 어떤 위대한 기적을 낳는가를 실천으로 증명해주었다.\n\n당의 대건설구상을 실천적성과로 받들어갈 일념을 안고 순천세멘트련합기업소 일군들과 근로자들이 100일동안 수만t의 세멘트를 더 생산한것을 비롯하여 세멘트생산단위들에서 전례없는 생산적앙양이 일어나 전국적인 세멘트생산량은 계획보다 장성하였다.\n\n정신력에 과학기술이 안받침되면 못해낼 일이 없고 그 어떤 기적도 창조할수 있다는 드팀없는 신념과 의지가 인민경제전반에서 분출되는 속에 설비들의 기술개건을 다그치고 생산능력을 확장하기 위한 사업이 본격화되여 뚜렷한 생산장성을 안아왔다.\n\n올해에 들어와 무려 세차례의 대발파를 성과적으로 단행한 무산광산련합기업소에서는 굴착기, 회전식착정기의 성능을 갱신하고 2호대형원추형파쇄기의 생산능력을 끌어올리기 위한 기술적대책을 강구하여 3월과 4월, 5월 철정광생산계획을 초과완수하였다.\n\n은률광산의 로동자, 기술자들은 서해리분광산 1선광장의 자철정광선별공정의 구조와 심부막장의 박토처리에 쓰이는 광차들의 바퀴를 합리적으로 개조하고 접촉기의 재생기술을 완성하여 철광석과 정광생산을 활성화할수 있는 담보를 마련하였다.\n\n기술혁신사업이 대중자신의 사업으로 확고히 전환되고있는 화학공업부문의 생산량이 늘어났다.\n\n오늘의 비료증산투쟁은 사상과 정신력의 진군인 동시에 기술전이라는것을 자각한 남흥청년화학련합기업소의 일군들과 로동계급은 증산의 예비를 기술혁신에서 찾고 기발한 발명과 창의고안들을 도입하기 위한 사업을 적극화하여 높아진 비료생산계획을 넘쳐 수행하였다.\n\n흥남비료련합기업소에서도 원료보장조건에 맞는 조작방법을 적극 활용하고 시간당 가스생산량을 늘이기 위한 기술적대책을 세워 계획보다 천수백t의 비료를 더 생산하였다.\n\n자체의 기술력량에 의거하여 설비들의 성능갱신과 정상운영에 주력하고있는 순천화학련합기업소에서 영양액비료의 생산성을 훨씬 높이였으며 신의주화학섬유공장, 봉화화학공장, 평양고무공장에서도 제품실수률을 제고하기 위한 기술혁신, 창의고안성과들을 도입하여 생산을 활성화하였다.\n\n과학기술력을 부단히 증대시켜 증산의 동음을 기운차게 울리는 단위들은 전력공업부문에서도 늘어났다.\n\n북창화력발전련합기업소에서는 보이라화실들의 점화띠를 먼적외선발열체로 시공하는 방법을 전반적으로 받아들여 연소효률을 높이는 등 발전설비들의 기술경제적지표들을 갱신함으로써 석탄을 절약하면서도 많은 전력을 증산하였다.\n\n수풍발전소, 장진강발전소, 서두수발전소 등에서도 수력구조물관리를 책임적으로 하면서 발전기들의 기술적특성에 맞게 부하분배를 하고 과학적인 물관리방법으로 고수위, 고효률운전을 보장하여 전력생산성과를 확대하였다.\n\n전반적경제부문을 주도하고 견인해야 할 높은 책임감을 안고 기계공업부문의 로동계급이 4.15기술혁신돌격대활동을 활발히 전개하여 설비들의 기술적성능을 끌어올리고 생산을 질량적으로 장성시켰다.\n\n생산의 전 공정에 엄격한 품질관리체계를 세운 평양326전선종합공장에서는 수지혼합기, 압연기, 대형연신기 등의 기술개조사업을 목적지향성있게 내밀어 질적지표가 담보된 각종 전선류생산에서 혁신을 일으켰다.\n\n안주절연물공장에서도 자체의 기술력량을 튼튼히 꾸리고 절연와니스생산공정을 현대화하기 위한 사업을 다그치면서 이미 구축해놓은 생산공정들의 정상운영을 보장하여 칠감, 절연물생산실적을 올리였다.\n\n채취공업, 경공업부문 등에서도 과학기술을 중시하고 과학기술발전에 사활을 걸고 근로자들모두가 지식형, 기술형의 인간으로 준비하는데 절실한 리해관계를 가지도록 경제적공간을 각방으로 조성하면서 대중적기술혁신운동을 힘있게 벌리였다.\n\n문평제련소의 로동자, 기술자들은 제련과정에 나오는 페가스로 류산을 생산할수 있는 공정확립을 비롯하여 페설물을 재리용하기 위한 새 기술개발에서 진전을 가져왔다.\n\n기술자, 기능공양성체계를 정연하게 세우고 종업원들의 기술기능수준을 끌어올려 새 제품개발과 질제고에서 진일보를 이룩한 평양양말공장에서도 생산공정현대화를 기본목표로 내세우고 현대적인 설비들을 증설하면서 인민들이 선호하고 즐겨찾는 제품들을 질량적으로 늘이였다.\n\n당의 사상관철전, 당정책옹위전에서 순간의 자만과 답보도 모르는 도도한 강인성과 완강한 분투정신으로 철도운수부문 수송전사들과 림업부문 통나무생산자들, 수산부문의 근로자들도 전국적인 철도화물수송계획과 통나무생산계획, 수산물생산계획을 매월 드팀없이 수행하였다.\n\n경제건설의 주요전구들에서 이룩되고있는 혁혁한 성과들은 경제적공간보다 사상적공간에서 예비와 가능성을 먼저 찾고 과학기술력을 부단히 증대시켜나갈 때 뚫지 못할 난관, 점령 못할 요새가 없다는것을 실증해주고있다.\n\n새로운 5개년계획의 첫해 과업관철을 위한 보무를 기운차게, 확신성있게 내짚은 영웅적로동계급의 헌신적인 투쟁으로 전반적인 공업생산이 계획보다 훨씬 늘어남으로써 나라의 경제를 안정적으로, 지속적으로 장성시킬수 있는 담보가 더욱 확고히 마련되게 되였다.\n\n사상으로 굳건하고 과학기술로 위력하며 당중앙의 두리에 천겹만겹으로 뭉친 위대한 우리 인민의 기세찬 전진을 가로막을 힘은 이 세상 그 어디에도 없다는 철리가 충성과 애국의 100일간 투쟁을 통하여 천만의 심장속에 억척불변의 신념으로 뿌리내렸다.\n\n전체 일군들과 당원들과 근로자들은 당결정관철에서 절대성, 무조건성의 정신과 기풍을 높이 발휘하며 가속화해온 100일낮, 100일밤의 진군을 줄기차게 이어 대고조전구마다에서 새 기준, 새 기록을 끊임없이 창조함으로써 력사적인 당 제9차대회가 제시한 새로운 전망목표를 무조건 점령하고야 말것이다.\n\n2026년 6월 15일\n\n평양",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNi0xNi0wMTdANEA2QEAwQDc3QA==",
-      "mediaType": "article",
-      "sourceId": "rodong-sinmun",
-      "sourceName": "로동신문",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 91
-      },
-      "featuredSections": [],
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/760fa8dee04c64e4b64d0593d0a374e7d7c24834e9dcbecdee49d9ff3e52c054.jpg",
-      "images": [
-        {
-          "id": "news:rodong-sinmun:2fd61078ce077a7a7b6f0ed8:image:760fa8dee04c64e4b64d0593d0a374e7d7c24834e9dcbecdee49d9ff3e52c054",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/760fa8dee04c64e4b64d0593d0a374e7d7c24834e9dcbecdee49d9ff3e52c054.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/760fa8dee04c64e4b64d0593d0a374e7d7c24834e9dcbecdee49d9ff3e52c054.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNi0xNi0wMTdANEA2QEAwQDc3QA==",
-          "displayOrder": 0
-        },
-        {
-          "id": "news:rodong-sinmun:2fd61078ce077a7a7b6f0ed8:image:4e1bc1693cddfe8a6933765c9de689828837d934fe1a90c6d0f1be5711398f67",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/4e1bc1693cddfe8a6933765c9de689828837d934fe1a90c6d0f1be5711398f67.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/4e1bc1693cddfe8a6933765c9de689828837d934fe1a90c6d0f1be5711398f67.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNi0xNi0wMTdANEA2QEAwQDc3QA==",
-          "displayOrder": 1
-        },
-        {
-          "id": "news:rodong-sinmun:2fd61078ce077a7a7b6f0ed8:image:1b3fd99f200ef89bc80cc7c884a2f08c1e8ed6ddffed864288b0ce4d554157aa",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/1b3fd99f200ef89bc80cc7c884a2f08c1e8ed6ddffed864288b0ce4d554157aa.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/1b3fd99f200ef89bc80cc7c884a2f08c1e8ed6ddffed864288b0ce4d554157aa.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNi0xNi0wMTdANEA2QEAwQDc3QA==",
-          "displayOrder": 2
-        },
-        {
-          "id": "news:rodong-sinmun:2fd61078ce077a7a7b6f0ed8:image:45fbd18d00de5d86769019a98d7ff124925d34ac1806be1f0eea504b5a6acde5",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/45fbd18d00de5d86769019a98d7ff124925d34ac1806be1f0eea504b5a6acde5.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/45fbd18d00de5d86769019a98d7ff124925d34ac1806be1f0eea504b5a6acde5.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNi0xNi0wMTdANEA2QEAwQDc3QA==",
-          "displayOrder": 3
-        }
-      ],
-      "videos": []
-    },
-    "news:rodong-sinmun:152655f9d8b4b85b00b22953": {
-      "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953",
-      "title": "사회주의리상촌으로 나날이 일신되는 평남의 농촌\n대동군과 맹산군, 증산군, 양덕군의 농촌들에 현대적인 문화주택들이 일떠섰다",
-      "date": "2026-01-22",
-      "snippet": "사회주의리상촌으로 나날이 일신되는 평남의 농촌",
-      "body": "사회주의리상촌으로 나날이 일신되는 평남의 농촌\n\n대동군과 맹산군, 증산군, 양덕군의 농촌들에 현대적인 문화주택들이 일떠섰다\n\n온 나라 농촌을 인민의 지상락원으로 전변시키려는 당의 웅대한 구상이 빛나는 현실로 펼쳐지는 속에 평안남도의 여러 농촌마을이 천지개벽되였다.\n\n대동군 서제리와 맹산군 읍, 반룡리, 증산군 만풍리, 양덕군 은하리에 즐비하게 일떠선 현대적인 문화주택들은 새시대 농촌혁명강령을 밝혀주시고 그 실현을 위해 크나큰 심혈과 로고를 바쳐가시는 경애하는 김정은동지의 정력적인 령도에 의하여 마련된 행복의 보금자리이다.\n\n우리식 농촌발전을 다그치기 위한 오늘의 거창한 창조대전에서 맡고있는 임무의 중요성을 자각한 대동군과 맹산군의 당, 정권기관 일군들은 건축물의 실용성과 다양성, 조형예술화가 철저히 구현되도록 조직정치사업을 심화시켰다.\n\n증산군, 양덕군의 일군들과 건설자들은 근로자들의 생활상편의보장을 첫자리에 놓고 선진적인 공법들을 활용하여 건설물들의 질을 철저히 보장하였으며 주변정리와 원림경관조성도 적극적으로 내밀었다.\n\n평안남도와 해당 지역의 당, 정권기관 일군들, 건설자들, 농업근로자들이 참가한 살림집입사모임들에서는 축하연설들이 있었다.\n\n연설자들은 당의 뜨거운 은정속에 새 살림집들에 입사하는 근로자들을 열렬히 축하하였다.\n\n조국땅 곳곳에 솟아난 선경마을들은 건설을 나라의 전반적국력을 제고하고 인민들을 우리식 사회주의문명에로 선도하는 중요한 정치적사업으로 중시하시며 인민대중제일주의건축의 최전성기를 열어나가시는 경애하는 김정은동지의 불면불휴의 애국헌신이 안아온 빛나는 결실이라고 그들은 강조하였다.\n\n그들은 일군들과 농업근로자들이 나라에서 지어준 살림집과 마을들을 알뜰히 거두고 더 잘 꾸리며 사회주의농촌의 비약적발전을 이룩하기 위한 투쟁에 헌신해나갈데 대하여 언급하였다.\n\n모임들에서는 살림집리용허가증이 참가자들의 열렬한 박수속에 전달되였으며 결의토론들이 있었다.\n\n토론자들은 농업근로자들을 공산주의사회의 첫어구에 남먼저 들어서게 하시려 이 땅우에 위민헌신의 새 력사를 펼쳐가시는 경애하는 원수님께 가장 뜨거운 고마움의 인사를 삼가 드리였다.\n\n그들은 당이 제시한 농업발전의 5대요소, 축산업발전의 4대고리를 틀어쥐고 알곡과 축산물생산을 더욱 늘여 인민생활향상에 실질적으로 이바지할 결의를 피력하였다.\n\n새집들이가 시작되자 흥겨운 농악무가 펼쳐지고 당의 은덕에 보답할 맹세로 승화된 진정넘친 목소리들이 울려나왔다.\n\n근로자들과 주민들은 한결같이 경애하는 원수님의 크나큰 사랑속에 희한한 새 살림집에서 부럼없는 복락을 누리게 되였다고 하면서 인민들의 모든 소원을 꽃피워주는 우리 당이 제일이라고 격정을 터치였다.\n\n새집의 주인들과 자리를 같이한 일군들은 오늘의 행복을 한생토록 간직하고 고마운 우리 당과 사회주의제도를 위해 더 많은 일을 하자고 고무해주었다.\n\n【조선중앙통신】",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
+    "news:rodong-sinmun:ebc7ef44784c1381ce6049c2": {
+      "id": "news:rodong-sinmun:ebc7ef44784c1381ce6049c2",
+      "title": "위대한 손길아래 인민의 리상과 실천력은 높아간다",
+      "date": "2026-05-23",
+      "snippet": "위대한 손길아래 인민의 리상과 실천력은 높아간다",
+      "body": "위대한 손길아래 인민의 리상과 실천력은 높아간다\n\n오늘 우리 조국은 경제와 문화, 국방 등 모든 분야가 동시에 일어서고 수도만이 아니라 지방들도 다같이 변모되며 도시와 마을, 산천도 일시에 변하는 전면적부흥의 새시대를 맞이하였다.\n\n혁명에서 더 거창한 혁명에로, 한단계의 발전에서 더 높은 경지의 변천에로 줄기차게 나아가는 그 로정에서 이룩된 가장 귀중하고 더없이 소중한 변화가 있다.\n\n미증유의 경이적인 변혁들과 더불어 인민의 리상이 높아지고 안목이 넓어졌으며 재능과 창조력이 커진것, 사람들 누구나 부단히 새것과 발전을 지향하고 희망의 키를 나날이 더욱 솟구며 완강한 실천력을 발휘해가는 가슴벅찬 화폭이다.\n\n지금 우리 인민은 오랜 세월 품고있던 세기적인 꿈과 념원이 실현되는 격동의 현실을 체감하면서 더 좋을 앞날에 대한 신심과 락관에 넘쳐있으며 보다 원대한 리상을 목표하고 그 실현을 위해 견인불발의 완강한 투쟁과 노력을 기울이고있다.\n\n자기 위업, 자기 리상의 성공적결실에 대한 인민의 드팀없는 확신은 이미 약동하는 우리 시대의 확고한 사상감정으로 형성되였으며 바라던 모든 꿈과 리상을 꽃피워주는 위대한 우리 당을 일편단심 받들어갈 인민의 신념과 의지는 날로 더욱 백배해지고있다.\n\n우리의 사상과 국력의 높이를 과시하는 현대적인 기념비적창조물들도 많고 우리 생활의 곳곳에 깃드는 새시대의 변화들도 좋지만 력사의 주체인 인민대중의 사상정신적성장이야말로 실로 벅차고 뿌듯한 자긍심을 자아낸다.\n\n날로 높아가는 우리 인민의 리상과 완강한 실행력,\n\n참으로 이것은 우리의 주체적력량을 백배로 다지는 진정한 변화이고 앞으로의 진보와 발전을 더욱 촉진하고 굳건히 담보하는 변혁중의 가장 중요한 변혁이며 인민을 억세게 키워 그 무궁무진한 힘으로 혁명을 전진시켜나가는 우리당 령도방식이 낳은 빛나는 결실이다.\n\n경애하는 김정은동지께서는 다음과 같이 말씀하시였다.\n\n《변천에서 더 큰 변천에로 짚어가는 이 급속한 걸음은 필연코 온 나라가 전변되고 흥하는 원대한 리상에로 가닿게 될것이라고 확신합니다.》\n\n모든 일은 리상과 목표를 세우는것으로부터 시작되고 그것이 얼마나 높고 그 실천을 위함에 얼마만한 실행력과 투지가 안받침되는가에 따라 결과가 좌우된다.\n\n언제나 높은 리상과 크나큰 포부를 지니고 그 수준과 경지를 부단히 갱신하며 견인불발의 투쟁과 완강한 노력을 기울여가는 국가와 인민은 언제나 강하고 승리하는 법이다.\n\n남달리 애국심이 강한 우리 인민의 간절한 념원은 우리 조국을 세상에서 으뜸가는 천하제일강국으로 빛내이는것이다.\n\n이 리상과 꿈을 실현하기 위하여 우리 인민은 장구한 기간 고난을 이겨내며 자력부강의 한길로 굴함없이 전진하여왔으며 근로의 성실한 노력으로 귀중한 승리들을 안아올렸다.\n\n우리 인민들이 대대손손 꿈으로만 그려보던 리상향들을 전국의 이르는 곳마다에 줄기차게 일떠세워주시고 지어는 상상조차 하지 못했던 문명과 번영의 세계를 련이어 펼쳐주시는 경애하는 총비서동지의 손길아래 오늘 이 땅우에는 력사에 전무한 경이적인 변혁과 전변의 화폭들이 무수히 펼쳐지고있다.\n\n우리 인민을 억척으로 지키고 하늘높이 떠받들어 세상에 부럼없이 잘살게 하실 가장 숭고한 리념과 원대한 포부를 지니시고 인민의 가슴속에 간직된 소망과 념원을 찬란한 현실로 꽃피워주시는 우리의 경애하는 총비서동지,\n\n그이는 우리 인민을 원대한 리상과 완강한 실천력을 지닌 창조의 거인들로 키우시고 그 위력을 최대한 분출시켜 기존관례와 기록을 초월한 기적적현실들을 무수히 펼쳐가시는 걸출한 령도자이시다.\n\n한해한해가 가슴벅찬 변화와 경이적인 사변들로 충만된 지난 5년간의 투쟁로정은 그대로 경애하는 총비서동지의 손길아래 이어져온 우리 인민의 비약적인 성장과정과 새 생활, 새 행복에 대한 기록이라고도 할수 있다.\n\n비상한 창조와 인간의 전면적인 성장을 유기적으로 결합시키고 병행시켜나가시는 경애하는 총비서동지의 원숙한 령도방식은 실로 우리 인민의 리상과 포부를 단기간에 현실의것으로, 기정사실로 되게 하는 위대한 힘이고 근본원천이다.\n\n경애하는 총비서동지의 현명한 령도에 의하여 거창한 건설사업들과 정치문화축전들을 비롯한 모든 공간과 계기들이 인민들에게 새로운 리상과 포부를 안겨주고 창조적안목을 틔워주며 자신심을 배가해주는 과정으로 철저히 일관됨으로써 보다 선진적인것, 보다 혁신적인것, 보다 독창적인것을 지향하고 실천하는것이 우리 인민의 목표로, 의지로 자리잡게 되였다.\n\n매해 나라의 20개 시, 군에 현대적인 지방공업공장들이 일떠서는것만 해도 꿈같은 현실이건만 그와 병행하여 지방건설에서 개념조차 없던 종합봉사소들과 리상적인 지방병원들까지 멋들어지게 솟아오르고 수도에는 년년이 새로운 모습으로 현대적인 새 거리들이 일떠서는 눈부신 변천상은 인민들의 가슴마다에 자긍심과 분발심을 배가해주었다.\n\n당의 현명한 령도따라 줄달음쳐온 그 나날에 우리 인민은 선진문명의 세계에 성큼 들어서서 부단히 새것을 만들어내고 혁신하는 법을 익히면서 우리 식의 문명을 창조하였으며 자기자신들도 놀랄만큼 사상정신적으로 크게 진보하였다.\n\n세상제일의 탁월한 령도를 받는, 남들은 미처 바랄수도 없고 가질수는 더욱 없는 우리 인민만의 무상의 영광과 행운이 어찌 하늘처럼 높은 포부와 리상을, 희망과 꿈을 떠올리지 않을수 있으랴.\n\n여기에 경애하는 총비서동지의 현명한 령도에 의하여 불과 한두해사이에 수십년을 도약하여 바다를 낀 시, 군들의 미래의 변혁상을 보여주는 자랑스러운 축도로 전변된 신포시의 일군들과 근로자들이 꿈만 같은 체험속에 터치는 한결같은 토로가 있다.\n\n《경애하는 총비서동지의 구상을 실체로 이어놓으면 이렇게 세상에 둘도 없는 우리의것이 태여나게 되고 총비서동지의 가르치심대로만 하면 언제나 훌륭한 본보기가 됩니다.우리는 이것을 실체험으로 절감하였습니다.》\n\n이들의 격정넘친 목소리만 들어보아도 경애하는 총비서동지의 손길아래 우리 인민의 리상이 어느 높이에서 얼마나 빠른 속도로 실현되고있는가를 직관적으로 알수 있다.\n\n세대를 이어오며 바라던 꿈이 현실로 전환될 때마다, 더 큰 포부와 더 높은 리상을 간직할 때마다 경애하는 총비서동지에 대한 절대적인 믿음, 당정책에 대한 굳은 신뢰심이 더더욱 억세여지는것, 바로 이것이 이 나라 민심의 거세찬 흐름이다.\n\n사랑하는 인민들에게 모든 영광과 행복을 다 안겨주시려는 경애하는 총비서동지의 강렬한 숙원과 열망, 비상한 창조는 우리 인민의 실천력과 창조력, 안목과 미학관을 새시대에 부응한 높이에로 부단히 인도하는 근본요인으로 되고있다.\n\n경애하는 총비서동지께서 구상하시고 지향하시는 현대문명의 창조는 본질에 있어서 어제와 오늘이 다르게 부단히 갱신되고 도약하는 창조, 인민들이 리상으로만 그려보던것을 지어 표상에도 없던것을 휘황한 설계도로 펼치시고 인민의 무한한 힘을 발동하여 최상의것으로 실현하시는 완벽한 창조이다.\n\n혁명이란 말자체로 온갖 진부하고 뒤떨어진것을 새것, 선진적인것으로 바꾸는 투쟁이며 필연코 질적인 변화를 동반하게 된다!\n\n부단히 새것과 발전을 지향하라!\n\n이것은 인민의 리상실현을 위한 거창한 창조대전을 이끄시면서 경애하는 총비서동지께서 시종일관 강조하시는 문제이다.\n\n모든 면에서 훌륭한 리상적인 문화어촌 락원포와 동해기슭의 관광명소 원산갈마해안관광지구, 염분진해안공원지구와 온포근로자휴양소, 내용과 형식의 모든 면에서 대중봉사거점의 새로운 경지를 개척한 삼지연관광지구의 호텔들...\n\n우리 당이 내세우는 창조의 높이, 문명의 기준을 실체로 보여준 신의주온실종합농장과 우리가 리상하는 변혁의 높이, 개변의 정도를 명확히 새겨주는 새로운 기준, 축도로 일떠선 삼광축산농장은 또 얼마나 위대한 창조의 세계를 전하고있는것인가.\n\n오늘 아무리 완벽하고 훌륭한 건축물을 내놓았다고 해도 래일에는 반드시 이를 릉가하는 보다 새롭고 선진적인 창조물이 태여나야 한다는 확고부동한 지론을 안으시고 시공과 건설의 전 과정을 부단한 발전에로 이끌어주시는 경애하는 총비서동지,\n\n우리 대에 미래사회에서 당겨올수 있는것은 최대로 당겨오실 그이의 웅대한 구상과 새것과 발전만을 지향하시는 숭고한 창조의 세계에 의하여 인민의 리상과 슬기, 미학관과 안목이 날로 높아가고있는것이다.\n\n오늘날 우리 당의 지방발전정책이 실현됨에 따라 나라의 이르는 곳마다에 문명의 새 실체들이 일떠서면서 지방인민들의 눈빛과 보폭은 크게 달라졌으며 이제는 자기 고장의 잠재력으로 못해낼 일이 없다는, 하나를 창조해도 완벽한것으로 하고 자체의 힘으로 하며 제일먼저 하겠다는 백배의 자신심과 불굴의 투지가 이 땅 그 어디서나 세차게 맥박치고있다.\n\n새시대 농촌혁명강령과 더불어 농촌의 생활수준과 문화수준에서도 눈에 뜨이는 개변이 일어나고있으며 농업근로자들의 로동계급화, 선진화, 문명화는 가일층 촉진되고 비상한 애국열은 들끓는 사회주의전야마다에 그대로 비끼고있다.\n\n우리 당이 인민을 위한 일감들을 수많이 전개하고 이렇듯 부단한 갱신과 발전을 지향하며 완강하게 추진하는것은 결코 조건이 특별히 좋아지고 여유가 있고 풍족하여서가 아니다.\n\n세상에서 제일 좋은 우리 인민의 꿈과 리상을 실현시켜주려는 확고한 결심과 강렬한 의지를 안고 만난을 무릅쓰고 일떠세워가는 하나하나의 창조물이다.\n\n지금 이 시각에도 위대한 당중앙이 안겨준 원대한 리상과 포부로 조선사람의 정신력을 강용히 발양해나가고있는 우리 인민의 힘찬 진군길에 무한한 활력을 장진해주는 절세위인의 숭고한 혁명세계가 있다.\n\n우리 당은 인민들의 복리를 증진시키고 더 많은 혜택을 안겨줄 우월한 정책과 시책들을 변함없이 실시하고 끊임없이 늘여나갈것이며 인민들이 꿈속에서도 그려보는 부흥번영의 리상사회를 최대로 앞당겨올것이라고 하신 경애하는 총비서동지,\n\n당창건 75돐경축 열병식에서 경애하는 총비서동지께서는 자신의 절절한 심중을 담아 이렇게 말씀하시였다.\n\n《우리 인민의 리상은 위대하며 그 리상이 실현될 날은 꼭 옵니다.\n\n위대한 그 리상을 실현함에 총력을 다해나감으로써 사회주의건설의 더 높은 목표를 점령해나가는 길에서 누구나 체감할수 있는 혁신과 발전, 실질적인 변화를 이룩하도록 하겠습니다.》\n\n인민을 위하시는 진정이 그처럼 뜨거운분, 인민의 행복을 그리도 간절히 열망하며 자신의 모든것을 깡그리 바치시는 위대하신 우리 어버이 같으신분이 이 세상 그 어디에 또 있으랴.\n\n인민을 위하여 혼심을 바치시는데서 기쁨을 찾고 무한한 행복을 느끼는분이시기에 그이께서 밝혀주시는 휘황한 설계도에는 언제나 인민의 꿈이 소중히 실려있고 제시하시는 실천강령, 투쟁방략에는 인민의 요구와 리익을 전면적으로 실현할수 있는 최상의 진로가 명시되여있으며 이어가시는 혁명령도의 자욱자욱을 따라 인민의 리상이 빛나는 현실로 꽃펴나고있는것이다.\n\n조선로동당 제9차대회에서 하신 강령적인 결론에서도 경애하는 총비서동지께서는 우리의 리상과 목표, 전진속도는 부단히 변화발전하지만 조선혁명고유의 이민위천, 일심단결, 자력갱생의 리념은 불변이라는데 대하여 강조하시면서 모두다 사회주의위업의 전도에 대한 자신심과 열정, 투지를 백배하면서 우리 인민의 리상과 숙망을 훌륭히 실현할 그날을 앞당기기 위하여 힘차게 투쟁해나아가자고 열렬히 호소하시였다.\n\n오늘 우리 인민은 맑고 푸른 하늘아래 펼쳐지는 아름다운 리상향들과 희한하고 눈부신 선경들에서, 하여 나날이 개선향상되여가는 자신들의 생활속에서 로동당만 믿고 따르면 바라는 모든것이 천만가지 행복으로 꽃피고 그토록 념원하던 리상사회의 그날도 반드시 온다는 확신을 더욱 백배하고있으며 더 좋은 래일에 대한 아름다운 리상을 설계하고있다.\n\n세상사람들은 머지않아 가장 걸출한 령도자를 높이 모신 우리 인민이 온 행성이 부러워할 아름다운 미래를 어떻게 당겨오고 번영의 모든 꿈을 어떻게 이루어내는가를 똑똑히 목견하게 될것이다.\n\n본사기자 박세진",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNS0yMy0wNTBAM0A5QEAwQDEyMkA==",
       "mediaType": "article",
       "sourceId": "rodong-sinmun",
       "sourceName": "로동신문",
@@ -1808,175 +1760,12 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 194
+        "anecdote": 153
       },
       "featuredSections": [],
       "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/71c1d09ba6a562698a20fc76a0af207861843574fcc00d292cacb7eb8be15169.jpg",
-      "images": [
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:71c1d09ba6a562698a20fc76a0af207861843574fcc00d292cacb7eb8be15169",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/71c1d09ba6a562698a20fc76a0af207861843574fcc00d292cacb7eb8be15169.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/71c1d09ba6a562698a20fc76a0af207861843574fcc00d292cacb7eb8be15169.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 0
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:6a9438f0ed583ebfe12f1f8c87390811e5f65b3b793ba9fbc8cd4e068338ed8d",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/6a9438f0ed583ebfe12f1f8c87390811e5f65b3b793ba9fbc8cd4e068338ed8d.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/6a9438f0ed583ebfe12f1f8c87390811e5f65b3b793ba9fbc8cd4e068338ed8d.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 1
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:02cff0edf2c6c58343f910294ca5e148d650f79bfadcf304506431af84584dbc",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/02cff0edf2c6c58343f910294ca5e148d650f79bfadcf304506431af84584dbc.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/02cff0edf2c6c58343f910294ca5e148d650f79bfadcf304506431af84584dbc.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 2
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:35748f447c5503a59583d05e509fb48a93a4cfb37b77d16f010548c2f0c06524",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/35748f447c5503a59583d05e509fb48a93a4cfb37b77d16f010548c2f0c06524.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/35748f447c5503a59583d05e509fb48a93a4cfb37b77d16f010548c2f0c06524.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 3
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:734e4b2961b3e2ccacc50350bd91b005c6520448e9096c5de9dc65c3ff9c887a",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/734e4b2961b3e2ccacc50350bd91b005c6520448e9096c5de9dc65c3ff9c887a.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/734e4b2961b3e2ccacc50350bd91b005c6520448e9096c5de9dc65c3ff9c887a.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 4
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:c320cf1f7033053873bd7fdf10539a30200bef5a4df0b3b82abe4f105e60903b",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/c320cf1f7033053873bd7fdf10539a30200bef5a4df0b3b82abe4f105e60903b.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/c320cf1f7033053873bd7fdf10539a30200bef5a4df0b3b82abe4f105e60903b.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 5
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:25634df12f37163f4d89c22f06dcfd5ff0fe901b8487bb4e1c0f0405ecc6b71f",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/25634df12f37163f4d89c22f06dcfd5ff0fe901b8487bb4e1c0f0405ecc6b71f.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/25634df12f37163f4d89c22f06dcfd5ff0fe901b8487bb4e1c0f0405ecc6b71f.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 6
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:946e8cf340b17c1d1cd55a41974933b815076e34b3e4071157799dedf3a204a6",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/946e8cf340b17c1d1cd55a41974933b815076e34b3e4071157799dedf3a204a6.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/946e8cf340b17c1d1cd55a41974933b815076e34b3e4071157799dedf3a204a6.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 7
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:b6f7afd61cc66b0bd1ba99f7e31e4ab982f459cf0fff7499bab0a6fb779b4e86",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/b6f7afd61cc66b0bd1ba99f7e31e4ab982f459cf0fff7499bab0a6fb779b4e86.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/b6f7afd61cc66b0bd1ba99f7e31e4ab982f459cf0fff7499bab0a6fb779b4e86.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 8
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:7d615c7c05d9843b3e69a8107028a383160a7710d733b0d2076eb5088bf2fb18",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/7d615c7c05d9843b3e69a8107028a383160a7710d733b0d2076eb5088bf2fb18.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/7d615c7c05d9843b3e69a8107028a383160a7710d733b0d2076eb5088bf2fb18.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 9
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:13b74c8ee1ab6a074beda014eb315b467f2d67d9d227801853fc15577129a4b9",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/13b74c8ee1ab6a074beda014eb315b467f2d67d9d227801853fc15577129a4b9.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/13b74c8ee1ab6a074beda014eb315b467f2d67d9d227801853fc15577129a4b9.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 10
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:fe3af299c11cec7d32ca7b5c8191e22bd8149a3b1cb59087d864e981389c7cb5",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/fe3af299c11cec7d32ca7b5c8191e22bd8149a3b1cb59087d864e981389c7cb5.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/fe3af299c11cec7d32ca7b5c8191e22bd8149a3b1cb59087d864e981389c7cb5.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 11
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:26507b5fc6f36f4384cf3346adea847c52e099fc76ca57a85db8096a5678ae74",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/26507b5fc6f36f4384cf3346adea847c52e099fc76ca57a85db8096a5678ae74.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/26507b5fc6f36f4384cf3346adea847c52e099fc76ca57a85db8096a5678ae74.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 12
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:881152e0e2f5a75d3833fc903fe61d19cc2e3cf92d47c00b49e2422a9b97ec7b",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/881152e0e2f5a75d3833fc903fe61d19cc2e3cf92d47c00b49e2422a9b97ec7b.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/881152e0e2f5a75d3833fc903fe61d19cc2e3cf92d47c00b49e2422a9b97ec7b.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 13
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:f7eb4d2ed7f4fdab173200db0c151c9d506e0ebe9a23c59bdee5686691dbe943",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/f7eb4d2ed7f4fdab173200db0c151c9d506e0ebe9a23c59bdee5686691dbe943.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/f7eb4d2ed7f4fdab173200db0c151c9d506e0ebe9a23c59bdee5686691dbe943.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 14
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:4bceb401e006fdf019186a3f34032e63dd592108b46fec538e696270c13ae4a6",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/4bceb401e006fdf019186a3f34032e63dd592108b46fec538e696270c13ae4a6.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/4bceb401e006fdf019186a3f34032e63dd592108b46fec538e696270c13ae4a6.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 15
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:40f35d17171adf48a81109ab8f5443e9c2300dddb444ada8d6fbde619f8e382b",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/40f35d17171adf48a81109ab8f5443e9c2300dddb444ada8d6fbde619f8e382b.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/40f35d17171adf48a81109ab8f5443e9c2300dddb444ada8d6fbde619f8e382b.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 16
-        },
-        {
-          "id": "news:rodong-sinmun:152655f9d8b4b85b00b22953:image:cb94368ce70daa27b8d2bdbdec66208c04539e6b5c625eecd1bee8b239886ac4",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/cb94368ce70daa27b8d2bdbdec66208c04539e6b5c625eecd1bee8b239886ac4.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/cb94368ce70daa27b8d2bdbdec66208c04539e6b5c625eecd1bee8b239886ac4.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxNUBAMEAyMjVA==",
-          "displayOrder": 17
-        }
-      ],
+      "cachedThumbnailUrl": "",
+      "images": [],
       "videos": []
     }
   }
