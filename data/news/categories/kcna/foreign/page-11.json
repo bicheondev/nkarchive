@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,37 @@
   "section": "foreign",
   "page": 11,
   "pageSize": 5,
-  "totalItems": 773,
+  "totalItems": 774,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:9717aaa28b7bc5bfccb29f9c",
+      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
+      "date": "2026-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d71edc38f50c81691e4f69e6507f146b",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 47,
+        "document": 1,
+        "foreign": 50,
+        "domestic": 177
+      },
+      "featuredSections": [
+        "document"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9717aaa28b7bc5bfccb29f9c"
+    },
     {
       "id": "news:kcna:fc8a2a2b05a28962bdd220da",
       "title": "조국해방 81돐에 즈음하여 여러 나라에서 토론회 진행",
@@ -23,8 +51,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 171,
-        "foreign": 50
+        "international": 172,
+        "foreign": 51
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +73,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 51,
-        "domestic": 198
+        "foreign": 52,
+        "domestic": 203
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,9 +96,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 46,
-        "foreign": 52,
-        "domestic": 199
+        "important": 48,
+        "foreign": 53,
+        "domestic": 204
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,9 +120,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 47,
-        "foreign": 53,
-        "domestic": 200
+        "important": 49,
+        "foreign": 54,
+        "domestic": 205
       },
       "featuredSections": [],
       "hasImage": false,
@@ -102,28 +130,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Afe5721126ff1e0bdbe84a60f"
-    },
-    {
-      "id": "news:kcna:ad6c0b572f9aed37283b52a9",
-      "title": "조국해방 81돐에 즈음하여 로씨야정당,단체들 경축모임 진행",
-      "date": "2026-08-27",
-      "snippet": "(평양 8월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/710dc256fb896fdeddfe90acc0cd7ab8",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 192,
-        "foreign": 54
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aad6c0b572f9aed37283b52a9"
     }
   ]
 }

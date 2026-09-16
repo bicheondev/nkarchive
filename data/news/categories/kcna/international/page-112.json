@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 112,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:ce76b3f468734a55cd4d5fe6",
+      "title": "에짚트에서 고대무덤 발견",
+      "date": "2026-07-07",
+      "snippet": "(평양 7월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/292ad1aa6542173d004f5961fba0c68f",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 555
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ace76b3f468734a55cd4d5fe6"
+    },
     {
       "id": "news:kcna:58aec7d22bd8673487a33052",
       "title": "예멘의 심각한 교육실태",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 555
+        "international": 556
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 556
+        "international": 557
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 557
+        "international": 558
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 558
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aeca84ba8cb35dd91db42eac7"
-    },
-    {
-      "id": "news:kcna:65c327ca10ec75c8ca66d906",
-      "title": "중국에서 위성 발사",
-      "date": "2026-07-06",
-      "snippet": "(베이징 7월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f179badedc7abb67261f86c46e441947",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 559
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A65c327ca10ec75c8ca66d906"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aeca84ba8cb35dd91db42eac7"
     }
   ]
 }

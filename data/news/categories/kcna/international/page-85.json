@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 85,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:9868b7b026d83c4e2a2a1cba",
+      "title": "중국에서 위성발사",
+      "date": "2026-07-25",
+      "snippet": "(베이징 7월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a88a80648d938c973226fc204089388d",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 420
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9868b7b026d83c4e2a2a1cba"
+    },
     {
       "id": "news:kcna:f617bf64297a4aefd05a2d1c",
       "title": "인디아에서 가스폭발로 인명피해",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 420
+        "international": 421
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 421
+        "international": 422
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 422
+        "international": 423
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 423
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abe3a3f067454568c2ec505ff"
-    },
-    {
-      "id": "news:kcna:3e6cc8d7f2d72fe4206988bb",
-      "title": "여러 나라에서 칼부림범죄",
-      "date": "2026-07-24",
-      "snippet": "(평양 7월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/44feed533e124de54d7eb1fe460bd80b",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 424
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3e6cc8d7f2d72fe4206988bb"
+      "detailUrl": "/news/document?id=news%3Akcna%3Abe3a3f067454568c2ec505ff"
     }
   ]
 }

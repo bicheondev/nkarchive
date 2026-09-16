@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 181,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:42a3a3c70ef695aa100344ab",
+      "title": "영국에서 이스라엘을 규탄하는 항의시위 진행",
+      "date": "2026-05-18",
+      "snippet": "(평양 5월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d07080bc68338634a3d8bd3b084b30fc",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 900
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A42a3a3c70ef695aa100344ab"
+    },
     {
       "id": "news:kcna:07b40e764fe23c59a2841d31",
       "title": "탄자니아에서 관광업 발전",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 900
+        "international": 901
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 901
+        "international": 902
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 902
+        "international": 903
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 903
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae81802e0e4ea2ecebb770fb5"
-    },
-    {
-      "id": "news:kcna:fd839c8f7590ea94a3695dcb",
-      "title": "아프리카나라들의 식량위기",
-      "date": "2026-05-17",
-      "snippet": "(평양 5월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a386d78aa876d51a156619b09dd1d00c",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 904
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afd839c8f7590ea94a3695dcb"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae81802e0e4ea2ecebb770fb5"
     }
   ]
 }

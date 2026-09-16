@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 273,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:b4cb12a438aeac89ab2c8765",
+      "title": "말리에서 반테로작전",
+      "date": "2026-03-24",
+      "snippet": "(평양 3월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8fa49ab3c7133d046f24eeba1046d853",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1360
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab4cb12a438aeac89ab2c8765"
+    },
     {
       "id": "news:kcna:688ad60492a35ccab62f360c",
       "title": "네팔에서 대외무역액 증대",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1360
+        "international": 1361
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,9 +64,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 257,
-        "international": 1361,
-        "foreign": 374
+        "important": 259,
+        "international": 1362,
+        "foreign": 375
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,8 +87,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1362,
-        "foreign": 376
+        "international": 1363,
+        "foreign": 377
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,26 +108,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1363
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab1900044d9eb386f89d77132"
-    },
-    {
-      "id": "news:kcna:6428c49d2ee1dc34a5d7c5e8",
-      "title": "남아프리카의 광물가공업발전노력",
-      "date": "2026-03-23",
-      "snippet": "(평양 3월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b43994be2c183406e4c58488f4f62bb4",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1364
       },
       "featuredSections": [],
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6428c49d2ee1dc34a5d7c5e8"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab1900044d9eb386f89d77132"
     }
   ]
 }

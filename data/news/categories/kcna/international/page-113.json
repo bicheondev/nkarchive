@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 113,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:65c327ca10ec75c8ca66d906",
+      "title": "중국에서 위성 발사",
+      "date": "2026-07-06",
+      "snippet": "(베이징 7월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f179badedc7abb67261f86c46e441947",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 560
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A65c327ca10ec75c8ca66d906"
+    },
     {
       "id": "news:kcna:169df34ca0f72b0c1c4dcb39",
       "title": "이스라엘의 만행으로 인한 가자지대의 피해상황",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 560
+        "international": 561
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 561
+        "international": 562
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 562
+        "international": 563
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 563
+        "international": 564
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,28 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A24d108c3f1d90ed258cff3b5"
-    },
-    {
-      "id": "news:kcna:a8530cecf078858ee02c244f",
-      "title": "우리 나라 특명전권대사 오스트리아공화국 련방대통령에게 신임장 봉정",
-      "date": "2026-07-06",
-      "snippet": "(평양 7월 6일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4876cf18f8601fa53ff03112cd44d1a1",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 564,
-        "foreign": 163
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa8530cecf078858ee02c244f"
     }
   ]
 }

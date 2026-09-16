@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 201,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:b6f195d272ee1ffa1e485d8e",
+      "title": "나이제리아에서 반테로전 강화",
+      "date": "2026-05-06",
+      "snippet": "(평양 5월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6398e5eaf57ce2b7fc8a6f75be8c3b4b",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1000
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab6f195d272ee1ffa1e485d8e"
+    },
     {
       "id": "news:kcna:81b25de4c8a61243b4cfc14c",
       "title": "레바논애국력량조직 이스라엘의 정화위반행위 규탄",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1000
+        "international": 1001
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,9 +64,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 170,
-        "international": 1001,
-        "foreign": 241
+        "important": 172,
+        "international": 1002,
+        "foreign": 242
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1002
+        "international": 1003
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1003
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6843181204160621417149e4"
-    },
-    {
-      "id": "news:kcna:41c8132c5b5ae8f856476aad",
-      "title": "레바논남부에서 이스라엘의 공습으로 사상자 발생",
-      "date": "2026-05-05",
-      "snippet": "(평양 5월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/82e97f04fe6018b379a7b55322c3d17c",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1004
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A41c8132c5b5ae8f856476aad"
+      "detailUrl": "/news/document?id=news%3Akcna%3A6843181204160621417149e4"
     }
   ]
 }

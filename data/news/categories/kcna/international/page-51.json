@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 51,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:38739999fc164d5a903d6918",
+      "title": "소말리아와 나이제리아에서 반테로작전",
+      "date": "2026-08-18",
+      "snippet": "(평양 8월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/27b577f0293780b3112f51a4ff72a5d5",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 250
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A38739999fc164d5a903d6918"
+    },
     {
       "id": "news:kcna:4801e2c1e3c1072896eb908a",
       "title": "아프가니스탄에서 소아마비환자 발생",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 250
+        "international": 251
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 251,
-        "foreign": 65
+        "international": 252,
+        "foreign": 66
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 252
+        "international": 253
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 253
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac890b7f454a7a53a02b70272"
-    },
-    {
-      "id": "news:kcna:04885122a1758cbc5920828c",
-      "title": "중국외교부 일본이 침략력사를 심각히 반성할것을 요구",
-      "date": "2026-08-17",
-      "snippet": "(베이징 8월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/48fb846787a2b82536fd000b152f8658",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 254
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A04885122a1758cbc5920828c"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac890b7f454a7a53a02b70272"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 5,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:a67f860061495c7c0b264314",
+      "title": "메히꼬대통령 미국의 정치적음모를 배격",
+      "date": "2026-09-13",
+      "snippet": "(평양 9월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b63b9d173a10fa1cc96cd37dc52c11de",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 20
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa67f860061495c7c0b264314"
+    },
     {
       "id": "news:kcna:32e8032943ed8e9e72d5c52f",
       "title": "그리스에서 출생자수 감소",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 20
+        "international": 21
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 21
+        "international": 22
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 22
+        "international": 23
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,8 +103,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 23,
-        "foreign": 4
+        "international": 24,
+        "foreign": 5
       },
       "featuredSections": [
         "foreign"
@@ -94,26 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aeedcc0ac8c6fff33df4b2793"
-    },
-    {
-      "id": "news:kcna:a9af61f7221a6a732d3f70bd",
-      "title": "중국에서 위성 발사",
-      "date": "2026-09-12",
-      "snippet": "(베이징 9월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/76b9a3b6ea633ca9260de130c4291608",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 24
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa9af61f7221a6a732d3f70bd"
     }
   ]
 }

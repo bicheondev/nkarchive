@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 212,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:ca29d1670de9c6aefe3c964d",
+      "title": "싱가포르에서 제조업생산 증대",
+      "date": "2026-04-29",
+      "snippet": "(평양 4월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/306e1c10dc52d65d7e2f0221e8fde598",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1055
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aca29d1670de9c6aefe3c964d"
+    },
     {
       "id": "news:kcna:433efe619da6b0ff43f230de",
       "title": "팔레스티나수상 정화합의를 리행하지 않는 이스라엘을 규탄",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1055
+        "international": 1056
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1056
+        "international": 1057
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,8 +83,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1057,
-        "foreign": 252
+        "international": 1058,
+        "foreign": 253
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1058
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A06372746962566c85c692b26"
-    },
-    {
-      "id": "news:kcna:ac6fd1244264ba05bc7426fd",
-      "title": "벌가리아에서 마약압수",
-      "date": "2026-04-28",
-      "snippet": "(평양 4월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1f54b9bad212a6308454db65eddc270c",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1059
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aac6fd1244264ba05bc7426fd"
+      "detailUrl": "/news/document?id=news%3Akcna%3A06372746962566c85c692b26"
     }
   ]
 }

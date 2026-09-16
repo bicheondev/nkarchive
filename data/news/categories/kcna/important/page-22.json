@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,57 @@
   "section": "important",
   "page": 22,
   "pageSize": 5,
-  "totalItems": 525,
-  "totalPages": 105,
+  "totalItems": 527,
+  "totalPages": 106,
   "articles": [
+    {
+      "id": "news:kcna:9397884419af3b71a37f2877",
+      "title": "중화인민공화국 당 및 정부대표단이 우리 나라를 공식친선방문한다",
+      "date": "2026-07-14",
+      "snippet": "(평양 7월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/76e471556c65618ca63a95cc5211194c",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 105,
+        "foreign": 136,
+        "domestic": 724
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9397884419af3b71a37f2877"
+    },
+    {
+      "id": "news:kcna:39ead580bf9bcf46017340a9",
+      "title": "조선민주주의인민공화국 당 및 정부대표단 중화인민공화국 공식방문을 마치고 귀국",
+      "date": "2026-07-13",
+      "snippet": "(평양 7월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1f3f3192de3528ef59f273778f7d4177",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 106,
+        "foreign": 139,
+        "domestic": 737
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d5bb65acfdb324d4f68d6c52ee7c244ae",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/d74627fb57c74c671076629e3676db69e025ffd2659eaa02db673572c5234372.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A39ead580bf9bcf46017340a9"
+    },
     {
       "id": "news:kcna:faf26259a6a8a143fa686f64",
       "title": "조선민주주의인민공화국 내각총리 박태성동지가 중화인민공화국 국무원 총리 리강동지와 회담",
@@ -24,9 +72,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 105,
-        "international": 508,
-        "foreign": 140
+        "important": 107,
+        "international": 509,
+        "foreign": 141
       },
       "featuredSections": [],
       "hasImage": true,
@@ -48,9 +96,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 106,
-        "international": 509,
-        "foreign": 141
+        "important": 108,
+        "international": 510,
+        "foreign": 142
       },
       "featuredSections": [],
       "hasImage": true,
@@ -73,10 +121,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 107,
+        "important": 109,
         "document": 11,
-        "foreign": 145,
-        "domestic": 752
+        "foreign": 146,
+        "domestic": 757
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,54 +132,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-406e9ede28934529"
-    },
-    {
-      "id": "news:kcna:edcda6deb3cabb8725864bba",
-      "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지에게 축전을 보내시였다",
-      "date": "2026-07-11",
-      "snippet": "(평양 7월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/33440a53c448bd023e6c91b2fb19b5b9",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 108,
-        "foreign": 146,
-        "domestic": 753
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aedcda6deb3cabb8725864bba"
-    },
-    {
-      "id": "news:kcna:d41f2c7ebc03a7d8bfff3a39",
-      "title": "경애하는 김정은동지께 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지가 축전을 보내여왔다",
-      "date": "2026-07-11",
-      "snippet": "(평양 7월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2f0b119efee795bf633861fbf212fdda",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 109,
-        "international": 519,
-        "foreign": 147
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad41f2c7ebc03a7d8bfff3a39"
     }
   ]
 }

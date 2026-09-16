@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 262,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:c7486c06ef8002f6494ccdc4",
+      "title": "북빙양의 얼음면적 계속 감소",
+      "date": "2026-03-29",
+      "snippet": "(평양 3월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e1580d57bdcce9315c960def82b7edcc",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1305
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac7486c06ef8002f6494ccdc4"
+    },
     {
       "id": "news:kcna:e067a45be95ce25344e71531",
       "title": "제34차 4월의 봄 친선예술축전참가를 지향해온 중국의 예술인들",
@@ -23,8 +43,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1305,
-        "foreign": 349
+        "international": 1306,
+        "foreign": 350
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,9 +66,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 238,
-        "international": 1306,
-        "foreign": 350
+        "important": 240,
+        "international": 1307,
+        "foreign": 351
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +88,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1307
+        "international": 1308
       },
       "featuredSections": [],
       "hasImage": false,
@@ -89,7 +109,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1308,
+        "international": 1309,
         "social": 220
       },
       "featuredSections": [],
@@ -98,26 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A6a542c7a9e15f4a06407663d"
-    },
-    {
-      "id": "news:kcna:79281407ccbc6e37c4d774d1",
-      "title": "레바논에서 계속되는 이스라엘의 민간인살륙만행",
-      "date": "2026-03-28",
-      "snippet": "(평양 3월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9f567fc75832ab82bd200fb4c7def363",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 1309
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A79281407ccbc6e37c4d774d1"
     }
   ]
 }

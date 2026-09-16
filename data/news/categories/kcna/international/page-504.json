@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 504,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:3cb5c989aa74adc977414e06",
+      "title": "일본에서 살인범죄",
+      "date": "2025-10-18",
+      "snippet": "(평양 10월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f3b6058d566207d6bdf0458c71209bbe",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2515
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3cb5c989aa74adc977414e06"
+    },
     {
       "id": "news:kcna:733beb05e8e1fe19cb32bb20",
       "title": "이란대통령 이슬람교나라들의 단합을 호소",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2515
+        "international": 2516
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2516
+        "international": 2517
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2517
+        "international": 2518
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,8 +103,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2518,
-        "foreign": 609
+        "international": 2519,
+        "foreign": 610
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,26 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A48ff08dde4f86b5460f2af3a"
-    },
-    {
-      "id": "news:kcna:5e3658495cf8a9ddf4136894",
-      "title": "가자지대에서 이스라엘군의 폭압만행 우심",
-      "date": "2025-10-17",
-      "snippet": "(평양 10월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9f780860c98d6197f20a29a45f77145e",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 2519
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5e3658495cf8a9ddf4136894"
     }
   ]
 }

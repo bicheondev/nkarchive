@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,37 @@
   "section": "foreign",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 773,
+  "totalItems": 774,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:277d901be894f94b941cb363",
+      "title": "조선민주주의인민공화국 국방성대표단 제13차 베이징향산연단에 참가하기 위하여 출발",
+      "date": "2026-09-16",
+      "snippet": "(평양 9월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bd82353bf10c262f36356b46b683f9b4",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 0,
+        "foreign": 0,
+        "domestic": 1
+      },
+      "featuredSections": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bac1db09a45b2c086283c41412ea9798ef",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/dcb68dda640d1a03f5714b2f41975ca53f373dfdaff1f3a93f16e1bdba632570.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A277d901be894f94b941cb363"
+    },
     {
       "id": "news:kcna:8441ec38a2e471e541ada548",
       "title": "조선민주주의인민공화국창건 78돐에 즈음하여 중국인민대외우호협회와 중조우호협회 연회 마련",
@@ -23,8 +51,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 0,
-        "foreign": 0
+        "international": 1,
+        "foreign": 1
       },
       "featuredSections": [
         "international",
@@ -49,14 +77,13 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 0,
-        "foreign": 1,
-        "domestic": 4
+        "important": 2,
+        "foreign": 2,
+        "domestic": 9
       },
       "featuredSections": [
         "important",
-        "foreign",
-        "domestic"
+        "foreign"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -76,8 +103,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 2,
-        "domestic": 7
+        "foreign": 3,
+        "domestic": 12
       },
       "featuredSections": [
         "foreign"
@@ -100,8 +127,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 3,
-        "domestic": 8
+        "foreign": 4,
+        "domestic": 13
       },
       "featuredSections": [
         "foreign"
@@ -111,30 +138,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba001befe9aa06c4fc81dfde03e5cbdc63",
       "cachedThumbnailUrl": "/data/news/assets/kcna/ef052130d496ddc946fee95a99caee66caf37785b54b2a02420d99ae0190a071.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A244924e44e9729197eed6aca"
-    },
-    {
-      "id": "news:kcna:eedcc0ac8c6fff33df4b2793",
-      "title": "로씨야주재 우리 나라 대사관 연회 마련",
-      "date": "2026-09-13",
-      "snippet": "(평양 9월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8ddd0c94be29ec8e33e81a01e8dfb9ed",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 23,
-        "foreign": 4
-      },
-      "featuredSections": [
-        "foreign"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aeedcc0ac8c6fff33df4b2793"
     }
   ]
 }

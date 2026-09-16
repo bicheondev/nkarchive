@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 3,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:a3d82b24a36b1d08f36fa14c",
+      "title": "세계적으로 심각한 철새멸종위기",
+      "date": "2026-09-14",
+      "snippet": "(평양 9월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a72648fde2b8c40b32d0fcde534a15c3",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 10
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa3d82b24a36b1d08f36fa14c"
+    },
     {
       "id": "news:kcna:46208b439ff5cb9147fac26a",
       "title": "캄보쟈와 먄마사이의 협조",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 10
+        "international": 11
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 11
+        "international": 12
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 12
+        "international": 13
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 13
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad8c6a98f224d8e222a7329d5"
-    },
-    {
-      "id": "news:kcna:0980d42def1fbc40a834dd8a",
-      "title": "세계적으로 올해 8월이 가장 더운 8월로 기록",
-      "date": "2026-09-14",
-      "snippet": "(평양 9월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/81b5a90dbbd950463da4ccca240cf720",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 14
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0980d42def1fbc40a834dd8a"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad8c6a98f224d8e222a7329d5"
     }
   ]
 }

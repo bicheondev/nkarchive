@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "international",
   "page": 305,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:8a73eeb364b123e960afcc24",
+      "title": "수단에서 무장분쟁으로 민간인피해",
+      "date": "2026-03-01",
+      "snippet": "(평양 3월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/baca6a34c712eefb774e28a43e05f15d",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 1520,
+        "social": 278
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8a73eeb364b123e960afcc24"
+    },
     {
       "id": "news:kcna:018a7633228e7034a8bdba42",
       "title": "남아프리카의 구제역전파방지노력",
@@ -22,7 +44,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1520
+        "international": 1521
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1521
+        "international": 1522
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1522
+        "international": 1523
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +104,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1523
+        "international": 1524
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,30 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A598599e4faa87424bc6892ce"
-    },
-    {
-      "id": "news:kcna:6800ca50ddbfb7a7593ffa35",
-      "title": "경애하는 김정은동지께 니까라과공화국 공동대통령들이 축전을 보내여왔다",
-      "date": "2026-03-01",
-      "snippet": "(평양 3월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/cca438b2672c44200e2834f6f4d15308",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 302,
-        "international": 1524,
-        "foreign": 402
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6800ca50ddbfb7a7593ffa35"
     }
   ]
 }

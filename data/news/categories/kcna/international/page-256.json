@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 256,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:8f1aaa508e7c0c2dbd2ac313",
+      "title": "일본에서 공업생산 감소",
+      "date": "2026-04-02",
+      "snippet": "(평양 4월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/fba8c6c0f5e0f4f11cffb117ef62ec71",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1275
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8f1aaa508e7c0c2dbd2ac313"
+    },
     {
       "id": "news:kcna:dd485100338cafb113e278f3",
       "title": "몽골에서 들불피해",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1275
+        "international": 1276
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1276
+        "international": 1277
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1277
+        "international": 1278
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1278
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aef0ae0c65943e9f1596c88cb"
-    },
-    {
-      "id": "news:kcna:5381fb6cb89f952b62a3182d",
-      "title": "일본에서 심각한 독성화학물질에 의한 물오염상황",
-      "date": "2026-04-01",
-      "snippet": "(평양 4월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/bdaa011b6513152ae263733608a86912",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1279
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5381fb6cb89f952b62a3182d"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aef0ae0c65943e9f1596c88cb"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 24,
   "pageSize": 5,
-  "totalItems": 773,
+  "totalItems": 774,
   "totalPages": 155,
   "articles": [
+    {
+      "id": "news:kcna:b2c2016fa990fbacfc00c4af",
+      "title": "《송도원친선야영-2026》이 시작되였다",
+      "date": "2026-07-20",
+      "snippet": "(평양 7월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/185bb922aa774b33e000547ace8fba4d",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "foreign": 115,
+        "domestic": 645,
+        "social": 80
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d218da6520dcf6c8e9c0c54fe6aceabb0",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/2591755f27251e2f1c6104717b4ec09cb6b3b4df732c74108a66803c3d850d8d.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab2c2016fa990fbacfc00c4af"
+    },
     {
       "id": "news:kcna:fa48824057de40c7e3e5b315",
       "title": "로씨야에서 추모행사들 진행",
@@ -23,8 +47,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 463,
-        "foreign": 115
+        "international": 464,
+        "foreign": 116
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,9 +70,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 91,
-        "foreign": 116,
-        "domestic": 648
+        "important": 93,
+        "foreign": 117,
+        "domestic": 653
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +93,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 117,
-        "domestic": 649
+        "foreign": 118,
+        "domestic": 654
       },
       "featuredSections": [],
       "hasImage": true,
@@ -91,8 +115,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 118,
-        "domestic": 652
+        "foreign": 119,
+        "domestic": 657
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,32 +124,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A3f278dde3ad4806f69090607"
-    },
-    {
-      "id": "kcna-43f65c4f37a4e35b",
-      "title": "조선민주주의인민공화국 국방성 대변인 담화 발표",
-      "date": "2026-07-18",
-      "snippet": "(평양 7월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e0a2e981d4508ef10e8de44d2c7ed344",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 92,
-        "document": 10,
-        "foreign": 119,
-        "domestic": 661
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-43f65c4f37a4e35b"
     }
   ]
 }

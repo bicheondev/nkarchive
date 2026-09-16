@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "memory",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 218,
+  "totalItems": 219,
   "totalPages": 44,
   "articles": [
+    {
+      "id": "news:kcna:4dcb0df1090749bb8e026eb9",
+      "title": "몸소 가르쳐주신 과학적인 남새생산방법",
+      "date": "2026-09-16",
+      "snippet": "위대한 수령 김일성동지께서 1979년 6월 어느날 함경북도 청진시를 현지지도하시던 때의 일이다.",
+      "url": "http://www.kcna.kp/kp/article/detail/390adad17ef77bdb2a46d13b64b6c760",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 0
+      },
+      "featuredSections": [
+        "memory"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4dcb0df1090749bb8e026eb9"
+    },
     {
       "id": "news:kcna:cf9b603b5f2152b137d54df2",
       "title": "옹근소출을 내게 한 비결",
@@ -22,7 +44,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 0
+        "memory": 1
       },
       "featuredSections": [
         "memory"
@@ -44,7 +66,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 1
+        "memory": 2
       },
       "featuredSections": [
         "memory"
@@ -66,7 +88,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 2
+        "memory": 3
       },
       "featuredSections": [
         "memory"
@@ -88,28 +110,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 3
-      },
-      "featuredSections": [
-        "memory"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A013542fdcbcf5fea0c2fab93"
-    },
-    {
-      "id": "news:kcna:02299367788dfb31f4c4fa30",
-      "title": "몸소 그려주신 국장도안",
-      "date": "2026-09-07",
-      "snippet": "위대한 수령 김일성동지께서는 1947년 11월 어느날 창작가들과 일군들을 부르시여 국장을 만들데 대한 과업을 주시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/1c6ad24c20aaa37b3b8569cfa3c827c3",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 4
       },
       "featuredSections": [
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A02299367788dfb31f4c4fa30"
+      "detailUrl": "/news/document?id=news%3Akcna%3A013542fdcbcf5fea0c2fab93"
     }
   ]
 }

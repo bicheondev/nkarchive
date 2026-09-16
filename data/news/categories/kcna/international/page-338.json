@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 338,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:8072bf32e8e7415d75b1fd92",
+      "title": "필리핀에서 제조업부문 생산량 증가",
+      "date": "2026-02-11",
+      "snippet": "(평양 2월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5f1b2cd33b300436400011bbb7c8d17a",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1685
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8072bf32e8e7415d75b1fd92"
+    },
     {
       "id": "news:kcna:b497110220c03df4e18be35d",
       "title": "오스트랄리아에서 반이스라엘시위",
@@ -23,7 +43,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1685,
+        "international": 1686,
         "social": 327
       },
       "featuredSections": [],
@@ -44,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1686
+        "international": 1687
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1687
+        "international": 1688
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1688
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aaa76fc67e43272566c8db487"
-    },
-    {
-      "id": "news:kcna:e10f92d62960656ebd92778b",
-      "title": "아프리카나라들사이의 협조",
-      "date": "2026-02-10",
-      "snippet": "(평양 2월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d4c9855bf7c3acc56dc5276583a0f4a8",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1689
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae10f92d62960656ebd92778b"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaa76fc67e43272566c8db487"
     }
   ]
 }

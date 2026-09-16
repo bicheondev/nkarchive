@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "international",
   "page": 250,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:ad4a5a71f72b26494d539892",
+      "title": "수리아에서 심각한 인도주의위기",
+      "date": "2026-04-05",
+      "snippet": "(평양 4월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7339d5ad30a08b6b266e94b5ffe9a22a",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 1245,
+        "social": 197
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aad4a5a71f72b26494d539892"
+    },
     {
       "id": "news:kcna:66bdde5f73c81765bcc8acfe",
       "title": "영국의 런던에서 소년살인범죄",
@@ -22,7 +44,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1245
+        "international": 1246
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1246
+        "international": 1247
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,8 +85,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1247,
-        "foreign": 329
+        "international": 1248,
+        "foreign": 330
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,8 +107,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1248,
-        "foreign": 330
+        "international": 1249,
+        "foreign": 331
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,26 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A03a050035fe69ce99a855eb5"
-    },
-    {
-      "id": "news:kcna:be170ccdb50b1dd9ef33c4f0",
-      "title": "로씨야외무성 대변인 나토의 군사적도발책동을 폭로",
-      "date": "2026-04-04",
-      "snippet": "(모스크바 4월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ea439bddfbf215651b622c5323674c76",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 1249
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abe170ccdb50b1dd9ef33c4f0"
     }
   ]
 }

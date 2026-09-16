@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 510,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:a8a127fb8324f086a7f46031",
+      "title": "수단에서 무장분쟁으로 인명피해",
+      "date": "2025-10-14",
+      "snippet": "(평양 10월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/53d08ad5fd563fca1d7fdea26a750f3b",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2545
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa8a127fb8324f086a7f46031"
+    },
     {
       "id": "news:kcna:3db969c10f23dfd3b50675f1",
       "title": "미국에서 살인범죄",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2545
+        "international": 2546
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2546,
-        "foreign": 624
+        "international": 2547,
+        "foreign": 625
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2547
+        "international": 2548
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2548
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8af36c7fb7d440fa64b7867b"
-    },
-    {
-      "id": "news:kcna:57d658144f14e82cf48520f6",
-      "title": "벨라루씨에서 무력의 전투준비태세를 검열하는 종합훈련 진행",
-      "date": "2025-10-13",
-      "snippet": "(평양 10월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c5cbadd0123dd6296ca772da5c4d2731",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 2549
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A57d658144f14e82cf48520f6"
+      "detailUrl": "/news/document?id=news%3Akcna%3A8af36c7fb7d440fa64b7867b"
     }
   ]
 }

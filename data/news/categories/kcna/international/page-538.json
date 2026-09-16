@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 538,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:bd82f2843819ec427b52c9f6",
+      "title": "로씨야와 이란 원자력분야에서 협조",
+      "date": "2025-09-27",
+      "snippet": "(평양 9월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0306e3a1cb1c21e3849d5efd7851af1a",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2685
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abd82f2843819ec427b52c9f6"
+    },
     {
       "id": "news:kcna:87712b45354614ee9ae10520",
       "title": "중국 미국회사들을 제재",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2685
+        "international": 2686
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2686
+        "international": 2687
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2687
+        "international": 2688
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,29 +104,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 520,
-        "international": 2688,
-        "foreign": 759
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A45757d393b074ed25cdec90a"
-    },
-    {
-      "id": "news:kcna:7257296c4b64d32299bb2d03",
-      "title": "우리 나라 외무상에게 여러 나라 외무상들이 축전을 보내여왔다",
-      "date": "2025-09-27",
-      "snippet": "(평양 9월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/dc3d3927228abb38600fe09ee50447a6",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
+        "important": 522,
         "international": 2689,
         "foreign": 760
       },
@@ -115,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7257296c4b64d32299bb2d03"
+      "detailUrl": "/news/document?id=news%3Akcna%3A45757d393b074ed25cdec90a"
     }
   ]
 }

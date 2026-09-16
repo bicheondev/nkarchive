@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 21,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:98bcf3b396eaeac768ca09fb",
+      "title": "보스니아-헤르쩨고비나의 학교에서 칼부림범죄",
+      "date": "2026-09-07",
+      "snippet": "(평양 9월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9e4a911d6ec8634ba280a86142057cdb",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 100
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A98bcf3b396eaeac768ca09fb"
+    },
     {
       "id": "news:kcna:5bcf2b5ae93a510135ad5456",
       "title": "유럽에서 에네르기가격 폭등",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 100
+        "international": 101
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 101
+        "international": 102
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 102
+        "international": 103
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 103
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8951723ebda92424b33329ae"
-    },
-    {
-      "id": "news:kcna:b5077e91c76b23f0b17a8aa8",
-      "title": "에스빠냐에서 고온현상",
-      "date": "2026-09-07",
-      "snippet": "(평양 9월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fda4d25d3ead1ba60c94d6183cdbd5e6",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 104
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab5077e91c76b23f0b17a8aa8"
+      "detailUrl": "/news/document?id=news%3Akcna%3A8951723ebda92424b33329ae"
     }
   ]
 }

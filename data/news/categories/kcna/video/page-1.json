@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "video",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 266,
+  "totalItems": 267,
   "totalPages": 54,
   "articles": [
+    {
+      "id": "news:kcna:e9b20448c09ece98e12a1b4d",
+      "title": "원료림조성에 큰 힘을 넣어",
+      "date": "2026-09-16",
+      "snippet": "원료림조성에 큰 힘을 넣어",
+      "url": "http://www.kcna.kp/kp/video/detail/bfd72d67d726cf9791e40eb3281245e9",
+      "mediaType": "article",
+      "categories": [
+        "video"
+      ],
+      "categoryOrders": {
+        "video": 0
+      },
+      "featuredSections": [
+        "video"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/5822a8a87b2e80d74a053e5cceb5cc81ac746f33623162bfd19544a00ace5af6.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae9b20448c09ece98e12a1b4d"
+    },
     {
       "id": "news:kcna:8ab7fb7b2b37461a6af61038",
       "title": "지역의 특성에 맞게 산림조성에 힘을 넣어",
@@ -22,7 +44,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 0
+        "video": 1
       },
       "featuredSections": [
         "video"
@@ -44,7 +66,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 1
+        "video": 2
       },
       "featuredSections": [
         "video"
@@ -66,7 +88,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 2
+        "video": 3
       },
       "featuredSections": [
         "video"
@@ -88,7 +110,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 3
+        "video": 4
       },
       "featuredSections": [
         "video"
@@ -98,28 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "/data/news/assets/kcna/45de97c26e152142879cc69a953d57831c15fbccb5970eecd20d977d865ed2b0.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A652be57754c7d52e852e0e86"
-    },
-    {
-      "id": "news:kcna:c4e0828c2b18cd2462b7abcb",
-      "title": "강원도안의 농장들에 펼쳐진 흐뭇한 메기풍경",
-      "date": "2026-09-08",
-      "snippet": "강원도안의 농장들에 펼쳐진 흐뭇한 메기풍경",
-      "url": "http://www.kcna.kp/kp/video/detail/e77bad018c52830145ce5a97d0632d98",
-      "mediaType": "article",
-      "categories": [
-        "video"
-      ],
-      "categoryOrders": {
-        "video": 4
-      },
-      "featuredSections": [
-        "video"
-      ],
-      "hasImage": true,
-      "hasVideo": true,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/045338bbb55dc2919dab3d53dc0713fe46b31c2b13cee85bb35cb00a10b38e9b.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac4e0828c2b18cd2462b7abcb"
     }
   ]
 }

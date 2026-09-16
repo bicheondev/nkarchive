@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 252,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:c8758dec2c20468f20ccb17f",
+      "title": "이스라엘 레바논남부에 대한 대규모공격 감행",
+      "date": "2026-04-04",
+      "snippet": "(평양 4월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7f14dcafae06c8cb0d45b38a5f7fe9de",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1255
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac8758dec2c20468f20ccb17f"
+    },
     {
       "id": "news:kcna:8292fed925f25bb68283440f",
       "title": "경애하는 김정은동지께 알제리민주인민공화국 대통령이 축전을 보내여왔다",
@@ -24,9 +44,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 228,
-        "international": 1255,
-        "foreign": 331
+        "important": 230,
+        "international": 1256,
+        "foreign": 332
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,9 +68,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 229,
-        "international": 1256,
-        "foreign": 332
+        "important": 231,
+        "international": 1257,
+        "foreign": 333
       },
       "featuredSections": [],
       "hasImage": false,
@@ -70,7 +90,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1257
+        "international": 1258
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,28 +111,6 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1258,
-        "foreign": 333
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4284090e7d1693239fc00473"
-    },
-    {
-      "id": "news:kcna:1b7bfd69be69f25389550ccb",
-      "title": "우리 나라 외무상에게 중화인민공화국 외교부장이 축전",
-      "date": "2026-04-04",
-      "snippet": "(평양 4월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/87d757d753b1e2b2bd4e91f75abab110",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
         "international": 1259,
         "foreign": 334
       },
@@ -121,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1b7bfd69be69f25389550ccb"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4284090e7d1693239fc00473"
     }
   ]
 }

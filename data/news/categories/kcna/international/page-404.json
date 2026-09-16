@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "version": "223c4b10503d481c",
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "version": "b2cfe91cd6063878",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 404,
   "pageSize": 5,
-  "totalItems": 2770,
-  "totalPages": 554,
+  "totalItems": 2771,
+  "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:5fa710017b94de05e8129759",
+      "title": "일본에서 공업생산 감소",
+      "date": "2025-12-27",
+      "snippet": "(평양 12월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/39bf0ec9666c87e285e37d65a53cfca1",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2015
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5fa710017b94de05e8129759"
+    },
     {
       "id": "news:kcna:3d18230ef42e4a79df52b73e",
       "title": "로씨야 운반로케트 발사",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2015
+        "international": 2016
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,9 +64,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 392,
-        "international": 2016,
-        "foreign": 495
+        "important": 394,
+        "international": 2017,
+        "foreign": 496
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,9 +88,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 393,
-        "international": 2017,
-        "foreign": 496
+        "important": 395,
+        "international": 2018,
+        "foreign": 497
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,9 +112,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 394,
-        "international": 2018,
-        "foreign": 497
+        "important": 396,
+        "international": 2019,
+        "foreign": 498
       },
       "featuredSections": [],
       "hasImage": true,
@@ -102,26 +122,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ff3de35fc1354a03f8ed4cd214cb00ebaf",
       "cachedThumbnailUrl": "/data/news/assets/kcna/700a129edff9b6ba619a046bcc823950fb5a49d85bacc0542522ba2a743f0555.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A251d007c0fec72a659ff5479"
-    },
-    {
-      "id": "news:kcna:bba95ed5fef32edb85cd8006",
-      "title": "10여개 나라가 이스라엘의 유태인정착촌확장책동을 반대하여 성명 발표",
-      "date": "2025-12-26",
-      "snippet": "(평양 12월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/48ebc91d561d0bd6794932f9b8596d00",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 2019
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abba95ed5fef32edb85cd8006"
     }
   ]
 }
