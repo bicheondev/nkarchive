@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "309249cf21d485b2",
+  "version": "8db4d3515aad3cb5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -12,6 +12,28 @@
   "totalPages": 44,
   "articles": [
     {
+      "id": "news:kcna:3b78fe64c18bcac12743e835",
+      "title": "예비가 아니라 우롱",
+      "date": "2026-09-17",
+      "snippet": "위대한 령도자 김정일동지께서는 1971년 3월 어느날 동해안지방을 다녀온 한 일군을 만나시여 어항들에서 명태를 랭동하고있는것을 보았는가고 물으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/17c310527b4fc29ca972c3ac858fcfe7",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 0
+      },
+      "featuredSections": [
+        "memory"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3b78fe64c18bcac12743e835"
+    },
+    {
       "id": "news:kcna:4dcb0df1090749bb8e026eb9",
       "title": "몸소 가르쳐주신 과학적인 남새생산방법",
       "date": "2026-09-16",
@@ -22,7 +44,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 0
+        "memory": 1
       },
       "featuredSections": [
         "memory"
@@ -44,7 +66,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 1
+        "memory": 2
       },
       "featuredSections": [
         "memory"
@@ -66,7 +88,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 2
+        "memory": 3
       },
       "featuredSections": [
         "memory"
@@ -88,28 +110,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 3
-      },
-      "featuredSections": [
-        "memory"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae082e73c6bcc855560121e85"
-    },
-    {
-      "id": "news:kcna:013542fdcbcf5fea0c2fab93",
-      "title": "국호제정도 우리 식으로",
-      "date": "2026-09-08",
-      "snippet": "위대한 수령 김일성동지께서는 1948년 7월 어느날 일군들을 부르시고 국호제정과 관련하여 제기된 문제를 료해하시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/2927835ac45a203ae669407654714c14",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 4
       },
       "featuredSections": [
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A013542fdcbcf5fea0c2fab93"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae082e73c6bcc855560121e85"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "309249cf21d485b2",
+  "version": "8db4d3515aad3cb5",
   "shard": "d5",
   "articles": {
     "news:kcna:5076f564ee9720e2f29e72e0": {
@@ -17,7 +17,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 64
+        "international": 72
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -152,7 +152,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 181
+        "international": 189
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -174,7 +174,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 248
+        "domestic": 258
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -196,7 +196,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 548
+        "domestic": 558
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -218,7 +218,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 762
+        "domestic": 772
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -731,7 +731,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 563
+        "international": 571
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -753,7 +753,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 951
+        "domestic": 961
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -775,7 +775,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 802
+        "international": 810
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -960,7 +960,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1229
+        "international": 1237
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -985,8 +985,8 @@
       ],
       "categoryOrders": {
         "important": 261,
-        "international": 1369,
-        "foreign": 378
+        "international": 1377,
+        "foreign": 380
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1008,7 +1008,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1412
+        "international": 1420
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1030,7 +1030,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1427
+        "international": 1435
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1120,7 +1120,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1658
+        "international": 1666
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1144,9 +1144,9 @@
         "social"
       ],
       "categoryOrders": {
-        "foreign": 448,
-        "domestic": 2434,
-        "social": 323
+        "foreign": 450,
+        "domestic": 2444,
+        "social": 324
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1169,8 +1169,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2623,
-        "social": 358
+        "domestic": 2633,
+        "social": 359
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e45177d386975583b6ad38d8d62e07bbda90",
@@ -1313,7 +1313,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2046
+        "international": 2054
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1335,7 +1335,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2118
+        "international": 2126
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1358,8 +1358,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 527,
-        "domestic": 3110
+        "foreign": 529,
+        "domestic": 3120
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1431,7 +1431,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2400
+        "international": 2408
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1453,7 +1453,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3683
+        "domestic": 3693
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1476,8 +1476,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3958,
-        "social": 633
+        "domestic": 3968,
+        "social": 634
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb46ebe44a7a9af9c039c71f257a982e1f",
@@ -1555,8 +1555,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 766,
-        "domestic": 4074
+        "foreign": 768,
+        "domestic": 4084
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/3d3755d837f6dc968fa55dbecad26d2216402d56a6e0530c042616ade261fe69",
@@ -1599,28 +1599,6 @@
           "displayOrder": 3
         }
       ],
-      "videos": []
-    },
-    "news:kcna:829e43301b6aef4b1384c21e": {
-      "id": "news:kcna:829e43301b6aef4b1384c21e",
-      "title": "2025년 9월 18일 신문개관",
-      "date": "2025-09-18",
-      "snippet": "(평양 9월 18일발 조선중앙통신)",
-      "body": "(평양 9월 18일발 조선중앙통신)\n\n18일 중앙신문들에 실린 주요소식과 글들\n\n-함경북도 길주군 길송리에 펼쳐진 새집들이경사\n\n-지식인들에게 국가학위학직 수여\n\n-전국금속재료부문 과학기술발표회 진행\n\n-원산갈마해안관광지구에서 미술기념품전시회 개막\n\n-인민경제 여러 부문과 단위들,각지에서 이룩되고있는 성과들\n\n-우리 나라의 오경령선수 2025년 세계레스링선수권대회 녀자레스링 55kg급경기에서 1위 쟁취\n\n《로동신문》\n\n-일군들과 당원들과 근로자들이 구호 《모두다 사회주의애국공로자들처럼 살며 투쟁하자!》를 높이 들고 아름답고 휘황한 미래를 앞당기기 위한 오늘의 투쟁에서 자기의 책임과 본분을 다해나갈데 대해 강조한 글\n\n-각지에 대중의 애국심을 최대로 분출시키기 위한 애국주의주제의 구호,표어,선전화들을 수많이 게시\n\n-올해에 들어와 400여개의 농근맹조직들이 사회주의애국림칭호 쟁취\n\n-조선민주주의인민공화국창건 77돐 경축모임 여러 나라에서 진행\n\n《민주조선》\n\n-알곡생산구조를 바꿀데 대한 당정책의 생활력이 뚜렷이 과시되고있는 사회주의농촌의 자랑찬 현실에 대해 쓴 글\n\n-《방위》의 허울을 완전히 벗어던지고 장거리타격수단들의 실전배비에 박차를 가하고있는 일본의 행태는 《대동아공영권》의 야망을 실현하기 위한데 있다고 까밝힌 글(끝)",
-      "url": "http://www.kcna.kp/kp/article/detail/606e82206e048bd1d34a3ecfb972c495",
-      "mediaType": "article",
-      "sourceId": "kcna",
-      "sourceName": "조선중앙통신",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 4150
-      },
-      "featuredSections": [],
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "images": [],
       "videos": []
     },
     "news:rodong-sinmun:796ddaaa0b90f995734ab137": {
