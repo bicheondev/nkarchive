@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-18T00:00:00.000Z",
-  "version": "705eb662f5ce7a57",
+  "version": "2f3e4296842e1f84",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,57 @@
   "section": "important",
   "page": 22,
   "pageSize": 5,
-  "totalItems": 530,
-  "totalPages": 106,
+  "totalItems": 532,
+  "totalPages": 107,
   "articles": [
+    {
+      "id": "news:kcna:aeb2d9c5dfe1dede273969d9",
+      "title": "중화인민공화국 당 및 정부대표단 평양 도착",
+      "date": "2026-07-16",
+      "snippet": "(평양 7월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/381ca117ba068cdef4f996fb1429abfc",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 105,
+        "foreign": 139,
+        "domestic": 731
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77daca0a9d01dc009b662a592a9bd8e913c",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/f7b53082171f006dbf540d963c1208bc80432083428718799dd224d007e72c26.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaeb2d9c5dfe1dede273969d9"
+    },
+    {
+      "id": "news:kcna:5753f0a9cdad4596c5714a30",
+      "title": "조선로동당 중앙위원회 비서 조용원동지가 중국인민정치협상회의 전국위원회 주석 왕호녕동지와 회담",
+      "date": "2026-07-16",
+      "snippet": "(평양 7월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7d63afcc1ae949eba868def4b5f09152",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 106,
+        "foreign": 140,
+        "domestic": 732
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dc8cf25c3fc2487244a4b451119f57b96",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/f2008483360d9880f114766192dc06ab492419d454916dafdfa895487537c68e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5753f0a9cdad4596c5714a30"
+    },
     {
       "id": "news:kcna:ff9effe8e9972e7a9b334c0d",
       "title": "중화인민공화국 당 및 정부대표단 우의탑에 꽃바구니 진정",
@@ -24,9 +72,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 105,
-        "foreign": 139,
-        "domestic": 723
+        "important": 107,
+        "foreign": 141,
+        "domestic": 733
       },
       "featuredSections": [],
       "hasImage": true,
@@ -47,8 +95,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 106,
-        "domestic": 735
+        "important": 108,
+        "domestic": 745
       },
       "featuredSections": [],
       "hasImage": true,
@@ -69,8 +117,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 107,
-        "domestic": 736
+        "important": 109,
+        "domestic": 746
       },
       "featuredSections": [],
       "hasImage": false,
@@ -78,54 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Af9182be40a7f7e6215ad8675"
-    },
-    {
-      "id": "news:kcna:9397884419af3b71a37f2877",
-      "title": "중화인민공화국 당 및 정부대표단이 우리 나라를 공식친선방문한다",
-      "date": "2026-07-14",
-      "snippet": "(평양 7월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/76e471556c65618ca63a95cc5211194c",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 108,
-        "foreign": 142,
-        "domestic": 749
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9397884419af3b71a37f2877"
-    },
-    {
-      "id": "news:kcna:39ead580bf9bcf46017340a9",
-      "title": "조선민주주의인민공화국 당 및 정부대표단 중화인민공화국 공식방문을 마치고 귀국",
-      "date": "2026-07-13",
-      "snippet": "(평양 7월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1f3f3192de3528ef59f273778f7d4177",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 109,
-        "foreign": 145,
-        "domestic": 762
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d5bb65acfdb324d4f68d6c52ee7c244ae",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/d74627fb57c74c671076629e3676db69e025ffd2659eaa02db673572c5234372.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A39ead580bf9bcf46017340a9"
     }
   ]
 }

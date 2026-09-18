@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-18T00:00:00.000Z",
-  "version": "705eb662f5ce7a57",
+  "version": "2f3e4296842e1f84",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -12,6 +12,26 @@
   "totalPages": 21,
   "articles": [
     {
+      "id": "news:kcna:a14d348e303aacbd14e05f15",
+      "title": "몸소 가르쳐주신 잔디재배방법",
+      "date": "2025-09-28",
+      "snippet": "2012년 9월 어느날이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/64acc63460cc88b64033d36d5698a223",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 100
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa14d348e303aacbd14e05f15"
+    },
+    {
       "id": "news:kcna:c38fd49d0e6e7094e2655a41",
       "title": "인민들이 리용하게 될 제품의 질도 가늠해보시며",
       "date": "2025-09-25",
@@ -22,7 +42,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 100
+        "anecdote": 101
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,26 +62,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 101
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A614e72a26491824f53cb773e"
-    },
-    {
-      "id": "news:kcna:940584903ad70183c9f08a72",
-      "title": "물놀이장에 생겨난 모래불",
-      "date": "2025-09-19",
-      "snippet": "2012년 5월 어느날 경애하는 김정은동지께서는 설계가들이 올린 릉라물놀이장설계초안을 보아주시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/54e15edaa0ba503ee2dd97a0882ec9a8",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 102
       },
       "featuredSections": [],
@@ -69,7 +69,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A940584903ad70183c9f08a72"
+      "detailUrl": "/news/document?id=news%3Akcna%3A614e72a26491824f53cb773e"
     }
   ]
 }

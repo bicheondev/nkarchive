@@ -1,49 +1,70 @@
 {
   "generatedAt": "2026-09-18T00:00:00.000Z",
-  "version": "705eb662f5ce7a57",
+  "version": "2f3e4296842e1f84",
   "sources": {
     "kcna": {
       "id": "kcna",
       "name": "조선중앙통신",
-      "totalItems": 8783,
+      "totalItems": 8779,
       "categoryCounts": {
-        "leadership": 226,
-        "important": 530,
-        "international": 2772,
-        "photo": 1041,
+        "leadership": 224,
+        "important": 532,
+        "international": 2768,
+        "photo": 1044,
         "anecdote": 103,
         "document": 62,
-        "foreign": 777,
-        "video": 267,
+        "foreign": 778,
+        "video": 266,
         "memory": 218,
-        "domestic": 4163,
-        "social": 675
+        "domestic": 4164,
+        "social": 673
       },
       "articles": [
         {
-          "id": "news:kcna:117ff1f4702fb59162819e08",
-          "title": "남포시의 녀맹원들 사회주의건설의 전구들로 진출",
+          "id": "news:kcna:01ff524bb3b6faf89d8beef2",
+          "title": "새시대의 리상적인 농장도시-신의주온실종합농장",
           "date": "2026-09-18",
-          "snippet": "(평양 9월 18일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/c0e3d2ead07fa222fc7d7bfb5feec17b",
+          "snippet": "새시대의 리상적인 농장도시-신의주온실종합농장",
+          "url": "http://www.kcna.kp/kp/gallery/detail/ca115514c34fb6535d17095e741bc6c2",
           "mediaType": "article",
           "categories": [
-            "domestic",
-            "social"
+            "photo"
           ],
           "categoryOrders": {
-            "domestic": 4,
-            "social": 0
+            "photo": 0
           },
           "featuredSections": [
-            "domestic",
-            "social"
+            "photo"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bae59b09af93479623508b8326f7f26893",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/c70c0cae4db43fba8c411afb1ec7066bdf9e56abbeb18aef479336ce2a43669d.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A01ff524bb3b6faf89d8beef2"
+        },
+        {
+          "id": "news:kcna:1674145b00bb8a101a81a2b2",
+          "title": "로씨야외무성 대변인 우크라이나에 대한 서방의 군사적지원책동에 경고",
+          "date": "2026-09-18",
+          "snippet": "(모스크바 9월 17일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/2a2a68c4e6082aa76ab2ed8eae54af94",
+          "mediaType": "article",
+          "categories": [
+            "international",
+            "domestic"
+          ],
+          "categoryOrders": {
+            "international": 2,
+            "domestic": 0
+          },
+          "featuredSections": [
+            "domestic"
           ],
           "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A117ff1f4702fb59162819e08"
+          "detailUrl": "/news/document?id=news%3Akcna%3A1674145b00bb8a101a81a2b2"
         },
         {
           "id": "news:kcna:175ca12efd2fdd5f092af812",
@@ -59,22 +80,138 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 0,
+            "important": 2,
             "document": 0,
-            "foreign": 0,
-            "domestic": 0
+            "foreign": 2,
+            "domestic": 10
           },
           "featuredSections": [
             "important",
             "document",
-            "foreign",
-            "domestic"
+            "foreign"
           ],
           "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A175ca12efd2fdd5f092af812"
+        },
+        {
+          "id": "news:kcna:24bd6a167f61403df395f957",
+          "title": "수도의 전시공로자가 은정어린 생일상을 받아안았다",
+          "date": "2026-09-18",
+          "snippet": "(평양 9월 18일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/91b464232fc173ddf3fe90d42e8fb295",
+          "mediaType": "article",
+          "categories": [
+            "domestic",
+            "social"
+          ],
+          "categoryOrders": {
+            "domestic": 5,
+            "social": 0
+          },
+          "featuredSections": [
+            "social"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A24bd6a167f61403df395f957"
+        },
+        {
+          "id": "news:kcna:456148f27d3f5f2c414699e8",
+          "title": "윁남에서 폭우와 큰물로 피해",
+          "date": "2026-09-18",
+          "snippet": "(평양 9월 18일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/290bb539ad307a64c9dbfd49aedef362",
+          "mediaType": "article",
+          "categories": [
+            "international"
+          ],
+          "categoryOrders": {
+            "international": 0
+          },
+          "featuredSections": [
+            "international"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A456148f27d3f5f2c414699e8"
+        },
+        {
+          "id": "news:kcna:5110ea5ba68c997f8e9895e8",
+          "title": "중국청년간부대표단 여러곳 참관",
+          "date": "2026-09-18",
+          "snippet": "(평양 9월 18일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/cd75dc712b14848e57c762c65bdb92c9",
+          "mediaType": "article",
+          "categories": [
+            "foreign",
+            "domestic"
+          ],
+          "categoryOrders": {
+            "foreign": 0,
+            "domestic": 1
+          },
+          "featuredSections": [
+            "foreign",
+            "domestic"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba650246c1fb8a523c64db4ccd4071de4c",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/9e3e95b44a3bb6ad4dff48b09ccc811dd29031e11af55f6369c876e099eb5425.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A5110ea5ba68c997f8e9895e8"
+        },
+        {
+          "id": "news:kcna:8aaadb25e654d8e424c18532",
+          "title": "《건설부문일군집중강습-2026》 진행",
+          "date": "2026-09-18",
+          "snippet": "(평양 9월 18일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/15f3d4b7504daef845c2f0cf177b3224",
+          "mediaType": "article",
+          "categories": [
+            "important",
+            "domestic"
+          ],
+          "categoryOrders": {
+            "important": 0,
+            "domestic": 9
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45babd7e3d805bd89b2cb18608665672121e",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/7eb2a0a37833024083a486af885be3dfd40a2679329174ea436e21dfbf06797d.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A8aaadb25e654d8e424c18532"
+        },
+        {
+          "id": "news:kcna:b714efb6b0bf9f64302f7901",
+          "title": "세심히 관심하신 의료보장대책",
+          "date": "2026-09-18",
+          "snippet": "경애하는 김정은동지께서 2018년 7월 어느날 삼지연감자가루생산공장을 현지지도하시던 때에 있은 일이다.",
+          "url": "http://www.kcna.kp/kp/article/detail/4cb8700440cc62b113462bf042cff32e",
+          "mediaType": "article",
+          "categories": [
+            "anecdote"
+          ],
+          "categoryOrders": {
+            "anecdote": 0
+          },
+          "featuredSections": [
+            "anecdote"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Ab714efb6b0bf9f64302f7901"
         },
         {
           "id": "news:kcna:f4411ff0faa90b977a81a992",
@@ -99,33 +236,106 @@
           "detailUrl": "/news/document?id=news%3Akcna%3Af4411ff0faa90b977a81a992"
         },
         {
-          "id": "news:kcna:1ac3699c6bda2ba1cf592e0d",
-          "title": "새시대의 리상적인 농장도시-신의주온실종합농장",
+          "id": "news:kcna:117ff1f4702fb59162819e08",
+          "title": "남포시의 녀맹원들 사회주의건설의 전구들로 진출",
           "date": "2026-09-18",
           "snippet": "(평양 9월 18일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/de7b9dd7583a4cefde6fbef51832ca83",
+          "url": "http://www.kcna.kp/kp/article/detail/c0e3d2ead07fa222fc7d7bfb5feec17b",
           "mediaType": "article",
           "categories": [
-            "domestic"
+            "domestic",
+            "social"
           ],
           "categoryOrders": {
-            "domestic": 1
+            "domestic": 14,
+            "social": 1
           },
           "featuredSections": [
-            "domestic"
+            "social"
           ],
           "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A1ac3699c6bda2ba1cf592e0d"
+          "detailUrl": "/news/document?id=news%3Akcna%3A117ff1f4702fb59162819e08"
         },
         {
-          "id": "news:kcna:96ccef39354baa9ac8723dc9",
-          "title": "새로와지는 개성시의 면모",
+          "id": "news:kcna:4a98fb844854587628433dd9",
+          "title": "가자지대에서 건물붕괴사고로 인명피해 발생",
           "date": "2026-09-18",
           "snippet": "(평양 9월 18일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/eba8106e920a6b5e9e36f83fa67a1c9a",
+          "url": "http://www.kcna.kp/kp/article/detail/43a7b07bdc02fcd9f6bb09914c453ead",
+          "mediaType": "article",
+          "categories": [
+            "international"
+          ],
+          "categoryOrders": {
+            "international": 1
+          },
+          "featuredSections": [
+            "international"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A4a98fb844854587628433dd9"
+        },
+        {
+          "id": "news:kcna:689023e4ee4b22fb73c6e52f",
+          "title": "중국청년간부대표단 여러곳 참관",
+          "date": "2026-09-18",
+          "snippet": "중국청년간부대표단 여러곳 참관",
+          "url": "http://www.kcna.kp/kp/gallery/detail/ce33bc020a7dc314b1ad1964a256154c",
+          "mediaType": "article",
+          "categories": [
+            "photo"
+          ],
+          "categoryOrders": {
+            "photo": 1
+          },
+          "featuredSections": [
+            "photo"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba650246c1fb8a523c64db4ccd4071de4c",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/9e3e95b44a3bb6ad4dff48b09ccc811dd29031e11af55f6369c876e099eb5425.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A689023e4ee4b22fb73c6e52f"
+        },
+        {
+          "id": "news:kcna:dc6702065ccfc1cbfa592931",
+          "title": "조선민주주의인민공화국 국방성대표단 제13차 베이징향산연단에 참가",
+          "date": "2026-09-18",
+          "snippet": "(평양 9월 18일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/350cc99404bbcfddfda949dc1456b870",
+          "mediaType": "article",
+          "categories": [
+            "important",
+            "international",
+            "foreign"
+          ],
+          "categoryOrders": {
+            "important": 1,
+            "international": 6,
+            "foreign": 1
+          },
+          "featuredSections": [
+            "important",
+            "foreign"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Adc6702065ccfc1cbfa592931"
+        },
+        {
+          "id": "news:kcna:0c47222df0f87c44846c8125",
+          "title": "각지 농촌들에서 벼가을 시작",
+          "date": "2026-09-18",
+          "snippet": "(평양 9월 18일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/88e9e1ca79987efc93bc3760abca12a5",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -140,14 +350,36 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A96ccef39354baa9ac8723dc9"
+          "detailUrl": "/news/document?id=news%3Akcna%3A0c47222df0f87c44846c8125"
         },
         {
-          "id": "news:kcna:7f18f5423f3f8db5ef8ca2ec",
-          "title": "각지에서 대중의 준법의식제고를 위한 사업 전개",
+          "id": "news:kcna:1d5f1cc1246ba4eaefe8a6b6",
+          "title": "《건설부문일군집중강습-2026》 진행",
+          "date": "2026-09-18",
+          "snippet": "《건설부문일군집중강습-2026》 진행",
+          "url": "http://www.kcna.kp/kp/gallery/detail/bb18e156cca15545c2886abd765f6409",
+          "mediaType": "article",
+          "categories": [
+            "photo"
+          ],
+          "categoryOrders": {
+            "photo": 2
+          },
+          "featuredSections": [
+            "photo"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45babd7e3d805bd89b2cb18608665672121e",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/7eb2a0a37833024083a486af885be3dfd40a2679329174ea436e21dfbf06797d.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A1d5f1cc1246ba4eaefe8a6b6"
+        },
+        {
+          "id": "news:kcna:315955d0756d060523cac81a",
+          "title": "평양시안의 고려약공장들에서 제품의 다종화,다양화실현에 주력",
           "date": "2026-09-18",
           "snippet": "(평양 9월 18일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/39425c276d7d72e0b7affbaf1995eece",
+          "url": "http://www.kcna.kp/kp/article/detail/60f97dabdb1fe0b2270de5da32013f26",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -162,29 +394,29 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A7f18f5423f3f8db5ef8ca2ec"
+          "detailUrl": "/news/document?id=news%3Akcna%3A315955d0756d060523cac81a"
         },
         {
-          "id": "news:kcna:21f21c9cf9cdf3f7c63d178c",
-          "title": "태풍25호 발생",
-          "date": "2026-09-17",
-          "snippet": "(평양 9월 17일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/808a30cbb328748916cac4b6fae4e27b",
+          "id": "news:kcna:e150c26ea2ab2416c099ec46",
+          "title": "《지적소유권부문전람회-2026》 페막",
+          "date": "2026-09-18",
+          "snippet": "(평양 9월 18일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/d38685d0fbd4ad279063d415acc754ce",
           "mediaType": "article",
           "categories": [
-            "international"
+            "domestic"
           ],
           "categoryOrders": {
-            "international": 0
+            "domestic": 4
           },
           "featuredSections": [
-            "international"
+            "domestic"
           ],
           "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A21f21c9cf9cdf3f7c63d178c"
+          "detailUrl": "/news/document?id=news%3Akcna%3Ae150c26ea2ab2416c099ec46"
         },
         {
           "id": "news:kcna:3b78fe64c18bcac12743e835",
@@ -231,52 +463,6 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A7bb7fa2825c01ea778cb2385"
         },
         {
-          "id": "news:kcna:a471baeac5b7d6ac0d09f78d",
-          "title": "까자흐스딴의 원유정제공업발전노력",
-          "date": "2026-09-17",
-          "snippet": "(평양 9월 17일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/1c32eb5fc075bf6fd5ca0522a10e12b2",
-          "mediaType": "article",
-          "categories": [
-            "international"
-          ],
-          "categoryOrders": {
-            "international": 1
-          },
-          "featuredSections": [
-            "international"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Aa471baeac5b7d6ac0d09f78d"
-        },
-        {
-          "id": "news:kcna:ad82825e3dbf800ae6a352c1",
-          "title": "조선민주주의인민공화국창건 78돐에 즈음하여 알제리대통령이 우리 나라 대표부에 꽃바구니를 보내여왔다",
-          "date": "2026-09-17",
-          "snippet": "(평양 9월 17일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/f2bbc7f591d62a9e1823b9168c072fe5",
-          "mediaType": "article",
-          "categories": [
-            "international",
-            "foreign"
-          ],
-          "categoryOrders": {
-            "international": 7,
-            "foreign": 1
-          },
-          "featuredSections": [
-            "foreign"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Aad82825e3dbf800ae6a352c1"
-        },
-        {
           "id": "news:kcna:f216f0812da6faa581461eca",
           "title": "남포시에서 선전선동력량 출동식 진행,포전경제선동 전개",
           "date": "2026-09-17",
@@ -288,8 +474,8 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 5,
-            "social": 1
+            "domestic": 15,
+            "social": 2
           },
           "featuredSections": [
             "social"
@@ -312,8 +498,8 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 18,
-            "social": 2
+            "domestic": 28,
+            "social": 3
           },
           "featuredSections": [
             "social"
@@ -323,6 +509,30 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A7d130badc5e026742f8d59a7"
+        },
+        {
+          "id": "news:kcna:ad82825e3dbf800ae6a352c1",
+          "title": "조선민주주의인민공화국창건 78돐에 즈음하여 알제리대통령이 우리 나라 대표부에 꽃바구니를 보내여왔다",
+          "date": "2026-09-17",
+          "snippet": "(평양 9월 17일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/f2bbc7f591d62a9e1823b9168c072fe5",
+          "mediaType": "article",
+          "categories": [
+            "international",
+            "foreign"
+          ],
+          "categoryOrders": {
+            "international": 14,
+            "foreign": 3
+          },
+          "featuredSections": [
+            "foreign"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Aad82825e3dbf800ae6a352c1"
         },
         {
           "id": "news:kcna:de968fba69378322d4048322",
@@ -336,8 +546,8 @@
             "foreign"
           ],
           "categoryOrders": {
-            "international": 8,
-            "foreign": 2
+            "international": 15,
+            "foreign": 4
           },
           "featuredSections": [
             "foreign"
@@ -347,28 +557,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3Ade968fba69378322d4048322"
-        },
-        {
-          "id": "news:kcna:e1edd70f7ab5ba6f532863b5",
-          "title": "서부지구영예군인보양소 준공",
-          "date": "2026-09-16",
-          "snippet": "서부지구영예군인보양소 준공",
-          "url": "http://www.kcna.kp/kp/gallery/detail/fb30aff56d9b962f0aaac09c4033aa31",
-          "mediaType": "article",
-          "categories": [
-            "photo"
-          ],
-          "categoryOrders": {
-            "photo": 0
-          },
-          "featuredSections": [
-            "photo"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba90cc407c23b12e7b3b0bfdc123de3832",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/572637223632916afc273d7e74081ee53d016aa00897903afb60d1c362225a0e.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3Ae1edd70f7ab5ba6f532863b5"
         },
         {
           "id": "news:kcna:4dcb0df1090749bb8e026eb9",
@@ -393,28 +581,6 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A4dcb0df1090749bb8e026eb9"
         },
         {
-          "id": "news:kcna:6cebc0232c96596d352e51b0",
-          "title": "조선민주주의인민공화국 국방성대표단 제13차 베이징향산연단에 참가하기 위하여 출발",
-          "date": "2026-09-16",
-          "snippet": "조선민주주의인민공화국 국방성대표단 제13차 베이징향산연단에 참가하기 위하여 출발",
-          "url": "http://www.kcna.kp/kp/gallery/detail/c426bcfdbb4a46e84684b6b01a1f2c50",
-          "mediaType": "article",
-          "categories": [
-            "photo"
-          ],
-          "categoryOrders": {
-            "photo": 1
-          },
-          "featuredSections": [
-            "photo"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bac1db09a45b2c086283c41412ea9798ef",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/dcb68dda640d1a03f5714b2f41975ca53f373dfdaff1f3a93f16e1bdba632570.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A6cebc0232c96596d352e51b0"
-        },
-        {
           "id": "news:kcna:1e4086b104b23f6d051571bc",
           "title": "조선민주주의인민공화국 국방성 대변인 립장발표",
           "date": "2026-09-16",
@@ -428,10 +594,10 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 2,
+            "important": 4,
             "document": 2,
-            "foreign": 4,
-            "domestic": 19
+            "foreign": 6,
+            "domestic": 29
           },
           "featuredSections": [
             "important",
@@ -467,6 +633,50 @@
           "detailUrl": "/news/document?id=news%3Akcna%3Ae9b20448c09ece98e12a1b4d"
         },
         {
+          "id": "news:kcna:e1edd70f7ab5ba6f532863b5",
+          "title": "서부지구영예군인보양소 준공",
+          "date": "2026-09-16",
+          "snippet": "서부지구영예군인보양소 준공",
+          "url": "http://www.kcna.kp/kp/gallery/detail/fb30aff56d9b962f0aaac09c4033aa31",
+          "mediaType": "article",
+          "categories": [
+            "photo"
+          ],
+          "categoryOrders": {
+            "photo": 3
+          },
+          "featuredSections": [
+            "photo"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba90cc407c23b12e7b3b0bfdc123de3832",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/572637223632916afc273d7e74081ee53d016aa00897903afb60d1c362225a0e.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3Ae1edd70f7ab5ba6f532863b5"
+        },
+        {
+          "id": "news:kcna:6cebc0232c96596d352e51b0",
+          "title": "조선민주주의인민공화국 국방성대표단 제13차 베이징향산연단에 참가하기 위하여 출발",
+          "date": "2026-09-16",
+          "snippet": "조선민주주의인민공화국 국방성대표단 제13차 베이징향산연단에 참가하기 위하여 출발",
+          "url": "http://www.kcna.kp/kp/gallery/detail/c426bcfdbb4a46e84684b6b01a1f2c50",
+          "mediaType": "article",
+          "categories": [
+            "photo"
+          ],
+          "categoryOrders": {
+            "photo": 4
+          },
+          "featuredSections": [
+            "photo"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bac1db09a45b2c086283c41412ea9798ef",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/dcb68dda640d1a03f5714b2f41975ca53f373dfdaff1f3a93f16e1bdba632570.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A6cebc0232c96596d352e51b0"
+        },
+        {
           "id": "news:kcna:277d901be894f94b941cb363",
           "title": "조선민주주의인민공화국 국방성대표단 제13차 베이징향산연단에 참가하기 위하여 출발",
           "date": "2026-09-16",
@@ -479,13 +689,12 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 3,
-            "foreign": 6,
-            "domestic": 26
+            "important": 5,
+            "foreign": 8,
+            "domestic": 36
           },
           "featuredSections": [
-            "important",
-            "foreign"
+            "important"
           ],
           "hasImage": true,
           "hasVideo": false,
@@ -505,8 +714,8 @@
             "international"
           ],
           "categoryOrders": {
-            "important": 4,
-            "international": 16
+            "important": 6,
+            "international": 23
           },
           "featuredSections": [
             "important"
@@ -516,30 +725,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A1550e28d5188d67ce2c04ddb"
-        },
-        {
-          "id": "news:kcna:c7f0e58ded1662e8a4a67b0f",
-          "title": "조선민주주의인민공화국창건 78돐 경축행사 여러 나라에서 진행",
-          "date": "2026-09-16",
-          "snippet": "(평양 9월 16일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/ff2e8e60b14363d1b3cbfb6e332b4402",
-          "mediaType": "article",
-          "categories": [
-            "international",
-            "foreign"
-          ],
-          "categoryOrders": {
-            "international": 15,
-            "foreign": 5
-          },
-          "featuredSections": [
-            "foreign"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Ac7f0e58ded1662e8a4a67b0f"
         },
         {
           "id": "news:kcna:46e4c2382f3e8fc005d1d4f1",
@@ -552,7 +737,7 @@
             "anecdote"
           ],
           "categoryOrders": {
-            "anecdote": 0
+            "anecdote": 1
           },
           "featuredSections": [
             "anecdote"
@@ -562,50 +747,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A46e4c2382f3e8fc005d1d4f1"
-        },
-        {
-          "id": "news:kcna:f5b7503c5c7a157ccaf04f55",
-          "title": "박태성 내각총리 여러 부문 사업 현지료해",
-          "date": "2026-09-15",
-          "snippet": "박태성 내각총리 여러 부문 사업 현지료해",
-          "url": "http://www.kcna.kp/kp/gallery/detail/e0203fe5f5aa4c8c08c96cabe04c91d5",
-          "mediaType": "article",
-          "categories": [
-            "photo"
-          ],
-          "categoryOrders": {
-            "photo": 2
-          },
-          "featuredSections": [
-            "photo"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba09020b8e7942f4761c47b60ad90da135",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/c8d8776a9badb6a6d3d661f4d7d97bb3ad43223eba73aade0238006afff8c04b.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3Af5b7503c5c7a157ccaf04f55"
-        },
-        {
-          "id": "news:kcna:84697572a25211ff8169e121",
-          "title": "우리 나라 외무성 부상이 중국청년간부대표단 주요성원들을 만났다",
-          "date": "2026-09-15",
-          "snippet": "우리 나라 외무성 부상이 중국청년간부대표단 주요성원들을 만났다",
-          "url": "http://www.kcna.kp/kp/gallery/detail/89bd2c3d2b518c077f2e46ebe26ff5d5",
-          "mediaType": "article",
-          "categories": [
-            "photo"
-          ],
-          "categoryOrders": {
-            "photo": 3
-          },
-          "featuredSections": [
-            "photo"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba09e3dd6e8dcc1729d2bc6ddb0643b6cd",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/810893730c19b4e809cabd1cabdf2790f99ff973bca6c494f57985e1a0bb12e6.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A84697572a25211ff8169e121"
         },
         {
           "id": "news:kcna:8ab7fb7b2b37461a6af61038",
@@ -641,8 +782,8 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 31,
-            "social": 3
+            "domestic": 41,
+            "social": 4
           },
           "featuredSections": [
             "social"
@@ -652,78 +793,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A9ecef372a93c1b99788393e0"
-        },
-        {
-          "id": "news:kcna:11c4939cf18200163cd0dfa0",
-          "title": "중국청년간부대표단 도착",
-          "date": "2026-09-15",
-          "snippet": "중국청년간부대표단 도착",
-          "url": "http://www.kcna.kp/kp/gallery/detail/5a6c9fa0d27357be960dac0f805f754f",
-          "mediaType": "article",
-          "categories": [
-            "photo"
-          ],
-          "categoryOrders": {
-            "photo": 4
-          },
-          "featuredSections": [
-            "photo"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba001befe9aa06c4fc81dfde03e5cbdc63",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/ef052130d496ddc946fee95a99caee66caf37785b54b2a02420d99ae0190a071.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A11c4939cf18200163cd0dfa0"
-        },
-        {
-          "id": "news:kcna:4719d7f11f22c199072c95d2",
-          "title": "경애하는 김정은동지께서 로씨야련방 대통령에게 답전을 보내시였다",
-          "date": "2026-09-15",
-          "snippet": "(평양 9월 15일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/b370d17059457ca52169a661a2246993",
-          "mediaType": "article",
-          "categories": [
-            "important",
-            "foreign",
-            "domestic"
-          ],
-          "categoryOrders": {
-            "important": 5,
-            "foreign": 8,
-            "domestic": 34
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A4719d7f11f22c199072c95d2"
-        },
-        {
-          "id": "news:kcna:23232e2ae162d760f3e59126",
-          "title": "경애하는 김정은동지께서 고 윤동현동지의 령전에 화환을 보내시였다",
-          "date": "2026-09-15",
-          "snippet": "(평양 9월 15일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/d96d3e2f2d8b27cb2edf161e23cd05d1",
-          "mediaType": "article",
-          "categories": [
-            "important",
-            "domestic"
-          ],
-          "categoryOrders": {
-            "important": 6,
-            "domestic": 35
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A23232e2ae162d760f3e59126"
         },
         {
           "id": "news:kcna:cf9b603b5f2152b137d54df2",
@@ -746,30 +815,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3Acf9b603b5f2152b137d54df2"
-        },
-        {
-          "id": "news:kcna:126c8e19cffd8f68fa2d2cd6",
-          "title": "은혜로운 품속에서 로당익장하는 예술인의 값높은 삶",
-          "date": "2026-09-14",
-          "snippet": "(평양 9월 14일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/3a663be31f34ebbb6927bae6e092a24e",
-          "mediaType": "article",
-          "categories": [
-            "domestic",
-            "social"
-          ],
-          "categoryOrders": {
-            "domestic": 51,
-            "social": 4
-          },
-          "featuredSections": [
-            "social"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A126c8e19cffd8f68fa2d2cd6"
         },
         {
           "id": "news:kcna:1ee277b1253c4e7a72e9680b",
@@ -870,7 +915,7 @@
             "anecdote"
           ],
           "categoryOrders": {
-            "anecdote": 1
+            "anecdote": 2
           },
           "featuredSections": [
             "anecdote"
@@ -961,10 +1006,10 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 46,
+            "important": 48,
             "document": 3,
-            "foreign": 49,
-            "domestic": 128
+            "foreign": 51,
+            "domestic": 138
           },
           "featuredSections": [
             "document"
@@ -986,7 +1031,7 @@
             "anecdote"
           ],
           "categoryOrders": {
-            "anecdote": 2
+            "anecdote": 3
           },
           "featuredSections": [
             "anecdote"
@@ -1030,7 +1075,7 @@
             "anecdote"
           ],
           "categoryOrders": {
-            "anecdote": 3
+            "anecdote": 4
           },
           "featuredSections": [
             "anecdote"
@@ -1064,28 +1109,6 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A6c087309cfb4a5c9e0a02650"
         },
         {
-          "id": "news:kcna:617c4c21b1de4aa6c63a3349",
-          "title": "실리있는 발전소라고 하시며",
-          "date": "2026-09-01",
-          "snippet": "경애하는 김정은동지께서는 2019년 5월 어느날 금야강2호발전소를 찾으시였다. 발전소에 도착하신 경애하는 총비서동지께서는 일군들에게 언제로 가보자고 하시였다.",
-          "url": "http://www.kcna.kp/kp/article/detail/8fbc37e9083817d5b1f97159ff602843",
-          "mediaType": "article",
-          "categories": [
-            "anecdote"
-          ],
-          "categoryOrders": {
-            "anecdote": 4
-          },
-          "featuredSections": [
-            "anecdote"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A617c4c21b1de4aa6c63a3349"
-        },
-        {
           "id": "news:kcna:9717aaa28b7bc5bfccb29f9c",
           "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
           "date": "2026-08-31",
@@ -1099,10 +1122,10 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 50,
+            "important": 52,
             "document": 4,
-            "foreign": 56,
-            "domestic": 202
+            "foreign": 58,
+            "domestic": 212
           },
           "featuredSections": [
             "document"
@@ -1127,10 +1150,10 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 54,
+            "important": 56,
             "document": 5,
-            "foreign": 62,
-            "domestic": 253
+            "foreign": 64,
+            "domestic": 263
           },
           "featuredSections": [
             "document"
@@ -1154,9 +1177,9 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 58,
+            "important": 60,
             "document": 7,
-            "domestic": 338
+            "domestic": 348
           },
           "featuredSections": [
             "document"
