@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 49,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:100a9a3df871f9a27388dd19",
+      "title": "인디아에서 밀주에 의한 인명피해",
+      "date": "2026-08-22",
+      "snippet": "(뉴델리 8월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f48fb17f3dba9034ea0d003af361745a",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 240
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A100a9a3df871f9a27388dd19"
+    },
     {
       "id": "news:kcna:224a07d52783f78890c8994e",
       "title": "챠드에서 종족간충돌로 사상자 발생",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 240
+        "international": 241
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 241
+        "international": 242
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 242
+        "international": 243
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 243
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-bd155908b022e401"
-    },
-    {
-      "id": "kcna-af5283039164b848",
-      "title": "미국의 막대한 국가채무",
-      "date": "2026-08-21",
-      "snippet": "(평양 8월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1801c7816cc5e3db7b7b0fca40d1fa9b",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 244
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-af5283039164b848"
+      "detailUrl": "/news/document?id=kcna-bd155908b022e401"
     }
   ]
 }

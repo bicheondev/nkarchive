@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 100,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:c5ad6086fd6b48757d47d93a",
+      "title": "필리핀에서 태양열발전소건설 추진",
+      "date": "2026-07-16",
+      "snippet": "(평양 7월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/97fbccef5eb062639c9f517995149dad",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 495
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac5ad6086fd6b48757d47d93a"
+    },
     {
       "id": "news:kcna:7ab12410173d36587aaa75ff",
       "title": "세네갈에서 식량의 자급자족을 위해 노력",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 495
+        "international": 496
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 496
+        "international": 497
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 497
+        "international": 498
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 498
+        "international": 499
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,28 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A7962775254644ef183b8ea15"
-    },
-    {
-      "id": "news:kcna:d0a24e26039830c9854da2b7",
-      "title": "여러 나라의 각계인사들 우리 나라 대표부들을 방문",
-      "date": "2026-07-16",
-      "snippet": "(평양 7월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e034da01c7666edce44e4db369629c25",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 499,
-        "foreign": 135
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad0a24e26039830c9854da2b7"
     }
   ]
 }

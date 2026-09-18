@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 23,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:713d94076f1adb05cb9b6f99",
+      "title": "미국에서 화물수송기사고로 인명피해",
+      "date": "2026-09-08",
+      "snippet": "(평양 9월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a84df1e0c1fd936c76c93de5b589a9b2",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 110
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A713d94076f1adb05cb9b6f99"
+    },
     {
       "id": "news:kcna:2b98a5c321d15606d81099db",
       "title": "벨지끄에서 총기류범죄 성행",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 110
+        "international": 111
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 39,
-        "international": 111
+        "important": 40,
+        "international": 112
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,9 +86,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 41,
-        "international": 112,
-        "foreign": 43
+        "important": 42,
+        "international": 113,
+        "foreign": 44
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,9 +110,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 43,
-        "international": 113,
-        "foreign": 45
+        "important": 44,
+        "international": 114,
+        "foreign": 46
       },
       "featuredSections": [],
       "hasImage": true,
@@ -100,26 +120,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba82da39e50399aefa0ca0efd04df3a66c",
       "cachedThumbnailUrl": "/data/news/assets/kcna/cf1c30094b586c33b55b93893c374edf09d2871282811661c8a8be9a1884f7ec.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A9052c8481a4e56be6fea9bb4"
-    },
-    {
-      "id": "news:kcna:a443104fa38a115f8212abf7",
-      "title": "네팔과 중국사이의 국경지역에서 재해후과 확대",
-      "date": "2026-09-07",
-      "snippet": "(평양 9월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/481ef07a35bf242067e7b8984788ad68",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 114
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa443104fa38a115f8212abf7"
     }
   ]
 }

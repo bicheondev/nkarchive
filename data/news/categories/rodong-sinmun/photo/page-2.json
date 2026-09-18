@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,9 +8,29 @@
   "section": "photo",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 50,
-  "totalPages": 10,
+  "totalItems": 51,
+  "totalPages": 11,
   "articles": [
+    {
+      "id": "news:rodong-sinmun:6f106b2f09218ab4afd37de6",
+      "title": "전승절을 축하합니다!",
+      "date": "2026-07-27",
+      "snippet": "전승절을 축하합니다!",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNy8yNy8yMS8yMDI2LTA3LTI3LTAxMS8yMDI2LTA3LTI3LTAwMS5qcGc==",
+      "mediaType": "article",
+      "categories": [
+        "photo"
+      ],
+      "categoryOrders": {
+        "photo": 5
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNy8yNy8yMS8yMDI2LTA3LTI3LTAxMS8yMDI2LTA3LTI3LTAwMS5qcGc==",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A6f106b2f09218ab4afd37de6"
+    },
     {
       "id": "news:rodong-sinmun:4a56339fc3871491f59c4587",
       "title": "전승세대의 넋은 굳건히 이어진다",
@@ -22,7 +42,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 5
+        "photo": 6
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 6
+        "photo": 7
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +82,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 7
+        "photo": 8
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,7 +102,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 8
+        "photo": 9
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,26 +110,6 @@
       "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNi8yNi8yMS8yMDI2LTA2LTI2LTAxNi8yMDI2LTA2LTI2LTAxMS5qcGc==",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A41253dcf3b8727045fcd5a12"
-    },
-    {
-      "id": "news:rodong-sinmun:3d8828804d878bdf68c565e0",
-      "title": "수도의 풍치를 돋구어주는 원림경관",
-      "date": "2026-06-21",
-      "snippet": "수도의 풍치를 돋구어주는 원림경관",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNi8yMS8xLzIwMjYtMDYtMjEtMDM2LzIwMjYtMDYtMjEtMDAxLmpwZw==",
-      "mediaType": "article",
-      "categories": [
-        "photo"
-      ],
-      "categoryOrders": {
-        "photo": 9
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNi8yMS8xLzIwMjYtMDYtMjEtMDM2LzIwMjYtMDYtMjEtMDAxLmpwZw==",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A3d8828804d878bdf68c565e0"
     }
   ]
 }

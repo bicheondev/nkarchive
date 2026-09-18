@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,9 +8,29 @@
   "section": "photo",
   "page": 9,
   "pageSize": 5,
-  "totalItems": 50,
-  "totalPages": 10,
+  "totalItems": 51,
+  "totalPages": 11,
   "articles": [
+    {
+      "id": "news:rodong-sinmun:f879a7c72f6839d58e6f441d",
+      "title": "후대들의 밝은 웃음을 위해 바쳐가는 긍지와 보람",
+      "date": "2025-03-11",
+      "snippet": "후대들의 밝은 웃음을 위해 바쳐가는 긍지와 보람",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNS8wMy8xMS8yMS8yMDI1LTAzLTExLTAwNy8yMDI1LTAzLTExLTAwMS5qcGc==",
+      "mediaType": "article",
+      "categories": [
+        "photo"
+      ],
+      "categoryOrders": {
+        "photo": 40
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNS8wMy8xMS8yMS8yMDI1LTAzLTExLTAwNy8yMDI1LTAzLTExLTAwMS5qcGc==",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Af879a7c72f6839d58e6f441d"
+    },
     {
       "id": "news:rodong-sinmun:4abef8c7f6771b5993eba337",
       "title": "고마운 당의 품속에서 참된 삶을 누려가는 우리 녀성들",
@@ -22,7 +42,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 40
+        "photo": 41
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 41
+        "photo": 42
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +82,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 42
+        "photo": 43
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,7 +102,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 43
+        "photo": 44
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,26 +110,6 @@
       "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNS8wMi8xNi8yMS8yMDI1LTAyLTE2LTAwNi8yMDI1LTAyLTE2LTAxNi5qcGc==",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aad2c002fef598a6b1af3adca"
-    },
-    {
-      "id": "news:rodong-sinmun:49fa9c680182088dd53652aa",
-      "title": "행복동이들",
-      "date": "2025-01-30",
-      "snippet": "행복동이들",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNS8wMS8zMC8yMS8yMDI1LTAxLTMwLTAwNC8yMDI1LTAxLTMwLTAwMS5qcGc==",
-      "mediaType": "article",
-      "categories": [
-        "photo"
-      ],
-      "categoryOrders": {
-        "photo": 44
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNS8wMS8zMC8yMS8yMDI1LTAxLTMwLTAwNC8yMDI1LTAxLTMwLTAwMS5qcGc==",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A49fa9c680182088dd53652aa"
     }
   ]
 }

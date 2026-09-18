@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:b26573b0e8f479eaed550a67",
+      "title": "중국에서 운반로케트 발사",
+      "date": "2026-09-17",
+      "snippet": "(베이징 9월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a0619e046bb8d64c7064897b1d195c27",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 5
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab26573b0e8f479eaed550a67"
+    },
     {
       "id": "news:kcna:afd6e2c09dfd93a8bfeb01ac",
       "title": "중국,로씨야,몽골 《국경경비협조-2026》합동훈련 진행",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 5
+        "international": 6
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 6,
-        "foreign": 0
+        "international": 7,
+        "foreign": 1
       },
       "featuredSections": [
         "foreign"
@@ -67,8 +87,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 7,
-        "foreign": 1
+        "international": 8,
+        "foreign": 2
       },
       "featuredSections": [
         "foreign"
@@ -90,26 +110,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 8
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acd820af45fa7747cb46b48f0"
-    },
-    {
-      "id": "news:kcna:3177768f88e004e1c628a58f",
-      "title": "끼르기즈스딴에서 국내총생산액 증가",
-      "date": "2026-09-16",
-      "snippet": "(평양 9월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/df369b09ee804007f9a01e798e2ecedb",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 9
       },
       "featuredSections": [],
@@ -117,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3177768f88e004e1c628a58f"
+      "detailUrl": "/news/document?id=news%3Akcna%3Acd820af45fa7747cb46b48f0"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 172,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:7c423e67656b437d50a5c210",
+      "title": "중국에서 유인우주비행선 발사",
+      "date": "2026-05-26",
+      "snippet": "(베이징 5월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a240dfd7b7dd820a835ec83768a1243a",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 855
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7c423e67656b437d50a5c210"
+    },
     {
       "id": "news:kcna:17f2012591aff1d158c37580",
       "title": "레바논애국력량조직 이스라엘을 반대하여 계속 싸울 립장 강조",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 855
+        "international": 856
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 856
+        "international": 857
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,8 +83,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 153,
-        "international": 857
+        "important": 154,
+        "international": 858
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 858
+        "international": 859
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Afab5206ded8487345ec2c683"
-    },
-    {
-      "id": "news:kcna:5496c8ac7e47c46118328574",
-      "title": "우리 나라 특명전권대사 스웨리예왕국 국왕에게 신임장 봉정",
-      "date": "2026-05-26",
-      "snippet": "(평양 5월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/dfd3a2b855140ee336ddf225d588f71d",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 859,
-        "foreign": 221
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5496c8ac7e47c46118328574"
     }
   ]
 }

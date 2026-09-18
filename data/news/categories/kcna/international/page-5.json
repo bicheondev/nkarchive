@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 5,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:f80ab9e7d991f2c1294f226a",
+      "title": "스웨리예에서 총격사건",
+      "date": "2026-09-15",
+      "snippet": "(평양 9월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1dc3edce96216ec0fd8d57ea5b5f1b6a",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 20
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af80ab9e7d991f2c1294f226a"
+    },
     {
       "id": "news:kcna:5f954287a1eac0da24d08fad",
       "title": "제18차 브릭스수뇌자회의 진행",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 20
+        "international": 21
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 21
+        "international": 22
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 22
+        "international": 23
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 23
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae49896454c2b24662a39253a"
-    },
-    {
-      "id": "news:kcna:8c1f9bafd897e655bfbf5290",
-      "title": "오스트랄리아에서 조류독감으로 죽은 바다사자 발견",
-      "date": "2026-09-15",
-      "snippet": "(평양 9월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/22f58b49147e4b5fe7407dcb2c1d8b52",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 24
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8c1f9bafd897e655bfbf5290"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae49896454c2b24662a39253a"
     }
   ]
 }

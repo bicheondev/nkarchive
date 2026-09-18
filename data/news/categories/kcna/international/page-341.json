@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 341,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:5721ff6c85ee540c820ba15a",
+      "title": "뛰르끼예와 아프가니스탄에서 반마약작전",
+      "date": "2026-02-11",
+      "snippet": "(평양 2월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/de9ef612e729d59a8726a856f7addb27",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1700
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5721ff6c85ee540c820ba15a"
+    },
     {
       "id": "news:kcna:8072bf32e8e7415d75b1fd92",
       "title": "필리핀에서 제조업부문 생산량 증가",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1700
+        "international": 1701
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1701,
-        "social": 329
+        "international": 1702,
+        "social": 330
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1702
+        "international": 1703
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1703
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A339254e24a816a6ad094ea37"
-    },
-    {
-      "id": "news:kcna:aa76fc67e43272566c8db487",
-      "title": "잠비아에서 자연에네르기를 리용한 전력증산을 계획",
-      "date": "2026-02-10",
-      "snippet": "(평양 2월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ae491600c6a7a3a7fcb407705d316ae8",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1704
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aaa76fc67e43272566c8db487"
+      "detailUrl": "/news/document?id=news%3Akcna%3A339254e24a816a6ad094ea37"
     }
   ]
 }

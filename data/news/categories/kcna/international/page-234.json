@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 234,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:fa449464f4c7d195a92cd662",
+      "title": "소말리아에서 반테로작전",
+      "date": "2026-04-16",
+      "snippet": "(평양 4월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/15932b08b0db4feb1288fd6795f862ff",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1165
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afa449464f4c7d195a92cd662"
+    },
     {
       "id": "news:kcna:b4c7aef36527c296dc45e63e",
       "title": "이스라엘군 가자지대에서 정화이래 2 400건의 위반행위 감행",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1165
+        "international": 1166
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 202,
-        "international": 1166
+        "important": 203,
+        "international": 1167
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,8 +85,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 203,
-        "international": 1167
+        "important": 204,
+        "international": 1168
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1168
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3b7a082d284bf60f7368cc25"
-    },
-    {
-      "id": "news:kcna:2d642c51b90c8e846a1a643d",
-      "title": "레바논에서 식량위기 악화",
-      "date": "2026-04-15",
-      "snippet": "(평양 4월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d460b259fddbf53c5fca13d5915a7d66",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1169
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2d642c51b90c8e846a1a643d"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3b7a082d284bf60f7368cc25"
     }
   ]
 }

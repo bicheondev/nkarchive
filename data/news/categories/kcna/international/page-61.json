@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 61,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:25672e26e850c0630ae3e741",
+      "title": "아프가니스탄과 먄마에서 마약압수",
+      "date": "2026-08-13",
+      "snippet": "(평양 8월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/53f91b98281f6cdc1646db9e1cb9da85",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 300
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A25672e26e850c0630ae3e741"
+    },
     {
       "id": "news:kcna:3d70ad5fb6fee3801b7b59bb",
       "title": "중국 태평양섬나라연단에 하나의 중국원칙을 준수할것을 요구",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 300
+        "international": 301
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 301
+        "international": 302
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 302
+        "international": 303
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 303
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A147950aa289a1ba1159e1dc5"
-    },
-    {
-      "id": "news:kcna:cc39f6167262eabb734057e7",
-      "title": "태평양의 방사능오염이 날로 심해지고있다",
-      "date": "2026-08-13",
-      "snippet": "(평양 8월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/77f5958900db1040c2799a89e57d5b6b",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 304
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acc39f6167262eabb734057e7"
+      "detailUrl": "/news/document?id=news%3Akcna%3A147950aa289a1ba1159e1dc5"
     }
   ]
 }

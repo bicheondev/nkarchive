@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 123,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:1e1ae1a071d5b0ab16b141a5",
+      "title": "로씨야대통령 서방은 로씨야를 굴복시킬수 없다고 언명",
+      "date": "2026-07-01",
+      "snippet": "(모스크바 6월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1c8a1089cc4c129fe0450d7ea0672a79",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 610
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1e1ae1a071d5b0ab16b141a5"
+    },
     {
       "id": "news:kcna:f8f1d78b98982411f4a60dcf",
       "title": "에짚트에서 고대유적 발굴",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 610
+        "international": 611
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 611
+        "international": 612
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 612
+        "international": 613
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,8 +103,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 613,
-        "foreign": 176
+        "international": 614,
+        "foreign": 177
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,26 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aee521c7a168d905508b9e320"
-    },
-    {
-      "id": "news:kcna:054415600a753544bbb34d3e",
-      "title": "도이췰란드에서 고온기록 련일 갱신",
-      "date": "2026-06-30",
-      "snippet": "(평양 6월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f4f56ebfedbac827ffeabf98d8a0bef1",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 614
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A054415600a753544bbb34d3e"
     }
   ]
 }

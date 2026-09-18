@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 445,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:d2164671d55f90285fe7b300",
+      "title": "레바논에서 이스라엘의 군사적공격으로 인명피해",
+      "date": "2025-12-01",
+      "snippet": "(평양 12월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2ac4d25af55c879b87d74c956d6ce0c6",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2220
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad2164671d55f90285fe7b300"
+    },
     {
       "id": "news:kcna:e0b4f9462d6c2093ef8f9b90",
       "title": "몽골에서 추위경보 발령",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2220
+        "international": 2221
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2221
+        "international": 2222
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2222
+        "international": 2223
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2223
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3008b5e1915a4fc73fb612d6"
-    },
-    {
-      "id": "news:kcna:a843ca2e8aee336da1a934b1",
-      "title": "수리아에 대한 이스라엘의 공습만행",
-      "date": "2025-11-30",
-      "snippet": "(평양 11월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5d66f72e36c42b8f341d3c48bc8da985",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 2224
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa843ca2e8aee336da1a934b1"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3008b5e1915a4fc73fb612d6"
     }
   ]
 }

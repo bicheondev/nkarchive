@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 523,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:c7e13bfd9a9d004789ad3ca7",
+      "title": "여러 나라사이의 협조",
+      "date": "2025-10-08",
+      "snippet": "(평양 10월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2f42aa3a10f88f78bcc72d29981842ee",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2610
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac7e13bfd9a9d004789ad3ca7"
+    },
     {
       "id": "news:kcna:4b93d2d750444f9dbc8b5c6f",
       "title": "로씨야대통령공보관 유럽의 무근거한 주장을 배격",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2610
+        "international": 2611
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2611,
-        "foreign": 712
+        "international": 2612,
+        "foreign": 713
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,8 +85,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2612,
-        "foreign": 719
+        "international": 2613,
+        "foreign": 720
       },
       "featuredSections": [],
       "hasImage": true,
@@ -87,8 +107,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2613,
-        "foreign": 724
+        "international": 2614,
+        "foreign": 725
       },
       "featuredSections": [],
       "hasImage": true,
@@ -96,30 +116,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb2c229eca410a7831085472835f773aea",
       "cachedThumbnailUrl": "/data/news/assets/kcna/1c9723ec44bd9d15c9ff6a677f0ed1be6fed641880da8287a089c4db53f08ea4.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Aafc33ecb0522923671131c9e"
-    },
-    {
-      "id": "news:kcna:b01350d2e0624d0effe656b5",
-      "title": "경애하는 김정은동지께 외국의 인사들이 꽃바구니를 보내여왔다",
-      "date": "2025-10-08",
-      "snippet": "(평양 10월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/bf4e9a6f9fae6b816105d552617d744e",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 497,
-        "international": 2614,
-        "foreign": 725
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c127d29f1333e7cb932e9a5c6fa0cb4530e",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/09e971b13f1a2112c75a5680e731af75ba63dc84ed96e87627cdf31f7188a615.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab01350d2e0624d0effe656b5"
     }
   ]
 }

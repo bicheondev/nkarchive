@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 81,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:a28198ffc45f4a4585e5d975",
+      "title": "여러 나라사이의 협조",
+      "date": "2026-07-31",
+      "snippet": "(평양 7월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2ab1c1980e3e2dfe7e97a9634a6d2d1e",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 400
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa28198ffc45f4a4585e5d975"
+    },
     {
       "id": "news:kcna:e920d3f9e195d7faaf8e7cd4",
       "title": "필리핀에서 태풍으로 인적 및 물적피해 발생",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 400
+        "international": 401
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 401
+        "international": 402
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 402
+        "international": 403
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 403
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5ad30a4e08e72f10078fa16e"
-    },
-    {
-      "id": "news:kcna:86477318bc069538e3a22e6f",
-      "title": "마쟈르에서 두나이강의 수위 최저수준을 기록",
-      "date": "2026-07-30",
-      "snippet": "(평양 7월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b6ed084ae646b711ba35bd4effbb849e",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 404
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A86477318bc069538e3a22e6f"
+      "detailUrl": "/news/document?id=news%3Akcna%3A5ad30a4e08e72f10078fa16e"
     }
   ]
 }

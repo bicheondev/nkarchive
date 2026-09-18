@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "international",
   "page": 272,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:fcfe00af721e5ecb953c7fff",
+      "title": "경애하는 김정은동지께 니까라과공화국 공동대통령들이 꽃바구니를 보내여왔다",
+      "date": "2026-03-26",
+      "snippet": "(평양 3월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/15209f60d446628028470bd490804d54",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 253,
+        "international": 1355,
+        "foreign": 372
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60567f133ca84fccec1e30b03645435f65",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/19b5b74708ca9ca5672481ad572e211b09b4805b45f0d680f3bf6a717493d086.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afcfe00af721e5ecb953c7fff"
+    },
     {
       "id": "news:kcna:3a43b4c295678b393e090338",
       "title": "조선로동당 제9차대회에 관한 국제과학토론회 로씨야에서 진행",
@@ -23,8 +47,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1355,
-        "foreign": 372
+        "international": 1356,
+        "foreign": 373
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +68,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1356
+        "international": 1357
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +88,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1357
+        "international": 1358
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +108,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1358
+        "international": 1359
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +116,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A6644878e24ede6abce7d2bd5"
-    },
-    {
-      "id": "news:kcna:ba85a4fe76e760b49119eb0f",
-      "title": "뽀르뚜갈에서 살림집가격 폭등",
-      "date": "2026-03-25",
-      "snippet": "(평양 3월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ea14fc0602abc450dc0745b4ca192b82",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "social"
-      ],
-      "categoryOrders": {
-        "international": 1359,
-        "social": 225
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aba85a4fe76e760b49119eb0f"
     }
   ]
 }

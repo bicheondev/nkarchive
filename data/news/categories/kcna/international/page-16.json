@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 16,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:d83634b327e2de8d697f76df",
+      "title": "인디아에서 밀주행위로 인명피해",
+      "date": "2026-09-10",
+      "snippet": "(뉴델리 9월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b996ec5dfeb28d92ab17672ec6631261",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 75
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad83634b327e2de8d697f76df"
+    },
     {
       "id": "news:kcna:966747d35470a681f9f44eb9",
       "title": "몽골에서 관광업 장려",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 75
+        "international": 76
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 76
+        "international": 77
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,8 +83,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 77,
-        "foreign": 22
+        "international": 78,
+        "foreign": 23
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,27 +105,7 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 19,
-        "international": 78
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aece71782bf76aadcb461fb78"
-    },
-    {
-      "id": "news:kcna:c99969a0ed96ce3d6f930820",
-      "title": "오스트랄리아에서 강력범죄 성행",
-      "date": "2026-09-09",
-      "snippet": "(평양 9월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3167fa0e1bce9e6de21b87d7f91abf0e",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
+        "important": 20,
         "international": 79
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac99969a0ed96ce3d6f930820"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aece71782bf76aadcb461fb78"
     }
   ]
 }

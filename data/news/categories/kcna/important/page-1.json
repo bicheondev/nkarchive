@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,40 @@
   "section": "important",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 529,
+  "totalItems": 530,
   "totalPages": 106,
   "articles": [
+    {
+      "id": "news:kcna:175ca12efd2fdd5f092af812",
+      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
+      "date": "2026-09-18",
+      "snippet": "(평양 9월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8ab23006521ecfc5e9fefe4d6cde6178",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 0,
+        "document": 0,
+        "foreign": 0,
+        "domestic": 0
+      },
+      "featuredSections": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A175ca12efd2fdd5f092af812"
+    },
     {
       "id": "news:kcna:0c16eee63390d75ec43b1b4c",
       "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
@@ -25,16 +56,12 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 0,
-        "document": 0,
-        "foreign": 2,
-        "domestic": 10
+        "important": 1,
+        "document": 1,
+        "foreign": 3,
+        "domestic": 15
       },
-      "featuredSections": [
-        "important",
-        "document",
-        "foreign"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -55,10 +82,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 1,
-        "document": 1,
-        "foreign": 3,
-        "domestic": 14
+        "important": 2,
+        "document": 2,
+        "foreign": 4,
+        "domestic": 19
       },
       "featuredSections": [
         "important",
@@ -84,9 +111,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 2,
-        "foreign": 5,
-        "domestic": 21
+        "important": 3,
+        "foreign": 6,
+        "domestic": 26
       },
       "featuredSections": [
         "important",
@@ -110,8 +137,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 3,
-        "international": 15
+        "important": 4,
+        "international": 16
       },
       "featuredSections": [
         "important"
@@ -121,32 +148,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A1550e28d5188d67ce2c04ddb"
-    },
-    {
-      "id": "news:kcna:4719d7f11f22c199072c95d2",
-      "title": "경애하는 김정은동지께서 로씨야련방 대통령에게 답전을 보내시였다",
-      "date": "2026-09-15",
-      "snippet": "(평양 9월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b370d17059457ca52169a661a2246993",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 4,
-        "foreign": 7,
-        "domestic": 29
-      },
-      "featuredSections": [
-        "important"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4719d7f11f22c199072c95d2"
     }
   ]
 }

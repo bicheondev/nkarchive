@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 174,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:0bbb74e6b28fa30a6d13693d",
+      "title": "여러 나라사이의 협조",
+      "date": "2026-05-25",
+      "snippet": "(평양 5월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4003b7421694a2e47a5142ca16833946",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 865
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0bbb74e6b28fa30a6d13693d"
+    },
     {
       "id": "news:kcna:99a4c21abc6a065e5ba8e7b1",
       "title": "인도네시아에서 체육관광 장려",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 865
+        "international": 866
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 866
+        "international": 867
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 867
+        "international": 868
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 868
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A715eb51f56b516e19db3634d"
-    },
-    {
-      "id": "news:kcna:cd56bdccde0562a60afa9d2c",
-      "title": "여러 나라에서 사고",
-      "date": "2026-05-24",
-      "snippet": "(평양 5월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a56b381ce47aedd894b197779794c419",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 869
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acd56bdccde0562a60afa9d2c"
+      "detailUrl": "/news/document?id=news%3Akcna%3A715eb51f56b516e19db3634d"
     }
   ]
 }

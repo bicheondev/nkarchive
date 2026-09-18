@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 305,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:4461eda1554dedb06eeb0a3f",
+      "title": "인디아에서 폭발사고로 많은 인명피해",
+      "date": "2026-03-03",
+      "snippet": "(뉴델리 3월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ca87f99e79fb00a9d1f60b8b9ffe2446",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1520
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4461eda1554dedb06eeb0a3f"
+    },
     {
       "id": "news:kcna:1f1a8040ece7cf91ca17f75d",
       "title": "브라질에서 무더기비에 의한 사망자 증가",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1520
+        "international": 1521
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1521
+        "international": 1522
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1522
+        "international": 1523
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,9 +104,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 302,
-        "international": 1523,
-        "foreign": 406
+        "important": 303,
+        "international": 1524,
+        "foreign": 407
       },
       "featuredSections": [],
       "hasImage": true,
@@ -94,30 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e601970a990c659f1c4e799cac68b4f2a80",
       "cachedThumbnailUrl": "/data/news/assets/kcna/0a088014e99925fa96a355b0a391d93eee4ef9c76bb8b6410cef55c7f98a8d62.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A98264e9b5e231673ff240251"
-    },
-    {
-      "id": "news:kcna:73cd30efa947979a95395710",
-      "title": "경애하는 김정은동지께 뜻깊은 2월의 명절에 즈음하여 여러 나라에서 축전과 축하편지를 보내여왔다",
-      "date": "2026-03-03",
-      "snippet": "(평양 3월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3929f327260525e8a519b96998914b40",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 303,
-        "international": 1524,
-        "foreign": 407
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A73cd30efa947979a95395710"
     }
   ]
 }

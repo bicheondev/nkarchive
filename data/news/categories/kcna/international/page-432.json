@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 432,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:69138447eaef35c39d8d8889",
+      "title": "파키스탄에서 반테로작전",
+      "date": "2025-12-10",
+      "snippet": "(평양 12월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/437d4fc86a3596c339471b8ec0ea1037",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2155
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A69138447eaef35c39d8d8889"
+    },
     {
       "id": "news:kcna:8b1f4b37f55419bb22d1c127",
       "title": "노르웨이에서 총격사건",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2155
+        "international": 2156
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2156
+        "international": 2157
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2157
+        "international": 2158
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2158
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac8a282d86c2b3ed4d32e0498"
-    },
-    {
-      "id": "news:kcna:0f4fdc6639c8df17ed531917",
-      "title": "여러 나라에서 교통사고",
-      "date": "2025-12-09",
-      "snippet": "(평양 12월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6ecd9b07ebca157bc79a2589de49c79d",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 2159
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0f4fdc6639c8df17ed531917"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac8a282d86c2b3ed4d32e0498"
     }
   ]
 }

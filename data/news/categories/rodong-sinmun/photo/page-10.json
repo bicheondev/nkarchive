@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,9 +8,29 @@
   "section": "photo",
   "page": 10,
   "pageSize": 5,
-  "totalItems": 50,
-  "totalPages": 10,
+  "totalItems": 51,
+  "totalPages": 11,
   "articles": [
+    {
+      "id": "news:rodong-sinmun:49fa9c680182088dd53652aa",
+      "title": "행복동이들",
+      "date": "2025-01-30",
+      "snippet": "행복동이들",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNS8wMS8zMC8yMS8yMDI1LTAxLTMwLTAwNC8yMDI1LTAxLTMwLTAwMS5qcGc==",
+      "mediaType": "article",
+      "categories": [
+        "photo"
+      ],
+      "categoryOrders": {
+        "photo": 45
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNS8wMS8zMC8yMS8yMDI1LTAxLTMwLTAwNC8yMDI1LTAxLTMwLTAwMS5qcGc==",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A49fa9c680182088dd53652aa"
+    },
     {
       "id": "news:rodong-sinmun:f4d46d19573dd8ec16ffbdda",
       "title": "행복의 보금자리",
@@ -22,7 +42,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 45
+        "photo": 46
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 46
+        "photo": 47
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +82,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 47
+        "photo": 48
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,7 +102,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 48
+        "photo": 49
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,26 +110,6 @@
       "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNS8wMS8wOS8yMS8yMDI1LTAxLTA5LTAwNC8yMDI1LTAxLTA5LTAwMS5qcGc==",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A809727df4f6ce53ee5d07c0d"
-    },
-    {
-      "id": "news:rodong-sinmun:309ad4416dd450d88fbad2f8",
-      "title": "명절분위기를 한껏 돋구어주는 다양한 봉사",
-      "date": "2025-01-02",
-      "snippet": "명절분위기를 한껏 돋구어주는 다양한 봉사",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNS8wMS8wMi8yMS8yMDI1LTAxLTAyLTAwOC8yMDI1LTAxLTAyLTAwMS5qcGc==",
-      "mediaType": "article",
-      "categories": [
-        "photo"
-      ],
-      "categoryOrders": {
-        "photo": 49
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNS8wMS8wMi8yMS8yMDI1LTAxLTAyLTAwOC8yMDI1LTAxLTAyLTAwMS5qcGc==",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A309ad4416dd450d88fbad2f8"
     }
   ]
 }

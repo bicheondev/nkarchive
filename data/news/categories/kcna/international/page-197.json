@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "international",
   "page": 197,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:cf7d5cea63a3568dd3a0ab98",
+      "title": "미국에서 들불피해지역주민들의 처지 악화",
+      "date": "2026-05-10",
+      "snippet": "(평양 5월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7744fb91ed9cbaba350a177fc008259f",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 980,
+        "social": 154
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Acf7d5cea63a3568dd3a0ab98"
+    },
     {
       "id": "news:kcna:4f80a9a2c3775d0c62f1d0b2",
       "title": "아시아나라들사이의 협조",
@@ -22,7 +44,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 980
+        "international": 981
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,9 +66,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 169,
-        "international": 981,
-        "foreign": 238
+        "important": 170,
+        "international": 982,
+        "foreign": 239
       },
       "featuredSections": [],
       "hasImage": true,
@@ -67,8 +89,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 982,
-        "foreign": 239
+        "international": 983,
+        "foreign": 240
       },
       "featuredSections": [],
       "hasImage": false,
@@ -89,8 +111,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 170,
-        "international": 983
+        "important": 171,
+        "international": 984
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,28 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Af6364ed9b4fe67467ce4d530"
-    },
-    {
-      "id": "news:kcna:9f1dbf11a45d48c981337f70",
-      "title": "로씨야대통령 전승절에 즈음하여 축하서한 발표",
-      "date": "2026-05-09",
-      "snippet": "(모스크바 5월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4a7ed0e54d57247cd26b326cc2747a8e",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "social"
-      ],
-      "categoryOrders": {
-        "international": 984,
-        "social": 154
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9f1dbf11a45d48c981337f70"
     }
   ]
 }

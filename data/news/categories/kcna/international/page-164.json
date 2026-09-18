@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 164,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:05f81555dab14e066a36d3d2",
+      "title": "로씨야 유럽나라들의 행태를 비난",
+      "date": "2026-06-02",
+      "snippet": "(모스크바 6월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/807720231a6f9306cf20ff24424c7528",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 815
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A05f81555dab14e066a36d3d2"
+    },
     {
       "id": "news:kcna:facd602008b4c736a9c80ce4",
       "title": "에짚트에서 고대유적 발견",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 815
+        "international": 816
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 816,
-        "foreign": 208
+        "international": 817,
+        "foreign": 209
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 817
+        "international": 818
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 818
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A70245dbf890093183bbe425c"
-    },
-    {
-      "id": "news:kcna:bcd1ec64b63b5157d9b7dba2",
-      "title": "일본의 인구 15년째 련속 감소",
-      "date": "2026-06-01",
-      "snippet": "(평양 6월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/304649a007f2e094541fb59f7bc00b21",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 819
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abcd1ec64b63b5157d9b7dba2"
+      "detailUrl": "/news/document?id=news%3Akcna%3A70245dbf890093183bbe425c"
     }
   ]
 }

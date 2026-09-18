@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 23,
   "pageSize": 5,
-  "totalItems": 776,
+  "totalItems": 777,
   "totalPages": 156,
   "articles": [
+    {
+      "id": "news:kcna:f3a07cfb847a8b0142da9e09",
+      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
+      "date": "2026-07-24",
+      "snippet": "(평양 7월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5c820da507c2d3b540b36fb79a4a2fd8",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 90,
+        "foreign": 110,
+        "domestic": 621
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af3a07cfb847a8b0142da9e09"
+    },
     {
       "id": "news:kcna:9fdfc2b4fa5fabf8d0729043",
       "title": "경애하는 김정은동지께 여러 나라에서 전문과 편지를 보내여왔다",
@@ -23,8 +47,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 446,
-        "foreign": 110
+        "international": 447,
+        "foreign": 111
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +69,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 111,
-        "domestic": 622
+        "foreign": 112,
+        "domestic": 627
       },
       "featuredSections": [],
       "hasImage": true,
@@ -67,8 +91,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 112,
-        "domestic": 632
+        "foreign": 113,
+        "domestic": 637
       },
       "featuredSections": [],
       "hasImage": true,
@@ -89,8 +113,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 113,
-        "domestic": 633
+        "foreign": 114,
+        "domestic": 638
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,28 +122,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A88c8ed87b02b97f9a4fe28d8"
-    },
-    {
-      "id": "news:kcna:6db0fe7a0da616e191536277",
-      "title": "조선민주주의인민공화국 외무상 최선희동지 로씨야련방을 방문하고 귀국",
-      "date": "2026-07-22",
-      "snippet": "(평양 7월 22일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ba997eeac4ca17a50251703f4949daea",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 114,
-        "domestic": 642
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6db0fe7a0da616e191536277"
     }
   ]
 }

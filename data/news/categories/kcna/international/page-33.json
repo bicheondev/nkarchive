@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 33,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:1728cdee941fe619085fa3ab",
+      "title": "아프가니스탄에서 마약압수",
+      "date": "2026-09-01",
+      "snippet": "(평양 9월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/13a4ab7bd0bc821b2e559746c61178dc",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 160
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1728cdee941fe619085fa3ab"
+    },
     {
       "id": "news:kcna:216847a6a86524433a915b78",
       "title": "우즈베끼스딴과 아프가니스탄사이의 협조",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 160
+        "international": 161
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 161
+        "international": 162
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 162
+        "international": 163
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 163
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7d5048576aefafda9dd68060"
-    },
-    {
-      "id": "news:kcna:6b3f03adc9533a9b07b66827",
-      "title": "이슬란드인들 유럽동맹가입을 반대",
-      "date": "2026-09-01",
-      "snippet": "(평양 9월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7377387aaf596122e10ae5e80f93bfe3",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 164
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6b3f03adc9533a9b07b66827"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7d5048576aefafda9dd68060"
     }
   ]
 }

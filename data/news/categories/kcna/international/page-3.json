@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 3,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:3177768f88e004e1c628a58f",
+      "title": "끼르기즈스딴에서 국내총생산액 증가",
+      "date": "2026-09-16",
+      "snippet": "(평양 9월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/df369b09ee804007f9a01e798e2ecedb",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 10
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3177768f88e004e1c628a58f"
+    },
     {
       "id": "news:kcna:20687a8e14e8d21f05de38be",
       "title": "가자지대에 대한 이스라엘의 공습만행",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 10
+        "international": 11
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 11
+        "international": 12
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 12
+        "international": 13
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 13
+        "international": 14
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,30 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A1585b196f6e1f68b136ad74c"
-    },
-    {
-      "id": "news:kcna:c7f0e58ded1662e8a4a67b0f",
-      "title": "조선민주주의인민공화국창건 78돐 경축행사 여러 나라에서 진행",
-      "date": "2026-09-16",
-      "snippet": "(평양 9월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ff2e8e60b14363d1b3cbfb6e332b4402",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 14,
-        "foreign": 4
-      },
-      "featuredSections": [
-        "foreign"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac7f0e58ded1662e8a4a67b0f"
     }
   ]
 }

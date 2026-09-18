@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "international",
   "page": 207,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:79733291e56211b42444d5be",
+      "title": "미국전역에서 근로자들의 시위와 집회",
+      "date": "2026-05-04",
+      "snippet": "(평양 5월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f18cd1fd97356eb688d257bd965e9451",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 1030,
+        "social": 162
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A79733291e56211b42444d5be"
+    },
     {
       "id": "news:kcna:034b65ef40855ad9d93a261c",
       "title": "유럽에서 연료위기 악화",
@@ -22,7 +44,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1030
+        "international": 1031
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1031
+        "international": 1032
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1032
+        "international": 1033
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1033
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A38efb55f1c2eb32bee4be401"
-    },
-    {
-      "id": "news:kcna:0b60a687244061f5ef8ebaea",
-      "title": "인도주의활동가들에 대한 이스라엘의 폭압행위를 단죄",
-      "date": "2026-05-03",
-      "snippet": "(평양 5월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/036304d21319f6c0041523387179588b",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1034
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0b60a687244061f5ef8ebaea"
+      "detailUrl": "/news/document?id=news%3Akcna%3A38efb55f1c2eb32bee4be401"
     }
   ]
 }

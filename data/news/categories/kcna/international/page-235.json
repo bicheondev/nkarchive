@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 235,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:2d642c51b90c8e846a1a643d",
+      "title": "레바논에서 식량위기 악화",
+      "date": "2026-04-15",
+      "snippet": "(평양 4월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d460b259fddbf53c5fca13d5915a7d66",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1170
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2d642c51b90c8e846a1a643d"
+    },
     {
       "id": "news:kcna:f32054e0d32d5be25111e462",
       "title": "도이췰란드에서 항공운수부문 근로자들의 파업",
@@ -23,8 +43,8 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1170,
-        "social": 185
+        "international": 1171,
+        "social": 186
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1171
+        "international": 1172
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1172
+        "international": 1173
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1173
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aaa3f0e49c522b7cebc06f1b6"
-    },
-    {
-      "id": "news:kcna:e9ad36f3de5f305e5afb2f50",
-      "title": "스리랑카에서 식품안전사업 강화",
-      "date": "2026-04-15",
-      "snippet": "(평양 4월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8757c5d305f029e11c984dd2fd617e15",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1174
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae9ad36f3de5f305e5afb2f50"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaa3f0e49c522b7cebc06f1b6"
     }
   ]
 }

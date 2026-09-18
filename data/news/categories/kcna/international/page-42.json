@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 42,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:6dbcd99952ec40cfbbcfb237",
+      "title": "로씨야 전쟁과 테로를 부추기는 서방을 비난",
+      "date": "2026-08-27",
+      "snippet": "(평양 8월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5dece9e50d9a3f93d1330ed9f1b148c4",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 205
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6dbcd99952ec40cfbbcfb237"
+    },
     {
       "id": "news:kcna:b83e4b6d0ead43a45814dd61",
       "title": "파키스탄과 뽀르뚜갈에서 교통사고",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 205
+        "international": 206
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 206
+        "international": 207
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 207
+        "international": 208
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,8 +103,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 208,
-        "foreign": 60
+        "international": 209,
+        "foreign": 61
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aad6c0b572f9aed37283b52a9"
-    },
-    {
-      "id": "news:kcna:e03388eec9d0d80c25c693b2",
-      "title": "우리 나라 외무상에게 세이쉘공화국 외무 및 해외동포상이 축전",
-      "date": "2026-08-27",
-      "snippet": "(평양 8월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/95ae4e9a8132ea0380558ebbf6707fd4",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 209,
-        "foreign": 62
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae03388eec9d0d80c25c693b2"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 32,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:8f8acd6627f650a8f3ed3243",
+      "title": "중국에서 운반로케트 발사",
+      "date": "2026-09-02",
+      "snippet": "(베이징 9월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5df1b5a97e8e1438c49cf3ef2eeccd75",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 155
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8f8acd6627f650a8f3ed3243"
+    },
     {
       "id": "news:kcna:8ecf310180c2b98a67106d24",
       "title": "일본에서 어린이학대행위",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 155
+        "international": 156
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 156
+        "international": 157
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 157
+        "international": 158
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 158
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa6e1155ca1499b8a708fb86d"
-    },
-    {
-      "id": "news:kcna:1728cdee941fe619085fa3ab",
-      "title": "아프가니스탄에서 마약압수",
-      "date": "2026-09-01",
-      "snippet": "(평양 9월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/13a4ab7bd0bc821b2e559746c61178dc",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 159
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1728cdee941fe619085fa3ab"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa6e1155ca1499b8a708fb86d"
     }
   ]
 }

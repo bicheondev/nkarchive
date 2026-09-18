@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 190,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:56a08632a5ba60df595f85f1",
+      "title": "중국에서 위성 발사",
+      "date": "2026-05-14",
+      "snippet": "(베이징 5월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c95fc2b9b1272f02ee1b88d7b67e6132",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 945
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A56a08632a5ba60df595f85f1"
+    },
     {
       "id": "news:kcna:0214f221f463861b2c1ebd10",
       "title": "도이췰란드에서 인플레률 상승",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 945
+        "international": 946
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 946
+        "international": 947
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 947
+        "international": 948
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 948
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aca8fb88118472a52b3734b88"
-    },
-    {
-      "id": "news:kcna:e1b24b61f643762a6ca99f1f",
-      "title": "나이제리아에서 라싸열병으로 인한 사망자수 증가",
-      "date": "2026-05-14",
-      "snippet": "(평양 5월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2ece3906500bf3c668eabdc0859d7ba6",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 949
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae1b24b61f643762a6ca99f1f"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aca8fb88118472a52b3734b88"
     }
   ]
 }

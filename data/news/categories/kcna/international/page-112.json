@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 112,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:01c6118a7caa964ee025f284",
+      "title": "아시아나라들사이의 협조",
+      "date": "2026-07-09",
+      "snippet": "(평양 7월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1ef4fa7705fe6daea33c94aac5fe6718",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 555
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A01c6118a7caa964ee025f284"
+    },
     {
       "id": "news:kcna:617538391a97ef14f1283b47",
       "title": "로씨야수상 공업분야에서 자립성이 확립되여가고있다고 언급",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 555
+        "international": 556
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 556
+        "international": 557
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 557
+        "international": 558
       },
       "featuredSections": [],
       "hasImage": false,
@@ -83,8 +103,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 558,
-        "foreign": 163
+        "international": 559,
+        "foreign": 164
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,30 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A2c909064b077349156930420"
-    },
-    {
-      "id": "news:kcna:93b6e664ccce640b42d8273c",
-      "title": "멸망을 자초하는 위험천만한 군사적결탁",
-      "date": "2026-07-09",
-      "snippet": "(평양 7월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/35913024cf4f37ed6eb03d40951db785",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 121,
-        "international": 559,
-        "foreign": 166
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A93b6e664ccce640b42d8273c"
     }
   ]
 }

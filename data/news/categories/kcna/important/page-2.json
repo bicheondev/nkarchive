@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,35 @@
   "section": "important",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 529,
+  "totalItems": 530,
   "totalPages": 106,
   "articles": [
+    {
+      "id": "news:kcna:4719d7f11f22c199072c95d2",
+      "title": "경애하는 김정은동지께서 로씨야련방 대통령에게 답전을 보내시였다",
+      "date": "2026-09-15",
+      "snippet": "(평양 9월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b370d17059457ca52169a661a2246993",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 5,
+        "foreign": 8,
+        "domestic": 34
+      },
+      "featuredSections": [
+        "important"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4719d7f11f22c199072c95d2"
+    },
     {
       "id": "news:kcna:23232e2ae162d760f3e59126",
       "title": "경애하는 김정은동지께서 고 윤동현동지의 령전에 화환을 보내시였다",
@@ -23,8 +49,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 5,
-        "domestic": 30
+        "important": 6,
+        "domestic": 35
       },
       "featuredSections": [
         "important"
@@ -47,8 +73,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 6,
-        "domestic": 31
+        "important": 7,
+        "domestic": 36
       },
       "featuredSections": [],
       "hasImage": true,
@@ -69,8 +95,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 7,
-        "domestic": 44
+        "important": 8,
+        "domestic": 49
       },
       "featuredSections": [],
       "hasImage": true,
@@ -91,8 +117,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 8,
-        "domestic": 45
+        "important": 9,
+        "domestic": 50
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,30 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A91e058686f35dffb38fe6fc3"
-    },
-    {
-      "id": "news:kcna:b2bc247dc802000deaca24e9",
-      "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석에게 답전을 보내시였다",
-      "date": "2026-09-13",
-      "snippet": "(평양 9월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a82da787ac9f1a190746814a4f143285",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 9,
-        "foreign": 11,
-        "domestic": 55
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab2bc247dc802000deaca24e9"
     }
   ]
 }

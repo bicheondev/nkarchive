@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 8,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:d9724cf26e689bb1e8ce1aa7",
+      "title": "영국 런던에서 칼부림범죄",
+      "date": "2026-09-13",
+      "snippet": "(평양 9월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/099ed74f7cad08c45ed8d22ed3d328b7",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 35
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad9724cf26e689bb1e8ce1aa7"
+    },
     {
       "id": "news:kcna:a67f860061495c7c0b264314",
       "title": "메히꼬대통령 미국의 정치적음모를 배격",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 35
+        "international": 36
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 36
+        "international": 37
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 37
+        "international": 38
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 38
+        "international": 39
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,28 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Af01919b1714fc0a1b549ada1"
-    },
-    {
-      "id": "news:kcna:eedcc0ac8c6fff33df4b2793",
-      "title": "로씨야주재 우리 나라 대사관 연회 마련",
-      "date": "2026-09-13",
-      "snippet": "(평양 9월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8ddd0c94be29ec8e33e81a01e8dfb9ed",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 39,
-        "foreign": 10
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aeedcc0ac8c6fff33df4b2793"
     }
   ]
 }

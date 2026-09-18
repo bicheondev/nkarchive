@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "international",
   "page": 385,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:19395106a7a03af632628af2",
+      "title": "뽈스까에서 농민들의 항의시위",
+      "date": "2026-01-12",
+      "snippet": "(평양 1월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5f13ac720dfb2808eb9e70336665d48b",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 1920,
+        "social": 410
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A19395106a7a03af632628af2"
+    },
     {
       "id": "news:kcna:7eaedcfe0511db838d8f3938",
       "title": "끼르기즈스딴에서 반마약작전",
@@ -22,7 +44,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1920
+        "international": 1921
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +65,8 @@
         "document"
       ],
       "categoryOrders": {
-        "international": 1921,
-        "document": 55
+        "international": 1922,
+        "document": 56
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +86,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1922
+        "international": 1923
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1923
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4855a1435b99f50f7cb29187"
-    },
-    {
-      "id": "news:kcna:cd5dc69e6d02beac9dd3eebe",
-      "title": "까메룬대통령 세계도처에서 격화되고있는 위기와 충돌에 우려 표시",
-      "date": "2026-01-11",
-      "snippet": "(평양 1월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6f42d52cbe9770070b5a4ac5913ce2fb",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1924
       },
       "featuredSections": [],
@@ -111,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acd5dc69e6d02beac9dd3eebe"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4855a1435b99f50f7cb29187"
     }
   ]
 }

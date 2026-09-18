@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 175,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:cd56bdccde0562a60afa9d2c",
+      "title": "여러 나라에서 사고",
+      "date": "2026-05-24",
+      "snippet": "(평양 5월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a56b381ce47aedd894b197779794c419",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 870
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Acd56bdccde0562a60afa9d2c"
+    },
     {
       "id": "news:kcna:4449623b50679fb68e58fada",
       "title": "로씨야대통령 우크라이나의 테로공격을 규탄",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 870
+        "international": 871
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 871
+        "international": 872
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 872
+        "international": 873
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 873
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4bd80a91bac636b805705f2f"
-    },
-    {
-      "id": "news:kcna:f441faf1fd7bbd52119d083d",
-      "title": "탄자니아대통령 평화적인 핵에네르기개발리용사업의 중요성 강조",
-      "date": "2026-05-23",
-      "snippet": "(평양 5월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/644e54140c89a67937c4953e56af69af",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 874
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af441faf1fd7bbd52119d083d"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4bd80a91bac636b805705f2f"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 87,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:bc071163ace7eda94d2f69ac",
+      "title": "리비아에서 극심한 고온현상 관측",
+      "date": "2026-07-26",
+      "snippet": "(평양 7월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/99bfe4f2c3b29bf2c6d2208320d09e05",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 430
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abc071163ace7eda94d2f69ac"
+    },
     {
       "id": "news:kcna:030dede200f4108c9932e390",
       "title": "중국에서 태풍경보 발령",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 430
+        "international": 431
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,9 +64,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 86,
-        "international": 431,
-        "foreign": 108
+        "important": 87,
+        "international": 432,
+        "foreign": 109
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 432
+        "international": 433
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 433
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae593209fa3e79217273c3f4c"
-    },
-    {
-      "id": "news:kcna:0c4c5cf586c9ea0b849d5169",
-      "title": "팔레스티나민족해방운동 미국과 이스라엘을 규탄",
-      "date": "2026-07-25",
-      "snippet": "(평양 7월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/27924ab89c53ef3dfd97a9f8c5d01490",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 434
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0c4c5cf586c9ea0b849d5169"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae593209fa3e79217273c3f4c"
     }
   ]
 }

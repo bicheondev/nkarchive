@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,22 +8,104 @@
   "section": "domestic",
   "page": 23,
   "pageSize": 5,
-  "totalItems": 4158,
-  "totalPages": 832,
+  "totalItems": 4163,
+  "totalPages": 833,
   "articles": [
     {
-      "id": "news:kcna:db528e4305085126ff7872d2",
-      "title": "근로단체들에서 상봉모임 진행",
-      "date": "2026-09-08",
-      "snippet": "(평양 9월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f1955ca9a46911498bdc48c0c7ea7db6",
+      "id": "news:kcna:436fb638121929e50d5f9447",
+      "title": "조선민주주의인민공화국창건 78돐에 즈음하여 대성산혁명렬사릉과 신미리애국렬사릉에 꽃송이 진정",
+      "date": "2026-09-09",
+      "snippet": "(평양 9월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1e71a40b8376105778fd03eb5ac6f1d6",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 110
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45baab70f89d7c32987b3b9096c828dda299",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/6d8d4ec19bfd29c9b5232659f12dc07dc55e3e17fe6c1f858e88ac269b069a4d.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A436fb638121929e50d5f9447"
+    },
+    {
+      "id": "news:kcna:3f2b9ff20333ed93a68ca6f7",
+      "title": "인민의 꿈과 리상이 전면적으로 실현되는 우리 공화국",
+      "date": "2026-09-09",
+      "snippet": "(평양 9월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/20d787173b3394e4d446b0c0cf98f0b9",
       "mediaType": "article",
       "categories": [
         "domestic",
         "social"
       ],
       "categoryOrders": {
-        "domestic": 110,
+        "domestic": 111,
+        "social": 12
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45babd881cbc2c294fde88f3b2169a0827ba",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/82fc4fc123e0aa635c50d9b760d8b83ec674422f452bbd9ab4caeb2a95a0f5b1.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3f2b9ff20333ed93a68ca6f7"
+    },
+    {
+      "id": "news:kcna:f7318bbe20b0ea9b6ce966af",
+      "title": "각지에서 새로운 건재기지건설 및 생산능력확장공사 추진",
+      "date": "2026-09-09",
+      "snippet": "(평양 9월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/aa2de45a71c5ba51a173d31a8e0e003e",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 112
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af7318bbe20b0ea9b6ce966af"
+    },
+    {
+      "id": "news:kcna:64df9acea04c06c7674e7b99",
+      "title": "함경남도에서 지방발전정책실행을 위한 물질기술적토대 강화",
+      "date": "2026-09-08",
+      "snippet": "(평양 9월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ace6871d74bfd0cadac3e630cb031241",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 113
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A64df9acea04c06c7674e7b99"
+    },
+    {
+      "id": "news:kcna:24ad8addde55db2d7378910b",
+      "title": "녀맹일군들과 녀맹원들의 실화무대 진행",
+      "date": "2026-09-08",
+      "snippet": "(평양 9월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ef79a488ae37956cf342ce80a41f380c",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 114,
         "social": 13
       },
       "featuredSections": [],
@@ -31,91 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adb528e4305085126ff7872d2"
-    },
-    {
-      "id": "news:kcna:157bfc95af88a41180eab8f2",
-      "title": "평양시안의 보통교육단위들에서 과외소조운영 활발",
-      "date": "2026-09-08",
-      "snippet": "(평양 9월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/30bf395b17c88ef240cab6d349f58493",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 111
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A157bfc95af88a41180eab8f2"
-    },
-    {
-      "id": "news:kcna:7f5634553d40f363513c5782",
-      "title": "강계불고기전문식당 준공식 진행",
-      "date": "2026-09-08",
-      "snippet": "(평양 9월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/eb924bd8868911fb7fe5ae25b918a344",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 112,
-        "social": 14
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba8a02ed464f90c85093a48c9383418ddc",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/8abdc0ca34a6a03434023739666be77c7cb37f6b6d47672658b9148ad45631a5.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7f5634553d40f363513c5782"
-    },
-    {
-      "id": "news:kcna:63fda6ae4859fb2696ba30ce",
-      "title": "학생소년들의 웅변모임 진행",
-      "date": "2026-09-08",
-      "snippet": "(평양 9월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0eec027770eb610cde72533b71de34e5",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 113,
-        "social": 15
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A63fda6ae4859fb2696ba30ce"
-    },
-    {
-      "id": "news:kcna:89475438a1f74ec3d0e4e1b5",
-      "title": "평안북도양묘장에서 1 200만여그루의 나무모 생산",
-      "date": "2026-09-08",
-      "snippet": "(평양 9월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e9aa8e7be5619b957e634eff85036c1b",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 114
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A89475438a1f74ec3d0e4e1b5"
+      "detailUrl": "/news/document?id=news%3Akcna%3A24ad8addde55db2d7378910b"
     }
   ]
 }

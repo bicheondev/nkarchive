@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,9 +8,29 @@
   "section": "photo",
   "page": 3,
   "pageSize": 5,
-  "totalItems": 50,
-  "totalPages": 10,
+  "totalItems": 51,
+  "totalPages": 11,
   "articles": [
+    {
+      "id": "news:rodong-sinmun:3d8828804d878bdf68c565e0",
+      "title": "수도의 풍치를 돋구어주는 원림경관",
+      "date": "2026-06-21",
+      "snippet": "수도의 풍치를 돋구어주는 원림경관",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNi8yMS8xLzIwMjYtMDYtMjEtMDM2LzIwMjYtMDYtMjEtMDAxLmpwZw==",
+      "mediaType": "article",
+      "categories": [
+        "photo"
+      ],
+      "categoryOrders": {
+        "photo": 10
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNi8yMS8xLzIwMjYtMDYtMjEtMDM2LzIwMjYtMDYtMjEtMDAxLmpwZw==",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A3d8828804d878bdf68c565e0"
+    },
     {
       "id": "news:rodong-sinmun:edf7e8bcaa801b5f9b44183d",
       "title": "모란봉의 아름다운 풍치를 더해주는 력사유적들",
@@ -22,7 +42,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 10
+        "photo": 11
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 11
+        "photo": 12
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +82,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 12
+        "photo": 13
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,7 +102,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 13
+        "photo": 14
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,26 +110,6 @@
       "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNC8xMy8xLzIwMjYtMDQtMTMtMDM5LzIwMjYtMDQtMTMtMDAxLmpwZw==",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A7262c2c93a8c5e4b8a038294"
-    },
-    {
-      "id": "news:rodong-sinmun:b5dfd1499d02d06001bca588",
-      "title": "복된 삶을 누려가는 백살장수자들",
-      "date": "2026-04-09",
-      "snippet": "복된 삶을 누려가는 백살장수자들",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNC8wOS8yMS8yMDI2LTA0LTA5LTAxOC8yMDI2LTA0LTA5LTAwMS5qcGc==",
-      "mediaType": "article",
-      "categories": [
-        "photo"
-      ],
-      "categoryOrders": {
-        "photo": 14
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNC8wOS8yMS8yMDI2LTA0LTA5LTAxOC8yMDI2LTA0LTA5LTAwMS5qcGc==",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ab5dfd1499d02d06001bca588"
     }
   ]
 }

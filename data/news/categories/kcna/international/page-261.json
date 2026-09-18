@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 261,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:e821c200139579d97e9c994d",
+      "title": "중국에서 의무식수활동 진행",
+      "date": "2026-04-01",
+      "snippet": "(베이징 3월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0e937ac070fef43717f4a0673aca756f",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1300
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae821c200139579d97e9c994d"
+    },
     {
       "id": "news:kcna:1f21759876516c661fb5fa5e",
       "title": "가자지대에서 계속되는 이스라엘의 살륙행위",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1300
+        "international": 1301
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1301
+        "international": 1302
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1302
+        "international": 1303
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1303
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6c9db982370ac7cbd05147f7"
-    },
-    {
-      "id": "news:kcna:442c9f3548247e254d03e7f5",
-      "title": "파키스탄에서 반테로작전",
-      "date": "2026-03-31",
-      "snippet": "(평양 3월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/99d22e9e0476e2230f5a1b86f7c4262e",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1304
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A442c9f3548247e254d03e7f5"
+      "detailUrl": "/news/document?id=news%3Akcna%3A6c9db982370ac7cbd05147f7"
     }
   ]
 }

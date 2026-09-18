@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 211,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:0d71c7d8295d43b484afd307",
+      "title": "세계적인 간염피해",
+      "date": "2026-05-01",
+      "snippet": "(평양 5월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9d9f927023b6f69cce9859451239eafb",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1050
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0d71c7d8295d43b484afd307"
+    },
     {
       "id": "news:kcna:ccec411c06f676dbb8ae1438",
       "title": "중국외교부 대변인 일본수상의 망발을 규탄",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1050
+        "international": 1051
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1051
+        "international": 1052
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1052
+        "international": 1053
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1053
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A467d4e22e961d75c03236a29"
-    },
-    {
-      "id": "news:kcna:73bd7600fd2911ee2251abf2",
-      "title": "미국의 워싱톤에서 총격사건",
-      "date": "2026-05-01",
-      "snippet": "(평양 5월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1f8bf5a990f2578c84c4e5873bf7e88d",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1054
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A73bd7600fd2911ee2251abf2"
+      "detailUrl": "/news/document?id=news%3Akcna%3A467d4e22e961d75c03236a29"
     }
   ]
 }

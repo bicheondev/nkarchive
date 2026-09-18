@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "international",
   "page": 333,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:485f68ce26d9785e549f8526",
+      "title": "그리스에서 농민들의 항의집회",
+      "date": "2026-02-16",
+      "snippet": "(평양 2월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d5a6b9d7ac21d3947f4e251e79ce4b9a",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 1660,
+        "social": 318
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A485f68ce26d9785e549f8526"
+    },
     {
       "id": "news:kcna:a1d5ec3323fae7a56dd31af1",
       "title": "남아프리카에서 구제역전파와 관련하여 재난사태 선포",
@@ -22,7 +44,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1660
+        "international": 1661
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +65,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 343,
-        "international": 1661
+        "important": 344,
+        "international": 1662
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,8 +87,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 344,
-        "international": 1662
+        "important": 345,
+        "international": 1663
       },
       "featuredSections": [],
       "hasImage": false,
@@ -87,8 +109,8 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1663,
-        "social": 319
+        "international": 1664,
+        "social": 320
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,26 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A89434eb8ebc8e547dd507575"
-    },
-    {
-      "id": "news:kcna:c3510dbdd014a16296088389",
-      "title": "로씨야에서 운반로케트 발사",
-      "date": "2026-02-15",
-      "snippet": "(모스크바 2월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5386c4d6933d0fa5904b408adc66f6dd",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 1664
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac3510dbdd014a16296088389"
     }
   ]
 }

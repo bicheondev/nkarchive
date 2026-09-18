@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "international",
   "page": 273,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:ba85a4fe76e760b49119eb0f",
+      "title": "뽀르뚜갈에서 살림집가격 폭등",
+      "date": "2026-03-25",
+      "snippet": "(평양 3월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ea14fc0602abc450dc0745b4ca192b82",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 1360,
+        "social": 226
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aba85a4fe76e760b49119eb0f"
+    },
     {
       "id": "news:kcna:e7ea3b241002ffadc3b37fb2",
       "title": "레바논에서 인도주의위기 악화",
@@ -23,8 +45,8 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1360,
-        "social": 226
+        "international": 1361,
+        "social": 227
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +66,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1361
+        "international": 1362
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,8 +87,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1362,
-        "foreign": 373
+        "international": 1363,
+        "foreign": 374
       },
       "featuredSections": [],
       "hasImage": false,
@@ -88,9 +110,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 254,
-        "international": 1363,
-        "foreign": 375
+        "important": 255,
+        "international": 1364,
+        "foreign": 376
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,30 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A2a6c92710572d4f6a7a6767d"
-    },
-    {
-      "id": "news:kcna:6d0fd77e2c2b43400bdfef39",
-      "title": "경애하는 김정은동지께 김일성김정일기금리사회 리사가 꽃바구니를 보내여왔다",
-      "date": "2026-03-25",
-      "snippet": "(평양 3월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a64c54b9fc7f41b2e5c3f8cafbd7345d",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 255,
-        "international": 1364,
-        "foreign": 376
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60b4e216bdb0bca9197d49ea3c85f5ce18",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/701d41622669ff124a257e8c31a705b0934c8c16a4ef95df017ff1bfaff6c8f8.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6d0fd77e2c2b43400bdfef39"
     }
   ]
 }

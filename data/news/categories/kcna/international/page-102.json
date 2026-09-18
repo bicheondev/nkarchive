@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 102,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:7936c52da7f8542100b93995",
+      "title": "유럽대륙에서 열파로 인한 사망자수 1만여명",
+      "date": "2026-07-15",
+      "snippet": "(평양 7월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2ecd046c0a267017c3e471130b17740a",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 505
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7936c52da7f8542100b93995"
+    },
     {
       "id": "news:kcna:7caf099ead171e0d709b8f1b",
       "title": "여러 나라에서 추모모임 진행",
@@ -23,8 +43,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 505,
-        "foreign": 139
+        "international": 506,
+        "foreign": 140
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 506
+        "international": 507
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 507
+        "international": 508
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 508
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad794eba4ce76b0e0beadd3ae"
-    },
-    {
-      "id": "news:kcna:1804bb60ecc7458c4dad09b2",
-      "title": "프랑스에서 최고급의 열파경보 발령",
-      "date": "2026-07-14",
-      "snippet": "(평양 7월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/71bc0dd96a3af0fbec4187b83e45ce8e",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 509
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1804bb60ecc7458c4dad09b2"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad794eba4ce76b0e0beadd3ae"
     }
   ]
 }

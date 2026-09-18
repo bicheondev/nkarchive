@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 73,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:a4a9ef9a43ff5c986ddec37c",
+      "title": "미국의 서부지역에서 열파경보",
+      "date": "2026-08-05",
+      "snippet": "(평양 8월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/56c6d8c2c287ada56c93833848b0a242",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 360
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa4a9ef9a43ff5c986ddec37c"
+    },
     {
       "id": "news:kcna:5cd13931f1cc6a1e154575c3",
       "title": "로씨야대외정보국 유럽동맹의 음흉한 속심을 폭로",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 360
+        "international": 361
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 361
+        "international": 362
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 362
+        "international": 363
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 363
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8cce6d3e168a9a630bd02a5c"
-    },
-    {
-      "id": "news:kcna:8451004e5a57835203c18aee",
-      "title": "파키스탄에서 폭탄테로사건 발생",
-      "date": "2026-08-04",
-      "snippet": "(평양 8월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/73fc66c3fb2ac8a5a34c792223dd1a18",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 364
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8451004e5a57835203c18aee"
+      "detailUrl": "/news/document?id=news%3Akcna%3A8cce6d3e168a9a630bd02a5c"
     }
   ]
 }

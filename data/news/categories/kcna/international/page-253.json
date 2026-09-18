@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 253,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:370860d5cd6918c5b238e1ce",
+      "title": "뛰르끼예에서 테로분자들 체포",
+      "date": "2026-04-05",
+      "snippet": "(평양 4월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b38b37a8c7514c948973ac9033238468",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1260
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A370860d5cd6918c5b238e1ce"
+    },
     {
       "id": "news:kcna:ad4a5a71f72b26494d539892",
       "title": "수리아에서 심각한 인도주의위기",
@@ -23,8 +43,8 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1260,
-        "social": 199
+        "international": 1261,
+        "social": 200
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1261
+        "international": 1262
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1262
+        "international": 1263
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,28 +105,6 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1263,
-        "foreign": 335
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afa697b7628e2ebd7b6d91902"
-    },
-    {
-      "id": "news:kcna:03a050035fe69ce99a855eb5",
-      "title": "조선로동당 제9차대회 기념연회 로씨야주재 우리 나라 대사관에서 진행",
-      "date": "2026-04-05",
-      "snippet": "(평양 4월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2d94de7d095ac743ca34bec6b273db50",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
         "international": 1264,
         "foreign": 336
       },
@@ -115,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A03a050035fe69ce99a855eb5"
+      "detailUrl": "/news/document?id=news%3Akcna%3Afa697b7628e2ebd7b6d91902"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 206,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:de78686cd6d05dd9b60fe89a",
+      "title": "중동정세를 악화시키는 미국의 무기판매책동",
+      "date": "2026-05-05",
+      "snippet": "(평양 5월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f7edc178956a716337ba8a3b63db800b",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1025
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ade78686cd6d05dd9b60fe89a"
+    },
     {
       "id": "news:kcna:f39071c31737977cbfe50f33",
       "title": "에티오피아에서 자연에네르기를 리용한 전력문제해결 노력",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1025
+        "international": 1026
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1026,
-        "social": 160
+        "international": 1027,
+        "social": 161
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1027
+        "international": 1028
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1028
+        "international": 1029
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A7878d5db97d147aae1415d67"
-    },
-    {
-      "id": "news:kcna:79733291e56211b42444d5be",
-      "title": "미국전역에서 근로자들의 시위와 집회",
-      "date": "2026-05-04",
-      "snippet": "(평양 5월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f18cd1fd97356eb688d257bd965e9451",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "social"
-      ],
-      "categoryOrders": {
-        "international": 1029,
-        "social": 161
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A79733291e56211b42444d5be"
     }
   ]
 }

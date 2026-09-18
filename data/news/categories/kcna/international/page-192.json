@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 192,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:db67128074cf7080459904af",
+      "title": "세계적으로 원유가격 급격히 상승",
+      "date": "2026-05-13",
+      "snippet": "(평양 5월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c42ce14dbe110671fd4a5e9003ed854a",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 955
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Adb67128074cf7080459904af"
+    },
     {
       "id": "news:kcna:0afb8d3ea4576e0498c9f892",
       "title": "로씨야의 교통운수발전노력",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 955
+        "international": 956
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 956,
-        "social": 148
+        "international": 957,
+        "social": 149
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 957
+        "international": 958
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 958
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A96ae4c2dbeb75fb98bc3206e"
-    },
-    {
-      "id": "news:kcna:7962740ef24ea2ab22f25bad",
-      "title": "우리 나라의 방은철선수 2026년 아시아력기선수권대회에서 3개의 금메달 쟁취",
-      "date": "2026-05-13",
-      "snippet": "(평양 5월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c7561366c8e4c9325ad1b8ec1a016c58",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 959
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7962740ef24ea2ab22f25bad"
+      "detailUrl": "/news/document?id=news%3Akcna%3A96ae4c2dbeb75fb98bc3206e"
     }
   ]
 }

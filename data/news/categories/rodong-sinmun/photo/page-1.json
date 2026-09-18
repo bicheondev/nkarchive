@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,9 +8,31 @@
   "section": "photo",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 50,
-  "totalPages": 10,
+  "totalItems": 51,
+  "totalPages": 11,
   "articles": [
+    {
+      "id": "news:rodong-sinmun:8514917e206407a01241681d",
+      "title": "황홀경을 펼친 화성거리의 저녁",
+      "date": "2026-09-18",
+      "snippet": "황홀경을 펼친 화성거리의 저녁",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOS8xOC8yMS8yMDI2LTA5LTE4LTAxMS8yMDI2LTA5LTE4LTAwMS5qcGc==",
+      "mediaType": "article",
+      "categories": [
+        "photo"
+      ],
+      "categoryOrders": {
+        "photo": 0
+      },
+      "featuredSections": [
+        "photo"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOS8xOC8yMS8yMDI2LTA5LTE4LTAxMS8yMDI2LTA5LTE4LTAwMS5qcGc==",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A8514917e206407a01241681d"
+    },
     {
       "id": "news:rodong-sinmun:6d7e120be59bada7544ddd18",
       "title": "조선민주주의인민공화국창건 78돐경축 제7차 전국조각, 공예축전 진행소식",
@@ -22,7 +44,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 0
+        "photo": 1
       },
       "featuredSections": [
         "photo"
@@ -44,7 +66,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 1
+        "photo": 2
       },
       "featuredSections": [
         "photo"
@@ -66,7 +88,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 2
+        "photo": 3
       },
       "featuredSections": [
         "photo"
@@ -88,7 +110,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 3
+        "photo": 4
       },
       "featuredSections": [
         "photo"
@@ -98,28 +120,6 @@
       "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNy8zMC8yMS8yMDI2LTA3LTMwLTAxMi8yMDI2LTA3LTMwLTAwMS5qcGc==",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A299cb89bc5fbc0b6ddd912fb"
-    },
-    {
-      "id": "news:rodong-sinmun:6f106b2f09218ab4afd37de6",
-      "title": "전승절을 축하합니다!",
-      "date": "2026-07-27",
-      "snippet": "전승절을 축하합니다!",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNy8yNy8yMS8yMDI2LTA3LTI3LTAxMS8yMDI2LTA3LTI3LTAwMS5qcGc==",
-      "mediaType": "article",
-      "categories": [
-        "photo"
-      ],
-      "categoryOrders": {
-        "photo": 4
-      },
-      "featuredSections": [
-        "photo"
-      ],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNy8yNy8yMS8yMDI2LTA3LTI3LTAxMS8yMDI2LTA3LTI3LTAwMS5qcGc==",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A6f106b2f09218ab4afd37de6"
     }
   ]
 }

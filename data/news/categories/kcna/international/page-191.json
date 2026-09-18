@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 191,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:e1b24b61f643762a6ca99f1f",
+      "title": "나이제리아에서 라싸열병으로 인한 사망자수 증가",
+      "date": "2026-05-14",
+      "snippet": "(평양 5월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2ece3906500bf3c668eabdc0859d7ba6",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 950
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae1b24b61f643762a6ca99f1f"
+    },
     {
       "id": "news:kcna:077718e74a27f0181733d2d2",
       "title": "중국외교부 일본의 《신군국주의》망동 규탄",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 950
+        "international": 951
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 951,
-        "social": 147
+        "international": 952,
+        "social": 148
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 952
+        "international": 953
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 953
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A33d769ca4908d12d22aa9bf6"
-    },
-    {
-      "id": "news:kcna:db67128074cf7080459904af",
-      "title": "세계적으로 원유가격 급격히 상승",
-      "date": "2026-05-13",
-      "snippet": "(평양 5월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c42ce14dbe110671fd4a5e9003ed854a",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 954
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adb67128074cf7080459904af"
+      "detailUrl": "/news/document?id=news%3Akcna%3A33d769ca4908d12d22aa9bf6"
     }
   ]
 }

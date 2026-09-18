@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 104,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:11491973c2f7599a2533780e",
+      "title": "캄보쟈에서 경공업제품수출액 증가",
+      "date": "2026-07-13",
+      "snippet": "(평양 7월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cd2ae38324c9818f964688506fed4e8c",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 515
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A11491973c2f7599a2533780e"
+    },
     {
       "id": "news:kcna:58c134b487780e47081b5ce8",
       "title": "아프가니스탄인구 3 720만명",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 515
+        "international": 516
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 516,
-        "foreign": 145
+        "international": 517,
+        "foreign": 146
       },
       "featuredSections": [],
       "hasImage": true,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 517
+        "international": 518
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 518
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ade99370616ed2c7c96666ffe"
-    },
-    {
-      "id": "news:kcna:eaab9da4597d311185d6e8b6",
-      "title": "라오스민족회의 농업발전 및 빈궁청산계획 승인",
-      "date": "2026-07-12",
-      "snippet": "(평양 7월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9f4a2c3f96e2168864c5b5fea6c134f1",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 519
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aeaab9da4597d311185d6e8b6"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ade99370616ed2c7c96666ffe"
     }
   ]
 }

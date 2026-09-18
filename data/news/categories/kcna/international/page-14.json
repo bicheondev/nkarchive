@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 14,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:c676dd7e2bb9b1119a33aa73",
+      "title": "수리아에서 폭발사고로 인명피해",
+      "date": "2026-09-11",
+      "snippet": "(평양 9월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7c677936d92fab96d4069525c8654e6f",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 65
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac676dd7e2bb9b1119a33aa73"
+    },
     {
       "id": "news:kcna:44cd9cc0bb36531613793345",
       "title": "경애하는 김정은동지께 이란이슬람공화국 대통령이 축전을 보내여왔다",
@@ -24,9 +44,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 16,
-        "international": 65,
-        "foreign": 19
+        "important": 17,
+        "international": 66,
+        "foreign": 20
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,9 +68,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 17,
-        "international": 66,
-        "foreign": 20
+        "important": 18,
+        "international": 67,
+        "foreign": 21
       },
       "featuredSections": [],
       "hasImage": false,
@@ -72,9 +92,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 18,
-        "international": 67,
-        "foreign": 21
+        "important": 19,
+        "international": 68,
+        "foreign": 22
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,26 +114,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 68
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac1c248689ed56f9d2a491d08"
-    },
-    {
-      "id": "news:kcna:7a5d64192e190987e1f43ceb",
-      "title": "로씨야외무상 서방의 위험한 처지를 비평",
-      "date": "2026-09-10",
-      "snippet": "(모스크바 9월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2bfce621b9d0c4261e5097ed1249c12b",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 69
       },
       "featuredSections": [],
@@ -121,7 +121,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7a5d64192e190987e1f43ceb"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac1c248689ed56f9d2a491d08"
     }
   ]
 }

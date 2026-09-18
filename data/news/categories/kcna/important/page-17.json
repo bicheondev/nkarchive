@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "important",
   "page": 17,
   "pageSize": 5,
-  "totalItems": 529,
+  "totalItems": 530,
   "totalPages": 106,
   "articles": [
+    {
+      "id": "news:kcna:403ac19c9354f4330e0f66d5",
+      "title": "박태성 내각총리 김종태전기기관차련합기업소와 보산제철소를 현지료해",
+      "date": "2026-08-04",
+      "snippet": "(평양 8월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1297a2bc1a1867cf87b4b4d1da00e654",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 80,
+        "domestic": 509
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29506087ec7b6ba0f3a21ba62d1893a273",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/956ee4a73daa01deae44d755238c96326e283fd47ff1ebc489431050c7e54c27.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A403ac19c9354f4330e0f66d5"
+    },
     {
       "id": "news:kcna:49516c81876794d59169bc5b",
       "title": "조선민주주의인민공화국 외무성 대변인 미국이 주장하는 《싸이버위협설》을 무근거한 중상모략으로 일축",
@@ -24,9 +46,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 80,
-        "foreign": 100,
-        "domestic": 505
+        "important": 81,
+        "foreign": 101,
+        "domestic": 510
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,8 +69,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 81,
-        "international": 370
+        "important": 82,
+        "international": 371
       },
       "featuredSections": [],
       "hasImage": false,
@@ -71,10 +93,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 82,
-        "document": 11,
-        "foreign": 104,
-        "domestic": 579
+        "important": 83,
+        "document": 12,
+        "foreign": 105,
+        "domestic": 584
       },
       "featuredSections": [],
       "hasImage": false,
@@ -96,9 +118,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 83,
-        "international": 424,
-        "foreign": 105
+        "important": 84,
+        "international": 425,
+        "foreign": 106
       },
       "featuredSections": [],
       "hasImage": false,
@@ -106,28 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aa2f766926e8283088cef61c0"
-    },
-    {
-      "id": "news:kcna:aa9f32487a89fcba579d535c",
-      "title": "경애하는 김정은동지께서 전승절에 즈음하여 전국의 전쟁로병들에게 선물을 보내시였다",
-      "date": "2026-07-26",
-      "snippet": "(평양 7월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/23b2d6725d6a3e8e2e689626ea4caf25",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 84,
-        "domestic": 588
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aaa9f32487a89fcba579d535c"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 422,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:9da0ea767dbb473e3c11539a",
+      "title": "미국에서 총기류범죄",
+      "date": "2025-12-17",
+      "snippet": "(평양 12월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/386a5692419a9dfe2042ee3cd68decb2",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2105
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9da0ea767dbb473e3c11539a"
+    },
     {
       "id": "news:kcna:79934e0e0a1b631a079b90ce",
       "title": "파키스탄에서 반테로작전",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2105
+        "international": 2106
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2106
+        "international": 2107
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2107
+        "international": 2108
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2108
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abecb283520f2aa120e38e18a"
-    },
-    {
-      "id": "news:kcna:19891c819a4f5e27867552cb",
-      "title": "수단과 민주꽁고에서 분쟁으로 많은 사상자와 피난민 발생",
-      "date": "2025-12-16",
-      "snippet": "(평양 12월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/10a9c6fa886bab566c252997e3736238",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 2109
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A19891c819a4f5e27867552cb"
+      "detailUrl": "/news/document?id=news%3Akcna%3Abecb283520f2aa120e38e18a"
     }
   ]
 }

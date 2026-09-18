@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 149,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:930352710231ed60a3c25513",
+      "title": "뛰르끼예에서 반테로작전",
+      "date": "2026-06-12",
+      "snippet": "(평양 6월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9dcbfa1f5e96a87095685bd0194cf211",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 740
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A930352710231ed60a3c25513"
+    },
     {
       "id": "news:kcna:02440b0b46e6bd9768007f9c",
       "title": "라오스정부 새로운 국가발전계획 발표",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 740
+        "international": 741
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 741
+        "international": 742
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,8 +83,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "international": 742,
-        "domestic": 1083
+        "international": 743,
+        "domestic": 1088
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 743
+        "international": 744
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,28 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A889845a9cc18de76fc3656e6"
-    },
-    {
-      "id": "news:kcna:e6e56baa014d3e4ed4354f61",
-      "title": "우리 나라 특명전권대사 인도네시아대통령에게 신임장을 봉정",
-      "date": "2026-06-12",
-      "snippet": "(평양 6월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a8ded5359bf7a5d15c9035e78c6507bf",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 744,
-        "foreign": 200
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae6e56baa014d3e4ed4354f61"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "international",
   "page": 101,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:d0a24e26039830c9854da2b7",
+      "title": "여러 나라의 각계인사들 우리 나라 대표부들을 방문",
+      "date": "2026-07-16",
+      "snippet": "(평양 7월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e034da01c7666edce44e4db369629c25",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 500,
+        "foreign": 136
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad0a24e26039830c9854da2b7"
+    },
     {
       "id": "news:kcna:c11b32c83bf46d4356ba30bd",
       "title": "까자흐스딴에서 국내총생산 장성",
@@ -22,7 +44,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 500
+        "international": 501
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 501
+        "international": 502
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 502
+        "international": 503
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 503
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A35cf2e05c9a80568dfb3de46"
-    },
-    {
-      "id": "news:kcna:7936c52da7f8542100b93995",
-      "title": "유럽대륙에서 열파로 인한 사망자수 1만여명",
-      "date": "2026-07-15",
-      "snippet": "(평양 7월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2ecd046c0a267017c3e471130b17740a",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 504
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7936c52da7f8542100b93995"
+      "detailUrl": "/news/document?id=news%3Akcna%3A35cf2e05c9a80568dfb3de46"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 536,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:97bc9ca8a3c704f358333678",
+      "title": "중국에서 위성 발사",
+      "date": "2025-09-30",
+      "snippet": "(베이징 9월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4ce346176f506d75f1125a5eacd94905",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2675
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A97bc9ca8a3c704f358333678"
+    },
     {
       "id": "news:kcna:9d5a1995f7bf4458e138e182",
       "title": "미국에서 총기류범죄",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2675
+        "international": 2676
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2676
+        "international": 2677
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2677
+        "international": 2678
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,7 +102,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2678
+        "international": 2679
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,28 +110,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Af214f8119c9aeb7fd5c1a743"
-    },
-    {
-      "id": "news:kcna:35355438d593862030b1bb9f",
-      "title": "수단에서 분쟁으로 인도주의상황 악화",
-      "date": "2025-09-30",
-      "snippet": "(평양 9월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3dcc32c95d71db92cdfd97c95142fb10",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "social"
-      ],
-      "categoryOrders": {
-        "international": 2679,
-        "social": 646
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A35355438d593862030b1bb9f"
     }
   ]
 }

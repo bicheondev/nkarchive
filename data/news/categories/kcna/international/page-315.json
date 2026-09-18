@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 315,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:6f45c044a16ed1fc00f74e13",
+      "title": "이란외무성 대변인 미국의 공격시도에 경고",
+      "date": "2026-02-26",
+      "snippet": "(테헤란 2월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/41b8b2556bcf85d2031036a9525c254e",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1570
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6f45c044a16ed1fc00f74e13"
+    },
     {
       "id": "news:kcna:296e6bf2f524ec524cf67c65",
       "title": "《마약소탕》의 간판밑에 계속되는 미국의 민간선박공격행위",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1570
+        "international": 1571
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,9 +64,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 314,
-        "international": 1571,
-        "foreign": 415
+        "important": 315,
+        "international": 1572,
+        "foreign": 416
       },
       "featuredSections": [],
       "hasImage": true,
@@ -67,8 +87,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 316,
-        "international": 1572
+        "important": 317,
+        "international": 1573
       },
       "featuredSections": [],
       "hasImage": false,
@@ -89,8 +109,8 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1573,
-        "social": 294
+        "international": 1574,
+        "social": 295
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,26 +118,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A2890cf3dd998eed985aaa4bf"
-    },
-    {
-      "id": "news:kcna:339ae9b1f0a91891803818b1",
-      "title": "남아프리카대통령 쁠럭불가담정책을 견지할 립장 강조",
-      "date": "2026-02-25",
-      "snippet": "(평양 2월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e3db59750124927950e236e7d5187c47",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 1574
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A339ae9b1f0a91891803818b1"
     }
   ]
 }

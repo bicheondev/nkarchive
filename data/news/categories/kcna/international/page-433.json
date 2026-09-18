@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:00:00.000Z",
-  "version": "8db4d3515aad3cb5",
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "version": "705eb662f5ce7a57",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 433,
   "pageSize": 5,
-  "totalItems": 2771,
+  "totalItems": 2772,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:0f4fdc6639c8df17ed531917",
+      "title": "여러 나라에서 교통사고",
+      "date": "2025-12-09",
+      "snippet": "(평양 12월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6ecd9b07ebca157bc79a2589de49c79d",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 2160
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0f4fdc6639c8df17ed531917"
+    },
     {
       "id": "news:kcna:492d87c27f805e53514db690",
       "title": "일본에서 9 370여개의 기업체파산",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2160
+        "international": 2161
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2161
+        "international": 2162
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2162
+        "international": 2163
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2163
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4445158fa85dba5533b71122"
-    },
-    {
-      "id": "news:kcna:f649dd168e019ba5dc73c296",
-      "title": "까타르수상 가자지대로부터 이스라엘군의 완전철수를 요구",
-      "date": "2025-12-09",
-      "snippet": "(평양 12월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/29745cf33199439165014f812d4e1b8b",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 2164
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af649dd168e019ba5dc73c296"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4445158fa85dba5533b71122"
     }
   ]
 }
