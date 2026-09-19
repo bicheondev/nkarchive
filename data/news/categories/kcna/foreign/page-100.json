@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-19T00:00:00.000Z",
-  "version": "64a934b4312ec759",
+  "version": "02f2d5022b64a1ff",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 100,
   "pageSize": 5,
-  "totalItems": 780,
-  "totalPages": 156,
+  "totalItems": 781,
+  "totalPages": 157,
   "articles": [
+    {
+      "id": "news:kcna:be07f41e5468155173528a95",
+      "title": "경애하는 김정은동지께서 꾸바공산당 중앙위원회 제1비서,꾸바공화국 주석에게 축전을 보내시였다",
+      "date": "2026-01-01",
+      "snippet": "(평양 1월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3d556487a9ec25a7772eee8e9fcada49",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 391,
+        "foreign": 495,
+        "domestic": 2920
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abe07f41e5468155173528a95"
+    },
     {
       "id": "news:kcna:98f2c7e0e9aa1d18d6258370",
       "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 해외연고자가족들이 꽃바구니를 보내여왔다",
@@ -23,8 +47,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 495,
-        "domestic": 2915
+        "foreign": 496,
+        "domestic": 2922
       },
       "featuredSections": [],
       "hasImage": true,
@@ -47,8 +71,8 @@
       ],
       "categoryOrders": {
         "important": 394,
-        "international": 2010,
-        "foreign": 496
+        "international": 2017,
+        "foreign": 497
       },
       "featuredSections": [],
       "hasImage": true,
@@ -71,8 +95,8 @@
       ],
       "categoryOrders": {
         "important": 395,
-        "international": 2011,
-        "foreign": 497
+        "international": 2018,
+        "foreign": 498
       },
       "featuredSections": [],
       "hasImage": false,
@@ -95,31 +119,7 @@
       ],
       "categoryOrders": {
         "important": 396,
-        "international": 2012,
-        "foreign": 498
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1df69316de740fe697eac2ab"
-    },
-    {
-      "id": "news:kcna:47b464dc7bc46afcf1d62c03",
-      "title": "경애하는 김정은동지께 팔레스티나국가 대통령이 축전을 보내여왔다",
-      "date": "2025-12-31",
-      "snippet": "(평양 12월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/52908b522c1926cbbb5bd3e9ae712c73",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 397,
-        "international": 2013,
+        "international": 2019,
         "foreign": 499
       },
       "featuredSections": [],
@@ -127,7 +127,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A47b464dc7bc46afcf1d62c03"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1df69316de740fe697eac2ab"
     }
   ]
 }

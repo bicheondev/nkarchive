@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-19T00:00:00.000Z",
-  "version": "64a934b4312ec759",
+  "version": "02f2d5022b64a1ff",
   "shard": "c2",
   "articles": {
     "news:kcna:175ca12efd2fdd5f092af812": {
@@ -22,8 +22,8 @@
       "categoryOrders": {
         "important": 5,
         "document": 2,
-        "foreign": 4,
-        "domestic": 16
+        "foreign": 5,
+        "domestic": 23
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -45,7 +45,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 205
+        "international": 212
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -67,7 +67,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 285
+        "domestic": 292
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -89,7 +89,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 440
+        "domestic": 447
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29664c5c31bf5a82c2067dd3fc9a77971a",
@@ -148,7 +148,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 335
+        "international": 342
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -171,8 +171,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 117,
-        "domestic": 653
+        "foreign": 118,
+        "domestic": 660
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -326,7 +326,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 692
+        "domestic": 699
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -348,7 +348,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1168
+        "domestic": 1175
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -370,7 +370,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1560
+        "domestic": 1567
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66efff40914d66467db27ee538162aa561",
@@ -434,8 +434,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1764,
-        "social": 188
+        "domestic": 1771,
+        "social": 189
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -457,7 +457,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1875
+        "domestic": 1882
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66e9269b05ace7e373594a7a533fd61b42",
@@ -597,7 +597,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1908
+        "domestic": 1915
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -619,7 +619,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1989
+        "domestic": 1996
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -643,7 +643,7 @@
       ],
       "categoryOrders": {
         "important": 282,
-        "domestic": 2119
+        "domestic": 2126
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -687,7 +687,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1470
+        "international": 1477
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -710,8 +710,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1568,
-        "foreign": 418
+        "international": 1575,
+        "foreign": 419
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -733,7 +733,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2504
+        "domestic": 2511
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -755,7 +755,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2786
+        "domestic": 2793
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -778,8 +778,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2810,
-        "social": 412
+        "domestic": 2817,
+        "social": 413
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e4516ce40fe2c93000ea85c806e727013a72",
@@ -910,7 +910,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1955
+        "international": 1962
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1366,7 +1366,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 4037
+        "domestic": 4044
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1388,7 +1388,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2696
+        "international": 2703
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1410,31 +1410,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2715
-      },
-      "featuredSections": [],
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "images": [],
-      "videos": []
-    },
-    "news:kcna:4719c96008d98bf90b9d87f4": {
-      "id": "news:kcna:4719c96008d98bf90b9d87f4",
-      "title": "평양시안의 일군들과 근로자들 수도의 면모를 일신",
-      "date": "2025-09-20",
-      "snippet": "(평양 9월 20일발 조선중앙통신)",
-      "body": "(평양 9월 20일발 조선중앙통신)\n\n평양시안의 일군들과 근로자들이 수도의 면모를 일신시키고있다.\n\n시에서는 모든 시민들이 가을철위생월간사업에 대한 옳바른 인식을 가지고 보다 문화위생적인 환경과 조건을 마련하는데 주인답게 참가하도록 조직정치사업을 하였다.\n\n락랑구역과 만경대구역에서 도로포장과 살림집외장재바르기,주변공지들에 대한 원림록화,울타리보수를 내밀고있다.\n\n중구역에서는 인도블로크와 도로연석교체 등을 질적으로 다그치는 한편 거리주변에 화단,화대들을 설치하고 공원들을 변모시키고있다.\n\n서성구역,보통강구역에서는 꾸리기에서 모범을 보이고있는 단위와 대상들을 평가해주고 좋은 경험을 일반화하기 위한 사업을 진행하여 주민들의 열의를 고조시키고있다.\n\n선교구역,사동구역 등에서도 장마철흔적을 가시는것과 함께 가로등주도색,지피식물심기를 비롯한 다양한 사업들을 전개하면서 거리와 마을을 더 밝고 깨끗하게 꾸려나가고있다.(끝)",
-      "url": "http://www.kcna.kp/kp/article/detail/3cf8c80c441661b4a77dfc761f7eda3b",
-      "mediaType": "article",
-      "sourceId": "kcna",
-      "sourceName": "조선중앙통신",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 4166,
-        "social": 672
+        "international": 2722
       },
       "featuredSections": [],
       "thumbnailUrl": "",

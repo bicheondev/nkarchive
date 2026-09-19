@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-19T00:00:00.000Z",
-  "version": "64a934b4312ec759",
+  "version": "02f2d5022b64a1ff",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 4,
   "pageSize": 5,
-  "totalItems": 780,
-  "totalPages": 156,
+  "totalItems": 781,
+  "totalPages": 157,
   "articles": [
+    {
+      "id": "news:kcna:244924e44e9729197eed6aca",
+      "title": "중국청년간부대표단 도착",
+      "date": "2026-09-15",
+      "snippet": "(평양 9월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7b44f50ea7bbb9634c48b8dd42164d57",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 15,
+        "domestic": 61
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba001befe9aa06c4fc81dfde03e5cbdc63",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/ef052130d496ddc946fee95a99caee66caf37785b54b2a02420d99ae0190a071.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A244924e44e9729197eed6aca"
+    },
     {
       "id": "news:kcna:eedcc0ac8c6fff33df4b2793",
       "title": "로씨야주재 우리 나라 대사관 연회 마련",
@@ -23,8 +45,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 47,
-        "foreign": 15
+        "international": 54,
+        "foreign": 16
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,8 +69,8 @@
       ],
       "categoryOrders": {
         "important": 15,
-        "foreign": 16,
-        "domestic": 76
+        "foreign": 17,
+        "domestic": 83
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +91,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 57,
-        "foreign": 17
+        "international": 64,
+        "foreign": 18
       },
       "featuredSections": [],
       "hasImage": false,
@@ -93,31 +115,7 @@
       ],
       "categoryOrders": {
         "important": 16,
-        "international": 59,
-        "foreign": 18
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aee472a29111eb362f0451937"
-    },
-    {
-      "id": "news:kcna:3838c3f9b90fb6d9c65f6479",
-      "title": "경애하는 김정은동지께 인디아공화국 대통령이 축전을 보내여왔다",
-      "date": "2026-09-12",
-      "snippet": "(평양 9월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/61d97e4af93a5b012b0b5f878d853116",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 17,
-        "international": 60,
+        "international": 66,
         "foreign": 19
       },
       "featuredSections": [],
@@ -125,7 +123,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3838c3f9b90fb6d9c65f6479"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aee472a29111eb362f0451937"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-19T00:00:00.000Z",
-  "version": "64a934b4312ec759",
+  "version": "02f2d5022b64a1ff",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,35 @@
   "section": "foreign",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 780,
-  "totalPages": 156,
+  "totalItems": 781,
+  "totalPages": 157,
   "articles": [
+    {
+      "id": "news:kcna:175ca12efd2fdd5f092af812",
+      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
+      "date": "2026-09-18",
+      "snippet": "(평양 9월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8ab23006521ecfc5e9fefe4d6cde6178",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 5,
+        "document": 2,
+        "foreign": 5,
+        "domestic": 23
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A175ca12efd2fdd5f092af812"
+    },
     {
       "id": "news:kcna:ad82825e3dbf800ae6a352c1",
       "title": "조선민주주의인민공화국창건 78돐에 즈음하여 알제리대통령이 우리 나라 대표부에 꽃바구니를 보내여왔다",
@@ -23,8 +49,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 14,
-        "foreign": 5
+        "international": 21,
+        "foreign": 6
       },
       "featuredSections": [
         "foreign"
@@ -47,12 +73,10 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 15,
-        "foreign": 6
+        "international": 22,
+        "foreign": 7
       },
-      "featuredSections": [
-        "foreign"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -75,8 +99,8 @@
       "categoryOrders": {
         "important": 6,
         "document": 3,
-        "foreign": 7,
-        "domestic": 31
+        "foreign": 8,
+        "domestic": 38
       },
       "featuredSections": [],
       "hasImage": false,
@@ -101,8 +125,8 @@
       "categoryOrders": {
         "important": 7,
         "document": 4,
-        "foreign": 8,
-        "domestic": 35
+        "foreign": 9,
+        "domestic": 42
       },
       "featuredSections": [
         "important",
@@ -113,28 +137,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A1e4086b104b23f6d051571bc"
-    },
-    {
-      "id": "news:kcna:c7f0e58ded1662e8a4a67b0f",
-      "title": "조선민주주의인민공화국창건 78돐 경축행사 여러 나라에서 진행",
-      "date": "2026-09-16",
-      "snippet": "(평양 9월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ff2e8e60b14363d1b3cbfb6e332b4402",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 22,
-        "foreign": 9
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac7f0e58ded1662e8a4a67b0f"
     }
   ]
 }

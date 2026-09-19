@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-19T00:00:00.000Z",
-  "version": "64a934b4312ec759",
+  "version": "02f2d5022b64a1ff",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 75,
   "pageSize": 5,
-  "totalItems": 780,
-  "totalPages": 156,
+  "totalItems": 781,
+  "totalPages": 157,
   "articles": [
+    {
+      "id": "news:kcna:dc88e29b0bc5159174cafc71",
+      "title": "경애하는 김정은동지께 몽골 대통령이 꽃바구니를 보내여왔다",
+      "date": "2026-03-27",
+      "snippet": "(평양 3월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/85e432c4b22c5fef88b0c9f780c59dd1",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 251,
+        "international": 1358,
+        "foreign": 370
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e605bbbf072de850c3f22d8ec12a41650d0",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/d46e573ac54658bf590ed319aaa901b06e7bcf6a493288c3bc9ae26bfd88244a.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Adc88e29b0bc5159174cafc71"
+    },
     {
       "id": "news:kcna:b31c8bb01e33bf0ac0e9c0a6",
       "title": "경애하는 김정은동지께 중화인민공화국 주석이 축전을 보내여왔다",
@@ -25,8 +49,8 @@
       ],
       "categoryOrders": {
         "important": 252,
-        "international": 1352,
-        "foreign": 370
+        "international": 1359,
+        "foreign": 371
       },
       "featuredSections": [],
       "hasImage": false,
@@ -49,8 +73,8 @@
       ],
       "categoryOrders": {
         "important": 253,
-        "international": 1353,
-        "foreign": 371
+        "international": 1360,
+        "foreign": 372
       },
       "featuredSections": [],
       "hasImage": false,
@@ -73,8 +97,8 @@
       ],
       "categoryOrders": {
         "important": 254,
-        "foreign": 372,
-        "domestic": 2014
+        "foreign": 373,
+        "domestic": 2021
       },
       "featuredSections": [],
       "hasImage": true,
@@ -97,8 +121,8 @@
       ],
       "categoryOrders": {
         "important": 255,
-        "foreign": 373,
-        "domestic": 2015
+        "foreign": 374,
+        "domestic": 2022
       },
       "featuredSections": [],
       "hasImage": true,
@@ -106,30 +130,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60b90c93d02f93a7e4ca9118cf4bdcc575",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Accb02b653847407713c5bd41"
-    },
-    {
-      "id": "news:kcna:1ab76c78703db1c441f668ed",
-      "title": "경애하는 김정은동지께 니까라과공화국 공동대통령들이 축전을 보내여왔다",
-      "date": "2026-03-26",
-      "snippet": "(평양 3월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/df5e843857faefa565fe80c73ee32a08",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 256,
-        "international": 1360,
-        "foreign": 374
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1ab76c78703db1c441f668ed"
     }
   ]
 }

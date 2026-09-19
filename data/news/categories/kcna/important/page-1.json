@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-19T00:00:00.000Z",
-  "version": "64a934b4312ec759",
+  "version": "02f2d5022b64a1ff",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -24,11 +24,10 @@
       ],
       "categoryOrders": {
         "important": 0,
-        "domestic": 1
+        "domestic": 8
       },
       "featuredSections": [
-        "important",
-        "domestic"
+        "important"
       ],
       "hasImage": true,
       "hasVideo": false,
@@ -38,7 +37,7 @@
     },
     {
       "id": "news:kcna:1bdea89d45c692df9ae81b0d",
-      "title": "조선민주주의인민공화국외무성 대변인담화 발표",
+      "title": "조선민주주의인민공화국 외무성 대변인담화 발표",
       "date": "2026-09-19",
       "snippet": "(평양 9월 19일발 조선중앙통신)",
       "url": "http://www.kcna.kp/kp/article/detail/551cb53d9d184def31fedaebb231ea56",
@@ -52,14 +51,13 @@
       "categoryOrders": {
         "important": 1,
         "document": 0,
-        "foreign": 0,
-        "domestic": 2
+        "foreign": 1,
+        "domestic": 9
       },
       "featuredSections": [
         "important",
         "document",
-        "foreign",
-        "domestic"
+        "foreign"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -83,14 +81,13 @@
       "categoryOrders": {
         "important": 2,
         "document": 1,
-        "foreign": 1,
-        "domestic": 3
+        "foreign": 2,
+        "domestic": 10
       },
       "featuredSections": [
         "important",
         "document",
-        "foreign",
-        "domestic"
+        "foreign"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -111,7 +108,7 @@
       ],
       "categoryOrders": {
         "important": 3,
-        "domestic": 15
+        "domestic": 22
       },
       "featuredSections": [
         "important"
@@ -136,8 +133,8 @@
       ],
       "categoryOrders": {
         "important": 4,
-        "international": 6,
-        "foreign": 3
+        "international": 13,
+        "foreign": 4
       },
       "featuredSections": [
         "important",

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-19T00:00:00.000Z",
-  "version": "64a934b4312ec759",
+  "version": "02f2d5022b64a1ff",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,35 @@
   "section": "foreign",
   "page": 51,
   "pageSize": 5,
-  "totalItems": 780,
-  "totalPages": 156,
+  "totalItems": 781,
+  "totalPages": 157,
   "articles": [
+    {
+      "id": "news:kcna:6ccce15c3e217e61d8f0b379",
+      "title": "김성 유엔주재 조선민주주의인민공화국 상임대표 담화 발표",
+      "date": "2026-05-07",
+      "snippet": "(평양 5월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/953ee4919cb8f19e040ba2b88e8bf277",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "document",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 179,
+        "international": 1025,
+        "document": 25,
+        "foreign": 250
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6ccce15c3e217e61d8f0b379"
+    },
     {
       "id": "news:kcna:5c7e6dcc255070fb465765be",
       "title": "로씨야련방 기상수문 및 환경감시국대표단 도착",
@@ -23,8 +49,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 250,
-        "domestic": 1489
+        "foreign": 251,
+        "domestic": 1496
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +71,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 251,
-        "domestic": 1497
+        "foreign": 252,
+        "domestic": 1504
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +95,8 @@
       ],
       "categoryOrders": {
         "important": 180,
-        "international": 1025,
-        "foreign": 252
+        "international": 1032,
+        "foreign": 253
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,8 +117,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 253,
-        "domestic": 1510
+        "foreign": 254,
+        "domestic": 1517
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,28 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A5f51af4f1ffc966dddb9f339"
-    },
-    {
-      "id": "news:kcna:ff3fb09d8c439786ae624b27",
-      "title": "우리 나라 주재 로씨야련방대사관 림시대리대사 친선모임 마련",
-      "date": "2026-05-05",
-      "snippet": "(평양 5월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/02c28784c45f9e1859f5c615734505ec",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 254,
-        "domestic": 1511
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aff3fb09d8c439786ae624b27"
     }
   ]
 }
