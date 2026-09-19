@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-18T00:00:00.000Z",
-  "version": "2f3e4296842e1f84",
+  "generatedAt": "2026-09-19T00:00:00.000Z",
+  "version": "64a934b4312ec759",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,55 @@
   "section": "foreign",
   "page": 29,
   "pageSize": 5,
-  "totalItems": 778,
+  "totalItems": 780,
   "totalPages": 156,
   "articles": [
+    {
+      "id": "news:kcna:d0a24e26039830c9854da2b7",
+      "title": "여러 나라의 각계인사들 우리 나라 대표부들을 방문",
+      "date": "2026-07-16",
+      "snippet": "(평양 7월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e034da01c7666edce44e4db369629c25",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 507,
+        "foreign": 140
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad0a24e26039830c9854da2b7"
+    },
+    {
+      "id": "news:kcna:aeb2d9c5dfe1dede273969d9",
+      "title": "중화인민공화국 당 및 정부대표단 평양 도착",
+      "date": "2026-07-16",
+      "snippet": "(평양 7월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/381ca117ba068cdef4f996fb1429abfc",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 108,
+        "foreign": 141,
+        "domestic": 737
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77daca0a9d01dc009b662a592a9bd8e913c",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/f7b53082171f006dbf540d963c1208bc80432083428718799dd224d007e72c26.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aaeb2d9c5dfe1dede273969d9"
+    },
     {
       "id": "news:kcna:5753f0a9cdad4596c5714a30",
       "title": "조선로동당 중앙위원회 비서 조용원동지가 중국인민정치협상회의 전국위원회 주석 왕호녕동지와 회담",
@@ -24,9 +70,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 106,
-        "foreign": 140,
-        "domestic": 732
+        "important": 109,
+        "foreign": 142,
+        "domestic": 738
       },
       "featuredSections": [],
       "hasImage": true,
@@ -48,9 +94,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 107,
-        "foreign": 141,
-        "domestic": 733
+        "important": 110,
+        "foreign": 143,
+        "domestic": 739
       },
       "featuredSections": [],
       "hasImage": true,
@@ -72,7 +118,7 @@
       ],
       "categoryOrders": {
         "international": 513,
-        "foreign": 142
+        "foreign": 144
       },
       "featuredSections": [],
       "hasImage": false,
@@ -80,52 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A7caf099ead171e0d709b8f1b"
-    },
-    {
-      "id": "news:kcna:0b937229a19ffd4b56dfb8d1",
-      "title": "조선로동당 중앙위원회 비서 김성남동지가 벨라루씨공산당대표단을 만났다",
-      "date": "2026-07-15",
-      "snippet": "(평양 7월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/95bc547bd9e4ca09d000c50f498e66fb",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 143,
-        "domestic": 748
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d9c11e7d8f19b53b661ed227990f9629c",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/90bfa898e2e204bea0628a16c18fb8bd9aa9905f3fec8072be6139e8da59f1cd.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0b937229a19ffd4b56dfb8d1"
-    },
-    {
-      "id": "news:kcna:9397884419af3b71a37f2877",
-      "title": "중화인민공화국 당 및 정부대표단이 우리 나라를 공식친선방문한다",
-      "date": "2026-07-14",
-      "snippet": "(평양 7월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/76e471556c65618ca63a95cc5211194c",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 110,
-        "foreign": 144,
-        "domestic": 759
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9397884419af3b71a37f2877"
     }
   ]
 }

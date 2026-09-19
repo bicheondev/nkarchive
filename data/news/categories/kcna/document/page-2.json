@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-18T00:00:00.000Z",
-  "version": "2f3e4296842e1f84",
+  "generatedAt": "2026-09-19T00:00:00.000Z",
+  "version": "64a934b4312ec759",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,65 @@
   "section": "document",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 62,
+  "totalItems": 64,
   "totalPages": 13,
   "articles": [
+    {
+      "id": "news:kcna:6e368eeae06e58ebe4175ace",
+      "title": "조선민주주의인민공화국 김성기 국방상 담화 발표",
+      "date": "2026-09-07",
+      "snippet": "(평양 9월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5f2dc85d82f69094ca7047d748489161",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 51,
+        "document": 5,
+        "foreign": 53,
+        "domestic": 144
+      },
+      "featuredSections": [
+        "document"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6e368eeae06e58ebe4175ace"
+    },
+    {
+      "id": "news:kcna:9717aaa28b7bc5bfccb29f9c",
+      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
+      "date": "2026-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d71edc38f50c81691e4f69e6507f146b",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 55,
+        "document": 6,
+        "foreign": 60,
+        "domestic": 218
+      },
+      "featuredSections": [
+        "document"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9717aaa28b7bc5bfccb29f9c"
+    },
     {
       "id": "news:kcna:6aa3ff6b7410c650239f1b74",
       "title": "조선민주주의인민공화국 외무성 대변인대답",
@@ -25,10 +81,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 56,
-        "document": 5,
-        "foreign": 64,
-        "domestic": 263
+        "important": 59,
+        "document": 7,
+        "foreign": 66,
+        "domestic": 269
       },
       "featuredSections": [
         "document"
@@ -52,9 +108,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 59,
-        "document": 6,
-        "domestic": 337
+        "important": 62,
+        "document": 8,
+        "domestic": 343
       },
       "featuredSections": [],
       "hasImage": false,
@@ -76,68 +132,16 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 60,
-        "document": 7,
-        "domestic": 348
+        "important": 63,
+        "document": 9,
+        "domestic": 354
       },
-      "featuredSections": [
-        "document"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-8bca70b499b526e4"
-    },
-    {
-      "id": "kcna-fb857dc5f25284ae",
-      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
-      "date": "2026-08-14",
-      "snippet": "(평양 8월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/32147322f6e646b505576c1128a81082",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 71,
-        "document": 8,
-        "foreign": 93,
-        "domestic": 418
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-fb857dc5f25284ae"
-    },
-    {
-      "id": "kcna-1e11b92604277ccb",
-      "title": "조선민주주의인민공화국 외무성 장금철제1부상 겸 10국 국장 담화 발표",
-      "date": "2026-08-12",
-      "snippet": "(평양 8월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/806e15f67eb917fde8ca7ca8aee954e6",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "document"
-      ],
-      "categoryOrders": {
-        "important": 75,
-        "international": 321,
-        "document": 9
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-1e11b92604277ccb"
     }
   ]
 }
