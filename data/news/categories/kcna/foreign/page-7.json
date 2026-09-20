@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-19T00:00:00.000Z",
-  "version": "02f2d5022b64a1ff",
+  "generatedAt": "2026-09-20T00:00:00.000Z",
+  "version": "233aaec5f33bbfef",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,53 @@
   "section": "foreign",
   "page": 7,
   "pageSize": 5,
-  "totalItems": 781,
+  "totalItems": 783,
   "totalPages": 157,
   "articles": [
+    {
+      "id": "news:kcna:1b468101f3d6c2c53186f398",
+      "title": "공화국창건 78돐에 즈음하여 여러 나라에서 토론회 진행",
+      "date": "2026-09-10",
+      "snippet": "(평양 9월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ad05cd9e72871d71988856de56de1bfe",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 92,
+        "foreign": 30
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1b468101f3d6c2c53186f398"
+    },
+    {
+      "id": "news:kcna:ba7cabfb65aeb5ad421b3b6a",
+      "title": "국제청년축전에 참가하는 조선청년대표단 출발",
+      "date": "2026-09-10",
+      "snippet": "(평양 9월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6615060af1290adc02a760f73452e65e",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 31,
+        "domestic": 120
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba4e49713081e6fd56f14b28606bf450ac",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/f3027f01e28ea983ad1e9ef40ec91c5ff29c6ba387b60b555018600dfece1b60.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aba7cabfb65aeb5ad421b3b6a"
+    },
     {
       "id": "news:kcna:5bc8d540628d5f27ff8d1293",
       "title": "경애하는 김정은동지께 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지가 축전을 보내여왔다",
@@ -26,7 +70,7 @@
       "categoryOrders": {
         "important": 27,
         "international": 102,
-        "foreign": 30
+        "foreign": 32
       },
       "featuredSections": [],
       "hasImage": false,
@@ -50,7 +94,7 @@
       "categoryOrders": {
         "important": 28,
         "international": 103,
-        "foreign": 31
+        "foreign": 33
       },
       "featuredSections": [],
       "hasImage": false,
@@ -74,54 +118,6 @@
       "categoryOrders": {
         "important": 29,
         "international": 104,
-        "foreign": 32
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A683d9c2ab0ab1ac950043f58"
-    },
-    {
-      "id": "news:kcna:779ecf345dc435edf3b39283",
-      "title": "경애하는 김정은동지께 전로씨야정당 《통일로씨야》 위원장이 축전을 보내여왔다",
-      "date": "2026-09-09",
-      "snippet": "(평양 9월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/de0e450f61afb9aae65d68e0308368c4",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 30,
-        "international": 105,
-        "foreign": 33
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A779ecf345dc435edf3b39283"
-    },
-    {
-      "id": "news:kcna:c75a72df9fe74b6673c4d26b",
-      "title": "경애하는 김정은동지께 라오스인민혁명당 중앙위원회 총비서,라오스인민민주주의공화국 주석이 축전을 보내여왔다",
-      "date": "2026-09-09",
-      "snippet": "(평양 9월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9298c036350737d74656a9d0d69b828d",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 31,
-        "international": 106,
         "foreign": 34
       },
       "featuredSections": [],
@@ -129,7 +125,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac75a72df9fe74b6673c4d26b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A683d9c2ab0ab1ac950043f58"
     }
   ]
 }

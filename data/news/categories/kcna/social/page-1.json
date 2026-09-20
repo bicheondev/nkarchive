@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-19T00:00:00.000Z",
-  "version": "02f2d5022b64a1ff",
+  "generatedAt": "2026-09-20T00:00:00.000Z",
+  "version": "233aaec5f33bbfef",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "social",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 671,
+  "totalItems": 672,
   "totalPages": 135,
   "articles": [
+    {
+      "id": "news:kcna:8b07a977a32bd432e23d7174",
+      "title": "영광의 단상에 오른 평범한 근로자들",
+      "date": "2026-09-20",
+      "snippet": "(평양 9월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b3972731876e1778c4d931e64c45ba6e",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 5,
+        "social": 0
+      },
+      "featuredSections": [
+        "social"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8b07a977a32bd432e23d7174"
+    },
     {
       "id": "news:kcna:f0a774b8fd055b8387ace1a0",
       "title": "평안북도의 각급 청년동맹,소년단조직들 새세대들에 대한 애국주의교양 강화",
@@ -23,11 +47,10 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3,
-        "social": 0
+        "domestic": 9,
+        "social": 1
       },
       "featuredSections": [
-        "domestic",
         "social"
       ],
       "hasImage": false,
@@ -48,8 +71,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 18,
-        "social": 1
+        "domestic": 24,
+        "social": 2
       },
       "featuredSections": [
         "social"
@@ -72,8 +95,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 27,
-        "social": 2
+        "domestic": 33,
+        "social": 3
       },
       "featuredSections": [
         "social"
@@ -96,31 +119,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 28,
-        "social": 3
-      },
-      "featuredSections": [
-        "social"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af216f0812da6faa581461eca"
-    },
-    {
-      "id": "news:kcna:7d130badc5e026742f8d59a7",
-      "title": "충성과 보답의 자욱을 새겨가는 사회주의애국청년선구자들",
-      "date": "2026-09-17",
-      "snippet": "(평양 9월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/86314da26a4fbcc787d551cae1f533a0",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 41,
+        "domestic": 34,
         "social": 4
       },
       "featuredSections": [
@@ -130,7 +129,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7d130badc5e026742f8d59a7"
+      "detailUrl": "/news/document?id=news%3Akcna%3Af216f0812da6faa581461eca"
     }
   ]
 }
