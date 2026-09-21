@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:00:00.000Z",
-  "version": "1dfd10825bd5ed41",
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "version": "70a0368a3f4b3eed",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,53 @@
   "section": "domestic",
   "page": 3,
   "pageSize": 5,
-  "totalItems": 4169,
-  "totalPages": 834,
+  "totalItems": 4171,
+  "totalPages": 835,
   "articles": [
+    {
+      "id": "news:kcna:3d362c062f53789adb23e818",
+      "title": "로씨야에 가는 조선중앙통신사대표단 출발",
+      "date": "2026-09-20",
+      "snippet": "(평양 9월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/89c2297dfa22952eca25dc30e160d357",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 1,
+        "domestic": 10
+      },
+      "featuredSections": [
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3d362c062f53789adb23e818"
+    },
+    {
+      "id": "news:kcna:0813c2e242d6629d675a90e3",
+      "title": "중앙동물원에 새 식솔들이 늘어나고있다",
+      "date": "2026-09-20",
+      "snippet": "(평양 9월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/df3b352f7c052737e29b433870fd383e",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 11
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0813c2e242d6629d675a90e3"
+    },
     {
       "id": "news:kcna:253880935d3c8ee5f938311d",
       "title": "우리 나라의 천연기념물--백두산장군봉",
@@ -22,7 +66,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 10
+        "domestic": 12
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,7 +87,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 11,
+        "domestic": 13,
         "social": 2
       },
       "featuredSections": [
@@ -66,46 +110,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 12
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8927f5c52f8438c6468843f6"
-    },
-    {
-      "id": "news:kcna:6063f96525a8d03877f2bfde",
-      "title": "생물약품개발과 질평가에서 나서는 문제해결을 위한 연구토론회 진행",
-      "date": "2026-09-19",
-      "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/81b6d1b55b3b6c9a963b12aa282a58a2",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 13
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6063f96525a8d03877f2bfde"
-    },
-    {
-      "id": "news:kcna:351ab8db5b98c519bf0851a0",
-      "title": "황해북도에서 태양빛발전소건설 추진",
-      "date": "2026-09-19",
-      "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ba4bcc07bbc8d317b6144f2a695528fa",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 14
       },
       "featuredSections": [],
@@ -113,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A351ab8db5b98c519bf0851a0"
+      "detailUrl": "/news/document?id=news%3Akcna%3A8927f5c52f8438c6468843f6"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:00:00.000Z",
-  "version": "1dfd10825bd5ed41",
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "version": "70a0368a3f4b3eed",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,51 @@
   "section": "domestic",
   "page": 179,
   "pageSize": 5,
-  "totalItems": 4169,
-  "totalPages": 834,
+  "totalItems": 4171,
+  "totalPages": 835,
   "articles": [
+    {
+      "id": "news:kcna:1a6c3e7a5013520d8f454919",
+      "title": "우리 나라 외무상 벨라루씨공화국 외무상에게 축전",
+      "date": "2026-07-05",
+      "snippet": "(평양 7월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6ef59a3e38d46a912f88d3a08412d372",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 179,
+        "domestic": 890
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1a6c3e7a5013520d8f454919"
+    },
+    {
+      "id": "news:kcna:37240985135395d0b9963e15",
+      "title": "재일조선고급학교 학생조국방문단 도착",
+      "date": "2026-07-05",
+      "snippet": "(평양 7월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/487b8a5db4b63a38e6578cff8885ae0a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 891
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d8e990198c6ae3bb4a040326570063e62",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/f51009284bddecc6f569b95903eafe1eb2615607a582436c1f4f1a89a9792ac6.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A37240985135395d0b9963e15"
+    },
     {
       "id": "news:kcna:790c14d622db6c6d60a8b7da",
       "title": "이민위천의 숭고한 리념과 더불어 길이 빛날 혁명일화들",
@@ -22,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 890
+        "domestic": 892
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 891
+        "domestic": 893
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,46 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 892
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad0ffa9120884330bd2af8c3d"
-    },
-    {
-      "id": "news:kcna:6cce40f9a04cf3439f180c91",
-      "title": "재일조선고급학교 학생조국방문단이 떠나갔다",
-      "date": "2026-07-05",
-      "snippet": "(평양 7월 5일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6586cc392adf41e0ac522ea7a19792ce",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 893
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6cce40f9a04cf3439f180c91"
-    },
-    {
-      "id": "news:kcna:c5d872feae8d21b4b7745448",
-      "title": "전국적인 밀,보리가을 기본적으로 결속,낟알털기에 총력을 집중",
-      "date": "2026-07-04",
-      "snippet": "(평양 7월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f09f52ff60bc2d6f4c44e199f329c492",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 894
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac5d872feae8d21b4b7745448"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad0ffa9120884330bd2af8c3d"
     }
   ]
 }

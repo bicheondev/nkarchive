@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:00:00.000Z",
-  "version": "1dfd10825bd5ed41",
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "version": "70a0368a3f4b3eed",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,49 @@
   "section": "domestic",
   "page": 302,
   "pageSize": 5,
-  "totalItems": 4169,
-  "totalPages": 834,
+  "totalItems": 4171,
+  "totalPages": 835,
   "articles": [
+    {
+      "id": "news:kcna:29a7942ab75ea1bee6577cdf",
+      "title": "2026년 5월 7일 신문개관",
+      "date": "2026-05-07",
+      "snippet": "(평양 5월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/455d0380c14d158472f9129f9f0b5601",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1505
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A29a7942ab75ea1bee6577cdf"
+    },
+    {
+      "id": "news:kcna:3921a72c4fa349bae62922db",
+      "title": "《로동신문》 3대혁명은 전면적발전의 강위력한 동력이라고 강조",
+      "date": "2026-05-07",
+      "snippet": "(평양 5월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/62486297e7e2e05db48c284f5c9479f6",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1506
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3921a72c4fa349bae62922db"
+    },
     {
       "id": "news:kcna:417f00833c59428e39e8f150",
       "title": "해외군사작전 전투위훈기념관 개관후 열흘동안에만도 23만 2,000여명의 각계층 근로자들과 인민군군인들,청소년학생들이 참관",
@@ -24,7 +64,7 @@
       ],
       "categoryOrders": {
         "important": 178,
-        "domestic": 1505
+        "domestic": 1507
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1506
+        "domestic": 1508
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +104,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1507
+        "domestic": 1509
       },
       "featuredSections": [],
       "hasImage": false,
@@ -72,50 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A7a1cbbc4ed9ee81654aadcf0"
-    },
-    {
-      "id": "news:kcna:5c7e6dcc255070fb465765be",
-      "title": "로씨야련방 기상수문 및 환경감시국대표단 도착",
-      "date": "2026-05-07",
-      "snippet": "(평양 5월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9d637864ce8add650785f3dfd8339cd1",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 253,
-        "domestic": 1508
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5c7e6dcc255070fb465765be"
-    },
-    {
-      "id": "news:kcna:65ce7ff55e37b86a88fcbc34",
-      "title": "사랑과 정으로 미덕의 화원을 가꿔가는 애국녀성들",
-      "date": "2026-05-07",
-      "snippet": "(평양 5월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/33bea93fad7848ed0e5e868a25fbae45",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 1509,
-        "social": 162
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A65ce7ff55e37b86a88fcbc34"
     }
   ]
 }

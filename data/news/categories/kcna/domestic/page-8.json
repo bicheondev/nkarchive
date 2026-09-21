@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:00:00.000Z",
-  "version": "1dfd10825bd5ed41",
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "version": "70a0368a3f4b3eed",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,53 @@
   "section": "domestic",
   "page": 8,
   "pageSize": 5,
-  "totalItems": 4169,
-  "totalPages": 834,
+  "totalItems": 4171,
+  "totalPages": 835,
   "articles": [
+    {
+      "id": "news:kcna:7db1be4d2bdb1e7148342c52",
+      "title": "2026년 9월 18일 신문개관",
+      "date": "2026-09-18",
+      "snippet": "(평양 9월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/94b4791eb84da5e5f6271d501d390039",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 35
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7db1be4d2bdb1e7148342c52"
+    },
+    {
+      "id": "news:kcna:8aaadb25e654d8e424c18532",
+      "title": "《건설부문일군집중강습-2026》 진행",
+      "date": "2026-09-18",
+      "snippet": "(평양 9월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/15f3d4b7504daef845c2f0cf177b3224",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 3,
+        "domestic": 36
+      },
+      "featuredSections": [
+        "important"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45babd7e3d805bd89b2cb18608665672121e",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/7eb2a0a37833024083a486af885be3dfd40a2679329174ea436e21dfbf06797d.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8aaadb25e654d8e424c18532"
+    },
     {
       "id": "news:kcna:175ca12efd2fdd5f092af812",
       "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
@@ -28,7 +72,7 @@
         "important": 5,
         "document": 2,
         "foreign": 7,
-        "domestic": 35
+        "domestic": 37
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,7 +92,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 36
+        "domestic": 38
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,7 +112,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 37
+        "domestic": 39
       },
       "featuredSections": [],
       "hasImage": false,
@@ -76,48 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A96ccef39354baa9ac8723dc9"
-    },
-    {
-      "id": "news:kcna:7f18f5423f3f8db5ef8ca2ec",
-      "title": "각지에서 대중의 준법의식제고를 위한 사업 전개",
-      "date": "2026-09-18",
-      "snippet": "(평양 9월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/39425c276d7d72e0b7affbaf1995eece",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 38
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7f18f5423f3f8db5ef8ca2ec"
-    },
-    {
-      "id": "news:kcna:117ff1f4702fb59162819e08",
-      "title": "남포시의 녀맹원들 사회주의건설의 전구들로 진출",
-      "date": "2026-09-18",
-      "snippet": "(평양 9월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c0e3d2ead07fa222fc7d7bfb5feec17b",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 39,
-        "social": 5
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A117ff1f4702fb59162819e08"
     }
   ]
 }

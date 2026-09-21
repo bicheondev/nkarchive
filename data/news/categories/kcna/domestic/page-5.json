@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:00:00.000Z",
-  "version": "1dfd10825bd5ed41",
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "version": "70a0368a3f4b3eed",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,49 @@
   "section": "domestic",
   "page": 5,
   "pageSize": 5,
-  "totalItems": 4169,
-  "totalPages": 834,
+  "totalItems": 4171,
+  "totalPages": 835,
   "articles": [
+    {
+      "id": "news:kcna:35a47aa22e193e11b0142a88",
+      "title": "기계공업부문에서 대상설비생산성과 확대",
+      "date": "2026-09-19",
+      "snippet": "(평양 9월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/965eec0a749064cfe9ea448ef1b04e9b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 20
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A35a47aa22e193e11b0142a88"
+    },
+    {
+      "id": "news:kcna:eacb5f7e27deed5b1d7439d3",
+      "title": "2026년 9월 19일 신문개관",
+      "date": "2026-09-19",
+      "snippet": "(평양 9월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ed399ac46e512c5da077da1c14c5410d",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 21
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aeacb5f7e27deed5b1d7439d3"
+    },
     {
       "id": "news:kcna:3dc31d8071a9014c0b087a36",
       "title": "함선공업부문 조선소근로자들의 체육경기 진행",
@@ -24,7 +64,7 @@
       ],
       "categoryOrders": {
         "important": 0,
-        "domestic": 20
+        "domestic": 22
       },
       "featuredSections": [
         "important"
@@ -52,7 +92,7 @@
         "important": 1,
         "document": 0,
         "foreign": 3,
-        "domestic": 21
+        "domestic": 23
       },
       "featuredSections": [
         "important",
@@ -82,7 +122,7 @@
         "important": 2,
         "document": 1,
         "foreign": 4,
-        "domestic": 22
+        "domestic": 24
       },
       "featuredSections": [
         "important",
@@ -94,46 +134,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A79dee9cb187ccdf837271b19"
-    },
-    {
-      "id": "news:kcna:de691d54c2908dfb50b12592",
-      "title": "지방발전에 이바지하는 연구성과 확대",
-      "date": "2026-09-19",
-      "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/597d32221290db1c0764fde6fe3090ed",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 23
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ade691d54c2908dfb50b12592"
-    },
-    {
-      "id": "news:kcna:521f37cffddb07b18c7ac8ff",
-      "title": "거리와 마을의 풍치를 돋구어주는 느티나무",
-      "date": "2026-09-19",
-      "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8e6d132680484ff763e8997f10ad9316",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 24
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A521f37cffddb07b18c7ac8ff"
     }
   ]
 }

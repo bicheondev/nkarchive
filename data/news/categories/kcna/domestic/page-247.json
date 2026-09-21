@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:00:00.000Z",
-  "version": "1dfd10825bd5ed41",
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "version": "70a0368a3f4b3eed",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,51 @@
   "section": "domestic",
   "page": 247,
   "pageSize": 5,
-  "totalItems": 4169,
-  "totalPages": 834,
+  "totalItems": 4171,
+  "totalPages": 835,
   "articles": [
+    {
+      "id": "news:kcna:307909ddd5ea1c50a06bbf9b",
+      "title": "6.1국제아동절 76돐기념 친선련환모임 진행",
+      "date": "2026-06-02",
+      "snippet": "(평양 6월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ddda4492618642e1937f67a83ec7d087",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 215,
+        "domestic": 1230
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e377018c4252341065d7a5d484d755ee5e",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/2f4f87cf23fc9b62c010da820742b470f14b6558726d2609adaba177aa731f1e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A307909ddd5ea1c50a06bbf9b"
+    },
+    {
+      "id": "news:kcna:1cba31626a03aa945f9f914a",
+      "title": "지방공업공장들에서 지역특색의 새 제품을 개발생산",
+      "date": "2026-06-02",
+      "snippet": "(평양 6월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/22de51ad77e562654067f9be32196de2",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1231
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1cba31626a03aa945f9f914a"
+    },
     {
       "id": "news:kcna:90349f6b51f1ef14a826066c",
       "title": "석암소년단야영소 창립 80돐을 기념",
@@ -22,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1230
+        "domestic": 1232
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1231
+        "domestic": 1233
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,46 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1232
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0e9cb6db00d8f8be751b2ea0"
-    },
-    {
-      "id": "news:kcna:96a0759c84267abf23605c64",
-      "title": "신흥관 창립 50돐을 기념",
-      "date": "2026-06-02",
-      "snippet": "(평양 6월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/78eb085ce8c39d6a696f1ec65b33dc27",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1233
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A96a0759c84267abf23605c64"
-    },
-    {
-      "id": "news:kcna:2bbc5f5c1664bebbfc26e489",
-      "title": "강서분무기공장에서 제품의 질제고에 주력,생산량 지난해 같은 시기에 비해 2배로 장성",
-      "date": "2026-06-01",
-      "snippet": "(평양 6월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3869688522d7173e9fd142b1a4868105",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1234
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2bbc5f5c1664bebbfc26e489"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0e9cb6db00d8f8be751b2ea0"
     }
   ]
 }

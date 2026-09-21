@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:00:00.000Z",
-  "version": "1dfd10825bd5ed41",
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "version": "70a0368a3f4b3eed",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,51 @@
   "section": "domestic",
   "page": 669,
   "pageSize": 5,
-  "totalItems": 4169,
-  "totalPages": 834,
+  "totalItems": 4171,
+  "totalPages": 835,
   "articles": [
+    {
+      "id": "news:kcna:cdcf0ae2abf3c68bda5d90b6",
+      "title": "여러 나라사이의 협조",
+      "date": "2025-11-21",
+      "snippet": "(평양 11월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/501b149200651b238ba0888c24c26df5",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "international": 2299,
+        "domestic": 3341
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Acdcf0ae2abf3c68bda5d90b6"
+    },
+    {
+      "id": "news:kcna:f58fb2256ca114c72ced3515",
+      "title": "오랜 력사를 가진 우리 인민의 김치담그기풍습",
+      "date": "2025-11-21",
+      "snippet": "(평양 11월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8ef3c126f050a8288717f8e44d4e77ea",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3342
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eacd6b644f64bfa6d094dea8f3496b04ecd",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/51770b561c77e48aa23cd219bb4084344d16a90751d6522c571804172971e0f0.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af58fb2256ca114c72ced3515"
+    },
     {
       "id": "news:kcna:05a7bb8a685116fa154dd02b",
       "title": "밀가루부질강화제와 천연방부제생산공정 새로 확립,시제품 생산",
@@ -22,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3341
+        "domestic": 3343
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3342
+        "domestic": 3344
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +106,7 @@
       ],
       "categoryOrders": {
         "important": 426,
-        "domestic": 3343
+        "domestic": 3345
       },
       "featuredSections": [],
       "hasImage": true,
@@ -72,46 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac42429b747878857c43d7bbdab86f13f9",
       "cachedThumbnailUrl": "/data/news/assets/kcna/3a05b7f2ccab955935b3cdc3d630114732824b95a137af8200519ce0a5e12ab8.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A37491db041aef729bdeed5e7"
-    },
-    {
-      "id": "news:kcna:874da818f03d6b3eca86aef9",
-      "title": "함경남도의 대규모수력발전소들에서 증산투쟁 전개",
-      "date": "2025-11-21",
-      "snippet": "(평양 11월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3fb7d82f875172f3d0e4a8bfaece190e",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3344
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A874da818f03d6b3eca86aef9"
-    },
-    {
-      "id": "news:kcna:9470dc313f02183357c50337",
-      "title": "국가과학원 자연에네르기연구소에서 새로운 전력생산기술 연구도입",
-      "date": "2025-11-21",
-      "snippet": "(평양 11월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2cef00e4b2dfdd5f28cca8b8b9d09baf",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3345
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9470dc313f02183357c50337"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:00:00.000Z",
-  "version": "1dfd10825bd5ed41",
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "version": "70a0368a3f4b3eed",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,51 @@
   "section": "domestic",
   "page": 56,
   "pageSize": 5,
-  "totalItems": 4169,
-  "totalPages": 834,
+  "totalItems": 4171,
+  "totalPages": 835,
   "articles": [
+    {
+      "id": "news:kcna:d56066c2aec77f24b0f798cd",
+      "title": "《김정일전집》 제71권 출판",
+      "date": "2026-08-28",
+      "snippet": "(평양 8월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e7500b17e7fae1131974a83ff5ea80c9",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 275
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29aaa73fc364854937db97eee4ad5395ab",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/22179882aaff64a3b90334214dfa43f357b75b74c36730e9bd398186d39258af.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad56066c2aec77f24b0f798cd"
+    },
+    {
+      "id": "news:kcna:41290af3899e3d2c1d6e4e78",
+      "title": "전국녀맹예술선동대경연 진행",
+      "date": "2026-08-28",
+      "snippet": "(평양 8월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3ad1e0e21b987bf441793c177cac2fd1",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 276,
+        "social": 38
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A41290af3899e3d2c1d6e4e78"
+    },
     {
       "id": "news:kcna:bc6417ec8b1d9d4d4b5ce9b9",
       "title": "2026년 8월 28일 신문개관",
@@ -22,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 275
+        "domestic": 277
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 276
+        "domestic": 278
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +106,7 @@
       ],
       "categoryOrders": {
         "important": 58,
-        "domestic": 277
+        "domestic": 279
       },
       "featuredSections": [],
       "hasImage": true,
@@ -72,46 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2938b6922864494765d50f83866397aaed",
       "cachedThumbnailUrl": "/data/news/assets/kcna/fdab1571d4d076cf869ec0ca2b63182ab8d444c2f232e92074ddf8fed8852948.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ac58ea8ea0cd811f69a56394e"
-    },
-    {
-      "id": "news:kcna:ce98a7d4ff88a8f001848e9b",
-      "title": "우리 청년들의 명절-청년절",
-      "date": "2026-08-28",
-      "snippet": "(평양 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c69351052ae67a51020e43108414d419",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 278
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ace98a7d4ff88a8f001848e9b"
-    },
-    {
-      "id": "news:kcna:d0854b93a123d99685cf293b",
-      "title": "혁명의 년대마다에 시대를 격동시킨 청춘송가들",
-      "date": "2026-08-28",
-      "snippet": "(평양 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/85fc73e58326b2cc7fecc0fb00ffd600",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 279
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad0854b93a123d99685cf293b"
     }
   ]
 }

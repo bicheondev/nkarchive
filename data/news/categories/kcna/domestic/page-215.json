@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:00:00.000Z",
-  "version": "1dfd10825bd5ed41",
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "version": "70a0368a3f4b3eed",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,51 @@
   "section": "domestic",
   "page": 215,
   "pageSize": 5,
-  "totalItems": 4169,
-  "totalPages": 834,
+  "totalItems": 4171,
+  "totalPages": 835,
   "articles": [
+    {
+      "id": "news:kcna:1452dba5ffff1aad766a9e7e",
+      "title": "세계급혈자의 날에 즈음한 행사 진행",
+      "date": "2026-06-17",
+      "snippet": "(평양 6월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c92670fcb5f717b16e49e659092c965a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1070
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e3a2e2184b2a657bd90b57d4de3b24c366",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/9b8c7e6c20daa0507dc7ddff4083a449ed67c8f711dc333e775570aa9dccc469.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1452dba5ffff1aad766a9e7e"
+    },
+    {
+      "id": "news:kcna:bc895b526b37c5b2882c43c9",
+      "title": "윁남사회주의공화국 공안성대표단 귀국",
+      "date": "2026-06-17",
+      "snippet": "(평양 6월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a1e236ec31154bf8cc1846aa2f4a3623",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 194,
+        "domestic": 1071
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abc895b526b37c5b2882c43c9"
+    },
     {
       "id": "news:kcna:25edc8271276df633a84cf74",
       "title": "우리 인민의 슬기와 재능이 어린 《팔만대장경》",
@@ -22,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1070
+        "domestic": 1072
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1071
+        "domestic": 1073
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,46 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1072
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A896a8520c96c50a888ae9aad"
-    },
-    {
-      "id": "news:kcna:41cca6d3554fadc3192227ff",
-      "title": "화성지구 5단계 건설장에서 살림집골조공사 련이어 완공",
-      "date": "2026-06-16",
-      "snippet": "(평양 6월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e00f345cca7a4e30df16174cd91e4c61",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 1073
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A41cca6d3554fadc3192227ff"
-    },
-    {
-      "id": "news:kcna:379b042ef3cf43958481df4b",
-      "title": "황해북도에서 인민소비품의 질량적수준을 제고하기 위한 사업에 주력",
-      "date": "2026-06-16",
-      "snippet": "(평양 6월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0bb9f9796204e74ad06c740cc4de411c",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1074
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A379b042ef3cf43958481df4b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A896a8520c96c50a888ae9aad"
     }
   ]
 }

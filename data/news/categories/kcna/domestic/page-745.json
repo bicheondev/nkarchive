@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:00:00.000Z",
-  "version": "1dfd10825bd5ed41",
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "version": "70a0368a3f4b3eed",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,53 @@
   "section": "domestic",
   "page": 745,
   "pageSize": 5,
-  "totalItems": 4169,
-  "totalPages": 834,
+  "totalItems": 4171,
+  "totalPages": 835,
   "articles": [
+    {
+      "id": "news:kcna:c7cf2c16064297e874c6ddef",
+      "title": "황해남도에서 우리 인민의 우수한 민속전통을 널리 보급",
+      "date": "2025-10-22",
+      "snippet": "(평양 10월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4538709917469b2275b71e8ca535e7de",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 3721,
+        "social": 604
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac7cf2c16064297e874c6ddef"
+    },
+    {
+      "id": "news:kcna:fd732400d6923d515b4c156f",
+      "title": "량강도 보천군 읍농장,꽃봉농장에서 새집들이 진행",
+      "date": "2025-10-22",
+      "snippet": "(평양 10월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/39c5145893244c4d29fc02e4c9e814fb",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 3722,
+        "social": 605
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12fce9fd3b7f7986d4b45b2fba180fb9da",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/e8aaf9298f67a11e6003592adcd4742590e92d54a900f3bdaa4006965c379f27.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afd732400d6923d515b4c156f"
+    },
     {
       "id": "news:kcna:98fcdceceaedb6ee6ee4ce8a",
       "title": "조로청년친선련환모임 진행",
@@ -24,7 +68,7 @@
       ],
       "categoryOrders": {
         "foreign": 616,
-        "domestic": 3721
+        "domestic": 3723
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +88,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3722
+        "domestic": 3724
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,46 +108,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3723
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af2e4b8d4dc9bbfd19881bde5"
-    },
-    {
-      "id": "news:kcna:b0f47f7e8b75d2e491def838",
-      "title": "남포시에 보링관이 새로 일떠섰다",
-      "date": "2025-10-21",
-      "snippet": "(평양 10월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8e58cafacd6e48651d75279166c03da5",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3724
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab0f47f7e8b75d2e491def838"
-    },
-    {
-      "id": "news:kcna:ede47d830a4618cdd4463a56",
-      "title": "2025년 10월 21일 신문개관",
-      "date": "2025-10-21",
-      "snippet": "(평양 10월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ce09619597a99d4c1a3f99ecbb440cce",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 3725
       },
       "featuredSections": [],
@@ -111,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aede47d830a4618cdd4463a56"
+      "detailUrl": "/news/document?id=news%3Akcna%3Af2e4b8d4dc9bbfd19881bde5"
     }
   ]
 }

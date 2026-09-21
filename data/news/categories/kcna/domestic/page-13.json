@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:00:00.000Z",
-  "version": "1dfd10825bd5ed41",
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "version": "70a0368a3f4b3eed",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,49 @@
   "section": "domestic",
   "page": 13,
   "pageSize": 5,
-  "totalItems": 4169,
-  "totalPages": 834,
+  "totalItems": 4171,
+  "totalPages": 835,
   "articles": [
+    {
+      "id": "news:kcna:9804f4c847526cbacb929a39",
+      "title": "전국인쇄공업부문 과학기술발표회 진행",
+      "date": "2026-09-16",
+      "snippet": "(평양 9월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/adc7d6403d1a37f544c533632723c0f0",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 60
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9804f4c847526cbacb929a39"
+    },
+    {
+      "id": "news:kcna:be45034fd783b69877c85734",
+      "title": "평양시인민소비품전시회 시작",
+      "date": "2026-09-16",
+      "snippet": "(평양 9월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3aec470bf9f70534e33538f45f529432",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 61
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abe45034fd783b69877c85734"
+    },
     {
       "id": "news:kcna:db5534193e2ce89262389df9",
       "title": "2026년 9월 16일 신문개관",
@@ -22,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 60
+        "domestic": 62
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +86,7 @@
       "categoryOrders": {
         "important": 8,
         "foreign": 13,
-        "domestic": 61
+        "domestic": 63
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,46 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 62
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9551d170c8e86bb3c0e536e4"
-    },
-    {
-      "id": "news:kcna:9c5535be49af3191f5ed3c89",
-      "title": "신의주온실종합농장지구에서 현대적인 양묘장과 과수원건설 추진",
-      "date": "2026-09-16",
-      "snippet": "(평양 9월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/35c3c5f3f440965efb7c63f828e51bc1",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 63
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9c5535be49af3191f5ed3c89"
-    },
-    {
-      "id": "news:kcna:2b31fb36dfbe5f840954bad8",
-      "title": "룡성기계련합기업소에서 2단계 개건현대화공사 추진",
-      "date": "2026-09-16",
-      "snippet": "(평양 9월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/268bc530300f3571f38510bee45a0193",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 64
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2b31fb36dfbe5f840954bad8"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9551d170c8e86bb3c0e536e4"
     }
   ]
 }

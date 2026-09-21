@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:00:00.000Z",
-  "version": "1dfd10825bd5ed41",
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "version": "70a0368a3f4b3eed",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,60 @@
   "section": "domestic",
   "page": 12,
   "pageSize": 5,
-  "totalItems": 4169,
-  "totalPages": 834,
+  "totalItems": 4171,
+  "totalPages": 835,
   "articles": [
+    {
+      "id": "news:kcna:7d130badc5e026742f8d59a7",
+      "title": "충성과 보답의 자욱을 새겨가는 사회주의애국청년선구자들",
+      "date": "2026-09-17",
+      "snippet": "(평양 9월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/86314da26a4fbcc787d551cae1f533a0",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 55,
+        "social": 7
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7d130badc5e026742f8d59a7"
+    },
+    {
+      "id": "news:kcna:1e4086b104b23f6d051571bc",
+      "title": "조선민주주의인민공화국 국방성 대변인 립장발표",
+      "date": "2026-09-16",
+      "snippet": "(평양 9월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/fff9677a383dda97a91f0b46456e1bea",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 7,
+        "document": 4,
+        "foreign": 11,
+        "domestic": 56
+      },
+      "featuredSections": [
+        "important",
+        "document"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1e4086b104b23f6d051571bc"
+    },
     {
       "id": "news:kcna:8166c95568bb7054b833d120",
       "title": "강원도의 농촌들에서 가을밀,보리씨뿌리기 시작",
@@ -22,7 +73,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 55
+        "domestic": 57
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +93,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 56
+        "domestic": 58
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,46 +113,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 57
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3f0a495c5f5fc67f8a9f81de"
-    },
-    {
-      "id": "news:kcna:9804f4c847526cbacb929a39",
-      "title": "전국인쇄공업부문 과학기술발표회 진행",
-      "date": "2026-09-16",
-      "snippet": "(평양 9월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/adc7d6403d1a37f544c533632723c0f0",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 58
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9804f4c847526cbacb929a39"
-    },
-    {
-      "id": "news:kcna:be45034fd783b69877c85734",
-      "title": "평양시인민소비품전시회 시작",
-      "date": "2026-09-16",
-      "snippet": "(평양 9월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3aec470bf9f70534e33538f45f529432",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 59
       },
       "featuredSections": [],
@@ -109,7 +120,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abe45034fd783b69877c85734"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3f0a495c5f5fc67f8a9f81de"
     }
   ]
 }

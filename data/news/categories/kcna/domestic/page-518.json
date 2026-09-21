@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:00:00.000Z",
-  "version": "1dfd10825bd5ed41",
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "version": "70a0368a3f4b3eed",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,51 @@
   "section": "domestic",
   "page": 518,
   "pageSize": 5,
-  "totalItems": 4169,
-  "totalPages": 834,
+  "totalItems": 4171,
+  "totalPages": 835,
   "articles": [
+    {
+      "id": "news:kcna:2f04617180f117669aa8629a",
+      "title": "우리 나라의 광천자원-샘물",
+      "date": "2026-02-04",
+      "snippet": "(평양 2월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d02a3aeebef23c78b52b6cd32f1f1044",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2586,
+        "social": 344
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf36654794ad3731668540e85925fa2d9a3be",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/d438ced8f274c0fb2c077b90aeae15e2727417593eac2fa936e4c7d7173991cb.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2f04617180f117669aa8629a"
+    },
+    {
+      "id": "news:kcna:eb6fd78a68cccef9f6446653",
+      "title": "황해북도에서 고려약공장들의 토대 강화",
+      "date": "2026-02-04",
+      "snippet": "(평양 2월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4c0abeb0180455d850bf42486bad3e5b",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2587
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aeb6fd78a68cccef9f6446653"
+    },
     {
       "id": "news:kcna:26b8a87a68063dc0c4c66a84",
       "title": "2026년 2월 4일 신문개관",
@@ -22,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2586
+        "domestic": 2588
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +84,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2587
+        "domestic": 2589
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,46 +104,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2588
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abec0ec7a314392e02b33eae3"
-    },
-    {
-      "id": "news:kcna:afcb8497faa2a0561e229886",
-      "title": "여러 전문체육단위 특기선수육성에서 성과 이룩",
-      "date": "2026-02-04",
-      "snippet": "(평양 2월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/bead2d6f07c60aaed43fced4d005137f",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2589
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aafcb8497faa2a0561e229886"
-    },
-    {
-      "id": "news:kcna:96d2dd32990a0c8c15bd0b27",
-      "title": "함경남도 북청군에 모범준법군칭호 수여",
-      "date": "2026-02-04",
-      "snippet": "(평양 2월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f4e4cbcc5bfd2c4fe35a000134b2b201",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 2590
       },
       "featuredSections": [],
@@ -109,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A96d2dd32990a0c8c15bd0b27"
+      "detailUrl": "/news/document?id=news%3Akcna%3Abec0ec7a314392e02b33eae3"
     }
   ]
 }

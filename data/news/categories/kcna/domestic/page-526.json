@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:00:00.000Z",
-  "version": "1dfd10825bd5ed41",
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "version": "70a0368a3f4b3eed",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,51 @@
   "section": "domestic",
   "page": 526,
   "pageSize": 5,
-  "totalItems": 4169,
-  "totalPages": 834,
+  "totalItems": 4171,
+  "totalPages": 835,
   "articles": [
+    {
+      "id": "news:kcna:fd13b221b40e7621c9ece524",
+      "title": "2026년 1월 31일 신문개관",
+      "date": "2026-01-31",
+      "snippet": "(평양 1월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1c267b9e860d5bd5c1906ebea9d00c2a",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2626
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afd13b221b40e7621c9ece524"
+    },
+    {
+      "id": "news:kcna:c257356322c73695b09836bc",
+      "title": "황해북도 승호군 만달남새농장과 평산군 와현농장에 새집들이 일떠섰다",
+      "date": "2026-01-31",
+      "snippet": "(평양 1월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/38336880bc09a417759746bc9bb38cab",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2627,
+        "social": 352
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451619a57796e220f84db1e6f2db8a570dc",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/ad9c88e49e580d40e376cb4cb2ee04314403199043768ef8264745e950707f30.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac257356322c73695b09836bc"
+    },
     {
       "id": "news:kcna:198aedd59f09bc054ddd45d2",
       "title": "새로 개건된 계응상사리원농업대학 준공식 진행",
@@ -22,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2626
+        "domestic": 2628
       },
       "featuredSections": [],
       "hasImage": true,
@@ -43,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2627,
+        "domestic": 2629,
         "social": 353
       },
       "featuredSections": [],
@@ -64,7 +106,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2628
+        "domestic": 2630
       },
       "featuredSections": [],
       "hasImage": true,
@@ -72,46 +114,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451cbea498b4154811e1ab91b701238629b",
       "cachedThumbnailUrl": "/data/news/assets/kcna/a82a9abe1dbf5b96851d6d8066984e050213848f8cba351454a3d683b2ed89ff.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A15fa076a20be16be60245015"
-    },
-    {
-      "id": "news:kcna:9add7d188813aef4acb0b5a7",
-      "title": "평양시 화성지구에 새로 거리,동들을 내오기로 결정",
-      "date": "2026-01-31",
-      "snippet": "(평양 1월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b1c2d1a5947308f284a1a3e8cec9905f",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2629
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9add7d188813aef4acb0b5a7"
-    },
-    {
-      "id": "news:kcna:56a07488371083b9c111c654",
-      "title": "제3차 2.16경축 인민예술축전이 진행된다",
-      "date": "2026-01-31",
-      "snippet": "(평양 1월 31일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2e49baa533ff1aa92c5c3879895ebc55",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2630
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A56a07488371083b9c111c654"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:00:00.000Z",
-  "version": "1dfd10825bd5ed41",
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "version": "70a0368a3f4b3eed",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,51 @@
   "section": "domestic",
   "page": 67,
   "pageSize": 5,
-  "totalItems": 4169,
-  "totalPages": 834,
+  "totalItems": 4171,
+  "totalPages": 835,
   "articles": [
+    {
+      "id": "news:kcna:9e7fe1d72d5499b209f0e43f",
+      "title": "황해북도에서 농촌기술혁명의 주인들을 육성하기 위한 사업 적극화",
+      "date": "2026-08-23",
+      "snippet": "(평양 8월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d9d556155d076e71fdc5d6bb0ec641e0",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 330
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A9e7fe1d72d5499b209f0e43f"
+    },
+    {
+      "id": "news:kcna:1f81e732bced28d06de090cb",
+      "title": "평안남도에서 농촌청년작업반,청년분조들을 도와주기 위한 사업 진행",
+      "date": "2026-08-23",
+      "snippet": "(평양 8월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e99049f80cfe93842104437bfecc009c",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 331,
+        "social": 45
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1f81e732bced28d06de090cb"
+    },
     {
       "id": "news:kcna:5001c62f30b6c705ceb87ffb",
       "title": "《김정일전집》 제70권 출판",
@@ -22,7 +64,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 330
+        "domestic": 332
       },
       "featuredSections": [],
       "hasImage": true,
@@ -43,7 +85,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 331,
+        "domestic": 333,
         "social": 46
       },
       "featuredSections": [],
@@ -64,48 +106,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 332
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A33379da7dbd3e1ffd910a563"
-    },
-    {
-      "id": "news:kcna:6c605eddc6d353c72c57d758",
-      "title": "전국학생소년취주악대경연 진행",
-      "date": "2026-08-23",
-      "snippet": "(평양 8월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fe510542145a0357169bfee0b71302aa",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 333,
-        "social": 47
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6c605eddc6d353c72c57d758"
-    },
-    {
-      "id": "news:kcna:9d790bd5b68fc34795eb82dd",
-      "title": "《로동신문》 사상의 힘,대중의 정신력으로 만사를 해결해나가는 원칙을 일관하게 견지할데 대해 강조",
-      "date": "2026-08-23",
-      "snippet": "(평양 8월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2652bdfe3165383ff47efa90e212eb99",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 334
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9d790bd5b68fc34795eb82dd"
+      "detailUrl": "/news/document?id=news%3Akcna%3A33379da7dbd3e1ffd910a563"
     }
   ]
 }

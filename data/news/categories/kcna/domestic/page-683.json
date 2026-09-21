@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:00:00.000Z",
-  "version": "1dfd10825bd5ed41",
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "version": "70a0368a3f4b3eed",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,49 @@
   "section": "domestic",
   "page": 683,
   "pageSize": 5,
-  "totalItems": 4169,
-  "totalPages": 834,
+  "totalItems": 4171,
+  "totalPages": 835,
   "articles": [
+    {
+      "id": "news:kcna:737b8a1629cc4ac4d2ea5f86",
+      "title": "《관광기념품전시회-2025》 개막",
+      "date": "2025-11-15",
+      "snippet": "(평양 11월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8b157a0b710c26c540eed41613e97346",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3411
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eacb2fb1d8fdf29600757f4d6c5647e15df",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/c89bc3fa93dd033995a7e7fbd74775d163a3475a2e4f953e80f1889c03d25bdb.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A737b8a1629cc4ac4d2ea5f86"
+    },
+    {
+      "id": "news:kcna:ffece67f63655b8798472434",
+      "title": "도자공예유산-알룩반죽자기",
+      "date": "2025-11-14",
+      "snippet": "(평양 11월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9f1ed83a3885a0cfff63e0fc2c389bd8",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 3412
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Affece67f63655b8798472434"
+    },
     {
       "id": "news:kcna:36df95f7e932f8cf789d38a4",
       "title": "각지 버섯공장들에서 과학기술의 힘으로 버섯생산 증대",
@@ -22,7 +62,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3411
+        "domestic": 3413
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +82,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3412
+        "domestic": 3414
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,7 +103,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3413,
+        "domestic": 3415,
         "social": 545
       },
       "featuredSections": [],
@@ -72,52 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A97839ae51a53c748ce25a71b"
-    },
-    {
-      "id": "news:kcna:89b25a02686ae1a30f1770cd",
-      "title": "어머니날기념 녀성사회주의애국공로자들의 실화무대 진행",
-      "date": "2025-11-14",
-      "snippet": "(평양 11월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/51e6b80de3e3df8b9dbce5739c66df61",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 3414,
-        "social": 546
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A89b25a02686ae1a30f1770cd"
-    },
-    {
-      "id": "news:kcna:99b945239d571682bd1b2cac",
-      "title": "조선민주주의인민공화국 최선희 외무상 담화 발표",
-      "date": "2025-11-14",
-      "snippet": "(평양 11월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f208f844cfc920841e4d27500f560079",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 429,
-        "international": 2347,
-        "domestic": 3415
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A99b945239d571682bd1b2cac"
     }
   ]
 }
