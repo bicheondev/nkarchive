@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-21T00:00:00.000Z",
-  "version": "70a0368a3f4b3eed",
+  "version": "efc828299ffab1ba",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "document",
   "page": 11,
   "pageSize": 5,
-  "totalItems": 64,
+  "totalItems": 65,
   "totalPages": 13,
   "articles": [
+    {
+      "id": "news:kcna:7af4493b936f22c241e4333a",
+      "title": "조선로동당 제9차대회 공보",
+      "date": "2026-02-23",
+      "snippet": "(평양 2월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9e57109f05f2e9f2a4d44b6ecae47d4b",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 340,
+        "document": 50,
+        "domestic": 2392
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7af4493b936f22c241e4333a"
+    },
     {
       "id": "news:kcna:029cbe56e2bf651d4312180e",
       "title": "모범적인 단위들에 모범준법단위칭호 수여",
@@ -23,8 +47,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 50,
-        "domestic": 2398
+        "document": 51,
+        "domestic": 2404
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,10 +71,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 343,
-        "document": 51,
-        "foreign": 447,
-        "domestic": 2418
+        "important": 344,
+        "document": 52,
+        "foreign": 448,
+        "domestic": 2424
       },
       "featuredSections": [],
       "hasImage": false,
@@ -73,10 +97,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 354,
-        "document": 52,
-        "foreign": 462,
-        "domestic": 2493
+        "important": 355,
+        "document": 53,
+        "foreign": 463,
+        "domestic": 2499
       },
       "featuredSections": [],
       "hasImage": false,
@@ -97,8 +121,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 53,
-        "domestic": 2502
+        "document": 54,
+        "domestic": 2508
       },
       "featuredSections": [],
       "hasImage": false,
@@ -106,28 +130,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A8d58e8baa6921c246f8704b4"
-    },
-    {
-      "id": "news:kcna:2ae7f5eb5ad8960fe7ba47db",
-      "title": "모범적인 단위들에 26호모범기대영예상 수여",
-      "date": "2026-01-15",
-      "snippet": "(평양 1월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4511303614549cbde216b730a952ee80",
-      "mediaType": "article",
-      "categories": [
-        "document",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "document": 54,
-        "domestic": 2802
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2ae7f5eb5ad8960fe7ba47db"
     }
   ]
 }

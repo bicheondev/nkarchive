@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-21T00:00:00.000Z",
-  "version": "70a0368a3f4b3eed",
+  "version": "efc828299ffab1ba",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "memory",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 216,
+  "totalItems": 217,
   "totalPages": 44,
   "articles": [
+    {
+      "id": "news:kcna:c5cec7c80e0dfa50c6c200f8",
+      "title": "일정에 없던 협의회",
+      "date": "2026-09-21",
+      "snippet": "1993년 5월 어느날 위대한 수령 김일성동지께서 서포닭공장에 대한 현지지도를 마치시였을 때였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/6e067870d1338aca3075675856b8de63",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 0
+      },
+      "featuredSections": [
+        "memory"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac5cec7c80e0dfa50c6c200f8"
+    },
     {
       "id": "news:kcna:3b78fe64c18bcac12743e835",
       "title": "예비가 아니라 우롱",
@@ -22,7 +44,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 0
+        "memory": 1
       },
       "featuredSections": [
         "memory"
@@ -44,7 +66,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 1
+        "memory": 2
       },
       "featuredSections": [
         "memory"
@@ -66,7 +88,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 2
+        "memory": 3
       },
       "featuredSections": [
         "memory"
@@ -88,28 +110,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 3
-      },
-      "featuredSections": [
-        "memory"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1ee277b1253c4e7a72e9680b"
-    },
-    {
-      "id": "news:kcna:e082e73c6bcc855560121e85",
-      "title": "몸소 밝혀주신 건국로선",
-      "date": "2026-09-09",
-      "snippet": "위대한 수령 김일성동지께서는 1945년 9월 어느날 원산시당을 찾으시여 이곳 일군들과 새 조국건설과 관련한 이야기를 나누시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/07bc5d21892013ef5345d7519d4f43d6",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 4
       },
       "featuredSections": [
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae082e73c6bcc855560121e85"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1ee277b1253c4e7a72e9680b"
     }
   ]
 }

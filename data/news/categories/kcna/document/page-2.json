@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-21T00:00:00.000Z",
-  "version": "70a0368a3f4b3eed",
+  "version": "efc828299ffab1ba",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,37 @@
   "section": "document",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 64,
+  "totalItems": 65,
   "totalPages": 13,
   "articles": [
+    {
+      "id": "news:kcna:1e4086b104b23f6d051571bc",
+      "title": "조선민주주의인민공화국 국방성 대변인 립장발표",
+      "date": "2026-09-16",
+      "snippet": "(평양 9월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/fff9677a383dda97a91f0b46456e1bea",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 8,
+        "document": 5,
+        "foreign": 12,
+        "domestic": 62
+      },
+      "featuredSections": [
+        "document"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1e4086b104b23f6d051571bc"
+    },
     {
       "id": "news:kcna:6e368eeae06e58ebe4175ace",
       "title": "조선민주주의인민공화국 김성기 국방상 담화 발표",
@@ -25,10 +53,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 51,
-        "document": 5,
-        "foreign": 56,
-        "domestic": 165
+        "important": 52,
+        "document": 6,
+        "foreign": 57,
+        "domestic": 171
       },
       "featuredSections": [
         "document"
@@ -53,14 +81,12 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 55,
-        "document": 6,
-        "foreign": 63,
-        "domestic": 239
+        "important": 56,
+        "document": 7,
+        "foreign": 64,
+        "domestic": 245
       },
-      "featuredSections": [
-        "document"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -81,10 +107,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 59,
-        "document": 7,
-        "foreign": 69,
-        "domestic": 290
+        "important": 60,
+        "document": 8,
+        "foreign": 70,
+        "domestic": 296
       },
       "featuredSections": [
         "document"
@@ -108,9 +134,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 62,
-        "document": 8,
-        "domestic": 364
+        "important": 63,
+        "document": 9,
+        "domestic": 370
       },
       "featuredSections": [],
       "hasImage": false,
@@ -118,30 +144,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-e83e68de5ba6f006"
-    },
-    {
-      "id": "kcna-8bca70b499b526e4",
-      "title": "김여정 조선로동당 중앙위원회 부장 주요국제문제들에 대한 립장 발표",
-      "date": "2026-08-19",
-      "snippet": "(평양 8월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c61ef414434738a04b1d253cf775507b",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 63,
-        "document": 9,
-        "domestic": 375
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-8bca70b499b526e4"
     }
   ]
 }

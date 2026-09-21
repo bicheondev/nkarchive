@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-21T00:00:00.000Z",
-  "version": "70a0368a3f4b3eed",
+  "version": "efc828299ffab1ba",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,36 @@
   "totalItems": 782,
   "totalPages": 157,
   "articles": [
+    {
+      "id": "news:kcna:79dee9cb187ccdf837271b19",
+      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
+      "date": "2026-09-19",
+      "snippet": "(평양 9월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bb63503e5a21ff5bbe0dd766766204ce",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 3,
+        "document": 2,
+        "foreign": 5,
+        "domestic": 30
+      },
+      "featuredSections": [
+        "important",
+        "document",
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A79dee9cb187ccdf837271b19"
+    },
     {
       "id": "news:kcna:5110ea5ba68c997f8e9895e8",
       "title": "중국청년간부대표단 여러곳 참관",
@@ -23,12 +53,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 5,
-        "domestic": 28
+        "foreign": 6,
+        "domestic": 34
       },
-      "featuredSections": [
-        "foreign"
-      ],
+      "featuredSections": [],
       "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba650246c1fb8a523c64db4ccd4071de4c",
@@ -48,9 +76,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 4,
-        "international": 18,
-        "foreign": 6
+        "important": 5,
+        "international": 24,
+        "foreign": 7
       },
       "featuredSections": [
         "important"
@@ -75,10 +103,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 5,
-        "document": 2,
-        "foreign": 7,
-        "domestic": 37
+        "important": 6,
+        "document": 3,
+        "foreign": 8,
+        "domestic": 43
       },
       "featuredSections": [],
       "hasImage": false,
@@ -99,29 +127,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 26,
-        "foreign": 8
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aad82825e3dbf800ae6a352c1"
-    },
-    {
-      "id": "news:kcna:de968fba69378322d4048322",
-      "title": "조선민주주의인민공화국창건 78돐에 즈음하여 여러 나라의 각계인사들 우리 나라 대표부들을 축하방문",
-      "date": "2026-09-17",
-      "snippet": "(평양 9월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b3d47612c4f4998dd6742d749bdc1f6c",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 27,
+        "international": 32,
         "foreign": 9
       },
       "featuredSections": [],
@@ -129,7 +135,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ade968fba69378322d4048322"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aad82825e3dbf800ae6a352c1"
     }
   ]
 }

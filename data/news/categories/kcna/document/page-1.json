@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-21T00:00:00.000Z",
-  "version": "70a0368a3f4b3eed",
+  "version": "efc828299ffab1ba",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,40 @@
   "section": "document",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 64,
+  "totalItems": 65,
   "totalPages": 13,
   "articles": [
+    {
+      "id": "news:kcna:e1bbcc62cb4b7075ff21d869",
+      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
+      "date": "2026-09-21",
+      "snippet": "(평양 9월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b3ad05c03f927588e45a9d940f638e55",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 0,
+        "document": 0,
+        "foreign": 0,
+        "domestic": 4
+      },
+      "featuredSections": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae1bbcc62cb4b7075ff21d869"
+    },
     {
       "id": "news:kcna:1bdea89d45c692df9ae81b0d",
       "title": "조선민주주의인민공화국 외무성 대변인담화 발표",
@@ -25,10 +56,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 1,
-        "document": 0,
-        "foreign": 3,
-        "domestic": 23
+        "important": 2,
+        "document": 1,
+        "foreign": 4,
+        "domestic": 29
       },
       "featuredSections": [
         "important",
@@ -55,10 +86,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 2,
-        "document": 1,
-        "foreign": 4,
-        "domestic": 24
+        "important": 3,
+        "document": 2,
+        "foreign": 5,
+        "domestic": 30
       },
       "featuredSections": [
         "important",
@@ -85,10 +116,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 5,
-        "document": 2,
-        "foreign": 7,
-        "domestic": 37
+        "important": 6,
+        "document": 3,
+        "foreign": 8,
+        "domestic": 43
       },
       "featuredSections": [],
       "hasImage": false,
@@ -111,10 +142,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 6,
-        "document": 3,
-        "foreign": 10,
-        "domestic": 52
+        "important": 7,
+        "document": 4,
+        "foreign": 11,
+        "domestic": 58
       },
       "featuredSections": [],
       "hasImage": false,
@@ -122,35 +153,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A0c16eee63390d75ec43b1b4c"
-    },
-    {
-      "id": "news:kcna:1e4086b104b23f6d051571bc",
-      "title": "조선민주주의인민공화국 국방성 대변인 립장발표",
-      "date": "2026-09-16",
-      "snippet": "(평양 9월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fff9677a383dda97a91f0b46456e1bea",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 7,
-        "document": 4,
-        "foreign": 11,
-        "domestic": 56
-      },
-      "featuredSections": [
-        "important",
-        "document"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1e4086b104b23f6d051571bc"
     }
   ]
 }
