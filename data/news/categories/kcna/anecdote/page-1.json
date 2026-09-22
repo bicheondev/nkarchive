@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T00:00:00.000Z",
-  "version": "efc828299ffab1ba",
+  "generatedAt": "2026-09-22T00:00:00.000Z",
+  "version": "c0cfb93447a5a780",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "anecdote",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 102,
+  "totalItems": 103,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:d68f1eeb9a3bd55a851be753",
+      "title": "시대정신이 맥박치는 공연이라고 하시며",
+      "date": "2026-09-22",
+      "snippet": "경애하는 아버지 김정은원수님께서는 2015년 9월 어느날 청년중앙예술선전대공연을 보아주시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/aba9cce65458a317a3ec7f4fb26e127d",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 0
+      },
+      "featuredSections": [
+        "anecdote"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad68f1eeb9a3bd55a851be753"
+    },
     {
       "id": "news:kcna:b714efb6b0bf9f64302f7901",
       "title": "세심히 관심하신 의료보장대책",
@@ -22,7 +44,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 0
+        "anecdote": 1
       },
       "featuredSections": [
         "anecdote"
@@ -44,7 +66,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 1
+        "anecdote": 2
       },
       "featuredSections": [
         "anecdote"
@@ -66,7 +88,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 2
+        "anecdote": 3
       },
       "featuredSections": [
         "anecdote"
@@ -88,28 +110,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 3
-      },
-      "featuredSections": [
-        "anecdote"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5634d85ea92d0a8e632ccb5e"
-    },
-    {
-      "id": "news:kcna:3cea9d97132b981585392762",
-      "title": "교육자들에게 하신 뜻깊은 인사",
-      "date": "2026-09-03",
-      "snippet": "2018년 9월 28일 경애하는 김정은동지께서는 창립 70돐을 맞는 김책공업종합대학을 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/f37f203ea8df7fe14e8af9ef3bcd83b0",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 4
       },
       "featuredSections": [
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3cea9d97132b981585392762"
+      "detailUrl": "/news/document?id=news%3Akcna%3A5634d85ea92d0a8e632ccb5e"
     }
   ]
 }

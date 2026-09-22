@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T00:00:00.000Z",
-  "version": "efc828299ffab1ba",
+  "generatedAt": "2026-09-22T00:00:00.000Z",
+  "version": "c0cfb93447a5a780",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,39 @@
   "section": "foreign",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 782,
+  "totalItems": 783,
   "totalPages": 157,
   "articles": [
+    {
+      "id": "news:kcna:1bdea89d45c692df9ae81b0d",
+      "title": "조선민주주의인민공화국 외무성 대변인담화 발표",
+      "date": "2026-09-19",
+      "snippet": "(평양 9월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/551cb53d9d184def31fedaebb231ea56",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 2,
+        "document": 1,
+        "foreign": 5,
+        "domestic": 34
+      },
+      "featuredSections": [
+        "important",
+        "document",
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1bdea89d45c692df9ae81b0d"
+    },
     {
       "id": "news:kcna:79dee9cb187ccdf837271b19",
       "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
@@ -27,13 +57,12 @@
       "categoryOrders": {
         "important": 3,
         "document": 2,
-        "foreign": 5,
-        "domestic": 30
+        "foreign": 6,
+        "domestic": 35
       },
       "featuredSections": [
         "important",
-        "document",
-        "foreign"
+        "document"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -53,8 +82,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 6,
-        "domestic": 34
+        "foreign": 7,
+        "domestic": 39
       },
       "featuredSections": [],
       "hasImage": true,
@@ -77,8 +106,8 @@
       ],
       "categoryOrders": {
         "important": 5,
-        "international": 24,
-        "foreign": 7
+        "international": 27,
+        "foreign": 8
       },
       "featuredSections": [
         "important"
@@ -105,8 +134,8 @@
       "categoryOrders": {
         "important": 6,
         "document": 3,
-        "foreign": 8,
-        "domestic": 43
+        "foreign": 9,
+        "domestic": 48
       },
       "featuredSections": [],
       "hasImage": false,
@@ -114,28 +143,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A175ca12efd2fdd5f092af812"
-    },
-    {
-      "id": "news:kcna:ad82825e3dbf800ae6a352c1",
-      "title": "조선민주주의인민공화국창건 78돐에 즈음하여 알제리대통령이 우리 나라 대표부에 꽃바구니를 보내여왔다",
-      "date": "2026-09-17",
-      "snippet": "(평양 9월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f2bbc7f591d62a9e1823b9168c072fe5",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 32,
-        "foreign": 9
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aad82825e3dbf800ae6a352c1"
     }
   ]
 }

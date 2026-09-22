@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T00:00:00.000Z",
-  "version": "efc828299ffab1ba",
+  "generatedAt": "2026-09-22T00:00:00.000Z",
+  "version": "c0cfb93447a5a780",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,34 @@
   "section": "foreign",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 782,
+  "totalItems": 783,
   "totalPages": 157,
   "articles": [
+    {
+      "id": "news:kcna:2135a115cb58461113cc76ef",
+      "title": "로씨야에 가는 문화성대표단 출발",
+      "date": "2026-09-22",
+      "snippet": "(평양 9월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/62bf4d69af26d4d4db62c25cd2d85893",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 0,
+        "domestic": 2
+      },
+      "featuredSections": [
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45badf3eb2558467da61af6d6bcad5f4594e",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/ee4c1d96a3d954e33b49bf25672a1a60affffb067503393daf05a28d9a62be1c.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2135a115cb58461113cc76ef"
+    },
     {
       "id": "news:kcna:e1bbcc62cb4b7075ff21d869",
       "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
@@ -27,14 +52,13 @@
       "categoryOrders": {
         "important": 0,
         "document": 0,
-        "foreign": 0,
-        "domestic": 4
+        "foreign": 1,
+        "domestic": 9
       },
       "featuredSections": [
         "important",
         "document",
-        "foreign",
-        "domestic"
+        "foreign"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -54,8 +78,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 1,
-        "domestic": 15
+        "foreign": 2,
+        "domestic": 20
       },
       "featuredSections": [
         "foreign"
@@ -78,8 +102,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 2,
-        "domestic": 16
+        "foreign": 3,
+        "domestic": 21
       },
       "featuredSections": [
         "foreign"
@@ -102,8 +126,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 3,
-        "domestic": 24
+        "foreign": 4,
+        "domestic": 29
       },
       "featuredSections": [
         "foreign"
@@ -113,36 +137,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A6743cef54e6e0b4f7a44abc8"
-    },
-    {
-      "id": "news:kcna:1bdea89d45c692df9ae81b0d",
-      "title": "조선민주주의인민공화국 외무성 대변인담화 발표",
-      "date": "2026-09-19",
-      "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/551cb53d9d184def31fedaebb231ea56",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 2,
-        "document": 1,
-        "foreign": 4,
-        "domestic": 29
-      },
-      "featuredSections": [
-        "important",
-        "document",
-        "foreign"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1bdea89d45c692df9ae81b0d"
     }
   ]
 }
