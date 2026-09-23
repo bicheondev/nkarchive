@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-23T00:00:00.000Z",
-  "version": "60545208d2ee6798",
+  "version": "4d7791169f550ca9",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 27,
   "pageSize": 5,
-  "totalItems": 785,
-  "totalPages": 157,
+  "totalItems": 786,
+  "totalPages": 158,
   "articles": [
+    {
+      "id": "news:kcna:0e7297d6ad22c3c80ef65181",
+      "title": "조선민주주의인민공화국 외무상 무명전사묘에 화환 진정",
+      "date": "2026-07-21",
+      "snippet": "(평양 7월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ff223f83273f9bc7dc65d82ef39f4947",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 509,
+        "foreign": 130
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0e7297d6ad22c3c80ef65181"
+    },
     {
       "id": "news:kcna:52c17a46cfe8cea3a8314df3",
       "title": "벨라루씨공산당대표단 귀국",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 130,
-        "domestic": 717
+        "foreign": 131,
+        "domestic": 725
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,8 +69,8 @@
       ],
       "categoryOrders": {
         "important": 103,
-        "foreign": 131,
-        "domestic": 720
+        "foreign": 132,
+        "domestic": 728
       },
       "featuredSections": [],
       "hasImage": true,
@@ -70,9 +92,9 @@
         "social"
       ],
       "categoryOrders": {
-        "foreign": 132,
-        "domestic": 727,
-        "social": 92
+        "foreign": 133,
+        "domestic": 735,
+        "social": 93
       },
       "featuredSections": [],
       "hasImage": true,
@@ -93,8 +115,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 514,
-        "foreign": 133
+        "international": 521,
+        "foreign": 134
       },
       "featuredSections": [],
       "hasImage": false,
@@ -102,30 +124,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Afa48824057de40c7e3e5b315"
-    },
-    {
-      "id": "news:kcna:6d383b56c283965b46a334ca",
-      "title": "조선민주주의인민공화국 외무상 최선희동지 로씨야련방을 방문하기 위하여 평양 출발",
-      "date": "2026-07-19",
-      "snippet": "(평양 7월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/99d235cb100ee217cd6678bb8fc80e4d",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 104,
-        "foreign": 134,
-        "domestic": 735
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6d383b56c283965b46a334ca"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-23T00:00:00.000Z",
-  "version": "60545208d2ee6798",
+  "version": "4d7791169f550ca9",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 77,
   "pageSize": 5,
-  "totalItems": 785,
-  "totalPages": 157,
+  "totalItems": 786,
+  "totalPages": 158,
   "articles": [
+    {
+      "id": "news:kcna:40fde869b4ae17c96e9e7f6e",
+      "title": "벨라루씨공화국 대통령 알렉싼드르 루까쉔꼬동지 평양 도착",
+      "date": "2026-03-26",
+      "snippet": "(평양 3월 26일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e64c997d05f3f83965767c898308121b",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 257,
+        "foreign": 380,
+        "domestic": 2063
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60f1249d6a58481cae2602002ffde029aa",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/d932e78f744d0ced18d6c8d6bf5c516a4cf185c1d21823c204cc8c7a168d8523.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A40fde869b4ae17c96e9e7f6e"
+    },
     {
       "id": "news:kcna:ccb02b653847407713c5bd41",
       "title": "벨라루씨공화국 대통령 알렉싼드르 루까쉔꼬동지 금수산태양궁전을 찾아 경의 표시",
@@ -25,8 +49,8 @@
       ],
       "categoryOrders": {
         "important": 258,
-        "foreign": 380,
-        "domestic": 2056
+        "foreign": 381,
+        "domestic": 2064
       },
       "featuredSections": [],
       "hasImage": true,
@@ -49,8 +73,8 @@
       ],
       "categoryOrders": {
         "important": 259,
-        "international": 1387,
-        "foreign": 381
+        "international": 1394,
+        "foreign": 382
       },
       "featuredSections": [],
       "hasImage": false,
@@ -73,8 +97,8 @@
       ],
       "categoryOrders": {
         "important": 260,
-        "international": 1388,
-        "foreign": 382
+        "international": 1395,
+        "foreign": 383
       },
       "featuredSections": [],
       "hasImage": false,
@@ -97,8 +121,8 @@
       ],
       "categoryOrders": {
         "important": 261,
-        "international": 1389,
-        "foreign": 383
+        "international": 1396,
+        "foreign": 384
       },
       "featuredSections": [],
       "hasImage": true,
@@ -106,28 +130,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60567f133ca84fccec1e30b03645435f65",
       "cachedThumbnailUrl": "/data/news/assets/kcna/19b5b74708ca9ca5672481ad572e211b09b4805b45f0d680f3bf6a717493d086.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Afcfe00af721e5ecb953c7fff"
-    },
-    {
-      "id": "news:kcna:3a43b4c295678b393e090338",
-      "title": "조선로동당 제9차대회에 관한 국제과학토론회 로씨야에서 진행",
-      "date": "2026-03-26",
-      "snippet": "(평양 3월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d962daccda3b4d42bd484c48d4592def",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 1390,
-        "foreign": 384
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3a43b4c295678b393e090338"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-23T00:00:00.000Z",
-  "version": "60545208d2ee6798",
+  "version": "4d7791169f550ca9",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 785,
-  "totalPages": 157,
+  "totalItems": 786,
+  "totalPages": 158,
   "articles": [
+    {
+      "id": "news:kcna:7ab8511b73633ee90bced08b",
+      "title": "우리 나라 재외대표부들에서 경축행사 진행",
+      "date": "2026-09-23",
+      "snippet": "(평양 9월 23일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f97b3d00c86cbe89fa36b151f34754dd",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 4,
+        "foreign": 0
+      },
+      "featuredSections": [
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7ab8511b73633ee90bced08b"
+    },
     {
       "id": "news:kcna:49b77fd438a7a38f8d640806",
       "title": "조선민주주의인민공화국 국방성대표단 윁남사회주의공화국을 방문하기 위하여 출발",
@@ -25,13 +49,12 @@
       ],
       "categoryOrders": {
         "important": 1,
-        "foreign": 0,
-        "domestic": 1
+        "foreign": 1,
+        "domestic": 9
       },
       "featuredSections": [
         "important",
-        "foreign",
-        "domestic"
+        "foreign"
       ],
       "hasImage": true,
       "hasVideo": false,
@@ -52,14 +75,12 @@
         "domestic"
       ],
       "categoryOrders": {
-        "international": 0,
-        "foreign": 1,
-        "domestic": 2
+        "international": 7,
+        "foreign": 2,
+        "domestic": 10
       },
       "featuredSections": [
-        "international",
-        "foreign",
-        "domestic"
+        "foreign"
       ],
       "hasImage": true,
       "hasVideo": false,
@@ -79,8 +100,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 2,
-        "domestic": 11
+        "foreign": 3,
+        "domestic": 19
       },
       "featuredSections": [
         "foreign"
@@ -107,8 +128,8 @@
       "categoryOrders": {
         "important": 2,
         "document": 0,
-        "foreign": 3,
-        "domestic": 18
+        "foreign": 4,
+        "domestic": 26
       },
       "featuredSections": [
         "important",
@@ -120,30 +141,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ae1bbcc62cb4b7075ff21d869"
-    },
-    {
-      "id": "news:kcna:edd08962a74d77c6692577a7",
-      "title": "조선민주주의인민공화국 국방성대표단 제13차 베이징향산연단에 참가하고 귀국",
-      "date": "2026-09-20",
-      "snippet": "(평양 9월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f65089e402a9fc48c0ff15137ee593bc",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 4,
-        "domestic": 29
-      },
-      "featuredSections": [
-        "foreign"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aedd08962a74d77c6692577a7"
     }
   ]
 }

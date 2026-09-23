@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-23T00:00:00.000Z",
-  "version": "60545208d2ee6798",
+  "version": "4d7791169f550ca9",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -24,11 +24,10 @@
       ],
       "categoryOrders": {
         "important": 0,
-        "domestic": 0
+        "domestic": 8
       },
       "featuredSections": [
-        "important",
-        "domestic"
+        "important"
       ],
       "hasImage": true,
       "hasVideo": false,
@@ -50,13 +49,12 @@
       ],
       "categoryOrders": {
         "important": 1,
-        "foreign": 0,
-        "domestic": 1
+        "foreign": 1,
+        "domestic": 9
       },
       "featuredSections": [
         "important",
-        "foreign",
-        "domestic"
+        "foreign"
       ],
       "hasImage": true,
       "hasVideo": false,
@@ -80,8 +78,8 @@
       "categoryOrders": {
         "important": 2,
         "document": 0,
-        "foreign": 3,
-        "domestic": 18
+        "foreign": 4,
+        "domestic": 26
       },
       "featuredSections": [
         "important",
@@ -107,7 +105,7 @@
       ],
       "categoryOrders": {
         "important": 3,
-        "domestic": 42
+        "domestic": 50
       },
       "featuredSections": [
         "important"
@@ -134,8 +132,8 @@
       "categoryOrders": {
         "important": 4,
         "document": 1,
-        "foreign": 7,
-        "domestic": 43
+        "foreign": 8,
+        "domestic": 51
       },
       "featuredSections": [
         "important",

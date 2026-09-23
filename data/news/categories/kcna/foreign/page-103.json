@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-23T00:00:00.000Z",
-  "version": "60545208d2ee6798",
+  "version": "4d7791169f550ca9",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 103,
   "pageSize": 5,
-  "totalItems": 785,
-  "totalPages": 157,
+  "totalItems": 786,
+  "totalPages": 158,
   "articles": [
+    {
+      "id": "news:kcna:5f000c8daf7cd34a04e7c29a",
+      "title": "경애하는 김정은동지께 여러 나라에서 전문과 편지를 보내여왔다",
+      "date": "2025-12-30",
+      "snippet": "(평양 12월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cf46b55a882f075346c6fea7844c3702",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 402,
+        "international": 2055,
+        "foreign": 510
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5f000c8daf7cd34a04e7c29a"
+    },
     {
       "id": "news:kcna:c6ab0579ac38da7a040ca4b2",
       "title": "경애하는 김정은동지께 우리 나라 주재 무관단이 꽃바구니와 축하편지를 드리였다",
@@ -25,8 +49,8 @@
       ],
       "categoryOrders": {
         "important": 403,
-        "foreign": 510,
-        "domestic": 2974
+        "foreign": 511,
+        "domestic": 2982
       },
       "featuredSections": [],
       "hasImage": true,
@@ -47,8 +71,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 511,
-        "domestic": 2975
+        "foreign": 512,
+        "domestic": 2983
       },
       "featuredSections": [],
       "hasImage": true,
@@ -71,8 +95,8 @@
       ],
       "categoryOrders": {
         "important": 404,
-        "foreign": 512,
-        "domestic": 3009
+        "foreign": 513,
+        "domestic": 3017
       },
       "featuredSections": [],
       "hasImage": false,
@@ -95,31 +119,7 @@
       ],
       "categoryOrders": {
         "important": 405,
-        "international": 2067,
-        "foreign": 513
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A18ae020fb84a0a1c0157aeb9"
-    },
-    {
-      "id": "news:kcna:c010080088318a96439689a6",
-      "title": "경애하는 김정은동지께 이란이슬람공화국 대통령이 축전을 보내여왔다",
-      "date": "2025-12-27",
-      "snippet": "(평양 12월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e2fb671c179cd97f8bf3b67097fc623c",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 406,
-        "international": 2068,
+        "international": 2074,
         "foreign": 514
       },
       "featuredSections": [],
@@ -127,7 +127,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac010080088318a96439689a6"
+      "detailUrl": "/news/document?id=news%3Akcna%3A18ae020fb84a0a1c0157aeb9"
     }
   ]
 }

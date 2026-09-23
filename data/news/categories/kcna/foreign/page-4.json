@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-23T00:00:00.000Z",
-  "version": "60545208d2ee6798",
+  "version": "4d7791169f550ca9",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,35 @@
   "section": "foreign",
   "page": 4,
   "pageSize": 5,
-  "totalItems": 785,
-  "totalPages": 157,
+  "totalItems": 786,
+  "totalPages": 158,
   "articles": [
+    {
+      "id": "news:kcna:0c16eee63390d75ec43b1b4c",
+      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
+      "date": "2026-09-17",
+      "snippet": "(평양 9월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/aff4ec19243a7160b5f8d1480b2db51c",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 9,
+        "document": 4,
+        "foreign": 15,
+        "domestic": 80
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0c16eee63390d75ec43b1b4c"
+    },
     {
       "id": "news:kcna:1e4086b104b23f6d051571bc",
       "title": "조선민주주의인민공화국 국방성 대변인 립장발표",
@@ -27,8 +53,8 @@
       "categoryOrders": {
         "important": 10,
         "document": 5,
-        "foreign": 15,
-        "domestic": 76
+        "foreign": 16,
+        "domestic": 84
       },
       "featuredSections": [
         "document"
@@ -51,8 +77,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 49,
-        "foreign": 16
+        "international": 56,
+        "foreign": 17
       },
       "featuredSections": [],
       "hasImage": false,
@@ -75,8 +101,8 @@
       ],
       "categoryOrders": {
         "important": 11,
-        "foreign": 17,
-        "domestic": 83
+        "foreign": 18,
+        "domestic": 91
       },
       "featuredSections": [],
       "hasImage": true,
@@ -97,8 +123,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 51,
-        "foreign": 18
+        "international": 58,
+        "foreign": 19
       },
       "featuredSections": [],
       "hasImage": false,
@@ -106,30 +132,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A8441ec38a2e471e541ada548"
-    },
-    {
-      "id": "news:kcna:4719d7f11f22c199072c95d2",
-      "title": "경애하는 김정은동지께서 로씨야련방 대통령에게 답전을 보내시였다",
-      "date": "2026-09-15",
-      "snippet": "(평양 9월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b370d17059457ca52169a661a2246993",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 13,
-        "foreign": 19,
-        "domestic": 91
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4719d7f11f22c199072c95d2"
     }
   ]
 }

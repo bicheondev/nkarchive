@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-23T00:00:00.000Z",
-  "version": "60545208d2ee6798",
+  "version": "4d7791169f550ca9",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 8,
   "pageSize": 5,
-  "totalItems": 785,
-  "totalPages": 157,
+  "totalItems": 786,
+  "totalPages": 158,
   "articles": [
+    {
+      "id": "news:kcna:1b468101f3d6c2c53186f398",
+      "title": "공화국창건 78돐에 즈음하여 여러 나라에서 토론회 진행",
+      "date": "2026-09-10",
+      "snippet": "(평양 9월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ad05cd9e72871d71988856de56de1bfe",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 119,
+        "foreign": 35
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1b468101f3d6c2c53186f398"
+    },
     {
       "id": "news:kcna:ba7cabfb65aeb5ad421b3b6a",
       "title": "국제청년축전에 참가하는 조선청년대표단 출발",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 35,
-        "domestic": 148
+        "foreign": 36,
+        "domestic": 156
       },
       "featuredSections": [],
       "hasImage": true,
@@ -47,8 +69,8 @@
       ],
       "categoryOrders": {
         "important": 30,
-        "international": 122,
-        "foreign": 36
+        "international": 129,
+        "foreign": 37
       },
       "featuredSections": [],
       "hasImage": false,
@@ -71,8 +93,8 @@
       ],
       "categoryOrders": {
         "important": 31,
-        "international": 123,
-        "foreign": 37
+        "international": 130,
+        "foreign": 38
       },
       "featuredSections": [],
       "hasImage": false,
@@ -95,31 +117,7 @@
       ],
       "categoryOrders": {
         "important": 32,
-        "international": 124,
-        "foreign": 38
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A683d9c2ab0ab1ac950043f58"
-    },
-    {
-      "id": "news:kcna:779ecf345dc435edf3b39283",
-      "title": "경애하는 김정은동지께 전로씨야정당 《통일로씨야》 위원장이 축전을 보내여왔다",
-      "date": "2026-09-09",
-      "snippet": "(평양 9월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/de0e450f61afb9aae65d68e0308368c4",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 33,
-        "international": 125,
+        "international": 131,
         "foreign": 39
       },
       "featuredSections": [],
@@ -127,7 +125,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A779ecf345dc435edf3b39283"
+      "detailUrl": "/news/document?id=news%3Akcna%3A683d9c2ab0ab1ac950043f58"
     }
   ]
 }
