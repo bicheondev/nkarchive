@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T00:00:00.000Z",
-  "version": "c12c223252b6c906",
+  "generatedAt": "2026-09-23T00:00:00.000Z",
+  "version": "60545208d2ee6798",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 7,
   "pageSize": 5,
-  "totalItems": 2763,
+  "totalItems": 2764,
   "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:97e77ea25494bf346c59e324",
+      "title": "뛰르끼예에서 고대도시유적 발굴",
+      "date": "2026-09-18",
+      "snippet": "(평양 9월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/78042f786648a970a3eed57c47384e5a",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 30
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A97e77ea25494bf346c59e324"
+    },
     {
       "id": "news:kcna:8b598d26325c67deff6dd250",
       "title": "로씨야대통령공보관 일본에 대한 강경립장 표명",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 30
+        "international": 31
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 31
+        "international": 32
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,13 +84,11 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 5,
-        "international": 32,
-        "foreign": 8
+        "important": 7,
+        "international": 33,
+        "foreign": 10
       },
-      "featuredSections": [
-        "important"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -88,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 33
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A21f21c9cf9cdf3f7c63d178c"
-    },
-    {
-      "id": "news:kcna:a471baeac5b7d6ac0d09f78d",
-      "title": "까자흐스딴의 원유정제공업발전노력",
-      "date": "2026-09-17",
-      "snippet": "(평양 9월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1c32eb5fc075bf6fd5ca0522a10e12b2",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 34
       },
       "featuredSections": [],
@@ -115,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa471baeac5b7d6ac0d09f78d"
+      "detailUrl": "/news/document?id=news%3Akcna%3A21f21c9cf9cdf3f7c63d178c"
     }
   ]
 }

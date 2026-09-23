@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T00:00:00.000Z",
-  "version": "c12c223252b6c906",
+  "generatedAt": "2026-09-23T00:00:00.000Z",
+  "version": "60545208d2ee6798",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,55 @@
   "section": "important",
   "page": 13,
   "pageSize": 5,
-  "totalItems": 535,
-  "totalPages": 107,
+  "totalItems": 537,
+  "totalPages": 108,
   "articles": [
+    {
+      "id": "news:kcna:fe5721126ff1e0bdbe84a60f",
+      "title": "경애하는 김정은동지께서 네팔대통령에게 위문전문을 보내시였다",
+      "date": "2026-08-28",
+      "snippet": "(평양 8월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0ccf2a23569f14808d2b3d79efbcdd23",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 60,
+        "foreign": 71,
+        "domestic": 287
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afe5721126ff1e0bdbe84a60f"
+    },
+    {
+      "id": "news:kcna:c58ea8ea0cd811f69a56394e",
+      "title": "천지개벽한 동해명승의 풍미를 더해주는 또 하나의 재부--원산갈마해안관광지구에 건설된 명사십리역 준공식 진행",
+      "date": "2026-08-28",
+      "snippet": "(평양 8월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/663d3eeecc6a533e1f32c64ae6b99fa6",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 61,
+        "domestic": 299
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f2938b6922864494765d50f83866397aaed",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/fdab1571d4d076cf869ec0ca2b63182ab8d444c2f232e92074ddf8fed8852948.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac58ea8ea0cd811f69a56394e"
+    },
     {
       "id": "news:kcna:6aa3ff6b7410c650239f1b74",
       "title": "조선민주주의인민공화국 외무성 대변인대답",
@@ -25,10 +71,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 60,
+        "important": 62,
         "document": 8,
-        "foreign": 71,
-        "domestic": 305
+        "foreign": 73,
+        "domestic": 310
       },
       "featuredSections": [
         "document"
@@ -51,8 +97,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 61,
-        "domestic": 331
+        "important": 63,
+        "domestic": 336
       },
       "featuredSections": [],
       "hasImage": true,
@@ -73,8 +119,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 62,
-        "domestic": 371
+        "important": 64,
+        "domestic": 376
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,54 +128,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29982de2482c1e06f4ea65516948ae1bf1",
       "cachedThumbnailUrl": "/data/news/assets/kcna/62f7716734825a4405d320e07d985a05d73d00e5fcb09afc24fd3521a5763f67.jpg",
       "detailUrl": "/news/document?id=kcna-c457059f87799fc0"
-    },
-    {
-      "id": "kcna-e83e68de5ba6f006",
-      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
-      "date": "2026-08-20",
-      "snippet": "(평양 8월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c95033ab45276e25a696bbe1d21b1ba2",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 63,
-        "document": 9,
-        "domestic": 379
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-e83e68de5ba6f006"
-    },
-    {
-      "id": "kcna-8bca70b499b526e4",
-      "title": "김여정 조선로동당 중앙위원회 부장 주요국제문제들에 대한 립장 발표",
-      "date": "2026-08-19",
-      "snippet": "(평양 8월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c61ef414434738a04b1d253cf775507b",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 64,
-        "document": 10,
-        "domestic": 390
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-8bca70b499b526e4"
     }
   ]
 }

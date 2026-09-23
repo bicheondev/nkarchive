@@ -1,68 +1,215 @@
 {
-  "generatedAt": "2026-09-22T00:00:00.000Z",
-  "version": "c12c223252b6c906",
+  "generatedAt": "2026-09-23T00:00:00.000Z",
+  "version": "60545208d2ee6798",
   "sources": {
     "kcna": {
       "id": "kcna",
       "name": "조선중앙통신",
-      "totalItems": 8777,
+      "totalItems": 8785,
       "categoryCounts": {
         "leadership": 226,
-        "important": 535,
-        "international": 2763,
-        "photo": 1044,
+        "important": 537,
+        "international": 2764,
+        "photo": 1047,
         "anecdote": 103,
         "document": 65,
-        "foreign": 783,
+        "foreign": 785,
         "video": 263,
         "memory": 216,
-        "domestic": 4170,
+        "domestic": 4175,
         "social": 671
       },
       "articles": [
         {
-          "id": "news:kcna:0c423700337633c9a2511d9b",
-          "title": "브라질대통령 중요광물자원에 대한 미국의 강도적인 요구를 단호히 배격",
-          "date": "2026-09-22",
-          "snippet": "(평양 9월 22일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/5a9cf85ef89ee20dfcaed372996c355d",
+          "id": "news:kcna:1f94b93048283acdc705a2e1",
+          "title": "박태성 내각총리 여러 부문 사업 현지료해",
+          "date": "2026-09-23",
+          "snippet": "박태성 내각총리 여러 부문 사업 현지료해",
+          "url": "http://www.kcna.kp/kp/gallery/detail/ab24e1b43e2715b6160181501d26ba44",
           "mediaType": "article",
           "categories": [
-            "international"
+            "photo"
           ],
           "categoryOrders": {
-            "international": 0
+            "photo": 0
           },
           "featuredSections": [
-            "international"
+            "photo"
           ],
-          "hasImage": false,
+          "hasImage": true,
           "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A0c423700337633c9a2511d9b"
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba9fb2e10f00c1f54ab166a8788dc2e797",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/1a6d660f27f701eef0f4718f2dcd6154daa4a04f5519be408c2cd7fd3689b226.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A1f94b93048283acdc705a2e1"
         },
         {
-          "id": "news:kcna:0e914058188c0a091cc08f45",
-          "title": "최근년간 함흥시에 사상교양거점과 인민들의 복리증진을 위한 많은 대상 건설,도시의 면모 개변",
-          "date": "2026-09-22",
-          "snippet": "(평양 9월 22일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/4d66832ad947a2c311121b940a2e584a",
+          "id": "news:kcna:49b77fd438a7a38f8d640806",
+          "title": "조선민주주의인민공화국 국방성대표단 윁남사회주의공화국을 방문하기 위하여 출발",
+          "date": "2026-09-23",
+          "snippet": "(평양 9월 23일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/6d30666da45f8276c6960ca9fbdae40c",
           "mediaType": "article",
           "categories": [
+            "important",
+            "foreign",
             "domestic"
           ],
           "categoryOrders": {
+            "important": 1,
+            "foreign": 0,
+            "domestic": 1
+          },
+          "featuredSections": [
+            "important",
+            "foreign",
+            "domestic"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba2df958cd02b91474c784378e2910cc71",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/d3a74865185369f3199491cd1053632cc5493f164d21fcb1997536c63bfd2623.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A49b77fd438a7a38f8d640806"
+        },
+        {
+          "id": "news:kcna:a7da83153dc355ee512b6b22",
+          "title": "박태성 내각총리 여러 부문 사업 현지료해",
+          "date": "2026-09-23",
+          "snippet": "(평양 9월 23일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/a47beab8a7dba4ece5217dfeba580a1b",
+          "mediaType": "article",
+          "categories": [
+            "important",
+            "domestic"
+          ],
+          "categoryOrders": {
+            "important": 0,
             "domestic": 0
           },
           "featuredSections": [
+            "important",
+            "domestic"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba9fb2e10f00c1f54ab166a8788dc2e797",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/1a6d660f27f701eef0f4718f2dcd6154daa4a04f5519be408c2cd7fd3689b226.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3Aa7da83153dc355ee512b6b22"
+        },
+        {
+          "id": "news:kcna:bcf3338e04e62c7f0d1131c3",
+          "title": "조선민주주의인민공화국대표단 유엔총회 제81차회의에 참가하기 위하여 출발",
+          "date": "2026-09-23",
+          "snippet": "(평양 9월 23일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/e81780f3d76a25d437ff60a390daa148",
+          "mediaType": "article",
+          "categories": [
+            "international",
+            "foreign",
+            "domestic"
+          ],
+          "categoryOrders": {
+            "international": 0,
+            "foreign": 1,
+            "domestic": 2
+          },
+          "featuredSections": [
+            "international",
+            "foreign",
+            "domestic"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bac990b3529088e9725714370ee4aba209",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/4416a61f6a543fdfdf1240f705c1c1bbff9c3ac9b9929def9c8f9c2f5405250b.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3Abcf3338e04e62c7f0d1131c3"
+        },
+        {
+          "id": "news:kcna:e038f5fca0b03b4ed67770b7",
+          "title": "조선민주주의인민공화국 국방성대표단 윁남사회주의공화국을 방문하기 위하여 출발",
+          "date": "2026-09-23",
+          "snippet": "조선민주주의인민공화국 국방성대표단 윁남사회주의공화국을 방문하기 위하여 출발",
+          "url": "http://www.kcna.kp/kp/gallery/detail/97cb036a488b5110e46e398c328c8586",
+          "mediaType": "article",
+          "categories": [
+            "photo"
+          ],
+          "categoryOrders": {
+            "photo": 1
+          },
+          "featuredSections": [
+            "photo"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba2df958cd02b91474c784378e2910cc71",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/d3a74865185369f3199491cd1053632cc5493f164d21fcb1997536c63bfd2623.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3Ae038f5fca0b03b4ed67770b7"
+        },
+        {
+          "id": "news:kcna:b23ccd58e669592f491515a2",
+          "title": "조선민주주의인민공화국대표단 유엔총회 제81차회의에 참가하기 위하여 출발",
+          "date": "2026-09-23",
+          "snippet": "조선민주주의인민공화국대표단 유엔총회 제81차회의에 참가하기 위하여 출발",
+          "url": "http://www.kcna.kp/kp/gallery/detail/3642b3fadfe7eaa3493f6906b0126f87",
+          "mediaType": "article",
+          "categories": [
+            "photo"
+          ],
+          "categoryOrders": {
+            "photo": 2
+          },
+          "featuredSections": [
+            "photo"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bac990b3529088e9725714370ee4aba209",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/4416a61f6a543fdfdf1240f705c1c1bbff9c3ac9b9929def9c8f9c2f5405250b.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3Ab23ccd58e669592f491515a2"
+        },
+        {
+          "id": "news:kcna:470f593bb2a375821485379d",
+          "title": "인민의 건강과 웃음을 지켜주는 의료봉사기지-평양종합병원",
+          "date": "2026-09-23",
+          "snippet": "(평양 9월 23일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/7e33fb3d63e7191a88dc508c0bc7ba3f",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 3
+          },
+          "featuredSections": [
             "domestic"
           ],
           "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A0e914058188c0a091cc08f45"
+          "detailUrl": "/news/document?id=news%3Akcna%3A470f593bb2a375821485379d"
+        },
+        {
+          "id": "news:kcna:e326a270bae162607fdc4650",
+          "title": "옥내사육으로 실리를 얻고있는 삼광축산농장",
+          "date": "2026-09-23",
+          "snippet": "(평양 9월 23일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/b74e021103b580ee7db09c7e09e8273a",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 4
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Ae326a270bae162607fdc4650"
         },
         {
           "id": "news:kcna:168bc5e5917604050fcd4b6f",
@@ -87,30 +234,6 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A168bc5e5917604050fcd4b6f"
         },
         {
-          "id": "news:kcna:2135a115cb58461113cc76ef",
-          "title": "로씨야에 가는 문화성대표단 출발",
-          "date": "2026-09-22",
-          "snippet": "(평양 9월 22일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/62bf4d69af26d4d4db62c25cd2d85893",
-          "mediaType": "article",
-          "categories": [
-            "foreign",
-            "domestic"
-          ],
-          "categoryOrders": {
-            "foreign": 0,
-            "domestic": 6
-          },
-          "featuredSections": [
-            "foreign"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45badf3eb2558467da61af6d6bcad5f4594e",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/ee4c1d96a3d954e33b49bf25672a1a60affffb067503393daf05a28d9a62be1c.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A2135a115cb58461113cc76ef"
-        },
-        {
           "id": "news:kcna:40e071985574177d6224789b",
           "title": "중앙과 지방의 예술선전대들 주요전구들에서 경제선동활동 전개",
           "date": "2026-09-22",
@@ -122,7 +245,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 7,
+            "domestic": 12,
             "social": 0
           },
           "featuredSections": [
@@ -133,28 +256,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A40e071985574177d6224789b"
-        },
-        {
-          "id": "news:kcna:75e36d28a636dbd2016ef5a8",
-          "title": "로씨야에 가는 문화성대표단 출발",
-          "date": "2026-09-22",
-          "snippet": "로씨야에 가는 문화성대표단 출발",
-          "url": "http://www.kcna.kp/kp/gallery/detail/c8f8fa3b9e6651ef61cad8bfdaf1dd3c",
-          "mediaType": "article",
-          "categories": [
-            "photo"
-          ],
-          "categoryOrders": {
-            "photo": 0
-          },
-          "featuredSections": [
-            "photo"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45badf3eb2558467da61af6d6bcad5f4594e",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/ee4c1d96a3d954e33b49bf25672a1a60affffb067503393daf05a28d9a62be1c.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A75e36d28a636dbd2016ef5a8"
         },
         {
           "id": "news:kcna:85c83e17f80bd3227675118e",
@@ -201,6 +302,28 @@
           "detailUrl": "/news/document?id=news%3Akcna%3Ad68f1eeb9a3bd55a851be753"
         },
         {
+          "id": "news:kcna:0c423700337633c9a2511d9b",
+          "title": "브라질대통령 중요광물자원에 대한 미국의 강도적인 요구를 단호히 배격",
+          "date": "2026-09-22",
+          "snippet": "(평양 9월 22일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/5a9cf85ef89ee20dfcaed372996c355d",
+          "mediaType": "article",
+          "categories": [
+            "international"
+          ],
+          "categoryOrders": {
+            "international": 1
+          },
+          "featuredSections": [
+            "international"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A0c423700337633c9a2511d9b"
+        },
+        {
           "id": "news:kcna:15cf9d1118e9fffd679a40ff",
           "title": "경애하는 김정은동지께서 조선로동당 제3차 선전부문일군강습회 페강식에서 강령적인 연설을 하시였다",
           "date": "2026-09-22",
@@ -223,50 +346,6 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A15cf9d1118e9fffd679a40ff"
         },
         {
-          "id": "news:kcna:34980c25ea50579d3d8b8f61",
-          "title": "이란에서 이스라엘간첩을 처형",
-          "date": "2026-09-22",
-          "snippet": "(테헤란 9월 21일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/5cd4538ea0cff7437cc070445b73bbe5",
-          "mediaType": "article",
-          "categories": [
-            "international"
-          ],
-          "categoryOrders": {
-            "international": 1
-          },
-          "featuredSections": [
-            "international"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A34980c25ea50579d3d8b8f61"
-        },
-        {
-          "id": "news:kcna:9de883b0e1436a7ab6a94ac1",
-          "title": "각지에서 새로 일떠서는 지방공업공장들의 운영에 필요한 설비생산 기본적으로 결속",
-          "date": "2026-09-22",
-          "snippet": "(평양 9월 22일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/759682be24ff934983489cb3b182b540",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 1
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A9de883b0e1436a7ab6a94ac1"
-        },
-        {
           "id": "news:kcna:bd3a4acaec59433ea71c6559",
           "title": "남포시에서 애국주의교양 적극화",
           "date": "2026-09-22",
@@ -278,7 +357,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 8,
+            "domestic": 13,
             "social": 1
           },
           "featuredSections": [
@@ -289,6 +368,30 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3Abd3a4acaec59433ea71c6559"
+        },
+        {
+          "id": "news:kcna:2135a115cb58461113cc76ef",
+          "title": "로씨야에 가는 문화성대표단 출발",
+          "date": "2026-09-22",
+          "snippet": "(평양 9월 22일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/62bf4d69af26d4d4db62c25cd2d85893",
+          "mediaType": "article",
+          "categories": [
+            "foreign",
+            "domestic"
+          ],
+          "categoryOrders": {
+            "foreign": 2,
+            "domestic": 11
+          },
+          "featuredSections": [
+            "foreign"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45badf3eb2558467da61af6d6bcad5f4594e",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/ee4c1d96a3d954e33b49bf25672a1a60affffb067503393daf05a28d9a62be1c.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A2135a115cb58461113cc76ef"
         },
         {
           "id": "news:kcna:98fb9258b977f4b016000b10",
@@ -313,70 +416,26 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A98fb9258b977f4b016000b10"
         },
         {
-          "id": "news:kcna:f8f7ac74c0656bcca357d6b6",
-          "title": "평양시에서 강동군을 축산군으로 전환,튼튼한 젖생산토대 확보",
+          "id": "news:kcna:75e36d28a636dbd2016ef5a8",
+          "title": "로씨야에 가는 문화성대표단 출발",
           "date": "2026-09-22",
-          "snippet": "(평양 9월 22일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/b89c8e1329e13528b1cb094dec6348ee",
+          "snippet": "로씨야에 가는 문화성대표단 출발",
+          "url": "http://www.kcna.kp/kp/gallery/detail/c8f8fa3b9e6651ef61cad8bfdaf1dd3c",
           "mediaType": "article",
           "categories": [
-            "domestic"
+            "photo"
           ],
           "categoryOrders": {
-            "domestic": 2
+            "photo": 3
           },
           "featuredSections": [
-            "domestic"
+            "photo"
           ],
-          "hasImage": false,
+          "hasImage": true,
           "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Af8f7ac74c0656bcca357d6b6"
-        },
-        {
-          "id": "news:kcna:dbc4ce84bbdc53c0cacbcccf",
-          "title": "온실남새부문 과학기술토론회-2026 진행",
-          "date": "2026-09-22",
-          "snippet": "(평양 9월 22일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/3891b8f946c2433442c1b0f6cb9cea70",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 3
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Adbc4ce84bbdc53c0cacbcccf"
-        },
-        {
-          "id": "news:kcna:3ef562c46742769b9e9b66fa",
-          "title": "2026년 9월 22일 신문개관",
-          "date": "2026-09-22",
-          "snippet": "(평양 9월 22일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/68c679d47d30fc47ca0487b36b8ff8fe",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 4
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A3ef562c46742769b9e9b66fa"
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45badf3eb2558467da61af6d6bcad5f4594e",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/ee4c1d96a3d954e33b49bf25672a1a60affffb067503393daf05a28d9a62be1c.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A75e36d28a636dbd2016ef5a8"
         },
         {
           "id": "news:kcna:c5cec7c80e0dfa50c6c200f8",
@@ -414,10 +473,10 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 0,
+            "important": 2,
             "document": 0,
-            "foreign": 1,
-            "domestic": 13
+            "foreign": 3,
+            "domestic": 18
           },
           "featuredSections": [
             "important",
@@ -442,7 +501,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 11,
+            "domestic": 16,
             "social": 2
           },
           "featuredSections": [
@@ -466,7 +525,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 12,
+            "domestic": 17,
             "social": 3
           },
           "featuredSections": [
@@ -489,7 +548,7 @@
             "photo"
           ],
           "categoryOrders": {
-            "photo": 1
+            "photo": 4
           },
           "featuredSections": [
             "photo"
@@ -499,6 +558,30 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba74bb6cab687af27f5acc59fbdf2e7c1c",
           "cachedThumbnailUrl": "/data/news/assets/kcna/9b2ce74d260f36ce8277e43b033a289660b19144a2c17762a283eb9bde875af6.jpg",
           "detailUrl": "/news/document?id=news%3Akcna%3A279aa13dd7b66864597b5e78"
+        },
+        {
+          "id": "news:kcna:9afb471abe0aba1997b86efb",
+          "title": "수도의 일군들과 당원들과 근로자들 석탄증산을 위한 돌격대활동에 궐기",
+          "date": "2026-09-20",
+          "snippet": "(평양 9월 20일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/f167f379f2b8460404c1d600378fb08d",
+          "mediaType": "article",
+          "categories": [
+            "domestic",
+            "social"
+          ],
+          "categoryOrders": {
+            "domestic": 24,
+            "social": 4
+          },
+          "featuredSections": [
+            "social"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A9afb471abe0aba1997b86efb"
         },
         {
           "id": "news:kcna:edd08962a74d77c6692577a7",
@@ -512,8 +595,8 @@
             "domestic"
           ],
           "categoryOrders": {
-            "foreign": 2,
-            "domestic": 24
+            "foreign": 4,
+            "domestic": 29
           },
           "featuredSections": [
             "foreign"
@@ -536,8 +619,8 @@
             "domestic"
           ],
           "categoryOrders": {
-            "foreign": 3,
-            "domestic": 25
+            "foreign": 5,
+            "domestic": 30
           },
           "featuredSections": [
             "foreign"
@@ -547,30 +630,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A3d362c062f53789adb23e818"
-        },
-        {
-          "id": "news:kcna:9afb471abe0aba1997b86efb",
-          "title": "수도의 일군들과 당원들과 근로자들 석탄증산을 위한 돌격대활동에 궐기",
-          "date": "2026-09-20",
-          "snippet": "(평양 9월 20일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/f167f379f2b8460404c1d600378fb08d",
-          "mediaType": "article",
-          "categories": [
-            "domestic",
-            "social"
-          ],
-          "categoryOrders": {
-            "domestic": 19,
-            "social": 4
-          },
-          "featuredSections": [
-            "social"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A9afb471abe0aba1997b86efb"
         },
         {
           "id": "news:kcna:1bdea89d45c692df9ae81b0d",
@@ -586,45 +645,20 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 2,
+            "important": 4,
             "document": 1,
-            "foreign": 5,
-            "domestic": 38
+            "foreign": 7,
+            "domestic": 43
           },
           "featuredSections": [
             "important",
-            "document",
-            "foreign"
+            "document"
           ],
           "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A1bdea89d45c692df9ae81b0d"
-        },
-        {
-          "id": "news:kcna:3dc31d8071a9014c0b087a36",
-          "title": "함선공업부문 조선소근로자들의 체육경기 진행",
-          "date": "2026-09-19",
-          "snippet": "(평양 9월 19일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/c0d3eca5df85037593f57f5bdb9aadb8",
-          "mediaType": "article",
-          "categories": [
-            "important",
-            "domestic"
-          ],
-          "categoryOrders": {
-            "important": 1,
-            "domestic": 37
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bad2a0aecfea2fb90955bcfb92c24a1636",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/a5bc5c4f6d64e3d790c611a6463055dcb75a57f1b42572a08e2289ea7672dd86.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A3dc31d8071a9014c0b087a36"
         },
         {
           "id": "news:kcna:79dee9cb187ccdf837271b19",
@@ -640,10 +674,10 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 3,
+            "important": 5,
             "document": 2,
-            "foreign": 6,
-            "domestic": 39
+            "foreign": 8,
+            "domestic": 44
           },
           "featuredSections": [
             "important",
@@ -656,26 +690,28 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A79dee9cb187ccdf837271b19"
         },
         {
-          "id": "news:kcna:aa3569001e41f3ed92cb7a53",
+          "id": "news:kcna:3dc31d8071a9014c0b087a36",
           "title": "함선공업부문 조선소근로자들의 체육경기 진행",
           "date": "2026-09-19",
-          "snippet": "함선공업부문 조선소근로자들의 체육경기 진행",
-          "url": "http://www.kcna.kp/kp/gallery/detail/da14cce73371cfb168a4614c63da0732",
+          "snippet": "(평양 9월 19일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/c0d3eca5df85037593f57f5bdb9aadb8",
           "mediaType": "article",
           "categories": [
-            "photo"
+            "important",
+            "domestic"
           ],
           "categoryOrders": {
-            "photo": 2
+            "important": 3,
+            "domestic": 42
           },
           "featuredSections": [
-            "photo"
+            "important"
           ],
           "hasImage": true,
           "hasVideo": false,
           "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bad2a0aecfea2fb90955bcfb92c24a1636",
           "cachedThumbnailUrl": "/data/news/assets/kcna/a5bc5c4f6d64e3d790c611a6463055dcb75a57f1b42572a08e2289ea7672dd86.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3Aaa3569001e41f3ed92cb7a53"
+          "detailUrl": "/news/document?id=news%3Akcna%3A3dc31d8071a9014c0b087a36"
         },
         {
           "id": "news:kcna:de8c7b6af8dabe7bf76d3cdd",
@@ -722,30 +758,6 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A02038877698afea43cfde9b9"
         },
         {
-          "id": "news:kcna:6743cef54e6e0b4f7a44abc8",
-          "title": "중국청년간부대표단 귀국",
-          "date": "2026-09-19",
-          "snippet": "(평양 9월 19일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/cc17e52331d630480015bc29bb242e51",
-          "mediaType": "article",
-          "categories": [
-            "foreign",
-            "domestic"
-          ],
-          "categoryOrders": {
-            "foreign": 4,
-            "domestic": 33
-          },
-          "featuredSections": [
-            "foreign"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A6743cef54e6e0b4f7a44abc8"
-        },
-        {
           "id": "news:kcna:b714efb6b0bf9f64302f7901",
           "title": "세심히 관심하신 의료보장대책",
           "date": "2026-09-18",
@@ -788,100 +800,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "/data/news/assets/kcna/524b7142b410b3992636b5ffbeb4f77e378a5f372efa3a5919232971c9b9a437.jpg",
           "detailUrl": "/news/document?id=news%3Akcna%3Af4411ff0faa90b977a81a992"
-        },
-        {
-          "id": "news:kcna:01ff524bb3b6faf89d8beef2",
-          "title": "새시대의 리상적인 농장도시-신의주온실종합농장",
-          "date": "2026-09-18",
-          "snippet": "새시대의 리상적인 농장도시-신의주온실종합농장",
-          "url": "http://www.kcna.kp/kp/gallery/detail/ca115514c34fb6535d17095e741bc6c2",
-          "mediaType": "article",
-          "categories": [
-            "photo"
-          ],
-          "categoryOrders": {
-            "photo": 3
-          },
-          "featuredSections": [
-            "photo"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bae59b09af93479623508b8326f7f26893",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/c70c0cae4db43fba8c411afb1ec7066bdf9e56abbeb18aef479336ce2a43669d.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A01ff524bb3b6faf89d8beef2"
-        },
-        {
-          "id": "news:kcna:689023e4ee4b22fb73c6e52f",
-          "title": "중국청년간부대표단 여러곳 참관",
-          "date": "2026-09-18",
-          "snippet": "중국청년간부대표단 여러곳 참관",
-          "url": "http://www.kcna.kp/kp/gallery/detail/ce33bc020a7dc314b1ad1964a256154c",
-          "mediaType": "article",
-          "categories": [
-            "photo"
-          ],
-          "categoryOrders": {
-            "photo": 4
-          },
-          "featuredSections": [
-            "photo"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba650246c1fb8a523c64db4ccd4071de4c",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/9e3e95b44a3bb6ad4dff48b09ccc811dd29031e11af55f6369c876e099eb5425.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A689023e4ee4b22fb73c6e52f"
-        },
-        {
-          "id": "news:kcna:8aaadb25e654d8e424c18532",
-          "title": "《건설부문일군집중강습-2026》 진행",
-          "date": "2026-09-18",
-          "snippet": "(평양 9월 18일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/15f3d4b7504daef845c2f0cf177b3224",
-          "mediaType": "article",
-          "categories": [
-            "important",
-            "domestic"
-          ],
-          "categoryOrders": {
-            "important": 4,
-            "domestic": 51
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45babd7e3d805bd89b2cb18608665672121e",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/7eb2a0a37833024083a486af885be3dfd40a2679329174ea436e21dfbf06797d.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A8aaadb25e654d8e424c18532"
-        },
-        {
-          "id": "news:kcna:dc6702065ccfc1cbfa592931",
-          "title": "조선민주주의인민공화국 국방성대표단 제13차 베이징향산연단에 참가",
-          "date": "2026-09-18",
-          "snippet": "(평양 9월 18일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/350cc99404bbcfddfda949dc1456b870",
-          "mediaType": "article",
-          "categories": [
-            "important",
-            "international",
-            "foreign"
-          ],
-          "categoryOrders": {
-            "important": 5,
-            "international": 32,
-            "foreign": 8
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Adc6702065ccfc1cbfa592931"
         },
         {
           "id": "news:kcna:3b78fe64c18bcac12743e835",
@@ -985,10 +903,10 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 8,
+            "important": 10,
             "document": 5,
-            "foreign": 13,
-            "domestic": 71
+            "foreign": 15,
+            "domestic": 76
           },
           "featuredSections": [
             "document"
@@ -1145,10 +1063,10 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 52,
+            "important": 54,
             "document": 6,
-            "foreign": 58,
-            "domestic": 180
+            "foreign": 60,
+            "domestic": 185
           },
           "featuredSections": [
             "document"
@@ -1195,10 +1113,10 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 60,
+            "important": 62,
             "document": 8,
-            "foreign": 71,
-            "domestic": 305
+            "foreign": 73,
+            "domestic": 310
           },
           "featuredSections": [
             "document"
@@ -1214,10 +1132,10 @@
     "rodong-sinmun": {
       "id": "rodong-sinmun",
       "name": "로동신문",
-      "totalItems": 735,
+      "totalItems": 745,
       "categoryCounts": {
         "leadership": 159,
-        "important": 27,
+        "important": 37,
         "photo": 51,
         "anecdote": 263,
         "video": 7,
@@ -1226,6 +1144,138 @@
         "social": 4
       },
       "articles": [
+        {
+          "id": "news:rodong-sinmun:e00ee324ba18b53cdd2a1b2f",
+          "title": "당중앙의 의도대로 사상사업에서 일대 변혁을 이룩해나갈 혁명전사들의 불같은 맹세\n경애하는 총비서동지께서 조선로동당 제3차 선전부문일군강습회에서 하신 강령적인 연설에 접한 각급 당조직들이 사상의 절대적위력을 최대로 증폭시켜나갈 열의로 비상히 앙양되여있다\n조선혁명특유의 비상한 잠재력을 새시대의 높이에로 더욱 승화시키는 고귀한 지침 [1면]",
+          "date": "2026-09-23",
+          "snippet": "당중앙의 의도대로 사상사업에서 일대 변혁을 이룩해나갈 혁명전사들의 불같은 맹세",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yMy0wMTNAMkAxQEAwQDFA==",
+          "mediaType": "article",
+          "categories": [
+            "important"
+          ],
+          "categoryOrders": {
+            "important": 0
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ae00ee324ba18b53cdd2a1b2f"
+        },
+        {
+          "id": "news:rodong-sinmun:1d666b7e7f4ba7d9d985892b",
+          "title": "당중앙의 의도대로 사상사업에서 일대 변혁을 이룩해나갈 혁명전사들의 불같은 맹세\n경애하는 총비서동지께서 조선로동당 제3차 선전부문일군강습회에서 하신 강령적인 연설에 접한 각급 당조직들이 사상의 절대적위력을 최대로 증폭시켜나갈 열의로 비상히 앙양되여있다\n혁신적인 사상전, 창조적인 사상전, 공세적인 사상전으로 비약의 진격로를 열어제끼겠다 [1면]",
+          "date": "2026-09-23",
+          "snippet": "당중앙의 의도대로 사상사업에서 일대 변혁을 이룩해나갈 혁명전사들의 불같은 맹세",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yMy0wMTRAMkAxQEAwQDJA==",
+          "mediaType": "article",
+          "categories": [
+            "important"
+          ],
+          "categoryOrders": {
+            "important": 1
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A1d666b7e7f4ba7d9d985892b"
+        },
+        {
+          "id": "news:rodong-sinmun:be0daaecc613c131895b09c3",
+          "title": "당중앙의 의도대로 사상사업에서 일대 변혁을 이룩해나갈 혁명전사들의 불같은 맹세\n경애하는 총비서동지께서 조선로동당 제3차 선전부문일군강습회에서 하신 강령적인 연설에 접한 각급 당조직들이 사상의 절대적위력을 최대로 증폭시켜나갈 열의로 비상히 앙양되여있다\n원숙한 자질과 풍모를 겸비한 유능한 정치활동가, 실력가형의 일군이 되리 [1면]",
+          "date": "2026-09-23",
+          "snippet": "당중앙의 의도대로 사상사업에서 일대 변혁을 이룩해나갈 혁명전사들의 불같은 맹세",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yMy0wMTVAMkAxQEAwQDNA==",
+          "mediaType": "article",
+          "categories": [
+            "important"
+          ],
+          "categoryOrders": {
+            "important": 2
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Abe0daaecc613c131895b09c3"
+        },
+        {
+          "id": "news:rodong-sinmun:c80b83d763221d9a72e88160",
+          "title": "당중앙의 의도대로 사상사업에서 일대 변혁을 이룩해나갈 혁명전사들의 불같은 맹세\n경애하는 총비서동지께서 조선로동당 제3차 선전부문일군강습회에서 하신 강령적인 연설에 접한 각급 당조직들이 사상의 절대적위력을 최대로 증폭시켜나갈 열의로 비상히 앙양되여있다\n필승의 신념과 의지를 백배해주는 혁명의 나팔소리 높이 울려나갈 때 언제나 위대한 승리와 기적만이 창조될것이다. [1면]",
+          "date": "2026-09-23",
+          "snippet": "당중앙의 의도대로 사상사업에서 일대 변혁을 이룩해나갈 혁명전사들의 불같은 맹세",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yMy0wMTZAMkAxQEAwQDRA==",
+          "mediaType": "article",
+          "categories": [
+            "important"
+          ],
+          "categoryOrders": {
+            "important": 3
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/16efbb368cddf689c858e8861dbd98dae9e2c57ebd799b0974259050b0f7c1dc.jpg",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ac80b83d763221d9a72e88160"
+        },
+        {
+          "id": "news:rodong-sinmun:523d64dd7220175de72c629d",
+          "title": "위대한 김정은동지의 혁명사상으로 철저히 무장하자!\n국가건설에서 인민대중제일주의 구현 [2면]",
+          "date": "2026-09-23",
+          "snippet": "위대한 김정은동지의 혁명사상으로 철저히 무장하자!",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yMy0wMTdAMkAxQEAwQDVA==",
+          "mediaType": "article",
+          "categories": [
+            "important"
+          ],
+          "categoryOrders": {
+            "important": 4
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A523d64dd7220175de72c629d"
+        },
+        {
+          "id": "news:rodong-sinmun:c6f92ebe4a7abc983d5ee243",
+          "title": "박태성 내각총리 여러 부문 사업 현지료해",
+          "date": "2026-09-23",
+          "snippet": "박태성 내각총리 여러 부문 사업 현지료해",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yMy0wMThAMkAxQEAwQDZA==",
+          "mediaType": "article",
+          "categories": [
+            "important"
+          ],
+          "categoryOrders": {
+            "important": 5
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/130cba11ba206d7aac430984bc9a893f5dfaf5f622cfbc99b25b37cf61ad138e.jpg",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ac6f92ebe4a7abc983d5ee243"
+        },
         {
           "id": "news:rodong-sinmun:7efbe9bc3d57b0b12797fa83",
           "title": "만발하는 정성의 화원\n각지 의료일군들이 발휘한 아름다운 소행을 놓고",
@@ -1271,28 +1321,6 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A86a06a677f18fc5c996d8ed7"
         },
         {
-          "id": "news:rodong-sinmun:8b737c17bc19d31f35b7b212",
-          "title": "어느 고장에나 우리 세대가 본받아야 할 농민영웅, 애국농민이 있다\n남포시 온천군",
-          "date": "2026-09-22",
-          "snippet": "어느 고장에나 우리 세대가 본받아야 할 농민영웅, 애국농민이 있다",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yMi0wMTRAMkAxQEAwQDFA==",
-          "mediaType": "article",
-          "categories": [
-            "important"
-          ],
-          "categoryOrders": {
-            "important": 0
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A8b737c17bc19d31f35b7b212"
-        },
-        {
           "id": "news:rodong-sinmun:9b837be0c168b32f60dd51a7",
           "title": "우리 나라 녀자축구팀 국제축구련맹 2026년 20살미만\n녀자월드컵경기대회 준결승경기에 진출",
           "date": "2026-09-22",
@@ -1313,28 +1341,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/d044eb45a603837343327b5e16cac42b305f9012a4b05c037d9252e8245130f2.jpg",
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A9b837be0c168b32f60dd51a7"
-        },
-        {
-          "id": "news:rodong-sinmun:0cbe996f75c00731cab7c4d5",
-          "title": "어느 고장에나 우리 세대가 본받아야 할 농민영웅, 애국농민이 있다\n남포시 온천군\n고결한 정신세계에 누구나 머리숙인다 [4면]",
-          "date": "2026-09-22",
-          "snippet": "어느 고장에나 우리 세대가 본받아야 할 농민영웅, 애국농민이 있다",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yMi0wMTVAMkAxQEAwQDJA==",
-          "mediaType": "article",
-          "categories": [
-            "important"
-          ],
-          "categoryOrders": {
-            "important": 1
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A0cbe996f75c00731cab7c4d5"
         },
         {
           "id": "news:rodong-sinmun:922272588265011036be98b9",
@@ -1359,28 +1365,6 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A922272588265011036be98b9"
         },
         {
-          "id": "news:rodong-sinmun:caebf022a454aec71c1dc89c",
-          "title": "우리 나라 녀자축구팀 국제축구련맹 2026년 20살미만\n녀자월드컵경기대회 준결승경기에 진출",
-          "date": "2026-09-22",
-          "snippet": "우리 나라 녀자축구팀 국제축구련맹 2026년 20살미만",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yMi0wMTZAMkAxQEAwQDNA==",
-          "mediaType": "article",
-          "categories": [
-            "important"
-          ],
-          "categoryOrders": {
-            "important": 2
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/d044eb45a603837343327b5e16cac42b305f9012a4b05c037d9252e8245130f2.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Acaebf022a454aec71c1dc89c"
-        },
-        {
           "id": "news:rodong-sinmun:fb087dcedc43d31c73d85d92",
           "title": "조선민주주의인민공화국 미싸일총국 새로운 중요전투무기체계시험 진행",
           "date": "2026-09-22",
@@ -1401,72 +1385,6 @@
           "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOS8yMi8xLzIwMjYtMDktMjItMDEzLzIwMjYtMDktMjItMDM5LmpwZw==",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Afb087dcedc43d31c73d85d92"
-        },
-        {
-          "id": "news:rodong-sinmun:fdf770e0717780c1138bae0f",
-          "title": "제20차 아시아경기대회소식",
-          "date": "2026-09-22",
-          "snippet": "제20차 아시아경기대회소식",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yMi0wMTdAMkAxQEAwQDRA==",
-          "mediaType": "article",
-          "categories": [
-            "important"
-          ],
-          "categoryOrders": {
-            "important": 3
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Afdf770e0717780c1138bae0f"
-        },
-        {
-          "id": "news:rodong-sinmun:5199331ad4fa27b82712de08",
-          "title": "로씨야에 가는 문화성대표단 출발",
-          "date": "2026-09-22",
-          "snippet": "로씨야에 가는 문화성대표단 출발",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yMi0wMThAMkAxQEAwQDVA==",
-          "mediaType": "article",
-          "categories": [
-            "important"
-          ],
-          "categoryOrders": {
-            "important": 4
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A5199331ad4fa27b82712de08"
-        },
-        {
-          "id": "news:rodong-sinmun:75f3878b59d519d6715716d5",
-          "title": "온실남새부문 과학기술토론회-2026 진행",
-          "date": "2026-09-22",
-          "snippet": "온실남새부문 과학기술토론회-2026 진행",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yMi0wMTlAMkAxQEAwQDZA==",
-          "mediaType": "article",
-          "categories": [
-            "important"
-          ],
-          "categoryOrders": {
-            "important": 5
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A75f3878b59d519d6715716d5"
         },
         {
           "id": "news:rodong-sinmun:db07b2c6557c873f15effd58",

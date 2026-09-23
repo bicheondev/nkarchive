@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T00:00:00.000Z",
-  "version": "c12c223252b6c906",
+  "generatedAt": "2026-09-23T00:00:00.000Z",
+  "version": "60545208d2ee6798",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,57 @@
   "section": "important",
   "page": 38,
   "pageSize": 5,
-  "totalItems": 535,
-  "totalPages": 107,
+  "totalItems": 537,
+  "totalPages": 108,
   "articles": [
+    {
+      "id": "news:kcna:f21f1f82121950e7aad04bf7",
+      "title": "조선민주주의인민공화국 외무성 대변인대답",
+      "date": "2026-05-03",
+      "snippet": "(평양 5월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f3f24b7b0e4684dc79ac4ef6b3b17491",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 185,
+        "foreign": 263,
+        "domestic": 1571
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af21f1f82121950e7aad04bf7"
+    },
+    {
+      "id": "news:kcna:8d9f1813968fda639d4df15f",
+      "title": "경애하는 김정은동지께 여러 나라에서 축전과 축하편지를 보내여왔다",
+      "date": "2026-05-01",
+      "snippet": "(평양 5월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e150e0e9418dc12d3ee5f257f03c69b4",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 186,
+        "international": 1091,
+        "foreign": 265
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8d9f1813968fda639d4df15f"
+    },
     {
       "id": "news:kcna:b38a58346a384fa6cab41666",
       "title": "사회주의애국청년동맹 제11차대회 진행",
@@ -23,8 +71,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 185,
-        "domestic": 1587
+        "important": 187,
+        "domestic": 1592
       },
       "featuredSections": [],
       "hasImage": true,
@@ -45,8 +93,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 186,
-        "domestic": 1600
+        "important": 188,
+        "domestic": 1605
       },
       "featuredSections": [],
       "hasImage": true,
@@ -67,8 +115,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 187,
-        "domestic": 1616
+        "important": 189,
+        "domestic": 1621
       },
       "featuredSections": [],
       "hasImage": true,
@@ -76,54 +124,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66e3de99aac20a6d80a1c492a171d68d5d",
       "cachedThumbnailUrl": "/data/news/assets/kcna/230825afc1a8e021e3ec1e11a4c51674e428ef335c307e3c07e1dc7bc701d514.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ad406e954ce16d73f91b9e6a9"
-    },
-    {
-      "id": "news:kcna:b8b41019fca2d00d1c20beae",
-      "title": "로씨야련방 공식대표단 귀국",
-      "date": "2026-04-28",
-      "snippet": "(평양 4월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c4484f4df9afdee4442be0b9ca05a3eb",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 188,
-        "foreign": 270,
-        "domestic": 1621
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66619a57796e220f84db1e6f2db8a570dc",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/b199a9c99d23f040c5656af79c9042bae9ff3fdb05d7051fb30fee0129feb7a0.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab8b41019fca2d00d1c20beae"
-    },
-    {
-      "id": "news:kcna:ce3bd4191275489fedaa1b61",
-      "title": "로씨야련방 국방상 평양 출발",
-      "date": "2026-04-27",
-      "snippet": "(평양 4월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e32cf6510299d9bba05c0313e5a1f977",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 189,
-        "foreign": 272,
-        "domestic": 1633
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b6630b84b76668d5a0bfb619704ce72c041",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/64bcde0803c1b2899e239927e8e73dc74bc9dfad811fbf90850b61fb1f7d4715.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ace3bd4191275489fedaa1b61"
     }
   ]
 }

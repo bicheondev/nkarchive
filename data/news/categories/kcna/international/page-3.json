@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T00:00:00.000Z",
-  "version": "c12c223252b6c906",
+  "generatedAt": "2026-09-23T00:00:00.000Z",
+  "version": "60545208d2ee6798",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 3,
   "pageSize": 5,
-  "totalItems": 2763,
+  "totalItems": 2764,
   "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:d7e6af81f2a85e7d16a2cafa",
+      "title": "중국에서 위성 발사",
+      "date": "2026-09-21",
+      "snippet": "(베이징 9월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c00a5305dcbe7ac038d765e49ef9c1b0",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 10
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad7e6af81f2a85e7d16a2cafa"
+    },
     {
       "id": "news:kcna:d161093958a8770b529a7189",
       "title": "계속되는 미군의 민간선박공격행위",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 10
+        "international": 11
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 11
+        "international": 12
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 12
+        "international": 13
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 13
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab39448d01a629b92646d2ad9"
-    },
-    {
-      "id": "news:kcna:75c819e124354719adafc6a1",
-      "title": "중국외교부 대변인 일본의 침략력사외곡책동 규탄",
-      "date": "2026-09-20",
-      "snippet": "(베이징 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/43bb96e381db743d5e6a1ce3bdb159f2",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 14
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A75c819e124354719adafc6a1"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab39448d01a629b92646d2ad9"
     }
   ]
 }

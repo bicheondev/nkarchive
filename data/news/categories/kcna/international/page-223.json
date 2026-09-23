@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T00:00:00.000Z",
-  "version": "c12c223252b6c906",
+  "generatedAt": "2026-09-23T00:00:00.000Z",
+  "version": "60545208d2ee6798",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 223,
   "pageSize": 5,
-  "totalItems": 2763,
+  "totalItems": 2764,
   "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:ac6fd1244264ba05bc7426fd",
+      "title": "벌가리아에서 마약압수",
+      "date": "2026-04-28",
+      "snippet": "(평양 4월 28일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1f54b9bad212a6308454db65eddc270c",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1110
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aac6fd1244264ba05bc7426fd"
+    },
     {
       "id": "news:kcna:7ffa15bcc5fea849cca2ed0b",
       "title": "캄보쟈에서 싸이버범죄와의 투쟁 강화",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1110
+        "international": 1111
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1111
+        "international": 1112
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1112
+        "international": 1113
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1113
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4e22cc32ee40175b5b8e1b38"
-    },
-    {
-      "id": "news:kcna:37c344acad50b9f35ee9155d",
-      "title": "미국 인디아나주에서 총기류범죄",
-      "date": "2026-04-28",
-      "snippet": "(평양 4월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/77d7da0ba1ba310dd486ba8876958b59",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1114
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A37c344acad50b9f35ee9155d"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4e22cc32ee40175b5b8e1b38"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T00:00:00.000Z",
-  "version": "c12c223252b6c906",
+  "generatedAt": "2026-09-23T00:00:00.000Z",
+  "version": "60545208d2ee6798",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,35 +8,39 @@
   "section": "domestic",
   "page": 7,
   "pageSize": 5,
-  "totalItems": 4170,
-  "totalPages": 834,
+  "totalItems": 4175,
+  "totalPages": 835,
   "articles": [
     {
-      "id": "news:kcna:6063f96525a8d03877f2bfde",
-      "title": "생물약품개발과 질평가에서 나서는 문제해결을 위한 연구토론회 진행",
-      "date": "2026-09-19",
-      "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/81b6d1b55b3b6c9a963b12aa282a58a2",
+      "id": "news:kcna:3d362c062f53789adb23e818",
+      "title": "로씨야에 가는 조선중앙통신사대표단 출발",
+      "date": "2026-09-20",
+      "snippet": "(평양 9월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/89c2297dfa22952eca25dc30e160d357",
       "mediaType": "article",
       "categories": [
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "foreign": 5,
         "domestic": 30
       },
-      "featuredSections": [],
+      "featuredSections": [
+        "foreign"
+      ],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6063f96525a8d03877f2bfde"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3d362c062f53789adb23e818"
     },
     {
-      "id": "news:kcna:351ab8db5b98c519bf0851a0",
-      "title": "황해북도에서 태양빛발전소건설 추진",
-      "date": "2026-09-19",
-      "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ba4bcc07bbc8d317b6144f2a695528fa",
+      "id": "news:kcna:0813c2e242d6629d675a90e3",
+      "title": "중앙동물원에 새 식솔들이 늘어나고있다",
+      "date": "2026-09-20",
+      "snippet": "(평양 9월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/df3b352f7c052737e29b433870fd383e",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -49,60 +53,56 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A351ab8db5b98c519bf0851a0"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0813c2e242d6629d675a90e3"
     },
     {
-      "id": "news:kcna:f0a774b8fd055b8387ace1a0",
-      "title": "평안북도의 각급 청년동맹,소년단조직들 새세대들에 대한 애국주의교양 강화",
-      "date": "2026-09-19",
-      "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5ac3b8755142dd60ca70746b4cbeabd1",
+      "id": "news:kcna:253880935d3c8ee5f938311d",
+      "title": "우리 나라의 천연기념물--백두산장군봉",
+      "date": "2026-09-20",
+      "snippet": "(평양 9월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3c804a3648c6e7152ad58b9a9e32f970",
       "mediaType": "article",
       "categories": [
-        "domestic",
-        "social"
+        "domestic"
       ],
       "categoryOrders": {
-        "domestic": 32,
-        "social": 7
+        "domestic": 32
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af0a774b8fd055b8387ace1a0"
+      "detailUrl": "/news/document?id=news%3Akcna%3A253880935d3c8ee5f938311d"
     },
     {
-      "id": "news:kcna:6743cef54e6e0b4f7a44abc8",
-      "title": "중국청년간부대표단 귀국",
-      "date": "2026-09-19",
-      "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/cc17e52331d630480015bc29bb242e51",
+      "id": "news:kcna:8b07a977a32bd432e23d7174",
+      "title": "영광의 단상에 오른 평범한 근로자들",
+      "date": "2026-09-20",
+      "snippet": "(평양 9월 20일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b3972731876e1778c4d931e64c45ba6e",
       "mediaType": "article",
       "categories": [
-        "foreign",
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "foreign": 4,
-        "domestic": 33
+        "domestic": 33,
+        "social": 6
       },
-      "featuredSections": [
-        "foreign"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6743cef54e6e0b4f7a44abc8"
+      "detailUrl": "/news/document?id=news%3Akcna%3A8b07a977a32bd432e23d7174"
     },
     {
-      "id": "news:kcna:e64ac4f496ccbf3da9fc8152",
-      "title": "평양시에서 거리와 마을의 면모를 개선",
+      "id": "news:kcna:8927f5c52f8438c6468843f6",
+      "title": "전국금속재료부문 과학기술발표회 진행",
       "date": "2026-09-19",
       "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/268cfcc62f2d3801d5b1a0699a778f11",
+      "url": "http://www.kcna.kp/kp/article/detail/ab91b6ad0fe3c7a98492ed9cd89a11ed",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -115,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae64ac4f496ccbf3da9fc8152"
+      "detailUrl": "/news/document?id=news%3Akcna%3A8927f5c52f8438c6468843f6"
     }
   ]
 }

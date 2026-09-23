@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T00:00:00.000Z",
-  "version": "c12c223252b6c906",
+  "generatedAt": "2026-09-23T00:00:00.000Z",
+  "version": "60545208d2ee6798",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 204,
   "pageSize": 5,
-  "totalItems": 2763,
+  "totalItems": 2764,
   "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:4f80a9a2c3775d0c62f1d0b2",
+      "title": "아시아나라들사이의 협조",
+      "date": "2026-05-10",
+      "snippet": "(평양 5월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3c9295ab37068bd53bd8bed0b47abfdb",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1015
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4f80a9a2c3775d0c62f1d0b2"
+    },
     {
       "id": "news:kcna:f33dfbc3658714a2df9afaeb",
       "title": "조선인민군 륙해공군혼성종대 모스크바승리열병식에 참가",
@@ -24,9 +44,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 176,
-        "international": 1015,
-        "foreign": 248
+        "important": 178,
+        "international": 1016,
+        "foreign": 250
       },
       "featuredSections": [],
       "hasImage": true,
@@ -47,8 +67,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1016,
-        "foreign": 249
+        "international": 1017,
+        "foreign": 251
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +89,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 177,
-        "international": 1017
+        "important": 179,
+        "international": 1018
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,7 +111,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1018,
+        "international": 1019,
         "social": 164
       },
       "featuredSections": [],
@@ -100,26 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A9f1dbf11a45d48c981337f70"
-    },
-    {
-      "id": "news:kcna:bbb2d64e86de07a28ce2de59",
-      "title": "메히꼬대통령 자국내정에 간섭하고있는 미국을 비난",
-      "date": "2026-05-09",
-      "snippet": "(평양 5월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b4ea48948743b701938498eb7beef48a",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 1019
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abbb2d64e86de07a28ce2de59"
     }
   ]
 }

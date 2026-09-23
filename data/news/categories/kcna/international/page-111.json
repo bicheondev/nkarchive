@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T00:00:00.000Z",
-  "version": "c12c223252b6c906",
+  "generatedAt": "2026-09-23T00:00:00.000Z",
+  "version": "60545208d2ee6798",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 111,
   "pageSize": 5,
-  "totalItems": 2763,
+  "totalItems": 2764,
   "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:58c134b487780e47081b5ce8",
+      "title": "아프가니스탄인구 3 720만명",
+      "date": "2026-07-13",
+      "snippet": "(평양 7월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6e285efae336898ce8394cb9e7ef45da",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 550
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A58c134b487780e47081b5ce8"
+    },
     {
       "id": "news:kcna:f3d981d07716a40f0ebd6959",
       "title": "조선민주주의인민공화국 당 및 정부대표단 베이징시와 천진시의 여러곳 참관",
@@ -23,8 +43,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 550,
-        "foreign": 155
+        "international": 551,
+        "foreign": 157
       },
       "featuredSections": [],
       "hasImage": true,
@@ -44,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 551
+        "international": 552
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 552
+        "international": 553
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 553
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aeaab9da4597d311185d6e8b6"
-    },
-    {
-      "id": "news:kcna:fbf60a660802c7d8a5a62ae9",
-      "title": "꼬뜨디봐르에서 산림면적을 늘이기 위해 노력",
-      "date": "2026-07-12",
-      "snippet": "(평양 7월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5d67308effe3be533d96f29bbe4eb0e8",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 554
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afbf60a660802c7d8a5a62ae9"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aeaab9da4597d311185d6e8b6"
     }
   ]
 }

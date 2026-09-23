@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T00:00:00.000Z",
-  "version": "c12c223252b6c906",
+  "generatedAt": "2026-09-23T00:00:00.000Z",
+  "version": "60545208d2ee6798",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 94,
   "pageSize": 5,
-  "totalItems": 2763,
+  "totalItems": 2764,
   "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:030dede200f4108c9932e390",
+      "title": "중국에서 태풍경보 발령",
+      "date": "2026-07-26",
+      "snippet": "(베이징 7월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/83bd6d2ee1551a2d951b6e2cf8089046",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 465
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A030dede200f4108c9932e390"
+    },
     {
       "id": "news:kcna:b60406fe2bd62b34db24e0ae",
       "title": "경애하는 김정은동지께 김일성김정일기금리사회 리사,회원들이 꽃바구니를 보내여왔다",
@@ -24,9 +44,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 93,
-        "international": 465,
-        "foreign": 118
+        "important": 95,
+        "international": 466,
+        "foreign": 120
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,7 +66,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 466
+        "international": 467
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,7 +86,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 467
+        "international": 468
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 468
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0c4c5cf586c9ea0b849d5169"
-    },
-    {
-      "id": "news:kcna:9868b7b026d83c4e2a2a1cba",
-      "title": "중국에서 위성발사",
-      "date": "2026-07-25",
-      "snippet": "(베이징 7월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a88a80648d938c973226fc204089388d",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 469
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9868b7b026d83c4e2a2a1cba"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0c4c5cf586c9ea0b849d5169"
     }
   ]
 }

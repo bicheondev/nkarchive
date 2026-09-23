@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T00:00:00.000Z",
-  "version": "c12c223252b6c906",
+  "generatedAt": "2026-09-23T00:00:00.000Z",
+  "version": "60545208d2ee6798",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 49,
   "pageSize": 5,
-  "totalItems": 2763,
+  "totalItems": 2764,
   "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:b83e4b6d0ead43a45814dd61",
+      "title": "파키스탄과 뽀르뚜갈에서 교통사고",
+      "date": "2026-08-27",
+      "snippet": "(평양 8월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8b842cfed1c3780d7c89053ac3273289",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 240
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab83e4b6d0ead43a45814dd61"
+    },
     {
       "id": "news:kcna:3c75168b3a823723222e09b0",
       "title": "아프가니스탄에서 반마약투쟁",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 240
+        "international": 241
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 241
+        "international": 242
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,8 +83,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 242,
-        "foreign": 70
+        "international": 243,
+        "foreign": 72
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,8 +105,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 243,
-        "foreign": 72
+        "international": 244,
+        "foreign": 74
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,26 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ae03388eec9d0d80c25c693b2"
-    },
-    {
-      "id": "news:kcna:2b76121c5f85628dd3ad3df6",
-      "title": "방글라데슈에서 반마약투쟁",
-      "date": "2026-08-26",
-      "snippet": "(평양 8월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/bcda479b74788df827bafc7780ebfac5",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 244
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2b76121c5f85628dd3ad3df6"
     }
   ]
 }

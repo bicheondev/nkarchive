@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T00:00:00.000Z",
-  "version": "c12c223252b6c906",
+  "generatedAt": "2026-09-23T00:00:00.000Z",
+  "version": "60545208d2ee6798",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 215,
   "pageSize": 5,
-  "totalItems": 2763,
+  "totalItems": 2764,
   "totalPages": 553,
   "articles": [
+    {
+      "id": "news:kcna:ad412a40661a22870eebc576",
+      "title": "레바논에 대한 이스라엘의 계속되는 공습만행",
+      "date": "2026-05-03",
+      "snippet": "(평양 5월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/03881110ea2b642507c21c353628f663",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1070
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aad412a40661a22870eebc576"
+    },
     {
       "id": "news:kcna:99dff8cc8ed8f89394fef33b",
       "title": "중국국방부 《중국의 위협》을 고취하는 일본을 규탄",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1070
+        "international": 1071
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1071,
-        "foreign": 262
+        "international": 1072,
+        "foreign": 264
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1072
+        "international": 1073
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1073
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6d9ee0c5dc4949276bd83ed3"
-    },
-    {
-      "id": "news:kcna:ba6d6fde99dd6a1ae8f4ee6b",
-      "title": "일본에서 공업생산 계속 감소",
-      "date": "2026-05-02",
-      "snippet": "(평양 5월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8013f4307208ad2e60067e4b9fd7803d",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 1074
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aba6d6fde99dd6a1ae8f4ee6b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A6d9ee0c5dc4949276bd83ed3"
     }
   ]
 }
