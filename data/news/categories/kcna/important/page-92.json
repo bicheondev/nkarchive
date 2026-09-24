@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-24T00:00:00.000Z",
-  "version": "99ca42ba72a00bce",
+  "version": "7ac0d6eb12ba2c40",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "important",
   "page": 92,
   "pageSize": 5,
-  "totalItems": 539,
+  "totalItems": 537,
   "totalPages": 108,
   "articles": [
+    {
+      "id": "news:kcna:768c3959dafd344cf492f0f3",
+      "title": "평양종합병원 개원",
+      "date": "2025-11-04",
+      "snippet": "(평양 11월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/10b1d05128a3aadd1960beac0f70f02d",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 455,
+        "domestic": 3598
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac2091e26ec9014807de8a9c5b5fb7c862",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/77c73fac23db014505899730e629ce5ec3f570d218dd3680127b9ac41d95eb2b.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A768c3959dafd344cf492f0f3"
+    },
     {
       "id": "news:kcna:0587bacf207ba9d4fcc9255e",
       "title": "조선로동당 중앙위원회 비서들 덕천지구탄광련합기업소 제남탄광을 현지료해",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 455,
-        "domestic": 3603
+        "important": 456,
+        "domestic": 3612
       },
       "featuredSections": [],
       "hasImage": true,
@@ -46,9 +68,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 456,
-        "foreign": 586,
-        "domestic": 3615
+        "important": 457,
+        "foreign": 589,
+        "domestic": 3624
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +91,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 457,
-        "domestic": 3616
+        "important": 458,
+        "domestic": 3625
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,9 +114,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 458,
-        "foreign": 588,
-        "domestic": 3618
+        "important": 459,
+        "foreign": 591,
+        "domestic": 3627
       },
       "featuredSections": [],
       "hasImage": true,
@@ -102,30 +124,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eacd3d5cbdd56acf21564ba2b981574ad0a",
       "cachedThumbnailUrl": "/data/news/assets/kcna/37d733ccd56cdcb23182fc65821355c6bd8193dad80998f18cc3f171442b3de2.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A3d21491e7b3445a7b771357d"
-    },
-    {
-      "id": "news:kcna:c0ba0367f5e5428adcdc6ea7",
-      "title": "조로정부간 무역경제 및 과학기술협조위원회 공동위원장들사이의 회담 진행",
-      "date": "2025-11-01",
-      "snippet": "(평양 11월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d035655f989c0300b95a4cbe7c0cec31",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 459,
-        "foreign": 590,
-        "domestic": 3620
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac4b375982b8f9324687994a625b81927d",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/a141aace5750c1a311d1ee2b1adb249dd4fa8ba82593d6aba3399ebf91e82f82.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac0ba0367f5e5428adcdc6ea7"
     }
   ]
 }

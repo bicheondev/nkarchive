@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-24T00:00:00.000Z",
-  "version": "99ca42ba72a00bce",
+  "version": "7ac0d6eb12ba2c40",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,38 @@
   "section": "important",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 539,
+  "totalItems": 537,
   "totalPages": 108,
   "articles": [
+    {
+      "id": "news:kcna:e1bbcc62cb4b7075ff21d869",
+      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
+      "date": "2026-09-21",
+      "snippet": "(평양 9월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b3ad05c03f927588e45a9d940f638e55",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 5,
+        "document": 1,
+        "foreign": 9,
+        "domestic": 44
+      },
+      "featuredSections": [
+        "important",
+        "document"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae1bbcc62cb4b7075ff21d869"
+    },
     {
       "id": "news:kcna:3dc31d8071a9014c0b087a36",
       "title": "함선공업부문 조선소근로자들의 체육경기 진행",
@@ -23,12 +52,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 5,
-        "domestic": 59
+        "important": 6,
+        "domestic": 68
       },
-      "featuredSections": [
-        "important"
-      ],
+      "featuredSections": [],
       "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45bad2a0aecfea2fb90955bcfb92c24a1636",
@@ -49,10 +76,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 6,
+        "important": 7,
         "document": 2,
-        "foreign": 10,
-        "domestic": 60
+        "foreign": 13,
+        "domestic": 69
       },
       "featuredSections": [
         "document"
@@ -77,10 +104,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 7,
+        "important": 8,
         "document": 3,
-        "foreign": 11,
-        "domestic": 61
+        "foreign": 14,
+        "domestic": 70
       },
       "featuredSections": [
         "document"
@@ -103,8 +130,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 8,
-        "domestic": 73
+        "important": 9,
+        "domestic": 82
       },
       "featuredSections": [],
       "hasImage": true,
@@ -112,30 +139,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45babd7e3d805bd89b2cb18608665672121e",
       "cachedThumbnailUrl": "/data/news/assets/kcna/7eb2a0a37833024083a486af885be3dfd40a2679329174ea436e21dfbf06797d.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A8aaadb25e654d8e424c18532"
-    },
-    {
-      "id": "news:kcna:dc6702065ccfc1cbfa592931",
-      "title": "조선민주주의인민공화국 국방성대표단 제13차 베이징향산연단에 참가",
-      "date": "2026-09-18",
-      "snippet": "(평양 9월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/350cc99404bbcfddfda949dc1456b870",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 9,
-        "international": 40,
-        "foreign": 13
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adc6702065ccfc1cbfa592931"
     }
   ]
 }
