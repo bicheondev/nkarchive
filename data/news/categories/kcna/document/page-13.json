@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T00:00:00.000Z",
-  "version": "4d7791169f550ca9",
+  "generatedAt": "2026-09-24T00:00:00.000Z",
+  "version": "99ca42ba72a00bce",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "document",
   "page": 13,
   "pageSize": 5,
-  "totalItems": 65,
-  "totalPages": 13,
+  "totalItems": 66,
+  "totalPages": 14,
   "articles": [
+    {
+      "id": "news:kcna:a464163c0061cea29e14acf6",
+      "title": "유엔주재 조선민주주의인민공화국 상임대표부 공보문 발표",
+      "date": "2026-01-12",
+      "snippet": "(평양 1월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4fbd35bf1d81fa1a6b3d5b0dd85b96ac",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "document"
+      ],
+      "categoryOrders": {
+        "international": 1963,
+        "document": 60
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa464163c0061cea29e14acf6"
+    },
     {
       "id": "news:kcna:08f96bc0ab7193e8c6f908c1",
       "title": "조선민주주의인민공화국 국방성 대변인 담화발표",
@@ -25,10 +47,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 410,
-        "document": 60,
-        "foreign": 519,
-        "domestic": 3033
+        "important": 412,
+        "document": 61,
+        "foreign": 521,
+        "domestic": 3042
       },
       "featuredSections": [],
       "hasImage": false,
@@ -49,8 +71,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 61,
-        "domestic": 3592
+        "document": 62,
+        "domestic": 3601
       },
       "featuredSections": [],
       "hasImage": false,
@@ -73,10 +95,10 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 458,
+        "important": 460,
         "international": 2464,
-        "document": 62,
-        "foreign": 590
+        "document": 63,
+        "foreign": 592
       },
       "featuredSections": [],
       "hasImage": false,
@@ -99,10 +121,10 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 462,
+        "important": 464,
         "international": 2492,
-        "document": 63,
-        "foreign": 599
+        "document": 64,
+        "foreign": 601
       },
       "featuredSections": [],
       "hasImage": true,
@@ -110,30 +132,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d9393308234a83c213a2e0e47e53adf02db8f01",
       "cachedThumbnailUrl": "/data/news/assets/kcna/c0aca9871957d7463fe5fe126769e4e9d0eb525996b689e05830a7b8df3d1f9d.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A5fbd691ed10d22c096123143"
-    },
-    {
-      "id": "news:kcna:0e6ff44dc90f245000f7fdd8",
-      "title": "최고인민회의 상임위원회 조선로동당창건 80돐을 맞으며 대사 실시하기로 결정",
-      "date": "2025-09-28",
-      "snippet": "(평양 9월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/034114baa0784dc519c7b5da6c75d50f",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 532,
-        "document": 64,
-        "domestic": 4137
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0e6ff44dc90f245000f7fdd8"
     }
   ]
 }

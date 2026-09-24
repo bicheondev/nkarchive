@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T00:00:00.000Z",
-  "version": "4d7791169f550ca9",
+  "generatedAt": "2026-09-24T00:00:00.000Z",
+  "version": "99ca42ba72a00bce",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,35 +8,39 @@
   "section": "domestic",
   "page": 7,
   "pageSize": 5,
-  "totalItems": 4177,
-  "totalPages": 836,
+  "totalItems": 4186,
+  "totalPages": 838,
   "articles": [
     {
-      "id": "news:kcna:0e4165b44e21c2a0614bee83",
-      "title": "함경북도에서 건재전시회 진행",
-      "date": "2026-09-20",
-      "snippet": "(평양 9월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/21efb656176d4fc902c002807863cd3f",
+      "id": "news:kcna:bd3a4acaec59433ea71c6559",
+      "title": "남포시에서 애국주의교양 적극화",
+      "date": "2026-09-22",
+      "snippet": "(평양 9월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a88b93e9b323cbc48fedfd9b077371d8",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 30
+        "domestic": 30,
+        "social": 4
       },
-      "featuredSections": [],
+      "featuredSections": [
+        "social"
+      ],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0e4165b44e21c2a0614bee83"
+      "detailUrl": "/news/document?id=news%3Akcna%3Abd3a4acaec59433ea71c6559"
     },
     {
-      "id": "news:kcna:066b27c6d38e55c6c01f0204",
-      "title": "평양학생교복공장 창립 80돐을 기념",
-      "date": "2026-09-20",
-      "snippet": "(평양 9월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3836c4e6e2f76665785752f115eb816b",
+      "id": "news:kcna:5f4683bc8b41631fffe9bb68",
+      "title": "신의주방적기계공장에서 새로 일떠서는 경공업공장들에 보내줄 설비생산 결속",
+      "date": "2026-09-21",
+      "snippet": "(평양 9월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/645ea448631672d4969eb9f3a2519924",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -49,21 +53,41 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A066b27c6d38e55c6c01f0204"
+      "detailUrl": "/news/document?id=news%3Akcna%3A5f4683bc8b41631fffe9bb68"
     },
     {
-      "id": "news:kcna:9afb471abe0aba1997b86efb",
-      "title": "수도의 일군들과 당원들과 근로자들 석탄증산을 위한 돌격대활동에 궐기",
-      "date": "2026-09-20",
-      "snippet": "(평양 9월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f167f379f2b8460404c1d600378fb08d",
+      "id": "news:kcna:360e89687ba2285797cad498",
+      "title": "화성지구 5단계 건설장에서 공사성과 확대",
+      "date": "2026-09-21",
+      "snippet": "(평양 9월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/dc41cb34d8cb22648eb1c970bf3aa956",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 32
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A360e89687ba2285797cad498"
+    },
+    {
+      "id": "news:kcna:50f9293fe58cc0ffc2d2bc0d",
+      "title": "남포시의 처녀들 《조선로동당의 딸 청년녀성영웅》호로 탄원",
+      "date": "2026-09-21",
+      "snippet": "(평양 9월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1a2b6173e4e64a8361b75b00cffb1c98",
       "mediaType": "article",
       "categories": [
         "domestic",
         "social"
       ],
       "categoryOrders": {
-        "domestic": 32,
+        "domestic": 33,
         "social": 5
       },
       "featuredSections": [],
@@ -71,47 +95,29 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9afb471abe0aba1997b86efb"
+      "detailUrl": "/news/document?id=news%3Akcna%3A50f9293fe58cc0ffc2d2bc0d"
     },
     {
-      "id": "news:kcna:8db4160081870a9ecae74b28",
-      "title": "만경대혁명사적지기념품공장 생산능력확장과 새 제품개발에서 성과 달성",
-      "date": "2026-09-20",
-      "snippet": "(평양 9월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1344218951f33e3257e95556f2fa9b7d",
+      "id": "news:kcna:1718b693ce94138049cc7351",
+      "title": "각급 농근맹조직들에서 애국주의교양 진행",
+      "date": "2026-09-21",
+      "snippet": "(평양 9월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/960ebd5bc5b1bd490eb72dacd1d210ca",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 33
+        "domestic": 34,
+        "social": 6
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8db4160081870a9ecae74b28"
-    },
-    {
-      "id": "news:kcna:11b236e120849f2bce4734a9",
-      "title": "량강도에서 혜산탄광의 면모를 새롭게 일신",
-      "date": "2026-09-20",
-      "snippet": "(평양 9월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8596c59816f2fea663d1cd5a4093236d",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 34
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A11b236e120849f2bce4734a9"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1718b693ce94138049cc7351"
     }
   ]
 }

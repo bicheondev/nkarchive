@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T00:00:00.000Z",
-  "version": "4d7791169f550ca9",
+  "generatedAt": "2026-09-24T00:00:00.000Z",
+  "version": "99ca42ba72a00bce",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "document",
   "page": 12,
   "pageSize": 5,
-  "totalItems": 65,
-  "totalPages": 13,
+  "totalItems": 66,
+  "totalPages": 14,
   "articles": [
+    {
+      "id": "news:kcna:8d58e8baa6921c246f8704b4",
+      "title": "김정일훈장을 사회주의조국의 부강발전에 공헌한 일군들에게 수여",
+      "date": "2026-02-12",
+      "snippet": "(평양 2월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/dd9aecd868e5e7f87857225616d2e014",
+      "mediaType": "article",
+      "categories": [
+        "document",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "document": 55,
+        "domestic": 2539
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8d58e8baa6921c246f8704b4"
+    },
     {
       "id": "news:kcna:2ae7f5eb5ad8960fe7ba47db",
       "title": "모범적인 단위들에 26호모범기대영예상 수여",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 55,
-        "domestic": 2830
+        "document": 56,
+        "domestic": 2839
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +67,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 56,
-        "domestic": 2832
+        "document": 57,
+        "domestic": 2841
       },
       "featuredSections": [],
       "hasImage": false,
@@ -67,8 +89,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 57,
-        "domestic": 2844
+        "document": 58,
+        "domestic": 2853
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,10 +113,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 378,
+        "important": 380,
         "international": 1949,
-        "document": 58,
-        "domestic": 2846
+        "document": 59,
+        "domestic": 2855
       },
       "featuredSections": [],
       "hasImage": false,
@@ -102,28 +124,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A62f248d2e41252c3dbda5854"
-    },
-    {
-      "id": "news:kcna:a464163c0061cea29e14acf6",
-      "title": "유엔주재 조선민주주의인민공화국 상임대표부 공보문 발표",
-      "date": "2026-01-12",
-      "snippet": "(평양 1월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4fbd35bf1d81fa1a6b3d5b0dd85b96ac",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "document"
-      ],
-      "categoryOrders": {
-        "international": 1963,
-        "document": 59
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa464163c0061cea29e14acf6"
     }
   ]
 }

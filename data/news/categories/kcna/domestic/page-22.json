@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T00:00:00.000Z",
-  "version": "4d7791169f550ca9",
+  "generatedAt": "2026-09-24T00:00:00.000Z",
+  "version": "99ca42ba72a00bce",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,35 +8,37 @@
   "section": "domestic",
   "page": 22,
   "pageSize": 5,
-  "totalItems": 4177,
-  "totalPages": 836,
+  "totalItems": 4186,
+  "totalPages": 838,
   "articles": [
     {
-      "id": "news:kcna:459ced62e09ccbac917d0a4e",
-      "title": "여러 시,군에서 농기계작업소의 개건공사 결속",
+      "id": "news:kcna:9ecef372a93c1b99788393e0",
+      "title": "《원산갈마료리축전-2026》 개막",
       "date": "2026-09-15",
       "snippet": "(평양 9월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/14b788b1c16461619dc2188da14d57fe",
+      "url": "http://www.kcna.kp/kp/article/detail/e86ab50628810e8622c9c8cd102bd554",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 105
+        "domestic": 105,
+        "social": 15
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A459ced62e09ccbac917d0a4e"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9ecef372a93c1b99788393e0"
     },
     {
-      "id": "news:kcna:45d862f4544f2dd32a6cd1d3",
-      "title": "작고도 큰 공장-보건산소공장",
-      "date": "2026-09-14",
-      "snippet": "(평양 9월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/11a031f9e6972ca62a7b7d9afcae85a7",
+      "id": "news:kcna:d3a10320af29dceb6337a2c0",
+      "title": "함경북도에서 농촌살림집건설성과 확대",
+      "date": "2026-09-15",
+      "snippet": "(평양 9월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cc6b693a9676bf0e7b174e05c84e2352",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -45,18 +47,18 @@
         "domestic": 106
       },
       "featuredSections": [],
-      "hasImage": true,
+      "hasImage": false,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba011980bba37598eae78589c49ade1fab",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/36e83a84a8737e273fd78de71e8496b10c9c4ec58dc71130c346f5da87092e4e.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A45d862f4544f2dd32a6cd1d3"
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad3a10320af29dceb6337a2c0"
     },
     {
-      "id": "news:kcna:907146f5f0b003e0b9c27b07",
-      "title": "각지 보건직업기술학교들에서 인재육성사업 추진",
-      "date": "2026-09-14",
-      "snippet": "(평양 9월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7821f07ab648b56cbea863b256a25827",
+      "id": "news:kcna:1bf9e37d4603ddc4db344e32",
+      "title": "2026년 9월 15일 신문개관",
+      "date": "2026-09-15",
+      "snippet": "(평양 9월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0deda150405aa14b2ea2058c46d31974",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -69,19 +71,23 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A907146f5f0b003e0b9c27b07"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1bf9e37d4603ddc4db344e32"
     },
     {
-      "id": "news:kcna:a81bd425469f970ae97478be",
-      "title": "강원도에서 경공업제품의 질제고와 봉사수준개선에 힘을 집중",
-      "date": "2026-09-14",
-      "snippet": "(평양 9월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ab2c78d8798ee91487007dc88d7844a0",
+      "id": "news:kcna:4719d7f11f22c199072c95d2",
+      "title": "경애하는 김정은동지께서 로씨야련방 대통령에게 답전을 보내시였다",
+      "date": "2026-09-15",
+      "snippet": "(평양 9월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b370d17059457ca52169a661a2246993",
       "mediaType": "article",
       "categories": [
+        "important",
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 15,
+        "foreign": 22,
         "domestic": 108
       },
       "featuredSections": [],
@@ -89,19 +95,21 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa81bd425469f970ae97478be"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4719d7f11f22c199072c95d2"
     },
     {
-      "id": "news:kcna:e095c0b941b088898c1043db",
-      "title": "개성시에서 인민소비품전시회 진행",
-      "date": "2026-09-14",
-      "snippet": "(평양 9월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6642eef6158a9992a5a224313a3c950d",
+      "id": "news:kcna:23232e2ae162d760f3e59126",
+      "title": "경애하는 김정은동지께서 고 윤동현동지의 령전에 화환을 보내시였다",
+      "date": "2026-09-15",
+      "snippet": "(평양 9월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d96d3e2f2d8b27cb2edf161e23cd05d1",
       "mediaType": "article",
       "categories": [
+        "important",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 16,
         "domestic": 109
       },
       "featuredSections": [],
@@ -109,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae095c0b941b088898c1043db"
+      "detailUrl": "/news/document?id=news%3Akcna%3A23232e2ae162d760f3e59126"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T00:00:00.000Z",
-  "version": "4d7791169f550ca9",
+  "generatedAt": "2026-09-24T00:00:00.000Z",
+  "version": "99ca42ba72a00bce",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "video",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 262,
+  "totalItems": 263,
   "totalPages": 53,
   "articles": [
+    {
+      "id": "news:kcna:10e959b4d7b288c1f691fa34",
+      "title": "각지 농장들에서 가을걷이 시작",
+      "date": "2026-09-24",
+      "snippet": "각지 농장들에서 가을걷이 시작",
+      "url": "http://www.kcna.kp/kp/video/detail/5b539ca479de58881a9ac899221e8327",
+      "mediaType": "article",
+      "categories": [
+        "video"
+      ],
+      "categoryOrders": {
+        "video": 0
+      },
+      "featuredSections": [
+        "video"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/3671e7356eaa29e9431371daed5b9a7ba8aa1e1200c8080c78bd7e911086a63e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A10e959b4d7b288c1f691fa34"
+    },
     {
       "id": "news:kcna:168bc5e5917604050fcd4b6f",
       "title": "생태환경보호사업 활발히 진행",
@@ -22,7 +44,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 0
+        "video": 1
       },
       "featuredSections": [
         "video"
@@ -44,7 +66,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 1
+        "video": 2
       },
       "featuredSections": [
         "video"
@@ -66,7 +88,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 2
+        "video": 3
       },
       "featuredSections": [
         "video"
@@ -88,7 +110,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 3
+        "video": 4
       },
       "featuredSections": [
         "video"
@@ -98,28 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "/data/news/assets/kcna/5822a8a87b2e80d74a053e5cceb5cc81ac746f33623162bfd19544a00ace5af6.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ae9b20448c09ece98e12a1b4d"
-    },
-    {
-      "id": "news:kcna:8ab7fb7b2b37461a6af61038",
-      "title": "지역의 특성에 맞게 산림조성에 힘을 넣어",
-      "date": "2026-09-15",
-      "snippet": "지역의 특성에 맞게 산림조성에 힘을 넣어",
-      "url": "http://www.kcna.kp/kp/video/detail/341671895c2b7a78cda2ae74eb5eb1d8",
-      "mediaType": "article",
-      "categories": [
-        "video"
-      ],
-      "categoryOrders": {
-        "video": 4
-      },
-      "featuredSections": [
-        "video"
-      ],
-      "hasImage": true,
-      "hasVideo": true,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/8004ef6a572a17efa3181f468399c9b464143c1d2d7c26057de30478c9434a2e.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8ab7fb7b2b37461a6af61038"
     }
   ]
 }

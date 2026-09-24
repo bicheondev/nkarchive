@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T00:00:00.000Z",
-  "version": "4d7791169f550ca9",
+  "generatedAt": "2026-09-24T00:00:00.000Z",
+  "version": "99ca42ba72a00bce",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,35 @@
   "section": "document",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 65,
-  "totalPages": 13,
+  "totalItems": 66,
+  "totalPages": 14,
   "articles": [
+    {
+      "id": "news:kcna:0c16eee63390d75ec43b1b4c",
+      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
+      "date": "2026-09-17",
+      "snippet": "(평양 9월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/aff4ec19243a7160b5f8d1480b2db51c",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 11,
+        "document": 5,
+        "foreign": 17,
+        "domestic": 89
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0c16eee63390d75ec43b1b4c"
+    },
     {
       "id": "news:kcna:1e4086b104b23f6d051571bc",
       "title": "조선민주주의인민공화국 국방성 대변인 립장발표",
@@ -25,10 +51,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 10,
-        "document": 5,
-        "foreign": 16,
-        "domestic": 84
+        "important": 12,
+        "document": 6,
+        "foreign": 18,
+        "domestic": 93
       },
       "featuredSections": [
         "document"
@@ -53,10 +79,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 54,
-        "document": 6,
-        "foreign": 61,
-        "domestic": 193
+        "important": 56,
+        "document": 7,
+        "foreign": 63,
+        "domestic": 202
       },
       "featuredSections": [
         "document"
@@ -81,10 +107,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 58,
-        "document": 7,
-        "foreign": 68,
-        "domestic": 267
+        "important": 60,
+        "document": 8,
+        "foreign": 70,
+        "domestic": 276
       },
       "featuredSections": [],
       "hasImage": false,
@@ -107,43 +133,17 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 62,
-        "document": 8,
-        "foreign": 74,
-        "domestic": 318
-      },
-      "featuredSections": [
-        "document"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6aa3ff6b7410c650239f1b74"
-    },
-    {
-      "id": "kcna-e83e68de5ba6f006",
-      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
-      "date": "2026-08-20",
-      "snippet": "(평양 8월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c95033ab45276e25a696bbe1d21b1ba2",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 65,
+        "important": 64,
         "document": 9,
-        "domestic": 392
+        "foreign": 76,
+        "domestic": 327
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-e83e68de5ba6f006"
+      "detailUrl": "/news/document?id=news%3Akcna%3A6aa3ff6b7410c650239f1b74"
     }
   ]
 }
