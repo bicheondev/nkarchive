@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T00:00:00.000Z",
-  "version": "7ac0d6eb12ba2c40",
+  "generatedAt": "2026-09-25T00:00:00.000Z",
+  "version": "03790d376e3ad81b",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,9 +8,31 @@
   "section": "photo",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 51,
+  "totalItems": 52,
   "totalPages": 11,
   "articles": [
+    {
+      "id": "news:rodong-sinmun:509712626f449b6ac256a69e",
+      "title": "대성산의 력사유적",
+      "date": "2026-09-25",
+      "snippet": "대성산의 력사유적",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOS8yNS8yMS8yMDI2LTA5LTI1LTAxMi8yMDI2LTA5LTI1LTAzMS5qcGc==",
+      "mediaType": "article",
+      "categories": [
+        "photo"
+      ],
+      "categoryOrders": {
+        "photo": 0
+      },
+      "featuredSections": [
+        "photo"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOS8yNS8yMS8yMDI2LTA5LTI1LTAxMi8yMDI2LTA5LTI1LTAzMS5qcGc==",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A509712626f449b6ac256a69e"
+    },
     {
       "id": "news:rodong-sinmun:8514917e206407a01241681d",
       "title": "황홀경을 펼친 화성거리의 저녁",
@@ -22,7 +44,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 0
+        "photo": 1
       },
       "featuredSections": [
         "photo"
@@ -44,7 +66,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 1
+        "photo": 2
       },
       "featuredSections": [
         "photo"
@@ -66,7 +88,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 2
+        "photo": 3
       },
       "featuredSections": [
         "photo"
@@ -88,7 +110,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 3
+        "photo": 4
       },
       "featuredSections": [
         "photo"
@@ -98,28 +120,6 @@
       "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOC8xNS8yMS8yMDI2LTA4LTE1LTAwNC8yMDI2LTA4LTE1LTAwMS5qcGc==",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A8a1b50b1f81fab23223f1f61"
-    },
-    {
-      "id": "news:rodong-sinmun:299cb89bc5fbc0b6ddd912fb",
-      "title": "행복의 웃음 넘쳐나는 문수물놀이장",
-      "date": "2026-07-30",
-      "snippet": "행복의 웃음 넘쳐나는 문수물놀이장",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNy8zMC8yMS8yMDI2LTA3LTMwLTAxMi8yMDI2LTA3LTMwLTAwMS5qcGc==",
-      "mediaType": "article",
-      "categories": [
-        "photo"
-      ],
-      "categoryOrders": {
-        "photo": 4
-      },
-      "featuredSections": [
-        "photo"
-      ],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wNy8zMC8yMS8yMDI2LTA3LTMwLTAxMi8yMDI2LTA3LTMwLTAwMS5qcGc==",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A299cb89bc5fbc0b6ddd912fb"
     }
   ]
 }
