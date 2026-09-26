@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T00:00:00.000Z",
-  "version": "03790d376e3ad81b",
+  "generatedAt": "2026-09-26T00:00:00.000Z",
+  "version": "9d2a9b88ea3f9815",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,55 +8,65 @@
   "section": "domestic",
   "page": 13,
   "pageSize": 5,
-  "totalItems": 4181,
-  "totalPages": 837,
+  "totalItems": 4187,
+  "totalPages": 838,
   "articles": [
     {
-      "id": "news:kcna:8927f5c52f8438c6468843f6",
-      "title": "전국금속재료부문 과학기술발표회 진행",
-      "date": "2026-09-19",
-      "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ab91b6ad0fe3c7a98492ed9cd89a11ed",
+      "id": "news:kcna:1718b693ce94138049cc7351",
+      "title": "각급 농근맹조직들에서 애국주의교양 진행",
+      "date": "2026-09-21",
+      "snippet": "(평양 9월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/960ebd5bc5b1bd490eb72dacd1d210ca",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 60
+        "domestic": 60,
+        "social": 12
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8927f5c52f8438c6468843f6"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1718b693ce94138049cc7351"
     },
     {
-      "id": "news:kcna:6063f96525a8d03877f2bfde",
-      "title": "생물약품개발과 질평가에서 나서는 문제해결을 위한 연구토론회 진행",
-      "date": "2026-09-19",
-      "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/81b6d1b55b3b6c9a963b12aa282a58a2",
+      "id": "news:kcna:e1bbcc62cb4b7075ff21d869",
+      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
+      "date": "2026-09-21",
+      "snippet": "(평양 9월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b3ad05c03f927588e45a9d940f638e55",
       "mediaType": "article",
       "categories": [
+        "important",
+        "document",
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 8,
+        "document": 1,
+        "foreign": 15,
         "domestic": 61
       },
-      "featuredSections": [],
+      "featuredSections": [
+        "document"
+      ],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6063f96525a8d03877f2bfde"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae1bbcc62cb4b7075ff21d869"
     },
     {
-      "id": "news:kcna:351ab8db5b98c519bf0851a0",
-      "title": "황해북도에서 태양빛발전소건설 추진",
-      "date": "2026-09-19",
-      "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ba4bcc07bbc8d317b6144f2a695528fa",
+      "id": "news:kcna:df341b7d2babf087a530ea10",
+      "title": "2026년 9월 21일 신문개관",
+      "date": "2026-09-21",
+      "snippet": "(평양 9월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8d9e2bda973f9ae238c6b403ef8fb2dc",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -69,43 +79,39 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A351ab8db5b98c519bf0851a0"
+      "detailUrl": "/news/document?id=news%3Akcna%3Adf341b7d2babf087a530ea10"
     },
     {
-      "id": "news:kcna:f0a774b8fd055b8387ace1a0",
-      "title": "평안북도의 각급 청년동맹,소년단조직들 새세대들에 대한 애국주의교양 강화",
-      "date": "2026-09-19",
-      "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5ac3b8755142dd60ca70746b4cbeabd1",
+      "id": "news:kcna:9a870efa50cbc95386ecbf11",
+      "title": "경치가 독특한 서해의 명승-구월산",
+      "date": "2026-09-21",
+      "snippet": "(평양 9월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5ad28b080c01c4a51b75c2744b4d686c",
       "mediaType": "article",
       "categories": [
-        "domestic",
-        "social"
+        "domestic"
       ],
       "categoryOrders": {
-        "domestic": 63,
-        "social": 12
+        "domestic": 63
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af0a774b8fd055b8387ace1a0"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9a870efa50cbc95386ecbf11"
     },
     {
-      "id": "news:kcna:6743cef54e6e0b4f7a44abc8",
-      "title": "중국청년간부대표단 귀국",
-      "date": "2026-09-19",
-      "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/cc17e52331d630480015bc29bb242e51",
+      "id": "news:kcna:8f82afb2636533640e8894e6",
+      "title": "농업과학자들 염도가 높은 간석지논에서의 영양랭상모재배기술도입에 성공",
+      "date": "2026-09-21",
+      "snippet": "(평양 9월 21일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/dec75790f86f83289961fee9007125cd",
       "mediaType": "article",
       "categories": [
-        "foreign",
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 12,
         "domestic": 64
       },
       "featuredSections": [],
@@ -113,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6743cef54e6e0b4f7a44abc8"
+      "detailUrl": "/news/document?id=news%3Akcna%3A8f82afb2636533640e8894e6"
     }
   ]
 }

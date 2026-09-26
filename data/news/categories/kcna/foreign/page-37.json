@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T00:00:00.000Z",
-  "version": "03790d376e3ad81b",
+  "generatedAt": "2026-09-26T00:00:00.000Z",
+  "version": "9d2a9b88ea3f9815",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,105 +8,87 @@
   "section": "foreign",
   "page": 37,
   "pageSize": 5,
-  "totalItems": 789,
-  "totalPages": 158,
+  "totalItems": 791,
+  "totalPages": 159,
   "articles": [
     {
-      "id": "news:kcna:9b4421f44f733d623f0ecc96",
-      "title": "조선민주주의인민공화국 당 및 정부대표단이 중화인민공화국을 공식방문한다",
-      "date": "2026-07-09",
-      "snippet": "(평양 7월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/04d855126512ef3b80a9e78caf52b37a",
+      "id": "news:kcna:8930f93385f75fa55bb3d806",
+      "title": "조중우호,협조 및 호상원조에 관한 조약체결 65돐 기념연회 베이징에서 진행",
+      "date": "2026-07-11",
+      "snippet": "(평양 7월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/47414f724b9b51bc5f03d9db0218724b",
       "mediaType": "article",
       "categories": [
         "important",
-        "foreign",
-        "domestic"
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 131,
+        "international": 604,
+        "foreign": 180
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dc03572dda1519443577a5ca20cd58c05",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/fef1eb506f240fbaa7a1f25124eaeba28fc15bca60975de9e11b7b478b7b7d2f.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8930f93385f75fa55bb3d806"
+    },
+    {
+      "id": "news:kcna:213b800b7cc1006878a320ae",
+      "title": "조선민주주의인민공화국 당 및 정부대표단 인민영웅기념비에 화환 진정",
+      "date": "2026-07-11",
+      "snippet": "(평양 7월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/652806f08251b523063455adfbcec032",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
       ],
       "categoryOrders": {
         "important": 132,
-        "foreign": 180,
-        "domestic": 878
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9b4421f44f733d623f0ecc96"
-    },
-    {
-      "id": "news:kcna:2c909064b077349156930420",
-      "title": "캄보쟈국왕과 대왕후가 우리 나라 대사관에 대형꽃바구니들을 보내여왔다",
-      "date": "2026-07-09",
-      "snippet": "(평양 7월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f3a898d52a507d2e32d25cf555e56e2a",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 611,
+        "international": 605,
         "foreign": 181
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2c909064b077349156930420"
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d5917d30a53fd4443df2527d6f043befd",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/52ae787fd35e321482c2d794241d07fd20882113e658a13afa4aa2ac8c7a706a.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A213b800b7cc1006878a320ae"
     },
     {
-      "id": "news:kcna:32f9c9e0bceefef07a2d1fe1",
-      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 나이제리아련방공화국 대통령이 꽃바구니를 보내여왔다",
-      "date": "2026-07-09",
-      "snippet": "(평양 7월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7c4adc8efc9b1f7bdf45a05a37f4c687",
+      "id": "news:kcna:0203938491e5bc7a8eb3a94f",
+      "title": "조선민주주의인민공화국 당 및 정부대표단 중화인민공화국을 공식방문하기 위하여 평양 출발",
+      "date": "2026-07-11",
+      "snippet": "(평양 7월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/137d3696cc3dbdde7850a74c789485f8",
       "mediaType": "article",
       "categories": [
+        "important",
         "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 133,
         "foreign": 182,
-        "domestic": 883
+        "domestic": 884
       },
       "featuredSections": [],
       "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d13b18b244db140a57c0c8021b9642798",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/ab4573a747447106d9fe0fbfa5755fae1d208c89bf44ef2e917ccbb9712f929c.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A32f9c9e0bceefef07a2d1fe1"
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77df5a49859254d14979b6c5a5a716d6197",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/4b209df4c574b9b3dad01f30de7adbbfa45f8c6f1599a71b4d8204d1f0c8090b.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0203938491e5bc7a8eb3a94f"
     },
     {
-      "id": "news:kcna:754c404d4c93a8d532ff6ea3",
-      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 여러 나라 외교대표들과 대사관 성원들 꽃바구니 진정",
-      "date": "2026-07-09",
-      "snippet": "(평양 7월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2211f642970391b259efda0042376faa",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 183,
-        "domestic": 885
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dca21e4bc27f1da4b8b77db8bf26164e9",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/7f1e940f5feae0f91732e88b87f325517534e2c7742f925ec63e790d415ed8c3.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A754c404d4c93a8d532ff6ea3"
-    },
-    {
-      "id": "news:kcna:93b6e664ccce640b42d8273c",
-      "title": "멸망을 자초하는 위험천만한 군사적결탁",
-      "date": "2026-07-09",
-      "snippet": "(평양 7월 9일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/35913024cf4f37ed6eb03d40951db785",
+      "id": "news:kcna:0dce04b2e312c2981fb48964",
+      "title": "조선민주주의인민공화국 당 및 정부대표단 베이징 도착",
+      "date": "2026-07-11",
+      "snippet": "(평양 7월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/51961c9d302fe733b981015edb1b0c66",
       "mediaType": "article",
       "categories": [
         "important",
@@ -114,8 +96,30 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 133,
-        "international": 612,
+        "important": 134,
+        "international": 606,
+        "foreign": 183
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d758082204aac20e17ca10b982d94983c",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/e251d776f2fb548e5534d2a4618dcedb04cf49bcb538fb6dfd657d61f0016fe4.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0dce04b2e312c2981fb48964"
+    },
+    {
+      "id": "news:kcna:b85235f75b77f8f94129b222",
+      "title": "위대한 수령 김일성동지의 서거 32돐에 즈음한 항일혁명투쟁연고자가족들의 좌담회 진행",
+      "date": "2026-07-10",
+      "snippet": "(평양 7월 10일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/547d509ff7c13511eec0d5fe34778e9d",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 615,
         "foreign": 184
       },
       "featuredSections": [],
@@ -123,7 +127,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A93b6e664ccce640b42d8273c"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab85235f75b77f8f94129b222"
     }
   ]
 }

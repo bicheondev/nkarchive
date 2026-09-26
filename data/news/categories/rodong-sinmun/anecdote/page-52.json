@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T00:00:00.000Z",
-  "version": "03790d376e3ad81b",
+  "generatedAt": "2026-09-26T00:00:00.000Z",
+  "version": "9d2a9b88ea3f9815",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,15 +8,35 @@
   "section": "anecdote",
   "page": 52,
   "pageSize": 5,
-  "totalItems": 265,
-  "totalPages": 53,
+  "totalItems": 266,
+  "totalPages": 54,
   "articles": [
     {
-      "id": "news:rodong-sinmun:ac87c6d0eb42d86cc0e5a036",
-      "title": "새집들이경사로 더욱 환해지는 우리의 농촌\n향산군 태평리와 시중군 안찬리에서 살림집입사모임 진행",
+      "id": "news:rodong-sinmun:f208b8e6ca57f2c2358325ba",
+      "title": "전면적발전의 새시대를 펼친 성스러운 5년",
       "date": "2026-01-07",
-      "snippet": "새집들이경사로 더욱 환해지는 우리의 농촌",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wNy0wMTdAM0AxOEBAMEAyNTdA==",
+      "snippet": "전면적발전의 새시대를 펼친 성스러운 5년",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wNy0wMTNAM0AxOEBAMEAyNTZA==",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 75
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Af208b8e6ca57f2c2358325ba"
+    },
+    {
+      "id": "news:rodong-sinmun:8e4dfba24fc19a336fe92205",
+      "title": "지방변혁의 새시대와 더불어 길이 빛날 절세위인의 불멸의 업적",
+      "date": "2026-01-07",
+      "snippet": "지방변혁의 새시대와 더불어 길이 빛날 절세위인의 불멸의 업적",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wNy0wMTRAM0AxOEBAMEAyNTdA==",
       "mediaType": "article",
       "categories": [
         "anecdote"
@@ -28,35 +48,15 @@
       "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/fc32c9c1af72207a1bfe2181ddf0489ea42ac601bd153656d9a88e87d9a06bd8.jpg",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aac87c6d0eb42d86cc0e5a036"
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/7eaaf5385ecc06bbf55269790c79849b98c3e8f0cfb8e7c7fac3bb8806fff18d.jpg",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A8e4dfba24fc19a336fe92205"
     },
     {
-      "id": "news:rodong-sinmun:ad4ea75e2633f67a0f4d2b7d",
-      "title": "전면적발전의 새시대를 펼친 성스러운 5년",
+      "id": "news:rodong-sinmun:f6a1e7204e8d2e003d7efcfa",
+      "title": "새집들이경사로 더욱 환해지는 우리의 농촌\n향산군 태평리와 시중군 안찬리에서 살림집입사모임 진행",
       "date": "2026-01-07",
-      "snippet": "전면적발전의 새시대를 펼친 성스러운 5년",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wNy0wMTNAM0AxN0BAMEAyNTVA==",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
-        "anecdote": 129
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aad4ea75e2633f67a0f4d2b7d"
-    },
-    {
-      "id": "news:rodong-sinmun:b9be48f86fdf55eb8f266a83",
-      "title": "문명개화의 새 풍경 련이어 펼쳐지는 함남의 농촌들\n단천시 달전농장과 요덕군 구읍농장, 림평농장에서 새집들이 진행",
-      "date": "2026-01-06",
-      "snippet": "문명개화의 새 풍경 련이어 펼쳐지는 함남의 농촌들",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wNi0wMTZAM0AxOEBAMEAyNThA==",
+      "snippet": "새집들이경사로 더욱 환해지는 우리의 농촌",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wNy0wMTdAM0AxOEBAMEAyNThA==",
       "mediaType": "article",
       "categories": [
         "anecdote"
@@ -68,15 +68,15 @@
       "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/6c0aea48a3a55d827bd814c2171781f6dd2fa95954cce137fe53c7ca7bc4b65a.jpg",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ab9be48f86fdf55eb8f266a83"
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/fc32c9c1af72207a1bfe2181ddf0489ea42ac601bd153656d9a88e87d9a06bd8.jpg",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Af6a1e7204e8d2e003d7efcfa"
     },
     {
-      "id": "news:rodong-sinmun:60ef6bbc9cdd3accae6a13b3",
-      "title": "산간벽촌에 일떠선 행복의 터전들\n전천군 창봉농장, 초산군 련성농장에서 새집들이 진행",
-      "date": "2026-01-05",
-      "snippet": "산간벽촌에 일떠선 행복의 터전들",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wNS0wMTdAM0AxOEBAMEAyNTlA==",
+      "id": "news:rodong-sinmun:7085290abce3cf3aa859a7de",
+      "title": "문명개화의 새 풍경 련이어 펼쳐지는 함남의 농촌들\n단천시 달전농장과 요덕군 구읍농장, 림평농장에서 새집들이 진행",
+      "date": "2026-01-06",
+      "snippet": "문명개화의 새 풍경 련이어 펼쳐지는 함남의 농촌들",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wNi0wMTZAM0AxOEBAMEAyNTlA==",
       "mediaType": "article",
       "categories": [
         "anecdote"
@@ -88,15 +88,15 @@
       "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/af07f184a92a7a669566af5014e2b07c999e253517b292a4d2a05195d62fdf54.jpg",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A60ef6bbc9cdd3accae6a13b3"
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/6c0aea48a3a55d827bd814c2171781f6dd2fa95954cce137fe53c7ca7bc4b65a.jpg",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A7085290abce3cf3aa859a7de"
     },
     {
-      "id": "news:rodong-sinmun:b69aebbebb079fb271e6903a",
-      "title": "지방변혁의 새시대에 나날이 일신되는 사회주의문화농촌\n개천시 보부농장, 순천시 풍탄농장, 평리농장에도 우리식 농촌발전의 자랑찬 실체들이 솟아올랐다",
-      "date": "2026-01-04",
-      "snippet": "지방변혁의 새시대에 나날이 일신되는 사회주의문화농촌",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wNC0wMzlAM0AxOEBAMEAyNjBA==",
+      "id": "news:rodong-sinmun:cf58c412442e4e40b17be9a7",
+      "title": "산간벽촌에 일떠선 행복의 터전들\n전천군 창봉농장, 초산군 련성농장에서 새집들이 진행",
+      "date": "2026-01-05",
+      "snippet": "산간벽촌에 일떠선 행복의 터전들",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0wNS0wMTdAM0AxOEBAMEAyNjBA==",
       "mediaType": "article",
       "categories": [
         "anecdote"
@@ -108,8 +108,8 @@
       "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/bf892216d29c1503f463fea6d67844d0e979c2238f9ae2819b705adc787c3c68.jpg",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ab69aebbebb079fb271e6903a"
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/af07f184a92a7a669566af5014e2b07c999e253517b292a4d2a05195d62fdf54.jpg",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Acf58c412442e4e40b17be9a7"
     }
   ]
 }
