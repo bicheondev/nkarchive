@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T00:00:00.000Z",
-  "version": "680a2c41f8918bb7",
+  "generatedAt": "2026-09-27T00:00:00.000Z",
+  "version": "1c9367aeade32e70",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,59 @@
   "section": "international",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 2772,
+  "totalItems": 2774,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:3622ce283a80c653d19200b3",
+      "title": "박태성동지에게 알제리민주인민공화국 수상이 축전을 보내여왔다",
+      "date": "2026-09-27",
+      "snippet": "(평양 9월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/53a49882b7c39994efce39e9973e8ee4",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 0,
+        "foreign": 0
+      },
+      "featuredSections": [
+        "international",
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3622ce283a80c653d19200b3"
+    },
+    {
+      "id": "news:kcna:b7647adfbcb186995184032d",
+      "title": "조선민주주의인민공화국창건 78돐에 즈음하여 우리 나라 외무상에게 여러 나라에서 축전을 보내여왔다",
+      "date": "2026-09-27",
+      "snippet": "(평양 9월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6ce3ab526d3f43992a195ebfb5840e1b",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 1,
+        "foreign": 1
+      },
+      "featuredSections": [
+        "international",
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab7647adfbcb186995184032d"
+    },
     {
       "id": "news:kcna:f9f4f39625361edb828a8032",
       "title": "중국에서 위성 발사",
@@ -22,11 +72,9 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 0
+        "international": 2
       },
-      "featuredSections": [
-        "international"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -44,11 +92,9 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1
+        "international": 3
       },
-      "featuredSections": [
-        "international"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -66,46 +112,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aee1b91a192fa35018698a52c"
-    },
-    {
-      "id": "news:kcna:10daffff58cca31a7598ea2e",
-      "title": "남아프리카대통령 주권을 수호할 립장 천명",
-      "date": "2026-09-26",
-      "snippet": "(평양 9월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7d78ddceb09e0a17fc498772e3c88915",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 3
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A10daffff58cca31a7598ea2e"
-    },
-    {
-      "id": "news:kcna:dfb03b685628995f44822f34",
-      "title": "오스트랄리아에서 실업자 증가",
-      "date": "2026-09-26",
-      "snippet": "(평양 9월 26일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/61e8e77aed7db19dd8652aca4e8075f8",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 4
       },
       "featuredSections": [],
@@ -113,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adfb03b685628995f44822f34"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aee1b91a192fa35018698a52c"
     }
   ]
 }

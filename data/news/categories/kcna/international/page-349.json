@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T00:00:00.000Z",
-  "version": "680a2c41f8918bb7",
+  "generatedAt": "2026-09-27T00:00:00.000Z",
+  "version": "1c9367aeade32e70",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,51 @@
   "section": "international",
   "page": 349,
   "pageSize": 5,
-  "totalItems": 2772,
+  "totalItems": 2774,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:89434eb8ebc8e547dd507575",
+      "title": "도이췰란드에서 항공운수부문 근로자들 파업",
+      "date": "2026-02-15",
+      "snippet": "(평양 2월 15일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f448bf2c35e90db329331783550cf1cb",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 1740,
+        "social": 340
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A89434eb8ebc8e547dd507575"
+    },
+    {
+      "id": "news:kcna:c3510dbdd014a16296088389",
+      "title": "로씨야에서 운반로케트 발사",
+      "date": "2026-02-15",
+      "snippet": "(모스크바 2월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5386c4d6933d0fa5904b408adc66f6dd",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 1741
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac3510dbdd014a16296088389"
+    },
     {
       "id": "news:kcna:f26ceda789eed19946bf98b5",
       "title": "노르웨이수상 미국의 외교 및 무역정책을 비난",
@@ -22,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1740
+        "international": 1742
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1741
+        "international": 1743
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +104,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1742
+        "international": 1744
       },
       "featuredSections": [],
       "hasImage": false,
@@ -70,48 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A05755c262a8b025170b78358"
-    },
-    {
-      "id": "news:kcna:d8284ce3f310a23e5d61e052",
-      "title": "이란 미싸일무력은 흥정물이 될수 없다고 강조",
-      "date": "2026-02-15",
-      "snippet": "(테헤란 2월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6cbe84dd0aa1f9248d439c9cf986f560",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 1743
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad8284ce3f310a23e5d61e052"
-    },
-    {
-      "id": "news:kcna:13ca8a9af412672fa974b5c5",
-      "title": "위대한 령도자 김정일동지의 탄생 84돐에 즈음하여 캄보쟈국왕과 대왕후가 우리 나라 대사관에 대형꽃바구니들을 보내여왔다",
-      "date": "2026-02-15",
-      "snippet": "(평양 2월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/28ac4ce32e1b0f144b820e05161ba2bf",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 1744,
-        "foreign": 470
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A13ca8a9af412672fa974b5c5"
     }
   ]
 }

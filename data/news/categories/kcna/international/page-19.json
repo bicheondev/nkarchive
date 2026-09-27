@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T00:00:00.000Z",
-  "version": "680a2c41f8918bb7",
+  "generatedAt": "2026-09-27T00:00:00.000Z",
+  "version": "1c9367aeade32e70",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,51 @@
   "section": "international",
   "page": 19,
   "pageSize": 5,
-  "totalItems": 2772,
+  "totalItems": 2774,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:1585b196f6e1f68b136ad74c",
+      "title": "이스라엘에서 무역적자 증대",
+      "date": "2026-09-16",
+      "snippet": "(평양 9월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/26623cfe65da3b6b51e8d1dd44eb48af",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 90
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1585b196f6e1f68b136ad74c"
+    },
+    {
+      "id": "news:kcna:c7f0e58ded1662e8a4a67b0f",
+      "title": "조선민주주의인민공화국창건 78돐 경축행사 여러 나라에서 진행",
+      "date": "2026-09-16",
+      "snippet": "(평양 9월 16일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ff2e8e60b14363d1b3cbfb6e332b4402",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 91,
+        "foreign": 31
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac7f0e58ded1662e8a4a67b0f"
+    },
     {
       "id": "news:kcna:1550e28d5188d67ce2c04ddb",
       "title": "전지구적인 핵안전교란의 절대적인자-워싱톤의 핵잠수함동맹확장책동",
@@ -24,7 +66,7 @@
       ],
       "categoryOrders": {
         "important": 18,
-        "international": 90
+        "international": 92
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +87,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 91,
-        "foreign": 30
+        "international": 93,
+        "foreign": 33
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,46 +108,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 92
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A02ee2bd7fe5fa002afc097e8"
-    },
-    {
-      "id": "news:kcna:96f7d005f6c8cb74b5c562eb",
-      "title": "로씨야대통령 우크라이나위기는 서방의 실책으로 산생된것이라고 언명",
-      "date": "2026-09-15",
-      "snippet": "(모스크바 9월 14일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/771826b42ebcc02e412839a17940ac07",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 93
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A96f7d005f6c8cb74b5c562eb"
-    },
-    {
-      "id": "news:kcna:f80ab9e7d991f2c1294f226a",
-      "title": "스웨리예에서 총격사건",
-      "date": "2026-09-15",
-      "snippet": "(평양 9월 15일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1dc3edce96216ec0fd8d57ea5b5f1b6a",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 94
       },
       "featuredSections": [],
@@ -113,7 +115,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af80ab9e7d991f2c1294f226a"
+      "detailUrl": "/news/document?id=news%3Akcna%3A02ee2bd7fe5fa002afc097e8"
     }
   ]
 }

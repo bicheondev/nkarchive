@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T00:00:00.000Z",
-  "version": "680a2c41f8918bb7",
+  "generatedAt": "2026-09-27T00:00:00.000Z",
+  "version": "1c9367aeade32e70",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,51 @@
   "section": "international",
   "page": 15,
   "pageSize": 5,
-  "totalItems": 2772,
+  "totalItems": 2774,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:4a98fb844854587628433dd9",
+      "title": "가자지대에서 건물붕괴사고로 인명피해 발생",
+      "date": "2026-09-18",
+      "snippet": "(평양 9월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/43a7b07bdc02fcd9f6bb09914c453ead",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 70
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4a98fb844854587628433dd9"
+    },
+    {
+      "id": "news:kcna:1674145b00bb8a101a81a2b2",
+      "title": "로씨야외무성 대변인 우크라이나에 대한 서방의 군사적지원책동에 경고",
+      "date": "2026-09-18",
+      "snippet": "(모스크바 9월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2a2a68c4e6082aa76ab2ed8eae54af94",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "international": 71,
+        "domestic": 101
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1674145b00bb8a101a81a2b2"
+    },
     {
       "id": "news:kcna:97e77ea25494bf346c59e324",
       "title": "뛰르끼예에서 고대도시유적 발굴",
@@ -22,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 70
+        "international": 72
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 71
+        "international": 73
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,50 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 72
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7c403edf569a2b30c54ef7c7"
-    },
-    {
-      "id": "news:kcna:dc6702065ccfc1cbfa592931",
-      "title": "조선민주주의인민공화국 국방성대표단 제13차 베이징향산연단에 참가",
-      "date": "2026-09-18",
-      "snippet": "(평양 9월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/350cc99404bbcfddfda949dc1456b870",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 13,
-        "international": 73,
-        "foreign": 22
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adc6702065ccfc1cbfa592931"
-    },
-    {
-      "id": "news:kcna:21f21c9cf9cdf3f7c63d178c",
-      "title": "태풍25호 발생",
-      "date": "2026-09-17",
-      "snippet": "(평양 9월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/808a30cbb328748916cac4b6fae4e27b",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 74
       },
       "featuredSections": [],
@@ -113,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A21f21c9cf9cdf3f7c63d178c"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7c403edf569a2b30c54ef7c7"
     }
   ]
 }
