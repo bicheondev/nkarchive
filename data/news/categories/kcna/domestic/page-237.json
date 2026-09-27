@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-27T00:00:00.000Z",
-  "version": "1c9367aeade32e70",
+  "version": "bc3dd2847d65daca",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,77 @@
   "section": "domestic",
   "page": 237,
   "pageSize": 5,
-  "totalItems": 4189,
-  "totalPages": 838,
+  "totalItems": 4180,
+  "totalPages": 836,
   "articles": [
+    {
+      "id": "news:kcna:370c87678637f0cb84fa3f8c",
+      "title": "평양악기공장에서 악기의 질을 제고",
+      "date": "2026-06-14",
+      "snippet": "(평양 6월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b592bd48b3fbc242639e821c69bf135c",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 1180
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A370c87678637f0cb84fa3f8c"
+    },
+    {
+      "id": "kcna-a9e0e3034d3f7bcf",
+      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
+      "date": "2026-06-14",
+      "snippet": "(평양 6월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a91c905ce05fd08c06d15a54e02befaa",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 150,
+        "document": 20,
+        "foreign": 219,
+        "domestic": 1181
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=kcna-a9e0e3034d3f7bcf"
+    },
+    {
+      "id": "news:kcna:0a5a32ef9dbdfe340a7171f9",
+      "title": "윁남사회주의공화국 공안성대표단 도착",
+      "date": "2026-06-14",
+      "snippet": "(평양 6월 14일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/36dd98f96cc678cefaf77cf920867bc0",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 220,
+        "domestic": 1182
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e3445d867dd023755ceb4fde799d91090b",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/e86b826f1b76c63900ee4f98f0aeb6f9cb60c23d4a961de7a28857502cae4302.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0a5a32ef9dbdfe340a7171f9"
+    },
     {
       "id": "news:kcna:962e5b0f7eaa2def7b0b9874",
       "title": "황해북도에서 인민소비품전시회 진행",
@@ -22,7 +90,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1180
+        "domestic": 1183
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,74 +110,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1181
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac43b04b24ddd5ab62c4df73d"
-    },
-    {
-      "id": "kcna-6a97b833a95ac309",
-      "title": "조선민주주의인민공화국 외무성 10국 대변인 담화 발표",
-      "date": "2026-06-13",
-      "snippet": "(평양 6월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/66cf5c7cfc22aa36d6efe6194e4c27d6",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 151,
-        "document": 21,
-        "foreign": 221,
-        "domestic": 1182
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-6a97b833a95ac309"
-    },
-    {
-      "id": "news:kcna:0797883d8b7535db08bd8031",
-      "title": "평안남도에서 수백명의 청년들로 탄광청년돌격대들 조직",
-      "date": "2026-06-13",
-      "snippet": "(평양 6월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/edbefe0b68ee65254e162f0a5f5ea25c",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 1183,
-        "social": 139
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0797883d8b7535db08bd8031"
-    },
-    {
-      "id": "news:kcna:facceb2d56f177d87bb16a88",
-      "title": "평양시에서 교육조건과 환경을 일신하기 위한 사업 추진",
-      "date": "2026-06-13",
-      "snippet": "(평양 6월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/84d3905f0497a99a56e4edd80da8b11f",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
         "domestic": 1184
       },
       "featuredSections": [],
@@ -117,7 +117,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afacceb2d56f177d87bb16a88"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac43b04b24ddd5ab62c4df73d"
     }
   ]
 }
