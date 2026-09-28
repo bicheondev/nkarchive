@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-27T00:00:00.000Z",
-  "version": "bc3dd2847d65daca",
+  "generatedAt": "2026-09-28T00:00:00.000Z",
+  "version": "104181331fc04eca",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,15 +8,15 @@
   "section": "important",
   "page": 9,
   "pageSize": 5,
-  "totalItems": 43,
+  "totalItems": 42,
   "totalPages": 9,
   "articles": [
     {
-      "id": "news:rodong-sinmun:d177a0d707784f08d1a5d9d6",
-      "title": "전염병피해",
-      "date": "2026-09-27",
-      "snippet": "전염병피해",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yNy0wNTNAMkAzQEAwQDQxQA==",
+      "id": "news:rodong-sinmun:21c33a5ce956ad7ec0f8b3bb",
+      "title": "자연피해",
+      "date": "2026-09-28",
+      "snippet": "자연피해",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yOC0wNTVAMkAzQEAwQDQxQA==",
       "mediaType": "article",
       "categories": [
         "important"
@@ -25,18 +25,18 @@
         "important": 40
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ad177a0d707784f08d1a5d9d6"
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/6651fb40aed580fc1f02be64360bd00011a25deaa3eb7c35429ad8f11184f628.jpg",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A21c33a5ce956ad7ec0f8b3bb"
     },
     {
-      "id": "news:rodong-sinmun:423a7685e591cdc6504804ef",
-      "title": "일본에서 태풍피해 확대",
-      "date": "2026-09-27",
-      "snippet": "일본에서 태풍피해 확대",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yNy0wNTRAMkAzQEAwQDQyQA==",
+      "id": "news:rodong-sinmun:8cf4804c119ff1a6ba6e5378",
+      "title": "인슐린을 생성하는 세포의 성숙을 방해하는 철결핍 [6면]",
+      "date": "2026-09-28",
+      "snippet": "상식",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yOC0wNTZAMkAzQEAwQDQyQA==",
       "mediaType": "article",
       "categories": [
         "important"
@@ -45,31 +45,11 @@
         "important": 41
       },
       "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/520175254ed60c3f1f39be807c6bd092d377901cca4e66a781b5d21157579e15.jpg",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A423a7685e591cdc6504804ef"
-    },
-    {
-      "id": "news:rodong-sinmun:0556f8deffc746b3e4e12347",
-      "title": "온천의 도시 레이캬비크 [6면]",
-      "date": "2026-09-27",
-      "snippet": "세계상식",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yNy0wNTVAMkAzQEAwQDQzQA==",
-      "mediaType": "article",
-      "categories": [
-        "important"
-      ],
-      "categoryOrders": {
-        "important": 42
-      },
-      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A0556f8deffc746b3e4e12347"
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A8cf4804c119ff1a6ba6e5378"
     }
   ]
 }
