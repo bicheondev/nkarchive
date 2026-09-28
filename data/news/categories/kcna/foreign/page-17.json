@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-28T00:00:00.000Z",
-  "version": "104181331fc04eca",
+  "version": "5cb0920dc2e82e08",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,28 @@
   "totalItems": 791,
   "totalPages": 159,
   "articles": [
+    {
+      "id": "news:kcna:2d5d69ef7845147035f50ee4",
+      "title": "로씨야에 갔던 조선기자동맹대표단 귀국",
+      "date": "2026-09-03",
+      "snippet": "(평양 9월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a223348891316cecc5137e2f1c659d30",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 80,
+        "domestic": 297
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2d5d69ef7845147035f50ee4"
+    },
     {
       "id": "news:kcna:e388afa89b41207ada333e98",
       "title": "경애하는 김정은동지께 에짚트아랍공화국 대통령이 축전을 보내여왔다",
@@ -24,9 +46,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 62,
-        "international": 235,
-        "foreign": 80
+        "important": 63,
+        "international": 243,
+        "foreign": 81
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,9 +70,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 63,
-        "foreign": 81,
-        "domestic": 300
+        "important": 64,
+        "foreign": 82,
+        "domestic": 308
       },
       "featuredSections": [],
       "hasImage": false,
@@ -73,10 +95,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 64,
+        "important": 65,
         "document": 8,
-        "foreign": 82,
-        "domestic": 316
+        "foreign": 83,
+        "domestic": 324
       },
       "featuredSections": [],
       "hasImage": false,
@@ -97,8 +119,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 272,
-        "foreign": 83
+        "international": 280,
+        "foreign": 84
       },
       "featuredSections": [],
       "hasImage": false,
@@ -106,28 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Afc8a2a2b05a28962bdd220da"
-    },
-    {
-      "id": "news:kcna:ec8b19dac8b2967c618b2e29",
-      "title": "인도네시아대사관 독립절에 즈음하여 연회 마련",
-      "date": "2026-08-29",
-      "snippet": "(평양 8월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f2a9812952c7a532824bee98fe981577",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 84,
-        "domestic": 342
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29aa2fea2280ff704788fc3f87f0f68b62",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/665b9d9617a92b9f0284eebdeed231c6e26f27df9755ed92258695bdecf87f54.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aec8b19dac8b2967c618b2e29"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-28T00:00:00.000Z",
-  "version": "104181331fc04eca",
+  "version": "5cb0920dc2e82e08",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,28 @@
   "totalItems": 791,
   "totalPages": 159,
   "articles": [
+    {
+      "id": "news:kcna:ec8b19dac8b2967c618b2e29",
+      "title": "인도네시아대사관 독립절에 즈음하여 연회 마련",
+      "date": "2026-08-29",
+      "snippet": "(평양 8월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f2a9812952c7a532824bee98fe981577",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 85,
+        "domestic": 350
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29aa2fea2280ff704788fc3f87f0f68b62",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/665b9d9617a92b9f0284eebdeed231c6e26f27df9755ed92258695bdecf87f54.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aec8b19dac8b2967c618b2e29"
+    },
     {
       "id": "news:kcna:3cf99086fb550851961e4358",
       "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지에게 위문전문을 보내시였다",
@@ -24,9 +46,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 65,
-        "foreign": 85,
-        "domestic": 343
+        "important": 66,
+        "foreign": 86,
+        "domestic": 351
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,9 +70,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 66,
-        "foreign": 86,
-        "domestic": 344
+        "important": 67,
+        "foreign": 87,
+        "domestic": 352
       },
       "featuredSections": [],
       "hasImage": false,
@@ -71,8 +93,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 293,
-        "foreign": 87
+        "international": 301,
+        "foreign": 88
       },
       "featuredSections": [],
       "hasImage": false,
@@ -95,10 +117,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 68,
+        "important": 69,
         "document": 9,
-        "foreign": 88,
-        "domestic": 367
+        "foreign": 89,
+        "domestic": 375
       },
       "featuredSections": [],
       "hasImage": false,
@@ -106,28 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A6aa3ff6b7410c650239f1b74"
-    },
-    {
-      "id": "news:kcna:e03388eec9d0d80c25c693b2",
-      "title": "우리 나라 외무상에게 세이쉘공화국 외무 및 해외동포상이 축전",
-      "date": "2026-08-27",
-      "snippet": "(평양 8월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/95ae4e9a8132ea0380558ebbf6707fd4",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 294,
-        "foreign": 89
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae03388eec9d0d80c25c693b2"
     }
   ]
 }

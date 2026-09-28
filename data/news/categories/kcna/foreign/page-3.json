@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-28T00:00:00.000Z",
-  "version": "104181331fc04eca",
+  "version": "5cb0920dc2e82e08",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,32 @@
   "totalItems": 791,
   "totalPages": 159,
   "articles": [
+    {
+      "id": "news:kcna:a2833d15efaa9e06b51fca19",
+      "title": "조선민주주의인민공화국 외무성 대변인 담화발표",
+      "date": "2026-09-24",
+      "snippet": "(평양 9월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/165ae340c9698b65daf0af3ece1b2e74",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 4,
+        "foreign": 10,
+        "domestic": 39
+      },
+      "featuredSections": [
+        "important"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa2833d15efaa9e06b51fca19"
+    },
     {
       "id": "news:kcna:ae699fd6592707484df5a693",
       "title": "조선민주주의인민공화국창건 78돐에 즈음하여 브라질정당,단체들 련합토론회 진행,공동성명 채택",
@@ -23,8 +49,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 40,
-        "foreign": 10
+        "international": 48,
+        "foreign": 11
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +71,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 41,
-        "foreign": 11
+        "international": 49,
+        "foreign": 12
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,10 +95,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 4,
+        "important": 5,
         "document": 0,
-        "foreign": 12,
-        "domestic": 40
+        "foreign": 13,
+        "domestic": 48
       },
       "featuredSections": [
         "important",
@@ -96,8 +122,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 13,
-        "domestic": 47
+        "foreign": 14,
+        "domestic": 55
       },
       "featuredSections": [],
       "hasImage": false,
@@ -105,28 +131,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A26f158a4376a4fd1cae7b0f0"
-    },
-    {
-      "id": "news:kcna:7ab8511b73633ee90bced08b",
-      "title": "우리 나라 재외대표부들에서 경축행사 진행",
-      "date": "2026-09-23",
-      "snippet": "(평양 9월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f97b3d00c86cbe89fa36b151f34754dd",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 47,
-        "foreign": 14
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7ab8511b73633ee90bced08b"
     }
   ]
 }
