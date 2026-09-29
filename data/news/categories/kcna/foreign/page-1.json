@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-29T00:00:00.000Z",
-  "version": "a58b6dc3526a50e9",
+  "version": "a86392c1cae89be5",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -11,6 +11,31 @@
   "totalItems": 795,
   "totalPages": 159,
   "articles": [
+    {
+      "id": "news:kcna:a1d81e1a011a170adf315482",
+      "title": "로씨야에 갔던 문화성대표단 귀국",
+      "date": "2026-09-29",
+      "snippet": "(평양 9월 29일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/aa78d90b9a3a251d347c3a5ecf1ff031",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 0,
+        "domestic": 3
+      },
+      "featuredSections": [
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa1d81e1a011a170adf315482"
+    },
     {
       "id": "news:kcna:cbf22904e4b74d5e48b6302c",
       "title": "조선민주주의인민공화국 외무성 미국의 핵전파행위의 진상과 그 위험성을 폭로하는 비망록 발표",
@@ -27,14 +52,13 @@
       "categoryOrders": {
         "important": 1,
         "document": 0,
-        "foreign": 0,
-        "domestic": 2
+        "foreign": 1,
+        "domestic": 10
       },
       "featuredSections": [
         "important",
         "document",
-        "foreign",
-        "domestic"
+        "foreign"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -54,8 +78,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 1,
-        "domestic": 6
+        "foreign": 2,
+        "domestic": 14
       },
       "featuredSections": [
         "foreign"
@@ -78,8 +102,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 2,
-        "domestic": 7
+        "foreign": 3,
+        "domestic": 15
       },
       "featuredSections": [
         "foreign"
@@ -102,8 +126,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 3,
-        "domestic": 9
+        "foreign": 4,
+        "domestic": 17
       },
       "featuredSections": [
         "foreign"
@@ -113,33 +137,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba2b1c4cc0795734aaa16860097981fd0f",
       "cachedThumbnailUrl": "/data/news/assets/kcna/6be88f975216ac1f7f10b358a5eb0297143d393f7af81f03a7a1ff6d9af4ce5c.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Af80741a66403054e5c372126"
-    },
-    {
-      "id": "news:kcna:ba017d6d620333d97bdc2a75",
-      "title": "조선인민군 군인들의 군상주제현판제막식 윁남에서 진행",
-      "date": "2026-09-28",
-      "snippet": "(평양 9월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2b4a18fbe982956956b371d5dacf0644",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 2,
-        "international": 7,
-        "foreign": 4
-      },
-      "featuredSections": [
-        "important",
-        "foreign"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aba017d6d620333d97bdc2a75"
     }
   ]
 }
