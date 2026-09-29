@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-28T00:00:00.000Z",
-  "version": "5cb0920dc2e82e08",
+  "generatedAt": "2026-09-29T00:00:00.000Z",
+  "version": "a58b6dc3526a50e9",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,35 @@
   "section": "document",
   "page": 3,
   "pageSize": 5,
-  "totalItems": 65,
-  "totalPages": 13,
+  "totalItems": 66,
+  "totalPages": 14,
   "articles": [
+    {
+      "id": "news:kcna:6aa3ff6b7410c650239f1b74",
+      "title": "조선민주주의인민공화국 외무성 대변인대답",
+      "date": "2026-08-27",
+      "snippet": "(평양 8월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/39b4817b129827ff50733a7f0efbd510",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 71,
+        "document": 10,
+        "foreign": 93,
+        "domestic": 385
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6aa3ff6b7410c650239f1b74"
+    },
     {
       "id": "kcna-e83e68de5ba6f006",
       "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
@@ -24,9 +50,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 72,
-        "document": 10,
-        "domestic": 449
+        "important": 74,
+        "document": 11,
+        "domestic": 459
       },
       "featuredSections": [],
       "hasImage": false,
@@ -48,9 +74,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 73,
-        "document": 11,
-        "domestic": 460
+        "important": 75,
+        "document": 12,
+        "domestic": 470
       },
       "featuredSections": [],
       "hasImage": false,
@@ -73,10 +99,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 84,
-        "document": 12,
-        "foreign": 118,
-        "domestic": 530
+        "important": 86,
+        "document": 13,
+        "foreign": 122,
+        "domestic": 540
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,9 +124,9 @@
         "document"
       ],
       "categoryOrders": {
-        "important": 88,
+        "important": 90,
         "international": 406,
-        "document": 13
+        "document": 14
       },
       "featuredSections": [],
       "hasImage": false,
@@ -108,30 +134,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=kcna-1e11b92604277ccb"
-    },
-    {
-      "id": "kcna-e45e2417bd0946dc",
-      "title": "국립교향악단의 공로있는 창작가,예술인들에게 김일성상,조선민주주의인민공화국 훈장을 수여",
-      "date": "2026-08-08",
-      "snippet": "(평양 8월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e8630a5118232c742e613834f9597b6f",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 92,
-        "document": 14,
-        "domestic": 591
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-e45e2417bd0946dc"
     }
   ]
 }
