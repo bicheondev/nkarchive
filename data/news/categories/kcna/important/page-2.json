@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T00:00:00.000Z",
-  "version": "a86392c1cae89be5",
+  "generatedAt": "2026-09-30T00:00:00.000Z",
+  "version": "96620fa8f67905e2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,59 @@
   "section": "important",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 537,
+  "totalItems": 539,
   "totalPages": 108,
   "articles": [
+    {
+      "id": "news:kcna:7f3e2e1633bf5e5b466f9381",
+      "title": "경애하는 김정은동지께 여러 나라에서 축전과 축하편지를 보내여왔다",
+      "date": "2026-09-25",
+      "snippet": "(평양 9월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/fd708d0ca6a060663c8a833f3e925f5f",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 5,
+        "international": 49,
+        "foreign": 18
+      },
+      "featuredSections": [
+        "important"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7f3e2e1633bf5e5b466f9381"
+    },
+    {
+      "id": "news:kcna:c59f1dac958c2c8527a3115f",
+      "title": "《집단방위의 결정적중심》은 집단적응징의 결정적목표가 될것이다",
+      "date": "2026-09-25",
+      "snippet": "(평양 9월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b4d5d550c32f6d0f16874c981546cda4",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 6,
+        "international": 50,
+        "foreign": 19
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac59f1dac958c2c8527a3115f"
+    },
     {
       "id": "news:kcna:f3b838e0e74db599fff94fea",
       "title": "경애하는 김정은동지께 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지가 답전을 보내여왔다",
@@ -24,13 +74,11 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 5,
-        "international": 48,
-        "foreign": 14
+        "important": 7,
+        "international": 51,
+        "foreign": 20
       },
-      "featuredSections": [
-        "important"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -50,9 +98,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 6,
-        "foreign": 15,
-        "domestic": 57
+        "important": 8,
+        "foreign": 21,
+        "domestic": 66
       },
       "featuredSections": [],
       "hasImage": false,
@@ -75,10 +123,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 7,
-        "document": 1,
-        "foreign": 18,
-        "domestic": 66
+        "important": 9,
+        "document": 2,
+        "foreign": 24,
+        "domestic": 75
       },
       "featuredSections": [
         "document"
@@ -88,50 +136,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A637a4345bc9257fe88abccda"
-    },
-    {
-      "id": "news:kcna:2df2d5f1e862dccbbb1bfe30",
-      "title": "국방과학연구부문에서 갱신형 240mm조종방사포탄시험사격 진행",
-      "date": "2026-09-24",
-      "snippet": "(평양 9월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e3591cbc98aca033affe3165057e9971",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 8,
-        "domestic": 68
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba63c4d5f70a6665d318dc2a80cd2f6f1c",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/7dbd22ef2344a72086508fa95cf5c32674e1f8b6440948253b6375d151b4b3ba.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2df2d5f1e862dccbbb1bfe30"
-    },
-    {
-      "id": "news:kcna:a7da83153dc355ee512b6b22",
-      "title": "박태성 내각총리 여러 부문 사업 현지료해",
-      "date": "2026-09-23",
-      "snippet": "(평양 9월 23일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a47beab8a7dba4ece5217dfeba580a1b",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 9,
-        "domestic": 83
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba9fb2e10f00c1f54ab166a8788dc2e797",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/1a6d660f27f701eef0f4718f2dcd6154daa4a04f5519be408c2cd7fd3689b226.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa7da83153dc355ee512b6b22"
     }
   ]
 }
