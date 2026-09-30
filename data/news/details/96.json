@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-30T00:00:00.000Z",
-  "version": "96620fa8f67905e2",
+  "version": "fe08b76ed8ddfe0d",
   "shard": "96",
   "articles": {
     "news:kcna:b0dad41db6b1174a598c0c72": {
@@ -17,7 +17,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 18
+        "international": 25
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -39,10 +39,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 65
+        "domestic": 69
       },
       "featuredSections": [],
-      "thumbnailUrl": "",
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba8df4f8a89c7347813cbb2f88372147d5",
       "cachedThumbnailUrl": "/data/news/assets/kcna/8ad9c38f9262bb22704051e7bb7b34dddeee61e83d4955200f36931999a78e79.jpg",
       "images": [
         {
@@ -53,6 +53,51 @@
           "cachedThumbnailUrl": "/data/news/assets/kcna/8ad9c38f9262bb22704051e7bb7b34dddeee61e83d4955200f36931999a78e79.jpg",
           "refererUrl": "http://www.kcna.kp/kp/article/detail/630fbdbba8d33cafce5b20977132f05a",
           "displayOrder": 0
+        },
+        {
+          "id": "news:kcna:18c0137e9d5aa0d735fa6834:image:8317c4dff1a9bbd258e173f02976b5ad39b380c75a9aaf928e4efedbcd318a04",
+          "url": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba8df4f8a89c7347813cbb2f88372147d5",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba8df4f8a89c7347813cbb2f88372147d5",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.kcna.kp/kp/article/detail/630fbdbba8d33cafce5b20977132f05a",
+          "displayOrder": 1
+        },
+        {
+          "id": "news:kcna:18c0137e9d5aa0d735fa6834:image:f7851e7b9ceb1ca6d9f8216723cb473290c77ea0d98751930970397ca60ae93d",
+          "url": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba7b7b97727a697de67bdb5d9e386f5ca4",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba7b7b97727a697de67bdb5d9e386f5ca4",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.kcna.kp/kp/article/detail/630fbdbba8d33cafce5b20977132f05a",
+          "displayOrder": 2
+        },
+        {
+          "id": "news:kcna:18c0137e9d5aa0d735fa6834:image:b2e3ec8a1b6baa767113598b3840fb5a604f45bedf0ce01943dd9b8fdda9c849",
+          "url": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba337500f5d7eaf8f5146c699876d7dd5d",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba337500f5d7eaf8f5146c699876d7dd5d",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.kcna.kp/kp/article/detail/630fbdbba8d33cafce5b20977132f05a",
+          "displayOrder": 3
+        },
+        {
+          "id": "news:kcna:18c0137e9d5aa0d735fa6834:image:5392c48d736a5cbf2ead275ec0b0defd00390fdec16f021d8fff0d9b5409bf6f",
+          "url": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba3e2a6a1e9e404c78999d678708717ea2",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba3e2a6a1e9e404c78999d678708717ea2",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.kcna.kp/kp/article/detail/630fbdbba8d33cafce5b20977132f05a",
+          "displayOrder": 4
+        },
+        {
+          "id": "news:kcna:18c0137e9d5aa0d735fa6834:image:1ee89c63660f7d76f53e7d5e82c0ad1475e09771ae50db09866d1241e1258d3b",
+          "url": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba0cac64e34dba20c074fba1cf39fe6f9c",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba0cac64e34dba20c074fba1cf39fe6f9c",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.kcna.kp/kp/article/detail/630fbdbba8d33cafce5b20977132f05a",
+          "displayOrder": 5
         }
       ],
       "videos": []
@@ -71,7 +116,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 114
+        "domestic": 118
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -93,7 +138,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 248
+        "domestic": 252
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -115,7 +160,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 323
+        "domestic": 327
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -159,7 +204,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 698
+        "domestic": 702
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -183,7 +228,7 @@
       ],
       "categoryOrders": {
         "important": 108,
-        "domestic": 758
+        "domestic": 762
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dcebfe1dd1e63b60da947fc2d9d1aa224",
@@ -328,7 +373,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 778
+        "international": 785
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -350,7 +395,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 248
+        "photo": 249
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e3ae57c3e257ce44a702d06e17680a0ba5",
@@ -400,7 +445,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1319
+        "domestic": 1323
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/2faf544a4a2174750f6e11afe74e48e308622d97025303da04201cdbf504eebb",
@@ -459,7 +504,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1492
+        "domestic": 1496
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -481,7 +526,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 412
+        "photo": 413
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b661960b36b950f9699784d50235760e7c0",
@@ -711,7 +756,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1914
+        "domestic": 1918
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -733,7 +778,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1326
+        "international": 1333
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -756,7 +801,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2187,
+        "domestic": 2191,
         "social": 255
       },
       "featuredSections": [],
@@ -826,7 +871,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2372,
+        "domestic": 2376,
         "social": 293
       },
       "featuredSections": [],
@@ -849,7 +894,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 500
+        "photo": 501
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60579184feb79741497370d4b549ea324d",
@@ -926,7 +971,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2410
+        "domestic": 2414
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60e98c0babe0b7f60e371b8c855891bb30",
@@ -1030,7 +1075,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 553
+        "photo": 554
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf3667525f237c49597be64956dda66371488",
@@ -1166,7 +1211,7 @@
       ],
       "categoryOrders": {
         "foreign": 502,
-        "domestic": 2697
+        "domestic": 2701
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1188,7 +1233,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1962
+        "international": 1969
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1249,7 +1294,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2938
+        "domestic": 2942
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451bc52783858db8fd124d5297826256586",
@@ -1308,7 +1353,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3108
+        "domestic": 3112
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1330,7 +1375,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3233
+        "domestic": 3237
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f5d27e4e850562ce53b4fa1d0d3cb3a0b2",
@@ -1380,7 +1425,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2356
+        "international": 2363
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1403,7 +1448,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 2474,
+        "international": 2481,
         "social": 577
       },
       "featuredSections": [],
@@ -1426,7 +1471,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2481
+        "international": 2488
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1448,7 +1493,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2548
+        "international": 2555
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1470,7 +1515,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3768
+        "domestic": 3772
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1494,7 +1539,7 @@
       ],
       "categoryOrders": {
         "foreign": 660,
-        "domestic": 3906
+        "domestic": 3910
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1517,7 +1562,7 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 2745,
+        "international": 2752,
         "social": 660
       },
       "featuredSections": [],

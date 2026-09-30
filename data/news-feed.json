@@ -1,46 +1,46 @@
 {
   "generatedAt": "2026-09-30T00:00:00.000Z",
-  "version": "96620fa8f67905e2",
+  "version": "fe08b76ed8ddfe0d",
   "sources": {
     "kcna": {
       "id": "kcna",
       "name": "조선중앙통신",
-      "totalItems": 8831,
+      "totalItems": 8814,
       "categoryCounts": {
         "leadership": 225,
-        "important": 539,
-        "international": 2780,
-        "photo": 1056,
+        "important": 537,
+        "international": 2779,
+        "photo": 1055,
         "anecdote": 102,
         "document": 67,
-        "foreign": 801,
-        "video": 261,
-        "memory": 217,
-        "domestic": 4199,
-        "social": 671
+        "foreign": 797,
+        "video": 260,
+        "memory": 216,
+        "domestic": 4186,
+        "social": 669
       },
       "articles": [
         {
-          "id": "news:kcna:08dc869ec78394bd6a5a6f3b",
-          "title": "2026년 9월 30일 신문개관",
+          "id": "news:kcna:32d83d57a4be70cb46189db8",
+          "title": "원산불고기전문식당 준공",
           "date": "2026-09-30",
-          "snippet": "(평양 9월 30일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/ff8a0b6409ed33a82bd66321959329d2",
+          "snippet": "원산불고기전문식당 준공",
+          "url": "http://www.kcna.kp/kp/gallery/detail/46f8ce955f3968f93246216dea3ddcce",
           "mediaType": "article",
           "categories": [
-            "domestic"
+            "photo"
           ],
           "categoryOrders": {
-            "domestic": 0
+            "photo": 0
           },
           "featuredSections": [
-            "domestic"
+            "photo"
           ],
-          "hasImage": false,
+          "hasImage": true,
           "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A08dc869ec78394bd6a5a6f3b"
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba7f62624b16bd681065f5e550a7281b52",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/ef1225637b4ddcced557c6c6f115a4889bf3e8c4323961eadb20e81382e9487e.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A32d83d57a4be70cb46189db8"
         },
         {
           "id": "news:kcna:3343c8a3970a74cbbce5ed5c",
@@ -65,26 +65,48 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A3343c8a3970a74cbbce5ed5c"
         },
         {
-          "id": "news:kcna:8085424bf64d3cc0c9c25426",
-          "title": "조선대외문화교류협회와 조중친선협회가 중화인민공화국창건 77돐에 즈음하여 연회 마련",
+          "id": "news:kcna:4e58415c64ec3da8f633b22b",
+          "title": "제20차 전국기계설계축전 페막",
           "date": "2026-09-30",
-          "snippet": "조선대외문화교류협회와 조중친선협회가 중화인민공화국창건 77돐에 즈음하여 연회 마련",
-          "url": "http://www.kcna.kp/kp/gallery/detail/4641431351059ff062ab02e4b9cdd537",
+          "snippet": "(평양 9월 30일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/4c10c05d56ae803c8fbe9c54334df7d2",
           "mediaType": "article",
           "categories": [
-            "photo"
+            "domestic"
           ],
           "categoryOrders": {
-            "photo": 0
+            "domestic": 0
           },
           "featuredSections": [
-            "photo"
+            "domestic"
           ],
-          "hasImage": true,
+          "hasImage": false,
           "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba263b909956871041f88a568bc9aaeb09",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/f6d57cf28ee4693713e19b3efebb107a3d442d6405da48f5581c816e10aca0db.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A8085424bf64d3cc0c9c25426"
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A4e58415c64ec3da8f633b22b"
+        },
+        {
+          "id": "news:kcna:b0854763901623ad64fe9c6d",
+          "title": "인디아에서 대기오염방지 노력",
+          "date": "2026-09-30",
+          "snippet": "(뉴델리 9월 29일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/9145982e8d18d679736ebfb970d98467",
+          "mediaType": "article",
+          "categories": [
+            "international"
+          ],
+          "categoryOrders": {
+            "international": 0
+          },
+          "featuredSections": [
+            "international"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Ab0854763901623ad64fe9c6d"
         },
         {
           "id": "news:kcna:be930b864475b2077efb7a9d",
@@ -103,13 +125,12 @@
             "important": 0,
             "document": 0,
             "foreign": 0,
-            "domestic": 1
+            "domestic": 5
           },
           "featuredSections": [
             "important",
             "document",
-            "foreign",
-            "domestic"
+            "foreign"
           ],
           "hasImage": false,
           "hasVideo": false,
@@ -140,17 +161,17 @@
           "detailUrl": "/news/document?id=news%3Akcna%3Addd9457995032eeda4562212"
         },
         {
-          "id": "news:kcna:efc224796eb0813c707f8c84",
-          "title": "조선민주주의인민공화국대표단 단장 유엔총회 제81차회의에서 연설",
+          "id": "news:kcna:15cf20bf212a72b19730c3e8",
+          "title": "브라질에서 조직범죄와의 투쟁 강화",
           "date": "2026-09-30",
           "snippet": "(평양 9월 30일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/0c1ae720ae06cf1f89b84100fe98ab23",
+          "url": "http://www.kcna.kp/kp/article/detail/3b173753beb92e00dee4d403d6192a7d",
           "mediaType": "article",
           "categories": [
             "international"
           ],
           "categoryOrders": {
-            "international": 0
+            "international": 1
           },
           "featuredSections": [
             "international"
@@ -159,29 +180,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Aefc224796eb0813c707f8c84"
-        },
-        {
-          "id": "news:kcna:00587cd6f626aa15650c8b2a",
-          "title": "조선민주주의인민공화국 교육상이 로씨야련방 과학 및 고등교육성 부상일행을 만났다",
-          "date": "2026-09-30",
-          "snippet": "조선민주주의인민공화국 교육상이 로씨야련방 과학 및 고등교육성 부상일행을 만났다",
-          "url": "http://www.kcna.kp/kp/gallery/detail/4544d617f04294b725ed022d745f8fa4",
-          "mediaType": "article",
-          "categories": [
-            "photo"
-          ],
-          "categoryOrders": {
-            "photo": 1
-          },
-          "featuredSections": [
-            "photo"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba7d409d9b5cd2027b05c78eb16bd91fd5",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/728f0ef2ba5f7d32d26415d6a23ba20c9752d0d6387124b01a3ed1fc6c63a12c.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A00587cd6f626aa15650c8b2a"
+          "detailUrl": "/news/document?id=news%3Akcna%3A15cf20bf212a72b19730c3e8"
         },
         {
           "id": "news:kcna:1edaf2ad671e798a30bd9720",
@@ -197,7 +196,7 @@
           ],
           "categoryOrders": {
             "important": 1,
-            "international": 2,
+            "international": 9,
             "foreign": 1
           },
           "featuredSections": [
@@ -211,33 +210,55 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A1edaf2ad671e798a30bd9720"
         },
         {
-          "id": "news:kcna:c0d574fee709d157c1ac28c5",
-          "title": "조선중앙통신사 론평--일본의 화약고증설은 렬도를 거대한 화약통으로 만드는 자멸행위이다",
+          "id": "news:kcna:436b705078a9fe9ba6fe54d9",
+          "title": "각지에서 력사유산보호관리사업 활발",
           "date": "2026-09-30",
           "snippet": "(평양 9월 30일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/ec0d36571993c60d17e39f2cd83cf314",
+          "url": "http://www.kcna.kp/kp/article/detail/b83fdee24c75ceef8d2df95343050473",
           "mediaType": "article",
           "categories": [
-            "international"
+            "domestic"
           ],
           "categoryOrders": {
-            "international": 1
+            "domestic": 1
           },
           "featuredSections": [
-            "international"
+            "domestic"
           ],
           "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Ac0d574fee709d157c1ac28c5"
+          "detailUrl": "/news/document?id=news%3Akcna%3A436b705078a9fe9ba6fe54d9"
         },
         {
-          "id": "news:kcna:8c517d6060073800da68298d",
-          "title": "제2차 조로학장연단 진행",
+          "id": "news:kcna:8085424bf64d3cc0c9c25426",
+          "title": "조선대외문화교류협회와 조중친선협회가 중화인민공화국창건 77돐에 즈음하여 연회 마련",
           "date": "2026-09-30",
-          "snippet": "제2차 조로학장연단 진행",
-          "url": "http://www.kcna.kp/kp/gallery/detail/a0bc6bdfbc6c86edaaab60561ec77016",
+          "snippet": "조선대외문화교류협회와 조중친선협회가 중화인민공화국창건 77돐에 즈음하여 연회 마련",
+          "url": "http://www.kcna.kp/kp/gallery/detail/4641431351059ff062ab02e4b9cdd537",
+          "mediaType": "article",
+          "categories": [
+            "photo"
+          ],
+          "categoryOrders": {
+            "photo": 1
+          },
+          "featuredSections": [
+            "photo"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba263b909956871041f88a568bc9aaeb09",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/f6d57cf28ee4693713e19b3efebb107a3d442d6405da48f5581c816e10aca0db.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A8085424bf64d3cc0c9c25426"
+        },
+        {
+          "id": "news:kcna:00587cd6f626aa15650c8b2a",
+          "title": "조선민주주의인민공화국 교육상이 로씨야련방 과학 및 고등교육성 부상일행을 만났다",
+          "date": "2026-09-30",
+          "snippet": "조선민주주의인민공화국 교육상이 로씨야련방 과학 및 고등교육성 부상일행을 만났다",
+          "url": "http://www.kcna.kp/kp/gallery/detail/4544d617f04294b725ed022d745f8fa4",
           "mediaType": "article",
           "categories": [
             "photo"
@@ -250,9 +271,9 @@
           ],
           "hasImage": true,
           "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba4139bbc82add553c640414fc570bb974",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/d9da54102f3fdf85d7aa1ec51245f21bae5c38224f8d228de4fdab0fb026613a.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A8c517d6060073800da68298d"
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba7d409d9b5cd2027b05c78eb16bd91fd5",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/728f0ef2ba5f7d32d26415d6a23ba20c9752d0d6387124b01a3ed1fc6c63a12c.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A00587cd6f626aa15650c8b2a"
         },
         {
           "id": "news:kcna:b02218481b3a035c22192166",
@@ -267,17 +288,60 @@
           ],
           "categoryOrders": {
             "foreign": 2,
-            "domestic": 2
+            "domestic": 6
           },
           "featuredSections": [
-            "foreign",
-            "domestic"
+            "foreign"
           ],
           "hasImage": true,
           "hasVideo": false,
           "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba7d409d9b5cd2027b05c78eb16bd91fd5",
           "cachedThumbnailUrl": "/data/news/assets/kcna/728f0ef2ba5f7d32d26415d6a23ba20c9752d0d6387124b01a3ed1fc6c63a12c.jpg",
           "detailUrl": "/news/document?id=news%3Akcna%3Ab02218481b3a035c22192166"
+        },
+        {
+          "id": "news:kcna:f8b3876bab807957bd604125",
+          "title": "원산불고기전문식당 준공",
+          "date": "2026-09-30",
+          "snippet": "(평양 9월 30일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/a5067177968e64f197889f481757758c",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 2
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba7f62624b16bd681065f5e550a7281b52",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/ef1225637b4ddcced557c6c6f115a4889bf3e8c4323961eadb20e81382e9487e.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3Af8b3876bab807957bd604125"
+        },
+        {
+          "id": "news:kcna:8c517d6060073800da68298d",
+          "title": "제2차 조로학장연단 진행",
+          "date": "2026-09-30",
+          "snippet": "제2차 조로학장연단 진행",
+          "url": "http://www.kcna.kp/kp/gallery/detail/a0bc6bdfbc6c86edaaab60561ec77016",
+          "mediaType": "article",
+          "categories": [
+            "photo"
+          ],
+          "categoryOrders": {
+            "photo": 3
+          },
+          "featuredSections": [
+            "photo"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba4139bbc82add553c640414fc570bb974",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/d9da54102f3fdf85d7aa1ec51245f21bae5c38224f8d228de4fdab0fb026613a.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A8c517d6060073800da68298d"
         },
         {
           "id": "news:kcna:b8444c313df4564e045f08b8",
@@ -292,17 +356,60 @@
           ],
           "categoryOrders": {
             "foreign": 3,
-            "domestic": 3
+            "domestic": 7
           },
           "featuredSections": [
-            "foreign",
-            "domestic"
+            "foreign"
           ],
           "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3Ab8444c313df4564e045f08b8"
+        },
+        {
+          "id": "news:kcna:bffd5c13d3c5815cc2889b3c",
+          "title": "《선진과학기술 및 제품전시회-2026》 개막",
+          "date": "2026-09-30",
+          "snippet": "(평양 9월 30일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/5fa459963ab18f9d3685049ede84e460",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 3
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3Abffd5c13d3c5815cc2889b3c"
+        },
+        {
+          "id": "news:kcna:08dc869ec78394bd6a5a6f3b",
+          "title": "2026년 9월 30일 신문개관",
+          "date": "2026-09-30",
+          "snippet": "(평양 9월 30일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/ff8a0b6409ed33a82bd66321959329d2",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 4
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A08dc869ec78394bd6a5a6f3b"
         },
         {
           "id": "news:kcna:a0fd1dba65c658b540a48718",
@@ -317,11 +424,10 @@
           ],
           "categoryOrders": {
             "foreign": 4,
-            "domestic": 4
+            "domestic": 8
           },
           "featuredSections": [
-            "foreign",
-            "domestic"
+            "foreign"
           ],
           "hasImage": true,
           "hasVideo": false,
@@ -342,7 +448,7 @@
           ],
           "categoryOrders": {
             "foreign": 5,
-            "domestic": 5
+            "domestic": 9
           },
           "featuredSections": [
             "foreign"
@@ -365,7 +471,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 10,
+            "domestic": 14,
             "social": 0
           },
           "featuredSections": [
@@ -389,7 +495,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 25,
+            "domestic": 29,
             "social": 1
           },
           "featuredSections": [
@@ -462,7 +568,7 @@
             "important": 3,
             "document": 1,
             "foreign": 7,
-            "domestic": 19
+            "domestic": 23
           },
           "featuredSections": [
             "important",
@@ -487,7 +593,7 @@
           ],
           "categoryOrders": {
             "important": 2,
-            "domestic": 18
+            "domestic": 22
           },
           "featuredSections": [
             "important"
@@ -509,7 +615,7 @@
             "photo"
           ],
           "categoryOrders": {
-            "photo": 3
+            "photo": 4
           },
           "featuredSections": [
             "photo"
@@ -519,28 +625,6 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba8017b6a956bfd41193fa0ea110aa8c70",
           "cachedThumbnailUrl": "/data/news/assets/kcna/5dd5f659b583e4dc1e69ce3f1f51de251b7ffcb282d02b2f2bd482ffe740bb0c.jpg",
           "detailUrl": "/news/document?id=news%3Akcna%3A5a2e7a1117b4240967b3be28"
-        },
-        {
-          "id": "news:kcna:f4fb9e9ae8f2887deb76e1a2",
-          "title": "청진불고기전문식당 새로 건설,준공식 진행",
-          "date": "2026-09-29",
-          "snippet": "청진불고기전문식당 새로 건설,준공식 진행",
-          "url": "http://www.kcna.kp/kp/gallery/detail/fa478e95de04e42bf21a3e6f59ee6cc3",
-          "mediaType": "article",
-          "categories": [
-            "photo"
-          ],
-          "categoryOrders": {
-            "photo": 4
-          },
-          "featuredSections": [
-            "photo"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba8716fef4cd96e9657213f86d4ed28b11",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/b43fcb4bf8fefb6d4cd633dcb99c3b8ebb70cd6885af5fe11b4eed3d49f1981f.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3Af4fb9e9ae8f2887deb76e1a2"
         },
         {
           "id": "news:kcna:bb32617c7ed2e23838d1cf14",
@@ -576,7 +660,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 27,
+            "domestic": 31,
             "social": 2
           },
           "featuredSections": [
@@ -600,7 +684,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 34,
+            "domestic": 38,
             "social": 3
           },
           "featuredSections": [
@@ -626,7 +710,7 @@
           ],
           "categoryOrders": {
             "important": 4,
-            "international": 20,
+            "international": 27,
             "foreign": 11
           },
           "featuredSections": [
@@ -650,7 +734,7 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 44,
+            "domestic": 48,
             "social": 4
           },
           "featuredSections": [
@@ -742,7 +826,7 @@
           ],
           "categoryOrders": {
             "important": 5,
-            "international": 49,
+            "international": 56,
             "foreign": 18
           },
           "featuredSections": [
@@ -793,7 +877,7 @@
             "important": 9,
             "document": 2,
             "foreign": 24,
-            "domestic": 75
+            "domestic": 79
           },
           "featuredSections": [
             "document"
@@ -975,7 +1059,7 @@
             "important": 13,
             "document": 3,
             "foreign": 30,
-            "domestic": 110
+            "domestic": 114
           },
           "featuredSections": [
             "document"
@@ -1003,7 +1087,7 @@
             "important": 15,
             "document": 4,
             "foreign": 34,
-            "domestic": 135
+            "domestic": 139
           },
           "featuredSections": [
             "document"
@@ -1097,7 +1181,7 @@
             "important": 21,
             "document": 8,
             "foreign": 42,
-            "domestic": 168
+            "domestic": 172
           },
           "featuredSections": [
             "document"
