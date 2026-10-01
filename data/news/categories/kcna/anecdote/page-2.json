@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-30T00:00:00.000Z",
-  "version": "fe08b76ed8ddfe0d",
+  "generatedAt": "2026-10-01T00:00:00.000Z",
+  "version": "01941866f7ed4da9",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "anecdote",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 102,
+  "totalItems": 103,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:7e63a24527222abc207533a5",
+      "title": "정답게 불러주신 《봄향기》지배인",
+      "date": "2026-09-10",
+      "snippet": "2021년 9월 8일이였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/ce5fdac232cf298ad826270726748f50",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 5
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7e63a24527222abc207533a5"
+    },
     {
       "id": "news:kcna:5634d85ea92d0a8e632ccb5e",
       "title": "행복한 고민",
@@ -22,7 +42,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 5
+        "anecdote": 6
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 6
+        "anecdote": 7
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 7
+        "anecdote": 8
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 8
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A60bfc9b61b03097685684fd7"
-    },
-    {
-      "id": "news:kcna:f145d29a023c9491077b8fb5",
-      "title": "훌륭한 인생길을 끝까지 걸어가도록",
-      "date": "2026-08-28",
-      "snippet": "2021년 청년절을 맞으며 성대한 경축행사를 조직해주신 경애하는 아버지 김정은원수님께서는 사회주의건설의 어렵고 힘든 부문에 탄원진출하여 인생의 새 출발을 한 여러 청년을 만나주시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/767c853dc2829365691a086e9e10caac",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 9
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af145d29a023c9491077b8fb5"
+      "detailUrl": "/news/document?id=news%3Akcna%3A60bfc9b61b03097685684fd7"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-30T00:00:00.000Z",
-  "version": "fe08b76ed8ddfe0d",
+  "generatedAt": "2026-10-01T00:00:00.000Z",
+  "version": "01941866f7ed4da9",
   "shard": "fe",
   "articles": {
     "news:kcna:1edaf2ad671e798a30bd9720": {
@@ -19,9 +19,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 1,
+        "important": 3,
         "international": 9,
-        "foreign": 1
+        "foreign": 4
       },
       "featuredSections": [
         "important",
@@ -47,8 +47,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 6,
-        "domestic": 16
+        "foreign": 9,
+        "domestic": 24
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -121,8 +121,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 113,
-        "social": 18
+        "domestic": 121,
+        "social": 19
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -146,7 +146,7 @@
       ],
       "categoryOrders": {
         "international": 162,
-        "foreign": 51
+        "foreign": 54
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -169,8 +169,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 374,
-        "social": 52
+        "domestic": 382,
+        "social": 53
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -214,7 +214,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 828
+        "domestic": 836
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -299,7 +299,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1191
+        "domestic": 1199
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -321,7 +321,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1516
+        "domestic": 1524
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -417,7 +417,7 @@
       ],
       "categoryOrders": {
         "international": 1292,
-        "foreign": 342
+        "foreign": 345
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -441,7 +441,7 @@
       ],
       "categoryOrders": {
         "international": 1298,
-        "social": 212
+        "social": 213
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -465,9 +465,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 268,
-        "foreign": 406,
-        "domestic": 2151
+        "important": 270,
+        "foreign": 409,
+        "domestic": 2159
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60f1249d6a58481cae2602002ffde029aa",
@@ -517,7 +517,7 @@
         "leadership"
       ],
       "categoryOrders": {
-        "leadership": 118
+        "leadership": 120
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366c62cf04d00627173c69977b58e889fd8",
@@ -594,7 +594,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2623
+        "domestic": 2631
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf3665b50518efc195caec3262edaf95119a3",
@@ -666,7 +666,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2930
+        "domestic": 2938
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -710,7 +710,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3034
+        "domestic": 3042
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e4511e2f0539345492dbae4617a6f473a9b8",
@@ -792,8 +792,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 463,
-        "domestic": 3668
+        "important": 465,
+        "domestic": 3676
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac2091e26ec9014807de8a9c5b5fb7c862",
@@ -866,8 +866,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 788,
-        "domestic": 4137
+        "foreign": 791,
+        "domestic": 4145
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb363ecdac0dfe9f3a5dd7ccdece865a2c",
@@ -917,7 +917,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 257
+        "video": 258
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -957,8 +957,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 795,
-        "domestic": 4177
+        "foreign": 798,
+        "domestic": 4185
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1012,6 +1012,191 @@
           "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/ffd2906f8bbdaef1ba8b976408927eaf7bfb4d81447fb4b7552efe3204e56c3b.jpg",
           "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMy0xOS0wNzdAM0AxM0BAMEAxOTJA==",
           "displayOrder": 2
+        }
+      ],
+      "videos": []
+    },
+    "news:rodong-sinmun:42aa666b786b141c1a5fbbe0": {
+      "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0",
+      "title": "조선로동당 제9차대회 5일회의 진행\n김정은동지께서 강령적인 결론을 하시였다",
+      "date": "2026-02-24",
+      "snippet": "조선로동당 제9차대회 5일회의 진행",
+      "body": "조선로동당 제9차대회 5일회의 진행\n\n김정은동지께서 강령적인 결론을 하시였다\n\n위대한 김정은동지를 존엄높은 조선로동당의 최고수위에 또다시 높이 추대한 대표자들은 더더욱 비등된 정치적열의를 안고 우리 당의 휘황한 전도와 우리 국가의 무궁한 번영, 우리식 사회주의의 창창한 미래에 대한 필승의 신심과 락관에 넘쳐 대회일정에 따르는 사업을 계속하고있다.\n\n대회 5일회의가 2월 23일에 진행되였다.\n\n김정은동지의 위임에 따라 조용원동지가 앞서 진행된 당중앙위원회 제9기 제1차전원회의 결정내용을 당대회에 보고하였다.\n\n김정은동지께서 강령적인 결론을 하시였다.\n\n김정은동지께서는 본 대회에서 지나온 5년간의 투쟁정형을 종합분석한것은 견인불발하여 이루어낸 결실들에 대한 자부와 함께 귀중한 경험들과 교훈들을 분명히 새기고 모든 대표자들이 지나온 변혁의 5년을 더 위대한 변혁의 5년으로 이어가야 할 혁명의 요구, 시대의 요구앞에 비상한 분발심을 엄숙히 가다듬게 한 유익한 계기였다고 말씀하시였다.\n\n김정은동지께서는 새로 선거된 제9기 당중앙위원회는 전당의 당조직들과 당원들의 신임과 기대에 책임적인 령도적역할로써 충실히 보답할것이며 위대한 우리 국가의 발전을 다그치고 우리 인민들에게 실질적인 혜택이 더 많이, 더 빨리 차례지게 하는것으로써 자기 사업에 대한 공정한 평가를 받을것이라고 언명하시였다.\n\n김정은동지께서는 우리 사회주의건설의 전 과정이 3대혁명으로 일관되여있고 3대혁명로선을 관철하는 투쟁속에서 전진하여왔다고 하시면서 전면적발전의 거창한 위업도 3대혁명수행에 대한 당의 령도를 강화하고 국가의 지도적역할을 높이는것과 함께 이 사업에 대중자신이 주인답게 참가할 때라야만 더 빨리, 더 실속있게 실현될수 있다고 강조하시였다.\n\n김정은동지께서는 사회주의전면적발전기를 개척한 지난 5년간의 투쟁이 그러하였던것처럼 새로 시작되는 5년간의 투쟁도 역시 전적으로 우리의 주체적력량, 우리 인민의 위대한 힘에 의거할것이며 이민위천, 일심단결, 자력갱생의 리념을 투쟁과 전진의 기치로 변함없이 높이 들고나갈것이라고 하시면서 사회주의위업의 전도에 대한 자신심과 열정, 투지를 백배하여 인민의 리상과 숙망을 훌륭히 실현할 그날을 앞당기기 위하여 힘차게 투쟁해나가자고 열렬히 호소하시였다.\n\n전체 대표자들은 전당을 우리 국가의 줄기찬 륭성번영과 사회주의의 창창한 미래를 당겨오기 위한 성스러운 투쟁의 전위에로 부르시는 총비서동지의 열화의 호소와 혁명의지로 충만된 결론에 폭풍같은 《만세!》의 환호로 화답하였다.\n\n대회는 당중앙위원회 제9기 전망목표와 계획들을 구체적으로 연구토의하여 결정서에 반영하기 위한 사업절차에 들어갔다.\n\n연구 및 협의회는 공업, 농업, 경공업, 문화, 건설, 군사, 군수, 법무, 대외, 당사업부문으로 나뉘여 진행되고있다.\n\n본사정치보도반",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+      "mediaType": "article",
+      "sourceId": "rodong-sinmun",
+      "sourceName": "로동신문",
+      "categories": [
+        "leadership"
+      ],
+      "categoryOrders": {
+        "leadership": 148
+      },
+      "featuredSections": [],
+      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDM3LmpwZw==",
+      "cachedThumbnailUrl": "",
+      "images": [
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:4aba4c48d19f23a46b5c1a40a85ccfae74960835c9add50c5a53c056a4a4f676",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDM3LmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDM3LmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 0
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:5ce5d00d9a22b96ae45c88fc27e78953405efa15b89abe16a6389d17dfb3e778",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDM4LmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDM4LmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 1
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:f96bb09b497451cdfbc7ed58d6546b2633e5fa25dba6b56cf179151564999339",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDM5LmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDM5LmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 2
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:050f338580eb1c35a65ce764ec18ff8c1dab466bc12ec13643c5c71cce0aea94",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQwLmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQwLmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 3
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:2af85a205169a2ca21a3a3bf2d3bc8a10b518193dc372dbe84c4d7db1cc596af",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQxLmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQxLmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 4
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:e58d2112d0d71344dfebc95f2b67fa9cd4efc94080907f2bc0460d586d96f926",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQyLmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQyLmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 5
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:08472e442d6a2c50a6e1567903598a2ce6f8994439d22fc204180006b8c18210",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQzLmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQzLmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 6
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:48f48eff12da15309d9701042e9e3389d4b280a3ad05d288293575b8bfde559f",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ0LmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ0LmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 7
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:e61f0c70ffc39623494caa7dba0e6b3f683b15f6c6567c20299948871998a71e",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ1LmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ1LmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 8
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:6f5b89dcbc85decdf220b3b73d2104e31867dfedbdefd765888ae3d9d6a5d985",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ2LmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ2LmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 9
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:d0df93ded7b155f3cd5d1b7eacee1024d5d08d7ca288b777c940fcc31be52f7e",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ3LmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ3LmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 10
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:50e01f805c22ab4445ef035be2c19bed7c27bfb9d2540cec0faf1bc1d8a7a94f",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ4LmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ4LmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 11
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:df68c5a231530e705cb4d0696569d21428d3190cf4d83e3bf5b9572453a4a96b",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ5LmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ5LmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 12
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:1c5fed816d807efd574d7016d3c0134920f7be5cfb18660eb1b78a0a66608747",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDUwLmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDUwLmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 13
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:b892bea9c4969c0733431e1d7c31776275be0cfa878ce4c445d6274dd1a01303",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDUxLmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDUxLmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 14
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:a77320e909791fe7299023b343eb9a21a99758b8054e1bcaf2f72b4ac1d700cc",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDUyLmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDUyLmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 15
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:41d0914eaeb777eac630a6084d04e355cd8111b9fad9371440c9dc8e53695126",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDUzLmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDUzLmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 16
+        },
+        {
+          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:472cef58189e04bd78ae1abcc240d90b067915faf018220da9fe0d9117860880",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDU0LmpwZw==",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDU0LmpwZw==",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "displayOrder": 17
         }
       ],
       "videos": []

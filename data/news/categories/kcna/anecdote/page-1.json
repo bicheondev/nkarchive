@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-30T00:00:00.000Z",
-  "version": "fe08b76ed8ddfe0d",
+  "generatedAt": "2026-10-01T00:00:00.000Z",
+  "version": "01941866f7ed4da9",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "anecdote",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 102,
+  "totalItems": 103,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:d4bc0eeb3d29ef9f67bd0dc5",
+      "title": "위화도에 펼쳐진 감격의 화폭",
+      "date": "2026-10-01",
+      "snippet": "2026년 1월 어느날 경애하는 아버지 김정은원수님께서 타신 전용렬차가 조국의 서북변 한끝으로 들어섰다.",
+      "url": "http://www.kcna.kp/kp/article/detail/e857151979c71e8500ad1efc9fb722e8",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 0
+      },
+      "featuredSections": [
+        "anecdote"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad4bc0eeb3d29ef9f67bd0dc5"
+    },
     {
       "id": "news:kcna:bb32617c7ed2e23838d1cf14",
       "title": "휘황한 설계도",
@@ -22,7 +44,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 0
+        "anecdote": 1
       },
       "featuredSections": [
         "anecdote"
@@ -44,7 +66,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 1
+        "anecdote": 2
       },
       "featuredSections": [
         "anecdote"
@@ -66,7 +88,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 2
+        "anecdote": 3
       },
       "featuredSections": [
         "anecdote"
@@ -88,28 +110,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 3
-      },
-      "featuredSections": [
-        "anecdote"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A46e4c2382f3e8fc005d1d4f1"
-    },
-    {
-      "id": "news:kcna:7e63a24527222abc207533a5",
-      "title": "정답게 불러주신 《봄향기》지배인",
-      "date": "2026-09-10",
-      "snippet": "2021년 9월 8일이였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/ce5fdac232cf298ad826270726748f50",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 4
       },
       "featuredSections": [
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7e63a24527222abc207533a5"
+      "detailUrl": "/news/document?id=news%3Akcna%3A46e4c2382f3e8fc005d1d4f1"
     }
   ]
 }
