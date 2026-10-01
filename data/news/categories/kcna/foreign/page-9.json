@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-01T00:00:00.000Z",
-  "version": "01941866f7ed4da9",
+  "version": "3ddc72f63650a1b9",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,57 @@
   "section": "foreign",
   "page": 9,
   "pageSize": 5,
-  "totalItems": 800,
+  "totalItems": 798,
   "totalPages": 160,
   "articles": [
+    {
+      "id": "news:kcna:79dee9cb187ccdf837271b19",
+      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
+      "date": "2026-09-19",
+      "snippet": "(평양 9월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/bb63503e5a21ff5bbe0dd766766204ce",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 18,
+        "document": 5,
+        "foreign": 40,
+        "domestic": 159
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A79dee9cb187ccdf837271b19"
+    },
+    {
+      "id": "news:kcna:5110ea5ba68c997f8e9895e8",
+      "title": "중국청년간부대표단 여러곳 참관",
+      "date": "2026-09-18",
+      "snippet": "(평양 9월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cd75dc712b14848e57c762c65bdb92c9",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 41,
+        "domestic": 163
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba650246c1fb8a523c64db4ccd4071de4c",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/9e3e95b44a3bb6ad4dff48b09ccc811dd29031e11af55f6369c876e099eb5425.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5110ea5ba68c997f8e9895e8"
+    },
     {
       "id": "news:kcna:dc6702065ccfc1cbfa592931",
       "title": "조선민주주의인민공화국 국방성대표단 제13차 베이징향산연단에 참가",
@@ -25,8 +73,8 @@
       ],
       "categoryOrders": {
         "important": 20,
-        "international": 111,
-        "foreign": 40
+        "international": 118,
+        "foreign": 42
       },
       "featuredSections": [],
       "hasImage": false,
@@ -51,8 +99,8 @@
       "categoryOrders": {
         "important": 21,
         "document": 6,
-        "foreign": 41,
-        "domestic": 161
+        "foreign": 43,
+        "domestic": 172
       },
       "featuredSections": [],
       "hasImage": false,
@@ -73,8 +121,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 119,
-        "foreign": 42
+        "international": 126,
+        "foreign": 44
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,54 +130,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aad82825e3dbf800ae6a352c1"
-    },
-    {
-      "id": "news:kcna:de968fba69378322d4048322",
-      "title": "조선민주주의인민공화국창건 78돐에 즈음하여 여러 나라의 각계인사들 우리 나라 대표부들을 축하방문",
-      "date": "2026-09-17",
-      "snippet": "(평양 9월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b3d47612c4f4998dd6742d749bdc1f6c",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 120,
-        "foreign": 43
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ade968fba69378322d4048322"
-    },
-    {
-      "id": "news:kcna:0c16eee63390d75ec43b1b4c",
-      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
-      "date": "2026-09-17",
-      "snippet": "(평양 9월 17일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/aff4ec19243a7160b5f8d1480b2db51c",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 22,
-        "document": 7,
-        "foreign": 44,
-        "domestic": 176
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0c16eee63390d75ec43b1b4c"
     }
   ]
 }
