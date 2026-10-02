@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T00:00:00.000Z",
-  "version": "3ddc72f63650a1b9",
+  "generatedAt": "2026-10-02T00:00:00.000Z",
+  "version": "56f24e87f4be9e96",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 100,
   "pageSize": 5,
-  "totalItems": 798,
+  "totalItems": 799,
   "totalPages": 160,
   "articles": [
+    {
+      "id": "news:kcna:cfd002da40fa14389fb9b8b9",
+      "title": "중국특명전권대사 2026년 설명절연회 마련",
+      "date": "2026-02-13",
+      "snippet": "(평양 2월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3fbe6fc723eee5fa11cc9bc6974ea0ca",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "foreign": 495,
+        "domestic": 2626,
+        "social": 352
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Acfd002da40fa14389fb9b8b9"
+    },
     {
       "id": "news:kcna:21a4123b196bcb47a2d1fc7f",
       "title": "경애하는 김정은동지께 윁남공산당 중앙위원회 총비서가 답전을 보내여왔다",
@@ -24,7 +48,7 @@
       ],
       "categoryOrders": {
         "international": 1804,
-        "foreign": 495
+        "foreign": 496
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +69,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 496,
-        "domestic": 2625
+        "foreign": 497,
+        "domestic": 2630
       },
       "featuredSections": [],
       "hasImage": true,
@@ -70,7 +94,7 @@
       "categoryOrders": {
         "important": 369,
         "international": 1805,
-        "foreign": 497
+        "foreign": 498
       },
       "featuredSections": [],
       "hasImage": true,
@@ -95,8 +119,8 @@
       "categoryOrders": {
         "important": 370,
         "document": 56,
-        "foreign": 498,
-        "domestic": 2628
+        "foreign": 499,
+        "domestic": 2633
       },
       "featuredSections": [],
       "hasImage": false,
@@ -104,28 +128,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aa43ed9f1c8410605a4ddbf6f"
-    },
-    {
-      "id": "news:kcna:519c20952c1eab618de507d4",
-      "title": "우리 나라 외무상 이란이슬람공화국 외무상에게 축전",
-      "date": "2026-02-13",
-      "snippet": "(평양 2월 13일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f6669040dafb7abb3f55252391b41048",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 499,
-        "domestic": 2630
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A519c20952c1eab618de507d4"
     }
   ]
 }

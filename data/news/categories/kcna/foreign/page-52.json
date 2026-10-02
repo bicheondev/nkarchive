@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T00:00:00.000Z",
-  "version": "3ddc72f63650a1b9",
+  "generatedAt": "2026-10-02T00:00:00.000Z",
+  "version": "56f24e87f4be9e96",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 52,
   "pageSize": 5,
-  "totalItems": 798,
+  "totalItems": 799,
   "totalPages": 160,
   "articles": [
+    {
+      "id": "news:kcna:28613c1a663cca6a6cc0a9b7",
+      "title": "로씨야련방대사관에서 기념판제막식 진행",
+      "date": "2026-05-31",
+      "snippet": "(평양 5월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/79c7db503325719c8dcfe8307895a193",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 171,
+        "foreign": 255,
+        "domestic": 1392
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e00006482b0f14ff4ca8d458c039b2dbdb59e1d",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/8ba50ce066f60d3b35b413019a411b5e712bbc22aa20afa03d92324ae2485b39.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A28613c1a663cca6a6cc0a9b7"
+    },
     {
       "id": "news:kcna:bbf894b5cc66405767acc2eb",
       "title": "로씨야를 방문하였던 황해남도대표단 귀국",
@@ -23,8 +47,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 255,
-        "domestic": 1404
+        "foreign": 256,
+        "domestic": 1409
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +69,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 256,
-        "domestic": 1405
+        "foreign": 257,
+        "domestic": 1410
       },
       "featuredSections": [],
       "hasImage": true,
@@ -67,8 +91,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 257,
-        "domestic": 1419
+        "foreign": 258,
+        "domestic": 1424
       },
       "featuredSections": [],
       "hasImage": true,
@@ -89,32 +113,6 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 258,
-        "domestic": 1420
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A59a5f561fb309a7675c24b14"
-    },
-    {
-      "id": "news:kcna:fa17eb54bec9abb94af6e90f",
-      "title": "조선민주주의인민공화국 외무성 대변인대답",
-      "date": "2026-05-28",
-      "snippet": "(평양 5월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f988c712e6a20ad22daa64e8df3fec01",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 172,
-        "document": 26,
         "foreign": 259,
         "domestic": 1425
       },
@@ -123,7 +121,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Afa17eb54bec9abb94af6e90f"
+      "detailUrl": "/news/document?id=news%3Akcna%3A59a5f561fb309a7675c24b14"
     }
   ]
 }

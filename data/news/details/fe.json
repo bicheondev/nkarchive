@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T00:00:00.000Z",
-  "version": "3ddc72f63650a1b9",
+  "generatedAt": "2026-10-02T00:00:00.000Z",
+  "version": "56f24e87f4be9e96",
   "shard": "fe",
   "articles": {
     "news:kcna:1edaf2ad671e798a30bd9720": {
@@ -21,7 +21,7 @@
       "categoryOrders": {
         "important": 3,
         "international": 16,
-        "foreign": 6
+        "foreign": 7
       },
       "featuredSections": [
         "important"
@@ -46,8 +46,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 11,
-        "domestic": 35
+        "foreign": 12,
+        "domestic": 40
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -120,8 +120,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 132,
-        "social": 19
+        "domestic": 137,
+        "social": 21
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -145,7 +145,7 @@
       ],
       "categoryOrders": {
         "international": 169,
-        "foreign": 56
+        "foreign": 57
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -168,8 +168,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 393,
-        "social": 53
+        "domestic": 398,
+        "social": 55
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -213,7 +213,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 847
+        "domestic": 852
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -298,7 +298,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1210
+        "domestic": 1215
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -320,7 +320,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1535
+        "domestic": 1540
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -416,7 +416,7 @@
       ],
       "categoryOrders": {
         "international": 1299,
-        "foreign": 347
+        "foreign": 348
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -440,7 +440,7 @@
       ],
       "categoryOrders": {
         "international": 1305,
-        "social": 213
+        "social": 215
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -465,8 +465,8 @@
       ],
       "categoryOrders": {
         "important": 270,
-        "foreign": 411,
-        "domestic": 2170
+        "foreign": 412,
+        "domestic": 2175
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60f1249d6a58481cae2602002ffde029aa",
@@ -516,7 +516,7 @@
         "leadership"
       ],
       "categoryOrders": {
-        "leadership": 120
+        "leadership": 121
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366c62cf04d00627173c69977b58e889fd8",
@@ -593,7 +593,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2642
+        "domestic": 2647
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf3665b50518efc195caec3262edaf95119a3",
@@ -665,7 +665,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2949
+        "domestic": 2954
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -709,7 +709,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3053
+        "domestic": 3058
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e4511e2f0539345492dbae4617a6f473a9b8",
@@ -792,7 +792,7 @@
       ],
       "categoryOrders": {
         "important": 465,
-        "domestic": 3687
+        "domestic": 3692
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac2091e26ec9014807de8a9c5b5fb7c862",
@@ -865,8 +865,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 793,
-        "domestic": 4156
+        "foreign": 794,
+        "domestic": 4161
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb363ecdac0dfe9f3a5dd7ccdece865a2c",
@@ -916,7 +916,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 258
+        "video": 259
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -941,13 +941,56 @@
         }
       ]
     },
-    "news:rodong-sinmun:1f78cce43dfc2ebbc4705ea9": {
-      "id": "news:rodong-sinmun:1f78cce43dfc2ebbc4705ea9",
-      "title": "현대농촌, 현대축산의 본보기는 이렇게 마련되였다\n평안북도농촌경리위원회 삼광축산농장에 깃든 경애하는 총비서동지의 령도의 손길을 되새겨보며",
-      "date": "2026-03-19",
-      "snippet": "현대농촌, 현대축산의 본보기는 이렇게 마련되였다",
-      "body": "현대농촌, 현대축산의 본보기는 이렇게 마련되였다\n\n평안북도농촌경리위원회 삼광축산농장에 깃든\n\n경애하는 총비서동지의 령도의 손길을 되새겨보며\n\n우리의 전반적농촌이 미구하여 반드시 가닿게 될 문명과 부흥의 리상향으로 이름떨치고있는 삼광,\n\n어디서나 《삼광리처럼!》이라는 목소리가 울려나오고 지금도 끝없이 흘러드는 인파로 삼광이 흥성이고있다.\n\n위대한 당중앙의 손길아래 현대농촌과 현대축산의 미래를 직관하게 하는 표준실체로 솟아오른 삼광의 눈부신 변천상을 체감하며 우리 인민 누구나 나라의 축산업발전을 위하여 그 본보기적실체를 마련해주신 경애하는 총비서동지의 불멸의 령도업적을 크나큰 격정속에 새겨보고있다.\n\n경애하는 김정은동지께서는 다음과 같이 말씀하시였다.\n\n《삼광축산농장을 훌륭히 꾸린 경험에 기초하여 각 도들에 실리있는 축산기지들을 련쇄적으로 일떠세우면서 축산현대화의 흐름을 고조시키면 나라의 축산업은 비약적으로 발전할것입니다.》\n\n사랑하는 우리 아이들과 인민들에게 하루빨리 세상에 부럼없는 유족하고 행복한 생활을 안겨주시려는것은 경애하는 총비서동지의 심중에 꽉 차있는 간절한 숙원이다.\n\n인민들에게 고기와 알, 젖제품이 풍족하게 차례지게 하기 위하여 우리의 총비서동지께서 높은 산, 험한 령을 넘고넘으시며 축산기지들을 찾아 이어가신 현지지도의 길은 그 얼마였던가.\n\n그 나날 경애하는 총비서동지의 심중에는 어느모로 보나 그 어디에 내놓아도 손색이 없는 표준축산농장을 일떠세워 그것을 본보기로 하여 나라의 축산업을 비약적으로 발전시키실 구상이 무르익고있었다.\n\n몇해전 어느날이였다.\n\n경애하는 총비서동지께서는 일군들에게 현대적인 젖제품생산설비를 갖춘 축산농장을 하나 훌륭하게 꾸리실 자신의 결심을 피력하시였다.그러시고는 이 시범적인 사업의 성과적달성을 위해 당중앙위원회 중요부서에 직접 과업을 주시였다.\n\n경애하는 총비서동지께서 운전군 삼광리를 적지로 선정해주신데는 깊은 의도가 있었다.로전천을 가운데 두고 량쪽으로 갈라져 동서방향으로 길게 펼쳐진 삼광리지역은 수백정보의 경지면적과 풍부한 산림자원, 물자원을 가지고있어 풀먹는집짐승기르기에 유리하였던것이다.\n\n경애하는 총비서동지의 웅대한 구상과 확고부동한 결심에 의하여 산새들의 울음소리만 들리던 운전군의 막바지골이 태동하기 시작하였다.\n\n그때로부터 흘러간 삼광의 날과 달들은 위대하신 어버이의 헌신과 로고, 인민을 위하시는 절세위인의 이 세상 가장 뜨거운 사랑을 전하는 혁명일력으로 이어지게 되였다.\n\n경애하는 총비서동지께서 삼광축산농장 조업식에 참석하시여 크게 소문도 없이 변모된 삼광리의 이 풍경은 한두해사이에 갑자기 생겨난것이 아니라고, 새것의 탄생이란 항상 그러하듯이 여기에도 결코 수월하다고 할수 없는 고심과 노력이 투여되고 순탄치 않은 과정이 동반되였다고 감회깊이 추억하신것처럼 삼광리의 전변에는 실로 값비싼 노력과 정성이 진하게 고여있다.\n\n착공의 첫삽을 박은 때로부터 삼광축산농장건설의 나날은 한해한해가 사상초유, 건국이래의 국난이라는 말과 함께 흘러온 고난의 련속이였다.\n\n하지만 보건위기, 재해위기가 련이어 겹쳐드는 속에서도 삼광축산농장을 잘 꾸릴데 대한 문제는 당 제8차대회와 당전원회의들에서 중요하게 언급되였고 그 관철을 위한 과업들이 당결정서에 쪼아박히였다.\n\n축산농장건설을 우리 아이들과 인민을 위하여 무조건 집행하여야 할 불가불위의 사업으로 언제나 마음속 첫자리에 두시고 공사와 운영에서 제기되는 모든 문제를 다 풀어주신 경애하는 총비서동지.\n\n어려울수록 더 강렬해지고 간고할수록 보다 열렬해지는 어머니당의 사랑에 떠받들려 수많은 자재와 설비들이 삼광으로 끝없이 흘러들었다.중앙에서는 각 분야의 과학자, 기술자들이 내려왔으며 설계가들과 축산전문가들의 안목을 높여주고 시야를 넓혀주기 위한 사업도 진행되였다.\n\n농장건설과 관련하여 경애하는 총비서동지께서 보아주신 건물배치안과 설계안만 하여도 수백건이나 된다.\n\n인민들의 편의와 리익을 최우선, 절대시하시는 그이의 숭고한 인민관에 떠받들려 축사건설에 앞서 수백세대의 현대적인 농촌살림집들이 일떠서 철거세대 주민들이 한날한시에 새집들이경사를 맞이하는 가슴뜨거운 이야기도 태여났다.\n\n다심하신 어버이의 손길은 살찐 염소들과 양들이 욱실거리고 영각소리 정답게 들려오는 분장들과 맛좋고 질높은 젖제품들에도 따뜻이 어려있다.\n\n고기와 젖생산용집짐승들가운데서 제일 우량한 품종들을 마련하도록 은정깊은 조치를 취해주시고 농장에서 생산한 젖제품에 표기할 마크와 상표도안도 하나하나 보아주신 우리 어버이,\n\n경애하는 총비서동지께서 삼광축산농장을 일떠세우는데 이토록 많은 노력과 정성을 기울이신것은 바로 우리 농촌, 우리 축산의 금후 발전방향을 그어줄 새 출발점, 혁신적인 기준을 개척하시기 위해서였다.\n\n우리의 농촌은 그 어디에 내놓아도, 먼 후날에 가서도 손색이 없게 모든 면에서 월등하게 건설되여야 한다는것이 경애하는 총비서동지께서 삼광축산농장건설을 통하여 새겨주신 숭고한 뜻이다.\n\n2023년 7월 어느날 건설정형을 구체적으로 료해하시던 경애하는 총비서동지께서는 삼광축산농장을 어디에 내놓아도 손색이 없는 축산의 본보기농장으로 잘 꾸리며 농촌살림집과 공공건물들을 잘 건설하고 물질기술적토대도 그쯘하게 갖출데 대한 가르치심을 주시였다.그후에도 지대정리나 하고 살림집들과 공공건물들을 새로 짓는 정도가 아니라 매우 선진적인 축산기술과 방법을 우리 실정에 맞게 도입하고 개념과 실현방식부터 완전히 새로운 현대농촌의 체모를 형성하기 위한 방향과 방도를 환히 밝혀주신 그이이시다.\n\n경애하는 총비서동지의 높으신 뜻을 실현하기 위한 투쟁으로 삼광리는 불도가니처럼 끓어번졌다.\n\n농장의 정보화, 지능화, 집약화, 공업화를 높은 수준에서 실현하기 위해 옥내사육방법이 도입되고 지능형통합생산체계가 확립되였으며 착유공정과 운반, 젖가공공정이 완전히 자동화되고 사료가공과 먹이생산을 비롯한 대부분의 공정들이 공장화되였다.학교와 유치원, 병원과 약국, 상점, 문화회관, 편의봉사건물은 말할것도 없고 젖제품생산장과 축산연구분소, 시설모재배장 등 많은 대상들이 최상의 수준에서 새로 건설되였다.\n\n이뿐이 아니다.주변산들에 과일나무들과 수종이 좋은 나무들이 들어차고 저수지와 하천기슭이 정서적인 휴식공간, 이채로운 공원으로 변모되였으며 소재지마을의 산경사면들에는 자연에네르기를 리용하는 전력생산시설들까지 들어앉게 되였다.\n\n인민의 행복을 위해서라면 돌우에도 꽃을 피우시고 하늘의 별도 따오시는 위대하신 어버이의 손길아래 삼광이 천지개벽되였다.\n\n하기에 조업식의 그날 우리의 경애하는 총비서동지께서 인민들이 누리게 될 또 하나의 행복을 그려보시며 이런것을 두고 진짜 천지개벽이라고 해야 할것이라고 그리도 만족해하신것 아니랴.\n\n진정 창업자, 건설주가 되시여 건설 전 과정을 걸음걸음 손잡아 이끌어주신 경애하는 총비서동지의 다심하신 손길이 없었다면 이름없던 삼광이 어찌 새시대 사회주의농촌을 당당히 대표할수 있는 본보기적인 창조물, 도시부럽지 않은 리상적인 문화농촌으로 빛을 뿌릴수 있으랴.\n\n그날 경애하는 총비서동지께서는 점심시간이 퍽 지나도록 오랜 시간 농장을 돌아보시였다.\n\n젖제품의 맛도 친히 보아주시며 젖제품생산장에서 빠다와 치즈를 비롯한 10여가지의 젖제품을 대량적으로 생산하고있는데 대단하다고, 이렇게 훌륭한 젖제품들이 우리 아이들과 인민들에게 차례지게 된다고 생각하니 커다란 보람을 느끼게 된다고 자신의 절절한 심중을 터놓으시던 우리 어버이,\n\n자애로운 어버이의 영상을 우러르며 일군들은 절감하였다.\n\n자신의 고생을 묻어 안아오신 인민의 재부에서, 인민이 행복해하는 모습에서 혁명하는 보람과 가장 큰 락을 느끼시는 경애하는 총비서동지의 희열의 세계를.\n\n못잊을 그날 경애하는 총비서동지께서는 농장의 전경에서 이윽토록 눈길을 떼지 못하신채 이것이 바로 우리가 리상하는 사회주의농촌마을의 풍경이라고, 아무리 보아도 싫지 않고 떠나고싶지 않다고 하시며 이렇게 말씀하시였다.\n\n《오늘 정말 기분이 좋습니다.대단히 만족합니다.이런 행복감에 도취되여보려고 힘들어도 혁명을 하는것같습니다.우리는 더 무거운 책임감을 지니고 전국의 모든 농장들을 삼광축산농장처럼 현대적으로 일신시켜나가야 합니다.》\n\n정녕 가장 고결한 혁명적인생관을 지니시고 조국과 인민을 위한 천만고생을 락으로 여기시며 혁명의 길에서 더없는 긍지와 보람을 느끼시는 경애하는 총비서동지 같으신분이 어디에 또 있으랴.\n\n사랑하는 아이들과 인민들을 위하여 생각만 해봐도 뻐근하고 아름찬 일감들을 산같이 안고계시면서도 만짐우에 만짐을 덧놓으시는 우리 어버이,\n\n나라의 모든 농촌을 삼광리처럼 살기도 좋고 일하기도 좋으며 부유하고 문명한 고장으로 전변시키시려는 숭고한 뜻을 안으시고 경애하는 총비서동지께서는 당 제9차대회가 제시한 강령적과업관철을 위한 새로운 려정의 출발선에 나선 전국의 시, 군당책임비서들과 인민위원장들을 삼광축산농장으로 불러주시였다.\n\n경애하는 총비서동지께서 천만품을 들여 마련하여주신 삼광을 불씨로 하여 머지않아 제2, 제3의 삼광이 일떠서 지방발전정책실현의 고귀한 실체들이 끝없이 늘어날것이니 정녕 우리 조국의 래일은 얼마나 아름답고 눈부실것인가.\n\n사람들이여, 우리모두 인민의 행복을 가꾸시는 길에서 혁명하는 보람과 자부를 느끼시며 불철주야의 헌신과 로고를 바쳐가시는 경애하는 총비서동지를 충심으로 받들어 이 땅우에 만복의 열매들이 주렁질 부흥강국을 하루빨리 안아오자.\n\n글 본사기자 차분이\n\n사진 본사기자 한광명",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMy0xOS0wNzdAM0AxM0BAMEAxOTJA==",
+    "news:rodong-sinmun:f2aa25989a16d8099b2da6bb": {
+      "id": "news:rodong-sinmun:f2aa25989a16d8099b2da6bb",
+      "title": "10월의 하늘가에 높이 날리는 주체의 붉은 당기",
+      "date": "2026-10-02",
+      "snippet": "10월의 하늘가에 높이 날리는 주체의 붉은 당기",
+      "body": "10월의 하늘가에 높이 날리는 주체의 붉은 당기",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wMi0wMThAMkAxQEAwQDJA==",
+      "mediaType": "article",
+      "sourceId": "rodong-sinmun",
+      "sourceName": "로동신문",
+      "categories": [
+        "important"
+      ],
+      "categoryOrders": {
+        "important": 1
+      },
+      "featuredSections": [
+        "important"
+      ],
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/935e326d3163225aaa438c6b2f1bef4a05c3f82c9c1ac0676c63c7e4fa2340a6.jpg",
+      "images": [
+        {
+          "id": "news:rodong-sinmun:f2aa25989a16d8099b2da6bb:image:935e326d3163225aaa438c6b2f1bef4a05c3f82c9c1ac0676c63c7e4fa2340a6",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/935e326d3163225aaa438c6b2f1bef4a05c3f82c9c1ac0676c63c7e4fa2340a6.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/935e326d3163225aaa438c6b2f1bef4a05c3f82c9c1ac0676c63c7e4fa2340a6.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wMi0wMThAMkAxQEAwQDJA==",
+          "displayOrder": 0
+        },
+        {
+          "id": "news:rodong-sinmun:f2aa25989a16d8099b2da6bb:image:7360fc9c253f327622329f91cd8cd8b195070438b0bbf13fdbfd1ed4dbb2ef22",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/7360fc9c253f327622329f91cd8cd8b195070438b0bbf13fdbfd1ed4dbb2ef22.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/7360fc9c253f327622329f91cd8cd8b195070438b0bbf13fdbfd1ed4dbb2ef22.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wMi0wMThAMkAxQEAwQDJA==",
+          "displayOrder": 1
+        }
+      ],
+      "videos": []
+    },
+    "news:rodong-sinmun:b9cc2570386f6e593aed929d": {
+      "id": "news:rodong-sinmun:b9cc2570386f6e593aed929d",
+      "title": "전면적국가부흥의 새시대는 이렇게 개척되였다\n새로운 보건혁명\n깊이 마음쓰신 지방병원들의 운영문제",
+      "date": "2026-06-20",
+      "snippet": "전면적국가부흥의 새시대는 이렇게 개척되였다",
+      "body": "전면적국가부흥의 새시대는 이렇게 개척되였다\n\n새로운 보건혁명\n\n깊이 마음쓰신 지방병원들의 운영문제\n\n경애하는 총비서동지께서는 시, 군병원들을 건설하는 문제만이 아니라 병원들의 운영문제에 대하여서도 깊이 마음쓰시였다.\n\n2025년 6월 2일 강동군병원건설장을 찾으신 경애하는 총비서동지께서는 일군들에게 앞으로 시, 군병원들을 건설한 다음 운영을 잘하여야 한다고 간곡히 이르시였다.\n\n병원이 완공되면 즉시 운영이 되여 인민들의 건강증진에 이바지하게 하시려 마음쓰신 경애하는 총비서동지께서는 병원운영에서 중요한것은 의료일군들을 잘 준비시키는것이라고 깨우쳐주시였다.\n\n경애하는 총비서동지께서는 말로나 교육을 주어서는 의료일군들의 전문가적자질을 높일수 없다고 하시면서 시, 군병원들에 필요한 의료일군들을 양성할수 있는 방도에 대하여 구체적으로 밝혀주시였다.\n\n시, 군병원들을 운영하는데서 중요한것은 의약품을 정상적으로 보장하는것이라고 강조하신 경애하는 그이께서는 시, 군병원들에 필요한 의약품을 정상적으로 보장해주자면 제약공업을 발전시켜야 한다는데 대해서도 가르쳐주시였다.\n\n비단 이날만이 아니였다.\n\n2025년 11월 19일 준공을 선포한 강동군병원을 돌아보실 때에도 경애하는 총비서동지께서는 병원운영에서 나서는 중요한 문제들을 하나하나 구체적으로 밝혀주시였다.\n\n경애하는 총비서동지의 세심한 가르치심과 정력적인 지도에 의해 지방병원건설과 운영준비사업은 힘있게 병행되여 성과적으로 진척될수 있었다.\n\n본사기자",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNi0yMC0wMjNAM0A3QEAwQDEwNEA==",
       "mediaType": "article",
       "sourceId": "rodong-sinmun",
       "sourceName": "로동신문",
@@ -955,222 +998,216 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 253
+        "anecdote": 151
       },
       "featuredSections": [],
       "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/263541f0fe74f4fee169c1d4b9ef17baabe503cd33c3277313cc95abb738e1de.jpg",
-      "images": [
-        {
-          "id": "news:rodong-sinmun:1f78cce43dfc2ebbc4705ea9:image:263541f0fe74f4fee169c1d4b9ef17baabe503cd33c3277313cc95abb738e1de",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/263541f0fe74f4fee169c1d4b9ef17baabe503cd33c3277313cc95abb738e1de.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/263541f0fe74f4fee169c1d4b9ef17baabe503cd33c3277313cc95abb738e1de.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMy0xOS0wNzdAM0AxM0BAMEAxOTJA==",
-          "displayOrder": 0
-        },
-        {
-          "id": "news:rodong-sinmun:1f78cce43dfc2ebbc4705ea9:image:43a6f74e8303b639b18e024f390a42c6f11b791b2e5f18dcd20be53c836f9979",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/43a6f74e8303b639b18e024f390a42c6f11b791b2e5f18dcd20be53c836f9979.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/43a6f74e8303b639b18e024f390a42c6f11b791b2e5f18dcd20be53c836f9979.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMy0xOS0wNzdAM0AxM0BAMEAxOTJA==",
-          "displayOrder": 1
-        },
-        {
-          "id": "news:rodong-sinmun:1f78cce43dfc2ebbc4705ea9:image:ffd2906f8bbdaef1ba8b976408927eaf7bfb4d81447fb4b7552efe3204e56c3b",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/ffd2906f8bbdaef1ba8b976408927eaf7bfb4d81447fb4b7552efe3204e56c3b.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/ffd2906f8bbdaef1ba8b976408927eaf7bfb4d81447fb4b7552efe3204e56c3b.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMy0xOS0wNzdAM0AxM0BAMEAxOTJA==",
-          "displayOrder": 2
-        }
-      ],
+      "cachedThumbnailUrl": "",
+      "images": [],
       "videos": []
     },
-    "news:rodong-sinmun:42aa666b786b141c1a5fbbe0": {
-      "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0",
-      "title": "조선로동당 제9차대회 5일회의 진행\n김정은동지께서 강령적인 결론을 하시였다",
-      "date": "2026-02-24",
-      "snippet": "조선로동당 제9차대회 5일회의 진행",
-      "body": "조선로동당 제9차대회 5일회의 진행\n\n김정은동지께서 강령적인 결론을 하시였다\n\n위대한 김정은동지를 존엄높은 조선로동당의 최고수위에 또다시 높이 추대한 대표자들은 더더욱 비등된 정치적열의를 안고 우리 당의 휘황한 전도와 우리 국가의 무궁한 번영, 우리식 사회주의의 창창한 미래에 대한 필승의 신심과 락관에 넘쳐 대회일정에 따르는 사업을 계속하고있다.\n\n대회 5일회의가 2월 23일에 진행되였다.\n\n김정은동지의 위임에 따라 조용원동지가 앞서 진행된 당중앙위원회 제9기 제1차전원회의 결정내용을 당대회에 보고하였다.\n\n김정은동지께서 강령적인 결론을 하시였다.\n\n김정은동지께서는 본 대회에서 지나온 5년간의 투쟁정형을 종합분석한것은 견인불발하여 이루어낸 결실들에 대한 자부와 함께 귀중한 경험들과 교훈들을 분명히 새기고 모든 대표자들이 지나온 변혁의 5년을 더 위대한 변혁의 5년으로 이어가야 할 혁명의 요구, 시대의 요구앞에 비상한 분발심을 엄숙히 가다듬게 한 유익한 계기였다고 말씀하시였다.\n\n김정은동지께서는 새로 선거된 제9기 당중앙위원회는 전당의 당조직들과 당원들의 신임과 기대에 책임적인 령도적역할로써 충실히 보답할것이며 위대한 우리 국가의 발전을 다그치고 우리 인민들에게 실질적인 혜택이 더 많이, 더 빨리 차례지게 하는것으로써 자기 사업에 대한 공정한 평가를 받을것이라고 언명하시였다.\n\n김정은동지께서는 우리 사회주의건설의 전 과정이 3대혁명으로 일관되여있고 3대혁명로선을 관철하는 투쟁속에서 전진하여왔다고 하시면서 전면적발전의 거창한 위업도 3대혁명수행에 대한 당의 령도를 강화하고 국가의 지도적역할을 높이는것과 함께 이 사업에 대중자신이 주인답게 참가할 때라야만 더 빨리, 더 실속있게 실현될수 있다고 강조하시였다.\n\n김정은동지께서는 사회주의전면적발전기를 개척한 지난 5년간의 투쟁이 그러하였던것처럼 새로 시작되는 5년간의 투쟁도 역시 전적으로 우리의 주체적력량, 우리 인민의 위대한 힘에 의거할것이며 이민위천, 일심단결, 자력갱생의 리념을 투쟁과 전진의 기치로 변함없이 높이 들고나갈것이라고 하시면서 사회주의위업의 전도에 대한 자신심과 열정, 투지를 백배하여 인민의 리상과 숙망을 훌륭히 실현할 그날을 앞당기기 위하여 힘차게 투쟁해나가자고 열렬히 호소하시였다.\n\n전체 대표자들은 전당을 우리 국가의 줄기찬 륭성번영과 사회주의의 창창한 미래를 당겨오기 위한 성스러운 투쟁의 전위에로 부르시는 총비서동지의 열화의 호소와 혁명의지로 충만된 결론에 폭풍같은 《만세!》의 환호로 화답하였다.\n\n대회는 당중앙위원회 제9기 전망목표와 계획들을 구체적으로 연구토의하여 결정서에 반영하기 위한 사업절차에 들어갔다.\n\n연구 및 협의회는 공업, 농업, 경공업, 문화, 건설, 군사, 군수, 법무, 대외, 당사업부문으로 나뉘여 진행되고있다.\n\n본사정치보도반",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+    "news:rodong-sinmun:f56967564e830db5a0d6faaf": {
+      "id": "news:rodong-sinmun:f56967564e830db5a0d6faaf",
+      "title": "우리 로동계급이 안겨사는 위대한 품",
+      "date": "2026-04-09",
+      "snippet": "우리 로동계급이 안겨사는 위대한 품",
+      "body": "우리 로동계급이 안겨사는 위대한 품\n\n지난 3월 조선직업총동맹 중앙위원회는 당중앙의 크나큰 믿음을 명줄처럼 간직하고 사회주의전면적발전을 향한 성스러운 투쟁에서 영웅적조선로동계급의 강용한 기상을 힘있게 떨칠것을 전국의 로동계급과 직맹원들에게 호소하였다.\n\n당중앙의 크나큰 믿음을 명줄처럼 간직하고,\n\n새겨볼수록 우리의 생각은 깊어진다.\n\n조선로동당 제9차대회는 공화국의 장성발전사에 특기할 지난 5년간을 릉가하는 보다 웅대한 전망목표들을 세웠다.\n\n과연 무엇을 믿기에, 어떤 힘에 의거하기에 우리 당은 그처럼 확고한 자신심을 가지고 거창한 변혁투쟁을 멈춤없이 조직전개하고있는것인가.\n\n그것은 하늘이 주는 신비한 힘이 아니라 일편단심 당만을 따르는 영웅적 김일성-김정일로동계급을 비롯한 우리 인민의 힘을 절대적으로 믿기때문이다.\n\n경애하는 김정은동지께서는 다음과 같이 말씀하시였다.\n\n《력사의 초행을 개척하며 사회주의위업을 이룩해나가는 우리 나라에서 로동계급은 창조와 변혁의 가장 힘있는 력량이며 견결한 혁명정신과 고결한 풍모로 온 사회를 이끄는 선봉대입니다.》\n\n지금도 우리의 눈앞에 숭엄히 어려온다.\n\n지난 3월 15일 천성청년탄광에서 최고인민회의 제15기 대의원선거에 참가하시여 대의원후보자에게 투표하시고 탄광로동계급을 격려하시던 경애하는 총비서동지의 자애로운 영상이.\n\n뜻깊은 이날 경애하는 총비서동지께서는 천성청년탄광 로동계급과 일군들앞에서 하신 연설에서 이렇게 말씀하시였다.\n\n특별히 어렵고 간고하였던 지난 년대에 우리 국가가 올라선 경이적인 전진과 발전의 층계들에는 여기 천성탄부들이 헌신적인 투쟁으로 마련한 성과들도 초석으로 고여져있다.사람들이 무심히 딛고 서는 바로 이 땅밑에 가장 아름답고 순결한 인간들이 한생토록 찍어가는 애국의 행로가 있고 그 굽이굽이에 강인한 분투의 자욱들이 력력하다고 생각하니 경건해지는 마음을 금할수 없다....\n\n당 제9차대회이후 제일먼저 상원의 로동계급을 찾으시여 뜨거운 고무격려를 해주신데 이어 천성의 탄전을 찾으시여 수천척지하막장에서 대를 이어가며 당의 뜻을 받들어온 탄광로동계급의 헌신과 수고를 헤아려주시는 경애하는 총비서동지의 사려깊은 말씀을 받아안으며 끓어오르는 감격에 목메였던 사람들이 천성의 탄부들만이였던가.\n\n누구도 못가본 험난한 초행길을 헤쳐온 지난 10여년의 나날들에 자존이냐 의존이냐 하는 심각한 력사의 물음이 나설 때마다 경애하는 총비서동지께서 더없이 믿고 내세워주신 사람들이 우리 로동계급이였다.\n\n수입병에 걸린 일부 사람들이 다른 나라에서 지하전동차를 사올 소리만 하고있을 때 우리 로동계급을 굳게 믿으시고 우리의 손으로 우리 식의 지하전동차를 만들데 대한 과업을 맡겨주신 경애하는 총비서동지.\n\n자기들의 일터에 몸소 찾아오시여 영웅적 김일성-김정일로동계급이라는 값높은 칭호도 안겨주신 경애하는 그이의 크나큰 믿음을 새겨안고 김종태전기기관차련합기업소의 로동계급은 과학자, 기술자들과 함께 그처럼 짧은 기간에 자체의 힘과 기술로 우리 식의 현대적인 지하전동차를 만들어내는 기적을 창조하였다.\n\n로동계급에 대한 경애하는 총비서동지의 하늘같은 믿음을 안고 금골의 영웅광부들은 3년분 인민경제계획을 짧은 기간에 초과수행하는 혁혁한 증산성과로써 당대회결정을 받들어나갔고 금속공업부문의 로동계급은 주체철생산의 장엄한 화광으로 자립경제의 생명선을 억척같이 지켜나섰다.\n\n그 믿음에 떠받들려 룡성의 로동계급은 당이 준 과업을 결사관철하여온 자랑스러운 투쟁전통을 이어 대상설비생산과제를 제기일에 완수함으로써 사대주의와 기술신비주의, 보수주의를 짓부시고 새시대 천리마정신을 창조하였다.\n\n우리 로동계급을 사회주의위업수행의 선봉대로 내세우시는 경애하는 총비서동지의 하늘같은 믿음에는 로동계급의 혁명정신과 투쟁기풍이 온 사회에 차넘치게 하고 그 사상정신력의 앙양된 분출로 혁명적대고조를 일으켜나가시려는 숭고한 의도가 담겨져있다.\n\n우리 삼가 2024년 12월에 진행된 당중앙전원회의장에 마음을 세워본다.\n\n당중앙위원회 제8기 제11차전원회의에서 방대한 건설계획수행에 필요한 세멘트가 절대적으로 모자라는 형편에서 일군들이 긴장한 세멘트문제를 일부 대상건설을 조월시키는 방법으로 해결하려고 하던 그때 계산원처럼 수판알을 튀기는 식으로 사고하면 절대로 안된다고, 로동계급속에 들어가 증산을 호소하면 이 문제를 해결할수 있다고, 사람들의 정신력을 발동하면 못해낼 일이 없다고, 경제적인 수자가 해결하지 못하는 변수가 우리에게 있다고 뜻깊은 가르치심을 주신 경애하는 총비서동지,\n\n수령께서 안겨주신 위대한 믿음에 결사관철의 맹세로 화답해나선 상원로동계급의 증산투쟁소식을 매일같이 접하며 모든 부문과 단위에서 련대적혁신의 봉화가 타오르고 당 제8차대회가 제시한 투쟁과업은 전체 인민의 충성과 애국의 힘, 사상정신의 힘으로 빛나게 관철되지 않았던가.\n\n하기에 지난 3월 1일 상원세멘트련합기업소를 축하방문하신 그날 사회주의건설에서 전례없는 고조와 변혁으로 지나온 5년 력서의 매 갈피들에 새겨진 위대한 기록들마다에는 상원로동계급의 무한한 헌신과 성실한 노력이 력력히 고여져있으며 이에 대하여 온 나라가 깊이있게 알아야 한다고 하시면서 계속혁신, 계속전진하는 상원의 충천한 애국열의와 증산기세는 우리 당의 사상과 위업에 대한 절대적인 지지로, 온 나라를 영웅적투쟁에로 부르는 봉화로 될것이라는데 대하여 경애하는 총비서동지께서는 얼마나 뜨겁게 말씀하시였던가.\n\n최고인민회의 제15기 제1차회의의 높은 연단에서도 경애하는 총비서동지께서는 공화국정부는 로동계급의 혁명화에 선차적인 힘을 넣어 우리 로동계급이 언제나 혁명의 전위부대, 온 사회를 이끄는 선봉대답게 살며 투쟁하도록 하여야 한다고 하시면서 로동계급이 창조하는 선진적인 시대정신과 기풍을 사회전반에 끊임없이 일반화하면서 농업근로자들과 지식인들 특히 청년들을 사회주의건설의 벅찬 투쟁속에서 혁명적으로 단련시키는 과정을 통하여 온 사회의 로동계급화를 실현해나가야 할것이라고 뜻깊게 가르쳐주시였다.\n\n그 어느 나라에나 로동계급으로 불리우는 사람들이 있지만 우리 로동계급처럼 위대한 수령의 믿음속에 자기의 존엄과 영예를 빛내이며 창조와 변혁의 가장 힘있는 력량, 온 사회를 이끄는 선봉대의 역할을 담당수행하는 그런 긍지높은 대오, 위력한 력량을 이 세상 그 어디서도 찾아볼수 없다.\n\n수령의 믿음에 물불을 가림없이 떨쳐나서고 그 믿음이면 못해낼 일도 없다는 절대의 확신으로 충만된 충직한 로동계급의 대부대가 있기에 우리 조국은 당이 가리킨 자력갱생, 자생자활의 한길을 따라 더욱 힘차게 전진할것이다.\n\n경애하는 총비서동지의 한없이 숭고한 믿음속에 사는 영웅적 김일성-김정일로동계급은 당 제9차대회 결정을 관철하기 위한 투쟁에서 영웅적기개를 남김없이 떨칠것이며 그 억센 전진기상과 더불어 온 나라에는 비약과 변혁의 숨결이 더욱 세차게 나래치게 될것이다.\n\n본사기자 리현일",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNC0wOS0wMjZAM0AxMkBAMEAxNjlA==",
       "mediaType": "article",
       "sourceId": "rodong-sinmun",
       "sourceName": "로동신문",
       "categories": [
-        "leadership"
+        "anecdote"
       ],
       "categoryOrders": {
-        "leadership": 148
+        "anecdote": 231
       },
       "featuredSections": [],
-      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDM3LmpwZw==",
+      "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
+      "images": [],
+      "videos": []
+    },
+    "news:rodong-sinmun:8ee2dd815e1163d62fc0db21": {
+      "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21",
+      "title": "사회주의리상촌으로 나날이 일신되는 평남의 농촌\n대동군과 맹산군, 증산군, 양덕군의 농촌들에 현대적인 문화주택들이 일떠섰다",
+      "date": "2026-01-22",
+      "snippet": "사회주의리상촌으로 나날이 일신되는 평남의 농촌",
+      "body": "사회주의리상촌으로 나날이 일신되는 평남의 농촌\n\n대동군과 맹산군, 증산군, 양덕군의 농촌들에 현대적인 문화주택들이 일떠섰다\n\n온 나라 농촌을 인민의 지상락원으로 전변시키려는 당의 웅대한 구상이 빛나는 현실로 펼쳐지는 속에 평안남도의 여러 농촌마을이 천지개벽되였다.\n\n대동군 서제리와 맹산군 읍, 반룡리, 증산군 만풍리, 양덕군 은하리에 즐비하게 일떠선 현대적인 문화주택들은 새시대 농촌혁명강령을 밝혀주시고 그 실현을 위해 크나큰 심혈과 로고를 바쳐가시는 경애하는 김정은동지의 정력적인 령도에 의하여 마련된 행복의 보금자리이다.\n\n우리식 농촌발전을 다그치기 위한 오늘의 거창한 창조대전에서 맡고있는 임무의 중요성을 자각한 대동군과 맹산군의 당, 정권기관 일군들은 건축물의 실용성과 다양성, 조형예술화가 철저히 구현되도록 조직정치사업을 심화시켰다.\n\n증산군, 양덕군의 일군들과 건설자들은 근로자들의 생활상편의보장을 첫자리에 놓고 선진적인 공법들을 활용하여 건설물들의 질을 철저히 보장하였으며 주변정리와 원림경관조성도 적극적으로 내밀었다.\n\n평안남도와 해당 지역의 당, 정권기관 일군들, 건설자들, 농업근로자들이 참가한 살림집입사모임들에서는 축하연설들이 있었다.\n\n연설자들은 당의 뜨거운 은정속에 새 살림집들에 입사하는 근로자들을 열렬히 축하하였다.\n\n조국땅 곳곳에 솟아난 선경마을들은 건설을 나라의 전반적국력을 제고하고 인민들을 우리식 사회주의문명에로 선도하는 중요한 정치적사업으로 중시하시며 인민대중제일주의건축의 최전성기를 열어나가시는 경애하는 김정은동지의 불면불휴의 애국헌신이 안아온 빛나는 결실이라고 그들은 강조하였다.\n\n그들은 일군들과 농업근로자들이 나라에서 지어준 살림집과 마을들을 알뜰히 거두고 더 잘 꾸리며 사회주의농촌의 비약적발전을 이룩하기 위한 투쟁에 헌신해나갈데 대하여 언급하였다.\n\n모임들에서는 살림집리용허가증이 참가자들의 열렬한 박수속에 전달되였으며 결의토론들이 있었다.\n\n토론자들은 농업근로자들을 공산주의사회의 첫어구에 남먼저 들어서게 하시려 이 땅우에 위민헌신의 새 력사를 펼쳐가시는 경애하는 원수님께 가장 뜨거운 고마움의 인사를 삼가 드리였다.\n\n그들은 당이 제시한 농업발전의 5대요소, 축산업발전의 4대고리를 틀어쥐고 알곡과 축산물생산을 더욱 늘여 인민생활향상에 실질적으로 이바지할 결의를 피력하였다.\n\n새집들이가 시작되자 흥겨운 농악무가 펼쳐지고 당의 은덕에 보답할 맹세로 승화된 진정넘친 목소리들이 울려나왔다.\n\n근로자들과 주민들은 한결같이 경애하는 원수님의 크나큰 사랑속에 희한한 새 살림집에서 부럼없는 복락을 누리게 되였다고 하면서 인민들의 모든 소원을 꽃피워주는 우리 당이 제일이라고 격정을 터치였다.\n\n새집의 주인들과 자리를 같이한 일군들은 오늘의 행복을 한생토록 간직하고 고마운 우리 당과 사회주의제도를 위해 더 많은 일을 하자고 고무해주었다.\n\n【조선중앙통신】",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
+      "mediaType": "article",
+      "sourceId": "rodong-sinmun",
+      "sourceName": "로동신문",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 110
+      },
+      "featuredSections": [],
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/71c1d09ba6a562698a20fc76a0af207861843574fcc00d292cacb7eb8be15169.jpg",
       "images": [
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:4aba4c48d19f23a46b5c1a40a85ccfae74960835c9add50c5a53c056a4a4f676",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDM3LmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDM3LmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:71c1d09ba6a562698a20fc76a0af207861843574fcc00d292cacb7eb8be15169",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/71c1d09ba6a562698a20fc76a0af207861843574fcc00d292cacb7eb8be15169.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/71c1d09ba6a562698a20fc76a0af207861843574fcc00d292cacb7eb8be15169.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 0
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:5ce5d00d9a22b96ae45c88fc27e78953405efa15b89abe16a6389d17dfb3e778",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDM4LmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDM4LmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:6a9438f0ed583ebfe12f1f8c87390811e5f65b3b793ba9fbc8cd4e068338ed8d",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/6a9438f0ed583ebfe12f1f8c87390811e5f65b3b793ba9fbc8cd4e068338ed8d.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/6a9438f0ed583ebfe12f1f8c87390811e5f65b3b793ba9fbc8cd4e068338ed8d.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 1
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:f96bb09b497451cdfbc7ed58d6546b2633e5fa25dba6b56cf179151564999339",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDM5LmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDM5LmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:02cff0edf2c6c58343f910294ca5e148d650f79bfadcf304506431af84584dbc",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/02cff0edf2c6c58343f910294ca5e148d650f79bfadcf304506431af84584dbc.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/02cff0edf2c6c58343f910294ca5e148d650f79bfadcf304506431af84584dbc.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 2
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:050f338580eb1c35a65ce764ec18ff8c1dab466bc12ec13643c5c71cce0aea94",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQwLmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQwLmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:35748f447c5503a59583d05e509fb48a93a4cfb37b77d16f010548c2f0c06524",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/35748f447c5503a59583d05e509fb48a93a4cfb37b77d16f010548c2f0c06524.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/35748f447c5503a59583d05e509fb48a93a4cfb37b77d16f010548c2f0c06524.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 3
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:2af85a205169a2ca21a3a3bf2d3bc8a10b518193dc372dbe84c4d7db1cc596af",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQxLmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQxLmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:734e4b2961b3e2ccacc50350bd91b005c6520448e9096c5de9dc65c3ff9c887a",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/734e4b2961b3e2ccacc50350bd91b005c6520448e9096c5de9dc65c3ff9c887a.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/734e4b2961b3e2ccacc50350bd91b005c6520448e9096c5de9dc65c3ff9c887a.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 4
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:e58d2112d0d71344dfebc95f2b67fa9cd4efc94080907f2bc0460d586d96f926",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQyLmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQyLmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:c320cf1f7033053873bd7fdf10539a30200bef5a4df0b3b82abe4f105e60903b",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/c320cf1f7033053873bd7fdf10539a30200bef5a4df0b3b82abe4f105e60903b.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/c320cf1f7033053873bd7fdf10539a30200bef5a4df0b3b82abe4f105e60903b.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 5
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:08472e442d6a2c50a6e1567903598a2ce6f8994439d22fc204180006b8c18210",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQzLmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQzLmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:25634df12f37163f4d89c22f06dcfd5ff0fe901b8487bb4e1c0f0405ecc6b71f",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/25634df12f37163f4d89c22f06dcfd5ff0fe901b8487bb4e1c0f0405ecc6b71f.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/25634df12f37163f4d89c22f06dcfd5ff0fe901b8487bb4e1c0f0405ecc6b71f.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 6
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:48f48eff12da15309d9701042e9e3389d4b280a3ad05d288293575b8bfde559f",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ0LmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ0LmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:946e8cf340b17c1d1cd55a41974933b815076e34b3e4071157799dedf3a204a6",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/946e8cf340b17c1d1cd55a41974933b815076e34b3e4071157799dedf3a204a6.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/946e8cf340b17c1d1cd55a41974933b815076e34b3e4071157799dedf3a204a6.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 7
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:e61f0c70ffc39623494caa7dba0e6b3f683b15f6c6567c20299948871998a71e",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ1LmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ1LmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:b6f7afd61cc66b0bd1ba99f7e31e4ab982f459cf0fff7499bab0a6fb779b4e86",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/b6f7afd61cc66b0bd1ba99f7e31e4ab982f459cf0fff7499bab0a6fb779b4e86.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/b6f7afd61cc66b0bd1ba99f7e31e4ab982f459cf0fff7499bab0a6fb779b4e86.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 8
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:6f5b89dcbc85decdf220b3b73d2104e31867dfedbdefd765888ae3d9d6a5d985",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ2LmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ2LmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:7d615c7c05d9843b3e69a8107028a383160a7710d733b0d2076eb5088bf2fb18",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/7d615c7c05d9843b3e69a8107028a383160a7710d733b0d2076eb5088bf2fb18.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/7d615c7c05d9843b3e69a8107028a383160a7710d733b0d2076eb5088bf2fb18.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 9
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:d0df93ded7b155f3cd5d1b7eacee1024d5d08d7ca288b777c940fcc31be52f7e",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ3LmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ3LmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:13b74c8ee1ab6a074beda014eb315b467f2d67d9d227801853fc15577129a4b9",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/13b74c8ee1ab6a074beda014eb315b467f2d67d9d227801853fc15577129a4b9.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/13b74c8ee1ab6a074beda014eb315b467f2d67d9d227801853fc15577129a4b9.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 10
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:50e01f805c22ab4445ef035be2c19bed7c27bfb9d2540cec0faf1bc1d8a7a94f",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ4LmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ4LmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:fe3af299c11cec7d32ca7b5c8191e22bd8149a3b1cb59087d864e981389c7cb5",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/fe3af299c11cec7d32ca7b5c8191e22bd8149a3b1cb59087d864e981389c7cb5.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/fe3af299c11cec7d32ca7b5c8191e22bd8149a3b1cb59087d864e981389c7cb5.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 11
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:df68c5a231530e705cb4d0696569d21428d3190cf4d83e3bf5b9572453a4a96b",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ5LmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDQ5LmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:26507b5fc6f36f4384cf3346adea847c52e099fc76ca57a85db8096a5678ae74",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/26507b5fc6f36f4384cf3346adea847c52e099fc76ca57a85db8096a5678ae74.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/26507b5fc6f36f4384cf3346adea847c52e099fc76ca57a85db8096a5678ae74.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 12
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:1c5fed816d807efd574d7016d3c0134920f7be5cfb18660eb1b78a0a66608747",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDUwLmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDUwLmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:881152e0e2f5a75d3833fc903fe61d19cc2e3cf92d47c00b49e2422a9b97ec7b",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/881152e0e2f5a75d3833fc903fe61d19cc2e3cf92d47c00b49e2422a9b97ec7b.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/881152e0e2f5a75d3833fc903fe61d19cc2e3cf92d47c00b49e2422a9b97ec7b.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 13
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:b892bea9c4969c0733431e1d7c31776275be0cfa878ce4c445d6274dd1a01303",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDUxLmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDUxLmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:f7eb4d2ed7f4fdab173200db0c151c9d506e0ebe9a23c59bdee5686691dbe943",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/f7eb4d2ed7f4fdab173200db0c151c9d506e0ebe9a23c59bdee5686691dbe943.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/f7eb4d2ed7f4fdab173200db0c151c9d506e0ebe9a23c59bdee5686691dbe943.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 14
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:a77320e909791fe7299023b343eb9a21a99758b8054e1bcaf2f72b4ac1d700cc",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDUyLmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDUyLmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:4bceb401e006fdf019186a3f34032e63dd592108b46fec538e696270c13ae4a6",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/4bceb401e006fdf019186a3f34032e63dd592108b46fec538e696270c13ae4a6.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/4bceb401e006fdf019186a3f34032e63dd592108b46fec538e696270c13ae4a6.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 15
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:41d0914eaeb777eac630a6084d04e355cd8111b9fad9371440c9dc8e53695126",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDUzLmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDUzLmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:40f35d17171adf48a81109ab8f5443e9c2300dddb444ada8d6fbde619f8e382b",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/40f35d17171adf48a81109ab8f5443e9c2300dddb444ada8d6fbde619f8e382b.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/40f35d17171adf48a81109ab8f5443e9c2300dddb444ada8d6fbde619f8e382b.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 16
         },
         {
-          "id": "news:rodong-sinmun:42aa666b786b141c1a5fbbe0:image:472cef58189e04bd78ae1abcc240d90b067915faf018220da9fe0d9117860880",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDU0LmpwZw==",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wMi8yNC8xLzIwMjYtMDItMjQtMDQ1LzIwMjYtMDItMjQtMDU0LmpwZw==",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0yNC0wNDVAMUA5QEAwQDEyMkA==",
+          "id": "news:rodong-sinmun:8ee2dd815e1163d62fc0db21:image:cb94368ce70daa27b8d2bdbdec66208c04539e6b5c625eecd1bee8b239886ac4",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/cb94368ce70daa27b8d2bdbdec66208c04539e6b5c625eecd1bee8b239886ac4.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/cb94368ce70daa27b8d2bdbdec66208c04539e6b5c625eecd1bee8b239886ac4.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMThAM0AxN0BAMEAyNDNA==",
           "displayOrder": 17
         }
       ],

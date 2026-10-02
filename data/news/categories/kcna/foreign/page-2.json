@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T00:00:00.000Z",
-  "version": "3ddc72f63650a1b9",
+  "generatedAt": "2026-10-02T00:00:00.000Z",
+  "version": "56f24e87f4be9e96",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,36 @@
   "section": "foreign",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 798,
+  "totalItems": 799,
   "totalPages": 160,
   "articles": [
+    {
+      "id": "news:kcna:3f4194ec018aa90c02f028b1",
+      "title": "경애하는 김정은동지께 김일성종합대학창립 80돐기념 국제학술토론회 참가자들이 편지를 드리였다",
+      "date": "2026-10-01",
+      "snippet": "(평양 10월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/25bc3dfb7710a3a353388e3507272ef8",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 1,
+        "foreign": 5,
+        "domestic": 20
+      },
+      "featuredSections": [
+        "important",
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3f4194ec018aa90c02f028b1"
+    },
     {
       "id": "news:kcna:be930b864475b2077efb7a9d",
       "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
@@ -27,13 +54,12 @@
       "categoryOrders": {
         "important": 2,
         "document": 0,
-        "foreign": 5,
-        "domestic": 24
+        "foreign": 6,
+        "domestic": 29
       },
       "featuredSections": [
         "important",
-        "document",
-        "foreign"
+        "document"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -56,7 +82,7 @@
       "categoryOrders": {
         "important": 3,
         "international": 16,
-        "foreign": 6
+        "foreign": 7
       },
       "featuredSections": [
         "important"
@@ -79,8 +105,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 7,
-        "domestic": 25
+        "foreign": 8,
+        "domestic": 30
       },
       "featuredSections": [],
       "hasImage": true,
@@ -101,8 +127,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 8,
-        "domestic": 26
+        "foreign": 9,
+        "domestic": 31
       },
       "featuredSections": [],
       "hasImage": false,
@@ -110,28 +136,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ab8444c313df4564e045f08b8"
-    },
-    {
-      "id": "news:kcna:a0fd1dba65c658b540a48718",
-      "title": "제2차 조로학장연단 진행",
-      "date": "2026-09-30",
-      "snippet": "(평양 9월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5a3ad8acf20e1efd98e02faef13a917a",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 9,
-        "domestic": 27
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba4139bbc82add553c640414fc570bb974",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/d9da54102f3fdf85d7aa1ec51245f21bae5c38224f8d228de4fdab0fb026613a.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa0fd1dba65c658b540a48718"
     }
   ]
 }

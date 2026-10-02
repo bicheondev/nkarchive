@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T00:00:00.000Z",
-  "version": "3ddc72f63650a1b9",
+  "generatedAt": "2026-10-02T00:00:00.000Z",
+  "version": "56f24e87f4be9e96",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,34 @@
   "section": "foreign",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 798,
+  "totalItems": 799,
   "totalPages": 160,
   "articles": [
+    {
+      "id": "news:kcna:18dece9d3b2683e793ff2fdc",
+      "title": "우리 나라 외무상 중화인민공화국 외교부장에게 축전",
+      "date": "2026-10-02",
+      "snippet": "(평양 10월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4d93349e7f215c7789173c7095e395e9",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 0,
+        "domestic": 1
+      },
+      "featuredSections": [
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A18dece9d3b2683e793ff2fdc"
+    },
     {
       "id": "news:kcna:e92ce233af8dc8e2834f2244",
       "title": "중화인민공화국창건 77돐에 즈음하여 중국특명전권대사 연회 마련",
@@ -23,12 +48,11 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 0,
-        "domestic": 0
+        "foreign": 1,
+        "domestic": 5
       },
       "featuredSections": [
-        "foreign",
-        "domestic"
+        "foreign"
       ],
       "hasImage": true,
       "hasVideo": false,
@@ -48,12 +72,11 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 1,
-        "domestic": 1
+        "foreign": 2,
+        "domestic": 6
       },
       "featuredSections": [
-        "foreign",
-        "domestic"
+        "foreign"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -73,8 +96,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 2,
-        "domestic": 12
+        "foreign": 3,
+        "domestic": 17
       },
       "featuredSections": [
         "foreign"
@@ -99,8 +122,8 @@
       ],
       "categoryOrders": {
         "important": 0,
-        "foreign": 3,
-        "domestic": 14
+        "foreign": 4,
+        "domestic": 19
       },
       "featuredSections": [
         "important",
@@ -111,33 +134,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A17fcfe8c247f3843158c557f"
-    },
-    {
-      "id": "news:kcna:3f4194ec018aa90c02f028b1",
-      "title": "경애하는 김정은동지께 김일성종합대학창립 80돐기념 국제학술토론회 참가자들이 편지를 드리였다",
-      "date": "2026-10-01",
-      "snippet": "(평양 10월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/25bc3dfb7710a3a353388e3507272ef8",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 1,
-        "foreign": 4,
-        "domestic": 15
-      },
-      "featuredSections": [
-        "important",
-        "foreign"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3f4194ec018aa90c02f028b1"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T00:00:00.000Z",
-  "version": "3ddc72f63650a1b9",
+  "generatedAt": "2026-10-02T00:00:00.000Z",
+  "version": "56f24e87f4be9e96",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 5,
   "pageSize": 5,
-  "totalItems": 798,
+  "totalItems": 799,
   "totalPages": 160,
   "articles": [
+    {
+      "id": "news:kcna:2e08278577a9f9561f6bfed9",
+      "title": "로씨야에 갔던 조선중앙통신사대표단 귀국",
+      "date": "2026-09-27",
+      "snippet": "(평양 9월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/602dd9ca9cef3d1a9b3ed2304cd514c8",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 20,
+        "domestic": 68
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A2e08278577a9f9561f6bfed9"
+    },
     {
       "id": "news:kcna:afd1fe16a65e17afc553d73a",
       "title": "조선로동당 중앙위원회 비서 조용원동지가 전로씨야정당 《통일로씨야》위원장에게 축전을 보내였다",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 20,
-        "domestic": 73
+        "foreign": 21,
+        "domestic": 78
       },
       "featuredSections": [],
       "hasImage": false,
@@ -46,7 +68,7 @@
       ],
       "categoryOrders": {
         "international": 54,
-        "foreign": 21
+        "foreign": 22
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,7 +90,7 @@
       ],
       "categoryOrders": {
         "international": 56,
-        "foreign": 22
+        "foreign": 23
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,30 +114,6 @@
       "categoryOrders": {
         "important": 7,
         "international": 63,
-        "foreign": 23
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7f3e2e1633bf5e5b466f9381"
-    },
-    {
-      "id": "news:kcna:c59f1dac958c2c8527a3115f",
-      "title": "《집단방위의 결정적중심》은 집단적응징의 결정적목표가 될것이다",
-      "date": "2026-09-25",
-      "snippet": "(평양 9월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b4d5d550c32f6d0f16874c981546cda4",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 8,
-        "international": 64,
         "foreign": 24
       },
       "featuredSections": [],
@@ -123,7 +121,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac59f1dac958c2c8527a3115f"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7f3e2e1633bf5e5b466f9381"
     }
   ]
 }

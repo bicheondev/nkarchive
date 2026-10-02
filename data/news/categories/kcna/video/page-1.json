@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T00:00:00.000Z",
-  "version": "3ddc72f63650a1b9",
+  "generatedAt": "2026-10-02T00:00:00.000Z",
+  "version": "56f24e87f4be9e96",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "video",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 260,
-  "totalPages": 52,
+  "totalItems": 261,
+  "totalPages": 53,
   "articles": [
+    {
+      "id": "news:kcna:f37b0811a899c226b1d8b207",
+      "title": "선진영농방법들을 적극 도입하여 성과 이룩",
+      "date": "2026-10-02",
+      "snippet": "선진영농방법들을 적극 도입하여 성과 이룩",
+      "url": "http://www.kcna.kp/kp/video/detail/eeb24e4d269f98b66e549ff620997798",
+      "mediaType": "article",
+      "categories": [
+        "video"
+      ],
+      "categoryOrders": {
+        "video": 0
+      },
+      "featuredSections": [
+        "video"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/bcc5d97fd5c27f98437e2eee764ea3e174a9831c5bebedc0c8be6afb6bcbd8eb.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af37b0811a899c226b1d8b207"
+    },
     {
       "id": "news:kcna:2ba20b36fef302489229ecf4",
       "title": "황해남도의 농촌들에서 가을걷이 성과 확대",
@@ -22,7 +44,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 0
+        "video": 1
       },
       "featuredSections": [
         "video"
@@ -44,7 +66,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 1
+        "video": 2
       },
       "featuredSections": [
         "video"
@@ -66,7 +88,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 2
+        "video": 3
       },
       "featuredSections": [
         "video"
@@ -88,7 +110,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 3
+        "video": 4
       },
       "featuredSections": [
         "video"
@@ -98,28 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "/data/news/assets/kcna/345941bd469b648903c44e20e29109ff9c301bbbaab81be99552fe305520a000.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A0858e2d8ebde8d122fad247e"
-    },
-    {
-      "id": "news:kcna:7e0226ee11557d690ce002fd",
-      "title": "전국나노기술부문 과학기술전시회-2026 개막",
-      "date": "2026-09-25",
-      "snippet": "전국나노기술부문 과학기술전시회-2026 개막",
-      "url": "http://www.kcna.kp/kp/video/detail/a50583271b64b17e6e4eb07410f741d8",
-      "mediaType": "article",
-      "categories": [
-        "video"
-      ],
-      "categoryOrders": {
-        "video": 4
-      },
-      "featuredSections": [
-        "video"
-      ],
-      "hasImage": true,
-      "hasVideo": true,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/77ce5c3f6cfc3c2de96a666fb3d515a22b324afdd56cb48a6c157fddc8918adf.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7e0226ee11557d690ce002fd"
     }
   ]
 }

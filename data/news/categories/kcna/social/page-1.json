@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T00:00:00.000Z",
-  "version": "3ddc72f63650a1b9",
+  "generatedAt": "2026-10-02T00:00:00.000Z",
+  "version": "56f24e87f4be9e96",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,58 @@
   "section": "social",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 666,
+  "totalItems": 668,
   "totalPages": 134,
   "articles": [
+    {
+      "id": "news:kcna:3dc630325ec573966be3fe77",
+      "title": "영양 및 보양음식으로 알려진 잣죽",
+      "date": "2026-10-02",
+      "snippet": "(평양 10월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/11fbfdf7420f4bfe45ac4896a20755c2",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 2,
+        "social": 0
+      },
+      "featuredSections": [
+        "domestic",
+        "social"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3dc630325ec573966be3fe77"
+    },
+    {
+      "id": "news:kcna:3f97c98e2a759cf21c3081fc",
+      "title": "사리원시에 새로 건설된 경암불고기전문식당 준공",
+      "date": "2026-10-01",
+      "snippet": "(평양 10월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5d0db8686fe072ef435f1adcd412f583",
+      "mediaType": "article",
+      "categories": [
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 10,
+        "social": 1
+      },
+      "featuredSections": [
+        "social"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2dad547229cb18bf744b3cc57df14d20bd9",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/bc8dfc1a0f1fd0fe2dce1258aff98ed9bfd58af7c38584e7188217951d40a511.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3f97c98e2a759cf21c3081fc"
+    },
     {
       "id": "news:kcna:6ac00b1464acfc5489acab0e",
       "title": "행복한 삶을 누리는 년로자들",
@@ -23,8 +72,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 17,
-        "social": 0
+        "domestic": 22,
+        "social": 2
       },
       "featuredSections": [
         "social"
@@ -47,8 +96,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 33,
-        "social": 1
+        "domestic": 38,
+        "social": 3
       },
       "featuredSections": [
         "social"
@@ -71,55 +120,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 48,
-        "social": 2
-      },
-      "featuredSections": [
-        "social"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3dae495fabab22c493f33f17"
-    },
-    {
-      "id": "news:kcna:96aeaed8090181a21f7c206c",
-      "title": "남포시에서 농촌청년작업반,청년분조들의 면모 일신",
-      "date": "2026-09-28",
-      "snippet": "(평양 9월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f9f987c4b44c3a57d23c79727eed2a76",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 50,
-        "social": 3
-      },
-      "featuredSections": [
-        "social"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A96aeaed8090181a21f7c206c"
-    },
-    {
-      "id": "news:kcna:e50e7e526d0c3591dacf6c42",
-      "title": "성,중앙기관들과 각지에서 석탄공업부문을 지원",
-      "date": "2026-09-28",
-      "snippet": "(평양 9월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3140201712913b9b8d823e7e66bd45bb",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 57,
+        "domestic": 53,
         "social": 4
       },
       "featuredSections": [
@@ -129,7 +130,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae50e7e526d0c3591dacf6c42"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3dae495fabab22c493f33f17"
     }
   ]
 }
