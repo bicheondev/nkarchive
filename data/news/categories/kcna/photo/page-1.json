@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-04T00:00:00.000Z",
-  "version": "cf0572570bdb6b0c",
+  "version": "0fa4ded56012ad59",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "photo",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 1047,
-  "totalPages": 210,
+  "totalItems": 1041,
+  "totalPages": 209,
   "articles": [
+    {
+      "id": "news:kcna:094f05306ae1e69a9a0a7fa0",
+      "title": "개천절행사 진행",
+      "date": "2026-10-04",
+      "snippet": "개천절행사 진행",
+      "url": "http://www.kcna.kp/kp/gallery/detail/82f8db95bf03e581da1c3204aaf354ea",
+      "mediaType": "article",
+      "categories": [
+        "photo"
+      ],
+      "categoryOrders": {
+        "photo": 0
+      },
+      "featuredSections": [
+        "photo"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2da323ef6eb82730a197a2ea4ac16358ce3",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/35b11a9d31701cd2a382ca5f019ee4b73016f92b3e81c9a0a0130ed7a9dbb3f2.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A094f05306ae1e69a9a0a7fa0"
+    },
     {
       "id": "news:kcna:8070c7509bc912ea8a68cfa9",
       "title": "각지에서 자연에네르기에 의한 발전능력조성사업 추진",
@@ -22,7 +44,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 0
+        "photo": 1
       },
       "featuredSections": [
         "photo"
@@ -44,7 +66,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 1
+        "photo": 2
       },
       "featuredSections": [
         "photo"
@@ -66,7 +88,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 2
+        "photo": 3
       },
       "featuredSections": [
         "photo"
@@ -88,7 +110,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 3
+        "photo": 4
       },
       "featuredSections": [
         "photo"
@@ -98,28 +120,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2dae1ae2afb566a92f51c8cfcc83a2a1dce",
       "cachedThumbnailUrl": "/data/news/assets/kcna/577d4d0dc521ae4bf3214dcc3563c642eb5023b8bd3808d48857a0bd78a5f960.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ab88d6ce40244fc38633141bb"
-    },
-    {
-      "id": "news:kcna:ab0688ad0fd20760367c0a2a",
-      "title": "우리 나라에서 처음으로 건설된 인민의 대학",
-      "date": "2026-10-01",
-      "snippet": "우리 나라에서 처음으로 건설된 인민의 대학",
-      "url": "http://www.kcna.kp/kp/gallery/detail/0f40804526066a658eb21cdb0cf80c15",
-      "mediaType": "article",
-      "categories": [
-        "photo"
-      ],
-      "categoryOrders": {
-        "photo": 4
-      },
-      "featuredSections": [
-        "photo"
-      ],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2daa09dd0a95553069103281a8d1a0dd893",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/e13a28d45a5bd6569dcfca91a6d5bbeac48ace8a7f84339077ac9398328c170f.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aab0688ad0fd20760367c0a2a"
     }
   ]
 }
