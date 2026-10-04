@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-03T00:00:00.000Z",
-  "version": "d010102652d67c96",
+  "generatedAt": "2026-10-04T00:00:00.000Z",
+  "version": "cf0572570bdb6b0c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "anecdote",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 102,
+  "totalItems": 103,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:0ed9c1d526de71d7c248c09b",
+      "title": "현대화의 참의미",
+      "date": "2026-10-03",
+      "snippet": "경애하는 김정은동지께서는 2014년 11월 어느날 한 식료공장을 찾으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/def465a6c56f5a8d2adf3a3c6d07e4fb",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 0
+      },
+      "featuredSections": [
+        "anecdote"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A0ed9c1d526de71d7c248c09b"
+    },
     {
       "id": "news:kcna:d4bc0eeb3d29ef9f67bd0dc5",
       "title": "위화도에 펼쳐진 감격의 화폭",
@@ -22,7 +44,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 0
+        "anecdote": 1
       },
       "featuredSections": [
         "anecdote"
@@ -44,7 +66,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 1
+        "anecdote": 2
       },
       "featuredSections": [
         "anecdote"
@@ -66,7 +88,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 2
+        "anecdote": 3
       },
       "featuredSections": [
         "anecdote"
@@ -88,28 +110,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 3
-      },
-      "featuredSections": [
-        "anecdote"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab714efb6b0bf9f64302f7901"
-    },
-    {
-      "id": "news:kcna:46e4c2382f3e8fc005d1d4f1",
-      "title": "자그마한 불편까지도 헤아려보시며",
-      "date": "2026-09-15",
-      "snippet": "2014년 2월 메아리사격관을 찾으신 경애하는 김정은동지께서는 종전의 모습을 찾아볼수 없게 일신된 사격관의 여러곳을 돌아보시면서 관리운영 및 봉사준비정형을 료해하시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/1839751767432096ee9ec3626132bbdf",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 4
       },
       "featuredSections": [
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A46e4c2382f3e8fc005d1d4f1"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab714efb6b0bf9f64302f7901"
     }
   ]
 }

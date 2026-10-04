@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-03T00:00:00.000Z",
-  "version": "d010102652d67c96",
+  "generatedAt": "2026-10-04T00:00:00.000Z",
+  "version": "cf0572570bdb6b0c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "anecdote",
   "page": 3,
   "pageSize": 5,
-  "totalItems": 102,
+  "totalItems": 103,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:60bfc9b61b03097685684fd7",
+      "title": "생산장성의 예비",
+      "date": "2026-08-30",
+      "snippet": "경애하는 김정은동지께서는 2018년 8월 어느날 한 메기공장을 찾으시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/03f2db6986a40cd3885607cdd859b7af",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 10
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A60bfc9b61b03097685684fd7"
+    },
     {
       "id": "news:kcna:f145d29a023c9491077b8fb5",
       "title": "훌륭한 인생길을 끝까지 걸어가도록",
@@ -22,7 +42,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 10
+        "anecdote": 11
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 11
+        "anecdote": 12
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 12
+        "anecdote": 13
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 13
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-d0572926485b5f56"
-    },
-    {
-      "id": "kcna-d2785bfcea3d467c",
-      "title": "인민을 위한 길",
-      "date": "2026-08-16",
-      "snippet": "2018년 8월 어느날 경애하는 김정은동지께서는 한 종합목장을 찾으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/966e932704a2f4f33aa4992779ca9ae9",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 14
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-d2785bfcea3d467c"
+      "detailUrl": "/news/document?id=kcna-d0572926485b5f56"
     }
   ]
 }

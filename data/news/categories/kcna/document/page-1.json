@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-03T00:00:00.000Z",
-  "version": "d010102652d67c96",
+  "generatedAt": "2026-10-04T00:00:00.000Z",
+  "version": "cf0572570bdb6b0c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,39 @@
   "section": "document",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 69,
+  "totalItems": 70,
   "totalPages": 14,
   "articles": [
+    {
+      "id": "news:kcna:3b130950fc13daa54e7b8c2e",
+      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
+      "date": "2026-10-03",
+      "snippet": "(평양 10월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/78d4d20df91613f39fc539199212c1d9",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 1,
+        "document": 0,
+        "foreign": 1,
+        "domestic": 16
+      },
+      "featuredSections": [
+        "important",
+        "document",
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3b130950fc13daa54e7b8c2e"
+    },
     {
       "id": "news:kcna:1c2cea9ac1dbae887beeda6e",
       "title": "김여정 조선로동당 중앙위원회 부장 한국과의 그 어떤 대화가능성도 철저히 불허할 공식립장을 재천명",
@@ -25,16 +55,15 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 0,
-        "document": 0,
-        "foreign": 0,
-        "domestic": 0
+        "important": 2,
+        "document": 1,
+        "foreign": 3,
+        "domestic": 23
       },
       "featuredSections": [
         "important",
         "document",
-        "foreign",
-        "domestic"
+        "foreign"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -56,16 +85,15 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 1,
-        "document": 1,
-        "foreign": 1,
-        "domestic": 1
+        "important": 3,
+        "document": 2,
+        "foreign": 4,
+        "domestic": 24
       },
       "featuredSections": [
         "important",
         "document",
-        "foreign",
-        "domestic"
+        "foreign"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -87,10 +115,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 4,
-        "document": 2,
-        "foreign": 8,
-        "domestic": 37
+        "important": 6,
+        "document": 3,
+        "foreign": 11,
+        "domestic": 60
       },
       "featuredSections": [],
       "hasImage": false,
@@ -113,10 +141,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 7,
-        "document": 3,
-        "foreign": 15,
-        "domestic": 55
+        "important": 9,
+        "document": 4,
+        "foreign": 18,
+        "domestic": 78
       },
       "featuredSections": [
         "document"
@@ -126,34 +154,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Acbf22904e4b74d5e48b6302c"
-    },
-    {
-      "id": "news:kcna:637a4345bc9257fe88abccda",
-      "title": "조선민주주의인민공화국 최선희 외무상 담화 발표",
-      "date": "2026-09-24",
-      "snippet": "(평양 9월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/75c7c76711171497b098d4f5109fe0cc",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 13,
-        "document": 4,
-        "foreign": 32,
-        "domestic": 111
-      },
-      "featuredSections": [
-        "document"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A637a4345bc9257fe88abccda"
     }
   ]
 }

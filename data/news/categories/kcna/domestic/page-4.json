@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-03T00:00:00.000Z",
-  "version": "d010102652d67c96",
+  "generatedAt": "2026-10-04T00:00:00.000Z",
+  "version": "cf0572570bdb6b0c",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,55 +8,69 @@
   "section": "domestic",
   "page": 4,
   "pageSize": 5,
-  "totalItems": 4191,
-  "totalPages": 839,
+  "totalItems": 4199,
+  "totalPages": 840,
   "articles": [
     {
-      "id": "news:kcna:6a699a378caf55ff2a26b154",
-      "title": "상원세멘트련합기업소에서 3.4분기 인민경제계획 완수",
-      "date": "2026-10-01",
-      "snippet": "(평양 10월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/36b58da9f366950ac339045cfc504620",
+      "id": "news:kcna:8d7248b0bad3218ba68f8e35",
+      "title": "황해북도의 청년들 당정책관철의 전구들로 탄원",
+      "date": "2026-10-03",
+      "snippet": "(평양 10월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ad2f5f0a67b8eb7c2b60c3041aeceac5",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 15
+        "domestic": 15,
+        "social": 1
       },
-      "featuredSections": [],
+      "featuredSections": [
+        "social"
+      ],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6a699a378caf55ff2a26b154"
+      "detailUrl": "/news/document?id=news%3Akcna%3A8d7248b0bad3218ba68f8e35"
     },
     {
-      "id": "news:kcna:d6783dddb6f83a9b9209fb28",
-      "title": "녀맹중앙위원회와 평양시안의 녀맹일군들,녀맹원들 당창건사적관 참관",
-      "date": "2026-10-01",
-      "snippet": "(평양 10월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/53ec3905c5125bbbe933086544b9b5e5",
+      "id": "news:kcna:3b130950fc13daa54e7b8c2e",
+      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
+      "date": "2026-10-03",
+      "snippet": "(평양 10월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/78d4d20df91613f39fc539199212c1d9",
       "mediaType": "article",
       "categories": [
+        "important",
+        "document",
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 1,
+        "document": 0,
+        "foreign": 1,
         "domestic": 16
       },
-      "featuredSections": [],
+      "featuredSections": [
+        "important",
+        "document",
+        "foreign"
+      ],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad6783dddb6f83a9b9209fb28"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3b130950fc13daa54e7b8c2e"
     },
     {
-      "id": "news:kcna:0757a04e4bf9d72b021fd976",
-      "title": "《국제로인의 날》 기념모임 진행",
-      "date": "2026-10-01",
-      "snippet": "(평양 10월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a937cd5a4d62a0f2fd12a96c1c88fd5d",
+      "id": "news:kcna:8f6dc8e107f18a1708d1ba50",
+      "title": "2026년 10월 3일 신문개관",
+      "date": "2026-10-03",
+      "snippet": "(평양 10월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/715c75529a79375d1da06a05b79b0ad0",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -65,55 +79,55 @@
         "domestic": 17
       },
       "featuredSections": [],
-      "hasImage": true,
+      "hasImage": false,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2daa67cd0713f2784372d19b1add2795036",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/043b0dff675b4851575471813d41f1bed446afad55389cded75171c03315c268.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0757a04e4bf9d72b021fd976"
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8f6dc8e107f18a1708d1ba50"
     },
     {
-      "id": "news:kcna:3f97c98e2a759cf21c3081fc",
-      "title": "사리원시에 새로 건설된 경암불고기전문식당 준공",
-      "date": "2026-10-01",
-      "snippet": "(평양 10월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5d0db8686fe072ef435f1adcd412f583",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 18,
-        "social": 4
-      },
-      "featuredSections": [
-        "social"
-      ],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2dad547229cb18bf744b3cc57df14d20bd9",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/bc8dfc1a0f1fd0fe2dce1258aff98ed9bfd58af7c38584e7188217951d40a511.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3f97c98e2a759cf21c3081fc"
-    },
-    {
-      "id": "news:kcna:87288f63756e57d9b7e0f2e0",
-      "title": "삼신탄광 창립 80돐을 기념",
-      "date": "2026-10-01",
-      "snippet": "(평양 10월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/252f421771355dc3377345adf9cb6c10",
+      "id": "news:kcna:bf626fcbfe398a271b88038b",
+      "title": "각지에서 자연에네르기에 의한 발전능력조성사업 추진",
+      "date": "2026-10-03",
+      "snippet": "(평양 10월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b3d3f20c49cc93c7ce368794b866b4b0",
       "mediaType": "article",
       "categories": [
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 19
+        "domestic": 18
       },
       "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2da2a2daf5b8545fbbf1aee89cba6a5fa5a",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/b83764049069c83050fedce0491e00b24c9b31c8d11a15f574008cc1a429b940.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abf626fcbfe398a271b88038b"
+    },
+    {
+      "id": "news:kcna:74fe7013807f698d89476e8d",
+      "title": "로씨야외무성산하 외교단복무총국대표단 귀국",
+      "date": "2026-10-03",
+      "snippet": "(평양 10월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2c2da8daba230257650223e93d346c7b",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 2,
+        "domestic": 19
+      },
+      "featuredSections": [
+        "foreign"
+      ],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A87288f63756e57d9b7e0f2e0"
+      "detailUrl": "/news/document?id=news%3Akcna%3A74fe7013807f698d89476e8d"
     }
   ]
 }

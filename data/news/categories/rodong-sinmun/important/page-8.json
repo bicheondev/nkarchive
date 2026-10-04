@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-03T00:00:00.000Z",
-  "version": "d010102652d67c96",
+  "generatedAt": "2026-10-04T00:00:00.000Z",
+  "version": "cf0572570bdb6b0c",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,15 +8,15 @@
   "section": "important",
   "page": 8,
   "pageSize": 5,
-  "totalItems": 36,
-  "totalPages": 8,
+  "totalItems": 44,
+  "totalPages": 9,
   "articles": [
     {
-      "id": "news:rodong-sinmun:29f568377b8f539a135b079e",
-      "title": "빙하 감소",
-      "date": "2026-10-03",
-      "snippet": "빙하 감소",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wMy0wNDlAMkAzQEAwQDM2QA==",
+      "id": "news:rodong-sinmun:05e9928d9558ceb17d52162e",
+      "title": "로씨야대통령 국가회의 대의원들앞에 나서는 과업에 대해 언급",
+      "date": "2026-10-04",
+      "snippet": "로씨야대통령 국가회의 대의원들앞에 나서는 과업에 대해 언급",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNC0wODRAMkAzQEAwQDM2QA==",
       "mediaType": "article",
       "categories": [
         "important"
@@ -25,11 +25,91 @@
         "important": 35
       },
       "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A05e9928d9558ceb17d52162e"
+    },
+    {
+      "id": "news:rodong-sinmun:e72b82730c1a332de08ec9aa",
+      "title": "일본의 핵보유기도를 규탄",
+      "date": "2026-10-04",
+      "snippet": "일본의 핵보유기도를 규탄",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNC0wODVAMkAzQEAwQDM3QA==",
+      "mediaType": "article",
+      "categories": [
+        "important"
+      ],
+      "categoryOrders": {
+        "important": 36
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ae72b82730c1a332de08ec9aa"
+    },
+    {
+      "id": "news:rodong-sinmun:bddc62921dacb0b1efdfbcfc",
+      "title": "서방의 전쟁책동에 경고",
+      "date": "2026-10-04",
+      "snippet": "서방의 전쟁책동에 경고",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNC0wODZAMkAzQEAwQDM4QA==",
+      "mediaType": "article",
+      "categories": [
+        "important"
+      ],
+      "categoryOrders": {
+        "important": 37
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Abddc62921dacb0b1efdfbcfc"
+    },
+    {
+      "id": "news:rodong-sinmun:505f9c969a02cc26eaa2cd8f",
+      "title": "그리스에서 폭풍피해",
+      "date": "2026-10-04",
+      "snippet": "그리스에서 폭풍피해",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNC0wODdAMkAzQEAwQDM5QA==",
+      "mediaType": "article",
+      "categories": [
+        "important"
+      ],
+      "categoryOrders": {
+        "important": 38
+      },
+      "featuredSections": [],
       "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/75b36a2c175da42400313b49bf9f2513bea050401526170910d360a843d1f0c3.jpg",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A29f568377b8f539a135b079e"
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/73dbc81a93ef4b8bada342c79b2967cdf20ccf30eba4d0f073722e6f2aba59c8.jpg",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A505f9c969a02cc26eaa2cd8f"
+    },
+    {
+      "id": "news:rodong-sinmun:461f6153fb2d2cf8643c7c75",
+      "title": "마약 압수",
+      "date": "2026-10-04",
+      "snippet": "마약 압수",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNC0wODhAMkAzQEAwQDQwQA==",
+      "mediaType": "article",
+      "categories": [
+        "important"
+      ],
+      "categoryOrders": {
+        "important": 39
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A461f6153fb2d2cf8643c7c75"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-03T00:00:00.000Z",
-  "version": "d010102652d67c96",
+  "generatedAt": "2026-10-04T00:00:00.000Z",
+  "version": "cf0572570bdb6b0c",
   "shard": "99",
   "articles": {
     "news:kcna:debe1c57aa6d2ccdd2f33a43": {
@@ -17,7 +17,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 12
+        "domestic": 35
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -40,8 +40,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 30,
-        "social": 5
+        "domestic": 53,
+        "social": 7
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2dae1ae2afb566a92f51c8cfcc83a2a1dce",
@@ -145,7 +145,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 526
+        "international": 533
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -167,7 +167,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 643
+        "international": 650
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -191,9 +191,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 165,
-        "international": 888,
-        "foreign": 249
+        "important": 167,
+        "international": 895,
+        "foreign": 252
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -215,7 +215,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1328
+        "domestic": 1351
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -237,7 +237,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 921
+        "international": 928
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -260,8 +260,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 239,
-        "domestic": 1948
+        "important": 241,
+        "domestic": 1971
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -283,7 +283,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1538
+        "international": 1545
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -305,7 +305,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 555
+        "photo": 556
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366c639e0b81a18ff2d5a97164a2ca7e229",
@@ -373,7 +373,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2608
+        "domestic": 2631
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366f8795d9d5dafe80c68759a98b813b051",
@@ -432,7 +432,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2908
+        "domestic": 2931
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -454,7 +454,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2129
+        "international": 2136
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -498,7 +498,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2371
+        "international": 2378
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -522,9 +522,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 456,
-        "foreign": 608,
-        "domestic": 3640
+        "important": 458,
+        "foreign": 611,
+        "domestic": 3663
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -547,8 +547,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 632,
-        "domestic": 3789
+        "foreign": 635,
+        "domestic": 3812
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d939330bb1295acec11f7869926d0f17f7fefe8",
@@ -599,8 +599,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2580,
-        "foreign": 635
+        "international": 2587,
+        "foreign": 638
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -622,7 +622,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 870
+        "photo": 871
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d939330475cbf81cff205d91da033225df0090d",
@@ -690,7 +690,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3788
+        "domestic": 3811
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -712,7 +712,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3929
+        "domestic": 3952
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -734,12 +734,75 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2766
+        "international": 2773
       },
       "featuredSections": [],
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "images": [],
+      "videos": []
+    },
+    "news:rodong-sinmun:1c79bc04407691cfce0de2e6": {
+      "id": "news:rodong-sinmun:1c79bc04407691cfce0de2e6",
+      "title": "숭고한 뜻, 고귀한 지침\n새 기술의 창조자, 개척자가 되라",
+      "date": "2026-09-18",
+      "snippet": "숭고한 뜻, 고귀한 지침",
+      "body": "숭고한 뜻, 고귀한 지침\n\n새 기술의 창조자, 개척자가 되라\n\n2014년 3월 경애하는 총비서동지께서 어느한 기계공장을 현지지도하실 때였다.\n\n공장을 찾으신 경애하는 그이께서 깊이 관심하신것은 과학기술중시기풍을 세우는 문제였다.\n\n경애하는 총비서동지께서는 공장의 여러곳을 돌아보시면서 생산정형을 료해하시였다.이곳 공장에서 생산된 기계제품들은 현실에서 큰 은을 나타내고있었으며 그 수요도 대단히 높았다.\n\n조립된 기계제품들을 주의깊게 보아주시면서 이에 대해 치하해주신 경애하는 총비서동지께서는 공장에서 지난 기간 생산에서 성과를 이룩할수 있은것은 과학기술을 생산에 앞세우고 모든 문제를 과학기술의 힘으로 풀어나가고있는데 있다고 하시면서 공장에 차넘치는 과학기술중시기풍에 대하여 못내 만족해하시였다.\n\n당의 과학기술중시사상을 받들고 응당 해야 할 일을 했을뿐인데 그처럼 높은 평가를 안겨주시니 일군들은 몸둘바를 몰랐다.\n\n창조의 능수들로 자라난 공장종업원들의 모습을 그려보시는듯 시종 환하신 미소를 지으시고 공장을 돌아보신 경애하는 총비서동지,\n\n이날 경애하는 총비서동지께서는 새 제품개발정형에 대하여 구체적으로 료해하시면서 공장의 로동계급이 창조적열정과 지혜를 합치고 첨단과학기술을 적극 받아들임으로써 새 제품개발에서 커다란 성과를 이룩해나가고있는데 대하여 기쁨을 표시하시였다.\n\n그러시고는 공장로동계급에 대한 당의 기대는 매우 크다고 하시면서 모두가 새 기술의 창조자, 개척자가 되여 기적과 위훈을 창조하리라는 기대와 확신을 표명하시였다.\n\n모두가 새 기술의 창조자, 개척자가 되라!\n\n경애하는 총비서동지의 가르치심을 받아안으며 일군들은 모든 종업원들을 과학기술인재, 창조의 능수들로 키워 끊임없는 비약과 혁신을 일으켜나가게 하는데서 자기의 책임과 본분을 다해갈 굳은 결의를 다지였다.\n\n품을 들이고 투자를 하는것만큼\n\n2020년 9월 어느날 일군들과 자리를 같이하신 경애하는 총비서동지께서는 교육사업과 관련하여 귀중한 가르치심을 주시였다.\n\n경애하는 총비서동지께서는 일군들에게 우리가 하는 모든 사업은 시작과 끝도 조국의 미래인 아이들을 위함에 있다고, 우리 인민이 누구도 겪어보지 못한 고난을 이겨내며 굴함없이 혁명을 하는것도 아이들의 행복한 미래를 위해서이라고 말씀하시면서 우리 당이 펼치는 정치는 아이들을 위한것이고 나라의 미래를 위한것이라고 강조하시였다.\n\n일군들의 가슴은 뜨겁게 달아올랐다.\n\n나라마다 교육을 중시하고 교육발전에 큰 힘을 넣고있다지만 후대들에게 부럼없는 행복과 밝은 미래를 안겨주기 위해 어떤 난관도 완강히 이겨내고 어떤 무거운 짐도 기꺼이 떠메면서 국가사업의 모든것을 후대들을 위함에 총지향시키는 나라가 과연 어디에 있던가.\n\n격정을 금치 못해하는 일군들을 바라보시며 경애하는 총비서동지께서는 자신께서는 힘들 때에도, 기쁠 때에도 우리 아이들을 보면서 힘을 얻군 한다고 하시면서 교육사업에서는 품을 들이고 투자를 하는것만큼 충실한 열매를 거둘수 있다고 말씀하시였다.\n\n교육사업에서는 품을 들이고 투자를 하는것만큼 충실한 열매를 거둘수 있다!\n\n경애하는 총비서동지의 고귀한 가르치심에는 후대들을 키우는 사업이야말로 제일로 보람있는 사업이며 후대교육사업에 사랑과 정성을 다 기울여야 무궁번영할 우리 조국의 눈부신 래일이 더욱 앞당겨지게 된다는 숭고한 뜻이 깃들어있었다.\n\n이날 일군들은 후대들을 위해 기울이시는 경애하는 총비서동지의 열화같은 사랑의 세계를 다시금 절감하며 아이들을 나라의 기둥감으로 키우는 사업을 떠나 조국과 혁명의 미래에 대하여 생각할수 없음을 깊이 새겨안았다.\n\n본사기자 김설송",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0xOC0wNDBAM0AxQEAwQDE0QA==",
+      "mediaType": "article",
+      "sourceId": "rodong-sinmun",
+      "sourceName": "로동신문",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 13
+      },
+      "featuredSections": [],
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "images": [],
+      "videos": []
+    },
+    "news:rodong-sinmun:9af5e2d3a9c8e66cdb841248": {
+      "id": "news:rodong-sinmun:9af5e2d3a9c8e66cdb841248",
+      "title": "우리 나라의 김광명선수 2026년 아시아레스링선수권대회에서 금메달 쟁취",
+      "date": "2026-04-14",
+      "snippet": "우리 나라의 김광명선수 2026년 아시아레스링선수권대회에서 금메달 쟁취",
+      "body": "우리 나라의 김광명선수 2026년 아시아레스링선수권대회에서 금메달 쟁취\n\n우리 나라의 김광명선수가 끼르기즈스딴에서 진행된 2026년 아시아레스링선수권대회에서 영예의 금메달을 쟁취하였다.\n\n자유형레스링 61kg급경기에 출전한 김광명선수는 예선에서 몽골선수를 10:0, 준준결승에서 뚜르크메니스딴선수를 11:0, 준결승에서 우즈베끼스딴선수를 3:0으로 물리치고 결승경기에 진출하였다.\n\n12일에 진행된 결승경기에서 그는 인디아선수를 13:10으로 이기고 우승하였다.\n\n또한 고전형레스링 60kg급, 녀자레스링 50kg급, 62kg급경기에서 우리 나라의 리세웅, 김선향, 문현경선수들이 2위를 하고 각각 은메달을 받았다.\n\n한편 몽골에서 진행된 2026년 아시아권투선수권대회 녀자권투 51kg급, 60kg급, 65kg급경기에서 안금별, 원은경, 황효순선수들은 각각 2위를 하였다.\n\n【조선중앙통신】",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNC0xNC0wNDRANEAxMEBAMEAxMzdA==",
+      "mediaType": "article",
+      "sourceId": "rodong-sinmun",
+      "sourceName": "로동신문",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 184
+      },
+      "featuredSections": [],
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/ec62e11a6948f911493cab1b56c528ab21a2352a9535a3ebe42713aa3addb393.jpg",
+      "images": [
+        {
+          "id": "news:rodong-sinmun:9af5e2d3a9c8e66cdb841248:image:ec62e11a6948f911493cab1b56c528ab21a2352a9535a3ebe42713aa3addb393",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/ec62e11a6948f911493cab1b56c528ab21a2352a9535a3ebe42713aa3addb393.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/ec62e11a6948f911493cab1b56c528ab21a2352a9535a3ebe42713aa3addb393.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNC0xNC0wNDRANEAxMEBAMEAxMzdA==",
+          "displayOrder": 0
+        },
+        {
+          "id": "news:rodong-sinmun:9af5e2d3a9c8e66cdb841248:image:caf99887e641f8c6840caaa8ddf254d660de55ccda4e1bede1962bcc2ab5f694",
+          "url": "",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/caf99887e641f8c6840caaa8ddf254d660de55ccda4e1bede1962bcc2ab5f694.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/caf99887e641f8c6840caaa8ddf254d660de55ccda4e1bede1962bcc2ab5f694.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNC0xNC0wNDRANEAxMEBAMEAxMzdA==",
+          "displayOrder": 1
+        }
+      ],
       "videos": []
     }
   }
