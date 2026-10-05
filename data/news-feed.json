@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-04T00:00:00.000Z",
-  "version": "0fa4ded56012ad59",
+  "generatedAt": "2026-10-05T00:00:00.000Z",
+  "version": "7e70f3a31d4d69d0",
   "sources": {
     "kcna": {
       "id": "kcna",
@@ -1172,24 +1172,68 @@
     "rodong-sinmun": {
       "id": "rodong-sinmun",
       "name": "로동신문",
-      "totalItems": 784,
+      "totalItems": 783,
       "categoryCounts": {
         "leadership": 164,
-        "important": 44,
+        "important": 40,
         "photo": 52,
-        "anecdote": 274,
+        "anecdote": 276,
         "video": 7,
         "memory": 41,
-        "domestic": 198,
+        "domestic": 199,
         "social": 4
       },
       "articles": [
         {
-          "id": "news:rodong-sinmun:4086a0c3cd7b11b2d0b11c51",
-          "title": "당결정관철의 전구들에서 현지보도조가 보내온 소식\n년간계획완수단위들이 계속 늘어난다\n검덕광업련합기업소에서",
-          "date": "2026-10-04",
-          "snippet": "당결정관철의 전구들에서 현지보도조가 보내온 소식",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNC0wNDlAMkAxQEAwQDFA==",
+          "id": "news:rodong-sinmun:1b8f72a8a3654828187905e4",
+          "title": "모두다 충천한 투쟁기세와 고도의 분발력으로 올해 과업을 완벽하게 수행하자!\n당의 숙원실현을 위한 투쟁로정을 새 기록창조로 줄기차게 이어간다\n올해 지방발전정책대상건설에 참가한 인민군부대들에서",
+          "date": "2026-10-05",
+          "snippet": "모두다 충천한 투쟁기세와 고도의 분발력으로 올해 과업을 완벽하게 수행하자!",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNS0wNThANEAxQEAwQDFA==",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 0
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/4d5cfc82a8c60d4beb1d843e638870633ac050763a07b1772d7d2677a7a42c21.jpg",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A1b8f72a8a3654828187905e4"
+        },
+        {
+          "id": "news:rodong-sinmun:94d3bfffd23c67d16c4e340b",
+          "title": "세상에서 제일 좋은 인민의 보금자리\n경애하는 총비서동지의 은정속에 수도 평양의 화성지구에서\n복된 삶을 누리는 사람들의 격정을 전하며",
+          "date": "2026-10-05",
+          "snippet": "세상에서 제일 좋은 인민의 보금자리",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNS0wMTlAM0AxQEAwQDFA==",
+          "mediaType": "article",
+          "categories": [
+            "anecdote"
+          ],
+          "categoryOrders": {
+            "anecdote": 0
+          },
+          "featuredSections": [
+            "anecdote"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A94d3bfffd23c67d16c4e340b"
+        },
+        {
+          "id": "news:rodong-sinmun:e9da71db6ebf6045fe3bd0a3",
+          "title": "모두다 충천한 투쟁기세와 고도의 분발력으로 올해 과업을 완벽하게 수행하자!\n련대적, 집단적혁신으로 [1면]",
+          "date": "2026-10-05",
+          "snippet": "모두다 충천한 투쟁기세와 고도의 분발력으로 올해 과업을 완벽하게 수행하자!",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNS0wNTRAMkAxQEAwQDFA==",
           "mediaType": "article",
           "categories": [
             "important"
@@ -1204,7 +1248,139 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A4086a0c3cd7b11b2d0b11c51"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ae9da71db6ebf6045fe3bd0a3"
+        },
+        {
+          "id": "news:rodong-sinmun:0a2236e6f4f8babc25e376ff",
+          "title": "끝없이 이어가시는 위민헌신의 길에서\n만고불멸의 대명제",
+          "date": "2026-10-05",
+          "snippet": "끝없이 이어가시는 위민헌신의 길에서",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNS0wMjFAM0AxQEAwQDJA==",
+          "mediaType": "article",
+          "categories": [
+            "anecdote"
+          ],
+          "categoryOrders": {
+            "anecdote": 1
+          },
+          "featuredSections": [
+            "anecdote"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A0a2236e6f4f8babc25e376ff"
+        },
+        {
+          "id": "news:rodong-sinmun:135945ff83207b8ff5b121ad",
+          "title": "모두다 충천한 투쟁기세와 고도의 분발력으로 올해 과업을 완벽하게 수행하자!\n사상전의 열기로 생산현장이 끓는다\n김책제철련합기업소에서 [1면]",
+          "date": "2026-10-05",
+          "snippet": "모두다 충천한 투쟁기세와 고도의 분발력으로 올해 과업을 완벽하게 수행하자!",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNS0wNTVAMkAxQEAwQDJA==",
+          "mediaType": "article",
+          "categories": [
+            "important"
+          ],
+          "categoryOrders": {
+            "important": 1
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A135945ff83207b8ff5b121ad"
+        },
+        {
+          "id": "news:rodong-sinmun:26c24c740b9702a4679a3506",
+          "title": "모두다 충천한 투쟁기세와 고도의 분발력으로 올해 과업을 완벽하게 수행하자!\n척후전선에 나래치는 계속전진의 기상\n석탄공업부문에서 수십개의 채탄중대가 년간계획 완수 [1면]",
+          "date": "2026-10-05",
+          "snippet": "모두다 충천한 투쟁기세와 고도의 분발력으로 올해 과업을 완벽하게 수행하자!",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNS0wNTZAMkAxQEAwQDNA==",
+          "mediaType": "article",
+          "categories": [
+            "important"
+          ],
+          "categoryOrders": {
+            "important": 2
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A26c24c740b9702a4679a3506"
+        },
+        {
+          "id": "news:rodong-sinmun:1b538aaedbf4b48dca68b87b",
+          "title": "모두다 충천한 투쟁기세와 고도의 분발력으로 올해 과업을 완벽하게 수행하자!\n질제고를 위한 기술혁신경쟁을 활발히\n경공업부문의 공장, 기업소들에서 [1면]",
+          "date": "2026-10-05",
+          "snippet": "모두다 충천한 투쟁기세와 고도의 분발력으로 올해 과업을 완벽하게 수행하자!",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNS0wNTdAMkAxQEAwQDRA==",
+          "mediaType": "article",
+          "categories": [
+            "important"
+          ],
+          "categoryOrders": {
+            "important": 3
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A1b538aaedbf4b48dca68b87b"
+        },
+        {
+          "id": "news:rodong-sinmun:c14cc226c00b502291ee5844",
+          "title": "모두다 충천한 투쟁기세와 고도의 분발력으로 올해 과업을 완벽하게 수행하자!\n당의 숙원실현을 위한 투쟁로정을 새 기록창조로 줄기차게 이어간다\n올해 지방발전정책대상건설에 참가한 인민군부대들에서 [1면]",
+          "date": "2026-10-05",
+          "snippet": "모두다 충천한 투쟁기세와 고도의 분발력으로 올해 과업을 완벽하게 수행하자!",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNS0wNThAMkAxQEAwQDVA==",
+          "mediaType": "article",
+          "categories": [
+            "important"
+          ],
+          "categoryOrders": {
+            "important": 4
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/4d5cfc82a8c60d4beb1d843e638870633ac050763a07b1772d7d2677a7a42c21.jpg",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ac14cc226c00b502291ee5844"
+        },
+        {
+          "id": "news:rodong-sinmun:70682974ed1cdfc1da0ab534",
+          "title": "세상에서 제일 좋은 인민의 보금자리\n경애하는 총비서동지의 은정속에 수도 평양의 화성지구에서\n복된 삶을 누리는 사람들의 격정을 전하며",
+          "date": "2026-10-05",
+          "snippet": "세상에서 제일 좋은 인민의 보금자리",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNS0wMTlAMkAxQEAwQDZA==",
+          "mediaType": "article",
+          "categories": [
+            "important"
+          ],
+          "categoryOrders": {
+            "important": 5
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A70682974ed1cdfc1da0ab534"
         },
         {
           "id": "news:rodong-sinmun:70304a8e9e82f7f15246330c",
@@ -1229,165 +1405,11 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A70304a8e9e82f7f15246330c"
         },
         {
-          "id": "news:rodong-sinmun:751f417c321a6c6b4622bb45",
+          "id": "news:rodong-sinmun:929cc612986c3738ec4cd8a2",
           "title": "당결정관철의 전구들에서 현지보도조가 보내온 소식\n년간계획완수단위들이 계속 늘어난다\n검덕광업련합기업소에서",
           "date": "2026-10-04",
           "snippet": "당결정관철의 전구들에서 현지보도조가 보내온 소식",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNC0wNDlANEAxQEAwQDFA==",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 0
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A751f417c321a6c6b4622bb45"
-        },
-        {
-          "id": "news:rodong-sinmun:8b306feaf6e305109e3b545f",
-          "title": "나라의 과학기술발전을 위한 길에서\n중요하게 강조하신 문제",
-          "date": "2026-10-04",
-          "snippet": "나라의 과학기술발전을 위한 길에서",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNC0wNTFAM0AxQEAwQDFA==",
-          "mediaType": "article",
-          "categories": [
-            "anecdote"
-          ],
-          "categoryOrders": {
-            "anecdote": 0
-          },
-          "featuredSections": [
-            "anecdote"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A8b306feaf6e305109e3b545f"
-        },
-        {
-          "id": "news:rodong-sinmun:d855c1a993216b1e48316d0b",
-          "title": "우리 당규약을 깊이 학습하자!\n조선로동당의 성격 [2면]",
-          "date": "2026-10-04",
-          "snippet": "우리 당규약을 깊이 학습하자!",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNC0wNTBAMkAxQEAwQDJA==",
-          "mediaType": "article",
-          "categories": [
-            "important"
-          ],
-          "categoryOrders": {
-            "important": 1
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ad855c1a993216b1e48316d0b"
-        },
-        {
-          "id": "news:rodong-sinmun:6887d627ccdb34b1ba1579ee",
-          "title": "나라의 과학기술발전을 위한 길에서\n중요하게 강조하신 문제",
-          "date": "2026-10-04",
-          "snippet": "나라의 과학기술발전을 위한 길에서",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNC0wNTFAMkAxQEAwQDNA==",
-          "mediaType": "article",
-          "categories": [
-            "important"
-          ],
-          "categoryOrders": {
-            "important": 2
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A6887d627ccdb34b1ba1579ee"
-        },
-        {
-          "id": "news:rodong-sinmun:47d414520f9b417de9123b47",
-          "title": "당창건의 력사적위업을 빛나게 실현하신\n위대한 수령님의 불멸의 업적을 깊이 새겨안는다.\n-당창건사적관에서-",
-          "date": "2026-10-04",
-          "snippet": "당창건의 력사적위업을 빛나게 실현하신",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNC0wNTJAMkAxQEAwQDRA==",
-          "mediaType": "article",
-          "categories": [
-            "important"
-          ],
-          "categoryOrders": {
-            "important": 3
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/9db5a68ac094876c9277ad08c33c0e1a14905230aa03e0fc503ce99c3e271a86.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A47d414520f9b417de9123b47"
-        },
-        {
-          "id": "news:rodong-sinmun:3097d011cb2b920323247dca",
-          "title": "정치용어해설\n정치생활 [2면]",
-          "date": "2026-10-04",
-          "snippet": "정치용어해설",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNC0wNTNAMkAxQEAwQDVA==",
-          "mediaType": "article",
-          "categories": [
-            "important"
-          ],
-          "categoryOrders": {
-            "important": 4
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A3097d011cb2b920323247dca"
-        },
-        {
-          "id": "news:rodong-sinmun:5eb52d17b083aaefbbd79930",
-          "title": "우리 시대 발전의 공식",
-          "date": "2026-10-04",
-          "snippet": "우리 시대 발전의 공식",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNC0wNTRAMkAxQEAwQDZA==",
-          "mediaType": "article",
-          "categories": [
-            "important"
-          ],
-          "categoryOrders": {
-            "important": 5
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A5eb52d17b083aaefbbd79930"
-        },
-        {
-          "id": "news:rodong-sinmun:a403e982c562e26b7a4bc3aa",
-          "title": "새시대 교육혁명의 요구에 맞게 훌륭히 일떠선 평양제2사범대학 준공식 진행",
-          "date": "2026-10-03",
-          "snippet": "새시대 교육혁명의 요구에 맞게 훌륭히 일떠선 평양제2사범대학 준공식 진행",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wMy0wMjBANEAxQEAwQDJA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNC0wNDlANEAxQEAwQDJA==",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -1398,18 +1420,40 @@
           "featuredSections": [
             "domestic"
           ],
-          "hasImage": true,
+          "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/0a1774c129918020ec37c86ad2caf7afae9ba4e9158689771001285fc707b2dd.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aa403e982c562e26b7a4bc3aa"
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A929cc612986c3738ec4cd8a2"
         },
         {
-          "id": "news:rodong-sinmun:435ca9c9d11581cc5803079d",
-          "title": "새로운 5개년계획의 첫해 과업관철을 위한 전인민적인 전진기세 더욱 고조\n인민경제 여러 부문, 단위에서 3.4분기, 9월 인민경제계획 완수",
+          "id": "news:rodong-sinmun:a7c0ea633ce6ec8bf3e6e0e2",
+          "title": "나라의 과학기술발전을 위한 길에서\n중요하게 강조하신 문제",
+          "date": "2026-10-04",
+          "snippet": "나라의 과학기술발전을 위한 길에서",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wNC0wNTFAM0AxQEAwQDNA==",
+          "mediaType": "article",
+          "categories": [
+            "anecdote"
+          ],
+          "categoryOrders": {
+            "anecdote": 2
+          },
+          "featuredSections": [
+            "anecdote"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aa7c0ea633ce6ec8bf3e6e0e2"
+        },
+        {
+          "id": "news:rodong-sinmun:bcadc17d4893dbfa8c802c4c",
+          "title": "새시대 교육혁명의 요구에 맞게 훌륭히 일떠선 평양제2사범대학 준공식 진행",
           "date": "2026-10-03",
-          "snippet": "새로운 5개년계획의 첫해 과업관철을 위한 전인민적인 전진기세 더욱 고조",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wMy0wMjNANEAxQEAwQDNA==",
+          "snippet": "새시대 교육혁명의 요구에 맞게 훌륭히 일떠선 평양제2사범대학 준공식 진행",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wMy0wMjBANEAxQEAwQDNA==",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -1423,8 +1467,30 @@
           "hasImage": true,
           "hasVideo": false,
           "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/0a1774c129918020ec37c86ad2caf7afae9ba4e9158689771001285fc707b2dd.jpg",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Abcadc17d4893dbfa8c802c4c"
+        },
+        {
+          "id": "news:rodong-sinmun:56bfa3bc9a48d1eecf55d075",
+          "title": "새로운 5개년계획의 첫해 과업관철을 위한 전인민적인 전진기세 더욱 고조\n인민경제 여러 부문, 단위에서 3.4분기, 9월 인민경제계획 완수",
+          "date": "2026-10-03",
+          "snippet": "새로운 5개년계획의 첫해 과업관철을 위한 전인민적인 전진기세 더욱 고조",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wMy0wMjNANEAxQEAwQDRA==",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 3
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "",
           "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/d950d87156f760b2a8fd3e42b4c89ec7e46026cbc50b8e5486323347ec573ff8.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A435ca9c9d11581cc5803079d"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A56bfa3bc9a48d1eecf55d075"
         },
         {
           "id": "news:rodong-sinmun:885ee7b08452296fab487137",
@@ -1449,28 +1515,6 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A885ee7b08452296fab487137"
         },
         {
-          "id": "news:rodong-sinmun:4065006872f175c17f14dcaa",
-          "title": "끝없이 이어가시는 위민헌신의 길에서\n그대로 흘려보내서는 안된다",
-          "date": "2026-10-02",
-          "snippet": "끝없이 이어가시는 위민헌신의 길에서",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wMi0wMjFAM0AxQEAwQDJA==",
-          "mediaType": "article",
-          "categories": [
-            "anecdote"
-          ],
-          "categoryOrders": {
-            "anecdote": 1
-          },
-          "featuredSections": [
-            "anecdote"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A4065006872f175c17f14dcaa"
-        },
-        {
           "id": "news:rodong-sinmun:f424d77b0df6f45259313250",
           "title": "경애하는 김정은동지께서\n김일성종합대학의 교원, 연구사들과 기념사진을 찍으시였다",
           "date": "2026-10-02",
@@ -1491,6 +1535,28 @@
           "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8xMC8wMi8xLzIwMjYtMTAtMDItMDE2LzIwMjYtMTAtMDItMDAyLmpwZw==",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Af424d77b0df6f45259313250"
+        },
+        {
+          "id": "news:rodong-sinmun:d2682d684cff5bef6e464fbc",
+          "title": "끝없이 이어가시는 위민헌신의 길에서\n그대로 흘려보내서는 안된다",
+          "date": "2026-10-02",
+          "snippet": "끝없이 이어가시는 위민헌신의 길에서",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0wMi0wMjFAM0AxQEAwQDRA==",
+          "mediaType": "article",
+          "categories": [
+            "anecdote"
+          ],
+          "categoryOrders": {
+            "anecdote": 3
+          },
+          "featuredSections": [
+            "anecdote"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ad2682d684cff5bef6e464fbc"
         },
         {
           "id": "news:rodong-sinmun:2a90cdef10f3bab096157c4c",
@@ -1537,99 +1603,11 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A97fa97d093654ced428dfe8a"
         },
         {
-          "id": "news:rodong-sinmun:f754050f51520ecb71b81cee",
+          "id": "news:rodong-sinmun:aa681090963444ce461a5af3",
           "title": "인민을 매혹시키는 위인의 세계\n자연박물관이 전하는 이야기",
           "date": "2026-09-30",
           "snippet": "인민을 매혹시키는 위인의 세계",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0zMC0wMThAM0AxQEAwQDNA==",
-          "mediaType": "article",
-          "categories": [
-            "anecdote"
-          ],
-          "categoryOrders": {
-            "anecdote": 2
-          },
-          "featuredSections": [
-            "anecdote"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Af754050f51520ecb71b81cee"
-        },
-        {
-          "id": "news:rodong-sinmun:1081faffe909760f4df8689b",
-          "title": "정신력의 강자들을 키우시는 길에서\n중요하게 강조하신 화선식정치사업",
-          "date": "2026-09-30",
-          "snippet": "정신력의 강자들을 키우시는 길에서",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0zMC0wMjBAM0AxQEAwQDRA==",
-          "mediaType": "article",
-          "categories": [
-            "anecdote"
-          ],
-          "categoryOrders": {
-            "anecdote": 3
-          },
-          "featuredSections": [
-            "anecdote"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A1081faffe909760f4df8689b"
-        },
-        {
-          "id": "news:rodong-sinmun:e1d43d46f0f89633c9ebb01d",
-          "title": "우리 선수들 제20차 아시아경기대회 녀자축구결승경기에 진출",
-          "date": "2026-09-30",
-          "snippet": "우리 선수들 제20차 아시아경기대회 녀자축구결승경기에 진출",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0zMC0wMzFANEAxQEAwQDRA==",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 3
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/1374d32cf756ac45be3f2d98307e5c5f68d460642e5e528d610cceb9790c598f.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ae1d43d46f0f89633c9ebb01d"
-        },
-        {
-          "id": "news:rodong-sinmun:caf017f948831ac7f8cdc148",
-          "title": "전력, 석탄공업부문의 생산적앙양은 경제전반에 활력을 더해준다\n책임감을 백배하며 증산투쟁에 분기\n각지 화력발전소들에서",
-          "date": "2026-09-29",
-          "snippet": "전력, 석탄공업부문의 생산적앙양은 경제전반에 활력을 더해준다",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yOS0wMTZANEAxQEAwQDVA==",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 4
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/9533fdcdc8c6fc8f284ad36586e619e2acda3d9ce3f8ace7c9ea8ab765e63c58.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Acaf017f948831ac7f8cdc148"
-        },
-        {
-          "id": "news:rodong-sinmun:ff61e319306abde0f06a10c7",
-          "title": "끝없이 이어가시는 위민헌신의 길에서\n어느 하나도 흠잡을데가 없게",
-          "date": "2026-09-29",
-          "snippet": "끝없이 이어가시는 위민헌신의 길에서",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0yOS0wMjBAM0AxQEAwQDVA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0zMC0wMThAM0AxQEAwQDVA==",
           "mediaType": "article",
           "categories": [
             "anecdote"
@@ -1644,7 +1622,29 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aff61e319306abde0f06a10c7"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aaa681090963444ce461a5af3"
+        },
+        {
+          "id": "news:rodong-sinmun:d1d29ce79a5fcaf809302ca1",
+          "title": "우리 선수들 제20차 아시아경기대회 녀자축구결승경기에 진출",
+          "date": "2026-09-30",
+          "snippet": "우리 선수들 제20차 아시아경기대회 녀자축구결승경기에 진출",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wOS0zMC0wMzFANEAxQEAwQDVA==",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 4
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/1374d32cf756ac45be3f2d98307e5c5f68d460642e5e528d610cceb9790c598f.jpg",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ad1d29ce79a5fcaf809302ca1"
         },
         {
           "id": "news:rodong-sinmun:509712626f449b6ac256a69e",
