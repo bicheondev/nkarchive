@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "c1cc4472ab1fa0e2",
+  "version": "191afce71eb20965",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "social",
   "page": 134,
   "pageSize": 5,
-  "totalItems": 669,
+  "totalItems": 667,
   "totalPages": 134,
   "articles": [
+    {
+      "id": "news:kcna:824dc06daa490f1a4752e431",
+      "title": "뽀르뚜갈에서 반이스라엘집회",
+      "date": "2025-10-08",
+      "snippet": "(평양 10월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5ae485467a850b81ecaefd5e5b431a67",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "social"
+      ],
+      "categoryOrders": {
+        "international": 2764,
+        "social": 665
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A824dc06daa490f1a4752e431"
+    },
     {
       "id": "news:kcna:afe6b4d70488eb5becadebb6",
       "title": "평안남도 평원군 삼봉리와 운봉리에서 새집들이 진행",
@@ -23,8 +45,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 4161,
-        "social": 665
+        "domestic": 4168,
+        "social": 666
       },
       "featuredSections": [],
       "hasImage": true,
@@ -32,72 +54,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12a74a684a562be30ed159575a981c470b",
       "cachedThumbnailUrl": "/data/news/assets/kcna/23c2e0c5054610196c1a22643d3eec21cad0c6ad9262f705c1a22af8fb754f8c.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Aafe6b4d70488eb5becadebb6"
-    },
-    {
-      "id": "news:kcna:c0437c69cc5890f9aa565509",
-      "title": "네데를란드에서 반이스라엘시위",
-      "date": "2025-10-07",
-      "snippet": "(평양 10월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/bdcd931c5a857efa87d5b1286254fcf2",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "social"
-      ],
-      "categoryOrders": {
-        "international": 2765,
-        "social": 666
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac0437c69cc5890f9aa565509"
-    },
-    {
-      "id": "news:kcna:cf560ae5996350af4736881b",
-      "title": "함경남도 락원군 세포농장에서 살림집입사모임 진행",
-      "date": "2025-10-07",
-      "snippet": "(평양 10월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2bae6a32d4d40fa08214deb8dad2cd42",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 4179,
-        "social": 667
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/6e97ab22b173624d414bd42be2e439bb5e55ce1ab577dce2c39fc579c1c5c726",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/2bcb99b58c60dfdcffef027fb71c9a714124f2181739dba13ad9188204ccbd9b.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acf560ae5996350af4736881b"
-    },
-    {
-      "id": "news:kcna:802a1709d22cee86da79f8fb",
-      "title": "남포시의 청년들 어렵고 힘든 부문으로 또다시 탄원",
-      "date": "2025-10-07",
-      "snippet": "(평양 10월 7일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8b68b5ff63696a7e4efbccc80cb86b32",
-      "mediaType": "article",
-      "categories": [
-        "domestic",
-        "social"
-      ],
-      "categoryOrders": {
-        "domestic": 4181,
-        "social": 668
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A802a1709d22cee86da79f8fb"
     }
   ]
 }

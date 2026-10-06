@@ -1,25 +1,50 @@
 {
   "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "c1cc4472ab1fa0e2",
+  "version": "191afce71eb20965",
   "sources": {
     "kcna": {
       "id": "kcna",
       "name": "조선중앙통신",
-      "totalItems": 8785,
+      "totalItems": 8763,
       "categoryCounts": {
-        "leadership": 226,
-        "important": 530,
+        "leadership": 224,
+        "important": 529,
         "international": 2772,
-        "photo": 1034,
+        "photo": 1026,
         "anecdote": 102,
-        "document": 70,
-        "foreign": 791,
-        "video": 258,
-        "memory": 216,
-        "domestic": 4186,
-        "social": 669
+        "document": 71,
+        "foreign": 785,
+        "video": 257,
+        "memory": 215,
+        "domestic": 4176,
+        "social": 667
       },
       "articles": [
+        {
+          "id": "news:kcna:28eac00e381ffc8bfd8e69b9",
+          "title": "평안북도의 학생소년들이 마련한 《소년》호농기계증정모임 진행",
+          "date": "2026-10-06",
+          "snippet": "(평양 10월 6일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/93d2a3efa90498d5ea48952dc3dff039",
+          "mediaType": "article",
+          "categories": [
+            "domestic",
+            "social"
+          ],
+          "categoryOrders": {
+            "domestic": 2,
+            "social": 0
+          },
+          "featuredSections": [
+            "domestic",
+            "social"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A28eac00e381ffc8bfd8e69b9"
+        },
         {
           "id": "news:kcna:3ef1cd6ccce2d79c3c3e4480",
           "title": "박태성 내각총리 여러 부문 사업 현지료해",
@@ -43,28 +68,26 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A3ef1cd6ccce2d79c3c3e4480"
         },
         {
-          "id": "news:kcna:56d6c82467c5a0c9b20f837d",
-          "title": "각급 농근맹조직들에서 선전선동공세 강화",
+          "id": "news:kcna:473568fab4750c8ed96304f9",
+          "title": "에스빠냐전역에서 주택위기에 항의하여 시위",
           "date": "2026-10-06",
           "snippet": "(평양 10월 6일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/647f99e0f7887868975ac78e4aaab8aa",
+          "url": "http://www.kcna.kp/kp/article/detail/62de8f823e56583207a228f8644d373c",
           "mediaType": "article",
           "categories": [
-            "domestic",
-            "social"
+            "international"
           ],
           "categoryOrders": {
-            "domestic": 5,
-            "social": 0
+            "international": 0
           },
           "featuredSections": [
-            "social"
+            "international"
           ],
           "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A56d6c82467c5a0c9b20f837d"
+          "detailUrl": "/news/document?id=news%3Akcna%3A473568fab4750c8ed96304f9"
         },
         {
           "id": "news:kcna:68ce9501c50e641ad8dd6e5b",
@@ -89,29 +112,35 @@
           "detailUrl": "/news/document?id=news%3Akcna%3A68ce9501c50e641ad8dd6e5b"
         },
         {
-          "id": "news:kcna:74cac7adcaef2400a0604b8f",
-          "title": "박태성 내각총리 여러 부문 사업 현지료해",
+          "id": "news:kcna:6c1c3d4bae3739e3801ceeff",
+          "title": "조선민주주의인민공화국 외무성 성명 발표",
           "date": "2026-10-06",
           "snippet": "(평양 10월 6일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/210308515bbc6359eec47a60614958a5",
+          "url": "http://www.kcna.kp/kp/article/detail/10130e02ee714da93817cd184f80ebaa",
           "mediaType": "article",
           "categories": [
             "important",
+            "document",
+            "foreign",
             "domestic"
           ],
           "categoryOrders": {
             "important": 0,
-            "domestic": 2
+            "document": 0,
+            "foreign": 0,
+            "domestic": 0
           },
           "featuredSections": [
             "important",
+            "document",
+            "foreign",
             "domestic"
           ],
-          "hasImage": true,
+          "hasImage": false,
           "hasVideo": false,
-          "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2da3fdf557dca1cd21470e44b6be9f37ea9",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/1bcefa948c57f99d69c5e710f05f0bf7e15f01cdf7682399659b688e6dc7b760.jpg",
-          "detailUrl": "/news/document?id=news%3Akcna%3A74cac7adcaef2400a0604b8f"
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A6c1c3d4bae3739e3801ceeff"
         },
         {
           "id": "news:kcna:b35bc1f071e8e4aed49182b1",
@@ -136,33 +165,11 @@
           "detailUrl": "/news/document?id=news%3Akcna%3Ab35bc1f071e8e4aed49182b1"
         },
         {
-          "id": "news:kcna:c88b3729a790ed1f8930b0b7",
-          "title": "2026년 10월 6일 신문개관",
+          "id": "news:kcna:4c3b1f2fd28d505806d453f6",
+          "title": "평양종합병원 준공후 지난 1년간 연 40여만명에 대한 의료봉사와 1 000여건의 먼거리의료봉사체계를 통한 협의 및 기술강의 진행",
           "date": "2026-10-06",
           "snippet": "(평양 10월 6일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/712576f4dac3b7823aed273fe266df3d",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 0
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Ac88b3729a790ed1f8930b0b7"
-        },
-        {
-          "id": "news:kcna:c782c9b451416d9c8878d251",
-          "title": "《로동신문》 조선로동당의 정책은 우리 인민의 드높은 자신심과 무한한 창조력의 원천이라고 강조",
-          "date": "2026-10-06",
-          "snippet": "(평양 10월 6일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/674db316b3aed663ae4587738349c8b4",
+          "url": "http://www.kcna.kp/kp/article/detail/097ad526b29a5fee5b13759b2163c484",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -177,14 +184,84 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Ac782c9b451416d9c8878d251"
+          "detailUrl": "/news/document?id=news%3Akcna%3A4c3b1f2fd28d505806d453f6"
         },
         {
-          "id": "news:kcna:b754c3a48433367c47e52a90",
-          "title": "모범적인 학교들에 영예의 붉은기 수여",
+          "id": "news:kcna:56d6c82467c5a0c9b20f837d",
+          "title": "각급 농근맹조직들에서 선전선동공세 강화",
           "date": "2026-10-06",
           "snippet": "(평양 10월 6일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/aee1f156a6d7162abf4bfd982bd67492",
+          "url": "http://www.kcna.kp/kp/article/detail/647f99e0f7887868975ac78e4aaab8aa",
+          "mediaType": "article",
+          "categories": [
+            "domestic",
+            "social"
+          ],
+          "categoryOrders": {
+            "domestic": 12,
+            "social": 1
+          },
+          "featuredSections": [
+            "social"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A56d6c82467c5a0c9b20f837d"
+        },
+        {
+          "id": "news:kcna:74cac7adcaef2400a0604b8f",
+          "title": "박태성 내각총리 여러 부문 사업 현지료해",
+          "date": "2026-10-06",
+          "snippet": "(평양 10월 6일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/210308515bbc6359eec47a60614958a5",
+          "mediaType": "article",
+          "categories": [
+            "important",
+            "domestic"
+          ],
+          "categoryOrders": {
+            "important": 1,
+            "domestic": 9
+          },
+          "featuredSections": [
+            "important"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2da3fdf557dca1cd21470e44b6be9f37ea9",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/1bcefa948c57f99d69c5e710f05f0bf7e15f01cdf7682399659b688e6dc7b760.jpg",
+          "detailUrl": "/news/document?id=news%3Akcna%3A74cac7adcaef2400a0604b8f"
+        },
+        {
+          "id": "news:kcna:7d17a98561999cb7c33ab809",
+          "title": "까리브해에서 계속되는 미군의 민간선박사냥",
+          "date": "2026-10-06",
+          "snippet": "(평양 10월 6일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/6c3d39ac43e760ce1572887f1bb19ab0",
+          "mediaType": "article",
+          "categories": [
+            "international"
+          ],
+          "categoryOrders": {
+            "international": 1
+          },
+          "featuredSections": [
+            "international"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A7d17a98561999cb7c33ab809"
+        },
+        {
+          "id": "news:kcna:bd0ef9e803467d2844f9dc4f",
+          "title": "평양시에서 태양빛발전소들의 정상운영과 새로운 발전능력조성을 위한 사업 전개",
+          "date": "2026-10-06",
+          "snippet": "(평양 10월 6일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/426cd76d29cb1ef7a75f13badadebc98",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -199,14 +276,14 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Ab754c3a48433367c47e52a90"
+          "detailUrl": "/news/document?id=news%3Akcna%3Abd0ef9e803467d2844f9dc4f"
         },
         {
-          "id": "news:kcna:50d82711bc4a21f3e12b8414",
-          "title": "모범적인 단위들에 3대혁명붉은기 수여",
+          "id": "news:kcna:db8efd2df0d15797e1f49c85",
+          "title": "대안중기계련합기업소에서 대상설비생산성과 확대",
           "date": "2026-10-06",
           "snippet": "(평양 10월 6일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/a6911db6977105b2c2122c694a96d36b",
+          "url": "http://www.kcna.kp/kp/article/detail/c25749c357c5df65b3614aae0d42e7c0",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -221,29 +298,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A50d82711bc4a21f3e12b8414"
-        },
-        {
-          "id": "news:kcna:1adbcc22c3402e26dd13cf67",
-          "title": "로씨야외무성 외국인들이 우크라이나에 체류하지 말것을 경고",
-          "date": "2026-10-05",
-          "snippet": "(모스크바 10월 4일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/63a60d87a9bc74d9f9e43c503605cbeb",
-          "mediaType": "article",
-          "categories": [
-            "international"
-          ],
-          "categoryOrders": {
-            "international": 0
-          },
-          "featuredSections": [
-            "international"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A1adbcc22c3402e26dd13cf67"
+          "detailUrl": "/news/document?id=news%3Akcna%3Adb8efd2df0d15797e1f49c85"
         },
         {
           "id": "news:kcna:077b972134da085583c1ae3a",
@@ -301,8 +356,8 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 9,
-            "social": 1
+            "domestic": 16,
+            "social": 2
           },
           "featuredSections": [
             "social"
@@ -312,28 +367,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3Ab77b98c019b601807bbc72ee"
-        },
-        {
-          "id": "news:kcna:ea1c2c3f43271e8d9fb20ebf",
-          "title": "네데를란드에서 에네르기가격 폭등",
-          "date": "2026-10-05",
-          "snippet": "(평양 10월 5일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/f5575ad7dec35e84287417e2e9d81f56",
-          "mediaType": "article",
-          "categories": [
-            "international"
-          ],
-          "categoryOrders": {
-            "international": 1
-          },
-          "featuredSections": [
-            "international"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3Aea1c2c3f43271e8d9fb20ebf"
         },
         {
           "id": "news:kcna:b9efaa7d343649374b8f6055",
@@ -347,8 +380,8 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 11,
-            "social": 2
+            "domestic": 18,
+            "social": 3
           },
           "featuredSections": [
             "social"
@@ -393,8 +426,8 @@
             "domestic"
           ],
           "categoryOrders": {
-            "foreign": 0,
-            "domestic": 20
+            "foreign": 1,
+            "domestic": 27
           },
           "featuredSections": [
             "foreign"
@@ -439,8 +472,8 @@
             "social"
           ],
           "categoryOrders": {
-            "domestic": 17,
-            "social": 3
+            "domestic": 24,
+            "social": 4
           },
           "featuredSections": [
             "social"
@@ -487,10 +520,10 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 2,
-            "document": 0,
-            "foreign": 1,
-            "domestic": 31
+            "important": 3,
+            "document": 1,
+            "foreign": 2,
+            "domestic": 38
           },
           "featuredSections": [
             "important",
@@ -515,8 +548,8 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 1,
-            "domestic": 26
+            "important": 2,
+            "domestic": 33
           },
           "featuredSections": [
             "important"
@@ -539,8 +572,8 @@
             "domestic"
           ],
           "categoryOrders": {
-            "foreign": 2,
-            "domestic": 34
+            "foreign": 3,
+            "domestic": 41
           },
           "featuredSections": [
             "foreign"
@@ -572,60 +605,6 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2da2a2daf5b8545fbbf1aee89cba6a5fa5a",
           "cachedThumbnailUrl": "/data/news/assets/kcna/b83764049069c83050fedce0491e00b24c9b31c8d11a15f574008cc1a429b940.jpg",
           "detailUrl": "/news/document?id=news%3Akcna%3A8070c7509bc912ea8a68cfa9"
-        },
-        {
-          "id": "news:kcna:8d7248b0bad3218ba68f8e35",
-          "title": "황해북도의 청년들 당정책관철의 전구들로 탄원",
-          "date": "2026-10-03",
-          "snippet": "(평양 10월 3일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/ad2f5f0a67b8eb7c2b60c3041aeceac5",
-          "mediaType": "article",
-          "categories": [
-            "domestic",
-            "social"
-          ],
-          "categoryOrders": {
-            "domestic": 30,
-            "social": 4
-          },
-          "featuredSections": [
-            "social"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A8d7248b0bad3218ba68f8e35"
-        },
-        {
-          "id": "news:kcna:1c2cea9ac1dbae887beeda6e",
-          "title": "김여정 조선로동당 중앙위원회 부장 한국과의 그 어떤 대화가능성도 철저히 불허할 공식립장을 재천명",
-          "date": "2026-10-02",
-          "snippet": "(평양 10월 2일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/cc9a0b4dbe69e54f406efbaac9eedeca",
-          "mediaType": "article",
-          "categories": [
-            "important",
-            "document",
-            "foreign",
-            "domestic"
-          ],
-          "categoryOrders": {
-            "important": 3,
-            "document": 1,
-            "foreign": 3,
-            "domestic": 38
-          },
-          "featuredSections": [
-            "important",
-            "document",
-            "foreign"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A1c2cea9ac1dbae887beeda6e"
         },
         {
           "id": "news:kcna:b2af4de7c50a786065ea071f",
@@ -672,6 +651,36 @@
           "detailUrl": "/news/document?id=news%3Akcna%3Af37b0811a899c226b1d8b207"
         },
         {
+          "id": "news:kcna:1c2cea9ac1dbae887beeda6e",
+          "title": "김여정 조선로동당 중앙위원회 부장 한국과의 그 어떤 대화가능성도 철저히 불허할 공식립장을 재천명",
+          "date": "2026-10-02",
+          "snippet": "(평양 10월 2일발 조선중앙통신)",
+          "url": "http://www.kcna.kp/kp/article/detail/cc9a0b4dbe69e54f406efbaac9eedeca",
+          "mediaType": "article",
+          "categories": [
+            "important",
+            "document",
+            "foreign",
+            "domestic"
+          ],
+          "categoryOrders": {
+            "important": 4,
+            "document": 2,
+            "foreign": 4,
+            "domestic": 45
+          },
+          "featuredSections": [
+            "important",
+            "document",
+            "foreign"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Akcna%3A1c2cea9ac1dbae887beeda6e"
+        },
+        {
           "id": "news:kcna:623a116167156fa6b1d75cdb",
           "title": "중소형발전소건설의 새 력사를 펼치시여",
           "date": "2026-10-02",
@@ -707,10 +716,10 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 4,
-            "document": 2,
-            "foreign": 4,
-            "domestic": 39
+            "important": 5,
+            "document": 3,
+            "foreign": 5,
+            "domestic": 46
           },
           "featuredSections": [
             "important",
@@ -744,30 +753,6 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2da6c8d4ddffcca9e9ecaeab5d5a993b268",
           "cachedThumbnailUrl": "/data/news/assets/kcna/39e27d695b3f139796737e9eb3e629c0a07e0f9d1b6236b2d01c60bfc87fe253.jpg",
           "detailUrl": "/news/document?id=news%3Akcna%3A4ebf852c578571e24c407aa3"
-        },
-        {
-          "id": "news:kcna:18dece9d3b2683e793ff2fdc",
-          "title": "우리 나라 외무상 중화인민공화국 외교부장에게 축전",
-          "date": "2026-10-02",
-          "snippet": "(평양 10월 2일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/4d93349e7f215c7789173c7095e395e9",
-          "mediaType": "article",
-          "categories": [
-            "foreign",
-            "domestic"
-          ],
-          "categoryOrders": {
-            "foreign": 5,
-            "domestic": 47
-          },
-          "featuredSections": [
-            "foreign"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A18dece9d3b2683e793ff2fdc"
         },
         {
           "id": "news:kcna:d4bc0eeb3d29ef9f67bd0dc5",
@@ -856,32 +841,6 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2daacb5243de97fb586e197302b9976cd8c",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A62913d4a4f3ed26416796e48"
-        },
-        {
-          "id": "news:kcna:17fcfe8c247f3843158c557f",
-          "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지에게 축전을 보내시였다",
-          "date": "2026-10-01",
-          "snippet": "(평양 10월 1일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/c458baecfed4f26e22857e8eef30c113",
-          "mediaType": "article",
-          "categories": [
-            "important",
-            "foreign",
-            "domestic"
-          ],
-          "categoryOrders": {
-            "important": 5,
-            "foreign": 9,
-            "domestic": 65
-          },
-          "featuredSections": [
-            "important"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A17fcfe8c247f3843158c557f"
         },
         {
           "id": "news:kcna:3343c8a3970a74cbbce5ed5c",
@@ -985,10 +944,10 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 10,
-            "document": 4,
-            "foreign": 18,
-            "domestic": 93
+            "important": 11,
+            "document": 5,
+            "foreign": 19,
+            "domestic": 100
           },
           "featuredSections": [
             "document"
@@ -1057,10 +1016,10 @@
             "domestic"
           ],
           "categoryOrders": {
-            "important": 16,
-            "document": 5,
-            "foreign": 35,
-            "domestic": 149
+            "important": 17,
+            "document": 6,
+            "foreign": 36,
+            "domestic": 156
           },
           "featuredSections": [
             "document"
@@ -1114,34 +1073,6 @@
           "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba2e2e464c998a1245896765f2ffa231f5",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Akcna%3A85c83e17f80bd3227675118e"
-        },
-        {
-          "id": "news:kcna:1bdea89d45c692df9ae81b0d",
-          "title": "조선민주주의인민공화국 외무성 대변인담화 발표",
-          "date": "2026-09-19",
-          "snippet": "(평양 9월 19일발 조선중앙통신)",
-          "url": "http://www.kcna.kp/kp/article/detail/551cb53d9d184def31fedaebb231ea56",
-          "mediaType": "article",
-          "categories": [
-            "important",
-            "document",
-            "foreign",
-            "domestic"
-          ],
-          "categoryOrders": {
-            "important": 22,
-            "document": 7,
-            "foreign": 45,
-            "domestic": 209
-          },
-          "featuredSections": [
-            "document"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Akcna%3A1bdea89d45c692df9ae81b0d"
         },
         {
           "id": "news:kcna:b714efb6b0bf9f64302f7901",

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "c1cc4472ab1fa0e2",
+  "version": "191afce71eb20965",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 4,
   "pageSize": 5,
-  "totalItems": 791,
-  "totalPages": 159,
+  "totalItems": 785,
+  "totalPages": 157,
   "articles": [
+    {
+      "id": "news:kcna:b8444c313df4564e045f08b8",
+      "title": "조선민주주의인민공화국 국방성대표단 윁남사회주의공화국을 방문하고 귀국",
+      "date": "2026-09-30",
+      "snippet": "(평양 9월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/697da425df507ee62f9d41e719e8815f",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 15,
+        "domestic": 84
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab8444c313df4564e045f08b8"
+    },
     {
       "id": "news:kcna:a0fd1dba65c658b540a48718",
       "title": "제2차 조로학장연단 진행",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 15,
-        "domestic": 78
+        "foreign": 16,
+        "domestic": 85
       },
       "featuredSections": [],
       "hasImage": true,
@@ -45,8 +67,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 16,
-        "domestic": 79
+        "foreign": 17,
+        "domestic": 86
       },
       "featuredSections": [],
       "hasImage": true,
@@ -67,8 +89,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 17,
-        "domestic": 86
+        "foreign": 18,
+        "domestic": 93
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,10 +113,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 10,
-        "document": 4,
-        "foreign": 18,
-        "domestic": 93
+        "important": 11,
+        "document": 5,
+        "foreign": 19,
+        "domestic": 100
       },
       "featuredSections": [
         "document"
@@ -104,28 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Acbf22904e4b74d5e48b6302c"
-    },
-    {
-      "id": "news:kcna:2f0e4cb2fc693cac6cb7901f",
-      "title": "로씨야외무성산하 외교단복무총국대표단 도착",
-      "date": "2026-09-29",
-      "snippet": "(평양 9월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8dea911a30e3d7fa5d78463dfdbdf173",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 19,
-        "domestic": 97
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45babb051183e1641ae451fe34a269fbe75e",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/5c3a02dc52f4841a4c6f616061687faacb8774bb4d7b72581c977001f982a957.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2f0e4cb2fc693cac6cb7901f"
     }
   ]
 }

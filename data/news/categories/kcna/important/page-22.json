@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "c1cc4472ab1fa0e2",
+  "version": "191afce71eb20965",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "important",
   "page": 22,
   "pageSize": 5,
-  "totalItems": 530,
+  "totalItems": 529,
   "totalPages": 106,
   "articles": [
+    {
+      "id": "news:kcna:ab476e00f7ef4e48a3f8c722",
+      "title": "박태성 내각총리 여러 부문 사업 현지료해",
+      "date": "2026-08-08",
+      "snippet": "(평양 8월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b5c2ef1e18a9684f8ec84db27cb8af80",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 105,
+        "domestic": 700
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f292373a0e42c14bb9f8e533b25a09bcbfb",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/e30e295d50c9d736d2bde1ea1329091a8ce766182d7856663c25fd028ac06fb7.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aab476e00f7ef4e48a3f8c722"
+    },
     {
       "id": "kcna-cad58de86ad14a59",
       "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
@@ -25,10 +47,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 105,
-        "document": 20,
-        "foreign": 149,
-        "domestic": 720
+        "important": 106,
+        "document": 21,
+        "foreign": 150,
+        "domestic": 727
       },
       "featuredSections": [],
       "hasImage": false,
@@ -49,8 +71,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 106,
-        "domestic": 732
+        "important": 107,
+        "domestic": 739
       },
       "featuredSections": [],
       "hasImage": true,
@@ -72,9 +94,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 107,
-        "foreign": 150,
-        "domestic": 733
+        "important": 108,
+        "foreign": 151,
+        "domestic": 740
       },
       "featuredSections": [],
       "hasImage": false,
@@ -95,8 +117,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 108,
-        "international": 518
+        "important": 109,
+        "international": 526
       },
       "featuredSections": [],
       "hasImage": false,
@@ -104,32 +126,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ae757e62aaf158ba36b6dea79"
-    },
-    {
-      "id": "kcna-7cc961f41493b1b7",
-      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
-      "date": "2026-07-27",
-      "snippet": "(평양 7월 27일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/772301c84a602f248d3895617c573b2e",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 109,
-        "document": 21,
-        "foreign": 154,
-        "domestic": 807
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=kcna-7cc961f41493b1b7"
     }
   ]
 }

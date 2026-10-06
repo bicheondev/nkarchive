@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "c1cc4472ab1fa0e2",
+  "version": "191afce71eb20965",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,40 @@
   "section": "document",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 70,
-  "totalPages": 14,
+  "totalItems": 71,
+  "totalPages": 15,
   "articles": [
+    {
+      "id": "news:kcna:6c1c3d4bae3739e3801ceeff",
+      "title": "조선민주주의인민공화국 외무성 성명 발표",
+      "date": "2026-10-06",
+      "snippet": "(평양 10월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/10130e02ee714da93817cd184f80ebaa",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 0,
+        "document": 0,
+        "foreign": 0,
+        "domestic": 0
+      },
+      "featuredSections": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6c1c3d4bae3739e3801ceeff"
+    },
     {
       "id": "news:kcna:3b130950fc13daa54e7b8c2e",
       "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
@@ -25,10 +56,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 2,
-        "document": 0,
-        "foreign": 1,
-        "domestic": 31
+        "important": 3,
+        "document": 1,
+        "foreign": 2,
+        "domestic": 38
       },
       "featuredSections": [
         "important",
@@ -55,10 +86,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 3,
-        "document": 1,
-        "foreign": 3,
-        "domestic": 38
+        "important": 4,
+        "document": 2,
+        "foreign": 4,
+        "domestic": 45
       },
       "featuredSections": [
         "important",
@@ -85,10 +116,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 4,
-        "document": 2,
-        "foreign": 4,
-        "domestic": 39
+        "important": 5,
+        "document": 3,
+        "foreign": 5,
+        "domestic": 46
       },
       "featuredSections": [
         "important",
@@ -115,10 +146,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 7,
-        "document": 3,
-        "foreign": 11,
-        "domestic": 75
+        "important": 8,
+        "document": 4,
+        "foreign": 12,
+        "domestic": 82
       },
       "featuredSections": [],
       "hasImage": false,
@@ -126,34 +157,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Abe930b864475b2077efb7a9d"
-    },
-    {
-      "id": "news:kcna:cbf22904e4b74d5e48b6302c",
-      "title": "조선민주주의인민공화국 외무성 미국의 핵전파행위의 진상과 그 위험성을 폭로하는 비망록 발표",
-      "date": "2026-09-29",
-      "snippet": "(평양 9월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fe53f09652db6297486f13847a5c12e6",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 10,
-        "document": 4,
-        "foreign": 18,
-        "domestic": 93
-      },
-      "featuredSections": [
-        "document"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acbf22904e4b74d5e48b6302c"
     }
   ]
 }

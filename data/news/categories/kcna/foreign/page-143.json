@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "c1cc4472ab1fa0e2",
+  "version": "191afce71eb20965",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 143,
   "pageSize": 5,
-  "totalItems": 791,
-  "totalPages": 159,
+  "totalItems": 785,
+  "totalPages": 157,
   "articles": [
+    {
+      "id": "news:kcna:8c2e211b4c8671638a34a4bf",
+      "title": "국제김일성상리사회 제11차회의,국제김정일상리사회 제2차회의 진행",
+      "date": "2025-10-12",
+      "snippet": "(평양 10월 12일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/64adfd2bed47a772f97893a3e4d1301a",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 710,
+        "domestic": 4057
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12369fb404ffb1badf658c1a7df7e61b69",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/aad5367ebb144b64365842d7416884d255b9a1001584669474116d903c3b537d.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8c2e211b4c8671638a34a4bf"
+    },
     {
       "id": "news:kcna:ab8e4398fdb411b9d42eae44",
       "title": "경애하는 김정은동지께 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지가 답전을 보내여왔다",
@@ -24,9 +46,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 505,
-        "international": 2725,
-        "foreign": 710
+        "important": 506,
+        "international": 2733,
+        "foreign": 711
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,8 +69,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 711,
-        "domestic": 4051
+        "foreign": 712,
+        "domestic": 4058
       },
       "featuredSections": [],
       "hasImage": true,
@@ -69,8 +91,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2726,
-        "foreign": 712
+        "international": 2734,
+        "foreign": 713
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,8 +113,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 713,
-        "domestic": 4054
+        "foreign": 714,
+        "domestic": 4061
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,30 +122,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A8e35f0e8ee3e8ef6f72bf64f"
-    },
-    {
-      "id": "news:kcna:310c871c9da89c7b07b09a6a",
-      "title": "경애하는 김정은동지께 팔레스티나국가 대통령이 축전을 보내여왔다",
-      "date": "2025-10-11",
-      "snippet": "(평양 10월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/998bde749a84cafb3bf3bb5454d55be2",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 506,
-        "international": 2734,
-        "foreign": 714
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A310c871c9da89c7b07b09a6a"
     }
   ]
 }

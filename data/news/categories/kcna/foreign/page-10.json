@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "c1cc4472ab1fa0e2",
+  "version": "191afce71eb20965",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 10,
   "pageSize": 5,
-  "totalItems": 791,
-  "totalPages": 159,
+  "totalItems": 785,
+  "totalPages": 157,
   "articles": [
+    {
+      "id": "news:kcna:6743cef54e6e0b4f7a44abc8",
+      "title": "중국청년간부대표단 귀국",
+      "date": "2026-09-19",
+      "snippet": "(평양 9월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cc17e52331d630480015bc29bb242e51",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 45,
+        "domestic": 211
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6743cef54e6e0b4f7a44abc8"
+    },
     {
       "id": "news:kcna:1bdea89d45c692df9ae81b0d",
       "title": "조선민주주의인민공화국 외무성 대변인담화 발표",
@@ -25,14 +47,12 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 22,
-        "document": 7,
-        "foreign": 45,
-        "domestic": 209
+        "important": 23,
+        "document": 8,
+        "foreign": 46,
+        "domestic": 216
       },
-      "featuredSections": [
-        "document"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -53,10 +73,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 23,
-        "document": 8,
-        "foreign": 46,
-        "domestic": 210
+        "important": 24,
+        "document": 9,
+        "foreign": 47,
+        "domestic": 217
       },
       "featuredSections": [],
       "hasImage": false,
@@ -77,8 +97,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 47,
-        "domestic": 214
+        "foreign": 48,
+        "domestic": 221
       },
       "featuredSections": [],
       "hasImage": true,
@@ -100,9 +120,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 25,
-        "international": 146,
-        "foreign": 48
+        "important": 26,
+        "international": 154,
+        "foreign": 49
       },
       "featuredSections": [],
       "hasImage": false,
@@ -110,32 +130,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Adc6702065ccfc1cbfa592931"
-    },
-    {
-      "id": "news:kcna:175ca12efd2fdd5f092af812",
-      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
-      "date": "2026-09-18",
-      "snippet": "(평양 9월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8ab23006521ecfc5e9fefe4d6cde6178",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 26,
-        "document": 9,
-        "foreign": 49,
-        "domestic": 223
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A175ca12efd2fdd5f092af812"
     }
   ]
 }

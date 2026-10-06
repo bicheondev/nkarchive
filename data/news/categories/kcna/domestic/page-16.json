@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "c1cc4472ab1fa0e2",
+  "version": "191afce71eb20965",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,70 +8,62 @@
   "section": "domestic",
   "page": 16,
   "pageSize": 5,
-  "totalItems": 4186,
-  "totalPages": 838,
+  "totalItems": 4176,
+  "totalPages": 836,
   "articles": [
     {
-      "id": "news:kcna:be930b864475b2077efb7a9d",
-      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
-      "date": "2026-09-30",
-      "snippet": "(평양 9월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d2f0e6206efdd90a0da4c4c8b579b12a",
+      "id": "news:kcna:6ac00b1464acfc5489acab0e",
+      "title": "행복한 삶을 누리는 년로자들",
+      "date": "2026-10-01",
+      "snippet": "(평양 10월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ce01c9735edd242c6a1227cd1e749f61",
       "mediaType": "article",
       "categories": [
-        "important",
-        "document",
-        "foreign",
+        "domestic",
+        "social"
+      ],
+      "categoryOrders": {
+        "domestic": 75,
+        "social": 11
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2dae1ae2afb566a92f51c8cfcc83a2a1dce",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/577d4d0dc521ae4bf3214dcc3563c642eb5023b8bd3808d48857a0bd78a5f960.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6ac00b1464acfc5489acab0e"
+    },
+    {
+      "id": "news:kcna:7c91c4c651769806b92228f5",
+      "title": "우리 나라의 10월 절기와 민속",
+      "date": "2026-10-01",
+      "snippet": "(평양 10월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ed6afad049bc2029da5766d6becc1db3",
+      "mediaType": "article",
+      "categories": [
         "domestic"
       ],
       "categoryOrders": {
-        "important": 7,
-        "document": 3,
-        "foreign": 11,
-        "domestic": 75
+        "domestic": 76
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abe930b864475b2077efb7a9d"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7c91c4c651769806b92228f5"
     },
     {
-      "id": "news:kcna:b02218481b3a035c22192166",
-      "title": "조선민주주의인민공화국 교육상이 로씨야련방 과학 및 고등교육성 부상일행을 만났다",
+      "id": "news:kcna:4e58415c64ec3da8f633b22b",
+      "title": "제20차 전국기계설계축전 페막",
       "date": "2026-09-30",
       "snippet": "(평양 9월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9f360e535ee7a6500cc9239ae922995c",
+      "url": "http://www.kcna.kp/kp/article/detail/4c10c05d56ae803c8fbe9c54334df7d2",
       "mediaType": "article",
       "categories": [
-        "foreign",
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 13,
-        "domestic": 76
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba7d409d9b5cd2027b05c78eb16bd91fd5",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/728f0ef2ba5f7d32d26415d6a23ba20c9752d0d6387124b01a3ed1fc6c63a12c.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab02218481b3a035c22192166"
-    },
-    {
-      "id": "news:kcna:b8444c313df4564e045f08b8",
-      "title": "조선민주주의인민공화국 국방성대표단 윁남사회주의공화국을 방문하고 귀국",
-      "date": "2026-09-30",
-      "snippet": "(평양 9월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/697da425df507ee62f9d41e719e8815f",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 14,
         "domestic": 77
       },
       "featuredSections": [],
@@ -79,51 +71,47 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab8444c313df4564e045f08b8"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4e58415c64ec3da8f633b22b"
     },
     {
-      "id": "news:kcna:a0fd1dba65c658b540a48718",
-      "title": "제2차 조로학장연단 진행",
+      "id": "news:kcna:436b705078a9fe9ba6fe54d9",
+      "title": "각지에서 력사유산보호관리사업 활발",
       "date": "2026-09-30",
       "snippet": "(평양 9월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5a3ad8acf20e1efd98e02faef13a917a",
+      "url": "http://www.kcna.kp/kp/article/detail/b83fdee24c75ceef8d2df95343050473",
       "mediaType": "article",
       "categories": [
-        "foreign",
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 15,
         "domestic": 78
       },
       "featuredSections": [],
-      "hasImage": true,
+      "hasImage": false,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba4139bbc82add553c640414fc570bb974",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/d9da54102f3fdf85d7aa1ec51245f21bae5c38224f8d228de4fdab0fb026613a.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa0fd1dba65c658b540a48718"
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A436b705078a9fe9ba6fe54d9"
     },
     {
-      "id": "news:kcna:9e2e1d3b19e19b05971eb203",
-      "title": "조선대외문화교류협회와 조중친선협회가 중화인민공화국창건 77돐에 즈음하여 연회 마련",
+      "id": "news:kcna:f8b3876bab807957bd604125",
+      "title": "원산불고기전문식당 준공",
       "date": "2026-09-30",
       "snippet": "(평양 9월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/53de3a78e91d9efbd666b3c404c43cde",
+      "url": "http://www.kcna.kp/kp/article/detail/a5067177968e64f197889f481757758c",
       "mediaType": "article",
       "categories": [
-        "foreign",
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 16,
         "domestic": 79
       },
       "featuredSections": [],
       "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba263b909956871041f88a568bc9aaeb09",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/f6d57cf28ee4693713e19b3efebb107a3d442d6405da48f5581c816e10aca0db.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9e2e1d3b19e19b05971eb203"
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba7f62624b16bd681065f5e550a7281b52",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/ef1225637b4ddcced557c6c6f115a4889bf3e8c4323961eadb20e81382e9487e.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af8b3876bab807957bd604125"
     }
   ]
 }

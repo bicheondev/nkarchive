@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "c1cc4472ab1fa0e2",
+  "version": "191afce71eb20965",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,39 @@
   "section": "foreign",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 791,
-  "totalPages": 159,
+  "totalItems": 785,
+  "totalPages": 157,
   "articles": [
+    {
+      "id": "news:kcna:a959f78772aace7d79cbcabb",
+      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
+      "date": "2026-10-02",
+      "snippet": "(평양 10월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d4a749a018dbcb54c8aff12bc3f9943c",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 5,
+        "document": 3,
+        "foreign": 5,
+        "domestic": 46
+      },
+      "featuredSections": [
+        "important",
+        "document",
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa959f78772aace7d79cbcabb"
+    },
     {
       "id": "news:kcna:18dece9d3b2683e793ff2fdc",
       "title": "우리 나라 외무상 중화인민공화국 외교부장에게 축전",
@@ -23,12 +53,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 5,
-        "domestic": 47
+        "foreign": 6,
+        "domestic": 54
       },
-      "featuredSections": [
-        "foreign"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -47,8 +75,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 6,
-        "domestic": 51
+        "foreign": 7,
+        "domestic": 58
       },
       "featuredSections": [],
       "hasImage": true,
@@ -69,8 +97,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 7,
-        "domestic": 52
+        "foreign": 8,
+        "domestic": 59
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,8 +119,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 8,
-        "domestic": 63
+        "foreign": 9,
+        "domestic": 70
       },
       "featuredSections": [],
       "hasImage": true,
@@ -100,32 +128,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2dafeab19713eb5d90710180b2207549f5e",
       "cachedThumbnailUrl": "/data/news/assets/kcna/2e6626e88bebb6ea0f04052b34ece07c48a13e0f67e1e6f39f8abf4dff8008dc.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A2799b272db2444509ce84d9b"
-    },
-    {
-      "id": "news:kcna:17fcfe8c247f3843158c557f",
-      "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지에게 축전을 보내시였다",
-      "date": "2026-10-01",
-      "snippet": "(평양 10월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c458baecfed4f26e22857e8eef30c113",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 5,
-        "foreign": 9,
-        "domestic": 65
-      },
-      "featuredSections": [
-        "important"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A17fcfe8c247f3843158c557f"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "c1cc4472ab1fa0e2",
+  "version": "191afce71eb20965",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,35 @@
   "section": "document",
   "page": 14,
   "pageSize": 5,
-  "totalItems": 70,
-  "totalPages": 14,
+  "totalItems": 71,
+  "totalPages": 15,
   "articles": [
+    {
+      "id": "news:kcna:62f248d2e41252c3dbda5854",
+      "title": "김여정 조선로동당 중앙위원회 부부장 담화발표",
+      "date": "2026-01-13",
+      "snippet": "(평양 1월 13일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/0590b6dde94f52b8ba49512685d5cf24",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "document",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 397,
+        "international": 2063,
+        "document": 65,
+        "domestic": 3011
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A62f248d2e41252c3dbda5854"
+    },
     {
       "id": "news:kcna:a464163c0061cea29e14acf6",
       "title": "유엔주재 조선민주주의인민공화국 상임대표부 공보문 발표",
@@ -23,8 +49,8 @@
         "document"
       ],
       "categoryOrders": {
-        "international": 2069,
-        "document": 65
+        "international": 2077,
+        "document": 66
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,10 +73,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 428,
-        "document": 66,
-        "foreign": 556,
-        "domestic": 3191
+        "important": 429,
+        "document": 67,
+        "foreign": 557,
+        "domestic": 3198
       },
       "featuredSections": [],
       "hasImage": false,
@@ -71,8 +97,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "document": 67,
-        "domestic": 3750
+        "document": 68,
+        "domestic": 3757
       },
       "featuredSections": [],
       "hasImage": false,
@@ -95,10 +121,10 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 476,
-        "international": 2570,
-        "document": 68,
-        "foreign": 627
+        "important": 477,
+        "international": 2578,
+        "document": 69,
+        "foreign": 628
       },
       "featuredSections": [],
       "hasImage": false,
@@ -106,32 +132,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Afdc26df737dbb4efad1d335f"
-    },
-    {
-      "id": "news:kcna:5fbd691ed10d22c096123143",
-      "title": "조선민주주의인민공화국 외무상과 로씨야련방 외무상사이의 회담에 관한 공보문 발표",
-      "date": "2025-10-28",
-      "snippet": "(평양 10월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/251e7714a9a7f90b257525765cae61a4",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "document",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 480,
-        "international": 2598,
-        "document": 69,
-        "foreign": 636
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d9393308234a83c213a2e0e47e53adf02db8f01",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/c0aca9871957d7463fe5fe126769e4e9d0eb525996b689e05830a7b8df3d1f9d.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5fbd691ed10d22c096123143"
     }
   ]
 }

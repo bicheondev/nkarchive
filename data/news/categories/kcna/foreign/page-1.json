@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "c1cc4472ab1fa0e2",
+  "version": "191afce71eb20965",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,40 @@
   "section": "foreign",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 791,
-  "totalPages": 159,
+  "totalItems": 785,
+  "totalPages": 157,
   "articles": [
+    {
+      "id": "news:kcna:6c1c3d4bae3739e3801ceeff",
+      "title": "조선민주주의인민공화국 외무성 성명 발표",
+      "date": "2026-10-06",
+      "snippet": "(평양 10월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/10130e02ee714da93817cd184f80ebaa",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 0,
+        "document": 0,
+        "foreign": 0,
+        "domestic": 0
+      },
+      "featuredSections": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A6c1c3d4bae3739e3801ceeff"
+    },
     {
       "id": "news:kcna:45366ca42788cf8311db41d4",
       "title": "김일성종합대학창립 80돐기념 국제학술토론회에 참가하였던 여러 나라 대표단,대표들 귀국",
@@ -23,8 +54,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 0,
-        "domestic": 20
+        "foreign": 1,
+        "domestic": 27
       },
       "featuredSections": [
         "foreign"
@@ -49,10 +80,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 2,
-        "document": 0,
-        "foreign": 1,
-        "domestic": 31
+        "important": 3,
+        "document": 1,
+        "foreign": 2,
+        "domestic": 38
       },
       "featuredSections": [
         "important",
@@ -77,8 +108,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 2,
-        "domestic": 34
+        "foreign": 3,
+        "domestic": 41
       },
       "featuredSections": [
         "foreign"
@@ -103,10 +134,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 3,
-        "document": 1,
-        "foreign": 3,
-        "domestic": 38
+        "important": 4,
+        "document": 2,
+        "foreign": 4,
+        "domestic": 45
       },
       "featuredSections": [
         "important",
@@ -118,36 +149,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A1c2cea9ac1dbae887beeda6e"
-    },
-    {
-      "id": "news:kcna:a959f78772aace7d79cbcabb",
-      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
-      "date": "2026-10-02",
-      "snippet": "(평양 10월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d4a749a018dbcb54c8aff12bc3f9943c",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 4,
-        "document": 2,
-        "foreign": 4,
-        "domestic": 39
-      },
-      "featuredSections": [
-        "important",
-        "document",
-        "foreign"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa959f78772aace7d79cbcabb"
     }
   ]
 }
