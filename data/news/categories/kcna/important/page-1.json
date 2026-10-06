@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T00:00:00.000Z",
-  "version": "7e70f3a31d4d69d0",
+  "generatedAt": "2026-10-06T00:00:00.000Z",
+  "version": "c1cc4472ab1fa0e2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,34 @@
   "section": "important",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 537,
-  "totalPages": 108,
+  "totalItems": 530,
+  "totalPages": 106,
   "articles": [
+    {
+      "id": "news:kcna:74cac7adcaef2400a0604b8f",
+      "title": "박태성 내각총리 여러 부문 사업 현지료해",
+      "date": "2026-10-06",
+      "snippet": "(평양 10월 6일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/210308515bbc6359eec47a60614958a5",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 0,
+        "domestic": 2
+      },
+      "featuredSections": [
+        "important",
+        "domestic"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2da3fdf557dca1cd21470e44b6be9f37ea9",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/1bcefa948c57f99d69c5e710f05f0bf7e15f01cdf7682399659b688e6dc7b760.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A74cac7adcaef2400a0604b8f"
+    },
     {
       "id": "news:kcna:c13eb12b654ec11158b7409a",
       "title": "김여정 조선로동당 중앙위원회 부장 발표--전략무기발사훈련 진행",
@@ -23,8 +48,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 0,
-        "domestic": 11
+        "important": 1,
+        "domestic": 26
       },
       "featuredSections": [
         "important"
@@ -49,10 +74,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 1,
+        "important": 2,
         "document": 0,
         "foreign": 1,
-        "domestic": 16
+        "domestic": 31
       },
       "featuredSections": [
         "important",
@@ -79,10 +104,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 2,
+        "important": 3,
         "document": 1,
         "foreign": 3,
-        "domestic": 23
+        "domestic": 38
       },
       "featuredSections": [
         "important",
@@ -109,10 +134,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 3,
+        "important": 4,
         "document": 2,
         "foreign": 4,
-        "domestic": 24
+        "domestic": 39
       },
       "featuredSections": [
         "important",
@@ -124,32 +149,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aa959f78772aace7d79cbcabb"
-    },
-    {
-      "id": "news:kcna:17fcfe8c247f3843158c557f",
-      "title": "경애하는 김정은동지께서 중국공산당 중앙위원회 총서기,중화인민공화국 주석 습근평동지에게 축전을 보내시였다",
-      "date": "2026-10-01",
-      "snippet": "(평양 10월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c458baecfed4f26e22857e8eef30c113",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 4,
-        "foreign": 9,
-        "domestic": 50
-      },
-      "featuredSections": [
-        "important"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A17fcfe8c247f3843158c557f"
     }
   ]
 }

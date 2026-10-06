@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T00:00:00.000Z",
-  "version": "7e70f3a31d4d69d0",
+  "generatedAt": "2026-10-06T00:00:00.000Z",
+  "version": "c1cc4472ab1fa0e2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,8 +8,8 @@
   "section": "foreign",
   "page": 3,
   "pageSize": 5,
-  "totalItems": 798,
-  "totalPages": 160,
+  "totalItems": 791,
+  "totalPages": 159,
   "articles": [
     {
       "id": "news:kcna:3f4194ec018aa90c02f028b1",
@@ -24,13 +24,11 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 5,
+        "important": 6,
         "foreign": 10,
-        "domestic": 51
+        "domestic": 66
       },
-      "featuredSections": [
-        "important"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -51,10 +49,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 6,
+        "important": 7,
         "document": 3,
         "foreign": 11,
-        "domestic": 60
+        "domestic": 75
       },
       "featuredSections": [],
       "hasImage": false,
@@ -76,8 +74,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 7,
-        "international": 38,
+        "important": 8,
+        "international": 44,
         "foreign": 12
       },
       "featuredSections": [],
@@ -100,7 +98,7 @@
       ],
       "categoryOrders": {
         "foreign": 13,
-        "domestic": 61
+        "domestic": 76
       },
       "featuredSections": [],
       "hasImage": true,
@@ -122,7 +120,7 @@
       ],
       "categoryOrders": {
         "foreign": 14,
-        "domestic": 62
+        "domestic": 77
       },
       "featuredSections": [],
       "hasImage": false,

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T00:00:00.000Z",
-  "version": "7e70f3a31d4d69d0",
+  "generatedAt": "2026-10-06T00:00:00.000Z",
+  "version": "c1cc4472ab1fa0e2",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "important",
   "page": 24,
   "pageSize": 5,
-  "totalItems": 537,
-  "totalPages": 108,
+  "totalItems": 530,
+  "totalPages": 106,
   "articles": [
+    {
+      "id": "news:kcna:56fa9e982040cd3856c47447",
+      "title": "전승절에 즈음하여 국가지도간부들 전쟁로병들의 가정을 방문",
+      "date": "2026-07-25",
+      "snippet": "(평양 7월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7ea38ec25a39b9c6c1754e5b4533e1cd",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 115,
+        "domestic": 832
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dcebfe1dd1e63b60da947fc2d9d1aa224",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/735ed9ababecc472280d5a4b928f757c9ff5f3cb9f1da7f9a6e630cadea5a5ae.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A56fa9e982040cd3856c47447"
+    },
     {
       "id": "news:kcna:f3a07cfb847a8b0142da9e09",
       "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
@@ -24,9 +46,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 115,
+        "important": 116,
         "foreign": 159,
-        "domestic": 829
+        "domestic": 844
       },
       "featuredSections": [],
       "hasImage": false,
@@ -47,8 +69,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 116,
-        "domestic": 844
+        "important": 117,
+        "domestic": 859
       },
       "featuredSections": [],
       "hasImage": false,
@@ -69,8 +91,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 117,
-        "domestic": 859
+        "important": 118,
+        "domestic": 874
       },
       "featuredSections": [],
       "hasImage": true,
@@ -92,8 +114,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 118,
-        "international": 607,
+        "important": 119,
+        "international": 613,
         "foreign": 165
       },
       "featuredSections": [],
@@ -102,30 +124,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dc9d0ffe5f271e6c9e9468a4873687747",
       "cachedThumbnailUrl": "/data/news/assets/kcna/fa7b06456cb453cd58c470d286cd339288ea7d396a5dfe5f8f6d919378e099bb.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3Ab1b0ed9dd42d868a080d1d7e"
-    },
-    {
-      "id": "news:kcna:660a0b4e5af613a59b4356b4",
-      "title": "조선민주주의인민공화국 외무상과 로씨야련방 외무상사이의 제3차 전략대화에 관한 공보문 발표",
-      "date": "2026-07-21",
-      "snippet": "(평양 7월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7aa4e2f8b003672455574f6e72e4141b",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 119,
-        "international": 608,
-        "foreign": 166
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A660a0b4e5af613a59b4356b4"
     }
   ]
 }
