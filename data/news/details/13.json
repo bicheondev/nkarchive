@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-07T00:00:00.000Z",
-  "version": "47b67b9172651bcb",
+  "version": "61b6a1440687ccf6",
   "shard": "13",
   "articles": {
     "news:kcna:6c1c3d4bae3739e3801ceeff": {
@@ -23,7 +23,7 @@
         "important": 2,
         "document": 0,
         "foreign": 1,
-        "domestic": 5
+        "domestic": 11
       },
       "featuredSections": [
         "important",
@@ -49,7 +49,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 10
+        "photo": 11
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2daa67cd0713f2784372d19b1add2795036",
@@ -108,7 +108,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 72
+        "international": 80
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -130,7 +130,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 178
+        "international": 186
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -152,7 +152,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 392
+        "domestic": 398
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -174,7 +174,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 408
+        "domestic": 414
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -196,7 +196,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 331
+        "international": 339
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -219,7 +219,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 459,
+        "domestic": 465,
         "social": 65
       },
       "featuredSections": [],
@@ -324,7 +324,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 473
+        "international": 481
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -346,7 +346,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 748
+        "domestic": 754
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -368,7 +368,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 598
+        "international": 606
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -390,7 +390,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 962
+        "domestic": 968
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -412,7 +412,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1298
+        "domestic": 1304
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -473,7 +473,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1534
+        "domestic": 1540
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -496,7 +496,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1551,
+        "domestic": 1557,
         "social": 177
       },
       "featuredSections": [],
@@ -519,7 +519,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1546
+        "domestic": 1552
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -541,7 +541,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 331
+        "photo": 332
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e00006499425547a54492518b3c2b3964901eb6",
@@ -636,7 +636,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1784
+        "domestic": 1790
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -661,7 +661,7 @@
       ],
       "categoryOrders": {
         "important": 262,
-        "international": 1428,
+        "international": 1436,
         "foreign": 389
       },
       "featuredSections": [],
@@ -685,7 +685,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2158,
+        "domestic": 2164,
         "social": 246
       },
       "featuredSections": [],
@@ -708,7 +708,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2261
+        "domestic": 2267
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -731,7 +731,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2354,
+        "domestic": 2360,
         "social": 281
       },
       "featuredSections": [],
@@ -755,7 +755,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 2363,
+        "domestic": 2369,
         "social": 282
       },
       "featuredSections": [],
@@ -778,7 +778,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2534
+        "domestic": 2540
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -800,7 +800,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1941
+        "international": 1949
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -822,7 +822,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1955
+        "international": 1963
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -844,7 +844,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2045
+        "international": 2053
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -866,7 +866,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3154
+        "domestic": 3160
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -889,7 +889,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3166,
+        "domestic": 3172,
         "social": 480
       },
       "featuredSections": [],
@@ -912,7 +912,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2188
+        "international": 2196
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -935,7 +935,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 2241,
+        "international": 2249,
         "foreign": 566
       },
       "featuredSections": [],
@@ -958,7 +958,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 729
+        "photo": 730
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/57d1fcf0d651f003370e11ea355807ff2ecf7399f0c621e8b05ac1da1b1ae8dd",
@@ -999,7 +999,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 750
+        "photo": 751
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f5d17eb80da17c6696271a50ca28a867cb",
@@ -1050,7 +1050,7 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 3345,
+        "domestic": 3351,
         "social": 517
       },
       "featuredSections": [],
@@ -1209,7 +1209,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2315
+        "international": 2323
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1231,7 +1231,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2322
+        "international": 2330
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1255,7 +1255,7 @@
       ],
       "categoryOrders": {
         "important": 449,
-        "domestic": 3435
+        "domestic": 3441
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/cd831d3586377ad9a28261b44e9908f524cd17025d51802635c15d4c19d6dc14",
@@ -1305,7 +1305,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3608
+        "domestic": 3614
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1327,7 +1327,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3733
+        "domestic": 3739
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1353,7 +1353,7 @@
       "categoryOrders": {
         "important": 494,
         "foreign": 657,
-        "domestic": 3913
+        "domestic": 3919
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -1375,7 +1375,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 915
+        "photo": 916
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c1242bc4028b30156a6eded6c497fb1d37c",
@@ -1547,7 +1547,7 @@
     },
     "news:rodong-sinmun:0087a901d81e30e8ff7c32d0": {
       "id": "news:rodong-sinmun:0087a901d81e30e8ff7c32d0",
-      "title": "자립경제발전의 전초기지에 나래치는 계속혁신의 기상\n석탄공업부문의 일군들과 탄부들이 올해에 들어와 현재까지\n지난해 같은 시기보다 수만t의 석탄을 더 생산하였다",
+      "title": "자립경제발전의 전초기지에 나래치는 계속혁신의 기상\n석탄공업부문의 일군들과 탄부들이 올해에 들어와 현재까지 지난해 같은 시기보다 수만t의 석탄을 더 생산하였다",
       "date": "2026-01-24",
       "snippet": "자립경제발전의 전초기지에 나래치는 계속혁신의 기상",
       "body": "자립경제발전의 전초기지에 나래치는 계속혁신의 기상\n\n석탄공업부문의 일군들과 탄부들이 올해에 들어와 현재까지\n\n지난해 같은 시기보다 수만t의 석탄을 더 생산하였다\n\n경애하는 김정은동지께서는 다음과 같이 말씀하시였다.\n\n《석탄공업부문에서 생산적앙양의 불길을 세차게 지펴올려 화력발전소들과 인민경제 여러 부문에 석탄을 충분히 대주어야 합니다.》\n\n영광의 당대회를 향하여 더 기세차게, 용감하게 앞으로 나아갈 결의드높이 석탄공업부문의 일군들과 탄부들이 수천척지하막장마다에서 새 기준, 새 기록창조의 불길을 지펴올리고있다.\n\n한t의 석탄이라도 더 생산하여 전진하는 조국에 빛과 열을 더해주자.\n\n이런 애국의 일념 안고 석탄공업부문의 일군들과 탄부들은 새해 첫날부터 완강한 투쟁을 벌려 올해에 들어와 현재까지 지난해 같은 시기에 비해 수만t의 석탄을 더 생산하는 자랑찬 성과를 거두었다.\n\n낮과 밤이 따로없이 증산투쟁이 벌어지는 막장마다에서는 자기 부문, 자기 단위앞에 맡겨진 과업은 당앞에 자기가 전적으로 책임진다는 립장에서 사색하고 실천해가는 석탄공업성과 각 련합기업소 일군들의 힘찬 돌격구령이 높이 울리고있다.석탄생산을 늘이는데서 해결해야 할 문제들을 정확히 찾아쥐고 하나하나 대책해나가며 들끓는 막장에서 화선식정치사업과 이신작칙의 일본새를 발휘해가는 일군들의 모습은 앙양된 탄부들의 투쟁기세를 더욱 고조시키고있다.\n\n안주지구탄광련합기업소가 앞장에서 증산의 기치를 들었다.\n\n당 제9차대회를 자랑찬 로력적성과로 떳떳이 맞이할 의지를 백배하며 산악같이 일떠선 이곳 탄부들은 완강한 투쟁으로 일평균 석탄생산목표를 105%로 완수하고있다.\n\n칠리탄광, 신리탄광, 청남탄광, 룡림탄광을 비롯한 련합기업소의 그 어느 탄광에서나 탄부들이 불리한 조건을 주동적으로 타개하면서 갱별, 굴진소대와 채탄중대별경쟁을 맹렬히 벌리며 매일 많은 석탄을 캐내고있다.\n\n특히 칠리탄광의 일군들과 탄부들이 자력갱생의 혁명정신을 발휘하며 없는것은 만들어내고 모자라는것은 보충하면서 일생산목표를 훨씬 넘쳐 수행하고있다.\n\n북창지구청년탄광련합기업소, 덕천지구탄광련합기업소, 명천지구탄광련합기업소, 온성지구탄광련합기업소, 강동지구탄광련합기업소의 탄전들도 증산투쟁으로 부글부글 끓고있다.\n\n자립경제발전의 전초기지를 지켜섰다는 높은 자각을 안고 이곳 일군들은 중심고리에 력량을 집중하면서 생산조직과 지휘를 치밀하게 하여 성과를 확대하고있다.\n\n덕천지구탄광련합기업소에서 지난 시기의 경험과 교훈에 기초하여 굴진에 힘을 넣으면서 석탄생산을 늘이고있다.련합기업소와 각 탄광들에서는 굴진단위들에 필요한 자재와 소공구를 우선적으로 보장하기 위한 정연한 체계를 세우고 사회주의경쟁을 목적지향성있게 조직진행하여 예비채탄장확보에서 뚜렷한 전진을 가져오고있다.\n\n남양탄광 차광수청년돌격대, 서창청년탄광 조군실청년돌격대를 비롯한 련합기업소의 굴진단위들에서는 각이한 암질에 따르는 합리적인 발파방법을 적극적으로 받아들여 발파효률을 부단히 높이면서 굴진속도를 끌어올리고있다.하여 지난 20일까지 련합기업소적으로 10여개 굴진단위가 1월 굴진목표를 앞당겨 완수하였으며 그 수는 계속 늘어나고있다.\n\n순천지구청년탄광련합기업소, 경원지구탄광련합기업소, 천내지구탄광련합기업소, 개천지구탄광련합기업소, 득장지구탄광련합기업소 탄부들의 기세도 이만저만이 아니다.\n\n각 탄전의 일군들은 누구라없이 막장에 들어가 탄부들과 고락을 함께 하며 내세운 목표를 수행하기 위한 투쟁에로 대중을 불러일으키면서 이신작칙의 일본새를 발휘하고있다.\n\n탄부들은 대중적기술혁신운동의 불길높이 자체의 실정에 맞는 채탄방법을 적극 받아들이고 운반능력을 끌어올리면서 석탄생산에 박차를 가하고있다.\n\n석탄증산으로 당대회를 향한 총진군대오에 활력을 더해줄 일념밑에 줄기찬 투쟁을 벌리는 석탄공업부문 일군들과 탄부들에 의하여 석탄생산성과는 날로 확대되고있다.\n\n본사기자 정경철\n\n-개천지구탄광련합기업소 자강도공급탄광에서-\n\n최대룡 찍음",
