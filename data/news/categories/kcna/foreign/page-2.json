@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,38 @@
   "section": "foreign",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 785,
-  "totalPages": 157,
+  "totalItems": 786,
+  "totalPages": 158,
   "articles": [
+    {
+      "id": "news:kcna:1c2cea9ac1dbae887beeda6e",
+      "title": "김여정 조선로동당 중앙위원회 부장 한국과의 그 어떤 대화가능성도 철저히 불허할 공식립장을 재천명",
+      "date": "2026-10-02",
+      "snippet": "(평양 10월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cc9a0b4dbe69e54f406efbaac9eedeca",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 6,
+        "document": 2,
+        "foreign": 5,
+        "domestic": 50
+      },
+      "featuredSections": [
+        "document",
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1c2cea9ac1dbae887beeda6e"
+    },
     {
       "id": "news:kcna:a959f78772aace7d79cbcabb",
       "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
@@ -25,15 +54,13 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 5,
+        "important": 7,
         "document": 3,
-        "foreign": 5,
-        "domestic": 46
+        "foreign": 6,
+        "domestic": 51
       },
       "featuredSections": [
-        "important",
-        "document",
-        "foreign"
+        "document"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -53,8 +80,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 6,
-        "domestic": 54
+        "foreign": 7,
+        "domestic": 59
       },
       "featuredSections": [],
       "hasImage": false,
@@ -75,8 +102,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 7,
-        "domestic": 58
+        "foreign": 8,
+        "domestic": 63
       },
       "featuredSections": [],
       "hasImage": true,
@@ -97,8 +124,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 8,
-        "domestic": 59
+        "foreign": 9,
+        "domestic": 64
       },
       "featuredSections": [],
       "hasImage": false,
@@ -106,28 +133,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ab1ce1fe33c1c4fd6d7890d36"
-    },
-    {
-      "id": "news:kcna:2799b272db2444509ce84d9b",
-      "title": "김일성종합대학창립 80돐기념 국제학술토론회 진행",
-      "date": "2026-10-01",
-      "snippet": "(평양 10월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/95ea504d65d222572a722934f0ec8395",
-      "mediaType": "article",
-      "categories": [
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "foreign": 9,
-        "domestic": 70
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2dafeab19713eb5d90710180b2207549f5e",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/2e6626e88bebb6ea0f04052b34ece07c48a13e0f67e1e6f39f8abf4dff8008dc.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2799b272db2444509ce84d9b"
     }
   ]
 }

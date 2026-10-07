@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 105,
   "pageSize": 5,
-  "totalItems": 2772,
+  "totalItems": 2773,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:8cce6d3e168a9a630bd02a5c",
+      "title": "미국과 오스트랄리아에서 총기류범죄",
+      "date": "2026-08-05",
+      "snippet": "(평양 8월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6b68b2abfb35bc28099f1a486687eee1",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 520
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A8cce6d3e168a9a630bd02a5c"
+    },
     {
       "id": "news:kcna:8451004e5a57835203c18aee",
       "title": "파키스탄에서 폭탄테로사건 발생",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 520
+        "international": 521
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 521
+        "international": 522
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 522
+        "international": 523
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 523
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae6146990bd13d2cb8d9eeb9f"
-    },
-    {
-      "id": "news:kcna:17a0cebeb29c42d332b0a69a",
-      "title": "미국 아이다호주에서 총격사건",
-      "date": "2026-08-04",
-      "snippet": "(평양 8월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/cf6b6f971c969e99af17d5092bcf1c06",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 524
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A17a0cebeb29c42d332b0a69a"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ae6146990bd13d2cb8d9eeb9f"
     }
   ]
 }

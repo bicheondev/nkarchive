@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 33,
   "pageSize": 5,
-  "totalItems": 2772,
+  "totalItems": 2773,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:edf017ba5f9935a114b792e5",
+      "title": "캄보쟈에서 싸이버범죄와의 투쟁 강화",
+      "date": "2026-09-17",
+      "snippet": "(평양 9월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8fc0e46c753d42a00555b2ca3fa764e9",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 160
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aedf017ba5f9935a114b792e5"
+    },
     {
       "id": "news:kcna:b26573b0e8f479eaed550a67",
       "title": "중국에서 운반로케트 발사",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 160
+        "international": 161
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 161
+        "international": 162
       },
       "featuredSections": [],
       "hasImage": false,
@@ -63,8 +83,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 162,
-        "foreign": 51
+        "international": 163,
+        "foreign": 52
       },
       "featuredSections": [],
       "hasImage": false,
@@ -85,8 +105,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 163,
-        "foreign": 52
+        "international": 164,
+        "foreign": 53
       },
       "featuredSections": [],
       "hasImage": false,
@@ -94,26 +114,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ade968fba69378322d4048322"
-    },
-    {
-      "id": "news:kcna:cd820af45fa7747cb46b48f0",
-      "title": "집단안전조약기구 군사훈련 시작",
-      "date": "2026-09-16",
-      "snippet": "(평양 9월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c8bffd954f2ce137ab59115154d53fbc",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 164
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acd820af45fa7747cb46b48f0"
     }
   ]
 }

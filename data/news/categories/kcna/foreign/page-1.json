@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,37 @@
   "section": "foreign",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 785,
-  "totalPages": 157,
+  "totalItems": 786,
+  "totalPages": 158,
   "articles": [
+    {
+      "id": "news:kcna:14276f94af053759a5b1b513",
+      "title": "경애하는 김정은동지께서 로씨야련방 대통령에게 축전을 보내시였다",
+      "date": "2026-10-07",
+      "snippet": "(평양 10월 7일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/54200c973100ef497522dc2df7deb59a",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 0,
+        "foreign": 0,
+        "domestic": 1
+      },
+      "featuredSections": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A14276f94af053759a5b1b513"
+    },
     {
       "id": "news:kcna:6c1c3d4bae3739e3801ceeff",
       "title": "조선민주주의인민공화국 외무성 성명 발표",
@@ -25,16 +53,15 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 0,
+        "important": 2,
         "document": 0,
-        "foreign": 0,
-        "domestic": 0
+        "foreign": 1,
+        "domestic": 5
       },
       "featuredSections": [
         "important",
         "document",
-        "foreign",
-        "domestic"
+        "foreign"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -54,8 +81,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 1,
-        "domestic": 27
+        "foreign": 2,
+        "domestic": 32
       },
       "featuredSections": [
         "foreign"
@@ -80,10 +107,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 3,
+        "important": 5,
         "document": 1,
-        "foreign": 2,
-        "domestic": 38
+        "foreign": 3,
+        "domestic": 43
       },
       "featuredSections": [
         "important",
@@ -108,8 +135,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 3,
-        "domestic": 41
+        "foreign": 4,
+        "domestic": 46
       },
       "featuredSections": [
         "foreign"
@@ -119,36 +146,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A74fe7013807f698d89476e8d"
-    },
-    {
-      "id": "news:kcna:1c2cea9ac1dbae887beeda6e",
-      "title": "김여정 조선로동당 중앙위원회 부장 한국과의 그 어떤 대화가능성도 철저히 불허할 공식립장을 재천명",
-      "date": "2026-10-02",
-      "snippet": "(평양 10월 2일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/cc9a0b4dbe69e54f406efbaac9eedeca",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 4,
-        "document": 2,
-        "foreign": 4,
-        "domestic": 45
-      },
-      "featuredSections": [
-        "important",
-        "document",
-        "foreign"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1c2cea9ac1dbae887beeda6e"
     }
   ]
 }

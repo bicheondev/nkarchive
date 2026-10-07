@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "anecdote",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 102,
+  "totalItems": 103,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:b714efb6b0bf9f64302f7901",
+      "title": "세심히 관심하신 의료보장대책",
+      "date": "2026-09-18",
+      "snippet": "경애하는 김정은동지께서 2018년 7월 어느날 삼지연감자가루생산공장을 현지지도하시던 때에 있은 일이다.",
+      "url": "http://www.kcna.kp/kp/article/detail/4cb8700440cc62b113462bf042cff32e",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 5
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ab714efb6b0bf9f64302f7901"
+    },
     {
       "id": "news:kcna:46e4c2382f3e8fc005d1d4f1",
       "title": "자그마한 불편까지도 헤아려보시며",
@@ -22,7 +42,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 5
+        "anecdote": 6
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 6
+        "anecdote": 7
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 7
+        "anecdote": 8
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 8
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3cea9d97132b981585392762"
-    },
-    {
-      "id": "news:kcna:617c4c21b1de4aa6c63a3349",
-      "title": "실리있는 발전소라고 하시며",
-      "date": "2026-09-01",
-      "snippet": "경애하는 김정은동지께서는 2019년 5월 어느날 금야강2호발전소를 찾으시였다. 발전소에 도착하신 경애하는 총비서동지께서는 일군들에게 언제로 가보자고 하시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/8fbc37e9083817d5b1f97159ff602843",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 9
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A617c4c21b1de4aa6c63a3349"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3cea9d97132b981585392762"
     }
   ]
 }

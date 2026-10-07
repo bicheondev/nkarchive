@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 31,
   "pageSize": 5,
-  "totalItems": 2772,
+  "totalItems": 2773,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:4a98fb844854587628433dd9",
+      "title": "가자지대에서 건물붕괴사고로 인명피해 발생",
+      "date": "2026-09-18",
+      "snippet": "(평양 9월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/43a7b07bdc02fcd9f6bb09914c453ead",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 150
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4a98fb844854587628433dd9"
+    },
     {
       "id": "news:kcna:1674145b00bb8a101a81a2b2",
       "title": "로씨야외무성 대변인 우크라이나에 대한 서방의 군사적지원책동에 경고",
@@ -23,8 +43,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "international": 150,
-        "domestic": 220
+        "international": 151,
+        "domestic": 225
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 151
+        "international": 152
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 152
+        "international": 153
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,7 +104,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 153
+        "international": 154
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,30 +112,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A7c403edf569a2b30c54ef7c7"
-    },
-    {
-      "id": "news:kcna:dc6702065ccfc1cbfa592931",
-      "title": "조선민주주의인민공화국 국방성대표단 제13차 베이징향산연단에 참가",
-      "date": "2026-09-18",
-      "snippet": "(평양 9월 18일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/350cc99404bbcfddfda949dc1456b870",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 26,
-        "international": 154,
-        "foreign": 49
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adc6702065ccfc1cbfa592931"
     }
   ]
 }

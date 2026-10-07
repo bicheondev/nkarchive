@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 4,
   "pageSize": 5,
-  "totalItems": 2772,
+  "totalItems": 2773,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:32e908324cfc8be2b507f2a1",
+      "title": "제20차 아시아경기대회 소식",
+      "date": "2026-10-04",
+      "snippet": "(평양 10월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5c822b30335036a87c613c147c68d421",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 15
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A32e908324cfc8be2b507f2a1"
+    },
     {
       "id": "news:kcna:6d550c3aeea956bb03b8098a",
       "title": "로씨야 령토완정을 수호할 립장 천명",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 15
+        "international": 16
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 16
+        "international": 17
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 17
+        "international": 18
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 18
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adce85b7110a301e08e9096ed"
-    },
-    {
-      "id": "news:kcna:7ab622039334394851268979",
-      "title": "프랑스에서 올해 9월이 기상관측이래 두번째로 더운 9월로 기록",
-      "date": "2026-10-04",
-      "snippet": "(평양 10월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5c9718e9234d9343dbf9ab2cee74cceb",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 19
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7ab622039334394851268979"
+      "detailUrl": "/news/document?id=news%3Akcna%3Adce85b7110a301e08e9096ed"
     }
   ]
 }

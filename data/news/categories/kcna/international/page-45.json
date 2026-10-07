@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 45,
   "pageSize": 5,
-  "totalItems": 2772,
+  "totalItems": 2773,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:72232d0f238d0ff316d894d7",
+      "title": "여러 나라에서 강력범죄",
+      "date": "2026-09-11",
+      "snippet": "(평양 9월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/c3fe0c0312d69d4b4c1fd9852c59b793",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 220
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A72232d0f238d0ff316d894d7"
+    },
     {
       "id": "news:kcna:c676dd7e2bb9b1119a33aa73",
       "title": "수리아에서 폭발사고로 인명피해",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 220
+        "international": 221
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,9 +64,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 44,
-        "international": 221,
-        "foreign": 70
+        "important": 46,
+        "international": 222,
+        "foreign": 71
       },
       "featuredSections": [],
       "hasImage": false,
@@ -68,9 +88,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 45,
-        "international": 222,
-        "foreign": 71
+        "important": 47,
+        "international": 223,
+        "foreign": 72
       },
       "featuredSections": [],
       "hasImage": false,
@@ -92,9 +112,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 46,
-        "international": 223,
-        "foreign": 72
+        "important": 48,
+        "international": 224,
+        "foreign": 73
       },
       "featuredSections": [],
       "hasImage": false,
@@ -102,26 +122,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A6e0c330776c8f84a4b254bbb"
-    },
-    {
-      "id": "news:kcna:c1c248689ed56f9d2a491d08",
-      "title": "일본의 부당한 요구에 면박",
-      "date": "2026-09-10",
-      "snippet": "(평양 9월 10일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/cb46c6229640b88a15fb901d60b85185",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 224
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac1c248689ed56f9d2a491d08"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 55,
   "pageSize": 5,
-  "totalItems": 785,
-  "totalPages": 157,
+  "totalItems": 786,
+  "totalPages": 158,
   "articles": [
+    {
+      "id": "news:kcna:de0df078cd860b3c6559bb26",
+      "title": "조선민주주의인민공화국 외무상이 싱가포르공화국 외무상과 회담",
+      "date": "2026-05-27",
+      "snippet": "(평양 5월 27일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ff542a5439665bd13c545d2837d6f3b4",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 182,
+        "foreign": 270,
+        "domestic": 1504
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/c8ce8b5320831f04d1fa89423e000064f86f61cfce6b40d91f1f5d0a01ec6ac7",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/0423c1c1a5bd6f548609f0dc0e8043e91846927bd419f4fd3e820e72ce51b420.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ade0df078cd860b3c6559bb26"
+    },
     {
       "id": "news:kcna:281b66c8913e10ac2e02c7d7",
       "title": "싱가포르공화국 외무상 평양 도착",
@@ -23,8 +47,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 270,
-        "domestic": 1500
+        "foreign": 271,
+        "domestic": 1505
       },
       "featuredSections": [],
       "hasImage": true,
@@ -45,8 +69,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1006,
-        "foreign": 271
+        "international": 1007,
+        "foreign": 272
       },
       "featuredSections": [],
       "hasImage": true,
@@ -67,8 +91,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1015,
-        "foreign": 272
+        "international": 1016,
+        "foreign": 273
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,9 +114,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 184,
-        "foreign": 273,
-        "domestic": 1520
+        "important": 186,
+        "foreign": 274,
+        "domestic": 1525
       },
       "featuredSections": [],
       "hasImage": false,
@@ -100,28 +124,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ab11df0a6dc06d578ef7600db"
-    },
-    {
-      "id": "news:kcna:0067eb717b75812e5e6b9cf9",
-      "title": "조선중앙통신사 론평--미국과 한국의 무분별한 무력증강은 그를 압도하기 위한 우리의 군사적억제력강화노력을 배가시킬것이다",
-      "date": "2026-05-21",
-      "snippet": "(평양 5월 21일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c5d5d1c2884a09f6254f48436f679e76",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 1050,
-        "foreign": 274
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0067eb717b75812e5e6b9cf9"
     }
   ]
 }

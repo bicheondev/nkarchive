@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "video",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 257,
+  "totalItems": 258,
   "totalPages": 52,
   "articles": [
+    {
+      "id": "news:kcna:4fcc334ee4c59c60e3f312f6",
+      "title": "재령군 삼지강농장의 논판양어경험",
+      "date": "2026-10-07",
+      "snippet": "재령군 삼지강농장의 논판양어경험",
+      "url": "http://www.kcna.kp/kp/video/detail/fefc94101065f5d88adeb58a321a3e68",
+      "mediaType": "article",
+      "categories": [
+        "video"
+      ],
+      "categoryOrders": {
+        "video": 0
+      },
+      "featuredSections": [
+        "video"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/a983e01a579788b22e8043a34ab44714a68b16d31368a5fcd9a945e3ed615542.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A4fcc334ee4c59c60e3f312f6"
+    },
     {
       "id": "news:kcna:68ce9501c50e641ad8dd6e5b",
       "title": "상원세멘트련합기업소에서 3.4분기 인민경제계획 완수",
@@ -22,7 +44,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 0
+        "video": 1
       },
       "featuredSections": [
         "video"
@@ -44,7 +66,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 1
+        "video": 2
       },
       "featuredSections": [
         "video"
@@ -66,7 +88,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 2
+        "video": 3
       },
       "featuredSections": [
         "video"
@@ -88,7 +110,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 3
+        "video": 4
       },
       "featuredSections": [
         "video"
@@ -98,28 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "/data/news/assets/kcna/f432aeb254e430c940057290c5dc62b68cafa2e2312ee547d5ee27c46c7a42af.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A3343c8a3970a74cbbce5ed5c"
-    },
-    {
-      "id": "news:kcna:b431200923903a9e9abc6001",
-      "title": "원산영예군인가방공장 개건",
-      "date": "2026-09-29",
-      "snippet": "원산영예군인가방공장 개건",
-      "url": "http://www.kcna.kp/kp/video/detail/37a40806960913c05346c59f383ece8c",
-      "mediaType": "article",
-      "categories": [
-        "video"
-      ],
-      "categoryOrders": {
-        "video": 4
-      },
-      "featuredSections": [
-        "video"
-      ],
-      "hasImage": true,
-      "hasVideo": true,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/7588c99e95b6e0a31f4336104764f11ba122857566e7334cc75093cc49878c6a.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab431200923903a9e9abc6001"
     }
   ]
 }

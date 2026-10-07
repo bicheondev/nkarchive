@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "foreign",
   "page": 61,
   "pageSize": 5,
-  "totalItems": 785,
-  "totalPages": 157,
+  "totalItems": 786,
+  "totalPages": 158,
   "articles": [
+    {
+      "id": "news:kcna:5f51af4f1ffc966dddb9f339",
+      "title": "우리 나라 외무상 뽈스까공화국 외무상에게 축전",
+      "date": "2026-05-05",
+      "snippet": "(평양 5월 5일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/6146d723f5ea5ed6aecc1fa9ade648e4",
+      "mediaType": "article",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 300,
+        "domestic": 1729
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5f51af4f1ffc966dddb9f339"
+    },
     {
       "id": "news:kcna:ff3fb09d8c439786ae624b27",
       "title": "우리 나라 주재 로씨야련방대사관 림시대리대사 친선모임 마련",
@@ -23,8 +45,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 300,
-        "domestic": 1725
+        "foreign": 301,
+        "domestic": 1730
       },
       "featuredSections": [],
       "hasImage": false,
@@ -45,8 +67,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 301,
-        "domestic": 1727
+        "foreign": 302,
+        "domestic": 1732
       },
       "featuredSections": [],
       "hasImage": true,
@@ -68,9 +90,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 204,
-        "foreign": 302,
-        "domestic": 1744
+        "important": 206,
+        "foreign": 303,
+        "domestic": 1749
       },
       "featuredSections": [],
       "hasImage": false,
@@ -91,31 +113,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1193,
-        "foreign": 303
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad57439fe1862089907144eb7"
-    },
-    {
-      "id": "news:kcna:8d9f1813968fda639d4df15f",
-      "title": "경애하는 김정은동지께 여러 나라에서 축전과 축하편지를 보내여왔다",
-      "date": "2026-05-01",
-      "snippet": "(평양 5월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/e150e0e9418dc12d3ee5f257f03c69b4",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 205,
-        "international": 1212,
+        "international": 1194,
         "foreign": 304
       },
       "featuredSections": [],
@@ -123,7 +121,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8d9f1813968fda639d4df15f"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad57439fe1862089907144eb7"
     }
   ]
 }

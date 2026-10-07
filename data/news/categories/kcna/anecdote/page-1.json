@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "anecdote",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 102,
+  "totalItems": 103,
   "totalPages": 21,
   "articles": [
+    {
+      "id": "news:kcna:c2532dc609834b28311ccb39",
+      "title": "연구사들의 편의부터 생각하시며",
+      "date": "2026-10-07",
+      "snippet": "2017년 9월 어느날 한 농장에 새로 건설한 연구소를 찾으신 경애하는 김정은동지께서 목욕실에 들리시였을 때의 일이다.",
+      "url": "http://www.kcna.kp/kp/article/detail/8e18daf1bb9655e7886359682a988d70",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 0
+      },
+      "featuredSections": [
+        "anecdote"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac2532dc609834b28311ccb39"
+    },
     {
       "id": "news:kcna:0ed9c1d526de71d7c248c09b",
       "title": "현대화의 참의미",
@@ -22,7 +44,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 0
+        "anecdote": 1
       },
       "featuredSections": [
         "anecdote"
@@ -44,7 +66,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 1
+        "anecdote": 2
       },
       "featuredSections": [
         "anecdote"
@@ -66,7 +88,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 2
+        "anecdote": 3
       },
       "featuredSections": [
         "anecdote"
@@ -88,28 +110,6 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 3
-      },
-      "featuredSections": [
-        "anecdote"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad68f1eeb9a3bd55a851be753"
-    },
-    {
-      "id": "news:kcna:b714efb6b0bf9f64302f7901",
-      "title": "세심히 관심하신 의료보장대책",
-      "date": "2026-09-18",
-      "snippet": "경애하는 김정은동지께서 2018년 7월 어느날 삼지연감자가루생산공장을 현지지도하시던 때에 있은 일이다.",
-      "url": "http://www.kcna.kp/kp/article/detail/4cb8700440cc62b113462bf042cff32e",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
         "anecdote": 4
       },
       "featuredSections": [
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab714efb6b0bf9f64302f7901"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad68f1eeb9a3bd55a851be753"
     }
   ]
 }

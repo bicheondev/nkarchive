@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,59 @@
   "section": "important",
   "page": 3,
   "pageSize": 5,
-  "totalItems": 529,
-  "totalPages": 106,
+  "totalItems": 531,
+  "totalPages": 107,
   "articles": [
+    {
+      "id": "news:kcna:be930b864475b2077efb7a9d",
+      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
+      "date": "2026-09-30",
+      "snippet": "(평양 9월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d2f0e6206efdd90a0da4c4c8b579b12a",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 10,
+        "document": 4,
+        "foreign": 13,
+        "domestic": 87
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abe930b864475b2077efb7a9d"
+    },
+    {
+      "id": "news:kcna:1edaf2ad671e798a30bd9720",
+      "title": "조선민주주의인민공화국 국방성대표단 윁남사회주의공화국을 방문",
+      "date": "2026-09-30",
+      "snippet": "(평양 9월 30일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/dc571391bf40d9248c014bf01db4e0ce",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 11,
+        "international": 53,
+        "foreign": 14
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1edaf2ad671e798a30bd9720"
+    },
     {
       "id": "news:kcna:06675f4d7b1ff42d8b1339eb",
       "title": "박태성 내각총리 여러 부문 사업 현지료해",
@@ -23,8 +73,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 10,
-        "domestic": 99
+        "important": 12,
+        "domestic": 104
       },
       "featuredSections": [],
       "hasImage": true,
@@ -47,10 +97,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 11,
+        "important": 13,
         "document": 5,
-        "foreign": 19,
-        "domestic": 100
+        "foreign": 20,
+        "domestic": 105
       },
       "featuredSections": [
         "document"
@@ -74,9 +124,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 12,
-        "international": 70,
-        "foreign": 23
+        "important": 14,
+        "international": 71,
+        "foreign": 24
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,54 +134,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Aba017d6d620333d97bdc2a75"
-    },
-    {
-      "id": "news:kcna:7f3e2e1633bf5e5b466f9381",
-      "title": "경애하는 김정은동지께 여러 나라에서 축전과 축하편지를 보내여왔다",
-      "date": "2026-09-25",
-      "snippet": "(평양 9월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fd708d0ca6a060663c8a833f3e925f5f",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 13,
-        "international": 99,
-        "foreign": 30
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7f3e2e1633bf5e5b466f9381"
-    },
-    {
-      "id": "news:kcna:c59f1dac958c2c8527a3115f",
-      "title": "《집단방위의 결정적중심》은 집단적응징의 결정적목표가 될것이다",
-      "date": "2026-09-25",
-      "snippet": "(평양 9월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b4d5d550c32f6d0f16874c981546cda4",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 14,
-        "international": 100,
-        "foreign": 31
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac59f1dac958c2c8527a3115f"
     }
   ]
 }

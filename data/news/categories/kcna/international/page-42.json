@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 42,
   "pageSize": 5,
-  "totalItems": 2772,
+  "totalItems": 2773,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:225e25979b556bfa644926fe",
+      "title": "로씨야련방안전국 우크라이나고용간첩을 체포",
+      "date": "2026-09-12",
+      "snippet": "(모스크바 9월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4c9e45ddebf6304db65a36e31811f132",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 205
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A225e25979b556bfa644926fe"
+    },
     {
       "id": "news:kcna:64f9f0853becb89c600193b9",
       "title": "중국주재 우리 나라 대사관 경축연회 마련",
@@ -23,8 +43,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 205,
-        "foreign": 63
+        "international": 206,
+        "foreign": 64
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,7 +64,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 206
+        "international": 207
       },
       "featuredSections": [],
       "hasImage": false,
@@ -66,9 +86,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 38,
-        "international": 207,
-        "foreign": 64
+        "important": 40,
+        "international": 208,
+        "foreign": 65
       },
       "featuredSections": [],
       "hasImage": false,
@@ -90,31 +110,7 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 39,
-        "international": 208,
-        "foreign": 65
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3838c3f9b90fb6d9c65f6479"
-    },
-    {
-      "id": "news:kcna:d80cbff7d60172fbc6270be3",
-      "title": "경애하는 김정은동지께 꾸바공산당 중앙위원회 제1비서,꾸바공화국 주석이 축전을 보내여왔다",
-      "date": "2026-09-12",
-      "snippet": "(평양 9월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0a94b74ef7898bca30591b15fbb89df0",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "important": 40,
+        "important": 41,
         "international": 209,
         "foreign": 66
       },
@@ -123,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad80cbff7d60172fbc6270be3"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3838c3f9b90fb6d9c65f6479"
     }
   ]
 }

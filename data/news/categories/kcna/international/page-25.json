@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 25,
   "pageSize": 5,
-  "totalItems": 2772,
+  "totalItems": 2773,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:25349e7403a06eebb80095d2",
+      "title": "중국외교부 일본의 중거리미싸일배비책동 규탄",
+      "date": "2026-09-23",
+      "snippet": "(베이징 9월 22일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/69a1a7acffdf6ae3e603df525c712929",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 120
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A25349e7403a06eebb80095d2"
+    },
     {
       "id": "news:kcna:491f154594b746f3151c106f",
       "title": "이스라엘 가자지대에서 살륙행위 계속 감행",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 120
+        "international": 121
       },
       "featuredSections": [],
       "hasImage": false,
@@ -44,9 +64,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "international": 121,
-        "foreign": 40,
-        "domestic": 175
+        "international": 122,
+        "foreign": 41,
+        "domestic": 180
       },
       "featuredSections": [],
       "hasImage": true,
@@ -66,7 +86,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 122
+        "international": 123
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 123
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A34980c25ea50579d3d8b8f61"
-    },
-    {
-      "id": "news:kcna:d8b33eed5f88478f273e6968",
-      "title": "나이제리아에서 종족간분쟁 격화",
-      "date": "2026-09-22",
-      "snippet": "(평양 9월 22일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ddc2208c6758aff7341c9a4beeaec9b3",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 124
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad8b33eed5f88478f273e6968"
+      "detailUrl": "/news/document?id=news%3Akcna%3A34980c25ea50579d3d8b8f61"
     }
   ]
 }

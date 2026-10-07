@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "foreign",
   "page": 11,
   "pageSize": 5,
-  "totalItems": 785,
-  "totalPages": 157,
+  "totalItems": 786,
+  "totalPages": 158,
   "articles": [
+    {
+      "id": "news:kcna:dc6702065ccfc1cbfa592931",
+      "title": "조선민주주의인민공화국 국방성대표단 제13차 베이징향산연단에 참가",
+      "date": "2026-09-18",
+      "snippet": "(평양 9월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/350cc99404bbcfddfda949dc1456b870",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 28,
+        "international": 155,
+        "foreign": 50
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Adc6702065ccfc1cbfa592931"
+    },
     {
       "id": "news:kcna:175ca12efd2fdd5f092af812",
       "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
@@ -25,10 +49,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 27,
+        "important": 29,
         "document": 10,
-        "foreign": 50,
-        "domestic": 230
+        "foreign": 51,
+        "domestic": 235
       },
       "featuredSections": [],
       "hasImage": false,
@@ -49,8 +73,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 162,
-        "foreign": 51
+        "international": 163,
+        "foreign": 52
       },
       "featuredSections": [],
       "hasImage": false,
@@ -71,8 +95,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 163,
-        "foreign": 52
+        "international": 164,
+        "foreign": 53
       },
       "featuredSections": [],
       "hasImage": false,
@@ -95,10 +119,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 28,
+        "important": 30,
         "document": 11,
-        "foreign": 53,
-        "domestic": 245
+        "foreign": 54,
+        "domestic": 250
       },
       "featuredSections": [],
       "hasImage": false,
@@ -106,32 +130,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A0c16eee63390d75ec43b1b4c"
-    },
-    {
-      "id": "news:kcna:1e4086b104b23f6d051571bc",
-      "title": "조선민주주의인민공화국 국방성 대변인 립장발표",
-      "date": "2026-09-16",
-      "snippet": "(평양 9월 16일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/fff9677a383dda97a91f0b46456e1bea",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 29,
-        "document": 12,
-        "foreign": 54,
-        "domestic": 249
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1e4086b104b23f6d051571bc"
     }
   ]
 }

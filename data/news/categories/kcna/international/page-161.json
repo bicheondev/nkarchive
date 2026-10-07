@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 161,
   "pageSize": 5,
-  "totalItems": 2772,
+  "totalItems": 2773,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:a7494e727276ff14705224c5",
+      "title": "로씨야대통령공보관 서방경제가 침체에 빠져들고있다고 비난",
+      "date": "2026-06-26",
+      "snippet": "(모스크바 6월 25일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/00ceac2f9e2cca3026fddf72dfa4de05",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 800
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa7494e727276ff14705224c5"
+    },
     {
       "id": "news:kcna:c824ef3726ba8f78b4809c75",
       "title": "로씨야대통령 서방의 전쟁준비책동을 규탄",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 800
+        "international": 801
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 801,
-        "foreign": 229
+        "international": 802,
+        "foreign": 230
       },
       "featuredSections": [],
       "hasImage": false,
@@ -64,7 +84,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 802
+        "international": 803
       },
       "featuredSections": [],
       "hasImage": false,
@@ -84,26 +104,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 803
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3a2ea71a5c259514fc3cb040"
-    },
-    {
-      "id": "news:kcna:52db764817269a4727c1f651",
-      "title": "몽골과 인디아사이의 협조",
-      "date": "2026-06-25",
-      "snippet": "(평양 6월 25일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/22a2947ab76ec5a90df8e0ff8b1bb77f",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 804
       },
       "featuredSections": [],
@@ -111,7 +111,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A52db764817269a4727c1f651"
+      "detailUrl": "/news/document?id=news%3Akcna%3A3a2ea71a5c259514fc3cb040"
     }
   ]
 }

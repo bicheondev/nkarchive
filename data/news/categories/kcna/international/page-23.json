@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T00:00:00.000Z",
-  "version": "191afce71eb20965",
+  "generatedAt": "2026-10-07T00:00:00.000Z",
+  "version": "47b67b9172651bcb",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "international",
   "page": 23,
   "pageSize": 5,
-  "totalItems": 2772,
+  "totalItems": 2773,
   "totalPages": 555,
   "articles": [
+    {
+      "id": "news:kcna:79035827223eae0acf8cebf4",
+      "title": "도이췰란드에서 미군전투기 추락",
+      "date": "2026-09-24",
+      "snippet": "(평양 9월 24일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/99674c229e41778a0a68fdd8ab6a634c",
+      "mediaType": "article",
+      "categories": [
+        "international"
+      ],
+      "categoryOrders": {
+        "international": 110
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A79035827223eae0acf8cebf4"
+    },
     {
       "id": "news:kcna:d0c9d184f1bdd11812c2e0eb",
       "title": "제20차 아시아경기대회 소식",
@@ -22,7 +42,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 110
+        "international": 111
       },
       "featuredSections": [],
       "hasImage": false,
@@ -43,8 +63,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 111,
-        "foreign": 34
+        "international": 112,
+        "foreign": 35
       },
       "featuredSections": [],
       "hasImage": false,
@@ -65,8 +85,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 112,
-        "foreign": 35
+        "international": 113,
+        "foreign": 36
       },
       "featuredSections": [],
       "hasImage": false,
@@ -86,26 +106,6 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 113
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aadf05a4b19e66a6d14b26ef1"
-    },
-    {
-      "id": "news:kcna:b726c6443a3487c17f607a47",
-      "title": "로씨야외무상 국가회의선거를 파탄시키려던 서방의 책동이 폭로분쇄되였다고 언명",
-      "date": "2026-09-23",
-      "snippet": "(모스크바 9월 22일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/56144382fc2823540b48ce650261ce90",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
         "international": 114
       },
       "featuredSections": [],
@@ -113,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab726c6443a3487c17f607a47"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aadf05a4b19e66a6d14b26ef1"
     }
   ]
 }
