@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T00:00:00.000Z",
-  "version": "0de1ca3b60f69103",
+  "generatedAt": "2026-10-09T00:00:00.000Z",
+  "version": "f7072e96da5cc469",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,35 @@
   "section": "important",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 532,
-  "totalPages": 107,
+  "totalItems": 526,
+  "totalPages": 106,
   "articles": [
+    {
+      "id": "news:kcna:c0809b477fe32282bdd804df",
+      "title": "경애하는 김정은동지께 우리 나라 주재 무관단이 꽃바구니와 축하편지를 드리였다",
+      "date": "2026-10-08",
+      "snippet": "(평양 10월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a97c236d19153dc5548a8dcbcb2f0af9",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 5,
+        "foreign": 7,
+        "domestic": 14
+      },
+      "featuredSections": [
+        "important"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2daaefe007b9bfaf05b0c19bdd9bcfd3aef",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/4172356526ef3f979b1e7a08969fb4f29ae9c69b18dd36b180923041806e21e7.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac0809b477fe32282bdd804df"
+    },
     {
       "id": "news:kcna:14276f94af053759a5b1b513",
       "title": "경애하는 김정은동지께서 로씨야련방 대통령에게 축전을 보내시였다",
@@ -24,13 +50,11 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 5,
-        "foreign": 6,
-        "domestic": 14
+        "important": 6,
+        "foreign": 9,
+        "domestic": 26
       },
-      "featuredSections": [
-        "important"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -49,8 +73,8 @@
         "international"
       ],
       "categoryOrders": {
-        "important": 6,
-        "international": 11
+        "important": 7,
+        "international": 20
       },
       "featuredSections": [],
       "hasImage": false,
@@ -73,10 +97,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 7,
-        "document": 1,
-        "foreign": 7,
-        "domestic": 18
+        "important": 8,
+        "document": 2,
+        "foreign": 10,
+        "domestic": 30
       },
       "featuredSections": [
         "document"
@@ -99,8 +123,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 8,
-        "domestic": 27
+        "important": 9,
+        "domestic": 39
       },
       "featuredSections": [],
       "hasImage": true,
@@ -108,28 +132,6 @@
       "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2da3fdf557dca1cd21470e44b6be9f37ea9",
       "cachedThumbnailUrl": "/data/news/assets/kcna/1bcefa948c57f99d69c5e710f05f0bf7e15f01cdf7682399659b688e6dc7b760.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A74cac7adcaef2400a0604b8f"
-    },
-    {
-      "id": "news:kcna:c13eb12b654ec11158b7409a",
-      "title": "김여정 조선로동당 중앙위원회 부장 발표--전략무기발사훈련 진행",
-      "date": "2026-10-03",
-      "snippet": "(평양 10월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b3d26e7f14c26a50a6173db2e075687f",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 9,
-        "domestic": 51
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac13eb12b654ec11158b7409a"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T00:00:00.000Z",
-  "version": "0de1ca3b60f69103",
+  "generatedAt": "2026-10-09T00:00:00.000Z",
+  "version": "f7072e96da5cc469",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,15 @@
   "section": "important",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 532,
-  "totalPages": 107,
+  "totalItems": 526,
+  "totalPages": 106,
   "articles": [
     {
-      "id": "news:kcna:fc9ccba9e648433710ad9584",
-      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
-      "date": "2026-10-08",
-      "snippet": "(평양 10월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b1646cbdc1665eebd8e70d5b907ac541",
+      "id": "news:kcna:bace0296b70dc043949fdd00",
+      "title": "김여정 조선로동당 중앙위원회 부장 조선중앙통신사를 통해 또다시 서면립장을 발표",
+      "date": "2026-10-09",
+      "snippet": "(평양 10월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b3b8ba164bdad1eafd8cfaa709aa25ad",
       "mediaType": "article",
       "categories": [
         "important",
@@ -40,6 +40,36 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abace0296b70dc043949fdd00"
+    },
+    {
+      "id": "news:kcna:fc9ccba9e648433710ad9584",
+      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
+      "date": "2026-10-08",
+      "snippet": "(평양 10월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b1646cbdc1665eebd8e70d5b907ac541",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 1,
+        "document": 1,
+        "foreign": 3,
+        "domestic": 12
+      },
+      "featuredSections": [
+        "important",
+        "document",
+        "foreign"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Afc9ccba9e648433710ad9584"
     },
     {
@@ -55,13 +85,12 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 1,
-        "international": 0,
-        "foreign": 1
+        "important": 2,
+        "international": 9,
+        "foreign": 4
       },
       "featuredSections": [
         "important",
-        "international",
         "foreign"
       ],
       "hasImage": true,
@@ -83,13 +112,12 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 2,
-        "international": 1,
-        "foreign": 2
+        "important": 3,
+        "international": 10,
+        "foreign": 5
       },
       "featuredSections": [
         "important",
-        "international",
         "foreign"
       ],
       "hasImage": true,
@@ -111,47 +139,18 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 3,
-        "international": 2,
-        "foreign": 3
+        "important": 4,
+        "international": 11,
+        "foreign": 6
       },
       "featuredSections": [
-        "important",
-        "foreign"
+        "important"
       ],
       "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2da2b597f42be08e92bc063dc688b090ba0",
       "cachedThumbnailUrl": "/data/news/assets/kcna/50b99099c760409dbcabadcca4378cc70b5cef381d5df150b5b363fa96118eeb.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A648d60e39415144d64a693f8"
-    },
-    {
-      "id": "news:kcna:c0809b477fe32282bdd804df",
-      "title": "경애하는 김정은동지께 우리 나라 주재 무관단이 꽃바구니와 축하편지를 드리였다",
-      "date": "2026-10-08",
-      "snippet": "(평양 10월 8일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a97c236d19153dc5548a8dcbcb2f0af9",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 4,
-        "foreign": 4,
-        "domestic": 2
-      },
-      "featuredSections": [
-        "important",
-        "foreign",
-        "domestic"
-      ],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2daaefe007b9bfaf05b0c19bdd9bcfd3aef",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/4172356526ef3f979b1e7a08969fb4f29ae9c69b18dd36b180923041806e21e7.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac0809b477fe32282bdd804df"
     }
   ]
 }

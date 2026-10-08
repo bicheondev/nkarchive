@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T00:00:00.000Z",
-  "version": "0de1ca3b60f69103",
+  "generatedAt": "2026-10-09T00:00:00.000Z",
+  "version": "f7072e96da5cc469",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,35 @@
   "section": "document",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 72,
+  "totalItems": 73,
   "totalPages": 15,
   "articles": [
+    {
+      "id": "news:kcna:a959f78772aace7d79cbcabb",
+      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
+      "date": "2026-10-02",
+      "snippet": "(평양 10월 2일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d4a749a018dbcb54c8aff12bc3f9943c",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 13,
+        "document": 5,
+        "foreign": 15,
+        "domestic": 76
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa959f78772aace7d79cbcabb"
+    },
     {
       "id": "news:kcna:be930b864475b2077efb7a9d",
       "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
@@ -25,10 +51,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 15,
-        "document": 5,
-        "foreign": 19,
-        "domestic": 100
+        "important": 16,
+        "document": 6,
+        "foreign": 22,
+        "domestic": 112
       },
       "featuredSections": [],
       "hasImage": false,
@@ -51,10 +77,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 18,
-        "document": 6,
-        "foreign": 26,
-        "domestic": 118
+        "important": 19,
+        "document": 7,
+        "foreign": 29,
+        "domestic": 130
       },
       "featuredSections": [
         "document"
@@ -79,14 +105,12 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 24,
-        "document": 7,
-        "foreign": 43,
-        "domestic": 174
+        "important": 25,
+        "document": 8,
+        "foreign": 46,
+        "domestic": 186
       },
-      "featuredSections": [
-        "document"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
@@ -107,10 +131,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 28,
-        "document": 8,
-        "foreign": 49,
-        "domestic": 209
+        "important": 29,
+        "document": 9,
+        "foreign": 52,
+        "domestic": 221
       },
       "featuredSections": [],
       "hasImage": false,
@@ -118,32 +142,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3Ae1bbcc62cb4b7075ff21d869"
-    },
-    {
-      "id": "news:kcna:1bdea89d45c692df9ae81b0d",
-      "title": "조선민주주의인민공화국 외무성 대변인담화 발표",
-      "date": "2026-09-19",
-      "snippet": "(평양 9월 19일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/551cb53d9d184def31fedaebb231ea56",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 30,
-        "document": 9,
-        "foreign": 53,
-        "domestic": 234
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1bdea89d45c692df9ae81b0d"
     }
   ]
 }
