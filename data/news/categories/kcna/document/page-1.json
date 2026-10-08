@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T00:00:00.000Z",
-  "version": "61b6a1440687ccf6",
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "version": "0de1ca3b60f69103",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,40 @@
   "section": "document",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 71,
+  "totalItems": 72,
   "totalPages": 15,
   "articles": [
+    {
+      "id": "news:kcna:fc9ccba9e648433710ad9584",
+      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
+      "date": "2026-10-08",
+      "snippet": "(평양 10월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b1646cbdc1665eebd8e70d5b907ac541",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 0,
+        "document": 0,
+        "foreign": 0,
+        "domestic": 0
+      },
+      "featuredSections": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Afc9ccba9e648433710ad9584"
+    },
     {
       "id": "news:kcna:6c1c3d4bae3739e3801ceeff",
       "title": "조선민주주의인민공화국 외무성 성명 발표",
@@ -25,15 +56,13 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 2,
-        "document": 0,
-        "foreign": 1,
-        "domestic": 11
+        "important": 7,
+        "document": 1,
+        "foreign": 7,
+        "domestic": 18
       },
       "featuredSections": [
-        "important",
-        "document",
-        "foreign"
+        "document"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -55,15 +84,13 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 5,
-        "document": 1,
-        "foreign": 3,
-        "domestic": 49
+        "important": 10,
+        "document": 2,
+        "foreign": 9,
+        "domestic": 56
       },
       "featuredSections": [
-        "important",
-        "document",
-        "foreign"
+        "document"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -85,14 +112,13 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 6,
-        "document": 2,
-        "foreign": 5,
-        "domestic": 56
+        "important": 11,
+        "document": 3,
+        "foreign": 11,
+        "domestic": 63
       },
       "featuredSections": [
-        "document",
-        "foreign"
+        "document"
       ],
       "hasImage": false,
       "hasVideo": false,
@@ -114,45 +140,17 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 7,
-        "document": 3,
-        "foreign": 6,
-        "domestic": 57
-      },
-      "featuredSections": [
-        "document"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa959f78772aace7d79cbcabb"
-    },
-    {
-      "id": "news:kcna:be930b864475b2077efb7a9d",
-      "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
-      "date": "2026-09-30",
-      "snippet": "(평양 9월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d2f0e6206efdd90a0da4c4c8b579b12a",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "foreign",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 10,
+        "important": 12,
         "document": 4,
-        "foreign": 13,
-        "domestic": 93
+        "foreign": 12,
+        "domestic": 64
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Abe930b864475b2077efb7a9d"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa959f78772aace7d79cbcabb"
     }
   ]
 }

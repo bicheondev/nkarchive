@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T00:00:00.000Z",
-  "version": "61b6a1440687ccf6",
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "version": "0de1ca3b60f69103",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,15 @@
   "section": "domestic",
   "page": 9,
   "pageSize": 5,
-  "totalItems": 4157,
-  "totalPages": 832,
+  "totalItems": 4164,
+  "totalPages": 833,
   "articles": [
     {
-      "id": "news:kcna:4d3457069fdd20edea3c0ba8",
-      "title": "우리 인민의 귀중한 음악유산-조선장단",
+      "id": "news:kcna:391bb833896b40ae5b52c8e5",
+      "title": "전자자동화설계연구소에서 지방발전정책실행을 견인",
       "date": "2026-10-04",
       "snippet": "(평양 10월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/f0c8a602f6e3a2692fda861d235af212",
+      "url": "http://www.kcna.kp/kp/article/detail/4663732e2eaf7786f0c4aee0f82eb038",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -29,14 +29,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4d3457069fdd20edea3c0ba8"
+      "detailUrl": "/news/document?id=news%3Akcna%3A391bb833896b40ae5b52c8e5"
     },
     {
-      "id": "news:kcna:9675e00dcd0294654accadbb",
-      "title": "각지에서 대상건설 추진",
+      "id": "news:kcna:a8ff961ad475feb001393a2e",
+      "title": "개천절행사 진행",
       "date": "2026-10-04",
       "snippet": "(평양 10월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/18870679440120f58ee63266d9cfa403",
+      "url": "http://www.kcna.kp/kp/article/detail/ef26f40c00496722d68f5169a1375c0e",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -45,38 +45,42 @@
         "domestic": 41
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9675e00dcd0294654accadbb"
+      "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2da323ef6eb82730a197a2ea4ac16358ce3",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/35b11a9d31701cd2a382ca5f019ee4b73016f92b3e81c9a0a0130ed7a9dbb3f2.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa8ff961ad475feb001393a2e"
     },
     {
-      "id": "news:kcna:90a4878fd5670cbfaa408d4e",
-      "title": "농업과학자들이 연구개발한 과학기술제품들 여러 단위에서 호평",
+      "id": "news:kcna:7863b55a27896f1e51bd2bf7",
+      "title": "함경북도 부령군의 백살장수자가 은정어린 생일상을 받아안았다",
       "date": "2026-10-04",
       "snippet": "(평양 10월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/284d653503fea388210cceafe1422218",
+      "url": "http://www.kcna.kp/kp/article/detail/678618a6a752262a8b4780ea88bc76a4",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 42
+        "domestic": 42,
+        "social": 4
       },
-      "featuredSections": [],
+      "featuredSections": [
+        "social"
+      ],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A90a4878fd5670cbfaa408d4e"
+      "detailUrl": "/news/document?id=news%3Akcna%3A7863b55a27896f1e51bd2bf7"
     },
     {
-      "id": "news:kcna:c6202b8371271deb61096e98",
-      "title": "평안북도 화초부문 일군들의 기술강습회 진행",
+      "id": "news:kcna:ca2646d9fb1cc21ca3753fa3",
+      "title": "개성시의 농촌들에서 가을밀,보리씨뿌리기 추진",
       "date": "2026-10-04",
       "snippet": "(평양 10월 4일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1ac972dc3803fa241822e6a835766687",
+      "url": "http://www.kcna.kp/kp/article/detail/47c9d0d0468d1a67a2e03c1add0db0c8",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -89,31 +93,27 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac6202b8371271deb61096e98"
+      "detailUrl": "/news/document?id=news%3Akcna%3Aca2646d9fb1cc21ca3753fa3"
     },
     {
-      "id": "news:kcna:c13eb12b654ec11158b7409a",
-      "title": "김여정 조선로동당 중앙위원회 부장 발표--전략무기발사훈련 진행",
-      "date": "2026-10-03",
-      "snippet": "(평양 10월 3일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b3d26e7f14c26a50a6173db2e075687f",
+      "id": "news:kcna:38a2c338819d99a9ecd70220",
+      "title": "개성시에서 고려시기의 벽화무덤 새로 발굴고증",
+      "date": "2026-10-04",
+      "snippet": "(평양 10월 4일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/9fd313a55ef1e2893c5a43780b5bf470",
       "mediaType": "article",
       "categories": [
-        "important",
         "domestic"
       ],
       "categoryOrders": {
-        "important": 4,
         "domestic": 44
       },
-      "featuredSections": [
-        "important"
-      ],
+      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac13eb12b654ec11158b7409a"
+      "detailUrl": "/news/document?id=news%3Akcna%3A38a2c338819d99a9ecd70220"
     }
   ]
 }

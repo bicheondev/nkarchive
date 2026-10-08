@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T00:00:00.000Z",
-  "version": "61b6a1440687ccf6",
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "version": "0de1ca3b60f69103",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,33 @@
   "section": "document",
   "page": 11,
   "pageSize": 5,
-  "totalItems": 71,
+  "totalItems": 72,
   "totalPages": 15,
   "articles": [
+    {
+      "id": "news:kcna:1a41172eaec32c8a1023f6a8",
+      "title": "조선민주주의인민공화국 외무성 대변인대답",
+      "date": "2026-03-11",
+      "snippet": "(평양 3월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d99b73d394c3d3563f86abb278db96be",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 325,
+        "document": 50,
+        "domestic": 2428
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A1a41172eaec32c8a1023f6a8"
+    },
     {
       "id": "news:kcna:ad113005ab53f38c499ea712",
       "title": "김여정 조선로동당 중앙위원회 부장 담화 발표",
@@ -25,10 +49,10 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 321,
-        "document": 50,
-        "foreign": 450,
-        "domestic": 2430
+        "important": 326,
+        "document": 51,
+        "foreign": 456,
+        "domestic": 2437
       },
       "featuredSections": [],
       "hasImage": false,
@@ -50,9 +74,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 330,
-        "document": 51,
-        "domestic": 2493
+        "important": 335,
+        "document": 52,
+        "domestic": 2500
       },
       "featuredSections": [],
       "hasImage": false,
@@ -74,9 +98,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 331,
-        "document": 52,
-        "domestic": 2494
+        "important": 336,
+        "document": 53,
+        "domestic": 2501
       },
       "featuredSections": [],
       "hasImage": false,
@@ -98,9 +122,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 335,
-        "document": 53,
-        "domestic": 2516
+        "important": 340,
+        "document": 54,
+        "domestic": 2523
       },
       "featuredSections": [],
       "hasImage": false,
@@ -108,30 +132,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Akcna%3A8db22e5c1c1da107395ec12b"
-    },
-    {
-      "id": "news:kcna:2454d9aa2678cf6332c32196",
-      "title": "조선로동당 중앙위원회 제9기 제1차전원회의에 관한 공보",
-      "date": "2026-02-24",
-      "snippet": "(평양 2월 24일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/edae43918be21240616931490277d859",
-      "mediaType": "article",
-      "categories": [
-        "important",
-        "document",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 353,
-        "document": 54,
-        "domestic": 2575
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366282fadbc732dbc39a75f3a80069e3d2c",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/020dac0643febb435899f508f5929621522bec0f6c3b0f418cbe8d932da0176f.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A2454d9aa2678cf6332c32196"
     }
   ]
 }

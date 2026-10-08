@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T00:00:00.000Z",
-  "version": "61b6a1440687ccf6",
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "version": "0de1ca3b60f69103",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 214,
+  "totalItems": 215,
   "totalPages": 43,
   "articles": [
+    {
+      "id": "news:kcna:a5fb49ba454f219ea32d54b3",
+      "title": "우리의 힘과 기술로 만든 첫 기관단총",
+      "date": "2026-09-29",
+      "snippet": "1947년 9월 어느날 위대한 수령 김일성동지께서는 집무실에서 병기공장일군들을 만나주시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/b4568259fdf0e02a66f442cd49402d32",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 5
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa5fb49ba454f219ea32d54b3"
+    },
     {
       "id": "news:kcna:8a94bb8dfd4174f45902b447",
       "title": "귀틀집에서 보내신 추석날밤",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 5
+        "memory": 6
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 6
+        "memory": 7
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 7
+        "memory": 8
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 8
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac5cec7c80e0dfa50c6c200f8"
-    },
-    {
-      "id": "news:kcna:3b78fe64c18bcac12743e835",
-      "title": "예비가 아니라 우롱",
-      "date": "2026-09-17",
-      "snippet": "위대한 령도자 김정일동지께서는 1971년 3월 어느날 동해안지방을 다녀온 한 일군을 만나시여 어항들에서 명태를 랭동하고있는것을 보았는가고 물으시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/17c310527b4fc29ca972c3ac858fcfe7",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 9
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3b78fe64c18bcac12743e835"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac5cec7c80e0dfa50c6c200f8"
     }
   ]
 }

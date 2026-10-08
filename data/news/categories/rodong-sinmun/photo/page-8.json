@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T00:00:00.000Z",
-  "version": "61b6a1440687ccf6",
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "version": "0de1ca3b60f69103",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,9 +8,29 @@
   "section": "photo",
   "page": 8,
   "pageSize": 5,
-  "totalItems": 52,
+  "totalItems": 53,
   "totalPages": 11,
   "articles": [
+    {
+      "id": "news:rodong-sinmun:7898f2f5f9b0b3158d4edb95",
+      "title": "행복의 별천지",
+      "date": "2025-05-07",
+      "snippet": "행복의 별천지",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNS8wNS8wNy8yMS8yMDI1LTA1LTA3LTAwNC8yMDI1LTA1LTA3LTAwMS5qcGc==",
+      "mediaType": "article",
+      "categories": [
+        "photo"
+      ],
+      "categoryOrders": {
+        "photo": 35
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNS8wNS8wNy8yMS8yMDI1LTA1LTA3LTAwNC8yMDI1LTA1LTA3LTAwMS5qcGc==",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A7898f2f5f9b0b3158d4edb95"
+    },
     {
       "id": "news:rodong-sinmun:d382abdf798b2135b9d0d9f5",
       "title": "사회주의번화가에 넘치는 인민의 기쁨",
@@ -22,7 +42,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 35
+        "photo": 36
       },
       "featuredSections": [],
       "hasImage": true,
@@ -42,7 +62,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 36
+        "photo": 37
       },
       "featuredSections": [],
       "hasImage": true,
@@ -62,7 +82,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 37
+        "photo": 38
       },
       "featuredSections": [],
       "hasImage": true,
@@ -82,7 +102,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 38
+        "photo": 39
       },
       "featuredSections": [],
       "hasImage": true,
@@ -90,26 +110,6 @@
       "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNS8wNC8xMi8yMS8yMDI1LTA0LTEyLTEzOS8yMDI1LTA0LTEyLTAwMS5qcGc==",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ae0c8000b6748b87965ba1d24"
-    },
-    {
-      "id": "news:rodong-sinmun:f6ef446ea70d5ed860a7fadd",
-      "title": "자연박물관에서의 즐거운 하루",
-      "date": "2025-03-28",
-      "snippet": "자연박물관에서의 즐거운 하루",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNS8wMy8yOC8yMS8yMDI1LTAzLTI4LTA0Ny8yMDI1LTAzLTI4LTAwMS5qcGc==",
-      "mediaType": "article",
-      "categories": [
-        "photo"
-      ],
-      "categoryOrders": {
-        "photo": 39
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNS8wMy8yOC8yMS8yMDI1LTAzLTI4LTA0Ny8yMDI1LTAzLTI4LTAwMS5qcGc==",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Af6ef446ea70d5ed860a7fadd"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T00:00:00.000Z",
-  "version": "61b6a1440687ccf6",
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "version": "0de1ca3b60f69103",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,9 +8,31 @@
   "section": "photo",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 52,
+  "totalItems": 53,
   "totalPages": 11,
   "articles": [
+    {
+      "id": "news:rodong-sinmun:b4ca0130af0cb85f6019c38c",
+      "title": "우리 당의 영광스러운 창당사를 길이 전하는 당창건사적관",
+      "date": "2026-10-08",
+      "snippet": "우리 당의 영광스러운 창당사를 길이 전하는 당창건사적관",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8xMC8wOC8yMS8yMDI2LTEwLTA4LTAxNC8yMDI2LTEwLTA4LTAwMS5qcGc==",
+      "mediaType": "article",
+      "categories": [
+        "photo"
+      ],
+      "categoryOrders": {
+        "photo": 0
+      },
+      "featuredSections": [
+        "photo"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8xMC8wOC8yMS8yMDI2LTEwLTA4LTAxNC8yMDI2LTEwLTA4LTAwMS5qcGc==",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ab4ca0130af0cb85f6019c38c"
+    },
     {
       "id": "news:rodong-sinmun:509712626f449b6ac256a69e",
       "title": "대성산의 력사유적",
@@ -22,7 +44,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 0
+        "photo": 1
       },
       "featuredSections": [
         "photo"
@@ -44,7 +66,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 1
+        "photo": 2
       },
       "featuredSections": [
         "photo"
@@ -66,7 +88,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 2
+        "photo": 3
       },
       "featuredSections": [
         "photo"
@@ -88,7 +110,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 3
+        "photo": 4
       },
       "featuredSections": [
         "photo"
@@ -98,28 +120,6 @@
       "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOC8yNi8yMS8yMDI2LTA4LTI2LTAwMi8yMDI2LTA4LTI2LTAwMS5qcGc==",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ac3232f0279476aa0b620d72f"
-    },
-    {
-      "id": "news:rodong-sinmun:8a1b50b1f81fab23223f1f61",
-      "title": "선렬들의 고결한 혁명정신을 새겨안으며",
-      "date": "2026-08-15",
-      "snippet": "선렬들의 고결한 혁명정신을 새겨안으며",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOC8xNS8yMS8yMDI2LTA4LTE1LTAwNC8yMDI2LTA4LTE1LTAwMS5qcGc==",
-      "mediaType": "article",
-      "categories": [
-        "photo"
-      ],
-      "categoryOrders": {
-        "photo": 4
-      },
-      "featuredSections": [
-        "photo"
-      ],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOC8xNS8yMS8yMDI2LTA4LTE1LTAwNC8yMDI2LTA4LTE1LTAwMS5qcGc==",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A8a1b50b1f81fab23223f1f61"
     }
   ]
 }
