@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-09T00:00:00.000Z",
-  "version": "f7072e96da5cc469",
+  "version": "1106752f7415983b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "memory",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 214,
+  "totalItems": 215,
   "totalPages": 43,
   "articles": [
+    {
+      "id": "news:kcna:70305d7bf37120ca6b0cd51c",
+      "title": "고향보다 먼저 찾으신 강선의 로동계급",
+      "date": "2026-10-09",
+      "snippet": "위대한 수령 김일성동지께서는 1945년 10월 9일 아침 강선제강소(당시)에 대한 현지지도의 길을 떠나시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/a4f838eb638a3319c69bbb80e6621ab6",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 0
+      },
+      "featuredSections": [
+        "memory"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A70305d7bf37120ca6b0cd51c"
+    },
     {
       "id": "news:kcna:97aef7982fcb7b65d9024391",
       "title": "명곡에 대한 정식화",
@@ -22,7 +44,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 0
+        "memory": 1
       },
       "featuredSections": [
         "memory"
@@ -44,7 +66,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 1
+        "memory": 2
       },
       "featuredSections": [
         "memory"
@@ -66,7 +88,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 2
+        "memory": 3
       },
       "featuredSections": [
         "memory"
@@ -88,28 +110,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 3
-      },
-      "featuredSections": [
-        "memory"
-      ],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A623a116167156fa6b1d75cdb"
-    },
-    {
-      "id": "news:kcna:ddd9457995032eeda4562212",
-      "title": "평양개선의 첫날밤에",
-      "date": "2026-09-30",
-      "snippet": "위대한 수령 김일성동지께서는 온 나라가 해방의 환희로 들끓던 1945년 9월 어느날 평양으로 개선하시였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/826455a881406b64c0d78d2838405836",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 4
       },
       "featuredSections": [
@@ -119,7 +119,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Addd9457995032eeda4562212"
+      "detailUrl": "/news/document?id=news%3Akcna%3A623a116167156fa6b1d75cdb"
     }
   ]
 }

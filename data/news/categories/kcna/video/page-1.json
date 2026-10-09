@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-09T00:00:00.000Z",
-  "version": "f7072e96da5cc469",
+  "version": "1106752f7415983b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,31 @@
   "section": "video",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 256,
+  "totalItems": 257,
   "totalPages": 52,
   "articles": [
+    {
+      "id": "news:kcna:bd04943eb3443632358373d2",
+      "title": "전국산림과학기술성과전시회 및 발표회 진행",
+      "date": "2026-10-09",
+      "snippet": "전국산림과학기술성과전시회 및 발표회 진행",
+      "url": "http://www.kcna.kp/kp/video/detail/7274d6a3b5c9406301f5bdeabe2c9fde",
+      "mediaType": "article",
+      "categories": [
+        "video"
+      ],
+      "categoryOrders": {
+        "video": 0
+      },
+      "featuredSections": [
+        "video"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/a7f58cefe31815f14bd8f0855d4e1ef62387c8b855b3427f04089c617cbfaed2.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Abd04943eb3443632358373d2"
+    },
     {
       "id": "news:kcna:4fcc334ee4c59c60e3f312f6",
       "title": "재령군 삼지강농장의 논판양어경험",
@@ -22,7 +44,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 0
+        "video": 1
       },
       "featuredSections": [
         "video"
@@ -44,7 +66,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 1
+        "video": 2
       },
       "featuredSections": [
         "video"
@@ -66,7 +88,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 2
+        "video": 3
       },
       "featuredSections": [
         "video"
@@ -88,7 +110,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 3
+        "video": 4
       },
       "featuredSections": [
         "video"
@@ -98,28 +120,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "/data/news/assets/kcna/83234576b6be42cf35bb51b8217dcd13652eec1aff862ae3411f75ddee69aaff.jpg",
       "detailUrl": "/news/document?id=news%3Akcna%3A2ba20b36fef302489229ecf4"
-    },
-    {
-      "id": "news:kcna:3343c8a3970a74cbbce5ed5c",
-      "title": "지방발전정책관철사업 적극 추진",
-      "date": "2026-09-30",
-      "snippet": "지방발전정책관철사업 적극 추진",
-      "url": "http://www.kcna.kp/kp/video/detail/1a0182074951aad9e9001578bc6dca19",
-      "mediaType": "article",
-      "categories": [
-        "video"
-      ],
-      "categoryOrders": {
-        "video": 4
-      },
-      "featuredSections": [
-        "video"
-      ],
-      "hasImage": true,
-      "hasVideo": true,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/f432aeb254e430c940057290c5dc62b68cafa2e2312ee547d5ee27c46c7a42af.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3343c8a3970a74cbbce5ed5c"
     }
   ]
 }

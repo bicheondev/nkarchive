@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-09T00:00:00.000Z",
-  "version": "f7072e96da5cc469",
+  "version": "1106752f7415983b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,35 +8,37 @@
   "section": "domestic",
   "page": 572,
   "pageSize": 5,
-  "totalItems": 4145,
-  "totalPages": 829,
+  "totalItems": 4161,
+  "totalPages": 833,
   "articles": [
     {
-      "id": "news:kcna:a8f215fba2fd7615d4ebe678",
-      "title": "《매봉산》상표와 더불어 소문난 공장",
-      "date": "2026-01-30",
-      "snippet": "(평양 1월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/8af1bda592f0bdb10bf5bde85934cecc",
+      "id": "news:kcna:d79ba499c0847fbeb4583abb",
+      "title": "강원도 평강군 전승리와 이천군 개천리에서 살림집입사모임 진행",
+      "date": "2026-02-01",
+      "snippet": "(평양 2월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b0d3ae37d091a1d55778b30983f72561",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 2856
+        "domestic": 2856,
+        "social": 386
       },
       "featuredSections": [],
-      "hasImage": true,
+      "hasImage": false,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e4512dea875286eaed74e599f617290f8ce9",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/4c7c911bcb6999e666fc8f1d672466246d4884a2b5aefdd359ecec50efd9749d.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa8f215fba2fd7615d4ebe678"
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad79ba499c0847fbeb4583abb"
     },
     {
-      "id": "news:kcna:5c9c505dd08f1315b7bd0e03",
-      "title": "김책공업종합대학에서 지능화된 원격교육체계 새롭게 구축",
-      "date": "2026-01-30",
-      "snippet": "(평양 1월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/809f83b2e03d144d2e1b5278941f89d2",
+      "id": "news:kcna:54310cc939a4b0f246e4e060",
+      "title": "성,중앙기관들에서 탄광들을 지원",
+      "date": "2026-02-01",
+      "snippet": "(평양 2월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f42099e40deccb4a3ff94d8cfca1418f",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -49,34 +51,36 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5c9c505dd08f1315b7bd0e03"
+      "detailUrl": "/news/document?id=news%3Akcna%3A54310cc939a4b0f246e4e060"
     },
     {
-      "id": "news:kcna:1cd85fe1f57021cb9db62f5a",
-      "title": "기술경쟁의 분위기를 고조시키기 위한 사업 심화",
-      "date": "2026-01-30",
-      "snippet": "(평양 1월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b1a14cdf1f403f5e683bd6667297f61d",
+      "id": "news:kcna:51358182e9b3c3ea16ab0e5a",
+      "title": "평원군 지방발전정책대상건설착공식 진행",
+      "date": "2026-02-01",
+      "snippet": "(평양 2월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ef5a79c9b31d205572ec5bb3a1d41a17",
       "mediaType": "article",
       "categories": [
+        "important",
         "domestic"
       ],
       "categoryOrders": {
+        "important": 397,
         "domestic": 2858
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A1cd85fe1f57021cb9db62f5a"
+      "thumbnailUrl": "http://www.kcna.kp/photo/7bb69c9adb35245346525b5a2b41198457c0f4e909fff12c309305b042530153",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/135c3491c05c9f9952b11679ae4ef4a91bd7545cbced9de14ebcdb47c81c94f0.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A51358182e9b3c3ea16ab0e5a"
     },
     {
-      "id": "news:kcna:394bfacced98bdb285cc7156",
-      "title": "2026년 1월 30일 신문개관",
-      "date": "2026-01-30",
-      "snippet": "(평양 1월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d57bd5450739a7853b9e26b23ceac7ac",
+      "id": "news:kcna:4f0b41daabbcc97c2d652785",
+      "title": "함흥의학대학 기숙사 준공",
+      "date": "2026-02-01",
+      "snippet": "(평양 2월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5dda42a93ff973adf8b858e18aeaa5c9",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -89,14 +93,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A394bfacced98bdb285cc7156"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4f0b41daabbcc97c2d652785"
     },
     {
-      "id": "news:kcna:a657a4b4db878af8fd3592a2",
-      "title": "중앙동물원에 늘어나는 새 《식솔》들",
-      "date": "2026-01-30",
-      "snippet": "(평양 1월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/692dd408b867a6741cd1da228f6e0644",
+      "id": "news:kcna:06053b76ee0f867d4f667a89",
+      "title": "각지 태권도선수단들에서 선수들의 육체기술적능력 제고",
+      "date": "2026-02-01",
+      "snippet": "(평양 2월 1일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2491efc7aa9c40cd39405132f6a1f4a0",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -109,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aa657a4b4db878af8fd3592a2"
+      "detailUrl": "/news/document?id=news%3Akcna%3A06053b76ee0f867d4f667a89"
     }
   ]
 }

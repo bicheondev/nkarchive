@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-09T00:00:00.000Z",
-  "version": "f7072e96da5cc469",
+  "version": "1106752f7415983b",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,9 +8,29 @@
   "section": "memory",
   "page": 2,
   "pageSize": 5,
-  "totalItems": 214,
+  "totalItems": 215,
   "totalPages": 43,
   "articles": [
+    {
+      "id": "news:kcna:ddd9457995032eeda4562212",
+      "title": "평양개선의 첫날밤에",
+      "date": "2026-09-30",
+      "snippet": "위대한 수령 김일성동지께서는 온 나라가 해방의 환희로 들끓던 1945년 9월 어느날 평양으로 개선하시였다.",
+      "url": "http://www.kcna.kp/kp/article/detail/826455a881406b64c0d78d2838405836",
+      "mediaType": "article",
+      "categories": [
+        "memory"
+      ],
+      "categoryOrders": {
+        "memory": 5
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Addd9457995032eeda4562212"
+    },
     {
       "id": "news:kcna:a5fb49ba454f219ea32d54b3",
       "title": "우리의 힘과 기술로 만든 첫 기관단총",
@@ -22,7 +42,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 5
+        "memory": 6
       },
       "featuredSections": [],
       "hasImage": false,
@@ -42,7 +62,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 6
+        "memory": 7
       },
       "featuredSections": [],
       "hasImage": false,
@@ -62,7 +82,7 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 7
+        "memory": 8
       },
       "featuredSections": [],
       "hasImage": false,
@@ -82,26 +102,6 @@
         "memory"
       ],
       "categoryOrders": {
-        "memory": 8
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ad7d0128c70fbc6602133c82f"
-    },
-    {
-      "id": "news:kcna:c5cec7c80e0dfa50c6c200f8",
-      "title": "일정에 없던 협의회",
-      "date": "2026-09-21",
-      "snippet": "1993년 5월 어느날 위대한 수령 김일성동지께서 서포닭공장에 대한 현지지도를 마치시였을 때였다.",
-      "url": "http://www.kcna.kp/kp/article/detail/6e067870d1338aca3075675856b8de63",
-      "mediaType": "article",
-      "categories": [
-        "memory"
-      ],
-      "categoryOrders": {
         "memory": 9
       },
       "featuredSections": [],
@@ -109,7 +109,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ac5cec7c80e0dfa50c6c200f8"
+      "detailUrl": "/news/document?id=news%3Akcna%3Ad7d0128c70fbc6602133c82f"
     }
   ]
 }
