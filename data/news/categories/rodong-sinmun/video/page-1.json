@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-10T00:00:00.000Z",
-  "version": "9e21961f73f0b1ad",
+  "generatedAt": "2026-10-12T00:00:00.000Z",
+  "version": "2e450e8a04ce1192",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,9 +8,31 @@
   "section": "video",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 7,
+  "totalItems": 8,
   "totalPages": 2,
   "articles": [
+    {
+      "id": "news:rodong-sinmun:e8b9d6a1cbeafae7c5ed5a03",
+      "title": "사랑의 화폭",
+      "date": "2026-10-12",
+      "snippet": "사랑의 화폭",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTBAMjAyNi0xMC0xMi0wMTRAQEBAQEBAMjE==",
+      "mediaType": "article",
+      "categories": [
+        "video"
+      ],
+      "categoryOrders": {
+        "video": 0
+      },
+      "featuredSections": [
+        "video"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MTFAMjAyNi0xMC0xMi0wMTRAQEBAQEBAMjE=",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ae8b9d6a1cbeafae7c5ed5a03"
+    },
     {
       "id": "news:rodong-sinmun:64b54bbf0086c55e8285008c",
       "title": "조선의 특산 개성고려인삼",
@@ -22,7 +44,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 0
+        "video": 1
       },
       "featuredSections": [
         "video"
@@ -44,7 +66,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 1
+        "video": 2
       },
       "featuredSections": [
         "video"
@@ -66,7 +88,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 2
+        "video": 3
       },
       "featuredSections": [
         "video"
@@ -88,7 +110,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 3
+        "video": 4
       },
       "featuredSections": [
         "video"
@@ -98,28 +120,6 @@
       "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MTFAMjAyNi0wMS0zMC0wMTNAQEBAQEBAMjE=",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Acfbfe287bb0ae800a5dcef4b"
-    },
-    {
-      "id": "news:rodong-sinmun:e44c24c9914e82cca61dc1f6",
-      "title": "다심한 손길",
-      "date": "2025-04-08",
-      "snippet": "다심한 손길",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTBAMjAyNS0wNC0wOC0wMzdAQEBAQEBAMjE==",
-      "mediaType": "article",
-      "categories": [
-        "video"
-      ],
-      "categoryOrders": {
-        "video": 4
-      },
-      "featuredSections": [
-        "video"
-      ],
-      "hasImage": true,
-      "hasVideo": true,
-      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MTFAMjAyNS0wNC0wOC0wMzdAQEBAQEBAMjE=",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ae44c24c9914e82cca61dc1f6"
     }
   ]
 }
