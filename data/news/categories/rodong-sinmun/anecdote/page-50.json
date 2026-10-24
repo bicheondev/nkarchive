@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-13T00:00:00.000Z",
-  "version": "b66c43ee972a0d61",
+  "generatedAt": "2026-10-24T00:00:00.000Z",
+  "version": "744a6ad80e79989d",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,15 +8,95 @@
   "section": "anecdote",
   "page": 50,
   "pageSize": 5,
-  "totalItems": 281,
-  "totalPages": 57,
+  "totalItems": 292,
+  "totalPages": 59,
   "articles": [
     {
-      "id": "news:rodong-sinmun:454fa88d92765bef298d706b",
-      "title": "사계절 펼쳐지는 우리 농촌의 새집들이풍경\n중화군과 신계군의 여러 농촌마을에서 살림집입사모임 진행",
-      "date": "2026-01-24",
-      "snippet": "사계절 펼쳐지는 우리 농촌의 새집들이풍경",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yNC0wNDhAM0AxN0BAMEAyNDZA==",
+      "id": "news:rodong-sinmun:b58ef0fcb46f84778812deeb",
+      "title": "《민들레》학습장이 전하는 사랑의 이야기",
+      "date": "2026-01-31",
+      "snippet": "《민들레》학습장이 전하는 사랑의 이야기",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0zMS0wMTZAM0AxN0BAMEAyNDZA==",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 117
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ab58ef0fcb46f84778812deeb"
+    },
+    {
+      "id": "news:rodong-sinmun:a1ce5b59f122fa8ade66c781",
+      "title": "나날이 변모되는 문화농촌의 자랑찬 모습\n승호군 만달남새농장과 평산군 와현농장에 새집들이 일떠섰다",
+      "date": "2026-01-31",
+      "snippet": "나날이 변모되는 문화농촌의 자랑찬 모습",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0zMS0wMjBAM0AxN0BAMEAyNDdA==",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 118
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/91833ca844bfe0f6d4505d55369bbebbb5d3dbb62ebf4446ca58610d375d9ca2.jpg",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aa1ce5b59f122fa8ade66c781"
+    },
+    {
+      "id": "news:rodong-sinmun:4128441cb73e3941a1e0dd0a",
+      "title": "선경마을들에 넘치는 인민의 환희\n신천군 복우농장, 봉천군 석사농장에서 새집들이경사 맞이",
+      "date": "2026-01-30",
+      "snippet": "선경마을들에 넘치는 인민의 환희",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0zMC0wMTdAM0AxN0BAMEAyNDhA==",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 119
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/12c1b451a08b20dcf2593322572e0dc4e80627e98d711bc9e1f5b9435cecf952.jpg",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A4128441cb73e3941a1e0dd0a"
+    },
+    {
+      "id": "news:rodong-sinmun:8520fa28b32b92de537e36e5",
+      "title": "인민을 매혹시키는 위인의 세계\n영광의 단상에 오른 평범한 근로자들",
+      "date": "2026-01-29",
+      "snippet": "인민을 매혹시키는 위인의 세계",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yOS0wMThAM0AxN0BAMEAyNDlA==",
+      "mediaType": "article",
+      "categories": [
+        "anecdote"
+      ],
+      "categoryOrders": {
+        "anecdote": 120
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A8520fa28b32b92de537e36e5"
+    },
+    {
+      "id": "news:rodong-sinmun:e0c2e6e32141c4c938d1abbb",
+      "title": "끝없이 이어가시는 위민헌신의 길에서\n인민이 주는 지상의 명령",
+      "date": "2026-01-29",
+      "snippet": "끝없이 이어가시는 위민헌신의 길에서",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yOS0wMTlAM0AxN0BAMEAyNTBA==",
       "mediaType": "article",
       "categories": [
         "anecdote"
@@ -25,91 +105,11 @@
         "anecdote": 121
       },
       "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/4cb9fc56f9516be21f6cbdc8f047b8a853f013d5567d1d2db5dc36602aa0bc1e.jpg",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A454fa88d92765bef298d706b"
-    },
-    {
-      "id": "news:rodong-sinmun:03253d131e415d65eae1ade3",
-      "title": "지방변혁의 새시대를 펼쳐가시는 나날에\n깊이 관심하신 생산지표",
-      "date": "2026-01-23",
-      "snippet": "지방변혁의 새시대를 펼쳐가시는 나날에",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMy0wMTZAM0AxN0BAMEAyNDdA==",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
-        "anecdote": 122
-      },
-      "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A03253d131e415d65eae1ade3"
-    },
-    {
-      "id": "news:rodong-sinmun:3f49426b730185c268453227",
-      "title": "선경마을들에 차넘치는 새 문명, 새 생활의 환희\n연산군 읍농장, 신평군 선암농장의 농업근로자들이 새집들이경사를 맞이하였다",
-      "date": "2026-01-23",
-      "snippet": "선경마을들에 차넘치는 새 문명, 새 생활의 환희",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMy0wMTlAM0AxN0BAMEAyNDhA==",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
-        "anecdote": 123
-      },
-      "featuredSections": [],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/d8cac7da24036accb70883c4ec653c0255cf676e0bbcae7d0470a20f93c74623.jpg",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A3f49426b730185c268453227"
-    },
-    {
-      "id": "news:rodong-sinmun:87c2f0de8c0bced7df504edb",
-      "title": "위대한 애국의 의지",
-      "date": "2026-01-22",
-      "snippet": "위대한 애국의 의지",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMTVAM0AxN0BAMEAyNDlA==",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
-        "anecdote": 124
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A87c2f0de8c0bced7df504edb"
-    },
-    {
-      "id": "news:rodong-sinmun:e56f866e2fee524b30fae8cf",
-      "title": "지방발전의 새시대를 펼치시는 길에서\n제일 어려운 군부터",
-      "date": "2026-01-22",
-      "snippet": "지방발전의 새시대를 펼치시는 길에서",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMi0wMTZAM0AxN0BAMEAyNTBA==",
-      "mediaType": "article",
-      "categories": [
-        "anecdote"
-      ],
-      "categoryOrders": {
-        "anecdote": 125
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ae56f866e2fee524b30fae8cf"
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ae0c2e6e32141c4c938d1abbb"
     }
   ]
 }
