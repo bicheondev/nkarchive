@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-26T00:00:00.000Z",
-  "version": "a135d7414a4e15f0",
+  "generatedAt": "2026-10-27T00:00:00.000Z",
+  "version": "835304fd31d56db0",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,15 +8,15 @@
   "section": "important",
   "page": 9,
   "pageSize": 5,
-  "totalItems": 41,
+  "totalItems": 43,
   "totalPages": 9,
   "articles": [
     {
-      "id": "news:rodong-sinmun:25556b5040947b59d8a2d11a",
-      "title": "벨지끄에서 폭풍피해",
-      "date": "2026-10-26",
-      "snippet": "벨지끄에서 폭풍피해",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0yNi0wNTFAMkAzQEAwQDQxQA==",
+      "id": "news:rodong-sinmun:044592f836ed353d423a6b33",
+      "title": "습근평주석 티베트자치구에서 지진피해가 발생한것과 관련하여 중요지시 하달",
+      "date": "2026-10-27",
+      "snippet": "습근평주석 티베트자치구에서 지진피해가 발생한것과 관련하여 중요지시 하달",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0yNy0wNTZAMkAzQEAwQDQxQA==",
       "mediaType": "article",
       "categories": [
         "important"
@@ -25,11 +25,51 @@
         "important": 40
       },
       "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A044592f836ed353d423a6b33"
+    },
+    {
+      "id": "news:rodong-sinmun:f4b533757d8d2ad63fb0da4b",
+      "title": "인도주의위기 악화",
+      "date": "2026-10-27",
+      "snippet": "인도주의위기 악화",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0yNy0wNTdAMkAzQEAwQDQyQA==",
+      "mediaType": "article",
+      "categories": [
+        "important"
+      ],
+      "categoryOrders": {
+        "important": 41
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Af4b533757d8d2ad63fb0da4b"
+    },
+    {
+      "id": "news:rodong-sinmun:267f3b9d39323ba13703720e",
+      "title": "자연피해",
+      "date": "2026-10-27",
+      "snippet": "자연피해",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0yNy0wNThAMkAzQEAwQDQzQA==",
+      "mediaType": "article",
+      "categories": [
+        "important"
+      ],
+      "categoryOrders": {
+        "important": 42
+      },
+      "featuredSections": [],
       "hasImage": true,
       "hasVideo": false,
       "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/bd6676c8457047cb9130ad0fde4fd0805b6939cdabe71b94051476168fee2cb8.jpg",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A25556b5040947b59d8a2d11a"
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/6ed92220c9bd09ae3bc1715e91e70b834524d1c5f7682ae9afcb52f7b835358c.jpg",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A267f3b9d39323ba13703720e"
     }
   ]
 }
