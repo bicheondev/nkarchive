@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T00:00:00.000Z",
-  "version": "835304fd31d56db0",
+  "generatedAt": "2026-11-03T00:00:00.000Z",
+  "version": "40b65aff165cbb00",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,9 +8,31 @@
   "section": "photo",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 53,
+  "totalItems": 54,
   "totalPages": 11,
   "articles": [
+    {
+      "id": "news:rodong-sinmun:1468916a012d37acc7f38980",
+      "title": "보통강반의 이채로운 풍치",
+      "date": "2026-10-29",
+      "snippet": "보통강반의 이채로운 풍치",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8xMC8yOS8yMS8yMDI2LTEwLTI5LTAxMi8yMDI2LTEwLTI5LTAwMS5qcGc==",
+      "mediaType": "article",
+      "categories": [
+        "photo"
+      ],
+      "categoryOrders": {
+        "photo": 0
+      },
+      "featuredSections": [
+        "photo"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8xMC8yOS8yMS8yMDI2LTEwLTI5LTAxMi8yMDI2LTEwLTI5LTAwMS5qcGc==",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A1468916a012d37acc7f38980"
+    },
     {
       "id": "news:rodong-sinmun:b4ca0130af0cb85f6019c38c",
       "title": "우리 당의 영광스러운 창당사를 길이 전하는 당창건사적관",
@@ -22,7 +44,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 0
+        "photo": 1
       },
       "featuredSections": [
         "photo"
@@ -44,7 +66,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 1
+        "photo": 2
       },
       "featuredSections": [
         "photo"
@@ -66,7 +88,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 2
+        "photo": 3
       },
       "featuredSections": [
         "photo"
@@ -88,7 +110,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 3
+        "photo": 4
       },
       "featuredSections": [
         "photo"
@@ -98,28 +120,6 @@
       "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOS8xMi8yMS8yMDI2LTA5LTEyLTAxMS8yMDI2LTA5LTEyLTAwMS5qcGc==",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A6d7e120be59bada7544ddd18"
-    },
-    {
-      "id": "news:rodong-sinmun:c3232f0279476aa0b620d72f",
-      "title": "명사십리에 넘쳐나는 인민의 기쁨",
-      "date": "2026-08-26",
-      "snippet": "명사십리에 넘쳐나는 인민의 기쁨",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOC8yNi8yMS8yMDI2LTA4LTI2LTAwMi8yMDI2LTA4LTI2LTAwMS5qcGc==",
-      "mediaType": "article",
-      "categories": [
-        "photo"
-      ],
-      "categoryOrders": {
-        "photo": 4
-      },
-      "featuredSections": [
-        "photo"
-      ],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOC8yNi8yMS8yMDI2LTA4LTI2LTAwMi8yMDI2LTA4LTI2LTAwMS5qcGc==",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ac3232f0279476aa0b620d72f"
     }
   ]
 }
