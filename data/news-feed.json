@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T00:00:00.000Z",
-  "version": "aa051f4d83fc39aa",
+  "generatedAt": "2026-11-10T00:00:00.000Z",
+  "version": "d352d73d5a261bbf",
   "sources": {
     "kcna": {
       "id": "kcna",
@@ -1176,12 +1176,12 @@
     "rodong-sinmun": {
       "id": "rodong-sinmun",
       "name": "로동신문",
-      "totalItems": 855,
+      "totalItems": 853,
       "categoryCounts": {
-        "leadership": 172,
-        "important": 47,
+        "leadership": 173,
+        "important": 43,
         "photo": 54,
-        "anecdote": 305,
+        "anecdote": 306,
         "video": 8,
         "memory": 46,
         "domestic": 219,
@@ -1189,11 +1189,33 @@
       },
       "articles": [
         {
-          "id": "news:rodong-sinmun:1f41b1c35394be8a51dd7800",
-          "title": "조선농업근로자동맹 제10차대회 진행",
-          "date": "2026-11-08",
-          "snippet": "조선농업근로자동맹 제10차대회 진행",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wOC0wMTRAMkAxQEAwQDFA==",
+          "id": "news:rodong-sinmun:9d420d6728f406d4b93e62d0",
+          "title": "인민을 위한 헌신의 길에서\n못내 기뻐하신 사연",
+          "date": "2026-11-10",
+          "snippet": "인민을 위한 헌신의 길에서",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMC0wMjVAM0AxQEAwQDFA==",
+          "mediaType": "article",
+          "categories": [
+            "anecdote"
+          ],
+          "categoryOrders": {
+            "anecdote": 0
+          },
+          "featuredSections": [
+            "anecdote"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A9d420d6728f406d4b93e62d0"
+        },
+        {
+          "id": "news:rodong-sinmun:c6c59f24e2b51dda3c8d27a5",
+          "title": "경애하는 김정은동지께서\n라오스인민혁명당 중앙위원회 총비서,\n라오스인민민주주의공화국 주석에게 꽃바구니를 보내시였다",
+          "date": "2026-11-10",
+          "snippet": "경애하는 김정은동지께서",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMC0wMjJAMkAxQEAwQDFA==",
           "mediaType": "article",
           "categories": [
             "important"
@@ -1204,18 +1226,40 @@
           "featuredSections": [
             "important"
           ],
-          "hasImage": true,
+          "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/a30f0831e0ff181e3a3dcbe318aa0007ce43c694daa2478e5ff697b8105071e1.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A1f41b1c35394be8a51dd7800"
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ac6c59f24e2b51dda3c8d27a5"
         },
         {
-          "id": "news:rodong-sinmun:129d07608be11a856babe4f6",
-          "title": "축하문\n조선농업근로자동맹 제10차대회 참가자들과 전체 농근맹원들에게",
-          "date": "2026-11-08",
-          "snippet": "축하문",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wOC0wMTVAMkAxQEAwQDJA==",
+          "id": "news:rodong-sinmun:c93b50c247211027a47b12ae",
+          "title": "경애하는 김정은동지께서\n조선농업근로자동맹 제10차대회 참가자들을 만나시고 기념사진을 찍으시였다",
+          "date": "2026-11-10",
+          "snippet": "경애하는 김정은동지께서",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMC0wMjFAMUAxQEAwQDFA==",
+          "mediaType": "article",
+          "categories": [
+            "leadership"
+          ],
+          "categoryOrders": {
+            "leadership": 0
+          },
+          "featuredSections": [
+            "leadership"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8xMS8xMC8xLzIwMjYtMTEtMTAtMDIxLzIwMjYtMTEtMTAtMDAyLmpwZw==",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ac93b50c247211027a47b12ae"
+        },
+        {
+          "id": "news:rodong-sinmun:f75e27626df131d70b77b73a",
+          "title": "화성지구 5단계 살림집건설 마감단계에서 힘있게 추진",
+          "date": "2026-11-10",
+          "snippet": "화성지구 5단계 살림집건설 마감단계에서 힘있게 추진",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMC0wMjNAMkAxQEAwQDJA==",
           "mediaType": "article",
           "categories": [
             "important"
@@ -1230,14 +1274,14 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A129d07608be11a856babe4f6"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Af75e27626df131d70b77b73a"
         },
         {
-          "id": "news:rodong-sinmun:24a0195a3a27f0158be2f6c9",
-          "title": "조선로동당대표단 단장이 중국공산당 중앙위원회 서기처 서기를 만났다",
-          "date": "2026-11-08",
-          "snippet": "조선로동당대표단 단장이 중국공산당 중앙위원회 서기처 서기를 만났다",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wOC0wMTZAMkAxQEAwQDNA==",
+          "id": "news:rodong-sinmun:a60163be4ce0b18c76654d6c",
+          "title": "위대한 새시대에 산천도 푸르러간다\n경애하는 총비서동지께서 산림복구를 위한 투쟁을\n현명하게 이끌어주신 정력적인 령도의 나날을 더듬으며",
+          "date": "2026-11-10",
+          "snippet": "위대한 새시대에 산천도 푸르러간다",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMC0wMjRAMkAxQEAwQDNA==",
           "mediaType": "article",
           "categories": [
             "important"
@@ -1248,18 +1292,18 @@
           "featuredSections": [
             "important"
           ],
-          "hasImage": false,
+          "hasImage": true,
           "hasVideo": false,
           "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A24a0195a3a27f0158be2f6c9"
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/da31003302a38b42d353ece62b0a98f86e5626067ab85bcecbbd68af27e59df9.jpg",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aa60163be4ce0b18c76654d6c"
         },
         {
-          "id": "news:rodong-sinmun:299c3ded32481102cbda52f3",
-          "title": "조선로동당 중앙위원회 비서와 중국공산당 중앙위원회 대외련락부장사이의 회담 진행",
-          "date": "2026-11-08",
-          "snippet": "조선로동당 중앙위원회 비서와 중국공산당 중앙위원회 대외련락부장사이의 회담 진행",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wOC0wMTdAMkAxQEAwQDRA==",
+          "id": "news:rodong-sinmun:3237519a545600a247592200",
+          "title": "인민을 위한 헌신의 길에서\n못내 기뻐하신 사연",
+          "date": "2026-11-10",
+          "snippet": "인민을 위한 헌신의 길에서",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMC0wMjVAMkAxQEAwQDRA==",
           "mediaType": "article",
           "categories": [
             "important"
@@ -1274,14 +1318,14 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A299c3ded32481102cbda52f3"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A3237519a545600a247592200"
         },
         {
-          "id": "news:rodong-sinmun:744325b64e9e6846f1eb4fc5",
-          "title": "조선로동당대표단 중국공산당 중앙당학교 참관",
-          "date": "2026-11-08",
-          "snippet": "조선로동당대표단 중국공산당 중앙당학교 참관",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wOC0wMThAMkAxQEAwQDVA==",
+          "id": "news:rodong-sinmun:28700398ec1bd1f5ad658c2c",
+          "title": "평양고무공장창립 80돐 기념보고회 진행",
+          "date": "2026-11-10",
+          "snippet": "평양고무공장창립 80돐 기념보고회 진행",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMC0wMjZAMkAxQEAwQDVA==",
           "mediaType": "article",
           "categories": [
             "important"
@@ -1296,14 +1340,14 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A744325b64e9e6846f1eb4fc5"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A28700398ec1bd1f5ad658c2c"
         },
         {
-          "id": "news:rodong-sinmun:45537e86730b09676e1ae09e",
-          "title": "조선로동당대표단 중화인민공화국 공식방문을 마치고 귀국",
-          "date": "2026-11-08",
-          "snippet": "조선로동당대표단 중화인민공화국 공식방문을 마치고 귀국",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wOC0wMTlAMkAxQEAwQDZA==",
+          "id": "news:rodong-sinmun:4120de71a16f09d7ced9e844",
+          "title": "미래에로 가는 큰걸음",
+          "date": "2026-11-10",
+          "snippet": "미래에로 가는 큰걸음",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMC0wMjdAMkAxQEAwQDZA==",
           "mediaType": "article",
           "categories": [
             "important"
@@ -1318,7 +1362,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A45537e86730b09676e1ae09e"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A4120de71a16f09d7ced9e844"
         },
         {
           "id": "news:rodong-sinmun:999d762c80cc135c2c5efc1d",
@@ -1343,28 +1387,6 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A999d762c80cc135c2c5efc1d"
         },
         {
-          "id": "news:rodong-sinmun:bbf93d960bcb026b82f90f7b",
-          "title": "어떤 무거운 짐을 지고서라도, 어떤 어려운 길을 걸어서라도\n인민의 복리와 아름다운 조국의 미래를 위한 우리 당의 드팀없는 의지",
-          "date": "2026-11-07",
-          "snippet": "어떤 무거운 짐을 지고서라도, 어떤 어려운 길을 걸어서라도",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNy0wMTVAM0AxQEAwQDFA==",
-          "mediaType": "article",
-          "categories": [
-            "anecdote"
-          ],
-          "categoryOrders": {
-            "anecdote": 0
-          },
-          "featuredSections": [
-            "anecdote"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Abbf93d960bcb026b82f90f7b"
-        },
-        {
           "id": "news:rodong-sinmun:0a0e6d45c98417b307a24890",
           "title": "친혈육의 정을 안고",
           "date": "2026-11-07",
@@ -1387,11 +1409,11 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A0a0e6d45c98417b307a24890"
         },
         {
-          "id": "news:rodong-sinmun:d83782855d70d41c8b3de05d",
-          "title": "자력갱생의 혁명정신을 심어주시며\n제일 기쁘실 때",
+          "id": "news:rodong-sinmun:5697045f134cb6086fa16902",
+          "title": "어떤 무거운 짐을 지고서라도, 어떤 어려운 길을 걸어서라도\n인민의 복리와 아름다운 조국의 미래를 위한 우리 당의 드팀없는 의지",
           "date": "2026-11-07",
-          "snippet": "자력갱생의 혁명정신을 심어주시며",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNy0wMTZAM0AxQEAwQDJA==",
+          "snippet": "어떤 무거운 짐을 지고서라도, 어떤 어려운 길을 걸어서라도",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNy0wMTVAM0AxQEAwQDJA==",
           "mediaType": "article",
           "categories": [
             "anecdote"
@@ -1406,7 +1428,29 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ad83782855d70d41c8b3de05d"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A5697045f134cb6086fa16902"
+        },
+        {
+          "id": "news:rodong-sinmun:3599f26e4f3275d8135f9b83",
+          "title": "자력갱생의 혁명정신을 심어주시며\n제일 기쁘실 때",
+          "date": "2026-11-07",
+          "snippet": "자력갱생의 혁명정신을 심어주시며",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNy0wMTZAM0AxQEAwQDNA==",
+          "mediaType": "article",
+          "categories": [
+            "anecdote"
+          ],
+          "categoryOrders": {
+            "anecdote": 2
+          },
+          "featuredSections": [
+            "anecdote"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A3599f26e4f3275d8135f9b83"
         },
         {
           "id": "news:rodong-sinmun:9c0d67e102933ab0c1a4c702",
@@ -1431,33 +1475,11 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A9c0d67e102933ab0c1a4c702"
         },
         {
-          "id": "news:rodong-sinmun:aad60a5ee6492d913c6916e8",
+          "id": "news:rodong-sinmun:aafa547dd27b132070a1bfd2",
           "title": "언제나 인민을 마음속에 안으시고\n스쳐지나지 않으신 미세한 차이",
           "date": "2026-11-06",
           "snippet": "언제나 인민을 마음속에 안으시고",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNi0wMjBAM0AxQEAwQDNA==",
-          "mediaType": "article",
-          "categories": [
-            "anecdote"
-          ],
-          "categoryOrders": {
-            "anecdote": 2
-          },
-          "featuredSections": [
-            "anecdote"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aaad60a5ee6492d913c6916e8"
-        },
-        {
-          "id": "news:rodong-sinmun:b3148a40c652c86925651cf2",
-          "title": "풍요한 가을은 어떻게 왔는가\n경애하는 총비서동지께서 올해 나라의 농업생산을 위해 기울이신\n크나큰 심혈과 로고를 새겨보며",
-          "date": "2026-11-05",
-          "snippet": "풍요한 가을은 어떻게 왔는가",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNS0wODlAM0AxQEAwQDRA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNi0wMjBAM0AxQEAwQDRA==",
           "mediaType": "article",
           "categories": [
             "anecdote"
@@ -1468,24 +1490,46 @@
           "featuredSections": [
             "anecdote"
           ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aaafa547dd27b132070a1bfd2"
+        },
+        {
+          "id": "news:rodong-sinmun:1ee90138a42af302604748e7",
+          "title": "풍요한 가을은 어떻게 왔는가\n경애하는 총비서동지께서 올해 나라의 농업생산을 위해 기울이신\n크나큰 심혈과 로고를 새겨보며",
+          "date": "2026-11-05",
+          "snippet": "풍요한 가을은 어떻게 왔는가",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNS0wODlAM0AxQEAwQDVA==",
+          "mediaType": "article",
+          "categories": [
+            "anecdote"
+          ],
+          "categoryOrders": {
+            "anecdote": 4
+          },
+          "featuredSections": [
+            "anecdote"
+          ],
           "hasImage": true,
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/62eb89420ef1b0744b32a0a95e231b08682e7103279248714ddf204956527689.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ab3148a40c652c86925651cf2"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A1ee90138a42af302604748e7"
         },
         {
-          "id": "news:rodong-sinmun:1299056e924d23f98bb09ff2",
+          "id": "news:rodong-sinmun:979a64580d0ab16921fd809e",
           "title": "경애하는 김정은동지께서 남포조선소를 현지지도하시였다",
           "date": "2026-11-04",
           "snippet": "경애하는 김정은동지께서 남포조선소를 현지지도하시였다",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNC0wMTRAMUAxQEAwQDFA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNC0wMTRAMUAxQEAwQDJA==",
           "mediaType": "article",
           "categories": [
             "leadership"
           ],
           "categoryOrders": {
-            "leadership": 0
+            "leadership": 1
           },
           "featuredSections": [
             "leadership"
@@ -1494,7 +1538,7 @@
           "hasVideo": false,
           "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8xMS8wNC8xLzIwMjYtMTEtMDQtMDE0LzIwMjYtMTEtMDQtMDA2LmpwZw==",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A1299056e924d23f98bb09ff2"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A979a64580d0ab16921fd809e"
         },
         {
           "id": "news:rodong-sinmun:9e5bb28a4351d9e2e1f5d41c",
@@ -1539,28 +1583,6 @@
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Af974b32ddc6d1b0397464adc"
-        },
-        {
-          "id": "news:rodong-sinmun:ff8b9cb0d77662861ac1fcac",
-          "title": "로동당의 품, 사회주의 우리 조국에만 있는 현실\n인민의 복리를 위한 대상건설을 그 무엇보다 먼저!",
-          "date": "2026-11-03",
-          "snippet": "로동당의 품, 사회주의 우리 조국에만 있는 현실",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wMy0wMTVAM0AxQEAwQDVA==",
-          "mediaType": "article",
-          "categories": [
-            "anecdote"
-          ],
-          "categoryOrders": {
-            "anecdote": 4
-          },
-          "featuredSections": [
-            "anecdote"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aff8b9cb0d77662861ac1fcac"
         },
         {
           "id": "news:rodong-sinmun:a75149074f6f4259f379b479",
@@ -1629,17 +1651,17 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A24887b8fe6e3ce8756435942"
         },
         {
-          "id": "news:rodong-sinmun:1be154c9383650078380551e",
+          "id": "news:rodong-sinmun:dde37497ccd73ebe76e53207",
           "title": "《무인항공기술발전-2026》전시회 성대히 진행",
           "date": "2026-10-30",
           "snippet": "《무인항공기술발전-2026》전시회 성대히 진행",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0zMC0wMTNAMUAxQEAwQDJA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0zMC0wMTNAMUAxQEAwQDNA==",
           "mediaType": "article",
           "categories": [
             "leadership"
           ],
           "categoryOrders": {
-            "leadership": 1
+            "leadership": 2
           },
           "featuredSections": [
             "leadership"
@@ -1648,7 +1670,7 @@
           "hasVideo": false,
           "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8xMC8zMC8xLzIwMjYtMTAtMzAtMDEzLzIwMjYtMTAtMzAtMDY0LmpwZw==",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A1be154c9383650078380551e"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Adde37497ccd73ebe76e53207"
         },
         {
           "id": "news:rodong-sinmun:1468916a012d37acc7f38980",
@@ -1673,17 +1695,17 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A1468916a012d37acc7f38980"
         },
         {
-          "id": "news:rodong-sinmun:d1abec4276d6fdb7f130ef1c",
+          "id": "news:rodong-sinmun:54fc56b917da9d24b291edac",
           "title": "경애하는 김정은동지께서\n조선인민군 제3차 중대장대회 참가자들과 기념사진을 찍으시였다",
           "date": "2026-10-28",
           "snippet": "경애하는 김정은동지께서",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0yOC0wMTFAMUAxQEAwQDNA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0yOC0wMTFAMUAxQEAwQDRA==",
           "mediaType": "article",
           "categories": [
             "leadership"
           ],
           "categoryOrders": {
-            "leadership": 2
+            "leadership": 3
           },
           "featuredSections": [
             "leadership"
@@ -1692,7 +1714,7 @@
           "hasVideo": false,
           "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8xMC8yOC8xLzIwMjYtMTAtMjgtMDExLzIwMjYtMTAtMjgtMDAzLmpwZw==",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ad1abec4276d6fdb7f130ef1c"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A54fc56b917da9d24b291edac"
         },
         {
           "id": "news:rodong-sinmun:37ff97fe9460387417648b03",
@@ -1717,17 +1739,17 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A37ff97fe9460387417648b03"
         },
         {
-          "id": "news:rodong-sinmun:cb323ae38444d0c9299113f1",
+          "id": "news:rodong-sinmun:d74e3c8b434656424ab7dc4b",
           "title": "경애하는 김정은동지께서\n중화인민공화국 료녕성 단동시를 방문하시였다",
           "date": "2026-10-25",
           "snippet": "경애하는 김정은동지께서",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0yNS0wNzlAMUAxQEAwQDRA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0yNS0wNzlAMUAxQEAwQDVA==",
           "mediaType": "article",
           "categories": [
             "leadership"
           ],
           "categoryOrders": {
-            "leadership": 3
+            "leadership": 4
           },
           "featuredSections": [
             "leadership"
@@ -1736,7 +1758,7 @@
           "hasVideo": false,
           "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8xMC8yNS8xLzIwMjYtMTAtMjUtMDc5LzIwMjYtMTAtMjUtMDU4LmpwZw==",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Acb323ae38444d0c9299113f1"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ad74e3c8b434656424ab7dc4b"
         },
         {
           "id": "news:rodong-sinmun:2c2317f4b8a616351d246e99",
@@ -1761,33 +1783,11 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A2c2317f4b8a616351d246e99"
         },
         {
-          "id": "news:rodong-sinmun:76af3f042d041ce2c74cb6bf",
+          "id": "news:rodong-sinmun:5b0990b49f36c57d58267cbc",
           "title": "최정예강군육성의 새로운 리정표를 세운 력사적인 대회합\n조선인민군 제3차 중대장대회 진행",
           "date": "2026-10-24",
           "snippet": "최정예강군육성의 새로운 리정표를 세운 력사적인 대회합",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0yNC0wOTVAMUAxQEAwQDVA==",
-          "mediaType": "article",
-          "categories": [
-            "leadership"
-          ],
-          "categoryOrders": {
-            "leadership": 4
-          },
-          "featuredSections": [
-            "leadership"
-          ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8xMC8yNC8xLzIwMjYtMTAtMjQtMDk1LzIwMjYtMTAtMjQtMDMxLmpwZw==",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A76af3f042d041ce2c74cb6bf"
-        },
-        {
-          "id": "news:rodong-sinmun:139be285577d3ffbeac94f03",
-          "title": "경애하는 김정은동지께서 경공업부문 피복, 신발전시회장을 돌아보시였다",
-          "date": "2026-10-20",
-          "snippet": "경애하는 김정은동지께서 경공업부문 피복, 신발전시회장을 돌아보시였다",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0yMC0wNThAMUAxQEAwQDZA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMC0yNC0wOTVAMUAxQEAwQDZA==",
           "mediaType": "article",
           "categories": [
             "leadership"
@@ -1800,9 +1800,9 @@
           ],
           "hasImage": true,
           "hasVideo": false,
-          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8xMC8yMC8xLzIwMjYtMTAtMjAtMDU4LzIwMjYtMTAtMjAtMDE0LmpwZw==",
+          "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8xMC8yNC8xLzIwMjYtMTAtMjQtMDk1LzIwMjYtMTAtMjQtMDMxLmpwZw==",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A139be285577d3ffbeac94f03"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A5b0990b49f36c57d58267cbc"
         },
         {
           "id": "news:rodong-sinmun:e8b9d6a1cbeafae7c5ed5a03",
