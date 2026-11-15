@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-13T00:00:00.000Z",
-  "version": "1da03e3fb4dc9b21",
+  "generatedAt": "2026-11-15T00:00:00.000Z",
+  "version": "ac0907b69f2527f1",
   "sources": {
     "kcna": {
       "id": "kcna",
@@ -1176,24 +1176,24 @@
     "rodong-sinmun": {
       "id": "rodong-sinmun",
       "name": "로동신문",
-      "totalItems": 859,
+      "totalItems": 869,
       "categoryCounts": {
         "leadership": 175,
-        "important": 42,
+        "important": 47,
         "photo": 54,
-        "anecdote": 309,
+        "anecdote": 311,
         "video": 8,
-        "memory": 48,
-        "domestic": 219,
-        "social": 4
+        "memory": 49,
+        "domestic": 220,
+        "social": 5
       },
       "articles": [
         {
-          "id": "news:rodong-sinmun:5ccc23ab3c43233e551a96e7",
-          "title": "귀중히 새기라 행복의 참뜻을 [1면]",
-          "date": "2026-11-13",
-          "snippet": "정론",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMy0wMTNAMkAxQEAwQDFA==",
+          "id": "news:rodong-sinmun:5d8bbc09747569f2ffd517f3",
+          "title": "조선민주주의인민공화국 당 및 정부대표단 로씨야련방을 방문하기 위하여 평양 출발",
+          "date": "2026-11-15",
+          "snippet": "조선민주주의인민공화국 당 및 정부대표단 로씨야련방을 방문하기 위하여 평양 출발",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xNS0xMDVAMkAxQEAwQDFA==",
           "mediaType": "article",
           "categories": [
             "important"
@@ -1204,18 +1204,40 @@
           "featuredSections": [
             "important"
           ],
-          "hasImage": false,
+          "hasImage": true,
           "hasVideo": false,
           "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A5ccc23ab3c43233e551a96e7"
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/a620b039a4a83b464d5807a768d72808003ce079b9b08abc39468926accf2052.jpg",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A5d8bbc09747569f2ffd517f3"
         },
         {
-          "id": "news:rodong-sinmun:a74a639f28d68822f04ce4ad",
-          "title": "어머니날에 찾으신 사연",
-          "date": "2026-11-13",
-          "snippet": "어머니날에 찾으신 사연",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMy0wMTZAM0AxQEAwQDFA==",
+          "id": "news:rodong-sinmun:890c41d679ff193a33ecaa0f",
+          "title": "력사유적 부용당",
+          "date": "2026-11-15",
+          "snippet": "력사유적 부용당",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xNS0wODVAN0AxQEAwQDFA==",
+          "mediaType": "article",
+          "categories": [
+            "social"
+          ],
+          "categoryOrders": {
+            "social": 0
+          },
+          "featuredSections": [
+            "social"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/944abb1ee9c81ca491043fa00478c3e62e757b471730c280eb2b4f1dac39cd56.jpg",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A890c41d679ff193a33ecaa0f"
+        },
+        {
+          "id": "news:rodong-sinmun:ecb6416e547fbacad7114d0d",
+          "title": "끝없이 이어가시는 위민헌신의 길에서\n물놀이장에 갖추어진 치료설비",
+          "date": "2026-11-15",
+          "snippet": "끝없이 이어가시는 위민헌신의 길에서",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xNS0wNjJAM0AxQEAwQDFA==",
           "mediaType": "article",
           "categories": [
             "anecdote"
@@ -1230,14 +1252,14 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aa74a639f28d68822f04ce4ad"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aecb6416e547fbacad7114d0d"
         },
         {
-          "id": "news:rodong-sinmun:c740c9a0dec3af6237d760c4",
-          "title": "성천의 새 모습\n새시대 지방발전사의 첫 페지에 새겨진 사연깊은 고장의 전변상을 보며",
-          "date": "2026-11-13",
-          "snippet": "성천의 새 모습",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMy0wMTRAMkAxQEAwQDJA==",
+          "id": "news:rodong-sinmun:2d7fc75c853e044d812b7356",
+          "title": "조선민주주의인민공화국 당 및 정부대표단 모스크바 도착",
+          "date": "2026-11-15",
+          "snippet": "조선민주주의인민공화국 당 및 정부대표단 모스크바 도착",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xNS0xMDZAMkAxQEAwQDJA==",
           "mediaType": "article",
           "categories": [
             "important"
@@ -1248,18 +1270,18 @@
           "featuredSections": [
             "important"
           ],
-          "hasImage": true,
+          "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/aa53dc5b94994bf8bbb0b0d492ffb839b64f283e58c35d42d3d55def97382e58.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ac740c9a0dec3af6237d760c4"
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A2d7fc75c853e044d812b7356"
         },
         {
-          "id": "news:rodong-sinmun:51fc676c99380e204aad1523",
-          "title": "커다란 변화, 긍지높은 현실\n높아진 요구",
-          "date": "2026-11-13",
-          "snippet": "커다란 변화, 긍지높은 현실",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMy0wMTVAMkAxQEAwQDNA==",
+          "id": "news:rodong-sinmun:b49e51d7bd3a74ca1b91c1d6",
+          "title": "당결정관철에 떨쳐나선 도당위원회들의 소식\n강력한 지도력량 주요전구들에 파견\n함경남도당위원회에서",
+          "date": "2026-11-15",
+          "snippet": "당결정관철에 떨쳐나선 도당위원회들의 소식",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xNS0xMDdAMkAxQEAwQDNA==",
           "mediaType": "article",
           "categories": [
             "important"
@@ -1270,18 +1292,18 @@
           "featuredSections": [
             "important"
           ],
-          "hasImage": true,
+          "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/41a9496c225a7f80b7b87c5ae1788b9aa011af655290fba6ec00b9e1e36b79c7.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A51fc676c99380e204aad1523"
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ab49e51d7bd3a74ca1b91c1d6"
         },
         {
-          "id": "news:rodong-sinmun:b99a4e394ec06672ba0d68a9",
-          "title": "어머니날에 찾으신 사연",
-          "date": "2026-11-13",
-          "snippet": "어머니날에 찾으신 사연",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMy0wMTZAMkAxQEAwQDRA==",
+          "id": "news:rodong-sinmun:547eefc12896313f6d181a81",
+          "title": "계속혁신의 기상떨치며 생산적앙양을 일으킨다\n굴지의 비료생산기지들에서",
+          "date": "2026-11-15",
+          "snippet": "계속혁신의 기상떨치며 생산적앙양을 일으킨다",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xNS0xMDhAMkAxQEAwQDRA==",
           "mediaType": "article",
           "categories": [
             "important"
@@ -1296,14 +1318,14 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ab99a4e394ec06672ba0d68a9"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A547eefc12896313f6d181a81"
         },
         {
-          "id": "news:rodong-sinmun:e67cfb2d36f8182a08b40a7d",
-          "title": "정치용어해설\n사회정치적생명 [2면]",
-          "date": "2026-11-13",
-          "snippet": "정치용어해설",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMy0wMTdAMkAxQEAwQDVA==",
+          "id": "news:rodong-sinmun:06f7512f6984aa0a0453b229",
+          "title": "사상의 위력으로 전진하는 혁명은 필승불패이다",
+          "date": "2026-11-15",
+          "snippet": "사상의 위력으로 전진하는 혁명은 필승불패이다",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xNS0wNjFAMkAxQEAwQDVA==",
           "mediaType": "article",
           "categories": [
             "important"
@@ -1318,14 +1340,14 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ae67cfb2d36f8182a08b40a7d"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A06f7512f6984aa0a0453b229"
         },
         {
-          "id": "news:rodong-sinmun:e99d2bd49e47afe23f859b62",
-          "title": "생의 명줄\n우리 당의 참된 충신이였던 현철해동지가 남긴 편지들을 보며",
-          "date": "2026-11-13",
-          "snippet": "생의 명줄",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMy0wMThAMkAxQEAwQDZA==",
+          "id": "news:rodong-sinmun:356d6627507c13a7e77583ee",
+          "title": "끝없이 이어가시는 위민헌신의 길에서\n물놀이장에 갖추어진 치료설비",
+          "date": "2026-11-15",
+          "snippet": "끝없이 이어가시는 위민헌신의 길에서",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xNS0wNjJAMkAxQEAwQDZA==",
           "mediaType": "article",
           "categories": [
             "important"
@@ -1340,7 +1362,95 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ae99d2bd49e47afe23f859b62"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A356d6627507c13a7e77583ee"
+        },
+        {
+          "id": "news:rodong-sinmun:2a784c13cc593804d7f2e5fa",
+          "title": "인민의 기쁨을 더해주는 가을풍경",
+          "date": "2026-11-14",
+          "snippet": "인민의 기쁨을 더해주는 가을풍경",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xNC0wMjNANUAxQEAwQDFA==",
+          "mediaType": "article",
+          "categories": [
+            "memory"
+          ],
+          "categoryOrders": {
+            "memory": 0
+          },
+          "featuredSections": [
+            "memory"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/d41c526cdbca6b08a38a0e9984e72dc4403ac710578e13cc4485cb6e0fd4173f.jpg",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A2a784c13cc593804d7f2e5fa"
+        },
+        {
+          "id": "news:rodong-sinmun:4203ecb12746f9d9d7f9666c",
+          "title": "우리식 창조본때로 안아온 의의있는 연구성과\n김일성종합대학에서 중요화학제품의 국산화를 위한 실리가 큰 첨단기술개발에 성공",
+          "date": "2026-11-14",
+          "snippet": "우리식 창조본때로 안아온 의의있는 연구성과",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xNC0wMTdANEAxQEAwQDFA==",
+          "mediaType": "article",
+          "categories": [
+            "domestic"
+          ],
+          "categoryOrders": {
+            "domestic": 0
+          },
+          "featuredSections": [
+            "domestic"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A4203ecb12746f9d9d7f9666c"
+        },
+        {
+          "id": "news:rodong-sinmun:846b516320f25059c91210ac",
+          "title": "조국의 밝은 미래를 위하여\n새로 생겨난 주로",
+          "date": "2026-11-14",
+          "snippet": "조국의 밝은 미래를 위하여",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xNC0wMjBAM0AxQEAwQDJA==",
+          "mediaType": "article",
+          "categories": [
+            "anecdote"
+          ],
+          "categoryOrders": {
+            "anecdote": 1
+          },
+          "featuredSections": [
+            "anecdote"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A846b516320f25059c91210ac"
+        },
+        {
+          "id": "news:rodong-sinmun:372f93b0185a208213b5a5bd",
+          "title": "어머니날에 찾으신 사연",
+          "date": "2026-11-13",
+          "snippet": "어머니날에 찾으신 사연",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMy0wMTZAM0AxQEAwQDNA==",
+          "mediaType": "article",
+          "categories": [
+            "anecdote"
+          ],
+          "categoryOrders": {
+            "anecdote": 2
+          },
+          "featuredSections": [
+            "anecdote"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A372f93b0185a208213b5a5bd"
         },
         {
           "id": "news:rodong-sinmun:c865411de0bbae43ee15c328",
@@ -1365,17 +1475,17 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ac865411de0bbae43ee15c328"
         },
         {
-          "id": "news:rodong-sinmun:ea916d48e778915a860fae4d",
+          "id": "news:rodong-sinmun:04fe8548a73d23627e415d43",
           "title": "누구나 한식솔, 어디 가나 친형제\n가정일지에 담겨진 사연",
           "date": "2026-11-12",
           "snippet": "누구나 한식솔, 어디 가나 친형제",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMi0wNzdANUAxQEAwQDFA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMi0wNzdANUAxQEAwQDJA==",
           "mediaType": "article",
           "categories": [
             "memory"
           ],
           "categoryOrders": {
-            "memory": 0
+            "memory": 1
           },
           "featuredSections": [
             "memory"
@@ -1384,7 +1494,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aea916d48e778915a860fae4d"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A04fe8548a73d23627e415d43"
         },
         {
           "id": "news:rodong-sinmun:cd3d0b4a7dab5fac19988083",
@@ -1409,39 +1519,17 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Acd3d0b4a7dab5fac19988083"
         },
         {
-          "id": "news:rodong-sinmun:5a7bd67615d1a1d9d8074a79",
-          "title": "인민을 매혹시키는 위인의 세계\n그날의 당결정서는 이렇게 채택되였다",
-          "date": "2026-11-11",
-          "snippet": "인민을 매혹시키는 위인의 세계",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMS0wMTlAM0AxQEAwQDJA==",
-          "mediaType": "article",
-          "categories": [
-            "anecdote"
-          ],
-          "categoryOrders": {
-            "anecdote": 1
-          },
-          "featuredSections": [
-            "anecdote"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A5a7bd67615d1a1d9d8074a79"
-        },
-        {
-          "id": "news:rodong-sinmun:d2f64e6bb5894302bf64859f",
+          "id": "news:rodong-sinmun:8ec603cd9868de43bef94426",
           "title": "보양생들의 친자식이 되여",
           "date": "2026-11-11",
           "snippet": "보양생들의 친자식이 되여",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMS0wNTRANUAxQEAwQDJA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMS0wNTRANUAxQEAwQDNA==",
           "mediaType": "article",
           "categories": [
             "memory"
           ],
           "categoryOrders": {
-            "memory": 1
+            "memory": 2
           },
           "featuredSections": [
             "memory"
@@ -1450,20 +1538,42 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ad2f64e6bb5894302bf64859f"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A8ec603cd9868de43bef94426"
         },
         {
-          "id": "news:rodong-sinmun:5a71e2aa6ac9ae02ac317ec5",
+          "id": "news:rodong-sinmun:d933832025af0979c47f08b8",
+          "title": "인민을 매혹시키는 위인의 세계\n그날의 당결정서는 이렇게 채택되였다",
+          "date": "2026-11-11",
+          "snippet": "인민을 매혹시키는 위인의 세계",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMS0wMTlAM0AxQEAwQDRA==",
+          "mediaType": "article",
+          "categories": [
+            "anecdote"
+          ],
+          "categoryOrders": {
+            "anecdote": 3
+          },
+          "featuredSections": [
+            "anecdote"
+          ],
+          "hasImage": false,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ad933832025af0979c47f08b8"
+        },
+        {
+          "id": "news:rodong-sinmun:62d5b581383f2f99f64d51d3",
           "title": "인민의 행복을 꽃피우시는 길에서\n몸소 가늠해보신 실내온도",
           "date": "2026-11-11",
           "snippet": "인민의 행복을 꽃피우시는 길에서",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMS0wMjJAM0AxQEAwQDNA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMS0wMjJAM0AxQEAwQDVA==",
           "mediaType": "article",
           "categories": [
             "anecdote"
           ],
           "categoryOrders": {
-            "anecdote": 2
+            "anecdote": 4
           },
           "featuredSections": [
             "anecdote"
@@ -1472,7 +1582,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A5a71e2aa6ac9ae02ac317ec5"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A62d5b581383f2f99f64d51d3"
         },
         {
           "id": "news:rodong-sinmun:261a6c0936454883fe1e8272",
@@ -1497,55 +1607,11 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A261a6c0936454883fe1e8272"
         },
         {
-          "id": "news:rodong-sinmun:e897a60c98c37ec468ab9d6d",
-          "title": "인민을 위한 헌신의 길에서\n못내 기뻐하신 사연",
-          "date": "2026-11-10",
-          "snippet": "인민을 위한 헌신의 길에서",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0xMC0wMjVAM0AxQEAwQDRA==",
-          "mediaType": "article",
-          "categories": [
-            "anecdote"
-          ],
-          "categoryOrders": {
-            "anecdote": 3
-          },
-          "featuredSections": [
-            "anecdote"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ae897a60c98c37ec468ab9d6d"
-        },
-        {
-          "id": "news:rodong-sinmun:95fdf11ce312f37d28ee4d0b",
+          "id": "news:rodong-sinmun:0ebce9765b9d4997202da7de",
           "title": "인민의 참된 충복들\n각지 사회안전원들속에서 아름다운 소행들이 나날이 꽃펴나고있다",
           "date": "2026-11-07",
           "snippet": "인민의 참된 충복들",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNy0wNDlANUAxQEAwQDNA==",
-          "mediaType": "article",
-          "categories": [
-            "memory"
-          ],
-          "categoryOrders": {
-            "memory": 2
-          },
-          "featuredSections": [
-            "memory"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A95fdf11ce312f37d28ee4d0b"
-        },
-        {
-          "id": "news:rodong-sinmun:fa09172a1a343d7666646a0c",
-          "title": "친혈육의 정을 안고",
-          "date": "2026-11-07",
-          "snippet": "친혈육의 정을 안고",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNy0wNTBANUAxQEAwQDRA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNy0wNDlANUAxQEAwQDRA==",
           "mediaType": "article",
           "categories": [
             "memory"
@@ -1556,46 +1622,46 @@
           "featuredSections": [
             "memory"
           ],
-          "hasImage": true,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/c86149952c938c394674a745decb9daa1146fac0caf971ba7426f7bbb4173399.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Afa09172a1a343d7666646a0c"
-        },
-        {
-          "id": "news:rodong-sinmun:c8305a542817a92b78209c14",
-          "title": "어떤 무거운 짐을 지고서라도, 어떤 어려운 길을 걸어서라도\n인민의 복리와 아름다운 조국의 미래를 위한 우리 당의 드팀없는 의지",
-          "date": "2026-11-07",
-          "snippet": "어떤 무거운 짐을 지고서라도, 어떤 어려운 길을 걸어서라도",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNy0wMTVAM0AxQEAwQDVA==",
-          "mediaType": "article",
-          "categories": [
-            "anecdote"
-          ],
-          "categoryOrders": {
-            "anecdote": 4
-          },
-          "featuredSections": [
-            "anecdote"
-          ],
           "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ac8305a542817a92b78209c14"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A0ebce9765b9d4997202da7de"
         },
         {
-          "id": "news:rodong-sinmun:9c0d67e102933ab0c1a4c702",
+          "id": "news:rodong-sinmun:a41fa2a909fbe0d8246b5f2c",
+          "title": "친혈육의 정을 안고",
+          "date": "2026-11-07",
+          "snippet": "친혈육의 정을 안고",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNy0wNTBANUAxQEAwQDVA==",
+          "mediaType": "article",
+          "categories": [
+            "memory"
+          ],
+          "categoryOrders": {
+            "memory": 4
+          },
+          "featuredSections": [
+            "memory"
+          ],
+          "hasImage": true,
+          "hasVideo": false,
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/c86149952c938c394674a745decb9daa1146fac0caf971ba7426f7bbb4173399.jpg",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aa41fa2a909fbe0d8246b5f2c"
+        },
+        {
+          "id": "news:rodong-sinmun:9502c4c3ac83d1ae5a71aa6c",
           "title": "새시대 지방발전정책의 생활력을 힘있게 과시해갈 드높은 열의\n제품가지수 조업초기에 비해 훨씬 장성\n북창군식료공장에서",
           "date": "2026-11-06",
           "snippet": "새시대 지방발전정책의 생활력을 힘있게 과시해갈 드높은 열의",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNi0wMTZANEAxQEAwQDFA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wNi0wMTZANEAxQEAwQDJA==",
           "mediaType": "article",
           "categories": [
             "domestic"
           ],
           "categoryOrders": {
-            "domestic": 0
+            "domestic": 1
           },
           "featuredSections": [
             "domestic"
@@ -1604,7 +1670,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/f978bae30de1d39ff08f9a11b47f5a8ddf88bfc75857f81183083eef3669dc7e.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A9c0d67e102933ab0c1a4c702"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A9502c4c3ac83d1ae5a71aa6c"
         },
         {
           "id": "news:rodong-sinmun:92da26fe62984f51a4e88849",
@@ -1629,55 +1695,11 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A92da26fe62984f51a4e88849"
         },
         {
-          "id": "news:rodong-sinmun:9e5bb28a4351d9e2e1f5d41c",
+          "id": "news:rodong-sinmun:d09b57ac78c8f322505bd322",
           "title": "우리 녀자축구선수들 미국팀을 3:0으로 이기고 준결승경기에 진출\n국제축구련맹 2026년 17살미만 녀자월드컵경기대회에서",
           "date": "2026-11-03",
           "snippet": "우리 녀자축구선수들 미국팀을 3:0으로 이기고 준결승경기에 진출",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wMy0wMjRANEAxQEAwQDJA==",
-          "mediaType": "article",
-          "categories": [
-            "domestic"
-          ],
-          "categoryOrders": {
-            "domestic": 1
-          },
-          "featuredSections": [
-            "domestic"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A9e5bb28a4351d9e2e1f5d41c"
-        },
-        {
-          "id": "news:rodong-sinmun:6aa4f5e95ef002617fb53077",
-          "title": "다시 찾은 생의 희열\n강계시의 한 녀성특류영예군인이 10여년만에 대지를 밟았다",
-          "date": "2026-11-03",
-          "snippet": "다시 찾은 생의 희열",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wMy0wMzVANUAxQEAwQDVA==",
-          "mediaType": "article",
-          "categories": [
-            "memory"
-          ],
-          "categoryOrders": {
-            "memory": 4
-          },
-          "featuredSections": [
-            "memory"
-          ],
-          "hasImage": false,
-          "hasVideo": false,
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A6aa4f5e95ef002617fb53077"
-        },
-        {
-          "id": "news:rodong-sinmun:a75149074f6f4259f379b479",
-          "title": "과감한 투지와 분발력으로 뜻깊은 올해를 승리와 영광의 해로 빛내이자\n사회주의경쟁을 활발히 벌리며 증산성과 확대\n순천세멘트련합기업소에서 매일 계획보다 수백t의 세멘트를 더 생산",
-          "date": "2026-11-02",
-          "snippet": "과감한 투지와 분발력으로 뜻깊은 올해를 승리와 영광의 해로 빛내이자",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wMi0wMTZANEAxQEAwQDNA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wMy0wMjRANEAxQEAwQDNA==",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -1688,18 +1710,18 @@
           "featuredSections": [
             "domestic"
           ],
-          "hasImage": true,
+          "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/fe2129ae599d6b4a4543a439aa871785febc14274ec81c618ca741e810b9ada5.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aa75149074f6f4259f379b479"
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ad09b57ac78c8f322505bd322"
         },
         {
-          "id": "news:rodong-sinmun:73e36fb2a856c0186e7d23ec",
-          "title": "우리 나라의 리룡현선수\n2026년 국제력기련맹 세계선수권대회에서 3개의 금메달 쟁취",
-          "date": "2026-11-01",
-          "snippet": "우리 나라의 리룡현선수",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wMS0wMjVANEAxQEAwQDRA==",
+          "id": "news:rodong-sinmun:65d050c15b31604280e43457",
+          "title": "과감한 투지와 분발력으로 뜻깊은 올해를 승리와 영광의 해로 빛내이자\n사회주의경쟁을 활발히 벌리며 증산성과 확대\n순천세멘트련합기업소에서 매일 계획보다 수백t의 세멘트를 더 생산",
+          "date": "2026-11-02",
+          "snippet": "과감한 투지와 분발력으로 뜻깊은 올해를 승리와 영광의 해로 빛내이자",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wMi0wMTZANEAxQEAwQDRA==",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -1710,18 +1732,18 @@
           "featuredSections": [
             "domestic"
           ],
-          "hasImage": false,
+          "hasImage": true,
           "hasVideo": false,
           "thumbnailUrl": "",
-          "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A73e36fb2a856c0186e7d23ec"
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/fe2129ae599d6b4a4543a439aa871785febc14274ec81c618ca741e810b9ada5.jpg",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A65d050c15b31604280e43457"
         },
         {
-          "id": "news:rodong-sinmun:24887b8fe6e3ce8756435942",
-          "title": "새로운 지방발전정책실행에서 혁명군대의 투쟁본때를 남김없이 과시\n올해에 일떠서는 20개 시, 군 경공업공장, 병원, 종합봉사소건설 마감단계",
+          "id": "news:rodong-sinmun:4db7dfe45cdaa4a14d173a55",
+          "title": "우리 나라의 리룡현선수\n2026년 국제력기련맹 세계선수권대회에서 3개의 금메달 쟁취",
           "date": "2026-11-01",
-          "snippet": "새로운 지방발전정책실행에서 혁명군대의 투쟁본때를 남김없이 과시",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wMS0wMjZANEAxQEAwQDVA==",
+          "snippet": "우리 나라의 리룡현선수",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0xMS0wMS0wMjVANEAxQEAwQDVA==",
           "mediaType": "article",
           "categories": [
             "domestic"
@@ -1732,11 +1754,11 @@
           "featuredSections": [
             "domestic"
           ],
-          "hasImage": true,
+          "hasImage": false,
           "hasVideo": false,
           "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/18079f90bb085a0a86656c6fc4e359dd55be7c78841318bc64579830e3b1463b.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A24887b8fe6e3ce8756435942"
+          "cachedThumbnailUrl": "",
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A4db7dfe45cdaa4a14d173a55"
         },
         {
           "id": "news:rodong-sinmun:aafc528016a090c7af153932",
@@ -1915,17 +1937,17 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A6d7e120be59bada7544ddd18"
         },
         {
-          "id": "news:rodong-sinmun:7b45a5aff797b27ce1f6faf1",
+          "id": "news:rodong-sinmun:24e9ba9d286447d7328bbe15",
           "title": "나날이 풍부해지는 민족문화유산의 보물고",
           "date": "2026-06-14",
           "snippet": "나날이 풍부해지는 민족문화유산의 보물고",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNi0xNC0wMzVAN0AxQEAwQDFA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNi0xNC0wMzVAN0AxQEAwQDJA==",
           "mediaType": "article",
           "categories": [
             "social"
           ],
           "categoryOrders": {
-            "social": 2
+            "social": 3
           },
           "featuredSections": [
             "social"
@@ -1934,7 +1956,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A7b45a5aff797b27ce1f6faf1"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A24e9ba9d286447d7328bbe15"
         },
         {
           "id": "news:rodong-sinmun:64b54bbf0086c55e8285008c",
@@ -1959,17 +1981,17 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A64b54bbf0086c55e8285008c"
         },
         {
-          "id": "news:rodong-sinmun:a2e1018b7033d35e85cbf144",
+          "id": "news:rodong-sinmun:b06328af149ef530eded4452",
           "title": "남포시 온천군 원읍로동자구지역에서 청동기시대와 신석기시대의 소금생산유적 새로 발굴",
           "date": "2026-04-09",
           "snippet": "남포시 온천군 원읍로동자구지역에서 청동기시대와 신석기시대의 소금생산유적 새로 발굴",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNC0wOS0wNDNAN0AxQEAwQDJA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNC0wOS0wNDNAN0AxQEAwQDNA==",
           "mediaType": "article",
           "categories": [
             "social"
           ],
           "categoryOrders": {
-            "social": 0
+            "social": 1
           },
           "featuredSections": [
             "social"
@@ -1978,7 +2000,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/ba0ac77f54cd5379635503bae94f4764984fc10649a1cf22d6a8812cc35311de.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Aa2e1018b7033d35e85cbf144"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Ab06328af149ef530eded4452"
         },
         {
           "id": "news:rodong-sinmun:ed6fc0dce46f3ffd9b28a42a",
@@ -2025,17 +2047,17 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A93d017fdddfcf0c1285cbde9"
         },
         {
-          "id": "news:rodong-sinmun:5fa9a23440ab5dd5a80046be",
+          "id": "news:rodong-sinmun:2bb6f2171a65622f0a22a307",
           "title": "민속명절 정월대보름",
           "date": "2026-03-03",
           "snippet": "민속명절 정월대보름",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMy0wMy0wNDJAN0AxQEAwQDNA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMy0wMy0wNDJAN0AxQEAwQDRA==",
           "mediaType": "article",
           "categories": [
             "social"
           ],
           "categoryOrders": {
-            "social": 3
+            "social": 4
           },
           "featuredSections": [
             "social"
@@ -2044,7 +2066,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A5fa9a23440ab5dd5a80046be"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A2bb6f2171a65622f0a22a307"
         },
         {
           "id": "news:rodong-sinmun:cfbfe287bb0ae800a5dcef4b",
@@ -2069,17 +2091,17 @@
           "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Acfbfe287bb0ae800a5dcef4b"
         },
         {
-          "id": "news:rodong-sinmun:636ca93724087c683681d890",
+          "id": "news:rodong-sinmun:f728632ff11b96a179bd9b72",
           "title": "백두산일대에서 새로운 유적들 발굴",
           "date": "2026-01-24",
           "snippet": "백두산일대에서 새로운 유적들 발굴",
-          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yNC0wNTJAN0AxQEAwQDRA==",
+          "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yNC0wNTJAN0AxQEAwQDVA==",
           "mediaType": "article",
           "categories": [
             "social"
           ],
           "categoryOrders": {
-            "social": 1
+            "social": 2
           },
           "featuredSections": [
             "social"
@@ -2088,7 +2110,7 @@
           "hasVideo": false,
           "thumbnailUrl": "",
           "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/56f1783b3476dbe564b4a188ab9def2447bff19b38774c9b3cb65f49ab8986e0.jpg",
-          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A636ca93724087c683681d890"
+          "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Af728632ff11b96a179bd9b72"
         }
       ]
     }
