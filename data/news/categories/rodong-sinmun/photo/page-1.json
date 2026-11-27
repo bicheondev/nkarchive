@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-25T00:00:00.000Z",
-  "version": "ad61e5271c313a46",
+  "generatedAt": "2026-11-27T00:00:00.000Z",
+  "version": "8b7e6cf3e1280563",
   "source": {
     "id": "rodong-sinmun",
     "name": "로동신문"
@@ -8,9 +8,31 @@
   "section": "photo",
   "page": 1,
   "pageSize": 5,
-  "totalItems": 55,
-  "totalPages": 11,
+  "totalItems": 56,
+  "totalPages": 12,
   "articles": [
+    {
+      "id": "news:rodong-sinmun:dd4dd8b470c7724787074532",
+      "title": "동해명승 총석정",
+      "date": "2026-11-27",
+      "snippet": "동해명승 총석정",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8xMS8yNy8yMS8yMDI2LTExLTI3LTA1NS8yMDI2LTExLTI3LTEwMS5qcGc==",
+      "mediaType": "article",
+      "categories": [
+        "photo"
+      ],
+      "categoryOrders": {
+        "photo": 0
+      },
+      "featuredSections": [
+        "photo"
+      ],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8xMS8yNy8yMS8yMDI2LTExLTI3LTA1NS8yMDI2LTExLTI3LTEwMS5qcGc==",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3Add4dd8b470c7724787074532"
+    },
     {
       "id": "news:rodong-sinmun:30fff625589f9a6437be115e",
       "title": "룡악산의 력사유적들",
@@ -22,7 +44,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 0
+        "photo": 1
       },
       "featuredSections": [
         "photo"
@@ -44,7 +66,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 1
+        "photo": 2
       },
       "featuredSections": [
         "photo"
@@ -66,7 +88,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 2
+        "photo": 3
       },
       "featuredSections": [
         "photo"
@@ -88,7 +110,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 3
+        "photo": 4
       },
       "featuredSections": [
         "photo"
@@ -98,28 +120,6 @@
       "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOS8yNS8yMS8yMDI2LTA5LTI1LTAxMi8yMDI2LTA5LTI1LTAzMS5qcGc==",
       "cachedThumbnailUrl": "",
       "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A509712626f449b6ac256a69e"
-    },
-    {
-      "id": "news:rodong-sinmun:8514917e206407a01241681d",
-      "title": "황홀경을 펼친 화성거리의 저녁",
-      "date": "2026-09-18",
-      "snippet": "황홀경을 펼친 화성거리의 저녁",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOS8xOC8yMS8yMDI2LTA5LTE4LTAxMS8yMDI2LTA5LTE4LTAwMS5qcGc==",
-      "mediaType": "article",
-      "categories": [
-        "photo"
-      ],
-      "categoryOrders": {
-        "photo": 4
-      },
-      "featuredSections": [
-        "photo"
-      ],
-      "hasImage": true,
-      "hasVideo": false,
-      "thumbnailUrl": "http://www.rodong.rep.kp/ko/index.php?MkBAQEBwQDBAMjAyNi8wOS8xOC8yMS8yMDI2LTA5LTE4LTAxMS8yMDI2LTA5LTE4LTAwMS5qcGc==",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Arodong-sinmun%3A8514917e206407a01241681d"
     }
   ]
 }
