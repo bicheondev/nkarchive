@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-27T00:00:00.000Z",
-  "version": "8b7e6cf3e1280563",
+  "generatedAt": "2026-11-28T00:00:00.000Z",
+  "version": "cb503f3d7838fdc0",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,22 +8,20 @@
   "section": "domestic",
   "page": 168,
   "pageSize": 5,
-  "totalItems": 4161,
-  "totalPages": 833,
+  "totalItems": 4083,
+  "totalPages": 817,
   "articles": [
     {
-      "id": "news:kcna:db277cefdaf4bb1664a08b22",
-      "title": "중국인민해방군창건 99돐에 즈음하여 중화인민공화국대사관 기념연회 마련",
-      "date": "2026-07-29",
-      "snippet": "(평양 7월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/85f17501a753c9a341f5a8913bd1cb68",
+      "id": "news:kcna:521f37cffddb07b18c7ac8ff",
+      "title": "거리와 마을의 풍치를 돋구어주는 느티나무",
+      "date": "2026-09-19",
+      "snippet": "(평양 9월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/8e6d132680484ff763e8997f10ad9316",
       "mediaType": "article",
       "categories": [
-        "foreign",
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 169,
         "domestic": 835
       },
       "featuredSections": [],
@@ -31,19 +29,21 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Adb277cefdaf4bb1664a08b22"
+      "detailUrl": "/news/document?id=news%3Akcna%3A521f37cffddb07b18c7ac8ff"
     },
     {
-      "id": "news:kcna:f783135824694a56c221e500",
-      "title": "평양시민들의 절찬속에 조국해방전쟁승리 73돐 기념공연 진행",
-      "date": "2026-07-29",
-      "snippet": "(평양 7월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ff86b8fb1715a304174d6832d3566e27",
+      "id": "news:kcna:1674145b00bb8a101a81a2b2",
+      "title": "로씨야외무성 대변인 우크라이나에 대한 서방의 군사적지원책동에 경고",
+      "date": "2026-09-18",
+      "snippet": "(모스크바 9월 17일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2a2a68c4e6082aa76ab2ed8eae54af94",
       "mediaType": "article",
       "categories": [
+        "international",
         "domestic"
       ],
       "categoryOrders": {
+        "international": 540,
         "domestic": 836
       },
       "featuredSections": [],
@@ -51,34 +51,36 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af783135824694a56c221e500"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1674145b00bb8a101a81a2b2"
     },
     {
-      "id": "news:kcna:e82b1bc7d30688861ebe23a1",
-      "title": "2026년 7월 29일 신문개관",
-      "date": "2026-07-29",
-      "snippet": "(평양 7월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/862fe6b5dd71f74302b8f37ad682e05a",
+      "id": "news:kcna:5110ea5ba68c997f8e9895e8",
+      "title": "중국청년간부대표단 여러곳 참관",
+      "date": "2026-09-18",
+      "snippet": "(평양 9월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/cd75dc712b14848e57c762c65bdb92c9",
       "mediaType": "article",
       "categories": [
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
+        "foreign": 193,
         "domestic": 837
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae82b1bc7d30688861ebe23a1"
+      "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba650246c1fb8a523c64db4ccd4071de4c",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/9e3e95b44a3bb6ad4dff48b09ccc811dd29031e11af55f6369c876e099eb5425.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5110ea5ba68c997f8e9895e8"
     },
     {
-      "id": "news:kcna:4ab37a006b3c1fcc41d69472",
-      "title": "개성시의 고려인삼문화관광지",
-      "date": "2026-07-29",
-      "snippet": "(평양 7월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5e0dcaa5fc916274c454bed9ccb19e6d",
+      "id": "news:kcna:0c47222df0f87c44846c8125",
+      "title": "각지 농촌들에서 벼가을 시작",
+      "date": "2026-09-18",
+      "snippet": "(평양 9월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/88e9e1ca79987efc93bc3760abca12a5",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -91,14 +93,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A4ab37a006b3c1fcc41d69472"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0c47222df0f87c44846c8125"
     },
     {
-      "id": "news:kcna:b42cc4cbf434ecf8d2a0b1d8",
-      "title": "우리 나라의 비물질문화유산들--가야금제작기술",
-      "date": "2026-07-29",
-      "snippet": "(평양 7월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/a3ae3c60a6753ebc48d6dc34cc29148b",
+      "id": "news:kcna:315955d0756d060523cac81a",
+      "title": "평양시안의 고려약공장들에서 제품의 다종화,다양화실현에 주력",
+      "date": "2026-09-18",
+      "snippet": "(평양 9월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/60f97dabdb1fe0b2270de5da32013f26",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -111,7 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab42cc4cbf434ecf8d2a0b1d8"
+      "detailUrl": "/news/document?id=news%3Akcna%3A315955d0756d060523cac81a"
     }
   ]
 }

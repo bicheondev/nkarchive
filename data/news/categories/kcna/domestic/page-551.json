@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-27T00:00:00.000Z",
-  "version": "8b7e6cf3e1280563",
+  "generatedAt": "2026-11-28T00:00:00.000Z",
+  "version": "cb503f3d7838fdc0",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,35 @@
   "section": "domestic",
   "page": 551,
   "pageSize": 5,
-  "totalItems": 4161,
-  "totalPages": 833,
+  "totalItems": 4083,
+  "totalPages": 817,
   "articles": [
     {
-      "id": "news:kcna:f3039abf4425b5f29e641a88",
-      "title": "2026년 2월 11일 《로동신문》개관",
-      "date": "2026-02-11",
-      "snippet": "(평양 2월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/4c092e2f4c2725dda6d46c7e33b83fa7",
+      "id": "news:kcna:849ccf35f195156351215b72",
+      "title": "채취공업부문의 여러 단위에서 1.4분기 인민경제계획 완수",
+      "date": "2026-04-03",
+      "snippet": "(평양 4월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/39bd976a18f008e592c00ab2cb20cf71",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2750
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A849ccf35f195156351215b72"
+    },
+    {
+      "id": "news:kcna:db13a39e3f682398a2ca8b2d",
+      "title": "사회주의애국청년동맹 중앙위원회 제10기 제17차전원회의 확대회의 진행",
+      "date": "2026-04-03",
+      "snippet": "(평양 4월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/532965602797424922fc0bc08ffe7657",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -29,56 +49,58 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af3039abf4425b5f29e641a88"
+      "detailUrl": "/news/document?id=news%3Akcna%3Adb13a39e3f682398a2ca8b2d"
     },
     {
-      "id": "news:kcna:9f9c9ca9e8bdbb7bd9be5975",
-      "title": "대동만간석지 2구역 1차물막이공사 결속",
-      "date": "2026-02-11",
-      "snippet": "(평양 2월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/b81d7925a26e7365a7d1bd1fc5bc797c",
+      "id": "news:kcna:80475a0efb4c7c42a9e27270",
+      "title": "녀맹중앙위원회 일군들 김정숙평양방직공장에서 경제선동 진행",
+      "date": "2026-04-03",
+      "snippet": "(평양 4월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a5f89bee279009411ef3c139ded3426e",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 2752
+        "domestic": 2752,
+        "social": 327
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9f9c9ca9e8bdbb7bd9be5975"
+      "detailUrl": "/news/document?id=news%3Akcna%3A80475a0efb4c7c42a9e27270"
     },
     {
-      "id": "news:kcna:5d7f4d8c49f4c726ae81a574",
-      "title": "로씨야련방 림시대리대사 연회 마련",
-      "date": "2026-02-11",
-      "snippet": "(평양 2월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/44522b415f23e8de5b30e66cc40aec09",
+      "id": "news:kcna:6ac797db70b543d7aba0411e",
+      "title": "남포시에서 교육부문에 대한 지원열기 고조",
+      "date": "2026-04-03",
+      "snippet": "(평양 4월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7eca0629201ddf7c99df3f3ea2377b47",
       "mediaType": "article",
       "categories": [
-        "foreign",
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "foreign": 525,
-        "domestic": 2753
+        "domestic": 2753,
+        "social": 328
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5d7f4d8c49f4c726ae81a574"
+      "detailUrl": "/news/document?id=news%3Akcna%3A6ac797db70b543d7aba0411e"
     },
     {
-      "id": "news:kcna:f9196bab601777fc3919765c",
-      "title": "남포시학생교복공장에서 생산성과 확대",
-      "date": "2026-02-11",
-      "snippet": "(평양 2월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/bca245a422338d5d01d640413ed8bd5b",
+      "id": "news:kcna:72da0d69929566e9437d82c8",
+      "title": "평양애육원 창립 80돐을 기념",
+      "date": "2026-04-03",
+      "snippet": "(평양 4월 3일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/15954fd9c755bc1cecc5d94d0366c276",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -91,27 +113,7 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Af9196bab601777fc3919765c"
-    },
-    {
-      "id": "news:kcna:83bdf795b2475493cf336d93",
-      "title": "남흥청년화학련합기업소에서 시비년도 비료생산에 총매진",
-      "date": "2026-02-11",
-      "snippet": "(평양 2월 11일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/1dabf333ddd9ac9668040c9f9a6cf207",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2755
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A83bdf795b2475493cf336d93"
+      "detailUrl": "/news/document?id=news%3Akcna%3A72da0d69929566e9437d82c8"
     }
   ]
 }

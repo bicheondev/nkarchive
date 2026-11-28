@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-27T00:00:00.000Z",
-  "version": "8b7e6cf3e1280563",
+  "generatedAt": "2026-11-28T00:00:00.000Z",
+  "version": "cb503f3d7838fdc0",
   "shard": "fe",
   "articles": {
     "news:kcna:1edaf2ad671e798a30bd9720": {
@@ -19,9 +19,9 @@
         "foreign"
       ],
       "categoryOrders": {
-        "important": 20,
-        "international": 81,
-        "foreign": 28
+        "important": 100,
+        "international": 442,
+        "foreign": 158
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -44,8 +44,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 33,
-        "domestic": 139
+        "foreign": 163,
+        "domestic": 709
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -67,7 +67,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 37
+        "photo": 168
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45ba1a7b6557e33db2acc881fb2480dcf70e",
@@ -118,8 +118,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 236,
-        "social": 35
+        "domestic": 806,
+        "social": 114
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -142,8 +142,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 234,
-        "foreign": 78
+        "international": 595,
+        "foreign": 208
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -166,8 +166,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 497,
-        "social": 69
+        "domestic": 1067,
+        "social": 148
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -189,7 +189,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 392
+        "international": 753
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -211,7 +211,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 951
+        "domestic": 1521
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -233,7 +233,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 241
+        "photo": 372
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d8e990198c6ae3bb4a040326570063e62",
@@ -274,7 +274,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 871
+        "international": 1232
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -296,7 +296,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1314
+        "domestic": 1884
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -318,7 +318,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1639
+        "domestic": 2209
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -340,7 +340,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1184
+        "international": 1545
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -362,7 +362,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 411
+        "photo": 542
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b66323a7ec5948ca1de462883097a5b040d",
@@ -413,8 +413,8 @@
         "foreign"
       ],
       "categoryOrders": {
-        "international": 1364,
-        "foreign": 369
+        "international": 1725,
+        "foreign": 499
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -437,8 +437,8 @@
         "social"
       ],
       "categoryOrders": {
-        "international": 1370,
-        "social": 229
+        "international": 1731,
+        "social": 308
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -462,9 +462,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 287,
-        "foreign": 433,
-        "domestic": 2274
+        "important": 367,
+        "foreign": 563,
+        "domestic": 2844
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/485f3f15eae711e58c90d26735471e60f1249d6a58481cae2602002ffde029aa",
@@ -514,7 +514,7 @@
         "leadership"
       ],
       "categoryOrders": {
-        "leadership": 122
+        "leadership": 142
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf366c62cf04d00627173c69977b58e889fd8",
@@ -591,7 +591,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2746
+        "domestic": 3316
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c2111f8ce4bf35b08eaf4ac5032bf3665b50518efc195caec3262edaf95119a3",
@@ -641,7 +641,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1892
+        "international": 2253
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -663,7 +663,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3053
+        "domestic": 3623
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -685,7 +685,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2105
+        "international": 2466
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -707,7 +707,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3157
+        "domestic": 3727
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e4511e2f0539345492dbae4617a6f473a9b8",
@@ -766,64 +766,12 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2392
+        "international": 2753
       },
       "featuredSections": [],
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "images": [],
-      "videos": []
-    },
-    "news:kcna:768c3959dafd344cf492f0f3": {
-      "id": "news:kcna:768c3959dafd344cf492f0f3",
-      "title": "평양종합병원 개원",
-      "date": "2025-11-04",
-      "snippet": "(평양 11월 4일발 조선중앙통신)",
-      "body": "(평양 11월 4일발 조선중앙통신)\n\n평양종합병원이 3일 개원하였다.\n\n병원의 의료일군들과 종업원들은 당의 크나큰 은정이 그대로 인민들의 생명보호와 건강증진에로 이어지도록 하기 위해 모든것을 다해나갈 결의에 충만되여있었다.\n\n평양종합병원에서는 3일부터 중앙급병원들에서 의뢰해온 환자들에 대한 치료사업에 착수하였다.\n\n세계일류급의 병원을 찾은 인민들은 최상의 의료봉사를 받으며 인민의 생명을 제일로 귀중히 여기는 어머니 우리 당의 대해같은 사랑에 한없는 고마움을 금치 못하였다.\n\n뜻깊은 개원과 더불어 평양종합병원은 사람들의 생명과 건강,웃음을 지켜주는 전당,사랑의 집으로 인민들의 생활속에 소중히 자리잡게 될것이다.(끝)",
-      "url": "http://www.kcna.kp/kp/article/detail/10b1d05128a3aadd1960beac0f70f02d",
-      "mediaType": "article",
-      "sourceId": "kcna",
-      "sourceName": "조선중앙통신",
-      "categories": [
-        "important",
-        "domestic"
-      ],
-      "categoryOrders": {
-        "important": 482,
-        "domestic": 3791
-      },
-      "featuredSections": [],
-      "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac2091e26ec9014807de8a9c5b5fb7c862",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/77c73fac23db014505899730e629ce5ec3f570d218dd3680127b9ac41d95eb2b.jpg",
-      "images": [
-        {
-          "id": "news:kcna:768c3959dafd344cf492f0f3:image:77c73fac23db014505899730e629ce5ec3f570d218dd3680127b9ac41d95eb2b",
-          "url": "",
-          "cachedUrl": "/data/news/assets/kcna/77c73fac23db014505899730e629ce5ec3f570d218dd3680127b9ac41d95eb2b.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/77c73fac23db014505899730e629ce5ec3f570d218dd3680127b9ac41d95eb2b.jpg",
-          "refererUrl": "http://www.kcna.kp/kp/article/detail/10b1d05128a3aadd1960beac0f70f02d",
-          "displayOrder": 0
-        },
-        {
-          "id": "news:kcna:768c3959dafd344cf492f0f3:image:3bc1b87e56806786ce3983a0888099a944e3dc356d8562c422c89e86a6117f72",
-          "url": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac2091e26ec9014807de8a9c5b5fb7c862",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eac2091e26ec9014807de8a9c5b5fb7c862",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.kcna.kp/kp/article/detail/10b1d05128a3aadd1960beac0f70f02d",
-          "displayOrder": 1
-        },
-        {
-          "id": "news:kcna:768c3959dafd344cf492f0f3:image:c5a65c03421d9cb9ff6d426dada1145466c6bd21f83f8042297f71c4598934b1",
-          "url": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eace1a4aa3bc737bd6b2bdcf944f898cafa",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.kcna.kp/photo/5b64441f4a73584b2be991e3fbab7eace1a4aa3bc737bd6b2bdcf944f898cafa",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.kcna.kp/kp/article/detail/10b1d05128a3aadd1960beac0f70f02d",
-          "displayOrder": 2
-        }
-      ],
       "videos": []
     },
     "news:rodong-sinmun:ca5d22cc8293b63084670548": {
@@ -848,13 +796,13 @@
       "images": [],
       "videos": []
     },
-    "news:rodong-sinmun:d6623b09764c40e11ffe31f4": {
-      "id": "news:rodong-sinmun:d6623b09764c40e11ffe31f4",
-      "title": "당의 지방발전정책실행을 강력히 추진하여 국가의 전면적부흥을 앞당기자\n평원군 지방발전정책대상건설착공식 진행",
-      "date": "2026-02-01",
-      "snippet": "당의 지방발전정책실행을 강력히 추진하여 국가의 전면적부흥을 앞당기자",
-      "body": "당의 지방발전정책실행을 강력히 추진하여 국가의 전면적부흥을 앞당기자\n\n평원군 지방발전정책대상건설착공식 진행\n\n지방발전을 전면적국가부흥을 위한 필수불가결의 요구, 혁명의 전도와 직결된 중차대하고 급선무적인 문제로 내세우고 지방의 개벽으로 사회주의건설의 새 지평을 열어나가는 위대한 당중앙의 전략적결단과 탁월한 령도에 의하여 새시대 지방발전정책실행의 제3년기 사업이 본격적으로 전개되고있다.\n\n인민의 소원을 절대의 숙원으로 떠안고 인민들에게 세상에 부럼없는 만복을 안겨주기 위함에 모든것을 지향복종시키는 우리당 정책의 생활력과 휘황한 전망성을 과시하며 새년도 지방건설사업이 은률군에 이어 평안남도 평원군에서도 시작되였다.\n\n평원군 지방발전정책대상건설착공식이 1월 31일에 진행되였다.\n\n위대한 당중앙의 애국의 호소따라 인민의 복리를 위한 성스러운 투쟁의 전위에서 견인불발의 의지와 완강한 분투로 지방변혁의 빛나는 새 력사를 창조해갈 조선인민군 제124련대 관병들의 혁명적기세가 착공식장에 충천하고있었다.\n\n조선민주주의인민공화국 내각 총리 박태성동지와 평안남도당위원회 책임비서 리경철동지, 도인민위원회 위원장 리성범동지, 건설에 동원된 인민군군인들, 도와 평원군의 일군들, 근로자들이 착공식에 참가하였다.\n\n박태성동지가 착공사를 하였다.\n\n총리동지는 뜻깊은 2026년의 지방발전정책대상건설착공식이 여기 평원군에서도 열리였다고 하면서 한해의 시작과 마감이 착공과 준공으로 이어지는 속에 인민들의 눈앞에, 피부에 와닿는 새 생활은 그대로 우리 당이 력사적인 결단을 내려 완강히 수행해나가는 지방혁명의 진리성과 생활력에 대한 립증으로 된다고 말하였다.\n\n그는 경제문화적락후와 후진성을 어쩔수 없는것으로만 여겨온 지방의 시, 군들이 오늘날에는 우리 조국이 올라설 부흥의 높이를 가늠하게 하는 기준으로 자기의 지위를 새롭게 하고있는데 대하여 언급하였다.\n\n이것은 명백한 변화발전이며 더 높은 리상과 목표를 향해 나아가는 우리 투쟁의 활기찬 박동에 대한 뚜렷한 실증으로서 지방의 일대 변혁으로 전면적국가부흥의 력사적위업을 이룩해나가시는 경애하는 원수님의 비범한 혁명령도가 안아올린 사회주의조선의 새 모습이라고 그는 강조하였다.\n\n그는 경애하는 원수님께서 확대심화된 지방발전정책을 멈춤없이 완강하게 실행해나가도록 방향과 방도들을 구체적으로 밝혀주신데 대하여 언급하였다.\n\n지방의 발전을 당과 국가의 최우선적인 과업으로, 중대한 정치적문제로 내세우는 의도를 다시금 깨우쳐주시며 취해주신 혁명적인 조치에 의하여 건설력량과 기술장비들이 증강되고 강력한 시공지도체계가 세워짐으로써 확대된 건설과업을 성과적으로 추진할수 있는 담보가 마련되게 되였다고 그는 말하였다.\n\n그는 준공식장들마다에서 기쁨에 겨워있는 인민의 모습을 망막에 새기고 이제부터 모든것이 시작이라는 관점에서 지방발전정책관철에 달라붙어야 한다는 경애하는 원수님의 고귀한 가르치심과 탁월한 령도는 이 땅의 모든것을 세월을 앞당겨 변화시키며 더 큰 기적과 승리에로 떠미는 위대한 힘이라고 강조하였다.\n\n당의 믿음을 가장 큰 영광으로 간직하고 건설의 하루하루를 로력적위훈으로 빛내이는 전체 군인건설자들과 지휘관들의 열렬한 애국심과 창조력에 의하여 올해의 방대한 대상공사에서도 완벽한 혁신적성과가 이룩되고 이곳 인민들에게 문명하고 행복한 생활을 안겨주는 경이적인 전변상이 펼쳐지리라고 굳게 믿는다고 그는 말하였다.\n\n그는 평원군의 일군들과 근로자들이 새로 일떠서는 경공업공장들과 병원, 종합봉사소가 실지 인민들의 건강보전과 복리향상에 이바지할수 있도록 그 운영을 정상화하고 제품의 질, 치료의 질, 봉사의 질을 높이기 위한 준비사업들을 착실하고 알심있게 내밀데 대하여 언급하였다.\n\n총리동지는 변혁과 기적은 멈출수 없는 시대의 흐름으로 되였으며 높아진 우리의 리상과 목표는 더 줄기찬 투쟁을 재촉하고있다고 하면서 위대한 김정은동지의 지방건설방침을 높이 받들고 당 제9차대회가 열리는 올해를 지방혁명의 새로운 승리의 해로 빛내이기 위하여 애국의 힘과 열정을 다 바쳐나가자고 호소하였다.\n\n이어 조선인민군 제124련대 련대장이 토론하였다.\n\n토론자는 새년도 지방변혁을 위한 첫 려정에서 경애하는 최고사령관동지의 크나큰 믿음과 영광을 받아안은데 대하여 격정에 넘쳐 말하였다.\n\n건설련대 전체 관병들은 당의 지방발전정책실행의 보람찬 투쟁에 총매진하여 절대충성, 결사관철을 생명으로 하는 우리 군대특유의 기질과 전투력을 남김없이 과시함으로써 위대한 김정은시대 혁명강군의 명함을 빛내여나갈것이라고 그는 강조하였다.\n\n그는 하나하나의 건축물마다에 부모형제와 고향사람들을 위하는 뜨거운 진정과 정성이 슴배이도록 분발분투하여 절세위인들의 령도사적이 뜨겁게 깃들어있는 평원군에 행복의 별천지를 안아올것이라고 말하였다.\n\n토론자는 건설작전과 지휘를 전격적으로, 치밀하게 하여 지방공업공장들과 병원, 종합봉사소를 문명부흥의 실체, 인민의 재부들로 훌륭히 일떠세움으로써 당과 조국, 인민들의 기대에 반드시 보답할 결의를 피력하였다.\n\n당중앙의 숭고한 인민관을 결사의 실천으로 받들어 인민이 리상하는 휘황찬란한 부흥강국의 래일을 앞당겨올 군인건설자들의 충성의 열기가 진군의 우렁찬 함성으로 터져올랐다.\n\n평원군인민들의 감격과 기쁨이 착공식장에 넘쳐나는 가운데 군인건설자들이 건설장비들의 동음을 기운차게 울리며 공사에 착수하였다.\n\n【조선중앙통신】",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0wMS0wNTFANEAxNEBAMEAyMDVA==",
+    "news:rodong-sinmun:c16717028f4438ac5a45df6e": {
+      "id": "news:rodong-sinmun:c16717028f4438ac5a45df6e",
+      "title": "나라의 화학공업발전에 이바지할 자력갱생의 창조물\n남흥청년화학련합기업소 촉매생산기지 준공",
+      "date": "2026-01-21",
+      "snippet": "나라의 화학공업발전에 이바지할 자력갱생의 창조물",
+      "body": "나라의 화학공업발전에 이바지할 자력갱생의 창조물\n\n남흥청년화학련합기업소 촉매생산기지 준공\n\n당 제9차대회를 향한 전인민적총진군길에서 전국을 동시다발적으로 부흥시키는 자랑찬 성과들이 련이어 이룩되고있는 속에 남흥청년화학련합기업소에 촉매생산기지가 새로 일떠서 준공되였다.\n\n굴지의 대화학기지에 현대적인 촉매생산기지가 건설됨으로써 비료생산에 절실한 촉매의 국산화비중을 높이고 안정성을 보장할수 있는 튼튼한 물질기술적토대가 마련되게 되였다.\n\n나라의 화학공업발전에 언제나 깊은 관심을 돌리시는 경애하는 김정은동지께서는 남흥청년화학련합기업소에서 암모니아합성촉매생산기지를 정비보강하는것과 함께 새로운 촉매생산기지를 꾸릴데 대한 방향과 방도를 환히 밝혀주시였다.\n\n당의 뜻을 받들고 화학공업성과 남흥청년화학련합기업소에서는 건축공사와 설비보장을 비롯하여 필요한 대책들을 적시적으로 강구하면서 대상건설이 일정대로 진척되도록 조직정치사업을 주도세밀하게 내밀었다.\n\n련합기업소에서는 련관단위와의 긴밀한 련계밑에 촉매생산공정설계를 우리 식으로 대담하고 새롭게 완성하였으며 건설에 동원된 청년돌격대원들과 종업원들은 선진적인 기술공법들을 적극 받아들여 건축공사를 질적으로 결속하였다.\n\n기술자, 기능공들은 서로의 지혜와 힘을 합쳐 원심분리기를 비롯한 각종 설비와 장치물들을 자체로 제작하였으며 련관부문 공장, 기업소들에서도 촉매생산기지건설을 적극 도와나섰다.\n\n당정책관철에 떨쳐나선 일군들과 로동자, 기술자들의 창조적열의와 헌신적노력에 의하여 설비, 장치물들에 대한 조립과 설치가 완료되였으며 시운전이 성과적으로 진행되였다.\n\n새로 일떠선 촉매생산기지는 우리의 힘과 기술로 필요한 촉매들을 원만히 생산하여 화학공업의 전망적인 발전토대를 구축하는데서 중요한 의의를 가지는 또 하나의 귀중한 재부이며 자력갱생의 창조물이다.\n\n남흥청년화학련합기업소 촉매생산기지 준공식이 20일 현지에서 진행되였다.\n\n평안남도당위원회 책임비서 리경철동지, 도인민위원회 위원장 리성범동지, 관계부문, 련합기업소일군들, 종업원들이 참가하였다.\n\n화학공업상 김선명동지가 준공사를 하였다.\n\n연설자는 촉매생산기지의 준공은 화학공업을 경제발전의 관건적고리로 틀어쥐고 우리의 원료와 자원에 의거하는 주체공업으로 발전시키기 위하여 크나큰 로고와 심혈을 바쳐오신 경애하는 총비서동지의 정력적인 령도가 안아온 고귀한 결실이라고 말하였다.\n\n그는 련합기업소의 일군들과 종업원들이 새로운 촉매생산공정을 확립한 성과에 토대하여 과학기술의 위력을 증폭시켜 비료증산의 동음을 더 높이 울려나갈데 대하여 언급하였다.\n\n설비들을 알뜰히 정비관리하고 만가동, 만부하를 보장하여 비료생산에 소요되는 촉매들을 원만히 생산하는것과 함께 자체의 기술력량, 인재력량을 부단히 강화하여 생산장성의 확고한 전망을 열어나가야 할것이라고 그는 말하였다.\n\n연설자는 모든 일군들과 로동자, 기술자들이 자력갱생의 혁명정신을 높이 발휘하며 증산절약운동의 불바람을 세차게 일으켜 사회주의농촌에 보내줄 비료생산에서 보다 큰 성과를 이룩함으로써 영광의 당대회를 떳떳이 맞이할데 대하여 강조하였다.\n\n준공식이 끝난 다음 참가자들은 촉매생산기지를 돌아보았다.\n\n【조선중앙통신】",
+      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMS0wMTZANEAxNUBAMEAyMTZA==",
       "mediaType": "article",
       "sourceId": "rodong-sinmun",
       "sourceName": "로동신문",
@@ -862,65 +810,20 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 159
+        "domestic": 96
       },
       "featuredSections": [],
       "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/d3f6bf9a623348a49bf2b1fe6ebd35b646568008241cbcff8cb1b7a1b1ef3a8b.jpg",
+      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/ae9bc19bdf94ce2b4f89146487278bbfb9c210a47c60183880b4c85e44a92865.jpg",
       "images": [
         {
-          "id": "news:rodong-sinmun:d6623b09764c40e11ffe31f4:image:d3f6bf9a623348a49bf2b1fe6ebd35b646568008241cbcff8cb1b7a1b1ef3a8b",
+          "id": "news:rodong-sinmun:c16717028f4438ac5a45df6e:image:ae9bc19bdf94ce2b4f89146487278bbfb9c210a47c60183880b4c85e44a92865",
           "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/d3f6bf9a623348a49bf2b1fe6ebd35b646568008241cbcff8cb1b7a1b1ef3a8b.jpg",
+          "cachedUrl": "/data/news/assets/rodong-sinmun/ae9bc19bdf94ce2b4f89146487278bbfb9c210a47c60183880b4c85e44a92865.jpg",
           "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/d3f6bf9a623348a49bf2b1fe6ebd35b646568008241cbcff8cb1b7a1b1ef3a8b.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0wMS0wNTFANEAxNEBAMEAyMDVA==",
+          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/ae9bc19bdf94ce2b4f89146487278bbfb9c210a47c60183880b4c85e44a92865.jpg",
+          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yMS0wMTZANEAxNUBAMEAyMTZA==",
           "displayOrder": 0
-        },
-        {
-          "id": "news:rodong-sinmun:d6623b09764c40e11ffe31f4:image:9433742c4d1ef44f79aebc8ff2d024afdcb096b85dcd67393cb929a4dabf1b62",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/9433742c4d1ef44f79aebc8ff2d024afdcb096b85dcd67393cb929a4dabf1b62.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/9433742c4d1ef44f79aebc8ff2d024afdcb096b85dcd67393cb929a4dabf1b62.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0wMS0wNTFANEAxNEBAMEAyMDVA==",
-          "displayOrder": 1
-        },
-        {
-          "id": "news:rodong-sinmun:d6623b09764c40e11ffe31f4:image:e1ef7462f8568f5972daae44dae693d2b97ecdbdecbe26a762f3cc448a48bc43",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/e1ef7462f8568f5972daae44dae693d2b97ecdbdecbe26a762f3cc448a48bc43.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/e1ef7462f8568f5972daae44dae693d2b97ecdbdecbe26a762f3cc448a48bc43.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0wMS0wNTFANEAxNEBAMEAyMDVA==",
-          "displayOrder": 2
-        },
-        {
-          "id": "news:rodong-sinmun:d6623b09764c40e11ffe31f4:image:469a74555fc6c8fa108bba70cd2d3de616b148b6465739ced41cce53f45143de",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/469a74555fc6c8fa108bba70cd2d3de616b148b6465739ced41cce53f45143de.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/469a74555fc6c8fa108bba70cd2d3de616b148b6465739ced41cce53f45143de.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0wMS0wNTFANEAxNEBAMEAyMDVA==",
-          "displayOrder": 3
-        },
-        {
-          "id": "news:rodong-sinmun:d6623b09764c40e11ffe31f4:image:c45b82a636ebf732005f66f4de13b718f89d0fe8ac20708c56f9bcb2a19839d4",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/c45b82a636ebf732005f66f4de13b718f89d0fe8ac20708c56f9bcb2a19839d4.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/c45b82a636ebf732005f66f4de13b718f89d0fe8ac20708c56f9bcb2a19839d4.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0wMS0wNTFANEAxNEBAMEAyMDVA==",
-          "displayOrder": 4
-        },
-        {
-          "id": "news:rodong-sinmun:d6623b09764c40e11ffe31f4:image:195bff85489d424f1a7775becd545bd6c56f6b9fc4f2d5ce3be338fdb96a8fe1",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/195bff85489d424f1a7775becd545bd6c56f6b9fc4f2d5ce3be338fdb96a8fe1.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/195bff85489d424f1a7775becd545bd6c56f6b9fc4f2d5ce3be338fdb96a8fe1.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMi0wMS0wNTFANEAxNEBAMEAyMDVA==",
-          "displayOrder": 5
         }
       ],
       "videos": []

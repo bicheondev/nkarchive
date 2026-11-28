@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-27T00:00:00.000Z",
-  "version": "8b7e6cf3e1280563",
+  "generatedAt": "2026-11-28T00:00:00.000Z",
+  "version": "cb503f3d7838fdc0",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,15 @@
   "section": "domestic",
   "page": 210,
   "pageSize": 5,
-  "totalItems": 4161,
-  "totalPages": 833,
+  "totalItems": 4083,
+  "totalPages": 817,
   "articles": [
     {
-      "id": "news:kcna:7c8385842cb79e7b6dbe20ed",
-      "title": "남포시 온천군과 룡강군의 지방공업공장들에서 생산성과 확대",
-      "date": "2026-07-12",
-      "snippet": "(평양 7월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/623c73a4ba24b78ba26290d511ad5637",
+      "id": "news:kcna:0b1c496a8e6017fa423471f0",
+      "title": "평양화력발전소에서 지난해보다 전력생산 1.1배이상 증가,매월 많은 석탄 절약",
+      "date": "2026-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/4a10433f4ae692563deaf10fe542982c",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -29,34 +29,36 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7c8385842cb79e7b6dbe20ed"
+      "detailUrl": "/news/document?id=news%3Akcna%3A0b1c496a8e6017fa423471f0"
     },
     {
-      "id": "news:kcna:96b36311678b3c90a2314fc5",
-      "title": "총련조선대학교 졸업학년학생조국방문단이 떠나갔다",
-      "date": "2026-07-12",
-      "snippet": "(평양 7월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/c61a9c006582c9d51a9271c1b749bb0c",
+      "id": "news:kcna:1d9cb93206d85669d063253c",
+      "title": "개성시에서 청년돌격대원들을 당결정관철을 위한 실천투쟁에로 고무",
+      "date": "2026-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/71c254d51802b33b311416e38449dc5c",
       "mediaType": "article",
       "categories": [
-        "domestic"
+        "domestic",
+        "social"
       ],
       "categoryOrders": {
-        "domestic": 1046
+        "domestic": 1046,
+        "social": 145
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A96b36311678b3c90a2314fc5"
+      "detailUrl": "/news/document?id=news%3Akcna%3A1d9cb93206d85669d063253c"
     },
     {
-      "id": "news:kcna:e62a65616e01c6834bfcb238",
-      "title": "《로동신문》 조선로동당의 투쟁목표는 우리 조국을 인민의 웃음꽃이 만발하는 락원으로 가꾸는것이라고 강조",
-      "date": "2026-07-12",
-      "snippet": "(평양 7월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6d05be053e3267293d4d01ef1539bb20",
+      "id": "news:kcna:4945873e98cdebdbb9b68833",
+      "title": "명천지구탄광련합기업소에서 석탄증산에 매진",
+      "date": "2026-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1bc8cff2e1f3b363c84ee25d15efa334",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -69,21 +71,25 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ae62a65616e01c6834bfcb238"
+      "detailUrl": "/news/document?id=news%3Akcna%3A4945873e98cdebdbb9b68833"
     },
     {
-      "id": "news:kcna:ec31e0e14c043cad760b94b6",
-      "title": "우리 나라 외무상 중화인민공화국 외교부장에게 축전",
-      "date": "2026-07-12",
-      "snippet": "(평양 7월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/3c49d6d78a421481880fe543da9b944d",
+      "id": "news:kcna:9717aaa28b7bc5bfccb29f9c",
+      "title": "조선민주주의인민공화국 외무성 대변인 담화 발표",
+      "date": "2026-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/d71edc38f50c81691e4f69e6507f146b",
       "mediaType": "article",
       "categories": [
+        "important",
+        "document",
         "foreign",
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 214,
+        "important": 168,
+        "document": 38,
+        "foreign": 251,
         "domestic": 1048
       },
       "featuredSections": [],
@@ -91,14 +97,14 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Aec31e0e14c043cad760b94b6"
+      "detailUrl": "/news/document?id=news%3Akcna%3A9717aaa28b7bc5bfccb29f9c"
     },
     {
-      "id": "news:kcna:38d81da6716698e010481e54",
-      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 조선사회주의녀성동맹 제8차대회 참가자들 꽃바구니 진정",
-      "date": "2026-07-12",
-      "snippet": "(평양 7월 12일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/52dbd308231d90461069c7df77a5df60",
+      "id": "news:kcna:c329857a85e2206a327c0c32",
+      "title": "2026년 8월 31일 《로동신문》개관",
+      "date": "2026-08-31",
+      "snippet": "(평양 8월 31일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7b4786932eae42f74930e7b7527f3fb6",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -107,11 +113,11 @@
         "domestic": 1049
       },
       "featuredSections": [],
-      "hasImage": true,
+      "hasImage": false,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77dc08e6334c5631d50a8f0c6a3a8c726f4",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/91b9f982b9b55182cfe85e774e5610750f9b732c3e6828c97befb59b4eb601c5.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A38d81da6716698e010481e54"
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3Ac329857a85e2206a327c0c32"
     }
   ]
 }

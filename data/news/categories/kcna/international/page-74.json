@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-27T00:00:00.000Z",
-  "version": "8b7e6cf3e1280563",
+  "generatedAt": "2026-11-28T00:00:00.000Z",
+  "version": "cb503f3d7838fdc0",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,15 @@
   "section": "international",
   "page": 74,
   "pageSize": 5,
-  "totalItems": 2782,
+  "totalItems": 2781,
   "totalPages": 557,
   "articles": [
     {
-      "id": "news:kcna:cf23d52742527fda3665295b",
-      "title": "태풍23호 발생",
-      "date": "2026-08-29",
-      "snippet": "(평양 8월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9cddf16070b55bbd76a732cfa2acb113",
+      "id": "news:kcna:6a5f5565d09f46644f48dbff",
+      "title": "로씨야대통령특별대표 서방의 거짓과 무능력을 비난",
+      "date": "2026-10-09",
+      "snippet": "(모스크바 10월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/dc503f9ca419a3e6af3d6a76a18eeec2",
       "mediaType": "article",
       "categories": [
         "international"
@@ -29,87 +29,99 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Acf23d52742527fda3665295b"
+      "detailUrl": "/news/document?id=news%3Akcna%3A6a5f5565d09f46644f48dbff"
     },
     {
-      "id": "news:kcna:0c064495d90605095bafa733",
-      "title": "네팔과 중국의 국경지역에서 거대한 빙하의 붕괴로 대규모자연재해 발생",
-      "date": "2026-08-29",
-      "snippet": "(평양 8월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/0f11a1297fefedd996faf9e7ce8577ea",
+      "id": "news:kcna:839e331632d72a89acbf3121",
+      "title": "경애하는 김정은동지께 나이제리아련방공화국 대통령이 꽃바구니를 보내여왔다",
+      "date": "2026-10-09",
+      "snippet": "(평양 10월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/204c765ec5156ff0ab7a35bfb4b31046",
       "mediaType": "article",
       "categories": [
-        "international"
+        "important",
+        "international",
+        "foreign"
       ],
       "categoryOrders": {
-        "international": 366
+        "important": 80,
+        "international": 366,
+        "foreign": 130
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2dafb96213566201ce2bcd5df7943b0ab7d",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/9d0e4ea7fe4fed191c872d86d1746e1531599d6290d7b201f7ed7a1aed4705eb.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A839e331632d72a89acbf3121"
+    },
+    {
+      "id": "news:kcna:f017fc17ccc3310ab549ebb5",
+      "title": "경애하는 김정은동지께 외국의 인사들이 꽃바구니를 보내여왔다",
+      "date": "2026-10-09",
+      "snippet": "(평양 10월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/5ca8c0de914b5aa25033a37c34a99096",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "important": 82,
+        "international": 367,
+        "foreign": 132
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2da2b354cec9dd2e061c32808b2c9674966",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/0ae84e358cdcf71fd4b941bf160878ac637d5b898a6ace7c5f56c8fc8c71269c.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Af017fc17ccc3310ab549ebb5"
+    },
+    {
+      "id": "news:kcna:5685a8d9265c397f83db2258",
+      "title": "조선로동당 중앙위원회에 중국공산당 중앙위원회가 꽃바구니를 보내여왔다",
+      "date": "2026-10-09",
+      "snippet": "(평양 10월 9일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/f4b7061d87468f5b7084c9c53718bf19",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 368,
+        "foreign": 134
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2da75a41bf10deb85f11f6124893e758f53",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/b6b63be7acf0139dc86e712b27434f3b27ce36f2b2ea923f099dd467d75bcc69.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A5685a8d9265c397f83db2258"
+    },
+    {
+      "id": "news:kcna:cfaf2e33968d820f0b2c2a1f",
+      "title": "조로외교관계설정 78돐에 즈음하여 조선영화상영주간 개막식 로씨야에서 진행",
+      "date": "2026-10-08",
+      "snippet": "(평양 10월 8일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e968e61d0bf413a517ed6a27b2b9518c",
+      "mediaType": "article",
+      "categories": [
+        "international",
+        "foreign"
+      ],
+      "categoryOrders": {
+        "international": 369,
+        "foreign": 136
       },
       "featuredSections": [],
       "hasImage": false,
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A0c064495d90605095bafa733"
-    },
-    {
-      "id": "news:kcna:8e6ebc0b4f8cdf7df3d51a71",
-      "title": "나미비아대통령 나라의 경제발전을 위해 단결할것을 호소",
-      "date": "2026-08-29",
-      "snippet": "(평양 8월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/6444dd99d66b803629a99afb7a0cc20a",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 367
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A8e6ebc0b4f8cdf7df3d51a71"
-    },
-    {
-      "id": "news:kcna:b87073c8feb503939889dbab",
-      "title": "카나다에서 미국상품배척기운 고조",
-      "date": "2026-08-29",
-      "snippet": "(평양 8월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/ac09b056d66138792386547f25372334",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 368
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab87073c8feb503939889dbab"
-    },
-    {
-      "id": "news:kcna:7cacb071c7ed8e38db8f76d2",
-      "title": "로씨야련방안전국 반테로투쟁 강화",
-      "date": "2026-08-29",
-      "snippet": "(모스크바 8월 28일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/7e4435c55619693119cfa596b9a04fcd",
-      "mediaType": "article",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 369
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7cacb071c7ed8e38db8f76d2"
+      "detailUrl": "/news/document?id=news%3Akcna%3Acfaf2e33968d820f0b2c2a1f"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-27T00:00:00.000Z",
-  "version": "8b7e6cf3e1280563",
+  "generatedAt": "2026-11-28T00:00:00.000Z",
+  "version": "cb503f3d7838fdc0",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,35 @@
   "section": "domestic",
   "page": 530,
   "pageSize": 5,
-  "totalItems": 4161,
-  "totalPages": 833,
+  "totalItems": 4083,
+  "totalPages": 817,
   "articles": [
     {
-      "id": "news:kcna:6e0f357828d56098b6135116",
-      "title": "2026년 2월 20일 신문개관",
-      "date": "2026-02-20",
-      "snippet": "(평양 2월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/af6ec298ae05f32aca1324f68cbde17d",
+      "id": "news:kcna:05d6bc33bdfceb44eb3042e2",
+      "title": "밀,보리농사에서 은을 내고있는 관개체계",
+      "date": "2026-04-11",
+      "snippet": "(평양 4월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/ac990a526200156077c53c676b75f842",
+      "mediaType": "article",
+      "categories": [
+        "domestic"
+      ],
+      "categoryOrders": {
+        "domestic": 2645
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A05d6bc33bdfceb44eb3042e2"
+    },
+    {
+      "id": "news:kcna:dceeb61670e1b36ccba97663",
+      "title": "2026년 4월 11일 신문개관",
+      "date": "2026-04-11",
+      "snippet": "(평양 4월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/b22d3b5f224e4eeddc609b65e84b8756",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -29,58 +49,62 @@
       "hasVideo": false,
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A6e0f357828d56098b6135116"
+      "detailUrl": "/news/document?id=news%3Akcna%3Adceeb61670e1b36ccba97663"
     },
     {
-      "id": "news:kcna:5719777e0114e71b139fc35c",
-      "title": "조선로동당 제9차대회에 축기를 보내여왔다",
-      "date": "2026-02-20",
-      "snippet": "(평양 2월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/5b4d5b273c6f33c518be2ec52ac09657",
+      "id": "news:kcna:819a5a28e552bfcde57862de",
+      "title": "중화인민공화국 외교부장 평양 출발",
+      "date": "2026-04-11",
+      "snippet": "(평양 4월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1392fc743839b80705894f3e19c5d994",
       "mediaType": "article",
       "categories": [
-        "international",
+        "important",
+        "foreign",
         "domestic"
       ],
       "categoryOrders": {
-        "international": 1817,
+        "important": 336,
+        "foreign": 511,
         "domestic": 2647
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A5719777e0114e71b139fc35c"
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b6613c072a0f4814891cf81c11343bc9b58",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/5b32c09e2c93208eeb2321ff6f637ea0de5ae9db8a18c40b474e8046ecd279a8.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A819a5a28e552bfcde57862de"
     },
     {
-      "id": "news:kcna:9ed0cac2fd599b8ff3bae3ef",
-      "title": "평양시 화성구역의 전시공로자가 은정어린 생일상을 받아안았다",
-      "date": "2026-02-20",
-      "snippet": "(평양 2월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/876b0a9b2d75be27c39504a541249886",
+      "id": "news:kcna:7e8ba0301624a6905763d27b",
+      "title": "중화인민공화국 외교부장일행 중국인민지원군렬사릉원에 꽃바구니 진정",
+      "date": "2026-04-11",
+      "snippet": "(평양 4월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/1b65f961897970c4500ed5a6be74a049",
       "mediaType": "article",
       "categories": [
-        "domestic",
-        "social"
+        "important",
+        "foreign",
+        "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2648,
-        "social": 344
+        "important": 337,
+        "foreign": 512,
+        "domestic": 2648
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A9ed0cac2fd599b8ff3bae3ef"
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b667f34adb6dbd9d6693fdbd445de61628a",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/a94ad85cf79880f8333e5f42161abe19a8d590761740e3a6d25977de7d6c42d1.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A7e8ba0301624a6905763d27b"
     },
     {
-      "id": "news:kcna:3d96c6b6d2a9f5919598eace",
-      "title": "평양시안의 학교소년단조직들에서 사상교양사업에 힘을 집중",
-      "date": "2026-02-20",
-      "snippet": "(평양 2월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/9f30e5e45c6eb64e95d0f9b065c5ae6e",
+      "id": "news:kcna:417dca939a1c224c9b8008f8",
+      "title": "평양국제관광기념품 및 건강제품전시회 개막",
+      "date": "2026-04-11",
+      "snippet": "(평양 4월 11일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/24a55dac745b56f516650b4d9063c7ac",
       "mediaType": "article",
       "categories": [
         "domestic"
@@ -89,31 +113,11 @@
         "domestic": 2649
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A3d96c6b6d2a9f5919598eace"
-    },
-    {
-      "id": "news:kcna:b4b988e118726875754382ef",
-      "title": "원산학생교복공장,원산학생신발공장에서 새 학년도 교복,신발생산에 주력",
-      "date": "2026-02-20",
-      "snippet": "(평양 2월 20일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/50a8654cd54345caf5c56c422299a0e4",
-      "mediaType": "article",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 2650
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3Ab4b988e118726875754382ef"
+      "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b668ba59df4de3c716a441ef9f8433c0f96",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/16a6c352db9e70beeb33b380c65824dcd7b36b9ceb1828507ad66a908760ab83.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A417dca939a1c224c9b8008f8"
     }
   ]
 }

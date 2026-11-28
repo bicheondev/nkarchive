@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-27T00:00:00.000Z",
-  "version": "8b7e6cf3e1280563",
+  "generatedAt": "2026-11-28T00:00:00.000Z",
+  "version": "cb503f3d7838fdc0",
   "source": {
     "id": "kcna",
     "name": "조선중앙통신"
@@ -8,15 +8,15 @@
   "section": "foreign",
   "page": 65,
   "pageSize": 5,
-  "totalItems": 762,
-  "totalPages": 153,
+  "totalItems": 735,
+  "totalPages": 147,
   "articles": [
     {
-      "id": "news:kcna:10c95a893fe9d24e2a4c21bb",
-      "title": "위대한 수령 김일성동지와 위대한 령도자 김정일동지의 동상에 중국예술단이 꽃바구니를 보내여왔다",
-      "date": "2026-05-01",
-      "snippet": "(평양 5월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/306b22226dc87c9e4ca54fd7a95ce56f",
+      "id": "news:kcna:3f278dde3ad4806f69090607",
+      "title": "력사를 통해 본 천년숙적 일본의 죄악--막대한 물질적피해를 준 산업시설파괴범죄",
+      "date": "2026-07-19",
+      "snippet": "(평양 7월 19일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/7bd7f3b2b1fe8f9afa668e96d85071a5",
       "mediaType": "article",
       "categories": [
         "foreign",
@@ -24,102 +24,110 @@
       ],
       "categoryOrders": {
         "foreign": 320,
-        "domestic": 1814
+        "domestic": 1528
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=news%3Akcna%3A3f278dde3ad4806f69090607"
+    },
+    {
+      "id": "kcna-43f65c4f37a4e35b",
+      "title": "조선민주주의인민공화국 국방성 대변인 담화 발표",
+      "date": "2026-07-18",
+      "snippet": "(평양 7월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/e0a2e981d4508ef10e8de44d2c7ed344",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "document",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 215,
+        "document": 47,
+        "foreign": 321,
+        "domestic": 1537
+      },
+      "featuredSections": [],
+      "hasImage": false,
+      "hasVideo": false,
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "detailUrl": "/news/document?id=kcna-43f65c4f37a4e35b"
+    },
+    {
+      "id": "news:kcna:afbcccb1ffe31cf0b12b9bbe",
+      "title": "중화인민공화국 당 및 정부대표단 귀국",
+      "date": "2026-07-18",
+      "snippet": "(평양 7월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/2fe4616089caddc0cae6f0fc6a8fd3d5",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 216,
+        "foreign": 322,
+        "domestic": 1539
       },
       "featuredSections": [],
       "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "http://www.kcna.kp/photo/48ee1e57cc5c856b2790b5700793328b4094578d272f7e9f26ac50d5483dad5f",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/ca6ee9674d2637bb97fa040aebc1b4f4040d431891c08d136257d0c82d9af790.jpg",
-      "detailUrl": "/news/document?id=news%3Akcna%3A10c95a893fe9d24e2a4c21bb"
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d1c79df1b307686a05934192706c08dfc",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/09b009e50bbd359c1284b5de2d375ffe753dd2f5b5a70b18a008223841319c80.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aafbcccb1ffe31cf0b12b9bbe"
     },
     {
-      "id": "news:kcna:67bd7a5520316e7fa66411b4",
-      "title": "제34차 4월의 봄 친선예술축전 페막",
-      "date": "2026-05-01",
-      "snippet": "(평양 5월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/2a29130bb5925dccbff94941ff46b534",
+      "id": "news:kcna:a6de890ce4c6aeb0c7f98fcf",
+      "title": "중화인민공화국 당 및 정부대표단 원산갈마해안관광지구 참관",
+      "date": "2026-07-18",
+      "snippet": "(평양 7월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/3b453d92dfd5af877b73b5da8c14de74",
+      "mediaType": "article",
+      "categories": [
+        "important",
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "important": 217,
+        "foreign": 323,
+        "domestic": 1540
+      },
+      "featuredSections": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77ddd9854933a16fb3ac58e877c1e609a46",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/cd226a20faac6461899f82a49532880e72533cdedc2b5e096ed5e38b2a40c5de.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3Aa6de890ce4c6aeb0c7f98fcf"
+    },
+    {
+      "id": "news:kcna:848c067f56946b65d9e23fba",
+      "title": "싼디노인민혁명승리 47돐에 즈음한 경축행사 진행",
+      "date": "2026-07-18",
+      "snippet": "(평양 7월 18일발 조선중앙통신)",
+      "url": "http://www.kcna.kp/kp/article/detail/a3c426a83031f1d06dcc2882720572d3",
       "mediaType": "article",
       "categories": [
         "foreign",
         "domestic"
       ],
       "categoryOrders": {
-        "foreign": 321,
-        "domestic": 1815
+        "foreign": 324,
+        "domestic": 1541
       },
       "featuredSections": [],
-      "hasImage": false,
+      "hasImage": true,
       "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A67bd7a5520316e7fa66411b4"
-    },
-    {
-      "id": "news:kcna:49826cf8566b098cfbcf2a4f",
-      "title": "우리 나라 특명전권대사 에티오피아대통령을 작별방문",
-      "date": "2026-05-01",
-      "snippet": "(평양 5월 1일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/80e81945692752eae2d85b33c2f06c61",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 1242,
-        "foreign": 322
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A49826cf8566b098cfbcf2a4f"
-    },
-    {
-      "id": "news:kcna:7ab59a42b905d80550c01ac0",
-      "title": "로씨야주재 우리 나라 대사관에서 사진전시회 및 기념토론회 진행",
-      "date": "2026-04-30",
-      "snippet": "(평양 4월 30일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/d637c721f93db0b0ec70e3cfb7c52212",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 1250,
-        "foreign": 323
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A7ab59a42b905d80550c01ac0"
-    },
-    {
-      "id": "news:kcna:81b416b137a9ae9b5e7855c8",
-      "title": "여러 나라와 지역기구 인사들 우리 나라 대표부들을 축하방문",
-      "date": "2026-04-29",
-      "snippet": "(평양 4월 29일발 조선중앙통신)",
-      "url": "http://www.kcna.kp/kp/article/detail/53902cd5f1696140b41cc675b8f4bc4f",
-      "mediaType": "article",
-      "categories": [
-        "international",
-        "foreign"
-      ],
-      "categoryOrders": {
-        "international": 1258,
-        "foreign": 324
-      },
-      "featuredSections": [],
-      "hasImage": false,
-      "hasVideo": false,
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "detailUrl": "/news/document?id=news%3Akcna%3A81b416b137a9ae9b5e7855c8"
+      "thumbnailUrl": "http://www.kcna.kp/photo/4e76407b0d88fc42c3d608de29caa77d7e1f1764f071afc1ae1120fa6ea982ef",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/80b40190dd66e3eedeaee9f1a65a52a12b16a1df87ef74bc6ae38af21d4c236f.jpg",
+      "detailUrl": "/news/document?id=news%3Akcna%3A848c067f56946b65d9e23fba"
     }
   ]
 }

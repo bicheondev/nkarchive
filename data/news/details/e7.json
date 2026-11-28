@@ -1,8 +1,73 @@
 {
-  "generatedAt": "2026-11-27T00:00:00.000Z",
-  "version": "8b7e6cf3e1280563",
+  "generatedAt": "2026-11-28T00:00:00.000Z",
+  "version": "cb503f3d7838fdc0",
   "shard": "e7",
   "articles": {
+    "news:kcna:91b58e75269e79aa91018c35": {
+      "id": "news:kcna:91b58e75269e79aa91018c35",
+      "title": "중국공산당 중앙당학교대표단 귀국",
+      "date": "2026-11-05",
+      "snippet": "중국공산당 중앙당학교대표단 귀국",
+      "body": "중국공산당 중앙당학교대표단 귀국",
+      "url": "http://www.kcna.kp/kp/gallery/detail/777e7833a210e5da6f8edc051d1a2315",
+      "mediaType": "article",
+      "sourceId": "kcna",
+      "sourceName": "조선중앙통신",
+      "categories": [
+        "photo"
+      ],
+      "categoryOrders": {
+        "photo": 55
+      },
+      "featuredSections": [],
+      "thumbnailUrl": "http://www.kcna.kp/photo/23d8225646ab33c5fab17c2d98e367c8231fea8b014d25821d2885a485591d16",
+      "cachedThumbnailUrl": "/data/news/assets/kcna/aa1f8c419f21b8f4e087ffb0e5074a641fb2323901177cbeff733077540be1c9.jpg",
+      "images": [
+        {
+          "id": "news:kcna:91b58e75269e79aa91018c35:image:aa1f8c419f21b8f4e087ffb0e5074a641fb2323901177cbeff733077540be1c9",
+          "url": "",
+          "cachedUrl": "/data/news/assets/kcna/aa1f8c419f21b8f4e087ffb0e5074a641fb2323901177cbeff733077540be1c9.jpg",
+          "thumbnailUrl": "",
+          "cachedThumbnailUrl": "/data/news/assets/kcna/aa1f8c419f21b8f4e087ffb0e5074a641fb2323901177cbeff733077540be1c9.jpg",
+          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/777e7833a210e5da6f8edc051d1a2315",
+          "displayOrder": 0
+        },
+        {
+          "id": "news:kcna:91b58e75269e79aa91018c35:image:70e477d6db047ea239fec8864189ccc507bf80e9bc5f3b24f164fbfdda37ce91",
+          "url": "http://www.kcna.kp/photo/23d8225646ab33c5fab17c2d98e367c8231fea8b014d25821d2885a485591d16",
+          "cachedUrl": "",
+          "thumbnailUrl": "http://www.kcna.kp/photo/23d8225646ab33c5fab17c2d98e367c8231fea8b014d25821d2885a485591d16",
+          "cachedThumbnailUrl": "",
+          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/777e7833a210e5da6f8edc051d1a2315",
+          "displayOrder": 1
+        }
+      ],
+      "videos": []
+    },
+    "news:kcna:f6dfd36cfa397e122d3ccb05": {
+      "id": "news:kcna:f6dfd36cfa397e122d3ccb05",
+      "title": "중국에 가는 조선중앙통신사대표단 출발",
+      "date": "2026-11-04",
+      "snippet": "(평양 11월 4일발 조선중앙통신)",
+      "body": "(평양 11월 4일발 조선중앙통신)\n\n조선중앙통신사 부사장 박광철동지를 단장으로 하는 조선중앙통신사대표단이 중국에서 진행되는 제7차 세계대중보도수단 수뇌자회의에 참가하기 위하여 3일 비행기로 평양을 출발하였다.(끝)",
+      "url": "http://www.kcna.kp/kp/article/detail/de67c4a67692440db482d5f7240ee834",
+      "mediaType": "article",
+      "sourceId": "kcna",
+      "sourceName": "조선중앙통신",
+      "categories": [
+        "foreign",
+        "domestic"
+      ],
+      "categoryOrders": {
+        "foreign": 57,
+        "domestic": 264
+      },
+      "featuredSections": [],
+      "thumbnailUrl": "",
+      "cachedThumbnailUrl": "",
+      "images": [],
+      "videos": []
+    },
     "news:kcna:8070c7509bc912ea8a68cfa9": {
       "id": "news:kcna:8070c7509bc912ea8a68cfa9",
       "title": "각지에서 자연에네르기에 의한 발전능력조성사업 추진",
@@ -17,7 +82,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 17
+        "photo": 148
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/0e055e1f78d2513958769c999314b2da2a2daf5b8545fbbf1aee89cba6a5fa5a",
@@ -94,7 +159,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 14
+        "video": 44
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -133,7 +198,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 106
+        "photo": 237
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/983c74764d50d46eed473d67779f45baea080ff250a67c17b3bb2c6ccf20085f",
@@ -237,7 +302,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 605
+        "domestic": 1175
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -259,7 +324,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 643
+        "domestic": 1213
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -281,7 +346,7 @@
         "photo"
       ],
       "categoryOrders": {
-        "photo": 138
+        "photo": 269
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/9f8dfd1724f738833fded03a1ed41f29be8398a0acdbe32f55bed46247615bec",
@@ -386,8 +451,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1336,
-        "social": 159
+        "domestic": 1906,
+        "social": 238
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -410,8 +475,8 @@
         "social"
       ],
       "categoryOrders": {
-        "domestic": 1348,
-        "social": 160
+        "domestic": 1918,
+        "social": 239
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -433,7 +498,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1038
+        "international": 1399
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -455,7 +520,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1158
+        "international": 1519
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -477,7 +542,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1236
+        "international": 1597
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -500,8 +565,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 218,
-        "domestic": 1824
+        "important": 298,
+        "domestic": 2394
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/41d17f9a68e32a3cbaa859697e8a1b663287023ef8d14b170a1c75ea053ac5a6",
@@ -551,7 +616,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 54
+        "anecdote": 70
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -573,7 +638,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 1287
+        "international": 1648
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -595,7 +660,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 1961
+        "domestic": 2531
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -617,7 +682,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 2245
+        "domestic": 2815
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -640,8 +705,8 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 296,
-        "domestic": 2290
+        "important": 376,
+        "domestic": 2860
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -665,9 +730,9 @@
         "domestic"
       ],
       "categoryOrders": {
-        "important": 310,
-        "document": 49,
-        "domestic": 2322
+        "important": 390,
+        "document": 71,
+        "domestic": 2892
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -689,7 +754,7 @@
         "leadership"
       ],
       "categoryOrders": {
-        "leadership": 151
+        "leadership": 171
       },
       "featuredSections": [],
       "thumbnailUrl": "http://www.kcna.kp/photo/c8e75760b21bd5d178714194f4e7e451abb96702bf5ca4420778e7718e9f436d",
@@ -901,7 +966,7 @@
         "anecdote"
       ],
       "categoryOrders": {
-        "anecdote": 82
+        "anecdote": 98
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -923,7 +988,7 @@
         "domestic"
       ],
       "categoryOrders": {
-        "domestic": 3261
+        "domestic": 3831
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -945,7 +1010,7 @@
         "international"
       ],
       "categoryOrders": {
-        "international": 2315
+        "international": 2676
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -967,7 +1032,7 @@
         "video"
       ],
       "categoryOrders": {
-        "video": 211
+        "video": 241
       },
       "featuredSections": [],
       "thumbnailUrl": "",
@@ -991,279 +1056,6 @@
           "displayOrder": 0
         }
       ]
-    },
-    "news:kcna:ace01f437fbc4ba91d15ca64": {
-      "id": "news:kcna:ace01f437fbc4ba91d15ca64",
-      "title": "제9차 전국녀맹누에치기운동열성자회의 진행",
-      "date": "2025-11-28",
-      "snippet": "(평양 11월 28일발 조선중앙통신)",
-      "body": "(평양 11월 28일발 조선중앙통신)\n\n제9차 전국녀맹누에치기운동열성자회의가 26일과 27일 녀성회관에서 진행되였다.\n\n회의에서는 조선사회주의녀성동맹 중앙위원회 위원장 전향순동지가 보고를 하였다.\n\n보고자는 제9차 전국녀맹누에치기운동열성자회의가 녀성동맹의 위력을 더 높이 떨치며 모든 녀맹일군들과 녀맹원들을 우리식 사회주의의 승리를 위한 애국위업에로 고무하는 계기로 된다고 강조하였다.\n\n그는 각지 녀맹원들이 누에치기운동을 힘있게 벌리는 과정에 이룩된 성과들에 대하여 언급하였다.\n\n이어 토론들이 진행되였다.\n\n토론자들은 누에치기운동에서 대중의 애국적열의를 높이 발양시키기 위한 사상공세를 첨입식으로 벌리며 서로 돕고 이끄는 집단주의의 위력을 남김없이 발휘하여 새 기록,새 기준을 끊임없이 창조할것이라고 말하였다.\n\n회의에서는 경애하는 김정은동지께 드리는 맹세문이 채택되였다.\n\n회의기간 누에치기를 보다 과학기술적으로 진행하는데서 나서는 방도적문제들에 대한 실무강습과 누에치기운동에서 이룩된 성과와 경험들에 대한 전시회,발표회 등이 진행되였다.\n\n조선로동당 중앙위원회 부장 김정순동지,관계부문,녀맹일군들,누에치기운동에서 모범을 보인 녀맹원들이 참가하였다.(끝)",
-      "url": "http://www.kcna.kp/kp/article/detail/a7d3bba3527817226aee743c20ec1e81",
-      "mediaType": "article",
-      "sourceId": "kcna",
-      "sourceName": "조선중앙통신",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 3525
-      },
-      "featuredSections": [],
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "images": [],
-      "videos": []
-    },
-    "news:kcna:7c39b8b3566a26cbcbff2c82": {
-      "id": "news:kcna:7c39b8b3566a26cbcbff2c82",
-      "title": "오스트랄리아에서 기아에 시달리는 세대수 증가",
-      "date": "2025-11-07",
-      "snippet": "(평양 11월 7일발 조선중앙통신)",
-      "body": "(평양 11월 7일발 조선중앙통신)\n\n오스트랄리아에서 지난 12개월동안 약 350만세대가 기아에 시달렸다고 5일 이 나라의 한 자선단체가 밝혔다.\n\n이것은 전체 가정세대의 33%에 해당되는것으로서 그전시기보다 증가한것이다.\n\n그중에는 끼니를 건늬다 못해 온종일 혹은 며칠씩 굶는 세대들도 있다고 한다.(끝)",
-      "url": "http://www.kcna.kp/kp/article/detail/7efd04f2172d9c54cfa6e12494a20941",
-      "mediaType": "article",
-      "sourceId": "kcna",
-      "sourceName": "조선중앙통신",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 2556
-      },
-      "featuredSections": [],
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "images": [],
-      "videos": []
-    },
-    "news:kcna:f54d9cc8bdcc86688c2b4412": {
-      "id": "news:kcna:f54d9cc8bdcc86688c2b4412",
-      "title": "로씨야안전리사회 부의장 우크라이나에 대한 서방의 지원놀음을 비난",
-      "date": "2025-11-05",
-      "snippet": "(모스크바 11월 4일발 조선중앙통신)",
-      "body": "(모스크바 11월 4일발 조선중앙통신)\n\n로씨야안전리사회 부의장 드미뜨리 메드베제브가 3일 사회교제망을 통해 우크라이나에 막대한 자금을 쏟아붓고있는 서방을 비난하였다.\n\n그는 여러해째 수십억US$를 탕진해버린 우크라이나당국의 대변인들을 《피비린내나는 끼예브의 어리광대들》로 락인하고 서방세계가 이 어리광대들을 지원하기 위해 자금을 많이 지출하면 할수록 더 많은 령토가 로씨야의 구성에 포함될것이며 보다 더 무서운 결말이 우크라이나에 차례지게 될것이라고 강조하였다.\n\n그는 서방이 우크라이나에 지나치게 많은 자금을 퍼부었다고 하면서 그만한 돈이면 중립적이고 평온한 새로운 우크라이나를 건설하였을것이라고 주장하였다.\n\n그는 아프가니스탄에서의 미국의 행동에 대해 상기시키면서 미국이 2001년부터 2021년까지의 기간에 《정권을 탈리반으로부터 탈리반에로 넘겨주기 위해》 2조 3 000억US$를 소비하였다고 조소하였다.(끝)",
-      "url": "http://www.kcna.kp/kp/article/detail/e12125a94727e6fdb76100d7aae5f5a9",
-      "mediaType": "article",
-      "sourceId": "kcna",
-      "sourceName": "조선중앙통신",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 2570
-      },
-      "featuredSections": [],
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "images": [],
-      "videos": []
-    },
-    "news:kcna:b297aab00d78a7ab51669f29": {
-      "id": "news:kcna:b297aab00d78a7ab51669f29",
-      "title": "2025년 국제탁구련맹 아시아장애자선수권대회에 참가하였던 우리 선수들 귀국",
-      "date": "2025-10-25",
-      "snippet": "2025년 국제탁구련맹 아시아장애자선수권대회에 참가하였던 우리 선수들 귀국",
-      "body": "2025년 국제탁구련맹 아시아장애자선수권대회에 참가하였던 우리 선수들 귀국",
-      "url": "http://www.kcna.kp/kp/gallery/detail/e66eade1ca30df6d5292aa3fa79c8023",
-      "mediaType": "article",
-      "sourceId": "kcna",
-      "sourceName": "조선중앙통신",
-      "categories": [
-        "photo"
-      ],
-      "categoryOrders": {
-        "photo": 900
-      },
-      "featuredSections": [],
-      "thumbnailUrl": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d93933099d5ada6e0ad81008fefc707828aa804",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/815d2994e5b1454aaaeb2945bcb704f6d38597e69b2ebe30c0b1138948ccfb5a.jpg",
-      "images": [
-        {
-          "id": "news:kcna:b297aab00d78a7ab51669f29:image:815d2994e5b1454aaaeb2945bcb704f6d38597e69b2ebe30c0b1138948ccfb5a",
-          "url": "",
-          "cachedUrl": "/data/news/assets/kcna/815d2994e5b1454aaaeb2945bcb704f6d38597e69b2ebe30c0b1138948ccfb5a.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/815d2994e5b1454aaaeb2945bcb704f6d38597e69b2ebe30c0b1138948ccfb5a.jpg",
-          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/e66eade1ca30df6d5292aa3fa79c8023",
-          "displayOrder": 0
-        },
-        {
-          "id": "news:kcna:b297aab00d78a7ab51669f29:image:2c17eccf170061caf822eb45be7243bf34c08f887aa2af47b522344685c4c235",
-          "url": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d93933099d5ada6e0ad81008fefc707828aa804",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d93933099d5ada6e0ad81008fefc707828aa804",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/e66eade1ca30df6d5292aa3fa79c8023",
-          "displayOrder": 1
-        },
-        {
-          "id": "news:kcna:b297aab00d78a7ab51669f29:image:d660d7e023442b0771c70d1f5b94a269cd6249be9f983d918413c90c81c0fc8d",
-          "url": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d939330d0291ca53563003f16349148beab7d55",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d939330d0291ca53563003f16349148beab7d55",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/e66eade1ca30df6d5292aa3fa79c8023",
-          "displayOrder": 2
-        },
-        {
-          "id": "news:kcna:b297aab00d78a7ab51669f29:image:806e94331470e65137671b1dedc5d0f0f4da556ba11a6b2621d151b709aab996",
-          "url": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d939330b15ef59f0566e63f674942bb48e4014c",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.kcna.kp/photo/4c6389a58c1dcca693b788d91d939330b15ef59f0566e63f674942bb48e4014c",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/e66eade1ca30df6d5292aa3fa79c8023",
-          "displayOrder": 3
-        }
-      ],
-      "videos": []
-    },
-    "news:kcna:d0a5e214c24e1a138ec35b55": {
-      "id": "news:kcna:d0a5e214c24e1a138ec35b55",
-      "title": "기후전문가들 세계적인 기온상승에 우려 표시",
-      "date": "2025-10-24",
-      "snippet": "(평양 10월 24일발 조선중앙통신)",
-      "body": "(평양 10월 24일발 조선중앙통신)\n\n최근 한 국제연구집단이 각국이 발표한 지구온난화대책이 완전히 실시된다고 해도 21세기말에 가서 세계의 기온이 산업혁명이전시기에 비해 2.6°C 높아질것이라는 분석결과를 발표하였다.\n\n연구집단은 기후변화에 관한 빠리협정이 내걸고있는 목표를 달성하자면 가일층의 대책강화가 필요하다고 주장하였다. 2015년의 빠리협정은 지구평균온도의 상승폭을 종전의 2°C로부터 1.5°C이하로 낮출것을 목표로 내세우고있다.\n\n연구집단이 건강에 위험한 고온일수의 변화를 나라별로 조사한데 의하면 일본에서는 2015년부터 현재까지의 10년동안에 위험한 고온일수가 년간 43일에서 48일로 늘어났다고 한다. 세계의 기온이 산업혁명이전시기에 비해 2.6°C 상승하면 위험한 고온일수가 66일,4°C 상승하면 88일까지 늘어날것이라고 한다.(끝)",
-      "url": "http://www.kcna.kp/kp/article/detail/4337ae117c99b43beda5f18991052971",
-      "mediaType": "article",
-      "sourceId": "kcna",
-      "sourceName": "조선중앙통신",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 2667
-      },
-      "featuredSections": [],
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "images": [],
-      "videos": []
-    },
-    "news:kcna:c2c2a657ae3bdb10a7616ce8": {
-      "id": "news:kcna:c2c2a657ae3bdb10a7616ce8",
-      "title": "조로정부간 무역경제 및 과학기술협조위원회 림업분과위원회 제28차회의 진행",
-      "date": "2025-10-17",
-      "snippet": "조로정부간 무역경제 및 과학기술협조위원회 림업분과위원회 제28차회의 진행",
-      "body": "조로정부간 무역경제 및 과학기술협조위원회 림업분과위원회 제28차회의 진행",
-      "url": "http://www.kcna.kp/kp/gallery/detail/841b4336bc54740e6440b21d37ea4b6d",
-      "mediaType": "article",
-      "sourceId": "kcna",
-      "sourceName": "조선중앙통신",
-      "categories": [
-        "photo"
-      ],
-      "categoryOrders": {
-        "photo": 926
-      },
-      "featuredSections": [],
-      "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12cf0adfe4b9eec51adf38603aea313640",
-      "cachedThumbnailUrl": "/data/news/assets/kcna/ffce3fc7a74f5374722d5ed9c3508a424357fbd9751165f01b4b38837041d71b.jpg",
-      "images": [
-        {
-          "id": "news:kcna:c2c2a657ae3bdb10a7616ce8:image:ffce3fc7a74f5374722d5ed9c3508a424357fbd9751165f01b4b38837041d71b",
-          "url": "",
-          "cachedUrl": "/data/news/assets/kcna/ffce3fc7a74f5374722d5ed9c3508a424357fbd9751165f01b4b38837041d71b.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/kcna/ffce3fc7a74f5374722d5ed9c3508a424357fbd9751165f01b4b38837041d71b.jpg",
-          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/841b4336bc54740e6440b21d37ea4b6d",
-          "displayOrder": 0
-        },
-        {
-          "id": "news:kcna:c2c2a657ae3bdb10a7616ce8:image:74a051aa8684254fa178d2a54f0690e2ddfc2c3a66eee7a30bb7eac7f6259f11",
-          "url": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12cf0adfe4b9eec51adf38603aea313640",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12cf0adfe4b9eec51adf38603aea313640",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/841b4336bc54740e6440b21d37ea4b6d",
-          "displayOrder": 1
-        },
-        {
-          "id": "news:kcna:c2c2a657ae3bdb10a7616ce8:image:acffaf363b7348991575007f75745c2a3ef5bcd4fdf8c8dd11528c2866234bc8",
-          "url": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12c23b8e9e0781a87f6d82718a0bdb4696",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12c23b8e9e0781a87f6d82718a0bdb4696",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/841b4336bc54740e6440b21d37ea4b6d",
-          "displayOrder": 2
-        },
-        {
-          "id": "news:kcna:c2c2a657ae3bdb10a7616ce8:image:efd8a4a878d0d1b176263844fe4036441f3af3867f67adc1f04270fbe89f9d03",
-          "url": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c1230b84b76668d5a0bfb619704ce72c041",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c1230b84b76668d5a0bfb619704ce72c041",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/841b4336bc54740e6440b21d37ea4b6d",
-          "displayOrder": 3
-        },
-        {
-          "id": "news:kcna:c2c2a657ae3bdb10a7616ce8:image:af24ac66c512899e74789be474746553a3e0aa86a501bdc123a0966a504a303e",
-          "url": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12c810621ab6fbdaca4a7f4366adba5f7b",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12c810621ab6fbdaca4a7f4366adba5f7b",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/841b4336bc54740e6440b21d37ea4b6d",
-          "displayOrder": 4
-        },
-        {
-          "id": "news:kcna:c2c2a657ae3bdb10a7616ce8:image:25d6ba0e684aad9b27091947415fd86ba10c11f94bfbdebe2e84660432d88745",
-          "url": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c127733430f1ced7e1a0562e1bad2de031e",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c127733430f1ced7e1a0562e1bad2de031e",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/841b4336bc54740e6440b21d37ea4b6d",
-          "displayOrder": 5
-        },
-        {
-          "id": "news:kcna:c2c2a657ae3bdb10a7616ce8:image:1563a857235c1758438d513caa659d4edeb1e515f8a3334f60c034fe5d4d5eed",
-          "url": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12510edd6e75157c531bf8eabf31cd54fe",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12510edd6e75157c531bf8eabf31cd54fe",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/841b4336bc54740e6440b21d37ea4b6d",
-          "displayOrder": 6
-        },
-        {
-          "id": "news:kcna:c2c2a657ae3bdb10a7616ce8:image:87d3396a092cd36705ab8052ab2cf9f4b74370c4008552f2960558844f269576",
-          "url": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12b4ef3279055da764982057f59262a190",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12b4ef3279055da764982057f59262a190",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/841b4336bc54740e6440b21d37ea4b6d",
-          "displayOrder": 7
-        },
-        {
-          "id": "news:kcna:c2c2a657ae3bdb10a7616ce8:image:ba042923af5f01b08b159783181858933f05150a409604ddccffa6d8a891e491",
-          "url": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12abbf7aa7bf1558055efe484fe560c78a",
-          "cachedUrl": "",
-          "thumbnailUrl": "http://www.kcna.kp/photo/cecbbe154b9d90844466f306e14e2c12abbf7aa7bf1558055efe484fe560c78a",
-          "cachedThumbnailUrl": "",
-          "refererUrl": "http://www.kcna.kp/kp/gallery/detail/841b4336bc54740e6440b21d37ea4b6d",
-          "displayOrder": 8
-        }
-      ],
-      "videos": []
-    },
-    "news:kcna:5e3658495cf8a9ddf4136894": {
-      "id": "news:kcna:5e3658495cf8a9ddf4136894",
-      "title": "가자지대에서 이스라엘군의 폭압만행 우심",
-      "date": "2025-10-17",
-      "snippet": "(평양 10월 17일발 조선중앙통신)",
-      "body": "(평양 10월 17일발 조선중앙통신)\n\n이스라엘이 팔레스티나이슬람교항쟁운동(하마스)과의 정화합의에도 불구하고 가자지대에서 팔레스티나인들에 대한 폭압만행에 광분하고있다.\n\n15일 가자시의 동부지역에서 이스라엘군은 민간인들이 모여있는 곳을 목표로 포사격을 가하였으며 귀향하는 사람들을 향해 미싸일을 발사하여 사망자들을 초래하였다.\n\n가자지대 남부도시들에서는 이스라엘군이 자기 집에 돌아온 24명의 무고한 사람들을 끌어갔다고 한다.\n\n현지보건당국은 2023년 10월 이스라엘의 군사적공격이 개시된이래 팔레스티나인사망자수는 6만 7 938명,부상자수는 17만 169명으로 늘어났다고 밝혔다.(끝)",
-      "url": "http://www.kcna.kp/kp/article/detail/9f780860c98d6197f20a29a45f77145e",
-      "mediaType": "article",
-      "sourceId": "kcna",
-      "sourceName": "조선중앙통신",
-      "categories": [
-        "international"
-      ],
-      "categoryOrders": {
-        "international": 2720
-      },
-      "featuredSections": [],
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "",
-      "images": [],
-      "videos": []
     },
     "news:rodong-sinmun:299cb89bc5fbc0b6ddd912fb": {
       "id": "news:rodong-sinmun:299cb89bc5fbc0b6ddd912fb",
@@ -1344,7 +1136,7 @@
     },
     "news:rodong-sinmun:c938a60c9594441bd57dbccb": {
       "id": "news:rodong-sinmun:c938a60c9594441bd57dbccb",
-      "title": "경애하는 김정은동지께서\n전쟁로병들과 전시공로자들을 만나시고 기념사진을 찍으시였다",
+      "title": "경애하는 김정은동지께서 전쟁로병들과 전시공로자들을 만나시고 기념사진을 찍으시였다",
       "date": "2026-07-29",
       "snippet": "경애하는 김정은동지께서",
       "body": "경애하는 김정은동지께서\n\n전쟁로병들과 전시공로자들을 만나시고 기념사진을 찍으시였다\n\n조선로동당 총비서이시며 조선민주주의인민공화국 국무위원장이신 경애하는 김정은동지께서 7월 28일 조국해방전쟁승리 73돐 경축행사에 참가한 전쟁로병들과 전시공로자들을 만나시고 따뜻한 정을 나누시였다.\n\n수도 평양에서 성대히 진행된 전승절경축행사에 참가한데 이어 오매에도 소원하던 행복과 영광의 순간을 맞이한 전쟁로병들과 전시공로자들은 무한한 감격과 환희에 휩싸여있었다.\n\n경애하는 김정은동지께서 나오시자 전체 참가자들은 우리 조국의 불멸할 명예인 7.27의 승리전통과 영웅정신을 세기를 이어 빛내이시며 이 땅의 모든 세대가 숙원하는 부국강병의 새시대를 가슴후련히 펼쳐가시는 천하제일의 령장, 위대한 어버이께 충심으로 되는 경의와 고마움의 인사를 삼가 드리였다.\n\n김정은동지께서는 피로써 강국전기의 첫 페지를 쓴 수호자들이며 영원히 강대할 우리 국가의 정신적지주를 마련한 은인들인 전쟁로병들과 전시공로자들에게 뜨거운 답례를 보내시였다.\n\n김정은동지께서는 전승의 7.27을 참전세대와 함께 해마다 성대히 기념하는것은 영웅적인 년대에 끓어넘친 자존의 넋과 억만금으로도 살수 없는 필승의 진리를 후손들의 심장마다에 부단히 장전해주는 의의깊은 계기로, 새로운 승리를 위한 투쟁에 대한 힘찬 격려로 된다고 말씀하시였다.\n\n김정은동지께서는 후세토록 빛내여가야 할 우리 조국의 영웅적인 지위와 명성을 청사에 새긴 전승세대가 기적적인 승리의 체현자, 증견자로 오늘도 우리앞에 서있는것은 우리 당과 국가, 인민에게 있어서 커다란 기쁨과 고무로 된다고 말씀하시였다.\n\n김정은동지께서는 1950년대의 준엄한 포화속에서 탄생한 위대하고 우수한 특질과 가장 정의로운 힘의 신화를 우리 혁명의 백승의 혈맥으로 굳건히 이어나가도록 함으로써 전화의 영웅세대가 그려보던 부흥강국을 힘있게 당겨오실 철석의 의지를 피력하시면서 전쟁로병, 전시공로자들과 함께 계승의 력사에 길이 남을 뜻깊은 기념사진을 찍으시였다.\n\n김정은동지께서는 감격의 눈물속에 앞을 다투어 다가서는 참가자들의 손을 따뜻이 잡아주시며 백발을 머리에 인 오늘에도 그 누구도 대신할수 없는 무한한 힘과 정신적기둥이 되여주는 귀중한 전쟁로병들과 전시공로자들이 로당익장하기를 거듭 축원하시였다.\n\n본사정치보도반",
@@ -1541,38 +1333,6 @@
       ],
       "videos": []
     },
-    "news:rodong-sinmun:dfa6bad065017abe7f986338": {
-      "id": "news:rodong-sinmun:dfa6bad065017abe7f986338",
-      "title": "당대회정신을 받들고 자력갱생의 기치를 더 높이 추켜들었다\n새로운 5개년계획수행을 위한 진군을 힘있게 다그치고있는 인민경제 여러 부문과 단위에서",
-      "date": "2026-05-06",
-      "snippet": "당대회정신을 받들고 자력갱생의 기치를 더 높이 추켜들었다",
-      "body": "당대회정신을 받들고 자력갱생의 기치를 더 높이 추켜들었다\n\n새로운 5개년계획수행을 위한 진군을 힘있게 다그치고있는 인민경제 여러 부문과 단위에서\n\n당 제9차대회 결정관철을 위한 투쟁에 떨쳐나선 인민경제 여러 부문과 단위의 일군들과 로동계급이 자력갱생의 기치를 더 높이 추켜들고 새 전망을 향한 총진군을 힘있게 다그치고있다.\n\n경애하는 김정은동지께서는 다음과 같이 말씀하시였다.\n\n《자력갱생, 자급자족의 기풍은 우리가 가장 빨리 발전할수 있는 원동력이며 제일 값비싼 재부이고 자원입니다.》\n\n금속공업부문의 로동계급이 철강재생산성과로 당을 받들어갈 철석의 신념과 의지를 백배하며 자립의 강철기둥을 굳건히 세우기 위한 투쟁에 박차를 가하고있다.\n\n천리마제강련합기업소의 일군들과 로동계급은 당의 호소를 높이 받들고 빈터우에서 천리마의 기적을 떠올렸던 전세대 로동계급의 투쟁정신을 본받아 올해 철강재생산목표점령의 앞장에서 내달릴 애국의 열정 안고 완강한 실천력을 발휘하고있다.이들은 철강재증산의 가능성을 최대한 탐구동원하기 위한 대중적기술혁신운동을 활발히 벌리고 교대가 교대를 돕는 집단주의기풍을 적극 발휘하며 한t의 철강재라도 더 생산하기 위해 분투하고있다.\n\n무산광산련합기업소의 일군들과 로동계급도 자력갱생만이 살길이라는 신념을 백배하면서 없는것은 만들어내고 부족한것은 찾아내며 생산을 늘이는 동시에 새로운 100만산대발파를 위한 준비사업을 힘있게 진척시키고있다.이들은 내부예비를 적극 탐구하고 설비들의 가동률을 높이는데 필요한 부속품을 원만히 보장하기 위한 기술혁신사업을 맹렬히 전개하여 4월 철광석생산계획을 앞당겨 수행한 기세드높이 계속혁신, 계속전진하고있다.\n\n자립의 기치높이 5개년계획수행을 위한 총진군을 힘있게 다그치는데서 맡고있는 임무의 중요성을 깊이 자각한 화학공업부문 일군들과 로동계급이 일터마다에서 기세를 올리고있다.\n\n남흥청년화학련합기업소에서는 자체의 기술력량을 부단히 강화하고 그 역할을 높여 석탄과 전기 등을 절약하면서 올해에 들어와 현재까지 수천t의 비료를 증산하였다.\n\n흥남비료련합기업소의 일군들과 로동계급도 자체의 생산토대를 더욱 강화하기 위한 발전계획을 명백히 세우고 원가를 저하하면서 생산공정의 과학화를 보다 높은 수준으로 끌어올리기 위한 대중적기술혁신운동을 힘있게 전개하며 련일 높은 실적을 기록하고있다.\n\n인민경제의 생명선을 지켜선 전력생산자들의 기세도 충천하다.\n\n굴지의 대동력기지 북창화력발전련합기업소의 일군들과 로동계급은 4호기 발전설비에 대한 대보수를 진행하는데서 나서는 문제들을 자체의 힘과 기술로 해결하는 한편 현상응모의 방법으로 전력생산을 안정적으로 늘일수 있는 예비와 가능성을 적극적으로 찾아 실천하고있다.\n\n평양화력발전소를 비롯한 여러 화력발전소에서도 기술자, 기능공들이 전력생산계통의 기술경제적지표들을 부단히 갱신하기 위한 기술전, 탐구전의 앞장에 서도록 적극 불러일으키는 한편 설비관리, 기술관리를 실속있게 하면서 전력생산의 동음을 힘차게 울리고있다.\n\n자립의 발전토대를 튼튼히 다지는데서 공업의 식량인 석탄을 꽝꽝 생산해내는것이 가지는 중요성을 깊이 새긴 각지 탄전의 일군들과 탄부들은 지난해보다 더 높은 목표를 내걸고 막장마다에서 애국의 땀방울을 아낌없이 바쳐가고있다.\n\n우리 당의 크나큰 믿음을 받아안은 천성청년탄광의 탄부들은 전진하는 조국에 빛과 열을 더해줄 일념으로 따라앞서기, 따라배우기, 경험교환운동을 활발히 벌리고 한발파더하기, 한탄차더하기 등 대중운동을 과감히 전개하며 석탄생산을 늘이고있다.\n\n2.8직동청년탄광의 일군들과 탄부들은 자체의 물질기술적토대에 의거하여 광차, 압축기를 비롯한 설비들의 보수를 질적으로 하고 소형전차들을 제작함으로써 종전보다 운반능력을 훨씬 끌어올리고있다.\n\n북창지구청년탄광련합기업소, 개천지구탄광련합기업소를 비롯한 석탄공업부문의 여러 탄광련합기업소 일군들과 탄부들도 부닥치는 난관을 자력갱생의 혁명정신으로 극복하며 련일 진군기세를 고조시키고있다.\n\n기계공업부문 로동계급이 우리의 힘, 우리의 기술, 우리의 자원으로 모든것을 해결할 신념과 의지를 백배하며 대상설비생산과 현대화사업에 계속 큰 힘을 넣고있다.\n\n룡성기계련합기업소의 일군들과 로동계급은 현대화의 더 높은 목표를 내세우고 그 수행을 위한 기술혁신의 불길을 세차게 지펴올리는 한편 인민경제 여러 부문에 보내줄 대상설비생산을 힘있게 다그치고있다.\n\n대안중기계련합기업소를 비롯한 여러 단위의 로동계급은 생산토대를 강화하는데서 나서는 기술적문제들을 실속있게 풀어나가는것과 함께 설비들의 가동률과 제품의 실수률을 끌어올리기 위한 대책을 강구하면서 혁신의 동음을 기운차게 울리고있다.\n\n우리 당의 대건설구상을 믿음직하게 받들어갈 충성의 열정 안고 건재공업부문의 일군들과 로동계급도 증산투쟁, 창조투쟁에 더욱 박차를 가하고있다.\n\n상원세멘트련합기업소의 일군들과 로동계급이 계속혁신, 계속전진의 기상을 높이 떨치고있다.이들은 한t의 세멘트라도 더 생산하여 대건설전구들에 활력을 부어줄 애국의 열정 안고 설비관리, 기술관리를 앞세우고 서로 돕고 이끄는 집단주의기풍을 발휘하며 증산의 숨결을 날로 높이고있다.\n\n순천세멘트련합기업소, 천내리세멘트공장, 대안친선유리공장을 비롯한 건재공업부문의 여러 단위 일군들과 로동계급도 자체의 생산토대를 부단히 강화하기 위한 기술혁신운동을 활발히 벌리고 능률적인 작업방법을 적극 탐구활용하면서 생산적앙양을 일으키고있다.\n\n본사기자 최현경\n\n중요대상건설장들에 더 많은 건설장비들을 보내주기 위해 생산에 박차를 가하고있다.\n\n-락원기계종합기업소에서-\n\n본사기자 정철훈 찍음",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNS0wNi0wMTZANEAxMUBAMEAxNjFA==",
-      "mediaType": "article",
-      "sourceId": "rodong-sinmun",
-      "sourceName": "로동신문",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 115
-      },
-      "featuredSections": [],
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/e4a9950572d3a1a82000c4dc90fab81eaf683ca3f0077cdb5334d78316d6ac1b.jpg",
-      "images": [
-        {
-          "id": "news:rodong-sinmun:dfa6bad065017abe7f986338:image:e4a9950572d3a1a82000c4dc90fab81eaf683ca3f0077cdb5334d78316d6ac1b",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/e4a9950572d3a1a82000c4dc90fab81eaf683ca3f0077cdb5334d78316d6ac1b.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/e4a9950572d3a1a82000c4dc90fab81eaf683ca3f0077cdb5334d78316d6ac1b.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wNS0wNi0wMTZANEAxMUBAMEAxNjFA==",
-          "displayOrder": 0
-        }
-      ],
-      "videos": []
-    },
     "news:rodong-sinmun:401d7769a312bf1c8f7c040b": {
       "id": "news:rodong-sinmun:401d7769a312bf1c8f7c040b",
       "title": "어머니 우리당은 인민의 행복을 위해 어떤 고생도 달게 여긴다",
@@ -1593,47 +1353,6 @@
       "thumbnailUrl": "",
       "cachedThumbnailUrl": "",
       "images": [],
-      "videos": []
-    },
-    "news:rodong-sinmun:c704ae9c08fd6b49462fc2dc": {
-      "id": "news:rodong-sinmun:c704ae9c08fd6b49462fc2dc",
-      "title": "자립경제발전의 전초기지에 나래치는 계속혁신의 기상\n석탄공업부문의 일군들과 탄부들이 올해에 들어와 현재까지 지난해 같은 시기보다 수만t의 석탄을 더 생산하였다",
-      "date": "2026-01-24",
-      "snippet": "자립경제발전의 전초기지에 나래치는 계속혁신의 기상",
-      "body": "자립경제발전의 전초기지에 나래치는 계속혁신의 기상\n\n석탄공업부문의 일군들과 탄부들이 올해에 들어와 현재까지\n\n지난해 같은 시기보다 수만t의 석탄을 더 생산하였다\n\n경애하는 김정은동지께서는 다음과 같이 말씀하시였다.\n\n《석탄공업부문에서 생산적앙양의 불길을 세차게 지펴올려 화력발전소들과 인민경제 여러 부문에 석탄을 충분히 대주어야 합니다.》\n\n영광의 당대회를 향하여 더 기세차게, 용감하게 앞으로 나아갈 결의드높이 석탄공업부문의 일군들과 탄부들이 수천척지하막장마다에서 새 기준, 새 기록창조의 불길을 지펴올리고있다.\n\n한t의 석탄이라도 더 생산하여 전진하는 조국에 빛과 열을 더해주자.\n\n이런 애국의 일념 안고 석탄공업부문의 일군들과 탄부들은 새해 첫날부터 완강한 투쟁을 벌려 올해에 들어와 현재까지 지난해 같은 시기에 비해 수만t의 석탄을 더 생산하는 자랑찬 성과를 거두었다.\n\n낮과 밤이 따로없이 증산투쟁이 벌어지는 막장마다에서는 자기 부문, 자기 단위앞에 맡겨진 과업은 당앞에 자기가 전적으로 책임진다는 립장에서 사색하고 실천해가는 석탄공업성과 각 련합기업소 일군들의 힘찬 돌격구령이 높이 울리고있다.석탄생산을 늘이는데서 해결해야 할 문제들을 정확히 찾아쥐고 하나하나 대책해나가며 들끓는 막장에서 화선식정치사업과 이신작칙의 일본새를 발휘해가는 일군들의 모습은 앙양된 탄부들의 투쟁기세를 더욱 고조시키고있다.\n\n안주지구탄광련합기업소가 앞장에서 증산의 기치를 들었다.\n\n당 제9차대회를 자랑찬 로력적성과로 떳떳이 맞이할 의지를 백배하며 산악같이 일떠선 이곳 탄부들은 완강한 투쟁으로 일평균 석탄생산목표를 105%로 완수하고있다.\n\n칠리탄광, 신리탄광, 청남탄광, 룡림탄광을 비롯한 련합기업소의 그 어느 탄광에서나 탄부들이 불리한 조건을 주동적으로 타개하면서 갱별, 굴진소대와 채탄중대별경쟁을 맹렬히 벌리며 매일 많은 석탄을 캐내고있다.\n\n특히 칠리탄광의 일군들과 탄부들이 자력갱생의 혁명정신을 발휘하며 없는것은 만들어내고 모자라는것은 보충하면서 일생산목표를 훨씬 넘쳐 수행하고있다.\n\n북창지구청년탄광련합기업소, 덕천지구탄광련합기업소, 명천지구탄광련합기업소, 온성지구탄광련합기업소, 강동지구탄광련합기업소의 탄전들도 증산투쟁으로 부글부글 끓고있다.\n\n자립경제발전의 전초기지를 지켜섰다는 높은 자각을 안고 이곳 일군들은 중심고리에 력량을 집중하면서 생산조직과 지휘를 치밀하게 하여 성과를 확대하고있다.\n\n덕천지구탄광련합기업소에서 지난 시기의 경험과 교훈에 기초하여 굴진에 힘을 넣으면서 석탄생산을 늘이고있다.련합기업소와 각 탄광들에서는 굴진단위들에 필요한 자재와 소공구를 우선적으로 보장하기 위한 정연한 체계를 세우고 사회주의경쟁을 목적지향성있게 조직진행하여 예비채탄장확보에서 뚜렷한 전진을 가져오고있다.\n\n남양탄광 차광수청년돌격대, 서창청년탄광 조군실청년돌격대를 비롯한 련합기업소의 굴진단위들에서는 각이한 암질에 따르는 합리적인 발파방법을 적극적으로 받아들여 발파효률을 부단히 높이면서 굴진속도를 끌어올리고있다.하여 지난 20일까지 련합기업소적으로 10여개 굴진단위가 1월 굴진목표를 앞당겨 완수하였으며 그 수는 계속 늘어나고있다.\n\n순천지구청년탄광련합기업소, 경원지구탄광련합기업소, 천내지구탄광련합기업소, 개천지구탄광련합기업소, 득장지구탄광련합기업소 탄부들의 기세도 이만저만이 아니다.\n\n각 탄전의 일군들은 누구라없이 막장에 들어가 탄부들과 고락을 함께 하며 내세운 목표를 수행하기 위한 투쟁에로 대중을 불러일으키면서 이신작칙의 일본새를 발휘하고있다.\n\n탄부들은 대중적기술혁신운동의 불길높이 자체의 실정에 맞는 채탄방법을 적극 받아들이고 운반능력을 끌어올리면서 석탄생산에 박차를 가하고있다.\n\n석탄증산으로 당대회를 향한 총진군대오에 활력을 더해줄 일념밑에 줄기찬 투쟁을 벌리는 석탄공업부문 일군들과 탄부들에 의하여 석탄생산성과는 날로 확대되고있다.\n\n본사기자 정경철\n\n-개천지구탄광련합기업소 자강도공급탄광에서-\n\n최대룡 찍음",
-      "url": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yNC0wNDNANEAxNUBAMEAyMTJA==",
-      "mediaType": "article",
-      "sourceId": "rodong-sinmun",
-      "sourceName": "로동신문",
-      "categories": [
-        "domestic"
-      ],
-      "categoryOrders": {
-        "domestic": 76
-      },
-      "featuredSections": [],
-      "thumbnailUrl": "",
-      "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/850f7bd3a4bf1f1411bde78bebc4320a3898f86f626c58ba0a1b8be9d98a78c0.jpg",
-      "images": [
-        {
-          "id": "news:rodong-sinmun:c704ae9c08fd6b49462fc2dc:image:850f7bd3a4bf1f1411bde78bebc4320a3898f86f626c58ba0a1b8be9d98a78c0",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/850f7bd3a4bf1f1411bde78bebc4320a3898f86f626c58ba0a1b8be9d98a78c0.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/850f7bd3a4bf1f1411bde78bebc4320a3898f86f626c58ba0a1b8be9d98a78c0.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yNC0wNDNANEAxNUBAMEAyMTJA==",
-          "displayOrder": 0
-        },
-        {
-          "id": "news:rodong-sinmun:c704ae9c08fd6b49462fc2dc:image:0ca936f363b3653ab364d4cf047b7a919ddf2c0bca49dacd460db1ba8d974c9d",
-          "url": "",
-          "cachedUrl": "/data/news/assets/rodong-sinmun/0ca936f363b3653ab364d4cf047b7a919ddf2c0bca49dacd460db1ba8d974c9d.jpg",
-          "thumbnailUrl": "",
-          "cachedThumbnailUrl": "/data/news/assets/rodong-sinmun/0ca936f363b3653ab364d4cf047b7a919ddf2c0bca49dacd460db1ba8d974c9d.jpg",
-          "refererUrl": "http://www.rodong.rep.kp/ko/index.php?MTJAMjAyNi0wMS0yNC0wNDNANEAxNUBAMEAyMTJA==",
-          "displayOrder": 1
-        }
-      ],
       "videos": []
     }
   }
